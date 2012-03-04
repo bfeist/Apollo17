@@ -43,8 +43,12 @@ def scrub_callsign(callsign):
 
 pageCounter = 9
 
+output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_1.500.mc"
+outputFile = open(output_file_name_and_path, "w")
+
 reader = csv.reader(open("F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_1-500.csv", "rU"), delimiter='|')
 for row in reader:
+    outputLine = ''
     #print(row)
     if row[0].startswith("Tape") or row[2].startswith("Tape"):
     #if new page
@@ -54,15 +58,18 @@ for row in reader:
             tapeNumber = row[2]
             
         pageCounter += 1
-        print "\t{0}\n\tPage {1}".format(tapeNumber, pageCounter)
+        outputLine = "\n\t{0}\n\tPage {1}\n".format(tapeNumber, pageCounter)
         #print "\t{0}".format(tapeNumber, pageCounter)
     elif row[0].startswith("Page") or row[2].startswith("Page"):
         print "-----------------------" + str(pageCounter)
     elif row[2] == '' or row[2] == 'APOLLO' or row[1] == 'APOLLO' or row[2] == 'END OF TAPE':
         pass
     elif row[0] == '':
-        print '{0} {1}'.format(scrub_callsign(row[1]),row[2]) 
+        outputLine = '{0} {1}\n'.format(scrub_callsign(row[1]),row[2]) 
     else:
         #print '{0} {1} {2}'.format(row[0],row[1],row[2]) 
-        print '{0} {1} {2}'.format(scrub_timestamp(row[0]),scrub_callsign(row[1]),row[2])
+        outputLine = '{0} {1} {2}\n'.format(scrub_timestamp(row[0]),scrub_callsign(row[1]),row[2])
         
+    outputFile.write(outputLine)
+    #print outputLine
+outputFile.close()
