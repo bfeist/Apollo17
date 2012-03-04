@@ -41,13 +41,16 @@ def scrub_callsign(callsign):
         callsign = "CC"
     return callsign
 
-pageCounter = 9
+pageCounter = 499
+curRow = 0
 
-output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_1.500.mc"
+output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_500.999.mc"
 outputFile = open(output_file_name_and_path, "w")
 
-reader = csv.reader(open("F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_1-500.csv", "rU"), delimiter='|')
+reader = csv.reader(open("F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_500-999.csv", "rU"), delimiter='|')
 for row in reader:
+    curRow += 1
+    print curRow
     outputLine = ''
     #print(row)
     if row[0].startswith("Tape") or row[2].startswith("Tape"):
