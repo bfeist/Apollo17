@@ -41,13 +41,13 @@ def scrub_callsign(callsign):
         callsign = "CC"
     return callsign
 
-pageCounter = 499
+pageCounter = 500
 curRow = 0
 
-output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_500.999.mc"
+output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_501.1000.mc"
 outputFile = open(output_file_name_and_path, "w")
 
-reader = csv.reader(open("F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_500-999.csv", "rU"), delimiter='|')
+reader = csv.reader(open("F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_501-1000.csv", "rU"), delimiter='|')
 for row in reader:
     curRow += 1
     print curRow

@@ -1,6 +1,6 @@
 
 	Tape 64/3
-	Page 500
+	Page 501
 03 22 13 00  BEGIN LUNAR REV 5
 03 22 43 33 LMP Houston, IT.
 CC 17, Houston. Go ahead.
@@ -18,7 +18,7 @@ CC Roger.
 03 22 48 25 LMP Bob, we're ... complete on the presleep checklist. And except for computing communications configuration and Ron will take care of that.
 
 	Tape 64/4
-	Page 501
+	Page 502
 CC Roger.
 LMP And, Bob, while we're gradually getting in configuration here, let me reiterate something that I've been watching this rev as we did a lot of other things. And that was this relationship of the light-colored or light gray swirl patterns on the surface to patterns - associated pattern -parallel patterns that are darker than the average of the surrounding area. And this is true both in Mare Marginis and in most cases on the back side.
 CC Roger, Jack. We'll get that to the PI.
@@ -29,7 +29,7 @@ CC Roger. Jack.
 03 22 52 07 LMP One of those crater-fill materials that you also see in other kinds of depressions other than craters is a very smooth, light, plains-forming material. And it is, although cratered, when you see it at the terminator, it is smoother than the mare; that is, it does not seem to have the swell, the sea swell characteristics or ridges or any other features other than the crater's superimposed on it.
 
 	Tape 64/5
-	Page 502
+	Page 503
 CC Roger. We copy.
 03 22 55 19 CC 17s Houston. You can go ahead and close the UV cover. We'd like to hold off 1 minute before you turn the UV off. We want to look at 1 minute of data with the cover closed.
 LMP Oh, okay. Roger. A walkon. I see it now.
@@ -46,7 +46,7 @@ LMP Okay, well, the sli - the light mantle is ob -very obviously mantling the ar
 LMP The slide very definitely subdued the general detail in the plains area - or the light mantle, if you will, rather than slide. MOCR Crater was finally out of the dark.
 
 	Tape 64/6
-	Page 503
+	Page 504
 CC Roger.
 CC Jack, we'd like to know if you think you can adjust the high gain as close to plus 15 and YAW 190 as possible?
 03 23 03 43 LMP Okay, Bob, that's adjusted plus 15 and 190, and I suspect I was a little closer to 15 than 20 when I called you before.
@@ -64,7 +64,7 @@ CC - - NORMAL VOICE to OFF tonight, please?
 CMP Okay, okay, as soon as I get bedded down, I'll do that.
 
 	Tape 64/7
-	Page 504
+	Page 505
 LMP Don't worry, he's got a batch of guys up here reminding him of that one.
 CMP And I checked out the little whistle, and it works like a charm.
 CC Roger. I was betting on - -
@@ -76,7 +76,7 @@ CC Good night up there.
 03 23 07 27 CDR Good night, babe.
 
 	Tape 65-69/1
-	Page 505
+	Page 506
 04 00 07 XX  BEGIN LUNAR REV 6
 04 02 01 XX  BEGIN LUNAR REV 7
 04 03 53 XX  BEGIN LUNAR REV 8
@@ -84,7 +84,7 @@ CC Good night up there.
  REST PERIOD - NO COMMUNICATIONS
 
 	Tape 70/1
-	Page 506
+	Page 507
 04 07 05 01 CC (Music: City of New Orleans by John Denver)
 04 07 07 28 CC Good morning, America. How are you?
 CMP This is America. That's a good way to wake up.
@@ -108,7 +108,7 @@ CMP And a big eight-wheeler.
 CC And, America, you're 10 minutes from LOS, and the spacecraft looks great.
 
 	Tape 70/2
-	Page 507
+	Page 508
 LMP Okay, Joe. That's good to hear. And we're starting to move now, and we'll be ready for you when we come around.
 CC All righty.
 LMP How long are you with us this morning?
@@ -129,7 +129,7 @@ LMP Where - where is your big anomalies, Joe? Can you summarize quickly?
 CC Jack, we'll get - get that for you next pass.
 
 	Tape 70/3
-	Page 508
+	Page 509
 LMP Well, don't worry about it. I think we're going to have a lot of things on our mind the next pass. But we're just passing over Orientale again, Joe, and in earthlight it's probably one of the most spectacular sights in nature.
 CC Copy that, Jack. I can imagine.
 04 07 20 39 LMP Joe, can you imagine waking up anywhere else?
@@ -149,7 +149,7 @@ CC That111 be fine.
 LMP Everybody ate and drank and slept Just about like last night.
 
 	Tape 70/4
-	Page 509
+	Page 510
 CC Okay.
 CDR Good morning, Gordy.
 CC Good morning, Commander.
@@ -172,7 +172,7 @@ CC Yes, Ron. He was plugged in; we had good signals.
 04 08 24 21 CMP Okay; good.
 
 	Tape TO/5
-	Page 510
+	Page 511
 CC America, Houston. If someone's near the telemetry switch, if you go to ACCEPT, we'll give you a state vector.
 04 08 28 20 CMP Okay. You have ACCEPT.
 CC Okay. And as we're supposed to update your trajectory, which is looking good - predicted perilune at PDI without DOI-2 would be 11.9, a little lower. So that means that DOI-2 will be a little less, in terms of DELTA-V, than nominal. But, otherwise, looking good.
@@ -191,12 +191,12 @@ CMP Okay. Let me check it.
 CMP Well, I kept ... thinking it might move back to zero, but it hasn't moved - plus 1.2.
 
 	Tape 7O/6
-	Page 511
+	Page 512
 CC Okay; plus 1.2. For your information, Ron, on consumables this morning, we're running 6 percent above the Flight Plan line on RCS. On the hydrogen, we're about 8 percent above the line on tank 2; right on the lines on the other two hydrogen tanks. And on the 0^, we're running our standard 4 to 5 percent below the line on oxygen tank 1; tank 2 is right on; and tank 3 has now gained to about 3 percent above the line. All looking good.
 04 08 34 26 CMP Okay, Houston. Hey, that's mighty fine.
 
 	Tape 71A/1
-	Page 512
+	Page 513
 CMP Hellc, Houston; America.
 CC Go ahead.
 CMP Okay . 1111 give you the commander 1s food from yesterday.
@@ -214,7 +214,7 @@ CMP Eey, Houston. Why don't I give you LMPs menu this morning, too - day 5?
 CC Okay.
 
 	Tape 71A/2
-	Page 513
+	Page 514
 CMP Then I won't have to get back in their pages. Okay. It's a sausage patty for LMP - sausage patties, cinamon-toasted bread* instant breakfast, coffee with K, and a grape drink, and a vitamin. Okay; for the commander on day 5; spiced oat ceral, sausage patties, instant breakfast, and vitamins.
 CC Roger.
 CMP Okay; for the LMPs medical log: PRD 24108, 7-1/4 hours very good, one seconal last night, 3-1/2 cans of water.
@@ -229,7 +229,7 @@ CC Okay, Ron, While you've got that book with you, I can give you a one-line cha
 04 08 50 10 CMP Okay. Stand by 1 here.
 
 	Tape 71A/3
-	Page 514
+	Page 515
 CMP Okay, Houston; America. I've got the right page now.
 CC Okay. It's page 1-43. It's load Delta. Identifier number 5; the old value is 01606. Change that to 01637*
 CMP Okay. It'll be load Delta, and the octal identifier 05, and its new value is 01637*
@@ -249,7 +249,7 @@ CC Roger.
 CC Roger.
 
 	Tape 71A/4
-	Page 515
+	Page 516
 04 09 05 49 CMP Okay, Houston, I'm going to skip the P52 for a while and maneuver to the docking attitude - undock attitude, that is.
 CC Roger. - Stand by on that one, Ron.
 CMP Wilco.
@@ -271,7 +271,7 @@ CC Roger.
 04 09 10 16 LMP LM WATER is OPEN, and 0£ is OPEN.
 
 	Tape 71A/5
-	Page 516
+	Page 517
 CC Roger.
 04 09 10 55 IMP Okay; 3-4, Houston, in the LM. And step 1 is good.
 CC Okay.
@@ -291,7 +291,7 @@ CMP Okay, Gordo. We're hustling - like heck. We might make it. (Laughter)
 LMP Okay. Okay.
 
 	Tape 71A/6
-	Page 517
+	Page 518
 CC Challenger, this is Houston. How do you read?
 CDR Hello, Gordy. This is Challenger. We're reading you loud and clear.
 CC Okay. You're readable. Lots of background noise at the moment.
@@ -311,7 +311,7 @@ SC Okay, steerable ...
 CDR ... going to make it?
 
 	Tape 71A/7
-	Page 518
+	Page 519
 LMP ... I have to wait for this one.
 CDR Pitch is good.
 LMP Okay. YAW minus ... 2.
@@ -335,7 +335,7 @@ LMP Okay. WeÕre in step 2, and - we're giving you your second S-BAND check. And
 CC Okay. You sound good.
 
 	Tape 71A/8
-	Page 519
+	Page 520
 04 10 14 05 LMP Okay, Houston. I can hear the antenna rumbling up there, but - I still have not peaked. Still reading 3.7*
 CC Okay. YouÕre loud and clear, Jack. It looks like a good lock to us.
 IMP Okay. We'll leave it - Okay. I'll leave it there, and I'm going BIOMED RIGHT.
@@ -343,7 +343,7 @@ CC Roger.
 04 10 14 35 LMP Okay. SQUELCH is OFF. How do you read?
 
 	Tape 71B/1
-	Page 520
+	Page 521
 04 10 07 57 CC Hello, America; Houston. Standing by.
 CC America, Houston. Standing by.
 CC America, America; Houston. Standing by.
@@ -361,7 +361,7 @@ CMP Okay. I've removed the umbilicals - the CSM/LM umbilieals. Guess I need to i
 CC All right. I'll make a note of the canister and remind you of it later.
 
 	Tape 71B/2
-	Page 521
+	Page 522
 CMP Yes; okay.
 CC Hey, America. Can you confirm that you've got a pair of scissors on board with you?
 CMP (Laughter) Yes, I made him keep one.
@@ -386,7 +386,7 @@ CMP No, I don't read you.
 CMP Okay. I've got everything on in my AUTO panel. Let me try the other one for backup.
 
 	Tape 71B/3
-	Page 522
+	Page 523
 CMP Yes, IÕm on LEFT. I'm on LEFT. Let me go to BACKUP.
 CMP ... you, yet.
 LMP Stand by. Stay where you are.
@@ -410,7 +410,7 @@ CMP Don't read you.
 CMP Don't read you.
 
 	Tape TIB/4
-	Page 523
+	Page 524
 CMP Okay. I don't read you guys at all, except through the tunnel.
 CMP Okay. Got you loud and clear that time. And, Gene, can you verify the capture latches are all engaged?
 CMP I didn't read you at all, Jack. Didn't read you.
@@ -431,7 +431,7 @@ CMP Okay, Gene. You've got MIN DEADBAND, ATT hold, now.
 04 10 26 51 CMP Okay. There we go. Plus 356.95, plus 106.34, and a plus 001.49.
 
 	Tape 71B/5
-	Page 524
+	Page 525
 CMP Right?
 CC America, Houston.
 CMP Houston, America. Go ahead.
@@ -452,7 +452,7 @@ CMP Okay, Houston. I forgot to release the docking latches. Okay. I'll go up and
 CC Okay.
 
 	Tape 71B/6
-	Page 525
+	Page 526
 CMP And if I just put the - No, I'll do that.
 CMP I was going to say you could read the probe temp if I put the circuit breakers in.
 CMP Okay. There's number 1. One releases; two releases, and it's free. Seven. One release, two releases, and it's free.
@@ -467,7 +467,7 @@ CC Okay.
 CMP IÕve got mag 00 on the Hasselblad.
 
 	Tape 71B/7
-	Page 526
+	Page 527
 CMP Okay, Houston. Why don't I go ahead and get the PGA ver out of the way, and then we can get some of the - data, or would you rather get the data up first?
 CC No, itÕs your choice. Why don't we go ahead and get the PGA, and I'll just sit on these pads, and could you tell me if you ever got aound to playing with the squelch on the VHF?
 04 10 36 39 CMP Man, I did. And, let's see, we're at SQUELCH A now. I've even got it all the way down to 1, and I still don't hear them.
@@ -487,7 +487,7 @@ CC And it's your computer, anytime you want to get it, Ron.
 CMP Okay.
 
 	Tape 71B/8
-	Page 527
+	Page 528
 CMP Ah ha, I got the old helmet and gloves on.
 CMP More cables all over the place here than I know what to do with.
 CC Well, this place looks like a pigpen - you've run the same course everyone else has, I guess.
@@ -504,7 +504,7 @@ CMP Okay. Let's see, and there's a DELTA-P of about -6-1/2 - Now we're going to 
 CMP Okay. It's out; it's back in.
 
 	Tape 71B/9
-	Page 528
+	Page 529
 CMP Okay. Now we can squirt a little more 0^ flow in.
 CMP Boom, boom - There we go. Man, oh man!
 CMP DIRECT 02 is off.
@@ -524,7 +524,7 @@ CC Yes, sir.
 CMP ... my ear are pretty good. I think I'm going to go to OFF. Save a little time here.
 
 	Tape 71B/10
-	Page 529
+	Page 530
 CC America, I don't know if I copied you correctly. You don't want to go to OFF on that SUIT TEST valve until the pressure are back down to normal. If that was what you asked.
 CMP (Laughter)
 CC Are or you already there?
@@ -541,7 +541,7 @@ CC I'll check. Stand by.
 CMP No.
 
 	Tape 71B/11
-	Page 530
+	Page 531
 CC You're right, Ron, we'll - we'll just hold up on that release on the latches until the hot fires are over. So, when you get your copying hand ready, why, we'll give you some pads. We'll clean that one up.
 CMP Okay. Let's see.
 CMP Reading 2 SCS. Integrity check - Okay, it didn't -
@@ -562,7 +562,7 @@ CC Okay. It'll be 17-1; 110:58:13; T is 111:00:30; 01:00:01 --
 CMP Wait a minute. Wait a minute.
 
 	Tape 71B/12
-	Page 531
+	Page 532
 LMP ... deadband attitude ...
 CMP Hold it, Ge - hold it.
 CMP Okay. WIDE DEADBAND ATT hold. That's what I'm on. And Amer - Houston; America, I missed Tg on.
@@ -586,7 +586,7 @@ CMP Okay.
 CC Okay. The weight: 37983; plus 0.40, plus 0.91*
 
 	Tape 71B/13
-	Page 532
+	Page 533
 04 11 01 38 CMP Okay, CSM weight is 37983; pak to off, plus 0.40; yak to off, plus 0.91-
 CC Okay. That's correct. And the last one comes up on page 121, and it's a LM Pj6.
 CMP Ah ha; okay.
@@ -606,7 +606,7 @@ CMP Okay, NOUN 33 is 112:02:51 - 112:02:51.92.
 CMP Okay, Challenger; America. You're in ATT hold. You didn't get very far off that time, either. That's good. Okay.
 
 	Tape 71B/14
-	Page 533
+	Page 534
 04 11 07 14 CMP Okay, Challenger; America. Okay. IÕm going to turn off B3 and also my roll jets, and then I'm going to undo the docking latches. ... verified TRANSPONDER is OFF.
 CMP Say again about umbilical. All I get is umbilical. I didn't get the question.
 CMP Verify. I have those down here.
@@ -621,7 +621,7 @@ CC Yes, sure.
 CMP Okay. Two clocks on number 2, and that's out of the way. Number 1 J-hook is out of the way. One hook - Okay, that's three of them on number 3, and it's out of the way. Number 4 was already cut. And it's out of the way. Okay, number 5¥ One , two - and it's fully released, and the hook is off of the docking ring. Okay. Number 6 is - one, two -and itÕs fully released, and the hook is off of the docking ring. Okay, 7 is released, and the hook is off of the docking ring. 0 flow still okay?
 
 	Tape 71B/15
-	Page 534
+	Page 535
 CC Yes, sir. Looking good.
 04 11 11 04 CMP Okay, here's number 8. Here's one, two. And the chute's fully released, and the hook is off the docking ring.
 04 11 11 22 CMP Okay, here's number 9* One, two, and she's fully released; the hook clears the docking ring. Okay, number 10. Here's one, two - fully released, and the hook clears the docking ring. There's one ... Okay, handle's free; J-hook clears the ring. I've only got one more to go. There's the first latch there's two latches ... came over. And the hook stays clear; the handle is free. And, by golly, they're all off. Hey, Challenger; America. You're hanging on those three little bitty things. Okay. I put the old - hatch in.
@@ -631,7 +631,7 @@ CMP Okay, we're in RECEIVE ONLY to B DATA. Hey, Challenger; America. I'm going t
 04 11 13 37 CMP Hey, Challenger; America.
 
 	Tape 72A/1
-	Page 535
+	Page 536
 04 10 14 40 CC Still loud and clear.
 04 10 14 46 LMP Roger. Okay ...
 04 10 15 10 LMP Hello, Houston. I'm ready to give you an E-memory dump.
@@ -653,7 +653,7 @@ CDR Stand by, Houston.
 LMP Am I clipping now, Ron?
 
 	Tape 72A/2
-	Page 536
+	Page 537
 DtP Am I clipping now?
 04 10 18 00 LMP Okay. How do you read now?
 LMP Okay. I guess we're okay. It was the squelch.
@@ -676,7 +676,7 @@ CDR - - It seems to have something to do with the SQUELCH setting, and it's prob
 04 10 20 28 CC Okay. We concur. WeÕd like you to press on and not worry about the VHF any more now.
 
 	Tape 72A/3
-	Page 537
+	Page 538
 04 10 20 35 CDR Okay, Gordo. We are. Here's a couple of (iuick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35j I got all the proper lights except when the LGC and ISS lights came on, the entire caution and warning dimmed. One more item. In our DAP setting, we are reading in our checklist for R-l plus 645 and for R-2 plus 64l. The DSKY DAP came up plus 64l and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
 04 10 21 36 CC Okay.
 04 10 21 51 CDR Okay, Houston. MASTER ARM is on, and B light is on.
@@ -694,7 +694,7 @@ CC Roger.
 CC Okay, Jack. Here come the abort constants. 224 is - 6 - -
 
 	Tape 72A/4
-	Page 538
+	Page 539
 LMP Stand by, Gordy.
 CC Okay. Stand by.
 CDR Ron, when you get the tunnel closed out, I'll need you for an IMU coarse align.
@@ -715,7 +715,7 @@ LMP Okay, Gordy. 112:02:40.92; minus three zeros 75È plus all zeros, plus all z
 CDR Okay. Stand by - I've - let's see. Okay.
 
 	Tape 72A/5
-	Page 539
+	Page 540
 CDR Okay. I need your numbers then. NOUN 20.
 LMP Okay, Gordy. I'm going to start the lunar batt check, and it'll be silent.
 CC Okay. We're watching.
@@ -737,7 +737,7 @@ LMP Yes. That's right, I'll go - that's affirm; I'll go back. Stand by.
 CC Okay.
 
 	Tape 72A/6
-	Page 540
+	Page 541
 04 10 30 40 LMP Okay. I'm back to LUNAR BAT - LMP LUNAR BAT OFF/RESET.
 CC Roger.
 04 10 30 58 CDR Okay, Gordy. For the LM, I've got 300.88, 284, and three balls 45. How does that sound?
@@ -761,7 +761,7 @@ CC Okay.
 04 10 35 36 LMP Houston, this is the LMP - -
 
 	Tape 72A/7
-	Page 541
+	Page 542
 LMP - - a couple minor things on the back-side checkout. The secondary glycol pump, when I started it, the sound and the pressure was ragged, oscillated around - 20 psi, and then stabilized. After about 15 seconds, it sounded smooth. It had a sound as if it w
 CC Copy that, Jack.
 LMP And on step 3 on page 3-15 ~ -
@@ -779,7 +779,7 @@ LMP Gordy, you want the secondary?
 CC That's affirmative; panel 16, GLYCOL PUMP SECONDARY breaker - third row, in the middle.
 
 	Tape 72A/8
-	Page 542
+	Page 543
 04 10 42 20 LMP Okay. We've got a GLYCOL light, and the temperature is 50.
 CC Okay. The pressure looked good there. We'd like that breaker back open. The MASTER ALARM you have is normal.
 LMP Roger. Understand it.
@@ -800,7 +800,7 @@ CDR That looked to be a pretty good alignment from where I saw it. There's 07 fo
 04 10 55 37 CC Okay, Challenger, we've got the NOUN 20s, both spacecraft.
 
 	Tape 72A/9
-	Page 543
+	Page 544
 04 10 56 22 CC Challenger, Houston, we're ready anytime for the RCS pressurization. You might turn the data switch off.
 04 10 56 33 CDR We just got that, and we're going.
 04 10 56 36 CC Okay.
@@ -821,7 +821,7 @@ CDR That looked to be a pretty good alignment from where I saw it. There's 07 fo
 04 11 02 11 LMP Hey, Ron. We're going to have some hot fires here. We're going to have some hot fires here in a minute.
 
 	Tape 72A/10
-	Page 544
+	Page 545
 04 11 02 26 LMP It's affirm. Go CMC MODE FREE.
 04 11 02 36 CDR That is affirm. We want you FREE, Ron.
 0U 11 02 55 CDR Ron, go RECEIVE ONLY.
@@ -844,7 +844,7 @@ CDR That looked to be a pretty good alignment from where I saw it. There's 07 fo
 04 11 07 54 CDR Okay. Very good.
 
 	Tape 72A/11
-	Page 545
+	Page 546
 04 11 08 20 CC Challenger, Houston. We cannot completely explain the startup indications you had on the PGNS, but they are of no great concern. It looks good so far. The DAP gimbal trims are no problem. Don't bother changing them. And there will be no PIPA bias update yet, anyway. Over.
 04 11 08 41 CDR Okay. Understand. Was the checklist written backwards on that?
 04 11 08 4t CC It was a Cape problem on their tape, and they had it reversed. But it's in the noise level, anyway. No problem.
@@ -861,7 +861,7 @@ CDR That looked to be a pretty good alignment from where I saw it. There's 07 fo
 04 11 31 00  BEGIN LUNAR REV 12
 
 	Tape 72B/1
-	Page 546
+	Page 547
 04 11 02 31 CMP Okay. Challenger, America.
 CC America, Houston; standing by.
 CMP Okay, Houston. This is America. We're floating free out here. The Challenger looks real pretty. The residuals on the P4l were plus 1.9* minus 0.2, and 0. Undock and sep was on time.
@@ -881,7 +881,7 @@ CC That's correct.
 04 12 08 05 CMP Okay.
 
 	Tape 72B/2
-	Page 547
+	Page 548
 04 12 10 20 CC America, can you verify that you gave us NARROW on the HIGH GAIN?
 CMP Houston, America. Say again.
 CC Could you verify that you gave us NARROW on the HIGH GAIN ANTENNA, please?
@@ -901,7 +901,7 @@ CMP Okay, 3 seconds to T-l. Thank you.
 04 12 18 26 CMP Okay, Challenger; America. Good luck on your PDI burn there. IÕm going to track your landmark for you.
 
 	Tape 72B/3
-	Page 548
+	Page 549
 CDR-LM Okay, babe. Have a ...
 CMP Will do.
 CDR-LM DonÔt forget, no TEI ...
@@ -921,7 +921,7 @@ CMP Well, let me think for a minute, now. They were all within the crater itself
 CC Okay. Sounds good.
 
 	Tape. 72B/4
-	Page 549
+	Page 550
 04 12 25 39 CMP Challenger, America. You want to try V'HE PANGING -RANGING and RENDEZVOUS EADAF compare?
 CMP Okay. TRANSPONDER coming ON, shortly.
 04 12 26 08 CMP Okay. TRANSPONDERÕS ON now.
@@ -941,7 +941,7 @@ CMP Okay. Press on.
 CC SPS/G&N; 37983; plus 0.40, plus O.pl; 111:57:28.09; plus 0070.5* DELTA-Vy is all zips; DELTAÑVz,
 
 	Tape 72B/5
-	Page 550
+	Page 551
  minus 0000.5; 000, 092, 358; 0069-7, plus 0054.5; 0070.5, 0:04, 0059.9- The stars are Sirius and Rigel; 133, 200, 030. The ullage is four jets for 12 seconds. Comment on your PC: If you happen to notice the chamber pressure, it'll probably be running 90 to 95, and we're predicting that it'll show you about 6 psi less than what the actual chamber pressure is.
 CMP Ah-ha! Okay, that's good to know on that chamber pressure. What you're saying is that even during the L0I bum, the velocity gain and what-have-you was - for chamber pressure, probably up around a little better than 100, huh?
 CC Yes, sir.
@@ -955,7 +955,7 @@ CC Okay. RP-3: 112:17:01, 21:51, 23:31, 24:19, north 04.
 CMP Okay. Copy that. Hey, while I think about it, on the landmark tracking there in that lower attitude mark, the computer was pointing me - I
 
 	Tape 72B/6
-	Page 551
+	Page 552
  wish. I knew. I'd have to get a map to look at the name of it, but there I consider Sherlock. And then the one to the south of that, and then another one to the south of that. There are three in a row. And it was pointing to the one just south of Sherlock - one about the same size as 17-1. Okay. A readback on RP-3. T-l, 112:17:01; T-2, 21:51, 23:31, 24:19; be north, 04 miles.
 CC Okay, that's good. And I have the - the other pads if youÕre ready to copy them, or if you want to press on, then we'll come back and pick them up later. Your choice.
 04 12 40 55 CMP Why don't I get started to the VERB 49 attitude, then I'll get the rest of the pads, okay?
@@ -970,7 +970,7 @@ CMP Wait a minute. Hold it. Hold it. Hold it. Hold it. I'll tell those guys to g
 CMP Okay, Houston; America. Let's try it again on pad E.
 
 	Tape 72B/7
-	Page 552
+	Page 553
 CC All righty. Pad Echo: 113:02 all zeros; Foxtrot: plus 1013.4, plus all zips, minus 0050.0; Golf: 113:57:00.00; Hotel: 115:36:45.00. India: 112:49:52.35. Juliett: 115:36:45.00. Kilo: 117:35:^5.00. Lima: 113:14:24.91; Mike: 119:34:30.00; November: 114:57:19*09. Over.
 CMP Okay, readback as follows: Echo: 113:02 all zips; plus 0103.4, all zips, minus 0050.0; Golf: 113:57 all zips; 115:36:45-00. 112:49:52.35. 115:36:45.00. Kilo: 117:35:45-00. Lima: 113:14:24.91; 114:34:30,00; November: 114:57:19*09- Over.
 CC Okay, let's go back over Mike again. That's 119:34:30.00. The rest are correct.
@@ -980,7 +980,7 @@ CMP Amazing.
 04 12 49 34 CMP Okay, Challenger; America. I'm through with all the pads now.
 
 	Tape 73A/1
-	Page 553
+	Page 554
 04 12 01 35 CDR-IM Hello, Houston. Do you read Challenger?
 04 12 01 45 CDR-IM Hello, Houston. ... Challenger ...?
 04 12 01 58 CC Hello, Challenger; Houston. You're very, very weak. Over.
@@ -998,7 +998,7 @@ IMP-LM Okay, let me give you some NOUN 20 angles, if you want them.
 CC Go ahead. Ready to copy.
 
 	Tape 73A/2
-	Page 554
+	Page 555
 IMP-IM The IM: plus 301.09, plus 284.53, plus 359-48; the CSM: plus three zeros 35, plus 104.67, plus 000.52; the time: 110:24:00. Over.
 04 12 05 20 CC Okay, Jack. We got that.
 04 12 05 25 CDR-IM Okay, Gordo; we're ready. DPS throttle check. I'm ready to hit engine stop.
@@ -1020,7 +1020,7 @@ IMP-IM The IM: plus 301.09, plus 284.53, plus 359-48; the CSM: plus three zeros 
 CC Okay. That's what it should have done, Jack.
 
 	Tape 73A/3
-	Page 555
+	Page 556
 04 12 10 24 IMP-IM Okay, HELIUM PRESS, DESCENT START. 3,2,1-
 04 12 10 29 LMP-IM MARK it. We got it.
 04 12 10 43 IMP-IM Okay; looks good onboard. About 240 both sides.
@@ -1043,7 +1043,7 @@ CDR-LM Well, when you're up here looking at where you are, it even looks lower.
 04 12 16 58 IMP-LM Stand by a second.
 
 	Tape 73A/4
-	Page 556
+	Page 557
 04 12 17 42 IMP-IM Go with the K factor.
 04 12 17 44 CC Okay; it's 109:59:59.94. Over.
 04 12 17 59 LMP-IM 109:59:59.94.
@@ -1064,7 +1064,7 @@ IMP-LM Super targeting.
 CDR-IM Gosh, we've got Family Mountain; we've got - of course - the Massif; we can see the Scarp; we can see the light mantle; I've got the Great Cross, Camelot, Sherlock.
 
 	Tape 73A/5
-	Page 557
+	Page 558
 imp-lm Believe it or not, Houston, they're all there.
 CC How about that.
 IMP-IM I see possible structure - possible structure in the upper part of the South Massif, little bit east of station 2. It's subhorizontal, dipping to the southeast.
@@ -1080,7 +1080,7 @@ CC Roger.
 CC Okay.
 
 	Tape 73A/6
-	Page 558
+	Page 559
 04 12 22 38 CC And, Jack, I've got lots of pads for you whenever you're ready.
 04 12 23 37 IMP-LM Okay, Gordy; go with the pads.
 CC Okay. The first one is a P76 with a CSM circ.
@@ -1096,7 +1096,7 @@ CC 373 is 0182.0; AGS DELTA-Vs: plus 0103-7, plus five zeros, minus 0049.3; Golf
 CC Okay, that's a good readback. Item India: 112:49:52.35 - -
 
 	Tape 73A/T Say, Gordo.
-	Page 559
+	Page 560
 CC Go ahead.
 04 12 28 21 CDR-IM Gordo, Gordo. Hey, Gordo; stand by. We want to finish the radar VHF test; and when I go to P52, you can finish the PADs.
 CC Okay.
@@ -1114,7 +1114,7 @@ CC That's affirmative.
 IMP-IM Okay, Linda is 113:14:24,91; Mary is 119:34:30.00, and Nancy is 114:57:19-09.
 
 	Tape 73A/8
-	Page 560
+	Page 561
 CC That's a good readback.
 CC Okay, one thing left, Jack, is the SHe pressures on the PDI page.
 IMP-IM Go ahead.
@@ -1136,7 +1136,7 @@ IMP-IM Beautiful. It's ... like a ...
 CC Roger. Give you one update, you can write it in the Timeline, page 8; the T-l time is PDI plus 17:00. Over.
 
 	Tape 73A/9
-	Page 561
+	Page 562
 04 12 49 52 CDR-IM Okay; T-l is PDI plus 17:00, we got it.
 CC Roger.
 04 12 50 30 IMP-LM Okay, Houston, you got POO and DATA.
@@ -1150,7 +1150,7 @@ LMP-IM Okay, Gordo, I've got - I've got the Earth and the direction I have to ma
 04 12 53 07 CC Okay.
 
 	Tape 73B/1
-	Page 562
+	Page 563
 04 12 56 28 CMP Hey, Challenger; America. Are you still with me? Okay; I got something like, "yes."
 CMP Okay, I just wanted to make sure on the voice check if we still have the VHP problem.
 04 12 57 25 CMP Okay; loud and clear OMNI, Jack.
@@ -1168,7 +1168,7 @@ CMP Okay.
 04 13 06 47 CMP Okay. Mighty fine.
 
 	Tape 73B/2
-	Page 563
+	Page 564
 04 13 25 XX  BEGIN LUNAR REV 13
 04 13 55 00 CC America, Houston standing by.
 04 13 55 09 CMP Hey, Houston, This is America. Good burn.
@@ -1187,7 +1187,7 @@ CC Okay. I'll give you a 17-1* 112:50:52, 55:42, 57:22, 58:10; north 02.
 CMP (Laughter) Okay, Ken; Jack keeps talking every time you do. So maybe you can keep one ear on them or something. I got T-l and 112:50:52; and I think T-2 was 55:42, and that's all I got.
 
 	Tape 73B/3
-	Page 564
+	Page 565
 CC Okay, America. Are you ready to try again on the P24 pad?
 CMP Okay. Let's try it now.
 CC Okay. 17-1: 112:50:52, 55^2, 57:22, 58:10; north 02.
@@ -1205,7 +1205,7 @@ CC Okay. You got a mighty fast scamp ... to see all that.
 CMP (Chuckle) That's what I say. I really couldn't swear to it.
 
 	Tape 73B/4
-	Page 565
+	Page 566
 04 14 06 12 CC And, America; Houston. We haven't watched you load P24 yet.
 CMP Yes, that's a good point, IÕll go ahead and get it.
 04 14 10 41 CC Coming up on T-l.
@@ -1213,7 +1213,7 @@ CMP Okay, Ken. Thank you.
 04 14 15 39 CC Five seconds to T-2
 
 	Tape 74A./1
-	Page 566
+	Page 567
 04 12 56 01 CC Challenger, Houston. It's your computer. UP DATA LINK, OFF.
 LMP-LM Roger.
 LMP-LM Still with you.
@@ -1235,7 +1235,7 @@ CC Okay, Challenger, you're loud and clear on the omni. How did it go?
 LMP-LM Okay, The burn was GO. We're in a 7-mile perigee on the PGNS, and we had 0, plus 0.1 and plus 0.1 residuals.
 
 	Tape 74A/2
-	Page 567
+	Page 568
 LMP-LM Ok - Okay, Gordy, I'm going to try the high gain
 CC I had you locked up once, and then I lost you. Let me try it again. We concur. Go ahead, Jack.
 LMP-LM Okay, Gordy, that's my fault. I didn't know you
@@ -1257,7 +1257,7 @@ CC CDR, you're loud and clear on VOX.
 LMP-LM Okay. How do you read the LMP on VOX?
 
 	Tape 74A/3
-	Page 568
+	Page 569
 CC Loud and clear, Jack.
 CDR-LM Okay. Gordo, up until this time, the bird has looked beautiful - perfectly plain. All the check's have come out just as advertised.
 CC Okay, sounds good.
@@ -1278,7 +1278,7 @@ CDR-LM Okay, and we do have your needle. We do have your needle.
 LMP-LM Okay.
 
 	Tape T4A/4
-	Page 569
+	Page 570
 CDR-LM Okay, and there's VERB 83 looking at you. Our CROSSPOINTERS are LOW MULT for you. Okay, and there's VERB 83. Give me a 317 and a 440.
 CC Challenger, Houston. We'd like you to try the high gain once more. PITCH is minus - PITCH is zero and YAW plus 59.
 CDR-LM Are you happy with this, Jack? Let me ... 63.
@@ -1300,7 +1300,7 @@ LMP-LM That's 410, 410 not 400. Check that again.
 LMP-LM Thank you, Gordy.
 
 	Tape T4A/5
-	Page 570
+	Page 571
 CDR-LM You better go back and check 400 now.
 LMP-LM It's okay. I fixed it.
 CDR-LM Okay.
@@ -1323,7 +1323,7 @@ CDR-LM At 2 minutes, I'll get the MASTER ARM.
 LMP-LM All right.
 
 	Tape 74A/6
-	Page 571
+	Page 572
 CDR-LM At 30 seconds, I'll get the ENGINE ARM; and we'll watch the PGNS tapemeter pick up average g. If you give me a GO on the ullage, 1111 back up the ullage.
 LMP-LM Okay.
 04 14 06 52 CDR-LM And I'll back up the START.
@@ -1346,7 +1346,7 @@ CC Challenger, we're going to leave BAT 3, OFF, - -
 LMP-LM ... AUTO, AUTO.
 
 	Tape 74a/7
-	Page 572
+	Page 573
 CC - - until after ignition. We'll call you.
 LMP-LM Roger. Yes, I should have put that on like we talked about.
 CDR-LM Man, I'll tell you, we are getting close.
@@ -1368,7 +1368,7 @@ CC Roger,
 LMP-LM Still got the QUANTITY light ON.
 
 	Tape 74A/8
-	Page 573
+	Page 574
 CDR-LM Okay, attitude looks good, Jack.
 LMP-LM Okay. At 30 seconds. Should have about 10S.
 CDR-LM Oh, boy.
@@ -1391,7 +1391,7 @@ LMP-LM - - 7000 - -
 CC We'd like you to cycle the PQGS switch OFF and then back ON.
 
 	Tape 74A/9
-	Page 574
+	Page 575
 CDR-LM ' Okay, Houston. Coming up on 2 minutes.
 04 14 12 01 LMP-LM Okay. It's OFF. And it's back ON. QUANTITY light is out.
 CC Roger. That should be good now.
@@ -1413,7 +1413,7 @@ LMP-LM Okay. At 3 minutes. 82's your ball number. We're still looking for the ri
 CDR-LM Okay. The day of reckoning comes at 4 minutes, Jack Got the weight building up, looking good. Attitudes are good.
 
 	Tape 74A/10
-	Page 575
+	Page 576
 LMP-LM Okay, at 03:30, you ought to have 79 - -
 CDR-LM And it's right on.
 LMP-LM We're still a little high - about 2500 feet. H-dot is still high. Okay. The tapemeter moves in spurts and jerks, both on altitude and altitude rate.
@@ -1437,7 +1437,7 @@ CDR-LM Okay, coming up on 5 minutes, Jack. Let's take a check at it. About 74 de
 LMP-LM That's good.
 
 	Tape 74A/11
-	Page 576
+	Page 577
 CDR-LM 70 feet per second; we're coining down 36 - you're still .. . - -
 04 14 14 56 CC Challenger, you're GO at 5 minutes - -
 CDR-LM - - down at 30 - -
@@ -1457,7 +1457,7 @@ LMP-LM 31. Altitude's great. H-dot's great. AGS and PNGS are very close, couple 
 CDR-LM Okay.
 
 	Tape 74A/12
-	Page 577
+	Page 578
 04 04 16 10 LMP-LM Okay, Houston. We went over the hump. DELTA-H just jumped.
 CC Roger.
 LMP-LM And looks like it's back down.
@@ -1479,7 +1479,7 @@ CC Roger.
 04 14 17 34 LMP-LM Okay, 63's your angle, about 56 now.
 
 	Tape T4A/13
-	Page 578
+	Page 579
 CDR-LM Okay, that's getting closer.
 LMP-LM H-dot and H are great. Standing by for the camera
 CDR-LM 19K, Houston. We're GO coming up on 8.
@@ -1502,7 +1502,7 @@ CDR-LM - - pitchover is at 24; 24 is pitchover.
 04 14 19 12 CDR-LM Stand by for pitchover, Jack.
 
 	Tape 74A/14
-	Page 579
+	Page 580
 04 14 19 14 LMP-LM 8000
 04 14 19 15 CDR-LM I'll need the PRO.
 LMP-LM I'll give it to you.
@@ -1521,7 +1521,7 @@ CDR-LM Hey, I don't need the numbers any more.
 CDR-LM Okay,
 
 	Tape ?4A/15
-	Page 580
+	Page 581
 04 14 20 42 LMP-LM 300 feet, 15 feet per second. A little high. H-dotÕs a little high.
 04 14 20 51 CDR-LM Okay. I've got P66.
 04 14 20 55 LMP-LM Okay; 9.feet per second, down at 200. Going down at.5* Going down at 5. Going down at 10. Cut the H-dot. The fuel's good. 110 feet. Stand by for some dust. Little forward, Gene.
@@ -1532,7 +1532,7 @@ CDR-LM Okay,
 04 14 22 03 LMP-LM #** op, push. Engine stop; ENGINE ARM; PROCEED; COMMAND override, OFF; MODE CONTROL, ATT HOLD; PGNS, AUTO.
 
 	Tape 74B/1
-	Page 581
+	Page 582
 04 14 22 56 CMP Hey, Challenger; this is America. I heard you all the way down. That's great. Beautiful.
 04 14 26 21 CC And, America; we have a STAY for T-l.
 CMP Challenger - understand a STAY for T-l. Good.
@@ -1553,7 +1553,7 @@ CC Okay. That's correct.
 CC Are you able to get something in the sextant, or would you like for us to look for some new stars and attitudes?
 
 	Tape T4B/2
-	Page 582
+	Page 583
 CMP No. You can see them in the sextant real well, Ken. You just can't see them in the telescope.
 CC Okay. That's a mighty pretty thing to look at in the telescope, though, isn't it?
 CMP Yes, it sure is.
@@ -1573,7 +1573,7 @@ CC Sure thing.
 04 14 48 01 CMP Okay. GO on the H2 ... TANKS.
 
 	Tape 74B/3
-	Page 583
+	Page 584
 CC Okay. That's HYDROGEN tank number 1 should be turned OFF.
 04 14 48 26 CMP Okay. H2 FANS, number 1, OFF.
 CC Okay. And I missed seeing you set the VERB 44. Did you get that one in?
@@ -1597,7 +1597,7 @@ CC Okay.
 04 14 52 08 CMP Okay. MAPPING CAMERA. LASER ALTIMETER. Barber , pole;, and then a gray.
 
 	Tape 74B/4
-	Page 584
+	Page 585
 04 14 52 18 CMP IR; barber pole, and a gray.
 04 14 52 26 CMP UV COVER; barber pole, and a gray. And we'll try timing the old mapping camera. See how she does this time.
 CC Okay.
@@ -1620,7 +1620,7 @@ CMP Can you just tell me?
 CMP Into A-9. Okay. That must be where 11 is then.
 
 	Tape T4B/5
-	Page 585
+	Page 586
 CC Eleven should be in - Yes, okay. Get all of you in A-9 now, hopefully.
 CMP (Whistling)
 04 15 01 01 CMP Okay. Th^ old lithium hydroxide canister's changed.
@@ -1639,12 +1639,12 @@ CMP 33:18 is stop time. No, no. That's better than having a trail. Let's try it.
 04 15 53 22 CMP MAP CAMERA is STANDBY.
 
 	Tape 74B/6
-	Page 586
+	Page 587
 04 15 53 37 CC America, Houston. We're reading you. How us?
 04 15 53 44 CMP Okay. Just about have you, Houston - -
 
 	Tape 75A/1
-	Page 587
+	Page 588
 04 14 22 11 CDR-LM Okay, Houston. The Challenger has landed!
 CC Roger, Challenger. That's super.
 LMP-LM Okay, Parker valves - Boy, you bet it is, Gordo.
@@ -1664,7 +1664,7 @@ CDR-LM Okay.
 CC Roger, Jack.
 
 	Tape 75A/2
-	Page 588
+	Page 589
 04 14 23 28 LMP-LM Batteries look good.
 CDR-IM Oh, man. Look at that rock out there.
 LMP-LM Absolutely incredible. Absolutely incredible.
@@ -1682,7 +1682,7 @@ LMP-LM I like it right where we are.
 CDR-LM Okay, Gordy. While you're - while you're waiting on that GO, I had to - I - I shot for a spot, around 2 o'clock from Poppy. There's a number of boulders out at 12 o'clock from Poppy, and I really think I'm probably not more than about 100 meters out in front of it - and slightly to the north. Actually, I may be a little bit closer to Trident than I expected Poppy to be. I - I think I've got Trident right out the left window. And our first cut at the mobility around here in the Rover. It ought to be super.
 
 	Tape 75A/3
-	Page 589
+	Page 590
 CC Okay. Sounds good.
 LMP-LM But I tell you, the massifs and Bare Mountain are two different products.
 CDR-LM Do look it, don't they?
@@ -1701,7 +1701,7 @@ CDR-LM Oh, my golly.
 LMP-LM Only we have changed.
 
 	Tape 75A/4
-	Page 590
+	Page 591
 CDR-LM You know the - you can't see into Camelot, Jack; that rim is - is Camelot out in front of us.
 LMP-LM Yes.
 CDR-LM You ... - -
@@ -1724,7 +1724,7 @@ CDR-LM 14 - -
 LMP-LM 14
 
 	Tape 75A/5
-	Page 591
+	Page 592
 CDR-LM 24.91.
 LMP-LM 4.91.
 CDR-LM Yes, sir.
@@ -1745,7 +1745,7 @@ CDR-LM You see that? ... a boulder, a hole.
 LMP-LM WhereÕs the hole? I canÕt see the hole - -
 
 	Tape 75A/6
-	Page 592
+	Page 593
 04 14 28 58 CC Challenger, Houston. R-3, cross range, is okay as is.
 LMP-LM Okay. Okay. We're coming up - -
 04 14 29 11 CDR-LM We're in posture for a T-2, Gordy.
@@ -1765,7 +1765,7 @@ LMP-LM Yes. They - Well, the slope's different. We'll have to look at it from ou
 CDR-LM Yes.
 
 	Tape 75A/7
-	Page 593
+	Page 594
 LMP-LM Gosh, there are some holes and rocks around here. Who told me this was a flat landing site?
 CDR-LM It is flat. For crying out loud. What do you want, an airtight guarantee?
 04 14 30 14 LMP-LM Let's see, we got about 2 degrees left and about 5 degrees pitchup.
@@ -1781,7 +1781,7 @@ CDR-LM That's right.
 04 14 31 25 LMP-LM Okay. Let's see what we're doing. We got 3 minutes for T-2. Let's take another check.
 
 	Tape 75A/8
-	Page 594
+	Page 595
 CDR-LM Okay. I just looked at them.
 LMP-LM Okay. Ascent looks good.
 04 14 31 36 CDR-LM Gordy, I noticed something ever since we've landed. The oxidizer quantity went from - from 7 or 8, and now it's down to 2, and the fuel has stayed constant.
@@ -1801,7 +1801,7 @@ LMP-LM Oh, I tell you. That's something everyone's got to do once in their life.
 LMP-LM Okay.
 
 	Tape T5A/9
-	Page 595
+	Page 596
 CDR-LM Okay. Understand. STAY for T-2, and GO for the DPS vent. Let me get out of - Okay, we can't hack that. I'm going to get out at 12.
 LMP-LM Excuse me, Gene.
 04 14 33 46 CDR-LM Okay. You can unzap that water, if you'd like. And let's go off VOX. Let's go on PTT.
@@ -1820,7 +1820,7 @@ LMP-LM Yes. Hey, we can press on. Okay. Okay. Now wait a minute. Here we go. Let
 04 14 36 03 LMP-LM Okay. ECA CONTROL is CLOSED. Three is back on.
 
 	Tape 75A/10
-	Page 596
+	Page 597
 04 14 36 11 LMP-LM BATTERY 5 is OFF/RESET, and it's off the line.
 04 14 36 18 LMP-LM BATTERY 6, OFF/RESET, and it's off the line. INVERTER number 2 breaker is IN. INVERTER 2. Let me check the voltage. Voltage is great. Okay. Keep going.
 04 14 36 41 LMP-LM DESCENT ENGINE OVERRIDE'S OPEN. ASCENT ECA CONTROL'S OPEN. CWEA cycling, cycled; both lights are out. Okay. Cabin pressure is good. Okay.
@@ -1838,7 +1838,7 @@ CC Roger.
 04 14 43 01 CDR-LM P20's in work. Correction, P57's in work.
 
 	Tape 75A/11
-	Page 597
+	Page 598
 04 14 43 13 CC Challenger, Houston. Your DPS OXIDIZER PRESSURE
 CDR-LM is 40 or less. You can close it. Thank you, Gordy.
 CDR-LM Gordy, while the P57 is doing its gravity work,
@@ -1847,7 +1847,7 @@ CDR-LM I guess the thing that probably - probably sur-
 CC prised me most about the site, as far as landing is concerned, is the fact that there were these -these - I hesitate to say they're outcrops but certainly they're buried massive pieces of rock -whether they're boulders or not, we'll have to find out - out here in the plains area, partially covered and filleted by the dark mantle. And I expected to find a number of craters, but I guess I really didn't expect to find - to find the -the rock types around. And we're talking about anywhere from 1 to 2 meters down to - oh, 2 or 3 feet, which when they're sticking out and on the sides of some of these subtle craters look pretty menacingly. But that probably is the one thing that surprised me most. Roger, Gene.
 
 	Tape 75A/12
-	Page 598
+	Page 599
 04 14 45 49 CDR-LM The visibility prior to pitchover was such that I could see Nansen. I could see the Scarp. I could see Lara. I could not see Camelot until after pitchover. However, once I had pitchover, if I could have froze it right there like we do in the simulator occasionally, I could have picked out everything there was to see. Even at 6000 feet, the small triangle with Frosty and Rudolph and Punk were visible to me. I had - I had Poppy from orbit, as a matter of fact, so it was -easily - easy to see. Barjea was a very sharp round crater just as depicted on the LNA. The thing I really didn't get a good look at, because I didn't pay too much attention to it, was from Trident on to the south.
 CC Roger.
 LMP-LM Gordy, this is the LMP. Let me say - Gordy, this is the LMP. Let me say that the inside of the spacecraft looked just like the simulators.
@@ -1860,7 +1860,7 @@ CC Stand by 1.
 04 14 48 41 LMP-LM Okay, Gordy. I had the angles matched on the steerable and went to SLEW, and they - it held for a few seconds and then dropped off.
 
 	Tape 75A/13
-	Page 599
+	Page 600
 CC Okay. It looks pretty good. You might try to peak it up just a little more.
 04 14 49 01 LMP-LM No, we're on an omni now.
 CC Roger.
@@ -1881,7 +1881,7 @@ CC Stand by. We're checking.
 CC Okay.
 
 	Tape 75A/14
-	Page 600
+	Page 601
 LMP-LM I - you can - I'm sure that's what we did. We loaded CRSR for SPRL, and SPRL for CRSR.
 CC Okay. And it's our fault, too. We should have watched that.
 04 15 01 51 CC Jack, this is Houston. We do have the pre-PDI AGS cal numbers. You won't need to read them to us.
@@ -1898,7 +1898,7 @@ CC Okay. Go ahead.
 CC Roger. Looks good.
 
 	Tape 75A/15
-	Page 601
+	Page 602
 04 15 10 28 LMP-LM Computer is NOUN 93.
 04 15 10 48 CC Okay. Torque it.
 CC Challenger, Houston. We're standing by for the dumps.
@@ -1917,7 +1917,7 @@ LMP-LM Go ahead. I'm writing.
 04 15 15 29 CC Okay. Y will be plus all zeros. And plus 084,l4, Over.
 
 	Tape 75A/16
-	Page 602
+	Page 603
 LMP-LM Okay. NOUN 20 will be plus 295.86, plus all zeros, plus 084.14.
 CC That's correct.
 0U 15 16 16 LMP-M Okay, Houston. I'm going to power down the AGS, if you're willing.
@@ -1939,7 +1939,7 @@ CC Roger.
 CC Okay, Thank you.
 
 	Tape 75A/17
-	Page 603
+	Page 604
 04 15 31 31 LMP-LM Okay, Houston. We're at the bottom of 1-8, and IÕm standing by for your lift-off times.
 04 15 31 38 CC Okay, Jack. Lift-off time for rev 15 is 116:55:51', 16 is 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53. Over.
 04 15 32 27 LMP-LM Okay. Starting with rev 15, 116:55:51; 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53.
@@ -1957,7 +1957,7 @@ CDR-LM And I'll bet on that one. But we'll get with you in a minute.
 CC Okay. 150 north-northwest of Poppy.
 
 	Tape 75A/18
-	Page 604
+	Page 605
 CDR-LM Yes. Mostly west, but slightly north.
 CC Roger.
 CDR-LM I'll tell you the - we're abeam, I think, just about abeam of Trident 1. I can see it out there, but I can't really define Trident 1 from Trident 2. And the thing that is a little different is that I appear to be closer to it than I normally would have expected to be.
@@ -1966,7 +1966,7 @@ LMP-LM That's probably as close as the Navy Captain could ever guess where he is
 04 15 51 56 CC Roger. (Laughter)
 
 	Tape 75B/1
-	Page 605
+	Page 606
 04 15 53 03 CMP Just about to make it.
 04 15 53 23 CMP PAN CAMERA to STANDBY.
 CC America, Houston. We're reading you; how us?
@@ -1984,7 +1984,7 @@ CC Roger, Ron. We copy that.
 04 15 57 40 CMP Okay; RELAY BUS BAT B is OPEN - coming OPEN. Getting around to battery charger. BAT CHARGE to Alfa and then to Bravo. Both about 30.
 
 	Tape 75B/2
-	Page 606
+	Page 607
 CC Ron, we're ready for bat - PAN CAMERA POWER, OFF.
 04 15 58 24 CMP Okay. PAN CAMERA POWER is OFF. And - let's see. Is the time for the lunar sounder stuff?
 CC Got about 3 minutes on that, Ron.
@@ -2005,7 +2005,7 @@ CC Thank you, Ron. I've got that pan camera photo pad any time you want it.
 CMP Okay. Let's see, 116:30. Huh?
 
 	Tape 75B/3
-	Page 607
+	Page 608
 CMP (Humming) Okay; ready to copy.
 CC Okay, Ron. T-start time: 116:31:10. T-stop time: ll6:59:k-6.
 CMP Start: 116:31:10. T-stop: 116:59:^-6.
@@ -2026,7 +2026,7 @@ CMP You say standby for number 2?
 CC Stand by on that, Ron. Don't do number 2 yet.
 
 	Tape 75B/4
-	Page 608
+	Page 609
 CMP Okay. I wonÕt do it yet.
 04 16 09 51 CC America, Houston. We'd like to try ANTENNA 1 again We'd like you to go EXTEND for barber pole plus 3 seconds, then OFF, then RETRACT.
 CMP Okay. We'll try that. HF number 1, EXTEND. 1001, 1002, 1003. It's OFF. And, of course, I got a barber pole as it was going up. Okay; you want to try RETRACT again?
@@ -2043,7 +2043,7 @@ CC Roger. We copy that.
 CC Okay, Ron. You're GO for the extending, and just a reminder on the Flight Plan, there's a RECORDER, ON, prior to the EXTEND there.
 
 	Tape 75B/5
-	Page 609
+	Page 610
 CMP Oh, okay; that's good.
 04 16 15 28 CMP Okay. RECORDER'S going ON. And we'll extend number 1. Let me get the clock going here. Okay; 3, 2, 1 -
 04 16 15 44 CMP MARK it.
@@ -2064,7 +2064,7 @@ CMP Okay.
 04 16 18 17 CMP Hey, I can see number 2.
 
 	Tape 75B/6
-	Page 610
+	Page 611
 CC Roger. That's good show. It's going to be moving, Ron.
 CMP All the way out there. It is?
 CMP My window's all fogged up here, and can't see a thing.
@@ -2085,7 +2085,7 @@ CMP Okay.
 04 16 26 09 CMP Let's see. PAN CAMERA SELF TEST, OFF. And it's after sunset. UV, OFF. IR is OFF. DATA SYSTEM is OFF. SM/AC POWER, we're going to get that OFF. SM/AC POWER is OFF. Okay; it looks like 12. LUNAR SOUNDER to OPERATE.
 
 	Tape 75B/7
-	Page 611
+	Page 612
 04 16 29 01 CC America, while we're waiting for this lunar sounder to operate for 2 minutes, could you - could you say again those coordinates you gave us. I dug out the map TL 25-8, and I got the 83-3, but what was the azimuth coordinate on that, Ron?
 CMP It was Dog November, and maybe just a little bit to the right of Dog November.
 CC Okay; Dog November. Thank you. And you think that's where they are, huh?
@@ -2101,7 +2101,7 @@ CMP Okay. Stand by. 3, 2, 1 -
 04 16 31 13 CMP MARK it. Barber pole; gray.
 
 	Tape 75B/8
-	Page 612
+	Page 613
 04 16 33 15 CMP Okay; she's STANDBY. MODE has gone to HF. I'll select, I'm going to need Bravo. Too bad. Do old HIGH GAIN, MANUAL and WIDE. That's 12 and 211.
 04 16 34 23 CMP Okay; minus 12, 211. HIGH GAIN ANTENNA POWER is OFF BIT RATE is LOW. Okay; ready for the HF part of it?
 CC Stand by, Ron.
@@ -2123,7 +2123,7 @@ CMP Hey, great!
 CC Both HF and VHF look good, and we saw no visible interference on the CSM telemetry.
 
 	Tape 75B/9
-	Page 613
+	Page 614
 CMP Hey, outstanding! That's great.
 CMP Now, if the old antenna would come back in, we'd be in good shape, huh?
 CC Yes, sir.
@@ -2143,7 +2143,7 @@ CC Roger.
 CC Okay, Ron. We're still riding you - reading you loud -
 
 	Tape 75B/10
-	Page 614
+	Page 615
 04 16 51 08 CMP Okay; good'. And HIGH GAIN ANTENNA POWER is going OFF.
 CC Roger.
 CC We just want to give you some fair warning, Ron. When you come around AOS next time at 116:30, it's a - Flight Plan update. We got quite a lengthy update on the Flight Plan - all orbital picture work, but quite lengthy.
@@ -2160,7 +2160,7 @@ CC Okay, Ron. You're lucky you're up there tonight,, Ron. We're having really ra
 CMP Oh, really?
 
 	Tape 75B/11
-	Page 615
+	Page 616
 CC Yes. You walk - you walk outside, you just about can't see the top of building 2.
 CMP Gee whiz! Guess I picked a good time to be gone.
 CC That's for sure.
@@ -2176,7 +2176,7 @@ CC Ron, just before you leave, you're too bad to hear. You're looking good as yo
 04 17 00 27 CMP Just about to lose you.
 
 	Tape 76A/1
-	Page 616
+	Page 617
 04 15 58 37 LMP-LM Okay, Houston, we're just starting our eat period. Sorry to be a little behind. PRD readings are 17037 and IMP is 24117-
 CC Okay, Jack. We got that.
 CC Would you verify your BIOMED, RIGHT?
@@ -2190,7 +2190,7 @@ CC Okay.
 CDR-LM I don't know if it'll mean anything to you, but the shadow of the LM, the rendezvous radar antenna is pointing about one-third of the way down from the peak of Family. And that, I know, is pretty gross. And, Gordo, I - I must be right here abeam of Trident 1. The only reason I hesitate is that I'm so close - but it's probably, well I guess it's close to 100 meters - 80 meters anyway -to where the - where the rim of Trident 1 falls off. And I am abeam of the center of Trident 1, and that's the only possible thing it could be. And that would put Poppy just about where I expected it to be.
 
 	Tape T6A/2
-	Page 617
+	Page 618
 CC Okay.
 CC We just want to confirm. YouÕre referring to Trident 1 as the easternmost part of Trident, is that right?
 CDR-LM No, sir, Gordo. It's always been the westernmost part of Trident. The - the landing site was on a line between Trident 1 and Rudolph and judging from what Jack's got on his right-hand window and what I got on my left-hand window we're right there, except possibly a skosh further south on that line.
@@ -2202,7 +2202,7 @@ CC #NAME?
 CDR-LM Yes, Gordy, but it - it blends in so well; all we're seeing is a - an undulating high as the rim. And to the best of my knowledge, we've got the south rim at - or correction, the east rim right at 12 o'clock. Hey, Gordy, right at 12 o'clock also is a boulder that's at least 3 meters and maybe 5, and I wouldn't be a bit surprised if you can find it. It's on a line between us and the intersection of the South Massif and the Family Moun - Mountain horizon. Just slightly left of that line or south of that line. And that boulder ought to show up on your best photography.
 
 	Tape 76A/3
-	Page 618
+	Page 619
 CC Okay, Jack. We'll take a look. One other question - -
 LMP-IM And it's at - it's at least - that boulder's at least 200 meters away.
 CC Okay* Can you see the west rim of Trident, and can you give us a clock position on the west rim of West Trident?
@@ -2217,7 +2217,7 @@ CC Roger.
 CDR-LM He went to captain's mast for eating that the other day.
 
 	Tape 76A/4
-	Page 619
+	Page 620
 04 16 16 09 LMP-LM Gordy, Houston; 17. How do you read - or Challenger or whoever we are?
 CC Whoever you are; you're loud and clear.
 LMP-LM I took the binocs and looked at some large boulders at our 12 o'clock position. They're probably on the order of a half meter to 2 meters, buried but without strong filleting. And most of them that I could see had the same mottled light-gray and medium-gray texture, and it looked like there's a lineation in it. And whatever the mottling is, it's on a frame size or fragment size of a - or a few centimeters, and it looks as if it's very uniform in that mottling; that is, there's one -one fragment size.
@@ -2230,7 +2230,7 @@ LMP-LM That boulder ought to be very close to the ALSEP site.
 CC Roger.
 
 	Tape 76A/5
-	Page 620
+	Page 621
 CDR-LM Gordo, in reference to these boulders, everywhere I can see out of my left window and out ahead of me in referring to that boulder Jack's talking about which is just a little bit on my side at 12 o'clock, it appears that the dark mantle has filleted and, for the most part, covered - or it has covered part of or is up on top of some of the crevices and the crannies in the boulders themselves, with the exception of - Well, IÕll take that back - even the very small ones. I'd say from a population point of view, boulders of the size Jack's talking about that are visible through the surface anywhere from 1 to 2 to 3 meters - a very small percentage, but when you look at them at our level, it looks like they are quite populous. I'd say there are maybe about 25 of them in view between myself and the - where the horizon falls off down away from us towards the South Massif. The area back towards Station 1, at least the other side of Trident, looks like it's more heavily strewn with some of these filleted and partially mantled large fragments.
 CC Roger, Gene.
 LMP-LM To say that there is a boulder, as such, actually sitting on the surface, I can't - I really can't find one, unless they're along - around something very small and possibly younger craters. But I think for the most part everything is somewhat mantled.
@@ -2238,19 +2238,19 @@ CC Okay.
 04 16 20 48 LMP-LM Gordy, I think maybe the predictions of a fairly thin regolith were good. I have a crater at about - oh, 130 feet. It looks like it's not more than a meter deep. It's very fresh, has a bright halo around it, and it's very rocky in its Interior and has some rocks that are at least 10 or 20 centimeters in diameter on the rim. It looks like it's penetrated into some rockier - much rockier substrate than what we're seeing on the surface. The surface itself looks like a - oh, probably 15 percent fragments greater than half a centimeter.
 
 	Tape J6A/6
-	Page 621
+	Page 622
 CC Okay, Jack.
 LMP-IM I don't see any general si - I don't see any general size, Gordy. I do have a crater out here that's - maybe a meter in diameter that - fairly fresh, although not bright halo - that has not penetrated to blocky material. And it looks like that the saturation crater size is very small in the area we can see; that is, there don't seem to be any old or very subdued craters - Well, let me -let me think about how to put that again. They're -It's obviously saturated with craters a few centimeters in diameter, but when you get bigger than that, there seems to be more of a - a clear distribution rather than a saturation.
 CC Okay.
 04 16 23 02 LMP-LM Gordy, let me give you a quick far horizon. At 12 o'clock, I've got Family Mountain. It's a -it and South Massif are a replica from their plane form where I - up from where I am, except that Family Mountain is much more symmetrical and rounds off to a very more definite peak. The South Massif, in turn, has got a high plateau, a high flat peak on top. My far horizon then, at 12 oÕclock, from about - to 11:30 is dominated by Family Mountain. It's - Well, I hate to use the word anorthosite without getting out of the spacecraft, but it sure is white. It sure is white, but its varied shades of white - with - sort of a -a tendency on its southern or southeastern slope to sort of be marble caked with a darker material much the same color as the mantle that we're - we've landed on. The Family Mountain disappears just about at the level of the rim of Camelot on my far horizon and just in front of it - It starts out - that's at about 11 o'clock - it just - just there is where the South Massif starts up very abruptly - I'd say - well, I'll try not to overestimate, but certainly 30 degrees, I'd say - very abruptly to a very impressive altitude. I know I was at 13,000 when I said I was at their level, but - it sure looked it from there. It - it plateaus off from about 10:30 to about 9;30, and then
 
 	Tape ?6A/7
-	Page 622
+	Page 623
  it starts sloping back down towards the east at about the same angle. Very symmetrical. There are several places where you can see what appear to be outcrops. I say several - about a dozen anyway, where you can see relatively large areas of outcrop on the South Massif. That outcrop is a - of a darker gray color than the white-gray of the Massif itself. The one most domineering -dominant outcrop is right at the change in slope to the west, where it goes upslope and then plateaus off, and there is a definite outcrop. And you can see several boulders on all levels of the Massif that have come apparently from outcrops and I feel certain we will be able to get to some of those - that have come all the way down. South Massif, too, is a - appears to be in areas marbly caked dirty, such as if it was sprinkled with a dirty or a darker covering, and that covering is more evident as - as it slopes back here towards the - towards the east. As the far horizon now, I can see - I can see - South Massif all the way to 9 o'clock, but then behind it, there's just a little breadloaf-type dome of a much darker, much more hummocky mound back there, relatively big. It's probably, from where I stand, at least 10 percent the - the size of the Massif, the South Massif. Gray in texture. There appear to be some lineations running - well, as I'm looking at them, they're dipping down into the west at about 20 degrees, but that may be a Sun-angle problem. But they're definitely there. And then, contrasting that is - is Bare Mountain which is also much darker gray, much different than the Massif from where I stand, much more hummocky surface. It appears to be to me what I would expect Sculptured Hills to be like. One other thing about the South Massif is that - as I look at - as I look at it -at about 9:30 to 10:30, there is a little knob of the South Massif that sort of flows toward -towards the east or slightly towards the northeast. That's the one that tends to be a little bit more heavily covered with the - darker dusty material - -
 04 16 28 06 CC Challenger, Houston, over.
 
 	Tape 76A/8
-	Page 623
+	Page 624
 LMP-LM There are. Go ahead.
 CC Okay. We're about 12 - 13 minutes behind the time line for starting cabin preps. And backroom is enjoying your descriptions, but we think we'd rather you press on with the preps and get ready to get out for a really good view. Over.
 LMP-LM Okay* Gordy. We're - we're doing this and eating too - We're trying to do them both at the same time, and we are pressing. Just want to say one other thing about the Massif. I can see a couple of places where craters have - have penetrated very small craters and penetrated the Massif -craters maybe a meter or 2 in size, some 5 meters, and there's a lot of rock debris around them, which tends to believe that there is very little, if any, soft covering on that Massif.
@@ -2262,7 +2262,7 @@ CDR-LM Give me that ... throw away.
 CDR-LM Well, let me - I - I need these.
 
 	Tape 76A/9
-	Page 624
+	Page 625
 04 16 33 52 CC Challenger, Houston. I'm going to hand you over to the good Dr. Parker here. Have a good trip outside there.
 CDR-LM Gordy, thank you. You do outstanding work and we sure do appreciate it, babe.
 CC My pleasure.
@@ -2281,7 +2281,7 @@ CC Did you guys adjust it, Jack?
 LMP-IM Yes, Bob. We had to fix the drink bags and a couple other things.
 
 	Tape 76A/10
-	Page 625
+	Page 626
 CC No. Did you guys adjust the high gain antenna?
 LMP-LM No. I didnÕt touch it.
 CC Okay. Copy that.
@@ -2301,7 +2301,7 @@ CC Roger on that.
 CDR-LM By the way, howÕs he doing?
 
 	Tape 76A/11
-	Page 626
+	Page 627
 CC Stand by.
 CC Challenger, Houston. Your buddy is doing great, and the sounder is also doing great, which is a surprise, I guess.
 CDR-LM I'm glad to hear that.
@@ -2324,7 +2324,7 @@ CC Copy that, Jack.
 LMP-LM Okay, eng.
 
 	Tape 76A/12
-	Page 627
+	Page 628
 04 17 05 31 CDR-LM Okay. Both regulators are reg - regulating slightly under 4.0.
 CC Copy that, Challenger.
 04 17 09 48 CDR-LM Okay, Bob. The URINE LINE HEATER is OFF and the URINE LINE BREAKER is OPEN, and we are down to applying antifog.
@@ -2335,7 +2335,7 @@ CC Okay. Copy that, Challenger.
 CC Roger. Copy that.
 
 	Tape T6B/1
-	Page 628
+	Page 629
 04 17 22 00  BEGIN LUNAR REV 15
 04 17 54 45 CMP Okay, Houston. This is America. Looks like you're with me now.
 CC That's affirmative, America. We read you loud and clear.
@@ -2354,7 +2354,7 @@ CMP Okay.
 CC In parenthesis; f/1.2, 1, infinity, end of parenthesis. Eighteen frames FR - 18 FR.
 
 	Tape 76B/2
-	Page 629
+	Page 630
 CMP Good.
 CC Magazine Zulu Zulu.
 CMP Okay, got it.
@@ -2372,7 +2372,7 @@ CC As 30-second intervals.
 CC Okay, Ron. There is a caution note on this. It's a note concerning the frame usage.
 
 	Tape 76B/3
-	Page 630
+	Page 631
 CMP Seems to me like Zebra Zebra only has 18 frames, doesn't it?
 CC ThatÕs affirm. Do not exceed 18 frames. The balance of mag Zebra Zebra was used for preflight calibration. Do not exceed 18 frames. You can put that down any way you want it.
 CMP Okay.
@@ -2388,7 +2388,7 @@ CMP Okay, no extras on those two, then - on the VHBW, huh?
 CC Yes, we got a very small margin on those now. And, you're about 10 minutes prior to landing site orbital. Why don't you go over and start studying that, if you want?
 
 	Tape 76B/4
-	Page 631
+	Page 632
 04 18 03 20 CMP Okay.
 04 18 11 52 CMP You know you look at - next to Macrobius A, there is a lind of a dark halo-type crater there. Very small one. And it doesnÕt have the appearance of a hummocky crater rim to it, at all. It looks like the material just kind of spreads out all over the area, but it doesn't have a hummocky appearance to it. I'm going to take a look at that again when I come back - on back around on the other side. There's a small mound down in the bottom of the crater, also. ItÕs a domicalshaped structure in the bottom of that small crater. It's right next to J3. North of J3.
 CC Roger, Ron.
@@ -2396,7 +2396,7 @@ CMP Coming in, I can see the landing site, now -quite well. The appearance of th
 CMP IÕm right over now. The scarp definitely cuts up through the North Massif. I can't see continuation on into the South Massif at all. But, you can definitely see a vertical exaggeration as it cuts on around up over the North Massif. And it's almost - I'd have to take another look at it for sure, but it almost looks like a flow coming from Family or in the vicinity - in the direction of Family Mountain - but from the direction of Family Mountain - lapping up on the side of the North Massif. That's the way it looks as you go on by it. I couldn't see anything that would lead you to believe that the slide area, so to speak, would come on across anything that would be the source
 
 	Tape T6B/5
-	Page 632
+	Page 633
  of that slide area. I still think I can see the -one spot that has a lighter albedo than the surrounding area there in the Pentagon complex. And it's pretty close to the - Let me get my chart out here and take a look at it again.
 04 18 16 50 CMP No, it still looks like that area that's blown away there is Dog November - between Dog November and Dog Papa. And about 83.4 or something like that.
 04 18 1T 0T CC Copy.
@@ -2409,7 +2409,7 @@ CMP And then those rilles are just to the north of that crater.
 CC Roger. That's probably Menelaus - M-e-n-e-l-a-u-s -Menelaus.
 
 	Tape 76B/6
-	Page 633
+	Page 634
 CMP I think it is.
 CC Okay, Ron. Is The PAN CAMERA, OFF? T-stop time. PAN CAMERA to STANDBY. T-stop time.
 CMP Okay. Is it now?
@@ -2429,7 +2429,7 @@ CC Roger, Ron.
 CMP You have HIGH GAIN to AUTO.
 
 	Tape 76B/7
-	Page 634
+	Page 635
 CC Thank you, sir.
 CMP Okay, it's orbital science photos coming up here. Do you want to use magazine KK still? Or should we finish up Oscar Oscar?
 CC Stand by, Ron. Checking with Tommy on that one.
@@ -2449,7 +2449,7 @@ CC Thank you, sir.
 CMP Good.
 
 	Tape 76B/8
-	Page 635
+	Page 636
 CMP Hey, this is not so bad, if you think of iced tea, I guess.
 CC Roger.
 CC Just for your information, Ron. Gene's out on the surface right now.
@@ -2468,7 +2468,7 @@ CMP Okay. (Laughter) Okay. Let's see. MAPPING CAMERA can come OFF. Thirty second
 04 18 45 31 CMP Okay, MAPPING CAMERA is going to STANDBY. IM PITCH MOTION is OFF. Altimeter - LASER ALTIMETER -is OFF. UV is OFF. IR is OFF. Okay, UV cover -box. UV COVER is CLOSED; barber pole, gray. IR COVER is CLOSED; barber pole, gray. Okay, MAP CAMERA LASER ALTIMETER - we'll leave that one OPEN.
 
 	Tape T6B/9
-	Page 636
+	Page 637
 CC Good show, Ron.
 CMP Okay. Then it's my understanding you don't want to do any dumping until I go on the back side of the Moon. Is that correct?
 CC That's affirm, Ron.
@@ -2485,7 +2485,7 @@ CMP Okay, that's good. Oh, glad I don't have anybody watching for me this time. 
 CC Yes, that's right. We won't be able to call you on that. When it's down to 8 percent.
 
 	Tape 76B/10
-	Page 637
+	Page 638
 CMP (Laughter) Okay, I'll put my old timer on.
 CC Hey, Ron, one other reminder. We know it's in the Flight Plan, but you may get real busy just prior to that orbital science photos. And EECOM would like to make sure you get the H purge line heaters off, as scheduled, at 118:02.
 CMP Okay. Okay, is she in there? Yes - it's in the Flight Plan. Okay.
@@ -2501,7 +2501,7 @@ CC Just remember what Jan says. Don't spill it on your flight suit.
 CMP (Laughter) Right.
 
 	Tape 76B/11
-	Page 638
+	Page 639
 CMP Did I miss lunch? Or wasn't I supposed to get any lunch today?
 CC I don't know, that wasn't on my shift. But if you're hungry, why don't you eat something?
 CMP (Laughter) That's what I'm doing.
@@ -2518,13 +2518,13 @@ CC Just don't go look at them; okay? We'll find them pre - postflight. Okay?
 CMP Okay.
 
 	Tape 76B/12
-	Page 639
+	Page 640
 CC Hey, Ron. I don't know what Tommy has against you, but they just never scheduled an eat period in here. We checked this out so thoroughly that, we forgot to check it to see if there was an eat period in there.
 CMP We probably weren't hungry when we checked it out.
 04 19 00 5^ CC Roger.
 
 	Tape 77A/1
-	Page 640
+	Page 641
 04 17 30 17 LMP-LM Okay. The LMP has got the RCU connected to the PLSS.
 CC Copy that, Jack. .
 04 17 31 43 CDR-LM Okay, Bob, I'm going to get on the PLSS, now.
@@ -2543,7 +2543,7 @@ CC Roger. We're following you.
 04 17 46 58 CDR-LM Okay. You're on and locked. Okay, and you got the cover? Okay. Your AUDIO breaker, CLOSED. Okay, on your PLSS PTT go MAIN; that's right.
 
 	Tape 77A/2
-	Page 641
+	Page 642
 CDR-LM Okay. PLSS MODE A.
 04 17 47 16 LMP-LM A.
 CDR-LM Okay; tone ON; VENT flag, P.
@@ -2567,7 +2567,7 @@ LMP-LM Loud and clear.
 CDR-LM Okay. We will not unstow the antenna. You are a skosh garbled, but very readable.
 
 	Tape 77A/3
-	Page 642
+	Page 643
 CDR-LM Okay. Stay where you are. I'm going to get mine. Okay. AUDIO breaker is -
 CDR-LM B.
 04 17 49 37 CDR-LM Okay. I got a tone.
@@ -2589,7 +2589,7 @@ CDR-LM Give me a call again.
 LMP-LM Okay. How do you read, Gene? 1, 2, 3, 4, 5-
 
 	Tape 77A/4
-	Page 643
+	Page 644
 CDR-LM Give me again.
 LMP-LM 1, 2, 3, 4, 5-
 CDR-LM I think so. I can't - Okay. I'm reading you. Okay. PLSS . LMP go B.
@@ -2614,7 +2614,7 @@ CDR-LM Tone and a VENT flag.
 LMP-LM ... my tone and - VENT flag.
 
 	Tape 77A/5
-	Page 644
+	Page 645
 CDR-LM Okay, Jack. The wheel is Houston and the blade is me. Hello, there; Houston. How are you reading CDR?
 CC Read CDR loud and clear. And, for your information, your TM on the PLSSs looks good.
 04 17 51 52 CDR-LM Okay. Let's go.
@@ -2637,7 +2637,7 @@ CDR-LM And SUIT FAN number 2, OPEN.
 04 17 52 36 LMP-LM 2's open.
 
 	Tape 77A/6
-	Page 645
+	Page 646
 04 17 52 38 CDR-LM Okay. And I've got SUIT FAN number 2. There's a MASTER ALARM. Okay. And I heard it run down. Okay. I don't see a - No, there's not an ECS caution until that thing runs down - about a minute or so. We'll watch for that. Okay; SUIT GAS DIVERTER, PULL-EGRESS.
 04 17 52 57 LMP-LM Okay. DIVERTER is PULL-EGRESS.
 CMP-LM CABIN GAS RETURN, EGRESS.
@@ -2659,7 +2659,7 @@ LMP-LM Ivo, that's the water.
 CDR-LM Could you turn towards me a little bit? Turn to the left. There you are, because I got ... Okay. Here it comes - right here. OPS hose under it now. Right here.
 
 	Tape 77A/7
-	Page 646
+	Page 647
 LMP-LM Here it is.
 CDR-LM Let me get it. I'll get it - I'll get it under your electrical cable.
 LMP-LM Guess you're going to want a purge valve in a minute.
@@ -2680,7 +2680,7 @@ LMP-LM (Laughter) Whee.
 04 17 55 06 CDR-LM Okay. My PURGE valve's LOW, locked, and the pin's in. Want some help with that? I want to take a look at it.
 
 	Tape 77A/8
-	Page 647
+	Page 648
 04 17 55 18 LMP-LM There's the old MASTER ALARM.
 CDR-LM Okay. That should be the WATER SEP.
 LMP-LM Yes.
@@ -2702,7 +2702,7 @@ LMP-LM Good.
 04 17 56 25 LMP-LM Okay. It's safe and in. Lock's in and rides [?] low. Pin's in; it's good.
 
 	Tape 77A/9
-	Page 648
+	Page 649
 CDR-LM Okay. Let me get my - this thing right here. Reach that hose for me under my arm.
 LMP-LM Put it under the electrical cable.
 CDR-LM Okay.
@@ -2725,7 +2725,7 @@ CDR-LM My ... is already prepared. And drink and position mikes.
 LMP-LM Oh, those little ... covers are next. Okay.
 
 	Tape 77A/10
-	Page 649
+	Page 650
 CDR-LM Had enough water today; they could - you could say you discovered me. I'm water on the Moon. Okay. Let's turn the descent water off, and let's stow this.
 04 17 58 19 LMP-LM Okay. WATER is going OFF. DESCENT WATER is OFF.
 CDR-LM Okay. And it's - Man, is it - Okay.
@@ -2746,7 +2746,7 @@ CC Yes, there it goes. We got it. Thank you.
 CDR-LM Okay, Bob. Okay. We got to get the PLSS fan on. Don't forget that's battery power. We can don our helmets, check our drink bags, don our LEVAs , protective visors, secure our tool harness. Our 0^ umbilicals are already stowed.
 
 	Tape 77A/11
-	Page 650
+	Page 651
 04 17 59 38 CDR-LM CDRÕs under the handhold. Verify the following. Now, where we pick up our -
 04 17 59 54 LMP-LM Have to put the helmets on, I think.
 CDR-LM Okay, yes. Then we pick up our gloves.
@@ -2768,7 +2768,7 @@ CDR-LM Sounds like you're in there, too. Darn, too far back. Okay, that's better
 LMP-LM Me, too. (Laughter)
 
 	Tape 77A/12
-	Page 651
+	Page 652
 CDR-LM Okay. Does that look lined up to you?
 LMP-LM Looks pretty good.
 CDR-LM Okay. Let me - Wait a minute. Let me get this down around - Okay. That's around behind you; thermally protected back there. That's below the OPS hose.
@@ -2791,7 +2791,7 @@ LMP-LM Want to put your protective visor down?
 CDR-LM Yes, if you got that thing all - You got it all done?
 
 	Tape 77A/13
-	Page 652
+	Page 653
 LMP-LM Yes.
 CDR-LM You happy with it back there?
 LMP-LM Yes, sir. You're nice and protected. Okay. Good Velcro.
@@ -2815,7 +2815,7 @@ CDR-LM Comm carrier.
 LMP-LM Standby. That's locked.
 
 	Tape 77A/14
-	Page 653
+	Page 654
 CDR-LM Okay. DIVERTER VALVE is vertical.
 LMP-LM Comm is that way. DIVERTER VALVE is vertical.
 CDR-LM Okay. One more time. Your helmet is locked, purge valve, locked. Yes. That's locked; that's locked; that's locked. And, let me see - let me see. Sure and that's locked.
@@ -2839,7 +2839,7 @@ LMP-LM Okay. Is that it?
 CDR-LM That's it. Don EV gloves. Do a little grease in here.
 
 	Tape 77A/15
-	Page 654
+	Page 655
 CDR-LM And make sure your wrist locks are locked. Glove straps adjusted and cover the wrist rings. Golly.
 04 18 08 14 CDR-LM I sure missed hearing it click, but they are locked. One of them is, anyway. Hey, Jack. I verify - -
 LMP-LM (Laughter)
@@ -2861,7 +2861,7 @@ CDR-LM Let me take a look. No.
 LMP-LM Didn't make it, huh?
 
 	Tape 77A/16
-	Page 655
+	Page 656
 CDR-LM Yes, well, let me - Hold your hand up here. Hold it up here.
 CDR-LM Looks good on my side. How is your side?
 LMP-LM Good over here.
@@ -2886,7 +2886,7 @@ LMP-LM Okay. Now what?
 04 18 12 22 CDR-LM Wrist rings are covered. Note if PGA biting. ... No, mine's all right. Your's okay?
 
 	Tape 77A/17
-	Page 656
+	Page 657
 LMP-LM No; it's fine.
 CDR-LM Okay. LGC cold's required. We been on cold all this time, right?
 LMP-LM Yes.
@@ -2909,7 +2909,7 @@ LMP-LM Okay. Hang on.
 CDR-LM Okay. I'll push towards you. Make sure that thing falls in the hole, because yours didn't right away.
 
 	Tape 77A/18
-	Page 657
+	Page 658
 CDR-LM Did it fall in?
 LMP-LM Yes - yes, it's in the hole.
 CDR-LM Okay. Wrist cover on.
@@ -2935,7 +2935,7 @@ LMP-LM Keep talking.
 CDR-LM Pressure integrity check. Okay. PLSS 02 ON. You ready for this?
 
 	Tape 77A/19
-	Page 658
+	Page 659
 LMP-LM I hope so.
 CDR-LM Okay. PLSS 02 ON.
 LMP-LM Mine's on.
@@ -2958,7 +2958,7 @@ LMP-LM No.
 04 18 16 58 CDR-LM Okay. I'm going to take my PLSS 02 OFF for 1 - counting 1 minute, 57* Let me know when you're up, Jack, and I'll give you a minute hand.
 
 	Tape 77A/20
-	Page 659
+	Page 660
 LMP-LM Okay. I'm clear.
 CDR-LM Okay. You up?
 LMP-LM Yes.
@@ -2981,7 +2981,7 @@ LMP-LM Hello, Houston; you copy the LMP?
 CC Roger. Copy the LMP. Okay; and Challenger - -
 
 	Tape 77A/21
-	Page 660
+	Page 661
 CDR-LM Okay. Standing by for your GO for depress.
 CC You'll be glad to know you are GO for depress.
 CDR-LM Thank you, Robert. I understand we are GO for depress.
@@ -3005,7 +3005,7 @@ CDR-LM Let me turn here. Wait a minute, I got turned.
 LMP-LM Okay. How far down are we going to take it? 3.5, right?
 
 	Tape 77A/22
-	Page 661
+	Page 662
 CDR-LM Yes, wait a minute. I'm not there yet.
 LMP-LM Well, I just want to make sure that I'm watching.
 CDR-LM Okay; now.
@@ -3028,7 +3028,7 @@ LMP-LM Okay. I'm below 5-
 CDR-LM So am I.
 
 	Tape 77A/23
-	Page 662
+	Page 663
 LMP-LM Verify that; okay.
 04 18 21 32 LMP-LM Okay. I'll start my watch.
 CC Okay. We verify and we're counting.
@@ -3053,7 +3053,7 @@ CC CDR, we're not reading the IMP either.
 LMP-LM Now, how do you read?
 
 	Tape 77A/24
-	Page 663
+	Page 664
 CC We read you - -
 CDR-LM Now, how do you read, Jack?
 LMP-LM Okay. You're loud and clear. Okay.
@@ -3076,7 +3076,7 @@ CDR-LM Yes. Put just enough air in here, we're - Okay; it's open, babe. Okay; it
 C\1 H 01 00 LMP-LM Good. Okay; final prep, PLSS primary H20. I've got to figure out how to open that now.
 
 	Tape 77A/25
-	Page 664
+	Page 665
 CDR-LM Okay.
 CDR-LM When you're at 5 psi, it's - We never did really train for this in the right way.
 04 18 24 39 LMP-LM Yes, we did. Okay. My water is OPEN.
@@ -3098,7 +3098,7 @@ CDR-LM Yes. I tell you at 4-1/2, you're really pretty heavy.
 LMP-LM What was that that came shooting up here? A piece of bread? (Laughter) Would you believe that?
 
 	Tape 77A/26
-	Page 665
+	Page 666
 CDR-LM Yes, I'd believe it.
 LMP-LM Why is our hatch open? Somebody opened our hatch. Are you getting cooling?
 CDR-LM I'm beginning to, I think.
@@ -3119,7 +3119,7 @@ CDR-LM Can you reach it?
 LMP-LM Well, I can't do it now, because it's come off from the bottom. I'll have to - -
 
 	Tape 77A/27
-	Page 666
+	Page 667
 CDR-LM Oh, the bottom of the PLSS, huh?
 LMP-LM Yes.
 04 18 07 46 CDR-LM Okay. Well, my legs are out. Keep that hatch open.
@@ -3142,7 +3142,7 @@ LMP-LM Deploy MESA.
 04 18 29 00 CDR-EVA Okay. Here it comes.
 
 	Tape 77A/28
-	Page 667
+	Page 668
 04 18 29 08 CDR-EVA There she goes, Babe.
 LMP-LM Yea, hey!
 CDR-EVA There she is. All the way down; it looks like. Okay. I jettisoned - Oh, you want an ETB?
@@ -3161,11 +3161,11 @@ LMP-LM Okay.
 CDR-EVA Okay.
 
 	Tape recorder - -
-	Page 668
+	Page 669
 04 18 30 43 CDR-EVA I'm on my way.
 
 	Tape 77A/29
-	Page 669
+	Page 670
 LMP-LM #NAME?
 CDR-EVA Sensitivity, max and max.
 CDR-EVA Okay, Houston, The Commander Is about three-quarters of the way down.
@@ -3178,7 +3178,7 @@ CC #NAME?
 04 18 32 53 CDR-EVA Okay. On the North Massif, we've got very obvious boulder tracks. A couple of large boulders come within 20 or 30 feet of the - Looks like where we can get to them, but there's a couple -there's a couple I know we can get to. Well, the Sun angle is such that, what I saw on the South Massif earlier I can't see very well. But, I know there were boulder tracks over there. The -Bare Mountain - Boy, it's hard to look to the east - Bare Mountain and the Sculptured Hills have a very, very similar texture on the surface. The Sculptured Hills is like the wrinkled skin of an old,sold, 100-year-old man - is probably the best way I could put it. Very, very hummocky, and -but smoothly pockmarked. I do not see any boulders up by the Sculptured Hills from here. But it's awful hard to look to the east and to the southeast
 
 	Tape 77A/30
-	Page 670
+	Page 671
 CC Okay. We copy that, Gene. Have you got an LMP with you yet?
 04 18 34 09 CDR-EVA Well, here come his feet. Jack, let me make sure. We didn't have an awful lot of dust on landing; but I can dig my foot in 8 or 10 inches, and I know we're at least that thick. There's a small little 1-meter crater right in front of us with a whole mess of glass right in the middle. That's right in front of the MESA, as a matter of fact. Right where I want to park the Rover. Jack, you're looking good.
 CC Beautiful, guys; beautiful.
@@ -3195,7 +3195,7 @@ LMP-EVA Hey, man; you had some forward velocity.
 CDR-EVA That's what I wanted to have.
 
 	Tape 77A/31
-	Page 671
+	Page 672
 CDR-EVA Boy, I look at some of these rocks that are filleted here, Jack, and there sure are a lot of sparklies in them. Awful lot of sparklies.
 LMP-EVA You landed in a crater!
 CDR-EVA That's a pretty good shot.
@@ -3215,7 +3215,7 @@ CC Okay. It looks on the map like itÕs about 75 meters in diameter. Fairly subt
 LMP-EVA You think thatÕs Poppy, huh?
 
 	Tape 77A/32
-	Page 672
+	Page 673
 CDR-EVA I think so - I think - -
 LMP-EVA That's an awful big hole.
 CDR-EVA Well, I know. I got to look axound a little more. It sure is not Trident.
@@ -3236,7 +3236,7 @@ LMP-EVA Yes. There you go. Whoa, whoa, whoa, whoa.
 CDR-EVA Don't move too fast. Boy, your feet look like you just walked on the Moon, you know.
 
 	Tape 77A/33
-	Page 673
+	Page 674
 LMP-EVA Well, I tell you Gene, I think the next generation ought to accept this as a challenge.
 LMP-EVA Let's see them leave footsteps like these someday. Got another - there, that'll be all right.
 04 18 39 12 CDR-EVA Okay. What did you do with my tool harness?
@@ -3257,7 +3257,7 @@ LMP-EVA If it doesn't I'll fix you again.
 04 18 40 33 CC Okay. Copy that.
 
 	Tape 77A/34
-	Page 674
+	Page 675
 LMP-EVA Boy, that sure -
 CDR-EVA See the soil sparkle?
 LMP-EVA Yes, I think that's a little glass.
@@ -3272,7 +3272,7 @@ LMP-EVA Looks like a vesicular, very light-colored porphyry of some kind; it's a
 CDR-EVA Jack, when you put up the ETB, the - check down there below it.
 
 	Tape 77A/35
-	Page 675
+	Page 676
 LMP-EVA Oh-ho-ho (laught er).
 04 18 42 33 CDR-EVA Okay, let's take a look at the Rover.
 LMP-EVA Let's don't forget those.
@@ -3292,7 +3292,7 @@ CDR-EVA The only reason I asked, Bob, I'm sure it's normal, and it doesn't look 
 CC Yes. The consensus of opinion down here is that you can, also.
 
 	Tape 77A/36
-	Page 676
+	Page 677
 CDR-EVA Yes, that's probably the best place in the world to get a consensus of opinion from. Okay, Jack, it's about work time. I've got this Rover about ready for - your pull up there.
 LMP-EVA I got a little delayed here.
 CDR-EVA Okay. I'm sure glad those guys made us train so hard.
@@ -3311,7 +3311,7 @@ LMP-EVA Well, let's see how good I am.
 CDR-EVA Don't drop that. Let me get that thing again.
 
 	Tape 77A/37
-	Page 677
+	Page 678
 CDR-EVA Yes, sir. (Laughter) Yes, sir. You're pretty agile there, twinkle toes.
 LMP-EVA You bet your - life I am.
 CDR-EVA All I asked you to do was pull that handle up there. Man, anything you grab, Jack - I just grabbed this lanyard that was in the dust - is really black.
@@ -3331,7 +3331,7 @@ LMP-EVA I'm putting all my weight (laughter).
 CDR-EVA Okay. Wait a minute. I'm coming down now. She's going to pop here.
 
 	Tape 77A/38
-	Page 678
+	Page 679
 LMP-EVA Okay.
 CDR-EVA Wait a minute. Stand by.
 LMP-EVA I may pull a Jim Irwin here.
@@ -3352,7 +3352,7 @@ CDR-EVA Yes. Let me - let me - don't pull it until I -Okay. Now I've got it.
 CDR-EVA Man, I'd walk and fall into that crater if I went to the end of this line.
 
 	Tape 77A/39
-	Page 679
+	Page 680
 04 18 48 59 LMP-EVA Houston, I do think we've got a different -
 CDR-EVA Well, we're deploying it at an angle. Okay. The outrigger cables are free, Jack.
 LMP-EVA Okay. Got a different breed of rock up here. The stuff's sticking through this thin regolith - or regolith, period. I don't know whether it's thin or thick yet (singing). Okay. Mine's free.
@@ -3369,7 +3369,7 @@ CDR-EVA Well, I'll tell you, it sure is easy to get dusty, but that's nothing ne
 04 18 50 32 LMP-EVA I think it's safe to say this surface was not formed yesterday. There is a regolith; it looks classic. Area distribution of particles up to 3 or 4 centimeters, anyway. Then, you start to get maybe a selective distribution of large fragments. Got that cable?
 
 	Tape 77A/40
-	Page 680
+	Page 681
 CDR-EVA Yes.
 LMP-EVA Okay. I'm going to walk away with this one.
 CDR-EVA Okay; outrigger cable.
@@ -3389,7 +3389,7 @@ LMP-EVA Longest cable in the world.
 04 18 52 15 CC CDR-EVA Wait till you get to the ALSEP package. Okay. By golly, those wheels did lock.
 
 	Tape 77A/41
-	Page 681
+	Page 682
 LMP-EVA (Laughter) I never knew that cable was that long, Bob. Oh, a glass bottom - a glass bottom crater with a little bench. Looks like one of the Flagstaff explosion craters except for the glass in it. Right out at 12 o'clock. That's the one I was talking about, about having a bright halo. I don't know whether it's easier to walk out there or to do what I did in training - that I wouldn't do on the Moon. Somebody's going to get tangled up with this thing.
 CDR-EVA That's why I'd get it all under the LM somewhere. I'd - what I'd - took me 5 minutes to do and get it all out of the way. Okay, Bob, the front wheels locked in. I had to pull the rear wheels -rear wheels back to get them to lock in.
 04 18 53 11 CC Okay. Copy that.
@@ -3404,7 +3404,7 @@ CDR-EVA Okay. Pull that pin. Until we get that saddle loose.
 CDR-EVA Beautiful. Okay, we're going to have to move that thing - that line, Jack. You ready?
 
 	Tape 77A/42
-	Page 682
+	Page 683
 LMP-EVA I'll move it.
 CDR-EVA Okay. Let's find a - back over here. See that?
 LMP-EVA Yes .
@@ -3429,7 +3429,7 @@ LMP-EVA Well - neither's my outboard one.
 CDR-EVA Ity outboard is in, but my inboard is not.
 
 	Tape 77A/43
-	Page 683
+	Page 684
 LMP-EVA And my outboard isn't.
 CDR-EVA Well.
 04 18 55 09 LMP-EVA That's supposed to do it. But it didn't.
@@ -3450,7 +3450,7 @@ LMP-EVA Good.
 CDR-EVA Can I get mine in?
 
 	Tape 77A/44
-	Page 684
+	Page 685
 LMP-EVA Want me to get it?
 CDR-EVA Well, yes. Can you reach it from there? It's a nice ... on it. Almost. A little more. Wait a minute. Let me get it - let me get it right -Okay; push. It's in. It's in.
 LMP-EVA Very good. Why don't you put that between the s eats ?
@@ -3471,7 +3471,7 @@ CDR-EVA Well, it's a case of knowing how to play in 1/6 g, is what it amounts to
 04 18 58 50 CDR-EVA Okay; mine's pulled.
 
 	Tape 77A/45
-	Page 685
+	Page 686
 04 18 58 51 LMP-EVA Mine's pulled.
 04 18 58 53 CDR-EVA Came on down, baby. Here it comes. Stiff, but come on.
 04 18 58 56 LMP-EVA There it is.
@@ -3492,7 +3492,7 @@ CDR-EVA I doubt that. Man, I tell you, zero g is a piece of cake if you - or 1/6
 04 19 00 17 CDR-EVA Man, look at that stuff go, will you?
 
 	Tape 77A/46
-	Page 686
+	Page 687
 04 19 00 18 CC And, Jack, this is Houston. We're seeing - Looks like your water temperature's getting pretty high. You might want to go to intermediate cooling or slow down or something. Looks like youÕre getting a little warm.
 04 19 00 38 CDR-EVA You hear them, Jack?
 04 19 00 39 LMP-EVA Yes. I got it. Thank you, Bob.
@@ -3502,7 +3502,7 @@ CDR-EVA I doubt that. Man, I tell you, zero g is a piece of cake if you - or 1/6
  END 0T TAPE
 
 	Tape 77B/1
-	Page 687
+	Page 688
 04 19 01 19 CC You've got a lunar sounder HF pass at 1 - starting - at 119È for a site - well, actually a 2 hour, no, 1 hour that you could probably grab some food at that time.
 CMP Okay.
 04 19 19 XX  BEGIN LUNAR REV 16
@@ -3520,7 +3520,7 @@ CC Roger. When you came by Arabia, could you see the subdued rings of Arabia?
 CMP You know, I haven't had a real chance to look at those yet.
 
 	Tape 77B/2
-	Page 688
+	Page 689
 CC Roger.
 04 19 53 16 CMP Okay. Magazine SS is full.
 CC Roger. We copy.
@@ -3539,7 +3539,7 @@ CC Roger, Ron. It's minus - minus 160.39¥
 0U 19 57 37 CMP Okay. Readback. TEI-26, SPS/G&N; 37630; plus 0.53, plus 0.97; 139:41:14.32; and 8l's plus 245.07, minus 2097*8, minus 0807.1; roll, 187, 104, 323. Sirius and Rigel; 133, 200, 030. Four jet, 12 seconds. Lunar longitude at is minus l60.39.
 
 	Tape 77B/3
-	Page 689
+	Page 690
 04 19 58 17 CC Good readback, Ron. And the earthshine photo pad is at 121:05 in the Flight Plan.
 CMP Okay. Stand by just a second. 121:05, huh?
 CC That's affirmat ive.
@@ -3559,7 +3559,7 @@ CMP Gee whiz.
 CC Roger. Looking at the Flight Plan, Ron, you're coming up on selecting OMNI Bravo and setting up the HIGH GAIN and pow - powering it OFF-, and getting ready for the LUNAR SOUNDER receive only section here.
 
 	Tape 77B/4
-	Page 690
+	Page 691
 CMP Okay, (Humming)
 04 20 09 52 CMP Okay; 49. OMNI Bravo. And set the HIGH GAIN MACTUAL and WIDE, minus 74,
 CC And, Ron, your friends down here said that they could hear you on the VHF loud and clear.
@@ -3578,7 +3578,7 @@ CC ThatÕs affirmative. We - we circled it - at Grimaldi B and the east and nort
 CMP Okay. WeÕve put it just - got a little X about the diameter of Riccioli G, to the west of Riccioli G.
 
 	Tape 77B/5
-	Page 691
+	Page 692
 CC Okay. That's probably - -
 CMP ... west of it.
 CC That's probably - he didnÕt ever call the - IÕll ask FAO here, but I don't think he ever called the actual - coordinates on it. I'll ask FAO. That's probably close enough. They'll probably all be in the picture anyway, wouldn't it?
@@ -3594,7 +3594,7 @@ CC Well, you have to remember on the seismometer, on at least the one for Jack's
 CMP Oh, okay; sure.
 
 	Tape 77B/6
-	Page 692
+	Page 693
 04 20 27 58 CC Ron, I know you're wondering. All the data so far on the lunar sounder has come out real good, and the HP pass is looking real good.
 CMP Oh, that's dandy! Hey, that's great!
 CMP Let's hope something is going on the film.
@@ -3612,7 +3612,7 @@ CC Yes, they were willing to bet on it.
 04 20 33 35 CMP You can't pack them in there, you have to - yes - -
 
 	Tape 78A/1
-	Page 693
+	Page 694
 04 19 01 21 CC Okay; and 17s you're right on schedule.
 CDR-EVA Okay. Thank you, Bob. Did you tell Captain America we're on the surface?
 CC Roger. We broke the news to him awhile ago.
@@ -3632,7 +3632,7 @@ LMP-EVA Well, the seat belt fits perfect.
 CDR-EVA Shoot. I thought I was going to get to drive. Man, I got so much dust over my visor already, I got to wipe it off. Get that lens brush; I want you to dust me off a little later, Jack.
 
 	Tape 78A/2
-	Page 694
+	Page 695
 LMP-EVA The lens brush?
 CDR-EVA Well, I've got to dust wy visor off with something
 CC Roger. Don't use your glove or dust brush there.
@@ -3649,7 +3649,7 @@ CDR-EVA All the breakers closed except NAV.
 LMP-EVA The old 4 o'clock pan.
 
 	Tape 78A/3
-	Page 695
+	Page 696
 0U 19 05 50 CDR-EVA Okay, Houston. Amp-hours, I'm reading 115, Amps are 0. Volts are 82 and 82. Batteries are -95 and 110. FORWARD MOTORS are off scale low, off scale low, and REARS are off scale low, off scale low. Houston, you with us?
 CC Roger. We copy that.
 CDR-EVA Okay.
@@ -3668,7 +3668,7 @@ CDR-EVA What do you see, Jack?
 LMP-EVA Well, I - you're wrong angle. Yes, they're turning.
 
 	Tape 78A/4
-	Page 696
+	Page 697
 CDR-EVA How does that grab you?
 LMP-EVA They're turning.
 CC How about that?
@@ -3691,7 +3691,7 @@ CDR-EVA Boy, there's a lot of static, though, everytime I. start driving.
 04 19 10 09 LMP-EVA I know what that was over there, I think. Let me see. Whee! Okay, Houston. The basic material around the LM is just what I said Ñ a fine-grained, medium-gray regolith-appearing material that is the
 
 	Tape 78A/5
-	Page 697
+	Page 698
  standard area's population. The craters, though, bigger than about a meter in diameter, seem to -get to - rock fragments - which I haven't yet learned how to pick up.
 CDR-EVA Okay, Jack. I'm going to give them our position here. I think I know exactly where we are now.
 LMP-EVA Well, once you get them dirty, just like the boys say, it's hard to tell what they are.
@@ -3703,7 +3703,7 @@ CC Roger. We copied that, Geno.
 CDR-EVA And Bob, I'm - I'm - IÕm very firm of that now. I'm almost positive, unless I'm awfully mistaken about Trident. I don't see how I could be from here. At the sacrifice of my cleanliness, Houston, the basic bright-colored rock type in the area lQoks very much like a cristobalite gabbros of
 
 	Tape 78A/6
-	Page 698
+	Page 699
  the - I didn't see cristobalite, but it looks like the gabbros in the mare basalt sweep. The coarsegrained clinopyroxene plagioclase rocks.
 CC Okay. We have that.
 04 19 13 50 CDR-EVA Okay, I'm going to park - How about along side -Am I gonna screw up that little crater with glass in it if I park there?
@@ -3723,7 +3723,7 @@ LMP-EVA I want to put this camera over here right now, because it's pretty dirty
 CDR-EVA LRV front configure. Whoops. Hold it. Hold it.
 
 	Tape 78A/7
-	Page 699
+	Page 700
 CDR-EVA What? Okay, we'll catch up.
 LMP-EVA I haven't quite learned how to pick up rocks in my hands yet, Bob, or I would of had you a sample. That's why I fell down. My day will come (singing). Oh, oh! It's an old blue traverse gravimeter.
 CDR-EVA Okay. On the plains of Taurus-Littrow. What a valley. I'd like to cut down here, through here, with a P-38 sometime.
@@ -3745,7 +3745,7 @@ CC Copy that.
 LMP-EVA I'm getting pretty good at throwing things -already.
 
 	Tape 78A/8
-	Page 700
+	Page 701
 CDR-EVA Man, that thing won't want to go on. That's because it's not in there. Put it in right, and it goes on.
 0U 19 18 05 CDR-EVA Okay, the power cable's on to TCU, Bob.
 CC Got that.
@@ -3767,7 +3767,7 @@ CDR-EVA Okay, Jack. I set the rake on the - -
 LMP-EVA Beautiful.
 
 	Tape 78A/9
-	Page 701
+	Page 702
 CDR-EVA - - on the seat. I just haven't learned -I'm getting more finesse now. I think you can overwork yourself, instead of making use of the l/6g.
 LMP-EVA Yes.
 CDR-EVA It's going to take a whole EVA to get familiar.
@@ -3788,7 +3788,7 @@ CDR-EVA Pull the antenna.
 LMP-EVA Rather awkward.
 
 	Tape 78A/10
-	Page 702
+	Page 703
 CDR-EVA Pull the - pull the antenna. I got to open it up to get it out.
 LMP-EVA Okay. Big connector, you know.
 CDR-EVA Yes, connector was wedged in there.
@@ -3813,7 +3813,7 @@ CDR-EVA #NAME?
 LMP-EVA #NAME?
 
 	Tape 78A/11
-	Page 703
+	Page 704
 CC Okay. We copy the low gain hooked up.
 LMP-EVA (Hum.) The rake - the rake is on the extension handle.
 CC Roger, 17.
@@ -3833,7 +3833,7 @@ CDR-EVA Don't want to mess up all those good looking craters around here.
 LMP-EVA Oop! Hang on there accessory staff. Accessory staff, huh? Most staffs are accessory IÕve learned.
 
 	Tape 78A/12
-	Page 704
+	Page 705
 04 19 26 54. LMP-EVA Okay, Bob the high gain is up and connected.
 CC Okay. Copy that. Beautiful.
 LMP-EVA And raised.
@@ -3854,7 +3854,7 @@ CDR-EVA No you haven't, babe. When you begin to believe tbat. Come on camera, go
 LMP-EVA I'll look in a minute, Gene. But I tell you, once I start this little operation, if I don't finish it, it never get s done.
 
 	Tape 78A/13
-	Page 705
+	Page 706
 CDR-EVA Okay, get in there. Okay, that's in there. That's in there.
 04 19 28 39 CDR-EVA Camera is locked down. Okay, TCU, sunshade the camera and then the cable. Okay, let me get the sunshade.
 04 19 28 56 LMP-EVA That's always more of a job than it ought to be. However, SCB-3 is on the handhold.
@@ -3873,7 +3873,7 @@ LMP-EVA Okay, now, well let's see how smart you are. That was a pretty good atti
 CDR-EVA Okay, Jack is the high gain away from my antenna. Can you see?
 
 	Tape 78A/14
-	Page 706
+	Page 707
 LMP-EVA Let me turn around. Yes. You're clear.
 CDR-EVA Okay, it's locked. Locked. Now let me see if I can find beautiful big dot up there. I know what I'm going to have to do. IÕm going to have to get the, oh, I got it right there. Might be able to peak that but I got that.
 LMP-EVA You hit it, huh?
@@ -3893,7 +3893,7 @@ CC Copy that.
 CDR-EVA POWER switch is INTERNAL. POWER switch is INTERNAL. Okay, let me give you some - some
 
 	Tape 78A/15
-	Page 707
+	Page 708
  numbers. AGC is 3 - about 3.4; temp is about 1.8; and power is about 2.1. Okay; POWER to EXTERNAL.
 CC We copy those, Geno.
 CC Geno.
@@ -3913,7 +3913,7 @@ CDR-EVA Okay, Bob, I'm going to get SRC 1.
 CC Okay, could we have a EMU check on you fellows when convenient?
 
 	Tape 78A/16
-	Page 708
+	Page 709
 CDR-EVA Okay. Commander is 3.8 plus. I'm - I must be 80 percent and no flags and no tones.
 CC Copy that.
 LMP-EVA Okay, LMP is - LMP is about 80, let me see - 75, about 80 percent, and no flags, no tones. I've got 83 percent.
@@ -3935,7 +3935,7 @@ CC Go ahead. Copy that.
 04 19 36 53 CDR-EVA Okay, Bob, SRC 1 is - She sure wonÕt stay in the MESA ...
 
 	Tape 78A/17
-	Page 709
+	Page 710
 LMP-EVA Let me try that. Okay, that will stay in there
 CDR-EVA Okay, Bob. It's closed. It sure doesn't seem like it wants to stay there, though. And the organic sample has been sealed.
 CC Copy that.
@@ -3955,7 +3955,7 @@ LMP-EVA Okay, you'd better let that - yes, but why don't when you go - let me ge
 CDR-EVA Okay.
 
 	Tape 78A/18
-	Page 710
+	Page 711
 LMP-EVA #NAME?
 CDR-EVA Okay.
 LMP-EVA Okay. Let me steady the Rover ...
@@ -3978,7 +3978,7 @@ LMP-EVA I'm going to hang them here on the hook.
 CDR-EVA Okay, that's good.
 
 	Tape 78A/1Q
-	Page 711
+	Page 712
 LMP-EVA Right there.
 CDR-EVA Okay, Jack. How about the flag right over here in this little mound?
 LMP-EVA Which mound?
@@ -3999,7 +3999,7 @@ CDR-EVA No, it was still going.
 LMP-EVA Yes, but did you ever see a vibrator like that?
 
 	Tape 70A/2O
-	Page 712
+	Page 713
 CDR-EVA No, IÕve never put a flag up on the Moon before.
 LMP-EVA What? Pull that in.
 CDR-EVA (Laughter) You'll have to get it down to my level. Tall guys are all alike.
@@ -4021,7 +4021,7 @@ CDR-EVA There you go. Wait a minute.
 LMP-EVA All right I got you reaching for the flag.
 
 	Tape 78A/21
-	Page 713
+	Page 714
 CDR-EVA How's that?
 LMP-EVA That's very good, Gene. Let me get it to stereo.
 CDR-EVA Houston - -
@@ -4040,7 +4040,7 @@ LMP-EVA I don't - I don't think it's going - you're a little close, maybe. Get t
 CDR-EVA That might do it. Try that one time, then we'll give up and get to work.
 
 	Tape 7 8A/22
-	Page 714
+	Page 715
 LMP-EVA Higher up a little -
 CDR-EVA Yes.
 LMP-EVA Let me try it again, okay? I don't know, Geno, okay? Let me get over here closer to you. Okay. That might have got it.
@@ -4061,7 +4061,7 @@ CDR-EVA #NAME?
 04 19 47 52 LMP-EVA Okay, why don't - why don't I give the old - the old inspection here bit. And I really ought to have nry camera, shouldn't I?
 
 	Tape 78A/23
-	Page 715
+	Page 716
 CDR-EVA I need a - -
 LMP-EVA Yes.
 CC Roger. That's affirmative.
@@ -4079,7 +4079,7 @@ CC We'11 worry about that later.
 CDR-EVA ... now that we're here.
 
 	Tape 78A/24
-	Page 716
+	Page 717
 LMP-EVA Oh, but they always - they always give them to us in the simulator. Hey, Bob, judging from what I see on my clock, we're not but about 5 minutes behind.
 CC That agrees more or less with the way we read it.
 04 19 50 03 LMP-EVA Gene had a little forward motion as I think you heard his call. And that shows up in the forward footpad at any rate or did. It looks like he may have hit tail first a little bit. That's embedded to the full pad depth. I see no - By George, Gene, you may have had a first. I think you stroked that thing.
@@ -4097,7 +4097,7 @@ CC Ready.
 LMP-EVA You put the big bag up - -
 
 	Tape 78A/2S
-	Page 717
+	Page 718
 04 19 50 51 CDR-EVA 670 003 101. That's 670 003 101.
 CC Okay. We copy that.
 CDR-EVA Jack, I put that there to hold the SRC down.
@@ -4119,7 +4119,7 @@ CDR-EVA No, its on the deck.
 LMP-EVA Okay.
 
 	Tape 78A/26
-	Page 718
+	Page 719
 CC Okay, you might grab me a ... when you set it on there, Jack.
 LMP-EVA Too late. Bob.
 CC Okay.
@@ -4143,7 +4143,7 @@ CC Copy. Roger. Understand the cosmic ray.
 CDR-EVA Okay, Bob. The antenna is deployed. It's not on the post yet, but it's deployed.
 
 	Tape 78A/27
-	Page 719
+	Page 720
 LMP-EVA Oh, oh, come on. Don't get - don't get all caught on something. That's better, that's better. Okay, Bob. I think - just about got a - the sunside deployed, just as perpendicular to the Sun as I think anybody could do.
 CC Okay. Copy that. Good enough.
 LMP-EVA Okay, I don't have any pictures yet, so you might put that down as something to get later.
@@ -4160,7 +4160,7 @@ LMP-EVA Okay. Yes, I need the pulleys.
 CDR-EVA You know, Bob, I've got a little bit of a problem here. I've got the SEP connector on. (Laughter) But it - it - it'll - it'll - it'll slide - slide down in, but the locking cover just won't go over.
 
 	Tape 78A/28
-	Page 720
+	Page 721
 CC Roger, Geno. Understand. It slides in far enough, you think it's aligned, huh?
 CDR-EVA Yes, I'm positive it's aligned. It just - it didn't appear to lock over, well not appear, it just won't lock over. I'm shoving it home. Okay, I got it.
 CC Okay. Copy.
@@ -4182,7 +4182,7 @@ CDR-EVA Okay, 4, 5È 6, and 7- ItÕs coming off.
 CC Roger on that.
 
 	Tape 78A/29
-	Page 721
+	Page 722
 CDR-EVA Okay.
 04 20 00 36 CDR-EVA Just took time out for a snack and a little water.
 CC Okay.
@@ -4203,7 +4203,7 @@ CDR-EVA The SRC doesn't have to be all the way closed does it?
 CC No, Not all the way. Just as long as it'y most of the way closed. You can have a crack there in the top.
 
 	Tape 78A/30
-	Page 722
+	Page 723
 CDR Okay, that's what it is. Man, I'll tell you. This - this thing got low all of a sudden. How are you coming, Jack?
 LMP-EVA Great.
 CDR-EVA You get it fueled yet?
@@ -4225,7 +4225,7 @@ CC Hello, Challenger.
 LMP-EVA I wish I could go back and make that landing about 6 or 7 times so I could take in all that I missed.
 
 	Tape 78A/31
-	Page 723
+	Page 724
 CDR-EVA So do I. I might as well have stayed at the Cape. Okay. Let's see. Core bore neutron flux, and I'll get the drill and I'11 go back and ...
 CC Geno, you know you might wander by the gravimeter. I think it might be done by now. You might just check the light and see if it's steady, or on or not.
 CDR-EVA Okay. I'll go by there right now, Bob -
@@ -4245,7 +4245,7 @@ LMP-EVA Well, the dome removal tool never latched into the dome, but it turned i
 CDR-EVA Oh, boy.
 
 	Tape 78A/32
-	Page 724
+	Page 725
 LMP-EVA So, let me have your hammer because I'm going to have to pry off the dome.
 CDR-EVA Can't you - -
 LMP-EVA No. I - I, you see I - I've stripped it, I think. I didn't think I could do it.
@@ -4265,7 +4265,7 @@ CDR-EVA Bob, I'm just taking a breather.
 CC Okay, we're watching you.
 
 	Tape 78A/33
-	Page 725
+	Page 726
 LMP-EVA That was a strange one, Gene. Did you see how I mangled that thing?
 CDR-EVA Yes.
 LMP-EVA Okay, TRG i s out.
@@ -4285,7 +4285,7 @@ LMP-EVA And I'm checking out the cosmic ray. Cosmic ray looks good.
 CC Beautiful.
 
 	Tape 78A/34
-	Page 726
+	Page 727
 LMP-EVA Oh f I snuck a queek - quick peek at the drill, and it does work. What in the world is that?
 CDR-EVA That's Ron.
 LMP-EVA Ron?
@@ -4308,7 +4308,7 @@ LMP-EVA Say, Bob, I'm moving dovn-Sun.
 CDR-EVA Well, I'll get that in a minute.
 
 	Tape 78A/35
-	Page 727
+	Page 728
 LMP-EVA I'm moving down-Sun, and where we've walked, we stir up darker material - just slightly, but it's darker. The same old thing, the most mature -that most regoliths have.
 CC Okay, copy that. Have you got a bias reading there, Gene?
 04 20 11 5^ CDR-EVA Yes, I'm giving it to you right now - 337 > 454, 001 - thatÕs 337, 454, 001
@@ -4328,7 +4328,7 @@ CDR-EVA I'm going to be a little bit behind you if I have to work on that fender
 CC Yes, you can walk a bit more slowly than you're walking, Jack.
 
 	Tape 78A/36
-	Page 728
+	Page 729
 LMP-EVA Okay, more and more - What's that?
 CC I said that you can walk more slowly than you started out, anyway.
 LMP-EVA Bob, texturially, same of these rock that I believe - gabbros - have a texture not unlike a -a welded tuff. But I don't think - I know they're not. But they've got some mottled characteristic to them that I haven't yet figured out.
@@ -4346,7 +4346,7 @@ LMP-EVA - - get out of the shallow depression that's here.
 CC Roger. It's not so shallow. You disappeared out of sight from the last ...
 
 	Tape 78A/37
-	Page 729
+	Page 730
 04 20 16 10 LMP-EVA Well it's shallow relative to other depressions I've been in. You know, this ALSEP is almost as heavy as what we had at the Cape. I lost one of my blocks. Oh well, I'll - I'll get it on a rock, or I'll retrace your steps.
 CDR-EVA Don't worry about that. I'll be able to - there are enough rocks around. I can use it.
 CC Copy that, Jack. And Gene, if you're having trouble with that fender and you think it might be easier with two guys, you could wait until you get out to the ALSEP site.
@@ -4361,7 +4361,7 @@ CDR-EVA Hey, leave me enough room to deploy the heat flow.
 LMP-EVA I'm going to, I'm looking for a place. Away from craters and rocks.
 
 	Tape 78A/38
-	Page 730
+	Page 731
 LMP-EVA That's why I didn't land up there.
 LMP-EVA Okay, I think I've got a place. And I think it will also give you a spot for the NEUTIZON flux that's sheltered from the RTG.
 CC Okay. You say you have a place like that, Jack?
@@ -4381,7 +4381,7 @@ LMP-EVA Well, it could be 10 feet.
 CC Okay.
 
 	Tape 78A/39
-	Page 731
+	Page 732
 LMP-EVA Well, I can move a little more south, I guess.
 CC Okay. And Jack, it seems like about - if you're about 3 meters from the rock, that's no problem.
 LMP-EVA Okay. Okay, this is it.
@@ -4400,7 +4400,7 @@ LMP-EVA ItÕs just - Bob, it's really, in detail - The meter and half-meter scal
 CC Okay, copy that. We're ready to press on with ALSEP INTERCONNECT. And Geno, how are you doing on that fender?
 
 	Tape 78A/40
-	Page 732
+	Page 733
 CDR-EVA Bob, I am done. If that fender stays on, I'm going to take a picture of it because I'd like some sort of mending award. It's not too neat, but tape and lunar dust just don't hand in there together.
 CC Okay. Copy that.
 CDR-EVA Well, let's hope. Keep your fingers crossed, and IÕll be more careful around the fenders.
@@ -4416,7 +4416,7 @@ CC Roger.
 CDR-EVA Okay. MODE switch is 1. I'm ready to drive to the ALSEP site. Still want to park 60 northeast - east and north.
 
 	Tape 78A/4l
-	Page 733
+	Page 734
 CC Okay, Geno. And before you leave the LM there, how about giving me another BAT TEMP reading. Those were a little high and we'd like to try and verify some of that stuff.
 CDR-EVA Boy, oh boy. Yes, I get you Bob. Boy, oh boy. You just got to be careful where you kick dust.
 LMP-EVA That's right.
@@ -4436,7 +4436,7 @@ CC . And facing east. Down - Sun. And then we'll open the battery covers - -
 CDR-EVA Okay, Bob, I can't read you, but facing east and down-Sun are not the same.
 
 	Tape 78A/42
-	Page 734
+	Page 735
 CC Well, approximately there.
 CDR-EVA Jack, you need your block? I got it right here.
 CC Facing - -
@@ -4459,7 +4459,7 @@ CDR-EVA Okay.
 CC About 60 feet north of the Central Station.
 
 	Tape 78A/43
-	Page 735
+	Page 736
 CDR-EVA Sixty feet north of Central Station - I canÕt park a little northeast? Now, okay, and you want the battery covers open?
 CC That's affirmative, Gene. And that means you will have to dust them before you open them.
 CDR-EVA Yes, I guess so. Man, am I glad I didn't land up here, Jack.
@@ -4479,7 +4479,7 @@ LMP-EVA Oh, okay.
 CC Okay, 17È for your planning -
 
 	Tape 78A/44
-	Page 736
+	Page 737
 LMP-EVA Okay, about 60 feet northeast. How does it look behind you.
 CC Okay, 17, for your planning, we're - we're now about 20 minutes behind the time line -
 LMP-EVA That's good.
@@ -4500,7 +4500,7 @@ CDR-EVA Okay, let me get these covers dusted.
 CDR-EVA Well, that's a consolation. It's not as hard to get at the covers as one might think.
 
 	Tape 78B/1
-	Page 737
+	Page 738
 04 20 39 29 CMP Well, I can see Reiner Gamma real well out window 3.
 CC Roger.
 CMP I should be able to get back there next rev, I guess.
@@ -4518,7 +4518,7 @@ CC Right.
 CMP Yes, I can see Grimaldi and Riccioli coming up now. Just passing over the edge of the mare ...
 
 	Tape 78B/2
-	Page 738
+	Page 739
 CC Roger. That's Grimaldi mare there?
 CMP Yes, I can see it coming up.
 CC Okay.
@@ -4540,7 +4540,7 @@ CC Roger.
 CMP (Laughter) Fool around in here by yourself, and you get disoriented.
 
 	Tape 78B/3
-	Page 739
+	Page 740
 04 20 54 05 CMP Well, I didn't see any slices down there that time.
 CC Roger.
 CC Hey, youÕre looking good, Ron. YouÕre right on the Flight Plan. We haven't missed a thing yet today, I don't think. In really good shape.
@@ -4558,7 +4558,7 @@ CC Okay.
 CC I'll get a confirmation on some, Ron, but I think when we get on to Reiner Gamma on that pass of target 15 Delta, we're not going to have enough film left to run out over Riccioli and that area, which is already taken. That's why we hate to take these now, because when - when we come up there in the next pass, you're not going to have enough film.
 
 	Tape 78B/4
-	Page 740
+	Page 741
 CMP Oh, I see. Okay.
 CMP Let's see. While I got the camera out, I can look ahead, I guess, and see what - what mag to put in there.
 CMP WW, I guess, huh?
@@ -4579,7 +4579,7 @@ CC Roger.
 CC Roger, Ron. We copy. Lima Lima on 5^-
 
 	Tape 78B/5
-	Page 741
+	Page 742
 CMP And mag - and mag Quebec, Quebec is starting on frame 53.
 CC Roger. We copy.
 04 22 02 16 CMP Houston, America. I got to unplug you for a little bit. I'm so tangled up in my hoses here, I'm getting strangled to death.
@@ -4589,7 +4589,7 @@ CC Roger, Ron. We'll give you a call. You can go on to Bravo now, Ron.
 CMP (Laughter) Okay. Do you have it? Okeydoke.
 
 	Tape 79A/1
-	Page 742
+	Page 743
 04 20 34 05 LMP-EVA Okay; I'm working on the LEAM connection now, Bob.
 CC Okay. I copy that, Jack. Understand you - -
 LMP-EVA Say, it's hard to hit that garbage pile.
@@ -4611,7 +4611,7 @@ CC Okay. Copy that, Geno.
 04 20 36 02 CDR-EVA Well, well, well, well, okay; I hope that helps. Whoo! I'm going to go to MAX for a minute here. Do you buy that?
 
 	Tape 79A/2
-	Page 743
+	Page 744
 CC Okay, Geno. We copy.
 CDR-EVA It seems hot in the valley of Taurus.
 CC Okay.
@@ -4635,7 +4635,7 @@ LMP-EVA IÕm just trying to level - -
 CDR-EVA Are you going to move that very much?
 
 	Tape 79A/3
-	Page 744
+	Page 745
 LMP-EVA No, I'm just - I'll be working with it to try to level it. ItÕs - that's going to be a major task.
 CDR-EVA Okay, there's 30 feet, I'll just -I'll get this thing squared away when I - Okay, Boyd bolt time.
 LMP-EVA Ha, wheel That really went. Man, these things are just like they are at the Cape. You can feel every one of them.
@@ -4654,7 +4654,7 @@ CDR-EVA Yes, I never drilled a hole where there's not a can.
 LMP-EVA Boyd bolts are OFF. Bob, does it bother him that the base of the LSG is touch - touching soil? Because this is pretty soft.
 
 	Tape 79A/4
-	Page 745
+	Page 746
 LMP-EVA Bob, did you give me an answer?
 CC Roger. Ron thinks he has seen it. We haven't had a confirmation on the last orbit when you were talking to him, but he thinks he saw it the previous orbit.
 LMP-EVA Hey, hey, Bob. Hey, Bob.
@@ -4674,7 +4674,7 @@ CC Okay.
 LMP-EVA Okay. I went to "pseudo intermediate," between minimum and intermediate. The bubble is just touching the - its circle, and the alignment - Sun alignment is good.
 
 	Tape 79A/5
-	Page 746
+	Page 747
 CC Roger. Copy that. Thank you.
 LMP-EVA Okay, Gene. You've got some good slack here, if you can leave it that way. You shouldn't have the cable draped across anything, that's good.
 CDR-EVA Okay. I want to try and get this thing in there. It won't - there it is.
@@ -4696,7 +4696,7 @@ LMP-EVA Can you - okay.
 CDR-EVA How's that?
 
 	Tape 79A/6
-	Page 747
+	Page 748
 LMP-EVA That's good.
 CDR-EVA Got enough?
 LMP-EVA This way just a little, Geno. That's good. Doesn't take much.
@@ -4717,7 +4717,7 @@ CC Roger. The camera's been running all this time.
 CDR-EVA That's beautiful. Okay. Your temperatures are down to a hundred - and maybe a sukosh 120 under, so maybe those batteries are cooling off.
 
 	Tape 79A/7
-	Page 748
+	Page 749
 CC Okay; good.
 CDR-EVA It's sure good. I donÕt want to walk on that third EVA.
 CC Roger.
@@ -4737,7 +4737,7 @@ CC All right.
 LMP-EVA The garbage pile is turning out to be - just like every other ALSEP deployment. It's hard to control.
 
 	Tape 79A/8
-	Page 749
+	Page 750
 CC And I understand all your legs came out okay, Geno, or didn't come out.
 CDR-EVA Okay. Yes, sir; they all came out okay.
 04 20 48 51 LMP-EVA Okay. LMS ring is pulled.
@@ -4759,7 +4759,7 @@ CDR-EVA I can move it further - -
 LMP-EVA No. That's all right.
 
 	Tape 79A/9
-	Page 750
+	Page 751
 CDR-EVA #NAME?
 LMP-EVA No, this will be all right. I just want to keep away from you there.
 CDR-EVA We shall soon see how tuned we are. I'm anxious to see what's under this mantle.
@@ -4778,7 +4778,7 @@ CDR-EVA What were you doing down in there?
 LMP-EVA (Laughter) Okay. And, Bob - -
 
 	Tape 79A/10
-	Page 751
+	Page 752
 LMP-EVA - - Bob, there's a little bit of dust adhering to the - sides of the LMS. And a few particles less than - half a percent of the surface on the top. But, of course, you're going to clean that one off; so that's all right.
 CC ThatÕs affirm on the top.
 LMP-EVA The - the north side has about a - 10- or 15-percent dust cover.
@@ -4796,7 +4796,7 @@ LMP-EVA Bob, I'll tell you, this central station's a bear - bear to get level. W
 LMP-EVA It's just too soft.
 
 	Tape 79A/11
-	Page 752
+	Page 753
 CDR-EVA Boy, that sure was drilling in hard stuff because it took a lot to get it off.
 CC Okay, Jack. And we could certainly stand a little bit of dust, at least on top of that central station sunshield.
 LMP-EVA Yes, I guess the level's important.
@@ -4816,7 +4816,7 @@ CC Okay. Copy that, Geno.
 CC Roger on that.
 
 	Tape 79A/12
-	Page 753
+	Page 754
 LMP-EVA Yes, I think I lost all the time I might have made up.
 CDR-EVA Hey, Bob, it's obvious that I'm going through some pretty stuff - tough stuff. Consolidated material, like rock fragments, and then it breaks through; and then it jumps for about 3 or 4 inches and then I hit some more fragments.
 CC Roger. We're seeing that Geno. Looks interesting.
@@ -4836,7 +4836,7 @@ CDR-EVA Yes, sir. I very definitely made a point of them -not crossing them.
 CC Okay; very good.
 
 	Tape 79A/13
-	Page 754
+	Page 755
 04 21 02 45 CDR-EVA They are not - they are not crossed.
 CC Good.
 LMP-EVA (Laughter) Where do we find such men?
@@ -4856,7 +4856,7 @@ CC Well, looks like you really - -
 CDR-EVA No, sir, you're going to be happy with it where it's supposed to be; and that's where it's - -
 
 	Tape 79A/14
-	Page 755
+	Page 756
 CC You were hiding it from us - -
 CDR-EVA Yes, sir.
 CC We couldn't tell how deep in you were.
@@ -4876,7 +4876,7 @@ CC Roger on that. That was - -
 LMP-EVA Bob--
 
 	Tape 79A/15
-	Page 756
+	Page 757
 CC #NAME?
 LMP-EVA Okay. When I - I finally leveled it in a bull's eye. I don't know whether you heard me or not, but it was - it was perfect. So it's okay. It's just got a fair - it's got about 20-percent dust cover on the top.
 CC Okay.
@@ -4895,7 +4895,7 @@ LMP-EVA Who, me? (Laughter)
 CDR-EVA Help.
 
 	Tape 79A/l6
-	Page 757
+	Page 758
 LMP-EVA I says - you is getting farther and farther behind.
 CDR-EVA Well, I've had my one for today.
 LMP-EVA Your one what?
@@ -4918,7 +4918,7 @@ LMP-EVA Take it easy.
 CDR-EVA Okay. Now this one down to FI. Would you believe FI?
 
 	Tape 79A/17
-	Page 758
+	Page 759
 CC Yes, I believe you, Gene.
 CDR-EVA Bob, in this soil, best number I can give you is about an inch below the white spots - or Bravo 1.
 CC Okay. Copy Bravo 1.
@@ -4939,7 +4939,7 @@ CDR-EVA Bob, and I didnÕt forget the last measurement either.
 CC Roger that.
 
 	Tape 79A/18
-	Page 759
+	Page 760
 CDR-EVA Hey, can you see this big mound that I just walked - it's just to the north - not the mound -the depression that's just to the north of me?
 CC Roger, 17-
 CDR-EVA It's probably behind the Rover. Okay. Well, how's - how's that look for the core?
@@ -4957,7 +4957,7 @@ LMP-EVA Well, I've gone full throw - -
 CDR-EVA That's not level.
 
 	Tape 79A/19
-	Page 760
+	Page 761
 LMP-EVA That bubble's stuck in there, somehow. In both of them. That's not even pointing close to the Earth. Okay, I'm going to have to tweak it up and let them see the signal strength - and tweak it.
 CC Okay. Why don't you try and manually point it -try and level it and see if we - see what you can do toward getting it towards the Earth.
 LMP-EVA I will, Bob. That bubble's just not working. I -I can't figure that one out.
@@ -4976,7 +4976,7 @@ LMP-EVA Either the one you're in - you're down in there, or next one over behind
 CDR-EVA Hey, I can go way over there. That's not too far probably for - -
 
 	Tape 79A/20
-	Page 761
+	Page 762
 LMP-EVA Well, either way I think is fine, Gene. But I would suggest behind the rock.
 CDR-EVA - - For a neutron flux, huh?
 LMP-EVA Yes, sir; and the core.
@@ -4997,7 +4997,7 @@ CDR-EVA I expect the next two are going to be a little harder.
 LMP-EVA Bob, I'm not very happy with this level. But I'll turn it on and - Have me come back a little bit later, when they've warmed up some more, and let's see what it looks like.
 
 	Tape 79A/21
-	Page 762
+	Page 763
 CC Okay. We'll do that. Give me a mark when you turn it on, and we'll see what kind of signals we get.
 LMP-EVA Okay. The shadow gnomon is - aligned; I'm going to turn the shorting plug on.
 CC Copy that.
@@ -5018,7 +5018,7 @@ LMP-EVA A third of a meter.
 CC Okay.
 
 	Tape T9A/22
-	Page 763
+	Page 764
 CDR-EVA Bob, how's that for soil mechanics? I pulled the first bore right on out trying to get this thing on right.
 CC Well, put it in - put it in before your hole fills up there, Geno.
 CDR-EVA Yes. Right now I'm interested in getting this second bore on. Now, let's see if I can get it back in. Well, not quite as far, but high enough for me to reach the - It still feels, Bob, like there's a lot of fragmental material down there.
@@ -5038,7 +5038,7 @@ LMP-EVA I found a way to get over cables.
 CDR-EVA Shoot.
 
 	Tape 79A/23
-	Page 764
+	Page 765
 LMP-EVA (Laughter)
 CDR-EVA Oh, Manis chewit z. Whew.
 LMP-EVA There you go again.
@@ -5060,7 +5060,7 @@ CDR-EVA Okay. I'm back in MIN, Bob.
 CC Okay. Copy that.
 
 	Tape 79A/24
-	Page 765
+	Page 766
 CDR-EVA By any chance have any heat flow data yet?
 CC No, Geno. We don't have the heat flow turned on yet.
 CDR-EVA All right. Oh, that's right. Okay. I think that's right. Okay. I'm about to give you your number. Oh, darn it. (Laughter) Crank it a couple of times. Clean as a whistle. Clean as a whistle.
@@ -5080,7 +5080,7 @@ CDR-EVA My general impression is that there is an awful lot of fragments I'm bus
 CC Okay.
 
 	Tape 79A/25
-	Page 766
+	Page 767
 CDR-EVA Okay, Bob. That last 6 inches, I really came into something hard; but it's down all the way.
 CC Beautiful, Geno.
 LMP-EVA Oops, there's a heat flow probe.
@@ -5101,7 +5101,7 @@ CDR-EVA Boy, what a ride that Challenger gave us coming down. What a ride.
 CDR-EVA Oh, you dummy - you dummy. Jack you still with me.
 
 	Tape 79A/26
-	Page 767
+	Page 768
 LMP-EVA Yes,
 CDR-EVA Okay. Boy, I'm getting dropsies now. Getting dropsies.
 LMP-EVA Don't push it.
@@ -5123,7 +5123,7 @@ CDR-EVA Papa 1.
 CC Roger. And, Jack, I gather you are probably traipsing across the landscape with a geophone about now, right?
 
 	Tape 79A/27
-	Page 768
+	Page 769
 LMP-EVA That's firm.
 CC Okay. And let me ask you - -
 CDR-EVA Good gravy! You know how big that rock -
@@ -5146,7 +5146,7 @@ CDR-EVA I think I'll save it until after - I think I'll save it until after I dr
 LMP-EVA Take it easy, Geno. You sound like you're -
 
 	Tape 79A/28
-	Page 769
+	Page 770
 CDR-EVA No, I'm doing fine.
 LMP-EVA Okay.
 CDR-EVA That Sun is just bright. I ought to put those visors down, i suppose - those other visors. Okay. Let me take a look at my list and see whether I've got everything. Measured, measured; height, height; you've got all the shields; you're coming out south; verify heat flow is level and aligned -It is aligned and gnomon was good; UHT to the LRV IMP seat; and then what do I do? Let me see. Deep core prep. Jack, I'm going to leave the UHT in the heat flow in case you need it.
@@ -5165,7 +5165,7 @@ CC Okay. Copy that.
 LMP-EVA What are you, Geno?
 
 	Tape 79A/29
-	Page 770
+	Page 771
 CDR-EVA Well, I can't see it. The Sian was - I don't know, Jack. I can't - It was about 5 - yes, about 55 or 54.
 LMP-EVA Okay.
 CDR-EVA Now, this ought to shield that thing from the doggone -
@@ -5183,7 +5183,7 @@ CDR-EVA Right in this little - It's only about a 4-meter depression.
 LMP-EVA Oh, wait a minute - oh, you're on the other side of the rock. Okay.
 
 	Tape 79A/30
-	Page 771
+	Page 772
 CDR-EVA Yes, yes. Yes, I want to get back here.
 LMP-EVA That's good. Oh, man, go slow.
 LMP-EVA Bob, the - all of these big boulders around here that I've looked at, are the same - same rock type.
@@ -5201,7 +5201,7 @@ LMP-EVA As I was saying, Bob, all these big blocks that I've looked at look like
 LMP-EVA Those parting planes go over the - go through the whole boulder on the order of at least 3 meters long and outcrop.
 
 	Tape 79A/31
-	Page 772
+	Page 773
 LMP-EVA How is it going, Gene?
 CDR-EVA Fine. I'm on my second stem, here - or I'm starting on it. How are you coming?
 LMP-EVA Okay. I'm just about ready to - pick up - old the biggy, geophone 4.
@@ -5222,7 +5222,7 @@ CDR-EVA Well, try another one. Doggonit.
 CC What's the problem, Geno? It won't screw on?
 
 	Tape 79A/32
-	Page 773
+	Page 774
 CDR-EVA Oh, yes. It's no problem. You know, it's the same problem you always have. You get these threads - get a little side force on them and -you know, with the helmet and gloves and what have you - ItÕs just - you can't - Sometimes they go on easy; sometimes they don't.
 CC Copy that.
 04 21 50 04 CDR-EVA Okay. I got this one on now.
@@ -5240,7 +5240,7 @@ CC That's not the idea.
 04 21 53 02 CDR-EVA Oh boy, oh boy. Speaking of boy, oh boy - are you a long way off.
 
 	Tape 79A/33
-	Page 774
+	Page 775
 CDR-EVA Okay, going to stop for a second, Bob.
 CC Okay. We've observed your problem there getting the wrench off, Geneo.
 CDR-EVA Well, I had to get down to get that - to get that -third - third stem aligned and get it on there. This is the easy part, but I just got myself behind the power curve for a second.
@@ -5258,7 +5258,7 @@ CDR-EVA Okay, because I don't see you.
 LMP-EVA I'm out by the big rock.
 
 	Tape 79A/34
-	Page 775
+	Page 776
 CDR-EVA Oh, okay; I got you. Man, I hope that hole doesn't collapse. I'm going to be awful disappointed. I think I could drive that heat flow flux - or heat flow - or neutron flux in, at least for one probe, without any problem. Okay, Bob, if all goes well in the next few short moments, you'll have the final - unleaded(?) - cores stem - automatic - in this area - on Apollo 17-
 CC On a Monday evening, Roger.
 CDR-EVA Yes, on Monday evening. That is what it is, isn't it? Hey, who's winning the football game?
@@ -5278,7 +5278,7 @@ CDR-EVA Well, I'll go lower if I could get an A plus. But I am going to accept a
 CC Roger there , Gene.
 
 	Tape 79A/35
-	Page 776
+	Page 777
 CDR-EVA I'm - I'm within an inch of the white stripes. How's that?
 CC That sounds great to me - -
 CDR-EVA An inch of the white stripes, Bob.
@@ -5298,7 +5298,7 @@ LMP-EVA Oh, yes, sir; and I forgot the gnomon (laughter).
 CC (Laughter) Hey, Jack. How about giving me a couple of quick readings here to satisfy some people. One, was there a decal on the LEAM that you aligned it with? There's some controversy down here that there's no decal there; and the
 
 	Tape 79A/36
-	Page 777
+	Page 778
 LMP-EVA IÕll go prove it, Bob. IÕll go by there. Stand by.
 CC Okay.
 LMP-EVA What's the other question?
@@ -5319,7 +5319,7 @@ CC Okay, go ahead.
 CDR-EVA - - with the drill. I was able to pull the core out with the drill, about 3 inches. And it's all jacking material from there out.
 
 	Tape 79A/37
-	Page 778
+	Page 779
 CC Okay, copy that, Geno. And we finally got some word from the Cape to prove to people that there's a decal on the LEAM, so you don't have to go back by that, Jack. Just at the right time.
 LMP-EVA I already have. It's reading - itÕs reading 30. And here's the decal.
 CC Okay. Copy that.
@@ -5334,7 +5334,7 @@ CDR-EVA Hey, Bob, (laughter) you'll be interested to know I just put a - I just 
 04 22 07 43 LMR-EVA Hey, Bob, where do you want the focus on the panto be?
 
 	Tape 79B/1
-	Page 779
+	Page 780
 04 22 08 27 CMP #NAME?
 CC Roger.
 CMP But I'm sure it isn't that way.
@@ -5346,7 +5346,7 @@ CC Thank you, Ron.
 CMP - - oddly enough, that's the same type of - ThatÕs the same type of bluish tinge that I see right in the landing site right now. In the Pentagon complex, MOCR shows up that - that same type of a bluish tinge to it.
 
 	Tape 79B/2
-	Page 780
+	Page 781
 CC Roger. Did you have any luck locating the LM area in the landing site this time?
 CMP Yes, I don't even see the bright spot there anymore. I know - I know where to look for it and I don't even see it.
 CC Roger. Understand.
@@ -5363,7 +5363,7 @@ CC Ron, I'm sorry we missed this last time. If you'll give me a hack when you st
 CMP Oh, okay. Hey, that's a good idea.
 
 	Tape 79B/3
-	Page 781
+	Page 782
 CC I guess even though the start time we passed and everything is the time, Farouk wanted to remind you that when you pass Eratosthenes is a good time to be looking into the heart of Copernicus, there. If you'll remember from the map, there.
 CMP Okay. Hey, that's a good idea; thank you.
 04 22 16 28 CC Were you able to see the Sul- Sulpicius Gallus Ridge there, Ron?
@@ -5380,7 +5380,7 @@ CMP Okay. Why don't you just kind of give me a - ... gouge when I should be at E
 CC Okay. I'll give a call and, of course, your first frame is - -
 
 	Tape 79B/4
-	Page 782
+	Page 783
 CMP I think I'11 - -
 CC - - first frame is f/1.2 for 1 second and you'll take two frames.
 CMP Okay.
@@ -5403,7 +5403,7 @@ CMP - - I'll start my time from there. Yes, IÕve -I've already passed it so I h
 CC Okay, there you are 1/8 there.
 
 	Tape 79B/5
-	Page 783
+	Page 784
 CMP Okay, tell me when to - Okay.
 CMP Okay. The rest of them 1/8?
 CC No, at l/l6 or 1/15-
@@ -5428,7 +5428,7 @@ CMP Pictures in here. Okay.
 CC Okay, Ron. You'll be coming up on another mark here.
 
 	Tape 79B/6
-	Page 784
+	Page 785
 04 22 28 57 CC MARK it.
 CMP Got it.
 CC Okay, according to my calculations you've got two more sets of two frames each to take. You've taken 20 and you've got four more to go, I believe.
@@ -5447,7 +5447,7 @@ CC Roger. That's what you're supposed to do on Copernicus so you remembered bett
 CMP (Laughter)
 
 	Tape 79B/7
-	Page 785
+	Page 786
 CC #NAME?
 CMP Yes. Well, I made a mistake too. I thought Eratosthenes was Copernicus. But anyhow we got -we got a series on Eratosthenes and also a series on Copernicus. So we're in good shape.
 CC Okay. You should be seeing Gamma about now, shouldn't you?
@@ -5466,12 +5466,12 @@ CC We would like you to select OMNI Alfa.
 04 22 47 30 CMP OMNI Alfa.
 
 	Tape 79B/8
-	Page 786
+	Page 787
 04 22 50 27 CC Can you still see - see things in earthshine or is it getting pretty black down there?
 04 22 51 07 CMP Okay; thatÕs my last picture off.
 
 	Tape 79B/9
-	Page 787
+	Page 788
 CMP Okay. LetÕs see - where was that now, about 131, Bob?
 CC 133:12. It's in the other volume, in the next volume of the Flight Plan.
 CMP Oh, (chuckle) I'll just write it down, I don't have that volume out.
@@ -5488,12 +5488,12 @@ CC And just a reminder, which is in the Flight Plan, DSE voice recorded at the b
 CMP Oh, okay.
 
 	Tape 79B/10
-	Page 788
+	Page 789
 CC And, Ron, the reason why we' OFF, now is we're trying to drop some and we'll come up uration this next half.
 04 22 '54 12 CMP Oh, okay.
 
 	Tape 80A/1
-	Page 789
+	Page 790
 04 22 07 51 CC Stand by on that.
 LMP-EVA About 15 feet?
 CC Stand by.
@@ -5514,7 +5514,7 @@ LMP-EVA - - to get. Bob, I ran that plug three-quarters -two-thirds of the way d
 CC Okay. That sounds good.
 
 	Tape 80A/2
-	Page 790
+	Page 791
 LMP-EVA And I'll put a cap on it for you, too.
 CC Okay. That'll make people happy. Did you copy me, Jack, that ... 6 oÕclock to the - -
 LMP-EVA I knew it would. And that - -
@@ -5538,7 +5538,7 @@ LMP-EVA Would you believe I'm out of film, Bob?
 CC Okay. I'm afraid I'll have to.
 
 	Tape 80A/3
-	Page 791
+	Page 792
 LMP-EVA Why didn't I look at the number?
 CC You want to give me a frame count, Jack?
 LMP-EVA Mag Alfa is empty.
@@ -5561,7 +5561,7 @@ CC That's affirm.
 LMP-EVA Well, anyway, it's black and white also.
 
 	Tape 80A/4
-	Page 792
+	Page 793
 CDR-EVA Gail is not - you mean Charlie.
 LMP-EVA Do you want color, or do you want Charlie?
 CC Stand - stand by, Jack, if youÕre still at the Rover.
@@ -5582,7 +5582,7 @@ CDR-EVA Yes, that makes me feel warm. I'll get it. You're going to have to bear 
 LMP-EVA I was afraid that would happen - with all those rocks.
 
 	Tape 80A/5
-	Page 793
+	Page 794
 CDR-EVA Yes, but it didn't go in that hard.
 CC Key, Geno, how about slacking off for a minute there. You got pretty - going pretty :ard.
 CDR-EVA Okay. One more turn and I'11 get up. I've got to hit an easy spot sooner or later.
@@ -5600,7 +5600,7 @@ CDR-EVA Jack, I don't think there's a lot you can do. Come on over here 1 minute
 LMP-EVA Well, I can use up some of my water.
 
 	Tape 80A/6
-	Page 794
+	Page 795
 CDR-EVA Let's see if I can't get a bigger bite - you on one end, and let me stand on the treadle and we might be able to get a bigger bite. See, I can't get a very big bite. That's one of the problems.
 CC And, Jack, could you verify we have the LMP ENABLE on ... - -
 CDR-EVA I just hope that jack doesn't break.
@@ -5620,7 +5620,7 @@ LMP-EVA Yes.
 CDR-EVA It's got to loosen up sooner or later.
 
 	Tape 80A/7
-	Page 795
+	Page 796
 LMP-EVA Okay. That's another good one. When you're tired, I'll do that and you can do this. See, this way, I can - you can get a bigger throw. Okay. Let me know when and I'll do that.
 CDR-EVA Oh, that's all right.
 LMP-EVA Does it feel like it's loosening up at all?
@@ -5643,7 +5643,7 @@ LMP-EVA This is all right.
 CDR-EVA No, let me get over there.
 
 	Tape 80A/8
-	Page 796
+	Page 797
 LMP-EVA It's coining now.
 CDR-EVA Why don't you come over here?
 LMP-EVA Come on, one more. I think we're going to get it.
@@ -5666,7 +5666,7 @@ LMP-EVA I know whose face is smiling back there.
 LMP-EVA You don't suppose this is why we didn't have much dust from the LM, do you?
 
 	Tape 80A/9
-	Page 797
+	Page 798
 CDR-EVA I think it is (laughter).
 LMP-EVA (Laughter) I saw all the way to the ground during landing.
 CDR-EVA Yes.
@@ -5685,7 +5685,7 @@ CC For a minute or so. And, Jack, I guess right now, you might get some fairly r
 LMP-EVA Okay, then. I will as soon as I get back over there with the sample bag. Bag 10 Echo - 10 Echo -is a sample of a very large boulder that's just beyond geopihone 3. Just west - just south.
 
 	Tape 80A/10
-	Page 798
+	Page 799
 CC Copy that, 10 Echo, and boulder east of which geophone?
 LMP-EVA South of geophone 3 - southwest. And I got a few photos to doc, here - document the boulder. I'm not sure I documented the sample, though.
 CC Okay, copy that.
@@ -5701,7 +5701,7 @@ CDR-EVA No, I got it here. I've got a delicate core in one hand, and I'm trying 
 CC Okay, copy that, Geno. Very good.
 
 	Tape 80A/11
-	Page 799
+	Page 800
 CDR-EVA Yes. I'm - I'm being very careful with your core here, but I've got to do a few - little housektiepi.nf; chores first.
 CC Okay. Have you got that neutron flux over there in the vicinity, or is it still back at the Rover?
 CDR-EVA No, sir, I already got it.
@@ -5718,7 +5718,7 @@ CC Okay. And our next priority is to put the neutron flux down the hole, we hope
 CDR-EVA Well, we shall see. Man, I don't even know if I can find the hole. It's in the shadow now. I guess I can see it down there. There it is. Okay. You asked, and with a little bit of luck, you shall receive.
 
 	Tape 80A/12
-	Page 800
+	Page 801
 CDR-EVA Listen, I'm earning my three and a quarter a day today. Oh, boy, I don't want to lose the rammer either. Let me get that before that gets lost in the shuffle. We don't want to lose that for sure.
 04 22 31 07 CDR-EVA I bet you all think I'm stepping on that hole, don't you?
 CC I don't. John doesn't, either.
@@ -5735,7 +5735,7 @@ CC Copy that.
 LMP-EVA The vesicler; are not cleanly spherical - they're spherical but they have fairly rough outlines. They look as if there's been some recrystallization.
 
 	Tape 80A/13
-	Page 801
+	Page 802
 CC All right.
 CDR-EVA Bob, I will ver - verify that the lower section is on.
 CC Okay, thank you, Geno.
@@ -5755,7 +5755,7 @@ CC Okay, thank you.
 CC How about that, loud applause, loud applause.
 
 	Tape 80A/14
-	Page 802
+	Page 803
 CDR-EVA See what happened, here, to that treadle, Bob. I couldn't get the jack to go down and it - it - it made the hole oblong when I - but it's all right now.
 CC Okay; beautiful, beautiful.
 CDR-EVA And it ended up all right.
@@ -5769,7 +5769,7 @@ CC Stand by. You're about - between 35 and 40 minutes. And part of the problem i
 CDR-EVA Okay, Bob, I'm approaching the rear of the Rover. I've got the core, the cap, the wrench, and the rammer.
 
 	Tape 80A/15
-	Page 803
+	Page 804
 CC Okay-
 CDR-EVA I didn't mean to breathe up all that oxygen.
 CC Well, there's something you can't help. Even the Surgeon agrees with me on that one. And for your thinking, Jack and Gene, what we're doing is planning on going to the west side of Steno and that boulder field that's part way out to station 1.
@@ -5787,7 +5787,7 @@ CDR-EVA And I have to tell you which end I'm taking it from. I don't remember wh
 CC That's all right, since we got the cap and Alfa on one end and Bravo on the other end - Bravo.
 
 	Tape 80A/16
-	Page 804
+	Page 805
 CDR-EVA Man! There's a cap that's going to be tough to get on. I put that on with a hammer. Oh, boy.
 LMP-EVA Okay, Bob, there's a mixture of soil and rock in **75.
 CC Okay, copy 475-
@@ -5810,7 +5810,7 @@ CC Jack, this is Houston. Over.
 LMP-EVA Go ahead.
 
 	Tape 80A/17
-	Page 805
+	Page 806
 CC When you took those two pans off the ALSEP, was one at 15 feet and one at 20 feet?
 LMP-EVA One was at focus for 15 and 74.
 CC Okay.
@@ -5830,7 +5830,7 @@ CDR-EVA No, no, no, just the - the total thing. That's good. There you go.
 LMP-EVA Like that?
 
 	Tape 80A/18
-	Page 806
+	Page 807
 CDR-EVA Yes.
 CC Okay, and, 17 - -
 CDR-EVA Now you'll have to line it up.
@@ -5848,7 +5848,7 @@ CDR-EVA Bob, I did not - when I went back - Bob, I did not -when I went to get t
 CC Okay. So that's the same as the first one. Never mind, thank you. And guys - we're ready for you guys - as you go along here, to do the geo prep and press on. As I say, we'll go to Steno and come back from there and do the SEP. Over. Any questions about that? We'd also like to know if you have the gnomon, back of the Rover?
 
 	Tape 80A/19
-	Page 807
+	Page 808
 CDR-EVA Yes, we're just - -
 LMP-EVA Yes, we do.
 CDR-EVA Okay, lay cores in. Okay - -
@@ -5869,7 +5869,7 @@ CDR-EVA I'm going to leave mine on for a while. I changed my mind. I want to loo
 CC The last we heard, it was working great, guys. We'll check again, though.
 
 	Tape 80A/20
-	Page 808
+	Page 809
 CDR-EVA Okay. You got your camera. My camera is in the floor pan. Cap dispenser, SCB to Gate 1. Let me get that, Jack.
 LMP-EVA Yes.
 CDR-EVA You haven't been on the Rover yet. It's real easy, but it's also very easy to kick dust all over those battery covers, so don't even get on it until I put those bat covers down.
@@ -5888,7 +5888,7 @@ LMP-EVA Oh, yes.
 CDR-EVA Let me - I haven't got that cap in, yet - there it is. Okay, the caps are in. If we ever come out here again, I want to get your hammer, here ...
 
 	Tape 80A/21
-	Page 809
+	Page 810
 CC ... you might give us a frame count on Hotel.
 CDR-EVA Okay, Bob.
 CC And we're going to hand over stations. You might get a dropout.
@@ -5911,7 +5911,7 @@ LMP-EVA Oh, okay.
 CDR-EVA Let me - Yes, it's all right. Turn around. Let me just get it underneath.
 
 	Tape 80A/22
-	Page 810
+	Page 811
 04 22 51 14 LMP-EVA I got it so tight now, the Rover - Okay, now.
 CDR-EVA I got it on.
 LMP-EVA Okay?
@@ -5936,7 +5936,7 @@ LMP-EVA It's unlocked.
 CDR-EVA It's unlocked. There it is. It's usually stiff. Okay. For once, I have my camera off.
 
 	Tape 80A/23
-	Page 811
+	Page 812
 CDR-EVA Did you get the heat-flow pictures, by the way?
 LMP-EVA I got most of them. Not all of them. They revised the whole camera.
 CDR-EVA Hey, Bob, is it going to hurt to leave the UHT in the heat-flow electronics?
@@ -5959,7 +5959,7 @@ LMP-EVA Now, if I can get it out. Okay, I'm going back to the LM.
 CDR-EVA Okay, Bob, the alignment's good on the heat flow, and I've got the UHT out. Jack, do you need this?
 
 	Tape 80A/24
-	Page 812
+	Page 813
 LMP-EVA You better leave - save it. Save it.
 CDR-EVA I'm going to leave it right here by the ALSEP.
 LMP-EVA Save it. Careful.
@@ -5982,7 +5982,7 @@ CDR-EVA Can I close the covers?
 CC Roger; Roger.
 
 	Tape 80A/25
-	Page 813
+	Page 814
 CDR-EVA Hey, you're turning our voice around, Bob.
 CC No, I said - -
 CDR-EVA We're getting a repeat.
@@ -6004,7 +6004,7 @@ CC Okay, thank you.
 04 22 56 36 CDR-EVA Oh, man. It's even hard to move you counterclockwise. Here we go. Counterclockwise, facing aft. Okay, I'm going to go MODE switch number 1. Okay, we're MODE switch number 1 - -
 
 	Tape 80A/26
-	Page 814
+	Page 815
 04 22 56 56 CC Roger. We can confirm that.
 CDR-EVA - - and you want me to leave those two blankets open 100 percent, right?
 CC Roger, That's affirm.
@@ -6023,7 +6023,7 @@ LMP-EVA Okay, I've got the transmitter. I'm heading west -or east. (Laughter) He
 CC Th at' s af fi nnat i ve.
 
 	Tape 80A/27
-	Page 815
+	Page 816
 CDR-EVA By the way, Bob, station 6 is pretty obvious up on the hill. It's fairly high up. I don't know if we'll get to drive up there or not.
 CC Okay. I think you can see the boulder and that's how you can tell, right?
 CC Okay. Thinking you can see the boulder and that's how you can tell, right?
@@ -6041,7 +6041,7 @@ CC Roger that.
 CC Okay. Copy that, Jack.
 
 	Tape 80A/28
-	Page 816
+	Page 817
 LMF-EVA IÕm at the SEP site, and I found a place I think we can lay out a pretty good grid.
 CC Okay, Jack, and when you lay it down there, we want to put it down with the gnomon side, the side you're going to face, you want to put that facing away from the Sun. We found out a thermal constraint this evening, just as the EVA started.
 LMP-EVA Okay. Away from the Sun. Gnomon - you want the gnomon side or corner?
@@ -6059,7 +6059,7 @@ CDR-EVA You get that - that shadow up there and youÕre all right.
 CDR-EVA Say again, Bob?
 
 	Tape 80A/29
-	Page 817
+	Page 818
 CC That's affirmative. We want the range and bearing at the LM. I'm glad you remembered.
 CDR-EVA Yes, sir, I'll give it to you. I even got - Oh, oh, don't get in there. Whoo! I even got the low gain working for you. I don't know if you're using it.
 CC I think we're using the LM right now.
@@ -6078,7 +6078,7 @@ CDR-EVA Okay, let me give them a bearing, distance, and range, and some numbers 
 LMP-EVA Okay.
 
 	Tape 80A/30
-	Page 818
+	Page 819
 CDR-EVA Oh!
 LMP-EVA Bob, I did see a dense gray rock that's different than the others on my traverse out here. We'll try to find some of that, too.
 04 23 07 12 CDR-EVA Okay, Bob, I'm reading 278, 003, and 003 at the SEP site.
@@ -6098,7 +6098,7 @@ CDR-EVA I've got it.
 CC Yes, it just happens that the station is at the place we're going to deploy the charge.
 
 	Tape 80A/31
-	Page 819
+	Page 820
 LMP-EVA Okay, well, we got it off.
 CDR-EVA Okay. Do you know which aide of Steno he wants us to go, Jack?
 LMP-EVA Not yet.
@@ -6114,7 +6114,7 @@ CC Okay. Then we're going to drive back. There's a 15-minute return to the SEP s
 CDR-EVA Okay. Understand.
 
 	Tape 80A/32
-	Page 820
+	Page 821
 CDR-EVA Okay, you strapped in?
 LMP-EVA Yes, sir.
 CDR-EVA Yes, we've got to start getting on this Rover facing 90 degrees to the seats, I think.
@@ -6136,7 +6136,7 @@ LMP-EVA Yes, we understand.
 CC Okay.
 
 	Tape 80A/33
-	Page 821
+	Page 822
 LMP-EVA We're just getting our bearings, Bob.
 CDR-EVA This has got to be Trident East, right, right here, Jack. See that? That's got to be Trident East. That's the big one.
 LMP-EVA On the right or the left?
@@ -6159,7 +6159,7 @@ LMP-EVA Whoa, whoa. I'm not sure what's wrong. Why don't you go left there?
 CDR-EVA Okay.
 
 	Tape 80A/34
-	Page 822
+	Page 823
 LMP-EVA Go left around this thing.
 CC And, 17; Houston. For your advice, we're trying to use the low gain antenna on this traverse also. Might try and be good guys and turn it for us when you have to.
 04 23 13 05 LMP-EVA Okay. Bob.
@@ -6179,7 +6179,7 @@ CDR-EVA That would be Powell.
 LMP-EVA That would be Powell on the right.
 
 	Tape 80A/35
-	Page 823
+	Page 824
 CDR-EVA You think?
 LMP-EVA Certainly doesn't look like th LNA yet.
 CDR-EVA No, it sure doesn't.
@@ -6202,7 +6202,7 @@ LMP-EVA Boy, if that's Trident, whoo!
 CDR-EVA Hey, you know that is - don't you suppose that's Trident?
 
 	Tape 80A/36
-	Page 824
+	Page 825
 LMP-EVA Well, it sure looks like it, doesn't it?
 CDR-EVA Yes. We were quite a ways from Trident.
 LMP-EVA I bet you it is.
@@ -6220,7 +6220,7 @@ LMP-EVA There are occasional - -
 CC - - Jack, you might be expecting WATER flag and a tone in a couple of minutes, to go to AUX.
 
 	Tape 80A/37
-	Page 825
+	Page 826
 LMP-EVA Okay.
 CC And CDR will be about 5 minutes after that.
 CDR-EVA I'll get stopped here in a minute, Jack - as scon as I get -
@@ -6241,7 +6241,7 @@ CDR-EVA Then thatÕs Steno with all the blocks in it.
 LMP-EVA Boy, an I glad we didn't land out here! Whew!
 
 	Tape 80A/38
-	Page 826
+	Page 827
 CDR-EVA See this high point up here coming ahead?
 LMP-EVA Yes.
 CDR-EVA That should give us our bearings, I hope.
@@ -6263,7 +6263,7 @@ CC Yes. Roger. Beautiful. 340 and 1.2 is what we expect the station to be.
 CC And it should be up on the top of a little bit of a rise. That you see coming up there. Almost to that rise. You ought to be in the vicinity of some very large boulders.
 
 	Tape 80A/39
-	Page 827
+	Page 828
 CDR-EVA Houston, there's a - there are certainly a lot of big boulders - Whoops! Let me take a look into the Sun here. That doesn't look what I thought Steno looked like. There's no dip there. 1.2 he said. All right. This is it over here, though, I guess.
 CC Yes, Steno ought to be at - right at your 9 o'clock there, Gene.
 CDR-EVA At my 9 o'clock. Yes.
@@ -6280,7 +6280,7 @@ CDR-EVA Let me get my water.
 CC Okay, on the map we're showing, Jack, that you're probably looking at, you're seeing that there's a couple of boulders at - just above - at about the -With north being 12 o'clock, there are a couple of boulders at about the 09:30 position on Steno.
 
 	Tape 80A/40
-	Page 828
+	Page 829
  And then there's a couple of more at about the 9 o'clock position on Steno. And we're putting the station right in the midst of all those boulders. Over.
 CDR-EVA Well, Bob, I don't know. It's hard - hard to follow that that's where we are. I'm not sure. It doesn't look like what I expected Steno to look like - -
 LMP-EVA No, me neither.
@@ -6299,7 +6299,7 @@ CC - - There's no point in deviating around and spending 15 minutes trying to ge
 LMP-EVA Okay. We got - -
 
 	Tape 80A/41
-	Page 829
+	Page 830
 CC - - crater, unless you're there. Over. Your judgment.
 LMP-EVA No, we're okay. We got a good place.
 CC All right.
@@ -6321,7 +6321,7 @@ CC You can deploy it right now. That's good.
 CC Beautiful. We'll give you the Taper of the Year award.
 
 	Tape 80A/42
-	Page 830
+	Page 831
 LMP-EVA Boy, you're going to have to give me the Dunce of the Year Award after this.
 CDR-EVA Pan 1, ... two -
 04 23 25 44 CDR-EVA MARK, SAFE.
@@ -6341,7 +6341,7 @@ LMP-EVA The vesicu - visicle popula - the vesicle population varies from about a
 CC Okay, I copy that, Jack. Very good.
 
 	Tape 80A/43
-	Page 831
+	Page 832
 LMP-EVA There is - the parting that I mentioned, still of somewhat unknown origin, and we'll try and get a sample along a parting plane. It's clearly evident in one of the bigger blocks.
 CDR-LM Hey, Bob, just as we stopped the Rover, I went on AUX water. Do you want me to turn my primary water off - I don't have to, do I?
 CC No, no, no need to.
@@ -6358,7 +6358,7 @@ CDR-EVA No, no problem.
 LMP-EVA Well, I shouldn't have -
 
 	Tape 80A/44
-	Page 832
+	Page 833
 CDR-EVA The two go hand-in-hand. Nothing disrupts your thought patterns more than somebody saying something.
 LMP-EVA Well, listen, this is my first geology stop. I guess I'm entitled to do that; Bob, you ready for a mark?
 CC Roger.
@@ -6377,7 +6377,7 @@ CDR-EVA Yes.
 LMP-EVA Let me get where I can maybe save the rock. If you can hook your -
 
 	Tape 80A/45
-	Page 833
+	Page 834
 CDR-EVA That's what I'm going to do. I'm going to try and get it right - right up on top is where I'd like to -
 LMP-EVA If you hit it - if you hit it on the right side, it'll go this way, maybe. There you go. Good man.
 CDR-EVA Piece right there.
@@ -6398,7 +6398,7 @@ CDR-EVA Trying.
 LMP-EVA It's trying to fall. Don't wear your hand out. That's good, Gene.
 
 	Tape 80A/46
-	Page 834
+	Page 835
 CDR-EVA Wait a minute. Let me give one more whack. The whole thing is -No, that's too tight. Let me get that other piece -
 04 23 32 21 LMP-EVA Okay. Bag 476 is the rock sample with a little bit of the soil near it - with a chip - chip off the rock, and it's the - Watch it, Gene.
 CDR-EVA Here's your other chip. If I go down there, that thing is about 15 feet deep.
@@ -6419,7 +6419,7 @@ CDR-EVA Oh, look at those dark minerals in there. Are those dark black?
 LMP-EVA Yes, they may be ilmenite or fresh pyroxene. We'll look at it. Gives the impression of pyroxene.
 
 	Tape 80A/47
-	Page 835
+	Page 836
 CDR-EVA Okay, you want my bag? I tell you, if you work on any kind of slope, like this little crater - Okay, I'm going to leave it open for a minute.
 LMP-EVA Okay.
 CDR-EVA While we get that one.
@@ -6437,7 +6437,7 @@ CC Okay. Copy that.
 LMP-EVA ... in yours. Okay? It's in Gene's sample collection bag. And a scoop sample. You got a bag handy, Gene? Okay, bag 455, Bob. It's from the west side of the rock. It's under a slight overhang of the rock - in a shadow, anyway. Okay, that's from about 1 centimeter down - deep, 1 to 2 centimeters. And the next one is down to about 5 - 5 or 6. And it's got some chips in it.
 
 	Tape 80A/48
-	Page 836
+	Page 837
 04 23 35 53 CDR-EVA That's bag 456, Bob.
 CC Copy that.
 LMP-EVA Okay. (Laughter)
@@ -6457,7 +6457,7 @@ CDR-EVA Hey, here's - ro - look at this rock, where the vesicularity changes fro
 LMP-EVA Yes, that's what I'm after; that's it.
 
 	Tape 80A/49
-	Page 837
+	Page 838
 CDR-EVA Let's see if I can't crack - -
 LMP-EVA That's it. That's what I saw in that other boulder.
 CDR-EVA Let's see if I can't crack the corner and get that contact.
@@ -6479,7 +6479,7 @@ LMP-EVA How about - how about coming around from this side?
 04 23 38 59 CDR-EVA Well, I got the gnomon in the wrong place really.
 
 	Tape 80B/1
-	Page 838
+	Page 839
 04 23 18 XX  BEGIN LUNAR REV l8
 04 23 49 22 CMP Houston, America. ...
 CC Go ahead, Ron.
@@ -6499,7 +6499,7 @@ CC Roger. Just thought I'd update here before you get into your presleep checkli
 CMP Oh, okay.
 
 	Tape 80B/2
-	Page 839
+	Page 840
 CC - - sure not much news today. It's a good thing you guys made the landing today, because there wouldnÕt be any news in the paper tomorrow if it wasnÕt for you all.
 CMP (Laughter)
 CC LetÕs see. Japanese Prime Minister Tanaka's Liberal Democrats lost 26 seats, but he still has a firm hold on the Diet, and Tanaka still has a firm majority. And Henry Kissinger and Le Due ThoÕs secret Paris peace talks have bogged down some more, and they think they are bogged down under some academic situations. And - news out of Kansas City isnÕt too good, but President Truman is - feeling some irregular heartbeats and has reduced the optimism for his recovery.
@@ -6510,7 +6510,7 @@ CC Yes, indeed.
 CC Everybody from the homefront sending their love. They are having a little trouble hacking out the -the comm, since we're all on a squawk box together. So they are going to try to get it set up so just the CSM loop will go into your house tomorrow night. Tonight we had all of it, and it was kind of a jumble for them.
 
 	Tape 80B/3
-	Page 840
+	Page 841
 CMP (Laughter) I imagine so, wouldn't it? They can't turn one down - or something, huh?
 CC That's right. Well, they are going to - they are going to try and get it worked on for tomorrow so that only the CSM loop will go in there. They just had to finally give up on it and go watch the - the surface work on television because over where the loop was, it was just too much.
 CMP Yes, I bet.
@@ -6526,7 +6526,7 @@ CC Roger.
 CC Roger. We got those, and that matches pretty close with, what we got right in front of us on those quads. You can go ahead and take the tanks 2 FANS to ON at this time - -
 
 	Tape 80B/4
-	Page 841
+	Page 842
 Clff Okay.
 05 00 06 22 CMP Okay. Tank 2 FANS are going ON. H^, that is.
 CC Roger.
@@ -6548,7 +6548,7 @@ CMP (Laughter) That's right.
 CC And if you will, you can pick up on the top of the next page, 123- RADAR, OFF; DATA SYSTEM* OFF; et cetera. ... DATA SYSTEM, ON.
 
 	Tape 80B/5
-	Page 842
+	Page 843
 CMP Okay.
 05 00 21 24 CMP Okay. RADAR is coming OFF, DATA SYSTEM is coming ON.
 05 00 21 32 CMP HIGH GAIN ANTENNA is going to POWER.
@@ -6569,7 +6569,7 @@ CMP Oh, not too bad really.
 05 00 25 30 CC Ron, if you're finished there, we would like the -ACCEPT. We got to get on monitor load, and we got a state vector for you tonight.
 
 	Tape 80B/6
-	Page 843
+	Page 844
 05 00 25 42 CMP Okay. You have ACCEPT.
 CC Roger.
 CC FDO showed me where those - theyÕre plotting on Doppler what those mascons are doing to you. They really - really have effect.
@@ -6590,7 +6590,7 @@ CC The ~ the sur - the surface boys are on the way back to the LM, completed the
 CMP Hey, good.
 
 	Tape 80B/7
-	Page 844
+	Page 845
 CMP They got out and did a little riding around on the Rover too, huh?
 CC That's right. It - they - they - -
 CMP After the ALSEP wsts all deployed?
@@ -6608,7 +6608,7 @@ CMP Okay. I've got to clean the old suit circuit return screen yet.
 CMP Plus X forward here so - plus 25 and 195* No, wait a minute. Minus 10 and plus 25.
 
 	Tape 80B/8
-	Page 845
+	Page 846
 CC Roger. That - that's affirmative. Minus 10, plus 25. And as tight as you can get it to those numbers, Ron.
 CMP Well, I'll tell you what. I believe the dials more than I believe the set knobs, so - Was that the AOS there? No. Not quite.
 05 00 42 37 CC Ron, we just been debating here; you need to be sure to do the knobs at the minus 10 and plus 25*
@@ -6627,7 +6627,7 @@ CC Roger.
 CMP It takes a little longer to do all this stuff by yourself (laughter).
 
 	Tape 80B/9
-	Page 846
+	Page 847
 CC It sure does.
 05 00 53 24 CC Okay, Ron. We're going to drop the up-link here in 1 minute, so see you tomorrow.
 CMP Okay. Thank you all. We'll see you in the morning.
@@ -6636,7 +6636,7 @@ CC That's all right. You - you can call us, but we - -
 05 01 17 XX  BEGIN LUNAR REV 19
 
 	Tape 81A/1
-	Page 847
+	Page 848
 04 23 39 01 LMP-EVA ... let me see here.
 CDR-EVA Can you reach it?
 LMP-EVA Well, I'm going to lean on the - on the rock maybe. I got that other little piece in sight.
@@ -6659,7 +6659,7 @@ LMP-EVA Where I'm pointing.
 CDR-EVA There?
 
 	Tape 81A/2
-	Page 848
+	Page 849
 LMP-EVA There you go; you just about touched it. Right there, that piece.
 CDR-EVA Okay, let me get these in a bag here.
 LMP-EVA Well, I'll get that piece; and that's the samples from either side of the contact anyway. Can you get a bag - -
@@ -6681,7 +6681,7 @@ LMP-EVA Got it.
 CDR-EVA Okay. Ñ
 
 	Tape 81A/3
-	Page 849
+	Page 850
 LMP-EVA 477 are two chips of the - They're small, but I think they'll give you the - if there's any compositional difference.
 CDR-EVA But these two are the ones you saw - that right there? That1s what you pointed at.
 LMP-EVA Yes, I think you got it.
@@ -6701,7 +6701,7 @@ CDR-EVA Sure wish I could read this.
 CC - - driving in 10 minutes, please.
 
 	Tape 8lA/4
-	Page 850
+	Page 851
 CDR-EVA Nag, nag, nag.
 CC That's right, that's right, that's right.
 CDR-EVA Boy, I can't see my camera setting, it's so full of dust.
@@ -6722,7 +6722,7 @@ CDR-EVA Look, let's go ahead and bag that one; and I'll get the gnomon out there
 LMP-EVA Okay.
 
 	Tape 81A/5
-	Page 851
+	Page 852
 CDR-EVA Bob, as you might have seen from the camera, up towards where we think Emory is you get a pretty high concentration of boulders up there.
 CC Okay. And I think that that's where we thought we were a little bit closer to Emory than you are.
 CDR-EVA Well, we thought about going on up there; although -we're in a pretty good area here, too, from the standpoint of boulders.
@@ -6740,7 +6740,7 @@ CC Roger.
 CDR-EVA - - in terms of the size of vesicles, where I described one as being a more hummocky vesicular-type rock. The first time I've noticed any of the dark minerals was when we took that one big flat chip off that boulder.
 
 	Tape 81A/6 .
-	Page 852
+	Page 853
 CC Okay; copy that.
 CDR-EVA I didn't look at it that close to see what it was.
 CC Copy that, guys.
@@ -6762,7 +6762,7 @@ CDR-EVA Let me, let me - don't let me lose them. That's enough. Give me a couple
 LMP-EVA Okay.
 
 	Tape 81A/7
-	Page 853
+	Page 854
 CDR-EVA Okay, that's good. That's good. Okay.
 LMP-EVA Here, ... They are.
 CDR-EVA Okay, in bag 458 is the rest of the - the rake sample. They're all fragments.
@@ -6784,7 +6784,7 @@ LMP-EVA Okay; you get the answer?
 CDR-EVA I tried to blow the dust off my camera - -
 
 	Tape 81A/8
-	Page 854
+	Page 855
 LMP-EVA If we could get a - I think it's going to be hard to get a double core here. We could try a single right there. Bob, we got time to get the core?
 CC Negative. The core has been deleted. We'd like for you to get your second pan, Jack, and then we'll press on.
 LMP-EVA Okay.
@@ -6802,7 +6802,7 @@ CDR-EVA Okay. Very good, sir. We'll get at it.
 LMP-EVA Okay. I'm taking your camera.
 
 	Tape 81A/9
-	Page 855
+	Page 856
 CC Okay. And, Jack, you got the pan or getting it?
 LMP-EVA Yes, sir.
 CDR-EVA And, Bob, CDR is on frame count 60.
@@ -6823,7 +6823,7 @@ CC We're ... to do on that again tomorrow. And EP-7 is the charge, right?
 CDR-EVA Jack, I figured out if you - if you mount the Rover at 90 degrees, when you kick up your feet, you - you'll miss the dust.
 
 	Tape 81A/10
-	Page 856
+	Page 857
 LMP-EVA Let me hook you in before I do that.
 CDR-EVA Okay.
 LMP-EVA Just put your seat 90 degrees to it.
@@ -6847,7 +6847,7 @@ CDR-EVA Okay. And you want the - charge deployed at 320.7, huh?
 CC Roger. It will be 0.6. We'll change that to 0.6 on EP-7 but - and it will really be just wherever you cross 0.6 on the range.
 
 	Tape 81A/11
-	Page 857
+	Page 858
 CDR-EVA Okay.
 LMP-EVA Well, it fit once.
 CDR-EVA Did you twist it, Jack? 180, that took out some of your - Wait a minute - here.
@@ -6870,7 +6870,7 @@ LMP-EVA You've got a block right ahead of you.
 CDR-EVA I got it.
 
 	Tape 81A/12
-	Page 858
+	Page 859
 CC Okay. And remember you'll be taking photos coming back here, Jack - -
 LMP-EVA Okay.
 CC #NAME?
@@ -6888,7 +6888,7 @@ LMP-EVA Wall, I think we'll find Camelot without any problem.
 CDR-EVA Yes. Okay, watch. I'm going through it.
 
 	Tape 81A/13
-	Page 859
+	Page 860
 LMP-EVA Okay. No problem.
 CDR-EVA No, I'd rather straddle or go through those little ones.
 LMP-EVA Okay, Bob, here's another crater about the same size we sampled - the last station. And it doesn't have as many blocks, but it does have blocks. And from this distance, their vesicular texture and their light color shows up very well. I suspect they're the same general kind. There's a glass-bottom crater.
@@ -6909,7 +6909,7 @@ LMP-EVA Yes.
 CDR-EVA That's Trident. Man, I'll tell you.
 
 	Tape 81A/14
-	Page 860
+	Page 861
 LMP-EVA Look at this thing. That looks like the same kind of rock except it doesn't have any vesicles.
 CDR-EVA There's some white stuff in that rock. Just let me take a quick pic ...
 CDR-EVA See that one right in front of it? Take a picture of it.
@@ -6930,7 +6930,7 @@ CC Copy that. Beautiful. Remember the charge goes off at 0.6.
 LMP-EVA Doesn't sound like - Okay.
 
 	Tape 81A/15
-	Page 861
+	Page 862
 LMP-EVA Okay, we want to - -
 CDR-EVA Over there's the mantle - there's the white mantle Jack, look over there. Can you look to your left?
 LMP-EVA Yes, it does. Yes.
@@ -6953,7 +6953,7 @@ CC Okay. And I copy that as charge number 7-
 LMP-EVA That's affirm.
 
 	Tape 81A/16
-	Page 862
+	Page 863
 CC Okay. And we'd like a frame number when you get done there, Jack, after you get it on the ground.
 LMP-EVA Okay, stand by. Okay. I think we'll miss that.
 CDR-EVA Okay. Bearing is 339.6.
@@ -6974,7 +6974,7 @@ CC Copy, 146 on auto[mobile].
 LMP-EVA Bob, you know, the more I look at this - Watch out for those babies there - at this - at this dark dust, if you will, the more it doesn't seem like the kind of thing you'd expect to have been Ñ derived from the underlying bedrock. But I think you're going to have to play that game in the lab right now.
 
 	Tape 81A/17
-	Page 863
+	Page 864
 CC Okay, I copy that. Can you - -
 LMP-EVA We'll see how it works out later.
 CC Roger.
@@ -6995,7 +6995,7 @@ CDR-EVA Take a picture of that?
 LMP-EVA Yes.
 
 	Tape 8lA/l8
-	Page 864
+	Page 865
 CDR-EVA Okay - -
 CC We need a - -
 CDR-EVA 336.4.
@@ -7013,7 +7013,7 @@ CDR-EVA They're not nearly as covered with dust as they -as they get when - when
 CC Okay.
 
 	Tape 81A/19
-	Page 865
+	Page 866
 CDR-EVA #NAME?
 CC Okay. I copy that.
 LMP-EVA Yes, but most of all - most of all the craters are - have relatively ..., except where the rocks are showing the boulders on the side, or - within the craters are evident - are suddenly covered over with this mantle. You don't see any good sharp ridges on - walls on some of these craters. Even the small ones.
@@ -7030,7 +7030,7 @@ CDR-EVA Yes, I - want to - want to - come in at a -
 LMP-EVA Hasn't filled the bottom of the craters.
 
 	Tape 81A/20
-	Page 866
+	Page 867
 CDR-EVA IÕm going to come in at a heading here and see if I can get on it for you.
 LMP-EVA Okay, drop me off there.
 CDR-EVA Look at that fender. Look at the dust itÕs produced. Look at the LCRU.
@@ -7052,7 +7052,7 @@ LMP-EVA And the LMP frame count is 19 - 197? and it was s till turning. ^
 CDR-EVA Amp-hours are 108 105 5 and batteries are 100 and 120.
 
 	Tape 81A/21
-	Page 867
+	Page 868
 CC Okay. Copy 100 and 120.
 LMP-EVA Okay. Oh, wait a minute. I need my camera, don't I?
 CDR-EVA Yes, sir.
@@ -7070,7 +7070,7 @@ LMP-EVA Hey, if you come right -
 LMP-EVA That depression to the northeast is at least a couple hundred meters in diameter, and it's joined with one that's probably of comparable size just to the northwest of the first depression.
 
 	Tape 81A/22
-	Page 868
+	Page 869
 CC Okay, I copy that too, Jack.
 CDR-EVA Okay. How's that look, Jack?
 LMP-EVA Great.
@@ -7093,7 +7093,7 @@ CDR-EVA Yes, as a matter of fact, you do. Stand by 1 second. I'll make it a quic
 LMP-EVA That's all right. No, I can handle it, I think, here. But we're going to need your tongs to pick them up and not get them all confused. Okay, where's the shadow graph? There it is. Sun quadrant - that's the Sun quadrant.
 
 	Tape 81A/23
-	Page 869
+	Page 870
 CDR-EVA For sure we lost that fender.
 LMP-EVA Okay, I'll deploy number 2 and 4. And, letÕs see, that's number 1. This one must be number 2. It is.
 CDR-EVA Okay, I'm almost there, Jack. Let me run around and dust. Let me tell you, this dust isn't going to be fun tomorrow.
@@ -7110,7 +7110,7 @@ CC And, Jack, did you get the reels straightened out again?
 LMP-EVA Yes, they're okay.
 
 	Tape 81A/24
-	Page 870
+	Page 871
 CC Thank you.
 LMP-EVA How can you stop a crew like this?
 CC I don't know any way.
@@ -7131,7 +7131,7 @@ LMP-EVA Yes.
 CDR-EVA Okay, let me back up - a skosh and take the slack out. And I would say, offhand -Oh, boy, what have you got a - that's about as close to a 1/6-g orthogonal - at least, not orthogonal yet, but straight lined. That's it Jack, here.
 
 	Tape 81A/25
-	Page 871
+	Page 872
 LMP-EVA Stay there, and I'll take a picture.
 CDR-EVA I thought you did.
 LMP-EVA No. Okay, I got it now.
@@ -7153,7 +7153,7 @@ CDR-EVA Serves you right.
 LMP-EVA This doesn't push.
 
 	Tape 81A/26
-	Page 872
+	Page 873
 CDR-EVA Okay, I'm ready to stroll.
 LMP-EVA (Humming) I found a brown rock that I'm going to bring back.
 CDR-EVA Please do.
@@ -7169,7 +7169,7 @@ CDR-EVA You don't have - well, take one off of mine and give it to me. I'll take
 LMP-EVA Bag number 460.
 
 	Tape 81A/27
-	Page 873
+	Page 874
 CC Copy that. 460 has brown glass.
 CDR-EVA I'm halfway out on the north course - -
 CC Sorry about that.
@@ -7190,7 +7190,7 @@ CDR-EVA Okay, 670, 010, 101; that's 670, 010, 101.
 CC Okay, I got that one, Geno.
 
 	Tape 81A/28
-	Page 874
+	Page 875
 CDR-EVA The wires have memory. Okay, let me - -
 LMP-EVA I need gray tape.
 CDR-EVA Let me put this in your bag, and I'll get the gray tape.
@@ -7212,7 +7212,7 @@ CDR-EVA If not, let's take them off and hold them.
 LMP-EVA No, I think it's going to be easier this way.
 
 	Tape 81A/29
-	Page 875
+	Page 876
 CDR-EVA Okay, try it. I don't think they're going to be much problem the way they are, anyway.
 LMP-EVA You holding?
 CDR-EVA Yes, go ahead and lean if you want.
@@ -7235,7 +7235,7 @@ CC Okay, copy that. And we have that transmitter switch in STANDBY, right?
 CDR-EVA Bob, there's just a couple little bows around the transmitter, is that -
 
 	Tape 81A/30
-	Page 876
+	Page 877
 LMP-EVA It will be -
 CDR-EVA Oh, those are all right - those are okay.
 LMP-EVA Let's forget those.
@@ -7259,7 +7259,7 @@ LMP-EVA Oh, I'll walk back.
 CDR-EVA Man, I hate this dust. I got to make a new fender tonight.
 
 	Tape 81A/31
-	Page 877
+	Page 878
 LMP-EVA Well, let's see, I guess I'm supposed to -
 CC Hey, Gene, I presume that the fender that came off is the fender that came off before, right?
 CDR-EVA Yes, same one. My tape didn't hold; it was too dusty.
@@ -7279,7 +7279,7 @@ CC Roger, Jack. Read you loud and clear on that one.
 LMP-EVA Okay. It'll be in the big bag.
 
 	Tape 81A/32
-	Page 878
+	Page 879
 CC Okay, ...
 LMP-EVA Undocumented, it's about - it's roughly tabular -15 by 25 centimeters and about 5 to 7 centimeters thick. One - one face is very flat; looks like it was off of a parting plane, which were in that rock.
 CC Okay, and if it fits in the SRC with all the other samples, you might put it there because the SRC's going to be kind of empty.
@@ -7299,7 +7299,7 @@ LMP-EVA Stand by 1.
 CDR-EVA Amp-hours are at 108, 102; volts are 74 and 75-Batteries are 108 and 123. Motors are all off scale low, all four of them.
 
 	Tape 81A/33
-	Page 879
+	Page 880
 CC Roger, Gene. Understand 108, 102 on the amp-hours, hub?
 CDR-EVA That's affirm; 108 and 102.
 CC Okay; copy that.
@@ -7322,7 +7322,7 @@ LMP-EVA Yes .
 CDR-EVA That's pretty good.
 
 	Tape 81A/34
-	Page 880
+	Page 881
 CC Okay, let's put all the stuff in that bag, Jack -both the stuff that's in yours and the stuff that's in Gene's.
 LMP-EVA Okay. ... Samples - two samples from under the LMP's seat.
 CDR-EVA Put these under the seat. Clean you up here while IÕm at it. Oh, man, I tell you, it's going to take us half - a dozen Sundays to dust. Look at that fender; that's terrible.
@@ -7343,7 +7343,7 @@ LMP-EVA Putting them in the bag that goes into the SRC -
 CDR-EVA That's SRC - SCB 1.
 
 	Tape 81A/35
-	Page 881
+	Page 882
 CC Roger.
 CDR-EVA Okay; let's see, offload LM - PLSS - core cap dispenser tools. Okay, as soon as you get that, I'll take that SCB 1 from you, and I'll close the SRC 1.
 CC Okay; and I gather you didn't have any Rover samples today, did you, Jack?
@@ -7365,7 +7365,7 @@ CDR-EVA Yes, I want the full one.
 LMP-EVA Yes. Latched.
 
 	Tape 81A/36
-	Page 882
+	Page 883
 CDR-EVA Okay.
 LMP-EVA Bob, that's almost full of samples, and I think that big rock would be - probably wouldn't fit in there.
 CC Okay, then we'll put that in the big bag.
@@ -7386,7 +7386,7 @@ CDR-EVA Well, I need a fender, that's what I need. Figure out something we can m
 LMP-EVA How about one of the others that's not as critical?
 
 	Tape 81A/37
-	Page 883
+	Page 884
 CDR-EVA Yes, but I wouldn't ever take one of those off. You know, getting it - I had one to put on and it didn't stay, which is what I figured.
 LMP-EVA I thought you said it was broken, though?
 CDR-EVA Well, it was. But these arenÕt supposed to come off, either, unless you break them. I broke that one. My hammer got caught underneath it. It wasnÕt the fenderÕs fault.
@@ -7403,7 +7403,7 @@ CDR-EVA Okay, Jack, ... rest of my dusting until - -
 LMP-EVA Am I in your way?
 
 	Tape 81A/38
-	Page 884
+	Page 885
 CDR-EVA Yes, I'd like to get over there to get the - this last battery cover. I can. ThatÕs good enough. I can get over there now. I want to make sure these things stay clean because I don't want to walk.
 LMP-EVA I agree. Okay, Bob, containment bags and two cameras are stowed in the ETB.
 CC Copy that. And donÕt forget the scissors, guys.
@@ -7423,7 +7423,7 @@ LMP-EVA What would - the bock - the rock?
 CC Yes, that's right.
 
 	Tape 81A/39
-	Page 885
+	Page 886
 LMP-EVA Well, it'll go in there. It's not that big.
 CC Okay, why don't you put it in SCB - why don't you put it in SCB 2 and bring that in, instead. Leave SRB out, and then we'll just leave SCB 2 in forever.
 LMP-EVA Okay.
@@ -7442,7 +7442,7 @@ LMP-EVA Oh, I'm sorry. I thought that was -
 CDR-EVA No - you just - you just - Well, you saw that stuff coming. I didn't see that at all. Holy Smoly!
 
 	Tape 81A/40
-	Page 886
+	Page 887
 CC Roger, 17- And John says that it blew up on his mission, as well.
 CDR-EVA Okay, Bob, I guess I'm going to take the TV away from you.
 CC Okay. And, Gene, one thing we'd like before you guys leave the Rov - -
@@ -7459,7 +7459,7 @@ CDR-EVA Well, I have done it before, but itÕs not easy.
 CC Okay, as far as you can tell, so that we can look at it over night, the rear fender - the part that's remaining - looks in fairly good shape, right?
 
 	Tape 8lA/4l
-	Page 887
+	Page 888
 CDR-EVA Let me take a good look at it. Yes, the part you need, I think, to hold that fender on -
 LMP-EVA Let's see - we better take those dustbrushes up there.
 CDR-EVA Yes, there's enough here to hold the fender on, Bob.
@@ -7480,7 +7480,7 @@ CC Okay, we'll have to get the contamination bags, too, there.
 CDR-EVA Huh?
 
 	Tape 81A/42
-	Page 888
+	Page 889
 LMP-EVA Say that again, Bob.
 CC Roger. We've got the contamination bags to get, too - out of the MESA.
 LMP-EVA I've got them.
@@ -7500,7 +7500,7 @@ LMP-EVA Are you through - are you through with the SRC?
 CDR-EVA Yes, I just left it there.
 
 	Tape 81A/43
-	Page 889
+	Page 890
 LMP-EVA I've got to get to the table.
 CDR-EVA Okay.
 CDR-EVA Okay, the batteries look pretty good. Bob, you got -you got - The left-hand forward reflector on the batteries is about 10 percent in shade. The others are in the Sun. Is that what you want?
@@ -7520,7 +7520,7 @@ CDR-EVA Okay, ... the old blanket.
 CC Copy that.
 
 	Tape 81A/44
-	Page 890
+	Page 891
 CDR-EVA Boy, that's dirty.
 LMP-EVA Okay. Okay, I'll take some stuff up. SCB 2, we don't have. Oh, wait a minute. What did we decide to do - -
 CC SCB 2 for the big rock there, Jack.
@@ -7543,7 +7543,7 @@ CDR-EVA Okay, I just want to set it here so you don't knock it over.
 LMP-EVA What's that?
 
 	Tape 81A/45
-	Page 891
+	Page 892
 CDR-EVA The TGE, right where you left foot is.
 LMP-EVA Oh, well.
 CDR-EVA IÕm afraid weÕll knock it over if I set it anywhere else.
@@ -7566,7 +7566,7 @@ LMP-EVA Well, let's leave it. ... let's get it out. Here, pick it up. WeÕll get
 CDR-EVA Hold the top.
 
 	Tape 81A/46
-	Page 892
+	Page 893
 05 01 00 39 LMP-EVA Shake it. Well, I thought there was one in there.
 CDR-EVA I don't think thereÕs anything in there.
 LMP-EVA I thought I put one in there.
@@ -7587,7 +7587,7 @@ LMP-EVA Okay. I didn't mean to drop that, but I did.
 CDR-EVA Yes, we got to - we got to keep from dropping everything. I'll tell you, the big lesson today - -
 
 	Tape 81A/47
-	Page 893
+	Page 894
 LMP-EVA Dropped.
 CDR-EVA Dropped, I guess.
 LMP-EVA The big lesson is that it's going to get dropped if your hands get tired.
@@ -7607,7 +7607,7 @@ CDR-EVA Watch your foot; you're caught in that thing.
 LMP-EVA Yes.
 
 	Tape 81A/48
-	Page 894
+	Page 895
 CDR-EVA Pick up your right foot. Jack, you're just going to have to get up on that ladder somewhere so I don't - don't get the dust all over this thing.
 LMP-EVA Well, IÕve got to dust you, too.
 CDR-EVA Well, okay. Go ahead and get me.
@@ -7629,7 +7629,7 @@ LMP-EVA Guess I can come around on the other side, if you want.
 CDR-EVA Yes, I can hold on better that way.
 
 	Tape 81A/49
-	Page 895
+	Page 896
 LMP-EVA Just take some of it off.
 CDR-EVA Yes.
 LMP-EVA Hold still.
@@ -7651,7 +7651,7 @@ LMP-EVA Just - just really spring. You got it. Beautiful.
 LMP-EVA Okay.
 
 	Tape 81A/50
-	Page 896
+	Page 897
 CDR-EVA Better get my legs, then I'll ...
 CC #NAME?
 CDR-EVA No. No, sir, Bob. I'm still getting dusted. We're trying to go over this thing pretty thoroughly.
@@ -7665,14 +7665,14 @@ LMP-EVA Yes.
 05 01 08 34 CDR-EVA Once I get you this far, I'm just going to shove you on up that ladder and not let you get in the dust. Whoo!
 
 	Tape 81B-85B/1
-	Page 897
+	Page 898
 05 03 15 XX  BEGIN LUNAR REV 20
 05 05 14 XX  BEGIN LUNAR REV 21
 05 07 13 XX  BEGIN LUNAR REV 22
  REST PERIOD - NO COMMUNICATIONS
 
 	Tape 82A/1
-	Page 898
+	Page 899
 05 01 07 38 CDR-EVA Okay?
 LMP-EVA No. You're not okay. You're awful dusty, but I don't know that I can - -
 CDR-EVA Okay.
@@ -7692,7 +7692,7 @@ CDR-LM Okay.
 LMP-EVA . I - You're going to have to get further down. I can't reach you.
 
 	Tape 82A/2
-	Page 899
+	Page 900
 CDR-EVA That's good. I feel like I'm praying. I guess I am.
 LMP-EVA Now, maybe I can get some dust off you, if you stay there. The antenna will be stowed in half of a jiff.
 05 01 10 40 LMP-EVA Oh, my fingers. They do not have the dexterity that they once had.
@@ -7712,7 +7712,7 @@ CDR-EVA We're still at it, Bob.
 CC Yes. It seemed to go a lot faster down there in the clean room at the Cape.
 
 	Tape 82A/3
-	Page 900
+	Page 901
 CDR-EVA Boy, you bet you. And I know why we didn't do it. It was just as tough down there as it is here.
 LMP-EVA Okay?
 CDR-EVA No, not yet. I want to get - the other leg. And then I want you to lean over and get my antenna.
@@ -7735,7 +7735,7 @@ CDR-EVA Yes.
 LMP-EVA Okay, Bo - I need the EVA pallet.
 
 	Tape 82A/4
-	Page 901
+	Page 902
 CDR-EVA Okay, I've give you that and then I'll get to work. I've got some work I've got to do for Bob. Ah. Okay, everything on the EVA pallet?
 LMP-EVA Yes. Just hand it to me and I'll start unstowing it up there.
 CDR-EVA Okay. Man, I forgot I had my visor up. Zowie! See if I can get back in the shade.
@@ -7753,7 +7753,7 @@ LMP-IM I did that.
 CDR-EVA Okay, MESA blankets are tidied. Okay. Open TGE -I'll do that. Brush to ladder hook. Final transfer, Jack. I'm going to - Okay, I'll tell you what I'm going to do. You've got the - I'm going to - I'm going to inventory here. You got the pallet. ETB is here, and you got the corestem bag. SR - SCB-2 is there; SRC-1 is here; big bag is not required. Bob, I think we got
 
 	Tape 82A/5
-	Page 902
+	Page 903
  everything. The two things on the surface yet are the ETB and the SRC and me.
 CC Okay, we copy that. But, of course - -
 CDR-EVA Jack, get down a little bit more, and you've got another 2 or 3 inches.
@@ -7774,7 +7774,7 @@ CDR-EVA Well, I've got to - IÕve got to -
 LMP-LM You ... put it on the porch?
 
 	Tape 82A/6
-	Page 903
+	Page 904
 CDR-EVA Well, I only got one more thing to do and thatÕs taking out there - just clean up the TGE. Okay. IÕve got to come up there anyway.
 CDR-EVA God speed the crew of Apollo 17.
 LMP-LM Who signed it? I forgot to read it.
@@ -7795,7 +7795,7 @@ CDR-EVA Have you got anything else?
 CC Negative.
 
 	Tape 82A/7
-	Page 904
+	Page 905
 lmp-iw I'm ready for you up here.
 CDR-EVA Let's see what kind of dusting job I can do on myself.
 05 01 22 49 CDR-EVA Okay, Jack, coming up. Whee!
@@ -7819,7 +7819,7 @@ LMP-LM No, just the bag.
 CDR-EVA Where are the scissors, by the way?
 
 	Tape 82A/8
-	Page 905
+	Page 906
 LMP-LM They're in the bag.
 CDR-EVA Okay. I hope they don't come out this time.
 LMP-LM Well, I stuck them down in there. I hope they don't.
@@ -7841,7 +7841,7 @@ CDR-IM ... Comes through that hole. No; 13 - 13 percent, I think.
 CC One, five [sic].
 
 	Tape 82A/9
-	Page 906
+	Page 907
 LMP-LM Okay. Put your but - put your buttons down. You're great. Now your head up. You're right against the top, right against the ... 27. Come towards me. Okay, now up.
 CDR-LM Okay.
 LMP-LM Tight fit.
@@ -7862,7 +7862,7 @@ CDR-LM Okay. Let me make sure there's nothing in that hatch.
 LMP-LM Well, there's dust. That's one thing that's in there.
 
 	Tape 82A/10
-	Page 907
+	Page 908
 CDR-LM Well - Take one quick peek.
 LMP-LM I can't - From where I stand, all I can see is dust.
 CDR-LM Okay, it's clear. Did it. Now what do we do next?
@@ -7884,7 +7884,7 @@ LMPÑ1/4 Yes. There's something keeping me from going more.
 CDR-LM Okay. Okay, let me see if I can't -
 
 	Tape 82A/11
-	Page 908
+	Page 909
 LMP-LM ... to be awfully far inboard for what I - fitted it.
 05 01 30 23 CDR-LM Okay. Your PRIMARY WATER is OFF.
 LMP-LM Okay. IMP's WATER is OFF.
@@ -7909,7 +7909,7 @@ CDR-LM Yes, sir.
 LMP-LM Okay. And it is AUTO. Okay.
 
 	Tape 82A/12
-	Page 909
+	Page 910
 CDR-LM Okay.
 LMP-LM Hey, I got a tone and a - and I got an H2O flag.
 CDR-LM Okay.
@@ -7933,7 +7933,7 @@ LMP-LM Okay. Stand by - for repress.
 CDR-LM I'll try and get cabin ... master.
 
 	Tape 82A/13
-	Page 910
+	Page 911
 05 01 32 5^ LMP-LM Okay, there's the MASTER ALARM, Heck, I can't get It.
 CDR-LM I'll catch it.
 LMP-LM Okay.
@@ -7955,7 +7955,7 @@ LMP-LM So am I.
 CDR-LM Okay. Post-EVA configuration. White dots out and EVA decals. Okay. Checking.
 
 	Tape 82A/14
-	Page 911
+	Page 912
 LMP-LM White dot.
 CDR-LM Okay. Give me a chance to turn around and look. Okay. White dots are out - out - all the white dots. Okay, they're all out here.
 LMP-LM Boy, does this feel good to get soft suits. Oh, my hands. Okay, they're all out here.
@@ -7976,7 +7976,7 @@ CC I know it, men. I know it.
 CDR-LM I tell you, I really wish you guys could have been here with us. You worked as hard at it as we did, if not harder.
 
 	Tape 82A/15
-	Page 912
+	Page 913
 LMP-LM Harder, I think. Until today. Oh! You don't have a tub of hot water I can soak my hands in, do you? Wait until that dust hits the sweat of your hands. Oh! I tell you.
 05 01 36 57 CDR-LM Man! Okay. My gloves are off. Doff helmets with visors, lower shades, and stow in BRA. Well, I guess the first thing is to get this thing off. Boy, let me tell you.
 CC Okay. And 17 - or Jack and Gene, I'm going to turn you over to Joe now. I'll be back in a while
@@ -7996,7 +7996,7 @@ CDR-LM Yes, stow them in the BRA.
 LMP-LM No, but I mean - Keep the protective visor down.
 
 	Tape 82A/16
-	Page 913
+	Page 914
 CDR-LM Keep the protective visor over it, and stow the whole thing in the BRA.
 CDR-LM Verify safety on the dump valve. I guess I can do that now -
 05 01 39 39 LMP-LM Again?
@@ -8019,7 +8019,7 @@ LMP-LM I'm glad there were - -
 CDR-LM I thought that - -
 
 	Tape 82A/17
-	Page 914
+	Page 915
 LMP-LM I'm glad there were two of us.
 CDR-LM I thought that whole thing was going to break. It was bending about - at about (laughter)
 LMP-LM Well, next time we have to do it -
@@ -8040,7 +8040,7 @@ LMP-LM Yes. And if we - ~
 CDR-LM Okay, and if you can get to the SUIT FLOW, you can go SUIT FLOW. In the meantime, get your FAN -your PUMP OFF.
 
 	Tape 82A/18
-	Page 915
+	Page 916
 05 01 42 08 LMP-LM FAN's OFF. PUMP's OFF.
 CDR-LM Joe, are you still reading us down there?
 CC Loud and clear, Gene. WeÕre following you close and - -
@@ -8061,7 +8061,7 @@ CC Okay, Challenger. This is Houston. Reading you 5 by.
 CDR-LM Okay, we're going to go ahead and charge up the -let's see, the LMPs - PLSS.
 
 	Tape 82A/19
-	Page 916
+	Page 917
 CC We copy.
 05 01 52 56 LMP-LM Hello, Houston. The recharge on the LMP: 95 percent.
 05 01 53 03 CC Copy that.
@@ -8082,7 +8082,7 @@ LMP-LM Did he have a good day up there?
 CC He surely did. Fine day. And I want to make the observation - as a casual bystander. It was a real pleasure to watch your EVA unfold down here.
 
 	Tape 82A/20
-	Page 917
+	Page 918
 05 02 19 55 CDR-LM Thank you, Joe. I think you are more than a casual bystander though-
 05 02 27 23 CDR-LM Hey, Joe. We've got - 1 and 3 - or correction, l's replacing the 3s and 2's replacing the 4s on the PLSS.
 CC We copy.
@@ -8096,7 +8096,7 @@ CC Copy; 32 pounds.
 05 02 37 10 CC Okay.
 
 	Tape 83A/1
-	Page 918
+	Page 919
 05 02 41 51 LMP-LM Okay, Joe. The circuit breakers are verified. On both 11 and l6, with the exception of the line heater.
 CC Okay, copy that. Thank you very much.
 LMP-LM Okay, Houston, we're going to turn the BIOMED, OFF
@@ -8116,7 +8116,7 @@ CDR-LM Do I read this that the - that the LMP sleeps on bio tonight? Is that rig
 CC Stand by. Roger; that's affirm.
 
 	Tape 83A/2
-	Page 919
+	Page 920
 CDR-LM Okay, so I can take mine off, huh? Ify sensors?
 CC That's affirm, Gene.
 CDR-LM Okay.
@@ -8137,7 +8137,7 @@ CC Yes, it looked beautiful from here.
 CDR-LM I tell you it makes you feel - feel like you had a good day's work behind you, though.
 
 	Tape 83A/3
-	Page 920
+	Page 921
 05 03 34 42 CC I can believe that.
 CC We're about to give you the rest of the day off, Gene.
 CDR-LM Thank you, Joe.
@@ -8151,7 +8151,7 @@ CDR-LM Yes (chuckle) and we know that too.
 CC Troops, while you're in a listen mood up there, we're going to be coining at you with a number of items here, not too many, but the first will be some surface block data. Then we're going to read up to you a LEVA cleaning procedure which is fairly simple, a real short geology debrief, a one-line change in the Lunar Surface Checklist. And then, we've been doing some thinking down here about how to fix the fender. And it's going to involve, we think, although we'll work on it while you guys are getting some rest, it's going to involve using utility clamps, from inside your LM there, instead of tape, to fasten some sort of stiff material onto the Rover in place of the missing fender. And we'll go with either with one of your - your cue cards, or possibly with part of insulation that, was the flame blanket protecting the Rover during the landing. Or perhaps part of the packing material that was between the Rover wheel and is probably lying on the ground underneath the LM there.
 
 	Tape 83A/4
-	Page 921
+	Page 922
 CDR-LM Joe, you couldn't be reading our mind more. We were talking about that, and there is a piece of it right outside my window. I saw it after we got in here. Either that or back of a part of a data book or something - I hate like the devil to tear one of those other fenders off. And the reason tape won't stick is that everythingÕs got a fine coating of dust, and the only way I could finally get it to stick was to put tape on it -rip the tape off - or take the tape off - which took some of the dust off and then tape would tend to hold it. But it just won't hack it up here.
 CC Roger, Gene. That's exactly what weÕre thinking. And what weÕre going to do is run through the fix in a pressure suit a few hours from now. And if it looks like we can do it, and it wonÕt cost you many more than say 10 minutes, weÕre going to have you go through with it. If it takes longer than that, weÕre going to go back to the drawing board and see what else we can do here.
 CDR-LM Well, you know John and Charlie can tell you just had bad it is. I wouldn't have believed it - I guess I didnÕt believe it, or I would have worked a little harder to make sure that fender was going to stay on. But it - Man, just that short trip back from where we lost it, and we were just covered. The whole - I couldnÕt even read the parts of the panel on the Rover, plus all the battery covers and everything.
@@ -8163,7 +8163,7 @@ CDR-LM I'm afraid so.
 CDR-LM MARK. IÕm giving my PLSS a second charge right now.
 
 	Tape 83A/5 We're watching.
-	Page 922
+	Page 923
 CDR-LM You sure of that? You should be getting LMP biomed.
 CDR-IM And Joe, give me a hack after about 10 minutes in case I forget on that PLSS recharge.
 CC Roger.
@@ -8181,7 +8181,7 @@ LMP-LM Okay, Joey, 21, reading in order 128:47:12; 130:45:44; 132:44:18; 134:42:
 CC Present rev is 20, and readback is correct.
 
 	Tape 83A/6
-	Page 923
+	Page 924
 LMP-LM Okay, Joe, you can go ahead and fire away at the LMP.
 CC Okay, Jack, and for the geology questions. I'm going to turn the console over to the well-known geologist of the Seifort Galaxies.
 MP-m Can't hack it, huh? You've all forgotten everything I taught you.
@@ -8194,7 +8194,7 @@ CDR-LM The answer to that is yes, Bob. I think it's partly - partly fam, but it'
 CC Okay, great. Okay. Another question here, Gene, that you should be able to answer with a simple yes or no. Was there any spillage of the material in the drill core while you were breaking it down?
 
 	Tape 83A/7
-	Page 924
+	Page 925
 CDR-LM Simple no.
 CC Okay. And - -
 CDR-LM Spillage out of it?
@@ -8207,7 +8207,7 @@ CC Okay. You have any feel for how high the rock is or how low - how deep the th
 CC Okay. And a somewhat more general question, here. It says - and I'll read it. We're still puzzled as to whether there is a dark mantle. Could you say something more about the dark regolith surface? There's a lot of discussion, today, about whether or not it could have been a regolith derived from the intermediate gabbro which you were sampling as boulders.
 
 	Tape 83A/8
-	Page 925
+	Page 926
 CDR-LM Bob, I - I think I don't have too much to add to what I said, near the end of the EVA, is that I do not have an intuitive feeling that the regolith has been derived from most of the boulders that we're seeing. But - because those boulders are fairly light-colored, they look like they're probably 50 percent plagioclase. The - it could be that the regolith is derived from some other material that has blanketed the area. I don't think we have that answer, yet.
 CC Okay. I copy that.
 CDR-LM Bob, the boulders - the boulders we are sampling -I think Jack, and I both feel that it's probably -we feel we sampled the subfloor because we saw on the sides of the craters where some of these boulders were exposed almost as if they were bedrock down there. In driving back from what we called Station 1, we - we could definitely see the light mantle out in the area where the potentials of a slide are.
@@ -8220,7 +8220,7 @@ CC Go.
 LMP-LM It is sort of strange that we don't see a good population of fine - of finer-grained rocks. These rocks look very much like igneous rocks, but
 
 	Tape 83A/9
-	Page 926
+	Page 927
 CC they're considerably coarser than comparable -well, they're about the grain size of some of the coarse-grain Mare basalts that tend to differentiate the crystallobalite and tridymite - but we didn't see any of the finer-grain versions. If itÕs an intermediate crystalline rock, we have not seen any fine-grain equivalents yet. At least not in abundance. Okay, I copy that.
 CC We get - we gather that there's no color change in the dark-mantle material at depth. In other words, the footprints, wheel tracks, and the rake sample, et cetera, were sort of uniform in color.
 LMP-LM No, thereÕs no major change, but looking out the window and I think I commented on it, the disturbed regolith is darker. Oh, I don't know, maybe by 10 percent albedo, something like that, than the undisturbed surface.
@@ -8232,7 +8232,7 @@ CDR-LM Yes, Bob, both in the core and the heat flow holes, it really didn't - di
 CC Okay, copy that.
 
 	Tape 83A/10
-	Page 927
+	Page 928
 05 03 53 04 CC On the - outcrops you think you see in the North and South Massifs, do they appear to be linear horizontal, or subhorizontal? Can you see layers, and do you have any feel for the thickness or the attitude or the continuity of them? Can you discuss these outcrops?
 CDR-M Bob, the -going over yesterday, I thought I could see a - a structure dipping off to the southeast, apparent dip anyway, on the eastern side of the South Massif. Or northeastern side. We haven't examined them in detail because we were in a rush to get out. We'll put the binoculars on them and try to examine that question. There1s nothing very obvious, any more than you can see on the photos, that the ledges were concentrated in the upper portion (cough) - excuse me - in the upper portion of the Massif's units.
 CC Okay- We copy that. Here's a short one that I'll ask Jack since he did it. Again I guess we'll have to prove this - the shade portion of the cosmic ray experiment. The question is, and I repeat - I quote - "Are you sure that the detectors, not the decals, were facing out?Ó
@@ -8244,7 +8244,7 @@ CC And ready to - Okay, and we can go and recharge the other PLSS whenever you'r
 LMP-LM Okay.
 
 	Tape Q3A/11
-	Page 928
+	Page 929
 CC Okay, the next question which calls for a little bit of discussion is: The layers of lineaments that you remarked on in the Sculptured Hills, can you say anything about them?
 CDR-LM Yes, Bob, I did. I think I said - and I commented, I'm not sure whether it was the Sun angle or not, but see, I was not looking at the Sculptured Hills. I was looking back at Bare Mountain, I believe. And, to me it looked like there was some organization that was dipping back to the east, somewhere between, oh, 20 and 25 degrees maybe. And it was very obvious to me but I'm a little - a little hesitant because of some of this Sun-angle stuff.
 CC Okay, I copy that. I gather we didn't get any 500-millimeters of these lineations, that right?
@@ -8256,7 +8256,7 @@ LMP-LM Bob, I don't remember saying that, or Gene doesn't either.
 CC Okay. You talked about something that was light I don't remember - I thought it was a boulder, but the question's about a crater.
 
 	Tape 83A/12
-	Page 929
+	Page 930
 LMP-LM You're right. You're right, there was a large zap pit in a boulder that was very white. It must have been - the crater for the zap must have been 2 centimeters diameter anyway. And it had about that, or maybe 3-centimeters worth of crushed minerals around it, that gave it a vhite, very bright white appearance.
 CC Okay. Well that was indeed a srnll crater, so I guess the question was right.
 05 03 57 59 CC Let me change the mode here and ask you three or four simple ALSEP questions again, to verify for various people, exactly what happened. Just to make sure that theyÕre clear on it. When - Jack, when, you were laying out the geophone leads, you mentioned and asked me if it was all right if the geophone leads crossed one another, if there was EMI problems. And so that made people wonder whether or not it was possible the geophone positions were reversed; i.e., geophone 1 was laid out in geophone 2sÕ direction, et cetera.
@@ -8267,7 +8267,7 @@ CC Okay, no problem. Was the - When you went to put the I£PE antenna in the hea
 LMP-M No, I think it was the same old problem of that piece of - of aluminum foil or whatever it is going down in the socket and jamming briefly.
 
 	Tape 83A/13
-	Page 930
+	Page 931
 CC Okay, I copy that. Did you clear out that foil when you did it, or did you Just push it on through?
 LMP-LM I pushed it.
 CC Okay. When you taped the SEP solar cells down, did you - how much of them did you cover with tape?
@@ -8283,7 +8283,7 @@ LMP-LM Bob, if had to answer - -
 CC Go ahead.
 
 	Tape 83A/14
-	Page 931
+	Page 932
 LMP-LM - - if I had to answer that question, I'd say yes. Yes that the fillet - boulders are filleted over there about like they are over here. That would be my impression.
 CC All right. Is there any indication that the fillets are directional, in other words, that the fillets sire heavier on one side than the other?
 CDR-LM Bob, haven't noticed that.
@@ -8297,7 +8297,7 @@ CC Okay, do you want to say any more about that boulder? Did it seem to have mor
 IMP-LM It's very comparable to the ones that we saw at Station 1, as a matter of fact.
 
 	Tape 83A/15
-	Page 932
+	Page 933
 CC Okay, I copy that.
 CDR-LM Both types of rocks were there, both variations.
 CC Do you have a feeling for where the big blocks in the LM ALSEP area came from? Do you think they were from Camelot, like I've been saying?
@@ -8310,7 +8310,7 @@ CC Roger.
 CDR-LM Say, Bob, driving back from Station 1, driving back from Station 1, where we did some of our circling and what have you. We didnÕt have time to get off, but we did see down in - I don't remember whether it was in the slopes of some craters, or down on the slope itself, but I'd say several meters down below the inantle where there was s what we almost agreed to, might be bedrock at least, a deeper portion of the aubfloor.
 
 	Tape 83A/16
-	Page 933
+	Page 934
 CC Okay, well, I think we'll get to it tomorrow. I think I might just give you a clue to our thinking for tomorrow. But, I don't think we've seen, or done anything today that is going to make us change very much from the nominal station of - nominal EVA-2 plans. The fact we didn't get the station -to the EVA-1 at the large boulders at Emory is probably going to mean that Station 5 might be shifted a little bit to the boulders on Camelot. But certainly Station 5 on the subfloor and also to Station 10 have assumed a higjier priority than they originally had. Other than that I, don't think we'll see an awful lot of changes to EVA-2. Over.
 05 04 06 15 LMP-LM Okay, Bob. I think that's safe. I suppose somebody's thinking about the possibility of going down to Emory. Maybe you just said that. Going down to Emory late in EVA-3.
 CC I think at the moment they're thinking primarily they're going to Station 10, and not going to Station 1.
@@ -8324,7 +8324,7 @@ IMP-LM Sleep well, Bob.
 05 04 07 29 CDR-IM Okay, I've just got one question, Bob, before you run off. Did the TGA perform okay, with the -with the camera on?
 
 	Tape 84A/1 17 AIR-TO-GROUND VOICE TRANSCRIPTION
-	Page 934
+	Page 935
 05 04 07 39 CC As far as I could tell, Geno, it did. As a matter of fact, I didn't see the gravimeter people afterwards to talk to them. But as far as I could tell, it did. We had one funny reading back at the LM very early when it was on the ground, which IÕm at a loss to understand right off. But other than that everything seems to have gone very well. The readings were quite uniform in fact, which makes me think they went well.
 CDR-LM Okay, well, I'd like to leave it - You know it's a little change in my thinking - I'd like to leave it on the Rover if we can, although it's a piece of cake to take off. It's very difficult to lean over that bar without losing your balance and taking your - your readings and what have you. So if we can leave it on it would be far better.
 CC Roger. I was noticing that. And I also noticed the only three - three-ball reading we got was whsn it was on the ground.
@@ -8335,7 +8335,7 @@ CC Okay. After the line: "Empty ETB As Follows," change the first line which rea
 CDR-LM Got you. Hotel, stow it; and go out with Gulf.
 
 	Tape 84A/2
-	Page 935
+	Page 936
 CC That's got it. And I've got a LEVA-cleaning procedure which maybe you could pencil in there. It's an easy three-step procedure. And I'll go ahead and read it step-by-step here. Step number 1 is tap LEVA base to remove loose dust. Step number 2 reads: If excess dust still remains, use a towel from the LM tissue dispenser, which has been wetted with water, and gently wipe the visor from the top to the bottom; that is, in one direction. And fold this towel after each wipe to keep the contact surface clean. ThereÕs a note. "Take care not to wet the inside that is, the concave surface of the gold visor." And the last step is: Allow it to air-dry. And that's it on the LEVA cleaning.
 05 04 11 20 CDR-LM Okay, Joe, we got that. The Commander's PLSS has had its final charge, and we're in the process of working on the LMPs PLSS now. I guess there's no way to verify how much water you've got in there except to go through the procedure.
 CC That's right, Geno. And we think you fellows have earned a good meal now, and maybe you can take the rest of the day off.
@@ -8348,7 +8348,7 @@ CC Jack, on your mag Hotel, we'd showed you all the way up to 183 at one time, o
 LMP-LM I may have clipped it out, Joe. 183, yes.
 
 	Tape 84A/3
-	Page 936
+	Page 937
 CC Okay, yes, you did clip it out, clipped it out cleanly. So thanks for verifying that.
 LMP-LM Joe, mag Romeo has 21 frames. And I took a few, random, and probably not very good 500-millimeter of the North and South Massifs - North and South Massifs.
 05 04 22 46 CC Okay, Jack, Thank you.
@@ -8364,7 +8364,7 @@ LMP-LM Okay.
 CC Gene and Jack, just a general comment on that. SIM bay's cooking along beautifully. We are getting lunar sounder data. It looks quite interesting. We've only got one or two annoying problems, but nothing major, that is with the SIM bay, not with the sounder. One of them being that we have our usual mapping camera extend problem. And we've just decided to leave it extended and it will serve it right if it gets a little contaminated with an occasional dump. And
 
 	Tape 84A/4
-	Page 937
+	Page 938
 05 04 32 05 LMP-LM I guess there's a minor problem with one of the big antennas. It didn't pass its retract check properly, so I guess it may have to be jettisoned when we do a plane change. Otherwise, things are working beautifully. Over. That sounds great, I'm glad to hear that.
 05 05 02 56 LMP-LM Houston, Challenger.
 CC Go ahead.
@@ -8379,7 +8379,7 @@ CC Thank you.
 05 05 05 56 LMP-LM Okay, you got POO and DATA, Joe.
 
 	Tape 84A/5
-	Page 938
+	Page 939
 05 05 07 35 CC Thank you.
 LMP-LM Okay, Joe, the battery management complete. How does the rest of the spacecraft look, what you can see of it?
 CC Okay, Jackie. Copy the battery management complete, and the Challenger's looking beautiful from down here.
@@ -8396,7 +8396,7 @@ CC Challenger, this is Houston requesting D0WNV0ICE BACKUP, and then configure y
 05 05 10 51 LMP-LM Okay, we're working in that direction. D0WNV0ICE BACKUP, now.
 
 	Tape 84A/6
-	Page 939
+	Page 940
 CC Okay, Jack and Gene. And, unless you've got questions, or we can help you out in some way, we'll say good night to you.
 CDR-LM Good morning.
 CDR-LM The reason I say that, Joe, it's going to be another 30 minutes or so anyway before we -probably more like an hour before we actually close our eyes.
@@ -8410,7 +8410,7 @@ CDR-LM No, you've been doing - doing fine. We just got a little housecleaning we
 CC Go ahead.
 
 	Tape 84A/7
-	Page 940
+	Page 941
 LMP-LM Some ambiguity in your statement. You want us to use a tissue or a towel on that visor cleaning?
 CC Jack, they call it - they call it a towel, but it comes from the LM tissue dispenser, so I would interpret that to mean tissue.
 LMP-LM Well, you and I are thinking alike. But can you ask back there and find out?
@@ -8425,7 +8425,7 @@ CC You're loud and clear. Go ahead.
 LMP-LM Joe, I just took a - quick look with the hand lens at that large rock I brought in, and I'11 -I don't think there's much more than 30 percent plagioclase. I'll go back - could be more of a standard basalt or gabbro. It has a fair proportion of ilmenite in it, I believe. There's a bright platelets - in the vugs or vesicles - of ilmenite. Now it could be that the glass - if the soil is very glassy, that it's developed the darker color from the contribution of the - of the basic minerals through the glass, particularly the iron and the titanium.
 
 	Tape 84A/8
-	Page 941
+	Page 942
 LMP-LM All it means is that we don't yet know the origin of the dark mantle.
 CC Roger.
 LMP-LM That rock - looks I may have, by accident, sampled the front side of one of the parting planes that I mentioned. Very, very sharply bounded on one side by a planar surface.
@@ -8442,7 +8442,7 @@ LMP-LM That, in itself, is a singular event.
 LMP-LM But the dog did nothing in the nighttime, Joe.
 
 	Tape 84A/9
-	Page 942
+	Page 943
 CC And when you've examined all possibilities and eliminated all but the very improbable ones, then the improbable one must mean the truth.
 LMP-LM I told you, he was a good geologist, one of the experts on the soils of London. Not to mention their relationship to all kinds and brands of tobacco.
 CC Jack, maybe we better get off onto another vein. Surgeon's giving me a puzzled look over here. We may be getting in trouble.
@@ -8458,11 +8458,11 @@ LMP-LM Well, if you don't get any heart beat for a little while, don't worry.
 05 05 35 32 CC Okay.
 
 	Tape 85A/1
-	Page 943
+	Page 944
 03 06 22 37 LMP-LM Joe, we're asleep. There's no need to answer. See you in the morning. [Talking in his sleep apparently].
 
 	Tapes 86A-89A/I
-	Page 944
+	Page 945
  REST PERIOD - NO COMMUNICATIONS
  86 b/l
 05 08 43 33 CC Hello, America; this is Houston. Good morning, sir.
@@ -8481,7 +8481,7 @@ CMP Scrambled eggs and bacon. Not bad at all.
 CC Sounds better than what I had.
 
 	Tape 86B/2
-	Page 945
+	Page 946
 CMP It's really not bad. Cocoa and orange juice along with it. Even have four toasted bread cubes.
 CC Very good.
 CMP Hey, Gordo. Do you have any sort of - some kind of a ground truth wrap-up of the first EVA as far as the type of material they ran across down there and things like that?
@@ -8496,7 +8496,7 @@ CC Okay, Ron. Go ahead.
 CMP Okay. PRD is - You didn't cut out on me (laughter). My orange juice is leaking. Okay. PRD is 15038. Had about 6 hours of good sleep. Took me about an
 
 	Tape 86B/3
-	Page 946
+	Page 947
  hour to get things squared away last night. Then I woke up early this morning. Didn't take any medication. And I had four cans of fluid.
 CC Okay.
 CMP Okay, on the menu. Did I give you day 5, meal A, yesterday or not?
@@ -8508,12 +8508,12 @@ CMP Sure. Go ahead, Gordo; Appreciate it.
 CC Okay. I'll read a few selected excerpts here. The surface around the landing site is generally an undulating plain, which was somewhat rougher and had a greater abundance of blocks than was expected by the astronauts. It is saturated with small craters not exceeding a few centimeters in size but not with larger craters. Small craters commonly have glass on their floors. Boulders ranging from about 1/2 meter to 4 meters are common. All of them are partially buried or covered with the dust of the dark mantle. In one locality, a crater of about 1 meter deep pentrated the relatively fine dark surface material and excavated small blocks. Other shallower craters
 
 	Tape 86B/4
-	Page 947
+	Page 948
  in this area did not fully penetrate the mantle. This fact, together with the abundance of small boulders on and near the surface, indicates that the dark mantle is relatively thin. A minor amount of dust noted upon landing suggested a thin layer of fine grain unconsolidated material. Footprints and LRV tracks left firm impressions in the fine grain material when darker material was kicked up from underneath. At the ALSEP site, the drill encountered harder material several times and definitely seem to reach harder material at about a 7-foot depth. The deep drill core apparently also bottomed in harder material. In the core, the material was noted to be cohesive, and it contained more fragments than did the surficial material. Predominant rock type between the LM and Steno Crater is medium grained, vesicular or nonvesicular basalts or gabbro. They contain about equal amounts of plagioclase and pyroxene along with less abundant opaque material. The guys took a total of - well, they took a lot of pictures. They had 229 color and 197 black-and-white during EVA-1. And they got 17 samples in addition to the deep drill core. Three were large, unbagged rocks, and the total, excluding the core, estimated to weigh about 13 kilograms so far, and they traveled about 3 kilometers in the Rover. As a summary conclusion, the observations made on the first EVA support the premission interpretation that at least the upper part of the subfloor materials consist of basaltic lava flow. The overlying dark mantle may be part of the regolith on subfloor material, but the possibility that it is an independent unit remains open and will be tested by observations on second and third EVAs. Both the dark mantle and upper sub floor units contain remarkably little foreign material between the ALSEP site and Steno with suggests comparatively young ages. Over.
 CMP Hey, that sounds like a good report there. They -sounds like they got a lot of stuff done and also getting a lot of good information out of it already.
 
 	Tape 86B/5
-	Page 948
+	Page 949
 CC Yes. I think that's a safe conclusion. They're going to get a lot more today.
 05 09 55 52 CMP Oh, you bet.
 05 09 58 01 CC Ron, for your information, the ALSEP seems to be working pretty well. The central station and all the experiments with the exception of one are working normally. The one that's giving them trouble is the LEAM, and the data on the LEAM doesn't seem to want to sync up properly. They're thinking that one over and maybe have something for them to try to get that to - to work right. Over.
@@ -8529,14 +8529,14 @@ CMP T-start, 133:28:03-
 CC That's correct, and then flip the page over to 134:35.
 
 	Tape 86B/6
-	Page 949
+	Page 950
 CMP Okay.
 CC And write in "Charge Battery A."
 CMP Charge Batt A at 134:35-
 05 10 13 12 CC Affirmative. At bottom of the same column, at 134:54, delete "MAPPING CAMERA, RETRACT." And also a couple of lines later, delete "MAPPING CAMERA/LASER ALTIMETER COVER, CLOSED."
 
 	Tape 87B/1
-	Page 950
+	Page 951
 05 10 13 36 CMP Okay. We deleted the retraction of the mapping camera and also deleted covering the - closing the mapping camera/laser altimeter.
 CC That's affirmative. Above that whole sequence, we have some verifies for you. You can write this in about 134:50. Actually, you better start -start a little higher to have room. "Verify all VHF OFF for sounder pass." And here are the -the steps. "VHF AM, A and B, OFF. VHF AM, RECEIVE ONLY, OFF. VHF BEACON, OFF. And VHF RANGING, OFF." Four steps there. Over.
 05 10 14 46 CMP Okay. We'll just verify that all VHF is OFF for sounder operations. VHF, A and B, OFF. RECEIVE, OFF. And RECEIVE ONLY, OFF. BEACON, OFF. And RANGING, OFF.
@@ -8553,7 +8553,7 @@ CC Thank you.
 CMP (Cough)
 
 	Tape 87B/2
-	Page 951
+	Page 952
 CC Looks like another good one, Ron.
 CMP Okay.
 CC Was it good? Torque them up.
@@ -8574,7 +8574,7 @@ CMP (Laughter) Yes, they're kind of easy here in lunar orbit. All except that on
 CC Roger.
 
 	Tape 87B/3
-	Page 952
+	Page 953
 05 10 41 30 CMP Well, Gordo. Looks like I'll lose you right in the middle of this zodiacal light sequencer.
 CC That's right. We aren't going to be able to be much help. I'll give you a little warning before T-start. But you're on your own after that, I guess.
 CMP (Laughter) Okay.
@@ -8593,7 +8593,7 @@ CC Hello, America.
 CMP Okay, Houston. America's here. The - the zodiacal light sequence worked real well. Oddly enough, I ended up right (laughter) on the right setting with the right times and everything. The only thing is on the 8-minute - on the 8-minute picture, for some reason, I didn't notice that the shutter shut as soon as I took it instead of 60 seconds later. So we just missed that picture altogether.
 
 	Tape 87B/4
-	Page 953
+	Page 954
 CC Okay, Ron. Understand.
 CMP But the time we worked out good. It was about 2 seconds after the l4:50 - sequence. Not 2 seconds - about 1 second after the 14:50 sequence. And the Sun came up.
 CC Okay.
@@ -8606,12 +8606,12 @@ CC It will just involve a couple of switch throwings by you to try to conclusive
 CMP Oh, okay. Mighty fine. Sure. When you get to it there, just holler out the switches because I'll be over at the panel at that time.
 
 	Tape 87B/5
-	Page 954
+	Page 955
 CC Okay.
 05 11 46 51 CMP I kind of hope our telemetry is wrong.
 
 	Tape 88B/1
-	Page 955
+	Page 956
 05 11 45 50 CMP Microphone set now?
 05 11 49 22 CMP How'd you like to have the PAN CAMERA POWER, ON, here?
 CC Okay. We're ready.
@@ -8626,7 +8626,7 @@ CMP Coming up at Picard now. Looking at it - a little bit from a distance, there
 CC Roger.
 
 	Tape 88B/2
-	Page 956
+	Page 957
 CMP It looks like it's a - fairly easy to - When you
  go around the south to the west side, it has a light material on it. You can pretty well carry a light layer in the top portion of the wall all the way around to that - that part where it stops - where the light part stops. And then you come to a dark layer again - and then - as you continue around from the west to go on around to the north side. It's a little bit in shadow on the east side, so I can't tell for sure whether that light layer's in there or not. But starting on the south side, boing around to the west again, you can see a layer of dark - dark material, although it - there doesn't seem to be a change in the slope - in the slope or the inner wall of the crater.
 CC Okay.
@@ -8637,7 +8637,7 @@ CC Roger.
 CMP And it's also dark down on the inside of it. I still don't have a feeling for the relative size of things. I'll try to get that one in the next - next pass around through here. But that's what I would call a small, maybe even In the - thousand-meter bracket. Probably somewhere in there.
 
 	Tape 88b/3
-	Page 957
+	Page 958
 CC Roger, Ron.
 CMP Am I suppose to charge battery A here somewhere?
 CC That's affirm when you get a chance. And also, you are due tc turn some switches on panel 230.
@@ -8656,7 +8656,7 @@ CC Okay; fine.
 05 11 59 57 CMP Okay, the Sun's getting a little bit higher now. And as I look at the landing site and the albejo - differences In the color In there - the color in the Maraldi Gamma is the same as in the landing site itself. And, also, it looks like the type of material that we say is essentially covering the whole area - goes on out to and includes the annulus of Serenitatis.
 
 	Tape 88B/4
-	Page 958
+	Page 959
 CC Roger.
 CMP Let's see. Did I mention that - that it looks like - the flow out of Maraldi has gone on around it and down to, and almost encroaches on the Vitruvius A. But, it's breached out of the side of Maraldi. Gone around that depression and up to the side of Vitruvius A.
 CC Roger, Ron.
@@ -8669,7 +8669,7 @@ CC Roger.
 CMP I guess the only thing you can say is that - the southern part there, in the Tacquet region, has a more of a bluish tint. And, then to me, this has more of a brownish tint to it when you get to the Sulpicius Gallus region.
 
 	Tape S8B/>
-	Page 959
+	Page 960
 CC Roger.
 CMP Hey, wait a minute. I'm just now passing Menelaus now. So, It changes color right at the - Tacquet and then - at about Tacquet and Menelaus. Sulpicius Gallus is just now coming up.
 CMP You know, I think Sun angle has got a heck of a lot to do with that, because this whole thing -in the Sulpicius Gallus region looks kind of brownish to me.
@@ -8685,7 +8685,7 @@ CC Ron, go ahead and turn the mapping camera off. Just a minute or 2 ago, it sta
 CMP Okay, MAPPING CAMERA is STANDBY. IMAGE MOTION Is OFF.
 
 	Tape 88B/6
-	Page 960
+	Page 961
 CMP Okay, there we go - STANDBY. Now, IMAGE MOTION is OFF. We got a barberpole ... - a gray, okay. Now MAPPING CAMERA to OFF. LASER ALTIMETER to OFF. Okay, you want the RECORDER to ON, huh? All right. IR is going OFF. PAN CAMERA, SELF TEST is going OFF.
 05 12 12 14 CC Wait until sunset on the next one.
 CMP And, the o - oh, okay. I can really tell sunset because the - that EVA pole that sticks out here by window 5. Looks like it's lit up now the way the Sun's shining on it.
@@ -8704,7 +8704,7 @@ CMP Gh, I see.
 CC Okay, we got her. You go back to LUNAR SOUNDER OPERATE switch to STANDBY, now.
 
 	Tape 88B/7
-	Page 961
+	Page 962
 CMP Okay, LUNAR SOUNDER is in STANDBY.
 CC Okay, that completes that test. I have a couple more additions to the Flight Plan for - for 136: 35, is the first one.
 CMP Okay, I'm there.
@@ -8720,7 +8720,7 @@ CC That's right and what this will do is stick the VHF antenna right straight do
 CMP Okay.
 
 	Tape 88B/8
-	Page 962
+	Page 963
 CC Hey, at your convenience, we need AUTO and HIGH GAIN.
 05 12 22 34 CMP You have AUTO.
 CMP Pretty convenient when you're laying in the center couch. (Laughter)
@@ -8734,7 +8734,7 @@ CC Front pages around the country; they're headlining last night's EVA, as you m
 CC -- is suggesting that all prisoners of war be released before Christmas. He's also asked that all Vietnamese parties be included in peace negotiations. South Vietnam and the Viet Cong are not directly represented in the secret talks now underway in Paris,
 
 	Tape 88B/9
-	Page 963
+	Page 964
  yesterday, that he wants to extend wage price control beyond the scheduled April 30 expiration. He also plans to freeze new hiring, promotions, and pay increases for executives of the Federal Government. I guess that doesnÕt include us. The Republican National Committee has a - -
 05 12 26 59 CMP (Laughter) I don't think it does either.
 CC - - a new chairman - George Bush of Houston, who is now ambassador to the United Nations. He will continue his UN post through the present session of the General Assembly. Both national political parties are now headed by Texans. I simply mention to you, 
@@ -8745,7 +8745,7 @@ CC Any time. You need to get to the DATA SYSTEM switch. And turn on the sounder 
 CMP Okay.
 
 	Tape 88B/10
-	Page 964
+	Page 965
 05 12 29 48 CMP Okay. DATA SYSTEM is OFF, 58, 59 - oops.
 05 12 30 03 CMP MARK it. Okay, went to OPERATE.
 CC Okay.
@@ -8756,7 +8756,7 @@ CMP Hey, outstanding. Trying to consolidate all of my trash. Man, I didn't reali
 CC Roger.
 
 	Tape 89B/1
-	Page 965
+	Page 966
 05 13 08 XX  BEGIN LUNAR REV 25
 05 13 37 22 CC Hello, America. Houston. Over.
 05 13 37 28 CMP Hello, Houston. This is America; loud and clear.
@@ -8773,7 +8773,7 @@ CMP The small crater vest of Condorcet.
 CC Okay.
 
 	Tape 89B/2
-	Page 966
+	Page 967
 CMP You know, the Crater Peirce has got that same dark halo around its crater, and it extends out - again, you can see it real well out to about a half a crater diameter. You don't see any of the light-colored ejecta on top of it though, like you do on Picard,
 CC Okay.
 05 1U 00 30 CMP Boy, that Scarp sure looks like a flow down there to me.
@@ -8792,7 +8792,7 @@ CMP Okay. Let's see. I'll get my TEI book here. Okay. All set for TEI-38.
 CC Okay, Ron. TEI-38, SPS/G&N; 37580; plus 0.55, plus 0.97; 163:21:54.04; NOUN 8ls are plus 2668.0,
 
 	Tape 89B/3
-	Page 967
+	Page 968
  minus 1238.0, minus 04l4.1; roll, l8l; pitch, 114; yaw, 338; rest of the pad is not applicable. Good ole Sirius and Rigel for our set stars-, 133, 200, 030. Ullage, four jets* 12 seconds - that's 12 seconds. Ten, the longitude of the Moon at the T. time is minus 153.71. Over.
 CMP Okay. TEI-38 is SPS/G&N; 37580; plus 0.55, plus 0.97; T. is 163:21:54.04; NOUN 8ls,
  plus 2668.0, minus 1238.0, minus 04l4.1; roll, 181; pitch, 114, 338; Sirius and Rigel; 133, 200, 030; four jet, 12 seconds; longitude at T. is a minus 153*71. ig
@@ -8810,7 +8810,7 @@ CMP Okay. Got them.
 CMP Oh, okay.
 
 	Tape 89B/4
-	Page 968
+	Page 969
 CC And there's nothing - no problems expected there, Ron, We're just getting some extra data that OSO wants.
 CMP Okay. Good deal.
 05 14 23 35 CC Okay. The next one is at l4l:50.
@@ -8830,7 +8830,7 @@ CMP Uh-huh! Okay.
 05 14 25 10 CC And, the last one just - -
 
 	Tape 89B/5
-	Page 969
+	Page 970
 CMP Discontinue spares on Lima Lima.
 CC Roger. Just use Lima Lima as scheduled, but don't -don't use any spare shots on it. And the last one is just a sum up here, Ron.
 CMP Okay.
@@ -8847,7 +8847,7 @@ CMP Well, we want everybody to get ... - -
 CC - - blamed for that, because with two people on the Moon, that's what happens.
 
 	Tape 89B/6
-	Page 970
+	Page 971
 CMP (Laughter) Yes, right.
 CC Okay. You can get back to work then, if you want.
 CMP Okay.
@@ -8866,7 +8866,7 @@ CC Roger. Understand.
 05 14 44 42 CC Ron, we're coming up on 5 minutes to LOS and just want to update you. We went around the room, and the spacecraft is looking great. We just have one reminder and that's at the end of the solar corona period. Please use only one protect frame - one protect frame per the Flight Plan or per the checklist. And the other thing is - the lunar sounder -the little check you did at the beginning of this pass - the recorder is pulling film as normal.
 
 	Tape 89B/7
-	Page 971
+	Page 972
  The glitch we saw was a telemetry grit - glitch and the lunar sounder is looking great.
 05 14 45 19 CMP Hey, outstanding! That's good to hear. Sounds like we're getting kind of low on VHBW film though is what you're saying, huh?
 CC On that particular magazine; yes, Ron. That's the problem, I think. Looking at the total thing is more - is which magazine has got what on it.
@@ -8884,7 +8884,7 @@ CMP Oh, okay. Yes, don't - No - no problem. I won't use it until we get to the l
 05 14 47 31 CMP Oh, okay . Good.
 
 	Tape 90A/1
-	Page 972
+	Page 973
 05 14 15 05 CC (Music: Rite of the Valkyrie by Wagner)
 05 14 16 39 CC Good morning, Challenger.
 LMP-LM Sounded like Parker has the duty. Both monumental and epic.
@@ -8905,7 +8905,7 @@ CC Take you off biomed for a minute.
 LMP-LM Well, how about it, Gordy? Are we STAY or NO STAY for EVA-2 prep?
 
 	Tape 90A/2
-	Page 973
+	Page 974
 CC It's STAY. Never any doubt.
 LMP-LM Thank you, sir.
 CC Have any medication?
@@ -8921,7 +8921,7 @@ CC Okay, Jack. We copy. We're wondering if you could come up with a quantitative
 LMP-LM Stand by, Gordy. That may be difficult. Yes, we'll get the PRD a little bit later when we start suiting up.
 
 	Tape 90A/3
-	Page 974
+	Page 975
 CC Yes; okay. That'll be fine. My mistake.
 CDR-LM Hey, Gordy, on this water. We saturated ourselves before we went out. I finished my drink bag out in the suit on the surface. Jack finished about better than three-quarters of his. We've had water and tea and then the juice, and we have been drinking water constantly - post-EVA. And to give you a quantity is almost impossible.
 CC Okay; that's fine.
@@ -8938,7 +8938,7 @@ CC Good morning, commander.
 CDR-LM How does America itself look?
 
 	Tape 90A/4
-	Page 975
+	Page 976
 CC Just as good as ever. I added on the consumables. No problem on the spacecraft systems. Only minor funnies in the SIM bay, but even it is almost 100 percent.
 CDR-LM Okay. And I guess from - I didn't hear your comment, but I guess Challenger is the same way.
 CC That's affirm. That's the way it looks here, anyway.
@@ -8956,7 +8956,7 @@ LMP-LM And cold scrambled eggs.
 CDR-LM Gordy, we're going to start to eat here. Why don't you talk to us about that fender?
 
 	Tape 90A/5
-	Page 976
+	Page 977
 CC Okay; let me round up - John Young. He stepped out - for a second. We'll have him here in a minute. Might as well let the resident expert on fenders talk.
 CC Okay; I'11 now turn the microphone over to Captain Young.
 CC Hey, Geno. This is John. We spent - -
@@ -8966,7 +8966,7 @@ CDR-LM Yes, John. I - I - I think we ought to try something because you told me,
 CC You just take four pages and allow - Well, I've got the detailed procedures here, if you're ready to copy. Over,
 
 	Tape 90A/6
-	Page 977
+	Page 978
 CDR-LM Well, no. I'm not ready to copy yet, but what do you do? Tape the four squares into a bigger square about l6 by 20.
 CC Yes. Allow about an inch of overlap, and tape both sides of them.
 CDR-LM Okay.
@@ -8977,7 +8977,7 @@ CC Yes, on the inboard one. On the inboard one. On the outboard one, if you put 
 CC No, it - Just clamp the thing right to the rails. Just allow a little overlap, and clamp that rascal right down. And I know you can tighten those clamps down so good it'll never get loose. I know - I know you can do it if I can do it.
 
 	Tape 90A/7
-	Page 978
+	Page 979
 CDR-LM Okay, John. I think I know what you're talking about, and IÕd sure like to give it a stab. The only hooker is I hope that tape holds the fenders together well enough - -
 CC Yes, they - -
 CDR-LM #NAME?
@@ -8991,7 +8991,7 @@ CC Well, if you - are you talking about over the dovetail part of it, or are you
 CDR-LM I'm talking about - about the present fender that's on there, the aft end of that fender. About how much overlap do you want with this makeshift fender? Just give me an idea. I think I could figure out when I get there, but I'd rather have your feelings before I do.
 
 	Tape 90A/8
-	Page 979
+	Page 980
 CC We think if you get it out about 4 inches past that fender - You understand what this looks like when you get it put on the fender. It just looks like sort of a roll, and you end up with a sort of a straight fender right at the back end of the -of the - of the Rover - a sort of a straight -about half a pipe straight out there. And, if you get it out 4 or 5 inches, that will keep the dust from coming back over the vehicle.
 CDR-LM: Yes, that would be about where I want it. That would be about 4 or 5 inches.
 CC Yes, it's just sort of like a - a horizontal fender, like on a - a old automobile.
@@ -9001,7 +9001,7 @@ LMP-LM Hey, John. This is Jack. Did you say pipe there a minute ago? P-i-p-e?
 05 14 47 56 CC Yes, but it doesn't roll up into a circle; it's sort of a - a hemisphere. I mean it's half of one.
 
 	Tape 90B/1
-	Page 980
+	Page 981
 05 15 07 XX  BEGIN LUNAR REV 26
 05 15 36 33 CMP Houston, America.
 CC Hello, America. How are you doing?
@@ -9017,7 +9017,7 @@ CC Ron, that's affirm.
 CMP Okay. Caught that in time, anyway.
 
 	Tape 90B/2
-	Page 981
+	Page 982
 CC Hey, Ron, just a question, here. Pick up where you were briefing us there. Did you go to CMC AUTO after the solar corona, or did you get the GIMBAL LOCK light prior to going to AUTO.
 05 15 40 04 CMP (Laughter) I got it prior to going to AUTO. I forgot to go to AUTO after the solar corona thing.
 CC Okay. We've got you.
@@ -9036,7 +9036,7 @@ CMP (Laughter) Okay.
 CC At least he didn't forget this one. Ron, we've got some data here for you.
 
 	Tape 90B/3
-	Page 982
+	Page 983
 CMP Yes, that's right, by gosh. I've even got one scheduled. Go ahead.
 CC We've got some data here for you, for - if you're planning on taking those red and blue filtered exposures across the landing site - if you want this information.
 CMP Oh, yes. Okay; go ahead.
@@ -9051,7 +9051,7 @@ CMP Okay.
 CC And your TCA - TCA is - for the landing site - is 138:39:11.
 
 	Tape 90B/4
-	Page 983
+	Page 984
 CMP Okay. TCA is 138:39:11.
 CC And, Ron, if you'll just give us a MARK when you make the shot. That'll be close enough and we'll -we'll mark the time here on those polarizing ones. So we'll get the angle that way.
 05 15 47 22 CMP Oh, okay.
@@ -9070,14 +9070,14 @@ CMP Okay. That's eight pictures. Okay. Stand by. Okay. Wait a minute. I lost the
 05 15 59 42 CMP MARK it. And that's all the way clockwise.
 
 	Tape 90B/5
-	Page 984
+	Page 985
 CC Roger. We got them.
 CMP Frame 23 and 24-1 mean - yes, 23 and 24; we're looking north along the ridges there. The other two polarizers - the two before that were looking at the landing site. Then I had three - three red ones at a 1/500 and 1/250 and a l/25th and the rest l6. And, the blue one's at the same thing.
 CMP And we're setting on frame number 25 on mag XX -that's XX ...
 05 16 01 03 CC Roger, Ron.
 
 	Tape 91A./1
-	Page 985
+	Page 986
 05 14 48 08 LMP-LM Oh, okay. I thought I was with you until you said pipe, and then you lost me. Okay. I think I understand, too.
 CC You know the problem I have with communication.
 LMP-LM Hey, thank you, babe. We'll give it a try. In a week, we can get something to work.
@@ -9091,7 +9091,7 @@ CC Okay.
 CDR-LM Hey, you know, after thinking and looking at the map last night, and recalling what I saw during landing and where I was planning on putting it down and everything, I still think, to the best of my knowledge, that we are about 1 or 2 o'clock, and I'll increase up to about 200 meters or so west and slightly north of Poppy.
 
 	Tape 91A/2
-	Page 986
+	Page 987
 CC Okay, Geno.
 CDR-LM ... ahead of you ...
 05 14 50 56 CDR-LM Hey, Gordie, the thing that fooled me yesterday is this depression out at - out at 9 o'clock here, which I - is greatly undersized for Trident, really isn't Trident, and I said yesterday, I didn't think how we could be that close. Well, we really aren't Trident is way out there, and I'll still hold to my 200 meters at 1 to 2 o'clock of Poppy.
@@ -9109,14 +9109,14 @@ CC Okay.
 CDR-LM You have to wait until I start putting my suit on.
 
 	Tape 91A/3
-	Page 987
+	Page 988
 CC Okay. As you might have expected, front pages around the country are headlining last night's EVA with photographs taken from TV monitors shoving you and Jack going about your tasks. I might add that the TV camera is really spectacular. It couldn't have been a clearer or more beautiful picture, both for fidelity and color. In other news, South Vietnam's President Thieu has suggested that all prisoners of war be released before Christmas. He has also asked that all Vietnamese parties be included in peace negotiations. South Vietnam and the Viet Cong are now not directly represented in the secret talks now under way in Paris. Meanwhile, Kissinger met for more than 4 hours yesterday with Hanoi representative Le Due Tho. The two negotiators are expected to meet again this afternoon. The former President, Harry Truman, is still resting quietly, although his condition remains serious according to his doctors. American poet Mark van Doren died at the age of 78- He was a professor of literature at Columbia and a winner of the 1940 Pulitzer Prize for his poetry. President Nixon announced yesterday that he wants to extend price controls beyond the scheduled April 30 expiration date. He also plans to freeze new hiring, promotions, and pay increases for executives of the Federal Government, which doesn't affect us, I guess. The Republican National Committee has a new chairman.
 CDR-LM How about me?
 CC George Bush of Houston, who is Ambassador to the United Nations. He will continue his UN post through the present session of the General Assembly. Both national political parties are now headed by Texans. As you recall, Robert Strauss of Dallas became Chairman of the Democratic National Committee last Saturday. And Jack, I'm sorry to say that you've been replaced. The Nimbus 5 weather satellite is now operating after its launch from Vandenberg early Monday morning.
 LMP-LM Can it talk?
 
 	Tape 91A/4
-	Page 988
+	Page 989
 CC Joe Namath tried mightily to lead the Jets to the play-offs, but the Oakland Raiders grounded the Jets in the fourth quarter, 2k to 16. I think you have already heard that score. Namath passed some more than 400 yards, but he was only able -New York only scored one touchdown. And the last item concerns the Houston weather, which is been -there's been two kinds of weather since you all left us: That's cold and light rain and cold and heavy rain, and it's still doing it. Fog and drizzly rain are here now, and we're only supposed to get up to the mid-40!s and probably down to 32 tonight. Over.
 LMP-LM Holy Smoly. That doesn't sound too good on the weather. I'm going to take a look, right here up the overhead window.
 05 14 59 55 LMP-LM Gordy, you're right. There's a band of clouds that comes right up the coast of Mexico. Looks like it comes ... Old Mexico and then gets very dense as it comes up into the Texas area and southeastern part of the United States with a - with a counterclockwise rotation which gets very dense down over the Atlantic, I believe, off the east coast - southern east coastal states and from about, oh, I'm guessing, maybe the center of Texas straight north, straight east. It looks like the whole country's cloudy.
@@ -9129,7 +9129,7 @@ CC Go ahead.
 LMP-LM Roger, Gordy. How's the ALSEP doing and in that light I hope you people will take as close a look as you can at the signal strength and its variation and see if you get some idea whether, when I
 
 	Tape 91A/5
-	Page 989
+	Page 990
  go after the neutron flux tomorrow, if I ought to work on that antenna alignment again. I'm still a little bit concerned about it.
 CC Okay, Jack. We'll consider that although they've been getting good performance out of the central station, as I understand, and a couple of problems with the experiments. One was the LEAM data isnÕt syncing up like it should. I'll have to get a further, more complete story on that. And we're thinking that's - -
 LMP-LM I told you Ñ
@@ -9143,7 +9143,7 @@ CDR-LM I've about had it, I think.
 LMP-LM .,. chocolates?
 
 	Tape 91A/6
-	Page 990
+	Page 991
 CDR-LM Huh? No, I've had two.
 LMP-LM Oh. ...
 05 15 09 50 LMP-LM Hey, Gordo, we're still eating, but let me give you a few observations. That outcrop I talked about that was way at the top of the South Massif at the break in slope - at the very top of the break in slope - almost looks - it's hard to tell that it's inplace outcrop up there. It's hard to convince myself that it is. Looks like there's some very large and many, many small fragments of large - like 3- and 4-meter rocks up there and a lot of smaller fragments. I've seen that type of of thing In a number of places over the South Massif. However, I - do see - they also, they all seem to be sitting on top of the South Massif surface, but 1 do see one other area that it looks like there is a - it is protruding from within some sort of mantle on the South Massif. So conceivably some of that could be a place [?] An additional impression I got is - is that at least with the monocular, that those fragments -those boulders look much more angular than what we've seen here. And, for the most part, they appear to be - if covered at all - very little by any mantle except the one I just mentioned.
@@ -9153,7 +9153,7 @@ CC Roger, Jack.
 CDR-LM And, Gordy, now that I get my - my three-dimensional eyeballs working, I can look up on the scarp - out to 9 and 10 o'clock. It's practically the same color as the South Massif. It just looks to be very undulating. I see no outcrop evidenced from here in the scarp. I think I can just about see where Hole-in-the-Wall is, but it's so subtle that
 
 	Tape 91A/7
-	Page 991
+	Page 992
  I can't really tell you much about it. And the local terrain, which I think is the southern rim of Camelot, just about blanks out where Hole-in-the-Wall should be - just about covers it up. But what I can see in a small little saddle to our local horizon here in front of us - I can see out there just about - oh, I'd say a 100 meters or so to the south of Hole-in-the-Wall and it just looks like a subtle undulating slope. We can't really tell too much the steepness from here.
 CC Okay, Geno, we're - Stand by 1.
 CC Okay. I had something for you, but we just decided to cancel the call. Although, when you do get out the prep and post card, I have one write in for you so just holler when you're - when it's handy.
@@ -9168,7 +9168,7 @@ CC Okay, Jack. You're right. I got caught right in the middle of a site handover
 LMP-LM Fantastic. You picked the one place I'd never look.
 
 	Tape 91A/8
-	Page 992
+	Page 993
 05 15 25 57 LMP-LM Houston, Challenger.
 CC Go ahead.
 LMP-LM One quick thought about the gravimeter. And. I'm sure it's been mentioned, but I'll say it. During the CF squared we asked about that bundle of wires that has contact with the gimbal - and when I deployed it, that bundle was - it still had contact with the gimbal and everybody at the CF squared said that was okay. But, you might think about it. I don't know what I could do to help if that is the problem. But that might be causing the problem here that it wouldn't cause on Earth.
@@ -9187,7 +9187,7 @@ CC Okay. The update I do have - I think the EVA checklist changes, we'll just ca
 LMP-LM Go ahead.
 
 	Tape 91A/9
-	Page 993
+	Page 994
 05 15 31 07 CC Okay. On the front side there, middle column, lower half at 138:^5 OPS CONNECT, half-way dovn, it says install PURGE valve in PGA, red to red. Mark that LMP serial number 211; CDR, 208. This is to maximize the OPS operation, should you have to use it.
 LMP-IM Okay. Give me the numbers again, please.
 CC LMP, 211; CDR, 208.
@@ -9200,29 +9200,29 @@ LMP-LM Okay, Bob, I didn't realize that things were getting a little hectic yest
 05 15 33 54 CC Roger. You guys are just ahead of us there. We were trying to get that up to you. Okay. So, I don't think there is anything here that really needs to be written down. I'll go through with you first, and we can talk about details and writing in, if you want to on any of them. But, I don't think there Is anything that really needs to be written in. The EVA - it is going to be essentially nominal, with two minor exceptions. One is the - we've allowed about 5 minutes extra at the LK before leaving for the Rover fender fix; and, John, we'll be talking to you about that in a minute. And the second tig change, is that we're also extend - allowing 5 more minutes at the end
 
 	Tape 91A/10
-	Page 994
+	Page 995
  of the EVA so that we can have extra time for dusting. And I suspect that if the Rover fender fix works and we aren't getting as dirty as we did last night, then we may gain back that 5 minutes. We're also allowed - well, what we've done is we've taken the time here out of some of the tasks at station 3 and station 4. And along with the fact that we think you're a little bit farther east than planned - and we're allowing 4 minutes additional driving time. But again, that's all real time, and. if we're doing well on time, we can reinstitute all those tasks and get rid of the 5 minutes that we are allowing here, there, or elsewhere. So that's just sort of to keep in your thinking.
 05 15 35 2k CC There is a possibility that we'll have some additional overhead at each stop, depending on what the Rover battery temperatures are when you get out this morning. If the Rover - if they're high again, then we'll have to probably park at least on some of the stops, if not all - with the up-Sun heading and dusting the battery covers and then opening them to let them cocl. But, again, that will depend upon what we find on the Rover batteries when we get out this morning.
 05 15 35 53 CC The variations that we found on the surface of the South Massif indicating a possibility of layering - I guess you saw those mostly with the monocular and the observation of boulder tracks and the size of the Massif emphasizes the importance of sampling boulders that can be traced to sources at various elevations of the Massif. And I guess we should say that's hopefully. And we'll just have to see what happens when we get down to station 2 on that. But, if we see boulders with tracks. I'm sure you guys remember that they obviously will have a higher priority. Since we didn't get to Emory, and since we didn't really get to the rim of Steno itself, the question of sampling of the actual subfloor is still somewhat ambiguous although there is a large consensus opinion that says that we sampled the subfloor when we sampled that intermediate Gabbro that we sampled yesterday at both the ALSEP and station 1. The - here is a possible alternative conclusion which says that the subfloor
 
 	Tape 91A/11
-	Page 995
+	Page 996
  has not been sampled, but that these blocks that we sampled and the surface are both parts of a later flow. And, in that line, we're still looking for specific observations which will help us distinguish between whether or not the dark mantle is a - whether the dark mantle is a separate unit from the intermediate gabbro that we're seeing or, whether it's the - Stand by.
 05 15 37 30 CC Okay. Whether or not the dark mantle is an entirely separate unit from the intermediate gabbro you were sampling yesterday or whether it just represents the top of very well churned up layer of a flow that was later than the subfloor - if you see what I'm saying there. All this says is that we're very interested, of course now - -
 CDR-LM Roger, Bob.
 CC - All this says that, we're very much more interested in station 5, as you might expect, than we were before. And I guess, for this reason, we'll be trying to keep the time line a little tighter than usual to guarantee that we've got some time left over a
 
 	Tape 91A/12
-	Page 996
+	Page 997
 05 15 39 14 CC Okay. To summarize that again, reading - I guess I got ahead of myself here in the little deal they wrote up. At the present time we have two working hypotheses for the dark mantle, the gabbro - and the gabbro relationships to each other. One: the crystalline rocks that we found in the gabbro are an upper unit of the subfloor with their dark mantle cover unrelated to them in time. Key observations that they suggest here, are stratigraphy at Camelot, station 55 and other steep craters. Especially, perhaps, the trench and sheltered spots which are unguarded - ungardened, as in plowed - for an older regolith underneath the dark mantle, if such a thing could be found. We don't think we found that yesterday. Or, look at the superposition relations between dark mantles and boulders or, the mantles -instances of the mantle on the boulders or, inversely, of small boulders on the mantle.
 05 15 40 06 CC The second working hypothesis is that - is that the dark mantle is regolith derived from a vitreous, vesicular, flow top of the crystalline rock flow beneath. And, it again goes to say that perhaps the re - gabbro that we sampled yesterday was indeed the late flow; and what the regolith was, was derived from the vitreous , vesicular flow top} as it were. Again, many of the same observations are called for. In particular, they'd be interested then in looking at the coarser fines as they define as from a millimeter to 20 millimeters, for some sort of transitional lithologies and textures. In other words, what do the small walnut-size rocks look like, if you can in hand specimens? If I can get more specific in terms of EVA mechanics, let me say that we'll call out in real time the deletion of the tasks at stations 3 and 4, if they become necessary. And what we're planning on doing is, deleting the trench in the base of the scarp at station 3, and also, deleting the radial sample of the - on Shorty at station 4. That's the provision that we're planning on. And depending on how the time is going, we'll call that out real time. We also have - The experiments remain pretty much the same. We'll deploy the charges at the same locations as we're planning in the checklist at the present time. We also don't - for your
 
 	Tape 91A/13
-	Page 997
+	Page 998
  planning further ahead, we don't anticipate any significant changes in EVA 3- The charge number 5, which we were going to deploy at Emory, will not -but didn't, will not be deployed during EVA 2, but we'll deploy it on EVA 3 out at station 10. And, what we're going to do there, is when you take the 8 pounder and put it between the seats, we'll then have the 3 pounder left over, and we'd like to put that on one of the footpads In the Sun - that1s probably either the minus-Z or minus-Y footpad. And, we'll leave it there in the Sun until the start of EVA 3, in which case we'll put in the Rover underneath the IMP's seat. And, thermally, that looks okay. There is a probability that we're going to play the "return to the ALSEP game," and we're going to do this for a couple of reasons. One, we're going to go back and look at getting some more ALSEP photos. I guess Gordy says you've got that. And, that will probably be at the end of EVA - in fact, it will certainly be, if it happens, at the end of EVA 3 when you go back to get the neutron flux probe. I might also say with regard to EVA 3 that, obviously, we're more interested in station 10 than we were before. Another "return to the ALSEP" goodie that we're looking at - if we have the consumables today when you get back from finishing station 5 - is that the lunar surface gravimeter has been unable to level Itself over the night, and they sent some, you know, some thousand commands trying to get it straightened out, and they say it looks as though it's not level. And, so, we'd like Jack to go back with his practiced hand-on-bubble levels and recheck that at the end of - after station 5 today, if there's sufficient consumables. And, we've planned for Gene to just let Jack off and let him walk back to the LM, after he gets off and looks at that. And, that's about - everything we have. As I say, in summary, that the big changes are going to be extra time at the beginning, taking care of the fender extension, and the probability of extra time at the end. Although we'll have to see how well the fender works and how things go. The probability of extra time at the end to allow for dusting and the time spent on those particular activities we'll probably end up taken out of the task at station 3 and station 4. Over. Comments?
 
 	Tape 91A/14
-	Page 998
+	Page 999
 05 15 44 12 LMP-LM Okay, Bob. We copy all that. Obviously, you're going to have to catch us in real time on some of the details there - on the charges and the task deletion. One question, did you say we were going to delete the trench at station 3?
 CC Roger. The trench at the base of the Scarp, in other words, some of the stuff that you would be doing while Gene was taking the double core.
 LMP-LM What do you gain by that?
@@ -9233,7 +9233,7 @@ IMP-LM Well, but that's not the way we worked it, Bob. Let's play that one in re
 05 15 45 05 CC Roger. That's why I said thereÕs no point in marking up the checklist on that, Jack. Let me hit you with one more thing concerning the battery temps. An initial reaction down here is that the battery temps were high on deployment because of particularly unfavorable heat soaking on the way out. And the Marshall people are hopeful that they'll be back to normal this morning. However, we're obviously anxious, as I'm sure you are, to get an early reading on the battery temp - that's number 1. And number 2, just for the off chance that the meter's not working, I think we've pretty much discounted that, because of the way the meter worked yesterday. But, on the off chance that the meterÕs not working, you might just lean over and see if the meter is reading zero before you punch in the circuit breakers , because that would give us at least a partial confirmation in that direction, that there's not something wrong with the offset. If they're reading - sitting there reading 30 to 40 degrees, then that probably says something about the offset. And, beyond th at - -
 
 	Tape 91A/15
-	Page 999
+	Page 1000
 CC Go ahead.
 CDR-LM I'll look at that, Bob, what the meter has indicated in terms of a temperature change. I'll look and see if there's a bias on them at all.
 CC Roger. We - we again also think that that's probably not too likely.
