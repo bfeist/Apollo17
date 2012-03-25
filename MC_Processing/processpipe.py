@@ -41,7 +41,7 @@ def scrub_callsign(callsign):
         callsign = "CC"
     return callsign
 
-pageCounter = 500
+pageCounter = 499
 curRow = 0
 
 output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\MC_Output\A17_TEC_501.1000.mc"
@@ -53,7 +53,7 @@ for row in reader:
     print curRow
     outputLine = ''
     #print(row)
-    if row[0].startswith("Tape") or row[2].startswith("Tape"):
+    if (row[0].startswith("Tape") or row[2].startswith("Tape")) and not row[2].startswith("Tape recorder"):
     #if new page
         if row[0].startswith("Tape"):
             tapeNumber = row[0]
