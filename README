@@ -1,5 +1,15 @@
-Source material folders:
+This is a project to digitize the Apollo 17 transcripts. I have started with the TEC (technical air to ground) transcript.
+Read more about the project here https://groups.google.com/forum/?fromgroups#!topic/spacelog/H7D4UiLfhPo
+Feel free to contact me if you're interested in this project or the output.
+Ben Feist (bf@benfeist.com)
+
+_Source_Images folder:
 - PDFs
-- TEC_PNGs (these were converted from jp2 format)
+- PNGs (these were converted from jp2 format)
 
 The "Abbyy Image OCR" folder contains a project that can be opened using ABBYY FineReader 11 Pro. This is where the body of the conversion work is being done.
+
+The "OCR_Output" folder contains pipe-delimited CSV files that are direct outputs from FineReader.
+The file "A17_TEC_cleaned.csv" in the "OCR Output" is the output of cleancsv.py in the "MC Processing" folder. This script scrubs timestamps and other data to make a more workable CSV. This output is experimental.
+
+The "MC_Output" folder contains the output from processpipe.py in the "MC Processing" folder. This "MC" output is a format that's usable by Spacelog.org.
