@@ -3,33 +3,41 @@ import sys
 import re
 
 def sterilize_token(token):
-    bs0 = BadNumberSub(0, ["o","Q","O"])
-    bs1 = BadNumberSub(1, ["i","J", "I","!","L","l"])
-    bs4 = BadNumberSub(4, ["h"])
-    bs8 = BadNumberSub(8, ["B"])
-    
-    tempToken = token
-    
-    for badSub in [ bs0, bs1, bs4, bs8 ]:
-        for sub in badSub.badSubList:
-            tempToken = tempToken.replace(sub, str(badSub.number))
-    
-    return tempToken
+	bs0 = BadNumberSub(0, ["o","Q","O","C","X"])
+	bs1 = BadNumberSub(1, ["i","J", "I","!","L","l"])
+	bs4 = BadNumberSub(4, ["h", "^"])
+	bs6 = BadNumberSub(6, ["b"])
+	bs7 = BadNumberSub(7, ["?", "T"])
+	bs8 = BadNumberSub(8, ["B"])
+	bs9 = BadNumberSub(9, ["g"])
+	
+	tempToken = token
+	
+	for badSub in [ bs0, bs1, bs4, bs6, bs7, bs8, bs9 ]:
+		for sub in badSub.badSubList:
+			tempToken = tempToken.replace(sub, str(badSub.number))
+
+	return tempToken
 
 def scrub_timestamp(timestamp):
-    values =  re.split(" ", timestamp);
-    i = 0
-    days = 0    
-    days = sterilize_token(values[i])
-    i += 1
-    hours = sterilize_token(values[i])
-    i += 1
-    minutes = sterilize_token(values[i])
-    i += 1
-    seconds = sterilize_token(values[i])
-    
-    cleanTimestamp = days + " " + hours + " " + minutes + " " + seconds
-    return cleanTimestamp
+	values =  re.split(" ", timestamp);
+	i = 0
+	days = 0	
+	days = sterilize_token(values[i])
+	i += 1
+	hours = sterilize_token(values[i])
+	i += 1
+	minutes = sterilize_token(values[i])
+	i += 1
+	seconds = sterilize_token(values[i])
+	
+	cleanTimestamp = days + " " + hours + " " + minutes + " " + seconds
+	
+	testCleanTimestamp = cleanTimestamp.replace(' ', '')	
+	if not testCleanTimestamp.isdigit():
+		print "Uncleanable timestamp: " + cleanTimestamp + " - " + timestamp
+
+	return cleanTimestamp
     
 class BadNumberSub:
     def __init__(self, number, badSubList):
