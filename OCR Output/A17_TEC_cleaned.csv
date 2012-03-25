@@ -76,7 +76,7 @@
 00 00 08 28|CDR|Thank you, Bob. We are GO for staging up here.
 00 00 08 42|CC|You have level sense arm this time, Gene.
 |SC|Roger, Bob. Level sense arm.
-00 00 09. 02|CDR|Nine minutes, Bob, and 17 is GO.
+00 00 09 02|CDR|Nine minutes, Bob, and 17 is GO.
 00 00 09 07|CC|Roger, 17. You're GO here.
 00 00 09 18|CC|Stand by for Mode IV capability.
 00 00 09 22|CDR|S-II cut-off.
@@ -313,7 +313,7 @@
 |||Tape 4/1|Page 27
 00 01 48 53|CC|17 Houston through ARIA. How do you read?
 |CC|17, Houston. How do you read through ARIA?
-00 01 5U 07|CC|17, Houston.
+00 01 54 07|CC|17, Houston.
 |LMP|Go ahead.
 |CC|Roger. You're back with us. I'll finish up that TLI plus 90 pad so we can talk a little here if you want.
 |LMP|Go ahead.
@@ -1247,7 +1247,7 @@
 
 |||Tape 8/2|Page 81
 |CMP|... Yes, let's do a little better now.
-00 0? 57 21|LMP|MARK. Bob, mag November November is 130 now. And I just took another set of Earth pictures.
+00 07 57 21|LMP|MARK. Bob, mag November November is 130 now. And I just took another set of Earth pictures.
 |CC|Okay. Copy that. November November at 130.
 |CMP|And, Houston, 17. You copying the torquing angles now?
 |CC|Roger. Stand by.
@@ -2188,7 +2188,7 @@
 |LMP|Okay. Well, it's - it's - moved quite a bit now, and I guess it's the same storm; still seems to be very well organized but quite concentrated and small.
 |CC|Okay. I'll get a new prog in and compare your estimage there.
 00 22 41 30|LMP|Okay. I think that's pretty good - those - 142 and 8 degrees would be pretty good center of that storm. I've got some pretty good coor - I can see Mindanao, and I can see the - let's see -just a second - what is that on Australia?
-0C 22 42 12|LMP|Yes, of course, that is Port Moresby. I can see that point there, and between those two - I can pin that one down probably within a couple of degrees.
+00 22 42 12|LMP|Yes, of course, that is Port Moresby. I can see that point there, and between those two - I can pin that one down probably within a couple of degrees.
 |CC|Okay. We'll get a satellite photo and bring it in here in just a bit.
 00 22 50 23|LMP|Houston, canister number 4 is in Bravo now.
 |CC|Roger. We copy that.
@@ -3035,7 +3035,7 @@
 01 15 14 30|CMP|And, Houston, we'll go ahead and maneuver onto the LM attitude.
 |CC|Okay. We're watching you. Punch it in there.
 |CMP|Okay.
-01 15 2? 20|CMP|Okay. DIRECT O2 is coming OPEN now.
+01 15 27 20|CMP|Okay. DIRECT O2 is coming OPEN now.
 |CC|Okay.
 01 15 30 09|CMP|DIRECT 02 is OFF.
 |CC|Roger.
@@ -3291,14 +3291,14 @@
 01 17 45 57|CC|Challenger, Houston. We're looking at the HIGH BIT RATE for a minute here while we're waiting. Would you check the CROSS TIE circuit breakers , panel lo? Verify they're open.
 01 17 46 09|LMP|That's verified. CROSS TIEs BUS and BAL LOADS open.
 01 17 46 14|CC|Roger.
-C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
+01 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 01 17 47 09|LMP|Roger. Step 8.
 01 17 47 28|LMP|Okay, Houston. How do you read the Challenger? 1, 2, 3, 4, 5. Over.
 
 |||Tape 30/8|Page 223
 |CC|Challenger, you're loud and clear. How me?
 |LMP|Loud and clear.
-01 17 4? 38|CC|Roger.
+01 17 47 38|CC|Roger.
 01 17 49 07|CC|Challenger, Houston. Go ahead with step 9• Report the ED BAT VOLTAGES.
 01 17 49 16|LMP|Wilco. Stand by.
 01 17 50 07|LMP|Okay, Houston. ED BATs A and B are 37-2.
@@ -3406,7 +3406,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |||Tape 31/1|Page 230
 01 18 43 46|CC|17, Houston. We - we are recommending quads Bravo and Delta for spinup.
 01 18 43 56|CMP|Okay; Bravo and Delta. Thank you.
-01 1S 57 53|CMP|Okay, Houston. At 042:56:52.04, I started the stop watch, and also the watch read 18:30:01.
+01 18 57 53|CMP|Okay, Houston. At 042:56:52.04, I started the stop watch, and also the watch read 18:30:01.
 |CC|Okay, Ron. We got that.
 01 19 02 24|CMP|Okay, Houston. We've started on the heat select radial and lineal part - part of it. The little pie-shaped things are changing color as we go out. The lineal part of it - all of the chips seemed to have been concentrated on the front edge of the glass, and they're all pretty much in the linear direction or in XX-direction. At this point in time, I haven't seen any movement yet.
 |CC|Roger, Ron. Aren't they on ... heads the same way they were on the backup unit the other evening in the White Room - on the lamp?
@@ -3440,7 +3440,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 01 19 17 22|CMP|Okay; I'll try to squirt some fluid in there -
 |CC|Okay.
 |CMP|With the fluid inject thing.
-01. 19 18 11|CMP|Okay; I'm taking it in quite slow. It's noted there are quite a few small bubbles coming out with it. So far, so good. It hasn't overflowed the - the first capillary ring. And it's taken off, and it's going by capillary action toward the bottom and toward the top.
+01 19 18 11|CMP|Okay; I'm taking it in quite slow. It's noted there are quite a few small bubbles coming out with it. So far, so good. It hasn't overflowed the - the first capillary ring. And it's taken off, and it's going by capillary action toward the bottom and toward the top.
 |CC|Roger, Ron.
 01 19 19 26|CMP|Okay; it finally met together at - that part going around the top and around the bottom - met together 180 degrees opposite of the inject port and now is starting to go out across the middle and fill up from the inject port.
 |CC|Roger.
@@ -3664,7 +3664,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |LMP|Okay, I was just doing some isometrics. I was tired running in place again then.
 |CC|Roger. Do you want us to call you your heart rate if - if we get data in here now?
 |LMP|Sure.
-01 20 4g 14|CC|Okay.
+01 20 49 14|CC|Okay.
 01 20 50 25|CC|Okay, you're up to 115, Jack.
 01 20 59 55|CC|What are you doing, Jack, - resting, or did you quit?
 |LMP|No, I'm resting right now. Didn't seem like my arms have the stamina they did yesterday to hold the artificial g. What - -
@@ -4638,7 +4638,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 02 14 48 17|CC|Okay. Okay, - the LMP's EKG and ZPN look good. And on the SPS light, we recommend not doing anything with the system. We want you to go to ACKNOWLEDGE so the - get the light out of your eyes, and then just fly there in ACKNOWLEDGE on the CAUTION and WARNING.
 02 14 48 54|CDR|Okay, Gordy. We're in ACKNOWLEDGE, and - I presume, probably after L0I, we'll be able to go back to NORMAL, right?
 |CC|That1s affirmative.
-02 14 4g 14|CDR|Is that an abnormal amount of helium ingestion [sic], or do you think that's about right?
+02 14 49 14|CDR|Is that an abnormal amount of helium ingestion [sic], or do you think that's about right?
 |CC|It's - it's absorption, and that's normal.
 02 14 52 06|CDR|Hello, Houston. You read?
 |CC|Loud and clear.
@@ -5770,7 +5770,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |CDR|Thank you.
 
 |||Tape 55/2|Page 388
-03 07 56 U1|CDR|I might add that both of those alternatives have been - worked on.
+03 07 56 41|CDR|I might add that both of those alternatives have been - worked on.
 |CC|We thought probably so.
 |LMP|Bob, although we're getting close to concentrating our attention on the Moon, it doesn't decrease the interest in looking back at the patterns of activity we can see on the Earth. That storm I talked about yesterday that was in North Africa, looks like it has left that area and has moved in - maybe, if it's there at all, it's just over the - Iberian Peninsula, And maybe Gibraltar and that area is getting a little activity today.
 |CC|Okay; copy that, Jack.
@@ -6183,7 +6183,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |||Tape 57/2|Page 415
 |LMP|Gordy, did we end up somehow out of NORMAL voice?
 |CC|Jack, we'd like you to try a NORMAL acquisition. Go AUTO and NARROW on the HIGH GAIN.
-03 11 35 51f|LMP|Okay, that peaked it up, AUTO and NARROW.
+03 11 35 54|LMP|Okay, that peaked it up, AUTO and NARROW.
 |CC|Okay, you're loud and clear now.
 |LMP|Okay, Gordy. You said that you had to command NORMAL voice. Did we get a spurious command in there some way?
 |CC|Okay, we had - we did all that ourselves to establish voice through Ascension; no problem. Over.
@@ -6497,7 +6497,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |LMP|Okay.
 03 14 02 56|CDR|And, Gordy, I assure you we will be out at l6:40.
 |CC|Very good.
-03 14 54 XX||BEGIN LUNAR REV 1
+03 14 54 00||BEGIN LUNAR REV 1
 03 14 36 58|CMP|Didn't ... me yet.
 03 14 37 06|CMP|No, it's not in yet. Well, yes, it is. There's AOS limits right there.
 |CMP|I think we just passed Hertz and -
@@ -7039,7 +7039,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 03 18 05 58|CC|Roger, Gene.
 
 |||Tape 62/1|Page 472
-03 18 25 XX||BEGIN LUNAR REV 3
+03 18 25 00||BEGIN LUNAR REV 3
 03 18 54 51|CDR|Hello, Houston; America.
 |CC|America, Houston. Go ahead.
 |CDR|Okay. And the burn was good on all counts, 22-second burn. It was on time, V^, 1982; roll after the burn, 357 > 225, and 003. Residuals were plus 0, plus 0.2, and plus 0.1. DELTA-V^ is 0.1, and that was with DELTA-V total set into the EMS. Should have been - should been zero and the residual on the EMS was plus 0.1. OXIDIZER's 305, and FUEL is 311 and an UNBALANCE of 150 DECREASE. We're in a 59.1 by 14.9.
@@ -7521,7 +7521,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |CC|Roger.
 |LMP|I'll tell you, from this altitude and with that low Sun, there's no question of the sharpness of the topographic features in the landing area. The - The scarp, and - and even some of the apparent back - pardon - backflow features - and Parker will know what I'm talking about - that is apparent flows to the west in the light mantle area were extremely sharp, even those fronts going west were sharp. It looked even more like a mare ridge than it ever did before.
 |CC|Roger.
-03 23 0.6 01|CDR|Okay, Bob, this is Gene. I had a - just a quick view of the site, and if we're anywhere near it, we'll recognize it, I think, without question. And, I think with that, we'll bid farewell and good night.
+03 23 06 01|CDR|Okay, Bob, this is Gene. I had a - just a quick view of the site, and if we're anywhere near it, we'll recognize it, I think, without question. And, I think with that, we'll bid farewell and good night.
 |CC|Okay, gang. And looking for a busy day tomorrow - -
 |CMP|Never fear. Your old CM - -
 |CC|Go ahead; I cut you out.
@@ -7543,10 +7543,10 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 03 23 07 27|CDR|Good night, babe.
 
 |||Tape 65-69/1|Page 505
-04 00 07 XX||BEGIN LUNAR REV 6
-04 02 01 XX||BEGIN LUNAR REV 7
-04 03 53 XX||BEGIN LUNAR REV 8
-04 05 47 XX||BEGIN LUNAR REV 9
+04 00 07 00||BEGIN LUNAR REV 6
+04 02 01 00||BEGIN LUNAR REV 7
+04 03 53 00||BEGIN LUNAR REV 8
+04 05 47 00||BEGIN LUNAR REV 9
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 70/1|Page 506
@@ -7600,7 +7600,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |LMP|Roger.
 |CC|17, about 30 seconds to LOS. We'll see you on the other side. It's boing to be a good day.
 04 07 21 47|LMP|Righto, Joe.
-04 07 43 XX||BEGIN LUNAR REV 10
+04 07 43 00||BEGIN LUNAR REV 10
 04 08 14 35|LMP|Okay, Houston. We're with you and we're in the process of getting the tunnel pressurized and moving right towards probe and drogue removal.
 |CC|Okay, Jack. Good morning.
 |LMP|Good morning, Gordy. Welcome aboard.
@@ -7925,7 +7925,7 @@ C1 17 46 56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |CC|And, America, we'll give you a state vector if you give us ACCEPT.
 04 10 38 01|CMP|Okay. You have it.
 |CC|Thank you.
-rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
+04 10 44 14|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CC|Oh, about 29 minutes.
 |CMP|Oh, okay. Got a little time for the PGA ver then, I guess.
 |CC|And it's your computer, anytime you want to get it, Ron.
@@ -8094,7 +8094,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |LMP|Okay. I guess we're okay. It was the squelch.
 |CDR|Ron, how do you hear, Gene?
 |CDR|Okay; very good.
-0U 10 18 22|LMP|How do you read the LMP now, Ron?
+04 10 18 22|LMP|How do you read the LMP now, Ron?
 04 10 18 34|LMP|Okay. How do you read now?
 |LMP|How do you read now?
 04 10 18 44|LMP|Okay. I've got the SQUELCH to f'ull decrease.
@@ -8241,7 +8241,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 10 59 04|CDR|Okay, Houston. Verify high bit rate - and, Ron, we need you in WIDE DEADBAND ATTITUDE/HOLD.
 04 10 59 23|CC|Challenger, we verify high bit rate.
 04 10 59 42|CDR|Okay. Here we go, Houston, with the cold fire check.
-04 10 59 *+5|CC|Okay. All set.
+04 10 59 45|CC|Okay. All set.
 04 11 00 44|CDR|Okay, Houston. PGNs RATE COMMAND (Cold Fire), AGS pulse (Cold Fire) check.
 04 11 00 48|CC|Okay; press on.
 04 11 02 03|LMP|All right, Houston. Step 4. AGS RATE COMMAND (Cold Fire), 4 JET SECONDARY COIL (Hot Fire) check.
@@ -8251,7 +8251,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |||Tape 72A/10|Page 544
 04 11 02 26|LMP|It's affirm. Go CMC MODE FREE.
 04 11 02 36|CDR|That is affirm. We want you FREE, Ron.
-0U 11 02 55|CDR|Ron, go RECEIVE ONLY.
+04 11 02 55|CDR|Ron, go RECEIVE ONLY.
 04 11 03 46|CDR|Houston, hardover looked good from here.
 04 11 03 50|CC|Okay; looked good down here.
 04 11 03 55|LMP|All right, Houston. PGNS MINIMUM IMPULSE (Hot Fire) check.
@@ -8291,7 +8291,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CC|America, Houston; standing by.
 |CMP|Okay, Houston. This is America. We're floating free out here. The Challenger looks real pretty. The residuals on the P4l were plus 1.9* minus 0.2, and 0. Undock and sep was on time.
 |CC|Sounds good.
-04 U 31 xx||BEGIN LUNAR REV 12
+04 11 31 00||BEGIN LUNAR REV 12
 04 12 06 32|CC|America, Houston. When you have an opportunity, how about cycling the HIGH GAIN to WIDE and back to REACQ?
 |CMP|Okay. Can do.
 |CC|Thank you, sir.
@@ -8578,7 +8578,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 13 06 47|CMP|Okay. Mighty fine.
 
 |||Tape 73B/2|Page 563
-04 13 25 XX||BEGIN LUNAR REV 13
+04 13 25 00||BEGIN LUNAR REV 13
 04 13 55 00|CC|America, Houston standing by.
 04 13 55 09|CMP|Hey, Houston, This is America. Good burn.
 |CC|Okay. Glad to hear it.
@@ -8641,12 +8641,13 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |LMP-LM|Okay, The burn was GO. We're in a 7-mile perigee on the PGNS, and we had 0, plus 0.1 and plus 0.1 residuals.
 
 |||Tape 74A/2|Page 567
-|LMP-LM|Ok - Okay, Gordy, I'm going to try the high gain
-|CC|I had you locked up once, and then I lost you. Let me try it again. We concur. Go ahead, Jack.
-|LMP-LM|Okay, Gordy, that's my fault. I didn't know you
-04 13 58 07|CC|were up-linking. You've got the omni, and I'll leave it. Okay, we'll stay on the omni for the up-link.
-|LMP-LM|Okay, Gordy, ED BATs are 37.2, both batteries.
-|CC|The ascent battery on time was 112:19:00, about 4 minutes late. Okay, Jack. C opy.
+|CC|Okay, sounds good.
+|LMP-LM|Ok - Okay, Gordy, I'm going to try the high gain I had you locked up once, and then I lost you. Let me try it again.
+|CC|We concur. Go ahead, Jack.
+|LMP-LM|Okay, Gordy, that's my fault. I didn't know you were up-linking. You've got the omni, and I'll leave it.
+04 13 58 07|CC|Okay, we'll stay on the omni for the up-link.
+|LMP-LM|Okay, Gordy, ED BATs are 37.2, both batteries. The ascent battery on time was 112:19:00, about 4 minutes late.
+|CC|Okay, Jack. C opy.
 |CC|Jack, we want BATTERY 3 OFF for preconditioning.
 |LMP-LM|Roger.
 |CC|Challenger, we'd like you to verify that the ...
@@ -8665,7 +8666,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CC|Loud and clear, Jack.
 |CDR-LM|Okay. Gordo, up until this time, the bird has looked beautiful - perfectly plain. All the check's have come out just as advertised.
 |CC|Okay, sounds good.
-011 14 00 48|LMP-LM|And we're looking at 9 minutes and 5 seconds from PDI.
+04 14 00 48|LMP-LM|And we're looking at 9 minutes and 5 seconds from PDI.
 |CC|Challenger, do you see a VERB 33 out of DSKY? If you do, ENTER it.
 |LMP-LM|Okay, it's there, and I will ENTER.
 |CC|Roger.
@@ -8882,7 +8883,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |LMP-LM|Fuel 2, 2T. That's good.
 |CDR-LM|Come on, baby.
 04 14 18 13|LMP-LM|Okay, at 08:30, Geno.
-04 14 18 1T|CDR-LM|Okay, I got the South Massif.
+04 14 18 17|CDR-LM|Okay, I got the South Massif.
 04 14 18 21|LMP-LM|Okay, update the AGS, Houston? ...
 |CDR-LM|Yes.
 |CC|That's affirmative; update the AGS.
@@ -8973,7 +8974,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CC|Okay. Thank you.
 04 14 50 28|CMP|Okay. PAN CAMERA POWER is coming OFF.
 |CC|All right.
-04 14 50 41'|CMP|And the VHF is OFF to RECEIVE ONLY - is OFF.
+04 14 50 41|CMP|And the VHF is OFF to RECEIVE ONLY - is OFF.
 |CC|Okay. And Olso's [?] standing here with baited breath.
 |CMP|He's ready to go to work, isn't he?
 |CC|Yes. He's chomping at the bit.
@@ -9098,7 +9099,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |LMP-LM|Okay. I need a P12 time as soon as I get 60 - -
 |CDR-LM|Okay.
 04 14 27 02|CDR-LM|Okay, Gordy. You're looking at NOUN 43. Copy that down, Jack, right here.
-0 4* r0 0|CC|Okay. We've got it.
+04 14 27 09|CC|Okay. We've got it.
 04 14 27 11|LMP-LM|20 21 and 20 21 and 30 75, and I'm going to P12. Okay. I need a P12 time from you.
 |CDR-LM|Okay. For T-2. For T-2, the time is 113 - -
 |LMP-LM|Okay.
@@ -9117,7 +9118,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CDR-LM|No. No.
 |LMP-LM|Okay.
 |CDR-LM|No. Okay; 5515* Hello, Gordy. How would you like me to handle R-3 of NOUN 76?
-0k 14 28 26|CC|Stand by. I'll come back to you.
+04 14 28 26|CC|Stand by. I'll come back to you.
 |CDR-LM|Okay. Oh, that radar performed super.
 |LMP-LM|How was the view on the way down, Gene? (Laughter)
 |CDR-LM|You know, after we pitched over, I was just looking for a place to land. I'm not sure, I just didn't want to hit one of those boulders out there which would have been as easy - and look at that. Look at right in front of us. I didn't want to land there either.
@@ -9190,7 +9191,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 14 35 01|CDR-LM|MARK it. Now we did not hear anything on that one, Gordy.
 |CC|Roger.
 04 14 35 11|CDR-LM|... pressure's coming down, though. Pressure's coming down.
-04 14 35 1T|LMP-LM|Okay. MASTER ARM, OFF. Okay. We'll monitor oxidizer pressure until 20 to 40, and then OX VENT, CLOSED; fuel pressure to less than 8. FUEL VENT.
+04 14 35 17|LMP-LM|Okay. MASTER ARM, OFF. Okay. We'll monitor oxidizer pressure until 20 to 40, and then OX VENT, CLOSED; fuel pressure to less than 8. FUEL VENT.
 04 14 35 28|CDR-LM|DESCENT QUANTITY light - REG light. Excuse me.
 04 14 35 36|CDR-LM|Okay. MODE CONTROL, two to ATT HOLD. Well, we just keep going, I guess.
 |LMP-LM|Yes. Hey, we can press on. Okay. Okay. Now wait a minute. Here we go. Let's get that. Go up here first, because I haven't selected it.
@@ -9230,14 +9231,14 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 14 47 21|CC|I bet it was. And you can consider yourself STAY for T-3.
 |CDR-LM|Thank you, sir. You're getting smoother all the time. If you're happy with NOUN 22, I'll PRO.
 |CC|Stand by 1.
-04 14 4? 46|CC|You're clear to PRO.
+04 14 47 46|CC|You're clear to PRO.
 04 14 48 41|LMP-LM|Okay, Gordy. I had the angles matched on the steerable and went to SLEW, and they - it held for a few seconds and then dropped off.
 
 |||Tape 75A/13|Page 599
 |CC|Okay. It looks pretty good. You might try to peak it up just a little more.
 04 14 49 01|LMP-LM|No, we're on an omni now.
 |CC|Roger.
-04 1k 49 12|LMP-LM|I'll try the steerable one more time here.
+04 14 49 12|LMP-LM|I'll try the steerable one more time here.
 |CC|Okay, you should be - -
 04 14 49 22|LMP-LM|Okay. We're on the steerable, and I'm not going to touch it.
 04 14 49 35|LMP-LM|It's steerable and SLEW, and I got 3.8.
@@ -9657,7 +9658,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CC|Copy that.
 |CDR-LM|And the physical status of the crew is excellent, by the way.
 |CC|Beautiful, The Surgeon's happy.
-04 16 51* 35|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.
+04 16 51 35|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.
 |CC|Okay. We'd like you to have DEMAND REGs, both of them, go to EGRESS, please.
 04 16 54 49|CDR-LM|Yes, sir. Okay, they're EGRESS now.
 |CC|Okay, thank you.
@@ -9739,7 +9740,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |||Tape T6B/5|Page 632
 ||of that slide area. I still think I can see the -one spot that has a lighter albedo than the surrounding area there in the Pentagon complex. And it's pretty close to the - Let me get my chart out here and take a look at it again.
 04 18 16 50|CMP|No, it still looks like that area that's blown away there is Dog November - between Dog November and Dog Papa. And about 83.4 or something like that.
-04 18 1T 0T|CC|Copy.
+04 18 17 07|CC|Copy.
 |CMP|Yes, just like the map shows, and all the pictures, you've got a definite demarcation in the annulus around Serenitatis here, as you look by Sulpicius Gallus area. As you look at it - I'm going to have to take another check on it - but the dark annulus looks to me like it's raised above the mare, proper, itself. I'll check that a little more as we come on across.
 |CMP|You know all those rilles to the north of - I mean to the west of Sulpicius Gallus. There is a bunch of crisscrossing. One is right on the edge of the Serenitatis basin - and I don't remember the name of that crater, I'11 have to look it up later - but they've got slightly raised rims around the rilles. You can see some layering down inside the rille itself, in the east-west and the one that runs in the east-west direction.
 |CC|Roger. You're talking about near Menelaus?
@@ -9854,7 +9855,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |||Tape 76B/12|Page 639
 |CC|Hey, Ron. I don't know what Tommy has against you, but they just never scheduled an eat period in here. We checked this out so thoroughly that, we forgot to check it to see if there was an eat period in there.
 |CMP|We probably weren't hungry when we checked it out.
-04 19 00 5^|CC|Roger.
+04 19 00 54|CC|Roger.
 
 |||Tape 77A/1|Page 640
 04 17 30 17|LMP-LM|Okay. The LMP has got the RCU connected to the PLSS.
@@ -9862,7 +9863,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 17 31 43|CDR-LM|Okay, Bob, I'm going to get on the PLSS, now.
 |CC|Okay, Geno. Copy that.
 04 17 32 34|CDR-LM|Sublimator exhausts.
-04 17 42 1T|CDR-LM|Okay, Bob. I've got my PLSS on. We're picking it up with verifying the powerdown configuration on the upper right-hand corner.
+04 17 42 17|CDR-LM|Okay, Bob. I've got my PLSS on. We're picking it up with verifying the powerdown configuration on the upper right-hand corner.
 |CC|Roger. Copy that.
 04 17 43 00|CDR-LM|Circuit breakers are configured.
 |CC|Houston copies.
@@ -9963,7 +9964,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CDR-LM|That's a verify.
 04 17 52 30|LMP-LM|Okay. It's CLOSED.
 |CDR-LM|SUIT FAN DELTA-P, OPEN.
-04 1? 52 33|LMP-LM|Okay. DELTA-P is OPEN.
+04 17 52 33|LMP-LM|Okay. DELTA-P is OPEN.
 |CDR-LM|And SUIT FAN number 2, OPEN.
 04 17 52 36|LMP-LM|2's open.
 
@@ -9998,7 +9999,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |LMP-LM|I will in a second.
 |CDR-LM|Move your arm. I can't see.
 |LMP-LM|Okay.
-04 17 5*+ 19|CDR-LM|Okay. We're right here. Okay. And I'm going to connect OPS hose to put it blue to blue, retrieve PURGE valve. Let me give you purge valve, and I' 11 pick that up, Jack. The cockpit's just as small as the mockup. Okay. Here you are. You verify it's in LOW, LOW.
+04 17 54 19|CDR-LM|Okay. We're right here. Okay. And I'm going to connect OPS hose to put it blue to blue, retrieve PURGE valve. Let me give you purge valve, and I' 11 pick that up, Jack. The cockpit's just as small as the mockup. Okay. Here you are. You verify it's in LOW, LOW.
 04 17 54 37|LMP-LM|Okay. It's in LOW.
 |CDR-LM|Slip to the right just a skosh.
 |LMP-LM|Yes; slipped it to the right just a skosh.
@@ -10304,7 +10305,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 |CDR-LM|Okay, Jack. Can you reach the front valve, or do you want me to?
 |LMP-LM|Well, let me turn around here.
 |CDR-LM|Okay, on l6 - first around, on 16, CABIN REPRESS, OPEN.
-04 .18 19 16|LMP-LM|Okay; 16: CABIN REPRESS, OPEN. Circuit breaker is op - coming open.
+04 18 19 16|LMP-LM|Okay; 16: CABIN REPRESS, OPEN. Circuit breaker is op - coming open.
 |CDR-LM|Okay, and CABIN REPRESS valve, CLOSED on the panel.
 04 18 19 25|LMP-LM|Okay. The valve is closed.
 |CDR-LM|Okay. If you can't reach it, I guess I can.
@@ -10385,7 +10386,7 @@ rH -3" 0 H|CMP|Houston, America. How much time to AOS, yet - LOS?
 04 18 23 58|CDR-LM|It's open now.
 |LMP-LM|Gosh, look at those trajectories (laughter).
 |CDR-LM|Yes. Put just enough air in here, we're - Okay; it's open, babe. Okay; it is open.
-C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure out how to open that now.
+04 18 24 12|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure out how to open that now.
 
 |||Tape 77A/25|Page 664
 |CDR-LM|Okay.
@@ -10493,7 +10494,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|We've got to go back there. You lose the key, and we're in trouble.
 04 18 35 01|LMP-EVA|Oh, I'm on the porch. Who said this place was smooth?
 |CDR-EVA|Boy, there's a lot of local depressions here I didn't figure existed.
-04 18 35 1T|LMP-EVA|Hey, who's been tracking up my lunar surface?
+04 18 35 17|LMP-EVA|Hey, who's been tracking up my lunar surface?
 |CDR-EVA|Hey, Bob, I'm east of the LM now. I'm east of the LM, and the back strut of the LM is - Well, the LM straddles this crater I talked about, and that's where we get the pitch angle; the back strut is probably right down in the eastern one-third of that crater. Just a little - very subtle crater.
 |LMP-EVA|Hey, man; you had some forward velocity.
 |CDR-EVA|That's what I wanted to have.
@@ -10563,7 +10564,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Yes, I think that's a little glass.
 |CDR-EVA|There's - Let's go back here and get to work, and I'll show you that crater that's got nothing but glass in the bottom.
 |LMP-EVA|That's a vesicular rock of some kind there, Geno. It almost looks like a mono crater - pumice, but don't quote me.
-04 18 k1 01|CDR-EVA|Bob, I have to reiterate. Even the small - even the very small - the 1- and 2-inch - 3-inch fragments that are laying around here have been dusted and filleted - -
+04 18 41 01|CDR-EVA|Bob, I have to reiterate. Even the small - even the very small - the 1- and 2-inch - 3-inch fragments that are laying around here have been dusted and filleted - -
 |LMP-EVA|Do-tu-doo.
 |CDR-EVA|- - with the dark mantle.
 |LMP-EVA|And that sweeping by the descent stage goes all the way out there, Houston, to where we were, which was about 50 meters, I guess. Hey, man - whuh, whuh, whuh, whuh - these rocks - they almost have a pink - very light pinkish hue to them, and they are not - they're not obviously breccia. Now, that - that's a - like a breccia there. But this stuff is something else again.
@@ -10793,7 +10794,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 77B/1|Page 686
 04 19 01 19|CC|You've got a lunar sounder HF pass at 1 - starting - at 119» for a site - well, actually a 2 hour, no, 1 hour that you could probably grab some food at that time.
 |CMP|Okay.
-04 19 19 XX||BEGIN LUNAR REV 16
+04 19 19 00||BEGIN LUNAR REV 16
 04 19 51 12|CC|America, Houston.
 |CMP|Houston, America. Go ahead.
 |CC|Okay. Just wanted to make sure you're there. Your friends are out on the surface, and we've got a live TV picture coming from the Moon.
@@ -10814,7 +10815,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Ron, any time you're ready, I've got a TEI-26 pad and an earth - earthshine photo pad.
 |CMP|Let's see. (Humming)
 |CC|Ron, if you've got 1/2 scale on your HIGH GAIN, will you go to REACQ and NARROW?
-04 19 5*+ 50|CMP|Okay. Good idea. REACQ and NARROW.
+04 19 54 50|CMP|Okay. Good idea. REACQ and NARROW.
 |CC|Good show, Ron.
 |CMP|(Whistling)
 |CMP|Okay. Let's see. I guess I ought to do a TEI. What did you say it was, 26?
@@ -10823,7 +10824,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 04 19 55 51|CC|TEI-26, SPS/G&N; 37630; plus 0.53, plus 0.97; 139:41:14.32; NOUN 8l's plus 2450.7, minus 2097-8, minus 0807.1; roll is 187, pitch, 104; yaw, 323; rest of the pad is not applicable. Good old Sirius and Rigel for set stars; 133, 200, 030. Ullage, four jet, 12 seconds. Longitude of the Moon at T. win be minus 160.39- Over.
 |CMP|Okay. Say again the longitude.
 |CC|Roger, Ron. It's minus - minus 160.39•
-0U 19 57 37|CMP|Okay. Readback. TEI-26, SPS/G&N; 37630; plus 0.53, plus 0.97; 139:41:14.32; and 8l's plus 245.07, minus 2097*8, minus 0807.1; roll, 187, 104, 323. Sirius and Rigel; 133, 200, 030. Four jet, 12 seconds. Lunar longitude at is minus l60.39.
+04 19 57 37|CMP|Okay. Readback. TEI-26, SPS/G&N; 37630; plus 0.53, plus 0.97; 139:41:14.32; and 8l's plus 245.07, minus 2097*8, minus 0807.1; roll, 187, 104, 323. Sirius and Rigel; 133, 200, 030. Four jet, 12 seconds. Lunar longitude at is minus l60.39.
 
 |||Tape 77B/3|Page 688
 04 19 58 17|CC|Good readback, Ron. And the earthshine photo pad is at 121:05 in the Flight Plan.
@@ -10930,7 +10931,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|The old 4 o'clock pan.
 
 |||Tape 78A/3|Page 694
-0U 19 05 50|CDR-EVA|Okay, Houston. Amp-hours, I'm reading 115, Amps are 0. Volts are 82 and 82. Batteries are -95 and 110. FORWARD MOTORS are off scale low, off scale low, and REARS are off scale low, off scale low. Houston, you with us?
+04 19 05 50|CDR-EVA|Okay, Houston. Amp-hours, I'm reading 115, Amps are 0. Volts are 82 and 82. Batteries are -95 and 110. FORWARD MOTORS are off scale low, off scale low, and REARS are off scale low, off scale low. Houston, you with us?
 |CC|Roger. We copy that.
 |CDR-EVA|Okay.
 |CDR-EVA|DRIVE ENABLE, FORWARD ... time-1. Take it nice and easy. Here we go at time-2. And that is BOTH; I know that. That's SECONDARY. Okay; STEERING, go FORWARD to A --
@@ -11022,7 +11023,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 
 |||Tape 78A/8|Page 699
 |CDR-EVA|Man, that thing won't want to go on. That's because it's not in there. Put it in right, and it goes on.
-0U 19 18 05|CDR-EVA|Okay, the power cable's on to TCU, Bob.
+04 19 18 05|CDR-EVA|Okay, the power cable's on to TCU, Bob.
 |CC|Got that.
 |LMP-EVA|TGE is on. 22 - oh, you just want the last ones. Okay, 07.
 |CC|Okay. Copy that.
@@ -11092,7 +11093,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|My king - my kingdom for a scoop.
 |CDR-EVA|The scoop is on the extension handle. Different extension handle's of course.
 |LMP-EVA|Go ahead Bob. Were you calling?
-0u 19 24 56|CC|Roger. And your exuberance is showing up on the BTUs. You're running a little high on those.
+04 19 24 56|CC|Roger. And your exuberance is showing up on the BTUs. You're running a little high on those.
 |CDR-EVA|Okay.
 |LMP-EVA|Exuberance! I've never been calmer in my life ...
 |CDR-EVA|Okay, let's get - we'll take it easy, Bob. I think it's a great deal a part to just get accustomed to handling yourself in zero gravity, the only vice on the Moon.
@@ -11105,7 +11106,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Oop! Hang on there accessory staff. Accessory staff, huh? Most staffs are accessory I've learned.
 
 |||Tape 78A/12|Page 703
-04 19 26 54.|LMP-EVA|Okay, Bob the high gain is up and connected.
+04 19 26 54|LMP-EVA|Okay, Bob the high gain is up and connected.
 |CC|Okay. Copy that. Beautiful.
 |LMP-EVA|And raised.
 |CDR-EVA|Okay.
@@ -11559,7 +11560,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 78A/35|Page 726
 |LMP-EVA|I'm moving down-Sun, and where we've walked, we stir up darker material - just slightly, but it's darker. The same old thing, the most mature -that most regoliths have.
 |CC|Okay, copy that. Have you got a bias reading there, Gene?
-04 20 11 5^|CDR-EVA|Yes, I'm giving it to you right now - 337 > 454, 001 - that's 337, 454, 001
+04 20 11 54|CDR-EVA|Yes, I'm giving it to you right now - 337 > 454, 001 - that's 337, 454, 001
 |CC|Okay, we copy that.
 |CDR-EVA|And I hate to say it, but I'm going to have to take some time to try - I'm going to have to -I'm going to have to try to get that fender back on.
 |CC|Okay. Was it the rear fender, Geno?
@@ -11766,7 +11767,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Getting too much glare on the windows.
 |CMP|Okay, Bob. That is correct. Now, you want to continue on across here at a 15th, huh?
 |CC|Roger.
-0U 20 48 53|CC|Okay, Ron. No ... for picture taking, but you need to select OMNI A when you get a chance.
+04 20 48 53|CC|Okay, Ron. No ... for picture taking, but you need to select OMNI A when you get a chance.
 |CMP|Okay.
 |CMP|There you go.
 |CC|Good show.
@@ -11805,7 +11806,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 04 21 01 52|CC|Ron, you're about ready to go over the hill. You're looking really good.
 |CMP|Okay, Robert. Thank you much. See you in about 45 minutes then, I guess.
 |CC|That's affirmative.
-04 21 20 XX||BEGIN LUNAR REV 17
+04 21 20 00||BEGIN LUNAR REV 17
 04 21 50 05|CC|Hello, Ron. How's it going up there?
 |CMP|Hey, pretty good, Robert. The last photo pass was a - a good one.
 |CMP|Just about half an Earth now.
@@ -12690,7 +12691,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 
 |||Tape 79B/10|Page 787
 |CC|And, Ron, the reason why we' OFF, now is we're trying to drop some and we'll come up uration this next half.
-04 22 '54 12|CMP|Oh, okay.
+04 22 54 12|CMP|Oh, okay.
 
 |||Tape 80A/1|Page 788
 04 22 07 51|CC|Stand by on that.
@@ -13203,7 +13204,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|Yes. And the crater. A shame not to - Well, maybe that's the wrong one. I'll have to check the map. A shauie not to go to station 1. Sure is a shame. Why don't you consider station 1 as a possibility? Okay, Bob, let me give you some numbers.
 |CC|We're ready.
 04 23 00 13|CDR-EVA|Sun shadow is zero. I am rolled right 4 degrees. I am pitch zero. I can't be rolled right 4 degrees That indicator can't be right. I question that. If the roll indicator's right, I might be rolled left a couple of degrees.
-04 23 00 5k|CDR-EVA|Are you happy with that, Bob? I'm - roll indicator is indicating - make it 3 degrees right - 3 degrees right.
+04 23 00 54|CDR-EVA|Are you happy with that, Bob? I'm - roll indicator is indicating - make it 3 degrees right - 3 degrees right.
 04 23 01 02|CC|Okay, and I copy - Okay, torque to 279 will be the heading - 279*
 |CDR-EVA|Okay.
 04 23 01 32|CDR-EVA|Okay, the heading when I put the NAV POWER breaker IN, Bob, was 23 - 234.
@@ -13630,7 +13631,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 04 23 38 59|CDR-EVA|Well, I got the gnomon in the wrong place really.
 
 |||Tape 80B/1|Page 837
-04 23 18 XX||BEGIN LUNAR REV l8
+04 23 18 00||BEGIN LUNAR REV l8
 04 23 49 22|CMP|Houston, America. ...
 |CC|Go ahead, Ron.
 |CMP|Okay. Had ny headset off here, and I wasn't paying much attention when AOS came.
@@ -13775,7 +13776,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay. Thank you all. We'll see you in the morning.
 |CC|That's all right. You - you can call us, but we - -
 05 00 53 36|CMP|... VOICE is going OFF. You can call me, but I can't call you. (Laughter)
-05 01 17 XX||BEGIN LUNAR REV 19
+05 01 17 00||BEGIN LUNAR REV 19
 
 |||Tape 81A/1|Page 846
 04 23 39 01|LMP-EVA|... let me see here.
@@ -14757,9 +14758,9 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 05 01 08 34|CDR-EVA|Once I get you this far, I'm just going to shove you on up that ladder and not let you get in the dust. Whoo!
 
 |||Tape 81B-85B/1|Page 896
-05 03 15 XX||BEGIN LUNAR REV 20
-05 05 14 XX||BEGIN LUNAR REV 21
-05 07 13 XX||BEGIN LUNAR REV 22
+05 03 15 00||BEGIN LUNAR REV 20
+05 05 14 00||BEGIN LUNAR REV 21
+05 07 13 00||BEGIN LUNAR REV 22
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 82A/1|Page 897
@@ -15012,7 +15013,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-LM|I'll try and get cabin ... master.
 
 |||Tape 82A/13|Page 909
-05 01 32 5^|LMP-LM|Okay, there's the MASTER ALARM, Heck, I can't get It.
+05 01 32 54|LMP-LM|Okay, there's the MASTER ALARM, Heck, I can't get It.
 |CDR-LM|I'll catch it.
 |LMP-LM|Okay.
 05 01 33 01|CDR-LM|Cabin is coming up. ... closed at 1 psi.
@@ -15137,8 +15138,8 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|We copy.
 05 01 52 56|LMP-LM|Hello, Houston. The recharge on the LMP: 95 percent.
 05 01 53 03|CC|Copy that.
-05 01 59 ^0|CDR-LM|Hello, Houston. It's CDR with a recharge of 93 percent.
-05 01 59 U5|CC|Sounds good, Geno.
+05 01 59 40|CDR-LM|Hello, Houston. It's CDR with a recharge of 93 percent.
+05 01 59 45|CC|Sounds good, Geno.
 05 02 08 18|LMP-LM|Okay, Houston. OPS pressures: LMP, 6l00, and CDR, 5900.
 |CC|Thank you, Jack.
 05 02 18 01|CDR-LM|Joe, we're changing a cartridge out in my PLSS. We've got the battery changed.
@@ -15521,7 +15522,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Oh, okay. I'll get my Flight Plan out here and see what I'm supposed to be doing. Probably just eating though, I think isn't it?
 |CC|That's right. Get up, turn the VHF A, OFF, change your canister, and have breakfast.
 05 08 45 49|CMP|Okay. Sounds good. That's what we'll do then.
-05 09 11 XX||BEGIN LUNAR REV 23
+05 09 11 00||BEGIN LUNAR REV 23
 05 09 43 05|CC|Hello there, America. How's breakfast this morning?
 |CMP|Scrambled eggs and bacon. Not bad at all.
 |CC|Sounds better than what I had.
@@ -15625,7 +15626,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay.
 |CC|Okay, America. We're just about LOS. See you on the other side.
 05 10 51 43|CMP|Okay, Gordo. Thank you much.
-05 11 10 XX||BEGIN LUNAR REV 24
+05 11 10 00||BEGIN LUNAR REV 24
 05 11 37 57|CMP|And out on the - on the sides of the wall, also, there's another fresh impact just south of ... I guess it's more west really.
 |CC|Hello, America.
 |CMP|Okay, Houston. America's here. The - the zodiacal light sequence worked real well. Oddly enough, I ended up right (laughter) on the right setting with the right times and everything. The only thing is on the 8-minute - on the 8-minute picture, for some reason, I didn't notice that the shutter shut as soon as I took it instead of 60 seconds later. So we just missed that picture altogether.
@@ -15782,7 +15783,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger.
 
 |||Tape 89B/1|Page 965
-05 13 08 XX||BEGIN LUNAR REV 25
+05 13 08 00||BEGIN LUNAR REV 25
 05 13 37 22|CC|Hello, America. Houston. Over.
 05 13 37 28|CMP|Hello, Houston. This is America; loud and clear.
 |CC|You, too.
@@ -15800,13 +15801,13 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 89B/2|Page 966
 |CMP|You know, the Crater Peirce has got that same dark halo around its crater, and it extends out - again, you can see it real well out to about a half a crater diameter. You don't see any of the light-colored ejecta on top of it though, like you do on Picard,
 |CC|Okay.
-05 1U 00 30|CMP|Boy, that Scarp sure looks like a flow down there to me.
+05 14 00 30|CMP|Boy, that Scarp sure looks like a flow down there to me.
 |CC|Roger. On the landing site Scarp?
 |CMP|Yes. I don't know how you get it to go up the North Massif, but it sure looks like it runs that way - just from the shadows and everything.
 05 14 02 45|CMP|Gordo, does this go all the way out to Bessel? Does it cross the annulus ridge there?
 |CC|It doesn't go all the way to Bessel. It stops short of Bessel. About halfway across Serenity from the Taurus-Littrow to Bessel.
 |CMP|Oh, okay. Forgot to look where it stopped.
-05 14 0»+ 13|CMP|Okay. I ended up on frame 92.
+05 14 04 13|CMP|Okay. I ended up on frame 92.
 |CC|Okay. We copy that. Frame 92.
 05 14 04 21|CC|Okay. Ron, HIGH GAIN to AUTO when you get a chance.
 05 14 06 22|CMP|Okay. There's our 20 seconds or so.
@@ -15829,7 +15830,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay • Go.
 |CC|Okay. The old one, delete "MAPPING CAMERA/LASER ALTIMETER COVER, OPEN." And at 139:21, delete "MAPPING CAMERA, EXTEND," since they're already there.
 |CMP|Okay. Got them.
-05 14 22 5^|CC|Okay, Ron. At 139:21, where it says, "UV COVER, OPEN," move that down to 139:23. Make the following note. "Delay opening 2 minutes to check operating current with cover closed." We'll be checking that and giving you a cue on that.
+05 14 22 54|CC|Okay, Ron. At 139:21, where it says, "UV COVER, OPEN," move that down to 139:23. Make the following note. "Delay opening 2 minutes to check operating current with cover closed." We'll be checking that and giving you a cue on that.
 |CMP|Oh, okay.
 
 |||Tape 89B/4|Page 968
@@ -15871,7 +15872,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|(Laughter) Yes, right.
 |CC|Okay. You can get back to work then, if you want.
 |CMP|Okay.
-05 1U 26 56|CMP|See if I can get my solar - solar corona squared away here.
+05 14 26 54|CMP|See if I can get my solar - solar corona squared away here.
 |CC|Okay.
 05 14 27 35|CMP|Okay. Solar corona is mag QQ, and we're on frame 69*
 |CC|Okay. Mag QQ, 69.
@@ -16012,7 +16013,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 05 14 47 56|CC|Yes, but it doesn't roll up into a circle; it's sort of a - a hemisphere. I mean it's half of one.
 
 |||Tape 90B/1|Page 980
-05 15 07 XX||BEGIN LUNAR REV 26
+05 15 07 00||BEGIN LUNAR REV 26
 05 15 36 33|CMP|Houston, America.
 |CC|Hello, America. How are you doing?
 |CMP|Well, I think I've got it back under control again.
@@ -16198,7 +16199,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 
 |||Tape 91A/10|Page 994
 ||of the EVA so that we can have extra time for dusting. And I suspect that if the Rover fender fix works and we aren't getting as dirty as we did last night, then we may gain back that 5 minutes. We're also allowed - well, what we've done is we've taken the time here out of some of the tasks at station 3 and station 4. And along with the fact that we think you're a little bit farther east than planned - and we're allowing 4 minutes additional driving time. But again, that's all real time, and. if we're doing well on time, we can reinstitute all those tasks and get rid of the 5 minutes that we are allowing here, there, or elsewhere. So that's just sort of to keep in your thinking.
-05 15 35 2k|CC|There is a possibility that we'll have some additional overhead at each stop, depending on what the Rover battery temperatures are when you get out this morning. If the Rover - if they're high again, then we'll have to probably park at least on some of the stops, if not all - with the up-Sun heading and dusting the battery covers and then opening them to let them cocl. But, again, that will depend upon what we find on the Rover batteries when we get out this morning.
+05 15 35 24|CC|There is a possibility that we'll have some additional overhead at each stop, depending on what the Rover battery temperatures are when you get out this morning. If the Rover - if they're high again, then we'll have to probably park at least on some of the stops, if not all - with the up-Sun heading and dusting the battery covers and then opening them to let them cocl. But, again, that will depend upon what we find on the Rover batteries when we get out this morning.
 05 15 35 53|CC|The variations that we found on the surface of the South Massif indicating a possibility of layering - I guess you saw those mostly with the monocular and the observation of boulder tracks and the size of the Massif emphasizes the importance of sampling boulders that can be traced to sources at various elevations of the Massif. And I guess we should say that's hopefully. And we'll just have to see what happens when we get down to station 2 on that. But, if we see boulders with tracks. I'm sure you guys remember that they obviously will have a higher priority. Since we didn't get to Emory, and since we didn't really get to the rim of Steno itself, the question of sampling of the actual subfloor is still somewhat ambiguous although there is a large consensus opinion that says that we sampled the subfloor when we sampled that intermediate Gabbro that we sampled yesterday at both the ALSEP and station 1. The - here is a possible alternative conclusion which says that the subfloor
 
 |||Tape 91A/11|Page 995
@@ -16377,7 +16378,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay, Robert. Thank you much. We'll see you on the other side.
 |CC|Okeydoke. And I'll try and get through to the -the homefront here, maybe for this next pass. And you are going to be pretty busy, but I'll give you a little update.
 05 16 45 49|CMP|Okay.
-05 1T 06 XX||BEGIN LUNAR REV 27
+05 17 06 00||BEGIN LUNAR REV 27
 05 17 33 16|CMP|... it as well as the - some of the more Eratosthenian craters around Saenger. Looks to me like you can still have a little bit of a hint - at least of the layering, or a broken-up different-colored material at the top of all these craters.
 |CMP|And supposed to stop and rewind the DSE. Forgot to do that.
 |CC|Roger, Ron. We'll take care of the DSE.
@@ -16392,7 +16393,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay, kind of a - Okay, go ahead.
 |CC|No, go ahead - go ahead with yours. We don't want to interrupt.
 |CMP|I was just going to say that on the crater Aitken, on the other side, is probably - there are no -no - rays - visible rays that I can see at the low Sun angle, anyhow, coming across there. There's definitely a mare floor in there. It's a dark albedo-type - flat floor with swirls in it; no definite expression of swirls. One thing that's quite apparent, you have a flow scarp in the northeast corner of it coming out of - oh, a little cloverleaf-type of an area there. I'm going to have to look the next pass over it to see if, on account of the south domical structure that's in there, it's breached. And I can't tell if the flow of material is flowing to the east out of that domical structure or if the flow is flowing into the domical structure. I ought to take a better look at that the next time - the next time around.
-05 1T 37 11|CC|Roger. We got you. See any lava marks on the crater rims, there?
+05 17 37 11|CC|Roger. We got you. See any lava marks on the crater rims, there?
 |CMP|Well, that's - that's the - the lava mark is what I'd call - is almost a lava scarp - in - up in the northeast corner. There are some lava marks along the central peak. They aren't nearly as apparent as the one up in the northeast corner. The northeast corner is definitely a flow front -a lava flow front, that has flown up the - the old interior wall of the crater.
 
 |||Tape 91B/T|Page 1011
@@ -16501,7 +16502,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-LM|Okay.
 |LMP-LM|Bat - battery management going.
 |CC|Roger.
-05 17 00 4U|LMP-LM|37-2, both batteries.
+05 17 00 44|LMP-LM|37-2, both batteries.
 |CC|Okay, Jack. Just like always.
 05 17 00 52|LMP-LM|P - PCM is HIGH.
 |CDR-LM|Is he ready for the batteries?
@@ -16609,19 +16610,19 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-LM|Okay. CABIN REPRESS, closed. SUIT FAJS DELTA-P, OPEN?
 05 17 32 09|LMP-LM|Delta-P is OPEN.
 |CDR-LM|SUIT FAN 2, OPEN?
-05 1T 32 12|LMP-LM|2 is OPEN.
+05 17 32 12|LMP-LM|2 is OPEN.
 |CDR-LM|Verify ECS CAUTION and 0£ - and WATER SEP lights come on in about a minute. Okay. We’ll watch for it.
 |LMP-LM|Okay.
 |CDR-LM|SUIT GAS DIVERTER, PULL, EGRESS. These are verify.
-05 1T 32 21|LMP-LM|Okay. That's EGRESS.
+05 17 32 21|LMP-LM|Okay. That's EGRESS.
 |CDR-LM|CABIN GAS RETURN, EGRESS?
-05 1T 32 25|LMP-LM|Okay. EGRESS, yes.
+05 17 32 25|LMP-LM|Okay. EGRESS, yes.
 |CDR-LM|SUIT CIRCUIT RELIEF, AUTO.
-05 1T 32 27|LMP-LM|AUTO.
-05 1T 32 28|CDR-LM|Okay. You're OPS connect. SUIT ISOL ACTUATE OVERRIDE, SUIT DISCONNECT. Disconnect your hoses. Secure about PGA. They're stowed.
-05 1T 32 35|LMP-LM|That's done.
+05 17 32 27|LMP-LM|AUTO.
+05 17 32 28|CDR-LM|Okay. You're OPS connect. SUIT ISOL ACTUATE OVERRIDE, SUIT DISCONNECT. Disconnect your hoses. Secure about PGA. They're stowed.
+05 17 32 35|LMP-LM|That's done.
 |CDR-LM|Connect your OPS hose PGA blue blue.
-05 1T 32 39|LMP-LM|OBS [sic] going to PGA, and I'll turn around and let you.
+05 17 32 39|LMP-LM|OBS [sic] going to PGA, and I'll turn around and let you.
 |CDR-LM|Okay. Make sure I get that, because it's under that connector.
 
 |||Tape 92A/8|Page 1025
@@ -17032,7 +17033,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|And Stu's mentioned if you hadn't earlier, that you might try the binoculars when you look at Copernicus for that dike you said - if you hadn't thought of it before.
 |CMP|Yes. I'm going to try that this time.
 05 18 42 54|CC|Okay. Good show.
-05 19 04 XX||BEGIN LUNAR REV 28
+05 19 04 00||BEGIN LUNAR REV 28
 
 |||Tape 93A/1|Page 1048
 05 17 55 50|CDR-LM|Well, let's see if I can partially get this hatch open.
@@ -18135,7 +18136,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay. I just passed Picard X; and then the one west of that. *** what it was. The next - about half the size of Picard X. Hey, does this go right through Picard? Or south of it?
 |CC|No, it goes right through dead center of Picard.
 |CMP|Okay. We!ll get it.
-05 19 4? 43|CMP|Sure hope that color difference shows up in - on Picard.
+05 19 47 43|CMP|Sure hope that color difference shows up in - on Picard.
 |CC|Roger. We hope so9 too.
 |CMP|There's black material - now - get on up here -you get on up here5 the darker tannish-gray material covers essentially from the east all the way around to the south. It goes outside the rim as well as inside the rim. It drapes over the rim. That can't be a shadow effect.
 
@@ -18399,7 +18400,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Hey, Ron. We just had a discussion here and your point is well taken, and why don't you just go ahead, if you want to, and take the ZPN sensors, the yellow plug ones, off and take them off for the evening, if you like.
 05 20 44 25|CMP|Hey, that sounds like an excellent idea. Thank you.
 05 20 45 09|CMP|Okay, we're 11 - out - picked nice small ones, I guess. None of them have been stuck so far.
-05 21 03 XX||BEGIN LUNAR REV 29
+05 21 03 00||BEGIN LUNAR REV 29
 
 |||Tape 94A/1|Page 1124
 05 19 30 34|CC|Okay, give me a range and bearing, please.
@@ -18574,7 +18575,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|Yes.
 |CDR-EVA|Find out how this climbs In a minute.
 |LMP-EVA|Oh, I think you're all right. That - -
-05 19 41* 47|CDR-EVA|And, Bob, I'm starting up the scarp at 08l, 6.6, and 5•7•
+05 19 44 47|CDR-EVA|And, Bob, I'm starting up the scarp at 08l, 6.6, and 5•7•
 |CC|Okay. Copy that, Geno.
 |LMP-EVA|This is the first tongue(?) of the scarp.
 |CDR-EVA|I don't even think the Rover knows it's going uphill. I've got about 3 - 7 or 8 amps. See what's on top here.
@@ -19145,7 +19146,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay. I copy that.
 |LMP-EVA|That's in bag 500.
 |CC|And, 17, if you want to take a minute, you might look up in the sky and notice that our camera is taking a beautiful picture of Mother Earth.
-05 20 1+0 10|CDR-EVA|Isn't that pretty over - Can you see the Massif, too?
+05 20 40 10|CDR-EVA|Isn't that pretty over - Can you see the Massif, too?
 |CC|Now we're coming down to look at the massif. Isn't that a beautiful picture of the Pacific there? Ed finally found It. Now we see the massif.
 |LMP-EVA|Okay.
 |CDR-EVA|And, Bob, I took an after picture of - of where Jack just got that soil sample under the rock from; and I'm on 60.
@@ -20601,7 +20602,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Johft told me to tell you to be sure and - that he's so glad you're there because he knows you worked so hard all these years to be there. He's really tickled. Jan said to send her love.
 |CMP|Hey, tell them I appreciate it very much.
 |CC|Roger. They're listening, and they're hanging on every word.
-05 23 01 XX||BEGIN LUNAR REV 30
+05 23 01 00||BEGIN LUNAR REV 30
 05 23 29 25|CC|America, Houston.
 |CMP|Okay, Houston', America. I'm with you now.
 |CC|Roger, Ron. Good show. We need the - we need ACCEPT, so we can give you state vector.
@@ -21712,10 +21713,10 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 06 00 02 18|CDR-EVA|By golly, your geology training did come in handy You learned where to hit rocks.
 
 |||Tapes 96B-100B/1|Page 1304
-06 01 00 XX||BEGIN LUNAR REV 31
-06 02 59 XX||BEGIN LUNAR REV 32
-06 04 57 XX||BEGIN LUNAR REV 33
-06 06 56 XX||BEGIN LUNAR REV 34
+06 01 00 00||BEGIN LUNAR REV 31
+06 02 59 00||BEGIN LUNAR REV 32
+06 04 57 00||BEGIN LUNAR REV 33
+06 06 56 00||BEGIN LUNAR REV 34
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 97A/1|Page 1305
@@ -22900,7 +22901,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-LM|I'm just standing here pushing that -
 |LMP-LM|...
 |CDR-LM|Hot breaker - When you get it.
-06 01 43 26.|CDR-LM|Hey, little Joe? Are you there?
+06 01 43 26|CDR-LM|Hey, little Joe? Are you there?
 |CC|17» this is Houston. And - -
 |CDR-LM|Little Joe, are you there?
 |CC|Roger. How do you read Houston? Over.
@@ -22928,7 +22929,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-LM|Okay, we’re getting that now.
 06 01 57 57|CDR-LM|Joe, CDR is reading 94 percent on the O2 charge.
 |CC|Thank you.
-06 02 04 4?|LMP-LM|Okay, Joe. LMP's OPS pressure is 6300.
+06 02 04 47|LMP-LM|Okay, Joe. LMP's OPS pressure is 6300.
 
 |||Tape 98k/9|Page 1367
 |CC|Thank you.
@@ -23043,7 +23044,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|All righty.
 |CDR-LM|Say again.
 |CC|That sounds good.
-06 03 1T 02|LMP-LM|Joe, I guess you giys are tired of looking at ny heart beat. So, I'm gonna turn the BIOMED off as I get out of my suit.
+06 03 17 02|LMP-LM|Joe, I guess you giys are tired of looking at ny heart beat. So, I'm gonna turn the BIOMED off as I get out of my suit.
 |CC|Okay, Jack.
 06 03 17 49|CDR-LM|Hey, Joe. This is Geno. How do you read me?
 |CC|Geno, you're 5 by.
@@ -23300,7 +23301,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 10IB/5|Page 1395
 |CC|Okay. They are going to take the antenna away from us, Ron. I'll have to finish this next time around. Spacecraft's looking good, we'll see you in about 45 minutes or so.
 06 08 30 32|CMP|Okay. Mighty fine Gordo. Thank you.
-06 08 55 XX||BEGIN LUNAR REV 35
+06 08 55 00||BEGIN LUNAR REV 35
 
 |||Tape 102B/1|Page 1396
 06 09 23 12|CMP|Houston, this is America. See you tried to come in there.
@@ -23487,7 +23488,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Ron, we've still got about 5 or 6 minutes until LOS, but in case we drop off on your maneuvering there - just want to tell you that everything's looking good. In fact, the IR is pumping out good data, so with that fantastic teamwork, we saved it back there, and we'll see you next time around.
 06 10 27 24|CMP|Hey, okay. Sounds good, there's little old Aldebaran in there. Saturn still must be out of the - There it goes into the -
 06 10 28 58|CMP|(Humming) got to align the old GDC here.
-06 10 53 XX||BEGIN LUNAR REV 36
+06 10 53 00||BEGIN LUNAR REV 36
 
 |||Tape 103B/1|Page 1411
 06 11 20 18|CMP|Aha! We have acquired on OMNI D.
@@ -23637,7 +23638,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 06 12 31 27|CMP|Okay. I'll get up all the hoses and stuff I put down here.
 |CC|Just about LOS, Ron. See you later.
 06 12 33 13|CMP|Okay, Gordo. Thank you much.
-06 12 52 XX||BEGIN LUNAR REV 37
+06 12 52 00||BEGIN LUNAR REV 37
 06 13 19 14|CMP|{Humming)
 06 13 19 22|CMP|Well, I've got AOS with you. Okay. ... HEATERs OFF. (Singing) ...
 |CC|Hello, America. Are you there?
@@ -23829,7 +23830,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Biat would be real fine, Ron.
 |CC|Okay. We've got the DSE running, Ron, as per the Flight Plan.
 06 14 31 33|CMP|Okay.
-06 14 50 XX||BEGIN LTJNAR REV 38
+06 14 50 00||BEGIN LTJNAR REV 38
 
 |||Tape 106A/1|Page 1435
 06 13 45 04||(Music: Texas Aggie Fight Song)
@@ -23902,7 +23903,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 ||block sampling at station 10 are still important objectives. Block pack constraints are not nearly as tight as they were yesterday, guys, and so we can be more flexible in reshuffling station times if we need. We probably won't be coming up against option walkbacks like we did at station 4. Closeout time at the LM has been increased by 20 minutes to make the closeout less rushed and to allow for potential ALSEP troubleshooting. It is currently planned to take this time from station 6, 7*"
 
 |||Tape 106B/1|Page 1442
-06 15 1T 28|CC|America, Houston. Don't want to interrupt your eat period, but just would like word from you on how the SIM bay configuration went. Did the UV cover come open? We're standing by on that Aerobee launch.
+06 15 17 28|CC|America, Houston. Don't want to interrupt your eat period, but just would like word from you on how the SIM bay configuration went. Did the UV cover come open? We're standing by on that Aerobee launch.
 |CMP|Affirm. UV COVER is OPEN. I think SIM bay's all squared away.
 |CC|Roger. Thank you.
 |CMP|Sunrise was - that's 1 seconds, I think - after we closed both covers (laughter). Good timing.
@@ -24057,7 +24058,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger. And the second one concerns the 1/4-pound charge which we deployed on the way in last night. Two questions on that. It appears to us from your voice transcript that we weren't fast enough on it at the time that that may be deployed closer to the ALSEP than the one you deployed on the way out. And we'd like an impression on that. And, number 2, you mentioned that you placed it in a depression. We'd like some feeling for that depression in terms of how much of a danger that bomb - charge might play to the AI£EP when i t i'oc-j off. If it's in a depression of any sort, thcy'ri' probably pretty well protecting the AL3KP. Any comment on those two questions? Over.
 
 |||Tape 107A/3|Page 1454
-06 14 50 47'.|CDR-LM|Well, the second one. It's not in a major depression. But it is a - maybe a - it's a little ditch, maybe a third of a meter deep. I imagine it will help a little bit. That's why we picked it. Just a second.
+06 14 50 47|CDR-LM|Well, the second one. It's not in a major depression. But it is a - maybe a - it's a little ditch, maybe a third of a meter deep. I imagine it will help a little bit. That's why we picked it. Just a second.
 |LMP-LM|I'm not sure we understand your first question very much.
 |CC|Okay. We have a feeling that when you - -
 |CDR-LM|Bob, don't you have the mileages?
@@ -24147,7 +24148,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 107B/1|Page 1460
 06 16 24 07|CC|Roger, Ron. We're probably going to lose you early here. You're looking good as you go around the horn. We went around the room, and everything's -all systems are GO. Just a reminder on this next back side that there is no recording so there will be no DSE recording of voice on this back side.
 06 16 24 28|CMP|Oh, okay. Thank you much.
-06 16 49 XX||BEGIN LUNAR REV 39
+06 16 49 00||BEGIN LUNAR REV 39
 |CMP|Well, let's see now.
 06 17 21 06|CC|America, Houston.
 |CC|America, Houston.
@@ -24220,12 +24221,12 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 06 17 44 51|CMP|Now, these Haemus Mountains have the same color tones, and what have you, as the - that field from Tacquet to - to Menelaus.
 
 |||Tape 10TB/6|Page 1465
-06 1T 45 40|CC|When you're a little bit past D-Caldera, you - on to - There's a line between the Sea of Vapors mare and the Apennine Mountains. That's where you change to f/2.8.
+06 17 45 40|CC|When you're a little bit past D-Caldera, you - on to - There's a line between the Sea of Vapors mare and the Apennine Mountains. That's where you change to f/2.8.
 |CMP|Okay. Yes, that is pretty good. We're going to hit D-Caldera, anyhow.
 |CMP|(Cough) There's a Cannon Rille, You know, there's a dark halo crater just to the west of D-Caldera. It's about 1200 meters or so in diameter, if my scale's right. It's about 1/4 of - 1/k of the size of D-Caldera.
-06 17 4T 43|CC|Okay, Ron. I don't show that on Bay map.
+06 17 47 43|CC|Okay, Ron. I don't show that on Bay map.
 |CMP|Okay. I think it might be on the picture there. I'm not sure. 1*11 have to get a better look at it before -
-06 1T 4T 5T|CC|Okay. And, as you cross this mare that you - just to the west of D-Caldera, you'll switch - as you get across, and up into the Apennines, you'll switch to f/2.8.
+06 17 47 57|CC|Okay. And, as you cross this mare that you - just to the west of D-Caldera, you'll switch - as you get across, and up into the Apennines, you'll switch to f/2.8.
 |CMP|Okay. Boy, that Cannon Rille's sure got something sticking up on the west side of it, there. They ought to take a look at that picture. Looks like a spire sticking up on the left side, because it creates a tremendous shadcw. And, it's a perfectly round - Suppose that could be a crater? (laughter).
 |CC|Roger.
 |CMP|Yes. Might be a crater. 2.8 at 1/250.
@@ -24625,7 +24626,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay, we'll watch it for a minute here and let you know.
 
 |||Tape 108A/20|Page 1486
-06 1T 01 22|CDR-EVA|Okay, Bob. I'm going down the ladder.
+06 17 01 22|CDR-EVA|Okay, Bob. I'm going down the ladder.
 |CC|Roger, Geno.
 |CDR-EVA|Yes, still there, Jack. "Godspeed the crew of Apollo IT."
 |LMP-LM|Good.
@@ -24635,7 +24636,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|And I'm very much interested - very much interested in my Rover battery.
 |CC|And, Jack, you're GO for exit and looks like we've got it taken care of.
 |LMP-LM|Okay, and I'm checking the circuit breakers.
-06 1T 02 40|CDR-EVA|It's chi and read - Bob, it reads 222, 262, 20T; 222, 262, 20T.
+06 17 02 40|CDR-EVA|It's chi and read - Bob, it reads 222, 262, 20T; 222, 262, 20T.
 |CC|Okay, I copy that, Geno.
 |LMP-LM|Okay, get the visor down, Geno.
 |CDR-EVA|Get the visor down - Holy Smoly. Think it'd be better to leave it up. Beautiful out here today, Bob. We can look to the east for a change - a little bit, anyway.
@@ -25092,7 +25093,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 108B/3|Page 1513
 |CC|Okay. See you around the other side. On the Flight Plan schedule now -
 06 18 24 01|CMP|(Chuckle) Okay.
-06 18 48 XX||BEGIN LUNAR REV 40
+06 18 48 00||BEGIN LUNAR REV 40
 06 19 13 32|CMP|..., I think.
 06 19 13 42|CC|America, Houston.
 06 19 13 46|CMP|Houston, America. Roger. Loud and clear.
@@ -25986,7 +25987,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Oop, oop, oop. Why'd that come off?
 |CDR-EVA|Well, because it's not locked. It's ... never was locked.
 |LMP-EVA|(Laughter) We lucked out.
-06 19 1T 10|CDR-EVA|Okay. We're moving. Sort of.
+06 19 17 10|CDR-EVA|Okay. We're moving. Sort of.
 |CC|And, before you get on, remember to close the battery covers if they -
 |CDR-EVA|Yes.
 |LMP-EVA|Your camera lens looks all right, Geno.
@@ -26021,7 +26022,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |||Tape 109A/49|Page 1564
 |LMP-EVA|Okay. I'll head down to that, ... that side hill over to those boulders right over there and then see if that's any change.
 |CDR-EVA|Okay. You might, if you get another sample - a large sample, you might grab it, and we'll throw it in the footpan here - and - and I'll see if I can't find a level spot to - -
-06 19 19 1U|LMP-EVA|I sort of ought to have my scoop, too.
+06 19 19 14|LMP-EVA|I sort of ought to have my scoop, too.
 |CDR-EVA|-- help you get on. No, don't take too much; just take that. That's all you need.
 |LMP-EVA|How about letting me have your hammer, then?
 |CC|Okay; and, IT, can you verify that the - that the gnomon is back in the Rover?
@@ -26066,7 +26067,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Okay.
 |CDR-EVA|I got to drop it in the pan here. Hold on to it, I think.
 |LMP-EVA|Couldn't help that one.
-06 19 2k 12|CDR-EVA|Yes. I think we can get some more level spots. I can dust this thing back there.
+06 19 24 12|CDR-EVA|Yes. I think we can get some more level spots. I can dust this thing back there.
 
 |||Tape 109B/1|Page 1567
 06 19 28 50|CMP|Oh, I hope we got a pan camera picture of that -what the - Condorcet [?] or ... or something like that, the one I was describing had a little bit of diamond down in it?
@@ -26250,7 +26251,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay. Good show. You're - you're saying that the two of them are distinctly different from - when you're viewing. One's impact and one is possibly volcanic ...
 |CMP|Yes. Right.
 06 20 23 20|CC|Good show.
-06 20 46 XX||BEGIN LUNAR REV 4l
+06 20 46 00||BEGIN LUNAR REV 4l
 
 |||Tape 110A/1|Page 1580
 06 19 24 10|LMP-EVA|Couldn't help that one.
@@ -26749,7 +26750,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Bob, the first block I looked at here looks like subfloor gabbro.
 |CC|Okay. We copy that.
 |CDR-EVA|Should have it, Bob.
-06 20 10 1T|CC|Okay. We've got a picture.
+06 20 10 17|CC|Okay. We've got a picture.
 |CDR-EVA|You even sound better. Battery covers are awful dirty, but I will not dust them as long as you're happy.
 |CC|Yes. I don't think dusting the battery covers gives us any cooler batteries.
 
@@ -27188,7 +27189,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|Yes. Not as well, but we're reading you.
 |CC|Okay. And the temperature limit, Jack, is 160. We'll just leave it as is until we get back to the LM.
 |LMP-EVA|Okay. I was going to say, we could take it out and put it under the seat or something, but that sounds all right.
-0 0N r0 0|CDR-EVA|Okay. An EMU status check. I'm at 388, and I got 48 percent, no flags, and I'm INTERMEDIATE cooling.
+06 20 52 51|CDR-EVA|Okay. An EMU status check. I'm at 388, and I got 48 percent, no flags, and I'm INTERMEDIATE cooling.
 |CC|Copy that.
 06 20 53 05|LMP-EVA|And the LMP - is at 47 percent, no flags, 3.86. Hey, Gene?
 |CDR-EVA|Yes.
@@ -27280,7 +27281,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 
 |||Tape 110B/3|Page 1633
 |CMP|Yes. I can't anymore. It was gone. I could only gee about - I don't know, 6 or 8 - maybe 8 feet of it sticking out there. Started to move and it's gone!
-06 21 2k 23|CC|Ron, we can see stall current now. Can you give ANTENNA 1, OFF?
+06 21 24 23|CC|Ron, we can see stall current now. Can you give ANTENNA 1, OFF?
 06 21 24 30|CMP|Okay; it's OFF.
 |CC|And you do not have a sight. Is that so?
 |CMP|It was ... compared to the other one.
@@ -28331,12 +28332,12 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-EVA|Yes. Vesicular subfloor. Vesicles are about a centimeter maximum size. Didn't look like they were - they look like they're fairly evenly sorted And the rock itself seemed to be massif.
 
 |||Tape 111A/45|Page 1689
-06 22 1T 08|CDR-EVA|250/1.4.
+06 22 17 08|CDR-EVA|250/1.4.
 |CC|250/1.4.
 |LMP-EVA|Okay, we're back into a - we're back into about a 5-percent rock cover as we cross the edge of the Sherlock block field.
 |CDR-EVA|That's Sherlock over that rim over there.
 |LMP-EVA|Yes. Yes, Once again, all these subfloor blocks look as if they're buried. Now - not mantle, necessarily, except maybe that one. Can you swing right, just a tad?
-06 22 1T 41|CDR-EVA|That one's got the mantle blowing up on it, in it - -
+06 22 17 41|CDR-EVA|That one's got the mantle blowing up on it, in it - -
 |LMP-EVA|Yes.
 |CDR-EVA|- - in it's fractures and everything.
 |LMP-EVA|That's the best example of that, I think.
@@ -28439,7 +28440,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CDR-EVA|Yes, this is the San Luis Rey, Luis complex, because see how elongated it is?
 |LMP-EVA|Yes. Yes.
 |CDR-EVA|Fact is, we're going to cut right through the western half here.
-06 22 2? 30|CDR-EVA|We're at 244/0.4.
+06 22 27 30|CDR-EVA|We're at 244/0.4.
 |CC|Copy that.
 |LMP-EVA|Bob, I may have said earl - early - early on up there at Van Serg that I saw subfloor, but we never did sample any that I know of. And the dust was thick enough that I'm just not sure. Breccias were the most obvious thing there.
 |CC|Okay. Most interesting.
@@ -28454,7 +28455,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 06 22 28 56|CC|And as soon as we get to the 0.1, let's stop and deploy the charge.
 
 |||Tape 111B/1|Page 1696
-06 22 45 XX||BEGIN LUNAR REV 42
+06 22 45 00||BEGIN LUNAR REV 42
 06 23 10 12|CC|America, Houston.
 |CC|America, Houston.
 |CC|America, Houston.
@@ -28802,7 +28803,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay. And while you're doing that - -
 |CDR-EVA|Yes . He can ... your - let me get this - -
 |CC|- - remember, I want inventories of the stuff as it comes off the Rover and where you put it over there by the footpad, so we can help you keep track of it.
-06 22 4? 47|LMP-EVA|Okay. I've got the - we've got the big bag, bag 7S bag bag 4 at the footpad.
+06 22 47 47|LMP-EVA|Okay. I've got the - we've got the big bag, bag 7S bag bag 4 at the footpad.
 |CC|Copy that. We've also got SCB-3 with the Rover samples in it on the Rover, if there - if you have any - yes, you have some of those today.
 |LMP-EVA|No, we - we emp - we emptied those into 5.
 
@@ -29462,7 +29463,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger.
 07 00 07 19|CMP|CABIN REPRESS valve - I haven't kicked them off. I think one of them was closed. Okay. TUNNEL VERT valve should still be off. Okay, it's OFF.
 |CMP|(Humming)
-0 ->1 0 0|CC|Hey, Ron. We hear an intervalometer going off every 20 seconds - -
+07 00 15 07|CC|Hey, Ron. We hear an intervalometer going off every 20 seconds - -
 |CMP|That right?
 |CC|- - It's timed out exactly right. Do you have the intervalometer running on something?
 07 00 15 17|CMP|(Laughter) No; I can't figure out what that is.
@@ -29479,7 +29480,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger. Understand. We went around the room, Ron. And everything is in great shape and you're -you're GO for sleep or whatever you want to do. We won't call you.
 07 00 16 18|CMP|(Laughter) Okay. Thank you much. We'll see you all in the morning then.
 07 00 16 24|CC|Roger
-07 00 43 XX||BEGIN LUNAR REV 43
+07 00 43 00||BEGIN LUNAR REV 43
 
 |||Tape 113A/1|Page 1754
 |CDR-EVA|Okay, tilting up at you.
@@ -29532,7 +29533,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-LM|Okay, I've got to get my hand over here. Okay, I'm out of your way.
 |CDR-LM|Okay. And -
 |LMP-LM|Close the hatch.
-07 00 01+ 46|CDR-LM|Hatch is closed. Let's see if I can lock it.
+07 00 04 46|CDR-LM|Hatch is closed. Let's see if I can lock it.
 |LMP-LM|Then we've got to turn our H2O off. Oh, we've got to turn our - let's turn our water off first, before you lock it.
 |CDR-LM|Well, it's locked now. Can you get your own water? If not, I'll get it - -
 |LMP-LM|Yes, I doubt It. Haven't been able to before.
@@ -29560,7 +29561,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-LM|Is your PRIM OFF?
 |CDR-LM|Yes. It's OFF.
 |LMP-LM|Okay.
-07 00 C6 19|CDR-LM|Okay. PLSS PRIM water closed. Pert hatch CLOSED and LOCKED. Okay, I've got to get the upper valve, Jack. Move in.
+07 00 06 19|CDR-LM|Okay. PLSS PRIM water closed. Pert hatch CLOSED and LOCKED. Okay, I've got to get the upper valve, Jack. Move in.
 |LMP-LM|Okay. How's that?
 |CDR-LM|Oh, that ought to do it.
 
@@ -30003,9 +30004,9 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Thank you.
 
 |||Tape 113B-116B/1|Page 1780
-07 02 42 XX||BEGIN LUNAR REV 44
-07 04 41 XX||BEGIN LUNAR REV 45
-07 06 39 XX||BEGIN LUNAR REV 46
+07 02 42 00||BEGIN LUNAR REV 44
+07 04 41 00||BEGIN LUNAR REV 45
+07 06 39 00||BEGIN LUNAR REV 46
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 114A/1|Page 1781
@@ -30097,7 +30098,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-LM|Ken, let me just say that I - My impression is that there was a lot more action in the rocks at station 6 than 2, I saw a lot more; a lot more was evident, the inclusions and, some of the patterns, some of the other things we saw.
 
 |||Tape 114A/6|Page 1786
-0? 02 52 08|CC|All right, sir. Let's go on to the second one, and it said: Do we understand that there were no breccias at station 8?
+07 02 52 08|CC|All right, sir. Let's go on to the second one, and it said: Do we understand that there were no breccias at station 8?
 |LMP-LM|? In the one - that parent orthopyroxene piagiociase rock - was a breccia in the sense it was fractured and was injected by dark glass. But it would be what we would call a mosaic breccia, in that respect, I think, and not the - Didn't see any station 6- or station 2-type breccias there at all. Other than the subfloor gabbro, that orthopyroxene piagiociase rock was the only major rock type I think we saw, unless we picked up some in the rake sample.
 |CC|Okay. Okay; the third one says: What are your impressions of the distribution of the - the familiar subfloor gabbros throughout the EVA-3 traverse?
 |LMP-LM|Well, I don't - I don't - I think we discussed that a little bit on the traverse - quite a bit, as a matter of fact. The impression I had was that most of the traverse on the plains, with the one exception of - of Van Serg Crater, were -    We were in box fields or fragment fields that were almost - well, were dominately subfloor. And visually from the Rover, I had no impression of any other significant rock type, with the exception of occasional blocks of the gray variety of the subfloor gabbro. And I don't know - Gene -    I don't know what Gene's impression was. He was driving a lot, but - pass it on.
@@ -30209,7 +30210,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay, stand by one and I'll check on that.
 07 04 14 13|CC|Okay, Jack, we can stick those things on "Che comm panel for now, and then tomorrow on page 7-l4, it's going to have you stow them in the LEVA bags but for the time being if you just stick those up on the panel, set them aside - you'll use them tomorrow.
 |LMP-LM|Okay, Ken got you. Yes, they're going to get the inside of the LEVA pretty dirty.
-07 04 1U 59|CC|Well, from what we've seen, Jack. I thir.k everything's going to be about the same color by the time you get through.
+07 04 14 59|CC|Well, from what we've seen, Jack. I thir.k everything's going to be about the same color by the time you get through.
 |LMP-LM|Okay, it didn’t bother your - your EVA, did it Ken, to have a little dust in your helmet?
 |CC|Wo, no - that's kind of nice to have.
 |LMP-LM|Hey, an experienced fellow like you might have a recommendation on how to get my visor up.
@@ -30264,7 +30265,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 117B/1|Page 1800
-07 08 38 XX||BEGIN LUNAR REV 47
+07 08 38 00||BEGIN LUNAR REV 47
 07 09 05 02|CC|Good morning, America. Rise and shine.
 07 09 06 13|CC|Hello, America, this is Houston. Over.
 07 09 06 31|CMP|Hey, Houston, this is the command module pilot on the United States spaceship, America. I'll be ready to go to work as soon as I can get untangled.
@@ -30444,8 +30445,8 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Let's see, I got that done - a.t 40, next thing we got coming up, huh? Okay, I'll go down there and get some of this stuff configured. Oh, I ate just about everything yesterday, and then some other things on there, and a bunch of extra stuff too, so when I get a chance, I'll call that down. Okay?
 |CC|Sounds fine,
 |CMP|Getting ready for this urine dump.
-07 10 06 2?|CC|And., Ron3 we're coming up on dump time and don't forget, we want to close the covers, and that kind of good stuff before »e start the dump.
-07 10 06 U0|CMP|Okay. UV cover is clo - Let's see - UV is OFF. IR is OFF.
+07 10 06 27|CC|And., Ron3 we're coming up on dump time and don't forget, we want to close the covers, and that kind of good stuff before »e start the dump.
+07 10 06 40|CMP|Okay. UV cover is clo - Let's see - UV is OFF. IR is OFF.
 |CMP|That's. Yes, I start on old fuel call purge here. Do this O2 fuel cell purge. Okay. Now let's see, waste -
 07 10 08 16|CMP|MARK it. The old waste water dump is on.
 |CC|Okay.
@@ -30460,11 +30461,11 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Want me to configure the DSE^ or are you going to set it up for me?
 |CC|Why don't you do that one?
 |CMP|Okay a
-07 10 1k 32|CC|And5 Ron, we? ve got about a minute and a half to LOS and I never did give you a summary of the EVA - just a few quick particulars. They got 7 plus 15 out of EVA-* 3- Got almost everything done, They had to delete station 10 in order to maiie up time s but that' s made up for by the fact that they found some more interesting things at other stops * And there was - I mentioned the dikelets., and there* s some indication that they may have seen a dike or something of that nature over on the I\jorth Massif, And Jack went out and applied all his - his physical skills to the lunar surface gravimeter and that included jumping ana kicking and pounding and it still doesn't work. Guess we'll get them up about 183:^5 and the only thing we1ve had to do on their Surface Checklist for launch day is just to scrub the P22 that was in there. ana we're Uiust goiing to drop that one to make up some time, And it looks like they ought to get aDout '8 iiours sleep out of it.- so ^ooas ..ike everybody is in good shape. And you2ve got just a few seconds to i_GS. Keep your eye on the waste water and we'll see you.,
-07 -0 15 51|CMP|Oood^ — tnann yca: Ken,
+07 10 14 32|CC|And5 Ron, we? ve got about a minute and a half to LOS and I never did give you a summary of the EVA - just a few quick particulars. They got 7 plus 15 out of EVA-* 3- Got almost everything done, They had to delete station 10 in order to maiie up time s but that' s made up for by the fact that they found some more interesting things at other stops * And there was - I mentioned the dikelets., and there* s some indication that they may have seen a dike or something of that nature over on the I\jorth Massif, And Jack went out and applied all his - his physical skills to the lunar surface gravimeter and that included jumping ana kicking and pounding and it still doesn't work. Guess we'll get them up about 183:^5 and the only thing we1ve had to do on their Surface Checklist for launch day is just to scrub the P22 that was in there. ana we're Uiust goiing to drop that one to make up some time, And it looks like they ought to get aDout '8 iiours sleep out of it.- so ^ooas ..ike everybody is in good shape. And you2ve got just a few seconds to i_GS. Keep your eye on the waste water and we'll see you.,
+07 10 15 51|CMP|Oood^ — tnann yca: Ken,
 
 |||Tape 118B/14|Page 1814
-07 10 36 XX||BEGIN LUNAR REV U8
+07 10 36 00||BEGIN LUNAR REV U8
 07 11 01 33|CMP|Ah ha! Looks like we're getting you already.
 |CC|Hello there. How's it going?
 |CMP|Okay. Just now calling the VERB 82. It's 67*4 by 62.8. Okay. Let me give you a little burn report here - -
@@ -30503,14 +30504,14 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Yes, Dr. Fletcher - mighty fine, sir.
 |NASA|We had hoped to catch you last night but you were behind the Moon when the ceremony was going on. Did you catch any of it at all?
 |CMP|Well, I - I got the briefing, or the report from it from the CAPCOM, but it sounds like it was a mighty fine ceremony and something that this nation can really be proud of.
-07 U 07 40|NASA|Well, Ron, there's one thing that the President wanted to make sure that you got. And I had hoped to do it last night. We've been in very close touch with the White House and the President has been following closely what - what's going on up there and, of course, it's absolutely fascinating to us down here. But he wanted to be sure that you 
+07 11 07 40|NASA|Well, Ron, there's one thing that the President wanted to make sure that you got. And I had hoped to do it last night. We've been in very close touch with the White House and the President has been following closely what - what's going on up there and, of course, it's absolutely fascinating to us down here. But he wanted to be sure that you 
 
 |||Tape 119B/2|Page 1817
 ||understood that he'd like to wish you Godspeed as you return to Earth. And I must say I'd like tc add that and also add that, from everything I've heard, this is a spectacular success.
 07 11 08 24|CMP|Thank you very much, there, Dr. Fletcher, and please convey my thinks to Mr. President. I appreciate that very much, and I - I also appreciate the opportunity to be able to do something for my country and I - hopefully, this is the one thing that I will be able to do. And I certainly appreciate it. Just the thoughts, themselves, really.
 07 11 08 49|NASA|Well, very, good, Ron. I'd just like to say that I - I've never - I've never had any idea whatsoever that things would go so well in the scientific part of the - of the orbital science. It's - it's almost unbelievable when I talk to the guys in the backroom, and I just wanted to nake sure that you knew that I knew it.
 |CMP|Yes, sir. We certainly do and they worked real hard to get the - these experiments and the equipment all squared away. I was following along with them pretty well and I had lot of confidence.
-07 U 09 29|NASA|Well, very good. Thanks kindly.
+07 11 09 29|NASA|Well, very good. Thanks kindly.
 |CMP|Yes, sir. Dr. Fletcher; appreciate it.
 |CC|And, Ron, how about the high gain?
 |CMP|Okay. Let me reset it here, I guess,.
@@ -30707,7 +30708,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Yes, I noticed that too. Yes, ycu can look down in the shadow of a - of a crater, where you got the Sun down there, but if you have more backlighting or something. You know, but you can - you can see that pretty good with the naked eye, anyhow. Earthshine, now, about all I can get out of the earthshine, really, are differences in albedo. And you can get some - textural - Well, not so much textural differences, but terrain bumps and humps, and flow fronts, and - see craters, you know?
 |CC|I wish I was there with you.
 07 12 15 30|CMP|I tell you, I had no idea how interesting and how much fun it would be. After the first day, and I finally got over the - I guess you could - I don't know. You'd call it the effects of adapting to zero g or something. But you're just a little bit woozy. You really don't fee], like doing a heck of a lot that first day up. So, it's good that the first day is kind of - -
-07 12 35 XX||BEGIN LUNAR REV 49
+07 12 35 00||BEGIN LUNAR REV 49
 
 |||Tape 120B/1|Page 1832
 07 13 00 22|CMP|Is that - jets are enabled, that C-l and C-2 for roll, OFF. Pitch and yaw are off. And, Houston, ready for PAN CAMERA to STANDBY and STEREO to POWER and all those good things whenever you are.
@@ -30758,7 +30759,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 07 13 11 55|CMP|Extra ones. Okay, that's all four of them. There, forgot to take that one off.
 |CC|Okay, Ron. When you can reach up, ve'd like HIGH GAIN, AUTO.
 |CMP|HIGH GAIK tc - where is it - AUTO.
-0? 13 14 47|CMP|Oops. Just about threw away my PRD,. {Chuckle). *** that, wouldn't we?
+07 13 14 47|CMP|Oops. Just about threw away my PRD,. {Chuckle). *** that, wouldn't we?
 07 13 19 31||Okay. Get all of that old food down in there.
 |CMP|Keep those, I guess. (Humming)
 
@@ -31015,9 +31016,9 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay.
 |CC|And have a good zodiacal light.
 07 14 13 24|CMP|(Laughter) Flip, flip, push-pull, click-click, around the corner, 3 seconds, one-half, one-fourth, skip one, skip two, skip five. Ought to be fun.
-07 14 34 XX||BEGIN LUNAR REV 50
+07 14 34 00||BEGIN LUNAR REV 50
 07 14 59 10|CMP|(Humming) Thin sponge, but I guess it'll work. (Humming) Okay, now - let's see what we need. Find a new spot that's not burned. The hair is starting to grow out again. Got to take this sticky stuff off before it'll stick. (Humming) Take them along. Okay, where did the other little thing go? Okay; 20. (Whistling)
-0'7 15 01 50|CC|MARK. T-2 time.
+07 15 01 50|CC|MARK. T-2 time.
 |CMP|Oh, okay. Coming up - 42 - No, it's 4l:50, I hope. Because I'm not there yet.
 |CC|T-2 is at 42:50; TCA is 44:30.
 |CMP|Oh, okay. It's on the old DAC here. Not seeing much. Maybe - 7 degrees. Okay, she's coming down now ... Ah ha! I see it. Yes, and it is pointing a long ways x'rom it. It's 5 degrees off. Well, r.ot that much; 3 maybe.
@@ -31380,7 +31381,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay, for the coelliptic, lift-off is later than ascent, so it is 188:04:14.00.
 |CC|Roger. Good readback and up in that block if you didn't copy it there, that CSM weight that I gave you before is 36032.
 |CMP|Yes, 36032. That's right.
-0? 15 49 13|CMP|Okay, I guess you need a P52.
+07 15 49 13|CMP|Okay, I guess you need a P52.
 |CMP|(Singing) ...
 07 15 52 36|CMP|Regulus ...
 |CC|Gave you an easy one, didn't ve?
@@ -31419,7 +31420,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay.
 |CC|Ron, just a reminder. Zero the optics when you can, please.
 07 16 03 47|CMP|Okay, thank you.
-07 10 32 XX||BEGIN LUHAR REV 51
+07 10 32 00||BEGIN LUHAR REV 51
 
 |||Tape 123A/1|Page 1877
 07 16 00 58|CC|Challenger, Houston. I'm standing by with a pad any time you're ready.
@@ -31552,7 +31553,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger.
 
 |||Tape 123A/8|Page 1884
-07 1T 09 35|CDR-LM|And, Houston, are you in relay now?
+07 17 09 35|CDR-LM|And, Houston, are you in relay now?
 07 17 09 40|CC|We had - we lost high gain on America, so we inhibited the down-link. We're not in relay, no.
 |CDR-LM|Okay.
 |CC|We're actually in a one-way relay. Ron should be able to hear you, but not vice versa.
@@ -31579,8 +31580,8 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger. And America, can you read Houston? Over.
 |CMP-CM|America. Roger. Loud and clear.
 |CC|Okay, Ron. You're loud and clear.
-07 1T 13 35|CDR-LM|Okay. We're standing by for 5- Houston, Challenger is GO for lift-off. We're at 7:54 and counting.
-07 1T 13 49|CC|Roger, Challenger. You're GO for lift-off.
+07 17 13 35|CDR-LM|Okay. We're standing by for 5- Houston, Challenger is GO for lift-off. We're at 7:54 and counting.
+07 17 13 49|CC|Roger, Challenger. You're GO for lift-off.
 |CDR-LM|Roger. Understand. Challenger is GO for lift-off.
 07 17 14 11|CC|Challenger, Houston. We think the transducer in tank 2 has shifted. We want you to monitor tank 1 for APS helium. Over.
 07 17 14 23|LMP-LM|Roger. We were looking at that, and we'll monitor 1.
@@ -31590,7 +31591,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |LMP-LM|Thank you.
 |CDR-LM|That's all right.
 |LMP-LM|Okay.
-07 1T 15 27|CDR-LM|Okay. Let's go over the APS burn card.
+07 17 15 27|CDR-LM|Okay. Let's go over the APS burn card.
 07 17 15 29|LMP-LM|Okay. My DISPLAY/ENGINE OVERRIDE LOGIC breaker is IN; circuit breakers STAB/CONTROL all CLOSED on panel 11, except AEA and DECA POWER.
 
 |||Tape 123A/10|Page 1886
@@ -31674,7 +31675,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |MS-LM|ABORT STAGE.
 
 |||Tape 124/2|Page 1891
-07 1T 21 30|CDR-LM|-- pushed. ENGINE ARM is ASCENT.
+07 17 21 30|CDR-LM|-- pushed. ENGINE ARM is ASCENT.
 |LMP-LM|Okay. I'm going to get the PRO; 99 PROCEEDED; 3, 2, 1 -
 07 17 21 39|LMP-LM|IGNITION.
 |CDR-LM|We're on our way, Houston.
@@ -32046,7 +32047,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Okay, we're about 2 minutes to LOS. All the solutions look good to us. I guess, if we apply the voting logic, we go with the PGNS. Over.
 |CDR-LM|Okay, we've already decided that we are going to go with the PGNS. All the solutions look good on our onboard comparison, Gordo.
 07 18 10 43|CC|Roger.
-07 18 31 XX||BEGIN LUNAR REV 52
+07 18 31 00||BEGIN LUNAR REV 52
 
 |||Tape 125/1|Page 1909
 07 18 56 09|CMP|Okay, Houston; America here.
@@ -32232,7 +32233,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay, Houston, can you see my logic: yet? Or you want to wait until the high gain? This is America.
 |CC|We can see it now, Ron. We can do it now.
 |CMP|Okay, LOGIC 1.
-07 19 1t 43|CMP|MARK it. LOGIC 2.
+07 19 16 43|CMP|MARK it. LOGIC 2.
 07 19 16 46|CMP|MARK it.
 |CC|Ron, you're GO for PYRO ARM.
 |CMP|Okay.
@@ -32539,7 +32540,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CMP|Okay. Let me know when you want it. ...
 |LMP|Not yet.
 07 20 09 38|CMP|Okay.
-07 20 30 XX||BEGIN LUNAR REV 53
+07 20 30 00||BEGIN LUNAR REV 53
 
 |||Tape 126/1|Page 1935
 07 20 54 48|CDR|Ron?
@@ -32884,11 +32885,11 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |SC|... one here.
 |CMP|Okay. There you go. Let me put the - ... connect on. Yes.
 07 22 01 09|CMP|Think we ought to put this thing on there.
-07 22 07 1|CC|Okay, America. You're about 2 minutes from LOS, and everything's looking fine right now.
+07 22 07 01|CC|Okay, America. You're about 2 minutes from LOS, and everything's looking fine right now.
 |CMP|Okay, it looks like the majority of the stuff is completed, so we should see you, ready to go, or. the other side.
 |CC|Okeydoke.
-07 22 29 XX||BEGIN LUNAR REV 54
-07 £2 53 03|CMP|Okay. DIRECT O2 is OFF. The other aay, mine went up to 45. No, it just goes that high; doesn't make any difference what you do.
+07 22 29 00||BEGIN LUNAR REV 54
+07 22 53 03|CMP|Okay. DIRECT O2 is OFF. The other day, mine went up to 45. No, it just goes that high; doesn't make any difference what you do.
 
 |||Tape 127/2|Page 1951
 |CDR|I am, too.
@@ -33190,7 +33191,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Copy that.
 |CMP|And that happens to be HF number 1.
 08 00 07 14|CMP|Yes - Oh, here's a little - The electrical covers? Oh, they're - each one of them is in your bag here. Yes.
-08 00 28 XX||BEGIN LUNAR REV 55
+08 00 28 00||BEGIN LUNAR REV 55
 08 00 51 45|CMP|Okay. There we are at OMNI Charlie.
 |CC|Roger. America, Houston, We read you loud and clear.
 |CMP|Okay. Houston, this is America. Okay, for your planning purposes there, - I got a little tied up and started the RECEIVE ONLY, TAPE RECORDER at 195 plus 24.
@@ -33273,7 +33274,7 @@ C\1 H 01 00|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure 
 |CC|Roger; new.
 
 |||Tape 129/4|Page 1973
-r~1 CM m 1|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
+08 01 32 14|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
 08 01 32 25|CMP|MARK it! EXTEND, barber pole, still.
 |CC|Ron, stop the antenna, please. My mistake.
 |CMP|What?
@@ -33291,7 +33292,7 @@ r~1 CM m 1|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
 |||Tape 129/5|Page 1974
 08 01 34 50|CMP|Okay, IR is going ON. SELF TEST is going to HEATERS. UV is ON.
 |CC|Okay, copy that. Okay, Ron. We see the talkback. You can go to OFF.
-0S 01 35 31|CMP|Hey, it did. Okay, it's OFF.
+08 01 35 31|CMP|Hey, it did. Okay, it's OFF.
 |CC|Okay, I guess we'll try and probably work that in some other time, now that we've got the antennas out. And, we'd like to go HIGH GAIN ANTENNA to AUTO and 2-1/2-degree deadband now that we're not doing the lunar sounder.
 |CMP|Okay.
 |CC|Okay, Ron, and did you get the HIGH GAIN in the 2-1/2-degree deadband?
@@ -33303,7 +33304,7 @@ r~1 CM m 1|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
 |CC|Okay, thank you.
 |CMP|Okay, I'm ready to copy the TEI.
 |CMP|Got it all dirty. Houston, America, I'm ready to copy the TEI pad.
-|CC|Okay, America; Houston. I'm ready to read the TEI pad if you're ready. It's an SPS/G&N, which is a surprise, I'm sure. And, it says: 3o54l; plus O.oO, plus 0.8l; 216:45:48.23; plus 2754.5 ?> minus 0146.9, minus 0009-0; 179, 103, 359- The rest of the pad is NA. GDC align stars are Sirius and Rigel. I guess they picked some bright ones for you for a change. We have alignments of 136 - -
+|CC|Okay, America; Houston. I'm ready to read the TEI pad if you're ready. It's an SPS/G&N, which is a surprise, I'm sure. And, it says: 3o54l; plus O.oO, plus 0.8l; 216:45:48.23; plus 2754.5, minus 0146.9, minus 0009-0; 179, 103, 359- The rest of the pad is NA. GDC align stars are Sirius and Rigel. I guess they picked some bright ones for you for a change. We have alignments of 136 - -
 
 |||Tape 129/6|Page 1975
 |CMP|Hey, they're good ones.
@@ -33336,7 +33337,7 @@ r~1 CM m 1|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
 |CC|America, Houston. Ron? Over.
 |CMP|Roger; go ahead.
 |CC|Okay, one, while I'm talking to you how about flipping up and turning H TANK 3 FAN, OFF? cl
-08 G1 53 03|CMP|Okay, TANK 3 is OFF.
+08 01 53 03|CMP|Okay, TANK 3 is OFF.
 |CC|Okay, and then, how about you three guys giving us - giving some consideration the next 2 or 3 minutes to the following proposal? One, we totally aborted that lunar sounder pass because: One, we couldn't get the HF antenna out; and, two, because the temperature in the film cassette was too low. Those things are both taken care of now, And they're talking down here about essentially starting over at 197 hours, which will be the top of the next page, and pretending that that's 195 hours and running through that 195-hour page, beginning
 
 |||Tape 129/8|Page 1977
@@ -33372,8 +33373,8 @@ r~1 CM m 1|CMP|Okay, 5,4- okay, countdown - 3, 2, 1 -
 08 02 02 49|CMP|H2 TANK 2 is going OFF.
 
 |||Tape 130/1|Page 1980
-08 02 27 XX||BEGIN LUNAR REV 56
-C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPERATE -
+08 02 27 00||BEGIN LUNAR REV 56
+08 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPERATE -
 08 02 51 53|CC|MARK.
 |CDR|Okay, 1 minute to LUNAR SOUNDER, OPERATE.
 08 02 52 00|CDR|MARK. This is your friendly commander, clean and happier5 back up.
@@ -33429,7 +33430,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|Okay, we'll get with you shortly.
 08 03 06 07|CC|And, America, did you fellows do ycur hydrogen purge on the back side?
 |CMP|That's affirm. Hydrogen purge, an O2 purge, and, would you believe we forgot to turn the purge line HEATER, OFF? ^
-08 G0 0d 21|CMP|OFF, now. Thank you (laughter), ... EECOM there.
+08 03 06 21|CMP|OFF, now. Thank you (laughter), ... EECOM there.
 
 |||Tape 13-/5|Page 1984
 |CC|Old EECOM was watching the currents there. He had you pinned down.
@@ -33461,7 +33462,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 08 03 41 15|CC|America, this is Houston. Over.
 |CMP|Go ahead.
 |CC|Okay, okay; I'm keeping track of you guys here or, the lunar sounder offtimes. It'll be just slightly less than 198:30, and I'll give you some hacks on that as we get down to it. And we're ready to go to Kg TANKS 1 and 2 to OFF, and TAFK 3 to AUTO.
-08 C3 42 03|LMP|Okay, Bob, that's got it. 1 and 2, OFF, and 3, AUTO.
+08 03 42 03|LMP|Okay, Bob, that's got it. 1 and 2, OFF, and 3, AUTO.
 |CC|Okay, and you can delete the - When you get tc your presleep checklist, you can then delete the cryo stirring.
 |LMP|Okay.
 
@@ -33528,16 +33529,16 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CDR|And before we fade out of sight, you might look at the biomed.
 |LMP|Whoops, I got one left.
 08 04 05 01|CC|We're in LOW BIT RATE. We can't see you right now.
-08 04 25 XX||BEGIN LUNAR REV 57
+08 04 25 00||BEGIN LUNAR REV 57
 
 |||Tapes 132-136/1|Page 1991
-08 06 24 XX||BEGIN LUNAR REV 58
-08 08 23 XX||BEGIN LUNAR REV 59
-08 10 22 XX||BEGIN LUNAR REV 60
+08 06 24 00||BEGIN LUNAR REV 58
+08 08 23 00||BEGIN LUNAR REV 59
+08 10 22 00||BEGIN LUNAR REV 60
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 137/1|Page 1992
-08 12 20 XX||BEGIN LUNAR REV 6l
+08 12 20 00||BEGIN LUNAR REV 6l
 08 12 57 10|CC|(Music*. The First Time Ever I Saw Your Face by Roberta Flack)
 08 12 02 32|CC|Good morning, America, from the Gold Team here.
 |CC|Good morning, America. The friendly Gold Team is standing by.
@@ -33560,7 +33561,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|No, that's - that's Neil's special. You’ve got Neil Hutchinson to blame on that one.
 |CC|I must say he had a lot of accomplices on that, too, so -
 |LMP|Yes, Bob, I think maybe that's one of the best songs that's come out in the last 10 years, if you ask me.
-08 13 06 1+5|CC|Roger.
+08 13 06 15|CC|Roger.
 |LMP|But then, you didn't ask.
 |CMP|Hey, Houston; America.
 |CC|Go ahead.
@@ -33645,7 +33646,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |||Tape 138/7|Page 2001
 ||streamer going out - oh, maybe 3 or 4 or 5 diameters -I'll have to get my directions straight. Well, I'll figure out which side of the ecliptic it was. That was not nearly so strong when I looked this time -now partly - that may be dark adaptation, I don't know, but I'll try to keep track of that one. But these two streamers today are about an equal strength and they're still visible as zodiacal light.
 |CC|Okay, Jack, we'd - quick break, we'd like the HIGH GAIN to AUTO and we'd like to get on with this Flight Plan update, please.
-08 13 1*4 12|LMP|Okay, you've got AUTO.
+08 13 44 12|LMP|Okay, you've got AUTO.
 |CC|Okay, and this is a real-time Flight Plan change. This real time rigiht here, and right now if you'll go MAPPING CAMERA COVER, OPEN, and MAPPING CAMERA, EXTEND, and give us a mark, we'll time the extend time on it, please.
 |CDR|Okay, Bob, the MAPPING CAMERA COVER - Ready?
 |CC|Jack, will you go back to REACQ on the HIGH GAIN?
@@ -33706,7 +33707,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 
 |||Tape 138/11|Page 2005
 08 13 59 02|CC|No, no, it's not that way.
-08 14 19 XX||BEGIN LUNAR REV 62
+08 14 19 00||BEGIN LUNAR REV 62
 
 |||Tape 139/1|Page 2006
 08 14 46 49|CMP|Okay, we've got you OMNI D. Somehow we got off attitude here -
@@ -34032,7 +34033,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 08 15 51 26|CMP|Okay, Image motion is coming OFF. Laser altimeter is coming OFF.
 |CC|America, Houston. You're looking real good here coming up to LOS, and we'll see you at 211:22. You're looking good.
 08 15 54 26|CMP|Okay. Will do.
-08 16 16 xx||BEGIN LUNAR REV 63
+08 16 18 00||BEGIN LUNAR REV 63
 
 |||Tape 140/1|Page 2027
 08 16 42 51|CMP|(Music) Hey, Houston; America here.
@@ -34204,15 +34205,15 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 08 17 48 52|CC|America, Houston. We're starting to get to the margin on signal strength to get the data back. We want you to improve that by turning ? S-Band MODE, - S-Band NORMAL MODE VOICE switch to OFF, center, for about 5 minutes.
 |LMP|Say again.
 |CC|Okay, Jack. We'd like you to turn the S-BAND NORMAL MODE VOICE switch to OFF, center, for about 5 minutes to improve our signal margin as you approach the termin - the LOS here.
-08 1? 49 32|LMP|Okay. OFF, center, for 5 minutes.
+08 17 49 32|LMP|Okay. OFF, center, for 5 minutes.
 08 17 54 09|CC|America, Houston. Don't bother to answer, but we'd like tank 2 FANS-0FF. That's hydrogen
 ||tank 2 FANS, OFF.
 |CC|America, Houston. We'd like OMNI Bravo. America, Houston. We'd like OMNI Bravo.
 |CC|America, Houston, you can turn the voice back on now. Have about a minute and a half to LOS for a final goodbye.
 |CMP|Okay. This is America with a goodbye for this pass.
 |CC|Okay. I guess the real reason for having you turn the voice switch off there is so the secretaries that are transcribing the air-to-ground here can catch up with Jack.
-03 1T 56 26|LMP|(Laughter) I don't believe it. Yes 3 I do. Oit^y. That's all you ever hear from me again.
-08 18 17 XX||BEGIN LUNAR RBV 64
+03 17 56 26|LMP|(Laughter) I don't believe it. Yes 3 I do. Oit^y. That's all you ever hear from me again.
+08 18 17 00||BEGIN LUNAR RBV 64
 08 18 42 06|CC|Yes.
 
 |||Tape l4l/2|Page 2042
@@ -34258,7 +34259,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|Roger. I - have got it.
 |CMP|And right about where it says rev 62. Okay?
 |CC|Okay; gotcha.
-08 1d 54 21|CMP|Now, there's two - there's two rings in that picture. Okay. The inner ring, the central portion of that thing, is lower and slopes outward, -radially outward - to the first ring. And then it drops off; in other words, it's a gradual slope, maybe - oh, somewhere in the 15 to 2C degree slope upward to the first ring. And then it's a steep slope on the outside of the ring, at about, - oh, 45 degrees, dropping down into the annulus.
+08 18 54 21|CMP|Now, there's two - there's two rings in that picture. Okay. The inner ring, the central portion of that thing, is lower and slopes outward, -radially outward - to the first ring. And then it drops off; in other words, it's a gradual slope, maybe - oh, somewhere in the 15 to 2C degree slope upward to the first ring. And then it's a steep slope on the outside of the ring, at about, - oh, 45 degrees, dropping down into the annulus.
 |CC|Okay.
 
 |||Tape l4l/6|Page 2046
@@ -34267,7 +34268,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|Okay, Jack.
 |LMP|It's getting to be a very consistent pattern when you start piecing several of them together.
 |CC|Roger.
-08 10 58 4y|LMP|That black streaking on the walls and the blankets, - Ron may have already told you, but it is characteristic of only the very freshest of those cone-shaped craters, - and - or pool craters, whichever you want to call them. And it seems to be very logical that it just represents a thin veneer on the rim and the walls of the impact-generated
+08 18 58 49|LMP|That black streaking on the walls and the blankets, - Ron may have already told you, but it is characteristic of only the very freshest of those cone-shaped craters, - and - or pool craters, whichever you want to call them. And it seems to be very logical that it just represents a thin veneer on the rim and the walls of the impact-generated
 
 |||Tape 141/7|Page 2047
 ||glass. And it's darkest, presumably, where it's quenched; and the pool itself is somewhat lighter gray than the black, streaks and mantles.
@@ -34295,7 +34296,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Thanks, Gordy.
 |CC|... now.
 |CMP|Okay.
-08 19 01 1+3|LMP|Sounder is OPERATE.
+08 19 01 13|LMP|Sounder is OPERATE.
 |CC|That was close.
 |CMP|(Laughter)
 |CDR|That was a very good call. Thank you.
@@ -34449,7 +34450,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 
 |||Tape 142/11|Page 2062
 08 19 54 40|CDR|Okay, Gordy. Tharik you very much, and we'll see you coming around.
-08 20 15 XX||BEGIN LUNAR REV 65
+08 20 15 00||BEGIN LUNAR REV 65
 08 20 41 02|CMP|Houston, America.
 |CC|Hello, America. Do you read Houston?
 |CMP|Houston, America.
@@ -34586,7 +34587,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Gordy.
 |CDR|Just a little bit on it. This one is -
 |CC|Go ahead.
-03 21 1c 03|LMP|This is Jack. My impression on that rimless, V-shaped depression that had the striking talus on it - that it - it also - there was a spotted,
+03 21 16 03|LMP|This is Jack. My impression on that rimless, V-shaped depression that had the striking talus on it - that it - it also - there was a spotted,
 
 |||Tape 143/9|Page 2072
 ||mottled rim area that has the orangish-tan, or orangish-gray color as the spot. And it looked as if the - in this first - in this pass, and I'll try to verify it if we have another opportunity, it looked as if the more red-gray, red-brown-gray, if you will, material was lower in the section within the walls of the depression. This is a very steep-walled depression, by the way. It has talus streaming down the sides of it, and the coloration streams in this same direction. It looks as if there may be layers or roughly horizontal zones that are - have the coloration that we're seeing, which are forming the talus slopes down below them.
@@ -34687,7 +34688,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CDR|See you Gordy, and thanks for keeping an eye on us.
 |CC|One last frantic reminder to configure the DSE per the Flight Plan after LOS.
 08 21 54 56|CDR|Okay, we'll get it.
-08 22 14 XX||BEGIN LUNAR REV 66
+08 22 14 00||BEGIN LUNAR REV 66
 
 |||Tape 144/1|Page 2079
 08 22 40 19|CMP|Houston, America. Looks like we're with you again.
@@ -34702,7 +34703,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|Okay, at 218:09, delete MAPPING CAMERA - RETRACT. At 218:30, delete MAPPING CAMERA/LASER ALTIMETER COVER - CLOSED. And at 219:59 - next page - in addition to IR and UV COVERs - OPEN, put in LASER ALTIMETER - ON.
 |LMP|Okay. At 219:59, LASER ALTIMETER - ON; and at 218:30, delete MAPPING CAMERA/LASER ALTIMETER -OPEN; and at 218:09, delete MAPPING CAMERA - RETRACT.
 |CC|Okay, that second one was deleting a COVER CLOSED, but I'm sure that's the one you got. MAPPING CAMERA/LASER ALTIMETER COVER - CLOSED. And that laser altimeter, we'll just leave her run through the sleep period.
-08 22 45 C3|LMP|Okay.
+08 22 45 03|LMP|Okay.
 |CMP|Can't see it, sorry.
 |CMP|May 'nave. Smythii may have, on the thing. I still want to talk a little bit about these polygonal craters ana Smythii. The one right above rev 62 picture on the thing, there's definitely kind of a, an unindated (sic) old depression there with a
 
@@ -34858,7 +34859,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CMP|(Laughter) Okay. Thank you. Will do. We'll go to REACQ.
 08 23 49 04|LMP|Houston, the IR/UV COVERs are CLOSED.
 08 23 49 05|CC|Okey-doke.
-09 00 12 XX||BEGIN LUNAR REV 67
+09 00 12 00||BEGIN LUNAR REV 67
 
 |||Tape 145/1|Page 2090
 09 00 37 47|CDR|Hello, Houston; America.
@@ -34906,7 +34907,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |||Tape 145/4|Page 2093
 |CC|You backed up, huh? That's another first, isn't it ?
 |CDR|No, I didn't back up that time. But I did back up.
-09 C0 44 54|CC|We heard that one at station 7 - yes, 7, wasn't it?
+09 00 44 54|CC|We heard that one at station 7 - yes, 7, wasn't it?
 |CDR|No, that was somewhere during EVA-2, I can't remember where.
 |CMP|Houston, fram numbers 40 through 43 are timed sequences of the waste water dump as we were in the sunlight.
 |CC|Okay. I copy that one.
@@ -34989,12 +34990,12 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CDR|Yes, sir. And if my homefront's listening, I just want to say good night and sleep tight.
 09 01 46 47|CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
 09 01 46 55|CC|It's a nice place to come home to, guys.
-09 02 11 XX||BEGIN LUNAR REV 68
+09 02 11 00||BEGIN LUNAR REV 68
 
 |||Tapes 147-150/1|Page 2100
-09 0U 09 XX||BEGIN LUNAR REV 69
-09 06 08 XX||BEGIN LUNAR REV 70
-09 08 07 XX||BEGIN LUNAR REV 71
+09 04 09 00||BEGIN LUNAR REV 69
+09 06 08 00||BEGIN LUNAR REV 70
+09 08 07 00||BEGIN LUNAR REV 71
 ||REST PERIOD - NO COMMUNICATIONS
 
 |||Tape 151/1|Page 2101
@@ -35034,7 +35035,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 ||Efi[D OF TAPE
 
 |||Tape 152/1|Page 2103
-09 10 06 XX||BEGIN LUNAR REV J2
+09 10 06 00||BEGIN LUNAR REV J2
 09 10 33 14|CC|America, Houston. Realize you're eating and don't want to interrupt you. but if you get your headsets on, we'll give you some news.
 |CMP|Sound great, Houston. We'd appreciate that.
 |CDR|Go ahead, Bob, we're listening to you-
@@ -35179,7 +35180,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CDR|What's at 231:11, Bob?
 |CC|That's your AGS time. It's a little bit later than what the Flight Plan shows.
 09 11 45 34|CDR|Okay, fine. Thank you.
-09 12 04 XX||BEGI5 LUKAR REV 73
+09 12 04 00||BEGI5 LUKAR REV 73
 09 12 31 31|CMP|Houston, this is America.
 |CC|Hello, America. You're a little scratchy down here. We'll pick you up there shortly.
 |CMP|Okay. We'll stand by until then.
@@ -35337,7 +35338,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |||Tape 154/7|Page 2128
 |CMP|Eey, Bob, what about us configuring high gain. We're getting close to T-start.
 09 13 45 25|CC|Roger. Go ahead.
-09 14 03 XX||BEGIN LUNAR REV 74
+09 14 03 00||BEGIN LUNAR REV 74
 
 |||Tape 155/1|Page 2129
 09 14 30 31|CC|Hello, America. Houston is standing by.
@@ -35360,9 +35361,9 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|Roger. Except for the NOUN 78s. We'll change those.
 |CMP|Oh, okay. Sounds good.
 |CMP|It's in the Volkswagen pocket. Okay.
-09 1^ 36 0p|CMP|I don't think we ever changed it though. Okay, the arrow's there, which indicates that ve didn't do it. Okay, LI0H canister change, 19 into A, take 17 and put it into A - A-4. That's correct.
-09 14 S'7 17|CMP|At 24, we want the pan camera.
-|LMP|Bob, while we're waiting for the pun e user a , a quickie here. One of the way a that i:een.u u> be useful for determining the relative acre of he larger basins, to rae anyway, is thf abur.aanee 0 block fields on the slopes of the walls or tue
+09 14 36 05|CMP|I don't think we ever changed it though. Okay, the arrow's there, which indicates that ve didn't do it. Okay, LI0H canister change, 19 into A, take 17 and put it into A - A-4. That's correct.
+09 14 37 17|CMP|At 24, we want the pan camera.
+|LMP|Bob, while we're waiting for the pun e user a , a quickie here. One of the ways that seems be useful for determining the relative age of he larger basins, to me anyway, is the abundance of block fields on the slopes of the walls or the
 
 |||Tape 155/3|Page 2131
 ||slopes of the central peaks. That abundance decreasing with increasing age, and one of the comparisons that I just made that it looks as if Tsiolkovsky and Sklodowska have about the same abundance of - of block fields on both those features of the crater.
@@ -35398,7 +35399,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 09 14 47 10|CC|Ron, if you'll give us ACCEPT, we'll give you your TEI REFSMMAT.
 09 14 47 17|CMP|Outstanding. You have ACCEPT.
 |LMP|And, while we are getting a TEI REFSMMAT, there's a fairly striking graben on the very north edge of Fecunditatis, south of Crisium - just south of Crisium. And it starts in the west within the Fecunditatis Mare and then curves gradually up through the Sculptured Hills structure to the north. And, there's a crater, looks like a subdued impact crater, right on that structure, and you can see the trace of the graben down the walls - the west wall of the crater and up the east wall. And it does - from directly overhead, it appears to taper downward. The walls of the graben, that is, get closer together as it approaches the bottom of the crater. And on the south wall of the graben, as exposed in the west wall of the crater, there's a fairly sharp -sharply defined white area in the talus.
-09 14 43 54|CC|America, the computer's yours; you can go to BLOCK.
+09 14 48 54|CC|America, the computer's yours; you can go to BLOCK.
 |CMP|Okay, we're in BLOCK.
 |LMP|With the old pan camera running, we probably can find that graben structure in there pretty well.
 |CMP|Yes, we ought to get some good pictures. It isn't quite as good that way, but you-do get some pictures anyhow.
@@ -35566,7 +35567,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CC|That's affirmative, Geno.
 |CDR|Okay, then we'll pull the 0g TANK 50 WATT HEATERS -
 ||three of them - yes, the 50-WATT HEATERS.
-09 15 40 1+1|CDR|Three of them OPEN and the 0 1 and 2 100-WATT HEATERS, CLOSED.
+09 15 40 41|CDR|Three of them OPEN and the 0 1 and 2 100-WATT HEATERS, CLOSED.
 |CC|America, Houston.
 |CDR|Okay, those heaters are taken care of, Houston.
 |CC|We see you going around the corner here and you're looking good as you go by us .
@@ -35588,8 +35589,8 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CMP|Okay, mighty fine. Commander's down there trying his luck, now.
 |CC|We're all watching. We just hope we see it before you go LOS.
 |CMP|(Laughter)
-09 -5 44 21|CDR|If you don't hear about it, if you miss it, don't worry - -
-09 16 02 XX||BEGIN LUNAR REV 75
+09 15 44 21|CDR|If you don't hear about it, if you miss it, don't worry - -
+09 16 02 00||BEGIN LUNAR REV 75
 
 |||Tape 156/1|Page 2146
 09 16 34 04|CC|Hello, America; Houston. Over.
@@ -35815,7 +35816,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Oh, yes. Why don't you get -
 |CMP|Yes. Can you get some of the swirls - -
 |LMP|Okay. Early in our orbit, and particularly Ron, he had the chance to work on the question of these light-colored swirls and Marginis has outstanding examples of them and I'll try to get the camera pointed on those in the northern part of Marginis. Let me orient you, as soon as we're focused here. Okay - Smythii - I'll point right at the center of Mare Smythii, and then move up towards Neper and then into the swirl area a little bit more north. And Gene will zoom you in and let you see what some of that looks like. I don't think we have a full answer at what the swirls are, but some of the things that we saw in Taurus-Littrow and later from orbit around Sulpicius Gallus may suggest to people, from now on, that the possibility of alteration from fluids in the interior of the Moon is more than just a possibility.
-09 1d 3^- 38||PiOger. That's a nice shot there of Marginis.
+09 18 34 38||PiOger. That's a nice shot there of Marginis.
 |LMP|Can you see the swirls, Gordy? Are the very diffused, light-colored areas that cross various topographic features?
 
 |||Tape 157/7|Page 2160
@@ -35846,7 +35847,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CMP|Yes, the center window, you could get it.
 |LMP|See the southern part of Fecunditatis, and then the Tranquillitatis takes off to the west there, Gene, right along that southern edge of Fecunditatis is where Apollo 11 set down.
 |CDR|Yes, and a little bit north of the line that - of the ray of those two craters.
-09 -8 30 47|LMP|Okay, Gordy, in the center of your picture is -about right in there, ~ is the southern edge of Tranquillity and the Apollo 11 area and that was the ground track, of course, for ApoI_o c and Apollo 10.
+09 18 38 47|LMP|Okay, Gordy, in the center of your picture is -about right in there, ~ is the southern edge of Tranquillity and the Apollo 11 area and that was the ground track, of course, for ApoI_o c and Apollo 10.
 
 |||Tape 157/9|Page 2162
 |CC|Roger.
@@ -36232,7 +36233,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Well, I guess, if you could figure out what It would - how far we have to move across the face of the Moon and how long that would take to get about a - oh, shoot, a 30 to 1 base-heighth ratio'd probably be enough - 20 to 1 would probably be better, obviously, but 30 to 1, you could still see the stereo. And you ought to be able to figure that problem out. How fast do - do the guys know how fast we're moving across the face of the Moon?
 
 |||Tape 159/6|Page 2187
-09 21 26 41'|CC|No, I'll put that one to FDO. Just looking at the big chart up here, I'm sure that the rate is slowing down rapidly, and - because you're - the farther you get away, of course, the straighter away from it you're going. Stand by, I'll see what we can do.
+09 21 26 41|CC|No, I'll put that one to FDO. Just looking at the big chart up here, I'm sure that the rate is slowing down rapidly, and - because you're - the farther you get away, of course, the straighter away from it you're going. Stand by, I'll see what we can do.
 09 21 44 55|CC|Jack, this is Houston with kind of a crude answer to your question.
 |LMP|Go ahead.
 |CC|Okay, it turns out right now that you're not moving across the lunar surface very fast, and you - it's getting less and less - right now, I guess it's about a mile per minute. It would take a lot of minutes to get much of a stereo base since you're 10,000 miles out. But, remembering back to Ron's final picture there before you went to the UV attitude, after he asked the question about how high he had to be to fill up the 80-millimeter lens, I think he took one at that time. We're thinking of combining a picture now with that picture, and then enlarging the one to get it to the equivalent diameter. And, some rough calculations of your longitude at that time and then - now, show that you've changed about 21 degrees across the surface of the Moon between that picture and the present time, which comes out, if you take the average altitude between that time and now to - to about a 25-to-l stereo base, as best I can figure.
@@ -36486,7 +36487,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 
 |||Tape 167/2|Page 2205
 10 09 05 32|CDR|Well, reel 2 would sure be a .., start when you consider all I've got is Ron and Jack.
-10 09 1T 49|CDR|Hello, Houston; America.
+10 09 17 49|CDR|Hello, Houston; America.
 |CC|Yes, sir.
 |CDR|Okay, Bob, before we exit PTC at 20 past the next hour, we'll have to get your final words on the midcourse.
 |CC|Well, ve're working up the midcourse right now, but let's give you some preliminary words, that you won't exit PTC at that time because midcourse 5 is not required - it's less than 0.3 foot per second. Right now your gamma - flight path angle, et cetera, at entry interface is all nominal, ana absolutely no midcourse 5 required at this time. And we'll be updating that as we refine the data.
@@ -36511,7 +36512,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |CDR|Okay.
 |CC|Just for your information, Ron gets the same treatment today that the two - you two surface walkers got. During the mission, channel 8 in Houston is going to carry the full spacewalk in its entirety on live television.
 10 09 26 01|CMP|Hey, Bob, I think that's outstanding. Thank you.
-10 C9 28 11|CC|America, Houston. I've got a Flight Plan update for you.
+10 09 28 11|CC|America, Houston. I've got a Flight Plan update for you.
 |LMP|Go ahead, Bob.
 |CC|Okay, first of all - at 252:20, where it says, "Exit G&K PTC at roll angle 071," change the high gain angles there to minus, a pitch of minus 64, yaw, 32 - 329.
 |LMP|Okay, we got those-
@@ -36531,7 +36532,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 10 09 40 01|CC|America, Houston.
 |CDR|Houston, America. Did you call?
 |CC|Roger. I called, but we're about ready to lose the high gain. I'll call you back as soon as we get back in.
-10 09 6k 47|CMP|Houston, America.
+10 09 44 47|CMP|Houston, America.
 |CC|Go ahead, Houston. Say it again - Go ahead, America.
 |CMP|(Laughter) Okay, we've got the commander 1 s rr.enu for yesterday.
 |CC|Roger. We're all listening.
@@ -36713,7 +36714,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Okay.
 |CDR|The cable; the TV.
 |LMP|Put the cable on first.
-10 11 1+4 U3|LMP|They should be okay, but ...
+10 11 44 43|LMP|They should be okay, but ...
 |LMP|It just hooks like that.
 |CMP|Got one?
 10 11 46 56|LMP|Got one.
@@ -36723,7 +36724,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |||Tape 168/9|Page 2221
 |CMP|Yes. We're still keeping TV and DAC cables and what have you up to the pole.
 |CC|Roger. We get you Ron.
-10 11 52 UU|LMP|... before we run out of those.
+10 11 52 44|LMP|... before we run out of those.
 |CC|America, Houston.
 |CMP|Yes, go ahead.
 |CC|Is Gene in the commander's seat at this time?
@@ -36777,7 +36778,7 @@ C8 02 51 49|CC|Hello, America. This is Houston. One minute to LUNAR SOUNDER, OPE
 |LMP|Think you can handle this GOG [?], Ron?
 |LMP|It certainly comes out easier, doesn't it? I mean like you're going to have to - ... that way - that's right, because this place is fuller than the mock-up ever was.
 |LMP|Yes, it's the old full spacecraft story. Well, look what turned up here; the clock. Maps. Well, they should be in R-5- Wait a minute. Yes. Okay.
-e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
+10 12 10 07|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |LMP|Closed and locked? Okay. Open the old - the EVA umbilical bag.
 |CMP|Open.
 |LMP|Unsnap the top strap and remove spacecraft end of EVA umb all the way to the second tiedown strap. And you're going to attach that to 603, but verify that the EVA STATION O2 is OFF. Attach the EVA umbilical to 603. Route over couch beam and under wires.
@@ -36796,7 +36797,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |LMP|Got that? SCU OPEN, bleed system, SCU CLOSED.
 |LMP|Okay. And you can close it if your system has bled down. Unstow press gage from EVA bag and connect the gage to 603. And tape the flashlight to panel 603 guard, Gene.
 |CDR|Okay.
-10 12 1k 37|LMP|And then we can - -
+10 12 14 37|LMP|And then we can - -
 |CDR|. .. gage?
 |LMP|Yes, install the gage, tape the flashlight, and then we get rid of the tape, yes. Got one?
 |LMP|Leave the tape on that so the light won't get out, Ron. (Laughter) Jerry Griffin told me that one.
@@ -36825,7 +36826,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |LMP|That's right.
 |LMP|Okay, where? ...
 |LMP|Put the - put them in the tan TSB. No, not yet. That's the - Yes, unstow the LMP LEVA and EV gloves. Put the gloves in the top pocket.
-10 12 2k 11|LMP|Oh, they're in the left-hand top pocket. We wiped those off quite a bit. They're not half bad now. I don't have any instructions.
+10 12 24 11|LMP|Oh, they're in the left-hand top pocket. We wiped those off quite a bit. They're not half bad now. I don't have any instructions.
 10 12 27 13|LMP|Okay. I think we can stick these under the couch.
 |LMP|Yes. Put your LEVA on the helmet. Okay, LEVA bags go up in the tunnel. Then we need to get the CDR's helmet out, too.
 |CDR|Houston, this is America. By my count, we're still about 30 or 40 minutes ahead here.
@@ -36850,7 +36851,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CC|Okay.
 10 12 37 22|LMP|And - let's see, continuing right here. SELF TEST is OFF, and the UV is OFF. And the DATA SYS - the ON, switch is to OFF, strange as that may sound. And - I can. Yes, I will. I'll stay on for a while, until Gene gets suited.
 |LMP|And the panel 5 INSTRUMENTATION SCIENCE EQUIPMENT SEB circuit breakers are coming OPEN. Two are open. Ron, you may want to watch that. Yes.
-10 12 38. 36|LMP|I already stowed mine in my temporary stowage bag. That's it ...
+10 12 38 36|LMP|I already stowed mine in my temporary stowage bag. That's it ...
 
 |||Tape 169/8|Page 2229
 |CC|America, Houston.
@@ -37214,7 +37215,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CDR|Still coming down?
 |CMP|Still coming down a little bit.
 |CDR|Okay.
-10 1k 25 52|CMP|0.55.
+10 14 25 52|CMP|0.55.
 
 |||Tape 170/16|Page 2248
 10 14 25 57|CMP|It's 0.5.
@@ -37587,7 +37588,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CMP|It is? Well, it looks dark out there. Can't even see.
 |CDR|Well, use your own judgment. If - if you're in the shade, you won't need it. But if you're in the Sun, you ought to have it down.
 |CMP|Okay.
-10 1U 55 44|CDR|Okay, Jack. I'm at 2.8 and coming up.
+10 14 55 44|CDR|Okay, Jack. I'm at 2.8 and coming up.
 |LMP|Okay.
 |CDR|Well, let's open her up a little more.
 10 14 56 31|CDR|Okay, the valve's all the way open. And I'm 3-5-
@@ -38500,7 +38501,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CMP|Okay.
 |CC|And you don't need to wait until roll of 14. You can go ahead and stop it right now. We'd prefer it that way, as a matter of fact. Over.
 |CDR|Okay.
-10 22 2k 51|CDR|Is that a CDU glitch there, Gordy? We - Huh? We sure did. Hello, Houston, you read America?
+10 22 24 51|CDR|Is that a CDU glitch there, Gordy? We - Huh? We sure did. Hello, Houston, you read America?
 |CC|Yes. I was just trying to get an answer for you. Yes, it looks, at first glance, like maybe we saw one. Stand by. I'll get a better update.
 |LMP|Gordy, why don't you give me the best OMNI?
 |CC|OMNI Delta is the best right at the moment.
@@ -38703,7 +38704,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CMP|Hey, are you reading me now, Houston?
 |CC|I read you loud and clear now, Ron.
 |CMP|Okay, I'm wearing the lightweight headset, now. On the comm carrier, there's a whole bunch of wires, about eight of them - looks like they're twisted pairs, you, know, twisted in fours really. They come up through the thing. And two of those eight wires are cut - are broken in two. The hot end, or the end that comes up from the plug going toward the headset - those two wires both come out individually and individually taped, each one of them. And then the whole group - you know, I bent them out of the way so they wouldn't be touching anything. So they wouldn't touch insulation or tape. I bent them out of the way and taped the whole side of it just to keep the rest of them from breaking in two, and it looks like a pretty good fix on the thing, really. However, if you have any concern about blowing the audio panel -I'll just go ahead and wear the lightweight headset.
-,11 01 25 22|CC|Okay, Ron. Yes, the concern here is not only which wires they are - the potential does exist if one of those shorts to ground to blow the audio panel or at least a circuit breaker, depending upon which wire it is. I gather that what you've done - is that you haven't wired the broken wires back together, but it's just sort of covered the bare leads and wired them out of the way. Is that right?
+11 01 25 22|CC|Okay, Ron. Yes, the concern here is not only which wires they are - the potential does exist if one of those shorts to ground to blow the audio panel or at least a circuit breaker, depending upon which wire it is. I gather that what you've done - is that you haven't wired the broken wires back together, but it's just sort of covered the bare leads and wired them out of the way. Is that right?
 
 |||Tape 177/4|Page 2340
 |CMP|Yes, that's correct. It was too close to the -there is a stiff piece of plastic that comes out of the headset itself, out of the bottom of the left earset, and it's broken off too close to the bottom of it there to - to strip the wires down and wire them together at all.
@@ -38974,7 +38975,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CC|Okay. From our pictures, and this may not really be the case, on the - above main display panel 3, where it says - where the handhold, the structure part of handhold, looks like there's some cracks and crevices right above - right around that handhold area that could, between the handhold and panel 6, that a pair of scissors could slip up into.
 |CMP|Okay. We're looking around there, and it doesn't look like they could - Well, they could possibly fit in there maybe. But, anyhow, we checked it, and they're not there.
 |CC|Okay. And then on the other side of the cockpit in the same area around handhold, back behind the -that crevice area back behind the COAS power panel, panel 15, and the handhold. And then also that little area in front of the handhold, where - the cutout for main display panel 2, you might look -take your light and look in there.
-11 11 1+9 06|CMP|Okay. I'm over there now.
+11 11 49 06|CMP|Okay. I'm over there now.
 11 11 50 51|CMP|Okay, Houston. No joy on that part either.
 |CC|Okay, Ron. The next couple are really down in the lower equipment bay area, and then I've got one area up in the tunnel - two areas up in the tunnel that are suspect areas, and then that does it. Which would you like first?
 
@@ -39122,7 +39123,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 11 14 15 02|CMP|Okay; it's 10 seconds, and the down light came on.
 11 14 15 31|CMP|Okay; it's 58.O in the range counter. Okay; TEST 4. She's counting down, and trace went down. Going straight along.
 11 14 15 56|CMP|MARK it. 10 seconds. 0.0. How about that? And it stops at the lower right-hand corner of the trace.
-11 1U 16 36|CMP|Okay; with TEST 5, trace went up, and 10 seconds later the upper light came ON.
+11 14 16 36|CMP|Okay; with TEST 5, trace went up, and 10 seconds later the upper light came ON.
 11 14 17 02|CMP|Okay. We'll go to RANGE SET here. ... cool down a little bit. And the trace moves on up to zero. It looks like it worked good, Houston.
 |CC|Roger. Sounds great.
 11 14 17 22|CMP|Okay; we'll go to STANDBY and OFF.
@@ -39200,12 +39201,12 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |CC|Roger, Gene. And then at 285:10, where we had you write in the "Antenna retract," we want you to delete that. The purpose of the maneuver above that is to heat up those antennas, and we will retract them on a cue from us when we feel the temperatures are warm enough.
 |CDR|Okay. What about the "RADAR, OFF" at that point?
 |CC|Delete "RADAR, OFF" also.
-11 1k 55 35|CDR|Okay. I've deleted the whole update at 285:10 I had.
+11 14 55 35|CDR|Okay. I've deleted the whole update at 285:10 I had.
 |CC|That's affirmative.
 |CDR|Bob, Jack's ready to take the pad.
 |CC|Okay. They just pointed out there's also VERB 48 at 285:10, which is not applicable either. And, Jack, I've got the MIDPAC area - say again. Let's do the midcourse 7 pad first. MCC7*
 |LMP|Go ahead.
-11 14 56 1?|CC|RCS/G&N; 26735- NOUN 48s are not applicable. 301:17:57-78; plus 0001.9, plus 0000.0, minus 0000.1. Roll is 082; pitch, 04l; yaw, 331. HA, not applicable. Plus 0022.9; plus 0001.9, 0:04, 0001.9* Sextant star is 31, 328.9, 34.4. Rest of the pad is not applicable. And in case I cut out and came off ray key too fast, back up there in NOUN 8l, that's a plus all zeros for Delta-V^. Set stars are Sirius and Rigel; 256, 152, 069. It's a four jet; plus-X. Assumes a PTC REFSMMAT. Over.
+11 14 56 17|CC|RCS/G&N; 26735- NOUN 48s are not applicable. 301:17:57-78; plus 0001.9, plus 0000.0, minus 0000.1. Roll is 082; pitch, 04l; yaw, 331. HA, not applicable. Plus 0022.9; plus 0001.9, 0:04, 0001.9* Sextant star is 31, 328.9, 34.4. Rest of the pad is not applicable. And in case I cut out and came off ray key too fast, back up there in NOUN 8l, that's a plus all zeros for Delta-Vy. Set stars are Sirius and Rigel; 256, 152, 069. It's a four jet; plus-X. Assumes a PTC REFSMMAT. Over.
 
 |||Tape 186/8|Page 2377
 |LMP|Okay, Bob. I assume that DELTA-was plus all zeros also.
@@ -39231,7 +39232,7 @@ e— 0 0 H|LMP|Secured? Yes. Okay. Close and lock your old marmon clamps.
 |LMP|Okay, Bob. Somehow I got more than seven, but I'll give you the ones I got. One: nonexit IMS pattern; 2: RET at 90K is 06:01; 3: mains are 08:06; 4: landing is 13:18; 5: Constant g is a roll right; 6: 304:16:13 is moonset; 7: assumes MCC7; 8: assumes entry REFSMMAT. And 9: GDC align is Sirius and Rigel; 273, 256, and 347.
 |CC|Roger. You've got a good readback there, Jack. The reason why is those times are all lumped into comment 2. However you want to do it there, fine.
 |LMP|Okay.
-U 15 06 46|CC|One correction here. RET main times - I thought you read to me 08:26. It is 08:26 is the time on RET mains.
+11 15 06 46|CC|One correction here. RET main times - I thought you read to me 08:26. It is 08:26 is the time on RET mains.
 
 |||Tape 186/10|Page 2379
 |LMP|Okay. I read 08:06.
@@ -39479,7 +39480,7 @@ U 15 06 46|CC|One correction here. RET main times - I thought you read to me 08:
 |CC|That's all right. Keep it. It doesn't matter; just keep working on 1 there. Keep it in RETRACT
 |LMP|Okay, it's in RETRACT - and stayed there.
 |CC|America, Houston. As you come up on roll of 30, we'd like you to - Okay, break, break - we would like the ANTENNA 1 switched to OFF now.
-11 19 1T 54|LMP|It is OFF.
+11 19 17 54|LMP|It is OFF.
 |CC|And we got a good retract. Okay, for the guy on the - -
 |LMP|Gordy?
 |CC|Go ahead.
@@ -39989,7 +39990,7 @@ U 15 06 46|CC|One correction here. RET main times - I thought you read to me 08:
 |CMP|Yes, that's right. It'll go out automatically within 30 seconds. Okay.
 |CDR|(Laughter) I wonder what we've got now. ...
 12 10 37 09|CMP|... 30 seconds, we'll go EMS to NORMAL.
-12 10 3T 24|CMP|DEAD BAND, TRANS CONTROL, AC DIRECTS, CMC, AUTO.
+12 10 37 24|CMP|DEAD BAND, TRANS CONTROL, AC DIRECTS, CMC, AUTO.
 12 10 37 28|CMP|Okay. There we go, 30 seconds. EMS to NORMAL.
 |CMP|Okay.
 |CMP|... Ten seconds to go, Jack. 2, 1 -
@@ -40328,8 +40329,8 @@ U 15 06 46|CC|One correction here. RET main times - I thought you read to me 08:
 |CDR|And we're coining up on 2 minutes from RRT, and we're going for it.
 |CC|Roger, America. You're looking great.
 |CMP|There's the horizon. Got the horizon, now.
-12 13 37 1T|CMP|... We're GO to CM.
-12 13 3T 26|CMP|Pressure's looking good. We got RATE COMMAND to go yet. And I'll get that? RATE 2 on the BMAGs.
+12 13 37 17|CMP|... We're GO to CM.
+12 13 37 26|CMP|Pressure's looking good. We got RATE COMMAND to go yet. And I'll get that? RATE 2 on the BMAGs.
 |CMP|Okay. You got a minute. 400,000 feet.
 
 |||Tape 201/15|Page 2457
