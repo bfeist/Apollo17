@@ -1,0 +1,114 @@
+﻿HOUSTON NEWS CENTER HOUSTON, TEXAS
+POST-LAUNCH CONFERENCE PARTICIPANTS :
+WALTER KAPRYAN, DIRECTOR OF LAUNCH OPERATIONS, KENNEDY SPACE CENTER PAO
+PC-12
+APOLLO 17 POST-LAUNCH CONFERENCE 12/7/72 00:37 CST PC 12 A/1
+PAO|We'll go ahead and start our post-launch
+conference at this time, Mr. Kapryan will give you a quick run down on the activities tonight. We do have to get him back to the firing room shortly, so I’m going to ask you to hold your questions.
+SPEAKER|Turn the sound up please.
+PAO|I'm going to ask you to hold your questions
+to a minimum if you can, we need to get Mr. Kapryan who's already had a long day, back to the firing room again. So we'll go ahead and get started. I’d like to introduce at this time the Director of Launch Operations at Kennedy Space Center and the Apollo 17 Launch Director, Walter Kapryan.
+KAPRYAN|Good morning, ladies and gentlemen. It's a
+real pleasure to be able to talk to you this morning even though it's somewhat belatedly. I guess I’ll run down a little on how the count down progressed until we ran into the problem that caused - that caused the real delay. Just as we were about to pick up the countdown, we did encounter a problem with the -with the multiplexer in the first stage, which I believe I reported to you at the press conference some time back. And as it turned out, with the multiplexer we did change it out and it did not hold up the pick up of the terminal countdown at all. Shortly after the countdown started, we noticed that one of the batteries in the S-IVB apparently appeared to have a greater than normal open circuit voltage decay. A period of about 11 hours that we've been tracking it we had about a drop of one volt in open circuit voltage. This is somewhat unusual in our experience. We were quite concerned about that for some time, however, through analysis and getting back with Eagle Pitcher, the battery vendor, and going over the modification that had been made for the battery since Apollo 16, this was determined to be a normal situation so that problem went away. We then encountered a minor problem with - with the second stage. A helium bottle had a fairly large decay as compared to decay that was - pressure decay that was noted during countdown demonstration tests. When we run decay check during countdown demonstration tests, it decayed at the rate of about 50 psi per minute. When we ran the decay in this count, it had gone up to 92 psi, and allowable decay was 100 psi so we were still within spec, but we were concerned over the fact that we had had a change and what would cause a change. We went back and ran another check and found that the leakage was on the order of 100 psi. We cycled the check valve and 2 valves, took another decay and the leakage had dropped to below 90 psi, so we felt we were in pretty good shape. So, we went ahead with the count on that basis. We did have a minor problem with the IU. In running one of our software programs, and we did have a problem software timing which we didn't understand at first. We ran some simulation on the breadboard and we were able to put that one to bed in about an hours time. So that, in summary, was about all that really happened to us until we went into our terminal countdown sequence. And I think you probably already know exactly
+- just what did happen. At T-minus 2 minutes and 47 seconds the
+-|APOLLO 17 POST-LAUNCH CONFERENCE 12/7/72 00:37 CST PC 12 A/2
+KAPRYAN|countdown sequence failed to output the
+proper command to pressurize the S-IVB LOX tank. The control-room monitors noted it and immediately took steps to perform that pressurization manually. This was done, and at the time that we had the cutoff, we were up to pressure and everything was normal. The problem was that since the TCS did output the command, the logic circuitry said that we really didn't complete all of the launch prep for the S-IVB stage, and we do have an interlock in our countdown circuitry that precludes the retracting of swing arm I which occurs at T-minus 30 seconds if this has not occured, and that is the reason for the cutoff. Now, it didn't take us very long to determine that we should bypass this command failure and go through the pressurization, manually, and go through the rest of the countdown, except we weren't completely certain that the final 30 seconds would all work properly. We did have a problem. How did we know that the last 30 seconds would work properly? How did we know that once we started igniting the 5 first-stage engines that perhaps we would get a cutoff on one of them, which we wanted to avoid at all costs. So that was the time consuming feature in the delay. We performed the operation of installing the jumper which we were able to do in the firing room. We have a preplanned design where we can go in with banana plugs and put in jumpers to jumper any point in the circuitry that we desire to without having to go out to the mobile launcher, and that is what we did. The same jumper was installed in the breadboard at Huntsville, and the sequence was run through several times on the bread board, and everytime we had a successful
+- a successful run. We knew that there was in this particular card where we had the problem, there was a sequence that occurred at T-minus 22 seconds, the guidance alert sequence. We weren't -that s actually a discreet event• We were a little concerned over that one. Our logic told us that we could lose that and it would not interrupt the sequence what-so-ever. We went back to the bread board in Huntsville to demonstrate that. We actually cut that command off and ran through the sequence again with the jumper and everything worked fine. We had every assurance that the failure we had was in no way connected with engine start circuit, which is the one that personally gave me the greatest concern. Once we were satisfied that we had no problem in that area, we picked up the count and went on our merry way.
+QUERY|Did you have a premature ignition? Did we
+see something - -
+KAPRYAN|No, what you saw was a perfectly normal
+occurence for the condition we were in. When we have a cutoff at T-minus 30 seconds, there's an awful of something going on a lot of hydrogen being vented into the burn pond and it flames up quite a bit. It was a perfectly normal occurrence for the condition we were in.
+QUERY|No squibs were ignited.
+KAPRYAN|That's correct. It's perfectly normal Doug.
+P AO|Down here.
+-|APOLLO 17 POST-LAUNCH CONFERENCE 12/7/72 00:37 CST PC 12A/3
+QUERY|A couple of questions, please. Do we know
+why at this time the sequencer did not automatically cut in the pressurization of the lox tank - the lox tank in the third stage.
+KAPRYAN|Well, we're not 100 percent positive but
+we are fairly certain that we know. It could be one of 2 things We could have had a couple of diodes fail, or we could have -in the circuit board, we could have some spread pins. We make them check that for the countdown demonstration tests where we pull the drawer, the TCS drawer and then we reinsert it. And, we have had a history over the past several years, with printed circuit cards of this nature, having problems with pins being spread and creating opens for us. Now we think that's what happened, but I can't tell you 100 percent at this moment that that is exactly what did happen.
+QUERY|(garbled) I don't understand what you said
+in reviewing the problem about the guidance alert, which is one of - one of several sequences that happen after T-minus 30 and why that was particularly worrysome, as far as getting a shutdown of an engine.
+KAPRYAN|It was the one remaining event that was -
+in the chain that was driven by the relay driver that was driving the relays that were in - that the one relay evidently failed. Not the relay, but the circuit that failed. There's one relay driver that drove 6 commands, and this T-minus 22 command was one command that since we shut off at T-minus 30 seconds we didn't get down to so we thought that perhaps we might not have that command and we wanted to make sure that by not having it we were still okay.
+PA.0|Okay, Bill, we're getting a mike to you, over
+here .
+QUERY|I don't that this is a question properly
+addressed to Walt Kapryan, but I would like to get an answer as soon as possible, on it we got - -
+END OF TAPE
+APOLLO 17 POST-LAUNCH CONFERENCE, 12/7/72, CST 0047, PC12B/1
+QUERY|This is a question properly addressed to Walt
+Kapryan, but I would like to get an answer as soon as possible on it.
+We got off two hours forty minutes late, when do we get back on the timeline and how do we do that?
+KAPRYAN|I can't tell you exactly when we get back to the
+timeline. We will arrive at the Moon at the same calendar time as though we had lifted off at 9:53. The TLI, - We will target the TLI and we will make the necessary corrections in the TLI burn to get us to the Moon at the same time that we would have gotten there, had we lifted off at 9:53.
+QUERY|Unaudible.
+KAPRYAN|Yes, I guess it varies a little bit. There are
+some variables, that when I left the firing room the last prediction was, that it was going to occur about 3:45 this morning. I think they were predicting 3 hours, 12 minutes, and 34 seconds after liftoff. I don't remember how that compares with the nominal.
+SPEAKER|Okay. Dwayne can you get Ed Pitts down here and
+then if we can get a mike over in this center column can one of the mike-handlers get the mike over to the center column?
+QUERY|I'd like to know what the astronauts did, or
+talked about or anything, that was going on as far as they were concerned during the delay.
+KAPRYAN|Well, of course, I was busy having sessions on
+resolving the problems. So, I personally did not talk to them, however, the capsule communicator and my launch operations manager Paul Don ally did talk to them, kept them up to date on the status of our evaluation and troubleshooting and they took it quite well, and just took advantage of the time to rest as much as they could.
+PAO|Okay. Stand by for just a second. We'll get
+this mike fixed.
+QUERY|Were you at any time giving serious consideration
+at all to letting the launch slip until tomorrow's window?
+KAPRYAN|Well, when you run into a problem, before you
+get it resolved, you always have that concern. When we were about an hour into the - an hour and fifeteen minutes into the troubleshooting, we knew that we would not be able to recycle for tomorrow.
+Or for today, rather. We never did get to the point where we gave up and say, it looks like we're going to have to quit. We knew we had quite a bit of time left, so we just worked the problem and didn’t think about scrubbing.
+QUERY|At that stage of T minus 30 seconds, did the
+astronauts go into any sort of emergency procedures in case they had to abort?
+KAPRYAN|They didn't do anything any different than they
+do for any, for any launch. The abort is an every present possibility even if everything is going nominally, so nothing was done differently this time, from any other launch.
+PAO|Okay, let's take one more question from Doug
+over here and then we'll go to Houston. We've got some questions out there. - -
+APOLLO 17 POST-LAUNCH PRESS CONFERENCE, 12/7/72, CST 00:47, PC-12B/2
+QUERY|3:45, is that E.S.T. or G.E.T.?
+KAP RYAN|It's E.S.T. Th e G.E.T. was predicted to be
+3 hours, 12 minutes, and 34 seconds after liftoff.
+PAO|Okay, do we have some questions now from Houston?
+P AO|Okay. You can go ahead.
+QUERY|(Inaudible) at. What the effect may be on the
+crew fatigue-wise, if this is going to cause them any problems, and what sleep periods may be changed. Have you got any handle on that?
+KAPRYAN|Well, I don't have any handle on it. First of
+all, it's not going to create any big problems. As I had indicated earlier, they took advantage of the delay to get some rest. Of course, I am sure there is bound to be some additional tenseness not knowing how the thing is going to turn out. And with respect to their rest cycles, I guess you will have to address that to the flight di re ct or.
+SPEAKER|Okay, let's come back here to Kennedy and we'll
+get just a couple more and then we're going to have to cut it off. Dewayne can you get this up here?
+SPEAKER|Dewayne, over here in the blue shirt, he's been
+waiting quite awhile,
+QUERY|Due to the fact that TLI will be changed,
+how would this effect the timing of the whole mission as a whole. Reference to the EVA's and the transearth insertion. Would this change anything in the timing or just the G.E.T, be picked up?
+KAPRYAN|It's not going to change anything. The EVA's
+and lunar activity will be exactly as scheduled. Now of course, the ground elapsed time when the spacecraft gets to the Moon is going to be different. But they're going to get there at the same time, that they would have gotten there, had we lifted off at 9:53. Now, I’m not certain how they're going to play that. If you recall, when we launched Apollo 14, we launched 40 minutes late. They of course made the TLI correction to get to the Moon at the right time. And in order to simplify using the flight plan, I think they updated their G.E.T. reference, so that they were using a ficticious G.E.T. reference that put them back on their flight plan.
+SPEAKER|Okay. We'll take just a couple more. Mary you
+come down here and then we'll go to Houston.
+QUERY|Kapy, did I understand you correctly - -
+SPEAKER|No we had no light on.
+QUERY|Did I understand you correctly, that if we hadn't
+gone tonight - -
+SPEAKER|Do you all have a problem with the line getting t o us ?
+SPEAKER|Well if we - If you're having a problem with the
+line getting|in to us.
+QUERY|That we couldn't have gone tomorrow.
+KAPRYAN|If we had scrubbed at the end of today's launch
+window, and had no problems other than nearly to go through the functions of recycling, we would miss the T minus 0 for tommorow by an hour and a half, which says that we would have a chance to salvage
+APOLLO 17 POST-LAUNCH PRESS CONFERENCE, 12/7/72, CST 0047, PC-12B/3
+KAPRYAN|part of the next day’s window. However, had
+we scrubbed and gone back in and taken equipment out and run checks and things of that nature, I don't think we could have launched for the next window. Not have made the next window.
+QUERY|I would also like to know, who made the sequencer?
+KAPRYAN|Pardon.
+QUERY|Who made the sequencer?
+KAPRYAN|Well, the ESE was designed by Marshall, and I
+believe GE did most of the design. And exactly who put the hardware together, I can’t tell you.
+SPEAKER|Jerry, right back here and then we’ll see if
+there's any news and then we’re going to call it quits.
+QUERY|Mr. Kapryan, how were the pulse rates at minus
+30 when they stopped it? Did they get a little excited?
+KAPRYAN|No. They were normal.
+SPEAKER|Okay. We'll give Houston one last chance to
+get through.
+SPEAKER|Okay, thank you very much, Mr. Kapryan.
+KAPRYAN|Thank you.
+END OF TAPE
