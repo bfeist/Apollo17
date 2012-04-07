@@ -15,6 +15,7 @@ readPageCounter = 1
 curRow = 0
 errorCount = 0
 newTimestamp = 0
+lastWasPAO = 0
 
 output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\OCR Output\A17_PAO_cleaned.csv"
 outputFile = open(output_file_name_and_path, "w")
@@ -36,6 +37,7 @@ for curFile in [ "A17_PAO.csv" ]:
 				pageTitle = "||" + row[1]
 				readPageCounter += 1
 				
+				#parse out mission elapsed time
 				cstTimeStr = row[1][row[1].index("CST") + 4:row[1].index("CST") + 10]
 				getTimeStr = row[1][row[1].index("GET") + 4:row[1].index("GET") + 10]
 				if getTimeStr.find("/") != -1 or getTimeStr.find("MC") != -1 or cstTimeStr.find("/") != -1 or cstTimeStr.find("MC") != -1:
@@ -51,6 +53,8 @@ for curFile in [ "A17_PAO.csv" ]:
 			else:
 				if any(row[0].startswith(curCallsign) for curCallsign in callsignList):
 					#print "-----------------------" + "Callsign Found.\n"
+					#if row[0].startswith("PAO"):
+					#lastWasPAO = 1
 					outputFile.write("\n")
 					if newTimestamp == 1 :
 						outputLine = pageTitle + "\n" #print the complete typed pages title
@@ -58,6 +62,9 @@ for curFile in [ "A17_PAO.csv" ]:
 						newTimestamp = 0
 					else :
 						outputLine = '|{0}|{1}'.format(row[0],row[1]) #print a regular line of dialog with callsign
+					#else:
+					#	lastWasPAO = 0
+						
 				else:
 					print str(curRow) + "-----------------------" + "Callsign Not Found. " + str(len(row)) + " " + str(row)
 					errorCount += 1
@@ -66,9 +73,10 @@ for curFile in [ "A17_PAO.csv" ]:
 				pass
 		else:
 			#--only one record, so it must be a continuation of the previous line
+			#if lastWasPAO == 1:
 			outputLine += ' ' + row[0]
+			#lastWasPAO = 0
 			#print str(curRow) + " concatted line: " + outputLine
-			pass
 		
 		#if readPageCounter % 60 == 0:
 		#	break
