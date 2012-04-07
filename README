@@ -1,4 +1,4 @@
-This is a project to digitize the Apollo 17 transcripts. I have started with the TEC (technical air to ground) transcript.
+This is a project to digitize the Apollo 17 transcripts. The works in progress are currently the TEC and PAO transcripts (the two largest).
 Read more about the project here https://groups.google.com/forum/?fromgroups#!topic/spacelog/H7D4UiLfhPo
 Feel free to contact me if you're interested in this project or the output.
 Ben Feist (bf@benfeist.com)
@@ -9,7 +9,10 @@ _Source_Images folder:
 
 The "Abbyy Image OCR" folder contains a project that can be opened using ABBYY FineReader 11 Pro. This is where the body of the conversion work is being done.
 
-The "OCR_Output" folder contains pipe-delimited CSV files that are direct outputs from FineReader.
-The file "A17_TEC_cleaned.csv" in the "OCR Output" is the output of cleancsv.py in the "MC Processing" folder. This script scrubs timestamps and other data to make a more workable CSV. This output is experimental.
+The "OCR_Output" folder contains pipe-delimited CSV files that are direct outputs from FineReader. These CSV files are quite dirty, as many as 100 pages were completely misread by finereader due to the typing being tilted in the scans. These pages will have to be manually reentered in a later transformation stage.
 
-The "MC_Output" folder contains the output from processpipe.py in the "MC Processing" folder. This "MC" output is a format that's usable by Spacelog.org.
+The "Processing_Scripts" folder contains Python scripts that were written to scrub the OCR CSV output. These scripts are changed often to assist with whatever portion of the cleaning process is currently being addressed. They perform tasks such as timestamp processing, checking of callsigns, merging dialog lines that are split across pages in the typewritten originals, etc.
+
+The primary results of this project are contained in the "Processing_Output" folder which contains post-processing CSV files that have been cleaned in a dynamic coding plus manual process.
+
+The "MC_Output" folder contains the output from scripts like makeTEC_MCFromRawCSV.py in the "Processing_Scripts" folder. This "MC" output is a format that's usable by Spacelog.org.
