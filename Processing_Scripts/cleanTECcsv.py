@@ -54,14 +54,14 @@ def scrub_callsign(callsign):
 pageCounter = 8
 curRow = 0
 
-output_file_name_and_path = "F:\ApolloGit\Apollo17WIP\OCR Output\A17_TEC_cleaned.csv"
+output_file_name_and_path = "F:\ApolloGit\Apollo17\Processing_Output\A17_TEC_cleaned.csv"
 outputFile = open(output_file_name_and_path, "w")
 
 callsignList = []
 lastTimestamp = 0
 
 for curFile in [ "A17_TEC_1-500.csv", "A17_TEC_501-1000.csv", "A17_TEC_1001-2460.csv" ]:
-	inputFilePath = "F:\ApolloGit\Apollo17WIP\OCR Output\\" + curFile
+	inputFilePath = "F:\ApolloGit\Apollo17\OCR_Output\\" + curFile
 	reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
 	for row in reader:
 		curRow += 1
