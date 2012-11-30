@@ -2275,7 +2275,7 @@
 |LMP|Okay.||
 |CC|And we will want to still check it prior to your sleep period.||
 |LMP|Okay.||
-00 23 15 07|LMP|Okay, Bob, a little update on the coast of Asia. It looks like some residual cloudiness would be affecting the Pusan region of Korea. And, also, that's residual after the frontal passage. And it looks like maybe Shanghai, after all, may have some storms associated with it, but it's really hard to pick out exactly - the exact coast line of Asia, but I - there are some clouds in the Yellow Sea behind the front, Look like they might be possibly some high cirrus is all.||
+00 23 16 07|LMP|Okay, Bob, a little update on the coast of Asia. It looks like some residual cloudiness would be affecting the Pusan region of Korea. And, also, that's residual after the frontal passage. And it looks like maybe Shanghai, after all, may have some storms associated with it, but it's really hard to pick out exactly - the exact coast line of Asia, but I - there are some clouds in the Yellow Sea behind the front, Look like they might be possibly some high cirrus is all.||
 |CC|Jack, do you still see that storm that you said was sitting between Guam and - Borneo in that area?||
 00 23 17 07|LMP|Okay. I see there is this cloud concentration between New Guinea and Guam. The more I look at it the less well developed it appears to me compared to some of the other circulation patterns. It could be just a residual depression from Teresa that has moved out into that area. It is an isolated, a relatively isolated cloud pattern, fairly small, but apparently fairly dense. But has - does not have a strong cyclonic pattern to it. Nothing at all like the pattern that now exists above Borneo and seems to be moving towards Luzon.||
 |CC|Roger. We copy.||
@@ -2381,7 +2381,7 @@
 |CC|Roger, Gene. We copy.||
 ||||
 |||Tape 19/1|Page 161
-01 00 12 11|CDR|Bob, I just hit the control stick. It's locked again in roll. I may have bumped it a little bit.||
+01 00 13 11|CDR|Bob, I just hit the control stick. It's locked again in roll. I may have bumped it a little bit.||
 |CC|Roger, Gene. We copy.||
 01 00 17 15|CDR|Houston, 17. Okay if we CLOSE the waste stowage vent now? Oh, okay. I'm sorry. It's CLOSED.||
 |CC|Roger, 17.||
@@ -2709,8 +2709,8 @@
 01 11 26 47|CMP|Okay, 50 18. PROCEED.||
 01 11 26 52|CMP|ENTER it.||
 01 11 26 57|CMP|Okay. Uncage BMAGs.||
-01 11 26 02|CMP|Okay. Let's try a gimbal test. Plus 2, minus 2, 0, plus 2, minus 2, 0.||
-01 11 26 22|CMP|Okay, she went to trim. 02:38 to go. Okay, we'll reach - SCALE was 5 what?||
+01 11 27 02|CMP|Okay. Let's try a gimbal test. Plus 2, minus 2, 0, plus 2, minus 2, 0.||
+01 11 27 22|CMP|Okay, she went to trim. 02:38 to go. Okay, we'll reach - SCALE was 5 what?||
 |SC|39||
 01 11 27 33|CMP|Okay. RATE to HIGH.||
 01 11 27 37|CMP|Okay, EMS NORMAL at 1 minute. Yes, we use bank A.||
@@ -3385,7 +3385,7 @@
 |CMP|No, the - the hook did not come back with the handle. The hook did not come back with the handle. Although, when I - when I pulled the handle back to - you know, which is - which is kind of a normally uncocked position - and then it wouldn't go any further, you know. It wouldn't go an further. And then the latch itself - or the hook - the J-hook; I'll call it the hook. I moved it off the docking ring back to this position that was about an inch or 1/2 inch from the docking ring. And it stays right there now. And I can't push it back up into the docking ring at all. Can't push the hook back up to the docking ring at all.||
 01 18 26 28|CC|Okay. We copy that.||
 |CC|Okay, Ron. Our plan here is to leave it like it is. And we're going to think about it tonight, and we'd like you to just keep pressing on. Just leave it alone, okay?||
-02 18 26 56|CMP|Okay. Sounds good. It'll clear the docking ring; no problem.||
+01 18 26 56|CMP|Okay. Sounds good. It'll clear the docking ring; no problem.||
 01 18 27 06|CDR|Houston, America. While Ron is putting in the probe and getting the hatch back in, I'm going to go ahead and maneuver. How does that sound?||
 01 18 27 19|CC|That's real fine, Gene.||
 01 18 29 17|CDR|Bob, are you all going to want OMNI or HIGH GAIN on this?||
@@ -3617,7 +3617,7 @@
 |CDR|I knew it was good for something. It couldn't be that good without being good for something.||
 |LMP|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.||
 01 20 17 46|CC|Roger. I understand. Real fine.||
-01 20 17 14|CMP|Houston, 17.||
+01 20 18 14|CMP|Houston, 17.||
 |CC|Go, 17; Houston.||
 |LMP|Okay. Got a little information on what we were talking about yesterday with respect to southern Pacific weather, if you've got nothing else going on.||
 |CC|Go; speak to me.||
@@ -3821,7 +3821,7 @@
 |CC|Okay. Frame 26 for 4 seconds - I mean for four frames.||
 01 22 08 15|CMP|Okay. That one cell I spoke of that was about three-quarters of an inch in diameter now is about an inch long and maybe three-quarters of an inch wide. Each - All of the cells seem to be bigger, in general. They're bigger this time. There is two small ones at about an eighth of an inch and -and along one side. The other one is a half-inch, a half-inch - oh, a quarter of an inch, a halfinch, and then a circular when you get around the outs - out - annulus of the cup. Then you start getting circular sides instead of straight sides. All of the flow comes from the little center spot and flows outward from the center toward the outside of the cells.||
 |CC|Okay. We - we copy that.||
-01 22 08 09|CMP|... all of the bubbles have disappeared, except two.||
+01 22 09 09|CMP|... all of the bubbles have disappeared, except two.||
 01 22 09 20|CC|Ron, is the smallest cell you see about an eighth of an inch across?||
 01 22 09 27|CMP|The smalles cell I see is a four-sided one; it looks like a diamond. And it's an eighth of an inch on one side, an eighth of an inch on the other side, and maybe 3/16 on the other two sides.||
 |CC|Okay. That sounds - that's a good description, Ron. I know on mine some of the smaller ones didn't show up in the - in the film, and we were not - not sure what size they are. So you might, before you quit, bracket the - the smalles or the biggest cells by your estimate of the size.||
@@ -3874,7 +3874,7 @@
 01 22 26 21|CMP|Still got the HIGH going.||
 01 22 27 42|CMP|I still have it in HIGH, and the pattern that's developing is almost Identical to the - what was happening in the LOW except it seems to be happening at a faster rate.||
 |CC|Okay. We copy that.||
-01 22 20 01|CMP|... triangle or a little diamond developed down there and then - and it disappeared. Only this time, it kind of joined with a different little cell, but it was the same cell next to it. I still have the big one. It's about an inch long -at 11 o'clock - as I had before. I still have a||
+01 22 28 01|CMP|... triangle or a little diamond developed down there and then - and it disappeared. Only this time, it kind of joined with a different little cell, but it was the same cell next to it. I still have the big one. It's about an inch long -at 11 o'clock - as I had before. I still have a||
 ||||
 |||Tape 33/9|Page 261
 ||finger that's developing about 12 o'clock, and another one about 2 o'clock. And they seem to be migrating again toward the bottom of the dish.||
@@ -4021,10 +4021,10 @@
 ||||
 |||Tape 33/19|Page 271
 |CC|Okay. EECOMs happy about that now, finally. And, Gene - the CD - your data looks good.||
-01 23 02 19|LMP|Okay. I never had a chance to tell you, Bob, but you - as you see - I presume - I - the LMP no longer has sensors on.||
+01 23 03 19|LMP|Okay. I never had a chance to tell you, Bob, but you - as you see - I presume - I - the LMP no longer has sensors on.||
 |CC|Roger. We confirm that.||
 |LMP|By the way, those were the - I guess you know -the sensors that we put on at the Cape. And they still seemed to be in good shape when I took them off. I figured I'd let things rest a while, and then I'll put them on again tomorrow.||
-01 23 02 55|CC|Roger. Looks like you've got eat period scheduled here for an hour, and then into the presleep checklist.||
+01 23 03 55|CC|Roger. Looks like you've got eat period scheduled here for an hour, and then into the presleep checklist.||
 |LMP|Whoopee! The old preslip [sic] checklist.||
 01 23 12 19|CC|Apollo 17, Houston.||
 |CDR|Go ahead, T.P.||
@@ -4395,7 +4395,7 @@
 02 11 49 52|CC|That helped it. Don't worry about it, until we call you again.||
 |CDR|... on that one, Gordy. You've always been one of those smooth talkers.||
 02 11 56 51|CMP|There's all - yes - they're down there somewhere.||
-02 11 54 53|CMP|Okay. The probe is out. And we'll try the drogue now.||
+02 11 56 53|CMP|Okay. The probe is out. And we'll try the drogue now.||
 |CC|Okay, Ron.||
 02 11 57 50|CDR|Okay, the - the drogue is out, and we're going up to take another look at Challenger.||
 ||||
@@ -6496,7 +6496,7 @@
 |LMP|Okay.||
 03 14 02 56|CDR|And, Gordy, I assure you we will be out at l6:40.||
 |CC|Very good.||
-03 14 54 00||BEGIN LUNAR REV 1||
+03 14 24 00||BEGIN LUNAR REV 1||
 03 14 36 58|CMP|Didn't ... me yet.||
 03 14 37 06|CMP|No, it's not in yet. Well, yes, it is. There's AOS limits right there.||
 |CMP|I think we just passed Hertz and -||
@@ -7259,7 +7259,7 @@
 |LMP|Okay. Go ahead.||
 |CC|TEI-19, SPS/G&N; 38023; plus 0.49, plus 0.86; the Tig time, 125:46:47.22; plus 2456.3, minus 1925.3, minus 0731-3; 186, 108, 325. Rest of the pad is not applicable. All the notes are the same as on the TEI-12 pad, except the longitude is minus 147.62. Over.||
 |LMP|Stand by 1.||
-03 20 58 20|LMP|Okay. Here's your readback. TEI-19, SPS/G&N; 38023; Plus 0.49, plus 0.86; 125:46:47.22; plus 2456.3, minus 1925.3; minus 0731.3; 186, 108, 325. Rest of pad is NA. And the remarks are the same for the TEI-12; that includes set stars. And the only change is the 3, which is the lunar longitude at Tig of a minus 147.62. Over.||
+03 20 38 20|LMP|Okay. Here's your readback. TEI-19, SPS/G&N; 38023; Plus 0.49, plus 0.86; 125:46:47.22; plus 2456.3, minus 1925.3; minus 0731.3; 186, 108, 325. Rest of pad is NA. And the remarks are the same for the TEI-12; that includes set stars. And the only change is the 3, which is the lunar longitude at Tig of a minus 147.62. Over.||
 |CC|That's a good readback Jack. I've got a LM DAP read-up here for you. They recommend this be copied on page 1 of the LM Data Card Book, Jack.||
 |LMP|Well, strangely enough, the LM Data Card Book's in the LM.||
 |CC|Yes, I figured as much.||
@@ -7267,9 +7267,9 @@
 |CC|Okay.||
 |LMP|Let me find the right page.||
 |CC|Roger.||
-03 20 59 45|CC|And, Jack, the computer's yours.||
+03 20 39 45|CC|And, Jack, the computer's yours.||
 |LMP|Okay.||
-03 21 00 56|LMP|Go ahead, Bob.,||
+03 20 40 56|LMP|Go ahead, Bob.,||
 |CC|Okay. LM DAP information: LM weight, 36714; CSM weight, 38078.||
 ||||
 |||Tape 63/2|Page 487
@@ -7769,7 +7769,7 @@
 |LMP|Okay. YAW minus ... 2.||
 |CDR|Yaw is good.||
 |CDR|Do you know where our scissors - -||
-04 10 12 31|LMP|Okay, Houston. How do you read?||
+04 10 10 31|LMP|Okay, Houston. How do you read?||
 |CC|Okay. You're loud and clear, Jack.||
 |LMP|Yes, they're in the - -||
 |CDR|Okay. Okay.||
@@ -7787,17 +7787,17 @@
 |CC|Okay. You sound good.||
 ||||
 |||Tape 71A/8|Page 519
-04 10 14 05|LMP|Okay, Houston. I can hear the antenna rumbling up there, but - I still have not peaked. Still reading 3.7*||
+04 10 10 32|LMP|Okay, Houston. I can hear the antenna rumbling up there, but - I still have not peaked. Still reading 3.7*||
 |CC|Okay. You're loud and clear, Jack. It looks like a good lock to us.||
 |LMP|Okay. We'll leave it - Okay. I'll leave it there, and I'm going BIOMED RIGHT.||
 |CC|Roger.||
-04 10 14 35|LMP|Okay. SQUELCH is OFF. How do you read?||
+04 10 10 33|LMP|Okay. SQUELCH is OFF. How do you read?||
 ||||
 |||Tape 71B/1|Page 520
-04 10 07 57|CC|Hello, America; Houston. Standing by.||
+04 10 10 34|CC|Hello, America; Houston. Standing by.||
 |CC|America, Houston. Standing by.||
 |CC|America, America; Houston. Standing by.||
-04 10 09 08|CMP|Hey, Houston; America. Man, you wouldn't believe it. I finally got my suit on.||
+04 10 10 35|CMP|Hey, Houston; America. Man, you wouldn't believe it. I finally got my suit on.||
 |CC|Nothing to make you feel good like a new suit of clothes.||
 |CMP|Okay. Let me give you some P52 stuff here.||
 |CC|Okay; shoot.||
@@ -8060,14 +8060,14 @@
 |||Tape 71B/15|Page 534
 |CC|Yes, sir. Looking good.||
 04 11 11 04|CMP|Okay, here's number 8. Here's one, two. And the chute's fully released, and the hook is off the docking ring.||
-04 11 11 22|CMP|Okay, here's number 9* One, two, and she's fully released; the hook clears the docking ring. Okay, number 10. Here's one, two - fully released, and the hook clears the docking ring. There's one ... Okay, handle's free; J-hook clears the ring. I've only got one more to go. There's the first latch there's two latches ... came over. And the hook stays clear; the handle is free. And, by golly, they're all off. Hey, Challenger; America. You're hanging on those three little bitty things. Okay. I put the old - hatch in.||
+04 11 11 22|CMP|Okay, here's number 9. One, two, and she's fully released; the hook clears the docking ring. Okay, number 10. Here's one, two - fully released, and the hook clears the docking ring. There's one ... Okay, handle's free; J-hook clears the ring. I've only got one more to go. There's the first latch there's two latches ... came over. And the hook stays clear; the handle is free. And, by golly, they're all off. Hey, Challenger; America. You're hanging on those three little bitty things. Okay. I put the old - hatch in.||
 04 11 12 49|CC|Okay, Ron, we're within a minute of LOS. Your O2 flow still looks good, and the rest of the stuff that you can get on the VHF is going to be just fine. You're right on schedule now.||
 |CMP|Okay. I'11 get that VHF stuff and then put the hatch in.||
 |CMP|Okay, we're in RECEIVE ONLY to B DATA. Hey, Challenger; America. I'm going to RECEIVE ONLY the B DATA.||
 04 11 13 37|CMP|Hey, Challenger; America.||
 ||||
 |||Tape 72A/1|Page 535
-04 10 14 40|CC|Still loud and clear.||
+04 11 14 40|CC|Still loud and clear.||
 04 10 14 46|LMP|Roger. Okay ...||
 04 10 15 10|LMP|Hello, Houston. I'm ready to give you an E-memory dump.||
 |CC|Okay. We're ready to take it. Go ahead.||
@@ -8208,10 +8208,10 @@
 |CC|That's affirmative; panel 16, GLYCOL PUMP SECONDARY breaker - third row, in the middle.||
 ||||
 |||Tape 72A/8|Page 542
-04 10 42 20|LMP|Okay. We've got a GLYCOL light, and the temperature is 50.||
+04 10 41 20|LMP|Okay. We've got a GLYCOL light, and the temperature is 50.||
 |CC|Okay. The pressure looked good there. We'd like that breaker back open. The MASTER ALARM you have is normal.||
 |LMP|Roger. Understand it.||
-04 10 46 48|CDR|Ron, keep in MIN DEADBAND ATT hold. I've got to finish the P52.||
+04 10 41 48|CDR|Ron, keep in MIN DEADBAND ATT hold. I've got to finish the P52.||
 |CDR|No, just stay where you are.||
 |CDR|Just stay where you are, and put it in MIN DEADBAND.||
 04 10 42 11|CDR|No! N-0, no.||
@@ -8286,11 +8286,11 @@
 04 11 31 00||BEGIN LUNAR REV 12||
 ||||
 |||Tape 72B/1|Page 546
-04 11 02 31|CMP|Okay. Challenger, America.||
+04 11 31 02|CMP|Okay. Challenger, America.||
 |CC|America, Houston; standing by.||
 |CMP|Okay, Houston. This is America. We're floating free out here. The Challenger looks real pretty. The residuals on the P4l were plus 1.9* minus 0.2, and 0. Undock and sep was on time.||
 |CC|Sounds good.||
-04 11 31 00||BEGIN LUNAR REV 12||
+04 11 32 00||BEGIN LUNAR REV 12||
 04 12 06 32|CC|America, Houston. When you have an opportunity, how about cycling the HIGH GAIN to WIDE and back to REACQ?||
 |CMP|Okay. Can do.||
 |CC|Thank you, sir.||
@@ -8560,7 +8560,7 @@
 04 12 53 07|CC|Okay.||
 ||||
 |||Tape 73B/1|Page 562
-04 12 56 28|CMP|"Hey, Challenger; America. Are you still with me? Okay; I got something like, ""yes."""||
+04 12 56 28|CMP|Hey, Challenger; America. Are you still with me? Okay; I got something like, "yes."||
 |CMP|Okay, I just wanted to make sure on the voice check if we still have the VHP problem.||
 04 12 57 25|CMP|Okay; loud and clear OMNI, Jack.||
 |CMP|Challenger, America. Read you loud and clear OMNI.||
@@ -8853,7 +8853,7 @@
 |CDR-LM|Okay.||
 ||||
 |||Tape 74A/12|Page 577
-04 04 16 10|LMP-LM|Okay, Houston. We went over the hump. DELTA-H just jumped.||
+04 14 16 10|LMP-LM|Okay, Houston. We went over the hump. DELTA-H just jumped.||
 |CC|Roger.||
 |LMP-LM|And looks like it's back down.||
 |CC|Roger. Sounds good.||
@@ -9657,7 +9657,7 @@
 |CC|Copy that.||
 |CDR-LM|And the physical status of the crew is excellent, by the way.||
 |CC|Beautiful, The Surgeon's happy.||
-04 16 51 35|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.||
+04 16 53 35|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.||
 |CC|Okay. We'd like you to have DEMAND REGs, both of them, go to EGRESS, please.||
 04 16 54 49|CDR-LM|Yes, sir. Okay, they're EGRESS now.||
 |CC|Okay, thank you.||
@@ -10431,7 +10431,7 @@
 |||Tape 77A/27|Page 666
 |CDR-LM|Oh, the bottom of the PLSS, huh?||
 |LMP-LM|Yes.||
-04 18 07 46|CDR-LM|Okay. Well, my legs are out. Keep that hatch open.||
+04 18 27 46|CDR-LM|Okay. Well, my legs are out. Keep that hatch open.||
 |LMP-LM|Can you squat down any further, because you're hooked on - you're making it worse. Okay,||
 |CDR-LM|How's that?||
 |LMP-LM|Okay. Now, I think I - Be careful because you might hook it on something down there.||
@@ -11037,7 +11037,7 @@
 |CDR-EVA|It's warm out here, you know?||
 |LMP-EVA|I'm certainly glad I got cool.||
 |CDR-EVA|Okay, the TCU is locked in.||
-04 09 19 34|LMP-EVA|Houston, I've seen an awful lot of rocks, as I worked here. They look just like those pyroxene gabbros that I mentioned. The pyroxene's irri-descent in the bright sun. The grain size is about - oh, between - Maybe the mean is 2 millimeters with max maybe up at 3 or 4. And it looks like predominantly a pyroxene plagioclase rock -clinopyroxene, but I haven't looked at it real closely.||
+04 19 19 34|LMP-EVA|Houston, I've seen an awful lot of rocks, as I worked here. They look just like those pyroxene gabbros that I mentioned. The pyroxene's irri-descent in the bright sun. The grain size is about - oh, between - Maybe the mean is 2 millimeters with max maybe up at 3 or 4. And it looks like predominantly a pyroxene plagioclase rock -clinopyroxene, but I haven't looked at it real closely.||
 |CDR-EVA|Okay, Jack. I set the rake on the - -||
 |LMP-EVA|Beautiful.||
 ||||
@@ -15161,7 +15161,7 @@
 |CC|Roger.||
 05 02 35 24|LMP-LM|Joe, bag - collection bag 2 is 16.||
 |CC|Thank you.||
-05 02 35 01|LMP-LM|And the SRC is 32 pounds.||
+05 02 36 01|LMP-LM|And the SRC is 32 pounds.||
 |CC|Copy; 32 pounds.||
 05 02 37 03|CDR-LM|Okay, Joe. The HEATER is ON for the dump.||
 05 02 37 10|CC|Okay.||
@@ -15505,7 +15505,7 @@
 05 05 35 32|CC|Okay.||
 ||||
 |||Tape 85A/1|Page 942
-03 06 22 37|LMP-LM|Joe, we're asleep. There's no need to answer. See you in the morning. [Talking in his sleep apparently].||
+05 06 22 37|LMP-LM|Joe, we're asleep. There's no need to answer. See you in the morning. [Talking in his sleep apparently].||
 ||||
 |||Tapes 86A-89A/I|Page 943
 ||REST PERIOD - NO COMMUNICATIONS||
@@ -20826,7 +20826,7 @@
 |CDR-EVA|And she is flashing. Oh, never mind, Bob. I'm going to go to STANDBY. I've got to get my gnomon.||
 |LMP-EVA|Hey, I think we hit one of those things we've got to reconsider on, Houston.||
 |CC|Yes. The problem is we're looking at PLSS constraints right now, as luck would have it, of course.||
-02 55 50 15|CDR-EVA|MARK it. Gravimeter.||
+05 22 50 15|CDR-EVA|MARK it. Gravimeter.||
 |CC|Roger. Copy that.||
 |CDR-EVA|What's wrong with the TV? Aren't you watching it?||
 |CC|It seems to have died slowly there.||
@@ -23701,7 +23701,7 @@
 ||||
 |||Tape 105B/4|Page 1426
 ||optional film left on Mike Mike. Everything that's left on Mike Mike is scheduled up. Over.||
-04 13 34 44|CMP|Okay. I'll buy that. You know you could even -as zero phase vent right across Picard there, you could still see the - the darkness on the west -let's see east - on the east from 9 o'clock around to 6 o'clock, if north is zero.||
+06 13 34 44|CMP|Okay. I'll buy that. You know you could even -as zero phase vent right across Picard there, you could still see the - the darkness on the west -let's see east - on the east from 9 o'clock around to 6 o'clock, if north is zero.||
 |CC|Roger.||
 |CMP|And. if north is zero as you look at the crater, then over about 1 o'clock there's some kind of a fault area in the side of the rim, and that's another spot where the dark material drapes down into the rim and also out on the outer - outside -outside of the rim. And then you have that same type of impression at about 11 o'clock. You've got a black streak going dcwn inside the rim, and then it widens out going out toward a little crater out there on the outside of the rim.||
 06 13 36 03|CC|Okay,--||
