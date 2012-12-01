@@ -28,3 +28,6 @@ Main google group thread on this project: https://groups.google.com/forum/?fromg
 - - Out of order TEC timestamps due to either tapes out of order or errors in transcription. I think the only way to rectify is to listen to original recordings and create new timestamps.
 - - MC file format for spacelog does not allow for missing timestamps. Unless full reconstruction is done on A17, spacelog will have to modify their site to allow for blanks.
 - - Need to diff/merge TEC and PAO files because all A2G is theoritically duplicated save for the PAO announcements from the PAO officer in the PAO transcript. Unsure which to treat as the more accurate transcript when merging. Also unsure when to start merge, i.e. when will I no longer need to use automated cleaning on both PAO and TEC and embark on a manual exercise?
+
+- Last run of python scripts. Set common GET time format in both TEC and PAO files. Manually searched and replaced callsign names with real names in both files.
+CSV FILES NOW MANUALLY EDITED
