@@ -32,6 +32,7 @@ outputFile = open(output_file_name_and_path, "w")
 
 callsignList = []
 lastTimestamp = 0
+lastTimestampStr = ""
 
 inputFilePath = "F:\ApolloGit\Apollo17\Processing_Output\A17_TEC_cleaned.csv"
 reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
@@ -53,7 +54,8 @@ for row in reader:
 		pass
 	elif row[0] == '':
 		callsign = row[1]
-		outputLine = '|{0}|{1}\n'.format(callsign,row[2])
+		#outputLine = '|{0}|{1}\n'.format(callsign,row[2])
+		outputLine = '{0}|{1}|{2}\n'.format(GETFromTimestamp(lastTimestampStr),callsign,row[2])
 		pass
 	else:
 		callsign = row[1]
@@ -61,6 +63,7 @@ for row in reader:
 		if not curTimestamp > lastTimestamp:
 			print 'Timestamp out of order: Page{0} Timestamp:{1}'.format(pageCounter,row[0]) 
 		lastTimestamp = curTimestamp
+		lastTimestampStr = row[0]
 		
 		#print GETFromTimestamp(row[0])
 		

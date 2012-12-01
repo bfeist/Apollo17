@@ -62,7 +62,8 @@ for curFile in [ "A17_PAO.csv" ]:
 						outputLine += '{0}|{1}|{2}'.format(getTimeStr,row[0],row[1]) #print the first dialogue with the timestamp from the title
 						newTimestamp = 0
 					else :
-						outputLine = '|{0}|{1}'.format(row[0],row[1]) #print a regular line of dialog with callsign
+						#outputLine = '|{0}|{1}'.format(row[0],row[1]) #print a regular line of dialog with callsign
+						outputLine += '{0}|{1}|{2}'.format(getTimeStr,row[0],row[1]) #print a regular line of dialogue with the timestamp from the title
 						
 					if row[0].startswith("PAO"):
 						PAOOnlyOutputFile.write("\n")

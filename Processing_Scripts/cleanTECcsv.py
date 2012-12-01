@@ -68,7 +68,7 @@ for curFile in [ "A17_TEC_1-500.csv", "A17_TEC_501-1000.csv", "A17_TEC_1001-2460
 		#if row[1].__len__() > 7:
 			#print curRow
 			#print "------------- Page: " + str(pageCounter) + " ::" + row[1]
-		outputLine = ''
+		outputLine = '||||'
 		#print(row)
 		if (row[0].startswith("Tape") or row[2].startswith("Tape")) and not row[2].startswith("Tape recorder") and not row[2].startswith("Tape?"):
 			if row[0].startswith("Tape"):
@@ -89,7 +89,7 @@ for curFile in [ "A17_TEC_1-500.csv", "A17_TEC_501-1000.csv", "A17_TEC_1001-2460
 			#	callsignList.append(scrubbedCallsign)
 			#	print "Page: " + str(pageCounter) + " : " + scrubbedCallsign
 			
-			outputLine = '|{0}|{1}\n'.format(scrubbedCallsign,row[2])
+			outputLine = '|{0}|{1}||\n'.format(scrubbedCallsign,row[2])
 			pass
 		else:
 			scrubbedCallsign = scrub_callsign(row[1])			
@@ -102,7 +102,7 @@ for curFile in [ "A17_TEC_1-500.csv", "A17_TEC_501-1000.csv", "A17_TEC_1001-2460
 				print 'Timestamp out of order: Page{0} Timestamp:{1}'.format(pageCounter,row[0]) 
 			lastTimestamp = curTimestamp
 			
-			outputLine = '{0}|{1}|{2}\n'.format(scrub_timestamp(row[0]),scrubbedCallsign,row[2])
+			outputLine = '{0}|{1}|{2}||\n'.format(scrub_timestamp(row[0]),scrubbedCallsign,row[2])
 			pass
 			
 		outputFile.write(outputLine)

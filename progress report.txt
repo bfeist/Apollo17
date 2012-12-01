@@ -1,0 +1,30 @@
+2012-02-21 to 2012-03-24
+- Imported and tabled all images of TEC pages into OCR software
+- all TEC pages are now in CSV format, uncleaned
+
+2012-03-25
+- Cleaned TEC timestamps. Some still out of order
+- Scrubbed callsigns. Timestamps all numeric
+
+2012-04-02
+- PAO data OCR completed
+
+2012-04-06
+- many changes to A17_PAO via search and replace and cleaner analysis. Now pushing to A17_PAO_cleaned with cleaner script. Well-formed with page titles and inital timestamps.
+
+2012-04-07
+- added timestamp converstion to hhh:mm:ss
+- fixing GET timestamps begun
+
+--------------- Long break
+
+2012-12-01
+Main google group thread on this project: https://groups.google.com/forum/?fromgroups=#!topic/spacelog/H7D4UiLfhPo
+- Ramping back up on progress. A lot of mental detail lost on where I was due to spending the summer on other interests.
+- It appears that I transferred everything to hhh:mm:ss format because that's what PAO uses when describing the time. Spacelog uses dd hh mm ss. Should be easy to convert back and forth.
+- Main issues:
+- - Many timestamps missing in TEC transcripts
+- - Even more timestamps missing from PAO transcripts
+- - Out of order TEC timestamps due to either tapes out of order or errors in transcription. I think the only way to rectify is to listen to original recordings and create new timestamps.
+- - MC file format for spacelog does not allow for missing timestamps. Unless full reconstruction is done on A17, spacelog will have to modify their site to allow for blanks.
+- - Need to diff/merge TEC and PAO files because all A2G is theoritically duplicated save for the PAO announcements from the PAO officer in the PAO transcript. Unsure which to treat as the more accurate transcript when merging. Also unsure when to start merge, i.e. when will I no longer need to use automated cleaning on both PAO and TEC and embark on a manual exercise?
