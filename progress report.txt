@@ -30,4 +30,8 @@ Main google group thread on this project: https://groups.google.com/forum/?fromg
 - - Need to diff/merge TEC and PAO files because all A2G is theoritically duplicated save for the PAO announcements from the PAO officer in the PAO transcript. Unsure which to treat as the more accurate transcript when merging. Also unsure when to start merge, i.e. when will I no longer need to use automated cleaning on both PAO and TEC and embark on a manual exercise?
 
 - Last run of python scripts. Set common GET time format in both TEC and PAO files. Manually searched and replaced callsign names with real names in both files.
-CSV FILES NOW MANUALLY EDITED
+
+2012-12-02
+New output of A17_TEC_cleaned_phase2.csv from new cleanTECPhase2csv.py script that appends hundreds of occurrences of dialog lines that are wrapped onto subsequent pages in the original transcript.
+
+*********Nearing to transition where CSV files will have to be manually edited.*********
