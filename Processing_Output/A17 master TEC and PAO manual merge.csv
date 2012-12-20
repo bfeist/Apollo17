@@ -1071,58 +1071,59 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |005:13:50|LMP|Okay, Houston. Ready to deactivate the primary evaporator if you concur.
 ||||Tape 6/7|Page 64
 |005:14:01|CC|Roger, Jack. We concur.
-|005:15:18|LMP|Okay, Bob. VHF SIMPLEX Alfa's OFF.
-|005:15:18|CC|Roger.
-|005:15:18|LMP|And we're gradually moving into getting out of the suits.
-|005:15:18|CC|Yes. I'll bet you're looking forward to that.
-|005:15:18|LMP|Well, I'll tell you it's a different world without that old one g on you. The old suit's a little bit friendlier.
-|005:15:18|LMP|And, as you may have noticed, Bob, we've come to the end of the Launch Checklist.
-|005:15:18|CC|That's affirmative, and we've put ours away for posterity. We also stored it with our TLI zero data that we worked so hard to generate.
-|005:15:18|LMP|Well, I'm just happy - didn't - use it. That view of the Earth for a rev there was something I was looking forward to and I was not disappointed.
-|005:15:18|CC|That's great, Jack.
-|005:15:18|CDR|Bob, you've got a pretty good size storm over the north - I guess the northwestern coast of India, where it starts to wrap up and around to the west. It's a - rounded out on the horizon, so I can't make out exactly where it is too well.
-|005:15:18|CC|Roger.
-|005:15:18|CC|Could we get a read-out on the LM/CM DELTA-P?
-|005:18:20|LMP|Plus 0.4.
-|005:18:20|CC|Roger. We copy that. '
-|005:18:20|CDR|Bob, Antarctica is what I would call effectively just a solid white cap down on the - South Pole. There's definite contact between the continent and the water. But, as Ron said, most of the clouds seem to be very artistic, very picturesque - some in clockwise rotating fashion but appear to be very thin where you can, for the most part, kind of see through those clouds to the blue water below.
+|005:15:50|LMP|Okay, Bob. VHF SIMPLEX Alfa's OFF.
+|005:15:57|CC|Roger.
+|005:16:01|LMP|And we're gradually moving into getting out of the suits.
+|005:16:05|CC|Yes. I'll bet you're looking forward to that.
+|005:16:10|LMP|Well, I'll tell you it's a different world without that old one G on you. The old suit's a little bit friendlier.
+|005:17:16|LMP|And, as you may have noticed, Bob, we've come to the end of the Launch Checklist.
+|005:17:23|CC|That's affirmative, and we've put ours away for posterity. We also stored it with our TLI zero data that we worked so hard to generate.
+|005:17:37|LMP|Well, I'm just happy - didn't - use it. That view of the Earth for a rev there was something I was looking forward to and I was not disappointed.
+|005:17:49|CC|That's great, Jack.
+|005:17:54|CDR|Bob, you've got a pretty good size storm over the north - I guess the northwestern coast of India, where it starts to wrap up and around to the west. It's a - rounded out on the horizon, so I can't make out exactly where it is too well.
+|005:18:17|CC|Roger.
+|005:18:21|CC|Could we get a read-out on the LM/CM DELTA-P?
+|005:18:51|LMP|Plus 0.4.
+|005:18:56|CC|Roger. We copy that.
+|005:19:00|CDR|Bob, Antarctica is what I would call effectively just a solid white cap down on the - South Pole. There's definite contact between the continent and the water. But, as Ron said, most of the clouds seem to be very artistic, very picturesque - some in clockwise rotating fashion but appear to be very thin where you can, for the most part, kind of see through those clouds to the blue water below.
 ||||Tape 6/8|Page 65
-|005:18:20|CC|Roger.
-|005:18:20|CDR|The continent - the continent itself is - is the same color as the clouds; but, of course, more dense - and striking difference than any of the other white background around because you can definitely see that contact with the water and with the clouds over the water.
-|005:18:20|CC|Roger. Understand. There'll soon be a comm switch over to Madrid here shortly. We may break ... in just a few minutes here. Or a few seconds, rather.
-|005:18:20|CC|And you might watch - your accumulator's going to cycle in about 20 seconds here. Let's see what happens on the MASTER ALARM.
-|005:18:20|CC|17, Houston. How do you read through Madrid?
-|005:20:36|CMP|You're loud and clear, Bob, and could you give us our distance from the Earth?
-|005:20:36|CC|Roger. I'm looking up at the board. I'd guess at about 19,000 miles. Want me to get it exact?
-|005:20:36|CMP|No, just approximate's good enough.
-|005:20:36|CC|18,100, FIDO says.
-|005:20:36|CDR|Okay. And I suppose we're seeing as 100 percent full Earth as we'll ever see; certainly as I've ever seen. It appears to be - it may be a little bit - a little bit of a terminator way out to the -well, to the east - out beyond Australia and beyond India. But beyond that it's about 99 percent pure.
-|005:20:36|CDR|Bob, it's these kind of views - these kind of views that stick with you forever.
-|005:20:36|CC|Roger, Gene.
-|005:22:39|CDR|We've got a - I guess probably the continent of Africa dominates the world right now. It's covering the - oh, the upper third - upper and western third of the - of the world. We can see the Sinai; we can see up into the Mediterranean; we can see across the Mediterranean, although we can't quite make out the countries up there; we can see across into India. I catch a glimpse of Australia out in the far horizon. Got Zanzibar on the southern tip of Africa, the Cape down there just almost directly below us. And, I don't know exactly how big Antarctica is, but I guess we can certainly see more than 50 percent of it. And - the rest of it is all ocean. The Indian Ocean out into the Pacific Ocean and back into the Atlantic Ocean. And for the most part relatively clear of clouds except in the Antarctica region, and up towards Europe which is - which is on the horizon, across the Mediterranean, it looks like there might be some clouds back up in that way. I probably -probably - well, not probably - I can make out the entire coast of Africa from Mediterranean around to the west, coming back to the south back where it takes its big dip to the east , back around the Cape, back around up through the Suez Canal, almost perfectly.
+|005:19:45|CC|Roger.
+|005:19:46|CDR|The continent - the continent itself is - is the same color as the clouds; but, of course, more dense - and striking difference than any of the other white background around because you can definitely see that contact with the water and with the clouds over the water.
+|005:20:05|CC|Roger. Understand. There'll soon be a comm switch over to Madrid here shortly. We may break ... in just a few minutes here. Or a few seconds, rather.
+|005:20:26|CC|And you might watch - your accumulator's going to cycle in about 20 seconds here. Let's see what happens on the MASTER ALARM.
+|005:21:03|CC|17, Houston. How do you read through Madrid?
+|005:21:07|CMP|You're loud and clear, Bob, and could you give us our distance from the Earth?
+|005:21:12|CC|Roger. I'm looking up at the board. I'd guess at about 19,000 miles. Want me to get it exact?
+|005:21:18|CMP|No, just approximate's good enough.
+|005:21:24|CC|18,100, FIDO says.
+|005:21:27|CDR|Okay. And I suppose we're seeing as 100 percent full Earth as we'll ever see; certainly as I've ever seen. It appears to be - it may be a little bit - a little bit of a terminator way out to the - well, to the east - out beyond Australia and beyond India. But beyond that it's about 99 percent pure.
+|005:22:59|CDR|Bob, it's these kind of views - these kind of views that stick with you forever.
+|005:23:07|CC|Roger, Gene.
+|005:23:09|CDR|We've got a - I guess probably the continent of Africa dominates the world right now. It's covering the - oh, the upper third - upper and western third of the - of the world. We can see the Sinai; we can see up into the Mediterranean; we can see across the Mediterranean, although we can't quite make out the countries up there; we can see across into India. I catch a glimpse of Australia out in the far horizon. Got Zanzibar on the southern tip of Africa, the Cape down there just almost directly below us. And, I don't know exactly how big Antarctica is, but I guess we can certainly see more than 50 percent of it. And - the rest of it is all ocean. The Indian Ocean out into the Pacific Ocean and back into the Atlantic Ocean. And for the most part relatively clear of clouds except in the Antarctica region, and up towards Europe which is - which is on the horizon, across the Mediterranean, it looks like there might be some clouds back up in that way. I can probably - probably - well, not probably - I can make out the entire coast of Africa from Mediterranean around to the west, coming back to the south, back where it takes its big dip to the east, back around the Cape, back around up through the Suez Canal, almost perfectly.
 ||||Tape 6/9|Page 66
-|005:22:39|CC|Roger. We understand.
-|005:22:39|CDR|And there's one batch of clouds in northern Africa, just a small batch, it looks like it may be up near the - well, no, it's not near the mouth of the Nile; it's quite a bit west of that, as a matter of fact, I can see the mouth of the Nile; I can see it running straight down towards us as it parallels the Suez and then sort of fades out into the central darker brown or darker green portions of Africa.
-|005:22:39|CC|Roger, Gene. Sure be nice to have that on TV, wouldn't it?
-|005:22:39|CDR|Boy, I'd love to give it to you; any way I could.
-|005:22:39|CDR|You know - and there's no strings holding it up either. It's out there all by itself.
-|005:22:39|CC|Roger. I just was - going through the 17 status report on CSM systems and, boy, everything is absolutely nominal, with the exception of glitching MASTER ALARMs that we're trying to ntii.l track down; but every other system is just nominal. Everything is great.
+|005:24:59|CC|Roger. We understand.
+|005:25:02|CDR|And there's one batch of clouds in northern Africa, just a small batch, it looks like it may be up near the - well, no, it's not near the mouth of the Nile; it's quite a bit west of that as a matter of fact, I can see the mouth of the Nile; I can see it running straight down towards us as it parallels the Suez, and then sort of fades out into the central darker brown or darker green portions of Africa.
+|005:25:37|CC|Roger, Gene. Sure be nice to have that on TV, wouldn't it?
+|005:25:42|CDR|Boy, I'd love to give it to you; any way I could.
+|005:25:56|CDR|You know - and there's no strings holding it up either. It's out there all by itself.
+|005:26:07|CC|Roger. I just was going through the 17 status report on CSM systems and, boy, everything is absolutely nominal, with the exception of ... glitching MASTER ALARMs that we're trying to still track down; but every other system is just nominal it's - everything is great.
 ||||Tape 6/10|Page 67
-|005:26:01|CDR|Okay. Sounds good. That's the way they built it for us.
-|005:26:01|CC|Gene, looking at our plot board, you're directly over the southern tip of Africa or just slightly out in the Indian Ocean there, according to our plot board, which isn't exactly accurate all the time. But shortly you're going to start going backwards on the Earth here and head back across the Atlantic. That ought to be some sort of a first. You cross the Atlantic twice, going from west to east, and then, now you're going to cross it going from east to west here shortly. All in a very short span of time.
-|005:27:40|CDR|Yes. I guess that does sound like a first.
-|005:29:53|CDR|Bob, I can assume that from what you said there will be - probably not be a midcourse 1?
-|005:29:53|CC|That's exactly what we're working towards, Gene. And I - I'm sorry I didn't convey that feeling to you a little earlier. There's no reason for mid-course 1 right now.
-|005:29:53|CDR|Okay. Because we prefer to press on and get the suits off and hit the sack rather than make It, unless we have to.
-|005:29:53|CC|That's for sure. Roger. The earlier data showed us midcourse 1 would have been less than 3 feet per second, and we wouldn't have done it. And the data's been fluctuating, but they're smoothing it out, and it's still holding that way; so we won't be doing it, probably.
-|005:29:53|CDR|Okay. Very good.
-|005:29:53|LMP|Bob, I'm looking over Gene's shoulder here at the Earth, and it must be an awful clear day for the so-called convergence zone across Africa. Gene, I think, Indicated, as it looked to us as we crossed it earlier, most of Africa is clear. Only some - probably are broken and scattered clouds -cumulus in the east central portion that are running along the line of - north/south lines.
-|005:29:53|CC|Roger.
+|005:26:30|CDR|Okay. Sounds good. That's the way they built it for us.
+|005:27:29|CC|Gene, looking at our plot board, you're directly over the southern tip of Africa or just slightly out in the Indian Ocean there, according to our plot board, which isn't exactly accurate all the time. But shortly you're going to start going backwards on the Earth here and head back across the Atlantic. That ought to be some sort of a first. You cross the Atlantic twice, going from west to east, and then, now you're going to cross it going from east to west here shortly. All in a very short span of time.
+|005:28:09|CDR|Yes. I guess that does sound like a first.
+|005:30:00|PAO|This is Apollo Control at 5 hours 30 minutes ground elapsed time. The white team of flight controllers, headed by Gene Krantz, is in the process now, of handing over to the team headed by flight director Pete Frank. After 12 hours, the team came on about 3 hours prior to the scheduled launch time of 8:53 PM Central Standard Time. Of course, launch occurred 2 hours 40 minutes late at a ground elapsed time of 11, — of a Central Standard Time rather, 11:33 PM. As a result of the late launch-time the trans-lunar injection, that's up through translunar injection, also slipped 2 hours, 40 minutes. We would expect that the translunar injection which is targeted to make up the difference will get us back on the nominal flight plan time by the time the spacecraft arrives at the Moon. In other words, arrival time at the Moon would be at the same Central Standard Time as called for in the Flight Plan at about 1:49 PM Central Standard Time, December 10. But, the Ground Elapsed Time would be about 2 hours, 40 minutes earlier than that provided for in the Flight Plan, the arrival being at about 86 hours, 14 minutes ground elapsed time. The 2 hour, 40 minute difference being accounted for in a speedier arrival time at the Moon, a translunar injection burn being targeted just slightly longer than would have been the case in a normal launch. The spacecraft getting to the Moon in a total elapsed time 2 hours 40 minutes less, in effect, making up for lost time from the late launch. In order to get the flight plan back in agreement with the ground elapsed time the GET, or ground elapsed clock, will simply be moved ahead 2 hours, 40 minutes between now and the time spacecraft arrives at the Moon. So, that by the time Apollo 17 is inserted into Lunar Orbit, the GET will once again agree with the flight plan GET and of course, the Central Standard Time of arrival will be the same as was originally planned by virtue of a speedier trip time. As a result of the late liftoff it was not possible to program television coverage of the transposition and docking. This was because of a shift in the orbital ground track moving the ground track away from the needed Manned Spaceflight network coverage for television. We simply didn't have an adequate ground station to receive the television signal from the spacecraft. There has been one recurring problem that is yet unexplained. That is in the displays and control system. The crew reported on several occassions that MASTER ALARM was occurring. The master alarm manifests itself in a form of a light that flashes in the Command Module. There are three of these lights and also a tone that comes on and a normal procedure is when the MASTER ALARM light comes on and the tone sounds, the crew then looks at another matrix of lights to determine precisely where the problem is. However, when looking at this matrix of lights none of them were lighted, indicating that some spurrious signal had ignited or lighted the MASTER ALARM light and that there was in fact no problem in the systems. There is at this point no explanation for the problem. However, engineers here in the Control Center, are looking into the past history of Panel 2, which is the panel on which a number of switches are located, which have triggered this master alarm, to see if there is a history of Panel 2 that would indicate a possibility of some momentary short in the caution and warning system, which could give a MASTER ALARM. The problem at this point is an annoyance, but does not appear to be a serious problem. All other spacecraft systems are performing normally, and the trajectory to the Moon is almost precisely as planned at this point. We do not anticipate a change of shift press briefing. The white team will be coming back on at the regualar Central Standard Time 4:00 PM tomorrow. And in light of this rather short turnaround we're going to forego the change of shift press briefing. At 5 hours, 36 minutes this is Apollo Control, Houston.
+|005:30:00|CDR|Bob, I can assume that from what you said there will be - probably not be a midcourse 1?
+|005:30:00|CC|That's exactly what we're working towards, Gene. And I - I'm sorry I didn't convey that feeling to you a little earlier. There's no reason for mid-course 1 right now.
+|005:30:00|CDR|Okay. Because we prefer to press on and get the suits off and hit the sack rather than make It, unless we have to.
+|005:30:00|CC|That's for sure. Roger. The earlier data showed us midcourse 1 would have been less than 3 feet per second, and we wouldn't have done it. And the data's been fluctuating, but they're smoothing it out, and it's still holding that way; so we won't be doing it, probably.
+|005:30:00|CDR|Okay. Very good.
+|005:30:00|LMP|Bob, I'm looking over Gene's shoulder here at the Earth, and it must be an awful clear day for the so-called convergence zone across Africa. Gene, I think, Indicated, as it looked to us as we crossed it earlier, most of Africa is clear. Only some - probably are broken and scattered clouds -cumulus in the east central portion that are running along the line of - north/south lines.
+|005:30:00|CC|Roger.
 ||||Tape 6/11|Page 68
-|005:29:53|LMP|Looks like a major circulation system off the southern tip of Africa, as Gene mentioned, plus one west of that, 20 or 30 degrees of longitude. Make that east of that.
-|005:29:53|CC|Roger.
-|005:29:53|LMP|And, southwest of the - make that south southwest of the tip of Africa at Cape Good Hope, there looks like an incipient circulation system developing about half way between the coast of Antarctica and Africa. If I had to guess, it's going to swing up north towards the Cape and - and then swing west The whole pattern, ... it looks like now, is a fairly equally spaced cyclones that are sort of circling around the Antarctic continent, as we can see it now.
-|005:29:53|CC|Roger, Jack.
+|005:30:00|LMP|Looks like a major circulation system off the southern tip of Africa, as Gene mentioned, plus one west of that, 20 or 30 degrees of longitude. Make that east of that.
+|005:30:00|CC|Roger.
+|005:30:00|LMP|And, southwest of the - make that south southwest of the tip of Africa at Cape Good Hope, there looks like an incipient circulation system developing about half way between the coast of Antarctica and Africa. If I had to guess, it's going to swing up north towards the Cape and - and then swing west The whole pattern, ... it looks like now, is a fairly equally spaced cyclones that are sort of circling around the Antarctic continent, as we can see it now.
+|005:30:00|CC|Roger, Jack.
 |005:33:50|LMP|But I would guess that South Africa is going to have good weather for several more days, at least. And if the pattern is - is apparent in the clouds we see is correct, the last disturbance I mentioned probably is going to pass south of the Cape also,
 |005:33:50|CC|Roger. Understand.
 |005:33:50|LMP|As we were going - over our daylight around the Earth in orbit, it was very clear looking at the various clouds, Bob, what were high clouds and what were low clouds, particularly when you had them together. The high clouds cast very distinct shadow patterns on the lower ones and, very commonly, had entirely different orientations -pattern orientations. The low ones seem to be more associated with arcuate front patterns; whereas, the high clouds were generally transverse to that, roughly north/south directions. That's not completely general observation, but I noticed it several times.
@@ -1131,165 +1132,178 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 ||||Tape 6/12|Page 69
 |005:35:27|LMP|It feels like about, 20,000 miles.
 |005:35:27|CC|Okay.
-|005:35:27|LMP|Bob, I have the first hint of contamination on window 5* It's covering, probably, the central -well, I'd say, - roughly around - it's square about - 7 inches in - on the side with a very thin film that's catching the sunlight; and slightly irridescent, but also very finely granular - very finely granular. You can just barely tell what it is, actually.
-|005:35:27|CC|Roger. Understand.
-|005:37:45|LMP|Looks like very uniform in thickness right now.
-|005:46:31|LMP|Bob, this is Jack. We've got a UCTA dump scheduled, or is possible, at 6 o'clock. There's nothing sacred about that time, is there?
-|005:46:31|CC|Nothing at all. Whenever you're ready, just go ahead and dump.
-|005:49:03|LMP|Okay.
-|005:49:03|LMP|Bob, one of the things that we miss in our training is a good geography lesson, and particularly on Antarctica. I got the monocular out, and apparently the dark band that Gene - Ron mentioned as interface between the continental water is that between the pack ice and the water. And you can, by very subtle changes in the apparent smoothness of the ground, probably make out where the actual continent begins and the pack ice ends. There are a few exposed ranges, I guess it's midsummer down there now, and you can make out the snow-free areas scattered at least in the northern portion of the continent.
-|005:49:03|CC|Roger. Did you get any pictures of that, Jack?
-|005:49:03|LMP|Oh, yes. We got some pictures earlier. I'm going to get another one here in a minute. I'll tell you, if there ever was a fragile-appearing piece of blue in space, it's the Earth right now.
-|005:49:03|CC|Roger.
+|005:37:28|LMP|Bob, I have the first hint of contamination on window 5. It's covering, probably, the central - well, I'd say, - roughly around - it's square about - 7 inches in - on the side with a very thin film that's catching the sunlight; and slightly irridescent, but also very finely granular - very finely granular. You can just barely tell what it is, actually.
+|005:38:09|CC|Roger. Understand.
+|005:38:11|LMP|Looks like very uniform in thickness right now.
+|005:46:55|LMP|Bob, this is Jack. We've got a UCTA dump scheduled, or is possible, at 6 o'clock. There's nothing sacred about that time, is there?
+|005:47:11|CC|Nothing at all. Whenever you're ready, just go ahead and dump.
+|005:47:15|LMP|Okay.
+|005:48:48|LMP|Bob, one of the things that we missed in our training is a good geography lesson, and particularly on Antarctica. I got the monocular out, and apparently the dark band that Gene - Ron mentioned as interface between the continental water is that between the pack ice and the water. And you can, by very subtle changes in the apparent smoothness of the ground, probably make out where the actual continent begins and the pack ice ends. There are a few exposed ranges, I guess it's midsummer down there now, and you can make out the snow-free areas scattered at least in the northern portion of the continent.
+|005:49:47|CC|Roger. Did you get any pictures of that, Jack?
+|005:49:50|LMP|Oh, yes. We got some pictures earlier. I'm going to get another one here in a minute. I'll tell you, if there ever was a fragile-appearing piece of blue in space, it's the Earth right now.
+|005:49:03|CC|(laugheter) Roger.
 ||||Tape 6/13|Page 70
-|005:50:21|CDR|And we got a MASTER ALARM.
-|005:50:21|CC|Okay. We copy that.
-|005:50:21|CDR|And there's one in the LEB.
-|005:50:21|CC|Okay. Good data point.
-|005:50:21|CDR|And there are no caution lights.
-|005:50:21|CC|It came right ... accumulator cycle, along with the high O2 flow again.
-|005:50:21|CDR|Yes, I just checked the time, and I think you are right on that one. Well, we gave you your LEB data point.
-|005:50:21|CC|Yes, sir.
-|005:50:21|LMP|The problem with looking at the Earth (laughter) particularly Antarctica, is it's too bright.
-|005:50:21|CC|Understand.
-|005:50:21|LMP|And so I'm using my sunglasses through the monocular, which is not the best (laughter) viewing platform. I think I can see some of the areas of the Dry Valley, but, again, I'm not too sure of my geography, Bob. There are clouds over the continent, I believe. But, of course, they're just as white as the snow, and you only see differences in texture brought out by - probably varying photometric return because of fairly low sun angles down there.
-|005:50:21|CC|Roger.
-|005:50:21|LMP|But you can see patterns of what I believe is pack ice - leading off from that sharp interface that was talked about earlier. And those patterns seem to merge directly with the patterns of the clouds as if the - at least near the continent -the oceanic currents are controlling the air currents, up to a point , along with the movement of the pack ice.
-|005:50:21|CC|Roger.
+|005:50:06|CDR|And we got a MASTER ALARM.
+|005:50:08|CC|Okay. We copy that.
+|005:50:11|CDR|And there's one in the LEB.
+|005:50:14|CC|Okay. Good data point.
+|005:50:18|CDR|And there are no caution lights.
+|005:50:21|CC|It came right at accumulator cycle, along with the high O2 flow again.
+|005:50:26|CDR|Yes, I just checked the time, and I think you are right on that one. Well, we gave you your LEB data point.
+|005:50:39|CC|Yes, sir.
+|005:50:49|LMP|The problem with looking at the Earth (laughter) particularly Antarctica, is it's too bright.
+|005:51:00|CC|Understand.
+|005:51:02|LMP|And so I'm using my sunglasses through the monocular, which is not the best (laughter) viewing platform. I think I can see some of the areas of the Dry Valley, but, again, I'm not too sure of my geography Bob. There are clouds over the continent, I believe, but, of course, they're just as white as the snow, and you only see differences in texture brought out by - probably varying photometric return because of fairly low sun angles down there.
+|005:51:41|CC|Roger.
+|005:51:47|LMP|But you can see patterns of what I believe is pack ice - leading off from that sharp interface that was talked about earlier. And those patterns seem to merge directly with the patterns of the clouds as if the - at least near the continent - the oceanic currents are controlling the air currents, up to a point, along with the movement of the pack ice.
+|005:52:24|CC|Roger.
 ||||Tape 6/l4|Page 71
-|005:50:21|LMP|I'm distinguishing the pack ice from clouds mainly by the angularity of the patterns within them. There is no good clear color or albedo distinction. So, I could - I could be looking entirely at clouds, but I suspect there are some pack ice patterns, too. I'm not keeping you awake, am I, Bob?
-|005:50:21|CC|No, sir. Just keep talking; we're listening. And I'm sure not much of the world is listening, but this will all be recorded, and you can read it all when you get back and think it through and tie it up with the pictures. And I'm sure there's going to be people interested in this. And we're interested ourselves; just keep talking.
-|005:53:29|LMP|All I want to do is read what I say.
-|005:53:29|CC|Roger. If I had a little more geology training, I'd be asking you some better questions. I'm afraid, right now, I can't think of anything to ask you.
-|005:53:29|LMP|Well, I can't - I really wish I knew that geography. I don't know - I wish I'd thought of bringing a good map of Antarctica. Could somebody do a little researching for me and see if they could tell me if we're - have a Little American view - say on the eastern edge of the continent?
-|005:53:29|CC|Roger. We'll see if we can get some Antarctica geographers around.
-|005:53:29|LMP|Yes, I'd like to - and, also, whether or not they think the Dry Valley area is visible to us. Let's see, there's some - some of the people over there in Bill Bennett's group, I think, have a little Antarctic experience, or used to. They might be able to help you out.
-|005:53:29|CC|Okay. We'll see what we can track down on it.
-|005:53:29|LMP|Don't use up a lot of people's time on it, but -but I'd be interested.
-|005:53:29|CC|Roger. It's getting pretty empty around here. It's 5:00 in the morning, so - (laughter)
+|005:52:25|LMP|I'm distinguishing the pack ice from clouds mainly by the angularity of the patterns within them. There is no good clear color or albedo distinction. So, I could - I could be looking entirely at clouds, but I suspect there are some pack ice patterns, too. I'm not keeping you awake, am I, Bob?
+|005:52:53|CC|No, sir. Just keep talking; we're listening. And I'm sure not much of the world is listening, but this will all be recorded, and you can read it all when you get back and think it through and tie it up with the pictures. And I'm sure there's going to be people interested in this. And we're interested ourselves; just keep talking.
+|005:53:11|LMP|All I want to do is read what I say.
+|005:53:14|CC|Roger. If I had a little more geology training, I'd be asking you some better questions. I'm afraid, right now, I can't think of anything to ask you.
+|005:53:21|LMP|Well, I can't - I really wish I knew that geography. I don't know - I wish I'd thought of bringing a good map of Antarctica. Could somebody do a little researching for me and see if they could tell me if we're - have a Little American view - say on the eastern edge of the continent?
+|005:53:48|CC|Roger. We'll see if we can get some Antarctica geographers around.
+|005:53:53|LMP|Yes, I'd like to - and, also, whether or not they think the Dry Valley area is visible to us. Let's see, there's some - some of the people over there in Bill Bennett's group, I think, have a little Antarctic experience, or used to. They might be able to help you out.
+|005:54:10|CC|Okay. We'll see what we can track down on it.
+|005:54:13|LMP|Don't use up a lot of people's time on it, but - but I'd be interested.
+|005:54:18|CC|Roger. It's getting pretty empty around here. It's 5:00 in the morning, so - (laughter)
 ||||Tape 6/15|Page 72
-|005:53:29|LMP|Okay. There is a good strong northern hemisphere cyclone up near India, and I think Gene mentioned that. It, I think, was one I saw in some of the forecast sheets as a dissipating hurricane or typhoon. I'm not sure which it is there. I guess it's a typhoon. And I see something here that I noticed in Earth orbit, Bob. That as you approach the terminator - and now I'm looking at the eastern terminator - have to keep all my directions straight here - yes, eastern terminator. The clouds - those associated with the cyclone over India and one that's - appears to be due south of there - maybe 30 degrees of latitude - have a gray appearance. The - instead of the brilliant white of other clouds as you approach the terminator, those - at least the high level clouds are gray. Now, when we were going over them in orbit, the lower level clouds were still white, and I think I can see a hint of that right now. The Sun gives a strong light reflection off of the buildups in the low-level clouds; whereas, the high-level and probably layered cirrus and maybe some of the intermediate level stratus tend to look gray because of grazing Sun, I suspect.
-|005:56:46|CC|Roger. You mentioned something in Earth orbit that kind of intrigued me. You mentioned seeing the rainbow, and we were trying to figure out how you saw a rainbow up there. And you were in orbit already at that time. Do you remember that?
-|005:56:46|LMP|Well, - we're not - we were speaking of the merits of the sunrise.
+|005:54:25|LMP|Okay. There is a good strong northern hemisphere cyclone up near India, and I think Gene mentioned that. It, I think, was one I saw in some of the forecast sheets as a dissipating hurricane or typhoon. I'm not sure which it is there. I guess it's a typhoon. And I see something here that I noticed in Earth orbit, Bob. That as you approach the terminator - and now I'm looking at the eastern terminator - have to keep all my directions straight here - yes, eastern terminator. The clouds - those associated with the cyclone over India and one that's - appears to be due south of there - maybe 30 degrees of latitude - have a gray appearance. The - instead of the brilliant white of other clouds as you approach the terminator, those - at least the high level clouds are gray. Now, when we were going over them in orbit, the lower level clouds were still white, and I think I can see a hint of that right now. The Sun gives a strong light reflection off of the buildups in the low-level clouds; whereas, the high-level and probably layered cirrus and maybe some of the intermediate level stratus tend to look gray because of grazing Sun, I suspect.
+|005:56:26|CC|Roger. You mentioned something in Earth orbit that kind of intrigued me. You mentioned seeing the rainbow, and we were trying to figure out how you saw a rainbow up there. And you were in orbit already at that time. Do you remember that?
+|005:56:41|LMP|Well, - we're not - we were speaking of the merits of the sunrise.
 |005:56:46|CC|Okay. Roger.
-|005:56:46|LMP|Of having a banded color appearance that varied as you approached sunrise. I can't remember what we - I think we put some of that on tape, and we were probably LOS at the time. But the banded character of the sunrise in the atmosphere was very, very marked. There was a gray-blue upper layer followed - that merged or graded Into a brilliant blue intermediate zone that was just above the cloud levels. And within the clouds, you cot a orange to yellow band, getting more yellow as the Sun rose, that was broken by the dark patterns of the buildups.
+|005:56:50|LMP|- having a banded color appearance that varied as you approached sunrise. I can't remember what we - I think we put some of that on tape, and we were probably LOS at the time. But the banded character of the sunrise in the atmosphere was very, very marked. There was a gray-blue upper layer followed - that merged or graded into a brilliant blue intermediate zone that was just above the cloud levels. And within the clouds, you got a orange to yellow band, getting more yellow as the Sun rose, that was broken by the dark patterns of the buildups.
 ||||Tape 6/16|Page 73
-|005:56:46|CC|Roger. Good show.
-|005:56:46|LMP|The interesting thing was the continual glow on the horizon we had, even at night, on the darkside pass -And that glow was in the atmosphere because I could see stars rise over the horizon in it and then pass on through it.
-|005:56:46|CC|Roger. You were talking - the airglow, I guess, is the phenomenon most of the guys had seen before. It's kind of Interesting, huh?
-|005:56:46|LMP|Yes, that's - that's right. It's interesting - I guess standard airglow, but it is very striking that it's a continuous thing even in the dark pass.
-|005:56:46|CC|Roger.
-|005:56:46|LMP|I think I did see the eastern tip of South America, now.
-|005:56:46|CC|Roger. You're starting to back up now, coming the other way. So you're still over Africa, according to our chart here, but you're backing up towards the - South America.
-|005:56:46|LMP|Yes, I can see the part of South America that Mercator thought that fitted in with the bend in Africa so many decades ago and started people thinking about moving continents around on the crust.
-|005:56:46|CC|Roger. Jack, how'd the PGA doffing go? Most of you - are you all out of the PGAs now?
-|006:00:01|LMP|That's in work. We're taking it slow and easy up here, Bob.
-|006:00:01|CC|Roger. Understand. I'll just be curious to see if they all fit in that bag.
-|006:00:01|LMP|I think you'll find that Ronald Evans will also be curious about that. He's already made comments.
-|006:00:01|CC|Roger.
-|006:00:01|LMP|Bob, you certainly do have a very clear inlui t, i v<-impression, although the evidence is hard to pull together, that the - any frontal systems that move off the Antarctic continent do not take on any well-defined character until they get into the ... regions of the ocean. And when they do, they seem to pick up an arcuate circ - circulation that, in the view we have, seem to get fairly regularly spaced cyclone patterns that lie between the Jape of Good Hope and northern portion of Antarctica.. And these - circulations of cyclones follow roughly an east/west pattern, and the curve - and the arcs of the fronts are more north/south than - let's say northwest, swinging around to the south.
+|005:57:54|CC|Roger. Good show.
+|005:57:59|LMP|The interesting thing was the continual glow on the horizon we had, even at night, on the darkside pass - and that glow was in the atmosphere because I could see stars rise over the horizon in it and then pass on through it.
+|005:58:19|CC|Roger. You were talking - the airglow, I guess, is the phenomenon most of the guys had seen before. It's kind of Interesting, huh?
+|005:58:25|LMP|Yes, that's - that's right. It's interesting - I guess standard airglow, but it is very striking that it's a continuous thing even in the dark pass.
+|005:58:36|CC|Roger.
+|005:58:42|LMP|I think I did see the eastern tip of South America, now.
+|005:58:56|CC|Roger. You're starting to back up now, coming the other way. So you're still over Africa, according to our chart here, but you're backing up towards the - South America.
+|005:59:07|LMP|Yes, I can see the part of South America that Mercator thought that fitted in with the bend in Africa some many decades ago and started people thinking about moving continents around on the crust.
+|005:59:25|CC|Roger. Jack, how'd the PGA doffing go? Most of you - are you all out of the PGAs now?
+|005:59:38|LMP|That's in work. We're taking it slow and easy up here, Bob.
+|005:59:41|CC|Roger. Understand. I'll just be curious to see if they all fit in that bag.
+|005:59:48|LMP|I think you'll find that Ronald Evans will also be curious about that. He's already made comments.
+|005:59:56|CC|Roger.
+|006:00:03|PAO|This is Apollo Control at 6 hours. As Jack Schmitt gives the description of the earth, Apollo 17 is 22,868 nautical miles from earth, velocity 12,520 feet per second.
+|006:00:17|LMP|Bob, you certainly do have a very clear intuitive impression, although the evidence is hard to pull together, that the - any frontal systems that move off the Antarctic continent do not take on any well-defined character until they get into the moist regions of the ocean. And when they do, they seem to pick up an arcuate circ - circulation that, in the view we have, seem to get fairly regularly spaced cyclone patterns that lie between the Cape of Good Hope and northern portion of Antarctica. And these - circulations of the cyclones follows roughly an east/west pattern, and the curve - and the arcs of the fronts are more north/south than - let's say northwest, swinging around to the south.
 ||||Tape 6/17|Page 74
-|006:00:01|CC|Roger.
-|006:00:01|LMP|All of them - all of them very - very nicely defined as southern hemisphere cyclones. There are about four of those visible swinging around -oh, I guess, that's latitude - I'm having to guess here, but I'd say latitude 50 to 60 south.
-|006:00:01|CC|Okay; 50 or 60 south on that, huh?
-|006:00:01|LMP|Yes, I have to look at the map here in a minute and see if that puts me between Antarctica and the Cape.
-|006:00:01|CC|Roger.
-|006:00:01|CC|Well, the tip - the tip of Africa there is at about 32 south.
-|006:00:01|LMP|Well, that sounds like a pretty good guess, then. It looks like the intertropical convergence zone over Africa is starting to get more and more clouds in it now. I suspect as midday approaches, which is what we're seeing there, we can expect to see more and more moisture indications.
-|006:00:01|CC|Roger. They're - they're probably about noontime right there right now. It's 11:36 at the zero meridian at Greenwich, so it's just a little bit before noon right in that area you're talking about.
-|006:00:01|LMP|Yes, some of those masses of what I suspect are cumulus buildups - well, not really. They don't look like they're as concentrated and localized. More like just masses of fairly dense clouds that are developing in that band of green that crosses the lower portion of Africa.
+|006:01:30|CC|Roger.
+|006:01:30|LMP|All of them - all of them very - very nicely defined as southern hemisphere cyclones. There - about four of those visible swinging around - oh, I guess, that's latitude - I'm having to guess here, but I'd say latitude 50 to 60 south.
+|006:01:55|CC|Okay; 50 or 60 south on that, huh?
+|006:01:58|LMP|Yes, I have to look at the map here in a minute and see if that puts me between Antarctica and the Cape.
+|006:02:03|CC|Roger.
+|006:02:08|CC|Well, the tip - the tip of Africa there is at about 32 south.
+|006:02:14|LMP|Well, that sounds like a pretty good guess, then. It looks like the intertropical convergence zone over Africa is starting to get more and more clouds in it now. I suspect as midday approaches, which is what we're seeing there, we can expect to see more and more moisture indications.
+|006:02:39|CC|Roger. They're - they're probably about noontime right there right now. It's 11:36 at the zero meridian at Greenwich, so it's just a little bit before noon right in that area you're talking about.
+|006:02:51|LMP|Yes, some of those masses of what I suspect are cumulus buildups - well, not really. They don't look like they're as concentrated and localized. More like just masses of fairly dense clouds that are developing in that band of green that crosses the lower portion of Africa.
 ||||Tape 6/18|Page 75
-|006:00:01|CC|Roger.
-|006:04:19|LMP|Stay tuned for the next installment on the Earth. I'll try to get out of this suit.
-|006:04:19|CC|Okay. Just take it easy, Jack, and we'll be listening.
-|006:04:19|LMP|Man, I've never taken it so easy in my life. I'll tell you, Bob, I couldn't have believed this would be an experience like it is now.
-|006:04:19|CC|Roger.
-|006:04:19|LMP|Every time you turn around, there is something else to see and wonder what's causing it. Whether it's a particle zipping across the window, or one zipping across the cabin, or spring mechanics here in zero g; there's always something going on.
-|006:04:19|CC|Roger.
-|006:10:20|LMP|Bob, if I'm not waking you up, an observer from another planet certainly - probably could decide that we have such things as clouds and at least large thunderstorms because right at the terminator you get a brightening of the sunlit side and a long, long shadow out to the - out to the east that is reminiscent of what we saw in the early days looking at the Moon at the terminator.
-|006:10:20|CC|Roger.
-|006:10:20|LMP|However, in the next pass around, I'll bet you wouldn't see them.
-|006:10:20|LMP|I've never been a big - Well, I didn't grow up with the idea of drifting continents and sea-floor spreadings, but I tell you, when you look at the way the pieces of the - of the northeastern portion of the African continent seem to fit together separated by a narrow gulf, you could almost make a believer of anybody.
+|006:03:17|CC|Roger.
+|006:03:55|LMP|Stay tuned for the next installment on the Earth. I'll try to get out of this suit.
+|006:04:01|CC|Okay. Just take it easy, Jack, and we'll be listening.
+|006:04:06|LMP|Man, I've never taken it so easy in my life. I'll tell you, Bob, I couldn't have believed this would be an experience like it is now.
+|006:04:15|CC|Roger.
+|006:04:21|LMP|Every time you turn around, there is something else to see and wonder what's causing it. Whether it's a particle zipping across the window, or one zipping across the cabin, or spring mechanics here in zero g; there's always something going on.
+|006:04:37|CC|Roger.
+|006:07:05|PAO|This is Apollo Control at 6 hours 7 minutes No midcourse correction number 1 will be performed. The value of the maneuver that would be required is less than 3 feet per second and midcourse correction number 1 will not be performed by Apollo 17. The spacecraft is now 23,682 nautical miles from Earth, velocity 12,301 feet per second.
+|006:09:55|LMP|Bob, if I'm not waking you up, an observer from another planet certainly - probably could decide that we have such things as clouds and at least large thunderstorms because right at the terminator you get a brightening of the sunlit side and a long, long shadow out to the - out to the east that is reminiscent of what we saw in the early days looking at the Moon at the terminator.
+|006:10:37|CC|Roger.
+|006:10:40|LMP|However, in the next pass around, I'll bet you wouldn't see them.
+|006:11:21|LMP|I've never been a big - Well, I didn't grow up with the idea of drifting continents and sea-floor spreadings, but I tell you, when you look at the way the pieces of the - of the northeastern portion of the African continent seem to fit together, separated by a narrow gulf, you could almost make a believer of anybody.
 ||||Tape 6/19|Page 76
-|006:10:20|CC|Roger. It's beginning to look like the globe that you might buy down at the store, huh?
-|006:10:20|LMP|Oh, I don't think so, Bob. (laughter)
-|006:10:20|CC|Okay.
-|006:10:20|LMP|I don't think we'd better put this one up for sale. Somewhere there might be somebody who would like to buy it.
-|006:12:53|CC|Say, Jack. We noticed the O2 flow has dropped
-|006:12:53||down now. We're wondering, did you all close the waste storage vent valve?
-|006:12:53|CMP|I don't think so; let me check on that. It might have gotten closed inadvertently in this game we were playing down in the LEB.
-|006:12:53|LMP|Ron says it's still on VENT.
-|006:12:53|CC|It's on VENT. Roger.
-|006:12:53|CC|Okay. We're noticing the flow is coming back up slowly; so something caused it to drop, and it's coming back up.
-|006:13:42|LMP|Okay.
-|006:18:09|CC|17, Houston.
-|006:18:09|LMP|Go ahead.
-|006:18:09|CC|Jack, just to ease those words I said before, we looked at the schematics here a second, and you'd be dumping urine out of that same line as that waste vent, and that would probably cause the pressure to build up enough to slow the O2 flow. And we noticed that the O2 flow is climbing back up to where it belongs.
-|006:18:09|LMP|Well, that's clever. Okay.
-|006:18:09|CC|Didn't mean to worry you there. Shouldn't have said it, I guess, before we looked at the schematic.
+|006:11:22|CC|Roger. It's beginning to look like the globe that you might buy down at the store, huh?
+|006:11:57|LMP|Oh, I don't think so, Bob. (laughter)
+|006:11:59|CC|Okay.
+|006:12:01|LMP|I don't think we'd better put this one up for sale. Somewhere there might be somebody who would like to buy it.
+|006:12:27|CC|Say, Jack. We noticed the O2 flow has dropped down now. We're wondering, did you all close the waste storage vent valve?
+|006:12:36|CMP|I don't think so; let me check on that. It might have gotten closed inadvertently in this game we were playing down in the LEB.
+|006:12:55|LMP|Ron says it's still on VENT.
+|006:12:58|CC|It's on VENT. Roger.
+|006:13:07|CC|Okay. We're noticing the flow is coming back up slowly; so something caused it to drop, and it's coming back up.
+|006:13:15|LMP|Okay.
+|006:17:41|CC|17, Houston.
+|006:17:44|LMP|Go ahead.
+|006:17:45|CC|Jack, just to ease those words I said before, we looked at the schematics here a second, and you'd be dumping urine out of that same line as that waste vent, and that would probably cause the pressure to build up enough to slow the O2 flow. And we noticed that the O2 flow is climbing back up to where it belongs.
+|006:18:08|LMP|Well, that's clever. Okay.
+|006:18:11|CC|Didn't mean to worry you there. Shouldn't have said it, I guess, before we looked at the schematic.
 ||||Tape 6/20|Page 77
-|006:18:09|LMP|Oh, I really hadn't started to worry about it yet, Bob, so no sweat.
+|006:18:18|LMP|Oh, I really hadn't started to worry about it yet, Bob, so no sweat.
+|006:22:15|LMP|How'd the S-IVB work go Bob?
 ||||Tape 7/1|Page 78
-|006:18:09|CC|They just finished their second burn, and it's targeted right where they want it. Just working perfectly.
-|006:18:09|LMP|Where were they going to put that one? I guess I lost track of that.
-|006:18:09|CC|Seven degrees south and 8 degrees west, Jack.
-|006:18:09|LMP|Say again, you cut out on the first.
-|006:18:09|CC|Okay; 7 degrees south and 8 degrees west.
-|006:23:45|LMP|Okay. That ought to be interesting.
-|006:29:19|CDR|Hello, Houston; how do you read CDR?
-|006:29:19|CC|Read you loud and clear, Gene.
-|006:29:19|CDR|Okay.
-|006:29:19|LMP|Bob, LMP's going off the air for a little while.
-|006:29:19|CC|Roger, Jack.
-|006:29:19|LMP|It sounded like a sigh of relief.
-|006:29:19|CC|No, sir. Been enjoying listening to you; keeping -keep me awake down here.
-|006:29:19|LMP|You had a long day.
-|006:29:19|CC|Not as long as you've had.
-|006:29:19|LMP|I've just been lying around, floating around.
-|006:29:19|CC|You make it sound so good.
-|006:29:19|LMP|Piece of cake. I111 talk to you in a little while.
-|006:30:41|CC|Yes, sir.
+|006:22:24|CC|They just finished their second burn, and it's targeted right where they want it. Just working perfectly. 
+|006:22:34|LMP|Where were they going to put that one? I guess I lost track of that.
+|006:22:52|CC|7 degrees south and 8 degrees west, Jack.
+|006:22:57|LMP|Say again, you cut out on the first.
+|006:23:00|CC|Okay; 7 degrees south and 8 degrees west.
+|006:23:09|LMP|Okay. That ought to be interesting.
+|006:23:29|PAO|This is Apollo Control at 6 hours 24 minutes. The S-IVB maneuver that was just being discussed was performed with the auxiliary propulsion system; just completed Delta V of 13 feet per second to tune up the trajectory for S-IVB impact at the desired location on the lunar surface of 7 degrees south, 8 degrees west. That's approximately 200 kilometers east of the Apollo 14 ALSEP site where the seismometer is located. That impact is expected to be picked up by the other seismometers on the Moon, the other Apollo lunar surface experiment seismometers. Booster systems engineer is now maneuvering the S-IVB stage, the third stage of the launch vehicle to a solar heat control attitude. This is to minimize the heat into the instrument unit. They will then track the stage for a considerable length of time and determine whether another corrective burn will be required. At 6 hours 25 minutes into the mission, this is Mission Control, Houston.
+|006:27:06|PAO|This is Apollo Control at 6 hours 27 minutes. Booster systems engineer has just reported to the Flight Director that the S-IVB stage is in good shape, with 14 hours life time remaining. The limiting factor on the S-IVB is the battery life. Fourteen hours of battery life remaining on the S-IVB.
+|006:28:47|CDR|Hello, Houston; how do you read CDR?
+|006:28:52|CC|Read you loud and clear, Gene.
+|006:28:55|CDR|Okay.
+|006:29:31|LMP|Bob, LMP's going off the air for a little while.
+|006:29:34|CC|Roger, Jack.
+|006:29:39|LMP|It sounded like a sigh of relief.
+|006:29:41|CC|No, sir. Been enjoying listening to you; keeping - keep me awake down here.
+|006:29:48|LMP|You had a long day.
+|006:29:49|CC|Not as long as you've had.
+|006:29:52|LMP|I've just been lying around, floating around.
+|006:29:56|CC|You make it sound so good.
+|006:30:00|LMP|Piece of cake. I'll talk to you in a little while.
+|006:30:05|CC|Yes, sir.
+|006:33:26|PAO|This is Apollo Control at 6 hours 34 minutes. Apollo 17, now 26,553 nautical miles from Earth. Velocity 11,606 feet per second.
 ||||Tape 7/2|Page 79
-|006:40:31|CMP|Houston, Apollo 17.
-|006:40:31|CC|Go ahead, Ron.
-|006:40:31|CMP|Okay; we had another MASTER ALARM, and I just glanced up and it was the MAIN A UNDERVOLT light that was on, just for a second.
-|006:40:31|CC|Okay. Ron, we didn't see anything at all on MAIN A down here. We did have an ACCUMULATOR cycle again. Don't know if that ties in or not.
-|006:40:31|CMP|Well, the MAIN A UNDERVOLT - I just happened to be looking right at the panel and the MAIN A UNDERVOLT light blinked on for a second. And, of course, obviously, MAIN A is up now.
-|006:40:31|CC|Roger.
-|006:40:31|CC|Ron, Houston here. We've checked the back room and the high-speed charts and that and don't see any glitch on MAIN A at all on our data down here.
-|006:42:34|CMP|Okay, Bob.
-|007:10:28|CMP|Houston, 17. That was O2 FLOW HIGH.
-|007:10:28|CC|Roger. We copied that one. We saw it. Just about ready to call you when you called us Just now.
-|007:10:41|CMP|Okay. Mighty fine.
+|006:39:55|CMP|Houston, Apollo 17.
+|006:40:00|CC|Go ahead, Ron.
+|006:40:03|CMP|Okay; we had another MASTER ALARM, and I just glanced up and it was the MAIN A UNDERVOLT light that was on, just for a second.
+|006:40:18|CC|Okay. Ron, we didn't see anything at all on MAIN A down here. We did have an ACCUMULATOR cycle again. Don't know if that ties in or not.
+|006:40:28|CMP|Well, the MAIN A UNDERVOLT - I just happened to be looking right at the panel and the MAIN A UNDERVOLT light blinked on for a second. And, of course, obviously, MAIN A is up now.
+|006:40:45|CC|Roger.
+|006:41:45|CC|Ron, Houston here. We've checked the back room and the high-speed charts and that and don't see any glitch on MAIN A at all on our data down here.
+|006:41:57|CMP|Okay, Bob.
+|006:48:59|PAO|This is Apollo Control. It's 6 hours 49 minutes. Apollo 17 is 28,232 nautical miles from Earth; velocity 11,291 feet per second. We're continuing to operate at present on the normal GET of the flight plan, normal ground elapsed time. Under that schedule the crews rest period will begin about 9 hours and 15 minutes into the mission. If, however, the crew completes the activities that are scheduled in the flight plan early, the rest period will probably begin early if they so desire. However, at the present time we are continuing to operate on the GET of the flight plan. At 6 hours 50 minutes, this is Mission Control, Houston.
+|006:50:00|PAO|On the GET of the Flight Plan. At 6 hours 50 minutes, this is Mission Control, Houston.
+|||APOLLO 17 MISSION COMMENTARY 12/7/72, CST 6:35, GET 7:00, MC-80/1
+|007:06:58|PAO|This is Apollo Control at 7 hours 7 minutes. Apollo 17 has just passed the 30,000 mile mark on its journey to the Moon. Now, at 30,039 nautical miles, velocity continuing to decrease now 10,932 feet per second.
+|007:10:10|CMP|Houston, 17. That was O2 FLOW HIGH.
+|007:10:14|CC|Roger. We copied that one. We saw it. Just about ready to call you when you called us Just now.
+|007:10:23|CMP|Okay. Mighty fine.
+|007:14:51|PAO|This is Apollo Control at 7 hours 15 minutes. Astronaut Bob Parker is now relieving Astronaut Bob Overmyer at the CAPCOM console and the commander of the backup crew, Captain John Young, has just left the control room. He has been sitting at the CAPCOM console with Overmyer since returning from the Cape early this morning. So the next CAPCOM voice you will hear will be that of Bob Parker.
+|007:34:01|PAO|This is Apollo Control at 7 hours 34 minutes. Apollo 17 now 32,697 nautical miles from earth velocity 10,457 feet per second. The crew a little over midway in the scheduled meal period in the flight plan.
 ||||Tape 8/1|Page 80
-|007:10:41|CC|Roger. Go 17.
-|007:10:41|CMP|That little MASTER ALARM there, I can't be absolutely positive, but out of the corner of my eye, I think it was the SUIT COMPRESSOR light that glitched.
-|007:10:41|CC|Okay. We copy that. You - we believe down here it was the HIGH 02 FLOW.
-|007:10:41|CMP|Well, they're pretty close. I thought it was red and I thought, okay; that's good. That's the right time, I guess.
-|007:10:41|CC|Okay; because we'd just called it out. I was just read for you 5 seconds before you called me.
-|007:10:41|CMP|Very good, Doctor.
-|007:10:41|CC|Roger. And Tony is back in Houston on the console.
-|007:10:41|CMP|That's hard to believe. What are you doing back there? We're - we haven't even had time to go to sleep.
-|007:10:41|CC|Well, I tell you, it's a tale that's hard to believe. It's almost as miraculous as your escape from the pad tonight.
-|007:10:41|CMP|Did you enjoy the launch?
-|007:10:41|CC|Beautiful.
-|007:10:41|CMP|You've seen one night launch, you've seen them all. Huh, Parker?
-|007:52:54|CMP|We go to SCS. Okay.
-|007:52:54|CMP|Never know if it1s drifting up, but we'11 try it.
-|007:52:54|CMP|Dust whipping all over the place. The stars in there -
+|007:49:58|CMP|Houston, 17.
+|007:49:59|CC|Roger. Go 17.
+|007:50:03|CMP|That little MASTER ALARM there, I can't be absolutely positive, but out of the corner of my eye, I think it was the SUIT COMPRESSOR light that glitched.
+|007:50:15|CC|Okay. We copy that. You - we believe down here it was the HIGH 02 FLOW.
+|007:50:22|CMP|Well, they're pretty close. I thought it was red and I thought, okay; that's good. That's the right time, I guess.
+|007:50:29|CC|Okay; because we'd just called it out. I was just read for you 5 seconds before you called me.
+|007:50:36|CMP|Very good, Doctor.
+|007:50:39|CC|Roger. And Tony is back in Houston on the console.
+|007:50:42|CMP|That's hard to believe. What are you doing back there? We're - we haven't even had time to go to sleep.
+|007:50:46|CC|Well, I tell you, it's a tale that's hard to believe. It's almost as miraculous as your escape from the pad tonight.
+|007:51:06|CMP|Did you enjoy the launch?
+|007:51:08|CC|Beautiful.
+|007:51:20|CMP|You've seen one night launch, you've seen them all. Huh, Parker?
+|007:52:15|CMP|We go to SCS. Okay.
+|007:52:36|CMP|Never know if this is it or not but we'll try it.
+|007:52:52|CMP|Dust whipping all over the place. The stars in there -
 ||||Tape 8/2|Page 81
-|007:52:54|CMP|... Yes, let's do a little better now.
-|007:57:21|LMP|MARK. Bob, mag November November is 130 now. And I just took another set of Earth pictures.
-|007:57:21|CC|Okay. Copy that. November November at 130.
-|007:57:21|CMP|And, Houston, 17. You copying the torquing angles now?
-|007:57:21|CC|Roger. Stand by.
-|007:57:59|CC|Okay. We have them, and you're GO to torque them.
-|007:58:05|CMP|Okay. I'll torque it at 58:10.
-|007:59:38|CMP|... REFSMMAT.
-|007:59:38|CC|And, 17, we have a preferred REFSMMAT standing by if you want to give us ACCEPT, and we'll send it up before you do your second P52.
-|007:59:53|CMP|Okay, you have POO and ACCEPT now.
-|007:59:55|CC|Roger. Understand we have updata. It's coming in And, Ron, while we're sending it up to you, we'll also send you an update on the zero trunnion bias, as per the Flight Plan.
-|007:59:55|CMP|Okay. Mighty fine.
+|007:54:33|CMP|... Yes, let's do it a little better now.
+|007:56:44|LMP|... Bob, mag November November is 130 now. And I just took another set of Earth pictures.
+|007:56:57|CC|Okay. Copy that. November November at 130.
+|007:57:07|CMP|And, Houston, 17. You copying the torquing angles now?
+|007:57:15|CC|Roger. Stand by.
+|007:57:21|CC|Okay. We have them, and you're GO to torque them.
+|007:57:25|CMP|Okay. I'll torque it at 58:10.
+|007:57:58|PAO|This is Apollo Control at 7 hours 58 minutes. Ron Evans is realigning the inertial platform that was scheduled on the flight plan for 8 hours 15 minutes. That indicates that they are running 15 to 20 minutes ahead of the flight plan. Jack Schmitt is obviously taking some pictures. He gave Bob Parker a report on a film magazine that he was using.
+|007:59:01|CMP|... REFSMMAT.
+|007:59:04|CC|And, 17, we have a preferred REFSMMAT standing by if you want to give us ACCEPT, and we'll send it up before you do your second P52.
+|007:59:14|CMP|Okay, you have POO and ACCEPT now.
+|007:59:19|CC|Roger. Understand we have updata. It's coming in. And, Ron, while we're sending it up to you, we'll also send you an update on the zero trunnion bias, as per the Flight Plan.
+|007:59:37|CMP|Okay. Mighty fine.
 |007:59:55|CMP|Somewhere. There it goes.
 |007:59:55|CMP|There they are, right there.
 |008:03:15|CC|Okay, 17- Ron, you can go to BK)CK now. You've got your PTC REFSMMAT. You're free to do a P52 option 1, if you want. And, be advised we are suspicious from time to time you may have an open mike there.
