@@ -1304,203 +1304,218 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |007:59:14|CMP|Okay, you have POO and ACCEPT now.
 |007:59:19|CC|Roger. Understand we have updata. It's coming in. And, Ron, while we're sending it up to you, we'll also send you an update on the zero trunnion bias, as per the Flight Plan.
 |007:59:37|CMP|Okay. Mighty fine.
-|007:59:55|CMP|Somewhere. There it goes.
-|007:59:55|CMP|There they are, right there.
-|008:03:15|CC|Okay, 17- Ron, you can go to BK)CK now. You've got your PTC REFSMMAT. You're free to do a P52 option 1, if you want. And, be advised we are suspicious from time to time you may have an open mike there.
-|008:03:15|CMP|Okay. Thank you, Bob.
-|008:10:45|CMP|Okay, Houston. Those are the differences in the gyro torque and I'll torque it - oh, 11, I guess. Eight to 11.
+|008:00:09|CMP|Somewhere. There it goes.
+|008:00:32|CMP|There they are, right there.
+|008:02:36|CC|Okay, 17 - Ron, you can go to BLOCK now. You've got your PTC REFSMMAT. You're free to do a P52 option 1 if you want. And, be advised we are suspicious from time to time you may have an open mike there.
+|008:02:51|CMP|Okay. Thank you, Bob.
+|008:10:05|CMP|Okay, Houston. Those are the differences in the gyro torque and I'll torque it - oh, 11, I guess. Eight ... 11.
 ||||Tape 8/3|Page 82
-|008:10:45|CC|Okay. Copy that.
-|008:14:13|CC|Apollo 17, Houston. Over.
-|008:14:13|CDR|Go ahead.
-|008:14:13|CC|Roger. We've been discussing the question of what your sleep configuration is going to be in terms of headsets or not, particularly with reference to all of these various MASTER ALARMs. And I guess we'd feel better if one of you guys slept with his headset on. We were curious as to what your plans are?
-|008:14:13|CDR|Bob, since I've got to wear the biomed anyway, I might just as well go ahead and keep it on.
-|008:14:13|CC|Okay. The other option is for us, - if we were trying to get hold of you - is to put the Klaxon up. But we're a little - un-in-favor of that, because of the possibility of one of these spurious things waking everybody up that way.
-|008:14:13|CDR|Yes, I'll go ahead and keep it on and see how it works out for a while.
-|008:14:13|CC|Okay. We copy that. And, when you guys are ready, we have a couple of - we have three items to read up to you, three updates in the Flight Plan.
-|008:14:13|CMP|Okay. Go ahead, Bob.
-|008:15:34|CC|Okay. The first's in the Flight Plan itself, and it's the quads for the PTC spinup, and they'll be Alfa and Bravo.
-|008:15:34|CMP|Okay. For PTC spinup, quads Alfa and Bravo.
-|008:16:06|CC|All right, we just took that back. It should be Bravo and Delta for spinup; Alfa and Bravo only for damping. Copy Bravo and Delta for spinup; Alfa and Bravo for damping.
-|008:17:45|CC|And, 17, if you have that, I have two others. One in the Flight Plan Supplement Book, and the other one is in the G&C Checklist.
+|008:10:14|CC|Okay. Copy that.
+|008:12:07|PAO|This is Apollo Control at 8 hours 12 minutes. Apollo 17 now 36,353 nautical miles from Earth, velocity 9,878 feet per second.
+|008:13:32|CC|Apollo 17, Houston. Over.
+|008:13:35|CDR|Go ahead.
+|008:13:37|CC|Roger. We've been discussing the question of what your sleep configuration is going to be in terms of headsets or not, particularly with reference to all of these various MASTER ALARMs. And I guess we'd feel better if one of you guys slept with his headset on. We were curious as to what your plans are.
+|008:14:01|CDR|Bob, since I've got to wear the biomed anyway, I might just as well go ahead and keep it on.
+|008:14:07|CC|Okay. The other option is for us, if we were trying to get hold of you, is to put the Klaxon up. But we're a little - un-in-favor of that, because of the possibility of one of these spurious things waking everybody up that way.
+|008:14:22|CDR|Yes, I'll go ahead and keep it on and see how it works out for a while.
+|008:14:27|CC|Okay. We copy that. And, when you guys are ready, we have a couple of - we have three items to read up to you, three updates in the Flight Plan.
+|008:14:52|CMP|Okay. Go ahead, Bob.
+|008:14:53|CC|Okay. The first's in the Flight Plan itself, and it's the quads for the PTC spinup, and they'll be Alfa and Bravo.
+|008:15:19|CMP|Okay. For PTC spinup, quads Alfa and Bravo.
+|008:15:24|CC|All right, we just took that back. It should be Bravo and Delta for spinup; Alfa and Bravo only for damping. Copy Bravo and Delta for spinup; Alfa and Bravo for damping.
+|008:17:04|CC|And, 17, if you have that, I have two others. One's the Flight Plan Supplement Book, and the other one is in the G&C Checklist.
 ||||Tape 8/4|Page 83
-|008:17:45|CMP|Okay. Go with the Supplement.
-|008:17:45|CC|Okay. In the Flight Plan Supplement, we have an E-LOAD update on page 1-43. Okay; 1-43 - give me a call when you get to that page.
-|008:17:45|CMP|Okay, Bob. I'm there.
-|008:18:23|CC|Okay. Under line - it's 307 04, column Bravo -you'll find currently 33550. And let me give you a word of warning. When we change this, we'll be changing it again around 67 hours. These are primarily due to the launch delay. And we'll give you another GET update of this sort later on. The new number to replace 3 - -
-|008:18:23|CMP|Bob--
-|008:18:23|CC|Go ahead.
-|008:18:23|CMP|Let me get a pencil, please.
-|008:18:23|CC|Okay.
-|008:18:23|CMP|I'll use that instead of a pen.
-|008:18:23|CC|Okay.
-|008:18:23|CMP|Go ahead.
-|008:20:03|CC|Okay. Under - Again, I remind you, 307 04 column Bravo, which was 33550, is now 34761. The line just below it, which is 05, also in column Bravo, is 15403. Over.
-|008:20:03|CMP|Okay, Bob. For 30704 Bravo, 34761; and for 310 05 Bravo, 15403.
-|008:20:03|CC|Okay. Very good. The next one is in the G&C Checklist under the P37 block data. And to help you find it, that's on page 4-23-
-|008:20:03|CMP|Okay. Go ahead.
-|008:21:20|CC|Okay. On the lift-off plus 15, be the first block. It's 015:00, 3893, minus 174, 057:56. The second block for lift-off plus 25 is 05 - Pardon me, start over again there; 025:00, 6651, minus 175, 057:25. Over.
+|008:17:16|CMP|Okay. Go with the Supplement.
+|008:17:18|CC|Okay. In the Flight Plan Supplement, we have an E-LOAD update on page 1-43. Say; 1-43 - can give me a call when you get to that page?
+|008:17:42|CMP|Okay, Bob. I'm there.
+|008:17:44|CC|Okay. Under line - it's 30704, column Bravo - you'll find currently 33550. And let me give you a word of warning. When we change this, we'll be changing it again around 67 hours. These are primarily due to the launch delay. And we'll give you another GET update of this sort later on. The new number to replace 3 - -
+|008:18:15|CMP|Bob--
+|008:18:15|CC|Go ahead.
+|008:18:17|CMP|Let me get a pencil, please.
+|008:18:17|CC|Okay.
+|008:18:18|CMP|I'll use that instead of a pen.
+|008:18:20|CC|Okay.
+|008:19:21|CMP|Go ahead.
+|008:19:22|CC|Okay. Under - Again, I remind you, 30704 column Bravo, which was 33550, is now 34761. The line just below it, which is 05, also in column Bravo, is 15403. Over.
+|008:19:51|CMP|Okay, Bob. For 30704 Bravo, 34761; and for 31005 Bravo, 15403.
+|008:20:04|CC|Okay. Very good. And the next one is in the G&C Checklist under the P37 block data. And to help you find it, that's on page 4-23.
+|008:20:39|CMP|Okay. Go ahead.
+|008:20:41|CC|Okay. On the lift-off plus 15, be the first block. It's 01500, 3893, minus 174, 05756. The second block for lift-off plus 25 is 05 - Pardon me, start over again there; 02500, 6651, minus 175, 05725. Over.
 ||||Tape 8/5|Page 84
-|008:21:20|CMP|Okay, Houston; Apollo 17. First one would be 015:00, a DELTA-V of 3893, minus 174, and GET^^ is 057:56. The other one is T. of 025:00, DELTA-V of 6651, longitude of minus 1751 GET of 400K is 057:25-
-|008:21:20|CC|Roger. Good readback.
-|008:23:13|LMP|Okay, Bob. This is Jack. I'm going to be moving into the presleep checklist here. Are there any things you want to change or alter in that? Are you ready for the waste - waste stowage vent to be closed?
-|008:23:30|CC|Roger, 17. We're ready for the vent valve to go closed. WASTE STOWAGE VENT to CLOSED. And we have no anticipated changes, at the present time, in the Flight Plan, Jack.
-|008:23:30|LMP|Okay, I'm just looking at 1-29 in the presleep checklist and - wondering if there was anything there.
-|008:23:30|CC|Stand by, Jack.
-|008:24:43|CC|Okay, 17. For antenna management tonight, we'd like you to select OMNI Bravo at the current time, and stow the high-gain antenna. And we'll take care of managing our antennas from here on.
-|008:24:43|CMP|Okay. We'll give you OMNI Bravo and stow the high-gain.
-|008:24:43|CC|Okay.
-|008:24:43|CC|And, Jack, we indeed do not have anything to add to the presleep checklist tonight.
-|008:24:43|LMP|Okay.
-|008:25:56|LMP|And - with your concurrence, I'll take the H FANS all to AUTO now.
+|008:21:37|CMP|Okay, Houston; Apollo 17. First one would be 01500, a DELTA-V of 3893, minus 174, and GET 400 K is 05756. The other one is Tig of 02500, DELTA-V of 6651, longitude of minus 175. GET of 400K is 05725.
+|008:22:14|CC|Roger. Good readback.
+|008:22:32|LMP|Okay, Bob. This is Jack. I'm going to be moving into the pre-sleep checklist here. Are there any things you want to change or alter in that? Are you ready for the waste - waste stowage vent to be closed?
+|008:22:49|CC|Roger, 17. We're ready for the vent valve to go closed. WASTE STOWAGE VENT to CLOSED. And we have no anticipated changes, at the present time, in the Flight Plan, Jack.
+|008:23:05|LMP|Okay, I'm just looking at 1-29 in the pre-sleep checklist and - wondering if there was anything there.
+|008:23:19|CC|Stand by, Jack.
+|008:24:00|CC|Okay, 17. For antenna management tonight we'd like you to select OMNI Bravo at the current time, and stow the high-gain antenna. And we'll take care of managing our antennas from here on.
+|008:24:19|CMP|Okay. We'll give you OMNI Bravo and stow the high-gain.
+|008:24:25|CC|Okay.
+|008:24:53|CC|And, Jack, we indeed do not have anything to add to the presleep checklist tonight.
+|008:25:06|LMP|Okay.
+|008:25:14|LMP|And - with your concurrence, I'll take the H2 FANS all to AUTO now.
 ||||Tape 8/6|Page 85
-|008:25:56|CC|Stand by.
-|008:26:07|CC|Roger. We're ready for that. All to AUTO.
-|008:27:10|CC|Okay, Jack. I guess that you - we're not quite sure what you said or meant there - or what - what it is. In the Flight Plan itself, we want H2 HEATERS 1 and 2 to AUTO, and we want FANS, on tank 3 only, to AUTO. They're three there for Hg tank 3.
-|008:27:10|LMP|Okay. You're teaching me to read carefully early, aren't you?
-|008:27:10|CC|We're trying. The 1 and 2 HEATERS will be in AUTO and 3 FAN will be in AUTO.
-|008:27:46|LMP|That's the way it is now, and consider the fans have been cycled.
-|008:27:46|CC|Roger.
-|008:27:46|LMP|According to the checklist, you might look at the third line on 1-29, and look at the H2 line on the Flight Plan, and see why I was confused.
-|008:27:46|CC|Roger. We were just discussing whether or not there was a fan or fans in each tank.
-|008:27:46|LMP|That ought to keep you awake this morning.
-|008:27:46|CC|Going to take something.
-|008:27:46|LMP|What I was really trying to do, Bob, was get out of chlorinating the potable water, but you wouldn't bite.
-|008:27:46|CC|Apollo 17, Houston. Over, Jack.
-|008:27:46|LMP|Go ahead. Over, Bob.
-|008:31:33|CC|Okay. We're going to give you a little high-gain antenna practice here. We'd like to pick up with the high-gain antenna again so that we can get your PTC or can watch your PTC develop. We'd like you to go to a PITCH of 40 and YAW of 275 on the HIGH GAIN. That's 40, PITCH: 275, YAW; and MANUAL and WIDE. Over.
+|008:25:22|CC|Stand by.
+|008:25:26|CC|Roger. We're ready for that. All to AUTO.
+|008:26:28|CC|Okay, Jack. I guess that you - we're not quite sure what you said or meant there - or what - what it is. In the Flight Plan itself, we want H2 HEATERS 1 and 2 to AUTO, and we want H2 FANS, on tank 3 only, to AUTO. They're three there for H2 tank 3.
+|008:26:53|LMP|Okay. You're teaching me to read carefully early, aren't you?
+|008:26:57|CC|We're trying. The 1 and 2 HEATERS will be in AUTO and 3 FAN will be in AUTO.
+|008:27:04|LMP|That's the way it is now, and consider the fans have been cycled.
+|008:27:08|CC|Roger.
+|008:27:12|LMP|According to the checklist, you might look at the third line on 1-29, and look at the H2 line on the Flight Plan, and see why I was confused.
+|008:27:37|CC|Roger. We were just discussing whether or not there was a fan or fans in each tank.
+|008:27:44|LMP|That ought to keep you awake this morning.
+|008:27:47|CC|Going to take something.
+|008:27:54|LMP|What I was really trying to do, Bob, was get out of chlorinating the potable water, but you wouldn't bite.
+|008:28:14|PAO|This is Apollo Control at 8 hours 28 minutes. Apollo 17 now 37,832 nautical miles from Earth; velocity 9,667 feet per second. Apollo 17 crew in the period now in the flight plan where they're making preparations for their rest period. Getting the systems in the proper configuration for a sleep period. The spacecraft has been maneuvered to the passive thermal control or PTC mode - attitude, rather. And just prior to the rest period the crew will spin up the spacecraft for thermal control during the rest period. The spin rate will be slow or approximately 3 revolutions of the spacecraft per hour but it will keep the thermal balance on the spacecraft. At 8 hours 30 minutes, this is Mission Control, Houston.
+|008:30:43|CC|Apollo 17, Houston. Over, Jack.
+|008:30:48|LMP|Go ahead. Over, Bob.
+|008:30:50|CC|Okay. We're going to give you a little high-gain antenna practice here. We'd like to pick up with the high-gain antenna again so that we can get your PTC or can watch your PTC develop. We'd like you to go to a PITCH of 40 and YAW of 275 on the HIGH GAIN. That's 40, PITCH: 275, YAW; and MANUAL and WIDE. Over.
 ||||Tape 8/7|Page 86
-|008:31:33|LMP|Okay. You want the higji gain selected, I presume.
-|008:31:33|CC|That helps, yes.
-|008:32:15|LMP|You got it.
-|008:32:15|CC|Roger. Our apology.
-|008:32:15|LMP|Oh, I don't expect that'll be the last time you have to apologize. I think we're running about even now.
-|008:32:15|LMP|You're missing quite a view, Bob. Sorry you're not here.
-|008:32:15|CC|That makes two of us. White just said; "That makes three of us."
-|008:32:15|LMP|What are you trying to tell me?
-|008:32:15|CC|Look out.
-|008:32:15|LMP|Who's your friend off on your right, tonight?
-|008:32:15|CC|Wally Moon, would you believe?
-|008:32:15|LMP|Say again?
-|008:32:15|CC|Wally Moon.
-|008:32:15|LMP|Oh, a Moon, huh? Why don't you ask him what he's reading at H2 tank 3 quantity?
-|008:32:15|CC|Okay. I'm asking him.
-|008:32:15|LMP|In percent.
-|008:34:05|CC|Okay, 17. On tanks 3 of H2, we're reading 84.38.
-|008:34:13|LMP|Okay, it looks like we're reading almost the same nowadays.
-|008:34:13|CC|Good.
+|008:31:27|LMP|Okay. You want the high gain selected, I presume.
+|008:31:29|CC|That helps, yes.
+|008:31:33|LMP|You got it.
+|008:31:35|CC|Roger. Our apologies.
+|008:31:44|LMP|Oh, I don't expect that'll be the last time you have to apologize. I think we're running about even now.
+|008:32:06|LMP|You're missing quite a view, Bob. Sorry you're not here.
+|008:32:12|CC|That makes two of us. White just said, "That makes three of us."
+|008:32:31|LMP|What are you trying to tell me?
+|008:32:36|CC|Look out.
+|008:32:39|LMP|Who's your friend off on your right, tonight?
+|008:32:45|CC|Wally Moon, would you believe?
+|008:32:50|LMP|Say again?
+|008:32:51|CC|Wally Moon.
+|008:32:52|LMP|Oh, a Moon, huh? Why don't you ask him what he's reading at H2 tank 3 quantity?
+|008:33:05|CC|Okay. I'm asking him.
+|008:33:16|LMP|In percent.
+|008:33:21|CC|Okay, 17. On tanks 3 of H2, we're reading 84.38.
+|008:33:30|LMP|Okay, it looks like we're reading almost the same nowadays.
+|008:33:37|CC|That's Good.
 ||||Tape 8/8|Page 87
-|008:34:13|LMP|I thought we launched a little bias, but I guess that's gone now. We're a little higher than that.
-|008:36:09|CC|And, 17, Houston. We're seeing your rates are quite low enough to start the spinup to PTC.
-|008:36:09|CMP|Okay. We'll see if we can't get it right this time.
-|008:36:09|CMP|Houston, 17.
-|008:36:09|CC|Go ahead, 17.
-|008:36:09|CMP|Does it make any difference with the plus or minus roll there with the - now that you are going to use the high gain?
-|008:36:09|CC|Okay. Well, the Flight Plan says minus roll, why don't we do it that way?
-|008:36:09|CMP|Oh, okay.
-|008:38:59|CC|And after you start the roll, 17, we'd like to go back to OMNI Bravo and stow the high gain.
-|008:38:59|CMP|Okay.
-|008:38:59|CC|We only needed the high gain to just keep a good check on your rates.
-|008:38:59|CC|And, 17, that means stow the high gain after you -after the startup. We'd like to watch the startup itself.
-|008:38:59|CMP|Okay. I was just going to ask you when.
-|008:42:18|CC|Okay, 17- We're ready for high gain to stow and select OMNI Bravo.
-|008:42:18|CMP|Okay.
+|008:33:39|LMP|I thought we launched a little bias, but I guess that's gone now. We're a little higher than that.
+|008:35:27|CC|And, 17, Houston. We're seeing your rates are quite low enough to start the spinup to PTC.
+|008:35:45|CMP|Okay. We'll see if we can't get it right this time.
+|008:38:35|CMP|Houston, 17.
+|008:38:36|CC|Go ahead, 17.
+|008:38:38|CMP|Does it make any difference with the plus or minus roll there with the - now that you are going to use the high gain?
+|008:38:51|CC|Okay. Well, the Flight Plan says minus roll, why don't we do it that way?
+|008:38:58|CMP|Oh, okay.
+|008:39:01|CC|And after you start the roll, 17, we'd like to go back to OMNI Bravo and stow the high gain.
+|008:39:09|CMP|Okay.
+|008:39:11|CC|We only needed the high gain to just keep a good check on your rates.
+|008:39:32|CC|And, 17, that means stow the high gain after you - after the startup. We'd like to watch the startup itself.
+|008:39:40|CMP|Okay. I was just going to ask you when.
+|008:42:20|CC|Okay, 17 - We're ready for high gain to stow and select OMNI Bravo.
+|008:42:29|CMP|Okay.
 |008:49:35|CC|17, Houston. We gather you're ready for sleep, almost. One thing we'd like to check at the end here is your O2 heater configuration. Over.
-|008:49:35|CMP|Okay. Go ahead, Bob .
-|008:49:35|CC|Roger. Can you give us your 0 heater configuration?
+|008:49:48|CMP|Okay. Go ahead, Bob .
+|008:49:50|CC|Roger. Can you give us your O2 heater configuration?
 ||||Tape 8/9|Page 88
-|008:49:35|CMP|Okay. We've got 1 and 2 in AUTO, and 3 is OFF.
-|008:49:35|CC|Okay. We'd like those per the Flight Plan; 1 and 2 to OFF, and 3 to AUTO.
-|008:50:09|CMP|Okay; 1 and 2 to OFF and 3 to AUTO.
-|008:50:09|CC|Okay. And do you have a final change or update on the film status - beyond that 130 that Jack gave us?
-|008:50:19|CMP|Stand by 1.
+|008:49:54|CMP|Okay. We've got 1 and 2 in AUTO, and 3 is OFF.
+|008:50:00|CC|Okay. We'd like those per the Flight Plan; 1 and 2 to OFF, and 3 to AUTO.
+|008:50:08|CMP|Okay; 1 and 2 to OFF and 3 to AUTO.
+|008:50:12|CC|Okay. And do you have a final change or update on the film status - beyond that 130 that Jack gave us?
+|008:50:21|CMP|Stand by 1.
+|008:55:05|PAO|This is Apollo Control at 8 hours 55 minutes. As the crew of Apollo 17 prepares for a 5-3/4 hours rest period, the spacecraft is 40,165 nautical miles from earth velocity 9,349 feet per second.
+|008:58:04|CC||And, 17, your PTC is looking real good so far.
 ||||Tape 9/1|Page 89
-|008:50:19|CDR|Okay. That number on that mag is still 130, Bob.
-|008:50:19|CC|Okay. I copy that, Gene.
-|008:50:19|CDR|And Alfa Alfa, that l6-millimeter mag, is about 25 percent left.
-|008:50:19|CC|Okay; copy that as well.
-|008:50:19|CC|And I guess as soon as you change the LiOH canister, if you have or haven't, and charge BATTERY Bravo, then we're ready for you to sleep at your leisure. Configuring your comm, remember the SQUELCH, ENABLE, and the VOICE, OFF, when you get ready to go to sleep.
+|008:58:10|CDR|Okay. That number on that mag is still 130, Bob.
+|008:58:13|CC|Okay. I copy that, Gene.
+|008:58:16|CDR|And Alfa Alfa, that l6-millimeter mag, is about 25 percent left.
+|008:58:23|CC|Okay; copy that as well.
+|008:58:35|CC|And I guess as soon as you change the LiOH canister, if you have or haven't, and charge BATTERY Bravo, then we're ready for you to go to sleep at your leisure. Configuring your comm, remember the SQUELCH, ENABLE, and the VOICE, OFF, when you get ready to go to sleep.
 |008:59:31|CC|Roger, Apollo 17. We copy the film update, and we're ready for you to go to sleep once you've got the LiOH canister changed, if you haven't. And remember also the charge on brady - BATTERY Bravo. After that, it's just the comm configuration, SQUELCH, ENABLE, and VOICE, OFF, when you get ready to go to sleep.
-|008:59:31|CDR|Roger. You cut in and out. Stand by. We'll talk to you in a minute.
-|008:59:31|CC|Okay, I think we're losing an omni here. APOLLO 17 AIR-TO-GROUND VOICE TRANSCRIPTION
+|008:59:31|CDR|Bob, You're cut in and out. Stand by. We'll talk to you in a minute.
+|009:00:00|CC|Okay, I think we're losing an omni here. 
 ||||Tapes 10-12/1|Page 90
-|008:59:31||REST PERIOD - NO COMMUNICATIONS
+|009:00:01||REST PERIOD - NO COMMUNICATIONS
+|009:12:33|PAO|This is Apollo Control at 9 hours, 12 minutes. Apollo 17 now, 41,677 nautical miles from Earth, velocity 9,159 feet per second. The spacecraft has stabilized into a passive thermal control mode now. It is completing one revolution every 18 minutes.
+|009:25:58|PAO|This is Apollo Control at 9 hours 26 minutes. The Booster Systems Engineer has advised Flight Director Pete Frank that a second midcourse correction for the S-IVB, the third stage of the launch vehicle will be required. This maneuver is performed with the auxiliary propulsion system of the S-IVB, and the Booster Systems Engineer will command this burn at 11 hours 15 minutes ground elapsed time. The magnitude of the burn is not known at this time. That will be determined shortly before the midcourse is performed. The purpose is to tune up the trajectory to more precisely target the S-IVB stage to the desired impact point on the lunar surface. Tracking to this point of the spacecraft indicates that a midcourse correction will probably be performed for the spacecraft at the scheduled midcourse number 2 time at 35 hours and 30 minutes. A preliminary look - that's a very early look shows it to be about 10-1/2 feet per second, but that will be refined as we get closer to the time. At 9 hours 27 minutes, this is Mission Control Houston.
+|009:30:44|PAO|This is Apollo Control at 9 hours 30 minutes. We have had no voice communications with the crew for some time now. But we do have indications that they have not yet fully configured the spacecraft for their rest period. Normally the voice switch is turned off the last step before the rest period. That voice switch is still on. Apollo 17 now 43,261 nautical miles away from Earth, velocity 8,964 feet per second.
+|009:48:02|PAO|This is Apollo Control at 9 hours 48 minutes. From the data that he is receiving, the Flight Surgeon, Dr. Sam Pool, reports that he believes the spacecraft Commander Gene Cernan is asleep. Cernan is the only member of the crew who is wearing the biomedical harness during the rest period, and therefore, is the only one that the flight surgeon is getting measurements on. But the indications are that Cernan is asleep and apparently the entire crew has gone to sleep. Apollo 17 now 44,749 nautical miles from Earth. Velocity 8,794 feet per second. The awake clock as operating in the Control Center shows wake up for the crew in 5 hours 10 minutes 37 seconds.
+|009:58:55|PAO|This is Apolio Control at 9 hours 59 minutes. The Flight Dynamics Officer, Bill Boone, has computed the half way marks for the spacecraft in both time and distance. We'll give those to you now. Apollo 17 will reach the half way point in distance at a ground elapsed time of 30 hours 3 minutes. Its distance from both the Moon and the Earth at that time will be 114,787 nautical miles. Its velocity, referenced to the Earth, will be 4,522 feet per second; referenced to the Moon, 3,826 feet per second. The half way mark in time will be reached at a ground elapsed time of 43 hours 8 minutes 6 seconds. At that time Apollo 17 will be 144,924 miles from the Earth, with an Earth reference to velocity of 3,551 feet per second. And it will be 87,561 nautical miles from the Moon, with a Moon referenced velocity of 3,403 feet per second. Apollo 17 will cross the lunar sphere of influence at the ground elapsed time of 70 hours 43 minutes 24 seconds, at which time it will be 190,725 nautical miles from the Moon. Earth referenced velocity 2,340 feet per second. Distance from the Moon at that time, 33,639 nautical miles, with the lunar referenced velocity of 3,356 feet per second. At 10 hours 1 minute into the mission, this is Mission Control Houston.
+|010:29:37|PAO|This is Apollo Control at 10 hours 29 minutes. Apollo 17 now, 48,070 nautical miles from Earth, velocity 8,434 feet per second. Pete Frank and the orange team of flight controllers getting ready to hand over to Jerry Griffin and his gold team of flight controllers at this time. Astronaut Bob Parker will remain as the CAPCOM for a good deal of this next shift. Several spurrious master alarms that were seen while the spacecraft was still in Earth orbit are as yet unexplained. There are no obvious reasons for them. The spacecraft experts in the back rooms, the support rooms here at the Mission Control Center are still tracking this situation. It's not considered a serious problem. The more recent master alarms that have occurred during this shift and during the translunar coast phase after Apollo 17 burned translunar insertion, are attributed to a higher than normal oxygen flow at regular intervals in the cabin. The cabin is still being purged of the partial nitrogen atmosphere that it contained at launch that is being purged, a vent valve is open in the cabin and the higher than normal O2-rate has been introduced to help purge the cabin. Now, added to that when the water accumulator in the suit circuit cycles, there is a brief increase of oxygen flow over and above the higher than normal flow that we are using to purge the cabin. And this is just high enough to when the water accumulator cycles it brings it up just high enough to trigger the master alarm. It is not a problem. The last three or four master alarms that we have seen are attributed to this. However, the Earth orbit master alarms are not yet accounted for. But, they are not considered to be a serious problem. During this shift a midcourse correction number 1 was performed on the SIV-B stage of the launch vehicle, 13 feet per second performed with the auxilary propulsion system. A second midcourse for that third stage of launch vehicle is planned at a ground elapsed time of 11 hours 15 minutes. The magnitude of the burn is not - is not yet known. These midcourses are to tune up the trajectory of that stage, to bring it closer to the desired impact point on the lunar surface. As far as the spacecraft is concerned midcourse correction number 1 was passed. We did not perform midcourse correction number 1. The magnitude at that time was less than 3 feet per second. We will probably perform a midcourse correction number 2 at 35 hours and 30 minutes. A preliminary look at that indicates about a 10-1/2 foot per second burn at that time. The Mission is going well. We have not heard from the crew for some time now and are confident that they are asleep. The spacecraft is in passive thermal-contro1 mode, stabilized in 1 revolution every 18 minutes, approximately 3 per hour. The crew is scheduled to be awakened 4 hours, 24 minutes from this time. At 10 hours 35 minutes into the Mission, this is Mission Control, Houston.
+|11:27:00|PAO|This is Apollo Control at 11 hours 27 minutes ground elapsed time into the mission of Apollo 17. Approximately 11 minutes ago, as you were 6 minutes ago, the S-IVB corrective burn was performed roughly 14.2 feet per second to modify the trajectory of the S-IVB third stage in the Saturn V, targeting for impact just west of the crater Ptolemaeus at latitude 7 degrees south by longitude 8 degrees west. However, the actual impact location and the time of impact will be forthcoming after some additional hours of tracking of the stage has been gathered. We're looking now at a midcourse correction burn number 2 of the Apollo 17 spacecraft at 35 hours 30 minutes, with a change in velocity - a posigrade of 10.5 feet per second. Some 3-1/2 hours remaining in the crew rest period. All three apparently sound asleep at this time. And the passive thermal control mode puts the spacecraft at spinning at some 3 revolutions per hour. To repeat earlier statistics on half way in distance, time, and when the so-called sphere of influence is crossed will be at the half way point in distance at 30 hours and 3 minutes ground elapsed time, in which time it will be 114,787 nautical miles either direction to the Earth or Moon. And a half way point in time will occur at 43 hours 8 minutes and 6 seconds when the spacecraft will be 144,924 nautical miles out from Earth; and 87,561 nautical miles out from the Moon. The so-called sphere crossing, or the point in which the spacecraft is assumed to come under the gravitational influence of the Moon, will take place at 70 hours 43 minutes 24 seconds when the spacecraft is 33,639 nautical miles out from the Moon and approaching. The air/ground circuit has been up all of this time since the crew has retired for a fairly brief rest period, and at this time we will take down the air/ground circuit until the wakeup call is made some 3 hours 29 minutes from now. And at 11 hours 30 minutes ground elapsed time, this is Apollo Control.
+|012:27:00|PAO|This is Apollo Control at 12 hours 27 minutes ground elapsed time into the mission of Apollo 17. And Apollo 17 at the present time is 56,948 nautical miles out from earth at a velocity of 7,609 feet per second. A short time ago the Booster Systems Engineer Frank Van Renseler reported that after the final APS burn in the S-IVB stage, which is targeting the stage to impact on the Moon, he reported that the S-IVB stage was tumbling intentionally, after that burn, and as he gathered up all his documents and packed his briefcase, he, on the flight directors loop, he said, "I've enjoyed working with you on the Apollo program." Flight Director in training Neil Hutchinson replied "It's been nice riding with you." The riding implication being that they were riding on his launch vehicle. Van Renseler is a Marshall Spaceflight Center Engineer detailed to the Flight Control Division here at Manned Spacecraft Center. Van Rensleser finished his job for the last time. He packed his launch vehicle documents and left the room. The booster systems console is vacant for the final time in Apollo. Some 2-1/2 hours remaining in the crew sleep period. No word from the crew. They have not talked to the ground nor vice versa in the last several hours and at 12 hours 29 minutes this is Apollo Control.
+|013:27:00|PAO|This is Apollo Control 13 hours, 27 minutes ground elapsed time into the mission of Apollo 17. The spacecraft presently is 61,186 nautical miles out from the Earth, decelerating slightly in its velocity now 7,272 feet per second. Crew has another hour and a half of sleep period remaining. They will be awakened about 2:30 Central Time. This is a rather short sleep period slightly under 6 hours, the object being to get the crew back on to Houston time day-night cycle eventually. The cycle is disturbed somewhat by the, - initially what would have been a night launch, and ended up being a morning launch - early morning launch - at least by Cape time. Got a hand over to the Goldstone 210-foot tracking antenna, about 8 minutes ago. And that station at the present time is handling spacecraft data, and when the crew awakens will handle the voice transmissions between the Control Center and the Crew of Apollo 17. At 13 hours, 28 minutes ground elapsed time this is Apollo Control.
+|014:27:00|PAO|This is Apollo Control at 14 hours 27 minutes ground elapsed time into the mission of Apollo 17. Slightly more than a half hour remaining until spacecraft communicator, Robert Parker, wakes the crew of Apollo 17 up after a brief 6 hour rest period. Apollo 17 presently 65,273 nautical miles out from earth; velocity now 6,974 feet per second. And getting back on schedule with Apollo 17 because of the late liftoff and the hold situation early this morning. The translunar injection burn was targeted to get the spacecraft at the moon or into lunar orbit at about the same actual time as it would have had we launched on time - at 8:53 PM last night central time. However, to get the flight plan back on the actual indicated ground elapsed times shown in the flight plan at approximately 64 hours they're going to have what is called a GET update some 2 hours and 40 minutes to force the event times in the flight plan to agree with actual ground elapsed times flown in the mission. We'll come up again in about a half hour as Parker makes his initial wake up call to the crew and at 14 hours 29 minutes, this is Apollo Control.
+|014:57:53|PAO|This is Apollo Control 14 hours 57 minutes ground elapsed time into the mission of Apollo 17. A 2 minutes mark remaining in the crew waken - wake period or sleep period before the crew is awakened. Spacecraft communicator, Bob Parker, should be calling them shortly and we'll stand by for that first wake up call. Rather slack day as far as crew activity today. After their post-sleep checklist checking over the systems. The flight director just advised the CAPCOM to hold off on the wake call until they switch antennas. There's some P-23 navigation sightings that will be run today, and that apparently is about all the activity scheduled during the - this work period. However, there will be at 35 hours and 30 minutes a midcourse correction number 2, which this time looks like about 10 and a half feet per second. Apollo 17 now is 67,365 nautical miles out from the Earth; velocity 6,829 feet per second. Spacecraft communicator, Bob Parker, has been joined at the CAPCOM console by backup Apollo 17 commander, John Young, and his relief CAPCOM, Gordon Fullerton. Standing by for the antenna arrangement to be sorted out. Spacecraft at this time, is still in the barbeque roll or passive thermal control mode, three revolutions per hour to stabilize the temperatures on spacecraft systems. They'll open up the air-ground circuit for the first call when it does come. At 15 hours and 1 minute, this Apollo Control.
+|015:02:47|CC||Here we go. Apollo 17, Houston. Good morning.
 ||||Tape 13/1|Page 91
-|
-|008:59:31|CDR|Hello, Robert.
-|008:59:31|CC|Glad to have you with us again. You guys got a good night's sleep, we think.
-|008:59:31|CDR|Well, I'll tell you, it was (laughter) looked forward to.
-|008:59:31|CDR|Give us a few minutes here and we'll - get operational.
-|008:59:31|CC|Roger. Give us a call when you're ready to talk to people.
-|008:59:31|CDR|Okay.
+|015:03:09|CDR|Hello, Robert.
+|015:03:11|CC|Glad to have you with us again. You guys got a good night's sleep, we think.
+|015:03:16|CDR|Well, I'll tell you, it was (laughter) looked forward to.
+|015:03:31|CDR|Give us a few minutes here and we'll - get operational.
+|015:03:41|CC|Roger. Give us a call when you're ready to talk to people.
+|015:03:48|CDR|Okay.
 |015:09:44|CDR|Yes, from the looks of things, Bob, down there, it looks like getting off last night was a good idea.
-|015:09:44|CC|Got a new CAP COM now, Geno. Why? Looks kind of cloudy down there?
-|015:09:44|CDR|Yes. Hello, Gordo. How you doing? Yes, I'm looking - oh, we're probably directly over - just west of the - out in the Pacific, but abeam of the bottom third of South America, I suppose. And I've got North America, Mexico, and the U.S. on the top third - the top 25 percent of the Earth. And it looks like you've got cloud cover from somewhere where the coast bends around Corpus right on north into the Great Lakes and is completely out into the Atlantic, including covering Florida out there.
-|015:09:44|CC|Roger. I can verify the part between the Cape and Houston, anyway.
-|015:09:44|CDR|Yes, the Gulf looks like it's pretty well filled with clouds. Looks pretty thick from here.
-|015:09:44|CC|Roger.
+|015:09:55|CC|Got a new CAPCOM now, Geno. Why? Looks kind of cloudy down there?
+|015:10:01|CDR|Yes. Hello, Gordo. How you doing? Yes, I'm looking - oh, we're probably directly over - just west of the - out in the Pacific, but abeam of the bottom third of South America, I suppose. And I've got North America, Mexico, and the U.S. on the top third - the top 25 percent of the Earth. And it looks like you've got cloud cover from somewhere where the coast bends around Corpus right on north into the Great Lakes and is completely out into the Atlantic, including covering Florida out there.
+|015:10:43|CC|Roger. I can verify the part between the Cape and Houston, anyway.
+|015:10:57|CDR|Yes, the Gulf looks like it's pretty well filled with clouds. Looks pretty thick from here.
+|015:11:03|CC|Roger.
 ||||Tape 13/2|Page 92
-|015:09:44|CDR|However, if you're interested in going to South America, the whole continent looks - looks pretty good. A few clouds; but, for the most part, you can see the entire continent.
-|015:09:44|CC|Roger. Guess it's summertime down there.
-|015:09:44|CDR|Okay, Gordo. We're - we're stirring slowly. We'll get back with you here.
-|015:09:44|CC|Okay.
-|015:09:44|CDR|Gordo, one question. How does the spacecraft look to you? I didn't hear anything all night long as far as any MASTER ALARMs or anything.
-|015:09:44|CC|I'm getting the word that nothing was seen here either. It looks absolutely super.
-|015:09:44|CDR|Very good.
-|015:15:26|CDR|Okay, Bob - or Gordo, I've got H2 HEATERS 1 and 2, OFF, now.
+|015:11:07|CDR|However, if you're interested in going to South America, the whole continent looks - looks pretty good. A few clouds; but, for the most part, you can see the entire continent.
+|015:11:18|CC|Roger. Guess it's summertime down there.
+|015:11:29|CDR|Okay, Gordo. We're - we're stirring slowly. We'll get back with you here.
+|015:11:34|CC|Okay.
+|015:12:01|CDR|Gordo, one question. How does the spacecraft look to you? I didn't hear anything all night long as far as any MASTER ALARMs or anything.
+|015:12:10|CC|I'm getting the word that nothing was seen here either. It looks absolutely super.
+|015:12:19|CDR|Very good.
+|015:15:32|CDR|Okay, Bob - or Gordo, I've got H2 HEATERS 1 and 2, OFF now.
 |015:15:26|CC|Roger, Gene.
-|015:16:54|CDR|Hello, Houston; America.
-|015:16:54|CC|Go ahead, America.
-|015:16:54|CDR|Okay, Gordo. I'm looking over the Flight Plan today. We'll be with you with the postsleep checklist, and primarily it looks like a P23 day for Ron And what we'd primarily like to do is spend a good part of that time getting the spacecraft cleaned up, reshuffled, restowed a little bit, and get it in order for the next few days ahead. It doesn't look like today's that big of a day.
-|015:16:54|CC|Okay. Geno, I might give you some words on what we have in mind to get the GET back in sync here, if - if you want to hear those while you're looking through the upcoming hours.
-|015:16:54|CDR|Yes, why don't you - why don't you pass a few words on that?
+|015:16:52|CDR|Hello, Houston; America.
+|015:16:57|CC|Go ahead, America.
+|015:17:01|CDR|Okay, Gordo. I'm looking over the Flight Plan today. We'll be with you with the postsleep checklist, and primarily it looks like a P-23 day for Ron And what we'd primarily like to do is spend a good part of that time getting the spacecraft cleaned up, reshuffled, restowed a little bit, and get it in order for the next few days ahead. It doesn't look like today's that big of a day.
+|015:17:33|CC|Okay. Geno, I might give you some words on what we have in mind to get the GET back in sync here, if - if you want to hear those while you're looking through the upcoming hours.
+|015:17:57|CDR|Yes, why don't you - why don't you pass a few words on that?
 ||||Tape 13/3|Page 93
-|015:16:54|CC|Okay. The plan we're considering, and we're offering it to you now for your opinion, is at 65 hours GET, we'll update, and at the time the clock goes to 65, we'll update it 2 hours and 40 minutes to 67:40. And we're shaping your trajectory such that you'll arrive at the Moon at the same time G.m.t. as you would have had you launched on time. In other words, your translunar time is 2 hours and 40 minutes less. So once we do that, we'll be back with all the right times in the Flight Plan without any updating. And the one thing we think of is that your next day will, which is now a 16-hour day, will shorten to a 13-hour and 20-minute day-. But that's about the only real effect we can see. How does that sound?
-|015:16:54|CDR|Yes, we - we'll get to the Moon, you say, the same G.m.t., so all our sunrise, sunset, lunar-orbit activities, and Sun angle at landing will be the same. And let me - I'll - It sounds pretty good, Gordo. I just want to take a look at that day that you're shortening and see what we're doing in there.
-|015:16:54|CC|Okay. It doesn't cut out anything. In fact, we picked a time that's pretty much dead time as far as the Flight Plan goes. Take a look, and we'll talk about it later.
-|015:16:54|CDR|Okay.
-|015:16:54|LMP|Good morning, Gordy. This is Jack.
-|015:16:54|CC|Good morning, Jack.
-|015:16:54|LMP|Let me fill my square on the postsleep checklist. I've got 24030, PRD.
-|015:16:54|CC|Okay.
-|015:16:54|LMP|And I slept in and out - probably totaled about 4 hours in that last period. But I feel pretty good in spite of that, and expect now that I've educated myself on how to sleep, that it'll pick up the next time around.
+|015:18:01|CC|Okay. The plan we're considering, and we're offering it to you now for your opinion, is at 65 hours GET, we'll update, and at the time the clock goes to 65, we'll update it 2 hours and 40 minutes to 67:40. And we're shaping your trajectory such that you'll arrive at the Moon at the same time GMT as you would have had you launched on time. In other words, your translunar time is 2 hours and 40 minutes less. So once we do that, we'll be back with all the right times in the Flight Plan without any updating. And the one thing we think of is that your next day will, which is now a 16-hour day, will shorten to a 13-hour and 20-minute day-. But that's about the only real effect we can see. How does that sound?
+|015:19:07|CDR|Yes, we - we'll get to the Moon, you say, the same GMT, so all our sunrise, sunset, lunar-orbit activities, and Sun angle at landing will be the same. And let me - I'll - It sounds pretty good, Gordo. I just want to take a look at that day that you're shortening and see what we're doing in there.
+|015:19:27|CC|Okay. It doesn't cut out anything. In fact, we picked a time that's pretty much dead time as far as the Flight Plan goes. Take a look, and we'll talk about it later.
+|015:19:39|CDR|Okay.
+|015:19:45|LMP|Good morning, Gordy. This is Jack.
+|015:19:47|CC|Good morning, Jack.
+|015:19:55|LMP|Let me fill my square on the postsleep checklist. I've got 24030, PRD.
+|015:20:07|CC|Okay.
+|015:20:09|LMP|And I slept in and out - probably totaled about 4 hours in that last period. But I feel pretty good in spite of that, and expect now that I've educated myself on how to sleep, that it'll pick up the next time around.
 ||||Tape 13/4|Page 94
-|015:16:54|CC|Roger.
-|015:16:54|LMP|No medication yet, but I'm considering a couple of aspirin. I'll let you know if I take them.
-|015:16:54|CC|Roger.
-|015:16:54|LMP|And, fluids? Let's see, I guess I've had two of your little water-measurement-containers-full so far, plus the meal I had in my pocket. And I'll catch up on - I think I'm a little dehydrated. I'll catch up on fluids with breakfast.
-|015:16:54|CC|Okay.
-|015:16:54|LMP|And my meal yesterday was the meal B in the pocket.
-|015:16:54|CC|Roger. Meal B.
-|015:16:54|LMP|And I guess consumables update. That's mainly yours.
-|015:16:54|CC|Roger.
-|015:16:54|LMP|There's plenty there. And I'll wait for your words on that. And the watch is wound.
-|015:16:54|CC|Roger. Okay. Got the consumables update numbers, if you're ready to copy.
-|015:16:54|LMP|Not quite, Gordy. I'll give you a buzz.
-|015:16:54|CC|Okay. N o hurry.
-|015:22:40|LMP|Okay. The CMPs rad's, 1509¥
-|015:22:40|CC|Okay.
-|015:22:40|LMP|15019. 15019.
-|015:22:40|CC|Roger.
-|015:22:40|LMP|Gordy, this is Jack. How do you want to send the consumable - consumables information?
+|015:20:27|CC|Roger.
+|015:20:32|LMP|No medication yet, but I'm considering a couple of aspirin. I'll let you know if I take them.
+|015:20:37|CC|Roger.
+|015:20:41|LMP|And, fluids? Let's see, I guess I've had two of your little water-measurement-containers full so far, plus the meal I had in my pocket. And I'll catch up on - I think I'm a little dehydrated. I'll catch up on fluids with breakfast.
+|015:21:00|CC|Okay.
+|015:21:02|LMP|And my meal yesterday was the meal B in the pocket.
+|015:21:08|CC|Roger. Meal B.
+|015:21:18|LMP|And I guess consumables update. That's mainly yours.
+|015:21:25|CC|Roger.
+|015:21:25|LMP|There's plenty there. And I'll wait for your words on that. And the watch is wound.
+|015:21:31|CC|Roger. Okay. Got the consumables update numbers, if you're ready to copy.
+|015:21:45|LMP|Not quite, Gordy. I'll give you a buzz.
+|015:21:47|CC|Okay. No hurry.
+|015:22:37|LMP|Okay. The CMPs rad's, 1509.
+|015:22:43|CC|Okay.
+|015:22:43|LMP|15019. 15019.
+|015:22:48|CC|Roger.
+|015:23:33|LMP|Gordy, this is Jack. How do you want to send the consumable - consumables information?
 ||||Tape 13/5|Page 95
-|015:22:40|CC|We were just discussing that here. Used to - in flights gone by, there was a place in the Flight Plan, a little form to fill out. But we're trying to figure out if there is such a place in the current data file. Do you know of one?
-|015:22:40|LMP|Well, I'll tell you what I've got. I've got the consumables curves, and if there are any major changes to those curves, I guess you could give them to me, and I'll put them on as points.
-|015:22:40|CC|There's no - -
-|015:22:40|CDR|Hey, Jack.
-|015:22:40|CC|- - changes at all.
-|015:22:40|LMP|Okay. And why don't we just do it that way in the future in case there is anything. And that's on page 1-45 and subsequent in the Flight Plan Supplement.
-|015:22:40|CC|Okay.
-|015:22:40|LMP|Looks like you took good care of my space - my systems last night.
-|015:22:40|CC|No troubles at all.
-|015:31:05|LMP|Okay, Gordy. Your friendly medical officer up here has some more information for you. CMP, continuing, had about 3 hours of sleep, had - three cans of fluid - of water, that is. And he ate everything In meal B but the fruitcake, and he didn't use the brownies and the beverage in meal C.
-|015:31:05|CC|Okay.
-|015:31:05|LMP|Okay. And continuing, the CDRs PD - PRD is 17019. He had 3 hours of fair sleep, no medication, and 1-1/2 cans of water, and one-half a sandwich. The CMPs sleep was 3 hours. And I'll try to get more systematic as we go along here.
-|015:31:05|CC|Okay.
+|015:23:40|CC|We were just discussing that here. Used to - in flights gone by, there was a place in the Flight Plan, a little form to fill out. But we're trying to figure out if there is such a place in the current data file. Do you know of one?
+|015:23:55|LMP|Well, I'll tell you what I've got. I've got the consumables curves, and if there are any major changes to those curves, I guess you could give them to me, and I'll put them on as points.
+|015:24:09|CC|There's no - -
+|015:24:10|CDR|Hey, Jack.
+|015:24:10|CC|- - changes at all.
+|015:24:14|LMP|Okay. And why don't we just do it that way in the future in case there is anything. And that's on page 1-45 and subsequent in the Flight Plan Supplement.
+|015:24:25|CC|Okay.
+|015:24:31|LMP|Looks like you took good care of my space - my systems last night.
+|015:24:36|CC|No troubles at all.
+|015:30:59|LMP|Okay, Gordy. Your friendly medical officer up here has some more information for you. CMP, continuing, had about 3 hours of sleep, had - three cans of fluid, of water that is. And he ate everything In meal B but the fruitcake, and he didn't use the brownies and the beverage in meal C.
+|015:31:33|CC|Okay.
+|015:32:30|LMP|Okay. And continuing, the CDRs PD - PRD is 17019. He had 3 hours of fair sleep, no medication, and 1-1/2 cans of water, and one-half a sandwich. The CMPs sleep was 3 hours. And I'll try to get more systematic as we go along here.
+|015:32:57|CC|Okay.
 ||||Tape 13/6|Page 96
-|015:31:05|CC|Jack, we are assuming no - no medication on the CMP. Is that right?
-|015:31:05|LMP|That's affirm. We haven't gotten that kit out yet
-|015:31:05|CC|Okay.
+|015:33:21|CC|Jack, we are assuming no - no medication on the CMP. Is that right?
+|015:33:28|LMP|That's affirm. We haven't gotten that kit out yet
+|015:33:32|CC|Okay.
 |016:00:33|LMP|Gordy, this is Jack. Looks like the windows have cleared up pretty well in PTC from the - ice crystals, anyway, that were on window - window 1. The hatch window still seems to have a film of something on it. But, otherwise, they look pretty good.
 |016:00:33|CC|Okay, sounds good. Jack, while you're there, I might try - we've been talking about consumable updates and what would be the most meaningful way to give you the information. As a trial, for 14 hours, with reference to the charts in the back of the book, which in the case of - in case of all of them, are listed in percentages except the RCS, which is in pounds. On the cryo quantities, when I take all the tank percentages and plot them, it turns out that there's no real significant difference from the lines that are plotted on either hydrogen or oxygen. On RCS, you're running about 3 percent ahead of the line. And if that's a satisfactory way to put it, that's the way we'll give you the - the updates rather than giving you every tank percent by percent. Over.
 |016:00:33|LMP|Okay, that's good. That's outstanding.
