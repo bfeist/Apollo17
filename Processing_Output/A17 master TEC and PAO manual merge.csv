@@ -341,7 +341,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |001:35:17|LMP|That's a very, very fine view of Miami. Hard to believe.
 |001:35:17|CC|I'll bet they sat there and watched you go.
 |001:38:44|LMP|Looks like we're right over the Bahamas now, Bob.
-|001:38:44|CC|Roger. I'11 buy that.
+|001:38:44|CC|Roger. I'll buy that.
 |001:38:44|LMP|Well, I'm not easily impressed, Bob. But I'm certainly impressed by this one.
 |001:38:44|CC|Roger. What's the CMP doing? We haven't heard much from him. Is - is he at the other window?
 |001:38:44|CMP|He's crawling around looking for things down in the LEB.
@@ -1516,221 +1516,228 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |015:33:21|CC|Jack, we are assuming no - no medication on the CMP. Is that right?
 |015:33:28|LMP|That's affirm. We haven't gotten that kit out yet
 |015:33:32|CC|Okay.
-|016:00:33|LMP|Gordy, this is Jack. Looks like the windows have cleared up pretty well in PTC from the - ice crystals, anyway, that were on window - window 1. The hatch window still seems to have a film of something on it. But, otherwise, they look pretty good.
-|016:00:33|CC|Okay, sounds good. Jack, while you're there, I might try - we've been talking about consumable updates and what would be the most meaningful way to give you the information. As a trial, for 14 hours, with reference to the charts in the back of the book, which in the case of - in case of all of them, are listed in percentages except the RCS, which is in pounds. On the cryo quantities, when I take all the tank percentages and plot them, it turns out that there's no real significant difference from the lines that are plotted on either hydrogen or oxygen. On RCS, you're running about 3 percent ahead of the line. And if that's a satisfactory way to put it, that's the way we'll give you the - the updates rather than giving you every tank percent by percent. Over.
-|016:00:33|LMP|Okay, that's good. That's outstanding.
+|016:00:55|LMP|Gordy, this is Jack. Looks like the windows have cleared up pretty well in PTC from the - ice crystals, anyway, that were on window - window 1. The hatch window still seems to have a film of something on it. But, otherwise, they look pretty good.
+|016:01:13|CC|Okay, sounds good. Jack, while you're there, I might try - we've been talking about consumable updates and what would be the most meaningful way to give you the information. As a trial, for 14 hours, with reference to the charts in the back of the book, which in the case of - in case of all of them, are listed in percentages except the RCS, which is in pounds. On the cryo quantities, when I take all the tank percentages and plot them, it turns out that there's no real significant difference from the lines that are plotted on either hydrogen or oxygen. On RCS, you're running about 3 percent ahead of the line. And if that's a satisfactory way to put it, that's the way we'll give you the - the updates rather than giving you every tank percent by percent. Over.
+|016:02:25|LMP|Okay, that's good. That's outstanding.
 |016:12:20|LMP|MARK. Two aspirin for the LMP.
-|016:12:20|CC|Roger, LMP.
-|016:12:20|CC|Jack, next time the Surgeon would like a mark on each individual aspirin.
-|016:12:20|LMP|Well, I gave it to you since I swallowed them both simultaneously.
-|016:12:20|CC|Roger.
+|016:12:205CC|Roger, LMP.
+|016:13:32|CC|Jack, next time the Surgeon would like a mark on each individual aspirin.
+|016:13:42|LMP|Well, I gave it to you since I swallowed them both simultaneously.
+|016:13:47|CC|Roger.
 ||||Tape 13/7|Page 97
-|016:12:20|LMP|I knew they wanted that, Gordy, and that's why I only gave you one.
-|016:12:20|CC|Okay.
-|016:12:20|LMP|Would they rather have them go down one at a time?
-|016:14:06|CC|I'11 have to go back to the backroom on that. there. You can go ahead with a P52, but before you do the P23, we have some updates to it.
+|016:13:51|LMP|I knew they wanted that, Gordy, and that's why I only gave you one.
+|016:13:56|CC|Okay.
+|016:13:57|LMP|Would they rather have them go down one at a time?
+|016:14:05|CC|I'll have to go back to the backroom on that.
+|016:25:06|PAO|This is Apollo Control, 16 hours and 25 minutes. The Crew of Apollo 17 is now presently in a meal period. A little bit of levity a short time ago when Jack Schmitt, Lunar Module Pilot, called down to say: "This is LMP, mark, 2 aspirin." He had mentioned earlier in his post-sleep checklist that he was considering taking two aspirins. Apollo 17 is presently 72,843 nautical miles out from Earth. Velocity 6,477 feet per second. We're continuing to stand by on the air-ground circuit for further conversation as the crew finishes up their meal period and gets what few flight plan updates are involved in the days activity. At 016:26 and standing by, this is Apollo Control.
+|016:44:44|CC||17, Houston. We see the optic starting to stir there, you can go ahead with a P52, but before you do the P23, we have some updates to it.
 ||||Tape 14/1|Page 98
-|016:14:06|CMP|Hey, okay, Gordo. We'll do that.
-|016:14:06|CC|17, Houston. Can you confirm that you did change the LiOH canister before going to sleep last night?
-|016:14:06|CMP|Well, we can confirm that we didn't. How about that?
-|016:14:06|CC|Okay.
-|016:14:06|CMP|We'll - Thanks - thanks for reminding us. We'll try that first thing this morning. I was just getting too tired, and the CO^ didn't look quite that high last night, so I - -
-|016:14:06|CC|Roger.
-|016:14:06|CMP|- - I let it go.
-|016:14:06|CC|Okay, that's - that's fine. We're not concerned about being late with it.
-|016:46:22|CMP|Okay.
-|016:53:15|CMP|Okay, Houston. That looks like a pretty good one that time. You note the star angle difference?
-|016:53:15|CC|Roger. We copy.
+|016:44:57|CMP|Hey, okay, Gordo. We'll do that.
+|016:45:34|CC|17, Houston. Can you confirm that you did change the LiOH canister before going to sleep last night?
+|016:45:43|CMP|Well, we can confirm that we didn't. How about that?
+|016:45:48|CC|Okay.
+|016:45:48|CMP|We'll - Thanks - thanks for reminding us. We'll try that first thing this morning. I was just getting too tired, and the CO2 didn't look quite that high last night, so I - -
+|016:46:00|CC|Roger.
+|016:46:00|CMP|- - I let it go.
+|016:46:07|CC|Okay, that's - that's fine. We're not concerned about being late with it.
+|016:46:14|CMP|Okay.
+|016:53:05|CMP|Okay, Houston. That looks like a pretty good one that time. You note the star angle difference?
+|016:53:11|CC|Roger. We copy.
 |016:53:15|CMP|Okay (chuckle). I can't see squat out through that telescope. I just hope it lines it up and does the right thing. Okay. Those are the torquing angles, and you can let me know when you have them.
-|016:53:15|CC|Okay. Stand by.
+|016:53:33|CC|Okay. Stand by.
 ||||Tape 14/2|Page 99
-|016:53:15|CMP|The telescope is no different than any other time. There is just a lot of reflection from the lunar module. And even though everybody said that before, you don't quite believe it until you see it yourself.
-|016:53:15|CC|Okay, Ron. You're clear to torque it.
-|016:53:15|CMP|Okay. We'll torque it at 54 30.
-|016:53:15|CC|Okay.
-|016:55:35|CC|17, Houston. When you - if you can find a stenographer, I got some dictation, some pads for you and also a Flight Plan update.
-|016:55:35|CMP|Stand by 1, Gordon.
-|016:57:49|LMP|Okay, Gordy.
-|016:57:49|CMP|P37.
-|016:57:49|LMP|Oh, okay. Stand by. Okay, Ron's ready to copy.
-|016:57:49|CMP|P37 pad's first.
-|016:57:49|CC|Okay. Okay, the P37 block data for 35 hours. Well, we've got 35, 45, 55, 65. GET ignition of 035:00. DELTA-Vt is 5326, minus 175, 081:39. For a GET of 045:00, 7728, minus 177, 08l:l8. For a GET of 055:00, 5859, minus 175, 105:30. GET of 065:00, 4703, minus 175, 129:40.
-|016:57:49|CMP|Okay, I'll read that. Let's see, 35:00 at 532o, minus 175, and 81:39¥ At 45:00, 7728, minus 177, and 8l:l8. At 55:00, it's 5859, minus 175, 105:30. At 65:00, it's 4703, minus 175, and 129:40.
-|016:57:49|CC|Okay, that's correct. I've got a maneuver pad for you. It's a flyby maneuver at a time of 8l hours, which is 5 hours prior to L0I, This is required because you're presently on an impacting trajectory. And this is assuming you wouldn't do midcourse 2. Midcourse 2 will put you on a - on the proper trajectory. If you can get a maneuver pad out, I'll give it to you.
+|016:53:38|CMP|The telescope is no different than any other time. There is just a lot of reflection from the lunar module. And even though everybody said that before, you don't quite believe it until you see it yourself.
+|016:54:08|CC|Okay, Ron. You're clear to torque it.
+|016:54:19|CMP|Okay. We'll torque it at 54 30.
+|016:54:16|CC|Okay.
+|016:55:25|CC|17, Houston. When you - if you can find a stenographer, I got some dictation, some pads for you and also a Flight Plan update.
+|016:55:50|CMP|Stand by 1, Gordon.
+|016:57:38|LMP|Okay, Gordy.
+|016:57:41|CMP|P37.
+|016:57:42|LMP|Oh, okay. Stand by. Okay, Ron's ready to copy.
+|016:57:52|CMP|P37 pad's first.
+|016:57:54|CC|Okay. Okay, the P37 block data for 35 hours. Well, we've got 35, 45, 55, 65. GET ignition of 035:00. DELTA-Vt is 5326, minus 175, 081:39. For a GET of 045:00, 7728, minus 177, 08l:l8. For a GET of 055:00, 5859, minus 175, 105:30. GET of 065:00, 4703, minus 175, 129:40.
+|016:59:34|CMP|Okay, I'll read that. Let's see, 35:00 at 5326, minus 175, and 81:39 At 45:00, 7728, minus 177, and 8l:l8. At 55:00, it's 5859, minus 175, 105:30. At 65:00, it's 4703, minus 175, and 129:40.
+|017:00:11|CC|Okay, that's correct. I've got a maneuver pad for you. It's a flyby maneuver at a time of 8l hours, which is 5 hours prior to LOI, This is required because you're presently on an impacting trajectory. And this is assuming you wouldn't do midcourse 2. Midcourse 2 will put you on a - on the proper trajectory. If you can get a maneuver pad out, I'll give it to you.
 ||||Tape 14/3|Page 100
-|016:57:49|LMP|Okay. That's in work.
-|017:02:23|CMP|Okay, Houston. This is 17. Ready for the flyby pad.
-|017:02:23|CC|Okay, Ron. We were just watching your roll angle. You're going to - we're going to be updating the optics cal attitude. And the roll will be lo4, and you're coming up on that. Maybe you want to stop the PTC near that roll angle.
-|017:02:23|CMP|Hey, that's a good idea.
-|017:02:23|LMP|Gordy ...
-|017:02:23|LMP|Gordy, did you read Jack?
-|017:02:23|CC|Loud and clear, Jack.
-|017:02:23|LMP|I can take the pad, if you want to while Ron stops PTC.
-|017:02:23|CC|Okay. Why don't I give you the update to the Flight Plan, since that'll give you the new attitude and also the - change in the star for the P23. And then Ron can get on with that. The pad we can get after that.
-|017:02:23|LMP|Go ahead.
-|017:02:23|CC|Okay. Turn to 17 hours in the Flight Plan, page l8.
-|017:02:23|LMP|Go ahead.
-|017:02:23|CC|Okay. The "VERB 49 maneuver to optics cal attitude" right at the top of the page. Cross out the attitude numbers and replace them with "Roll l64, pitch 301, and yaw 348 at a high-gain pitch angle of minus 48 and a yaw of 315." Over.
-|017:02:23|LMP|Okay; 164, 301, 348, minus 48, and 315¥
-|017:02:23|CC|That's correct. Now go down a few lines to the sighting attitude at - one's at 17 hours and 15 minutes. And cross out that attitude and the high-gain pitch angle and change to a "Roll of 196, pitch 304, and yaw 348." High-gain pitch is minus 6l, and the yaw remains the same, 357. Over.
+|017:00:44|LMP|Okay. That's in work.
+|017:02:11|CMP|Okay, Houston. This is 17. Ready for the flyby pad.
+|017:02:23|CC|Okay, Ron. We were just watching your roll angle. You're going to - we're going to be updating the optics cal attitude. And the roll will be 164, and you're coming up on that. Maybe you want to stop the PTC near that roll angle first.
+|017:02:41|CMP|Hey, that's a good idea.
+|017:02:48|LMP|Gordy ...
+|017:03:10|LMP|Gordy, did you read Jack?
+|017:03:12|CC|Loud and clear, Jack.
+|017:03:14|LMP|I can take the pad, if you want to while Ron stops PTC.
+|017:03:20|CC|Okay. Why don't I give you the update to the Flight Plan, since that'll give you the new attitude and also the - change in the star for the P23. And then Ron can get on with that. The pad we can get after that.
+|017:03:36|LMP|Go ahead.
+|017:03:38|CC|Okay. Turn to 17 hours in the Flight Plan, page l8.
+|017:03:55|LMP|Go ahead.
+|017:03:57|CC|Okay. The "VERB 49 maneuver to optics cal attitude" right at the top of the page. Cross out the attitude numbers and replace them with "Roll l64, pitch 301, and yaw 348 at a high-gain pitch angle of minus 48 and a yaw of 315. Over.
+|017:04:34|LMP|Okay; 164, 301, 348, minus 48, and 315.
+|017:04:40|CC|That's correct. Now go down a few lines to the sighting attitude at - one's at 17 hours and 15 minutes. And cross out that attitude and the high-gain pitch angle and change to a Roll of 196, pitch 304, and yaw 348. High-gain pitch is minus 6l, and the yaw remains the same, 357. Over.
 ||||Tape 14/4|Page 101
-|017:02:23|LMP|Okay, 196, 304, 348, minus 6l.
-|017:02:23|CC|That's correct. And now, on the first star of P23, we're going to change the star, so cross out - replace the NOUN 70 numbers with star 21. That would be three balls 21. And delete the NOUN 88 and the vector numbers there.
-|017:06:25|LMP|Okay, start 21 and no NOUN 88s.
-|017:06:25|CC|Right. And over on the right where it says "Merak," you can write in "Alphard." That's what 21 is.
-|017:06:25|LMP|Okay.
-|017:06:25|CC|Okay. Now down on the next pate, at 18 hours 20 minutes, where it says "Optics calibration attitude." We got to put in the same thing as -the same change as above. We want, instead of "175, 298, 330," change that to "l64, 301, and 348. High gain of minus 48 and 315." Over.
-|017:06:25|LMP|Okay, l64, 301, 348, minus 48, 315. Over.
-|017:06:25|CC|Okay. Now, about 10 lines down, delete "Charge battery A." We're going to leave battery A charged for a while longer, since we used up so much of it on the pad last night.
-|017:06:25|LMP|Okay. Delete "Battery charge A," and you want to leave it on B.
-|017:06:25|CC|Yes. Right. Flip the page. Might as well clean up all of these checklist changes. At 19 hours 40 minutes, change "Magazine Kilo Kilo" to "Magazine November November."
-|017:06:25|LMP|Okay. That's done.
-|017:06:25|CC|And then skip a few pages to 24 hours and 30 minutes
-|017:06:25|LMP|Go ahead.
-|017:06:25|CC|And just above the "CSM Systems Checklist" callout there, write in "Charge battery A."
+|017:05:16|LMP|Okay, 196, 304, 348, minus 6l.
+|017:05:22|CC|That's correct. And now, on the first star of P23, we're going to change the star, so cross out - replace the NOUN 70 numbers with star 21. That would be three balls 21. And delete the NOUN 88 and the vector numbers there.
+|017:06:12|LMP|Okay, start 21 and no NOUN 88s.
+|017:06:16|CC|Right. And over on the right where it says "Merak," you can write in "Alphard." That's what 21 is.
+|017:06:35|LMP|Okay.
+|017:06:36|CC|Okay. Now down on the next page, at 18 hours 20 minutes, where it says "Optics calibration attitude." We got to put in the same thing as - the same change as above. We want, instead of 175, 298, 330, change that to l64, 301, and 348. High gain of minus 48 and 315. Over.
+|017:07:15|LMP|Okay, l64, 301, 348, minus 48, 315. Over.
+|017:07:21|CC|Okay. Now, about 10 lines down, delete "Charge battery A." We're going to leave battery A charged for a while longer, since we used up so much of it on the pad last night.
+|017:07:41|LMP|Okay. Delete "Battery charge A," and you want to leave it on B.
+|017:07:44|CC|Yes. Right. Flip the page. Might as well clean up all of these checklist changes. At 19 hours 40 minutes, change "Magazine Kilo Kilo" to "Magazine November November."
+|017:08:05|LMP|Okay. That's done.
+|017:08:06|CC|And then skip a few pages to 24 hours and 30 minutes
+|017:08:20|LMP|Go ahead.
+|017:08:21|CC|And just above the "CSM Systems Checklist" callout there, write in "Charge battery A."
 ||||Tape 14/5|Page 102
-|017:06:25|LMP|Okay, I got you.
-|017:06:25|CC|And we'll be leaving it on battery A all night long. Okay, that's all the Flight Plan changes. I've got that flyby pad when you're ready.
-|017:06:25|LMP|Okay, I'm all set.
-|017:09:12|CC|Okay. Purpose is flyby, SPS/G&N. The weight is 66839; plus 1.21, minus .02 - correction, the yaw trim is a minus 0.12. Ignition time is 081:17:21.03 NOUN 81 is a plus 0091.1, plus 0204.1, plus 0459.3. Attitude is 121, 153, and 321, Apogee is NA; perigee, plus 0021.2. DELTA-V total of 0510.8, 1:17, 0506.3. Sextant star: 26, 096.5, 33.9. Boresight star Is NA; NOUN 6l, plus 15-57, minus 175-00; 1099.9, 362.43; and GET of 0.05G is 153:24:11. PTC align stars are Sirius and Rigel; 256, 152, 069 -Ullage is none. And for remarks: number 1 is "Burn docked;" number 2 assumes PTC REFSMMAT: number 3, LM weight, 3628l; and number 4 is "Assumes no Midcourse 2." Over.
-|017:12:45|LMP|Okay, Gordy. You read that?
-|017:12:45|CC|I haven't heard anything since I finished the pad, Jack.
-|017:12:45|LMP|Okay. I'll push the other button then. Okay, your readback: Flyby, SPS/G&N; 66839; plus 1.21, minus 0.12; 081:17:21.03; plus 0091.1, plus 0204.1, plus 0459.3; 121, 153, 321; HA is NA, plus 0021.0; 0510.8, 1:17, 0506.3; 26, 096.5, 33-9- Boresight star is NA; plus 15-57; minus 175.00; 1099-9, 362.43; 153:24:11. Sirius and Rigel; 256, 152, 069. No ullage. Remarks: 1, burn docked; 2, PTC REFSMMAT assumed; 3, LM weight, 36281; and 4, assumes no midcourse 2.
-|017:12:45|CC|Okay. One correction on perigee of NOUN 44. That's a plus 0021.2.
-|017:12:45|LMP|Okay; 0021,2 plus.
+|017:08:37|LMP|Okay, I got you.
+|017:08:40|CC|And we'll be leaving it on battery A all night long. Okay, that's all the Flight Plan changes. I've got that flyby pad when you're ready.
+|017:08:55|LMP|Okay, I'm all set.
+|017:08:58|CC|Okay. Purpose is flyby, SPS/G&N. The weight is 66839; plus 1.21, minus .02 - correction, the yaw trim is a minus 0.12. Ignition time is 081:17:21.03 NOUN 81 is a plus 0091.1, plus 0204.1, plus 0459.3. Attitude is 121, 153, and 321, Apogee is NA; perigee, plus 0021.2. DELTA-V total of 0510.8, 1:17, 0506.3. Sextant star: 26, 096.5, 33.9. Boresight star is NA; NOUN 6l, plus 15-57, minus 175-00; 1099.9, 362.43; and GET of 0.05G is 153:24:11. PTC align stars are Sirius and Rigel; 256, 152, 069 - Ullage is none. And for remarks: number 1 is "Burn docked." number 2 assumes PTC REFSMMAT: number 3, LM weight, 3628l; and number 4 is "Assumes no Midcourse 2." Over.
+|017:12:30|LMP|Okay, Gordy. You read that?
+|017:12:34|CC|I haven't heard anything since I finished the pad, Jack.
+|017:12:39|LMP|Okay. I'll push the other button then. Okay, your readback: Flyby, SPS/G&N; 66839; plus 1.21, minus 0.12; 081:17:21.03; plus 0091.1, plus 0204.1, plus 0459.3; 121, 153, 321; HA is NA, plus 0021.0; 0510.8, 1:17, 0506.3; 26, 096.5, 33.9. Boresight star is NA; plus 15-57; minus 175.00; 1099-9, 362.43; 153:24:11. Sirius and Rigel; 256, 152, 069. No ullage. Remarks: 1, burn docked; 2, PTC REFSMMAT assumed; 3, LM weight, 36281; and 4, assumes no midcourse 2.
+|017:14:02|CC|Okay. One correction on perigee of NOUN 44. That's a plus 0021.2.
+|017:14:18|LMP|Okay; 0021.2 plus.
 ||||Tape 14/6|Page 103
-|017:12:45|CC|And one additional remark. This results in a 187-mile perigee - perilune.
-|017:12:45|LMP|Okay. I got that.
-|017:15:16|CC|Okay. For general information, we're planning midcourse 2 tomorrow at about 35:30, and it should be about 10 feet per second.
+|017:14:23|CC|And one additional remark. This results in a 187-mile perigee - perilune.
+|017:14:58|LMP|Okay. I got that.
+|017:15:00|CC|Okay. For general information, we're planning midcourse 2 tomorrow at about 35:30, and it should be about 10 feet per second.
 |017:15:16|LMP|Okay, Strangely enough, that's even scheduled at 35:30.
-|017:15:16|CC|Roger.
-|017:15:16|CC|I have one reminder to open the WASTE STOWAGE VENT valve as shown on the - at 17 hours there.
-|017:15:16|LMP|Oh, okay. We were just going back to clean up. I think we owe you a LiOH canister change, too.
-|017:16:25|CC|Roger. We concur with changing it.
-|017:20:15|CMP|And, Houston. Apollo 17 will maneuver to the optics calibration attitude now.
-|017:20:15|CC|Okeydoke.
-|017:20:15|CMP|It's funny eating potato soup, and all the soup is all around the outside of the bag. And you get a little hole right down through the middle of it.
-|017:20:15|CC|How about that?
-|017:20:15|CMP|It's just like in one g. The spoon isn't quite long enough to reach the bottom without getting your fingers on the side of the bowl.
-|017:21:09|CC|Roger.
-|017:24:11|LMP|Gordy, I don't know what your weather is like down there, but from here it looks like you're probably overcast today. Might even have a pretty good storm going.
+|017:15:35|CC|Roger.
+|017:15:45|CC|I have one reminder to open the WASTE STOWAGE VENT valve as shown on the - at 17 hours there.
+|017:15:56|LMP|Oh, okay. We were just going back to clean up. I think we owe you a LiOH canister change, too.
+|017:16:09|CC|Roger. We concur with changing it.
+|017:19:57|CMP|And, Houston. Apollo 17 will maneuver to the optics calibration attitude now.
+|017:20:04|CC|Okeydoke.
+|017:20:08|CMP|It's funny eating potato soup, and all the soup is all around the outside of the bag. And you get a little hole right down through the middle of it.
+|017:20:22|CC|How about that?
+|017:20:42|CMP|It's just like in one G. The spoon isn't quite long enough to reach the bottom without getting your fingers on the side of the bowl.
+|017:20:51|CC|Roger.
+|017:23:53|LMP|Gordy, I don't know what your weather is like down there, but from here it looks like you're probably overcast today. Might even have a pretty good storm going.
 ||||Tape 14/7|Page 104
-|017:24:11|CC|Well, it's gray and cold and a little rain, so your - your cal is correct.
-|017:24:11|LMP|Yes, it looks like Mexico, in general, is pretty nice, although there is a band of east-west trending clouds that start from the Gulf of California, cross Sonora and probably up through New Mexico, and over into Texas as far around as I can see. Southern California looks like it's in pretty good shape today, but northern California looks like it's probably overcast. And a major system probably associated with that that stretches into the northern western United States. But a band of clear weather looks like it stretches from Arizona right on up through, I would guess it - through Colorado and Kansas and probably into the Midwest pretty well.
-|017:24:11|CC|Roger. You're a regular human weather satellite.
-|017:24:11|LMP|If Ron would just stop his maneuvers I'd tell you some more, but the Earth just set behind the LM.
-|017:24:11|CC|Roger.
-|017:24:11|LMP|More specifically, it set behind the Rover, which may be a space first. Pretty impressive storm system down off the west coast of Antarctica.
-|017:26:27|CC|Roger.
-|017:27:40|LMP|And, Houston. The canister has been changed. Number 3 is in A as per the earlier Flight Plan instructions.
-|017:27:40|CC|Okay.
-|017:27:40|LMP|Sorry we were late, but we got a little tired last night.
-|017:28:57|CC|Jack, Houston. We'd like you to go ahead and get that WASTE STOWAGE VENT open now, so we can keep to the schedule on cabin enrichment.
-|017:28:57|LMP|Okay; Ron is getting that. Keep nagging.
+|017:24:04|CC|Well, it's gray and cold and a little rain, so your - your call is correct.
+|017:24:14|LMP|Yes, it looks like Mexico, in general, is pretty nice, although there is a band of east-west trending clouds that start from the Gulf of California, cross Sonora and probably up through New Mexico, and over into Texas as far around as I can see. Southern California looks like it's in pretty good shape today, but northern California looks like it's probably overcast. And a major system probably associated with that that stretches into the northern western United States. But a band of clear weather looks like it stretches from Arizona right on up through, I would guess it - through Colorado and Kansas and probably into the Midwest pretty well.
+|017:25:24|CC|Roger. You're a regular human weather satellite.
+|017:25:30|LMP|If Ron would just stop his maneuvers I'd tell you some more, but the Earth just set behind the LM.
+|017:25:38|CC|Roger.
+|017:25:40|LMP|More specifically, it set behind the Rover, which may be a space first. Pretty impressive storm system down off the west coast of Antarctica.
+|017:26:07|CC|Roger.
+|017:27:11|LMP|And, Houston. The canister has been changed. Number 3 is in A as per the earlier Flight Plan instructions.
+|017:27:24|CC|Okay.
+|017:27:26|LMP|Sorry we were late, but we got a little tired last night.
+|017:28:37|CC|Jack, Houston. We'd like you to go ahead and get that WASTE STOWAGE VENT open now, so we can keep to the schedule on cabin enrichment.
+|017:28:49|LMP|Okay; Ron is getting that. Keep nagging.
 ||||Tape 14/8|Page 105
-|017:29:13|CC|Thank you.
-|017:35:59|CMP|That the same as I had before?
-|017:35:59|CMP|Hey, that looks like a pretty good optics cal right there. That's three times. Okay. No, that's not very good.
-|017:35:59|CC|Ron, we're copying your comments.
-|017:35:59|CMP|Okay. Think we'll use that one there for the optics cal.
-|017:35:59|CC|Roger.
-|017:37:07|CMP|Okay. Let's go to the old sighting attitude. Well, let's put the other thing in there first.
-|017:41:07|CMP|Yes. That's a pretty good VERB 49. I got the -got an orange Earth in the sextant. Let me put up the old EMP now. If you all don't need all that light in there, Jack, I could sure - Like the window shade might help a little bit, really. Not - not very much. Okay. Address 304, we want 06. Address 305, 24 44; 306, 60 06 ENTER; 307 was 77. Okay, at address 310, we want 15 62 ENTER; 311, we want a 52 05 ENTER; 330, we'll VERB 30 37. VERB 25 NOUN 26 ENTER 1. Okay. R-2 is a 44 ENTER. R-3 is a 140 - 5. Okay, ENTER that. Now, we're ready to go on the first star here; 7 ENTER; 23 ENTER. ... we don't want to do an optics cal. No, we don't want to do that. ENTER. Okay, first star is 21. ENTER. I am going to use the ... 110 ENTER. PROCEED. Son of a gun. Okay, we don't want to do the 180 option, so ENTER that one; 19630 ... getting pretty close. Okay. PROCEED.
-|017:41:07|LMP|... mike ...
-|017:44:27|CMP|Okay, we're CMC OPTICS ZERO'S OFF and ... Now let's see if we can see the old star in there.
-|017:44:27|LMP|Gordy, this is Jack. You guys did a good job fixing that MAS - MASTER ALARM problem. What did you do?
+|017:28:54|CC|Thank you.
+|017:35:28|CMP|That the same as I had before?
+|017:35:50|CMP|Hey, that looks like a pretty good optics cal right there. That's three times. Okay. No, that's not very good.
+|017:36:09|CC|Ron, we're copying your comments.
+|017:36:12|CMP|Okay. Think we'll use that one there for the optics cal.
+|017:36:20|CC|Roger.
+|017:36:41|CMP|Okay. Let's go to the old sighting attitude. Well, let's put the other thing in there first.
+|017:39:59|PAO|This is Apollo Control at 17 hours 40 minutes. In mission control at the present time we're in the midst of a shift handover. Flight Director Gene Kranz and his team of flight controllers coming on now to replace Flight Director Jerry Griffin. The spacecraft communicator at the present time is astronaut Gordon Fullerton. For the crew aboard Apollo 17 this is scheduled to be a rather short and - not too active period of time before they begin their next sleep period. They'll be performing a few midcourse navigation activities, also doing some routine maintenance on the fuel cells. And not a great deal of additional activity scheduled for them.
+|017:40:44|CMP|Yes. That's a pretty good VERB 49. I got the - got an orange Earth in the sextant. Let me put up the old EMP now. If you all don't need all that light in there, Jack, I could sure - Like the window shade might help a little bit, really. Not - not very much. Okay. Address 304, we want 06. Address 305, 24 44; 306, 60 06 ENTER; 307 was 77. Okay, at address 310, we want 15 62 ENTER; 311, we want a 52 05 ENTER; 330, we'll VERB 30 37. VERB 25 NOUN 26 ENTER 1. Okay. R-2 is a 44 ENTER. R-3 is a 140 - 5. Okay, ENTER that. Now, we're ready to go on the first star here; 7 ENTER; 23 ENTER. ... we don't want to do an optics cal. No, we don't want to do that. ENTER. Okay, first star is 21. ENTER. I am going to use the ... 110 ENTER. PROCEED. Son of a gun. Okay, we don't want to do the 180 option, so ENTER that one; 19630 ... getting pretty close. Okay. PROCEED.
+|017:43:54|LMP|... mike ...
+|017:44:02|CMP|Okay, we're CMC OPTICS ZERO'S OFF and low. Now let's see if we can see the old star in there.
+|017:44:14|LMP|Gordy, this is Jack. You guys did a good job fixing that MAS - MASTER ALARM problem. What did you do?
 ||||Tape 14/9|Page 106
-|017:44:27|CC|Jack, did you call?
-|017:44:27|LMP|I was wondering what you did to fix the MASTER ALARM problem.
-|017:44:27|CC|Let me check and see.
-|017:44:27|CMP|(Laughter) Yes, I've got to find the subsolar point. A little bit of an error looks like. Let me see, we'll fix it down a little bit. That really jars us back, doesn't it?
-|017:44:27|CC|Jack, I guess all we've done is wish it away, Actually, we think it's still there, and you may -you may get them here later after the waste stowage vent - 0g flow gets on up.
-|017:46:13|LMP|Okay, but those were associated with the accumulator as I recall. Yes, the random ones is the ones I was interested in. They just seemed to stop. Of course, we haven't been moving switches on 2, but we were getting them without doing that also.
-|017:46:13|CMP|Okay, there's the old star. Works just like the simulator; you can't see the star when it goes down in the Earth.
-|017:46:13|CC|It's still being worked on, Jack. Though we don't have any real concrete story to give you on it yet
-|017:46:13|LMP|Okay, it seemed to be pretty quiet last night, so that's the only problem. Okay. Gene, you want to give me CMC FREE?
-|017:47:05|CDR|Okay.
-|017:49:42|CMP|Let's see. 379, okay. That's not too bad. There it is; ENTER. Release 23; ENTER.
+|017:44:28|CC|Jack, did you call?
+|017:44:32|LMP|Yes, I was wondering what you did to fix the MASTER ALARM problem.
+|017:44:39|CC|Let me check and see.
+|017:44:45|CMP|(Laughter) Yes, I've got to find the subsolar point. A little bit of an error looks like. Let me see, we'll fix it down a little bit. That really jars us back, doesn't it?
+|017:45:16|PAO|This is Apollo Control. The participants have left Mission Control for the news conference, a change of shift press conference that should begin in about 5 to 10 minutes, in the MSC News Center Briefing Room -
+|017:45:25|CC|Jack, I guess all we've done is wish it away, Actually, we think it's still there, and you may -you may get them here later after the waste stowage vent - O2 flow gets on up.
+|017:45:48|LMP|Okay, but those were associated with the accumulator as I recall. Yes, the random ones is the ones I was interested in. They just seemed to stop. Of course, we haven't been moving switches on 2, but we were getting them without doing that also.
+|017:46:13|CMP|Okay, there's the old star. Works just like the simulator; you can't see the star when it goes down in the Earth (laughter).
+|017:46:21|CC|It's still being worked on, Jack. Though we don't have any real concrete story to give you on it yet.
+|017:46:31|LMP|Okay, it seemed to be pretty quiet last night, so that's the only problem. Okay. Gene, you want to give me CMC FREE?
+|017:46:40|CDR|Okay.
+|017:49:45|CMP|Let's see. 379, okay. That's not too bad. There it is; ENTER. Release 23; ENTER.
 |017:51:32|CMP|Okay.
-|017:53:05|CMP|Yes, I don't know what - what's -
-|017:53:42|CMP|Okay, those would punch a hole in it.
+|017:53:07|CMP|Yes, I don't know what - what's -
+|017:53:44|CMP|Okay, those would punch a hole in it.
+|017:53:47|PAO|This is Apollo Control at 17 hours 54 minutes. The change of shift press conference is ready to begin at this time in the MSC News Center Briefing Room. We'll take down the live air-to-ground, record, and play back immediately following the press conference.
 ||||Tape 14/10|Page 107
 |017:55:22|CMP|I think that's five on that star. Do you concur that that's five on that star, Houston?
-|017:55:22|CC|Stand by. Let me check.
-|017:55:38|CMP|I think it was. I'll take another one just in case.
+|017:55:31|CC|Stand by. Let me check.
+|017:55:34|CMP|I think it was. I'll take another one just in case.
 |017:56:15|CMP|Okay, Gene. CMC AUTO.
-|017:56:15|CDR|Roger.
-|017:56:15|CMP|Okay, Betelgeuse. All right. That's all right; don't move.
-|017:57:11|CMP|20. Okay. Earth's far horizon; 25 ENTER. Plus 02745 ENTER. Plus 99128; 28 ENTER. Plus 12885 -1288 - 5 - 2885. Okay. Hit. It's okay; want the 180 option, no? Computer ... Betelgeuse. Okay, that's Earth's far horizon.
+|017:56:18|CDR|Roger.
+|017:56:20|CMP|Okay, Betelgeuse. All right. That's all right; don't move.
+|017:57:11|CMP|20. Okay. Earth's far horizon; 25 ENTER. Plus 02745 ENTER. Plus 99128; 28 ENTER. Plus 12885 - 12885 - 12885. Okay. Hit. It's okay; want the 180 option, no? Computer ... Betelgeuse. Okay, that's Earth's far horizon.
 |017:58:30|CMP|Punch a hole in them. Yes. Good. Okay, as soon as we're there - Okay. Set the old ... at the substellar point. Okay, it's the far horizon, the double line is down in the - down in the Earth. Shaft 280; okay. Reach up a little bit here.
 |017:59:55|CMP|Okay. Didn't do such a hot job of putting them on there. You want to go to CMC FREE. Okay. Give it a flip that way and a flip thataway and a yaw that way, two yaws that way.
-|018:01:46|CMP|(Singing)
+|018:01:46|CMP|(Singing) Holy mackrel.
 ||||Tape 15/1|Page 108
-|018:01:46|SC|Yes. That was a good
-|018:01:46|LMP|Gordy, this is LMP.
-|018:01:46|LMP|Hello, Houston; 17. Are you reading?
-|018:01:46|CC|Go ahead, Jack.
-|018:01:46|LMP|Yes, you got any news today - to read up to us?
-|018:01:46|CC|Well, yes. As a matter of fact, we have a little bit made up here. I guess along the personal line, we checked with Barbara and Jan and the kids, and they're all back home safe and sound and they mentioned that they're going into their own personal quarantine period, glued to the squawk box. Over.
-|018:01:46|CDR|Okay.
-|018:01:46|CMP|I was afraid you were going to get too personal there, for a minute. (Laughter)
-|018:01:46|CC|I'll run down a few quick summaries of this morning's news. Former President Harry Truman has rallied slightly, despite his weakened heart and labored breathing. His doctors report that their main worry is whether his heart is strong enough to withstand the strain, the physical strain of 88 years. Despite the slight rally, Truman's condition is still considered critical. In Paris, Henry Kissinger met with Hanoi's Le Due Tho for 4 hours yesterday in planned secret talks. Paris newspapers report an imminent cease-fire, but neither Kissinger or Tho indicate that this is true. After the 4-hour talks, Kissinger shook hands; and ... - got a little typo error here -but neither representative made any comment concerning their meeting. At Camp David, Maryland, President Nixon's press secretary, Ron L. Ziegler, said that Kissinger and Nixon are in close communication by cable concerning the secret peace talks. But Ziegler declined to provide more information about progress in the talks. President Nixon selected Claude S. Brinegar, a California oil executive and a doctor of economics, to be Secretary of Transportation succeeding John A. Volpe. Volpe will become the U.S. ambassador to Italy. Here's one concerning last night's launch. Mrs. Spiro Agnew reportedly made a wish on a falling star just before the delayed launch of Apollo 17-Sitting beside her at the VIP viewing site was Barbara Cernan, who said that she was nervous when the lift-off was postponed. She added, "But A1 Bean was there with me. He said not to be concerned." Mrs. Cernan was accompanied by her daughter, Tracy, and her mother, Mrs. Jackie Ashley. Mrs. Ron Evans, who saw the launch with her children, Jamie and John, said that she was never worried because everybody knew what they were doing.
+|018:01:57|SC|Yes. That was a good ...
+|018:02:01|LMP|Gordy, this is LMP.
+|018:02:06|LMP|Hello, Houston; 17. Are you reading?
+|018:02:09|CC|Go ahead, Jack.
+|018:02:12|LMP|Yes, you got any news today - to read up to us?
+|018:02:17|CC|Well, yes. As a matter of fact, we have a little bit made up here. I guess along the personal line, we checked with Barbara and Jan and the kids, and they're all back home safe and sound and they mentioned that they're going into their own personal quarantine period, glued to the squawk box. Over.
+|018:02:48|CDR|Okay.
+|018:02:48|CMP|I was afraid you were going to get too personal there, for a minute. (Laughter)
+|018:02:55|CC|I'll run down a few quick summaries of this morning's news. Former President Harry Truman has rallied slightly, despite his weakened heart and labored breathing. His doctors report that their main worry is whether his heart is strong enough to withstand the strain, the physical strain of 88 years. Despite the slight rally, Truman's condition is still considered critical. In Paris, Henry Kissinger met with Hanoi's Le Du Tho for 4 hours yesterday in planned secret talks. Paris newspapers report an imminent cease-fire, but neither Kissinger or Tho indicate that this is true. After the 4-hour talks, Kissinger shook hands; and his aid - got a little typo error here - but neither representative made any comment concerning their meeting. At Camp David, Maryland, President Nixon's press secretary, Ron L. Ziegler, said that Kissinger and Nixon are in close communication by cable concerning the secret peace talks. But Ziegler declined to provide more information about progress in the talks. President Nixon selected Claude S. Brinegar, a California oil executive and a doctor of economics, to be Secretary of Transportation succeeding John A. Volpe. Volpe will become the U.S. ambassador to Italy. Here's one concerning last night's launch. Mrs. Spiro Agnew reportedly made a wish on a falling star just before the delayed launch of Apollo 17. Sitting beside her at the VIP viewing site was Barbara Cernan, who said that she was nervous when the lift-off was postponed. She added, "But Al Bean was there with me. He said not to be concerned." Mrs. Cernan was accompanied by her daughter Tracy, and her mother, Mrs. Jackie Ashley. Mrs. Ron Evans, who saw the launch with her children, Jamie and John, said that she was never worried because everybody knew what they were doing.
 ||||Tape 15/2|Page 109
-|018:01:46|SC|(Laughter)
+|018:05:19|SC|(Laughter)
 |018:07:36|CDR|Good summary, Gordo. We thank you, and our best wishes for the return to health of Mr. Truman.
-|018:07:36|CC|Roger.
-|018:07:36|CDR|Gordo, we were figuring up here that we probably launched on the 6th of December in Houston and on the 7th of December in Florida.
-|018:07:36|CC|That's right. You called it right.
-|018:07:36|CMP|Okay, CMC AUTO there, Gene, please.
-|018:07:36|SC|Oh, boy.
-|018:09:04|CMP|Okay, let's use the VERB 23, ENTER. Oh, what did I do there. ENTER, let's see, is a 110. There, okay. VERB 25 - ENTER. Oh, Gamma Prime Leonis. (Coughing) Okay, minus 8490 - 84900, I mean; plus 40299È plus 40299j ENTER; plus 34176, plus -76, ENTER; okay, proceed. 202 ... l8, okay. There already. ... I guess. We'll try that one more time. ... CMC, AUTO? 196306,
-|018:09:04|LMP|Gordy, you still there?
-|018:09:04|CMP|Okay; that's right.
+|018:07:46|CC|Roger.
+|018:07:50|CDR|Gordo, we were figuring up here that we probably launched on the 6th of December in Houston and on the 7th of December in Florida.
+|018:08:00|CC|That's right. You called it right.
+|018:08:06|CMP|Okay, CMC AUTO there, Gene, please.
+|018:08:12|SC|Oh, boy.
+|018:09:04|CMP|Okay, let's use the VERB 23, ENTER. Oh, what did I do there. ENTER, let's see, is a 110. There, okay. VERB 25 - ENTER. Oh, Gamma Prime Leonis. (Coughing) Okay, minus 8490 - 84900, I mean; plus 40299 plus 40299 ENTER; plus 34176, plus - 76, ENTER; okay, PROCEED. 202 ... l8, okay. There already. ... I guess. We'll try that one more time. ... CMC, AUTO? 196306.
+|018:10:26|LMP|Gordy, you still there?
+|018:10:27|CMP|Okay; that's right.
 ||||Tape 15/3|Page 110
-|018:09:04|CC|Go ahead, Jack.
-|018:09:04|LMP|I mentioned to Bob yesterday how - when we moved away from the Earth - how fragile a piece of blue it looked to be, and that impression certainly grows the farther you get from it. I wish everybody could have a chance to get that impression. Things might go a little easier for us.
-|018:09:04|CC|Roger.
-|018:09:04|CMP|Okay, Gene, ... CMC FREE?
-|018:09:04|CMP|(Singing) ... must be making the vector worse and worse instead of better. (Laughter) Well, it was on the substellar point that time except it was halfway through the Earth almost. Not really.
+|018:10:31|CC|Go ahead, Jack.
+|018:10:34|LMP|Yes, I mentioned to Bob yesterday how - when we moved away from the Earth - how fragile a piece of blue it looked to be, and that impression certainly grows the farther you get from it. I wish everybody could have a chance to get that impression. Things might go a little easier for us.
+|018:10:57|CC|Roger.
+|018:11:06|CMP|Okay, Gene, ... CMC FREE?
+|018:11:11|CMP|(Singing) ... must be making the vector worse and worse instead of better. (Laughter) Well, it was on the substellar point that time except it was halfway through the Earth almost. Not really.
 |018:12:41|CMP|Hey, Gordy, we haven't really had a clear and detailed description of what you or somebody else saw at the launch, in terms of the lighting around the countryside, the state of the flame, and how long the - exhaust was under the S-IC. Do you have anything to add to that?
-|018:12:41|CC|Well, I can give you my feelings, anyway. It was a spectacular sight, and no doubt about it. I'd say the level of illumination would have made it easy to - to read a newspaper or anything like that from my vantage point near the VAB. The -the plume itself actually looked no larger or - or even any brighter, really, except in contrast, than it does on a day launch by comparison. But -well, the effect, I guess, was about what I expected just trying to extrapolate previous launches into a nighttime situation. The weather was very clear. That was one advantage gained by delaying the launch the 2 hours and 40 minutes that you did. By that time, there were very few clouds around at all. And we could see a brilliant flash there when the first stage cut off and the second stage ignited. And I lost you visually probably, oh, 4 to 5 minutes into the second stage, as best I can remember. Part of the problem was the brightness of the plume during the first stage, it kind of burned a spot on my eye; and so then I was -had reduced efficiency at looking for a small point of light from there on out. Stu's here with me and he was watching it, too. I'll see if he has anything to add.
+|018:13:12|CC|Well, I can give you my feelings, anyway. It was a spectacular sight, and no doubt about it. I'd say the level of illumination would have made it easy to - to read a newspaper or anything like that from my vantage point near the VAB. The - the plume itself actually looked no larger or - or even any brighter, really, except in contrast, than it does on a day launch by comparison. But - well, the effect, I guess, was about what I expected just trying to extrapolate previous launches into a nighttime situation. The weather was very clear. That was one advantage gained by delaying the launch the 2 hours and 40 minutes that you did. By that time, there were very few clouds around at all. And we could see a brilliant flash there when the first stage cut off and the second stage ignited. And I lost you visually probably, oh, 4 to 5 minutes into the second stage, as best I can remember. Part of the problem was the brightness of the plume during the first stage, it kind of burned a spot on my eye; and so then I was - had reduced efficiency at looking for a small point of light from there on out. Stu's here with me and he was watching it, too. I'll see if he has anything to add.
 ||||Tape 15/4|Page 111
-|018:12:41|CMP|Stu who?
-|018:12:41|CC|He said after that comment he has no comment.
-|018:15:26|CMP|(Laughter) I'm sorry, Stu." I can't believe that; Stu always has something to add. (Singing) Houston, in case you just noticed, I forgot the VERB 67 until just now. Although, in reality, all we're trying to do here is get a DELTA-H measurement anyhow. And, Houston, do you have any feel yet for what the DELTA-H is - line has been?
-|018:16:14|CC|Stand by, Ron.
-|018:16:14|CMP|Okay, that's mighty fine.
-|018:16:14|CMP|Okay, Geno, CMC AUTO? Let's see what's on this star here. Kalinan [sic] - Menkalinan, I guess. Okay, Earth far horizon; 23, ENTER 120, ENTER, 25 ENTER ... (Coughing) (Singing) Plus - 7073 ENTER, plus 70644 ENTER. Okay, that is the unit vector of the star.
-|018:22:14|CMP|Okay, it's a l80 option we don't want. ... the real option. (Laughter) I guess they're getting -Houston, you must be getting all the good data without the high gain, huh?
-|018:22:14|CC|That's affirmative, Ron.
-|018:22:14|CMP|Okay; let's ENTER that.
-|018:22:14|CMP|Okay, Gene, you go CMC FREE now? Yes, that's about a half a sextant diameter above the - above the horizon. Substellar point looks pretty good, though.
+|018:15:14|CMP|Stu who?
+|018:15:19|CC|He said after that comment he has no comment.
+|018:15:23|CMP|(Laughter) I'm sorry, Stu. I can't believe that; Stu always has something to add. (Singing) Houston, in case you just noticed, I forgot the VERB 67 until just now. Although, in reality, all we're trying to do here is get a DELTA-H measurement anyhow. And, Houston, do you have any feel yet for what the DELTA-H is - line has been?
+|018:15:59|CC|Stand by, Ron.
+|018:16:14|CC||Ron, this is Houston. We're not going to be able to give you a handle on the Delta H until we have a chance to take all the data and reduce it and work it around a little.
+|018:16:28|CMP|Okay, that's mighty fine.
+|018:16:32|CMP|Okay, Geno, CMC AUTO? Let's see what's on this star here. Kalinan [sic] - that's Menkalinan, I guess. Okay, Earth far horizon; 23, ENTER 120, ENTER, 25 ENTER ... (Coughing) (Singing) Plus - 7073 ENTER, plus 70644 ENTER. Okay, that is the unit vector of the star.
+|018:22:14|CMP|Okay, it's a l80 option we don't want. ... the real option. (Laughter) I guess they're getting - Houston, you must be getting all the good data without the high gain, huh?
+|018:22:38|CC|That's affirmative, Ron.
+|018:22:40|CMP|Okay. Okay, let's ENTER that.
+|018:22:55|CMP|Okay, Gene, you go CMC FREE now? Yes, that's about a half a sextant diameter above the - above the horizon. Substellar point looks pretty good, though.
 ||||Tape 15/5|Page 112
 |018:25:51|CMP|Hey, guys, -
+|018:28:58|PAO|This is Apollo control at 18 hours 29 minutes. During the change of shift press briefing, flight director Gene Kranz reviewed the status of the mission with each of his flight controllers everything essentially normal at this point. Flight dynamics officer reported that they have not yet gotten sufficient tracking on the S-IVB trajectory to give an impact point based on tracking. We should have that in a matter of hours. And we'll get a report as soon as a set of coordinates for the S-IVB impact are available. Also, capcom Gordon Fullerton read up a news report to the crew. And it's been relatively quiet for the past 5 or 10 minutes on the air to ground line. We'll replay the accumulated tape and as soon as we've caught up with the tape we'll stand by for live conservations with the crew.
 |018:30:54|CMP|- Yes, not yet.
 |018:31:11|CMP|Yes, it's on there.
-|018:36:47|CMP|30 ENTER - oops! CMC AUTO ... Now, last star. What was that? I'm going to go back to the calibration attitude.
+|018:36:43|CMP|30 ENTER - oops! CMC AUTO ... Now, last star. What was that? I'm going to go back to the calibration attitude.
 |018:38:04|CMP|Okay, CMC auto engaged, and away we go.
-|018:38:04|CMP|Hey, we ... the waste water, too - to 10 percent.
-|018:38:37|CMP|164, 301, and 318 - that's the optics calibration attitude that we want to start with. Put the ... line of sight mark on star 22. Also the optics line of sight, with optics zero. Let's see, I'll the optics, I guess first.
-|018:45:43|CMP|Okay, Houston, looks like optics calibration here is 89 995- I get that half the time and 997 the rest. So (laughter) we'll use 995, I guess.
-|018:45:43|CC|Roger.
-|018:45:43|LMP|Okay, Houston, you ready for some purges and dumps?
-|018:45:43|CC|Let me make sure here. We're standing by.
+|018:38:11|CMP|Hey, we ... dump the waste water, too - to 10 percent.
+|018:38:21|CMP|164, 301, and 318 - that's the optics calibration attitude that we want to start with. Put the landmark line of sight mark on star 22. Also the optics line of sight, with optics zero. Let's see, I'll the optics, I guess first.
+|018:45:43|CMP|Okay, Houston, looks like optics calibration here is 89995 - I get that half the time and 997 the rest. So (laughter) we'll use 995, I guess.
+|018:45:57|CC|Roger.
+|018:46:07|LMP|Okay, Houston, you ready for some purges and dumps?
+|018:46:11|CC|Let me make sure here. We're standing by.
 |018:45:43|LMP|Okay. I'll get going on the 0 purges on the fuel cell.
 |018:45:43|CC|Okay.
 |018:49:28|LMP|Well, I had my clock on the wrong scale. Is that about 2 minutes, Houston?
-|018:49:28|CC|That's good, Jack.
-|018:49:28|CC|Did you copy that, Jack? They said that was fine.
-|018:49:28|LMP|Yes, sir, Stu; I copied that. How are you?
-|018:49:28|CC|Okay; swinging.
-|018:49:28|LMP|That's good to hear.
+|018:49:48|CC|That's good, Jack.
+|018:50:09|CC|Did you copy that, Jack? They said that was fine.
+|018:50:13|LMP|Yes, sir, Stu; I copied that. How are you?
+|018:50:16|CC|Okay; swinging.
+|018:50:21|LMP|That's good to hear.
 ||||Tape 15/6|Page 113
-|018:49:28|CC|Sure am enjoying your descriptions.
-|018:49:28|LMP|Well, if I could get Ron off his - work with the optics, we'd look at the Earth some more. But that will come. Right now I'm seeing all sorts of little ice crystals of various composition, (laughter) that are moving around, and every one of them bounces off the LM that I can see. No, none of them stick. I noticed that some of them will go into a corner with a fairly high velocity and either be turned around by a double bounce, or just get lodged in the corner and have very low velocity when they come out.
-|018:49:28|CC|Roger.
-|018:49:28|LMP|Most of them look like they have at least a foot or 2 per second.
-|018:49:28|CC|Roger.
+|018:50:24|CC|Sure am enjoying your descriptions.
+|018:50:31|LMP|Well, if I could get Ron off his - work with the optics, we'd look at the Earth some more. But that will come. Right now I'm seeing all sorts of little ice crystals of various composition, (laughter) that are moving around, and every one of them bounces off the LM that I can see. No, none of them stick. I noticed that some of them will go into a corner with a fairly high velocity and either be turned around by a double bounce, or just get lost in the corner and have very low velocity when they come out.
+|018:51:10|CC|Roger.
+|018:52:06|LMP|Most of them look like they have at least a foot or 2 per second.
+|018:52:13|CC|Roger.
 |018:49:28|CC|Hey, Jack, I was surprised when you said when you got Ron off the optics. Don't tell me that Ron is going to let you look through his optics.
 |018:49:28|LMP|Oh, heavens no! We just move the windows. (Laughter)
 |018:49:28|CC|(Laughter) Okay.
@@ -3513,7 +3520,7 @@ e|043:13:33|CMP|Okay; will do.
 |044:50:25|CC|About 118 max, Jack.
 |044:50:25|LMP|Roger. Understand.
 |044:50:25|CC|Don't let me - let me harrass you. I just wan kidding you on that. Whatever you think is fair.
-|045:00:30|LMP|You're not harrassing me. When my arm's rested, I'11 try again.
+|045:00:30|LMP|You're not harrassing me. When my arm's rested, I'll try again.
 |045:00:52|CC|Couple of interesting data points for you, Jack. We saw the - while you were doing that, we saw the PP COg go up; and we saw the tanks destratify again the same way.
 |045:00:52|LMP|Very good. Next mission they'll have to Flight Plan it.
 |045:00:52|CC|That's affirmative.
@@ -7223,7 +7230,7 @@ e|043:13:33|CMP|Okay; will do.
 |105:07:22|CC|And if there's any - if you - if there's no reason why not, we'd just as soon you go ahead and do the P52 now. Finish that off and then start the maneuver. Over.
 |105:07:22|CMP|Okay. The big reason is that Gene's getting into his suit right now.
 |105:07:22|CC|Okay.
-|105:07:22|CMP|As soon as he gets out and gets in his suit, well, I'11 do a P52 maneuver.
+|105:07:22|CMP|As soon as he gets out and gets in his suit, well, I'll do a P52 maneuver.
 |105:07:22|CC|Okay.
 |105:07:22|CC|Ron, Houston. Can you give us AUTO on the HIGH GAIN?
 |105:07:22|CMP|Okay. Just a second, Houston.
@@ -7549,7 +7556,7 @@ e|043:13:33|CMP|Okay; will do.
 |107:11:04|CMP|Okay, here's number 8. Here's one, two. And the chute's fully released, and the hook is off the docking ring.
 |107:11:22|CMP|Okay, here's number 9* One, two, and she's fully released; the hook clears the docking ring. Okay, number 10. Here's one, two - fully released, and the hook clears the docking ring. There's one ... Okay, handle's free; J-hook clears the ring. I've only got one more to go. There's the first latch there's two latches ... came over. And the hook stays clear; the handle is free. And, by golly, they're all off. Hey, Challenger; America. You're hanging on those three little bitty things. Okay. I put the old - hatch in.
 |107:12:49|CC|Okay, Ron, we're within a minute of LOS. Your O2 flow still looks good, and the rest of the stuff that you can get on the VHF is going to be just fine. You're right on schedule now.
-|107:12:49|CMP|Okay. I'11 get that VHF stuff and then put the hatch in.
+|107:12:49|CMP|Okay. I'll get that VHF stuff and then put the hatch in.
 |107:12:49|CMP|Okay, we're in RECEIVE ONLY to B DATA. Hey, Challenger; America. I'm going to RECEIVE ONLY the B DATA.
 |107:13:37|CMP|Hey, Challenger; America.
 ||||Tape 72A/1|Page 535
@@ -7642,7 +7649,7 @@ e|043:13:33|CMP|Okay; will do.
 |106:29:18|CMP|Okay. VERB 6 NOUN 20. 000.32, 104.40, 359-55-
 |106:29:18|CDR|Okay. I got all those.
 |106:29:18|CMP|Okay.
-|106:29:18|LMP|Okay, Houston. I skipped a step on LUNAR BAT, OFF/RESET; I'11 go back.
+|106:29:18|LMP|Okay, Houston. I skipped a step on LUNAR BAT, OFF/RESET; I'll go back.
 |106:30:14|CC|Jack, we need the - we think you missed a step. We need to -
 |106:30:14|CC|CDR, LUNAR BAT, OFF/RESET.
 |106:30:14|LMP|Yes. That's right, I'll go - that's affirm; I'll go back. Stand by.
@@ -9114,7 +9121,7 @@ e|043:13:33|CMP|Okay; will do.
 |114:16:50|CMP|No, it still looks like that area that's blown away there is Dog November - between Dog November and Dog Papa. And about 83.4 or something like that.
 |114:17:07|CC|Copy.
 |114:17:07|CMP|Yes, just like the map shows, and all the pictures, you've got a definite demarcation in the annulus around Serenitatis here, as you look by Sulpicius Gallus area. As you look at it - I'm going to have to take another check on it - but the dark annulus looks to me like it's raised above the mare, proper, itself. I'll check that a little more as we come on across.
-|114:17:07|CMP|You know all those rilles to the north of - I mean to the west of Sulpicius Gallus. There is a bunch of crisscrossing. One is right on the edge of the Serenitatis basin - and I don't remember the name of that crater, I'11 have to look it up later - but they've got slightly raised rims around the rilles. You can see some layering down inside the rille itself, in the east-west and the one that runs in the east-west direction.
+|114:17:07|CMP|You know all those rilles to the north of - I mean to the west of Sulpicius Gallus. There is a bunch of crisscrossing. One is right on the edge of the Serenitatis basin - and I don't remember the name of that crater, I'll have to look it up later - but they've got slightly raised rims around the rilles. You can see some layering down inside the rille itself, in the east-west and the one that runs in the east-west direction.
 |114:17:07|CC|Roger. You're talking about near Menelaus?
 |114:17:07|CMP|Yes, I'll have to look on the map and see for sure what the crater is, but there's an impact crater right on the edge of Serenitatis basin -right on the terminator. Right now.
 |114:17:07|CC|P.oger.
@@ -9775,7 +9782,7 @@ e|043:13:33|CMP|Okay; will do.
 |114:07:46|CDR-LM|Oh, the tool harness?
 |114:07:46|LMP-LM|Yes. The back. It's loose on your back; on the back of the PLSS.
 |114:07:46|CDR-LM|Oh, man, I don't like that. Okay. I'll watch it
-|114:07:46|LMP-LM|Well, I'11 fix it when I get out there.
+|114:07:46|LMP-LM|Well, I'll fix it when I get out there.
 |114:28:21|CDR-EVA|Okay. I'm still reading 4.0. Houston, Commander is on the porch of Challenger.
 |114:28:30|CC|Roger. We copy you, Commander, and your feed water pressure is looking much better - -
 |114:28:30|CDR-EVA|Okay. Everything else look good to you?
@@ -10751,7 +10758,7 @@ e|043:13:33|CMP|Okay; will do.
 |116:04:06|CC|Hello, Challenger.
 |116:04:06|LMP-EVA|I wish I could go back and make that landing about 6 or 7 times so I could take in all that I missed.
 ||||Tape 78A/31|Page 722
-|116:04:06|CDR-EVA|So do I. I might as well have stayed at the Cape. Okay. Let's see. Core bore neutron flux, and I'll get the drill and I'11 go back and ...
+|116:04:06|CDR-EVA|So do I. I might as well have stayed at the Cape. Okay. Let's see. Core bore neutron flux, and I'll get the drill and I'll go back and ...
 |116:04:06|CC|Geno, you know you might wander by the gravimeter. I think it might be done by now. You might just check the light and see if it's steady, or on or not.
 |116:04:06|CDR-EVA|Okay. I'll go by there right now, Bob -
 |116:04:06|LMP-EVA|For future reference, Bob, the dome removal tool doesn't - it'11 turn. Shoot.
@@ -10792,9 +10799,9 @@ e|043:13:33|CMP|Okay; will do.
 |116:06:01|LMP-EVA|Okay, TRG i s out.
 |116:06:01|CDR-EVA|Don't trip.
 |116:06:01|LMP-EVA|Wouldn't think of it.
-|116:06:01|CDR-EVA|Okay, where was I? I've got to go back and get the drill, if I'm not mistaken. Yes sir, and then I'11 be caught up with the TGE. Okay, Houston. The RTG is inserted. The element, that is -
+|116:06:01|CDR-EVA|Okay, where was I? I've got to go back and get the drill, if I'm not mistaken. Yes sir, and then I'll be caught up with the TGE. Okay, Houston. The RTG is inserted. The element, that is -
 |116:06:01|CC|Okay, we'11 copy that.
-|116:06:01|CDR-EVA|Bob , I'11 - I'11 give you my word. Before we leave here, I'll make sure that the SRC is closed.
+|116:06:01|CDR-EVA|Bob , I'll - I'll give you my word. Before we leave here, I'll make sure that the SRC is closed.
 |116:06:01|CC|Okay. Copy that. As long as it's got only an inch or two showing there, should be no problem. That looks fine ...
 |116:06:01|CDR-EVA|Man, I've got to put something on it to get it down to that far.
 |116:06:01|CC|Okay.
@@ -11327,7 +11334,7 @@ e|043:13:33|CMP|Okay; will do.
 |117:05:10|CDR-EVA|No, Jack. It isn't changing color. I can't even tell - I can't even tell vhere it's coming up.
 |117:05:10|LMP-EVA|(Laughter)
 |117:05:10|CDR-EVA|I don't think it is coming up, I think I'm just pushing it aside.
-|117:05:10|LMP-EVA|Bqy, I'11 tell you - -
+|117:05:10|LMP-EVA|Bqy, I'll tell you - -
 |117:05:10|CC|I saw something come up then just then, Jack.
 |117:05:10|LMP-EVA|- - the old ALSEP central station - -
 |117:05:10|LMP-EVA|Yes, it deploys itself; it turns out.
@@ -11785,7 +11792,7 @@ e|043:13:33|CMP|Okay; will do.
 |118:21:48|CMP|Okay. Why don't you just kind of give me a - ... gouge when I should be at Eratosthenes (chuckle).
 |118:21:48|CC|Okay. I'll give a call and, of course, your first frame is - -
 ||||Tape 79B/4|Page 781
-|118:21:48|CMP|I think I'11 - -
+|118:21:48|CMP|I think I'll - -
 |118:21:48|CC|- - first frame is f/1.2 for 1 second and you'll take two frames.
 |118:21:48|CMP|Okay.
 |118:23:27|CC|Okay, Ron. You're about 30 seconds from T-start time.
@@ -11979,7 +11986,7 @@ e|043:13:33|CMP|Okay; will do.
 ||||Tape 80A/5|Page 792
 |118:15:37|CDR-EVA|Yes, but it didn't go in that hard.
 |118:15:37|CC|Key, Geno, how about slacking off for a minute there. You got pretty - going pretty :ard.
-|118:15:37|CDR-EVA|Okay. One more turn and I'11 get up. I've got to hit an easy spot sooner or later.
+|118:15:37|CDR-EVA|Okay. One more turn and I'll get up. I've got to hit an easy spot sooner or later.
 |118:15:37|CC|It seems that way.
 |118:15:37|CDR-EVA|You're right, Bob. I'm going to take a rest. You bet you. Man, I hate to say it, but I - I had that 25 percent of the way there. I can feel it ticking now. I'm going cold.
 |118:15:37|CC|Okay.
@@ -14510,7 +14517,7 @@ e|043:13:33|CMP|Okay; will do.
 |125:24:59|CC|Okay. Thank you.
 |125:24:59|LMP-LM|Houston; Challenger. How do you read?
 |125:24:59|CC|You're loud and clear. Go ahead.
-|125:24:59|LMP-LM|Joe, I just took a - quick look with the hand lens at that large rock I brought in, and I'11 -I don't think there's much more than 30 percent plagioclase. I'll go back - could be more of a standard basalt or gabbro. It has a fair proportion of ilmenite in it, I believe. There's a bright platelets - in the vugs or vesicles - of ilmenite. Now it could be that the glass - if the soil is very glassy, that it's developed the darker color from the contribution of the - of the basic minerals through the glass, particularly the iron and the titanium.
+|125:24:59|LMP-LM|Joe, I just took a - quick look with the hand lens at that large rock I brought in, and I'll -I don't think there's much more than 30 percent plagioclase. I'll go back - could be more of a standard basalt or gabbro. It has a fair proportion of ilmenite in it, I believe. There's a bright platelets - in the vugs or vesicles - of ilmenite. Now it could be that the glass - if the soil is very glassy, that it's developed the darker color from the contribution of the - of the basic minerals through the glass, particularly the iron and the titanium.
 ||||Tape 84A/8|Page 940
 |125:24:59|LMP-LM|All it means is that we don't yet know the origin of the dark mantle.
 |125:24:59|CC|Roger.
@@ -14961,7 +14968,7 @@ e|043:13:33|CMP|Okay; will do.
 |134:33:15|CDR-LM|Gordy, we're going to start to eat here. Why don't you talk to us about that fender?
 ||||Tape 90A/5|Page 976
 |134:33:15|CC|Okay; let me round up - John Young. He stepped out - for a second. We'll have him here in a minute. Might as well let the resident expert on fenders talk.
-|134:33:15|CC|Okay; I'11 now turn the microphone over to Captain Young.
+|134:33:15|CC|Okay; I'll now turn the microphone over to Captain Young.
 |134:33:15|CC|Hey, Geno. This is John. We spent - -
 |134:33:15|CDR-LM|Hello, John. How you doing?
 |134:40:11|CC|Oh, just fine. You guys are doing a superb job; really beautiful. Hey, we spent some time on this - fender problem and worked out a pretty simple-minded procedure, which involves essentially taking four of those chronopaque pages out of your lunar surface map, ones which are not going to be used for discussing the site, taping them together with gray - gray tape so that you end up with a piece of paper about 15 inches by 10-1/2 inches, and then using the AOT lamp clamp, preposition them full opened, and taking them out, and taking that piece of paper out, laying it on top of the fender guide rails and - and clamping the edges of it with the AOT lamp clamps. It's simple and straightforward, and the beauty of it is you're only spending about 2 minutes in the clamping operation, and it could save you up to about 12 dusting, I think maybe. What do you think?
@@ -15502,7 +15509,7 @@ e|043:13:33|CMP|Okay; will do.
 |137:30:22|LMP-LM|Yes, they got it.
 |137:30:22|CDR-LM|Okay. LMP comm check - okay. You did them?
 |137:30:22|LMP-LM|Yes ... - -
-|137:30:22|CDR-LM|Okay. You go B, and I'11 go A.
+|137:30:22|CDR-LM|Okay. You go B, and I'll go A.
 |137:30:49|LMP-LM|Okay. Going B, Houston. LMP on B.
 |137:30:54|CDR-LM|Okay. And the CDR is B. I - I'm reading loud and clear. Houston, how do you read CDR?
 |137:30:54|CC|I read you loud and clear.
@@ -17659,7 +17666,7 @@ e|043:13:33|CMP|Okay; will do.
 |140:18:05|LMP-EVA|Yes, that's good.
 ||||Tape 94A/28|Page 1151
 |140:18:05|CDR-EVA|Oh, beautiful. Hit the gnomon.
-|140:18:05|CDR-EVA|Well, I'11 re - -
+|140:18:05|CDR-EVA|Well, I'll re - -
 |140:18:05|LMP-EVA|It didn't move. It just tilted it. This it?
 |140:18:05|CDR-EVA|Yes, that's it right there.
 |140:18:05|LMP-EVA|Let me set my working tool down here.
@@ -18496,7 +18503,7 @@ e|043:13:33|CMP|Okay; will do.
 |141:12:32|LMP-EVA|Oh zero.
 |141:12:32|CDR-EVA|Zero?
 |141:12:32|LMP-EVA|Yes.
-|141:12:32|CDR-EVA|I'11 punch It.
+|141:12:32|CDR-EVA|I'll punch It.
 |141:12:32|LMP-EVA|You'll change it as soon as you get off.
 ||||Tape 95A/8|Page 1201
 |141:12:32|CDR-EVA|Oh, it's zero.
@@ -18995,7 +19002,7 @@ e|043:13:33|CMP|Okay; will do.
 |142:05:38|CC|Go ahead, Gene.
 |142:05:38|CDR-EVA|Bob, the - when I broke the cores apart, there's just a lot of dried clods and - and the bottom core's full, the top core about - oh, I got to look - it's dark down there, but about an inch -inch and a half of the core is just - just zero g to l/6 g'd itself right out.
 |142:05:38|CC|Okay, we copy that. I guess we still just cover it, and see what we got. Might just again trying compacting it after that's through; after you're done with the lower core.
-|142:05:38|CDR-EVA|Yes. I'11 do that.
+|142:05:38|CDR-EVA|Yes. I'll do that.
 |142:05:38|CC|And, Geno, how about - -
 |142:07:23|LMP-EVA|Bag 526.
 |142:07:23|CC|Copy; 526.
@@ -19028,7 +19035,7 @@ e|043:13:33|CMP|Okay; will do.
 |142:09:41|CC|No .
 |142:09:41|LMP-EVA|Oh, dadgummit. Well - -
 |142:09:41|CC|Hey, Gene, would you help - would you go over and help Twinkletoes, please?
-|142:09:41|LMP-EVA|I tell you - you fix that camera bracket so the backs stay on and I'11 be a lot better off.
+|142:09:41|LMP-EVA|I tell you - you fix that camera bracket so the backs stay on and I'll be a lot better off.
 |142:09:41|CC|Roger.
 |142:09:41|CDR-EVA|Want some help, Jack? I'll be there.
 |142:09:41|LMP-EVA|No, I don't need any help.
@@ -19307,7 +19314,7 @@ e|043:13:33|CMP|Okay; will do.
 ||||Tape 95B/4|Page 1247
 |143:33:56|CMP|(Laughter) I bet he would be. Hey, that's a great find, by gosh!
 |143:33:56|CC|Yes, that's first time we find - It's orange. Boy, you could see it in the television; it's bright orange soil. Ho question about it.
-|143:33:56|CMP|I'11 be darned.
+|143:33:56|CMP|I'll be darned.
 |143:33:56|CC|And, as luck would have it, they found it all and got working, and then they got - had to pull out of Shorty due to constraints , walkback constraints in the area. You know consumable versus walkback.
 |143:33:56|CMP|Yes.
 |143:35:12|CC|Okay. Ron, everything is - That's everything we've got from down here. Once you finish your presleep checklist, then you'll be clear to turn the comm off and - or turn the - the DOWN VOICE, OFF, and have a good night's sleep. And - -
@@ -21115,7 +21122,7 @@ e|043:13:33|CMP|Okay; will do.
 |145:12:53|LMP-EVA|Yes. We ought to leave one in tribute - Dr. Young.
 |145:12:53|CDR-EVA|Oh, that orange soil was something.
 |145:12:53|LMP-EVA|Huh?
-|145:12:53|CDR-EVA|And the way it went radially down that - down that crater. Let me turn, and then take another look, and then I'11 - then you get up there.
+|145:12:53|CDR-EVA|And the way it went radially down that - down that crater. Let me turn, and then take another look, and then I'll - then you get up there.
 |145:12:53|LMP-EVA|You got quite a bit around your hoses here.
 |145:12:53|CDR-EVA|My hoses?
 |145:12:53|LMP-EVA|Okay, and I don't know what I can do about it, Geno.
@@ -21870,7 +21877,7 @@ e|043:13:33|CMP|Okay; will do.
 |153:36:29|CC|Okay, Ron; it's your computer. Go gack to BLOCK.
 |153:38:17|CMP|Okay, we're in BLOCK.
 |153:38:17|CMP|You know that Skylab drink bag has really been a pretty good deal because you can use the nipple that's on the end of that thing and use it for all of the beverage packages. And that way, you don't have to cup open the end of it and let it drip out all over the place.
-|153:38:17|CC|Hey, I'11 pass that along to the Skylab - -
+|153:38:17|CC|Hey, I'll pass that along to the Skylab - -
 |153:38:17|CMP|- - you can use the nipple.
 |153:38:17|CMP|I'm not sure if they have any of our beverage packs or not. I think they are all packaged in these expandable little things we're using for water -water cans.
 |153:38:17|CC|I see.
@@ -22413,7 +22420,7 @@ e|043:13:33|CMP|Okay; will do.
 |159:43:33|CC|Roger; we copy.
 |159:47:41|CC|Ron, do you have your Flight Plan handy? I've got an update and stuff like that. I don't want to interrupt eating. If you don't have it, we'll get it after the eat period.
 |159:47:41|CMP|Okay. Just a second here; I'll get it.
-|159:48:31|CMP|Okay, 113, 114, and 115 were taken on the western edge of Serenitatis. I'11 get unwound from the cord here in a little bit and I'll (laughter). You know if we design another spacecraft, we got to have something with a - so you don't have to be tied up to this crazy cord.
+|159:48:31|CMP|Okay, 113, 114, and 115 were taken on the western edge of Serenitatis. I'll get unwound from the cord here in a little bit and I'll (laughter). You know if we design another spacecraft, we got to have something with a - so you don't have to be tied up to this crazy cord.
 |159:48:31|CC|Roger. Copy that. Hey, look, there's no hurry -hurry on the Flight Plan. Just keep doing what you want, and I'll call you at about l62:40.
 |159:48:31|CMP|Let's see, where are we now? I've got -
 |159:49:14|CC|We're at 152:29*
@@ -22481,7 +22488,7 @@ e|043:13:33|CMP|Okay; will do.
 ||||Tape 106B/10|Page 1451
 |160:19:15|CC|Roger. We copy that, Ron.
 |160:19:46|CMP|Okay.
-||||Tape 107A/1|Page 1452 we might try and get the - use up the extra double core, if there is one, in the dark mantle near the IM or do some trenching near the IM. But that's only if time permits at the very end, depending upon how the consumables run out. They want to call attention to two particular things here. One, since you guys really haven't gotten any very big rocks so far, they're recommending, they say here, and I quote: "The value of large individual samples has been demonstrated. We recommend that several football-sized samples of a uniform igneous rock be collected at station 9 or 10." I'11 pass that on as that. Another point of interest is the 1- to 20- millimeter size section of the regolith, the dark mantle, the lithology. Then, any observations or collections you can make pertinent to that would be of interest in trying to determine the relationship of the dark mantle to the subfloor units of gabbro underneath. Two short questions which I'll ask, which I hope - hope you can answer in just a very few words. One of them is a yes and no answer. One, we - they can't find the geophone photos specifically called out in the transcript. There is probably a little bit of garble at that point, and the people in the back room will be very happy if you could say once and for all, Jack, that, yes, you did get the geophone photos. Over.
+||||Tape 107A/1|Page 1452 we might try and get the - use up the extra double core, if there is one, in the dark mantle near the IM or do some trenching near the IM. But that's only if time permits at the very end, depending upon how the consumables run out. They want to call attention to two particular things here. One, since you guys really haven't gotten any very big rocks so far, they're recommending, they say here, and I quote: "The value of large individual samples has been demonstrated. We recommend that several football-sized samples of a uniform igneous rock be collected at station 9 or 10." I'll pass that on as that. Another point of interest is the 1- to 20- millimeter size section of the regolith, the dark mantle, the lithology. Then, any observations or collections you can make pertinent to that would be of interest in trying to determine the relationship of the dark mantle to the subfloor units of gabbro underneath. Two short questions which I'll ask, which I hope - hope you can answer in just a very few words. One of them is a yes and no answer. One, we - they can't find the geophone photos specifically called out in the transcript. There is probably a little bit of garble at that point, and the people in the back room will be very happy if you could say once and for all, Jack, that, yes, you did get the geophone photos. Over.
 ||||Tape 107A/2|Page 1453
 |158:50:03|LMP-LM|Yes.
 |158:50:03|CC|Roger. And the second one concerns the 1/4-pound charge which we deployed on the way in last night. Two questions on that. It appears to us from your voice transcript that we weren't fast enough on it at the time that that may be deployed closer to the ALSEP than the one you deployed on the way out. And we'd like an impression on that. And, number 2, you mentioned that you placed it in a depression. We'd like some feeling for that depression in terms of how much of a danger that bomb - charge might play to the AI£EP when i t i'oc-j off. If it's in a depression of any sort, thcy'ri' probably pretty well protecting the AL3KP. Any comment on those two questions? Over.
@@ -24396,7 +24403,7 @@ e|043:13:33|CMP|Okay; will do.
 |163:38:48|CMP|... back to the other window.
 |163:38:48|CMP|Did they kind of find that orange stuff on the north side of it?
 |163:38:48|CC|Let me check on that, Ron. I'll be back with you in a second. I don't think so; their stop was at -station 4 was on - -
-|163:38:48|CMP|... I'11 get ...
+|163:38:48|CMP|... I'll get ...
 |163:38:48|CC|Station 4 was on the south side of it.
 |163:38:48|CC|Just go ahead with what you see and - -
 |163:38:48|CMP|I'd say they just barely got into the stuff, then, becau - But it - but it looks like - kind of the north rim of it has more of a - a tint of a different color to it.
@@ -24416,7 +24423,7 @@ e|043:13:33|CMP|Okay; will do.
 |163:41:50|CC|Ron, is there a cone associated with F Crater?
 |163:41:50|CMP|I didn't get a chance to look at it that much. I'll have to check it the next time.
 |163:41:50|CC|Okay. Have any thoughts on how - what's its origin?
-|163:43:02|CMP|I'11 have to look at F Crater again the next time I come over on the thing, because I spent most of the time looking at - Shorty.
+|163:43:02|CMP|I'll have to look at F Crater again the next time I come over on the thing, because I spent most of the time looking at - Shorty.
 |163:43:02|CC|Okay.
 ||||Tape 109B/5|Page 1571
 |163:43:14|CMP|You Know -
@@ -25846,7 +25853,7 @@ e|043:13:33|CMP|Okay; will do.
 |165:09:37|LMP-EVA|I think we - We've got it. Tallyho.
 |165:09:37|CDR-EVA|Bob - Bob. That's my fix. I'm just navigating to it.
 |165:09:37|CC|Okay. Copy that.
-|165:09:37|CDR-EVA|I know where. I'11 get there.
+|165:09:37|CDR-EVA|I know where. I'll get there.
 |165:09:37|CC|Roger.
 |165:09:37|LMP-EVA|We have a Tallyho on Shorty - I mean of Van Serg. How about through there, Geno. Thanks.
 |165:09:37|CC|Let's not prejudge the crater too much.
@@ -30575,7 +30582,7 @@ e|043:13:33|CMP|Okay; will do.
 |189:23:00|CDR|Get one from the command -
 |189:23:00|LMP|Ñ We've got our Data Card Book Ñ -
 |189:23:00|CMP|What do you need? A P30 pad?
-|189:23:00|CMP|Ñ - stowed away. Can you read each of the items, and I'11 copy down the pad that way?
+|189:23:00|CMP|Ñ - stowed away. Can you read each of the items, and I'll copy down the pad that way?
 |189:23:00|CMP|Hey, wait a minute and I'll tear you one out of here, Jack.
 |189:23:00|CC|Sure enough, Jack. No problem. It's not that complicated anyway.
 |189:23:00|LMP|That's right, this is an easy one. Go ahead.
@@ -31352,7 +31359,7 @@ e|043:13:33|CMP|Okay; will do.
 |205:09:45||END OP TAPE
 ||||Tape 138/1|Page 1995
 |205:09:45|CMP|Okay, Houston. Stand by 1, here I've got my hands full of - *** PRD thing.
-|205:09:45|CC|Okay, the only thing we want to tell you is don't do the solar corona, and we've already told you that. We'11 get back with you later on that. If you want, I'11 read you the morning news.
+|205:09:45|CC|Okay, the only thing we want to tell you is don't do the solar corona, and we've already told you that. We'11 get back with you later on that. If you want, I'll read you the morning news.
 |205:22:16|CMP|Hey, okay. Go ahead.
 |205:22:16|CC|Okay, there's been a temporary halt to the peace talks in Paris, and, as we mentioned before, Henry Kissinger is in Washington and has conferred with President Nixon. A cease-fire proposal suggested by South Vietnamese government officials has been rejected by the U.S. White House News Secretary Ron Zeigler has declined to characterize the present Paris peace efforts, but say - did say there are still some obstacles to overcome. And we had another hijack attempt. A youthful Canadian, who hijacked an airliner in northern Canada was talked out of his escapade by his father. The youth had held 62 persons aboard the plane for a short while, then retained only four hostages for 10 hours. It appears that the United Mine Workers may have a new president. Maverick candidate Arnold Miller retained a strong lead over Tony Boyle in the government-supervised election. The transatlantic airfare price war that seems imminent, premises to be a real boon to the vacationer. It is now estimated that airfare may be as low as $136.00 for the transatlantic fare in some special categories. Juan Peron has ended his month-long visit to Argentina. An attempt was made to ncsninate him for the presidential election while he was there, but the move was declared illegal and he returned to Paraguay. A few other news highlights - the village of Rhonda, Switzerland, is threatened by a half-million-ton portion of a glacier moving down a mountain. Willie Brandt has been sworn in as Chancellor of West Germany for his second term. Former President Truman remains seriously ill. Chicago Mayor Daley has made an effort to halt further commercial development along Chicago's Lake Michigan waterfront. Comedian Bob Hope is set again for his annual tour of U.S. overseas military bases. His first Christmas show in the Far East is December 21. Now, in the local news, here, there's a good chance that Texans may soon legally put a bet down on a horse race. A state senate's studying - study committee has heard some heavy opposition to parimutuel betting in Austin, but the proposal appears to have a good chance of approval. And if you follow the Tomball police force, who quit in masses a couple of days ago - Tomball has rehired three of the officers who quit, and two more of the police who walked out are seeking to be rehired. And just a note here - there was a little beautification of Houston. Some of the thousands of billboards that line main highways around Houston will be coming down after the first of the year. All signs must be licensed by the state and a fee paid after that time. Some of the sports news: Johnny Bench, the Cincinnati Reds catcher who had a benign spot removed from a lung Monday, is recovering nicely at Christ Hospital in Cincinnati, The star baseball player will remain hospitalized for about 5 more days. Brad Van Pelt of the Michigan State University defensive star won the Maxwell Club trophy as the year's top college football player. The Washington Redskin's Larry Brown took top honors as the top professional player of the year. Southern Methodist has apparently chosen a new football coach to succeed Hayden Fry, but University officials say an announcement won't come until next week. Mark Spitz and Shane Gould, both top Olympic swimmers, were honored as top athletes in the world by European sports writers - for this past year, of course. There was no action last night in college basketball. The University of Houston is getting ready to play California tomorrow night. Joe Paterno, Penn State coach, has won the Walter Camp Football Foundation award as coach of the year. And it appears that Mike Tillamen of the Oilers may play out his option this year and this -Coach Bill Peterson says that it upsets his draft
 ||||Tape 138/2|Page 1996 plans this coming year. And I've already updated the weather to you. I just might add a little parenthetical thought that it's really not that much in the news and all the news around here anyway has been Apollo 17 and your lift-off. We picked up the lift-off last night from the Moon and carried it live TV for about 2-1/2 minutes as you went out of sight like a star, and then, of course, live TV picked up your docking and - rendezvous and docking. A very spectacular picture, I might add, of the lunar surface as the Challenger came up to meet America. Over.
@@ -31803,7 +31810,7 @@ e|043:13:33|CMP|Okay; will do.
 |208:53:19|LMP|Okay, thank you.
 |208:53:50|CC|Happens to be pay day. It's the 15th.
 |208:53:50|CC|Jack, Houston. We see no need for you to wear any of your biomed sensors; if you'd rather take them off, give your skin a rest, feel free.
-|208:58:49|LMP|Okay, Gordy. I've done that. And I'11 wait till my next time and put them on then.
+|208:58:49|LMP|Okay, Gordy. I've done that. And I'll wait till my next time and put them on then.
 |208:58:49|CC|Okay.
 |209:01:36|LMP|Gordy, how do you read LMP?
 |209:01:36|CC|You're loud and clear, Jack.
@@ -32158,7 +32165,7 @@ e|043:13:33|CMP|Okay; will do.
 |212:51:31|LMP|Oh, 2 of 4. Okay. Okay, we got her.
 |212:51:31|CC|Okay. You can see the landing site there at -down about 4 o'clock, and the 7-kilometer crater in the - on the centerline of the page, about a third of the way down from the top, the large bright crater there is - is Littrow B is the name of it.
 |212:51:31|CDR|Got it.
-|212:51:31|CC|And on the southern half of the ejeeta blanket from that crater, they're several dark halo craters, which we think are in similar structure as Shorty. We think that would be a likely spot to look for orange material. There's a - Farouk has circled about four or five. They show up, say, at 4 o'clock, 7 o'clock, 8 o'clock, and 9 o'clock out about - from the center - about a crater diameter. In other words, a crater radius beyond the lip, roughly. We suggest that you utilize the best window in your attitude which you should be maneuvering to now, if you - if I haven't completely interrupted the Flight Plan. Is - at that attitude, window - let's see - 1 is the best, and 4 should point up that way also. We suggest you get somebody on the binoculars at 1. And use the same cai-iera setup, with the exception of using tbs 250-millimeter lens, if you can, that you're going to be setting up for as per the Flight Plan for the orbital science photos. If you can put the 250 on there; use ICC as shown; and f/8, 1/250, and infinity - I'11 repeat that when you get to it - for the pictures, if you see anything. What we're looking for is orange material.
+|212:51:31|CC|And on the southern half of the ejeeta blanket from that crater, they're several dark halo craters, which we think are in similar structure as Shorty. We think that would be a likely spot to look for orange material. There's a - Farouk has circled about four or five. They show up, say, at 4 o'clock, 7 o'clock, 8 o'clock, and 9 o'clock out about - from the center - about a crater diameter. In other words, a crater radius beyond the lip, roughly. We suggest that you utilize the best window in your attitude which you should be maneuvering to now, if you - if I haven't completely interrupted the Flight Plan. Is - at that attitude, window - let's see - 1 is the best, and 4 should point up that way also. We suggest you get somebody on the binoculars at 1. And use the same cai-iera setup, with the exception of using tbs 250-millimeter lens, if you can, that you're going to be setting up for as per the Flight Plan for the orbital science photos. If you can put the 250 on there; use ICC as shown; and f/8, 1/250, and infinity - I'll repeat that when you get to it - for the pictures, if you see anything. What we're looking for is orange material.
 ||||Tape 143/3|Page 2066
 |212:55:03|LMP|Okay, Gordy. We're working on that now, and we'll get KK out.
 |212:55:03|CC|Okay. We were thinking you might be able to get the guy on the camera in window 4 and the binoculars in window 1.
@@ -32423,7 +32430,7 @@ e|043:13:33|CMP|Okay; will do.
 |215:08:16|LMP|Okay, looking at Menelaus, you can see where the dark - the edge of Serenitatis goes through the crater. And, the north wall is quite distinctly grayer to - let's say, bluish-gray, than the south wall, which is light - very light gray in the talus. My guess is that it's a very nearly vertical contact at that point.
 ||||Tape 144/7|Page 2085
 |215:08:16|CC|Roger.
-|215:08:16|LMP|At least that's the way the talus suggests it, but talus does move vertically. Looking at the depression with all the color streaking in the talus on the walls - there - I'11 say again, that the more red-looking unit, or talus, is coming from below the orangish-gray material. But It is not a continuous horizon, at least not so far as the talus indicates. It's local spots that are giving the reddish color.
+|215:08:16|LMP|At least that's the way the talus suggests it, but talus does move vertically. Looking at the depression with all the color streaking in the talus on the walls - there - I'll say again, that the more red-looking unit, or talus, is coming from below the orangish-gray material. But It is not a continuous horizon, at least not so far as the talus indicates. It's local spots that are giving the reddish color.
 |215:08:16|CC|Okay.
 |215:08:16|LMP|Gordy. That particular depression doesn't look like it's an impact-generated depression at all.
 |215:08:16|CC|Roger.
@@ -35668,7 +35675,7 @@ e|043:13:33|CMP|Okay; will do.
 |259:00:54|CC|Okay, Ron, go to OFF, and it'll be another 10-minute wait.
 |259:01:47|CMP|Okay. We're OFF.
 |259:18:31|CDR|Hello, Houston; America. Are you ready to maneuver here to the UV stellar target attitude?
-|259:18:31|CC|Stand by; I'11 check.
+|259:18:31|CC|Stand by; I'll check.
 |259:18:31|CC|Okay. I guess everybody is in agreement. Go ahead and high gain should stay on during this maneuver.
 |259:19:09|CDR|Okay; we're maneuvering. I hope the Sun comes in the window on this next maneuver.
 |259:19:09|CC|Is it getting cool up there?
