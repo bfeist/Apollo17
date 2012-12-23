@@ -599,7 +599,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |003:27:46|CMP|Thank you.
 |003:29:42|PAO|This is Apollo Control at 3 hours 30 minutes. The flight dynamics officer has just reported that initial tracking, following the translunar injection burn, shows the spacecraft to be on a very nominal trajectory, and a relatively small midcourse correction indicated at this time. The pre-burn prediction on that first midcourse correction was around 5 feet per second and we expect that that will be updated as we get additional tracking following the burn.
 |003:30:28|PAO|In about 3 minutes the spacecraft should - the launch vehicle should be - begin maneuvering to the proper attitude for separation and we're predicting separation to occur at about 3 hours 43 minutes - or about 13 minutes from now.
-|003:32:04|LMP|Frame 65 for the LMPs mag November November.
+p|003:32:04|LMP|Frame 65 for the LMPs mag November November.
 |003:33:28|PAO|About 10 seconds now until the Saturn third stage begins maneuvering into the proper separation attitude.
 |003:33:58|PAO|And booster engineer reports from telemetry data that the booster has begun maneuvering into the proper attitude for spacecraft separation.
 |003:34:21|LMP|Okay. We - we are maneuvering, Houston.
@@ -1051,7 +1051,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |005:06:08|CDR|Okay. That's - fair enough.
 |005:06:21|CDR|The S-IC and the S-II didn't put on a bad show either.
 |005:06:24|CC|That's right.
-|005:08:38|CMP|Houston, magazine November November is on about 1/23 right now.
+p|005:08:38|CMP|Houston, magazine November November is on about 1/23 right now.
 ||||Tape 6/6|Page 63
 |005:08:46|CC|Okay, Ron. Magazine November November is on 1/23.
 |005:08:55|CDR|And, Bob, we're on page 3-9 of the Flight Plan now. We'll check the LM/CM DELTA-P, get the cabin fan filter in. We'll go over the check - the Systems Checklist, get the primary EVAP and a few odds and ends, and start doffing our PGAs. How's that sound?
@@ -1141,7 +1141,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |005:48:48|LMP|Bob, one of the things that we missed in our training is a good geography lesson, and particularly on Antarctica. I got the monocular out, and apparently the dark band that Gene - Ron mentioned as interface between the continental water is that between the pack ice and the water. And you can, by very subtle changes in the apparent smoothness of the ground, probably make out where the actual continent begins and the pack ice ends. There are a few exposed ranges, I guess it's midsummer down there now, and you can make out the snow-free areas scattered at least in the northern portion of the continent.
 |005:49:47|CC|Roger. Did you get any pictures of that, Jack?
 |005:49:50|LMP|Oh, yes. We got some pictures earlier. I'm going to get another one here in a minute. I'll tell you, if there ever was a fragile-appearing piece of blue in space, it's the Earth right now.
-|005:49:03|CC|(laugheter) Roger.
+|005:49:03|CC|(laughter) Roger.
 ||||Tape 6/13|Page 70
 |005:50:06|CDR|And we got a MASTER ALARM.
 |005:50:08|CC|Okay. We copy that.
@@ -1292,7 +1292,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |007:52:52|CMP|Dust whipping all over the place. The stars in there -
 ||||Tape 8/2|Page 81
 |007:54:33|CMP|... Yes, let's do it a little better now.
-|007:56:44|LMP|... Bob, mag November November is 130 now. And I just took another set of Earth pictures.
+p|007:56:44|LMP|... Bob, mag November November is 130 now. And I just took another set of Earth pictures.
 |007:56:57|CC|Okay. Copy that. November November at 130.
 |007:57:07|CMP|And, Houston, 17. You copying the torquing angles now?
 |007:57:15|CC|Roger. Stand by.
@@ -1839,7 +1839,7 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |019:59:55|CC|Roger. I copy that, Jack.
 |019:59:58|LMP|There at least is some sinusoidal motion or appearance to the front ... And you'll have to wait, because I lost it again.
 |020:00:16|CC|Roger.
-|020:00:22|LMP|I took two 5 - 50-millimeter pictures. Mag November November is on 132.
+p|020:00:22|LMP|I took two 5 - 50-millimeter pictures. Mag November November is on 132.
 |020:00:33|CC|Roger. November November on 132. Those are pictures of the - -
 |020:00:39|LMP|And that was the -
 |020:00:51|CC|Jack, Houston. Was that - were those pictures of those fronts you are talking about?
@@ -2044,168 +2044,169 @@ This is Apollo Control. The postlaunch press conference at Cape Kennedy is sched
 |021:47:38|LMP|Yes, glad we brought him along then. We found some use for him. Once an EECOM, always an EECOM. I have to cre - create my own G in order to run in place.
 |021:47:55|CC|Roger.
 |021:48:01|LMP|How high up did the heart rate get, Bob?
-|021:47:18|CC|We got you at l40, Jack. Were you running in place? Is that - -
-|021:47:18|LMP|l40 was - Yes, I was - I'm underneath the right-hand couch holding on to the main Y-Y strut with my hands and running against the LEB.
-|021:47:18|CC|Roger. It worked real well. l40 and you were running in the mid-60's, so you picked up about -almost 70 beats there, no problem. The surgeon is very happy.
-|021:47:18|LMP|Roger. Well, I'm happy too. You know, it took a while to find a technique I was - initially, I got up to 90 with just isometrics - pushing against the couch, and the running is obviously what it takes .
-|021:47:18|CC|Roger.
-|021:47:18|LMP|But I don't - Bob, I don't I really don't feel -I guess I lost you.
-|021:51:33|LMP|Hello, Houston; 17. You still there?
-|021:51:33|CC|Roger. We're with you. We had a little comm problem there as - you know, coning on this - as we were changing on the antenna - but we're with you.
+|021:48:05|CC|We got you at l40, Jack. Were you running in place? Is that - -
+|021:48:09|LMP|l40 was - Yes, I was - I'm underneath the right-hand couch holding on to the main Y-Y strut with my hands and running against the LEB.
+|021:48:23|CC|Roger. It worked real well. l40 and you were running in the mid-60's, so you picked up about - almost 70 beats there, no problem. The surgeon is very happy.
+|021:48:34|LMP|Roger. (Laughter) Well, I'm happy too. You know, it took a while to find a technique I was - initially, I got up to 90 with just isometrics - pushing against the couch, and the running is obviously what it takes .
+|021:48:55|CC|Roger.
+|021:48:55|LMP|But I don't - Bob, I don't I really don't feel - I guess I lost you.
+|021:51:38|LMP|Hello, Houston; 17. You still there?
+|021:51:41|CC|Roger. We're with you. We had a little comm problem there as - you know, coning on this - as we were changing on the antenna - but we're with you.
 ||||Tape 17/11|Page 137
-|021:51:33|LMP|Okay. What's the heartrate right now?
-|021:51:33|CC|Right at - Stand by. We ha.d a data dropout, Jack, that's why I'm holding up. And it just came on and we'll tell you in a second here. About 60, Jack. Right about 60 even.
-|021:51:33|LMP|Okay. That's where I was when I started, so that's - you certainly recover fast. I don't know whether that's faster than in one g or not.
-|021:51:33|CC|Well, we're happy with it - the Surgeon is happy with it, so it's good.
-|021:51:33|LMP|Well, I just - How does that compare - do they have any data on how that compares with the recovery - say, the 5-minute recovery time on the ergometer?
-|021:51:33|CC|We can look it up, Jack, if you're interested. We - we'll have to check your records, they don't have it right in front of us.
-|021:51:33|LMP|No big deal. I was just curious.
-|021:52:54|CC|Roger.
-|021:55:47|CC|Jack, just for your information - the Surgeons pulled out the recovery rate data and it's the same with our data, which is a little rough here. It's the same for zero g as your one-g ergometer data.
-|021:55:47|LMP|Okay. That's very interesting.
+|021:51:52|LMP|Okay. What's the heartrate right now?
+|021:51:57|CC|Right at - Stand by. We had a data dropout, Jack, that's why I'm holding up. And it just came on and we'll tell you in a second here. About 60, Jack. Right about 60 even.
+|021:52:23|LMP|Okay. That's where I was when I started, so that's - you certainly recover fast. I don't know whether that's faster than in one G or not.
+|021:52:35|CC|Well, we're happy with it - the Surgeon is happy with it, so it's good.
+|021:52:40|LMP|Well, I just - How does that compare - do they have any data on how that compares with the recovery - say, the 5 minute recovery time on the ergometer?
+|021:52:51|CC|We can look it up, Jack, if you're interested. We - we'll have to check your records, they don't have it right in front of us.
+|021:52:57|LMP|Well, no big deal, just curious.
+|021:52:59|CC|Roger.
+|021:55:50|CC|Jack, just for your information - the Surgeons pulled out the recovery rate data and it's the same with our data, which is a little rough here. It's the same for zero G as your one G ergometer data.
+|021:56:13|LMP|Okay. That's very interesting.
 |021:56:12|CC|Roger.
-|021:59:43|LMP|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3 , and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window -more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
+|021:59:46|LMP|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3, and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window - more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
 ||||Tape 17/12|Page 138
-|022:01:14|CC|Roger. We copy that.
+|022:01:16|CC|Roger. We copy that.
 |022:02:38|LMP|Bob, I don't know whether you were copying Honeysuckle's call to us, while you lost comm there for a while.
-|022:02:38|CC|Roger. We copy.
-|022:02:38|LMP|But they said that they had - -
-|022:02:38|CC|They kind of concurred with your - -
-|022:02:38|LMP|Okay - -
-|022:02:38|CC|- - weather report there, Jack.
-|022:02:38|LMP|Oh, lucky guess. I might say that the sub - the zero phase point that we're looking at is right at the northeast coast of Australia, and it's much brighter. Very - it's a very bright point now -oh, it's hard to say how far across. But, quite unlike what I mentioned being in the vicinity of the Samoan Islands earlier. And it's right at the shore, and it could be just that the shore area has somewhat choppier seas. So maybe - maybe the brightness of that point is a function of sea state, although I don't know exactly what type of seas it would take to brighten it up. I suspect choppy seas are better than long swells.
-|022:02:38|CC|Roger, Jack.
+|022:02:45|CC|Roger. We copy.
+|022:02:46|LMP|But they said that they had - Okay.
+|022:02:55|CC|They kind of concurred with your - -
+|022:02:56|LMP|Okay - -
+|022:02:57|CC|- - weather report there, Jack.
+|022:03:00|LMP|Oh, lucky guess. I might say that the sub - the zero phase point that we're looking at is right at the northeast coast of Australia, and it's much brighter. Very - it's a very bright point now - oh, it's hard to say how far across. But, quite unlike what I mentioned being in the vicinity of the Samoan Islands earlier. And it's right at the shore, and it could be just that the shore area has somewhat choppier seas. So maybe - maybe the brightness of that point is a function of sea state, although I don't know exactly what type of seas it would take to brighten it up. I suspect choppy seas are better than long swells.
+|022:03:55|CC|Roger, Jack.
 ||||Tape 17/13|Page 139
-|022:04:15|LMP|That front is - seems to have slowed down its progress . It's about in the same position, possibly slightly farther north than when I started talking about it this morning. The wave that has - seems to be developing off the - now off the southwest coast of New Zealand is much more pronounced than it was. Definitely seems to now have a slight cyclonic pattern - clockwise pattern. And I wouldn't be surprised if the next couple of days that moves along the front over towards Sydney. And maybe a little farther north than that might -Brisbane is probably more likely.
-|022:04:15|CC|Roger, Jack.
-|022:04:15|LMP|Except I got the movement wrong again. Although it does seem to have progressed west from New Zealand.
-|022:04:15|CC|Roger.
-|022:04:15|LMP|I take back what I said about forecasting Sydney's weather. I think that will - I would suspect that would move to the northeast like - now that I look -it seems like an earlier front, which is partly dissipated, had the same kind of motion, and now lies considerably north and east of the one I've been talking about.
-|022:04:15|CC|Roger.
-|022:06:46|LMP|Thinking back on some weather briefings we had last week, Bob - Are you there?
-|022:06:46|CC|That's affirmative.
-|022:06:46|LMP|I'll talk to you later. I think you're - We're losing you for a little bit here.
-|022:06:46|CC|Okay, Jack. We're reading you loud and clear right now. Oh, you're going out a little bit now.
-|022:10:36|LMP|You back with us, Bob?
+|022:04:15|LMP|That front is - seems to have slowed down its progress. It's about in the same position, possibly slightly farther north than when I started talking about it this morning. The wave that has - seems to be developing off the - now off the southwest coast of New Zealand is much more pronounced than it was. Definitely seems to now have a slight cyclonic pattern - clockwise pattern. And I wouldn't be surprised if the next couple of days that moves along the front over towards Sydney. And maybe a little farther north than that might - Brisbane is probably more likely.
+|022:05:06|CC|Roger, Jack.
+|022:05:11|LMP|Except I got the movement wrong again. Although it does seem to have progressed west from New Zealand.
+|022:05:26|CC|Roger.
+|022:05:31|LMP|I take back what I said about forecasting Sydney's weather. I think that will - I would suspect that would move to the northeast like - now that I look - it seems like an earlier front, which is partly dissipated, had the same kind of motion, and now lies considerably north and east of the one I've been talking about.
+|022:05:58|CC|Roger.
+|022:06:44|LMP|Thinking back on some weather briefings we had last week, Bob - Are you there?
+|022:06:49|CC|That's affirmative.
+|022:06:54|LMP|I'll talk to you later. I think you're - We're losing you for a little bit here.
+|022:06:59|CC|Okay, Jack. We're reading you loud and clear right now. Oh, you're going out a little bit now.
+|022:10:33|LMP|You back with us, Bob?
 |022:10:36|CC|That's affirmative.
 ||||Tape 17/14|Page 140
-|022:10:36|LMP|Okay, I was going to try to recover there from that last few statements. As I recall, the weather briefings that we had at the Cape last week, that -talking with Ken Nabor and Jim Nicholson down there, that the patterns we were seeing from the satellite pictures in their forecast - or analysis anyway, charts in the New Zealand part of the Pacific, those waves formed along the front would move north and then curve east. And that appears to be the pattern that was visible in one of the older fronts. And I suspect if that pattern would hold with the wave that's developed off the coast - right on the coast of New Zealand now, that it might move on up the western coast of New Zealand. We'll probably have a chance to watch that the next few days and see what happens to it.
-|022:11:52|CC|Roger, Jack.
-|022:12:44|CDR|Houston, how are you reading now?
-|022:12:44|CC|Reading you loud and clear.
-|022:12:44|CDR|Okay, Bob. As I look at the clock, we're - just 24 hours ago we were about within our hold somewhere. For this period yesterday we were in our hold, and I think it goes without saying; but we'd sure like to pass on our bit of gratitude and thanks for the response that the people down at the Cape came up with. And particularly at Marshall. I think we all knew no one would be going anywhere unless everyone was satisfied that we were going all the way. And that's certainly the way we felt, but we do want to thank everybody who had a part in making that come true.
-|022:12:44|CC|Roger, Gene. I think it was a superb show between the Cape and Marshall and Houston and probably even Goddard, with the Network and just about everybody concerned, really, had to do some work there to bring it off. And it went off real smoothly.
-|022:12:44|CDR|Yes. After flying with Stafford a couple of times and having that happen a few times back, I thought maybe he was aboard.
+|022:10:41|LMP|Okay, I was going to try to recover there from that last few statements. As I recall, the weather briefings that we had at the Cape last week, that - talking with Ken Nabor and Jim Nicholson down there, that the patterns we were seeing from the satellite pictures in their forecast - or analysis anyway, charts in the New Zealand part of the Pacific, those waves formed along the front would move north and then curve east. And that appears to be the pattern that was visible in one of the older fronts. And I suspect if that pattern would hold with the wave that's developed off the coast - right on the coast of New Zealand now, that it might move on up the western coast of New Zealand. We'll probably have a chance to watch that the next few days and see what happens to it.
+|022:11:49|CC|Roger, Jack.
+|022:12:40|CDR|Houston, how are you reading now?
+|022:12:42|CC|Reading you loud and clear.
+|022:12:46|CDR|Okay, Bob. As I look at the clock, we're - just 24 hours ago we were about within our hold somewhere. For this period yesterday we were in our hold, and I think it goes without saying; but we'd sure like to pass on our bit of gratitude and thanks for the response that the people down at the Cape came up with. And particularly at Marshall. I think we all knew no one would be going anywhere unless everyone was satisfied that we were going all the way. And that's certainly the way we felt, but we do want to thank everybody who had a part in making that come true.
+|022:13:28|CC|Roger, Gene. I think it was a superb show between the Cape and Marshall and Houston and probably even Goddard, with the Network and just about everybody concerned, really, had to do some work there to bring it off. And it went off real smoothly.
+|022:13:46|CDR|Yes. After flying with Stafford a couple of times and having that happen a few times back, I thought maybe he was aboard.
 ||||Tape 17/15|Page 141
-|022:12:44|CC|(Chuckle) Okay. I think that was a first for getting a Saturn V to 30 seconds before ignition and - or rather actually 30 seconds before liftoff and holding there.
-|022:12:44|CDR|It got mighty quiet onboard about 30 seconds.
-|022:12:44|CC|I sure imagine.
-|022:12:44|LMP|We all felt like old hands the second time around, though.
-|022:12:44|CC|Roger.
-|022:12:44|CDR|Bob, I've been at that 30-second count one other time and it's no different the second time around.
-|022:12:44|CC|Roger.
-|022:12:44|CDR|But we do appreciate the work, and I think it's typical of - of what made this manned space program such a superprogram. The response of people like that.
-|022:12:44|CC|We concur with that, Gene, wholeheartedly.
-|022:12:44|CDR|And with that in mind, tell everyone to stick around because there's a lot yet to be done.
-|022:15:24|CC|You better believe it.
-|022:20:28|LMP|The old accumulator cycle again, I guess, gang.
-|022:20:28|CC|Roger. We're seeing it. It looks like you got a MASTER ALARM. Is that affirm?
-|022:20:28|LMP|Yes, sir. That's how we tell these days. Although it doesn't happen all the time, and I guess as long as - Whenever we have that WASTE VENT, CLOSED, we probably wouldn't be bothered by it at night.
-|022:20:28|CC|Roger. That's - that's our feelings here, Jack.
-|022:21:24|CC|Say, Gene and Ron, I talked to your fraus on the phone here a little while ago, and they gave me a very interesting observation you might appreciate. They were standing close to some water when launch and they noticed that when the booster lit up, something scared all the fish because the water literally began to boil with fish jumping from the light, I guess, or from the shock wave or something. It must have made a very distinct impression because that's the first thing both of them told me about.
+|022:13:54|CC|(Laughter) Okay. I think that was a first for getting a Saturn V to 30 seconds before ignition and - or rather actually 30 seconds before liftoff and holding there.
+|022:14:12|CDR|It got mighty quiet onboard about 30 seconds.
+|022:14:16|CC|I sure imagine.
+|022:14:19|LMP|We all felt like old hands the second time around, though.
+|022:14:23|CC|Roger.
+|022:14:28|CDR|Bob, I've been at that 30-second count one other time and it's no different the second time around.
+|022:14:36|CC|Roger.
+|022:14:40|CDR|But we do appreciate the work, and I think it's typical of - of what made this manned space program such a super program. The response of people like that.
+|022:14:52|CC|We concur with that, Gene, wholeheartedly.
+|022:15:13|CDR|And with that in mind, tell everyone to stick around because there's a lot yet to be done.
+|022:15:18|CC|You better believe it.
+|022:20:20|LMP|The old accumulator cycle again, I guess, gang.
+|022:20:25|CC|Roger. We're seeing it. It looks like you got a MASTER ALARM. Is that affirm?
+|022:20:35|LMP|Yes, sir. That's how we tell these days. Although it doesn't happen all the time, and I guess as long as - Whenever we have that WASTE VENT, CLOSED, we probably wouldn't be bothered by it at night.
+|022:20:49|CC|Roger. That's - that's our feelings here, Jack.
+|022:21:16|CC|Say, Gene and Ron, I talked to your fraus on the phone here a little while ago, and they gave me a very interesting observation you might appreciate. They were standing close to some water when launch and they noticed that when the booster lit up, something scared all the fish because the water literally began to boil with fish jumping from the light, I guess, or from the shock wave or something. It was - made a very distinct impression because that's the first thing both of them told me about.
 ||||Tape 17/l6|Page 142
-|022:21:24|CMP|Yes, that's pretty neat.
-|022:21:24|CC|A neat way to go scare up the fish, I guess.
-|022:21:24|CMP|(Laughter) Right.
-|022:21:24|CDR|How are they doing today, Bob?
-|022:21:24|CC|Really fine, really fine. They're just - like I said, they're just really tickled pink, and Barbara said that she wants you to know she's going into quarantine until after the weekend here, until after landing.
-|022:21:24|CDR|If she goes into quarantine, it'll be a space first
-|022:21:24|CC|Roger.
-|022:21:24|CC|You got to be careful - -
-|022:21:24|CDR|Well, you know what to tell them - -
-|022:21:24|CC|- - about all this.
-|022:21:24|CDR|Go ahead, Bob.
-|022:21:24|CC|You got to be careful now - The hotboxes are open -the hotlines are open at the houses there, so everything you say is being listened to.
-|022:21:24|CDR|Yes; okay. In that case, just want to say hello and we're having a super good time looking forward to what's coming, and we thank you for the news, Robert.
-|022:21:24|CC|Roger.
-|022:21:24|CDR|And my impression of the world, philosophically, I suppose you'll be getting from time to time, but it sure hasn't changed.
+|022:21:54|CMP|Yes, that's pretty neat.
+|022:21:58|CC|A neat way to go scare up the fish, I guess.
+|022:22:02|CMP|(Laughter) Right.
+|022:22:14|CDR|How are they doing today, Bob?
+|022:22:17|CC|Really fine, really fine. They're just - like I said, they're just really tickled pink, and Barbara said that she wants you to know she's going into quarantine until after the weekend here, until after landing.
+|022:22:31|CDR|If she goes into quarantine, it'll be a space first
+|022:22:34|CC|Roger.
+|022:22:44|CC|You got to be careful about all this.
+|022:21:45|CDR|Well, you know what to tell them -
+|022:21:49|CDR|Go ahead, Bob.
+|022:21:49|CC|You got to be careful now - The hotboxes are open - the hotlines are open at the houses there, so everything you say is being listened to.
+|022:23:03|CDR|Yes; okay. In that case, just want to say hello and we're having a super good time looking forward to what's coming, and we thank you for the news, Robert.
+|022:23:19|CC|Roger.
+|022:23:24|CDR|And my impression of the world, philosophically, I suppose you'll be getting from time to time, but it sure hasn't changed.
 ||||Tape 17/17|Page 143
-|022:21:24|CC|Roger, Gene.
-|022:21:24|CDR|It's sure beautiful. It's sure beautiful and, looking back at it, there's several billion people who have got a lot to work for because it's one of the most beautiful sights we've ever seen here.
-|022:21:24|CC|Roger, Gene. You guys are sounding great and doing real great. We're pressing right on here.
-|022:21:24|CDR|1    just want to emphasize, Bob, that these first 2    days - of course, yesterday was a pretty good day, but today we're catching up and - and, as I say, on the food consumption, don't be expecting too much.
-|022:21:24|CC|Roger.
-|022:21:24|CDR|Acclimation and familiarity, and stowage and preparation, and enjoyment and relaxation - are ready to call it a day today, which is probably the most ideal day in the Flight Plan to put it, because it's probably the only one we'll have.
-|022:21:24|CC|Roger.
-|022:21:24|CDR|Not that they aren't all going to be enjoyable.
-|022:21:24|LMP|Hey, Bob, your hourly weather report is due and -(laughter) I'll wait awhile. I keep losing your comm.
-|022:25:14|CC|Okay.
-|022:26:06|LMP|Bob, you there?
-|022:26:06|CC|Roger, Jack. We're standing by.
-|022:26:06|LMP|Okay, I had a quick - quick look and just to bring you up to date, we're starting to be able to see the coast of Asia. The Philippines are wide open today. And the - that tropical storm Theresa that I mentioned I thought I could see - indeed, I'm sure that's what that little concentrated mass of clouds was north of New Guinea. And, I suspect, although I didn't get a good fix on it, that the folks in Guam may be in for some heavy weather.
+|022:23:32|CC|Roger, Gene.
+|022:23:33|CDR|It's sure beautiful. It's sure beautiful and, looking back at it, there's several billion people who have got a lot to work for because it's one of the most beautiful sights we've ever seen here.
+|022:23:51|CC|Roger, Gene. You guys are sounding great and doing real great. We're pressing right on here.
+|022:23:59|CDR|I just want to emphasize, Bob, that these first 2 days - of course, yesterday was a pretty good day, but today we're catching up and - and, as I say, on the food consumption, don't be expecting too much.
+|022:24:14|CC|Roger.
+|022:24:27|CDR|Acclimation and familiarity, and stowage, and preparation, and enjoyment and relaxation - are ready to call it a day today, which is probably the most ideal day in the Flight Plan to put it, because it's probably the only one we'll have.
+|022:24:43|CC|Roger.
+|022:24:47|CDR|Not that they aren't all going to be enjoyable.
+|022:24:52|LMP|Hey, Bob, your hourly weather report is due and - I'll wait awhile (laughter). I keep losing your comm.
+|022:25:04|CC|Okay.
+|022:25:56|LMP|Bob, you there?
+|022:25:58|CC|Roger, Jack. We're standing by.
+|022:26:02|LMP|Okay, I had a quick - quick look and just to bring you up to date, we're starting to be able to see the coast of Asia. The Philippines are wide open today. And the - that tropical storm Theresa that I mentioned I thought I could see - indeed, I'm sure that's what that little concentrated mass of clouds was north of New Guinea. And, I suspect, although I didn't get a good fix on it, that the folks in Guam may be in for some heavy weather.
 ||||Tape 17/18|Page 144
-|022:26:06|CC|Roger.
-|022:26:06|LMP|Oh, and, Bob, I got another pair of pictures. And that would be up to 134.
-|022:26:06|CC|Roger. That's on November November, is that affirm?
-|022:26:06|LMP|That's affirm.
-|022:26:06|CC|Good. Good show.
-|022:26:06|LMP|And that was taken - the last pass , about 10 minutes ago, if you want to keep track of GET.
-|022:26:06|CC|Roger. Thanks, Jack; I'm doing that.
-|022:26:06|CC|Just for some information for Ron, in particular. We've evaluated the data from the mapping camera and the pan camera cycling there and it looks real good. Everything looks right normal.
-|022:28:45|CMP|Hey, that's outstanding. Good deal.
-|022:35:01|LMP|Bob, how do you read 17?
-|022:35:01|CC|17, read you 5 by.
-|022:35:01|LMP|That's the strangest-sounding Bob I ever heard.
-|022:35:01|CC|He's taking a short break.
-|022:35:01|LMP|Okay. Good. Nice to talk with you. Hey, I don't know whether you were around, Gene, the other day when I was talking about the circulation patterns around Antarctica. We were looking then at the Indian Ocean - actually, South Atlantic in the Indian Ocean region. And you see the same pattern at about the same latitude, say 60 degrees south, where all the linear cloud patterns which presumably are - reflect the various cold fronts have -are arcuate with their convex sides , or more actually, almost pointed sides are all lined up in a west-to-east direction around that latitude. It's quite a spectacular appearing circulation pattern. And the little wave that I mentioned on New Zealand seems to be beginning to form another arrow or another convex point on that front that's fitting right into the same circulation pattern.
+|022:26:37|CC|Roger.
+p|022:27:27|LMP|Oh, and, Bob, I got another pair of pictures. And that would be up to 134.
+|022:27:27|CC|Roger. That's on November November, is that affirm?
+|022:27:31|LMP|That's affirm.
+|022:27:32|CC|... Good show.
+p|022:27:41|LMP|And that was taken - the last pass, about 10 minutes ago, if you want to keep track of GET.
+|022:27:48|CC|Roger. Thanks, Jack; I'm doing that.
+|022:28:22|CC|Just for some information for Ron, in particular. We've evaluated the data from the mapping camera and the pan camera cycling there and it looks real good. Everything looks right normal.
+|022:28:34|CMP|Hey, that's outstanding. Good deal.
+|022:34:47|LMP|Bob, how do you read 17?
+|022:34:51|KRANZ|17, read you 5 by.
+|022:34:59|LMP|That's the strangest sounding Bob I ever heard.
+|022:35:04|KRANZ|He's taking a short break.
+|022:35:06|LMP|Okay. Good. Nice to talk with you. Hey, I don't know whether you were around, Gene, the other day when I was talking about the circulation patterns around Antarctica. We were looking then at the Indian Ocean - actually, South Atlantic in the Indian Ocean region. And you see the same pattern at about the same latitude, say 60 degrees south, where all the linear cloud patterns which presumably are - reflect the various cold fronts have - are arcuate with their convex sides, or more actually, almost pointed sides are all lined up in a west-to-east direction around that latitude. It's quite a spectacular appearing circulation pattern. And the little wave that I mentioned on New Zealand seems to be beginning to form another arrow or another convex point on that front that's fitting right into the same circulation pattern.
 ||||Tape 17/19|Page 145
-|022:35:01|CC|Okay, copy.
-|022:35:01|LMP|That would make four of those major convex fronts that I can see from this view crossing - south of Australia up into the South Pacific.
-|022:35:01|CC|Okay.
-|022:35:01|LMP|On - on that tropical storm that was Theresa, I don't know whether they're still calling it now -that now, but I'm not sure it may be a little south of Guam. Guam may not be in trouble with that one.
-|022:35:01|CC|It looks like it's just a bit to the west of Manila there - about 5 or 6 degrees, no more than that about. It looks like it's about 5 degrees west of Manila and about 5 degrees south. And it is still called Theresa.
-|022:39:54|LMP|Okay, Gene, if you're still there, I don't like to argue with you but I think our analysis chart is a little more up to date.
-|022:39:54|CC|Okay.
-|022:39:54|LMP|That center - that area that you just mentioned is very clear now - east of the Philippines. Did you say west or east of the Philippines?
-|022:39:54|CC|West of the Philippines.
-|022:39:54|LMP|Okay, that a.rea that you mentioned, 5 degrees east, is very clear and the center of the - what appears ~o be the storm that I'm speaking of, would be about 142 longitude and maybe 8 degrees north latitude.
-|022:39:54|CC|Okay.
-|022:39:54|LMP|Which would put it south of Guam.
-|022:39:54|CC|Okay, yes, you're over in the area between Guam and the Carolines, then.
+|022:36:28|KRANZ|Okay, copy.
+|022:36:32|LMP|That would make four of those major convex fronts that I can see from this view crossing - south of Australia up into the South Pacific.
+|022:36:49|KRANZ|Okay.
+|022:37:04|LMP|On - on that tropical storm that was Theresa, I don't know whether they're still calling it now - that now, but I'm not sure it may be a little south of Guam. Guam may not be in trouble with that one.
+|022:37:21|KRANZ|It looks like it's just a bit to the west of Manila there - about 5 or 6 degrees, no more than that about. It looks like it's about 5 degrees west of Manila and about 5 degrees south. And it is still called Theresa.
+|022:39:37|LMP|Okay, Gene, if you're still there, I don't like to argue with you but I think our analysis chart is a little more up to date.
+|022:39:44|KRANZ|Okay.
+|022:39:45|LMP|That center - that area that you just mentioned is very clear now - east of the Philippines. Did you say west or east of the Philippines?
+|022:39:55|KRANZ|West of the Philippines.
+|022:40:01|LMP|Okay, that area that you mentioned, 5 degrees east, is very clear and the center of the - what appears to be the storm that I'm speaking of, would be about 142 longitude and maybe 8 degrees north latitude.
+|022:40:19|KRANZ|Okay.
+|022:40:19|LMP|Which would put it south of Guam.
+|022:40:22|KRANZ|Okay, yes, you're over in the area between Guam and the Carolines, then.
 ||||Tape 17/20|Page 146
-|022:39:54|LMP|Say again, Gene?
-|022:39:54|CC|You're over in the area between Guam and the Carolines, then. You're saying it would be just about due west of the Carolines, then.
-|022:40:54|LMP|Yes , you're probably looking at a - oh, I don't know - maybe a what - a 12-hour old prog, or something?
+|022:40:26|LMP|Say again, Gene?
+|022:40:27|KRANZ|You're over in the area between Guam and the Carolines, then. You're saying it would be just about due west of the Carolines, then. Okay.
+|022:40:38|LMP|Yes, you're probably looking at a - oh, I don't know - maybe a what - a 12-hour old prog, or something?
 ||||Tape l8/l|Page 147
-|022:40:54|CC|Yes, that's the one I had for launch date.
-|022:40:54|LMP|Okay. Well, it's - it's - moved quite a bit now, and I guess it's the same storm; still seems to be very well organized but quite concentrated and small.
-|022:40:54|CC|Okay. I'll get a new prog in and compare your estimage there.
-|022:41:30|LMP|Okay. I think that's pretty good - those - 142 and 8 degrees would be pretty good center of that storm. I've got some pretty good coor - I can see Mindanao, and I can see the - let's see -just a second - what is that on Australia?
-|022:42:12|LMP|Yes, of course, that is Port Moresby. I can see that point there, and between those two - I can pin that one down probably within a couple of degrees.
-|022:42:12|CC|Okay. We'll get a satellite photo and bring it in here in just a bit.
-|022:50:23|LMP|Houston, canister number 4 is in Bravo now.
-|022:50:23|CC|Roger. We copy that.
-|022:56:36|LMP|Houston, 17¥
-|022:56:36|CC|Go ahead, 17.
-|022:56:36|LMP|Okay, Bob. That storm off the - just off the southwest coast of New Zealand is still intensifying and has both high and low level clouds as you can see by shadow lines. It looks like it may go into pretty - pretty fair storm system. Borneo is very clear today; and, as is the'Philippines . And as I mentioned, there's a - looks like a very strong frontal system that stretches from, oh, let's say, the south coast of - or southeast coast of Vietnam up - up between and across Tai - between the Philippines and Taiwan and across Taiwan. And right along, and I can't tell I think, just off - just south of Japan. I can't tell whether Japan is in the front or not. I'll look at it some more. The strongest storm center that I can see on that is - is way north, and probably - Hokkaido is - has a fair amount of weather from that storm system. There seems to be a tropical depression just north of Borneo. A very strong circulation system north of Borneo and, I guess, just south of - of Vietnam.
+|022:40:44|KRANZ|Yes, that's the one I had for launch date.
+|022:40:49|LMP|Okay. Well, it's - it's - moved quite a bit now, and I guess it's the same storm; still seems to be very well organized but quite concentrated and small.
+|022:41:02|KRANZ|Okay. I'll get a new prog in and compare your estimate there.
+|022:41:10|LMP|Okay. I think that's pretty good - those - 142 and 8 degrees would be pretty good center of that storm. I've got some pretty good coor - I can see Mindanao, and I can see the - let's see - just a second - what is that on Australia?
+|022:41:52|LMP|Yes, of course, that is Port Moresby. I can see that point there, and between those two - I can pin that one down probably within a couple of degrees.
+|022:42:02|KRANZ|Okay. We'll get a satellite photo and bring it in here in just a bit.
+|022:42:54|PAO|The conversation over the past few minutes has been between Flight Director, Gene Kranz, and Jack Schmitt. Apollo 17 at this time, almost directly above the northeast coast of Australia - some 94,000 nautical miles from earth.
+|022:50:00|LMP|Houston, canister number 4 is in Bravo now.
+|022:50:09|CC|Roger. We copy that.
+|022:56:11|LMP|Houston, 17.
+|022:56:24|CC|Go ahead, 17.
+|022:56:33|LMP|Okay, Bob. That storm off the - just off the southwest coast of New Zealand is still intensifying and has both high and low level clouds as you can see by shadow lines. It looks like it may go into pretty - pretty fair storm system. Borneo is very clear today; and, as is the Philippines. And as I mentioned, there's a - looks like a very strong frontal system that stretches from, oh, let's say, the south coast of - or southeast coast of Vietnam up - up between and across Tai - between the Philippines and Taiwan and across Taiwan. And right along, and I can't tell I think, just off - just south of Japan. I can't tell whether Japan is in the front or not. I'll look at it some more. The strongest storm center that I can see on that is - is way north, and probably - Hokkaido is - has a fair amount of weather from that storm system. There seems to be a tropical depression just north of Borneo. A very strong circulation system north of Borneo and, I guess, just south of - of Vietnam.
 ||||Tape 18/2|Page 148
-|022:56:36|CC|Roger.
-|022:59:01|LMP|Probably south - probably southeast. I hadn't noticed it before, but it's extremely concentrated northern hemisphere cycl - cyclone pattern. I don't know whether that's on your prog or not. That's not what's left of Sally, is it?
-|022:59:01|CC|Stand by. Let me look at the prog over here a sec. Okay. We - it doesn't show on the old one; the new one is coming in there shortly, Jack.
-|022:59:01|LMP|Okay. If that is a developing depression, it's approaching Luzon and not very far away -2 or 3 degrees of longitude now, although Luzon is clear.
-|022:59:01|CC|Roger.
-|023:00:02|LMP|I can see Korea quite well, Bob. It's clear today.
-|023:00:02|CC|Yes, we - we've got the fronts. The leading edge of the front on our prog was past Korea and on Japan, and you've got it moving quite a bit further east there.
-|023:00:02|LMP|Well, I'm not absolutely sure -
-|023:00:22|LMP|MASTER ALARM on the accumulator.
-|023:00:22|CC|Roger. We copy.
+|022:56:34|CC|Roger.
+|022:56:36|LMP|Probably south - probably southeast. I hadn't noticed it before, but it's extremely concentrated northern hemisphere cycl - cyclone pattern. I don't know whether that's on your prog or not. That's not what's left of Sally, is it?
+|022:58:58|CC|Stand by. Let me look at the prog over here a sec. Okay. We - it doesn't show on the old one; the new one is coming in there shortly, Jack.
+|022:59:07|LMP|Okay. If that is a developing depression, it's approaching Luzon and not very far away - 2 or 3 degrees of longitude now, although Luzon is clear.
+|022:59:25|CC|Roger.
+|022:59:36|LMP|I can see Korea quite well, Bob. It's clear today.
+|022:59:43|CC|Yes, we - we've got the fronts. The leading edge of the front on our prog was past Korea and on Japan, and you've got it moving quite a bit further east there.
+|022:59:54|LMP|Well, I'm not absolutely sure -
+|022:59:57|LMP|MASTER ALARM on the accumulator.
+|023:00:01|CC|Roger. We copy.
 ||||Tape 18/3|Page 149
-|023:00:33|LMP|I can't make out Japan spe - specifically yet; but it's clearly past Korea, and, by - by inspection, it looks like it would be also past Japan by now, the trailing edge of the front. However, the circulation center on farther northeast may be affecting Hokkaido, as I said.
+|023:00:06|LMP|I can't make out Japan spe - specifically yet; but it's clearly past Korea, and, by - by inspection, it looks like it would be also past Japan by now, the trailing edge of the front. However, the circulation center on farther northeast may be affecting Hokkaido, as I said.
 |023:00:33|CC|Roger. Like I said, the front on the old prog for yesterday showed that front on the other side of Japan, so it's moved across pretty well.
-|023:01:26|LMP|As I recall, they had a tropical storm called Sally that went into - ... a few days ago, and so I suspect this new one that seems - that I think I see between Borneo and Vietnam maybe something else; a new depression or I may be - be fooled by it.
-|023:02:16|LMP|Mainland China, Bob, was the last pass here. I can't see the Ear - see the Earth now, but Mainland China looked like it was clear as far as I could see. There might be another front quite a ways inland, but that gets right at the LM, and I can't tell. But Korea, Yellow Sea, and the regions of China south of there - Shanghai , Nanking and those places are - look as if they are quite clear today. I'll check that again next time around.
-|023:02:50|CC|Roger. And, Jack, we are ready to terminate the charge on BATTERY B and start the charge on BATTERY A.
-|023:03:04|LMP|Okay. That's in work.
+|023:00:59|LMP|As I recall, they had a tropical storm called Sally that went into - ... a few days ago, and so I suspect this new one that seems - that I think I see between Borneo and Vietnam maybe something else; a new depression or I may be - be fooled by it.
+|023:01:49|LMP|Mainland China, Bob, was the last pass here. I can't see the Ear - see the Earth now, but Mainland China looked like it was clear as far as I could see. There might be another front quite a ways inland, but that gets right at the LM, and I can't tell. But Korea, Yellow Sea, and the regions of China south of there - Shanghai , Nanking and those places are - look as if they are quite clear today. I'll check that again next time around.
+|023:02:21|CC|Roger.
+|023:02:28|CC|And, Jack, we are ready to terminate the charge on BATTERY B and start the charge on BATTERY A.
+|023:02:38|LMP|Okay. That's in work.
 |023:04:23|LMP|Houston, for your information, system test 7A is about 0.6.
 |023:04:23|CC|Say that again, Jack. I missed that. 0.6 on system test 7A?
 |023:04:36|LMP|That's affirm. Battery compartment pressure.
