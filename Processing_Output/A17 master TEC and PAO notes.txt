@@ -8,4 +8,9 @@
 |024:17:53 - photos mentioned
 |024:48:42 - leading in to sleep period audio missing. Entire 772-AAA audio tape missing from Internet Archive. Sleep gap until 033:01:00
 |033:01:06 - |035:06:00 - Missing audio
-
+|037:00:40 - music
+|038:34:05 - photos mentioned |038:34:29
+|040:00:00||NOTE: During the period 01 l6 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
+|040:21:20 - Air-to-Ground 1 Air-to-Ground 2 split
+|040:53:01 - asking Jack to take internal picture
+|041:15:47 - very staticy "hello houston, America"

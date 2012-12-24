@@ -2756,266 +2756,268 @@
 |036:09:24|CMP|Okay. Thank you much.
 |036:09:28|CMP|That's all new, what you call it - those sponges and stuff, you know. And, Houston, I'm not - I'm not putting - putting any cover tape on it, so if it quits - you know, comes loose or something like that, well, let me know and I'll push it on again.
 |036:09:53|CC|Okay, will do.
-|036:10:50|LMP|You might make a note that Dr. Evans was assisted in that operation by Dr. Schmitt,
-|036:10:50|CC|Roger, Doctor.
-|036:11:05|CC|Jack, I've still got this flyby pad standing by.
-|036:11:05|LMP|Nag, nag, nag.
-|036:11:05|CMP|Can't talk with a mouthful of bread cubes, it all comes out.
-|036:11:05|LMP|Okay, what kind of pad you want to give me? Flyby, right?
+|036:10:55|LMP|You might make a note that Dr. Evans was assisted in that operation by Dr. Schmitt,
+|036:11:01|CC|Roger, Doctor.
+|036:11:009|CC|Jack, I've still got this flyby pad standing by.
+|036:11:17|LMP|Nag, nag, nag.
+|036:11:29|CMP|Can't talk with a mouthful of bread cubes, it all comes out.
+|036:11:34|LMP|Okay, what kind of pad you want to give me? Flyby, right?
 ||||Tape 26/10|Page 189
-|036:11:05|CC|Right. A regular maneuver pad.
-|036:11:05|LMP|Okay, and I guess the other one I can cross out, right?
-|036:11:05|CC|That's affirmative. That's obsolete now that you've done midcourse 2.
-|036:11:05|LMP|Okay, Gordy, I'm all set.
-|036:12:12|CC|Okay, it's a flyby. SPS/G&N; 66678; plus 1.21, minus 0.13. Ignition time is 08l:l4:43.49; plus 0043*3, plus 0211.8, plus 0453.2. Attitude is 128, 146, 317; Ha is NA. Hp is plus 0021.1. DELTA-V^ is 0502.1. Burn time, 1:18, 0497*6. Sextant star is 25, 189-3 27.4. Boresight star is NA. NOUN 6l is a plus 15.60, minus 175-00; 1101.6, 36242. GET at -05G is 153:24:03- GDC stars are Sirius and Rigel; 256; 152; 069. Ullage, none. Remarks: 1, burn docked; and number 2, assumes PTC REFSMMAT. And that's it. Over.
-|036:14:51|LMP|Okay, Gordy. Here's your readback. Flyby, SPS/G&N; 66678; plus 1.21, minus 0.13; 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453-2; 128, l46, 317. Ha is NA. Plus 0021.1; 0502.1, 1:18, 0497-6; 25, 189.3, 27.4. Boresight, NA. Plus 15-60, minus 175-00; 1101.6, 36242; 153:24:03- Sirius and Rigel; 256; 152; 069. There's no ullage. Remark 1, burn docked - docked; and 2, PC - PTC REFSMMAT is assumed.
-|036:14:51|CC|Okay, that's a good readback.
-|036:17:49|CDR|Gordy, I might mention for future reference that we've established a new list of consumables, or at least added it to the old one. Now includes gray tape and tissues.
-|036:17:49|CC|Okay, you want us to track those?
-|036:17:49|CDR|It might help. We have a heck of a time finding them in here.
-|036:17:49|CC|Roger.
+|036:11:38|CC|Right. A regular maneuver pad.
+|036:11:49|LMP|Okay, and I guess the other one I can cross out, right?
+|036:11:53|CC|That's affirmative. That's obsolete now that you've done midcourse 2.
+|036:12:12|LMP|Okay, Gordy, I'm all set.
+|036:12:14|CC|Okay, it's a flyby. SPS/G&N; 66678; plus 1.21, minus 0.13. Ignition time is 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453.2. Attitude is 128, 146, 317; Ha is NA. Hp is plus 0021.1. DELTA-Vt is 0502.1. Burn time, 1:18, 0497.6. Sextant star is 25, 189-3 27.4. Boresight star is NA. NOUN 6l is a plus 15.60, minus 175.00; 1101.6, 36242. GET of 05G is 153:24:03 - GDC stars are Sirius and Rigel; 256; 152; 069. Ullage, none. Remarks: 1, burn docked; and number 2, assumes PTC REFSMMAT. And that's it. Over.
+|036:14:56|LMP|Okay, Gordy. Here's your readback. Flyby, SPS/G&N; 66678; plus 1.21, minus 0.13; 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453.2; 128, l46, 317. Ha is NA. Plus 0021.1; 0502.1, 1:18, 0497.6; 25, 189.3, 27.4. Boresight, NA. Plus 15.60, minus 175.00; 1101.6, 36242; 153:24:03 - Sirius and Rigel; 256; 152; 069. There's no ullage. Remark 1, burn docked - docked; and 2, PC - PTC REFSMMAT is assumed.
+|036:16:16|CC|Okay, that's a good readback.
+|036:17:55|CDR|Gordy, I might mention for future reference that we've established a new list of consumables, or at least added it to the old one. Now includes gray tape and tissues.
+|036:18:07|CC|Okay, you want us to track those?
+|036:18:12|CDR|It might help. We have a heck of a time finding them in here.
+|036:18:16|CC|Roger.
 ||||Tape 26/11|Page 190
-|036:17:49|CDR|Oh, you meant quantitywise.
-|036:17:49|CC|Yes, we'll set up in a special back room.
-|036:17:49|CDR|We could call it the T-T room. Tissue and tape,
-|036:17:49||of course.
-|036:17:49|CC|Roger.
+|036:18:20|CDR|Oh, you meant quantity-wise.
+|036:18:25|CC|Yes, we'll set up in a special back room.
+|036:18:33|CDR|We could call it the T-T room. Tissue and tape, of course.
+|036:18:39|CC|Roger.
+|036:34:41|PAO|This is Apollo Control at 36 hours, 34 minutes ground elapsed time. Apollo 17, 130,714 nautical miles out from Earth, velocity now, 3,985 feet per second, continuing to decelerate as we approach the so-called cross over between the sphere of influence from Earth to Moon. I can't recall ever seeing two pages of a flight plan as blank as these are, from 36 hours to 38 hours. Later on today, the — after the eat—period the crew will crawl through the hatch into the Lunar Module for some housekeeping chores, checking out of stowage of equipment in the Lunar Module. But the most exciting thing going on now, was the checkout of the Bio—medical harness on the Command Module Pilot. Midcourse correction burn went nominally on time. The velocity just at time of ignition was 4,058 feet per second. It jumped approximately 10 feet since there was a 10-foot per second burn. But then, within a few minutes it was down below the original velocity as the spacecraft continues to decelarate. Altitude at the time of burn, or distance from Earth, was 128,217. We show a pericynthion of 52.09 miles at closest approach after the burn. And standing by at 36:36, this is Apollo Control.
+|036:42:07|CC||Apollo 17, Houston. In about an hour or you might check the LM Command Module Delta-P again.
 ||||Tape 27/1|Page 191
-|036:42:07|CDR|Okay; thank you. We'll do that.
-|036:43:04|CDR|It's 2.2, Gordo; I put it back in VENT.
-|036:43:09|CC|Okay.
-|037:00:09|CMP|Hello, Houston; America.
-|037:00:09|CC|Roger, America. Go ahead.
-|037:00:17|CMP|Okay, Gordo. We're up to 2.5 on the tunnel and still venting.
-|037:00:17|CC|Okay. Is that music we hear in the background?
-|037:00:17|CMP|Yes, sir. (Music: Up, Up, and Away by Brazil *66} They've been making fun of some of my music. ...
-|037:00:17|CC|Yes, it's coming down to us in living stereo.
-|037:00:17|CMP|Reminiscent of yesteryear. (Music: Up, Up, and Away by Brazil '66).
-|037:00:17|CMP|Music from America.
-|037:02:36|CC|Roger. Thank you for the concert. That was very appropriate.
-|037:09:56|CDR|Gordo, Ron went off the air for a minute, and LM DELTA-P is now 2.6.
-|037:10:04|CC|Okay, Gene.
-|037:10:23|CC|Geno, we'd like for you to let it get up to 2.8 before closing off the VENT. (Music)
-|037:10:31|CDR|Okay, Gordo. We'll make it 2.8.
-|037:10:36|CC|Roger.
-|037:20:32|CC|..., Houston. That was a slight handover, the reason we lost signal for a second there.
+|036:42:16|CDR|Okay; thank you. We'll do that.
+|036:43:13|CDR|It's 2.2, Gordo; I put it back in VENT.
+|036:43:17|CC|Okay.
+|037:00:19|CMP|Hello, Houston; America.
+|037:00:23|CC|Roger, America. Go ahead.
+|037:00:26|CMP|Okay, Gordo. We're up to 2.5 on the tunnel and still venting.
+|037:00:33|CC|Okay. Is that music we hear in the background?
+|037:00:40|CMP|Yes, sir. (Music: Up, Up, and Away by Brazil '66} They've been making fun of some of my music. ...
+|037:00:59|CC|Yes, it's coming down to us in living stereo.
+|037:01:05|CMP|Reminiscent of yesteryear. (Music: Up, Up, and Away by Brazil '66).
+|037:02:43|CMP|Music from America.
+|037:02:46|CC|Roger. Thank you for the concert. That was very appropriate.
+|037:10:07|CDR|Gordo, Ron went off the air for a minute, and LM DELTA-P is now 2.6.
+|037:10:15|CC|Okay, Gene.
+|037:10:33|CC|Geno, we'd like for you to let it get up to 2.8 before closing off the VENT.
+|037:10:39|CDR|(Music) Okay, Gordo. We'll make it 2.8.
+|037:10:45|CC|Roger.
+|037:20:42|CC|America, Houston. That was a sight handover, the reason we lost signal for a second there.
 ||||Tape 27/2|Page 192
-|037:20:37|CDR|Okay.
-|037:32:40|CDR|Houston, 17-
-|037:32:40|CC|Go ahead.
-|037:32:40|CDR|Say, are we going to have a pretty good view of the Earth out of any CSM windows at the LM checkout altitude?
-|037:32:40|CC|I'll check on that.
-|037:32:40|CDR|We're sort of blocked right now.
-|037:32:59|CC|Roger.
+|037:20:48|CDR|Okay.
+|037:32:47|CDR|Houston, 17-
+|037:32:49|CC|Go ahead.
+|037:32:53|CDR|Say, are we going to have a pretty good view of the Earth out of any CSM windows at the LM checkout attitude?
+|037:33:02|CC|I'll check on that.
+|037:32:03|CDR|We're sort of blocked right now.
+|037:32:05|CC|Roger.
 |037:42:31|CC|America, Houston. We're predicting that your LM/CM DELTA-P ought to be about right now, about 2.8.
-|037:42:31|CDR|Okay.
-|037:42:31|CC|We would like a reading.
-|037:42:31|CDR|We'll check it.
-|037:43:16|CDR|Gordo, 2.9.
-|037:43:19|CC|Okay. Sounds good.
-|037:44:31|CDR|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
+|037:42:41|CDR|Okay.
+|037:42:45|CC|We would like a reading -
+|037:42:45|CDR|We'll check it.
+|037:43:14|CDR|Gordo, 2.9.
+|037:43:18|CC|Okay. Sounds good.
+|037:44:16|CDR| ...
+|037:44:30|CDR|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
 |037:44:45|CC|Okay. We're still trying to get the answer on whether you'll have a window. Stand by. I might have it here.
-|037:50:06|CC|America, Houston.
-|037:50:06|CDR|Go ahead.
-|037:50:06|CC|Okay. The LM inspection attitude that you'll go to results in kind of a marginal view of the Earth out of window 1, about 60 degrees away from it, bore-sight line of sight. And we're - we can - what we've started to work on and if you wanted to do is you can go to kind of Intermediate attitude, which will be the LM attitude except for roll which will be off by about 60 degrees, which will - will give you a good view of the Earth out of window 1. And then when we get ready to do the LM entry, you can roll that additional 60 degrees to get to the proper attitude, if you wish. Your choice. Over.
+|037:50:05|CC|America, Houston.
+|037:50:09|CDR|Go ahead.
+|037:50:11|CC|Okay. The LM inspection attitude that you'll go to results in kind of a marginal view of the Earth out of window 1, about 60 degrees away from it, bore-sight line of sight. And we're - we can - we've started to work on and if you wanted to do is you can go to kind of intermediate attitude, which will be the LM attitude except for roll which will be off by about 60 degrees, which will - will give you a good view of the Earth out of window 1. And then when we get ready to do the LM entry, you can roll that additional 60 degrees to get to the proper attitude, if you wish. Your choice. Over.
 ||||Tape 27/3|Page 193
-|037:50:06|CDR|Yes, if that doesn't bother anybody down there, we'd like to do that.
-|037:51:06|CC|Okay. We'll have something for you here in a few minutes.
-|037:54:02|CC|Okay. If you're ready to copy, I have a VERB 49 maneuver for you that will let you look at the Earth.
-|037:54:02|CDR|Wait a minute, Gordo, and I'll just let you load it as we go here.
-|037:54:02|CC|All right.
-|037:54:02|CDR|Okay; ready to copy.
-|037:54:02|CC|Okay. Roll is 240, pitch is 089, and yaw is 0. And the high gain for that attitude, we think it'll probably track to this attitude, is plus 29 and 27.
-|037:54:02|CDR|Okay. Plus 29 and 27.
-|037:55:03|CC|Roger.
-|037:59:17|CC|America, Houston. Until you get the attitude, OMNI Charlie will probably work better.
-|037:59:34|CDR|Okay, Gordy. We got you OMNI Charlie now.
+|037:50:58|CDR|Yes, if that doesn't bother anybody down there, we'd like to do that.
+|037:51:03|CC|Okay. We'll have something for you here in a few minutes.
+|037:54:00|CC|Okay. If you're ready to copy, I have a VERB 49 maneuver for you that will let you look at the Earth.
+|037:54:11|CDR|Wait a minute, Gordo, and I'll just let you load it as we go here.
+|037:54:15|CC|All right.
+|037:54:27|CDR|Okay; ready to copy.
+|037:54:29|CC|Okay. Roll is 240, pitch is 089, and yaw is 0. And the high gain for that attitude, we think it'll probably track to this attitude, is plus 29 and 27.
+|037:54:57|CDR|Okay. Plus 29 and 27.
+|037:55:00|CC|Roger.
+|037:59:18|CC|America, Houston. Until you get the attitude, OMNI Charlie will probably work better.
+|037:59:35 |CDR|Okay, Gordy. We got you OMNI Charlie now.
 |037:59:37|CC|Okay; loud and clear.
-|038:05:10|LMP|Gordy, for your information we have our LM transfer items in the jettison bag ready to go over and we're pretty well squared away on the, all the command module stowage now with minor exceptions.
+|038:05:15|LMP|Gordy, for your information we have our LM transfer items in the jettison bag ready to go over and we're pretty well squared away on the, all the command module stowage now with minor exceptions.
 ||||Tape 28/1|Page 194
-|038:05:25|CC|Okay,
-|038:12:58|CC|America, Houston. We'd like you to go ahead and get on the high gain again since - and stop it just wandering around aimlessly. And how does the Earth look now?
-|038:12:58|LMP|Sorry, Gordy, to be so slow. Earth looks great, and we'll get the high gain up in just a second.
-|038:12:58|CC|Okay.
+|038:05:29|CC|Okay.
+|038:13:02|CC|America, Houston. We'd like you to go ahead and get on the high gain again since - and stop it just wandering around aimlessly. And how does the Earth look now?
+|038:13:30|LMP|Sorry, Gordy, to be so slow. Earth looks great, and we'll get the high gain up in just a second.
+|038:13:36|CC|Okay.
 |038:19:31|LMP|Houston, 17. How do you read?
-|038:19:31|CC|Go ahead. You're loud and clear.
-|038:19:31|LMP|Okay, Gordy, going from south to north on noontime, at least our noontime weather, it looks like there is a fairly strong mass of polar air moving from the southwest up towards Tierra del Fuego. It's mixed with some cloudiness that extends from that area all the way down to the Antarctic ice shelf. But it looks like some pretty good movement patterns from the southwest, north - northeast. No strong weather waves or cyclone development on that yet, although one may be picking up about halfway between Tierra del Fuego and the coast of Antarctica, the - where the front, or at least the cloud masses, curve from the east-west direction to an almost due south direction. Most of South America still looks like pretty good weather. There is cloudiness along the Andean Ridge and also in the Amazon Basin, stretching from the eastern coast of South America on up about, oh, two-thirds of the way towards Central America. It doesn't look like frontal weather there. It's probably tropical convergence weather. Now there is this - still this small, moderately developed cyclone pattern that's hanging pretty much over Buenos Aires now, I think. Uruguay and Buenos Aires. I think I mentioned that earlier in the day. And that still is there, and I suspect those folks are getting a fair amount of weather out of it.
+|038:19:35|CC|Go ahead. You're loud and clear.
+|038:19:40|LMP|Okay, Gordy, going from south to north on noontime, at least our noontime weather, it looks like there is a fairly strong mass of polar air moving from the southwest up towards Tierra del Fuego. It's mixed with some cloudiness that extends from that area all the way down to the Antarctic ice shelf. But it looks like some pretty good movement patterns from the southwest, north - northeast. No strong weather waves or cyclone development on that yet, although one may be picking up about halfway between Tierra del Fuego and the coast of Antarctica, the - where the front, or at least the cloud masses, curve from the east-west direction to an almost due south direction. Most of South America still looks like pretty good weather. There is cloudiness along the Andean Ridge and also in the Amazon Basin, stretching from the eastern coast of South America on up about, oh, two-thirds of the way towards Central America. It doesn't look like frontal weather there. It's probably tropical convergence weather. Now there is this - still this small, moderately developed cyclone pattern that's hanging pretty much over Buenos Aires now, I think. Uruguay and Buenos Aires. I think I mentioned that earlier in the day. And that still is there, and I suspect those folks are getting a fair amount of weather out of it.
 ||||Tape 28/2|Page 195
-|038:19:31|CC|Roger.
-|038:22:00|LMP|Except for scattered clouds, Central America and Mexico, for the most part, are clear - as is most of the Caribbean Islands - Cuba and the others are -all look like they've pretty good weather. There's a little clouds off - cloud pattern off to the east of those islands, but it doesn't look like any major weather in that area. The eastern half and Midwest of the United States is completely cloud covered right now. There - however, the - extending from Mexico to Sonora and up into Arizona and New Mexico, and possibly as far north as Colorado, is a clear band. But then there is more cloudiness to the north of that. The Pacific regions west of - The West Coast of the United States is cloudy, at least west of Southern California. I cannot see Baja, so that cloudiness extends down south of - into Baja California. I see no strong new frontal patterns, although I'm looking right across the limb at the Earth now. There may be one that would be lying maybe across northern California and - and into Colorado, with a little clear area ahead of it, possibly in Kansas. But then into this, a solid bank of clouds that stretches from Brownsville, at least, clear up to - well, along the Gulf Coast across the panhandle of Florida, up the East Coast and on out past Nova Scotia, I'm sure. Florida is clear. Florida - the peninsular portion of Florida is - it looks very clear and some of the deep turquoise green waters to the south and southeast of that area are - are very obvious at this time.
-|038:24:43|CC|Roger, Jack. I'm following along on the satellite weather picture here that's taken from about your same vantage point and - although nowhere near the detail that you're describing.
+|038:21:54|CC|Roger.
+|038:22:00|LMP|Except for scattered clouds, Central America and Mexico, for the most part, are clear - as is most of the Caribbean Islands - Cuba and the others are - all look like they've pretty good weather. There's a little clouds off - cloud pattern off to the east of those islands, but it doesn't look like any major weather in that area. The eastern half and Midwest of the United States is completely cloud covered right now. There - however, the - extending from Mexico to Sonora and up into Arizona and New Mexico, and possibly as far north as Colorado, is a clear band. But then there is more cloudiness to the north of that. The Pacific regions west of - The West Coast of the United States is cloudy, at least west of Southern California. I cannot see Baja, so that cloudiness extends down south of - into Baja California. I see no strong new frontal patterns, although I'm looking right across the limb at the Earth now. There may be one that would be lying maybe across northern California and - and into Colorado, with a little clear area ahead of it, possibly in Kansas. But then into this, a solid bank of clouds that stretches from Brownsville, at least, clear up to - well, along the Gulf Coast across the panhandle of Florida, up the East Coast and on out past Nova Scotia, I'm sure. Florida is clear. Florida - the peninsular portion of Florida is - it looks very clear and some of the deep turquoise green waters to the south and southeast of that area are - are very obvious at this time.
+|038:24:42|CC|Roger, Jack. I'm following along on the satellite weather picture here that's taken from about your same vantage point and - although nowhere near the detail that you're describing.
 ||||Tape 28/3|Page 196
-|038:24:43|LMP|Have you seen today's analysis charts of the United States or North America?
-|038:24:43|CC|No, I haven't. I was just told, Jack, that the -the weathermen and a lot of other people around here, too, are following your weather reports with great interest.
-|038:24:43|LMP|Yes. Does that mean they're right or wrong?
-|038:24:43|CC|You've got the better view, by far.
-|038:24:43|LMP|That doesn't prove much. Okay, Gordy, I'm - I suspect that that's a pretty healthy front. I don't know. Your weather must be cloudy and bad today. Is that right?
-|038:24:43|CC|It is. We've got about a half-mile vis and drizzly rain.
-|038:24:43|LMP|Okay. Well, I suspect comparable weather extends all the way across the eastern United States. That looks like awful dense clouds, although there's no obvious frontal pattern. It just stretches from the Midwest to the East Coast. And, also, there's no good indication of stratification of those clouds, as if they'd be fairly - fairly thick up into the cirrus levels.
-|038:24:43|CC|Roger, Jack.
-|038:24:43|LMP|Looks like Arizona, New Mexico, and northern Sonora probably have some - one band of high cirrus. But other than that, probably a beautiful day out in that area.
-|038:27:20|LMP|There's some transverse cloud patterns over the Mississippi-Alabama area. It suggests maybe that the Jetstream may be just north of that region. But otherwise, there's no good indication of Jetstream position right now.
-|038:27:20|CC|Roger.
+|038:25:05|LMP|Have you seen today's analysis charts of the United States or North America?
+|038:25:11|CC|No, I haven't. I was just told, Jack, that the - the weathermen and a lot of other people around here, too, are following your weather reports with great interest.
+|038:25:40|LMP|Yes. Does that mean they're right or wrong?
+|038:25:47|CC|You've got the better view, by far.
+|038:25:52|LMP|That doesn't prove much. Okay, Gordy, I'm - I suspect that that's a pretty healthy front. I don't know. Your weather must be cloudy and bad today. Is that right?
+|038:26:04|CC|It is. We've got about a half-mile vis and drizzly rain.
+|038:26:11|LMP|Okay. Well, I suspect comparable weather extends all the way across the eastern United States. That looks like awful dense clouds, although there's no obvious frontal pattern. It just stretches from the Midwest to the East Coast. And, also, there's no good indication of stratification of those clouds, as if they'd be fairly - fairly thick up into the cirrus levels.
+|038:26:51|CC|Roger, Jack.
+|038:24:52|LMP|Looks like Arizona, New Mexico, and northern Sonora probably have some - one band of high cirrus. But other than that, probably a beautiful day out in that area.
+|038:27:19|LMP|There's some transverse cloud patterns over the Mississippi-Alabama area. It suggests maybe that the Jetstream may be just north of that region. But otherwise, there's no good indication of Jetstream position right now.
+|038:27:42|CC|Roger.
 ||||Tape 28/4|Page 197
-|038:29:11|LMP|Gordy, there is one minor weather disturbance, possibly just about over Puerto Rico or maybe just -just to the east of that island. No strong circulation' patterns, although there's a hint of a cyclone development. There might be just a small depression in that area. I don't know whether your maps are carrying anything down there or not.
-|038:29:11|CC|I think I see what you're talking about on the satellite picture, but I don't have a surface analysis that goes that far. I do - I just now got a copy of the surface charts for the United States. And there's - there's a front stretching from northern Texas northeastward up through Tennessee and Virginia and another one sort of parallel to it. But, this ... southward from Louisiana along the Gulf Coast across northern Florida and on out into the Atlantic. And I guess the two are kind of blending together to make that irregular mass of clouds you mentioned.
-|038:29:11|LMP|Okay, Gordy. If I'd been a little more observant I could see that there was a little bit, looks like a decrease in at least the thickness of the clouds, vertical thickness, between the two areas you just mentioned. So, there is some indication here of those two fronts, although they are contributing to a general weather pattern in the eastern United States.
-|038:29:11|CC|Roger.
-|038:31:06|LMP|I think, with a little experience in this business, you might have picked those two out of that mass. But it's not immediately obvious.
+|038:29:11|LMP|Gordy, there is one minor weather disturbance, possibly just about over Puerto Rico or maybe just -just to the east of that island. No strong circulation patterns, although there's a hint of a cyclone development. There might be just a small depression in that area. I don't know whether your maps are carrying anything down there or not.
+|038:29:45|CC|I think I see what you're talking about on the satellite picture, but I don't have a surface analysis that goes that far. I do - I just now got a copy of the surface charts for the United States. And there's - there's a front stretching from northern Texas northeastward up through Tennessee and Virginia and another one sort of parallel to it. But, this way southward from Louisiana along the Gulf Coast across northern Florida and on out into the Atlantic. And I guess the two are kind of blending together to make that irregular mass of clouds you mentioned.
+|038:30:31|LMP|Okay, Gordy. If I'd been a little more observant I could see that there was a little bit, looks like a decrease in at least the thickness of the clouds, vertical thickness, between the two areas you just mentioned. So, there is some indication here of those two fronts, although they are contributing to a general weather pattern in the eastern United States.
+|038:30:59|CC|Roger.
+|038:31:07|LMP|I think, with a little experience in this business, you might have picked those two out of that mass. But it's not immediately obvious.
 |038:31:06|CC|Roger.
-|038:31:06|LMP|You got anything on there coming in from the northwest now, say up in Wyoming and Colorado?
-|038:31:06|CC|The way it's drawn on this surface charts shows that - that northern front that I mentioned, just now, sort of curving on up through central Colorado, and then bending westward toward - through Utah. That's about the only other frontal activity. There's one, probably dry front, then a short one through central Arizona and southern Utah.
+|038:31:23|LMP|You got anything on there coming in from the northwest now, say up in Wyoming and Colorado?
+|038:31:38|CC|The way it's drawn on this surface charts shows that - that northern front that I mentioned, just now, sort of curving on up through central Colorado, and then bending westward toward - through Utah. That's about the only other frontal activity. There's one, probably dry front, then a short one through central Arizona and southern Utah.
 ||||Tape 28/5|Page 198
-|038:31:06|LMP|Okay. Well, that makes sense. That would match with that - what I was thinking was high cirrus in Arizona. And also I can see how you could bend - that's the northern front up through Colorado and then back westward to explain the patterns we're seeing in the clear areas south of that.
-|038:31:06|CC|Roger.
+|038:31:14|LMP|Okay. Well, that makes sense. That would match with that - what I was thinking was high cirrus in Arizona. And also I can see how you could bend - that's the northern front up through Colorado and then back westward to explain the patterns we're seeing in the clear areas south of that.
+|038:31:38|CC|Roger.
 |038:33:04|LMP|Gordy, the zero-phase point now is off the coast of Chile and Ecuador - oh, maybe 10 or 15 degrees of longitude, and it is fairly dull. It does not seem to indicate any great amount of choppiness or wave action in that area.
-|038:33:04|CC|Roger.
-|038:33:04|LMP|And about 15 minutes ago, Gordy, I took two more Hasselblad shots of the Earth.
-|038:33:04|CC|Okay.
-|038:33:04|CMP|And, also, Houston, frame number - let's see, that's 16 and 17 - were taken of the Earth about 15 minutes ago, too. And that's magazine Sierra Sierra.
-|038:33:04|LMP|Okay, Ron. We copy that.
-|038:34:55|LMP|Gordy, with respect to the icepack off the coast of Antarctica, it's difficult to distinguish pack ice from clouds, in general. However, the clouds seem to pick up reflection patterns with respect to the Sun. And using that as a - and some shadows in below as the criteria, it looks as if the pack ice in the South Atlantic would extend to a latitude almost comparable to that of Tierra del Fuego. I don't know whether that - that's reasonable or not.
-|038:34:55|CC|Okay. I don't either. But maybe someone who's more of an expert can clear up your question on that. I111 let you know.
-|038:34:55|LMP|Now to the southwest of Tierra del Fuego there's a - looks like a small cyclone developing, clockwise rotation, just off the edge of the pack ice, and - but it does not seem to be closely associated with the frontal activity that I mentioned when I started out speaking at this - this particular time,
+|038:33:35|CC|Roger.
+|038:34:05|LMP|And about 15 minutes ago, Gordy, I took two more Hasselblad shots of the Earth.
+|038:34:14|CC|Okay.
+|038:34:29|CMP|And, also, Houston, frame number - let's see, that's 16 and 17 - were taken of the Earth about 15 minutes ago, too. And that's magazine Sierra Sierra.
+|038:34:45|LMP|Okay, Ron. We copy that.
+|038:34:56|LMP|Gordy, with respect to the icepack off the coast of Antarctica, it's difficult to distinguish pack ice from clouds, in general. However, the clouds seem to pick up reflection patterns with respect to the Sun. And using that as a - and some shadows in below as the criteria, it looks as if the pack ice in the South Atlantic would extend to a latitude almost comparable to that of Tierra del Fuego. I don't know whether that - that's reasonable or not.
+|038:35:46|CC|Okay. I don't either. But maybe someone who's more of an expert can clear up your question on that. I'll let you know.
+|038:35:57|LMP|Now to the southwest of Tierra del Fuego there's a - looks like a small cyclone developing, clockwise rotation, just off the edge of the pack ice, and - but it does not seem to be closely associated with the frontal activity that I mentioned when I started out speaking at this - this particular time.
 ||||Tape 28/6|Page 199
-|038:34:55|CC|Roger,
-|038:36:36|LMP|There is another - there is another one, maybe a front, a little bit ahead of that cyclone that's now extending north-south. Starts in the pack ice area and extends up - oh, about halfway from there to Buenos Aires - in the direction of Buenos Aires. It doesn't look like a very major mass of air or frontal system. It may develop into something over the next couple days though.
-|038:36:36|CC|Okay.
-|038:38:08|LMP|And centered, Gordy, at about 45 south and say 30 west, there is another cyclone area that's ahead of the last front I talked about that doesn't look - I think I talked about it yesterday - still does not look too strong, although the clouds, as I recall, the cloud cover is somewhat more well developed, and circulation patterns seem to be better developed. It may be an intensifying storm over what we saw yesterday.
-|038:38:08|CC|Roger.
-|038:38:08|LMP|I cannot see that it's associated with any clear frontal activity, however.
-|038:38:08|CC|Okay.
-|038:38:08|LMP|That, I presume, should be migrating in the direction of the - of the southeast coast of Africa, so we'll keep an eye on it.
-|038:38:08|CC|Roger.
-|038:38:08|LMP|And that reminds me, did you get any information cn the - that - what looked like a very strong, concentrated typhoon or hurricane in the South Pacific between Borneo and the Philippines?
+|038:36:37|CC|Roger,
+|038:36:37|LMP|There is another - there is another one, maybe a front, a little bit ahead of that cyclone that's now extending north-south. Starts in the pack ice area and extends up - oh, about halfway from there to Buenos Aires - in the direction of Buenos Aires. It doesn't look like a very major mass of air or frontal system. It may develop into something over the next couple days though.
+|038:37:12|CC|Okay.
+|038:38:09|LMP|And centered, Gordy, at about 45 south and say 30 west, there is another cyclone area that's ahead of the last front I talked about that doesn't look - I think I talked about it yesterday - still does not look too strong, although the clouds, as I recall, the cloud cover is somewhat more well developed, and circulation patterns seem to be better developed. It may be an intensifying storm over what we saw yesterday.
+|038:38:47|CC|Roger.
+|038:38:52|LMP|I cannot see that it's associated with any clear frontal activity, however.
+|038:38:58|CC|Okay.
+|038:39:05|LMP|That, I presume, should be migrating in the direction of the - of the southeast coast of Africa, so we'll keep an eye on it.
+|038:39:16|CC|Roger.
+|038:39:21|LMP|And that reminds me, did you get any information on the - that - what looked like a very strong, concentrated typhoon or hurricane in the South Pacific between Borneo and the Philippines?
 ||||Tape 28/7|Page 200
-|038:38:08|CC|Let me check and see what we got on that. I wasn't here when you first talked about it evidently.
-|038:38:08|LMP|Well, it was one that they didn't seem to be carrying, and it looked extremely well developed from here.
-|038:40:34|LMP|Gordy, yesterday that - the one I'm speaking of -was centered at about 15 north and a hundred and -make that about 117 east.
-|038:40:34|CC|Okay. I've been informed that they are - the satellite people are carrying that one now. I'm not sure whether they had seen it before or didn't see it until after you did. But they are aware of it now and are tracking it.
-|038:40:34|LMP|Well, we're not competing. They just didn't have any information for me on it yesterday. We'll probably be able to see that again late this afternoon.
-|038:40:34|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have the name.
-|038:40:34|LMP|Okay. Now which one has - is Therese.
-|038:40:34|CC|The one you just - the coordinates you gave almost exactly pinpoint Therese.
-|038:40:34|LMP|Okay. That's near the Philippines.
-|038:40:34|CC|That's affirmative. Between there and Vietnam,
-|038:42:38|LMP|Okay. Well, then that sounds like - if that's an up-to-date position, it has relatively little movement since yesterday.
-|038:42:38|CC|Roger. They show it moving just very slightly westward.
-|038:42:38|LMP|Okay. Are they carrying anything south of Guam now that we talked about yesterday?
+|038:39:45|CC|Let me check and see what we got on that. I wasn't here when you first talked about it evidently.
+|038:39:51|LMP|Well, it was one that they didn't seem to be carrying, and it looked extremely well developed from here.
+|038:40:35|LMP|Gordy, yesterday that - the one I'm speaking of - was centered at about 15 north and a hundred and - make that about 117 east.
+|038:40:57|CC|Okay. I've been informed that they are - the satellite people are carrying that one now. I'm not sure whether they had seen it before or didn't see it until after you did. But they are aware of it now and are tracking it.
+|038:41:19|LMP|Well, we're not competing. They just didn't have any information for me on it yesterday. We'll probably be able to see that again late this afternoon.
+|038:41:39|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have the name.
+|038:42:05|LMP|Okay. Now which one has - is Therese.
+|038:42:10|CC|The one you just - the coordinates you gave almost exactly pinpoint Therese.
+|038:42:17|LMP|Okay. That's near the Philippines.
+|038:42:19|CC|That's affirmative. Between there and Vietnam,
+|038:42:39|LMP|Okay. Well, then that sounds like - if that's an up-to-date position, it has relatively little movement since yesterday.
+|038:42:52|CC|Roger. They show it moving just very slightly westward.
+|038:43:00|LMP|Okay. Are they carrying anything south of Guam now that we talked about yesterday?
 ||||Tape 28/8|Page 201
-|038:42:38|CC|Take a minute to get something on that. They don't have a current map showing anything in Guam right now.
-|038:42:38|LMP|And we also had a storm developing south of - or southwest of New Zealand. Might look at that one, too.
-|038:42:38|CC|Okay.
-|038:42:38|CC|Jack, are you making these observations through the monocular?
-|038:42:38|LMP|Yes, sir.
-|038:42:38|CC|Okay.
-|038:42:38|LMP|Although most of them - well, at this distance, Gordy, the circulation - detailed circulation patterns to say what's a cyclone and what isn't are not visible to the naked eye, at least not to mine.
-|038:42:38|CC|Roger.
+|038:43:32|CC|Take a minute to get something on that. They don't have a current map showing anything in Guam right now.
+|038:43:46|LMP|And we also had a storm developing south of - or southwest of New Zealand. Might look at that one, too.
+|038:43:57|CC|Okay.
+|038:44:10|CC|Jack, are you making these observations through the monocular?
+|038:44:19|LMP|Yes, sir.
+|038:42:20|CC|Okay.
+|038:42:21|LMP|Although most of them - well, at this distance, Gordy, the circulation - detailed circulation patterns to say what's a cyclone and what isn't are not visible to the naked eye, at least not to mine.
+|038:42:36|CC|Roger.
 |038:42:38|LMP|The major frontal patterns are, however.
 |038:46:49|CC|Jack, that disturbance you mentioned near Guam isn't being carried on the current charts here as anything significant. They do show some cloudiness north of the tropical convergence zone, but just that.
-|038:46:49|LMP|Okay. Well, I had a feeling what I was seeing yesterday might have just been the remnants of Teresa [sic], which I think went - got into that area a couple days ago. It was not a very well-developed system, but did seem - seem to be isolated from the other cloudiness that I would have put into the tropical convergence zone. That was between Wake and Kwajalein.
-|038:46:49|CC|Roger.
+|038:47:08|LMP|Okay. Well, I had a feeling what I was seeing yesterday might have just been the remnants of Teresa [sic], which I think went - got into that area a couple days ago. It was not a very well-developed system, but did seem - seem to be isolated from the other cloudiness that I would have put into the tropical convergence zone. That was between Wake and Kwajalein.
+|038:47:38|CC|Roger.
 ||||Tape 28/9|Page 202
-|038:49:03|LMP|Gordy, let me try to give you a description of something that is a little bit unusual than what we've been seeing. The - there's an axis that runs from, say, the outer portion of the Ross ice shelf along the - and just off the coast of Antarctica, then bends up so that it would pass just to the east of Tierra del Fuego and - and then continues on that heading so that it would intersect the far east coast of South America, if it continued. Now along that axis, the - what appear to be multiple frontal patterns or at least linear cloud bands, bend very sharply and change from a heading that roughly parallels the axis around the one that is roughly north-south. And some of the front - frontal direction changes that I gave you earlier, down in that area, are - also bend around that axis.
-|038:49:03|CC|Okay.
-|038:49:03|LMP|And there just, oh, there are probably a dozen, if you tried to pull them out, cloud bands between the Ross Sea and Tierra del Fuego that bend around the same axis. Quite striking.
-|038:49:03|CC|Roger.
-|038:51:06|LMP|Now there's some indications, to me at any rate, that the Jetstream in that area may be essentially east-west - oh, maybe 20 degrees of latitude north of the Ross Sea, and then bends down very sharply so that it intersects the - or approaches the coa -Antarctic ice shelf to the east of the Ross Sea, and then maybe it bends up and forms the axis that I just described that's causing that bending of the cloud patterns.
-|038:51:06|CC|Okay. Sounds like a good, theory.
-|038:52:08|LMP|There's a linear clear area in that area north of the Ross Sea that - and to the north of that is a sharply defined front that I talked about earlier. And then, both the - that front continues. The clear area is cut off by the axis that I described, a cloud axis.
+|038:49:04|LMP|Gordy, let me try to give you a description of something that is a little bit unusual than what we've been seeing. The - there's an axis that runs from, say, the outer portion of the Ross ice shelf along the - and just off the coast of Antarctica, then bends up so that it would pass just to the east of Tierra del Fuego and - and then continues on that heading so that it would intersect the far east coast of South America, if it continued. Now along that axis, the - what appear to be multiple frontal patterns or at least linear cloud bands, bend very sharply and change from a heading that roughly parallels the axis around the one that is roughly north-south. And some of the front - frontal direction changes that I gave you earlier, down in that area, are - also bend around that axis.
+|038:50:35|CC|Okay.
+|038:50:38|LMP|And there just, oh, there are probably a dozen, if you tried to pull them out, cloud bands between the Ross Sea and Tierra del Fuego that bend around the same axis. Quite striking.
+|038:50:54|CC|Roger.
+|038:51:07|LMP|Now there's some indications, to me at any rate, that the Jetstream in that area may be essentially east-west - oh, maybe 20 degrees of latitude north of the Ross Sea, and then bends down very sharply so that it intersects the - or approaches the coa- Antarctic ice shelf to the east of the Ross Sea, and then maybe it bends up and forms the axis that I just described that's causing that bending of the cloud patterns.
+|038:51:55|CC|Okay. Sounds like a good, theory.
+|038:52:09|LMP|There's a linear clear area in that area north of the Ross Sea that - and to the north of that is a sharply defined front that I talked about earlier. And then, both the - that front continues. The clear area is cut off by the axis that I described, a cloud axis.
 ||||Tape 28/10|Page 203
-|038:52:08|CC|Roger.
-|038:52:08|LMP|Now that should show up real well on the 250-millimeter pictures we took. Gordy, I'm back looking at zero-phase. And now, apparently, the exact zero-phase was partially obscured by a cloud pattern earlier. Now, when I - There is a very, very small bright spot in the center of the zero-phase area. Nothing comparable to what I described off the coast of Australia yesterday, but an extremely small spot. I suspect that the size of your bright spot in zero-phase has some direct -or indirect, at any rate, relationship to sea state.
-|038:52:08|CC|Roger.
-|038:55:49|LMP|Gordy, as you might expect, the whole coastline of Chile is - or all of Chile, practically, is clear. Beautifully exposed to us here, particular the Atacama Desert, which is noted for that particular characteristic, and - at least among geologists it is. And the coast of Peru is also clear with clouds following the Andean Ridge, probably the - certainly the coast side of the Andean Ridge. Lima ought to be enjoying a very nice day today. The - Ecuador, however, looks like it might have a little more cloudy weather, although it doesn't look like any major storm activity.
-|038:55:49|CC|Roger.
-|039:03:12|CC|America, Houston. We have a couple of words here on medications. Is everyone listening?
-|039:03:12|CDR|Yes; we're on, Gordo. Go ahead.
-|039:03:12|CC|Okay. Geno, you mentioned taking a nausea pill for some gas yesterday, and we were looking into some of the side effects. You definitely don't want to use that particular pill for gas. One of the side effects is that it's an appetite depressor. And there are some pills loaded in A-7, along with the vitamin pills, specifically for the purpose of eliminating gas. We would appreciate if you'd give us a call in advance prior to taking any medications except the Seconal and aspirin. Over.
+|038:52:36|CC|Roger.
+|038:52:36|LMP|Now that should show up real well on the 250-millimeter pictures we took. Gordy, I'm back looking at zero-phase. And now, apparently, the exact zero-phase was partially obscured by a cloud pattern earlier. Now, when I - There is a very, very small bright spot in the center of the zero-phase area. Nothing comparable to what I described off the coast of Australia yesterday, but an extremely small spot. I suspect that the size of your bright spot in zero-phase has some direct - or indirect, at any rate, relationship to sea state.
+|038:53:31|CC|Roger.
+|038:55:51|LMP|Gordy, as you might expect, the whole coastline of Chile is - or all of Chile, practically, is clear. Beautifully exposed to us here, particular the Atacama Desert, which is noted for that particular characteristic, and - at least among geologists it is. And the coast of Peru is also clear with clouds following the Andean Ridge, probably the - certainly the coast side of the Andean Ridge. Lima ought to be enjoying a very nice day today. The - Ecuador, however, looks like it might have a little more cloudy weather, although it doesn't look like any major storm activity.
+|038:56:56|CC|Roger.
+|039:03:14|CC|America, Houston. We have a couple of words here on medications. Is everyone listening?
+|039:03:25|CDR|Yes; we're on, Gordo. Go ahead.
+|039:03:27|CC|Okay. Geno, you mentioned taking a nausea pill for some gas yesterday, and we were looking into some of the side effects. You definitely don't want to use that particular pill for gas. One of the side effects is that it's an appetite depressor. And there are some pills loaded in A-7, along with the vitamin pills, specifically for the purpose of eliminating gas. We would appreciate if you'd give us a call in advance prior to taking any medications except the Seconal and aspirin. Over.
 ||||Tape 28/11|Page 204
-|039:03:12|CDR|Okay, Gordy, will do. I was aware that those gas depressors were around. At the time, we couldn't find them in A-7- And so I took one of those other things, whatever it is. And while you're talking about that, as per the preflight food check, gas is very evident on - particularly on me - and I think I'm suppressing it slowly. But is there any problem, or what do you recommend on that Mylinol [sic] or Mylicon or whatever it is?
-|039:03:12|CC|Okay. Stand by 1.
-|039:03:12|CDR|This goes hand-in-hand with the amount of gas that I experienced preflight.
-|039:03:12|CC|Okay.
-|039:03:12|CDR|And it's the kind of gas - it's the kind of gas that just stays in your stomach.
-|039:03:12|CC|Roger.
-|039:05:43|CC|Okay, Geneo. The recommended use of those gas pills is to chew one after each meal. And then, if needed, chew up another one before going to sleep at night.
-|039:05:43|CDR|Okay; fine. I chewed one after breakfast.
-|039:05:43|CC|Okay. A little water after you chew it up, I guess, helps its effectiveness.
-|039:05:43|CDR|That's a basic requirement, I believe. The effect of it has not been too obvious yet though.
-|039:05:43|CC|Roger.
-|039:07:51|CDR|Gordy, you want the 02 HEATERS 1 and 2 to AUTO now?
-|039:07:51|CC|That's affirmative.
-|039:08:06|CDR|Okay, They're there.
-|039:09:05|CDR|Gordy?
-|039:09:05|CC|Go ahead.
+|039:04:19|CDR|Okay, Gordy, will do. I was aware that those gas depressors were around. At the time, we couldn't find them in A-7. And so I took one of those other things, whatever it is. And while you're talking about that, as per the preflight food check, gas is very evident on - particularly on me - and I think I'm suppressing it slowly. But is there any problem, or what do you recommend on that Mylinol [sic] or Mylicon or whatever it is?
+|039:04:59|CC|Okay. Stand by 1.
+|039:05:02|CDR|This goes hand-in-hand with the amount of gas that I experienced preflight.
+|039:05:10|CC|Okay.
+|039:05:11|CDR|And it's the kind of gas - it's the kind of gas that just stays in your stomach.
+|039:05:16|CC|Roger.
+|039:05:45|CC|Okay, Geneo. The recommended use of those gas pills is to chew one after each meal. And then, if needed, chew up another one before going to sleep at night.
+|039:06:04|CDR|Okay; fine. I chewed one after breakfast.
+|039:06:08|CC|Okay. A little water after you chew it up, I guess, helps its effectiveness.
+|039:06:15|CDR|That's a basic requirement, I believe. The effect of it has not been too obvious yet though.
+|039:06:25|CC|Roger.
+|039:07:53|CDR|Gordy, you want the 02 HEATERS 1 and 2 to AUTO now?
+|039:08:00|CC|That's affirmative.
+|039:08:08|CDR|Okay, They're there.
+|039:09:07|CDR|Gordy?
+|039:09:10|CC|Go ahead.
 ||||Tape 28/12|Page 205
-|039:09:05|CDR|I don't want to cause any concern on that gas. It's no real great problem. It's just a slight discomfort; that's all.
-|039:09:05|CC|Okay, Gene. I think we understand.
-|039:10:31|CDR|Gordy, I have just eaten my first peanut butter sandwich in orbit around the Earth.
-|039:10:31|CC|Roger. How was it?
-|039:10:31|CDR|What's that? Well, it was just as good as it was when I was growing up - which means it was great. I grew up on those things, as I recall.
-|039:10:31|CC|Charlie Duke's here with me and he - -
-|039:10:31|CMP|Miss the lettuce. Sure have missed the lettuce and mayonnaise on mine though.
-|039:14:30|CMP|And, Houston, we'll go ahead and maneuver onto the LM attitude.
-|039:14:30|CC|Okay. We're watching you. Punch it in there.
-|039:14:30|CMP|Okay.
-|039:27:20|CMP|Okay. DIRECT O2 is coming OPEN now.
-|039:27:20|CC|Okay.
-|039:30:09|CMP|DIRECT 02 is OFF.
-|039:30:09|CC|Roger.
+|039:09:14|CDR|I don't want to cause any concern on that gas. It's no real great problem. It's just a slight discomfort; that's all.
+|039:09:20|CC|Okay, Gene. I think we understand.
+|039:10:33|CDR|Gordy, I have just eaten my first peanut butter sandwich in orbit around the Earth.
+|039:10:43|CC|Roger. How was it?
+|039:10:47|CDR|What's that? Well, it was just as good as it was when I was growing up - which means it was great. I grew up on those things, as I recall.
+|039:11:10|CC|Charlie Duke's here with me and he - -
+|039:11:11|CMP|Miss the lettuce. Sure have missed the lettuce and mayonnaise on mine though.
+|039:14:32|CMP|And, Houston, we'll go ahead and maneuver onto the LM attitude.
+|039:14:37|CC|Okay. We're watching you. Punch it in there.
+|039:14:40|CMP|Okay.
+|039:27:23|CMP|Okay. DIRECT O2 is coming OPEN now.
+|039:27:27|CC|Okay.
+|039:30:12|CMP|DIRECT O2 is OFF.
+|039:30:14|CC|Roger.
 |039:30:55|CC|America, before you open the equalization valve, we'd like one final reading on the LM/CM DELTA-P.
 |039:31:07|CMP|Okitydoke.
-|039:31:17|CMP|Okay. With this cabin pressure now, it's up to 3ã5È almost 3.6.
-|039:31:17|CC|Okay, Ron.
+|039:31:17|CMP|Okay. With this cabin pressure now, it's up to 3.5, almost 3.6.
+|039:31:25|CC|Okay, Ron.
 ||||Tape 28/13|Page 206
 |039:33:58|CC|Jack, Houston. We're ready to terminate the charge on battery A.
 ||||Tape 29/1|Page 207
-|039:33:58|CDR|Okay, Gordo, I cycled the CRYO PRESSURE INDICATOR from up to down, back to SURGE/3. And we got a MASTER ALARM and there was no 0 HIGH FLOW with it at all.
-|039:33:58|CC|Okay.
-|039:36:32|CDR|Okay, I just did it again to verify it. And that picked up - it picked up the MASTER ALARM, although it might be associated with the fact that the surge tank is down and coming back up.
-|039:36:32|CMP|No, I don't think so.
-|039:36:32|CC|Roger, Gene. Although, the surge tank shouldn't have caused it.
-|039:36:32|CDR|Okay, let me give you one more try on it. Well, that time it didn't ... it. All I did was go up to 1 slash 2 and the ALARM came on.
-|039:36:32|CC|Roger.
-|039:36:32|CDR|Okay, I went back to surge/3; it did not. So maybe it's coming on when I go up to 1 slash 2.
-|039:36:32|CC|Roger,
-|039:36:32|CDR|Yes, there it is, Gordy. It's definitely repeat-able. I can go up to PRESSURE CRYO QUANTITY 1 slash 2 and the ALARM comes on.
-|039:36:32|CC|Okay, Geno; understand.
-|039:36:32|CDR|You might note that - hey -
-|039:36:32|CMP|Okay.
-|039:36:32|CDR|Gordo, you might think about the fact that we were getting them when the cabin pressure was high after launch. And there might be some association there, also.
+|039:34:10|CDR|Standby. Good. CSM LM pressure equalization, huh? Okay, cryo pressure indicator to surge 3 and verify cryo. Oh, wait a minute. See if I got the right one here. Recto 2 is on.
+|039:36:06|CDR|Okay, Gordo, I cycled the CRYO PRESSURE INDICATOR from up to down, back to SURGE/3. And we got a MASTER ALARM and there was no O2 HIGH FLOW with it at all.
+|039:36:26|CC|Okay.
+|039:36:34|CDR|Okay, I just did it again to verify it. And that picked up - it picked up the MASTER ALARM, although it might be associated with the fact that the surge tank is down and coming back up.
+|039:36:48|CMP|No, I don't think so.
+|039:36:50|CC|Roger, Gene. Although, the surge tank shouldn't have caused it.
+|039:36:57|CDR|Okay, let me give you one more try on it. Well, that time it didn't wait. All I did was go up to 1 slash 2 and the ALARM came on.
+|039:37:12|CC|Roger.
+|039:37:14|CDR|Okay, I went back to surge/3; it did not. So maybe it's coming on when I go up to 1 slash 2.
+|039:37:21|CC|Roger
+|039:37:26|CDR|Yes, there it is, Gordy. It's definitely repeatable. I can go up to PRESSURE CRYO QUANTITY 1 slash 2 and the ALARM comes on.
+|039:37:38|CC|Okay, Geno; understand.
+|039:37:39|CDR|You might note that - hey -
+|039:37:42|CMP|Okay -
+|039:37:42|CDR|Gordo, you might think about the fact that we were getting them when the cabin pressure was high after launch. And there might be some association there, also.
 ||||Tape 29/2|Page 208
-|039:36:32|CC|Okay, a good observation.
+|039:37:57|CC|Okay, a good observation.
 |039:38:05|CMP|EMERGENCY CABIN selector to OFF. We got to unbolt it down there somewhere. Underneath the commander's couch. Okay.
 |039:38:38|CMP|REPRESS PACKAGE valve OFF, should be OFF.
-|039:38:51|CMP|Okay; verify DIRECT 0£ is CLOSED. Okay; TUNNEL VENT VALVE, LM/C0MMAND MODULE DELTA-P. Okay, it's greater than 3.1. It's up around 3-6.
+|039:38:52|CMP|Okay; verify DIRECT O2 is CLOSED. Okay; TUNNEL VENT VALVE, LM/C0MMAND MODULE DELTA-P. Okay, it's greater than 3.1. It's up around 3-6.
 |039:39:38|CMP|Okay, we're going to open the pressure equalization valves.
-|039:41:08|CMP|Okay. DELTA-P is 2-1/2.
+|039:41:09|CMP|Okay. DELTA-P is 2-1/2.
 |039:41:12|LMP|And, Gordy, battery A charge has been stopped and the battery compartment pressure is still reading 0.6.
-|039:41:12|CC|Roger, Jack.
+|039:41:22|CC|Roger, Jack.
 |039:41:36|CMP|Okay. There's the DELTA-P of 2. We'll close the equalization valve. Yes, we'll monitor for 3 minutes now.
-|039:44:01|CC|Geno, Houston. We just wanted to verify that no -none of the lights in the matrix were - flashed when you operated that switch and got the MASTER ALARM.
-|039:44:01|CDR|That's affirmative, Gordo; none of the lights flashed at all.
-|039:44:01|CC|Roger.
-|039:44:01|LMP|When we get the cabin pressure down, Gordy, here, we might try one more time. Which Gene jui;t did.
-|039:44:01|CC|Okay, and nothing happened?
-|039:44:01|CMP|That's affirm.
-|039:44:01|CC|Roger.
+|039:44:01|CC|Geno, Houston. We just wanted to verify that no - none of the lights in the matrix were - flashed when you operated that switch and got the MASTER ALARM.
+|039:44:15|CDR|That's affirmative, Gordo; none of the lights flashed at all.
+|039:44:18|CC|Roger.
+|039:44:21|LMP|When we get the cabin pressure down, Gordy, here, we might try one more time. Which Gene just did.
+|039:44:35|CC|Okay, and nothing happened?
+|039:44:39|CMP|That's affirm.
+|039:44:42|CC|Roger.
 ||||Tape 29/3|Page 209
 |039:45:40|CMP|Okay, still holding at 2.0 on the DELTA-P.
-|039:45:48|CMP|Okay, we'll open the pressure equalization valve and when the cabin pressure gets to 4.0, hit the REPRESS 02
-|039:46:57|CMP|DELTA-P is about 0.6, we might make it this time.
-|039:47:20|CMP|DELTA-P1s - Okay, I'm going to open her right up. DELTA-P is 0.2 now.
+|039:45:48|CMP|Okay, we'll open the pressure equalization valve and when the cabin pressure gets to 4.0, hit the REPRESS O2
+|039:46:58|CMP|DELTA-P is about 0.6, we might make it this time.
+|039:47:20|CMP|DELTA-P's - Okay, I'm going to open her right up. DELTA-P is 0.2 now.
 |039:48:29|CDR|Okay, Houston, the hatch is open.
-|039:48:29|CC|Roger.
-|039:50:39|CMP|Okay, the EXTEND LATCH is ENGAGED. Red is not visible. GNg BLEED button. (Singing) Okay; GNg BLEED. Not too much in there.
+|039:48:32|CC|Roger.
+|039:50:39|CMP|Okay, the EXTEND LATCH is ENGAGED. Red is not visible. GN2 BLEED button. (Singing) Okay; GN2 BLEED. Not too much in there.
 |039:51:06|CMP|Okay, PRELOAD SELECTOR lever - rotate parallel to the orange stripe. Okay. PRELOAD HANDLE, torque clockwise to unload the old support beams.
-|039:51:32|CMP|(Clanking noise) the probe is big. Whoops - Oh, okay.
-|039:51:36|CMP|Ah-hah, the probe is loose in the tunnel. Okay, rotate away from the orange stripe. (Singing) Torque -
+|039:51:32|CMP|(Clanking noise) Ah ha! The probe is big. Whoops - Oh, okay.
+|039:51:43|CMP|The probe is loose in the tunnel. Okay, rotate away from the orange stripe. (Singing) Torque -
 |039:52:25|CMP|Okay, we'll probe umbilicals. Is the LM POWER OFF? Proceed - doesn't make any difference. DOCK PROBE CIRCUIT BREAKERS undone? ... That's good and tight.
-|039:52:56|CMP|(Clanking noise)
-|039:52:57|CMP|Oops. Get the sergeant. Okay.
+|039:52:56|CMP|(Clanking noise) Oops. This darn thing. Okay.
 |039:53:22|CMP|Son of a buck. Okay, I'm trying putting those things back on now, just for the heck of it. It's brand new; nice and tight.
 |039:53:48|CMP|Can you smell nitrogen? Smell something up here.
 |039:53:56|CMP|Okay, probe umbilicals disconnected and stow. Electrical connector covers are closed. Yes, yes, those are yellow ones. PRELOAD HANDLE, position against - against the umbilical connector. Okay, that's done.
@@ -3023,166 +3025,195 @@
 |039:54:18|CMP|SELECTOR LEVER is in the mid position. INSTALLATION STRUT.
 |039:54:31|CMP|Okay, INSTALLATION STRUT is unstowed. CAPTURE LATCH RELEASE HANDLE LOCK. Okay, the RELEASE HANDLE is unlocked.
 |039:54:57|CMP|Okay, RATCHET HANDLE unstowed to the full extension; boost to the first detent. That's good and tight going back to the first detent. Okay. Fold probe, looks like. Yes, it's out. (Singing)
-|039:55:31|CMP|Ooooh! There it comes. That's just like in the simulator. It comes down by itself. It comes -pushes me out of the way, as a matter of fact. Okay. I'll get it a little better.
+|039:55:31|CMP|Ooooh! There it comes. That's just like in the simulator. It comes down by itself. It comes - pushes me out of the way, as a matter of fact. Okay. I'll get it a little better.
 |039:56:00|CMP|Okay, RATCHET HANDLE pulled to full extension and then ratchet one stroke. Gets it so it gets it off the thing.
 |039:56:25|CMP|Okay, that's one stroke backwards now. Okay, RATCHET HANDLE and INSTALLATION STRUT are restowed. CAPTURE LATCH RELEASE HANDLE.
 |039:57:08|CMP|Okay, CAPTURE LATCH RELEASE HANDLE is rotated 180 degrees and it's back in the recess. Okay, let's see if it comes out.
 |039:57:20|CMP|(Clanking noise)
-|039:57:22|CMP|Ooops. There it comes. I couldn't see it awhile ago, Let me look - the PROBE STRUT in the way. That's why you can't see it until now. Where do we want to go with this thing down over here at the -
-|039:58:23|CMP|Houston, it's a nice clean ... and release there on top of the probe. It's nice and clean down there. The button is depressed. There's play around the little button on the end of the probe there , too.
+|039:57:22|CMP|Ooops. There it comes. I couldn't see it awhile ago, Let me look - the PROBE STRUT's in the way. That's why you can't see it until now. Where do we want to go with this thing down over here at the -
+|039:58:23|CMP|Houston, it's a nice clean ... and release there on top of the probe. It's nice and clean down there. The button is depressed. There's play around the little button on the end of the probe there too.
 ||||Tape 29/5|Page 211
-|039:58:23|CC|Okay, Ron. In about 1 minute, we're going to have a site handover. You'll be talking through Hawaii after that takes place.
-|039:58:23|CMP|Okay. What's the docking angle? Blew it, I guess. 1.2 degrees, huh?
-|039:58:23|CMP|Yes, I think I better ver - verify that, just to make sure. COAS looks great,
-|039:59:41|CMP|Hold a minute, Gene - wait a minute. You got -there we go.
+|039:58:40|CC|Okay, Ron. In about 1 minute, we're going to have a site handover. You'll be talking through Hawaii after that takes place.
+|039:58:53|CMP|Okay. What's the docking angle? Blew it, I guess. 1.2 degrees, huh?
+|039:59:23|CMP|Yes, I think I better ver - verify that, just to make sure. COAS looks great.
+|039:59:41|CMP|Hold a minute, Gene - wait a minute. You got - there we go.
 |039:59:51|CMP|(Clanking noise)
-|040:00:00||NOTE: During the period 01 l6 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
-|040:00:00|CMP|Am I not looking in the right place?
-|040:00:00|CMP|Let me look. I don't know where one is, right offhand. I'll check here.
-|040:00:00|CMP|Well, just help me with some terms here. I was just looking again at sight of - underneath the power bungee.
-|040:00:00|CMP|Okay, Gordy; we're at the top of 1-13 and all switches, valves were in proper configuration.
-|040:00:00|CC|Okay, you could have asked me and I could have told you that.
-|040:00:00|CMP|We were just trying to give you a plug - Well, if you don't want them - Well, we'll take it back. (Laughter) I shouldn't have said anything to the world's most experienced DLMP. Right?
-|040:00:00|CC|Roger.
+|040:21:20|PAO|This is Apollo Control. Cernan and Evans at this time have gone into the Lunar Module, and they're going through the housekeeping transfer of items from the command module into the lunar module and will proceed with the checklist of activating the spacecraft, or lunar module, spacecraft communications system, and the communications have been split into two links on Earth, Air-to-Ground 1 for the command module, and Air-to-Ground 2 for the lunar module. They're on hot mike or a voice-actuated circuit, so we can hear them run through the items as they accomplish them aboard the lunar module, Challenger.
+|040:24:00|PAO|This is Apollo Control, a correction on the earlier statement, it is Cernan and Schmitt in the Lunar Module Challenger at this time. Evans had the detail of removing the probe and drogue earlier, but he's by his lonesome, back in the Command Module.
+|040:36:32|CMP|Am I not looking in the right place?
+|040:36:37|CC|Let me look. I don't know where one is, right offhand. I'll check here.
+|040:36:51|CDR|Well, just help me with some terms here. I was just looking again at sight of - underneath the power bungee.
+|040:37:22|CMP|Okay, Gordy; we're at the top of 1-13 and all switches, valves were in proper configuration.
+|040:37:31|CC|Okay, you could have asked me and I could have told you that.
+|040:37:39|CMP|We were just trying to give you a plug - Well, if you don't want them - Well, we'll take it back. (Laughter) I shouldn't have said anything to the world's most experienced DLMP. Right?
+|040:38:05|CC|Roger.
+|039:39:34|LMP| ... hatch out there ...
 ||||Tape 29/6|Page 212
-|040:00:00|CC|Ron, at first glance, it doesn't look like you have one on board ... We're still looking though, but I don't think we have one.
-|040:00:00|CMP|Well, it's kind of the conclusion I came to when I didn't find it in the system data - Hey, I got a little bit to tell you about that. Oh, those little ones underneath the power bungee.
-|040:00:00|CC|Okay, go ahead.
-|040:00:00|CMP|Okay, if you look at the docking lights, number 4 up beside of that - Oh, kind of a ... looking thing. There is a snowman. In other words, a great big fat thing with a head on top of it. And if you consider the fat thing with the head on it as a snowman, well then, the snowman's head is pointing out a 09:00 on that one. Whereas one that's fully cocked and latched over there, the snowman's head points up at about 11:00. And -Okay, there is a lever that comes right out of the bottom of the power bungee, it looks like, and then it comes out of the bottom then left out of that lever, is another silver slot or silver bar that goes from the lever to the J-hook with the snowman on it. That particular thing that connects the J-hook to the lever coming out of the bottom of the bungee is visible. In other words, it's not sticking back underneath the J-hook. It's visible.
-|040:00:00|CC|Ron, we've got just a line drawing here and we've still haven't got with you on what's what according to the drawing. Maybe you can hold off until we get a model of the latch, then we can stay with your description.
-|040:00:00|CMP|Oh, okay, Gordy.
-|040:00:00|CC|I'll give you a call.
-|040:00:00|CMP|Okay.
-|040:00:00|CMP|It's up to you. ... I want to float up in the tunnel. Do you want to float up and look?
-|040:00:00|CMP|You know, the congestion I had all day yesterday is just about gone.
+|040:40:27|CC|Ron, at first glance, it doesn't look like you have one on board, a picture of the latch. We're still looking though, but I don't think we have one.
+|040:40:38|CMP|Well, it's kind of the conclusion I came to when I didn't find it in the systems data - Hey, I got a little bit to tell you about that. Oh, those little ones underneath the power bungee.
+|040:40:49|CC|Okay, go ahead.
+|040:41:13|CMP| ...
+|040:41:22|CMP|Okay, if you look at the docking lights, number 4 up beside of that - Oh, kind of a ... looking thing. There is a snowman. In other words, a great big fat thing with a head on top of it. And if you consider the fat thing with the head on it as a snowman, well then, the snowman's head is pointing out a 9 o'clock, on that one. Whereas one that's fully cocked and latched over there, the snowman's head points up at about 11 o'clock. And - Okay, there is a lever that comes right out of the bottom of the power bungee, it looks like, and then it comes out of the bottom then left out of that lever, is another silver slot or silver bar that goes from the lever to the J-hook with the snowman on it. That particular thing that connects the J-hook to the lever coming out of the bottom of the bungee is visible. In other words, it's not sticking back underneath the J-hook. It's visible.
+|040:42:49|CC|Ron, we've got just a line drawing here and we've still haven't got with you on what's what according to the drawing. Maybe you can hold off until we get a model of the latch, then we can stay with your description.
+|040:43:08|CMP|Oh, okay, Gordy.
+|040:43:09|CC|I'll give you a call.
+|040:43:13|CMP|Okay.
+|040:45:03|SC|(laughter)
+|040:45:38|CMP|... it's up to you. ... I want to float up in the tunnel. Do you want to float up and look?
+|040:46:05|CMP|You know, the congestion I had all day yesterday is just about gone.
 ||||Tape 29/7|Page 213
-|040:00:00|LMP|Gordy, you'll be happy to know that putting the LMP's camera together is 500-percent easier in zero gravity.
-|040:00:00|CC|Roger.
-|040:00:00|CMP|It becomes a two-hand process.
-|040:00:00|CMP|Is that temporary stow?
-|040:00:00|CMP|Hey, Jack, if you get a chance, take a picture back this way.
-|040:00:00|LMP|Okay.
-|040:00:00|LMP|Putting the cue cards up now, and the camera, by the way, Gordy, operated for two frames and the Reseau clean lens looks clean and everything's fine with it.
-|040:00:00|CC|Okay, Jack; sounds good.
-|040:00:00|SC|The regular type, huh?
-|040:00:00|CDR|Okay, Gordo, on the top of 1-15, we're ready to go ahead and transfer the power. We'll give you a call.
-|040:00:00|CC|Okay, Geno.
-|040:00:00|SC|Okay, the LM POWER circuit breaker is IN. What the - let me know what you want, okay? Okay, going to OFF, RESET. Okay, back ON. And, I have to open my ... again. The pressure's been? I don't know what it is.
-|040:00:00|SC|Okay, Houston; we got a good transfer.
-|040:00:00|CC|Roger.
-|040:00:00|SC|Got it again by hitting the panel.
-|040:00:00|CC|Ron, this is Houston.
-|040:00:00|CMP|Yeah, go ahead, Gor.
-|040:00:00|CC|Okay, we've got considerable conversation going on here about that docking latch, and it's not at all settled yet. The primary thing we want to guard against is the possibility that it is malfunctioning and that we get it latched down on the ring and can't unlatch it, and, therefore, have problem with undocking, or possibly even prevent it. So, we'd like you steer clear of that until we come up with a final solution. No experimentation, please. Over.
+|040:47:39|LMP|Gordy, you'll be happy to know that putting the LMP's camera together is 500-percent easier in zero gravity.
+|040:47:48|CC|Roger.
+|040:47:53|CMP|It becomes a two-hand process.
+|040:51:30|CMP|Is that temporary stow?
+|040:53:01|CMP|Hey, Jack, if you get a chance, take a picture back this way.
+|040:53:41|LMP|Okay ...
+|040:54:23|LMP|Okay.
+|040:55:03|LMP|Putting the cue cards up now, and the camera, by the way, Gordy, operated for two frames and the Reseau looked clean lens looks clean and everything's fine with it.
+|040:55:16|CC|Okay, Jack; sounds good.
+|040:55:47|PAO|This is Apollo control. Schmitt and Cernan at this time still in the lunar module going through the activation and housekeeping chores that are scheduled in the flight plan. They entered approximately on time as indicated by the flight plan. Meanwhile, here in the control center one of the docking collar capture latches is here in the control center being examined by flight controllers trying to sort out why some of the latches apparently did not fully engage during the docking operation. Spacecraft now 140,451 nautical miles from Earth; velocity now is 3,683 feet per second. Continuing to stand by on air-ground 2 for a conservation from the crew of Challenger.
+|041:01:22|SC|The regular type, huh?
+|041:01:37|LMP|Okay, I can do that.
+|041:01:41|CDR|Okay, Gordo, we're on the top of 1-15, we're ready to go ahead and transfer the power and we'll give you a call.
+|041:01:49|CC|Okay, Geno.
+|041:02:03|SC|Okay, the LM POWER circuit breaker is IN. What the - let me know what you want ... Okay, going to OFF, RESET. Okay, back ON. And, I got the old MASTER ALARM again. The pressure's been I don't know what it is.
+|041:02:34|SC|Okay, Houston; we got a good transfer.
+|041:02:38|CC|Roger.
+|041:02:39|SC|Got it again by hitting the panel.
+|041:03:38|CC|Ron, this is Houston.
+|041:03:43|CMP|Yeah, go ahead, Gord.
+|041:03:45|CC|Okay, we've got considerable conversation going on here about that docking latch, and it's not at all settled yet. But the primary thing we want to guard against is the possibility that it is malfunctioning and that we get it latched down on the ring and can't unlatch it, and, therefore, have problem with undocking, or possibly even prevent it. So, we'd like you steer clear of that until we come up with a final solution. No experimentation, please. Over.
 ||||Tape 29/8|Page 214
-|040:00:00|CMP|Okay, I understand. I'll leave them alone. And just one little other bit of information to let you know the handle itself is not free at this point to come on back down like it's - you know. Like, if it were fully cocked, the handle itself would be free to come back down. It is not free, I did not try to put a whole lot of pressure on it, but It's not free.
-|040:00:00|CC|Okay. I understand.
-|040:00:00|LMP|Okay, Houston. GLYCOL PUMP 2 is ON, it's been on about a minute, and we've got good talkbacks from batteries 1 and 4.
-|040:00:00|CC|Roger, Jack.
-|040:00:00|SC|... CDR buses are 262.
-|040:00:00|CC|Roger.
-e|041:06:00|SC|Okay, Jack, you can go ahead and switch onto high taps 1 and 4.
-e|041:06:14|SC|That didn't work. Okay, 1 and 4 are on high taps.
-e|041:06:30|CC|Roger.
-e|041:08:22|LMP|Houston, glycol pressure is 22.
-e|041:08:29|CC|You faded out, Jack. Say again on glycol pressure.
-e|041:08:36|LMP|Roger. It's 22.0.
-e|041:08:41|CC|Okay.
-e|041:08:42|LMP|Well, you can cut off the decimal.
+|041:04:22|CMP|Okay, I understand. I'll leave them alone. And just one little other bit of information to let you know the handle itself is not free at this point to come on back down like it's - you know. Like, if it were fully cocked, the handle itself would be free to come back down. It is not free, I did not try to put a whole lot of pressure on it, but It's not free.
+|041:04:51|CC|Okay. I understand.
+|041:05:01|LMP|Okay, Houston. GLYCOL PUMP 2 is ON, it's been on about a minute, and we've got good talkbacks from batteries 1 and 4.
+|041:05:11|CC|Roger, Jack.
+|041:05:42|SC|... and CDR buses are 262.
+|041:05:48|CC|Roger.
+|041:06:00|SC|Okay, Jack, you can go ahead and switch onto high taps on 1 and 4.
+|041:06:13|SC|That didn't work. Okay, 1 and 4 are on high taps.
+|041:06:30|CC|Roger.
+|041:08:22|LMP|Houston, glycol pressure is 22.
+|041:08:31|CC|You faded out, Jack. Say again on glycol pressure.
+|041:08:37|LMP|Roger. It's 22.0.
+|041:08:42|CC|Okay.
+|041:08:43|LMP|Well, you can cut off the decimal.
 ||||Tape 28/9|Page 215
-|040:00:00|CMP|Okay, stand by 1. Okay, it's on, Jack. No, wait a minute, I got to go get it. Which one you on? A. Okay. Okay, Jack, I'm SIMPLEX Alfa. Okay, try it again. I got the - How me? Okay, Jack, you're cutting out on everything, and all I'm getting is the end of your transmission there. Okay, I'm counting - 1, 2, 3, 4. Jack, you read me? Okay, you - you were unclear after your first two words in every case, just like you were cutting out on Bob. Got it all that time. You read me too? Well, that's interesting. Let me adjust the squelch on this one here.
-|040:00:00|SC|Okay. They used to work. I can't hear the squelch on any of those.
-|040:00:00|CC|Jack, ... your main TRANSMITTER and RECEIVER , OFF, and B TRANSMITTER ...
+|041:08:55|CMP|Okay, stand by 1.
+|041:09:10|CMP|Okay, it's off, Jack.
+|041:11:00|CMP|No, wait a minute, I got to go get it. Which one you on? A? Okay.
+|041:11:35|CMP|Okay, Jack, I'm SIMPLEX Alfa. Okay, try it again. I got the - How me.
+|041:11:54|CMP|Okay, Jack, you're cutting out on everything, and all I'm getting is the end of your transmission there.
+|041:11:04|CMP|Okay, I got counting - 1, 2, 3, 4. Jack, you read Gene? Okay, you - you were unclear after your first two words in every case, just like you were cutting out on Bob.
+|041:12:31|LMP|We got it all - -
+|041:12:32|CMP|Got it all that time. You got it all that time there now, do you read me too?
+|041:12:52|CMP|Well, that's interesting. Let me adjust the squelch on this one here.
+|041:13:17|SC|Okay. They  used to work. I can't hear the squelch on any of them.
+|041:13:26|CMP|Jack, go VHF A TRANSMITTER and RECEIVER, OFF, and B TRANSMITTER ... Okay and off on B now. 
 ||||Tape 30/1|Page 216
 |041:16:06|LMP|Well, it shouldn't make any difference on transmission. Could be we're so close that - that I -Ron, it might be that we're so close that it has something to do with overdriving something in here. We'll try - check it out again later. But it's loud and clear now, right?
-|041:16:06|LMP|Okay. You're loud and clear, Ron. How me?
-|041:16:06|CMP|Okay.
-|041:16:06|LMP|Okay. And my - my VHF Alfa had to go to 2 on the SQUELCH, and I'm in 3 on Bravo.
-|041:16:06|CDR|... okay?
-|041:16:06|LMP|Okay. How do you read now?
-||||Tape 30/2|Page 217
-|041:18:03|CC|Challenger, this is Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
-|041:18:03|CC|America, this is Houston. Over.
-|041:18:03|SC|Okay. Stand by, and Challenger is going to give you a call on S-band, and VHF checks are both GO on A and B.
-|041:18:03|CC|I think I side marked on Challenger. We are getting some data. We'll stand by for another check.
-|041:19:21|CMP|Do you acknowledge that?
-|041:19:21|LMP|I heard him the first time.
-|041:19:21|CDR|Okay. ... me get S-band in
-|041:19:29|LMP|Okay, Houston; this is Challenger. Counting 1, 2, 3, 4, 5 How do you read?
-|041:19:29|CC|Challenger, Houston. You're loud and clear, with the background noise.
-|041:19:29|LMP|They don't have a good up-link, Gene. I - I had signal strength. And now I don't have any at all.
-|041:19:29|CDR|Okay. Houston, Challenger.
-|041:19:29|LMP|There it is. Now I do; 2.2.
-|041:19:29|CDR|Okay.
-|041:19:29|LMP|Tell them I heard their transmission to you.
-||||Tape 30/3|Page 218
-|041:20:34|LMP|I was at zero signal strength, and I heard their transmission ... One of them. The first time they acknowledged that your - that I was going to do it.
-|041:20:34|LMP|Did you shift my hose back? Oh,
-|041:21:13|CC|Hello, Challenger; this is Houston. Do you read me?
-|041:21:13|LMP|Okay, Houston. I read you. You're weak but clear. Signal strength is fluctuating. When you called me, it fluctuated down to about 1.6. Over. And it's 2 now.
-|041:21:13|CC|Okay, Jack. You're loud and clear. The background noise I've been mentioning, although I guess you haven't heard me mention it until now, is what we expect in DOWN VOICE BACKUP and LOW BIT RATE. How have you read this transmission all the way through? Over.
-|041:21:13|LMP|Did he say "say again?" Gene? Gene, did he say "say again?"
-|041:21:13|SC|. . .
-|041:21:13|LMP|What? Okay, Houston. I've got 3-4 on the signal strength, and try me again.
-|041:22:18|CC|Okay, Challenger. You're coming in loud and clear. How do you read me?
-|041:22:18|LMP|Okay, Houston. I know you tried to transmit. I could just barely tell that. I could see the signal strength vary down to 3. You were modulating, aparently, but you're not getting through to me.
-|041:22:18|CC|Okay, Challenger. I'm transmitting simul now in both S-band frequencies, and it sounds to us like for some reason when I transmit, the up-link signal starts to break up. It's just the way you see it. Over.
+|041:14:01|LMP|Okay. You're loud and clear, Ron. How me?
+|041:14:04|CMP|Okay, loud and clear that time.
+|041:14:06|LMP|Okay. And my - my VHF Alfa had to go to 2 on the SQUELCH, and I'm in 3 on Bravo.
+|041:14:17|CDR|... okay?
+|041:14:18|LMP|You're loud and clear Gene.
+|041:14:21|CDR|Okay ...
+|041:14:26|LMP|Okay. How do you read now?
+|041:14:21|CDR|Okay I got it.
+|041:14:29|LMP|Okay, I took it V to 2. So it's the same kind of thing I guess.
+|041:14:35|SC| ...
+|041:14:50|LMP|Okay, Houston, how do you ready Challenger? Counting 1, 2, 3, 4, 5. Over.
+|041:14:56|CC||Challenger, Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
+|041:15:09|LMP|... give you a call ...
+|041:15:47|LMP|Hello, Houston, America. How do you read?
+|041:15:51|CC||America, this is Houston. Over.
+|041:15:57|LMP|Okay, stand by, and Challenger is going to give you a call on S—band, and VHF checks are both GO on A and B.
+|041:16:05|CC|I think I side ... lock on Challenger, we are getting some data. We'll stand by for another check.
+|041:16:13|LMP|We acknowledge that. I heard him the first time. Okay, you ought to be getting in ... low bit rate.
+|041:16:22|LMP|Okay, Houston, this is Challenger. Counting 1, 2, 3, 4, 5. How do you read?
+|041:16:28|CC|Challenger, Houston. You're loud and clear, with some background noise.
+|041:16:38|SC|They don't have a good up-link Gene. I had signal strength. And now I don't have any at all.
+|041:16:46|LMP|Okay, Houston, Challenger gave you a call, but he does not have any up link signal strength at all.
+|041:16:46|CC||Okay, and we'd like him to hold this configuration right there, until we get things straightened out and we understand what the problem is.
+|041:17:05|LMP|Okay, understand hold configuration there. He just got about 2.2 on the signal strength.
+|041:17:11|CC||Okay, Gene.
+|041:17:16|LMP|And tell them I heard their transmission to you. No, a few minutes ago. I was at zero signal strength and I heard their transmission ... One of them. The first time they acknowledged, that I was going to do it.
+|041:17:50|LMP|Did you shift my hose back?
+|041:18:05|CC|Hello, Challenger; this is Houston. Do you read me?
+|041:18:13|LMP|Okay, Houston. I read you. You're weak but clear. Signal strength is fluctuating. When you call me, it fluctuated down to about 1.6. Over. And it's 2 now.
+|041:18:26|CC|Okay, Jack. You're loud and clear. The background noise I've been mentioning, although I guess you haven't heard me mention it until now, is what we expect in DOWN VOICE BACKUP and LOW BIT RATE. How have you read this transmission all the way through? Over.
+|041:18:45|LMP|Did he say "say again?" Gene? Gene, did he say "say again?" I got a little bit - oh he's got three point -
+|041:18:57|SC|...
+|041:18:59|LMP|What? Okay, Houston. I've got 3.4 on the signal strength, and try me again.
+|041:19:12|CC|Okay, Challenger. You're coming in loud and clear. How do you read me?
+|041:19:19|LMP|Okay, Houston. I know you tried to transmit. I could just barely tell that. I could see the signal strength vary down to 3. You were modulating, aparently, but you're not getting through to me.
+|041:19:36|CC|Okay, Challenger. I'm transmitting simul now in both S-band frequencies, and it sounds to us like for some reason when I transmit, the up-link signal starts to break up. It's just the way you see it. Over.
 ||||Tape 30/4|Page 219
-|041:22:59|LMP|Okay, Gordy. You're breaking up there. Still modulating, but I cannot read you. Would you -would you tell America what you said?
-|041:22:59|CDR|Yes, Gordy, we read you in America loud and clear on that simul.
-|041:23:15|CC|Okay, Geno.
-|041:23:15|LMP|Is he talking, Gene?
-|041:23:15|LMP|As soon as he starts trying to talk, the signal strength drops off about 0.4. Now, I have had -I heard him loud and clear one time when he called you guys.
-|041:24:31|CC|America and Challenger, we're going to hand over to a different site and try that here in about 30 seconds.
-|041:24:31|CMP|What else do we have to do, get some of these mags stowed?
-|041:25:01|CMP|We've got to stow the mags. Here, put the PPK where it belongs.
-|041:27:40|CC|Hello, Challenger; this is Houston through Bermuda. How do you copy?
-|041:27:40|CC|Challenger, this is Houston. How do you read me?
-|041:27:40|SC|Right, Gordo.
-|041:27:40|CC|Okay, Jack. I think he answered us, but he was completely lost in the noise. I could just barely hear somebody talking. Could he hear us okay?
-|041:27:40|SC|No. If he did hear you, he didn't answer.
-|041:27:40|CC|Okay. It was my imagination then.
-|041:29:00|CC|Challenger, Houston. How do you read?
+|041:19:52|LMP|Okay, Gordy. You're breaking up there. Still modulating, but I cannot read you. Would you - would you tell America what you said?
+|041:20:03|CDR|Yes, Gordy, we read you in America loud and clear on that simul.
+|041:20:08|CC|Okay, Geno.
+|041:20:51|LMP|Is he talking, Gene?
+|041:21:13|LMP|As soon as he starts trying to talk, the signal strength drops off about 0.4. Now, I have had - I heard him loud and clear one time when he called you guys.
+|041:21:24|CC|America and Challenger, we're going to hand over to a different site and try that here in about 30 seconds.
+|041:21:41|CMP|What else do we have to do, get some of these mags stowed?
+|041:21:54|CMP|We've got to stow the mags. Here, put the PPK where it belongs.
+|041:24:34|CC|Hello, Challenger; this is Houston through Bermuda. How do you copy?
+|041:24:48|CC|Challenger, this is Houston. How do you read me?
+|041:24:54|SC|Do you want to ... up the camera ...
+|041:25:10|CC|America, Houston ...
+|041:25:16|SC|Go ahead ...
+|041:25:22|SC|Go ahead Gord ...
+|041:25:24|CC|Okay, Jack. I think he answered us, but he was completely lost in the noise. I could just barely make out ... somebody talking. Could he hear us okay?
+|041:25:41|SC|No. If he did hear you, he didn't answer.
+|041:25:46|CC|Okay. It was my imagination then.
+|041:25:55|CC|Challenger, Houston. How do you read?
 ||||Tape 30/5|Page 220
-|041:29:13|CC|Hello, Challenger; Houston. How do you read?
-|041:29:13|SC|Okay. I'll have him verify he's - That's affirm. He's verified.
-|041:29:13|CC|Okay.
-|041:29:13|SC|... earlier when he was .,. that he
-|041:29:13|CC|Roger.
-|041:29:13|CC|But on this last set of checks, we didn't hear anything ...
-|041:29:13|SC|Apparently not.
-|041:29:13|CC|Okay.
-|041:29:13|SC|There was one time earlier when he had zero signal strength where he said he could hear you transmitting to us very weak but clear.
-|041:29:13|CC|Okay.
-|041:34:04|CC|Hello, Challenger. Hello, Challenger; this is Houston. How do you read?
-|041:34:04|LMP|Okay. You're loud - well, you're about 3 by, Gordy, but very clear.
-|041:34:16|CC|Okay, Jack. We can hear about 1 by 1 in the midst of a lot of noise, but we could tell you're sounding much better.
-|041:36:33|LMP|No. I've got 2 now, ... 3.
+|041:26:05|CC|Hello, Challenger; Houston. How do you read?
+|041:26:30|SC|...
+|041:27:50|CC|Hello, Challenger. This is Houston. 1, 2, 3, 4, 5, how do you copy. Over.
+|041:28:05|SC|...
+|041:29:31|CC|America, Houston.
+|041:29:36|CC|Can you tell Jack, ask him to verify he's on aft OMNI?
+|041:29:45|SC|Okay. I'll have him verify he's - That's affirm. He's verified.
+|041:29:55|CC|Okay.
+|041:29:55|SC|... earlier when he was ... that he had good signal strength ...
+|041:30:07|CC|Roger.
+|041:30:07|CC|But on this last set of checks, we didn't hear anything ...
+|041:30:13|SC|Apparently not.
+|041:30:16|CC|Okay.
+|041:30:21|SC|There was one time earlier when he had zero signal strength where he said he could hear you transmitting to us very weak but clear.
+|041:30:32|CC|Okay.
+|041:30:59|CC|Hello, Challenger. Hello, Challenger; this is Houston. How do you read?
+|041:31:04|LMP|Okay. You're loud - well, you're about 3 by, Gordy, but very clear.
+|041:31:11|CC|Okay, Jack. We can hear about 1 by 1 in the midst of a lot of noise, but we could tell you're sounding much better.
+|041:33:28|LMP|No. I've got 2 now signal strength.
 ||||Tape 30/6|Page 221
-|041:37:23|CC|Challenger, this is Houston. Going up to you through Bermuda, and your - you should come down through Goldstone. How do I sound now?
-|041:37:48|CC|Challenger, Houston. How do you read?
-|041:37:57|LMP|You're 1.8, 1.8. Yes. Never heard him.
-|041:38:41|CC|Hello, Challenger; Houston. How do you read?
-|041:39:52|LMP|Gordy received me, didn't he? Well, he started to say something; then he dropped off.
-|041:41:13|LMP|Now he's up. Haven't heard him.
-|041:41:13|CC|Roger, Houston.
-|041:41:13|CC|Okay. We're going to go back to Goldstone, both up and down, and we'd like Jack to do step 406 on the checklist; in other words, go to VOICE. S-BAND VOICE to VOICE, the BIOMED to RIGHT. And we're going to give it a try in the normal configuration. Over.
-|041:41:13|SC|A 174 and 76, gentlemen. BIOMED, RIGHT; and S-BAND VOICE to VOICE.
-|041:41:13|CC|That's affirmative.
-|041:41:13|LMP|Houston, do you read Challenger?
-|041:42:08|CC|Roger, Challenger. Read you weak but clear. How do you read?
-|041:42:08|LMP|Okay, Houston, You just came in loud and clear. How do you read?
-|041:42:08|CC|Okay. And that time, you're loud and clear, Jack and sounds read good.
+|041:34:17|CC|Challenger, this is Houston. Going up to you through Bermuda, and your - you should come down through Goldstone. How do I sound now?
+|041:34:41|CC|Challenger, Houston. How do you read?
+|041:34:52|LMP|You're 1.8, 1.8. Yes. Never heard him.
+|041:35:34|CC|Hello, Challenger; Houston. How do you read?
+|041:36:46|LMP|Gordy received me, didn't he? Well, he started to say something; then he dropped off.
+|041:36:50|LMP|Now he's up. Haven't heard him.
+|041:37:57|CC|America, Houston.
+|041:38:04|CC|Okay. We're going to go back to Goldstone, both up and down, and we'd like Jack to do step 406 on the checklist; in other words, go to VOICE. S-BAND VOICE to VOICE, the BIOMED to RIGHT. And we're going to give it a try in the normal configuration. Over.
+|041:38:27|SC|A 174 and 76, gentlemen. BIOMED, RIGHT; and S-BAND VOICE to VOICE.
+|041:38:35|CC|That's affirmative.
+|041:38:39|LMP|... he's going there now.
+|041:38:40|CC|Roger.
+|041:38:59|LMP|Houston, do you read Challenger?
+|041:39:03|CC|Roger, Challenger. Read you weak but clear. How do you read?
+|041:39:09|LMP|Okay, Houston, You just came in loud and clear. How do you read?
+|041:39:13|CC|Okay. And that time, you're loud and clear, Jack and sounds real good.
 ||||Tape 30/7|Page 222
-|041:42:26|LMP|Okay, Gordy. Let me say once again, way back when we first started and Gene was talking to you, I heard one of your answers, weak but clear, with zero signal strength showing here. Now, that might have been through Ron's VOX, I don't know. Since then, you've been able to modulate the signal strength, with occasional weak words. And - and then, when that signal strength was up around 3.2, where it is now, then you came in loud and clear with a broadcast. I answered you, you said about three words, then dropped off completely. And then we - we changed configuration.
-|041:43:09|CC|Okay, Jack. That correlates with what we've seen here in the way of signal strengths dropping in and out. Stand by, and I'll see where we want to go from here.
-|041:44:25|CC|Challenger, Houston. We'd like you to do step 7-We'll check out the telemetry and have that ready.
-|041:44:25|LMP|Okay; step 7-
-|041:44:25|CC|And, Challenger; Houston. Making a voice check. How do you copy?
-|041:44:25|LMP|Roger. You're loud and clear. How me?
-|041:44:54|CC|You're loud and clear.
-|041:45:57|CC|Challenger, Houston. We're looking at the HIGH BIT RATE for a minute here while we're waiting. Would you check the CROSS TIE circuit breakers , panel lo? Verify they're open.
-|041:46:09|LMP|That's verified. CROSS TIEs BUS and BAL LOADS open.
+|041:39:20|LMP|Okay, Gordy. Let me say once again, way back when we first started and Gene was talking to you, I heard one of your answers, weak but clear, with zero signal strength showing here. Now, that might have been through Ron's VOX, I don't know. Since then, you've been able to modulate the signal strength, with occasional weak words. And - and then, when that signal strength was up around 3.2, where it is now, then you came in loud and clear with a broadcast. I answered you, you said about three words, then dropped off completely. And then we - we changed configuration.
+|041:40:04|CC|Okay, Jack. That correlates with what we've seen here in the way of signal strengths dropping in and out. Stand by, and I'll see where we want to go from here.
+|041:41:20|CC|Challenger, Houston. We'd like you to do step 7. We'll check out the telemetry HIGH BIT RATE.
+|041:41:30|LMP|Okay; step 7.
+|041:41:40|CC|And, Challenger; Houston. Making a voice check. How do you copy?
+|041:41:47|LMP|Roger. You're loud and clear. How me?
+|041:41:49|CC|You're loud and clear.
+|041:42:45|CC|Challenger, Houston. We're looking at the HIGH BIT RATE for a minute here while we're waiting. Would you check the CROSS TIE circuit breakers, panel 16? Verify they're open.
+|041:43:05|LMP|That's verified. CROSS TIEs BUS and BAL LOADS open.
 |041:46:14|CC|Roger.
 |041:46:56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 |041:47:09|LMP|Roger. Step 8.
