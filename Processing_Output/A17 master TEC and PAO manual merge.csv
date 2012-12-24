@@ -3214,525 +3214,551 @@
 |041:41:49|CC|You're loud and clear.
 |041:42:45|CC|Challenger, Houston. We're looking at the HIGH BIT RATE for a minute here while we're waiting. Would you check the CROSS TIE circuit breakers, panel 16? Verify they're open.
 |041:43:05|LMP|That's verified. CROSS TIEs BUS and BAL LOADS open.
-|041:46:14|CC|Roger.
-|041:46:56|CC|Challenger, Houston. We'd like you to accomplish step number 8.
-|041:47:09|LMP|Roger. Step 8.
-|041:47:28|LMP|Okay, Houston. How do you read the Challenger? 1, 2, 3, 4, 5. Over.
+|041:43:10|CC|Roger.
+|041:43:51|CC|Challenger, Houston. We'd like you to accomplish step number 8.
+|041:44:04|LMP|Roger. Step 8.
+|041:44:23|LMP|Okay, Houston. How do you read the Challenger? 1, 2, 3, 4, 5. Over.
 ||||Tape 30/8|Page 223
-|041:47:28|CC|Challenger, you're loud and clear. How me?
-|041:47:28|LMP|Loud and clear.
-|041:47:38|CC|Roger.
-|041:49:07|CC|Challenger, Houston. Go ahead with step 9• Report the ED BAT VOLTAGES.
-|041:49:16|LMP|Wilco. Stand by.
-|041:50:07|LMP|Okay, Houston. ED BATs A and B are 37-2.
-|041:50:07|CC|Roger. Okay. And go ahead with step 10, and then we'll go back and try to find out what's wrong with DOWN VOICE BACKUP.
-|041:50:07|LMP|Gordo, say again, please.
-|041:50:07|CC|Go ahead and check the sequence camera, if you haven't already, Jack, and then we'll have some steps for you to check out what was wrong with D0WNV0ICE BACKUP.
-|041:51:00|LMP|All righty. Stand by.
-|041:51:19|LMP|Sequence camera - sequence camera is GO.
-|041:51:19|CC|Okay.
-|041:51:19|LMP|And I'm ready for your step.
-|041:51:30|CC|Stand by 1.
-|041:53:41|CC|Challenger, Houston. We'd like the RANGING switch to OFF/RESET, and the VOICE switch to DOWNVOICE BACKUP, then give us a call. Over.
-|041:53:41|LMP|Okay. OFF/RESET on RANGE, and DOWNVOICE BACKUP on VOICE.
-|041:53:41|CC|That's affirmative.
-|041:54:05|LMP|Okay, Gordy. On DOWNVOICE BACKUP, how do you read? 1, 2, 3, 4, 5.
+|041:44:27|CC|Challenger, you're loud and clear. How me?
+|041:44:31|LMP|Loud and clear.
+|041:44:33|CC|Roger.
+|041:46:01|CC|Challenger, Houston. Go ahead with step 9. Report the ED BAT VOLTAGES.
+|041:46:12|LMP|Wilco. Stand by.
+|041:47:03|LMP|Okay, Houston. ED BATs A and B are 37.2.
+|041:47:09|CC|Roger. Okay. And go ahead with step 10, and then we'll go back and try to find out what's wrong with DOWN VOICE BACKUP.
+|041:47:35|LMP|Gordo, say again, please.
+|041:47:38|CC|Go ahead and check the sequence camera, if you haven't already, Jack, and then we'll have some steps for you to check out what was wrong with D0WNVOICE BACKUP.
+|041:47:56|LMP|All righty. Stand by.
+|041:48:15|LMP|Sequence camera - sequence camera is GO.
+|041:48:19|CC|Okay.
+|041:48:23|LMP|And I'm ready for your step.
+|041:48:25|CC|Stand by 1.
+|041:50:36|CC|Challenger, Houston. We'd like the RANGING switch to OFF/RESET, and the VOICE switch to DOWNVOICE BACKUP, then give us a call. Over.
+|041:50:49|LMP|Okay. OFF/RESET on RANGE, and DOWNVOICE BACKUP on VOICE.
+|041:50:53|CC|That's affirmative.
+|041:51:01|LMP|Okay, Gordy. On DOWNVOICE BACKUP, how do you read? 1, 2, 3, 4, 5.
 ||||Tape 30/9|Page 224
-|041:54:05|CC|Okay, Jack. You're readable. You're - okay, Challenger. We read your transmission, but you're just about - just about lost in the noise. Give us another count, please.
-|041:54:34|LMP|Okay, Houston; this is the Challenger. You were loud and clear, loud and clear. No different from the transmissions in VOICE, and counting 1, 2, 3, 4, 5• How do you read? Over.
-|041:54:34|CC|Okay, Jack. It got a lot better. You're - you're perfectly readable now. Sounding good.
-|041:54:57|LMP|That sounds good.
-|041:55:13|CC|Okay, Jack. Would you go to HIGH BIT RATE?
-|041:55:17|LMP|Roger. Challenger's HIGH BIT RATE. How do you read HIGH BIT RATE?
-|041:55:17|CC|Okay. Still the same. Loud and clear.
-|041:55:40|CC|Okay. We'd like BIOMED, OFF now, Jack.
-|041:55:49|LMP|Roger. Going BIOMED, OFF. Okay, Houston. How do you read the LM? DOWNVOICE BACKUP; BIOMED, OFF; PCM, HI. Over.
-|041:55:58|CC|Okay, Jack. You're loud and clear.
-|041:56:04|LMP|Okay, Gordy. And that was hot mike, so that's working fine up here. And you're loud and clear, also.
-|041:56:16|CC|Okay, Jack. Let's try PCM, L0, now.
-|041:56:23|LMP|Okay. Talking to you DOWNVOICE BACKUP; BIOMED, OFF; and PCM, L0. How do you read? Over.
-|041:56:23|CC|Okay. Same old loud and dear.
-|041:56:23|LMP|Okay, Gordy. Certainly is clear up here. You're coming through 5 by at signal strength 3-2, and -all appearances up here, that previous problem was an up-link. But I guess you were not reading me. Is that correct?
+|041:51:08|CC|Okay, Jack. You're readable. You're - okay, Challenger. We read your transmission, but you're just about - just about lost in the noise. Give us another count, please.
+|041:51:30|LMP|Okay, Houston; this is the Challenger. You were loud and clear, loud and clear. No different from the transmissions in VOICE, and counting 1, 2, 3, 4, 5. How do you read? Over.
+|041:51:44|CC|Okay, Jack. It got a lot better. You're - you're perfectly readable now. Sounding good.
+|041:51:53|LMP|That sounds good.
+|041:52:08|CC|Okay, Jack. Would you go to HIGH BIT RATE?
+|041:52:13|LMP|Roger. Challenger's HIGH BIT RATE. How do you read HIGH BIT RATE?
+|041:52:18|CC|Okay. Still the same. Loud and clear.
+|041:52:36|CC|Okay. We'd like BIOMED, OFF now, Jack.
+|041:52:43|LMP|Roger. Going BIOMED, OFF. Okay, Houston. How do you read the LM? DOWNVOICE BACKUP; BIOMED, OFF; PCM, HI. Over.
+|041:52:54|CC|Okay, Jack. You're loud and clear.
+|041:53:00|LMP|Okay, Gordy. And that was hot mike, so that's working fine up here. And you're loud and clear, also.
+|041:53:11|CC|Okay, Jack. Let's try PCM, LO, now.
+|041:53:18|LMP|Okay. Talking to you DOWNVOICE BACKUP; BIOMED, OFF; and PCM, LO. How do you read? Over.
+|041:53:25|CC|Okay. Same old loud and clear.
+|041:53:30|LMP|Okay, Gordy. Certainly is clear up here. You're coming through 5 by at signal strength 3.2, and - all appearances up here, that previous problem was an up-link. But I guess you were not reading me. Is that correct?
 ||||Tape 30/10|Page 225
-|041:56:23|CC|Well, I was - The answer is yes and no at various times. We think, though, we have a good handle on the problem.
-|041:56:23|LMP|Okay; very good.
-|041:56:23|LMP|Are you ready for us to press on here, Gordy? We're all stowed and - in pretty good shape in the LM.
-|041:57:29|CC|Okay. We'd like you to check one more switch first before moving on. Check the UPDATA LINK switch to OFF.
-|041:57:40|LMP|Okay, That is verified OFF.
-|041:57:43|CC|Roger.
-|041:58:01|CC|Want you to stand by a minute or 2, Jack, until we verify a funny-looking parameter here on that up-link switch.
-|041:58:17|LMP|Standing by. What's that? No, they want - they got something looking funny on the up-link -they're - I guess on the up-link switch.
-|041:58:17|CC|Challenger, Houston.
-|041:58:17|LMP|They want to look at it.
-|041:58:17|CC|That was a bad call. We were reading the data wrong. You're clear to press on with the checklist now on page 1-20.
-|041:58:50|LMP|Okay. We'll press on. Geno, here is your jettison bag. You can get back to Ron.
-|041:59:24|LMP|PM, OFF.
-|041:59:24|CC|Roger, Geno.
+|041:53:53|CC|Well, I was - The answer is yes and no at various times. We think, though, we have a good handle on the problem.
+|041:54:02|LMP|Okay; very good.
+|041:54:16|LMP|Are you ready for us to press on here, Gordy? We're all stowed and - in pretty good shape in the LM.
+|041:54:25|CC|Okay. We'd like you to check one more switch first before moving on. Check the UPDATA LINK switch to OFF.
+|041:54:36|LMP|Okay, That is verified OFF.
+|041:54:39|CC|Roger.
+|041:54:57|CC|Want you to stand by a minute or two Jack, until we verify a funny-looking parameter here on that up-link switch.
+|041:55:13|LMP|Standing by. What's that? No, they want - they got something looking funny on the up-link - they're ... I guess on the up-link switch.
+|041:55:32|CC|Challenger, Houston - -
+|041:55:33|LMP|They want to look at it.
+|041:55:35|CC|That was a bad call. We were reading the data wrong. You're clear to press on with the checklist now on page 1-20.
+|041:55:45|LMP|Okay. We'll press on. Geno, here is your jettison bag. You can get back to Ron.
+|041:56:04|LMP|Okay, S-band PR OFF, VHF OFF; I can hear you. PM OFF.
+|041:58:06|CC|Roger, Geno.
 ||||Tape 30/11|Page 226
-|041:59:24|SC|Okay, Houston. We just transferred to CSM power, and the caution warning light did go off.
-|041:59:24|CC|Roger.
-|042:21:25|CT|You going back to air-to-ground 1?
-|042:21:32|CMP|Okay. I heard somebody go to air-to-ground 1 that time, and -
-|042:21:32|SC|Gordo, we're about wrapped up here in Challenger. It looks like there's some life in the old bird, huh?
-|042:21:32|CC|Roger.
-|042:21:32|CDR|Okay. We'll give you a call when we get the hatch closed. Ron's doing some housekeeping in the command module, and we're going to take it slow getting back in.
-|042:21:32|CC|Okay, Gene.
-|042:21:32|CMP|Okay, Houston. The drogues are going in.
-|042:21:40|CC|Roger, Ron. Got a couple of questions on those -that latch number 4, if you can answer them for me.
-|042:22:00|CC|America, Houston.
-|042:22:43|CC|America, Houston. We're back with you after some site changeover. How do you read?
-|042:22:43|CMP|Okay; loud and clear. How me, Bob?
-|042:22:43|CC|Real good, Ron. On that number 4, latch number 4, is the hook back away from the ring about 1 inch as opposed to resting against the ring? Do you have about an inch clearance on that hook right now?
-|042:22:43|CMP|Well, there's about 1/2 inch.
+|042:02:11|SC|Okay, Houston. We just transferred to CSM power, and the caution warning light did go off.
+|042:02:20|CC|Roger.
+|042:07:37|SC|Gordo, we're about wrapped up here in Challenger. It looks like there's some life in the old bird, huh?
+|042:07:48|CC|Roger.
+|042:07:56|CDR|Okay. We'll give you a call when we get the hatch closed. Ron's doing some housekeeping in the command module, and we're going to take it slow getting back in.
+|042:07:05|CC|Okay, Gene.
+|042:16:01|CMP|Okay, Houston. The drogues are going in.
+|042:16:14|CC|Roger, Ron. We've got a couple of questions for you about those ó about the latch. Good old latch number 4 gave us problems I guess, huh?
+|042:16:38|CC|America, Houston.
+|042:16:43|LMP|America, go ahead.
+|042:16:45|CC|Ron, can you take a look at the latch number 4, and is the hook back away from the ring approximately one inch, as opposed to resting against the ring?
+|042:17:42|CC|America, Houston, did you copy my question?
+|042:18:22|SC|We're going back to air ground one.
+|042:18:22|CMP|Okay, I heard somebody going to air ground one that time, and -
+|042:18:36|CC|Roger, Ron. Got a couple of questions on those - that latch number 4 if you can answer it for me.
+|042:18:56|CC|America, Houston.
+|042:19:38|CC|America, Houston. We're back with you after some site changeover. How do you read?
+|042:19:29|CMP|Okay; loud and clear. How me, Bob?
+|042:19:49|CC|Real good, Ron. On that number 4, latch number 4, is the hook back away from the ring about 1 inch as opposed to resting against the ring? Do you have about an inch clearance on that hook right now?
+|042:20:14|CMP|Well, there's about 1/2 inch.
 ||||Tape 30/12|Page 227
-|042:22:43|CC|Okay. Understand about 1/2 inch. In what position was the latch handle when the hook was first moved back, Ron? We it kind of like in a normal stroke-back, or was it just flopping back?
-|042:22:43|CMP|No, when I first looked at it, the latch handle was - see, the hook itself was over the ring when I first looked at it.
-|042:22:43|CC|Roger. We understand that.
-|042:22:43|CMP|The hook was over the ring, and the - and the latch handle was flush, you know. It looks just like a normal - hooked docking latch, you know.
-|042:22:43|CC|Roger. Understand.
-|042:22:43|CDR|And, Bob, this is Gene. I can confirm that it did not fold back easily, because I - I checked it yesterday. I didn't check - I checked to see that the hooks were over as well as where the handles would fold back, but I obviously didn't check to see whether that one was seated. But the handle was locked.
-|042:22:43|CMP|That's right.
-|042:22:43|CC|Roger. Understand. And the first thing you saw was the depression in the Bungee. Is that - is that affirm?
-|042:22:43|CMP|Yes, that's affirm. And the bungee is depressed about 3/8 - 3/8 to a 1/2 inch.
-|042:22:43|CC|Roger.
-|042:22:43|CMP|You can push the - you can push the hook about an inch away from the ring, but the normal - just a resting position on the thing is about a finger's width or 1/2 inch from the ring.
-|042:22:43|CC|Roger. In other words, the loose - The hook is loose so it flops a little bit; you can move it back and forth. Is that affirm?
+|042:20:17|CC|Okay. Understand about 1/2 inch. In what position was the latch handle when the hook was first moved back, Ron? We it kind of like in a normal stroke-back, or was it just flopping back?
+|042:20:32|CMP|No, when I first looked at it, the latch handle was - see, the hook itself was over the ring when I first looked at it.
+|042:20:41|CC|Roger. We understand that - -
+|042:20:41|CMP|The hook was over the ring, and the - and the latch handle was flush, you know. It looks just like a normal - hooked docking latch, you know.
+|042:20:54|CC|Roger. Understand.
+|042:20:55|CDR|And, Bob, this is Gene. I can confirm that it did not fold back easily, because I - I checked it yesterday. I didn't check - I checked to see that the hooks were over as well as where the handles would fold back, but I obviously didn't check to see whether that one was seated. But the handle was locked.
+|042:21:17|CMP|Yes, that's right.
+|042:21:18|CC|Roger. Understand. And the first thing you saw was the depression in the Bungee. Is that - is that affirm?
+|042:21:24|CMP|Yes, that's affirm. And the bungee is depressed about 3/8 - 3/8 to a 1/2 inch you know.
+|042:21:30|CC|Roger.
+|042:21:48|CMP|You can push the - you can push the hook about an inch away from the ring, but the normal - just a resting position on the thing is about a finger's width or 1/2 inch from the ring.
+|042:22:04|CC|Roger. In other words, the loose - The hook is loose so it flops a little bit; you can move it back and forth. Is that affirm?
 ||||Tape 30/13|Page 228
-|042:22:43|CMP|Yes. I can move it from about 1/2 inch to an inch from the edge of the ring - clearing the edge of the docking ring.
-|042:22:43|CC|Roger. Ron, when you pulled the hook - when you pulled the handle back, did you reach and pull the hook back with it, or did it come back with the handle like a normal pullback then?
-|042:22:43|CMP|No, the - the hook did not come back with the handle. The hook did not come back with the handle. Although, when I - when I pulled the handle back to - you know, which is - which is kind of a normally uncocked position - and then it wouldn't go any further, you know. It wouldn't go an further. And then the latch itself - or the hook - the J-hook; I'll call it the hook. I moved it off the docking ring back to this position that was about an inch or 1/2 inch from the docking ring. And it stays right there now. And I can't push it back up into the docking ring at all. Can't push the hook back up to the docking ring at all.
-|042:26:28|CC|Okay. We copy that.
-|042:26:28|CC|Okay, Ron. Our plan here is to leave it like it is. And we're going to think about it tonight, and we'd like you to just keep pressing on. Just leave it alone, okay?
-|042:26:56|CMP|Okay. Sounds good. It'll clear the docking ring; no problem.
-|042:27:06|CDR|Houston, America. While Ron is putting in the probe and getting the hatch back in, I'm going to go ahead and maneuver. How does that sound?
-|042:27:19|CC|That's real fine, Gene.
-|042:29:17|CDR|Bob, are you all going to want OMNI or HIGH GAIN on this?
-|042:29:24|CC|Stand by on that.
+|042:22:12|CMP|Yes. I can move it from about 1/2 inch to an inch from the edge of the ring - clearing the edge of the docking ring.
+|042:22:18|CC|Roger. Ron, when you pulled the hook - when you pulled the handle back, did you reach and pull the hook back with it, or did it come back with the handle like a normal pullback then?
+|042:22:31|CMP|No, the - the hook did not come back with the handle. The hook did not come back with the handle. Although, when I - when I pulled the handle back to - you know, which is - which is kind of a normally uncocked position - and then it wouldn't go any further, you know. It wouldn't go an farther. And then the latch itself - or the hook - the J-hook; I'll call it the hook. I moved it off the docking ring back to this position that was about an inch or 1/2 inch from the docking ring. And it stays right there now. And I can't push it back up into the docking ring at all. Can't push the hook back up to the docking ring at all.
+|042:23:25|CC|Okay. We copy that.
+|042:23:38|CC|Okay, Ron. Our plan here is to leave it like it is. And we're going to think about it tonight, and we'd like you to just keep pressing on. Just leave it alone, okay?
+|042:23:48|CMP|Okay. Sounds good. It'll clear the docking ring; no problem.
+|042:24:02|CDR|Houston, America. While Ron is putting in the probe and getting the hatch back in, I'm going to go ahead and maneuver. How does that sound?
+|042:24:16|CC|That's real fine, Gene.
+|042:24:30|PAO|This is Apollo control at 42 hours 27 minutes ground elapsed time. We're estimating the change of shift press conference in 15 minutes, 15 minutes at 6:15 central time in the small briefing room. Spacecraft communicator now is Bob Overmeyer. During this past checkout of the lunar module we've had considerable difficulty in some of the communications configurations in the way the down links and the uplinks were set up. And some bit of difficulty in sorting out just what the nature of the problem with one of the docking latches is. People will be examining this through the night and during the checkout of the LM tomorrow or additional work in the LM perhaps the thing can be sorted out. Apollo 17 presently at 143,562 nautical miles out from Earth traveling at a velocity of 3,590 feet per second. At 42:28 and standing by this is Apollo control.
+|042:26:14|CDR|Bob, are you all going to want OMNI or HIGH GAIN on this?
+|042:26:20|CC|Stand by on that.
 ||||Tape 30/l4|Page 229
-|042:29:24|CC|We're all locked on the HIGH GAIN. We'd just like you to leave it on HIGH GAIN. The angles you see in the Flight Plan are in case it breaks lock. That's what you need for - with this attitude.
-|042:29:56|CDR|Okay.
-m|042:33:11|CMP|Okay, Houston. The probe is installed. We'll get the hatch in now.
-|042:33:11|CC|Roger, Ron.
-|042:33:11|CMP|I'm not going to connect the umbilicals unless you really want to look at probe temperature.
-|042:33:11|CC|Stand by on that, Ron. We concur on that, Ron.
-|042:33:44|CMP|Okay; good.
-|042:39:29|CMP|Okay, Houston. The hatch went in nominally, once the probe installation strut was stowed in the right position.
+|042:26:37|CC|We're all locked up on the HIGH GAIN. We'd just like you to leave it on HIGH GAIN. The angles you see in the Flight Plan are in case it breaks lock. That's what you need for - with this attitude.
+|042:26:52|CDR|Okay.
+|042:33:10|CMP|Okay, Houston. The probe is installed. We'll get the hatch in now.
+|042:33:15|CC|Roger, Ron.
+|042:33:21|CMP|I'm not going to connect the umbilicals unless you really want to look at probe temperature.
+|042:33:30|CC|Stand by on that, Ron. We concur on that, Ron.
+|042:33:43|CMP|Okay; good.
+|042:39:28|CMP|Okay, Houston. The hatch went in nominally, once the probe installation strut was stowed in the right position.
 |042:39:42|CC|Roger.
+|042:41:10|PAO|This is Apollo Control at 42 hours 41 minutes. Apollo 17 now 144,002 nautical miles from Earth. Velocity 3,577 feet per second. The change-of-shift briefing is ready to start in the News Center briefing room. We'll take down this air-ground line and tape any communications during the course of the briefing and replay them at the conclusion of the news conference. This is Mission Control, Houston, at 42 hours 41 minutes.
 ||||Tape 31/1|Page 230
-|042:43:47|CC|Testing, Houston. We are recommending QUADS Bravo and Delta for spin up.
+|042:43:47|CC|17, Houston. We are recommending QUADS Bravo and Delta for spin up.
 |042:43:56|CMP|Okay; Bravo and Delta. Thank you.
-|042:57:53|CMP|Okay, Houston. At 042:56:52.04, I started the stop watch, and also the watch read 18:30:01.
+|042:57:34|CMP|Okay, Houston. At 042:56:52.04, I started the stop watch, and also the watch read 18:30:01.
 |042:57:53|CC|Okay, Ron. We got that.
 |043:02:24|CMP|Okay, Houston. We've started on the heat select radial and lineal part - part of it. The little pie-shaped things are changing color as we go out. The lineal part of it - all of the chips seemed to have been concentrated on the front edge of the glass, and they're all pretty much in the linear direction or in XX-direction. At this point in time, I haven't seen any movement yet.
-e|043:02:58|CC|Roger, Ron. Aren't they on ... heads the same way they were on the backup unit the other evening in the White Room - on the lamp?
-e|043:03:10|CMP|Yes, all those chips seem to be - well - in an XX-I got the lineal direction, the lineal part of the experiment in the XX-direction. And all the chips are lined up in that XX-direction on the front or the top of the glass.
-e|043:03:31|CC|Roger. That's just the way ou were in the backup unit the other day in the White Room.
-e|043:03:33|CMP|Yes, that's right.
-m|043:11:36|CMP|Okay, Houston. We've started the cooldown in LIGHT 5 position there. The radial cells, they all started to change color except the one from about 10 o'clock to 12 o'clock.
-|043:11:36|CC|Roger. Except from 10 to 12. We've got It. Did the lineal ... stay right in line there, Ron?
+|043:02:58|CC|Roger, Ron. Aren't they on ... heads the same way they were on the backup unit the other evening in the White Room - on the lamp?
+|043:03:10|CMP|Yes, all those chips seem to be - well - in an XX - I got the lineal direction, the lineal part of the experiment in the XX-direction. And all the chips are lined up in that XX-direction on the front or the top of the glass.
+|043:03:31|CC|Roger. That's just the way you were in the backup unit the other day in the White Room.
+|043:03:37|CMP|Yes, that's right.
+|043:11:36|CMP|Okay, Houston. We've started the cooldown in LIGHT 5 position there. The radial cells, they all started to change color except the one from about 10 o'clock to 12 o'clock.
+|043:11:52|CC|Roger. Except from 10 to 12. We've got It. Did the lineal ... stay right in line there, Ron?
 ||||Tape 31/2|Page 231
-|043:11:36|CMP|Yes, the crystals or chips that are inside there didn't move at all. Yes, they're ... - -
-|043:11:36|CC|Roger.
-|043:11:36|CMP|On the color patterns behind there - the one on the left, as you look at the unit - the color crystals only changed down to about 0-9 of the first square as you come down from the top. The rest of them are all black on that partic - on the left row.
-|043:11:36|CC|Roger, Ron.
-|043:12:42|CMP|So that's the maximum extent of the - that's the max extent of the heating.
-|043:12:59|CMP|You might check and see if the guys want to heat it a little bit longer the next time, when they do it in the PTC.
-|043:12:59|CC|Yes. Roger, Ron. We're copying everything you're saying, and we've got all kinds of support here; we - in fact, we've got one backup unit here watching what you're doing, so we'll keep you posted on what we think.
-|043:12:59|CMP|Oh, okay. Is the backup CMP operating it?
-|043:12:59|CC|Matter of fact, that's affirm.
-|043:12:59|CMP|That's the way to do things.
-|043:12:59|CC|And, Ron, we'd like you to stay nominal on the heating time due to the film limitation.
-e|043:13:33|CMP|Okay; will do.
+|043:12:02|CMP|Yes, the crystals or chips that are inside there didn't move at all. Yes, they're ... - -
+|043:12:09|CC|Roger.
+|043:12:15|CMP|On the color patterns behind there - the one on the left, as you look at the unit - the color crystals only changed down to about 0.9 of the first square as you come down from the top. The rest of them are all black on that partic - on the left row.
+|043:12:39|CC|Roger, Ron.
+|043:12:41|CMP|So that's the maximum extent of the - that's the max extent of the heating.
+|043:12:47|CMP|You might check and see if the guys want to heat it a little bit longer the next time, when they do it in the PTC.
+|043:12:55|CC|Yes. Roger, Ron. We're copying everything you're saying, and we've got all kinds of support here; we - in fact, we've got one backup unit here watching what you're doing, so we'll keep you posted on what we think.
+|043:13:08|CMP|Oh, okay. Is the backup CMP operating it?
+|043:13:16|CC|Matter of fact, that's affirm.
+|043:13:21|CMP|That's the way to do things.
+|043:13:25|CC|And, Ron, we'd like you to stay nominal on the heating time due to the film limitation.
+|043:13:33|CMP|Okay; will do.
 |043:15:09|CMP|Okay, Houston; 17 here. Is there enough film in there to allow me to keep the camera running while I try to fill up that flow pattern?
-|043:15:09|CC|Stand by on that, Ron.
-|043:15:09|CC|It's affirmative, Ron. You can leave it running.
+|043:15:22|CC|Stand by on that, Ron.
+|043:15:27|CC|It's affirmative, Ron. You can leave it running.
 ||||Tape 31/3|Page 232
-|043:15:09|CMP|Okay.
+|043:15:33|CMP|Okay.
+|043:15:39|PAO|This is Apollo Control at 43 hours 16 minutes. Apollo 17 is 145,178 nautical miles from Earth traveling at a speed of 3,543 feet per second. The crew is now in the midst of the heat flow and convection demonstration. This is the demonstration that's designed to provide more exact data on the behavior of fluids in a low gravity field. This type of investigation is really not possible on Earth where gravity determines flow of fluids. In space the flow forces surface tension. There are three test cells involved in this demonstration for measuring and observing the fluid flow, behavior and the results are recorded with the 16mm camera aboard. We have about 5 minutes worth of tape that accumulated during the news conference and we'll play that for you now and then pickup live.
 |043:16:51|CMP|Okay, Houston. The first thing I noticed, as soon as I opened the FLOW four turns, it started running out a little bit, even - even without doing the inject. Okay; that's because the INJECT thing was open just a little bit, but It's all right.
-|043:16:51|CC|Roger. We copy.
+|043:17:11|CC|Roger. We copy.
 |043:17:22|CMP|Okay; I'll try to squirt some fluid in there -
-|043:17:22|CC|Okay.
-|043:17:22|CMP|With the fluid inject thing.
+|043:17:26|CC|Okay.
+|043:17:27|CMP|With the fluid inject thing.
 |043:18:11|CMP|Okay; I'm taking it in quite slow. It's noted there are quite a few small bubbles coming out with it. So far, so good. It hasn't overflowed the - the first capillary ring. And it's taken off, and it's going by capillary action toward the bottom and toward the top.
-|043:18:11|CC|Roger, Ron.
-|043:19:26|CMP|Okay; it finally met together at - that part going around the top and around the bottom - met together 180 degrees opposite of the inject port and now is starting to go out across the middle and fill up from the inject port.
-|043:19:26|CC|Roger.
-|043:20:58|CMP|We're getting a lot of big bubbles coming out now. That's after about a turn and a half.
-|043:20:58|CC|Roger. We copy.
-|043:21:41|CMP|Okay; that's two turns now. the meniscus is still holding on the first inner ring - it looks like all the way around, at least as far as I can see. The bubbles - big bubbles that have been coming out now, and also the fluid have taken over the right half of the bottom of the dish. We're starting to fill in a little bit, maybe a fourth of an inch - fourth of an inch circumference coming around from the left side opposite the injection port.
+|043:18:40|CC|Roger, Ron.
+|043:19:27|CMP|Okay; it finally met together at - that part going around the top and around the bottom - met together 180 degrees opposite of the inject port and now is starting to go out across the middle and fill up from the inject port.
+|043:19:46|CC|Roger.
+|043:19:47|CMP|We're getting a lot of big bubbles coming out now. That's after about a turn and a half.
+|043:19:55|CC|Roger. We copy.
+|043:21:41|CMP|Okay; that's two turns now. The meniscus is still holding on the first inner ring - it looks like all the way around, at least as far as I can see. The bubbles - big bubbles that have been coming out now, and also the fluid have taken over the right half of the bottom of the dish. We're starting to fill in a little bit, maybe a fourth of an inch - fourth of an inch circumference coming around from the left side opposite the injection port.
 ||||Tape 31/4|Page 233
-|043:21:41|CC|Roger.
+|043:22:22|CC|Roger.
 |043:22:31|CMP|Okay; I'll keep going here. We're about two and a half turns now. And it looks like all of the bubbles have already come out. We're getting real fluid now coming out. It's a real pretty picture anyhow.
-|043:22:31|CC|Roger.
+|043:22:48|CC|Roger.
 |043:22:55|CMP|Okay; that's three turns. I don't believe we're going to be able to cover the entire bottom with the four turns.
 |043:23:27|CMP|Okay. That's four turns, and - it's covered up the right - oh, three-fourths of the floor of the thing and about three-eights of an inch on the left side of the - of the floor - three-eights of an inch annulus all the way around, except for the right - oh, say right two-thirds of the floor.
-|043:23:27|CC|Roger, Ron. You can use more than four turns if you need it.
-|043:24:02|CMP|Okay; let's go ahead and try to cover up the whole floor on the thing before we do it. The bubbles are in there, and I'm afraid they're going to stay un - unless they disappear when we heat it.
-|043:24:02|CC|Roger.
+|043:23:55|CC|Roger, Ron. You can use more than four turns if you need it.
+|043:24:01|CMP|Okay; let's go ahead and try to cover up the whole floor on the thing before we do it. The bubbles are in there, and I'm afraid they're going to stay un - unless they disappear when we heat it.
+|043:24:11|CC|Roger.
 |043:24:35|CMP|There now it's - it's coming out with no bubbles now, and it looks like it almost formed a meniscus on top of itself - on top of where the bubbles were.
-|043:24:35|CC|Roger, Ron. Is it continuing to spread out?
-|043:24:35|CMP|Yes, it's continuing to spread out now, and without pumping anything into it at all - I did that last turn fairly fast - and it seems to be spreading of its own accord now, and it should go on over and cover up the bottom, I think. Once it completely covers up the bottom, I think we should go ahead and start the heat HIGH on this pattern.
+|043:24:50|CC|Roger, Ron. Is it continuing to spread out?
+|043:24:54|CMP|Yes, it's continuing to spread out now, and without pumping anything into it at all - I did that last turn fairly fast - and it seems to be spreading of its own accord now, and it should go on over and cover up the bottom, I think. Once it completely covers up the bottom, I think we should go ahead and start the heat HIGH on this pattern.
 ||||Tape 31/5|Page 234
 |043:25:59|CMP|Okay. Now the - Everything's all hooked together now. We completely filled up the bottom of the floor.
 |043:26:15|CMP|Hey, for some reason, the bubbles seem to be starting to break now.
-|043:26:15|CC|Roger. We copy that, Ron.
-|043:26:53|CMP|Okay. I don't know if it's coincidence or what, but all the bubbles are formed together, essentially in the center - in more or less at least -I mean - yes, along the plus-X-axis direction. And they're about 1 inch wide. And then they start about three-quarters - I mean three-eights of an inch in from the circumference.
-|043:26:53|CC|Roger.
+|043:26:21|CC|Roger. We copy that, Ron.
+|043:26:54|CMP|Okay. I don't know if it's coincidence or what, but all the bubbles are formed together, essentially in the center - along the plus-X-axis direction. And they're about 1 inch wide. And then they start about three-quarters - I mean three-eights of an inch in from the circumference.
+|043:27:18|CC|Roger.
 |043:27:58|CMP|Okay; I was going to try to break the bubbles with a pencil, but if you try to push a pencil into the bubble, it just moves aside.
 |043:28:22|CMP|So that being the case, I'm going to go ahead and start the - start the timer.
-|043:28:30|CC|We concur on that, Ron.
+|043:28:29|CC|We concur on that, Ron.
 |043:28:33|LMP|That's called the old push-a-bubble-with-a-pencil trick.
 |043:28:38|CC|Roger. Just need a sharper pencil, Jack.
-|043:28:23|LMP|Either that or a thinner bubble.
-|043:29:18|LMP|This is the best Friday afternoon matinee I've ever been to.
-|043:29:18|CC|How about Friday evening, Jack?
+|043:28:44|PAO|Air-to-Ground is live now.
+|043:28:45|LMP|Either that or a thinner bubble.
+|043:29:16|LMP|This is the best Friday afternoon matinee I've ever been to.
+|043:29:24|CC|How about Friday evening, Jack?
 ||||Tape 31/6|Page 235
-|043:29:18|LMP|Well, I've lost track. I don't think - I don't think there's any ... -
-|043:29:18|CMP|Stand by.
-|043:29:38|CMP|MARK. That was 1 minute after the start.
-|043:29:38|CC|Roger.
-|043:29:38|CMP|I'll give you another mark when I go to HIGH on the - with the SELECT switch.
+|043:29:32|LMP|Well, I've lost track. I don't think - I don't think there's any - -
+|043:29:35|CMP|Stand by.
+|043:29:37|CMP|MARK. That was 1 minute after the start.
+|043:29:41|CC|Roger.
+|043:29:44|CMP|I'll give you another mark when I go to HIGH on the - with the SELECT switch.
 |043:30:38|CMP|MARK it.
-|043:30:38|CC|Roger.
-|043:31:36|CMP|Each bubble looks like it's locus of - it looks like it's starting one of the Be mu - Bernudi cells.
-|043:31:36|CC|Say that again, Ron?
-|043:31:36|CMP|Okay; each one of those bubbles looks like it1c the locus - or the start of one of the Benard cells.
-|043:31:36|CC|Roger.
-|043:31:36|CMP|So far, the bubbles aren't breaking.
-|043:31:36|CC|We copy that.
-|043:31:36|LMP|Is Stu getting - did Stu get bubbles on his pattern, Bob?
-|043:31:36|CC|We're not running it down here. We're just demonstrating on the demonstrator there, but Stu can tell you.
-|043:31:36|LMP|Oh, I thought you were running - -
-|043:31:36|CC|Roger, Jack. Yes, I - you're talking of the one that - that we did, right?
+|043:30:40|CC|Roger.
+|043:31:35|CMP|Each bubble looks like it's locus of - it looks like it's starting one of the Bernu - Bernudi cells.
+|043:31:47|CC|Say that again, Ron?
+|043:31:51|CMP|Okay; each one of those bubbles looks like it's the locus - or the start of one of the Benard cells.
+|043:31:57|CC|Roger.
+|043:31:59|CMP|So far, the bubbles aren't breaking.
+|043:32:02|CC|We copy that.
+|043:32:08|LMP|Is Stu getting - did Stu get bubbles on his pattern, Bob?
+|043:32:13|CC|We're not running it down here. We're just demonstrating on the demonstrator there, but Stu can tell you.
+|043:32:19|LMP|Oh, I thought you were running - -
+|043:32:20|ROOSA|Roger, Jack. Yes, I - you're talking of the one we - that we did, right?
 ||||Tape 31/7|Page 236
-|043:31:36|LMP|That's right. Well, I am now. I thought you were running it down there also.
-|043:31:36|CC|No. Okay. The one that we did in flight - Yes, I had - I had a lot of bubbles, but I couldn't get mine - Krytox out across the center. So, you all are already well ahead of what I did.
-|043:31:36|LMP|Gee, I'm sorry you had to admit that, Stu.
-|043:31:36|CC|Oh, you all just do such good work.
-|043:33:05|CMP|Okay, the thing is, it seems to me like, in one g, the Benard cells started completely back to the edge, you know, right back to the edge of the circle. And in this case, at least, they haven't filled in yet back to the edge of the circle at all. They all started out in the center and are working around the bubbles, and then it's now -just now starting to form a few of them where there aren't any bubbles.
-|043:33:05|CC|Roger, Ron,.
-|043:33:37|CC|How large are the cells, Ron?
-|043:33:37|CMP|Well, they're varying considerably in size. I can see one that's about a half an inch across, and then the other ones - they've got a great big bubble in it, and yet the cell itself is down to maybe an eighth of an inch. The bigger ones seem to be on the outside; and, of course, there are very few bubbles on the outside also.
-|043:33:37|CC|Okay.
-|043:33:37|CMP|And the bigger ones, generally right now, are averaging about - oh, a fourth to three-eights of an inch in their cross - cross section ,..
-|043:34:57|CMP|The cells tend to be somewhat polygonal. Let's see, we've been going 6 minutes - 4 minutes into the heating part of it, and the - the cells are polygonal, but they don't seem to be quite as - as straightlined as they were on the ground.
+|043:32:29|LMP|That's right. Well, I am now. I thought you were running it down there also.
+|043:32:35|ROOSA|No. Okay. The one that we did in flight - Yes, I had - I had a lot of bubbles, but I couldn't get mine - Krytox out across the center. So, you all are already well ahead of what I did.
+|043:32:53|LMP|Gee, I'm sorry you had to admit that, Stu.
+|043:32:56|ROOSA|Oh, you all just do such good work.
+|043:33:05|CMP|Another thing is, it seems to me like, in one G, the Benard cells started completely back to the edge, you know, right back to the edge of the circle. And in this case, at least, they haven't filled in yet back to the edge of the circle at all. They all started out in the center and are working around the bubbles, and then it's now - just now starting to form a few of them where there aren't any bubbles.
+|043:33:31|CC|Roger, Ron.
+|043:33:36|ROOSA|How large are the cells, Ron?
+|043:33:44|CMP|Well, they're varying considerably in size. I can see one that's about a half an inch across, and then the other ones - they've got a great big bubble in it, and yet the cell itself is down to maybe an eighth of an inch. The bigger ones seem to be on the outside; and, of course, there are very few bubbles on the outside also.
+|043:34:09|CC|Okay.
+|043:34:15|CMP|And the bigger ones, generally right now, are averaging about - oh, a fourth to three-eights of an inch in their cross - cross section ...
+|043:34:54|PAO|This is Apollo Control.
+|043:34:57|CMP|The cells tend to be somewhat polygonal. Let's see, we've been going 6 minutes - 4 minutes into the eating part of it and the cells are polygonal but they don't seem to be quite as straight-lined as they were on the ground.
 ||||Tape 31/8|Page 237
-|043:34:57|CC|Roger. We copy.
+|043:35:18|ROOSA|Roger. We copy.
+|043:35:28|PAO|Stu Roosa, Apollo 17 back-up Command Module pilot is talking to the crew now from the CAPCOM console. Stew performed a demonstration similar to this on his Apollo 14 flight. That demonstration was not as sophisticated as the 17 test and the 17 demonstration is expected to provide more exact data on the fluid behaviour.
 |043:36:18|CMP|It almost looks like it's reached a steady state now. It's 9 minus 2-7 minutes.
-|043:36:18|CC|Roger.
-|043:36:30|CMP|Hey, I think the one thing I neglected to mention is that we essentially have a convex surface from the - the material; in other words, con - convex with the high part in the middle; and, of course, that's where the bubbles are, too, but I think you'd generally have that type of a surface anyhow And, it hasn’t broken the meniscus of the lower, or the thinnest ring.
-|043:37:35|LMP|We should have had some popcorn on our stowage list.
-|043:37:35|CC|Roger.
-|043:39:48|CMP|Okay; now the Benard cells are starting to form in that outer annulus that went all the way around
-|043:39:48|CC|Roger.
-|043:45:55|CMP|Okay; we went back to light 4 now. And we never did get any real beliginal [sic] cells formed around the outer annulus. And even the cells that were formed on the thing, it seemed like the particle flow within the cells was very slow when you compare that with the way it was in one g.
-|043:45:55|CC|Roger, Ron.
-|043:48:03|CMP|Okay; I'm trying to - such the stuff back in the -the entry tube there, and it looks like part of it's going in.
-|043:48:03|CC|Roger, Ron. We copy that.
-|043:49:07|CMP|And the camera is down to about 50 percent here, so I'm going to go ahead and turn it off now.
-|043:49:07|CC|Roger, Ron.
+|043:36:28|ROOSA|Roger.
+|043:36:28|CMP|Hey, I think the one thing I neglected to mention is that we essentially have a convex surface from the - the material; in other words, con - convex with the high part in the middle; and, of course, that's where the bubbles are, too, but I think you'd generally have that type of a surface anyhow. And, it hasn't broken the meniscus of the lower, or the thinnest ring.
+|043:37:34|LMP|We should have had some popcorn on our stowage list.
+|043:37:38|ROOSA|Roger.
+|043:39:46|CMP|Okay; now the Benard cells are starting to form in that outer annulus that went all the way around.
+|043:39:54|ROOSA|Roger.
+|043:45:51|CMP|Okay; we went back to light 4 now. And we never did get any real beliginal [sic] cells formed around the outer annulus. And even the cells that were formed on the thing, it seemed like the particle flow within the cells was very slow when you compare that with the way it was in one G.
+|043:46:19|ROOSA|Roger, Ron.
+|043:47:59|CMP|Okay; I'm trying to - suck the stuff back in the - the entry tube there, and it looks like part of it's going in.
+|043:48:21|ROOSA|Roger, Ron. We copy that.
+|043:49:02|CMP|And the camera is down to about 50 percent here, so I'm going to go ahead and turn it off now.
+|043:49:08|ROOSA|Roger, Ron.
 ||||Tape 31/9|Page 238
-|043:49:40|CC|Ron, if I didn't tell you, we concur with turning the DAC off there.
-|043:49:40|CMP|Okay; yes, I got you. I'll turn it off.
-|043:50:06|CMP|You know, I just happened to think, after I've already sucked part of those bubbles back in there, we've got enough fluid in there to pump it out the next time without sucking that back in there, don't we?
-|043:50:06|CC|I'm sorry, Ron. Say that again.
-|043:50:06|CMP|Don't we have enough of the Krytox fluid without sucking that back in there? Maybe I can just wipe the Krytox off with some Kleenex, and maybe there won't be any bubbles the next time.
-|043:50:06|CC|Okay; stand by.
-|043:51:00|CC|Ron, I guess we understand you've pulled some back in, but you haven't pulled any of the bubbles. Now, if you pull any more in, you're going to start the bubbles back In. Is that correct?
-|043:51:00|CMP|Yes; that's correct.
-|043:51:00|CC|Okay; why don't you stand by here on that then?
-|043:51:00|CMP|Let me see - I'll see if I can push the bubbles out of the way here with something.
-|043:51:29|CC|Okay. The consensus is that we would like to not pull the bubbles back in. I think you've got a good idea.
-|043:51:29|CMP|Okay.
-|043:51:29|CC|It's the old keep-the-bubbles-out-of-the-Krytox trick.
-|043:51:48|CMP|(Laughter) Okay; I'll see if I can do It.
-|043:52:09|LMP|I see you're finally getting caught up in the humor of the thing there, Stu.
+|043:49:36|ROOSA|Ron, if I didn't tell you, we concur with turning the DAC off there.
+|043:49:43|CMP|Okay; yes, I got you. I'll turn it off.
+|043:50:02|CMP|You know, I just happened to think, after I've already sucked part of those bubbles back in there, we've got enough fluid in there to pump it out the next time without sucking that back in there, don't we?
+|043:50:14|ROOSA|I'm sorry, Ron. Say that again.
+|043:50:19|CMP|Don't we have enough of the Krytox fluid without sucking that back in there? Maybe I can just wipe the Krytox off with some Kleenex, and maybe there won't be any bubbles the next time.
+|043:50:32|ROOSA|Okay; stand by.
+|043:50:55|ROOSA|Ron, I guess we understand you've pulled some back in, but you haven't pulled any of the bubbles. Now, if you pull any more in, you're going to start the bubbles back in. Is that correct?
+|043:51:06|CMP|Yes; that's correct.
+|043:51:08|ROOSA|Okay; why don't you stand by here on that then?
+|043:51:14|CMP|Let me see - I'll see if I can push the bubbles out of the way here with something.
+|043:51:23|ROOSA|Okay. The consensus is that we would like to not pull the bubbles back in. I think you've got a good idea.
+|043:51:34|CMP|Okay.
+|043:51:39|ROOSA|It's the old keep-the-bubbles-out-of-the-Krytox trick.
+|043:51:44|CMP|(Laughter) Okay; I'll see if I can do it.
+|043:52:05|LMP|I see you're finally getting caught up in the humor of the thing there, Stu.
 ||||Tape 31/10|Page 239
-|043:52:09|CC|Oh, I've always been in good humor. It sure sounded like that batt did the trick, Ron.
-|043:52:09|CMP|Yes, I think it did, too. It looks like it worked real well.
-|043:56:21|CC|And, 17, just so you say we didn't give you our cue, we're standing by for the 1-17 procedures there in your Experiments Checklist - the film cycling.
-|043:56:21|CMP|Okay; we'll have to get that shortly.
-|043:56:21|CC|Okay.
-|043:57:53|LMP|Okay, Stu, we got you on that. The Saturday afternoon or Friday evening matinee was absorbing us so, we almost missed it.
-|043:57:53|CC|Okay.
+|043:52:11|ROOSA|Oh, I've always been in good humor. It sure sounded like that baffle did the trick, Ron.
+|043:52:32|CMP|Yes, I think it did, too. It looks like it worked real well.
+|043:52:44|PAO|This is Apollo control at 43 hours 52 minutes. Crytox which is a heavy oil is one of the fluids being used in the demonstration. Apollo 17 is now 146,455 nautical miles from earth, velocity 3,505 feet per second. And this shift of orange flight controllers being directed by Charles Lewis one of the several gentlemen recently promoted to flight director. The regular orange flight director Pete Frank is an observer for this shift.
+|043:56:16|ROOSA|And, 17, just so you say we didn't give you our cue, we're standing by for the 1-17 procedures there in your Experiments Checklist - the film cycling.
+|043:56:44|CMP|Okay; we'll have to get that shortly.
+|043:56:47|ROOSA|Okay.
+|043:57:47|LMP|Okay, Stu, we got you on that. The Saturday afternoon or Friday evening matinee was absorbing us so, we almost missed it.
+|043:57:58|ROOSA|Okay.
 |044:03:28|LMP|Okay, Houston. DATA SYSTEMS coming ON.
-|044:03:28|CC|Roger.
-|044:03:39|LMP|AUX TV's to SCIENCE, and SM/AC POWER is coming ON.
-|044:03:39|CC|Roger.
-|044:03:39|LMP|Okay; MAPPING CAMERA is STANDBY -
+|044:03:31|CC|Roger.
+|044:03:38|LMP|AUX TV's to SCIENCE, and SM/AC POWER is coming ON.
+|044:03:41|CC|Roger.
+|044:03:48|LMP|Okay; MAPPING CAMERA is STANDBY -
 |044:03:51|LMP|MARK it.
-|044:03:51|CC|Roger. Mark it.
-|044:03:51|LMP|PAN CAMERA MODE, STANDBY -
-|044:03:59|LMP|MARK it.
+|044:03:53|CC|Roger. Mark it.
+|044:03:56|LMP|PAN CAMERA MODE, STANDBY -
+|044:03:58|LMP|MARK it.
 |044:03:59|CC|Roger.
-|044:03:59|LMP|I guess that's verified.
-|044:04:21|LMP|PAN CAMERA POWER to POWER.
-|044:04:23|CMP|Barber pole and a gray.
+|044:04:03|LMP|I guess that's verified.
+|044:04:19|LMP|PAN CAMERA POWER to POWER.
+|044:04:22|CMP|Barber pole and a gray.
 ||||Tape 31/11|Page 240
-|044:04:23|CC|Roger.
-|044:04:34|CMP|SELF TEST is going to HEATERS.
-|044:05:06|LMP|Okay; we're standing by for your cue on MAPPING CAMERA, ON, and SELF TEST.
-|044:05:06|CC|Roger. Stand by on that.
-|044:05:51|CC|17, you're GO for cycling the pan camera and the mapping camera.
-|044:06:00|LMP|Okay.
-|044:06:13|CMP|Okay; MAPPING CAMERA has gone ON; PAN CAMERA to SELF TEST. Barber pole and release.
-|044:06:45|CC|Looks lik 10 seconds on the PAN CAMERA there.
-|044:07:28|CMP|Okay; PAN CAMERA POWER is coming OFF.
-|044:07:28|CC|Roger, Ron.
-|044:08:21|CMP|Okay; MAPPING CAMERA going OFF.
-|044:08:21|CC|Roger, Ron.
-|044:09:04|CC|That's 30 seconds off on the mapping camera, Ron.
-|044:09:11|CMP|Okay; SM/AC is OFF.
-|044:09:19|LMP|S-BAND AUX TV's OFF, and BIT RATE, LOW, now?
-|044:09:19|CC|That's affirmative.
-|044:09:43|LMP|Say, Bob, say again those jetts you're commended for PTC.
-|044:09:43|CC|We recommended Bravo and and Delta for spinup -B, D.
-|044:09:43|LMP|Ckay; do the rates look okay to you?
-|044:09:43|CC|Tliat' s affirmative.
+|044:04:24|CC|Roger.
+|044:04:33|CMP|SELF TEST is going to HEATERS.
+|044:05:05|LMP|Okay; we're standing by for your cue on MAPPING CAMERA, ON, and SELF TEST.
+|044:05:11|CC|Roger. Stand by on that.
+|044:05:50|CC|17, you're GO for cycling the pan camera and the mapping camera.
+|044:05:58|LMP|Okay.
+|044:06:11|CMP|Okay; MAPPING CAMERA has gone ON; PAN CAMERA to SELF TEST. Barber pole and release.
+|044:06:44|CC|Looks like 10 seconds on the PAN CAMERA there.
+|044:07:26|CMP|Okay; PAN CAMERA POWER is coming OFF.
+|044:07:29|CC|Roger, Ron.
+|044:08:20|CMP|Okay; MAPPING CAMERA going OFF.
+|044:08:23|CC|Roger, Ron.
+|044:09:02|CC|That's 30 seconds off on the mapping camera, Ron.
+|044:09:09|CMP|Okay; SM/AC is OFF.
+|044:09:17|LMP|S-BAND AUX TV's OFF, and BIT RATE, LOW, now?
+|044:09:24|CC|That's affirmative.
+|044:09:40|LMP|Say, Bob, say again those jetts you're commended for PTC.
+|044:09:45|CC|We recommended Bravo and and Delta for spinup - B, D.
+|044:09:51|LMP|Ckay; do the rates look okay to you?
+|044:10:00|CC|That's affirmative.
 ||||Tape 31/12|Page 241
-|044:11:02|CC|Jack, Houston.
-|044:11:02|LMP|Go ahead.
-|044:11:02|CC|Jack, when you get done with the PTC area here, we'd like you to get out the Flight Plan Supplement We'd like to get a food report from you all on your food intake for today.
-|044:11:02|LMP|I thought we gave you that in the morning. Happy to do it, but - -
-|044:11:02|CC|That's affirm, Jack - -
-|044:11:02|LMP|You want a special report? Is that what you want?
-|044:11:02|CC|We'd just like to have it - prefer tonight.
-|044:11:02|CMP|It sounds like you don't think we're eating enough.
-|044:11:42|CC|Ron, would you check your NOUN 78?
-|044:11:42|CMP|Ah-ha! Thank you.
-|044:11:42|CC|Roger.
-|044:13:30|CC|Jack or Ron, when you come around, we'll ask you to stow the high gain on our call, and we'll be wanting OMNI Bravo.
-|044:13:30|LMP|Roger.
-|044:13:30|LMP|And are you ready for the trotting gourmet's report?
-|044:13:30|CC|roger. Everybody's here with all ears.
-|044:14:02|LMP|Okay. The CDR today had scrambled eggs and three bacon squares and a can of peaches and pineapple drink for breakfast. And then later on in the day, he had peanut butter, jelly, and bread with a chocolate bar and some dried apricots. The LMP had scrambled eggs and four bacon squares, an orange drink, and cocoa for breakfast, and potato soup, two peanut butter and jelly sandwiches, and a cherry bar, and an orange drink. And that hero of the matinee, the matinee idol of Spaceship America, had scrambled eggs, bacon squares, peaches, cinnamon toast, orange juice, and cocoa for breakfast. That's how he keeps his form. And, for lunch, he had a peanut butter sandwich and citrus beverage. And that's it, since there's nobody else up here.
+|044:10:59|CC|Jack, Houston.
+|044:11:05|LMP|Go ahead.
+|044:11:06|CC|Jack, when you get done with the PTC area here, we'd like you to get out the Flight Plan Supplement. We'd like to get a food report from you all on your food intake for today.
+|044:11:20|LMP|I thought we gave you that in the morning. Happy to do it, but - -
+|044:11:24|CC|That's affirm, Jack - -
+|044:11:24|LMP|You want a special report? Is that what you want?
+|044:11:25|CC|We'd just like to have it - prefer tonight.
+|044:11:33|CMP|It sounds like you don't think we're eating enough.
+|044:11:40|CC|Ron, would you check your NOUN 78?
+|044:11:57|CMP|Ah-ha! Thank you.
+|044:12:00|CC|Roger.
+|044:13:27|CC|Jack or Ron, when you come around, we'll ask you to stow the high gain on our call, and we'll be wanting OMNI Bravo.
+|044:13:37|LMP|Roger.
+|044:13:46|LMP|And are you ready for the trotting gourmet's report?
+|044:13:51|CC|Roger. Everybody's here with all ears.
+|044:13:58|LMP|Okay. The CDR today had scrambled eggs and three bacon squares and a can of peaches and pineapple drink for breakfast. And then later on in the day, he had peanut butter, jelly, and bread with a chocolate bar and some dried apricots. And the LMP had scrambled eggs and four bacon squares, an orange drink, and cocoa for breakfast, and potato soup, two peanut butter and jelly sandwiches, and a cherry bar, and an orange drink. And that hero of the matinee, the matinee idol of Spaceship America, had scrambled eggs, bacon squares, peaches, cinnamon toast, orange juice, and cocoa for breakfast. That's how he keeps his form. And, for lunch, he had a peanut butter sandwich and citrus beverage. And that's it, since there's nobody else up here.
 ||||Tape 31/13|Page 242
-|044:15:45|CC|Roger. We copy that. We'd like you to stow the high gain at this time and OMNI Bravo.
-|044:16:41|CC|Jack, we appreciate all your information, and we'd like to just pass on some recommendations here from the ground that we'd like you to keep on with your regular menu as much as possible. And, if you do cut anything off, we'd like you to concentrate on eating the meats, the juices, and the fruitcake, which are the most effective for maintaining your electrolyte balance.
-|044:17:32|LMP|Okay.
+|044:15:51|CC|Roger. We copy that. We'd like you to stow the high gain at this time and OMNI Bravo.
+|044:16:37|CC|Jack, we appreciate all your information, and we'd like to just pass on some recommendations here from the ground that we'd like you to keep on with your regular menu as much as possible. And, if you do cut anything off, we'd like you to concentrate on eating the meats, the juices, and the fruitcake, which are the most effective for maintaining your electrolyte balance.
+|044:17:07|LMP|Okay, Bob. We understand what you're saying. We're shooting at eating - eating it all. It's just a lot of food, that's all.
 ||||Tape 32/1|Page 243
-|044:17:32|CC|Roger. We understand, Gene, Also, on that group of foods, peanut butter's great for the bal -electrolyte balance, also; so you're doing okay.
-|044:17:32|CDR|I knew it was good for something. It couldn't be that good without being good for something.
-|044:17:32|LMP|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.
-|044:17:46|CC|Roger. I understand. Real fine.
-|044:17:54|CMP|Houston, 17.
-|044:17:54|CC|Go, 17; Houston.
-|044:17:54|LMP|Okay. Got a little information on what we were talking about yesterday with respect to southern Pacific weather, if you've got nothing else going on.
-|044:17:54|CC|Go; speak to me.
-|044:17:54|LMP|Okay, looks like a little - cyclonic circulation we had over New Zealand is still there. It's -looks like the front it was associated with is broken up a little bit; however, that pattern is -seems to be hugging the New Zealand area, and -but not - has not intensified. If - if not - it may have even weakened a little bit since yestery-day. It's hard to be sure exactly. The front does not look as strong, and it still seems to be hanging just stabilized and with all of Australia clear now and the western edge of that front being just offshore north of Brisbane. The - there is -east of New Guinea - in the vicinity of the Solomon Islands, it looks like a fairly moderate-sized cyclone developing at the western edge of the - of a front that was somewhat farther north and west than the one over New Zealand. North of that -Wake/Kwajalein region that was of interest yesterday to the ARIA people - still seems to be in general overcast condition, but the clouds iio not look very heavy or impacted at all. New I'uinen. is just on the limb, so -
+|044:17:18|CC|Roger. We understand, Gene. Also, on that group of foods, peanut butter's great for the bal -e lectrolyte balance, also; so you're doing okay.
+|044:17:30|CDR|I knew it was good for something. It couldn't be that good without being good for something.
+|044:17:35|LMP|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.
+|044:17:42|CC|Roger. I understand. Real fine.
+|044:18:32|PAO|This is Apollo Control at 44 hours 18 minutes. The Flight Surgeon, John Zieglschmid, is pleased with the food report for today. Apollo 17 is 147,306 nautical miles from Earth, traveling at a speed of 3,481 feet per second.
+|044:26:07|CMP|Houston, 17.
+|044:26:10|CC|Go, 17; Houston.
+|044:26:14|LMP|Okay. Got a little information on what we were talking about yesterday with respect to southern Pacific weather, if you've got nothing else going on.
+|044:26:26|CC|Go; speak to me.
+|044:26:32|LMP|Okay, looks like a little - cyclonic circulation we had over New Zealand is still there. It's - looks like the front it was associated with is broken up a little bit; however, that pattern is - seems to be hugging the New Zealand area, and - but not - has not intensified. If - if not - it may have even weakened a little bit since yesterday. It's hard to be sure exactly. The front does not look as strong, and it still seems to be hanging - just stabilized, and with all of Australia clear now and the western edge of that front being just offshore north of Brisbane. The - there is -east of New Guinea - in the vicinity of the Solomon Islands, it looks like a fairly moderate-sized cyclone developing at the western edge of the - of a front that was somewhat farther north and west than the one over New Zealand. North of that - Wake/Kwajalein region that was of interest yesterday to the ARIA people - still seems to be in general overcast condition, but the clouds do not look very heavy or impacted at all. New Guinea is just on the limb, so -
 ||||Tape 32/2|Page 244
-|044:28:27|LMP|Oh, I think I lost them.
-|044:31:56|CC|Okay, I think we've got you now, 17.
-|044:31:56|CMP|You're loud and clear, Stu.
-|044:31:56|CC|Okay.
-|044:32:46|LMP|Stu, I think we lost you about the time I lost view of the Earth and mentioned the Wake/Kwajalein area; right?
-|044:32:46|CC|That's affirmative. We didn't £et much of the Kwajalein report.
-|044:32:46|LMP|There was nothing new to add over yesterday. There just seems general cloudiness in the area, but they do not look too intense or well organized. Just probably a general overcast.
-|044:32:46|CC|Okay.
-|044:32:46|LMP|I'll try to get some exercise, and then I'll be back at you with some more information. Maybe we can see the Philippines by then.
-|044:32:46|CC|Okay.
-|044:32:46|LMP|And, Stu, I've got my biomed hooked up. Are you guys bringing it in during this exercise thing? This is Jack.
-|044:32:46|CC|Yes, Jack. We'll check on that.
-|044:32:46|CC|Okay; you're coming in loud and clear, Jack.
-|044:34:15|LMP|Okay.
-|044:35:46|CDR|Stu, are you reading?
-|044:35:46|CC|Roger. We're reading you loud and clear.
+|044:28:17|LMP|Yes, I think I lost them.
+|044:32:00|CC|Okay, I think we've got you now, 17.
+|044:32:08|CMP|You're loud and clear, Stu.
+|044:32:10|CC|Okay.
+|044:32:51|LMP|Stu, I think we lost you about the time I lost view of the Earth and mentioned the Wake/Kwajalein area; right?
+|044:33:00|CC|That's affirmative. We didn't get much of the Kwajalein report.
+|044:33:08|LMP|There was nothing new to add over yesterday. There just seems general cloudiness in the area, but they do not look too intense or well organized. Just probably a general overcast.
+|044:33:19|CC|Okay.
+|044:33:36|LMP|I'll try to get some exercise, and then I'll be back at you with some more information. Maybe we can see the Philippines by then.
+|044:33:44|CC|Okay.
+|044:33:53|LMP|And, Stu, I've got my biomed hooked up. Are you guys bringing it in during this exercise thing? This is Jack.
+|044:33:03|CC|Yes, Jack. We'll check on that.
+|044:33:11|CC|Okay; you're coming in loud and clear, Jack.
+|044:35:37|PAO|This is Apollo control at 44 hours 35 minutes. Spacecraft distance 147,866.
+|044:35:47|LMP|Okay.
+|044:35:49|CDR|Stu, are you reading?
+|044:35:51|CC|Roger. We're reading you loud and clear.
 ||||Tape 32/3|Page 245
-|044:35:46|CDR|Okay, I think that big storm that Jack was referring to - that has moved off to the - well to the east of Australia. Very definite counterclockwise rotation and then it stretches to the south or what might even be the southeast. And then just rolls right -we ... a big frontal pattern and then rolls right into another - another clockwise - clockwise rotating low down there near Antarctica. It gives me the impression of a - of a parrot's comb when he's got his feathers ruffled. And it, in turn, has another low trailing it, arcing and then flowing into another - another low that is very near the continent down there of Antarctica. They form a chain, as I just described froming - coming from -well, possible southeast of Antarctica - it's hard to really tell what east is down there - on up to due west of Australia by several hundred miles.
-|044:35:46|CC|Roger.
-|044:37:20|CDR|South of Australia, you get a hint of a very large cloud mass, from there all the way down to Antarctica, that has the tendency to - -
-|044:39:44|CC|17, Houston.
-|044:39:44|CC|17, Houston.
-|044:39:44|CDR|Go ahead.
-|044:39:44|CC|Just wanted to get comm there again. We had some switchover there. You might be interested; we've got an ATS map in here from this morning. Just -you're just about on - We can see the flow patterns in the Antarctic just about at - 120 degrees west, which is a little closer to South America than what you're calling, I guess. But we do - we do see that activity down there.
-|044:39:44|CDR|Okay, Bob. And there is a very large cloudy air mass between Australia and Antarctica. It has a tendency to want to start a rotation, and you can see a hint of that; it's not too strong right now. We're seeing about three-quarters of the Earth, I guess. Judging from our clocks and what we can see, it looks like the Sun is setting out over the west coast; and it leaves us with about three-quarters of the Earth available to us.
+|044:35:55|CDR|Okay, I think that big storm that Jack was referring to - that has moved off to the - well to the east of Australia. Very definite counterclockwise rotation and then it stretches to the south or what might even be the southeast. And then just rolls right - we ... a big frontal pattern and then it rolls right into another - another clockwise - clockwise rotating low down there near Antarctica. It gives me the impression of a - of a parrot's comb when he's got his feathers ruffled. And it, in turn, has another low trailing it, arcing and then flowing into another - another low that is very near the continent down there of Antarctica. They form a chain, as I just described froming - coming from - well, possibly southeast of Antarctica - it's hard to really tell what east is down there - on up to due west of Australia by several hundred miles.
+|044:37:13|CC|Roger.
+|044:37:21|CDR|South of Australia, you get a hint of a very large cloud mass, from there all the way down to Antarctica, that has the tendency to - -
+|044:37:46|PAO|This is Apollo control that was Gene Cernan picking up Jack Schmitt's weather observations as Jack is now in an exercise period. Spacecraft is in the passive thermal control mode and is rotating. We've broken lock on the OMNI antenna. We'll pick up another antenna very shortly. Spacecraft distance 147,953 nautical miles velocity 3,462 feet per second.
+|044:39:43|CC|17, Houston.
+|044:40:11|CC|17, Houston.
+|044:40:15|CDR|Go ahead.
+|044:40:17|CC|Just wanted to get comm there again. We had some switchover there. You might be interested; we've got an ATS map in here from this morning. Just - you're just about on - We can see the flow patterns in the Antarctic just about at - 120 degrees west, which is a little closer to South America than what you're calling, I guess. But we do - we do see that activity down there.
+|044:40:46|CDR|Okay, Bob. And there is a very large cloudy air mass between Australia and Antarctica. It has a tendency to want to start a rotation, and you can see a hint of that; it's not too strong right now. We're seeing about three-quarters of the Earth, I guess. Judging from our clocks and what we can see, it looks like the Sun is setting out over the west coast; and it leaves us with about three-quarters of the Earth available to us.
 ||||Tape 32/4|Page 246
-|044:41:21|CC|Roger. It'll be about 06:15 Los Angeles time right now, so it's probably sunset out there.
-|044:42:41|CC|Ron, just a reminder from the Flight Plan change last night. You'll have a P52 coming up here at 45 hours in your Flight Plan.
-|044:42:41|CMP|Roger. Mighty fine; thank you.
-|044:42:58|CC|Roger, Ron.
-|044:46:32|CC|Jack, just for information, you've got your heart rate to 103.
-|044:48:25|CC|Jack, you've got your heart rate to about 103; and we lost data right now.
-|044:48:25|CC|Jack, just for information, the last heart rate we had was 103; and it's - we lost data right now, so 103 is max we saw right now.
-|044:48:25|LMP|Okay, I was just doing some isometrics. I just tried running in place again then.
-|044:48:25|CC|Roger. Do you want us to call you your heart rate if - if we get data in here now?
-|044:48:25|LMP|Sure.
-|044:49:14|CC|Okay.
-|044:50:25|CC|Okay, you're up to 115, Jack.
-|044:50:25|LMP|No, I'm resting right now. Didn't seem like my arms have the stamina they did yesterday to hold the artificial g. What - -
-|044:50:25|CC|... understand.
-|044:50:25|LMP|- - did I get to?
-|044:50:25|CC|We copied about a maximum of about 118 - -
+|044:41:20|CC|Roger. It'll be about 06:15 Los Angeles time right now, so it's probably sunset out there.
+|044:42:38|CC|Ron, just a reminder from the Flight Plan change last night. You'll have a P52 coming up here at 45 hours in your Flight Plan.
+|044:42:51|CMP|Roger. Mighty fine; thank you.
+|044:42:54|CC|Roger, Ron.
+|004:43:01|PAO|This is Apollo control at 44 hours 43 minutes. That was a reminder that we are approaching the time where we are going to make the first step in a two step adjustment caused by the late launch. This will be to bring the Greenwich mean time, the ground elapsed time and the flight plan together. What this first step will account for an hour of 2 hours and 40 minutes adjustment that will be made eventually. The clocks will not be recycled at this time at 45 hours. The clock recycling will be accomplished later in the mission at 65 hours elapsed time. This 1 hour adjustment consists of moving the activities that were scheduled in the flight plan to take place between 46 hours and 30 minutes and 47 hours up to 45 hours in the flight plan. Therefore, during the hour from 45 hours to 46 hours we will have accomplished all the flight plan activities that were originally scheduled to be accomplished from 46 to 47 hours. This will put us 1 hour ahead on the flight plan. We would pick up the activities originally scheduled at 47 hours at 46 hours under this plan. And this would proceed in an orderly fashion one hour ahead up to the 65 hour mark at which time we will synchronize the ground elapsed time clock to 67 hours and 40 minutes and at that time go to the 67:40 time in the flight plan and we will be back on schedule.
+|044:46:27|CC|Jack, just for information, you've got your heart rate to 103.
+|044:48:19|CC|Jack, you've got your heart rate to about 103; and we lost data right now.
+|044:48:40|CC|Jack, just for information, the last heart rate we had was 103; and it's - we lost data right now, so 103 is max we saw right now.
+|044:48:55|LMP|Okay, I was just doing some isometrics. I just tried running in place again then.
+|044:49:00|CC|Roger. Do you want us to call you your heart rate if - if we get data in here now?
+|044:49:06|LMP|Sure.
+|044:49:07|CC|Okay.
+|044:50:18|CC|Okay, you're up to 115, Jack.
+|044:58:20|PAO|This is Apollo Control at 44 hours 58 minutes. Moving the GET clock ahead at 65 hours will affect the time that has previously been given for the lunar sphere of influence crossing. Newsmen who are interested in this time should add 2 hours and 40 minutes to the time previously given, which would make the time for lunar sphere crossing now 73 hours 23 minutes 24 seconds Ground Elapsed Time. The distances and the velocities that were previously predicted will remain the same. Those are 190,725 nautical miles from Earth; 33,639 nautical miles from the Moon; and an Earth reference to velocity of 2,340 feet per second. Apollo 17 is now 148,668 nautical miles from Earth - -
+|044:59:52|CC||-- resting, or did you quit?
+|044:59:56|LMP|No, I'm resting right now. Didn't seem like my arms have the stamina they did yesterday to hold the artificial g. What - -
+|045:00:02|CC|... understand.
+|045:00:02|LMP|- - did I get to?
+|045:00:05|CC|We copied about a maximum of about 118 - -
 ||||Tape 32/5|Page 247
-|044:50:25|LMP|What heart rate did - -
-|044:50:25|CC|- - on the heart rate.
-|044:50:25|CC|About 118 max, Jack.
-|044:50:25|LMP|Roger. Understand.
-|044:50:25|CC|Don't let me - let me harrass you. I just wan kidding you on that. Whatever you think is fair.
-|045:00:30|LMP|You're not harrassing me. When my arm's rested, I'll try again.
-|045:00:52|CC|Couple of interesting data points for you, Jack. We saw the - while you were doing that, we saw the PP COg go up; and we saw the tanks destratify again the same way.
-|045:00:52|LMP|Very good. Next mission they'll have to Flight Plan it.
-|045:00:52|CC|That's affirmative.
-|045:00:52|LMP|You saw the P CO^ go up?
-|045:00:52|CC|That's affirmative. Let me get the numbers here, if you want. It took a jump from 1.3 to 2.4 on that.
-|045:00:52|CC|Roger. Understand.
-|045:00:52|LMP|Now we've still got one going.
-|045:00:52|CC|Well, it's not unexpected. I just thought you'd be interested.
-|045:01:52|LMP|Sounds sort of normal.
-|045:03:03|LMP|Hey, Bob, with this change in the hour, what time does penumbra start?
+|045:00:07|LMP|What heart rate did - -
+|045:00:07|CC|- - on the heart rate.
+|045:00:11|CC|About 118 max, Jack.
+|045:00:15|LMP|Roger. Understand.
+|045:00:17|CC|Don't let me - let me harrass you. I just wan kidding you on that. Whatever you think is fair.
+|045:00:27|LMP|You're not harrassing me. When my arm's rested, I'll try again.
+|045:00:39|PAO|Spacecraft velocity now 3,441 feet per second.
+|045:00:50|CC|Couple of interesting data points for you, Jack. We saw the - while you were doing that, we saw the PP CO2 go up; and we saw the tanks destratify again the same way.
+|045:01:05|LMP|Very good. Next mission they'll have to Flight Plan it.
+|045:01:08|CC|That's affirmative.
+|045:01:12|LMP|You saw the P CO2 go up?
+|045:01:17|CC|That's affirmative. Let me get the numbers here, if you want. It took a jump from 1.3 to 2.4 on that.
+|045:01:27|LMP|Okay. That was with two of us going, and part of the time, three of us going.
+|045:01:33|CC|Roger. Understand.
+|045:01:33|LMP|Now we've still got one going.
+|045:01:36|CC|Well, it's not unexpected. I just thought you'd be interested.
+|045:01:49|LMP|Sounds sort of normal.
+|045:03:01|LMP|Hey, Bob, with this change in the hour, what time does penumbra start?
 ||||Tape 32/6|Page 248
-|045:03:03|CC|Say again the question, Jack. What time does what start?
-|045:03:03|LMP|With the change in hour, what time does the penumbra - what time do we enter the lunar penumbra?
-|045:03:03|CC|Right now, we don't - Tommy doesn't think we're going to go into the penumbra, and we're verifying that.
-|045:03:03|LMP|Okay.
-|045:03:03|CC|Hey, Ron, could we ask a question about the heat-flow experiment setup?
-|045:03:03|CMP|Sure. Sure, go head.
-|045:03:03|CC|You mentioned that the lineal chips were all on the - in the XX plane, and we're just wondering - do you mean along the XX axis of the spacecraft?
-|045:03:03|CMP|Yes; along the XX axis of the spacecraft.
-|045:03:03|CC|Is the long XX axis of the lineal cell along the XX axis, Ron?
-|045:03:03|CMP|Yes, that's affirmative. It's right-side up, if you're looking at the connect panel, you know?
-|045:03:03|CC|Yes. That's - we'd - they'd like it so that that -the axis of that lineal cell was - would be parallel to the bottom of the panel 100, as an example. It's prob - right now, it's perpendicular to the bottom of panel 100, isn't it?
-|045:03:03|CMP|Now, wait a minute.
-|045:05:17|CMP|Yes, the lineal thing is, right now, perpendicular to the bottom of panel 100.
-|045:07:36|CMP|Hey, Houston; America.
+|045:03:08|CC|Say again the question, Jack. What time does what start?
+|045:03:13|LMP|With the change in hour, what time does the penumbra - what time do we enter the lunar penumbra?
+|045:03:27|CC|Right now, we don't - Tommy doesn't think we're going to go into the penumbra, and we're verifying that.
+|045:03:37|LMP|Okay.
+|045:03:37|CC|Say Ron, could we ask a question about the heat-flow experiment setup?
+|045:03:44|CMP|Sure. Sure, go ahead.
+|045:03:47|CC|You mentioned that the lineal chips were all on the - in the XX plane, and we're just wondering - do you mean along the XX axis of the spacecraft?
+|045:04:03|CMP|Yes; along the XX axis of the spacecraft.
+|045:04:12|CC|Is the long XX axis of the lineal cell along the XX axis, Ron?
+|045:04:21|CMP|Yes, that's affirmative. It's right-side up, if you're looking at the connect panel, you know?
+|045:04:30|CC|Yes. That's - we'd - they'd like it so that that - the axis of that lineal cell was - would be parallel to the bottom of the panel 100, as an example. It's prob - right now, it's perpendicular to the bottom of panel 100, isn't it?
+|045:05:00|CMP|Well, wait a minute.
+|045:05:15|CMP|Yes, the lineal thing is, right now, perpendicular to the bottom of panel 100.
+|045:05:42|PAO|This is Apollo Control at 45 hours 5 minutes. Ron Evans is making preparations to again perform the heatflow and and convection demonstration.
+|045:07:33|CMP|Hey, Houston; America.
 |045:07:36|CC|Go ahead, Ron.
-|045:07:36|CMP|Okay, I think I see what you're saying. I'm sorry; I read the thing with lineal cell in a plus-X direction. But what they mean is, lineal cell in the - in - (laughter) -
+|045:07:41|CMP|Okay, I think I see what you're saying. I'm sorry; I read the thing with lineal cell in a plus-X direction. But what they mean is, lineal cell in the - in - (laughter) -
 ||||Tape 32/7|Page 249
-|045:07:36|CC|Lineal word, I guess, is the - -
-|045:07:36|CMP|... lineal cell up.
-|045:07:36|CC|Roger.
-|045:07:36|CMP|Okay, I'll turn around the other for this PTC part of it then.
-|045:07:36|CC|Wait a minute on that, Ron. We're having a debate whether we want to, maybe, continue the next part in the same attitude or just rotate it .
-|045:07:36|CMP|Okay. Seems to me like you'd like to - maybe leave it in the same attitude.
-|045:07:36|CC|Ron, the only rational reason to change it right now is we're hearing words that if you had rotated to the other way, that you'd get better pictures out of the DAC due to the lighting reflection on it. The PI would like to change it back to the other way.
-|045:09:07|CMP|Okay.
+|045:07:55|CC|Lineal word, I guess, is the - -
+|045:07:55|CMP|... lineal cell up.
+|045:07:57|CC|Roger.
+|045:08:01|CMP|Okay, I'll turn around the other for this PTC part of it then.
+|045:08:05|CC|Wait a minute on that, Ron. We're having a debate whether we want to, maybe, continue the next part in the same attitude or just rotate it .
+|045:08:15|CMP|Okay. Seems to me like you'd like to - maybe leave it in the same attitude.
+|045:08:44|CC|Ron, the only rational reason to change it right now is we're hearing words that if you had rotated to the other way, that you'd get better pictures out of the DAC due to the lighting reflection on it. The PI would like to change it back to the other way.
+|045:09:06|CMP|Okay.
 |045:12:31|CC|17, just for information, we will not be going into the penumbra.
-|045:12:41|LMP|Okay. Sorry to hear that.
-|045:15:45|CC|Ron, we see your 52; and you can go ahead and torque.
-|045:15:45|CC|Ron, Houston. We're watching your 52, and you can go ahead and torque.
-|045:15:45|CMP|Okay, Houston; 17. Thought you said go ahead and torque. Is that correct?
-|045:15:45|CC|That's affirmative, Ron.
-|045:15:45|CMP|Okay. We'll torque at 1630.
-|045:16:30|CC|Roger.
-|045:23:50|CC|Ron, a couple reminders - The LOI [sic] - -
+|045:12:40|LMP|Okay. Sorry to hear that.
+|045:15:49|CC|Ron, we see your 52; and you can go ahead and torque.
+|045:16:06|CC|Ron, Houston. We're watching your 52, and you can go ahead and torque.
+|045:16:16|CMP|Okay, Houston; 17. Thought you said go ahead and torque. Is that correct?
+|045:16:21|CC|That's affirmative, Ron.
+|045:16:25|CMP|Okay. We'll torque at 1630.
+|045:16:31|CC|Roger.
+|045:17:01|PAO|This is Apollo Control at 45 hours 17 minutes. Flight Dynamics Officer, Bill Boone, has just informed the Flight Director, Chuck Lewis, that 9 hours of tracking since the midcourse correction No. 2 burn, confirms the burn was indeed a good one. On the present trajectory of the spacecraft the height, the closest approach to the Moon, is 52 miles.
+|045:23:54|CC|Ron, a couple reminders - LOI - -
 ||||Tape 32/8|Page 250
-|045:24:59|CC|17, Houston.
-|045:25:53|CC|17, Houston.
-|045:25:53|CMP|Roger. Go ahead.
-|045:25:53|CC|Roger, Ron. Just a reminder on the L0I [sic] canister change - Have you gotten into that?
-|045:25:53|CMP|No, not yet. We're - probably get started on this -
-|045:25:53|CC|Okay. On the - -
-|045:25:53|CMP|On the heat flow first.
-|045:25:53|CC|Roger. Understand. We'd like to know when you start on that heat flow, Ron, because we need to get the DSE to high bit rate.
-|045:25:53|CMP|Okay. I'm having a little trouble getting them mounted - in a stable position this way,
-|045:26:44|CC|Understand.
+|045:25:03|CC|17, Houston.
+|045:25:58|CC|17, Houston.
+|045:26:08|CMP|Roger. Go ahead.
+|045:26:09|CC|Roger, Ron. Just a reminder on the LOI [sic] canister change - Have you gotten into that?
+|045:26:21|CMP|No, not yet. We're - probably get started on this -
+|045:26:25|CC|Okay. On the - -
+|045:26:26|CMP|On the heat flow first.
+|045:26:27|CC|Roger. Understand. We'd like to know when you start on that heat flow, Ron, because we need to get the DSE to high bit rate.
+|045:26:42|CMP|Okay. I'm having a little trouble getting them mounted - in a stable position this way,
+|045:26:48|CC|Understand.
 |045:29:50|CMP|Okay, Houston; this is 17. I'm about ready to start it here in about 45 seconds here; let me know when you get the tape recorder going.
-|045:29:50|CC|Roger, Ron.
-|045:29:50|CC|Okay, we got the tape recorder in HIGH BIT RATE.
-|045:29:50|CMP|Okay.
-|045:29:50|CC|Hey, stand by 1, Ron. We got a little change here we'd like to make on the plan on page 2-6.
-|045:29:50|CMP|Okay. Stand by for zero. 3, P, I -
+|045:29:59|CC|Roger, Ron.
+|045:30:09|CC|Okay, we got the tape recorder in HIGH BIT RATE.
+|045:30:17|CMP|Okay.
+|045:30:18|CC|Hey, stand by 1, Ron. We got a little change here we'd like to make on the plan on page 2-6.
+|045:30:31|CMP|Okay. Stand by for zero. 3, 2, 1 -
 |045:30:36|CMP|MARK it. It's reset. Start the stop watch.
-|045:30:36|CC|Roger. And, Ron, on the checklist on page 2-6 after the l6-minute "End of test and proceed to next test," we'd like to turn the DAC OFF at that position.
+|045:30:39|CC|Roger. And, Ron, on the checklist on page 2-6 after the l6-minute "End of test and proceed to next test" we'd like to turn the DAC OFF at that position.
 ||||Tape 32/9|Page 251
-|045:30:36|CMP|Okay. Will do.
-|045:30:36|CC|And, then, you turn it back on at the re - where it says "Reset stop watch and start.” The time zero there - point. Prior to that, turn it on. 1111 remind you of it.
-|045:30:36|CMP|Okay. You don't want to watch me fill that pan again, huh?
-|045:30:36|CC|Say again, Ron.
-|045:30:36|CMP|You don't want to watch me fill the pan again.
-|045:30:36|CC|Yes. Roger. Yes, it'll be up before then. We'll watch you fill the pan. We just - while you're taking time wiping it and all that, that's when we - we don't want to use up the film there.
-|045:30:36|CMP|Okay. I'm with you. Actually, I've already cleaned out the - the little area there.
-|045:30:36|CC|Roger. I've got 1 minute on my timer right now -about 01:27, actually.
-|045:30:36|CMP|Oh, thank you.
+|045:30:57|CMP|Okay. Will do.
+|045:30:58|CC|And, then, you turn it back on at the re - where it says "Reset stop watch and start." The time zero there - point. Prior to that, turn it on. I'll remind you of it.
+|045:31:10|CMP|Okay. You don't want to watch me fill that pan again, huh?
+|045:31:21|CC|Say again, Ron.
+|045:31:26|CMP|You don't want to watch me fill the pan again.
+|045:31:28|CC|Yes. Roger. Yes, it'll be up before then. We'll watch you fill the pan. We just - while you're taking time wiping it and all that, that's when we - we don't want to use up the film there.
+|045:31:50|CMP|Okay. I'm with you. Actually, I've already cleaned out the - the little area there.
+|045:32:05|CC|Roger. I've got 1 minute on my timer right now - about 01:27, actually.
+|045:32:11|CMP|Oh, thank you.
 |045:32:24|CMP|Well, we'll start at 2 minutes.
+|045:33:37|CC||You're still on the front page with the ...
+|045:38:41|PAO|This is Apollo Control at 45 hours 38 minutes. Distance now 149,941 nautical miles from the Earth; velocity 3,405 feet per second.
 |045:47:50|CMP|Okay, Houston. The DAC is OFF now.
-|045:47:50|CC|Roger. DAC OFF.
-|045:47:50|CC|Say, Ron.
-|045:47:50|CMP|Go ahead, Houston.
+|045:47:53|CC|Roger. DAC OFF.
+|045:48:12|CC|Say, Ron.
+|045:48:20|CMP|Go ahead, Houston.
 |045:47:50|CC|Yes, Ron. If it's not too much bother, it's one of those nice things to have. The PI would like you to take a picture with the - with the 35-millimeter indoor of the orientation of the heat flow as it's mounted. See if you can get that, if it's not too much problem.
 ||||Tape 32/10|Page 252
-|045:47:50|CMP|Okay. No problem. Good idea.
-|045:47:50|CC|And that should be magazine SS, which is the sar.e one you'll use for - with the ALFMED tomorrow.
-|045:47:50|CMP|Affirmative; okay.
-|045:47:50|CMP|Okay. I opened the flow about four turns. A little bit is running out - one big bubble in it. And I still have a little bit left over, even though I wiped it out pretty good awhile ago. The meniscus is up to the bottom ring, and I think we put in eight things in there where it's going to try to get the meniscus up to the top baffle. Is that correct?
-|045:49:55|CC|That's correct, Ron.
+|045:48:42|CMP|Okay. No problem. Good idea.
+|045:48:48|CC|And that should be magazine SS, which is the same one you'll use for - with the ALFMED tomorrow.
+|045:49:00|CMP|Affirmative; okay.
+|045:49:23|CMP|Okay. I opened the flow about four turns. A little bit is running out - one big bubble in it. And I still have a little bit left over, even though I wiped it out pretty good awhile ago. The meniscus is up to the bottom ring, and I think we put in eight things in there where it's going to try to get the meniscus up to the top baffle. Is that correct?
+|045:49:56|CC|That's correct, Ron.
+|045:51:16|LMP|There must have been a few more bubbles down in there again. That was two turns now, and I've got it about half full all the way across.
 ||||Tape 33/1|Page 253
-|045:49:55|CC|Roger.
-|045:49:55|CMP|But, maybe there's just about eight or 10 bubbles in it.
-|045:52:36|CMP|That's three turns. The fluid is essentially And we're still going on the first - fourth, so for turn now, and it's still develops a meniscus around the lower baffle - the smaller baffle.
-|045:54:58|CMP|Okay. Looks like about six of the bubbles have developed into three, for some reason.
-|045:54:58|CC|Roger.
+|045:51:29|CC|Roger.
+|045:51:31|CMP|But, maybe there's just about eight or 10 bubbles in it.
+|045:52:30|CMP|... That's three turns. The fluid is essentially .. and we're still going on the first - fourth turn now, and it's still develops a meniscus around the lower baffle - the smaller baffle.
+|045:54:56|CMP|Okay. Looks like about six of the bubbles have developed into three, for some reason.
+|045:55:07|CC|Roger.
 |045:55:57|CMP|Oh-oh. It was doing real well there. Then on seventh turn, a bunch of bubbles came in again.
-|045:55:57|CC|Roger.
-|045:57:25|CC|Ron, I might have given you a bad call before. We don't want the DAC on until just before that 2-minute mark here, where just prior to going EXPERIMENT/HEAT SELECT - FLOW PATTERN - LOW. At that point, is where we want the DAC on.
-|045:57:25|CMP|Okay. You want the DAC on when it starts heating up.
-|045:57:25|CC|That's affirm.
-|045:57:52|CMP|Okay. You, know - I may have lost track of the turns here, but I think we've got 7-1/2 or 6-1/2 turns in here. And it still hasn't overflown that first lower baffle. I've got a tremendous concave - convex surface on the fluid, but it still hasn't broken the meniscus of the first has - baffle.
+|045:56:03|CC|Roger.
+|045:57:24|CC|Ron, I might have given you a bad call before. We don't want the DAC on until just before that 2-minute mark here, where just prior to going EXPERIMENT/HEAT SELECT - FLOW PATTERN - LOW. At that point, is where we want the DAC on.
+|045:57:44|CMP|Okay. You want the DAC on when it starts heating up.
+|045:57:47|CC|That's affirm.
+|045:57:51|CMP|Okay. You, know - I may have lost track of the turns here, but I think we've got 7-1/2 or 6-1/2 turns in here. And it still hasn't overflown that first lower baffle. I've got a tremendous concave - convex surface on the fluid, but it still hasn't broken the meniscus of the first baf - baffle.
 ||||Tape 33/2|Page 254
-|045:57:52|CC|Roger. We copy that.
-|045:58:57|CMP|Okay. I'm going to go ahead and take it another turn, because it was my understanding we wanted to try to get in the second baffle, anyhow. So, I'm going to take another turn of Krytox and put some more in there.
-|045:58:57|CC|That's correct, Ron.
+|045:58:20|CC|Roger. We copy that.
+|045:58:55|CMP|Okay. I'm going to go ahead and take it another turn, because it was my understanding we wanted to try to get in the second baffle, anyhow. So, I'm going to take another turn of Krytox and put some more in there.
+|045:59:08|CC|That's correct, Ron.
 |045:59:37|CC|Ron, if that - if that doesn't do it, they're saying you might want to take a pencil or something and stir it up a bit and try and break it up from lower baffle into the upper baffle.
-|045:59:51|CMP|(Chuckle) Okay. I'm afraid, I may have it all over the place if I do that, but I'll try it.
-|045:59:51|CC|Roger. Very slowly.
-|045:59:51|CMP|(Laughter) Right.
-|046:00:56|CC|Ron, just a question while you're watching it here. Do you have any bubbles in the lineal cell?
-|046:02:57|CMP|Yes. This one is going to be interesting. There are about, oh, a dozen, nine to a dozen - small bubbles right next to the inject board and then about the same number right in the center of the convex portion of it.
-|046:02:57|CC|Roger, Ron. Did you - we didn't copy your answer to our question about any bubbles in the lineal.
-|046:03:27|CMP|No, I didn't get to your question on that. Ir. the lineal unit there are no bubbles whatsoever.
-|046:03:27|CC|Roger. Thank you.
-|046:03:35|CMP|And there might have been very slight movement. Matter of fact, I can see just a very slight movement, even now. The particles, in there, they're still lined up in the YY direction essentially though, although it looks like some of them may have deviated from the front of the lineal unit back toward the center, or toward the back of the lineal unit, as you call it.
+|045:59:50|CMP|(Chuckle) Okay. I'm afraid, I may have it all over the place if I do that, but I'll try it.
+|045:59:55|CC|Roger. Very slowly.
+|045:59:59|CMP|(Laughter) Right.
+|046:00:55|CC|Ron, just a question while you're watching it here. Do you have any bubbles in the lineal cell?
+|046:02:56|CMP|Yes. This one is going to be interesting. There are about, oh, a dozen, nine to a dozen - small bubbles right next to the inject board and then about the same number right in the center of the convex portion of it.
+|046:03:14|CC|Roger, Ron. Did you - we didn't copy your answer to our question about any bubbles in the lineal.
+|046:03:26|CMP|No, I didn't get to your question on that. In the lineal unit there are no bubbles whatsoever.
+|046:03:32|CC|Roger. Thank you.
+|046:03:33|CMP|And there might have been very slight movement. Matter of fact, I can see just a very slight movement, even now. The particles, in there, they're still lined up in the YY direction essentially though, although it looks like some of them may have deviated from the front of the lineal unit back toward the center, or toward the back of the lineal unit, as you call it.
 ||||Tape 33/3|Page 255
-|046:04:09|CMP|Well, I missed the 2-minute start time there, but I can keep track of it here.
-|046:04:15|CMP|So we'll start the DAC, and then I'll turn this to LOW at 02:45.
+|046:04:10|CMP|Well, I missed the 2-minute start time there, but I can keep track of it here.
+|046:04:14|CMP|So we'll start the DAC, and then I'll turn this to LOW at 02:45.
 |046:04:31|CC|Okay. We got a hack on it, Ron. If you started it, we started our clock.
-|046:04:31|CMP|Okay. You know, just for future reference here, if we like to do things in zero g and without jarring or jiggle, we want to make sure that the switch actuates with a minimum of pressure.
-|046:04:31|CC|Roger, A good point.
-|046:04:31|CMP|(Laughter)
-|046:06:17|CMP|Okay. That's just now starting to develop. Look like circular cells, great big ones. And then some of the bigger ones are subdividing now.
-|046:06:17|CC|Okay. We got that.
-|046:06:34|CMP|That one's ... Some of them are even getting bigger. One of them is - oh, about three-quarters of an inch in diameter, and it hasn't divided yet, at all.
-|046:06:34|CC|Those are real good comments, Ron. I was in just talking with the experimenters, and if you've got nothing else to do, giving us some sizes of those cells would certainly be very beneficial.
-|046:06:34|CMP|Okay.
-|046:07:21|CMP|Okay. Frame 27 was taken at an elapsed time of about 4 minutes.
-|046:07:21|CC|Okay. We got that.
+|046:04:38|CMP|Okay. You know, just for future reference here, if we like to do things in zero G and without jarring or jiggle, we want to make sure that the switch actuates with a minimum of pressure.
+|046:05:07|CC|Roger, A good point.
+|046:05:11|CMP|(Laughter)
+|046:06:16|CMP|Okay. That's just now starting to develop. Look like circular cells, great big ones. And then some of the bigger ones are subdividing now.
+|046:06:32|CC|Okay. We got that.
+|046:06:32|CMP|... are even - some of them are even getting bigger. One of them is - oh, about three-quarters of an inch in diameter, and it hasn't divided yet, at all.
+|046:06:53|CC|Those are real good comments, Ron. I was in just talking with the experimenters, and if you've got nothing else to do, giving us some sizes of those cells would certainly be very beneficial.
+|046:07:13|CMP|Okay.
+|046:07:22|CMP|Okay. Frame 27 was taken at an elapsed time of about 4 minutes.
+|046:07:37|CC|Okay. We got that.
 |046:07:42|LMP|Stu, this is Jack. I was taking the pictures. I took four pictures about 20 seconds apart - of the sequence just after he started it. And that ended with - or started with frame 26.
 ||||Tape 33/4|Page 256
-|046:07:42|CC|Okay. Frame 26 for 4 seconds - I mean for four frames.
-|046:08:15|CMP|Okay. That one cell I spoke of that was about three-quarters of an inch in diameter now is about an inch long and maybe three-quarters of an inch wide. Each - All of the cells seem to be bigger, in general. They're bigger this time. There is two small ones at about an eighth of an inch and -and along one side. The other one is a half-inch, a half-inch - oh, a quarter of an inch, a halfinch, and then a circular when you get around the outs - out - annulus of the cup. Then you start getting circular sides instead of straight sides. All of the flow comes from the little center spot and flows outward from the center toward the outside of the cells.
-|046:08:15|CC|Okay. We - we copy that.
-|046:08:19|CMP|... all of the bubbles have disappeared, except two.
-|046:09:20|CC|Ron, is the smallest cell you see about an eighth of an inch across?
-|046:09:27|CMP|The smalles cell I see is a four-sided one; it looks like a diamond. And it's an eighth of an inch on one side, an eighth of an inch on the other side, and maybe 3/16 on the other two sides.
-|046:09:27|CC|Okay. That sounds - that's a good description, Ron. I know on mine some of the smaller ones didn't show up in the - in the film, and we were not - not sure what size they are. So you might, before you quit, bracket the - the smalles or the biggest cells by your estimate of the size.
-|046:11:27|LMP|At any rate, frame number 31, frame number 31
-|046:11:38|CMP|And the information first half of the experiment. The orientation was 90 degrees from this one. (Laughter) In that the lineal cell was on the right, and the lineal cell was aligned with the XX axis.
+|046:08:05|CC|Okay. Frame 26 for 4 seconds - I mean for 4 frames.
+|046:08:14|CMP|Okay. That one cell I spoke of that was about three-quarters of an inch in diameter now is about an inch long and maybe three-quarters of an inch wide. Each - All of the cells seem to be bigger, in general. They're bigger this time. There is two small ones at about an eighth of an inch and - and along one side. The other one is a half-inch, a half-inch - oh, a quarter of an inch, a halfinch, and then a circular when you get around the outs - out - annulus of the cup. Then you start getting circular sides instead of straight sides. All of the flow comes from the little center spot and flows outward from the center toward the outside of the cells.
+|046:09:07|CC|Okay. We - we copy that - -
+|046:09:07|CMP|... all of the bubbles have disappeared, except two.
+|046:09:19|CC|Ron, is the smallest cell you see about an eighth of an inch across?
+|046:09:26|CMP|The smalles cell I see is a four-sided one; it looks like a diamond. And it's an eighth of an inch on one side, an eighth of an inch on the other side, and maybe 3/16 on the other two sides.
+|046:09:39|CC|Okay. That sounds - that's a good description, Ron. I know on mine some of the smaller ones didn't show up in the - in the film, and we were not - not sure what size they are. So you might, before you quit, bracket the - the smallest or the biggest cells by your estimate of the size.
+|046:10:17|PAO|This is Apollo control at 46 hours 10 minutes. Apollo 17 is 150,976 nautical miles from Earth traveling at a speed of 3,375 feet per second.
+|046:11:20|LMP|... any rate, frame number 31, frame number 31 ...
+|046:11:36|CMP|And the information first half of the experiment. The orientation was 90 degrees from this one. (Laughter) In that the lineal cell was on the right, and the lineal cell was aligned with the XX axis.
 ||||Tape 33/5|Page 257
-|046:11:38|CC|Okay, Ron. We got - We had a drop in our signal strength there, and we did get your last comment about the orientation. We missed some comment about the frame numbers; I think came from Jack.
-|046:12:15|CMP|Okay. Something's a little different on this one here. Right at the top of the flow circle, it looks just like a finger. It's a curved surface that goes out and almost touches the - the circumference of the dish. And it looks just like if you're holding your finger up and looking at it. It's that type of a shape to it. It comes back down, and it's about a half an inch wide. The flow again emanates from a source that is almost on the fingertip, you might say.
-|046:12:15|CC|Okay. We copy.
-|046:13:11|CMP|Okay. Somehow, that fingertip finally touched the complete circumference, and the tip of the finger disappeared.
-|046:13:11|CC|Okay.
+|046:12:00|CC|Okay, Ron. We got - We had a drop in our signal strength there, and we did get your last comment about the orientation. We missed some comment about the frame numbers; I think came from Jack.
+|046:12:14|CMP|Okay. Something's a little different on this one here. Right at the top of the flow circle, it looks just like a finger. It's a curved surface that goes out and almost touches the - the circumference of the dish. And it looks just like if you're holding your finger up and looking at it. It's that type of a shape to it. It comes back down, and it's about a half an inch wide. The flow again emanates from a source that is almost on the fingertip, you might say.
+|046:12:58|CC|Okay. We copy.
+|046:13:10|CMP|Okay. Somehow, that fingertip finally touched the complete circumference, and the tip of the finger disappeared.
+|046:13:21|CC|Okay.
 |046:13:24|CMP|Okay. My - my small one-eighth inch - or one-eighth of an inch sided diamond joined with another one, now, and one side of the diamond is gone. I still have three sides of the diamond and the fourth side of the diamond, or the upper right-hand corner of the diamond, you might say, has disappeared and goes on with another little square - or rectangle. One - one end of the rectangle is about 3/l6 of an inch long; the other two sides are about three-eights of ar. inch long.
 |046:14:07|CC|Ron, what's the location of that - of that diamond and rectangle in the - in the circular dish? And is it near the edge, or is it towards the center?
-|046:14:18|CMP|There are almost - No, it's almost in the center. Towards the center. Almost in the center. On the left edge, as you look at the piece of equipment , as you're looking at it, there are absolutely no patterns at all. There Is a flow. You can see a stream of flow. Whoops. I can get up then and start looking at it. I blew on it when I was talking. You can see a stream of flow from the circumference in toward the outer group of cells. The outer group of cells is at least half an inch from the circumference, though, at that point.
+|046:14:18|CMP|There are almost - No, it's almost in the center. Towards the center. Almost in the center. On the left edge, as you look at the piece of equipment , as you're looking at it, there are absolutely no patterns at all. There is a flow. You can see a stream of flow. Whoops. I can get up then and start looking at it. I blew on it when I was talking. You can see a stream of flow from the circumference in toward the outer group of cells. The outer group of cells is at least half an inch from the circumference though, at that point.
 ||||Tape 33/6|Page 258
-|046:14:18|CC|Okay, Ron. We copy all that.
-|046:15:20|CMP|Yes. I think there is a general migration of - of the cells. Kind of toward the bottom of the circle, if you want to look at it that way. They seem to be stretching kind of in that direction, too.
-|046:15:42|CC|Okay. You're saying that's toward minus X?
-|046:15:45|CMP|... No, toward the plus Y, as you're looking at it.
-|046:15:45|CC|Okay. They're migrating toward plus Y.
-|046:15:45|CMP|I'll - I'll try to make all directions, with respect to - with respect to the right-side-up of the equipment, you know.
-|046:15:45|CC|Okay. We've got you.
-|046:16:06|CMP|And the first finger I talked about was at 12 o'clock. It has joined the edge now and almost disappeared. The second finger was - still essentially the way it was - is getting slightly closer to the edge. There's maybe - oh, less than 1/32 of an inch between the tip of the finger and the edge. And it goes out at - at 2 o'clock. Okay, from 3 o'clock on around to about 7 o'clock, the cells - It's in a shadow, and I can't see for sure if they're touching the edge or not, but it looks like they're probably essentially touching - the sk - the edge.
-|046:16:06|CC|Okay.
-|046:16:58|CMP|And then from 7 o'clock on around to 12 o'clock again, none of the cells are touching the edge at all. And they're - oh, an average of three-eighths of an inch from the outside circumference.
+|046:15:04|CC|Okay, Ron. We copy all that.
+|046:15:18|CMP|Yes. I think there is a general migration of - of the cells. Kind of toward the bottom of the circle, if you want to look at it that way. They seem to be stretching kind of in that direction, too.
+|046:15:40|CC|Okay. You're saying that's toward minus X?
+|046:15:47|CMP|... No, toward the plus Y, as you're looking at it.
+|046:15:52|CC|Okay. They're migrating toward plus Y.
+|046:15:53|CMP|I'll - I'll try to make all directions, with respect to - with respect to the right-side-up of the equipment, you know.
+|046:16:01|CC|Okay. We've got you.
+|046:16:06|CMP|And the first finger I talked about was at 12 o'clock. It has joined the edge now and almost disappeared. The second finger was - still essentially the way it was - is getting slightly closer to the edge. There's maybe - oh, less than 1/32 of an inch between the tip of the finger and the edge. And it goes out at - at 2 o'clock. Okay, from 3 o'clock on around to about 7 o'clock, the cells - It's in a shadow, and I can't see for sure if they're touching the edge or not, but it looks like they're probably essentially touching - the ... the edge.
+|046:16:51|CC|Okay.
+|046:16:56|CMP|And then from 7 o'clock on around to 12 o'clock again, none of the cells are touching the edge at all. And they're - oh, an average of three-eighths of an inch from the outside circumference.
 ||||Tape 33/7|Page 259
-|046:16:58|CC|Okay. We're getting all that, Ron.
-|046:18:03|CC|And, Ron, we'd like to verify that the fluid is
-|046:18:11|CMP|up to the second baffle. That's verified. It's up to the second baffle.
-|046:18:11|CC|Okay.
-|046:18:11|CMP|All I had to do was start it in one position, and as soon as I started it - started it in one position, it whipped all the way around it. From the point I started it, it went all the way around in both directions.
+|046:17:15|CC|Okay. We're getting all that, Ron.
+|046:18:03|CC|And, Ron, we'd like to verify that the fluid is up to the second baffle.
+|046:18:11|CMP|That's verified. It's up to the second baffle.
+|046:18:15|CC|Okay.
+|046:18:15|CMP|All I had to do was start it in one position, and as soon as I started it - started it in one position, it whipped all the way around it. From the point I started it, it went all the way around in both directions.
 |046:18:28|CC|Okay. That sounds beautiful. That ought to be a good data point for something.
 |046:18:28|CMP|Yes. Right.
 |046:18:38|CMP|I think that in the low flow here evidently things are even a little bit slower than they were in the high rate - in the high - in the high heat rate. But my little diamond, now, is almost joined with the rectangle. And I think given half a chance, it's tending to go into another fivesided figure.

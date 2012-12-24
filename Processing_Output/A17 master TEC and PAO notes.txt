@@ -14,3 +14,8 @@
 |040:21:20 - Air-to-Ground 1 Air-to-Ground 2 split
 |040:53:01 - asking Jack to take internal picture
 |041:15:47 - very staticy "hello houston, America"
+|042:57:34 - experiment start
+|045:47:50 - picture of experiment request
+|046:07:22 - picture taken |046:07:42
+|046:11:20 - picture frame reference
+
