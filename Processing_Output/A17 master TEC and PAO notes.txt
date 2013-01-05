@@ -21,4 +21,5 @@
 |046:46:58 - meal period
 |046:42:55 - POSSIBLE ERROR - announced as a replay but no previous index given
 |047:59:15 - photo frame and mag reference
-
+|048:14:55 - references more weather photos
+|056:55:02 - unable to wake up
