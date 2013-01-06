@@ -1423,7 +1423,7 @@
 |008:58:35|CC|And I guess as soon as you change the LiOH canister, if you have or haven't, and charge BATTERY Bravo, then we're ready for you to go to sleep at your leisure. Configuring your comm, remember the SQUELCH, ENABLE, and the VOICE, OFF, when you get ready to go to sleep.
 |008:59:31|CC|Roger, Apollo 17. We copy the film update, and we're ready for you to go to sleep once you've got the LiOH canister changed, if you haven't. And remember also the charge on brady - BATTERY Bravo. After that, it's just the comm configuration, SQUELCH, ENABLE, and VOICE, OFF, when you get ready to go to sleep.
 |008:59:31|CDR|Bob, You're cut in and out. Stand by. We'll talk to you in a minute.
-|009:00:00|CC|Okay, I think we're losing an omni here. 
+|009:00:00|CC|Okay, I think we're losing an OMNI here. 
 ||||Tapes 10-12/1|Page 90
 |009:00:01||REST PERIOD - NO COMMUNICATIONS
 |009:12:33|PAO|This is Apollo Control at 9 hours, 12 minutes. Apollo 17 now, 41,677 nautical miles from Earth, velocity 9,159 feet per second. The spacecraft has stabilized into a passive thermal control mode now. It is completing one revolution every 18 minutes.
@@ -2375,7 +2375,7 @@
 |024:22:51|LMP|Okay, Houston; 17. Are we configured properly now for comm?
 |024:23:04|CC|Stand by, Gor - stand by, Jack.
 |024:23:11|LMP|Okay. I've got - I'm on OMNI Bravo right now.
-|024:23:24|CC|We're in good shape on the comm, and we'll be controlling the omnis.
+|024:23:24|CC|We're in good shape on the comm, and we'll be controlling the OMNIs.
 |024:23:54|LMP|Roger, Bob.
 |024:24:01|CC|17, the rates look great. We're ready to initialize PTC.
 ||||Tape 19/2|Page 162
@@ -2465,7 +2465,7 @@
 |024:58:29|CC|Say again, Jack.
 |024:58:29|LMP|Ambiguous is the best word I can think of for it.
 ||||Tape 19/8|Page 168
-|024:58:29|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "coram," and it says "omni," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
+|024:58:29|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "coram," and it says "OMNI," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
 |024:58:29|LMP|Ho, ho, ho. Tricky fellows. I guess you're right.
 |024:58:29|CC|Yes, it's something we don't - we don't - sim PTCs, TLCs, and TECs very often. That's for sure.
 |024:58:29|LMP|Well, that's because we have a whole day to learn out here.
@@ -2538,8 +2538,8 @@
 |033:45:11|CC|Yes, we are; go ahead.
 ||||Tape 25/4|Page 174
 |033:45:11|LMP|Africa, looks in pretty good shape. There is a -except for an area probably around Zambia and Rhodesia in the tropical convergence zone there, where it looks pretty cloudy and probably quite rainy. There's a very strong circulation pattern and presumably a storm off - just off the coast of northwest Africa. Very spectacular spiral formation of clouds in a cyclone development. It looks like there are probably two fairly weak cyclones -Southern Hemisphere cyclones in the South Atlantic. One, southwest of Cape of Good Hope, and the other about due west of - of the Falkland Islands, maybe a little bit north of that. South America looks to be in quite good shape weatherwise, except possibly Uruguay and maybe northern Argentina which appear to have a - at least some fairly thick clouds there, although no strong circulation associated with this.
-|033:48:01|CC|Okay, Jack. We got all that up to Argentina, then the omni switch kind of cut you off.
-|033:48:01|CC|Jack, we got the - at least the first part of your weather report fine up through the clouds in northern Argentina, and then the switch in omnis cut you out.
+|033:48:01|CC|Okay, Jack. We got all that up to Argentina, then the OMNI switch kind of cut you off.
+|033:48:01|CC|Jack, we got the - at least the first part of your weather report fine up through the clouds in northern Argentina, and then the switch in OMNIs cut you out.
 |033:48:01|LMP|Okay, that was about it, Gordy. That's - I'll talk to you some more later about it. I guess the main thing I need now is - are your consumables.
 |033:48:01|CC|Okay. By the way, you were looking back from more than halfway to the Moon. You're about 125,000 out now. On the consumables, the RCS is running at 1.3 percent over the Flight Plan line. On the C>2Z tanks 2 and 3 are right on the line, end tank 1 is about 4 percent below the line. But it's been there all the way since launch, that same bias on tank 1. On the hydrogen: tanks 1 and 3 are right on the line, tank 2 is about 3 percent above the line. All in all, you're looking real good consumablewise.
 |033:48:01|LMP|Okay. That's hardly worth writing down, I guess.
@@ -2568,7 +2568,7 @@
 ||||Tape 25/7|Page 177
 |034:10:05|CDR|Lost you, Gordo.
 |034:12:47|CC|Say again?
-|034:14:26|CC|Okay, 17* Continuing after being rudely interrupted by the omni switch, the state high school football playoffs here in Texas are underway and -with a whole host of games scheduled this weekend. And the final item, the Major League Baseball Players' Association and the Commissioner's Office are going at it again. It must be getting close to spring training time.
+|034:14:26|CC|Okay, 17* Continuing after being rudely interrupted by the OMNI switch, the state high school football playoffs here in Texas are underway and -with a whole host of games scheduled this weekend. And the final item, the Major League Baseball Players' Association and the Commissioner's Office are going at it again. It must be getting close to spring training time.
 |034:14:26|LMP|Gordy, you cut out since the Nittany Lions.
 |034:14:26|CC|Okay. Did you hear about the - the high school playoffs?
 |034:14:26|LMP|No, the last we heard was the Nittany Lions.
@@ -4122,494 +4122,508 @@
 |057:45:53|CMP|By the way, my sleep report is ... looks like I had about 7-1/2 hours of pretty good sleep.
 |057:46:02|SC|And if you believe that, you're really a ...
 |057:52:20|LMP|Okay, Houston; 17. I don't know if you're ready for this or not, but we have a few reports for you.
-|057:52:20|CC|We're ready. Go ahead, Jack.
-|057:52:20|LMP|Okay. On your CDR: PRD, 17028; he claims 7-1/2 hours of good sleep. He had a Seconal before going to bed, and since the last reporting, has had four containers of water.
-|057:52:20|CC|Roger.
-|057:52:20|LMP|Okay, with respect to food - Let's see, we gave you a - intermediate report yesterday. Do you want that repeated?
-|057:52:20|CC|Negative.
-|057:52:20|LMP|Well, I'm not sure I can differentiate what I said yesterday, so I?d just better give it all to you. This is yesterday's complete report.
-|057:52:20|CC|Okay.
+|057:52:27|CC|We're ready. Go ahead, Jack.
+|057:52:34|LMP|Okay. On your CDR: PRD, 17028; he claims 7-1/2 hours of good sleep. He had a Seconal before going to bed, and since the last reporting, has had four containers of water.
+|057:53:01|CC|Roger.
+|057:53:14|LMP|Okay, with respect to food - let's see, we gave you a intermediate report yesterday. Do you want that repeated?
+|057:53:28|CC|Negative.
+|057:53:33|LMP|Well, I'm not sure I can differentiate what I said yesterday, so I'd just better give it all to you. This is yesterday's complete report.
+|057:52:40|CC|Okay.
 ||||Tape 40/3|Page 284
-|057:52:20|LMP|CDR was scrambled eggs, three bacon squares, peaches, pineapple-grapefruit drink, peanut butter, jelly, bread, chocolate bar, orange drink, apricot -that's dried apricot - one frankfurter, a third of a fruitcake, half a beefsteak, butterscotch pudding, orange drink, and tea.
-|057:52:20|CC|Okay, we got that.
-|057:52:20|LMP|Let me know if I'm too fast for you.
-|057:52:20|CC|No, we've got it all on tape. Go ahead.
-|057:52:20|LMP|Okay, with respect to food yesterday - LMP: scrambled eggs, four bacon squares, orange-pineapple drink, cocoa, potato soup, two peanut butter, two jelly, two bread, cherry bar, orange-grapefruit drink, beefsteak, orange drink, and tea.
-|057:52:20|CC|Okay.
-|057:52:20|LMP|Okay, and the PRD is - -
-|057:52:20|CC|Jack, we're just about to switch antennas now. Why don't you wait until we get through it before continuing.
+|057:52:41|LMP|CDR was scrambled eggs, three bacon squares, peaches, pineapple-grapefruit drink, peanut butter, jelly, bread, chocolate bar, orange drink, apricot - that's dried apricot - one frankfurter, a third of a fruitcake, half a beefsteak, butterscotch pudding, orange drink, and tea.
+|057:54:20|CC|Okay, we got that.
+|057:54:23|LMP|Let me know if I'm too fast for you.
+|057:54:27|CC|No, we've got it all on tape. Go ahead.
+|057:54:42|LMP|Okay, with respect to food yesterday - LMP: scrambled eggs, four bacon squares, orange-pineapple drink, cocoa, potato soup, two peanut butter, two jelly, two bread, cherry bar, orange-grapefruit drink, beefsteak, orange drink, and tea.
+|057:55:18|CC|Okay.
+|057:55:30|LMP|Okay, and the PRD is - -
+|057:55:31|CC|Jack, we're just about to switch antennas now. Why don't you wait until we get through it before continuing.
 |057:55:40|LMP|Roger.
-|057:55:40|LMP|Okay, Houston. You back with us?
-|057:55:40|CC|Okay, Jack. I think we're back with you again.
-|057:55:40|LMP|Okay; got you. LMP: PRD, 24064; 7-1/2 hours very good sleep, 1 hour intermittent. Had a Seconal. I took two aspirins yesterday. And since the last reporting, I've had four containers of water.
-|057:55:40|CC|Roger.
-|057:58:29|LMP|Okay. Old CMP - the man of the hour, one mipht say. Scrambled eggs, bacon squares, peaches, cinnamon toast bread, orange juice, cocoa, peanut butter, jelly, bread, cherry bar, citrus beverage, fruitcake, butterscotch pudding, orange drink, turkey and gravy, two frankfurters, and tea. You might say he was a little logey. Okay. CMP: PRD, 15027; 7 and a - let's - Make that 8 hours of very good sleep. He claims he didn't get to sleep for a while. Seconal, and he's had five containers of water since the last reporting.
+|057:57:46|LMP|Okay, Houston. You back with us?
+|057:57:50|CC|Okay, Jack. I think we're back with you again.
+|057:57:55|LMP|Okay; got you. LMP: PRD, 24064; 7-1/2 hours very good sleep, 1 hour intermittent. Had a Seconal. I took two aspirins yesterday. And since the last reporting, I've had four containers of water.
+|057:58:25|CC|Roger.
+|057:58:29|LMP|Okay. Old CMP - the man of the hour, one might say. Scrambled eggs, bacon squares, peaches, cinnamon toast bread, orange juice, cocoa, peanut butter, jelly, bread, cherry bar, citrus beverage, fruitcake, butterscotch pudding, orange drink, turkey and gravy, two frankfurters, and tea. You might say he was a little logey. Okay. CMP: PRD, 15027; 7 and a - let's - Make that 8 hours of very good sleep. He claims he didn't get to sleep for a while. Seconal, and he's had five containers of water since the last reporting.
 ||||Tape 40/4|Page 285
-|057:58:29|CC|Okay.
-|057:58:29|CC|Jack, if - future reports if it's any easier, we can go to negative reporting. If you're fairly close to the menus, just tell us the differences. Whatever is easiest for you is fine with us.
-|058:00:40|LMP|Okay. Well, now that we're eating well, that may be the best way to do it.
-|058:00:40|CC|Okay. I have the - your consumables status, if everybody that's interested is listening.
-|058:00:40|LMP|Go ahead, Gordon.
-|058:00:40|CC|Okay. Your RCS is running right along at 1.3 percent above the Flight Plan line. On your cryos, the O2 tanks 2 and 3 are right on the lines. Tank 1 is still, as before, about 4 percent below -below the line but looking real good. On hydrogen, you're a little above on one tank - on tank 2 - a little bit below on tank 3, but the average is right with the Flight Plan lines. So consumables look good. Over.
-|058:00:40|LMP|Okay. That's good to hear. And, I see that our old SPS oxidizer pressure has dropped some more. I guess the old - the helium is working it's way in there - or out of there.
-|058:00:40|CC|Okay. That's the way it looks to us. One final thing. Management has informed me that since you've been so late getting to work this morning, we are going to have to dock you all a day's annual leave.
-|058:00:40|LMP|All of us! I can understand - I can understand that for the commander, since he's always the commander, but I do not understand why the LMP loses a day - an hour.
+|058:00:01|CC|Okay.
+|058:00:20|CC|Jack, if - future reports if it's any easier, we can go to negative reporting. If you're fairly close to the menus, just tell us the differences. Whatever is easiest for you is fine with us.
+|058:00:41|LMP|Okay. Well, now that we're eating well, that may be the best way to do it.
+|058:00:48|CC|Okay. I have the - your consumables status, if everybody that's interested is listening.
+|058:00:57|LMP|Go ahead, Gordon.
+|058:00:59|CC|Okay. Your RCS is running right along at 1.3 percent above the Flight Plan line. On your cryos, the O2 tanks 2 and 3 are right on the lines. Tank 1 is still, as before, about 4 percent below -below the line but looking real good. On hydrogen, you're a little above on one tank - on tank 2 - a little bit below on tank 3, but the average is right with the Flight Plan lines. So consumables look good. Over.
+|058:01:47|LMP|Okay. That's good to hear. And, I see that our old SPS oxidizer pressure has dropped some more. I guess the old - the helium is working it's way in there - or out of there.
+|058:02:03|CC|Okay. That's the way it looks to us. One final thing. Management has informed me that since you've been so late getting to work this morning, we are going to have to dock you all a day's annual leave.
+|058:02:21|LMP|All of us! I can understand - I can understand that for the commander, since he's always the commander, but I do not understand why the LMP loses a day - an hour.
 ||||Tape 40/5|Page 286
-|058:00:40|CDR|Hello, Houston. This is America.
-|058:00:40|CC|Hello, Geno. Good morning.
-|058:00:40|CDR|Hello, Gordo. Request is that I handle the disciplinary problems up here; how's that?
-|058:00:40|CC|Okay.
-|058:00:40|CC|Geno, we111 have FAO work on a good time in the Flight Plan later here to work in a captain's mast.
-|058:00:40|CDR|Okay; (chuckle) that'll be great. Hey, Gordy, for the record; I swallowed three of those - those gas pills yesterday.
-|058:04:04|CC|Okay.
+|058:02:48|CDR|Hello, Houston. This is America.
+|058:02:51|CC|Hello, Geno. Good morning.
+|058:02:55|CDR|Hello, Gordo. Request is that I handle the disciplinary problems up here; how's that?
+|058:03:03|CC|Okay.
+|058:03:45|CC|Geno, we'll have FAO work on a good time in the Flight Plan later here to work in a captain's mast.
+|058:03:56|CDR|Okay; (chuckle) that'll be great. Hey, Gordy, for the record; I swallowed three of those - those gas pills yesterday.
+|058:04:05|CC|Okay.
+|058:11:46|PAO|This is Apollo Control at 58 hours 11 minutes ground elapsed time into the Mission of Apollo 17. The crew at this time having a belated breakfast, having overslept about an hour, despite many attempts to raise them by playing the Kansas fight-song and the crew alarm being sent up on the up-link, which causes a warbling sound in the headsets. However, apparently, Ron Evans, who was on watch was unable to hear, since likely the earplug had fallen out of his ear while stirring around in his sleep. Some amount of levity there is - it was suggested that their pay be docked or they should be charged with one hour of annual leave at any rate. The spacecraft is presently 58,073, it's just now changed, 58,067 nautical miles out from the Moon approaching an ever increasing velocity as they draw near the moon now 3,284 feet per second. The Earth continuing to get farther away behind them 173,821 nautical miles. At 58:13 and standing by, this is Apollo Control.
 ||||Tape 4l/l|Page 287
-|058:04:04|CMP|Houston, 17.
-|058:04:04|CC|Okay, Ron, we see the 93s; and you're clear to torque them.
-|058:04:04|CMP|Okay, we'll torque them at 19:20.
-|058:19:17|LMP|And, Houston, I've started the dumping.
-|058:19:17|CC|Roger.
-|058:20:07|LMP|And, Houston, we're going to dump A on the water dump - WASTE WATER DUMP.
-|058:20:11|CC|Okay.
-|058:28:30|LMP|Houston, we're starting a - 02 purge.
-|058:28:30|CC|Okay, Jack.
-|058:28:30|CDR|Hey, Gordo, we'll get everything cleaned up in the Flight Plan, including eating up to 59 hours, where we start checking the DELTA-P and pressurizing the CSM for LM entry.
-|058:28:30|CC|Okay. We see you doing all that now, and we're just checking things off as you call them. Sounds good.
-|058:28:30|CDR|Okay. And then when we'll clean all that up -regards to what the time will be - We'll pick up the 59-hour mark then.
-|058:29:34|CC|Okay.
-|058:31:30|LMP|Okay. Waste water dump is terminated.
-|058:31:30|CC|Roger.
-|058:35:23|LMP|Fuel cell purge complete.
+|058:18:30|CMP|Houston, 17.
+|058:18:50|CMP|Houston, 17.
+|058:19:10|CC|Okay, Ron, we see the 93s; and you're clear to torque them.
+|058:19:16|CMP|Okay, we'll torque them at 19:20.
+|058:19:20|LMP|And, Houston, I've started the dumping.
+|058:19:25|CC|Roger.
+|058:20:10|LMP|And, Houston, we're going to dump A on the water dump - WASTE WATER DUMP.
+|058:20:14|CC|Okay.
+|058:28:33|LMP|Houston, we're starting a - O2 purge.
+|058:28:38|CC|Okay, Jack.
+|058:29:00|CDR|Hey, Gordo, we'll get everything cleaned up in the Flight Plan, including eating, up to 59 hours where we start checking the DELTA-P and pressurizing the CSM for LM entry.
+|058:29:19|CC|Okay. We see you doing all that now, and we're just checking things off as you call them. Sounds good.
+|058:29:28|CDR|Okay. And then when we'll clean all that up - regards to what the time will be, we'll pick up the 59-hour mark then.
+|058:29:38|CC|Okay.
+|058:31:33|LMP|Okay. Waste water dump is terminated.
+|058:31:36|CC|Roger.
+|058:35:27|LMP|Fuel cell purge complete.
 ||||Tape 41/2|Page 288
-|058:35:23|CC|Roger on the fuel cell purge.
-|058:39:23|LMP|Hello, Houston; 17.
-|058:39:23|CC|Go ahead.
-|058:39:23|LMP|Roger. While we're getting organized to eat a little bit here, I'll give you your morning weather report, if you want it.
-|058:39:23|CC|Okay, go ahead.
-|058:39:23|LMP|Okay, Gordy. That little storm - fairly big storm - that was off the coast of northwest Africa yesterday, has moved inland and presumably is giving those people up there some weather. Might even be getting some snow up in the Atlas Mountains. It's still fairly well organized and inland a few hundred miles - or the edge of it is inland a few hundred miles. The people at the Cape of Good Hope ought to be seeing some clouds that are forerunners of a large circulation system that's south-southwest of them - that, although large, it seems to have most of its heavy clouds to the southeast of the center. And they may not get any major weather out of this one. But they'll probably have cloudiness for a few days. The storm that was over Buenos Aires yesterday has apparently moved out to sea and is now west - or east-southeast of that area. Otherwise the - except for those three storm areas, the South Atlantic looks relatively calm. The zero phase point is now off the - east coast of South America, and it looks fairly dull and gray. And I suspect no extensive choppiness in that area.
-|058:41:50|CC|Jack, take a breather there. We got an antenna switch coining.
+|058:35:30|CC|Roger on the fuel cell purge.
+|058:39:27|LMP|Hello, Houston; 17.
+|058:39:30|CC|Go ahead.
+|058:39:34|LMP|Roger. While we're getting organized to eat a little bit here, I'll give you your morning weather report, if you want it.
+|058:39:40|CC|Okay, go ahead.
+|058:39:45|LMP|Okay, Gordy. That little storm - fairly big storm - that was off the coast of northwest Africa yesterday, has moved inland and presumably is giving those people up there some weather. Might even be getting some snow up in the Atlas Mountains. It's still fairly well organized and inland a few hundred miles - or the edge of it is inland a few hundred miles. The people at the Cape of Good Hope ought to be seeing some clouds that are forerunners of a large circulation system that's south-southwest of them - that, although large, seems to have most of its heavy clouds to the southeast of the center. And they may not get any major weather out of this one. But they'll probably have cloudiness for a few days. The storm that was over Buenos Aires yesterday has apparently moved out to sea and is now west - or east-southeast of that area. Otherwise the - except for those three storm areas, the South Atlantic looks relatively calm. The zero phase point is now off the - east coast of South America, and it looks fairly dull and gray. And I suspect no extensive choppiness in that area.
+|058:41:54|CC|Jack, take a breather there. We got an antenna switch coining.
 |058:45:10|CC|Okay Jack, we're back with you and listening.
-|058:45:10|LMP|Okay, Gordy, I can't see you right now. I think that was about the extent of it. We'll get some food; and, while I'm eating, I'll look at it and see if there are any more details.
+|058:45:18|LMP|Okay, Gordy, I can't see you right now. I think that was about the extent of it. We'll get some food and, while I'm eating, I'll look at it and see if there are any more details.
 ||||Tape 4l/3|Page 289
-|058:45:30|CC|Okay.
-|058:51:45|CC|17, Houston. I have the morning news here, whenever you'd like to hear it - if you would.
-|058:51:45|CDR|Go ahead, Gordo. We'd like to hear it now.
-|058:51:58|CC|Okay. First, a look at the weather in the local area. It's going to be mostly cloudy through Sunday, with a chance of showers here today - but much warmer. I'll have to wait until we get through the omni switch here, and then I'll be back with you.
-|058:55:04|CC|Okay, 17, continuing on with the weather. It should be - get up to the upper 60s here in Houston today. It was foggy when I came to work, but I understand the Sun is out now and the fog is burned off. On the international-national scene: There's another reported snag in negotiations between Dr. Henry Kissinger and North Vietnam's Le Due Tho. The two have discussed the peace terms since Monday; but, so far, little news concerning the talks has been released by either side. They meet again today. A judge in the Pentagon Papers trial of Daniel Ellsburg has declared a mistrial. Judge Matt Bum has asked that a new jury be selected. Both sides in the cases must now go back to the beginning and prepare their arguments again. Former President Harry Truman is still hospitalized with a serious heart condition. Although listed in critical condition, the 88-year-old former Chief Executive has shown some improvement, according to his daughter, Margaret Truman Daniel. President Nixon has completed selection of his new cabinet by announcing that he will keep Richard Kleindienst as Attorney General, There will be a number of major changes, though, in upper levels of the Justice and Interior Departments. Life Magazine will be no more as of the end of December. The pictorial magazine lost over 30 million dollars during the past 4 years. No doubt some of the final pictures to appear in the famous 36-year-old publication will be those of the Apollo 17 mission. An airliner crashed at Midway Airport in Chicago, Friday. Of the 6l persons aboard, only l8 survived the crash. In other national and international highlights: Unemployment figures show a drop to the lowest level in 2 years; 5.6 billion dollars has been released by the Federal Government in the first revenue-sharing payment to the state and local governments; and the NATO foreign ministers have urged the Soviet Union to cut down troop strength and allow freer movement of people over the east-west borders. In local and regional news: New hijack control devices have been installed at Houston Intercontinental Airport. The new metal detectors are being installed in many airports around the United States. New inspection procedures will also begin in January - of all hand luggage carried aboard airliners. And on the sports page: A1 Conover is not going to return to Wake Forest as rumored. The Rice coach has met with University President Dr. Norman Hackerman to discuss a firm 5-year contract agreement. Professional football highlights today's sports; the "Over-the-Hi11-Gang" from Washington with Billy Kilmer and Larry Brown will take on the Dallas Cowboys at Texas Stadium in Irving. The Cowboys will, no doubt, go with Craig Morton at quarterback. Dallas can ensure itself of a "wild card" slot in the playoffs with the Redskins, if they win. For Dallas, it's a revenge game. The Skins have won nine straight.
-||||Tape 41/4|Page 290
-|058:55:04|CC|Johnny Bench, the Cincinnati Reds all-everything catcher, has been hospitalized for tests. X-rays showed a spot on a lung. Doctors feel sure the lesion is benign, though. The University of Houston basketball team takes on Xavier tonight. The Cougars, with four wins and one loss, will face a Xavier team that likes to play slowdown basketball. The Houston Rockets beat the Portland, Oregon, Trailblazers last night in Hofheinz, 114 to 108. The Big Eight Athletic Conference has joined the Big Ten and the Ohio Athletic Conference in breaking relations with the U.S. Olympic Committee. Back in Houston again: Bill Peterson, the Oiler coach, says he's not planning on new assistant coaches. He says, "The Oilers need more togetherness with their coaches, not new ones." And a final item: the Des Moines, Iowa, post office was emptying a mail pouch. One package
-||||Tape 41/5|Page 291
-|059:00:02|LMP|fell on the floor, broke open, and spilled all over the place. The contents were Postal Service instructions on how to wrap and mail packages to insure safe transit and delivery." Very good news report, Gordo -
-|059:00:02|CDR|Yes. That crash in Chicago, can you tell me a little bit more about it?
-|059:00:02|CC|I read real briefly in the paper, just before I came in, that it did crash in a populated area. It was a very brief report. I don't think the final details have been published yet. I'll check to see if we've got anymore in.
-|059:00:02|CDR|Okay. And I guess you know where - at least my wishes go for that Cowboy game, don't you?
-|059:00:02|CC|I'm not sure that I do.
-|059:00:02|CDR|I'll just let you make an assumption.
+|058:45:29|CC|Okay.
+|058:45:54|PAO|This is Apollo Control. As Lunar Module Pilot Jack Schmitt began describing the global weather systems, as he saw them, from almost 180,000 miles out from Earth, the weather service meterologist here in the Control Center, Allen (Sandy) Sanderson brought in some TIROS weather maps and laid out on the spacecraft communicators console, so that CAPCOM could follow what Schmitt was describing. The crew still having breakfast at this time. CAPCOM is going to describe the tracking after the midcourse 2 yesterday. Spacecraft now 56,962 miles from the Moon, approaching at a velocity of 3,284 feet per second.
+|058:51:44|CC|17, Houston. I have the morning news here, whenever you'd like to hear it - if you would.
+|058:51:52|CDR|Go ahead, Gordo. We'd like to hear it now.
+|058:51:57|CC|Okay. First, a look at the weather in the local area. It's going to be mostly cloudy through Sunday, with a chance of showers here today - but much warmer. I'll have to wait until we get through the OMNI switch here, and then I'll be back with you.
+|058:55:03|CC|Okay, 17, continuing on with the weather. It should be - get up to the upper 60s here in Houston today. It was foggy when I came to work, but I understand the Sun is out now and the fog is burned off. On the international/national scene: There's another reported snag in negotiations between Dr. Henry Kissinger and North Vietnam's Le Duc Tho. The two have discussed the peace terms since Monday; but, so far, little news concerning the talks has been released by either side. They meet again today. A judge in the Pentagon Papers trial of Daniel Ellsburg has declared a mistrial. Judge Matt Burn has asked that a new jury be selected. Both sides in the cases must now go back to the beginning and prepare their arguments again. Former President Harry Truman is still hospitalized with a serious heart condition. Although listed in critical condition, the 88-year-old former Chief Executive has shown some improvement, according to his daughter, Margaret Truman Daniel. President Nixon has completed selection of his new cabinet by announcing that he will keep Richard Kleindienst as Attorney General, There will be a number of major changes, though, in upper levels of the Justice and Interior Departments. Life Magazine will be no more as of the end of December. The pictorial magazine lost over 30 million dollars during the past 4 years. No doubt some of the final pictures to appear in the famous 36-year-old publication will be those of the Apollo 17 mission. An airliner crashed at Midway Airport in Chicago, Friday. Of the 6l persons aboard, only l8 survived the crash. In other national and international highlights: Unemployment figures show a drop to the lowest level in 2 years; 5.6 billion dollars has been released by the Federal Government in the first revenue-sharing payment to the state and local governments; and the NATO foreign ministers have urged the Soviet Union to cut down troop strength and allow freer movement of people over the east-west borders. In local and regional news: New hijack control devices have been installed at Houston Intercontinental Airport. The new metal detectors are being installed in many airports around the United States. New inspection procedures will also begin in January - of all hand luggage carried aboard airliners. And on the sports page: Al Conover is not going to return to Wake Forest as rumored. The Rice coach has met with University President Dr. Norman Hackerman to discuss a firm 5-year contract agreement. Professional football highlights today's sports; the "Over-the-Hill-Gang" from Washington with Billy Kilmer and Larry Brown will take on the Dallas Cowboys at Texas Stadium in Irving. The Cowboys will, no doubt, go with Craig Morton at quarterback. Dallas can ensure itself of a "wild card" slot in the playoffs with the Redskins, if they win. For Dallas, it's a revenge game. The Skins have won nine straight. Johnny Bench, the Cincinnati Reds all-everything catcher, has been hospitalized for tests. X-rays showed a spot on a lung. Doctors feel sure the lesion is benign, though. The University of Houston basketball team takes on Xavier tonight. The Cougars, with four wins and one loss, will face a Xavier team that likes to play slowdown basketball. The Houston Rockets beat the Portland, Oregon, Trailblazers last night in Hofheinz, 114 to 108. The Big Eight Athletic Conference has joined the Big Ten and the Ohio Athletic Conference in breaking relations with the U.S. Olympic Committee. Back in Houston again: Bill Peterson, the Oiler coach, says he's not planning on new assistant coaches. He says, "The Oilers need more togetherness with their coaches, not new ones." And a final item: the Des Moines, Iowa, post office was emptying a mail pouch. One package fell on the floor, broke open, and spilled all over the place. The contents were Postal Service instructions on how to wrap and mail packages to insure safe transit and delivery.
+|059:00:02|LMP|Very good news report, Gordo -
+|059:00:06|CDR|Yes. That crash in Chicago, can you tell me a little bit more about it?
+|059:00:12|CC|I read real briefly in the paper, just before I came in, that it did crash in a populated area. It was a very brief report. I don't think the final details have been published yet. I'll check to see if we've got anymore in.
+|059:00:33|CDR|Okay. And I guess you know where - at least my wishes go for that Cowboy game, don't you?
+|059:00:48|CC|I'm not sure that I do.
+|059:00:56|CDR|I'll just let you make an assumption.
 |059:00:59|CC|Okay. We've got an antenna switch coming here.
-|059:04:22|CC|17, Houston. I have a little more on the plane crash, if you'd like to hear it.
-|059:04:22|CDR|Yes, sir, Gordy. Go ahead.
-|059:04:22|CC|Okay. It was a United Airlines jet, 6l people aboard. And it crashed into a south-side Chicago neighborhood while trying to land at Midway. Most of the 55 passengers - There were - well, I'm not sure I'm getting all the numbers right here. But it said here that most of the 55 passengers were found dead in the debris of a - and it was a Boeing 737 about a half a mile away from the airport. One of the victims was representative George Collins, a Democrat from Illinois - who was returning from Washington to organize a children's Christmas party. The weather, at the time, was a 500-foot ceiling and 1-mile visibility. And sleet and snow were falling at the time. There were no report that any occupants of the houses were injured or killed. I turn back to the back of the paper, here. A United spokesman said one of the six crewmembers, a stewardess, was among l6 persons admitted to Holy Cross Hospital. She said there were two infants among the passengers. Jet apparently missed runway 13 at Midway on - and cruised over the neighborhood of bungalow homes at heights of 500 to 1000 feet and then with his nose up and tail down tore into the dwellings. Witnesses said the plane scraped the roofs of two bungalows and sheared through six houses, setting them aflame. The fuselage of the airliner split, but the nose remained intact. A tail section was sticking out of one house. The plummetting airliner sheared through utility lines and a 2-square-mile area was blacked out. Telephone service was knocked out. A power company spokesman said 5000 homes were affected.
+|059:04:21|CC|17, Houston. I have a little more on the plane crash, if you'd like to hear it.
+|059:04:28|CDR|Yes, sir, Gordy. Go ahead.
+|059:04:30|CC|Okay. It was a United Airlines jet, 6l people aboard. And it crashed into a south-side Chicago neighborhood while trying to land at Midway. Most of the 55 passengers - There were - well, I'm not sure I'm getting all the numbers right here. But it said here that most of the 55 passengers were found dead in the debris of a - and it was a Boeing 737 about a half a mile away from the airport. One of the victims was representative George Collins, a Democrat from Illinois - who was returning from Washington to organize a children's Christmas party. The weather, at the time, was a 500-foot ceiling and 1-mile visibility. And sleet and snow were falling at the time. There were no reports that any occupants of the houses were injured or killed. I turn back to the back of the paper, here. A United spokesman said one of the six crewmembers, a stewardess, was among l6 persons admitted to Holy Cross Hospital. She said there were two infants among the passengers. Jet apparently missed runway 13 at Midway on - and cruised over the neighborhood of bungalow homes at heights of 500 to 1000 feet and then with his nose up and tail down tore into the dwellings. Witnesses said the plane scraped the roofs of two bungalows and sheared through six houses, setting them aflame. The fuselage of the airliner split, but the nose remained intact. A tail section was sticking out of one house. The plummetting airliner sheared through utility lines and a 2-square-mile area was blacked out. Telephone service was knocked out. A power company spokesman said 5000 homes were affected.
 ||||Tape 4l/6|Page 292
-|059:04:22|CDR|Okeydoke.
-|059:04:22|CC|And a little news about your trajectory. Since the midcourse 2, you've been looking real good. You've - you're homing in on 53-1/2-mile parallel. We're discussing midcourse 4, which - if we do it all - it's going to be very small. It's looking like about a foot and a half per second right now. And I guess if we do it, it will only be because it will save us DELTA-V at L0I. Over.
-|059:04:22|CDR|Okay, I was just looking. Those dumps really knocked us for a loop, didn't they?
-|059:04:22|CC|Yes, it - it's driving your PTC out.
-|059:07:41|CDR|Yes, we're at almost 40 degrees now.
-|059:07:41|LMP|Gordy, has the temperature been pretty cold down there?
-|059:07:41|CC|Here, in Houston, it warmed up considerably last night - yesterday afternoon and last night. And this morning, it's probably in the 60s somewhere.
+|059:06:43|CDR|Okeydoke.
+|059:06:50|CC|And a little news about your trajectory. Since the midcourse 2, you've been looking real good. You've - you're homing in on 53-1/2-mile parallel. We're discussing midcourse 4, which - if we do it all - it's going to be very small. It's looking like about a foot and a half per second right now. And I guess if we do it, it will only be because it will save us DELTA-V at LOI. Over.
+|059:07:28|CDR|Okay, I was just looking. Those dumps really knocked us for a loop, didn't they?
+|059:07:34|CC|Yes, it - it's driving your PTC out.
+|059:07:40|CDR|Yes, we're at almost 40 degrees now.
+|059:10:50|LMP|Gordy, has the temperature been pretty cold down there?
+|059:10:55|CC|Here, in Houston, it warmed up considerably last night - yesterday afternoon and last night. And this morning, it's probably in the 60s somewhere.
 |059:11:20|LMP|Makes it - -
+|059:12:04|PAO|This is Apollo Control, 59 hours 12 minutes ground elapsed time. Apollo 17 currently is 56,148 nautical miles out from the Moon closing on the Moon at 3,284 feet per second. Distance from Earth is now 175,441 nautical miles. We'll continue to leave the line up as we proceed into today's activities which includes another activation and check out of the lunar module and hopefully today the communications noise will be somewhat less than it was yesterday. At 59:13 standing by, this is Apollo Control.
 ||||Tape 41/7|Page 293
-|059:18:33|CC|17, Houston. I have some words about the troubles we had during the LM comm checks yesterday, if you have a free moment to listen.
-|059:18:33|CDR|Go ahead, Gordy. We're listening.
-|059:18:33|CC|Okay. We think we've got a pretty good handle on what the problem was - and that was, that the -the LM communications gear, we think, was jumping on the voice subcarrier, rather than the main carrier. And the symptoms that we had point to that. What would happen is, when I would try to transmit, then it would lose lock as soon as I put modulation on the voice subcarrier. During the checks today, we're going to try to verify that the system is indeed working okay. And we can do it without any changes in the onboard procedures by - purely by procedures that will be handled at the ground site and here at Mission Control. And so that's what we're planning to do. We really don't - The problem that happened has been seen before, evidently; and it's not that unusual. We really don't think there's anything wrong with the onboard equipment. Over.
-|059:18:33|LMP|Sounds good, Gordy. We'll just take her slow and easy when I get over there today and make sure we understand it.
-|059:18:33|CC|Okay, Jack. And there's no - real no voice check scheduled, and we don't think any are required. We can tell what we need to do without any voice checks ...
-|059:18:33|LMP|Gordy, you're breaking up. Talk to you as soon as we get another omni.
-|059:20:34|CC|Okay.
-|059:20:34|LMP|While I got you, I took three pictures of the Earth I thought I might have moved one of them. And we're on frame 145.
-|059:20:34|LMP|Did you copy, Gordy?
+|059:18:32|CC|17, Houston. I have some words about the troubles we had during the LM comm checks yesterday, if you have a free moment to listen.
+|059:18:47|CDR|Go ahead, Gordy. We're listening.
+|059:18:49|CC|Okay. We think we've got a pretty good handle on what the problem was - and that was, that the - the LM communications gear, we think, was jumping on the voice subcarrier, rather than the main carrier. And the symptoms that we had point to that. What would happen is, when I would try to transmit, then it would lose lock as soon as I put modulation on the voice subcarrier. During the checks today, we're going to try to verify that the system is indeed working okay. And we can do it without any changes in the onboard procedures by - purely by procedures that will be handled at the ground site and here at Mission Control. And so that's what we're planning to do. We really don't - The problem that happened has been seen before, evidently; and it's not that unusual. We really don't think there's anything wrong with the onboard equipment. Over.
+|059:20:07|LMP|Sounds good, Gordy. We'll just take her slow and easy when I get over there today and make sure we understand it.
+|059:20:17|CC|Okay, Jack. And there's no - real no voice check scheduled, and we don't think any are required. We can tell what we need to do without any voice checks from here.
+|059:20:29|LMP|Gordy, you're breaking up. Talk to you as soon as we get another OMNI.
+|059:20:33|CC|Okay.
+|059:20:41|LMP|While I got you, I took three pictures of the Earth I thought I might have moved one of them. And we're on frame 145.
+|059:21:07|LMP|Did you copy, Gordy?
 ||||Tape 4l/8|Page 294
-|059:20:34|CC|That's affirmative, Jack. I copy. You may not be reading me through the omni switch.
-|059:20:34|LMP|Okay, that was mag November November.
+|059:21:10|CC|That's affirmative, Jack. I copy. You may not be reading me through the OMNI switch.
+|059:21:16|LMP|Okay, that was mag November November.
 |059:21:21|CC|Roger.
-|059:23:50|LMP|Houston, 17. Do you want us to go into a battery B charge?
-|059:23:50|CC|Let me check, Jack. That's affirmative. Go ahead
-|059:23:50|LMP|Okay.
-|059:25:24|LMP|BATTERY B is being CHARGED. And, Gordy, different than the last time - the charger amps is moving up very slowly. Started out at about 0.02 and now is 1 amp - little more - It's still going up. Before, it jumped right up to about 2 amps. Is that expected?
-|059:25:24|CC|Oh ... we'll check on that. Stand by.
-|059:25:24|CDR|Gordy, the LM/CM DELTA-P is 0.6. You still want us to take the command module up?
-|059:25:24|CC|Geno, that'll be fine. You will not have to jack up the command module pressure.
-|059:25:24|CDR|Okay, I think I'll maneuver at attitude then.
-|059:26:40|CC|Okay; sounds good.
-|059:28:07|CC|Jack, the way the amps are going to look when you put the charger on is the function of the state of the charge of the battery. And what you described is about what we'd expect, considering where the battery should be.
-|059:28:07|LMP|Okay; that's what I figured. It's up about one and three-quarter amps now.
-|059:28:07|CC|Roger.
-|059:28:07|LMP|And it appears to be stable.
+|059:23:49|LMP|Houston, 17. Do you want us to go into a battery B charge?
+|059:23:55|CC|Let me check, Jack. That's affirmative. Go ahead
+|059:24:02|LMP|Okay.
+|059:25:23|LMP|BATTERY B is being CHARGED. And, Gordy, different than the last time - the charger amps is moving up very slowly. Started out at about 0.2 and now is 1 amp - little more - It's still going up. Before, it jumped right up to about 2 amps. Is that expected?
+|059:25:49|CC|Oh ... we'll check on that. Stand by.
+|059:25:59|CDR|Gordy, the LM/CM DELTA-P is 0.6. You still want us to take the command module up?
+|059:26:19|CC|Geno, that'll be fine. You will not have to jack up the command module pressure.
+|059:26:28|CDR|Okay, I think I'll maneuver at attitude then.
+|059:26:38|CC|Okay; sounds good.
+|059:28:06|CC|Jack, the way the amps are going to look when you put the charger on is the function of the state of the charge of the battery. And what you described is about what we'd expect, considering where the battery should be.
+|059:28:24|LMP|Okay; that's what I figured. It's up about one and three-quarter amps now.
+|059:28:28|CC|Roger.
+|059:28:34|LMP|And it appears to be stable.
 ||||Tape 4l/9|Page 295
-|059:28:07|CC|Okay.
-|059:28:07|LMP|Gordy, I'm in the process of - I'm in the process of putting biomed sensors on.
-|059:28:45|CC|Roger.
-|059:28:45|CMP|Hey, Houston; 17. Thanks to a little South Carolina boy we had up here last time, we've got some grits up here. And they're really not too bad. A little butter on them and - A little bit dry. Of course, you could add a little more water to them and they'd be a little better, but not bad at all.
-|059:28:45|CC|I can't believe I'm hearing that from a real Yankee
-|059:28:45|CMP|Of course, Kansas is not exactly Yankee.
-|059:28:45|CDR|Let me tell you, that does not apply to the little old farm boy from Chicago.
-|059:28:45|CC|Roger.
-|059:28:45|LMP|As you students of American history may recall, Kansas caused a lot of the problem we had with those two people.
-|059:28:45|CC|Roger.
-|059:31:48|CDR|And grits is causing the rest of it.
-|059:32:39|CC|17, Houston. We see that you're making a maneuver uncoupled in pitch, and we'd rather you make it coupled to keep FD0 happy. Over.
-|059:32:39|LMP|Okay.
-|059:33:56|CDR|Yes, that was my fault, Gordo. I screwed up here.
+|059:28:37|CC|Okay.
+|059:28:39|LMP|Gordy, I'm in the process of - I'm in the process of putting biomed sensors on.
+|059:28:44|CC|Roger.
+|059:30:44|CMP|Hey, Houston; 17. Thanks to a little South Carolina boy we had up here last time, we've got some grits up here. And they're really not too bad. A little butter on them and - A little bit dry. Of course, you could add a little more water to them and they'd be a little better, but not bad at all.
+|059:31:06|CC|I can't believe I'm hearing that from a real Yankee
+|059:31:13|CMP|Of course, Kansas is not exactly Yankee.
+|059:31:16|CDR|Let me tell you, that does not apply to the little old farm boy from Chicago.
+|059:31:23|CC|Roger.
+|059:31:30|LMP|As you students of American history may recall, Kansas caused a lot of the problem we had with those two people.
+|059:31:41|CC|Roger.
+|059:31:46|CDR|And grits is causing the rest of it.
+|059:32:38|CC|17, Houston. We see that you're making a maneuver uncoupled in pitch, and we'd rather you make it coupled to keep FDO happy. Over.
+|059:32:50|LMP|Okay.
+|059:32:54|CDR|Yes, that was my fault, Gordo. I screwed up here.
 |059:42:50|CMP|Houston, EMERGENCY CAB REPRESS is OFF.
-|059:42:50|CC|Roger.
+|059:42:56|CC|Roger.
 ||||Tape 41/10|Page 296
-|059:43:03|CMP|Okay, REPRESS PACKAGE valve is OFF.
-|059:43:03|CC|Say again, Ron.
-|059:43:03|CDR|Hello, Gordy. You with us?
-|059:43:03|CC|Yes. How do you read?
-|059:43:03|CDR|We're reading you loud and clear. The EMERGENCY CABIN PRESSURE SELECT is OFF. And we're about ready to open the EQUALIZATION valve.
-|059:43:03|CC|Okay. And we're ready for the high gain.
-|059:43:31|CMP|Okay.
+|059:43:04|CMP|Okay, REPRESS PACKAGE valve is OFF.
+|059:43:08|CC|Say again, Ron.
+|059:43:09|CDR|Hello, Gordy. You with us?
+|059:43:10|CC|Yes. How do you read?
+|059:43:15|CDR|We're reading you loud and clear. The EMERGENCY CABIN PRESSURE SELECT is OFF. And we're about ready to open the EQUALIZATION valve.
+|059:43:25|CC|Okay. And we're ready for the high gain.
+|059:43:32|CMP|Okay.
+|059:44:30|PAO|This is Apollo Control 59 hours 44 minutes Ground Elapsed Time into the mission of Apollo 17. The crew, at this time, making preparations for entry into the lunar module.
 ||||Tape 42/1|Page 297
-|059:44:45|CC|Looking good.
-|059:45:19|CDR|Okay, Gordy. I was reading 0.2 on the DELTA-P and the hatch is cracked.
-|059:45:19|CC|Roger, Gene.
-|059:48:39|LMP|Hey, Houston; 17. How do you read the LMPs biomed?
-|059:48:39|CC|Let me check.
-|059:49:09|CC|Jack, the EKG looks great. Your ZPN looks like a sensor may be loose.
-|059:49:09|CC|And we'll be handing over here in - -
-|059:49:09|LMP|... loose sensor ...
-|059:49:09|CC|- - about 30 seconds.
+|059:44:44|LMP|Gordy, that's the high-gain. How do you like it?
+|059:44:48|CC|Looking good.
+|059:45:20|CDR|Okay, Gordy. I was reading 0.2 on the DELTA-P and the hatch is cracked.
+|059:45:25|CC|Roger, Gene.
+|059:48:40|LMP|Hey, Houston; 17. How do you read the LMPs biomed?
+|059:48:46|CC|Let me check.
+|059:49:08|CC|Jack, the EKG looks great. Your ZPN looks like a sensor may be loose.
+|059:49:25|CC|And we'll be handing over here in - -
+|059:49:27|LMP|... loose sensor ...
+|059:49:28|CC|- - about 30 seconds.
 |059:49:31|LMP|Okay. We're in the process of getting the probe and drogue out. I pushed on the sensors real hard again, and see if that helps it.
-|059:49:31|CC|Okay. We'll take a look.
-|059:49:52|CC|That helped it. Don't worry about it, until we call you again.
-|059:49:52|CDR|... on that one, Gordy. You've always been one of those smooth talkers.
-|059:54:51|CMP|There's all - yes - they're down there somewhere.
-|059:54:53|CMP|Okay. The probe is out. And we'll try the drogue now.
-|059:54:53|CC|Okay, Ron.
-|059:57:50|CDR|Okay, the - the drogue is out, and we're going up to take another look at Challenger.
+|059:49:40|CC|Okay. We'll take a look.
+|059:49:53|CC|That helped it. Don't worry about it, until we call you again.
+|059:50:05|CDR|... on that one, Gordy. You've always been one of those smooth talkers.
+|059:54:50|CMP|There's all - yes - they're down there somewhere.
+|059:54:54|CMP|Okay. The probe is out. And we'll try the drogue now.
+|059:54:58|CC|Okay, Ron.
+|059:57:53|CDR|Okay, the - the drogue is out, and we're going up to take another look at Challenger.
 ||||Tape 42/2|Page 298
-|059:57:50|CC|Okay, Gene.
-|059:59:30|LMP|Somebody left their lights on in here.
-|059:59:30|CC|Roger.
-|059:59:30|LMP|It's just like a refrigerator.
-|059:59:30|CC|Roger.
+|059:58:03|CC|Okay, Gene.
+|059:59:31|LMP|Somebody left their lights on in here.
+|059:59:37|CC|Roger.
+|059:59:44|LMP|It's just like a refrigerator.
+|059:59:49 |CC|Roger.
 |060:00:36|LMP|Docking index is unchanged.
-|060:00:36|CC|Okay. It's a plus 1.2. Right?
-|060:00:44|LMP|That's affirm.
-|060:03:17|CC|Ron, Houston. Over.
-|060:03:17|CMP|Go ahead.
-|060:03:17|CC|Okay, Ron. When you get a - a moment, when it's convenient, we'd like you to go up to the latch number 4 there, the one that's been giving us trouble, and we'd like you - well, we think it's just half cocked and we'd like you to stroke it. We think it will probably cock on one - with one more stroke. We'd like you to stroke it at least twice more to verify that it is really cocked. And as you do stroke the handle, we'd like you to notice approximately what point in the - in the throw that the resistance increases. I think that summarizes what we want you to do, if you keep us advised as you go along.
-|060:03:17|CMP|Okay.
-|060:03:17|CC|We - we're going to leave it cocked then from here cm until redocking after rendezvous. Well - we don't want to - we don't want you to fire it.
-|060:03:17|CMP|Sure. Understand.
-|060:05:08|LMP|Houston, we're transferring to IM power.
-|060:05:08|CC|Roger.
-|060:05:08|LMP|Okay, Houston. I'm going to give them LM POWER. I'm going to go RESET and OFF.
+|060:00:40|CC|Okay. It's a plus 1.2. Right?
+|060:00:45|LMP|That's affirm.
+|060:03:18|CC|Ron, Houston. Over.
+|060:03:23|CMP|Go ahead.
+|060:03:25|CC|Okay, Ron. When you get a - a moment, when it's convenient, we'd like you to go up to the latch number 4 there, the one that's been giving us trouble, and we'd like you - well, we think it's just half cocked and we'd like you to stroke it. We think it will probably cock on one - with one more stroke. We'd like you to stroke it at least twice more to verify that it is fully cocked. And as you do stroke the handle, we'd like you to notice approximately what point in the - in the throw that the resistance increases. I think that summarizes what we want you to do, if you keep us advised as you go along.
+|060:04:21|CMP|Okay.
+|060:04:23|CC|We - we're going to leave it cocked then from here on until redocking after rendezvous. Well - we don't want to - we don't want you to fire it.
+|060:04:38|CMP|Sure. Understand.
+|060:05:08|LMP|Houston, we're transferring to LM POWER.
+|060:05:11|CC|Roger.
+|060:05:14|LMP|Okay, Houston. I'm going to give them LM POWER. I'm going to go RESET and OFF.
 ||||Tape 42/3|Page 299
-|060:05:21|LMP|And we have LM power.
-|060:05:21|CC|Roger.
+|060:05:22|LMP|And we have LM power.
+|060:05:25|CC|Roger.
 |060:05:49|CDR|Gordo, this is Geno.
-|060:05:49|CC|Go ahead, Gene.
-|060:05:54|CDR|Okay. While my compatriots are carrying out their respective tasks, I'm going to go off the air here for a - a few short minutes. And give you a call when I get back.
-|060:05:54|CC|Okay.
-|060:06:12|LMP|And I'm in step 3, Gordy, on 2-2.
-|060:06:12|CC|Roger.
+|060:05:51|CC|Go ahead, Gene.
+|060:05:55|CDR|Okay. While my compatriots are carrying out their respective tasks, I'm going to go off the air here for a - a few short minutes. And give you a call when I get back.
+|060:06:07|CC|Okay.
+|060:06:10|LMP|And I'm in step 3, Gordy, on 2-2.
+|060:06:15|CC|Roger.
 |060:07:25|CMP|Okay, Houston. America here. I'm on nor docking latch number 4 now.
-|060:07:25|CC|Okay, Ron.
+|060:07:31|CC|Okay, Ron.
 |060:07:50|CMP|Okay, the handle itself is free swinging at - to a point about 1 inch beyond the backside of the J-hook.
-|060:07:50|CC|Roger.
-|060:08:10|CMP|And, I'll go ahead and try to cock it now.
-|060:08:21|LMP|Gordy, ED BATs are 37*2 and 37.2, and the BUS VOLTAGES are 26.2 and I'll bring on the high taps.
-|060:08:21|CC|Okay, Jack. Sounds good.
-|060:08:42|CMP|And, Houston, as we all suspected, it has one cock on it, or it had one cock. Now it's fully cocked. And the handle itself is free swinging. The plunger has depressed, oh, almost three-quarters of an inch from the top. And it is no longer parallel with the surface.
-|060:08:42|CC|Roger, Ron.
+|060:08:10|CC|Roger.
+|060:08:11|CMP|And, I'll go ahead and try to cock it now.
+|060:08:19|LMP|Gordy, ED BATs are 37.2 and 37.2, and the BUS VOLTAGES are 26.2 and I'll bring on the high taps.
+|060:08:36|CC|Okay, Jack. Sounds good.
+|060:08:41|CMP|And, Houston, as we all suspected, it has one cock on it, or it had one cock. Now it's fully cocked. And the handle itself is free swinging. The plunger has depressed, oh, almost three-quarters of an inch from the top. And it is no longer parallel with the surface.
+|060:09:14|CC|Roger, Ron.
 ||||Tape 42/4|Page 300
-|060:09:19|CMP|Okay. When you look back in the side of it there, that little J-hodk with the snowman in it, the snowman's head points - as you look directly at the side of it, it points - the snowman's head is at 8 o'clock and the connecting link from the one that connects - the one that goes into the plunger to - to the little fat J-bar there, is parallel with that slot, so that the point of the J sticks out. So it is, indeed, fully cocked.
-|060:09:19|CC|Okay, Ron. Sounds good and that's where we'd like to leave it.
-|060:09:19|CMP|Okay. Will do.
-|060:10:20|LMP|Okay. Step 5È 2-3*
-|060:10:20|CC|Roger.
-|060:11:21|LMP|Okay, Houston. Step 5 couplete. Glycol pressure is 21. It's down about a psi from yesterday.
-|060:11:21|CC|Okay, Jack. Copy.
-|060:11:32|CMP|And, Houston, is magazine II a good one to use for a - some opportunity interior photos?
-|060:11:32|CC|Let me check, Ran.
-|060:11:56|CC|That's affirm; II sounds good.
-|060:11:56|CMP|Hope so. Looks like that's the only one I have.
-|060:11:56|CC|Do you - do you recall when you did the heat flow on HH, if you used all of HH up on that experiment?
-|060:11:56|CC|Don't get it out to look, but I just wondered if you remembered.
-|060:11:56|CMP|... No, it ran out. It didn't - I got the complete cooldown part of the ex - of the experiment on HH and then switched to HIGH. And I got about 2 minutes of HIGH before the film ran out again. Had that at HIGH power on the - on the - -
-|060:11:56|CC|Okay, Ron. Thank you.
+|060:09:18|CMP|Okay. When you look back in the side of it there, that little J-hook with the snowman in it, the snowman's head points - as you look directly at the side of it, it points - the snowman's head is at 8 o'clock and the connecting link from the one that connects - the one that goes into the plunger to - to the little fat J-bar there, is parallel with that slot, so that the point of the J sticks out. So it is, indeed, fully cocked.
+|060:10:00|CC|Okay, Ron. Sounds good and that's where we'd like to leave it.
+|060:10:05|CMP|Okay. Will do.
+|060:10:21|LMP|Okay. Step 5, 2-3.
+|060:10:24|CC|Roger.
+|060:11:20|LMP|Okay, Houston. Step 5 complete. Glycol pressure is 21. It's down about a psi from yesterday.
+|060:11:28|CC|Okay, Jack. Copy.
+|060:11:34|CMP|And, Houston, is magazine II a good one to use for a - some opportunity interior photos?
+|060:11:44|CC|Let me check, Ron.
+|060:11:57|CC|That's affirm; II sounds good.
+|060:12:04|CMP|Hope so. Looks like that's the only one I have.
+|060:12:12|CC|Do you - do you recall when you did the heat flow on HH, if you used all of HH up on that experiment?
+|060:12:23|CC|Don't get it out to look, but I just wondered if you remembered.
+|060:12:24|CMP|... No, it ran out. It didn't - I got the complete cooldown part of the ex - of the experiment on HH and then switched to HIGH. And I got about 2 minutes of HIGH before the film ran out again. Had that at HIGH power on the - on the - -
+|060:12:50|CC|Okay, Ron. Thank you.
 ||||Tape 42/5|Page 301
-|060:11:56|CMP|After the main part of the experiment was complete.
-|060:11:56|CC|Roger.
-|060:11:56|CC|And, Jack, we're copying LM data now.
-|060:13:02|LMP|Okay, Gordy. Beautiful. I was just going to say step 6 is complete.
-|060:16:45|LMP|Houston, 17.
-|060:16:45|CC|Go ahead.
-|060:16:45|LMP|Roger. I just was thinking while I was waiting here that the cleanliness of these two spacecraft is certainly a tribute to the - all the people at Grumman and Downey and at the Cape, who worked so hard to put them that way.
-|060:16:45|CC|Okay. We'll make sure they hear about it.
-|060:19:31|CC|Challenger, Houston. We're - we've looked at the LM data and it looks perfect, no problems at all. What we're doing right now, though, is - is - the checkout on the carrier and subcarrier lockups on the LM comm. So far, we've had no trouble with it, but we haven't quite completed the routine we wanted to try. Over.
-|060:19:31|LMP|Okay. I understand, Gordy. No - no hurry here.
+|060:12:53|CMP|After the main part of the experiment was complete.
+|060:12:56|CC|Roger.
+|060:13:02|CC|And, Jack, we're copying LM data now.
+|060:13:04|LMP|Okay, Gordy. Beautiful. I was just going to say step 6 is complete.
+|060:16:46|LMP|Houston, 17.
+|060:16:48|CC|Go ahead.
+|060:16:54|LMP|Roger. I just was thinking while I was waiting here that the cleanliness of these two spacecraft is certainly a tribute to the - all the people at Grumman and Downey and at the Cape, who worked so hard to put them that way.
+|060:17:14|CC|Okay. We'll make sure they hear about it.
+|060:19:32|CC|Challenger, Houston. We're - we've looked at the LM data and it looks perfect, no problems at all. What we're doing right now, though, is - is - the checkout on the carrier and subcarrier lockups on the LM comm. So far, we've had no trouble with it, but we haven't quite completed the routine we wanted to try. Over.
+|060:20:00|LMP|Okay. I understand, Gordy. No - no hurry here.
 |060:25:34|CC|Okay, Jack. We've completed our investigation of the comm, there. It all looked good. You can press on page 2-4.
-|060:25:34|LMP|Roger.
-|060:27:13|LMP|Say, Gordy, I see I neglected to pull the BAL LOAD circuit breaker when I went to - after going to high taps. You want me to go back and show you that again?
-|060:27:13|CC|Stand by.
-|060:27:36|LMP|That's the BAL LOADs breaker on 16, so the buses were tied together.
+|060:25:47|LMP|Roger.
+|060:27:14|LMP|Say, Gordy, I see I neglected to pull the BAL LOAD circuit breaker when I went to - after going to high taps. You want me to go back and show you that again?
+|060:27:27|CC|Stand by.
+|060:27:38|LMP|That's the BAL LOADs breaker on 16, so the buses were tied together.
 ||||Tape 42/6|Page 302
-|060:27:36|CC|Roger. I understand.
-|060:27:50|CC|Jack, there's no need to go back. Just keep on going.
-|060:27:50|LMP|Okay. Sorry about that.
-|060:27:50|CC|No problem.
-|060:31:42|CC|America, Houston. We're all ready for the E-MOD dump, if it's convenient to you.
+|060:27:42|CC|Roger. I understand.
+|060:27:53|CC|Jack, there's no need to go back. Just keep on going.
+|060:28:00|LMP|Okay. Sorry about that.
+|060:28:03|CC|No problem.
+|060:31:40|CC|America, Houston. We're all ready for the E-MOD dump, if it's convenient to you.
 |060:32:18|CMP|Houston, this is America. I guess that's for me, isn't it?
-|060:32:18|CC|That's right, for Captain America.
-|060:32:18|CMP|(Laughter) Okay. We'll get her here.
+|060:32:24|CC|That's right, for Captain America.
+|060:32:28|CMP|(Laughter) Okay. We'll get her here.
 |060:32:39|CMP|Okay, VERB 74 ENTER.
-|060:32:44|CC|Okay, we're getting it.
-|060:32:44|CMP|Okay.
+|060:32:46|CC|Okay, we're getting it.
+|060:32:52|CMP|Okay.
 |060:33:11|CMP|And, Houston, we have 50 percent remaining on magazine India India.
-|060:33:11|CC|Roger.
-|060:33:11|CMP|And they're all taken at 6 frames a second.
-|060:33:11|CC|Okay.
-|060:33:54|CC|Okay, America, we've got the dump.
-|060:34:05|CMP|Okay. Understand; you have the dump.
-|060:37:35|CDR|Hello, Gordo. This is Geno. I'm - back on the line.
-|060:37:35|CC|Okay. Welcome back.
-|060:37:35|CDR|Yes, I was just testing out the survival techniques in space.
-|060:37:35|CC|Roger. Did you survive?
+|060:33:18|CC|Roger.
+|060:33:23|CMP|And they're all taken at 6 frames a second.
+|060:33:29|CC|Okay.
+|060:33:55|CC|Okay, America, we've got the dump.
+|060:34:04|CMP|Okay. Understand; you have the dump.
+|060:35:45|PAO|This is Apollo Control at 60 hours 35 minutes ground elapsed time. LM checkout apparently going along quite well at this time. The bulky docking latch has been recocked and will be left in that position until redocking after lunar orbit insertion after the landing. Apollo 17 is now 53,438 nautical miles out from the moon. Velocity now 3,286 feet per second. Meanwhile, back at the Earth, the spacecraft is now 177,980 nautical miles from the Earth. At 60:36 standing by, this is Apollo Control.
+|060:37:34|CDR|Hello, Gordo. This is Geno. I'm - back on the line.
+|060:37:39|CC|Okay. Welcome back.
+|060:37:45|CDR|Yes, I was just testing out survival techniques in space.
+|060:37:51|CC|Roger. Did you survive?
 ||||Tape 42/7|Page 303
-|060:37:35|CDR|Well, so far.
-|060:38:00|CDR|And we've got the IM back on CSM power.
-|060:38:00|CC|Okay.
-|060:38:00|CDR|Gordo, it's called education of necessity.
-|060:38:00|CC|Roger.
-|060:38:00|CDR|Okay. I guess the LM looked pretty good to you, huh?
-|060:38:00|CC|Yes, sir. It looked perfect. And we also went through the little communications main carrier sub carrier lockup check, and the - and the comm system worked perfectly, so there's no problems at all to report.
-|060:39:07|CDR|Okay, fine. We'll start in - with the - Jack donning the PGA, and then I'll follow him.
-|060:39:07|CC|Okay.
+|060:37:58|CDR|Well, so far.
+|060:38:01|CDR|And we've got the IM back on CSM power.
+|060:38:05|CC|Okay.
+|060:38:30|CDR|Gordo, it's called education of necessity.
+|060:38:35|CC|Roger.
+|060:38:43|CDR|Okay. I guess the LM looked pretty good to you, huh?
+|060:38:48|CC|Yes, sir. It looked perfect. And we also went through the little communications main carrier sub carrier lockup check, and the - and the comm system worked perfectly, so there's no problems at all to report.
+|060:39:09|CDR|Okay, fine. We'll start in - with the - Jack donning the PGA, and then I'll follow him.
+|060:39:18|CC|Okay.
 |060:40:38|LMP|Gordy, how'd that ZPN turn out?
-|060:40:38|CC|Let me get another check, here.
+|060:40:42|CC|Let me get another check, here.
 |060:41:21|CC|Okay, Jack. It looks fairly good right now. Don't bother changing anything.
-|060:41:21|LMP|Well, I'm just going to be in a position to work on it in a little while and if the occasion arises, I could.
-|060:41:21|CC|Okay, we'll keep that in mind, although it looks reasonable at the moment. It has shown some -at some times, it's gone to - from edge to edge on their scale but it's come back in right. Find out later if they want to do anything.
-|060:42:00|LMP|Okay, the - the electrolyte pads may be still expanding a little bit so I'm going off the air briefly to start getting into the suit. And I'll talk to you in a little while.
-|060:42:00|CC|Okay.
+|060:41:30|LMP|Well, I'm just going to be in a position to work on it in a little while and if the occasion arises, I could.
+|060:41:40|CC|Okay, we'll keep that in mind, although it looks reasonable at the moment. It has shown some - at some times, it's gone to - from edge to edge on their scale but it's come back in right now.  I'll find out later if they want to do anything.
+|060:42:02|LMP|Okay, the - the electrolyte pads may be still expanding a little bit so I'm going off the air briefly to start getting into the suit. And I'll talk to you in a little while.
+|060:42:15|CC|Okay.
 ||||Tape 42/8|Page 304
 |060:53:48|CDR|Hello, Gordo.
-|060:53:48|CC|Hello.
-|060:53:57|CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
-|060:53:57|CC|Okay.
-|060:53:57|CDR|He's been up there fooling around for a while. We may have to check it out and see what he did.
+|060:53:51|CC|Hello.
+|060:53:56|CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the - primarily of the CSM out the LM windows by the CMP.
+|060:54:13|CC|Okay.
+|060:54:19|CDR|He's been up there fooling around for a while. We may have to check it out and see what he did.
 |060:57:42|CC|America, Houston.
-|060:57:42|CDR|Go ahead, Gordo.
-|060:57:42|CC|That dropout there was because Ascension had a problem. We're now over on Madrid, and you're sounding good.
+|060:57:47|CDR|Go ahead, Gordo.
+|060:57:48|CC|That dropout there was because Ascension had a problem. We're now over on Madrid, and you're sounding good.
 |060:57:59|CDR|Okay.
 |061:01:14|CDR|Okay, Gordo. Jack is in his suit, unzipped at this time. I'm going off the air, and Ron will come on and keep you informed as to how we're going.
-|061:01:14|CC|Okay. Fine.
+|061:01:30|CC|Okay. Fine.
 |061:03:07|LMP|Houston. How do you read the LMP?
-|061:03:07|CC|Loud and clear, Jack.
-|061:03:13|LMP|Okay. I'm in ny suit, presently unzipped. Didn't seem to be any problem at all.
-|061:03:13|CC|Okay.
-|061:04:07|LMP|And, Gordy, I think I found the problem with the biomed sensors. And when I come out of the suit, I can fix it. I put a little of that bacterial cream on the sensor places last nigjht as a preventive mechanism, and I think it's just a little greasy to hold the sensor.
-|061:04:07|CC|Okay.
+|061:03:10|CC|Loud and clear, Jack.
+|061:03:14|LMP|Okay. I'm in my suit, presently unzipped. Didn't seem to be any problem at all.
+|061:03:22|CC|Okay.
+|061:04:07|LMP|And, Gordy, I think I found a problem with the biomed sensors. And when I come out of the suit, I can fix it. I put a little of that bacterial cream on the sensor places last night as a preventive mechanism, and I think it's just a little greasy to hold the sensor.
+|061:04:29|CC|Okay.
 ||||Tape 42/9|Page 305
 |061:09:08|CMP|Okay. Gene's got his suit on and he's going across to the LM now.
-|061:09:08|CC|Roger, Ren.
+|061:09:12|CC|Roger, Ron.
 |061:15:26|CMP|Okay. This is CMP. I'll go off the line here, for a little bit, until I can get my suit on again.
-|061:15:26|CC|Okay, Ron.
-|061:15:26|CMP|And Jack's still on the line up there in the 124 though.
-|061:15:26|CC|Okay.
+|061:15:32|CC|Okay, Ron.
+|061:15:36|CMP|And Jack's still on the line up there in the 124 though.
+|061:15:39|CC|Okay.
 |061:17:37|LMP|Okay, Houston. We're both zipped now, and it went quite easily.
-|061:17:44|CC|Okay, Jack. Sounds super.
+|061:17:23|CC|Okay, Jack. Sounds super.
+|061:21:03|PAO|This is Apollo Control at 61:21 ground elapsed time. Position and velocity on the spacecraft now 51,982 nautical miles from the moon, velocity 3,288 feet per second, distance from earth 179,437 nautical miles. Crew completing their checkout of the lunar module, getting partially suited in their pressure garment assemblies or space suits, if you will, for the installation of the probe and drogue, and closeout of the tunnel into the lunar module. At 61:22 up and live on the air-ground circuit, this is Apollo Control.
+|061:29:38|CMP|This is CMP. I finally got my suit on now.
 ||||Tape 43/1|Page 306
-|061:17:44|CC|Go ahead.
-|061:17:44|CC|America, Houston. Did you call?
-|061:17:44|CMP|No, I was just saying - the CMP. Got my suit on now. And I had a little trouble with the donning liners getting stuck - stuck in the zipper; but I figured out how to get them out of the way now.
-|061:17:44|CC|Okay.
+|061:29:43|CC|Go ahead.
+|061:29:55|CC|America, Houston. Did you call?
+|061:30:02|CMP|No, I was just saying - the CMP. Got my suit on now. And I had a little trouble with the donning liners getting stuck - stuck in the zipper; but I figured out how to get them out of the way now.
+|061:30:16|CC|Okay.
 |061:38:40|CMP|Okay, Houston. Gene has his suit pretty well on now.
-|061:38:40|CC|Okay, Ron.
-|061:38:40|CC|We reviewed the data on the E-MOD. Everything looks normal. One thing you might do is - no big thing, but you might zero NOUN 26. It's still loaded, left over from the EMP you used in the P23 yesterday.
-|061:38:40|CMP|Okay. Thank you much.
-|061:39:49|LMP|Gordy, this is the LMP. How do you read?
-|061:39:49|CC|Loud and clear, Jack.
-|061:39:49|LMP|Say, when I was switching batteries, I noticed switching from low to high taps that there were some reverse-current indications. Sure that's nothing to be concerned about; you probably expected those, right?
-|061:39:49|CC|That's affirmative, Jack. That's normal.
-|061:39:49|LMP|Right.
-|061:55:31|CC|America, Houston. We'd like to terminate the charge on battery B.
+|061:38:47|CC|Okay, Ron.
+|061:38:53|CC|We reviewed the data on the E-MOD. Everything looks normal. One thing you might do is - no big thing, but you might zero NOUN 26. It's still loaded, left over from the EMP you used in the P23 yesterday.
+|061:39:13|CMP|Okay. Thank you much.
+|061:39:48|LMP|Gordy, this is the LMP. How do you read?
+|061:39:51|CC|Loud and clear, Jack.
+|061:39:55|LMP|Say, when I was switching batteries, I noticed switching from low to high taps that there were some reverse-current indications. Sure that's nothing to be concerned about; you probably expected those, right?
+|061:40:13|CC|That's affirmative, Jack. That's normal.
+|061:40:19|LMP|Right.
+|061:49:38|PAO|This is Apollo Control. From all indications on telemetry here in Mission Control, the crew at this time have - has closed the Lunar Module hatch and it should be reinstalling the probe and drogue assemblies. And finally the Command Module hatch, thereby closing out the tunnel. Apollo 17 now 177, whoops would you believe our space digital have gone back to Earth reference momentarily. At any rate the spacecraft is 177,966 nautical miles from Earth, traveling at a velocity of 2,652 feet per second in - with reference to the Earth. And as soon as the space digital display goes back to the Moon reference, we'll read those numbers off. We're waiting for the call from the crew that they have completed stowing or installing the probe and drogue assembly in closing out the tunnel. At 61:51 standing by this is Apollo Control.
+|061:55:30|CC|America, Houston. We'd like to terminate the charge on battery B.
 ||||Tape 43/2|Page 307
-|061:55:31|CMP|Okay; stand by 1. Okay, we'll get that in a minute, Gordon.
-|061:55:31|CC|Okay.
-|061:58:51|CMP|Okay, Gordo, the charge should be terminated on BAT B.
-|061:58:51|CC|Okay.
-|061:58:57|CMP|And 7 Alfa's still - 7 Alfa's still 0.6.
-|061:58:57|CC|Roger.
-|062:04:03|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any 02 HIGH PLOW and I didn't see any lights, and we did get it down in the LEB.
-|062:04:03|CC|Okay, Gene.
-|062:04:20|CDR|And there it is again.
-|062:04:20|CC|Roger.
-|062:04:32|CDR|And again.
-|062:04:32|CC|Roger.
-|062:04:37|CDR|Okay, I saw SPS PRESSURE blink on that one.
-|062:04:37|CC|Roger.
-|062:04:48|CDR|Yes, Gordy, she's triggering continually on SPS PRESSURE.
-|062:05:01|CDR|Yes. I can't reset it, and a minute later she's coming up with a blink on SPS PRESSURE.
-|062:05:01|CC|Okay, Gene. We think it's the - well - well, we -we're sure that it's the oxidizer pressure is right on the trip limit. We're almost certain it's due to helium absorption.
-|062:05:28|CDR|Yes, we're reading 155 right now.
+|061:55:40|CMP|Okay; stand by 1. Okay, we'll get that in a minute, Gordon.
+|061:55:46|CC|Okay.
+|061:58:49|CMP|Okay, Gordo, the charge should be terminated on BAT B.
+|061:58:54|CC|Okay.
+|061:58:56|CMP|And 7 Alfa's still - 7 Alfa's still 0.6.
+|061:59:01|CC|Roger.
+|062:04:02|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any O2 HIGH PLOW and I didn't see any lights, and we did get it down in the LEB.
+|062:04:13|CC|Okay, Gene.
+|062:04:18|CDR|And there it is again.
+|062:04:22|CC|Roger.
+|062:04:30|CDR|And again.
+|062:04:34|CC|Roger.
+|062:04:35|CDR|Okay, I saw SPS PRESSURE blink on that one.
+|062:04:42|CC|Roger.
+|062:04:45|CDR|Yes, Gordy, she's triggering continually on SPS PRESSURE.
+|062:04:59|CDR|Yes. I can't reset it, and a minute later she's coming up with a blink on SPS PRESSURE.
+|062:05:12|CC|Okay, Gene. We think it's the - well - well, we - we're sure that it's the oxidizer pressure is right on the trip limit. We're almost certain it's due to helium absorption.
+|062:05:27|CDR|Yes, we're reading 155 right now.
 ||||Tape 43/3|Page 308
-|062:05:28|CC|Roger.
-|062:08:28|CDR|Okay, Gordy. We got the SPS PRESSURE light on steady now.
-|062:08:28|CC|Roger.
+|062:05:31|CC|Roger.
+|062:08:26|CDR|Okay, Gordy. We got the SPS PRESSURE light on steady now.
+|062:08:30|CC|Roger.
 |062:15:25|CC|America, Houston. If you give us ACCEPT, we'll give you a new state vector. Nothing much wrong with the one you've got, but we're just going to tweak it up.
-|062:15:36|CDR|Okay, Gordy, you've got it.
-|062:15:36|CC|One other question. Do you have the LM closed up now? We're seeing some heater currents that are a little hight indicating maybe the light's still on. And we're just trying to understand where the LM is at the present time.
-|062:16:04|CMP|Okay, I just closed the hatch, just about the time you started talking there.
-|062:16:04|CC|Okay, we'll take a look at the currents now.
+|062:15:37|CDR|Okay, Gordy, you've got it.
+|062:15:39|CC|And one other question. Do you have the LM closed up now? We're seeing some heater currents that are a little hight indicating maybe the light's still on. And we're just trying to understand where the LM is at the present time.
+|062:15:57|CMP|Okay, I just closed the hatch, just about the time you started talking there.
+|062:16:02|CC|Okay, we'll take a look at the currents now.
 |062:18:03|CC|America, it's your computer, and we did the VERB 66.
-|062:18:03|CDR|Okay.
-|062:29:03|CDR|Say, Gordo, what's the trend in thinking on that SPS light - to leave it lit or to bump the pressure up?
-|062:29:03|CC|Well, I - Ed Mitchell must be at work, because we were just talking about that subject. I'll call you when they come up with a final decision.
-|062:29:33|CDR|Okay. And Ron has put the - has closed LM hatch. He's put the drogue in. He's put the probe in, and he's putting the CSM hatch in as a one-man exercise - suited. So he's doing the whole thing, and he's still in his suit. Our suits are stowed.
-|062:29:33|CC|Okay, Gene. We got one question here, that - just -just waiting for a convenient time to ask, and that was - wondered if, with reference to the wakeup problems we had this morning, if you'd clarify just exactly why Ron didn't hear our crew-alert MASTER ALARM. You know exactly why?
+|062:18:11|CDR|Okay.
+|062:29:02|CDR|Say, Gordo, what's the trend in thinking on that SPS light - to leave it lit or to bump the pressure up?
+|062:29:12|CC|Well, I - Ed Mitchell must be at work, because we were just talking about that subject. I'll call you when they come up with a final decision.
+|062:29:26|CDR|Okay. And Ron has put the - has closed LM hatch. He's put the drogue in. He's put the probe in, and he's putting the CSM hatch in as a one-man exercise - suited. So he's doing the whole thing, and he's still in his suit. Our suits are stowed.
+|062:29:47|CC|Okay, Gene. We got one question here, that - just - just waiting for a convenient time to ask, and that was - wondered if, with reference to the wakeup problems we had this morning, if you'd clarify just exactly why Ron didn't hear our crew-alert MASTER ALARM. You know exactly why?
 ||||Tape 43/4|Page 309
-|062:30:22|CMP|Well, it's not the Seconal. As much as I hate to admit it, the POWER AUDIO/TONE was OFF (chuckle) in my headset.
-|062:30:22|CC|Okay. We kind of suspected that - that one.
-|062:30:22|CMP|Okay; that lets you rest a little bit easier. And just to prevent something like that from happening again - or if it should happen again -what we'll do, we'll hook up the tone booster, which we didn't have hooked up last night.
-|062:30:22|CC|Okay. We concur. Sounds good.
-|062:31:24|CMP|Yes. I woke up and I saw that light there and I thought, "Gee-whiz, I just got it in time.,f Until I tried to push - push out that caution and warning MASTER ALARM. And burned my end of my finger.
-|062:31:24|CC|(Laughter)
-|062:31:24|CMP|I was also in a sleep restraint and upside down with a zipper in the back. And I had a little problem getting my hands up to start with, also.
-|062:31:24|CC|Roger.
-|062:32:40|CMP|Hey, Houston, CABIN REPRESS is back to BOTH now -I mean EMERGENCY CABIN REPRESS.
-|062:32:40|CC|Roger, Ron.
+|062:30:20|CMP|Well, it's not the Seconal. As much as I hate to admit it, the POWER AUDIO/TONE was OFF (chuckle) in my headset.
+|062:30:42|CC|Okay. We kind of suspected that - that one.
+|062:30:44|CMP|Okay; that lets you rest a little bit easier. And just to prevent something like that from happening again - or if it should happen again - what we'll do, we'll hook up the tone booster, which we didn't have hooked up last night.
+|062:31:02|CC|Okay. We concur. Sounds good.
+|062:31:22|CMP|Yes. I woke up and I saw that light there and I thought, "Gee-whiz, I just got it in time." Until I tried to push - push out that caution and warning MASTER ALARM. And burned my end of my finger.
+|062:31:33|CC|(Laughter)
+|062:31:50|CMP|I was also in a sleep restraint and upside down with a zipper in the back. And I had a little problem getting my hands up to start with, also.
+|062:32:01|CC|Roger.
+|062:32:40|CMP|Hey, Houston, CABIN REPRESS is back to BOTH now - I mean EMERGENCY CABIN REPRESS.
+|062:32:48|CC|Roger, Ron.
 |062:36:20|LMP|Gordo, if you don't have any objections, we'd like to ge ahead and secure the high gain, and go on to PTC while Ron's doffing his PGA.
-|062:36:20|CC|Let me check and see if we have any.
-|062:37:21|CC|Sounds good to us. Go ahead and, per Flight Plan, spin it up.
-|062:37:21|LMP|Okay.
+|062:36:33|CC|Let me check and see if we have any.
+|062:37:20|CC|Sounds good to us. Go ahead and, per Flight Plan, spin it up.
+|062:37:29|LMP|Okay.
 ||||Tape 43/5|Page 310
 |062:37:34|CC|Okay, I didn't want to mislead you. I mean, you can get ready to spin it up. We'll give you the GO to spin up.
-|062:37:34|LMP|Okay.
-|062:39:06|LMP|Okay, Gordy. You want to leave the high gain until you call?
-|062:39:06|CC|Stand by.
-|062:39:06|CC|Okay. Jack, this is a good attitude to go to OMNI Bravo, and you can go ahead and secure the high gain.
-|062:39:06|LMP|Okay.
-|062:44:45|CC|America, Houston. The rates look good; you're GO for spinup.
-|062:44:45|CDR|Okay; great, Gordo; we're GO for spinup. We've -we've got a show in here that very few men have ever seen, and that's a CMP trying to get out of his suit by himself.
-|062:44:45|CC|Wish I was there to watch.
-|062:44:45|LMP|It really is a story to behold.
-|062:44:45|CDR|Needless to say, we're both very impressed.
-|062:44:45|CC|I can tell.
+|062:37:42|LMP|Okay.
+|062:39:05|LMP|Okay, Gordy. You want to leave the high gain until you call?
+|062:39:15|CC|Stand by.
+|062:39:24|CC|Okay. Jack, this is a good attitude to go to OMNI Bravo, and you can go ahead and secure the high gain.
+|062:39:33|LMP|Okay.
+|062:44:43|CC|America, Houston. The rates look good; you're GO for spinup.
+|062:44:50|CDR|Okay; great, Gordo; we're GO for spinup. We've - we've got a show in here that very few men have ever seen, and that's a CMP trying to get out of his suit by himself.
+|062:45:05|CC|Wish I was there to watch.
+|062:45:10|LMP|It really is a story to behold.
+|062:45:15|CDR|Needless to say, we're both very impressed.
+|062:45:19|CC|I can tell.
 |062:45:53|CC|America, Houston. Use B/D roll for spinup.
-|062:45:53|CDR|Okay.
+|062:45:59|CDR|Okay.
 |062:46:31|LMP|Okay, Houston. This is the LMP on biomed. How do you read?
-|062:46:31|CC|Okay, Jack. Let's take a point check here.
-|062:46:31|CC|America, D-2 ROLL is not on. You need the Delta ROLL jet.
+|062:46:39|CC|Okay, Jack. Let's take a point check here.
+|062:47:09|CC|America, D-2 ROLL is not on. You need the Delta ROLL jet.
 ||||Tape 43/6|Page 311
-|062:46:31|CDR|Yes, I'm still working on it, Gordo. I was just deciding whether to spin minus or plus; but I guess we ought to spin minus, as per the Flight Plan.
-|062:46:31|CC|Okay,
-|062:48:14|CDR|We're on our way.
+|062:47:17|CDR|Yes, I'm still working on it, Gordo. I was just deciding whether to spin minus or plus; but I guess we ought to spin minus, as per the Flight Plan.
+|062:47:25|CC|Okay,
+|062:48:13|CDR|We're on our way.
 |062:48:17|CC|Okay. Okay, - the LMP's EKG and ZPN look good. And on the SPS light, we recommend not doing anything with the system. We want you to go to ACKNOWLEDGE so the - get the light out of your eyes, and then just fly there in ACKNOWLEDGE on the CAUTION and WARNING.
-|062:48:54|CDR|Okay, Gordy. We're in ACKNOWLEDGE, and - I presume, probably after L0I, we'll be able to go back to NORMAL, right?
-|062:48:54|CC|That1s affirmative.
-|062:49:14|CDR|Is that an abnormal amount of helium ingestion [sic], or do you think that's about right?
-|062:49:14|CC|It's - it's absorption, and that's normal.
-|062:52:06|CDR|Hello, Houston. You read?
+|062:48:53|CDR|Okay, Gordy. We're in ACKNOWLEDGE, and - I presume, probably after LOI, we'll be able to go back to NORMAL, right?
+|062:49:08|CC|That's affirmative.
+|062:49:13|CDR|Is that an abnormal amount of helium ingestion [sic], or do you think that's about right?
+|062:49:19|CC|It's - it's absorption, and that's normal.
+|062:52:04|CDR|Hello, Houston. You read?
 |062:52:06|CC|Loud and clear.
-|062:52:12|CDR|Okay, now that we got another look at you, Gordy, it looks like Houston might be right on the fringes of either being clear or clearer. The entire Gulf is pretty nice. Florida looks pretty clear, and Mexico looks pretty clear. There's a big air mass of clouds that looks like it picks up somewhere around the coast at Houston, heads on up north, and then covers most of the Midwest and the East -from about the middle of Mississippi, Alabama, and Georgia on north. It's clear enough now to even see the coral reefs down off of Florida.
+|062:52:11|CDR|Okay, now that we got another look at you, Gordy, it looks like Houston might be right on the fringes of either being clear or clearer. The entire Gulf is pretty nice. Florida looks pretty clear, and Mexico looks pretty clear. There's a big air mass of clouds that looks like it picks up somewhere around the coast at Houston, heads on up north, and then covers most of the Midwest and the East, from about the middle of Mississippi, Alabama, and Georgia on north. It's clear enough now to even see the coral reefs down off of Florida. And it looks like west Texas is probably also pretty clear, at least in a run from east to west. We can see Baja, and on up the coast of California up north.
 ||||Tape 44/1|Page 312
-|062:52:12|CC|Okay, sounds like the whole crew is turning into weathermen.
-|062:52:12|CDR|It's one of the better views we've had of the States, I think, even though we're quite a ways out.
-|062:52:12|CC|Roger. Looks like your subso - subspacecraft point is just about at Peru right now.
-|062:52:12|CDR|Yes, we're - looks like we're looking straight down on the center of South America, pretty close to what you're saying.
-|062:52:12|CDR|Gordy, you want to bring us up to date briefly on how you plan on handling this time update again?
-|062:52:12|CC|Okay. I'll do that. Let me - but let me practice before I start here. Just a minute.
-|062:52:12|CDR|Okay. I'm primarily interested in those parts of the Flight Plan which we're going to eliminate.
-|062:55:16|CC|Okay. Just one second.
-|062:57:33|CC|Geno, I'll read you the PAO release; they summed up pretty well, and I'll just use their words here. The time has been made up in two increments. The first one of 1 hour and 45 minutes in the Flight Plan. The crew activities were jumped ahead by 1 hour, and they essentially began doing those things that were called for 1 hour later in the Flight Plan. They will again jump ahead an hour and 40 minutes, and that will occur at 65 hours. IJy that time they will have completed all those activities required up through 67 hours and 40 minutes in the Flight Plan. Or, in other words, they will have completed all the activities required to get them into lunar orbit 2 hours and 40 minutes early, and in order to make the clocks then agree with where the crew will be in the Flight Plan, we'll jump the clocks ahead 2 hours and 40 minutes. This clock update, which can be likened to going on daylight saving time, only 2 hours and 40 minutes worth of change instead of 1 hour of change as we do on daylight saving time, will occur at 65 hours when the crew will have completed all of those Flight Plan activities up through 67 hours and 40 minutes. (Chuckle) This simply involves setting our clock to 65 hours in the Control Center and aboard the spacecraft to 65 hours, moving them ahead to 67 hours and 40 minutes. Then, barring any further changes in the mission time line, from that point on, the elapsed time clocks, which are used as a cue to Flight Plan activities, should agree with the Flight Plan and events that, in the Flight Plan are called out for a certain time will happen at that time on the elapsed time clocks (laughter) in Mission Control and aboard the spacecraft. (Laughter) This is a convenience factor.
+|062:53:09|CC|Okay, sounds like the whole crew is turning into weathermen.
+|062:53:25|CDR|It's one of the better views we've had of the States, I think, even though we're quite a ways out.
+|062:53:46|CC|Roger. Looks like your subso - subspacecraft point is just about Peru right now.
+|062:53:57|CDR|Yes, we're - looks like we're looking straight down on the center of South America, pretty close to what you're saying.
+|062:54:47|CDR|Gordy, you want to bring us up to date briefly on how you plan on handling this time update again?
+|062:54:57|CC|Okay. I'll do that. Let me - but let me practice before I start here. Just a minute.
+|062:55:04|CDR|Okay. I'm primarily interested in those parts of the Flight Plan which we're going to eliminate.
+|062:55:14|CC|Okay. Just one second.
+|062:57:33|CC|Geno, I'll read you the PAO release; they summed up pretty well, and I'll just use their words here. The time has been made up in two increments. The first one of 1 hour and 45 minutes in the Flight Plan. The crew activities were jumped ahead by 1 hour, and they essentially began doing those things that were called for 1 hour later in the Flight Plan. They will again jump ahead an hour and 40 minutes, and that will occur at 65 hours. By that time they will have completed all those activities required up through 67 hours and 40 minutes in the Flight Plan. Or, in other words, they will have completed all the activities required to get them into lunar orbit 2 hours and 40 minutes early, and in order to make the clocks then agree with where the crew will be in the Flight Plan, we'll jump the clocks ahead 2 hours and 40 minutes. This clock update, which can be likened to going on daylight saving time, only 2 hours and 40 minutes worth of change instead of 1 hour of change as we do on daylight saving time, will occur at 65 hours when the crew will have completed all of those Flight Plan activities up through 67 hours and 40 minutes. (Chuckle) This simply involves setting our clock to 65 hours in the Control Center and aboard the spacecraft to 65 hours, moving them ahead to 67 hours and 40 minutes. Then, barring any further changes in the mission time line, from that point on, the elapsed time clocks, which are used as a cue to Flight Plan activities, should agree with the Flight Plan and events that, in the Flight Plan are called out for a certain time will happen at that time on the elapsed time clocks (laughter) in Mission Control and aboard the spacecraft. (Laughter) This is a convenience factor.
 ||||Tape 44/2|Page 313
-|062:57:33|CDR|You're lucky; we're going to lose an omni.
-|062:57:33|CC|Okay. I'll hold off there for the rest.
-|062:59:26|CDR|Gordy, never mind. I think I got the gist of it.
-|063:04:16|CDR|Did you give up, Gordy?
-|063:04:16|CC|Okay. What we're really going to do - (chuckle) really is simple. At 65 hours we're going to do the update of 2 hours and 40 minutes. And the ; procedures are shown in the Flight Plan at 67:35¥ There just happens - happens to be really no - no activities we have to reschedule in the intervening time. So, after the update is complete, we'll be right on the Flight Plan, both timewise and activ-itywise. Over.
-|063:04:16|CDR|Okay. We're looking at it. Going to have to squeeze my shave in somewhere else, I guess.
+|062:59:15|CDR|You're lucky; we're going to lose an OMNI.
+|062:59:19|CC|Okay. I'll hold off there for the rest.
+|062:59:25|CDR|Gordy, never mind. I think I got the gist of it.
+|063:04:13|CDR|Did you give up, Gordy?
+|063:04:19|CC|Okay. What we're really going to do is - (chuckle) really is simple. At 65 hours we're going to do the update of 2 hours and 40 minutes. And the procedures are shown in the Flight Plan at 67:35. There just happens - happens to be really no - no activities we have to reschedule in the intervening time. So, after the update is complete, we'll be right on the Flight Plan, both timewise and activitywise. Over.
+|063:05:05|CDR|Okay. We're looking at it. Going to have to squeeze my shave in somewhere else, I guess.
 |063:07:38|CC|Hey, Gene; Houston.
-|063:07:38|CDR|Go ahead.
+|063:07:44|CDR|Go ahead.
 ||||Tape 44/3|Page 314
-|063:07:38|CC|Hey, you got to break - you can cast the tying vote. Which is the best description: the water bag or the clock one?
-|063:07:38|CDR|Oh yes. Now I remember. You got a little - give a little credit on this last one, I guess, to - to Public Affairs, because I don't think Gordo could have thought that one up all by himself.
-|063:07:38|CC|Very diplomatic.
-|063:07:38|CDR|Considering I - I was trying to do - to do Charlie's technique step by step, I guess I got to give him little bit more credit from the gymnastic point of view.
-|063:07:38|LMP|That sounded like one of Gordy's aircraft schedules.
-|063:09:07|CC|Amen.
-|063:09:07|CDR|One thing they didn't ... They were moving another Saturn V out on the pad.
-|063:09:07|CC|Jack, we lost all of that due to the antenna switch. Say again.
-|063:09:07|CC|Jack, we missed your last transmission - -
-|063:09:07|CDR|Gordy, you listening?
-|063:09:07|CC|- - due to the antenna switch.
-|063:09:07|CDR|You say you got it, or you're getting it?
-|063:09:07|CC|No, we missed it.
-|063:09:07|CDR|Okay. I said you can look right down at the Cape area - that's the Cape that we know - in Florida, and it's little disheartening because the last time I was up here looking back from this angle, they were moving another Saturn V for another Moon trip out on the pad already. But I guess they're working pretty feverishly out there on B.
-|063:11:53|LMP|Gordy, this is Jack. I think Gene was right. You got some - probably scattered cloud weather, but not very far away from you there's a pretty heavy mass of clouds. It may be the forerunner of that dry cold front you were talking about yesterday, which I can see stretching over into Sonora. But where it hits the stateside, it's got quite a mass of clouds associated with it. It looks like they're moving in your direction.
+|063:07:45|CC|Hey, you got to break - you can cast the tying vote. Which is the best description: the water bag or the clock one?
+|063:08:10|CDR|Oh yes. Now I remember. You got a little - give a little credit on this last one, I guess, to - to Public Affairs, because I don't think Gordo could have thought that one up all by himself.
+|063:08:36|CC|Very diplomatic.
+|063:08:38|CDR|... Considering I - I was trying to do - to do Charlie's technique step by step, I guess I got to give him little bit more credit from the gymnastic point of view.
+|063:09:00|LMP|That sounded like one of Gordy's aircraft schedules.
+|063:09:06|CC|Amen.
+|063:09:18|PAO|This is Apollo Control at 63 hours 9 minutes.
+|063:09:26|CDR|... they were moving another Saturn V out on the pad.
+|063:09:37|CC|Jack, we lost all of that due to the antenna switch. Say again.
+|063:09:58|CC|Jack, we missed your last transmission - -
+|063:10:00|CDR|Gordy, you listening?
+|063:10:01|CC|- - due to the antenna switch.
+|063:10:06|CDR|You say you got it, or you're getting it?
+|063:10:09|CC|No, we missed it.
+|063:10:15|CDR|Okay. I said you can look right down at the Cape area - that's the Cape that we know - in Florida, and it's little disheartening because the last time I was up here looking back from this angle, they were moving another Saturn V for another Moon trip out on the pad already. But I guess they're working pretty feverishly out there on B.
+|063:11:19|PAO|This is Apollo Control at 63 hours 11 minutes ground elapsed time. Charlie Duke was on the spacecraft's communicators console for a while there, discussing the clock update description that had been read up earlier by Gordo Fullerton asking for a judgement on the part of the crew as to whether that description was better than - -
+|063:11:52|LMP|Gordy, this is Jack. I think Gene was right. You got some - probably scattered cloud weather, but not very far away from you there's a pretty heavy mass of clouds. It may be the forerunner of that dry cold front you were talking about yesterday, which I can see stretching over into Sonora. But where it hits the stateside, it's got quite a mass of clouds associated with it. It looks like they're moving in your direction.
 ||||Tape 44/4|Page 315
-|063:11:53|CC|Okay, Jack, thanks for the warning.
-|063:11:53|LMP|Clear behind it, in Arizona and New Mexico and maybe southern Colorado, it looks like there may be another front stretching, or maybe it hits northern Arizona and Utah and up through northern Colorado, and on in to Canada, trending northeast.
-|063:11:53|LMP|You're calling it right on, Jack. I'm looking at the surface chart, and that's about what we see.
-|063:11:53|LMP|Looks like a low might be developing on that one -a wave up in northern Colorado and - although the clouds are a little hard to read.
-|063:11:53|CC|Roger.
-|063:11:53|LMP|Our sub - or our zero phase point - About 20 degrees west of Bolivia, our sub - our zero - zero phase point, and it is quite a bit brighter than yesterday and looks as if, and more general, as if maybe the seas have picked up In that region a little bit.
-|063:11:53|CC|Roger.
-|063:11:53|LMP|One of the more unusual features is developed - as I see - developed in the southeast Pacific just north of the Ross Sea and that is a very striking mushroom pattern on a very large scale. It has north/south clouds streaming streamers from the Ross Sea. And when it gets up about the latitude of Tierra del Fuego, but quite a bit west of that land, it branches out to the east and west in a large mushroom pattern. And, it looks like the top of that mushroom may be a curved cold front that's pushing its way up into the southeast Pacific. It currently - the eastern edge of that front is probably 10 degrees longitude from Tierra del Fuego, and it looks like that land in southern Chile is picking up high clouds, probably associated with that front's movement.
+|063:12:24|CC|Okay, Jack, thanks for the warning.
+|063:12:30|LMP|Clear behind it, in Arizona and New Mexico and maybe southern Colorado, it looks like there may be another front stretching, or maybe it hits northern Arizona and Utah and up through northern Colorado, and on in to Canada, trending northeast.
+|063:12:57|LMP|You're calling it right on, Jack. I'm looking at the surface chart, and that's about what we see.
+|063:13:20|LMP|Looks like a low might be developing on that one - a wave up in northern Colorado and - although the clouds are a little hard to read.
+|063:13:31|CC|Roger.
+|063:13:41|PAO|And that was lunar module pilot, Jack Schmitt.
+|063:13:45|LMP|Our sub - or our zero phase point - About 20 degrees west of Bolivia, our sub - our zero - zero phase point, and it is quite a bit brighter than yesterday and looks as if, and more general, as if maybe the seas have picked up in that region a little bit.
+|063:14:18|CC|Roger.
+|063:14:26|PAO|Some more real-time weather reporting.
+|063:14:29|LMP|One of the more unusual features is developed - as I see - developed in the southeast Pacific just north of the Ross Sea and that is a very striking mushroom pattern on a very large scale. It has north/south clouds streaming streamers from the Ross Sea. And when it gets up about the latitude of Tierra del Fuego, but quite a bit west of that land, it branches out to the east and west in a large mushroom pattern. And, it looks like the top of that mushroom may be a curved cold front that's pushing its way up into the southeast Pacific. It currently - the eastern edge of that front is probably 10 degrees longitude from Tierra del Fuego, and it looks like that land in southern Chile is picking up high clouds, probably associated with that front's movement.
 ||||Tape 44/5|Page 316
-|063:11:53|CC|Roger.
-|063:11:53|LMP|I'll get some shots of that next time around. That's a spectacular pattern. You almost get the feeling that the cold airmass moving out of Antarctica streams for a while north/south. And then it picks - The cloud patterns change and as it starts to migrate, the winds start to change from east to west, Maybe that's where it encounters the Jetstream.
-|063:16:29|CC|Roger.
-|063:19:45|CC|America, Houston. I have a couple of miscellaneous items here.
-|063:19:45|CMP|Okay; go ahead.
-|063:19:45|CC|Okay. We'd like you to disable B2 and D2 just for a drill here.
-|063:19:45|CDR|Oh, thank you, Gordo.
-|063:19:45|CC|Also, the SHe tank looks exactly nominal, as far as the rise rate goes, to us.
-|063:19:45|CDR|Can't argue with that.
-|063:19:45|CC|And to summarize your film budget situation, have three magazines: KK, LL, and MM are budget for the scheduled photos such that they have only five, 19, and one, respectively, frames left over after you've done a.11 the scheduled pictures. And November November, we think, has just - has just nine frames remaining now. The two nonscheduled magazines are 00 and PP; l6o frames each. Those are the ones provided for optional use. We have 44 additional frames scheduled out of November November, scheduled during lunar orbit. There is only nine left in it now, so we'd like to save at least 60 frames out of either Oscar Oscar or Papa Papa, the two optional magazines, to cover the scheduled frames. Guess what we're saying is there is no problem. We've still got plenty of film, but you will have to use some of your optional mags for scheduled pictures. Sixty frames is what we want to save.
+|063:15:49|CC|Roger.
+|063:15:56|LMP|I'll get some shots of that next time around. That's a spectacular pattern. You almost get the feeling that the cold airmass moving out of Antarctica streams for a while north/south. And then it picks - The cloud patterns change and as it starts to migrate, the winds start to change from east to west, Maybe that's where it encounters the Jetstream.
+|063:16:25|CC|Roger.
+|063:18:04|PAO|This is Apollo Control. Going through an antenna switch at the present time.
+|063:19:29|CC|America, Houston. I have a couple of miscellaneous items here.
+|063:19:46|CMP|Okay; go ahead.
+|063:19:47|CC|Okay. We'd like you to disable B2 and D2 just for a drill here.
+|063:19:58|CDR|Oh, thank you, Gordo.
+|063:20:01|CC|Also, the SHe tank looks exactly nominal, as far as the rise rate goes, to us.
+|063:20:16|CDR|Can't argue with that.
+|063:20:19|CC|And to summarize your film budget situation, have three magazines: KK, LL, and MM are budgeted for the scheduled photos such that they have only five, 19, and one, respectively, frames left over after you've done all the scheduled pictures. And November November, we think, has just - has just nine frames remaining now. The two nonscheduled magazines are OO and PP; 160 frames each. Those are the ones provided for optional use. We have 44 additional frames scheduled out of November November, scheduled during lunar orbit. There is only nine left in it now, so we'd like to save at least 60 frames out of either Oscar Oscar or Papa Papa, the two optional magazines, to cover the scheduled frames. Guess what we're saying is there's no problem. We've still got plenty of film, but you will have to use some of your optional mags for scheduled pictures. Sixty frames is what we want to save.
 ||||Tape 44/6|Page 317
-|063:19:45|CMP|Okay; mighty fine, Gordo. Plan on Oscar Oscar for that magazine.
-|063:22:12|CC|Okay.
-|063:34:12|LMP|Gordy; this is Jack.
-|063:34:12|CC|Go ahead, Jack.
-|063:34:12|LMP|I - Cal Tech will never forgive me; I'm a little hesitant on my elementry optics. But I just put Ron's polarizing filter in front of the monocular, looking at the Earth and rotate 90 degrees, and from max to min in terms of brightness, there's a remarkable change. And I suspect that means that the Earth is' polarizing light enough to see it. The main thing that happens is that the oceans get considerably darker when I rotate the filter towards the dark position anyway. The continents don't seem to show any obvious change, but the oceans and the zero phase point darken - oh, I would guess by a factor of two in brightness. Maybe that's an extreme, but I think it's that.
-|063:34:12|CC|Roger. I was just trying to think of a reason. Is it uniform change over all ocean areas, or is it more of a change in some areas than others?
-|063:34:12|LMP|Well, I'd say that the subsolar point shows the greatest change, but you can still - the zero phase point shows the greatest change. But all the oceans get darker.
-|063:35:51|CC|Very interesting. We are just about to switch omnis.
-|063:42:15|LMP|Houston, 17.
-|063:42:15|CC|Go ahead.
-|063:42:15|LMP|Gordy, I figure you're getting an optics briefing ready for me, right?
-|063:42:15|CC|1 haven't had anybody volunteer one. Strictly some layman theories going around, but nothing official.
-|063:42:15|LMP|Okay.
+|063:21:58|CMP|Okay; mighty fine, Gordo. Plan on Oscar Oscar for that magazine.
+|063:22:05|CC|Okay.
+|063:23:04|PAO|This is Apollo Control at 63:23 GET. The space digitals display here in the Control Center still showing Earth to Spacecraft distance and velocity. Distance 180,309 nautical miles, velocity relative to Earth 2,593 feet per second. A few moments ago the lunar module pilot, Jack Schmitt, who is a professional geologist, put on his hat as an amateur meteorologist and described some of the global weather systems visible from their vantage point out beyond 180,000 miles from Earth. Still up live and standing by at 63:24 GET this is Apollo Control.
+|063:34:01|LMP|Gordy; this is Jack.
+|063:34:04|CC|Go ahead, Jack.
+|063:34:08|LMP|I - Cal Tech will never forgive me; I'm a little hesitant on my elementry optics. But I just put Ron's polarizing filter in front of the monocular, looking at the Earth and rotate 90 degrees, and from max to min in terms of brightness, there's a remarkable change. And I suspect that means that the Earth is polarizing light enough to see it. The main thing that happens is that the oceans get considerably darker when I rotate the filter towards the dark position anyway. The continents don't seem to show any obvious change, but the oceans and the zero phase point darken - oh, I would guess by a factor of two in brightness. Maybe that's an extreme, but I think it's that.
+|063:35:10|CC|Roger. I was just trying to think of a reason. Is it uniform change over all ocean areas, or is it more of a change in some areas than others?
+|063:35:24|LMP|Well, I'd say that the subsolar point shows the greatest change, but you can still - the zero phase point shows the greatest change. But all the oceans get darker.
+|063:35:39|CC|Very interesting. We are just about to switch OMNIs.
+|063:42:00|LMP|Houston, 17.
+|063:42:02|CC|Go ahead.
+|063:42:06|LMP|Gordy, I figure you're getting an optics briefing ready for me, right?
+|063:42:11|CC|I haven't had anybody volunteer one. Strictly some layman theories going around, but nothing official.
+|063:42:25|LMP|Okay.
 ||||Tape 44/7|Page 318
-|063:46:05|CC|America, Houston. Just got started on the Cowboy-Redskin game, about 5 minutes into it. The Cowboys are ahead 7 to nothing. They scored the first time they got the ball.
-|063:46:05|LMP|Gordy, you started talking before we had an omni. Try it again.
-|063:46:05|CC|Okay. The Cowboy-Redskin game just got started. It's now 7 to nothing, Cowboys. They scored the first time they got their hands on the ball.
-|063:46:05|LMP|Okay. I think we got most of that. It happened again, though.
-|063:46:05|CDR|Did you say it was 7 to nothing, Cowboys?
-|063:46:05|CC|That's what I said. They scored the first time they got the ball. It's - the game's just about 5 minutes old.
-|063:46:05|CDR|Outstanding. I thought this was Saturday. Isn't -isn't today Saturday?
-|063:46:05|CC|It is, but the college is all through, so the pros are playing on Saturday now.
-|063:46:05|CDR|Beautiful. Seven to nothing, huh? Go get 'em, Cowboys.
-|063:46:05|LMP|But, he would say the same thing for Washington, I'm sure.
-|063:47:45|CDR|Nosiree. Go get 'em, Cowboys.
-|063:48:57|CMP|Houston, 17-
-|063:48:57|CC|Go ahead, Ron.
-|063:48:57|CMP|Okay, Gordo, tfy apologies on the CMP's insuit drinking bag. There was, in fact, water in it. However, somehow, when we put the suit on, the water bag had gotten turned sideways, I guess, is the way to explain -it. It had gotten turned sideways such that the suction tube was crimped sideways. And, as a result, there was no way that you could get any water to go through the tube.
+|063:45:48|CC|America, Houston. Just got started on the Cowboy-Redskin game, about 5 minutes into it. The Cowboys are ahead 7 to nothing. They scored the first time they got the ball.
+|063:46:16|LMP|Gordy, you started talking before we had an OMNI. Try it again.
+|063:46:21|CC|Okay. The Cowboy-Redskin game just got started. It's now 7 to nothing, Cowboys. They scored the first time they got their hands on the ball.
+|063:46:38|LMP|Okay. I think we got most of that. It happened again, though.
+|063:46:45|CDR|Did you say it was 7 to nothing, Cowboys?
+|063:46:48|CC|That's what I said. They scored the first time they got the ball. It's - the game's just about 5 minutes old.
+|063:46:57|CDR|Outstanding. I thought this was Saturday. Isn't - isn't today Saturday?
+|063:47:03|CC|It is, but the college is all through, so the pros are playing on Saturday now.
+|063:47:11|CDR|Beautiful. Seven to nothing, huh? Go get 'em, Cowboys.
+|063:47:20|LMP|But, he would say the same thing for Washington, I'm sure.
+|063:47:26|CDR|Nosiree. Go get 'em, Cowboys.
+|063:48:39|CMP|Houston, 17-
+|063:48:41|CC|Go ahead, Ron.
+|063:48:46|CMP|Okay, Gordo, my apologies on the CMP's in-suit drinking bag. There was, in fact, water in it. However, somehow, when we put the suit on, the water bag had gotten turned sideways, I guess, is the way to explain it. It had gotten turned sideways such that the suction tube was crimped sideways. And, as a result, there was no way that you could get any water to go through the tube.
 ||||Tape 44/8|Page 319
-|063:48:57|CC|Okay. You're talking about the problem we had there just before launch, right?
-|063:48:57|CMP|That1s affirmative - prelaunch.
-|063:48:57|CC|Okay, and for your information, the PTC looks good. It ought to hold.
-|063:48:57|CMP|Okay. Mighty fine. I lost my scissors. If there is anything you can do to help me find them, I'd be - appreciate it.
-|063:48:57|CC|Okay.
-|063:50:22|CMP|Okay (1aughing).
-|063:52:40|CC|Got a game plan update for you here. It's now 14-nothing, Dallas; still in the first quarter.
-|063:52:40|CDR|You're sure a bearer of good news, Gordy. That's great.
-|063:52:40|LMP|Gordy, I just - this is Jack. I just tried the red filter on the front of the monocular and about the only major thing I noticed was that the cloud patterns over the landmasses seemed to be enhanced. The contrast between cloud and land, particularly green land is enhanced. Otherwise, all it does is make the red - the Earth look a little red.
-|063:53:37|CC|Roger, Jack.
+|063:49:25|CC|Okay. You're talking about the problem we had there just before launch, right?
+|063:49:32|CMP|That's affirmative - prelaunch.
+|063:49:36|CC|Okay, and for your information, the PTC looks good. It ought to hold.
+|063:49:46|CMP|Okay. Mighty fine. I lost my scissors. If there's anything you can do to help me find them, it'd be appreciated.
+|063:49:59|CC|Okay.
+|063:50:03|CMP|Okay (1aughing).
+|063:52:20|CC|Got a game plan update for you here. It's now 14-nothing, Dallas; still in the first quarter.
+|063:52:30|CDR|You're sure a bearer of good news, Gordy. That's great.
+|063:52:41|LMP|Gordy, I just - this is Jack. I just tried the red filter on the front of the monocular and about the only major thing I noticed was that the cloud patterns over the landmasses seemed to be enhanced. The contrast between cloud and land, particularly green land is enhanced. Otherwise, all it does is make the red - the Earth look a little red.
+|063:53:17|CC|Roger, Jack.
+|063:56:04|PAO|This is Apollo Control at 63 hours 56 minutes Ground Elapsed Time. Space digital display still showing the Earth reference numbers 181,123 nautical miles out from Earth. Velocity 2,573 feet per second relative to the Earth. There will be a change of shift press conference in the News Center Briefing Room at approximately 4:15 with Flight Director Neil Hutchinson and at 63:56, standing by, this is Apollo Control.
 |064:04:13|CDR|Hey, Gordo; this is Gene.
 |064:04:13|CDR|Hey, Houston; this is 17.
 |064:04:13|CC|Roger, Geno. I think we've got you now. Go ahead.
@@ -5478,7 +5492,7 @@
 |079:20:41|CC|Okay, 17, I got the CDRs food and then you broke up, and I got 5 hours of sleep and two containers of water. Was there something between?
 |079:20:41|LMP|That's firm, your - his PRD reading, 17032.
 |079:20:41|CC|Okay, copy that.
-|079:20:41|LMP|And I think, Bob, we're coming around different omni, so I'll wait on the rest of it.
+|079:20:41|LMP|And I think, Bob, we're coming around different OMNI, so I'll wait on the rest of it.
 ||||Tape 54/4|Page 382
 |079:23:59|CC|Roger, That's affirm.
 |079:26:55|LMP|Okay, Houston; 17. How do you read now?
@@ -5507,12 +5521,12 @@
 |079:32:19|CC|Okay, we copy minus 99-0 and minus 98.9? Geno.
 |079:32:19|CDR|And - -
 |079:33:21|CC|And we'd like OMNI Charlie, please there, 17.
-|079:35:26|CC|And, Apollo 17; Houston. We'd like to recommend you go SQUELCH, OFF, at this time, if you haven't; and we'll keep calling you the omnis to change as you rotate there. Over.
+|079:35:26|CC|And, Apollo 17; Houston. We'd like to recommend you go SQUELCH, OFF, at this time, if you haven't; and we'll keep calling you the OMNIs to change as you rotate there. Over.
 |079:35:26|LMP|Okay, Bob, we've been flying normally with it enabled; maybe you think that's the problem.
 |079:35:26|CC|Stand by on that and, while we're thinking about it, can we confirm that the only medication you've had is a Seconal for you and a Seconal for Ron, and nothing for the Commander?
 |079:35:26|CDR|This is Geno, that's right; I did not take any Seconal last night. One thing I wanted to talk to you about though, I - I took one antigas pill after breakfast, I took one after supper, and I took one prior to going to sleep, which were probably within an hour apart. If you've got a better solution than those gas pills, I'd sure like to hear it
 |079:35:26|CC|Understand that, Gene. We'll get back with you, I guess, on that later.
-|079:37:20|CC|And, Jack, as far as turning the SQUELCH, OFF, I -they do believe that we're better with that for margins and general management at this distance with the omni. As soon as we plot a PTC and go on the high gain, we'll be much better off.
+|079:37:20|CC|And, Jack, as far as turning the SQUELCH, OFF, I -they do believe that we're better with that for margins and general management at this distance with the OMNI. As soon as we plot a PTC and go on the high gain, we'll be much better off.
 |079:37:20|LMP|Okay, Bob.
 |079:38:46|CC|And, 17; Houston. You can do without your water dump now. We're in good shape. We'll dump at 94 hours.
 |079:38:46|CDR|94 hours. Okay.
@@ -5531,7 +5545,7 @@
 |079:44:41|CC|Copy that.
 |079:44:41|CC|Say again that time. Was that 78:30? You were sleeping then.
 |079:44:41|CDR|Negative. That was 72:30.
-|079:44:41|CC|Okay. Copy that. And part of the reason we had a little problem that - this - this last time, Jack, was we planned to call the omnis and we didn't get the word around down here. And we didn't call the omni to you in time. We're still planning on doing that, and I think we'll be more coordinated next time.
+|079:44:41|CC|Okay. Copy that. And part of the reason we had a little problem that - this - this last time, Jack, was we planned to call the OMNIs and we didn't get the word around down here. And we didn't call the OMNI to you in time. We're still planning on doing that, and I think we'll be more coordinated next time.
 |079:44:41|LMP|Okay. We'll bear with you.
 ||||Tape 54/8|Page 386
 |079:44:41|CC|And, Jack, I presume that's magazine November November.
@@ -5590,7 +5604,7 @@
 ||||Tape 55/7|Page 393
 |080:13:55|LMP|Okay. I just wanted to clear my reputation, Bob. Now it's perfectly clean again.
 |080:14:02|CC|As clean as ever, anyway.
-|080:14:02|CC|Okay. 17, I guess we decided we'd let - we'll run the omnis down here instead of having you guys push them all the time. So if you'll select OMNI Bravo at the present time, then we'll take over and run the omnis for you.
+|080:14:02|CC|Okay. 17, I guess we decided we'd let - we'll run the OMNIs down here instead of having you guys push them all the time. So if you'll select OMNI Bravo at the present time, then we'll take over and run the OMNIs for you.
 |080:14:02|LMP|Okay, Bob. It's not too big a deal. If anytime you think you want to talk to us continuously, go ahead and call them, if we're not busy.
 |080:14:02|CC|Okay. Copy that. Let us know when you're ready. I've got a pad here for you guys to copy, but there's no big hurry on it. Finish your eat period and give us a call.
 |080:14:02|LMP|Okay. I'll be with you in about 5 minutes.
@@ -5611,8 +5625,8 @@
 |080:17:40|LMP|Bob, what pad are you going to give me?
 |080:17:40|CC|Okay, I've got a - coming up, pericynthion - plus-2-hour abort pad here.
 |080:17:40|CC|17, Houston.
-|080:21:41|LMP|Yes, Bob. Here 1s 17. Say, for a while here, why don't you guys go ahead and manage the omnis. I think we can get things done a little better; and when it becomes inconvenient for us to switch, we'll let you know.
-|080:21:41|CC|Okay. You want us to call them to you - Is that what you're saying by you manag - we manage the omnis?
+|080:21:41|LMP|Yes, Bob. Here 1s 17. Say, for a while here, why don't you guys go ahead and manage the OMNIs. I think we can get things done a little better; and when it becomes inconvenient for us to switch, we'll let you know.
+|080:21:41|CC|Okay. You want us to call them to you - Is that what you're saying by you manag - we manage the OMNIs?
 |080:21:41|LMP|Yes, we lose 5 or 10 minutes going around here ã without comm, and it usually breaks up seemingly when somebody has something to say, either you or us.
 |080:21:41|CC|Roger. Okay. That's fine. Stand by.
 |080:21:41|LMP|That's up to you guys, but, it seems to me, it would be more convenient.
@@ -5936,7 +5950,7 @@
 |083:35:54|LMP|Okay, Gordy. How did you reach us when you finally started calling?
 |083:35:54|CC|Stand by.
 |083:35:54|CC|Jack, we didn't do anything to cause the problem there, we were up-linking through Madrid and downlinking through Ascension. Did you see anything on board that could have caused the loss of lock?
-|083:35:54|LMP|No, sir. We had good signal strength. It wasn't peaked for the high gain. It was more like an omni signal strength, about 70 percent. And we called you several times after the switch in lines, and then finally you came through clear, but with some background noise and sounded like VHF. I presume it wasn't, now. And when you called, I went to OMNI Alfa, with no change in signal strength, still about 70 percent, and you were still coming up the same way and apparently didn't hear us. And then the high gain - with high gain acquisition, it's been pretty clear.
+|083:35:54|LMP|No, sir. We had good signal strength. It wasn't peaked for the high gain. It was more like an OMNI signal strength, about 70 percent. And we called you several times after the switch in lines, and then finally you came through clear, but with some background noise and sounded like VHF. I presume it wasn't, now. And when you called, I went to OMNI Alfa, with no change in signal strength, still about 70 percent, and you were still coming up the same way and apparently didn't hear us. And then the high gain - with high gain acquisition, it's been pretty clear.
 |083:35:54|CC|Okay, that's the way - that story's the way it sounded to us. And we're looking around here to see if we can figure out a reason for loss there.
 |083:38:31|LMP|Okay, and I'm ready to pressurize the SPS, if that's what you want.
 ||||Tape 57/3|Page 416
@@ -6146,7 +6160,7 @@
 |085:33:25|CC|Apollo 17, Houston. We just had a site handover. That's resulted in the LOS time changing 19 seconds. It's now 43:21.
 |085:33:40|LMP|Okay; 43:21, and we are - we're on OMNI Charlie,
 |085:33:40|CC|Roger.
-|085:33:40|LMP|And just to round out things as we pitch back into L0I attitude, lo and behold from over the top of the LM came the Earth.
+|085:33:40|LMP|And just to round out things as we pitch back into LOI attitude, lo and behold from over the top of the LM came the Earth.
 |085:33:40|CC|Veiy good.
 |085:33:40|LMP|Got the whole thing in one big package.
 |085:35:14|CDR|Pretty interesting, Gordo. We can - we can see we're right over South America and, of course, we can see up the Gulf Coast. And it looks like Houston is covered with clouds, but poetically enough, we can see the Cape, at least we can see Florida.
@@ -7411,7 +7425,7 @@
 |106:12:31|LMP|Yes, they're in the - -
 |106:12:31|CDR|Okay. Okay.
 |106:12:31|LMP|Ñ data file.
-|106:12:31|LMP|Hey, Ron. We need to check out that VHF. You ought to get that done before you close up, Ron. Houston, we'll be right with you. We're going to check out our VHP. Let me finish this part of it, and then - we111 get that.
+|106:12:31|LMP|Hey, Ron. We need to check out that VHF. You ought to get that done before you close up, Ron. Houston, we'll be right with you. We're going to check out our VHP. Let me finish this part of it, and then - we'll get that.
 |106:12:31|LMP|Okay. You want to read that to me, Gene - the S-BAND?
 |106:12:31|CDR|Okay. Where are you now?
 |106:12:31|LMP|I'm right here in the middle of the page.
@@ -7948,7 +7962,7 @@
 |108:35:50|CMP|Okay. Press on.
 |108:35:50|CC|SPS/G&N; 37983; plus 0.40, plus O.pl; 111:57:28.09; plus 0070.5* DELTA-Vy is all zips; DELTAÑVz, minus 0000.5; 000, 092, 358; 0069-7, plus 0054.5; 0070.5, 0:04, 0059.9- The stars are Sirius and Rigel; 133, 200, 030. The ullage is four jets for 12 seconds. Comment on your PC: If you happen to notice the chamber pressure, it'll probably be running 90 to 95, and we're predicting that it'll show you about 6 psi less than what the actual chamber pressure is.
 ||||Tape 72B/5|Page 550
-|108:35:50|CMP|Ah-ha! Okay, that's good to know on that chamber pressure. What you're saying is that even during the L0I bum, the velocity gain and what-have-you was - for chamber pressure, probably up around a little better than 100, huh?
+|108:35:50|CMP|Ah-ha! Okay, that's good to know on that chamber pressure. What you're saying is that even during the LOI bum, the velocity gain and what-have-you was - for chamber pressure, probably up around a little better than 100, huh?
 |108:35:50|CC|Yes, sir.
 |108:35:50|CC|We've got a couple of transducer problems we'll - -
 |108:35:50|CMP|I've got a readback on that circ pad.
@@ -8112,8 +8126,8 @@
 |108:45:36|LMP-LM|Go ahead.
 |108:46:14|LMP-LM|Okay, RECEIVE only. We got your GO, Gordo?
 |108:46:14|CC|That's affirmative, torque them.
-|108:47:29|CC|Challenger, we need AFT omni and select the steerable to SLEW. And LOW bit rate.
-|108:48:13|CC|Challenger, select FORWARD omni, please.
+|108:47:29|CC|Challenger, we need AFT OMNI and select the steerable to SLEW. And LOW bit rate.
+|108:48:13|CC|Challenger, select FORWARD OMNI, please.
 |108:48:13|LMP-LM|Okay, Gordo, the C0AS alignment's good and the DAP is retracking.
 |108:48:13|CC|Okay, and like the rest of the spacecraft, the platform's beautiful, there's no drift compensation or PIPA bias update. Over.
 |108:48:13|LMP-LM|Beautiful. It's ... like a ...
@@ -8194,20 +8208,20 @@
 |109:02:18|CC|Challenger, that's affirmative.
 |109:02:18|LMP-LM|Okay, it all looks pretty good to me. 546 may have been a little more than specs, but it looks pretty good.
 |109:02:18|CC|Okay, looks good here.
-|109:02:18|CC|Jack, have you gone through an omni? If you have, go LOW BIT RATE.
-|109:02:18|LMP-LM|Okay, ve got you on an omni and LOW BIT, RA -
+|109:02:18|CC|Jack, have you gone through an OMNI? If you have, go LOW BIT RATE.
+|109:02:18|LMP-LM|Okay, ve got you on an OMNI and LOW BIT, RA -
 |109:06:50|CC|Okay.
 |109:56:13|LMP-LM|Hello, Houston. How do you read Challenger?
 |109:56:13|CC|Challenger, you're loud and clear.
-|109:56:13|LMP-LM|Hello, Houston. How do you read Challenger on an omni right now?
-|109:56:13|CC|Okay, Challenger, you're loud and clear on the omni. How did it go?
+|109:56:13|LMP-LM|Hello, Houston. How do you read Challenger on an OMNI right now?
+|109:56:13|CC|Okay, Challenger, you're loud and clear on the OMNI. How did it go?
 |109:56:13|LMP-LM|Okay, The burn was GO. We're in a 7-mile perigee on the PGNS, and we had 0, plus 0.1 and plus 0.1 residuals.
 ||||Tape 74A/2|Page 567
 |109:56:13|CC|Okay, sounds good.
 |109:56:13|LMP-LM|Ok - Okay, Gordy, I'm going to try the high gain I had you locked up once, and then I lost you. Let me try it again.
 |109:56:13|CC|We concur. Go ahead, Jack.
-|109:56:13|LMP-LM|Okay, Gordy, that's my fault. I didn't know you were up-linking. You've got the omni, and I'll leave it.
-|109:58:07|CC|Okay, we'll stay on the omni for the up-link.
+|109:56:13|LMP-LM|Okay, Gordy, that's my fault. I didn't know you were up-linking. You've got the OMNI, and I'll leave it.
+|109:58:07|CC|Okay, we'll stay on the OMNI for the up-link.
 |109:58:07|LMP-LM|Okay, Gordy, ED BATs are 37.2, both batteries. The ascent battery on time was 112:19:00, about 4 minutes late.
 |109:58:07|CC|Okay, Jack. C opy.
 |109:58:07|CC|Jack, we want BATTERY 3 OFF for preconditioning.
@@ -8763,7 +8777,7 @@
 |110:48:41|LMP-LM|Okay, Gordy. I had the angles matched on the steerable and went to SLEW, and they - it held for a few seconds and then dropped off.
 ||||Tape 75A/13|Page 599
 |110:48:41|CC|Okay. It looks pretty good. You might try to peak it up just a little more.
-|110:49:01|LMP-LM|No, we're on an omni now.
+|110:49:01|LMP-LM|No, we're on an OMNI now.
 |110:49:01|CC|Roger.
 |110:49:12|LMP-LM|I'll try the steerable one more time here.
 |110:49:12|CC|Okay, you should be - -
@@ -21978,7 +21992,7 @@
 |153:35:06|CMP|I was looking at - Aitken when they came that side. Aitken is almost right in the terminator, right now. So when they come up on terminator photos there - The only thing is that, even though it was down in the shadow, down in the bottom of the crater, I could still see the bottom of the craters on - when they come around there for the nearterminator photography. I'm going to open the camera up and take a picture down in the shadow itself and see if that works.
 |153:35:06|CC|Okeydoke.
 |153:35:06|CMP|And there was quite a bit of backlight - quite a bit of backlight reflection from the northeastern side of it and also the eastern side of it, I guess. Funny, down in the eastern rim - -
-|153:35:06|CC|Ron, if you give us ACCEPT, we111 give you a vector while you got it.
+|153:35:06|CC|Ron, if you give us ACCEPT, we'll give you a vector while you got it.
 |153:36:29|CMP|- - the only way I can describe it - Okay. You have ACCEPT.
 |153:36:29|CC|Roger.
 |153:36:29|CMP|And the DSKY is clear. With the shadow effect on the eastern - I guess the east and southeastern interior rim of the crater, it reminds me a lot of some eroded hills. Like if you've got a valley that maybe has a 20-foot - it's bigger than that -but say you got a 20-foot drop on the thing where it's been - just rain erosion down the side and it kind of washes little - little valleys down it here and there. And it leaves mounds and humps in between that haven't eroded away yet. And that's the way the side of that crater works. And then the other side of it, the northeastern rim of it and the interior rim, looks just like a - a - one of the massif units. That is, it's a very fine texture, no real erosional processes, just a smooth, gentle -gentle slope.
@@ -22094,10 +22108,10 @@
 |154:28:58|CMP|(Humming) got to align the old GDC here.
 |154:28:58||BEGIN LUNAR REV 36
 ||||Tape 103B/1|Page 1411
-|154:28:58|CC|Hello there, America. We hear your scratchy-sounding omni.
+|154:28:58|CC|Hello there, America. We hear your scratchy-sounding OMNI.
 |154:28:58|CMP|(Laughter) Probably so.
 |154:28:58|CC|You're readable but noisy.
-|154:28:58|CMP|You're cutting in and out on the omni. I thought I couldn't get you.
+|154:28:58|CMP|You're cutting in and out on the OMNI. I thought I couldn't get you.
 |154:28:58|CC|Roger.
 |154:28:58|CMP|Looks like we get the high gain here pretty quick.
 |155:22:52|CC|Roger.
@@ -29742,7 +29756,7 @@
 |185:24:02|CDR-LM|Okay, Houston. Challenger's GO; coming up on 02:30. We're through 19K.
 |185:24:02|CC|Roger, Challenger. We need a 623 plus 10,000 in the AGS. Over.
 |185:24:02|LMP-LM|Well, those are the angles.
-|185:24:02|CMP-LM|How about an - an omni - -
+|185:24:02|CMP-LM|How about an - an OMNI - -
 |185:24:02|LMP-LM|I've got - I tried it. I've got -
 |185:24:02|CC|Challenger, Houston. AFT OMNI, please. Would you relay, America?
 |185:24:02|CDR-LM|Okay, Houston. Three minutes, and Challenger is GO. We're through 25K.
@@ -29906,7 +29920,7 @@
 |185:38:27|CMP|I'm going to ... Okay, you want me to - you're not going to ship me a vector?
 |185:38:27|CC|Negative. No up-link for you either, Ron.
 |185:38:27|CMP|Okay.
-|185:39:21|LMP-LM|Houston, you happy with the omnis from the Challenger?
+|185:39:21|LMP-LM|Houston, you happy with the OMNIs from the Challenger?
 |185:39:21|CC|That's affirmative. Keep it like it is.
 |185:39:21|LMP-LM|Okay. Terminator's coming up, Geno. We got lights and everything we need?
 |185:39:21|LMP-LM|AGS looks good.
@@ -29967,7 +29981,7 @@
 |185:49:57|CC|That's affirmative. We read you loud and clear all the way. We haven't figured it out either.
 |185:49:57|LMP-LM|Okay, we had a loud up-link squeal - -
 |185:49:57|CC|Roger.
-|185:49:57|LMP-LM|- - on all - on omnis - on ommis as well as high gain.
+|185:49:57|LMP-LM|- - on all - on OMNIs - on ommis as well as high gain.
 |185:49:57|CC|Roger.
 |185:49:57|CDR-LM|That's steerable.
 |185:49:57|LMP-LM|Excuse me.
@@ -31783,7 +31797,7 @@
 |207:27:47|CMP|Yes, we didn't get some of the ones up around La Hire. We'll get those next time around.
 |207:27:47|CC|How's the pictures going, Ron?
 |207:27:47|CMP|Okay, we got - The pictures are over. And that's Lunar Orbit Chart Delta. It doesn't have anything on it, you know - -
-|207:27:47|CC|Okay, we111 - -
+|207:27:47|CC|Okay, we'll - -
 ||||Tape 139/16|Page 2021
 |207:27:47|CMP|- - It's the circles on it, but it doesn't have any of the - -
 |207:27:47|CC|We'll - We'll schedule it up - all the fli - all the updates on that. After you go LOS we'll figure out some convenient time to read them up to you on there, Ron. I've got a - I've got the Flight Plan - -
@@ -33789,7 +33803,7 @@
 |236:10:39|CC|America, Houston. At 240:30, you'll be about 10,000 miles out, at which altitude the Moon will just about fill up the 250 lens field of view.
 |236:10:39|CMP|Oh, okay. 240:30, it looks like for the 250 lens.
 |236:10:39|CC|Right.
-|236:16:40|LMP|Gordy, are you ready for an omni or you want to wait a little bit?
+|236:16:40|LMP|Gordy, are you ready for an OMNI or you want to wait a little bit?
 |236:16:40|CC|17, Houston. Gordon's off the console for the moment. We'll wait a couple of minutes on the onmi .
 |236:16:40|LMP|Okay.
 |236:16:40|CC|America, Houston. We need OMNI Delta.

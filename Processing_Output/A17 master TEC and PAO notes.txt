@@ -23,3 +23,12 @@
 |047:59:15 - photo frame and mag reference
 |048:14:55 - references more weather photos
 |056:55:02 - unable to wake up
+|059:20:41 - photo reference
+|059:57:53 - entering the LM 2nd time
+|060:11:34 - 16mm magazine II requested for opportunity interior photos
+|060:12:12 - 16mm magazine HH was referred to as used during the heat flow experiment
+|060:33:11 - 50% remaining on II 16mm magazine - 6FPS
+|060:53:56|CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
+|062:57:33 - clock change review - laughter at the complexity
+|063:20:19 - Film budget discussion
+
