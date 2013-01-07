@@ -4625,418 +4625,429 @@
 |063:53:17|CC|Roger, Jack.
 |063:56:04|PAO|This is Apollo Control at 63 hours 56 minutes Ground Elapsed Time. Space digital display still showing the Earth reference numbers 181,123 nautical miles out from Earth. Velocity 2,573 feet per second relative to the Earth. There will be a change of shift press conference in the News Center Briefing Room at approximately 4:15 with Flight Director Neil Hutchinson and at 63:56, standing by, this is Apollo Control.
 |064:04:13|CDR|Hey, Gordo; this is Gene.
-|064:04:13|CDR|Hey, Houston; this is 17.
-|064:04:13|CC|Roger, Geno. I think we've got you now. Go ahead.
-|064:04:13|CC|Okay, Geno. I think we got you - -
-|064:04:13|CDR|... 17.
-|064:04:13|CC|- - Now. Go ahead.
-|064:04:13|CDR|Okay. I just happened to be throwing a few switches, and I see our helium tank temperature on quad A is about 95 or so. And the others are quite low. Is that because of our attitude there during- the LM checkout?
+|064:04:32|CDR|Hey, Houston; this is 17.
+|064:04:37|CC|Roger, Geno. I think we've got you now. Go ahead.
+|064:05:01|CC|Okay, Geno. I think we got you - -
+|064:05:02|CDR|... 17.
+|064:05:03|CC|- - Now. Go ahead.
+|064:05:06|CDR|Okay. I just happened to be throwing a few switches, and I see our helium tank temperature on quad A is about 95 or so. And the others are quite low. Is that because of our attitude there during - the LM checkout?
 ||||Tape 44/9|Page 320
-|064:04:13|CC|That's affirm. That's the reason.
-|064:04:13|CDR|Okay. I also see the tank that - package temperature a little higher on that quad too. But, being close to a hundred it seems a little unusual. You're - you're happy, right?
-|064:04:13|CC|That's affirm. No problem. We've been watching it, and it seems to be coming down now.
-|064:04:13|CDR|Okay. Fine. Thank you.
-|064:09:07|LMP|Houston, you want the H HEATERS to AUTO and the FAN 3 OFF now?
-|064:09:07|CC|Stand by, Jack.
-|064:09:07|CC|That's affirmative, Jack. Go ahead.
-|064:09:54|LMP|Okay. That1 s done.
-|064:09:54|CC|Now 21 to nothing, Cowboys. Second quarter.
-|064:09:54|CDR|Super Bowl, here they come. Watch out now.
-|064:09:54|CC|Should remind you that the Commander in Chief is a Redskin fan.
-|064:09:54|CDR|I read about that. That's why the Cowboys need as much help as they can get.
-|064:09:54|LMP|Gordy, in the continuing saga of looking at the Earth through rose-colored glasses, I tried a blue-colored glass, and it - as you might expect, completely masks out the continent. The land areas are just not visible through the blue. Otherwise, the ocean and clouds - or the contrasting ocean and clouds remain about the same.
-|064:09:54|CC|Roger, Jack.
-|064:09:54|LMP|And, Gordy, I tried putting all the filters we had together to check the Sun for sunspots, but just not quite enough light attenuation to do that.
-|064:09:54|CC|Okay. For a while I thought you were a human weather satellite. Now I think you're a human Earth resources satellite.
+|064:05:28|CC|That's affirm. That's the reason.
+|064:05:33|CDR|Okay. I also see the tank that - package temperature a little higher on that quad too. But, being close to a hundred it seems a little unusual. You're - you're happy, right?
+|064:05:46|CC|That's affirm. No problem. We've been watching it, and it seems to be coming down now.
+|064:05:55|CDR|Okay. Fine. Thank you.
+|064:09:07|LMP|Houston, you want the H2 HEATERS to AUTO and the FAN 3 OFF now?
+|064:09:29|CC|Stand by, Jack.
+|064:09:46|CC|That's affirmative, Jack. Go ahead.
+|064:09:54|LMP|Okay. That's done.
+|064:10:04|CC|Now 21 to nothing, Cowboys. Second quarter.
+|064:10:13|CDR|Super Bowl, here they come. Watch out now.
+|064:10:23|CC|Should remind you that the Commander in Chief is a Redskin fan.
+|064:10:33|CDR|I read about that. That's why the Cowboys need as much help as they can get.
+|064:10:52|LMP|Gordy, in the continuing saga of looking at the Earth through rose-colored glasses, I tried a blue-colored glass, and it - as you might expect, completely masks out the continent. The land areas are just not visible through the blue. Otherwise, the ocean and clouds - or the contrasting ocean and clouds remain about the same.
+|064:11:21|CC|Roger, Jack.
+|064:11:35|LMP|And, Gordy, I tried putting all the filters we had together to check the Sun for sunspots, but just not quite enough light attenuation to do that.
+|064:11:49|CC|Okay. For a while I thought you were a human weather satellite. Now I think you're a human Earth resources satellite.
 ||||Tape 44/10|Page 321
-|064:09:54|LMP|Well, about all I can say is I'm a satellite I guess.
-|064:09:54|LMP|Gordy, it looks as if the distribution of water and ice in the ri - Ross Sea has changed in the last day or two. I don't remember looking at it yesterday specifically, but it seems to be different today than it was the first day.
-|064:12:46|CC|Roger.
-|064:19:53|LMP|Houston, 17*
-|064:19:53|CC|Go ahead, Jack.
-|064:19:53|LMP|Yes , about this icepack in the Ross Sea. The - as I remember a couple days ago, there were two clear areas, triangular in shape and quite elongate, that were projecting out into the sea from the innermost part of the bay, or the - from the continent. Today those are not apparent, at least the first look I made. And it looks like there is an elongate, more irregular clear area that is roughly parallel to the Antarctic coastline within the sea itself. We'll check that a little more closely and see if that's right.
-|064:19:53|CC|Okay. Seems like kind of a quick change for something like ice, doesn't it?
-|064:19:53|LMP|Yes , and that's what bothers me. That's why I wonder if I'm not being fooled by cloud patterns or something.
-|064:21:16|CC|I'm looking at a satellite picture here, which I guess is around 12 hours old though. But over to the east of Australia, maybe about a continent width east of Australia, there is really striking long frontal system - striking because it's so long and so straight, sort of west-northwest, trending west-northwest and east-southeast trending. Can you see that?
-|064:23:38|CDR|Gordo, are you there?
-|064:23:38|CC|Yes, sir, right here.
+|064:12:01|LMP|Well, about all I can say is I'm a satellite I guess.
+|064:12:26|LMP|Gordy, it looks as if the distribution of water and ice in the ri - Ross Sea has changed in the last day or two. I didn't - don't remember looking at it yesterday specifically, but it seems to be different today than it was the first day.
+|064:12:44|CC|Roger.
+|064:19:49|LMP|Houston, 17.
+|064:19:52|CC|Go ahead, Jack.
+|064:19:57|LMP|Yes, about this icepack in the Ross Sea. The - as I remember a couple days ago, there were two clear areas, triangular in shape and quite elongate, that were projecting out into the sea from the innermost part of the bay, or of the - from the continent. Today those are not apparent, at least the first look I made. And it looks like there is an elongate, more irregular clear area that is roughly parallel to the Antarctic coastline within the sea itself. We'll check that a little more closely and see if that's right.
+|064:20:56|CC|Okay. Seems like kind of a quick change for something like ice, doesn't it?
+|064:21:06|LMP|Yes, and that's what bothers me. That's why I wonder if I'm not being fooled by cloud patterns or something.
+|064:21:13|CC|I'm looking at a satellite picture here, which I guess is around 12 hours old though. But over to the east of Australia, maybe about a continent width east of Australia, there is really striking long frontal system - striking because it's so long and so straight, sort of west-northwest, trending west-northwest and east-southeast trending. Can you see that?
+|064:23:33|CDR|Gordo, are you there?
+|064:23:36|CC|Yes, sir, right here.
 ||||Tape 44/11|Page 322
-|064:23:38|CDR|Okay. Now Jack and I may be talking about two different frontal systems or patterns, but the one I think you might be referring to is the one I referred to yesterday as a ruffled parrot's beak. Actually two of them tied together, one starting up probably southeast of Australia and -and then heading down with a long arcing frontal system to another clockwise rotational parrot's -parrot's cone, I should say, down around - near the tip of South America, between it and Antarctica. There is one strong tributary front heading up to the north-northwest from the western side of this big, arcing, frontal mass. And I think that's probably what you're referring to. I'm not sure. I can't quite see Australia coming up over the -over the horizon yet.
-|064:23:38|CC|Okay. I - hqt picture cuts off right about the -oh, two-thirds of the way south in Australia, that latitude. So most likely we're talking about the same thing, but I can't verify the southern part of it.
-|064:25:19|CDR|There is some tremendous - western side of that curve front is a tremendous clockwise rotational airmass. It must cover hundreds of square miles. The one down near - near the continent of Antarctica, down there, near the tip of South America, seemed to be squashed slightly as if there is possibly some - some squashing or effect coming off -off the South Pole area near Antarctica. I think, if I turn around and look at it the way Jack was looking at it, it's a cap of a mushroom. Only instead of simply curving in underneath the cap, it has clockwise rotations on both sides as it curves under.
-|064:25:19|CC|Roger.
+|064:23:41|CDR|Okay. Now Jack and I may be talking about two different frontal systems or patterns, but the one I think you might be referring to is the one I referred to yesterday as a ruffled parrot's beak. Actually two of them tied together, one starting up probably southeast of Australia and - and then heading down with a long arcing frontal system to another clockwise rotational parrot's - parrot's cone, I should say, down around - near the tip of South America, between it and Antarctica. There is one strong tributary front heading up to the north-northwest from the western side of this big, arcing, frontal mass. And I think that's probably what you're referring to. I'm not sure. I can't quite see Australia coming up over the - over the horizon yet.
+|064:24:53|CC|Okay. I - my picture cuts off right about the - oh, two-thirds of the way south in Australia, that latitude. So most likely we're talking about the same thing, but I can't verify the southern part of it.
+|064:25:15|CDR|There is some tremendous - western side of that curve front is a tremendous clockwise rotational airmass. It must cover hundreds of square miles. The one down near - near the continent of Antarctica, down there, near the tip of South America, seemed to be squashed slightly as if there is possibly some - some squashing or effect coming off - off the South Pole area near Antarctica. I think, if I turn around and look at it the way Jack was looking at it, it's a cap of a mushroom. Only instead of simply curving in underneath the cap, it has clockwise rotations on both sides as it curves under.
+|064:26:18|CC|Roger.
+|064:26:00|PAO|This is Apollo Control at 64:26 Ground Elapsed Time. The space digitals, meanwhile, has come back to Moon reference numbers. Our distance now from the Moon is 45,955 nautical miles. Velocity 3,300 feet per second. And the Earth is 183,365 nautical miles behind Apollo 17. Shift change press conference at 4:15 with Flight Director Neil Hutchinson. Chuck Lewis taking over now, with his team of flight controllers at 64:27 and continuing to stay up live on the Air-to-Ground this Apollo Control.
+|064:28:22|LMP|Gordy, I just took 2 pictures of the Earth at the present time, and those are, right now the camera is on frame 153.
 ||||Tape 45/1|Page 323
-|064:25:19|CC|Okay; 153.
-|064:25:19|LMP|Gordy, where did you say your ATS satellite picture left off to the west?
-|064:25:19|CC|Okay. To the west, it goes clear on over to Africa. But to the south, it cuts off about 30 south, or not quite all of Australia.
-|064:25:19|LMP|Okay. Yes, that mushroom pattern we've been talking about, on either edge - either end of the cap - and the mushroom points north - is a major cyclone circulation system. And also taking - moving, in one case - or trending, in one case, to the northwest and the other to the northeast, there are linear cloud patterns. Gives it a very symmetrical and a striking appearance. I hope it shows on those pictures.
+|064:28:38|CC|Okay; 153.
+|064:29:28|LMP|Gordy, where did you say your ATS satellite picture left off to the west?
+|064:29:34|CC|Okay. To the west, it goes clear on over to Africa. But to the south, it cuts off about 30 south, or not quite all of Australia.
+|064:29:54|LMP|Okay. Yes, that mushroom pattern we've been talking about, on either edge - either end of the cap - and the mushroom points north - is a major cyclone circulation system. And also taking - moving, in one case - or trending, in one case, to the northwest and the other to the northeast, there are linear cloud patterns. Gives it a very symmetrical and a striking appearance. I hope it shows on those pictures.
 |064:30:43|CC|Okay. It doesn't show on the one I got. Maybe a later version will have that one. Because it cuts - It's cut off on this one.
-|064:30:43|CDR|(Chuckle) Hey, Gordo. This is Geno.
-|064:30:43|CC|Go ahead.
-|064:30:43|CDR|To put this update in simple terms - at 65, I guess on our clocks, you'll update us to about 67:40, right?
-|064:30:43|CC|That's affirmative.
-|064:30:43|CDR|Does that mean we have to eat 2 hours and 40 minutes earlier?
-|064:30:43|CC|Oh, you got me there. I - You haven't been eating -you haven't eaten since breakfast. Is that right?
-|064:30:43|CDR|Oh, yes, sir. We just finished. We'll take another go at it, but I feel I've spending my life here eating.
+|064:32:59|CDR|(Chuckle) Hey, Gordo. This is Geno.
+|064:33:03|CC|Go ahead.
+|064:33:06|CDR|To put this update in simple terms - at 65, I guess on our clocks, you'll update us to about 67:40, right?
+|064:33:13|CC|That's affirmative.
+|064:33:17|CDR|Does that mean we have to eat 2 hours and 40 minutes earlier?
+|064:33:25|CC|Oh, you got me there. I - You haven't been eating - you haven't eaten since breakfast. Is that right?
+|064:33:32|CDR|Oh, yes, sir. We just finished. We'll take another go at it, but I feel I've spending my life here eating.
 ||||Tape 45/2|Page 324
-|064:30:43|CC|Yes. Well, we'll leave it up to you on this special case here.
-|064:30:43|CDR|Okay, I think we'll take - a - a jab at supper here later in the day as per the Flight Plan.
-|064:34:02|CC|All right.
-|064:34:02|CDR|Gordy - the whole suiting operation - I was really very pleased with. Jack and I both got in our suits very easily. And one by one we went into the LM. And that's where we zipped each other up. And we really had little or no trouble. We took our time. We got all configured in terms of changing our pockets around and whatever else we needed to do. And, actually, I think it's much easier to get suited than it is to get unsuited, personally.
-|064:34:02|CC|Okay. Sounds good.
-|064:34:02|CDR|Ron stayed suited and did the entire tunnel work. And then went - did it by himself - and then totally doffed his suit and stowed it by himself, also, to sort of extend that little exercise.
-|064:35:16|CC|Roger.
-|064:46:31|CC|America, Houston. Halftime score is 28 to 3 -Cowboys.
-|064:46:31|CDR|Keep talking, Gordo.
-|064:46:31|CC|Okay, I'll keep talking (laughter). The - I've learned that when you get to the ALFMED and pull it there, you'll see some tape around the emulsion shields. Those are three rectangular areas in front of your eyes and to either side that contain the photographic emulsion. This tape is around the edges of each of those three areas to help seal out light leaks. You haven't seen it before. Leave the tape on there. Don't pull it off. Over.
-|064:46:31|CDR|Okay.
-|064:48:12|LMP|Gordy, just took a series of pictures of the Earth with the 35-millimeter using the polarizing filter in the two positions. And the frame count is now 39- I took six pictures. And with the filter, on the first of each pair, in the DOWN position. The second's in the UP position. And I changed the f-stop from - the first set at f/4, the second set at f/2, and the third set at f/8.
+|064:33:47|CC|Yes. Well, we'll leave it up to you on this special case here.
+|064:33:53|CDR|Okay, I think we'll take - a - a jab at supper here later in the day as per the Flight Plan.
+|064:34:00|CC|All right.
+|064:34:09|CDR|Gordy - the whole suiting operation - I was really very pleased with. Jack and I both got in our suits very easily. And one by one we went into the LM. And that's where we zipped each other up. And we really had little or no trouble. We took our time. We got all configured in terms of changing our pockets around and whatever else we needed to do. And, actually, I think it's much easier to get suited than it is to get unsuited, personally.
+|064:34:49|CC|Okay. Sounds good.
+|064:34:55|CDR|Ron stayed suited and did the entire tunnel work. And then went - did it by himself - and then totally doffed his suit and stowed it by himself, also, to sort of extend that little exercise.
+|064:35:13|CC|Roger.
+|064:43:22|PAO|This is Apollo Control at 64 hours 43 minutes. Change of shift News Conference is ready to begin in the News Center briefing room. We'll take this line down now and tape for the duration of the News Conference.
+|064:46:31|CC|America, Houston. Halftime score is 28 to 3, Cowboys.
+|064:46:39|CDR|Keep talking, Gordo.
+|064:46:42|CC|Okay, I'll keep talking (laughter). The - I've learned that when you get to the ALFMED and pull it there, you'll see some tape around the emulsion shields. Those are three rectangular areas in front of your eyes and to either side that contain the photographic emulsion. This tape is around the edges of each of those three areas to help seal out light leaks. You haven't seen it before. Leave the tape on there. Don't pull it off. Over.
+|064:47:16|CDR|Okay.
+|064:48:12|LMP|Gordy, just took a series of pictures of the Earth with the 35-millimeter using the polarizing filter in the two positions. And the frame count is now 39. I took six pictures. And with the filter, on the first of each pair, in the DOWN position. The second's in the UP position. And I changed the f-stop from - the first set at f/4, the second set at f/2, and the third set at f/8.
 ||||Tape 45/3|Page 325
-|064:48:12|CC|Okay; we got all that, Jack.
-|064:48:12|LMP|And, Gordy, you might ask one of the experts around there in - Is the lightmeter in the 35-millimeter integrating over the interior spot, or over the hairline spot? The larger one.
-|064:48:12|CC|Okay, I'll ask.
-|064:48:12|LMP|It acts as if it's the interior one, but
-|064:49:52|CC|Okay.
+|064:49:01|CC|Okay; we got all that, Jack.
+|064:49:06|LMP|And, Gordy, you might ask one of the experts around there in - is the lightmeter in the 35-millimeter integrating over the interior spot, or over the hairline spot? The larger one.
+|064:49:24|CC|Okay, I'll ask.
+|064:49:30|LMP|It acts as if it's the interior one, but ...
+|064:49:35|CC|Okay.
 |064:49:52|CC|Jack. The answer to your question is the center spot is weighted for 60 percent of the reading and the rest of it for 40 percent. Over.
-|064:49:52|LMP|Okay. That - that makes sense. That would explain why the needle moved as I moved it across the series of spots.
-|064:51:48|CC|Roger. Note: At 2 days 17 hours, the GET in the MCC was updated. To correlate times from this point on, add 2 hours 40 minutes to those shown in this transcript to make them correspond to MCC GET.
-|065:00:42|CDR|Gordo, we're - we're ready any time you are for that update. And after we get the T , and everything ephem squared away, we'll go into ALFMED.
-|065:00:42|CC|Roger. Stand by on that, Geno; and we'll be with you in a minute.
-|065:00:42|CDR|Hello, Robert. How are you today?
-|065:00:42|CC|Real fine, Gene. You're sounding great.
+|064:50:04|LMP|Okay. That - that makes sense. That would explain why the needle moved as I moved it across the series of spots.
+|064:50:11|CC|Roger. Note: At 2 days 17 hours, the GET in the MCC was updated. To correlate times from this point on, add 2 hours 40 minutes to those shown in this transcript to make them correspond to MCC GET.
+|065:00:42|CDR|Gordo, we're - we're ready any time you are for that update. And after we get the TFM and everything squared away, we'll go into ALFMED.
+|065:00:53|CC|Roger. Stand by on that, Geno; and we'll be with you in a minute.
+|065:00:59|CDR|Hello, Robert. How are you today?
+|065:01:00|CC|Real fine, Gene. You're sounding great.
 ||||Tape 45/4|Page 326
-|065:01:06|CDR|Doing great out here.
+|065:03:06|CDR|Doing great out here.
 |065:03:43|CC|Geno, we're ready for the clock update. We'd like POO and ACCEPT. And we're got two loads to put in, so it will take a couple of minutes here.
-|065:03:43|CMP|Okay, you got it?
-|065:03:58|CC|Thank you, Ron.
+|065:03:55|CMP|Okay, you got it?
+|065:03:56|CC|Thank you, Ron.
+|065:05:26|PAO|This is Apollo Control at 67 hours 45 minutes. We have advanced the Ground Elapsed Time clock in the Control Center and on the Flight Plan are operating at the point indicated for that time. In the News Center, the monitors, the actual GET time will be shown on the Time Base 5 clock. The GET clock will now show the Flight Plan GET time. And in the Flight Plan, the Central Standard Times and GET times listed will now agree and be correct. We accumulated a few minutes of tape during the News Conference and we'll play that for you now.
 |065:06:08|CC|17, Houston. I've got an update on your flyby maneuver pad due to this clock update. Would you like to copy it?
-|065:06:08|CDR|Stand by just 1 second (music).
-|065:06:08|LMP|Okay, Houston. Go ahead with the flyby pad.
-|065:06:08|CC|Okay, stand by 1 on that - on our end. We're done with the - we're done with the up-load. The computer is yours, and we need a read-out on the Tephem
-|065:06:08|LMP|Okay, that's in work.
-|065:06:08|CC|Okay, we’ve got the read-out.
+|065:06:20|CDR|Stand by just 1 second (music).
+|065:06:28|LMP|Okay, Houston. Go ahead with the flyby pad.
+|065:06:34|CC|Okay, stand by 1 on that - on our end. We're done with the - we're done with the upload. The computer is yours, and we need a read-out on the TFM.
+|065:06:46|LMP|Okay, that's in work.
+|065:06:55|CC|Okay, we've got the read-out.
 |065:10:05|CC|17, Houston. The data looks good, and you're GO to copy it, and recommend you copy it into the Plight Plan Supplement. And that's on page 1-43 of the supplement.
-|065:10:27|LMP|Okay, Houston. We have it.
+|065:10:21|LMP|Okay, Houston. We have it.
 |065:11:49|CC|And, 17, we got that flyby pad now. If you're still ready, we're ready.
-|065:11:49|LMP|Okay. Is this a full pad or just a change to the other one?
-|065:11:49|CC|It's just a change, Jack. It's a change to NOUN 83, the GETI, and a change to the bottom line, the GET of .05G. Just two changes.
-|065:11:49|LMP|Okay, go ahead.
+|065:12:03|LMP|Okay. Is this a full pad or just a change to the other one?
+|065:12:06|CC|It's just a change, Jack. It's a change to NOUN 83, the GETI, and a change to the bottom line, the GET of .05G. Just two changes.
+|065:12:29|LMP|Okay, go ahead.
 ||||Tape 45/5|Page 327
-|065:11:49|CC|Jack, if you'll just add 2 hours and 40 minutes to each one of them, that's it. The GETI is 081:54:43.49. The GET of .05G, 156:04:03- Jack, I guess I read 8l. I was looking at the old pad. It's 83 - 083 - on the GETI.
-|065:11:49|LMP|You're too fast for me. I was just going to chew you out.
-|065:11:49|CC|Sorry about that, Jack. I got it around the room.
-|065:11:49|LMP|083 - (laughter) 083:54:43.49; 156:04:03.
-|065:11:49|CC|Roger.
-|065:14:10|CDR|Okay, Bob. We got all of our clocks set on board.
-|065:14:10|CC|Roger. Understand.
-|065:14:10|CDR|What was the exact amount of that update time?
-|065:14:10|CC|Two hours, 40 minutes; 2 plus 40.
-|065:14:10|CDR|Okay, 2 plus 40, exactly. Thank you.
-|065:14:10|LMP|Okay, Bob. We're going to work up an appetite with the ALFMED today.
-|065:14:10|CC|Roger.
-|065:14:10|CDR|Hey, Bob. May be a little premature - but I don't think so - but I think there was some good thinking into that update, looking at the Flight Plan up until now and where we go from here. I don't think we - we overlooked a thing.
-|065:14:10|CC|Roger. Like I said the other night, we gave Tommy a gold star on that one.
-|065:14:10|CDR|Except I think he and Rita got in - in cahoots.
-|065:14:10|CC|A little soon for supper, huh?
-|065:14:10|CDR|Yes. We just finished lunch, and it's about time to eat again.
-|065:14:10|CC|That's known as the simulator step-ahead.
+|065:12:32|CC|Jack, if you'll just add 2 hours and 40 minutes to each one of them, that's it. The GETI is 081:54:43.49. The GET of .05G, 156:04:03 - Jack, I guess I read 8l. I was looking at the old pad. It's 83 - 083 - on the GETI.
+|065:13:10|LMP|You're too fast for me. I was just going to chew you out.
+|065:13:15|CC|Sorry about that, Jack. I got it around the room.
+|065:13:16|LMP|083 - (laughter) 083:54:43.49; 156:04:03.
+|065:13:29|CC|Roger.
+|065:14:08|CDR|Okay, Bob. We got all of our clocks set on board.
+|065:14:14|CC|Roger. Understand.
+|065:14:18|CDR|What was the exact amount of that update time?
+|065:14:24|CC|Two hours, 40 minutes; 2 plus 40.
+|065:14:35|CDR|Okay, 2 plus 40, exactly. Thank you.
+|065:15:08|LMP|Okay, Bob. We're going to work up an appetite with the ALFMED today.
+|065:15:13|CC|Roger.
+|065:15:33|CDR|Hey, Bob. May be a little premature - but I don't think so - but I think there was some good thinking into that update, looking at the Flight Plan up until now and where we go from here. I don't think we - we overlooked a thing.
+|065:15:48|CC|Roger. Like I said the other night, we gave Tommy a gold star on that one.
+|065:15:54|CDR|Except I think he and Rita got in - in cahoots.
+|065:16:00|CC|A little soon for supper, huh?
+|065:16:05|CDR|Yes. We just finished lunch, and it's about time to eat again.
+|065:16:09|CC|That's known as the simulator step-ahead.
 ||||Tape 45/6|Page 328
-|065:14:10|LMP|Can you give us our distance from the Moon - from the Earth?
-|065:14:10|CC|Roger. Stand by on that.
-|065:14:10|LMP|Are we about 5000 miles closer now?
-|065:14:10|CC|Don't you wish.
-|065:14:10|LMP|Well, isn't that what - isn't that the way these step-aheads work?
-|065:16:58|CC|Normally, yes. But this one didn't work that way. Jack, you're at 183,000 miles. It's really amazing how time flies when you're interested in your work, isn't it?
+|065:16:21|LMP|Can you give us our distance from the Moon - from the Earth?
+|065:16:28|CC|Roger. Stand by on that.
+|065:16:40|LMP|Are we about 5,000 miles closer now?
+|065:16:45|CC|Don't you wish.
+|065:16:50|LMP|Well, isn't that what - isn't that the way these step-aheads work?
+|065:16:54|CC|Normally, yes. But this one didn't work that way. Jack, you're at 183,000 miles. It's really amazing how time flies when you're interested in your work, isn't it?
 |065:18:36|CC|Jack, Houston. Did you read your - my last call with the distance?
-|065:24:32|CDR|Houston, 17.
-|065:24:32|CC|Go ahead, 17.
-|065:24:32|LMP|Okay, Bob, we're getting ready for the ALFMED. I just took a red-filter and a blue-filter pictures, - On frame 4l now, with a 35-millimeter - pictures of the Earth. And I took them one stop smaller -that is, more open - than the lightmeter said, hoping to compensate for the small Earth. The Earth just barely fills the most inner - the innermost circle of the spotmeter. Also, there's a very strong band of clouds, shaped sort of like a narrow fir tree, with a base about 20 degrees of longitude west of Baja California, that extends up, I believe, into the vicinity of Hawaii. And the top terminates in a very strong northern cyclone pattern.
-|065:24:32|CC|Roger, Jack. Was your magazine Sierra Sierra?
-|065:24:32|LMP|That's affirm. Sierra Sierra.
-|065:24:32|CC|Roger, Jack. And you say that cloud is right -that cloud area is right near Baja California? I've got a picture of it here in front of me, from one of the satellites.
+|065:21:37|PAO|This is Apollo control at 68 hours 1 minute. Apollo 17 is 183,211 nautical miles from Earth. Velocity is 2,521 feet per second. The spacecraft communicator now is Bob Overmyer. Stu Roosa the backup command module pilot for Apollo 17 is also at the CAPCOM console with Overmyer.
+|065:24:27|CDR|Houston, 17.
+|065:24:30|CC|Go ahead, 17.
+|065:24:33|LMP|Okay, Bob, we're getting ready for the ALFMED. I just took a red-filter and a blue-filter pictures, - On frame 4l now, with a 35-millimeter - pictures of the Earth. And I took them one stop smaller - that is, more open - than the lightmeter said, hoping to compensate for the small Earth. The Earth just barely fills the most inner - the innermost circle of the spotmeter. Also, there's a very strong band of clouds, shaped sort of like a narrow fir tree, with a base about 20 degrees of longitude west of Baja California, that extends up, I believe, into the vicinity of Hawaii. And the top terminates in a very strong northern cyclone pattern.
+|065:25:36|CC|Roger, Jack. Was your magazine Sierra Sierra?
+|065:25:45|LMP|That's affirm. Sierra Sierra.
+|065:25:48|CC|Roger, Jack. And you say that cloud is right -that cloud area is right near Baja California? I've got a picture of it here in front of me, from one of the satellites.
 ||||Tape 45/7|Page 329
-|065:24:32|LMP|No, it's about 20 degrees west - longitude degrees west of that.
-|065:24:32|CC|Yes. Okay, we've got it on the spot here.
-|065:26:13|LMP|And maybe even more than that. Okay, maybe even more than that. It1s - it might be as much as 40 degrees west, and - Actually Hawaii may be on the west side of that. It's a little hard to tell. It's close enough to the LM that it's hard to say.
-|065:26:13|CC|Roger, Jack. I think I've got it on our map here. It shows a pretty heavy dense cloud area right . down in that area you're talking about.
-|065:27:26|CDR|Okay, Bob. For the ALFMED, CDR will be in the left seat. CMP will be in the center seat with the ALFMED. For our reporting, when we get the VOX, we'll just call out our first names to shorten it and the comments following. And Jack will be recording.
-|065:27:49|CC|Roger. We'll be listening.
+|065:25:58|LMP|No, it's about 20 degrees west - longitude degrees west of that.
+|065:26:05|CC|Yes. Okay, we've got it on the spot here.
+|065:26:07|LMP|And maybe even more than that. Okay, maybe even more than that. It's - it might be as much as 40 degrees west, and - Actually, Hawaii may be on the west side of that. It's a little hard to tell. It's close enough to the LM that it's hard to say.
+|065:26:40|CC|Roger, Jack. I think I've got it on our map here. It shows a pretty heavy dense cloud area right down in that area you're talking about.
+|065:27:11|PAO|This is Apollo Control at 68 hours 7 minutes. ALFMED is Apollo Light Flash Moving -
+|065:27:20|CDR|Okay, Bob. For the ALFMED, CDR will be in the left seat. CMP will be in the center seat with the ALFMED. For our reporting, when we get the VOX, we'll just call out our first names to shorten it and the comments following. And Jack will be recording.
+|065:27:43|CC|Roger. We'll be listening.
+|065:27:51|PAO|That's the Apollo Light Flash Moving Emulsion Detector, associated with the visual light flash phenomenon that most crews have reported on past missions, seeing points of light in their eyes, when their eyes were closed. There are a couple of theories proposed on the origin of the flashes. One is that they are caused by cosmic rays. The other is that they are high energy atomic particles which enter the eyeball or ionize upon collision with retina or cerebral cortex. The ALFMED is an emulsion plate device that Ron Evans will wear. It will cover the front and sides of his head and will provide information on time, strength and path of particles penetrating the emulsion plates. The other two crewmen will wear eye shields. This test will last for approximately an hour. And the data on the - recorded by the ALFMED device will be correlated with the crewmen's verbal reports on flash observations.
 |065:31:00|CMP|Okay, wait a minute. Houston, how do you read on VOX with the lightweight headset?
-|065:31:00|CC|Read you loud and clear, Ron.
-|065:31:00|CMP|Okay.
-|065:31:00|CMP|Yes. Wait a minute. Let me get this little old box set to go here, first.
-|065:31:00|CC|Okay.
-|065:31:00|CMP|Yes.
-|065:32:09|CMP|Okay, UTILITY POWER is OFF.
-|065:32:09|SC|Yes. POWER switch is OFF. Okay, it's connected, now.
-|065:32:33|CMP|Okay, UTILITY POWER is ON. Okay, let me get strapped in here, somehow, or I'll float all over.
-|065:32:33|CMP|(Music) Okay, let's see.
+|065:31:07|CC|Read you loud and clear, Ron.
+|065:31:10|CMP|Okay.
+|065:31:24|CMP|Yes. Wait a minute. Let me get this little old box set to go here, first.
+|065:31:30|CC|Okay.
+|065:31:40|CMP|Yes.
+|065:32:11|CMP|Okay, UTILITY POWER is OFF.
+|065:32:21|SC|Yes. POWER switch is OFF. Okay, it's connected, now.
+|065:32:34|CMP|Okay, UTILITY POWER is ON. Okay, let me get strapped in here, somehow, or I'll float all over.
+|065:34:18|CMP|(Music) Okay, let's see.
 ||||Tape 45/8|Page 330
-|065:32:33|CMP|Uh huh, I think I can.
-|065:35:02|CMP|Okay, my blindfold's going on, now.
-|065:35:02|CMP|Okay. Sounds like they clipped. Okay, somebody will have to help me put this thing on now; yes , just kind of like so; yes. It goes around the old - -
-|065:35:02|SC|Yes, but you ought to ... kind of maintain your head in the same position, if you can.
-|065:35:02|CMP|... to operate now?
-|065:37:57|SC|No, Just turn it down a little bit.
-|065:37:57|CMP|Go to operate while you're taking the pictures there (chuckle).
-|065:37:57|CDR|Hello, Houston. CDR put his blindfold on at 68:18.
-|065:37:57|CC|Okay, we copy that.
-|065:39:12|CDR|And how do you read me in VOX, Bob? This is Gene.
-|065:39:12|CC|Read you loud and clear, Gene.
-|065:39:12|CDR|Okay, I'm conducting the experiment. And the -frame Sierra Sierra is now at 45. I got two shots. One - two from the side and two from the bottom.
-|065:39:12|CC|Roger. Copy.
-|065:39:12|CMP|Hey, looks like a countdown for ready to go, Jack?
-|065:39:12|CDR|Hey, Bob, does it make any difference if your eyes are opened or closed?
-|065:39:12|CC|(Chuckle) It may be a personal thing, Gene. I -This is Stu. I had to have my eyes closed but give it either way.
-|065:39:12|CDR|Okay; thank you.
-|065:39:12|CMP|Okay, we'll count down to start. 3, 2, 1 -
-|065:40:28|CMP|MARK it. It's buzzing.
+|065:34:32|CMP|Uh huh, I think I can.
+|065:34:49|CMP|Okay, my blindfold's going on, now.
+|065:35:09|CMP|Okay. Sounds like they clipped. Okay, somebody will have to help me put this thing on now; yes, just kind of - like so, yes. It goes around the old ...
+|065:36:18|SC|... yes, but you ought to ... kind of maintain your head in the same position, if you can.
+|065:37:19|CMP|... to operate now?
+|065:37:43|SC|No, Just turn it down a little bit.
+|065:38:18|CMP|Go to operate while you're taking the pictures there (chuckle).
+|065:38:45|CDR|Hello, Houston. CDR put his blindfold on at 68:18.
+|065:38:51|CC|Okay, we copy that.
+|065:38:57|CDR|And how do you read me in VOX, Bob? This is Gene.
+|065:39:00|CC|Read you loud and clear, Gene.
+|065:39:04|CDR|Okay, I'm conducting the experiment. And the - frame Sierra Sierra is now at 45. I got two shots. One - two from the side and two from the bottom.
+|065:39:21|CC|Roger. We copy.
+|065:39:26|CMP|Hey, looks like a countdown for ready to go, Jack?
+|065:39:35|CDR|Hey, Bob, does it make any difference if your eyes are opened or closed?
+|065:39:40|CC|(Chuckle) It may be a personal thing, Gene. I - This is Stu. I had to have my eyes closed but give it either way.
+|065:39:58|CDR|Okay; thank you.
+|065:40:07|CMP|Okay, we'll count down to start. 3, 2, 1 -
+|065:40:13|CMP|MARK it. It's buzzing.
 ||||Tape 45/9|Page 331
-|065:40:52|CDR|Yes.
-|065:40:52|SC|...
-|065:45:35|CDR|Change it. The other side is not very good.
-|065:45:35|CMP|... two.
+|065:40:37|CDR|Yes.
+|065:45:17|CDR|Change it. The other side is not very good.
+|065:45:25|CMP|... two.
 |065:46:08|CDR|MARK. Gene. I've got a series of random lines, which do not appear to be the width of my field of view, that are moving like a flashing horizon with thunderstorms on the horizon. They're dimly flashing, and they're moving across the eye from left to right and from top to bottom, individually. Both eyes. It's stopped now.
-|065:47:03|CDR|MARK, this is Gene again. Going from the upper left to the bottom right. Lines of the same sort of thing. Dimly lit flashing horizon-type flashes. But they're linear. They're linear, and they tend to come from the - either the upper left or the upper right and work their way downward. Now they've stopped. Both eyes.
-|065:48:50|CDR|MARK. Gene again. Both eyes. This time the same flashes on the horizon, but they don't seem to be moving out of both eyes. Tend to be up at the tops of both eyes. Just rapid, sequential, lightninglike flashes. And they've stopped.
-|065:50:00|CDR|MARK. Gene again. Similar type of flashes. They don't seem to be moving, but they're coming from the right of the right eye and from the upper left of the right eye. And I can actually see an outline of a - of a curved horizon, and the flashes are coming out from behind it. They've stopped.
-|065:50:46|CDR|MARK. Gene again. I see - peripherally out of my right eye - I cannot see these flashes - but I can see peripherally the right-hand and upper-right-hand side of my right eye being lit up.
-|065:50:46|CDR|Pardon?
+|065:47:02|CDR|MARK, this is Gene again. Going from the upper left to the bottom right. Lines of the same sort of thing. Dimly lit flashing horizon-type flashes. But they're linear. They're linear, and they tend to come from the - either the upper left or the upper right and work their way downward. Now they've stopped. Both eyes.
+|065:48:48|CDR|MARK. Gene again. Both eyes. This time the same flashes on the horizon, but they don't seem to be moving out of both eyes. Tend to be up at the tops of both eyes. Just rapid, sequential, lightning-like flashes. And they've stopped.
+|065:49:57|CDR|MARK. Gene again. Similar type of flashes. They don't seem to be moving, but they're coming from the right of the right eye and from the upper left of the right eye. And I can actually see an outline of a - of a curved horizon, and the flashes are coming out from behind it. They've stopped.
+|065:50:37|PAO|This is Apollo control at 68 hours 30 minutes. Distance from Earth 183,910 nautical miles.
+|065:50:45|CDR|MARK. Gene again. I see - peripherally out of my right eye - I cannot see these flashes - but I can see peripherally the right-hand and upper-right-hand side of my right eye being lit up.
+|065:51:13|PAO|Distance 183,920 nautical miles velocity 2,504 feet per second.
 ||||Tape 45/10|Page 332
-|065:52:08|CDR|Oh, man, there is a good one. The left eye, right in the middle, it's - almost a purple flash. It's still going. Right in the middle of my eye, and it's coming out from behind a - a horizon that is almost - It starts out as a semicircle and then folds into a point like on a pencil. And then it disappears. That's the horizon, and the light is flashing from behind It. It's gone.
+|065:51:46|CDR|Pardon? This last one? They were peripherally I couldn't see them all I know is that there was some light out peripherally out - yes - but a flashing glow. Oh man, there is a good one the left eye right in the middle it's almost a purple flash. It's still going right in the middle of my eye and it's coming out from behind a horizon that is almost. It starts out as a semicircle and then folds in to a point like on a pencil, and then it disappears. That's the horizon and the light is flashing from behind it. It's gone.
 |065:53:31|CC|Hey, Gene, Houston.
-|065:53:31|CDR|Go ahead.
-|065:53:31|CC|Okay. According to all our experts here, the phenomena you're describing is pretty much the phosphene effect - sort of like when you rub your eyes or squint your eyes too hard - because the effect is lasting too long. The streaks or the flashing that we're looking for are very fast, and they do not remain as a scene to your eye. And I guess the only thing we could say would be to maybe either relax your squint a little bit or to ... the blindfold's on exceptionally tight. I know this sounds kind of screwy, but those are the words that we would like to - like to say to you. But the actual phenomena we're looking for will be a very short-lived phenomena. It will either be a flash or a very fast streak. Something along this - We're not trying to load the data, but we feel you're describing a different phenomena.
+|065:53:35|CDR|Go ahead.
+|065:53:36|CC|Okay. According to all our experts here, the phenomena you're describing is pretty much the phosphene effect - sort of like when you rub your eyes or squint your eyes too hard - because the effect is lasting too long. The streaks or the flashing that we're looking for are very fast, and they do not remain as a scene to your eye. And I guess the only thing we could say would be to maybe either relax your squint a little bit or to - if the blindfold's on exceptionally tight. I know this sounds kind of screwy, but those are the words that we would like to - like to say to you. But the actual phenomena we're looking for will be a very short-lived phenomenon. It will either be a flash or a very fast streak. Something along this - we're not trying to load the data, but we feel you're describing a different phenomena.
 |065:55:20|CDR|Stu, we lost all that last conversation. You better repeat it.
-|065:55:20|CC|Okay, Gene. Sorry about that, and here I thought I had waxed so eloquently. But the - the effect you're describing is an effect that can come from rubbing your eyes or perhaps squinting too hard. But the effect we're looking for - and I guess we're really not trying to load the data - but the effect that we're looking for is a very short-lived phenomena and would not - -
+|065:55:26|CC|Okay, Gene. Sorry about that, and here I thought I had waxed so eloquently. But the - the effect you're describing is an effect that can come from rubbing your eyes or perhaps squinting too hard. But the effect we're looking for - and I guess we're really not trying to load the data - but the effect that we're looking for is a very short-lived phenomena and would not - -
 |065:55:50|CMP|MARK. Ron. I got one. In the right eye, Coming from - back - going towards ... Very narrow streak.
 ||||Tape 45/11|Page 333
-|065:55:50|CC|And, Gene, our only words of wisdom are try to relax the - the eyes a little bit or if you have the blindfold on exceptionally tight, you might work on that. But the - just - I guess sort of relax and see if we can see the other - the other phenomena.
+|065:56:10|CC|And, Gene, our only words of wisdom are try to relax the - the eyes a little bit or if you have the blindfold on exceptionally tight, you might work on that. But the - just - I guess sort of relax and see if we can see the other - the other phenomena.
 |065:56:28|CDR|Okay.
 |065:59:26|CMP|MARK, Ron. One about 12:00 in the right eye; looked like it was just a spot.
+|066:02:43|CMP|How about 15 seconds ago. It's so dim now I hardly noticed what it was. but, kinda started in the left eye and just a flash in the left eye and then a flash in the right eye, very dim. Going left, left to right.
 ||||Tape 46/1|Page 334
 |066:04:38|CMP|MARK. Can't tell if it's right or left eye. Looks like it's almost between the two eyes. There's a -
 |066:04:47|CMP|MARK. One in the left eye. Just about right in the center. Spot; no streak or anything, just a spot. First spot seemed to be right between the two eyes, upper half of the field of view.
-|066:08:43|CDR|MARK; Gene. Streak from the upper right, of the right eye, down to about the middle.
-|066:10:24|CMP|MARK; Ron. About 8 o'clock ... diameter out, just a bright flash; it's the brightest flash I've seen yet. Left eye.
-|066:10:45|CDR|Just about a second or two after Ron said "Mark," I saw a vertical bright line in the left side of the left eye; just flashed.
+|066:08:42|CDR|MARK; Gene. Streak from the upper right, of the right eye, down to about the middle.
+|066:10:23|CMP|MARK; Ron. About 8 o'clock ... diameter out, just a bright flash; it's the brightest flash I've seen yet. Left eye.
+|066:10:43|CDR|Just about a second or two after Ron said "Mark," I saw a vertical bright line in the left side of the left eye; just flashed.
 |066:11:36|CMP|It was the greatest intensity - the intensity on that last one I had - but - the brightness was there, but it was kind of dull glow to it. It wasn't a - a spot that you could really focus on.
-|066:13:22|CMP|MARK; Ron. Left eye, about 09:30, half way - -
-|066:13:29|CDR|MARK - -
+|066:13:21|CMP|MARK; Ron. Left eye, about 09:30, half way - -
+|066:13:28|CDR|MARK - -
 |066:13:29|CMP|- - to the left.
-|066:13:29|CDR|- - Gene. Left eye, very bright spot; left eye, left side about halfway in towards the middle. That was the brightest one I've seen, and it was Just a spot.
-|066:13:29|CMP|Ron. The intensity of the last one I had was -oh, a fourth of the bright one I had before that.
+|066:13:30|CDR|- - Gene. Left eye, very bright spot; left eye, left side about halfway in towards the middle. That was the brightest one I've seen, and it was just a spot.
+|066:13:58|CMP|Ron. The intensity of the last one I had was - oh, a fourth of the bright one I had before that.
 ||||Tape 46/2|Page 335
-|066:13:29|CMP|Spot. Yes, on the left eye.
+|066:14:17|CMP|Spot. Yes, on the left eye.
 |066:15:08|CMP|MARK about 5 seconds ago, about 6 o'clock in the right eye.
-|066:15:15|CMP|MARK. Right between the two eyes, seemed like. Both spots.
-|066:15:27|CDR|MARK; Gene. A sharp line from the center of the left eye to the upper left-hand - upper left-hand side.
+|066:15:14|CMP|MARK. Right between the two eyes, seemed like. Both spots.
+|066:15:26|CDR|MARK; Gene. A sharp line from the center of the left eye to the upper left-hand - upper left-hand side.
 |066:16:41|CDR|MARK; Gene. It's a very short - very short line, upper left hand of left eye going towards the right.
+|066:17:10|PAO|This Is Apollo Control at 68 hours 57 minutes. Apollo 17's distance from Earth is 184,548 nautical miles, traveling at a speed of 2,488 feet per second.
 |066:17:32|CDR|MARK; Gene. Upper right eye, tangential to my eye, just a very short line. Moving - -
 |066:17:44|CMP|MARK; Ron. Oh, a fourth of a diameter out in the right eye. Bright spot. Seemed like it was coming in. I could see the spot and then the streak. It went from that point kind of in - or up, I guess.
 |066:19:53|CDR|MARK; Gene. A dull flash on the bottom inside corner of the right eye. Correction - -
 |066:20:02|CMP|MARK; Ron. Go ahead, Gene.
-|066:20:02|CDR|Okay. Correction, Gene. That was on the left eye, that last one.
-|066:20:11|CMP|The last one for Ron was at 10 o'clock. Three-fourths of the diameter out. Just a - ... was only about an eighth of an inch in diameter. Right eye.
-|066:23:04|CDR|MARK; Gene.
+|066:20:03|CDR|Okay. Correction, Gene. That was on the left eye, that last one.
+|066:20:12|CMP|The last one for Ron was at 10 o'clock. Three-fourths of the diameter out. Just a - ... was only about an eighth of an inch in diameter. Right eye.
+|066:23:05|CDR|MARK; Gene.
 |066:23:06|CDR|MARK again. A flash - first flash was in the left eye on the left side. It went vertal - vertically up and away. And following that was a flash in the identically same spot. It was a line flash, up and away. On the left side of each eye, and it went up in both cases, but they were split by about 2 seconds.
 ||||Tape 46/3|Page 336
-|066:28:40|CMP|MARK; Ron. A fourth of the diameter out at 3 o'clock in the right eye. I mean a half a diameter - half a radius; put it that way.
-|066:28:51|CDR|MARK; Gene. A flash across the bottom of the right eye coming inward from left to right.
-|066:28:51|CMP|On the last one, it looked like it was a - -
+|066:28:41|CMP|MARK; Ron. A fourth of the diameter out at 3 o'clock in the right eye. I mean a half a diameter - half a radius; put it that way.
+|066:28:52|CDR|MARK; Gene. A flash across the bottom of the right eye coming inward from left to right.
+|066:29:12|CMP|On the last one, it looked like it was a - -
 |066:29:15|CDR|MARK; Gene. Just a spot flash in the bottom of the left eye.
-|066:29:15|CMP|This is Ron. On my last one, it was just a spot flash. No direction to it at all.
-|066:29:57|CMP|Ron; MARK, MARK; this is Ron. When I first said the word - it kind of looks like a - almost a sine wave transition from the corner upper at 10 o'clock in the right eye to about 2 o'clock in the left eye. Right between the two of them. The sin wave was - maybe two wiggles in it, and it was about a fourth of an inch long. Going from right to left, yes. And going into the left at about 2 o'clock.
-|066:29:57|CDR|Turn that music higher.
-|066:29:57|CMP|Yes.
-|066:31:20|CMP|MARK; Ron. Seems like I looked up, and as I looked • up, there was one in the left eye about 12 o'clock just a flash. On the outer periphery.
-|066:38:01|CMP|MARK; Ron. ... down about 06:30; just a flash. Right eye.
+|066:29:27|CMP|This is Ron. On my last one, it was just a spot flash. No direction to it at all.
+|066:29:57|CMP|Ron; MARK, MARK; Ron. When I first said the word - it kind of looks like a - almost a sine wave transition from the corner upper at 10 o'clock in the right eye to about 2 o'clock in the left eye. Right between the two of them. The sin wave was - maybe two wiggles in it, and it was about a fourth of an inch long. Going from right to left, yes. And going into the left at about 2 o'clock.
+|066:30:56|CDR|Turn that music higher.
+|066:30:59|CMP|Yes.
+|066:31:20|CMP|MARK; Ron. Seems like I looked up, and as I looked up, there was one in the left eye about 12 o'clock just a flash. On the outer periphery.
+|066:35:34|PAO|This is Apollo Control at 69 hours 15 minutes. Apollo 17's distance from Earth 184,987 nautical miles. Velocity 2,477 feet per second.
+|066:38:02|CMP|MARK; Ron. ... down about 06:30; just a flash. Right eye.
 |066:38:42|CMP|MARK; Ron. Left eye, about 03:30, three-quarters of the radius out. A very dim flash. About 03:30.
 |066:39:44|CMP|MARK; Ron. Left eye. Starting at 5 o'clock on the circumference going to 3 o'clock at about three-quarter diameter - three-quarter radius, I mean. Just a straight line.
-|066:39:44|CMP|Did I say left eye? I guess I meant did. Okay, let's - Okay, the motor quit.
+|066:40:14|CMP|Did I say left eye? I guess I did. Okay, let's ...
+|066:41:11|Okay, the motor quit. Okay.
 ||||Tape 46/4|Page 337
-|066:41:11|CDR|Okay. Is that it? Yes, I can get that, Gene.
-|066:41:11|CMP|Okay, you want to take a picture of it first? Okay, POWER ... Okay, stand by. 3,2,1-
-|066:41:59|CMP|MARK it. POWER switch OFF.
-|066:41:59|CDR|Say, Bob or Stu.
-|066:41:59|CC|Roger. Go ahead.
-|066:42:34|CDR|Okay, add - to ad to today. Not last night, but -I guess the first night I was in bed - I definitely saw some of these - because I had a hard time going to bed, to start with - I saw some of the same peripheral horizon-type things you said were not the type of data you were looking for; but I also saw a - some sets of the streaks. And probably the one most imposing thing I remember is - and the last one I remember before falling asleep - was the fact that there was a very bright spot that flashed right between my eyes like a very bright headlight - like a train coming at you, only with a flash. It's difficult probably to estimate the frequency of any of those because I was in a -sort of a sleep-hazy mode.
-|066:42:34|CC|Roger.
-|066:42:34|CDR|But then, as today, I saw some that flashed and lit up the horizon and some that lit up peripherally; and I guess, as you say, that's a different kind of data, but I did see them there and they impressed me.
-|066:42:34|CC|Okay. We got all that, Gene.
-|066:42:34|CDR|Okay.
-|066:42:34|CMP|And it might be interesting to know I've never seen it before today,
-|066:42:34|CC|Hey, Gene, we appreciate all the data. We were just trying to make the data fit the curve; you know the old trick.
+|066:41:20|CDR|Is that it? Yes, I can get that, Gene.
+|066:41:46|CMP|Okay, you want to take a picture of it first? Okay, POWER ... Okay, stand by. 3,2,1 -
+|066:42:00|CMP|MARK it. POWER switch OFF.
+|066:42:28|CDR|Say, Bob or Stu.
+|066:42:30|CC|Roger. Go ahead.
+|066:42:35|CDR|Okay, add - to add to today. Not last night, but - I guess the first night I was in bed - I definitely saw some of these - because I had a hard time going to bed, to start with - I saw some of the same peripheral horizon-type things you said were not the type of data you were looking for; but I also saw a - some sets of the streaks. And probably the one most imposing thing I remember is - and the last one I remember before falling asleep - was the fact that there was a very bright spot that flashed right between my eyes like a very bright headlight - like a train coming at you, only with a flash. It's difficult probably to estimate the frequency of any of those because I was in a - sort of a sleep-hazy mode.
+|066:43:39|CC|Roger.
+|066:43:43|CDR|But then, as today, I saw some that flashed and lit up the horizon and some that lit up peripherally; and I guess, as you say, that's a different kind of data, but I did see them there and they impressed me.
+|066:44:00|CC|Okay. We got all that, Gene.
+|066:44:07|CDR|Okay.
+|066:44:08|CMP|And it might be interesting to know I've never seen it before today.
+|066:44:31|CC|Hey, Gene, we appreciate all the data. We were just trying to make the data fit the curve; you know the old trick.
 ||||Tape 46/5|Page 338
 |066:44:40|CDR|Okay, I just wanted you to - just told them like we saw them. That's all.
-|066:44:40|CC|Roger.
-|066:44:40|CDR|I will say one thing, though; no question in my mind but that they're there. Last trip I took, I guess I just wasn't looking for them or paying any attention to them. Maybe they were there and I ignored them because of other things. But they're there.
-|066:44:40|LMP|Okay, all you flash bugs down there - or flashbulbs I guess is the word - frame 50. I just took four pictures to show - two on the side and two on the bottom - to show the position of the ALFMED, and one of them of each set was focused on the ALFMED. The others were focused on the - the other set was focused on the struts.
-|066:44:40|CC|Roger, Jack.
-|066:44:40|LMP|And when you don't have anything else to do, why don't you have somebody predict where the S-IVB is. I think I've got her spotted - behind us and above us with respect to the Earth and our travel from it.
-|066:44:40|CC|FIDO just went out and shot himself, but we'll get working on it.
-|066:44:40|LMP|Oh, don't worry about it. Shoot. I thought you guys might have an idea off-the-cuff there.
-|066:44:40|CC|No, what's humorous on this, Jack, is they have really been working on that S-IVB impact point -, and they've really been - it's been a - a real difficult problem for them so far.
-|066:44:40|LMP|I'll tell you, I bet you Ron could give a star sighting on it (laughter). I looked at it through the monocular and sure looks like the S-IVB.
-|066:44:40|CC|Jack, we're not doubting you at all. We could probably start cranking it right now.
+|066:44:47|CC|Roger.
+|066:44:52|CDR|I will say one thing, though; no question in my mind but that they're there. Last trip I took, I guess I just wasn't looking for them or paying any attention to them. Maybe they were there and I ignored them because of other things. But they're there.
+|066:45:11|LMP|Okay, all you flash bugs down there - or flashbulbs I guess is the word - frame 50. I just took four pictures to show - two on the side and two on the bottom - to show the position of the ALFMED, and one of them of each set was focused on the ALFMED. The others were focused on the other - the other set was focused on the struts.
+|066:45:39|CC|Roger, Jack.
+|066:45:48|LMP|And when you don't have anything else to do, why don't you have somebody predict where the S-IVB is. I think I've got her spotted - behind us and above us with respect to the Earth and our travel from it.
+|066:46:02|CC|FIDO just went out and shot himself, but we'll get working on it.
+|066:46:08|LMP|Oh, don't worry about it. Shoot. I thought you guys might have an idea off-the-cuff there.
+|066:46:13|CC|No, what's humorous on this, Jack, is they have really been working on that S-IVB impact point, and they've really been - it's been a - a real difficult problem for them so far.
+|066:46:24|LMP|I'll tell you, I bet you Ron could give you a star sighting on it (laughter). I looked at it through the monocular and sure looks like the S-IVB.
+|066:46:37|CC|Jack, we're not doubting you at all. We could probably start cranking it right now.
 ||||Tape 46/6|Page 339
-|066:46:46|CC|Jack, are you sto - you all stowing the ALFMED now or are you done?
-|066:46:46|CMP|What's that, Bob?
-|066:46:46|CC|Are you all done with the ALFMED now, Ron?
-|066:46:46|CMP|Yes, I've got to get it to - get the plate moved back down there yet.
-|066:46:46|CC|Okay, Ron - -
-|066:46:46|CMP|... get the blindfold off first so I can see what I'm doing.
-|066:46:46|CC|Roger. I just want you to know. We've got a real long update coming up to you here on the LOI abort charts and that - and it's going to be, probably, a difficult readup. And you're the most familiar with the charts; you probably would want to take them. But whenever you want to take them, they are on - charts on page 3-8l, 3-82, and then the cue card for LOI limits. Whenever you want to take them. It will be a lengthy one.
-|066:46:46|CMP|Stand by, Bob. Let us get squared away from the ALFMED; then we can get going on that.
-|066:46:46|CC|No, I don't want to hurry you, Ron. I just want you to know what - when - just get yourself comfortable and be ready to take them whenever you want them. It's going to be a lengthy time, though.
-|066:47:51|CMP|Okay.
-|066:47:51|CDR|Hey, Bob, I'm looking at what - what Jack was talking about; and it's definitely not a particle that's nearby because there is another one I can look at and get a three-dimensional comparison with. It is a - it is a bright object, and it's obviously rotating because it's flashing. It's way out in the distance, as I say, because there are particles that are close by and it's obviously not one of those. It's apparently rotating in a very rhythmic fashion because the flashes come around almost - almost on time. And it's as we look back at the Earth, it's up at about 11:00 about - oh, maybe 10 or 12 Earth diameters. I don't know whether that does you any good, but there is something out there.
+|066:46:47|CC|Jack, are you sto - you all stowing the ALFMED now or are you done?
+|066:46:53|CMP|What's that, Bob?
+|066:46:54|CC|Are you all done with the ALFMED now, Ron?
+|066:46:59|CMP|Yes, I've got to get it to - get the plate moved back down there yet.
+|066:47:03|CC|Okay, Ron - -
+|066:47:04|CMP|... get the blindfold off first so I can see what I'm doing.
+|066:47:08|CC|Roger. I just want you to know. We've got a real long update coming up to you here on the LOI abort charts and that - and it's going to be, probably, a difficult readup. And you're the most familiar with the charts; you probably would want to take them. But whenever you want to take them, they are on - charts on page 3-8l, 3-82, and then the cue card for LOI limits. Whenever you want to take them. It will be a lengthy one.
+|066:47:36|CMP|Stand by, Bob. Let us get squared away from the ALFMED; then we can get going on that.
+|066:47:41|CC|No, I don't want to hurry you, Ron. I just want you to know what - when - just get yourself comfortable and be ready to take them whenever you want them. It's going to be a lengthy time, though.
+|066:47:52|CMP|Okay.
+|066:47:54|CDR|Hey, Bob, I'm looking at what - what Jack was talking about; and it's definitely not a particle that's nearby because there is another one I can look at and get a three-dimensional comparison with. It is a - it is a bright object, and it's obviously rotating because it's flashing. It's way out in the distance, as I say, because there are particles that are close by and it's obviously not one of those. It's apparently rotating in a very rhythmic fashion because the flashes come around almost - almost on time. And it's as we look back at the Earth, it's up at about 11:00 about - oh, maybe 10 or 12 Earth diameters. I don't know whether that does you any good, but there is something out there.
 ||||Tape 46/7|Page 340
-|066:47:51|CC|Roger. We don't doubt it, Gene. And we might work out a set of gimbal angles or something here; maybe we can get a look at it through the optics.
-|066:49:02|CDR|Okay. And I - I - I just want to emphasize that it's definitely not - not one of these particles that tends to look like a star out there. It's something physical in the distance. (Laughter) Oh, yes.
+|066:48:51|CC|Roger. We don't doubt it, Gene. And we might work out a set of gimbal angles or something here; maybe we can get a look at it through the optics.
+|066:49:03|CDR|Okay. And I - I - I just want to emphasize that it's definitely not - not one of these particles that tends to look like a star out there. It's something physical in the distance. (Laughter) Oh, yes.
 |066:49:02|SC|... thing off.
-|066:50:13|CMP|Yes, guess I am.
-|066:50:13|CC|Okay, Gene. If you can call up a NOUN 20 so we know the spacecraft attitude, and if you can reference the object you're looking at out of your window, with - with respect to body axis and let us look at your - your - give us a mark, somehow, and give us your NOUN 20s, we can try and get a tie-in and start locating - locating this object down for you.
+|066:50:14|CMP|Yes, guess I am.
+|066:50:29|CC|Hey, Gene. If you can call up a NOUN 20 so we know the spacecraft attitude, and if you can reference the object you're looking at out of your window, with - with respect to body axis and let us look at your - your - give us a mark, somehow, and give us your NOUN 20s, we can try and get a tie-in and start locating - locating this object down for you.
 |066:50:58|CDR|Okay, I'm looking it out - looking at it out the center window - the hatch window - and I'll give you a hack when it crosses the XX axis at the center window; and I guess it's up maybe 45 degrees
-|066:50:58|CC|Okay, give us a hack and we're copying your NOUN 20s right now.
-|066:50:58|CDR|Okay, Jack says pitched up about 30 degrees but - -
-|066:50:58|LMP|No. 451 because -
-|066:50:58|CDR|Yes, he agrees. It's 45 degrees pitched up, and I'll give you a hack when it crosses the XX axis.
-|066:50:58|CDR|Okay -
+|066:51:18|CC|Okay, give us a hack and we're copying your NOUN 20s right now.
+|066:51:26|CDR|Okay, Jack says pitched up about 30 degrees but - -
+|066:51:30|LMP|No. 45 because -
+|066:51:31|CDR|Yes, he agrees. It's 45 degrees pitched up, and I'll give you a hack when it crosses the XX axis.
+|066:51:52|CDR|Okay -
 ||||Tape 46/8|Page 341
-|066:51:32|CDR|MARK it. It just crossed through the - -
-|066:51:32|CC|Mark. We got it.
-|066:51:32|CDR|- - let's call it the XZ plane of the spacecraft. One unique thing about it, Bob, is that it's got two flashes. As it comes around in - in rhythmic fashion, you get a very bright flash; and then you get a dull flash. And then it'll come around with a bright flash, and then a dull flash.
-|066:52:18|LMP|That's the side and - of the S-IVB - and then the engine bell, Gene.
-|066:52:18|LMP|The commander doesn't think that I can see the engine bell on that thing.
-|066:52:18|CC|Roger, Jack. Is that with the monocular you're looking at it?
-|066:52:18|CDR|He couldn't see the engine bell if he had 10 monoculars.
-|066:52:18|CMP|Okay. I've got the cable restowed now.
-|066:52:18|CC|Say again, Ron.
-|066:53:10|CMP|And, Gene, where's your blindfold?
-|066:55:24|LMP|Bob, couple of revolutions ago when I was looking at it, I had a much brighter view and I believe I was looking at it broadside. It looks to me like it may be flashing more or less end-on now. It's much, not - not as bright, although it's getting brighter. But it's not as bright now as it was awhile ago.
-|066:55:24|CC|Roger, Jack.
-|066:55:24|LMP|... we've been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
-|066:56:27|CC|Roger, Jack.
-|066:56:27|CDR|Hey, Robert, what's the final Cowboy score?
+|066:51:53|CDR|MARK it. It just crossed through the - -
+|066:51:56|CC|MARK. We got it.
+|066:51:57|CDR|- - let's call it the XZ plane of the spacecraft. One unique thing about it, Bob, is that it's got two flashes. As it comes around in - in rhythmic fashion, you get a very bright flash; and then you get a dull flash. And then it'll come around with a bright flash, and then a dull flash.
+|066:52:19|LMP|That's the side and - of the S-IVB - and then the engine bell, Gene.
+|066:52:34|LMP|The commander doesn't think that I can see the engine bell on that thing.
+|066:52:39|CC|Roger, Jack. Is that with the monocular you're looking at it?
+|066:52:46|CDR|He couldn't see the engine bell if he had 10 monoculars.
+|066:52:54|CMP|Okay. I've got the cable restowed now.
+|066:53:00|CC|Say again, Ron.
+|066:53:11|CMP|And, Gene, where's your blindfold? ...
+|066:55:25|LMP|Bob, couple of revolutions ago when I was looking at it, I had a much brighter view and I believe I was looking at it broadside. It looks to me like it may be flashing more or less end-on now. It's much, not - not as bright, although it's getting brighter. But it's not as bright now as it was awhile ago.
+|066:55:50|CC|Roger, Jack.
+|066:56:16|LMP|... we've been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
+|066:56:28|CC|Roger, Jack.
+|066:56:31|CDR|Hey, Robert, what's the final Cowboy score?
 ||||Tape 46/9|Page 342
-|066:56:27|CC|Okay; I was just going to update that. The Cowboys won it 34 to 24. And by winning it, they wrap up the wild-card slot in the NFC; and so both Washington and Dallas will be in the playoffs.
-|066:56:53|CDR|Sounds good.
-|066:56:53|LMP|Bob, that line of clouds I called a fir-tree pattern that swings up towards Hawaii - Hawaii, if you will - has - also has a mushroom pattern on the top. It has the appearance as if two major air masses - one going from west to east and the other form east to west - have converged along that line, and the joint movement of air at the interface being south to north. And up in the area of Hawaii, I think, it tends to mushroom so that the pattern then goes back to flow from west to east on the east side and from east to west on the west side.
-|066:56:53|CC|Roger.
-|066:58:27|LMP|In a little while, we'll probably get a pretty good look at a - what looks like a very concentrated intense storm that, I think, is just - east
-|066:58:27|CMP|*** And then we'll put them, once we get updated a little bit. Yes, I'll get out of VOX in a minute.
-|066:58:27|LMP|I was looking for the Flight Plan and stuff. And the little books.
-|066:58:27|LMP|Say, Bob.
-|066:58:27|CC|Go ahead.
-|066:58:27|LMP|Houston, 17. How do you read?
-|066:58:27|CC|Go ahead, Jack. Read you loud and clear.
-|066:58:27|CDR|Okay, Bob, you want to update the LOI card and Flight Plan 3-82 and 3-81; is that right?
-|066:58:27|CC|That's affirmative.
-|066:58:27|CDR|Which one do you want to start on?
+|066:56:35|CC|Okay; I was just going to update that. The Cowboys won it 34 to 24. And by winning it, they wrap up the wild-card slot in the NFC; and so both Washington and Dallas will be in the playoffs.
+|066:56:54|CDR|Sounds good.
+|066:57:17|LMP|Bob, that line of clouds I called a fir tree pattern that swings up towards Hawaii - Hawaii, if you will - has - also has a mushroom pattern on the top. It has the appearance as if two major air masses - one going from west to east and the other form east to west - have converged along that line, and the joint movement of air at the interface being south to north. And up in the area of Hawaii, I think, it tends to mushroom so that the pattern then goes back to flow from west to east on the east side and from east to west on the west side.
+|066:58:18|CC|Roger.
+|066:58:27|LMP|In a little while, we'll probably get a pretty good look at a - what looks like a very concentrated intense storm that, I think, is just - east - -
+|066:59:09|CMP|... And then we'll put them, once we get updated a little bit. Yes, I'll get out of VOX in a minute.
+|067:00:28|LMP|I was looking for the Flight Plan and stuff. And the little books.
+|067:00:50|LMP|Say, Bob.
+|067:00:52|CC|Go ahead.
+|067:01:11|LMP|Houston, 17. How do you read?
+|067:01:14|CC|Go ahead, Jack. Read you loud and clear.
+|067:01:19|CDR|Okay, Bob, you want to update the LOI card and Flight Plan 3-82 and 3-81; is that right?
+|067:01:31|CC|That's affirmative.
+|067:01:36|CDR|Which one do you want to start on?
 ||||Tape 46/10|Page 343
-|066:58:27|CC|I would say 3-81 is the most difficult one to start on.
-|066:58:27|CDR|Okay, in that case, why don't you start on the board - on the cue card?
-|066:58:27|CC|Okay. We can start on the cue card. Your - your druthers.
-|066:58:27|CDR|Yes, go ahead. I'm ready.
-|066:58:27|CC|Okay, on the LOI limits. The VGO column - let's go right down the VGO column; I think that would be the easiest way to do it. Where it says, "VGO 2980," change that to "2986."
-|066:58:27|CDR|Why don't you just keep going?
-|066:58:27|CC|Okay. The next one going straight down the line, "2721, 2521, and 2316." That's, all the changes on the VGO line.
-|066:58:27|CDR|Okay; and all those changes were in Mode I?
-|066:58:27|CC|That's affirmative.
-|066:58:27|CDR|Okay, I got 2986, 2721, 2521, 2316.
-|066:58:27|CC|Roger. Now under the burn time column, the first one opposite the 2986, the burn time remains the same. Do not change that one. The next one changes -
-|066:58:27|CDR|Go ahead.
-|066:58:27|CC|Zero plus 40.
-|066:58:27|CDR|Which one is that, Bob? I missed you.
-|066:58:27|CC|Okay. Where it says, "0 plus 28," change that to "0 plus 40."
-|066:58:27|CDR|Okay, press on through them all now.
-|066:58:27|CC|Change the "0 plus 53" one to "l plus 10." Change the "l plus 31" to the number "l plus 40". Over.
+|067:01:39|CC|I would say 3-81 is the most difficult one to start on.
+|067:01:50|CDR|Okay, in that case, why don't you start on the board - on the cue card?
+|067:01:57|CC|Okay. We can start on the cue card. Your - your druthers.
+|067:02:03|CDR|Yes, go ahead. I'm ready.
+|067:02:05|CC|Okay, on the LOI limits. The VGO column - let's go right down the VGO column; I think that would be the easiest way to do it. Where it says, "VGO 2980," change that to "2986."
+|067:02:31|CDR|Why don't you just keep going?
+|067:02:33|CC|Okay. The next one going straight down the line, "2721, 2521, and 2316." That's, all the changes on the VGO line.
+|067:02:57|CDR|Okay; and all those changes were in Mode I?
+|067:03:02|CC|That's affirmative.
+|067:03:06|CDR|Okay, I got 2986, 2721, 2521, 2316.
+|067:03:13|CC|Roger. Now under the burn time column, the first one opposite the 2986, the burn time remains the same. Do not change that one. The next one changes -
+|067:03:35|CDR|Go ahead.
+|067:03:36|CC|Zero plus 40.
+|067:03:39|CDR|Which one is that, Bob? I missed you.
+|067:03:41|CC|Okay. Where it says, "0 plus 28," change that to "0 plus 40."
+|067:03:56|CDR|Okay, press on through them all now.
+|067:03:59|CC|Change the "0 plus 53" one to "l plus 10." Change the "l plus 31" to the number "l plus 40". Over.
 ||||Tape 46/11|Page 344
-|066:58:27|CDR|Okay. I got - in order - burn time 0, and then 0 plus 40, 1 plus 10, and 1 plus 40.
-|066:58:27|CC|Roger. V-measured column: the first one, the zero does not change. The next one - in this order: "2651 465, and 670." Over.
-|066:58:27|CDR|Okay. I got 0, 265, 465» and 670.
-|066:58:27|CC|That's affirmative, Gene. That's the changes to the LOI limits cue card.
-|066:58:27|CDR|Okay, Bob, I think we got all that. I guess DELTA-V measured down there in the bottom - 2980 -should be 2986, huh?
-|066:58:27|CC|Roger. We felt that wasn't - that — that is -correct. To be technically correct, it should be 2986 at that last one.
-|066:58:27|CDR|Okay, I guess we're coming in just a sukosh hotter, huh?
-|066:58:27|CC|That's affirmative.
-|066:58:27|CC|You'll see from the curves that we're going to have to update, that you're a lot closer to the free-return trajectory.
+|067:04:18|CDR|Okay. I got - in order - burn time 0, and then 0 plus 40, 1 plus 10, and 1 plus 40.
+|067:04:26|CC|Roger. V-measured column: the first one, the zero does not change. The next one - in this order: "265, 465, and 670." Over.
+|067:04:55|CDR|Okay. I got 0, 265, 465, and 670.
+|067:04:59|CC|That's affirmative, Gene. That's the changes to the LOI limits cue card.
+|067:05:14|CDR|Okay, Bob, I think we got all that. I guess DELTA-V measured down there in the bottom - 2980, should be 2986, huh?
+|067:05:31|CC|Roger. We felt that wasn't - that - that is - correct. To be technically correct, it should be 2986 at that last one.
+|067:05:46|CDR|Okay, I guess we're coming in just a sukosh hotter, huh?
+|067:05:52|CC|That's affirmative.
+|067:06:05|CC|You'll see from the curves that we're going to have to update, that you're a lot closer to the free-return trajectory.
 |067:06:17|CDR|Okay, why don't you go ahead on 3-81?
-|067:06:17|CC|Okay, this is the tough one. The first thing we're going to do is plot a couple or three points here in the Mode I - 2-hour - the Mode I 2-hour line changes, also. So you might want to draw a line at a LOI DELTA-V DVM of 265, 265 and draw that straight up the curve. That'll be the no - the new--
-|067:06:17|CDR|Okay, the LOI DELTA-V magnitude of - DVM of 265» huh?
-|067:07:01|CC|Roger. That will be the crossover point from the Mode I 2-hour to the Mode I 30-minute.
+|067:06:22|CC|Okay, this is the tough one. The first thing we're going to do is plot a couple or three points here in the Mode I - 2-hour - the Mode I 2-hour line changes, also. So you might want to draw a line at a LOI DELTA-V DVM of 265, 265 and draw that straight up the curve. That'll be the no - the new--
+|067:06:55|CDR|Okay, the LOI DELTA-V magnitude of - DVM of 265 huh?
+|067:07:02|CC|Roger. That will be the crossover point from the Mode I 2-hour to the Mode I 30-minute.
 ||||Tape 46/12|Page 345
-|067:07:01|CDR|Bob, are you there?
-|067:07:01|CC|That's affirmative. Go ahead.
-|067:07:01|CDR|Okay, Bob, I've got a - 265 vertical line drawn and I expect I can extend the Mode I 2-hour abort to that limit.
-|067:07:01|CC|That is affirmative, Gene.
-|067:07:01|CC|Now you're going to have a new curve, so don't bother to draw in the old curve. We're going to give you three points to plot and draw a straight line in between them that will create a new curve.
-|067:07:01|CDR|Go ahead.
-|067:07:01|CC|Okay. The first one is at - the point is defined with a DELTA-VM of zero and an abort DELTA-V of 1525, 1525.
-|067:07:01|CDR|Okay.
-|067:07:01|CC|Okay, the second point is defined by a DELTA-VM of 150; an abort DELTA-V of 1810. Over.
-|067:07:01|CDR|Bob, that last was 1810?
-|067:07:01|CC|That's affirmative.
+|067:08:54|CDR|Bob, are you there?
+|067:08:55|CC|That's affirmative. Go ahead.
+|067:09:04|CDR|Okay, Bob, I've got a - 265 vertical line drawn and I expect I can extend the Mode I 2-hour abort to that limit.
+|067:09:10|CC|That is affirmative, Gene.
+|067:09:14|CC|Now you're going to have a new curve, so don't bother to draw in the old curve. We're going to give you three points to plot and draw a straight line in between them that will create a new curve.
+|067:09:26|CDR|Go ahead.
+|067:09:27|CC|Okay. The first one is at - the point is defined with a DELTA-VM of zero and an abort DELTA-V of 1525, 1525.
+|067:09:50|CDR|Okay.
+|067:09:52|CC|Okay, the second point is defined by a DELTA-VM of 150; an abort DELTA-V of 1810. Over.
+|067:10:17|CDR|Bob, that last was 1810?
+|067:10:20|CC|That's affirmative.
 |067:10:37|CDR|Okay. I got it.
-|067:10:37|CC|Okay, and the last point is defined by DELTA-VM of 265; an abort DELTA-V of 2105.
-|067:10:37|CC|The curve - -
-|067:10:37|CDR|Okay, and that - that last point is just the DPS available curve with 265.
-|067:10:37|CC|That's affirmative.
+|067:10:38|CC|Okay, and the last point is defined by DELTA-VM of 265; an abort DELTA-V of 2105.
+|067:10:59|CC|The curve defined by those three points will be your LOI plus 2 hours abort DELTA V.
+|067:11:08|CDR|Okay, and that - that last point is just the DPS available curve with 265.
+|067:11:15|CC|That's affirmative.
 ||||Tape 46/13|Page 346
-|067:10:37|CDR|Okay, it's drawn in and I - -
-|067:10:37|CC|Okay, now we got a curve 1.
-|067:10:37|CDR|- - guess at 2. Okay, go ahead.
-|067:10:37|CC|I'm sorry I cut you out. Did you have something else you want on that?
-|067:10:37|CDR|No, it's good. Our curve's in.
-|067:10:37|CC|Okay. Curve 1 is two points defining it. The first one is DELTA-VM of 265, abort DELTA-V of 1855-
-|067:10:37|CDR|Okay.
-|067:10:37|CC|And the second one is a DELTA - DELTA-VM of 400, abort DELTA-V of 2065.
-|067:10:37|CDR|Okay.
-|067:10:37|CC|Okay. Those two points from the curve 1 of the Mode I 30-minute.
-|067:10:37|CDR|Okay, I got it.
-|067:10:37|CC|Okay, now curve 2 has three points defining it. The first point is identical with the end point of curve 1. It's 400 on the DELTA-VM and 2065 on the abort DELTA-V.
-|067:10:37|CDR|All right.
-|067:10:37|CC|Okay, the second point is 530 for the DVM and 2245 for the abort DELTA-V.
-|067:10:37|CDR|Okay.
-|067:10:37|CC|And the last point is DVM of 670 and a DELTA-V -abort DELTA-V of 2475.
-|067:10:37|CDR|Okay.
+|067:11:43|CDR|Okay, it's drawn in and I - -
+|067:11:46|CC|Okay, now we got a curve 1.
+|067:10:47|CDR|- - guess at 2 - Okay, go ahead.
+|067:11:53|CC|I'm sorry I cut you out. Did you have something else you want on that?
+|067:11:57|CDR|No, it's good. Our curve's in.
+|067:11:59|CC|Okay. Curve 1 is two points defining it. The first one is DELTA-VM of 265, abort DELTA-V of 1855.
+|067:12:26|CDR|Okay.
+|067:12:27|CC|And the second one is a DELTA - DELTA-VM of 400, abort DELTA-V of 2065.
+|067:12:55|CDR|Okay.
+|067:12:56|CC|Okay. Those two points from the curve 1 of the Mode I 30-minute.
+|067:13:04|CDR|Okay, I got it.
+|067:13:06|CC|Okay, now curve 2 has three points defining it. The first point is identical with the end point of curve 1. It's 400 on the DELTA-VM and 2065 on the abort DELTA-V.
+|067:13:29|CDR|All right.
+|067:13:30|CC|Okay, the second point is 530 for the DVM and 2245 for the abort DELTA-V.
+|067:14:02|CDR|Okay.
+|067:14:03|CC|And the last point is DVM of 670 and a DELTA-V - abort DELTA-V of 2475.
+|067:14:47|CDR|Okay.
 ||||Tape 46/l4|Page 347
-|067:14:49|CC|Okay; and if you draw a line up the page at the DVM of 670, that is the end of the Mode I 30-minute and everything to the right of that you are in Mode II.
-|067:14:49|CC|Gene, Houston.
-|067:14:49|CDR|Stand by, Bob.
-|067:16:05|CC|Roger.
-|067:20:14|CDR|Hello, Houston. Are you reading yet?
-|067:20:14|CC|Roger. Go ahead.
-|067:20:14|CDR|Okay, Bob, curve looks good. I just checked the DPS/APS crossover on the DPS available, and it comes out with what you gave me on the card -about 2521.
-|067:20:14|CC|Roger. And just one minor point. Across the top, on the velocity to be gained, you can bias all those numbers - add a six to every one of them across the top, to be technically correct.
-|067:20:14|CDR|Okay.
-|067:20:14|CC|The next thing we have on that, Gene - -
-|067:20:14|CDR|... correct, I could have done that before I -before I plotted the curve; but that's good. We understand, and we got it down.
-|067:20:14|CC|Okay. The next thing I've got is - that whole update column in the little block there is all updated; and we probably ought to get a readback on all these numbers, Gene. I can give it to you right like a regular pad, just from the - right down from the top to the bottom, and then read it back to me. I think that'll be the best way, don't you?
-|067:20:14|CDR|Okay. Ron's going to go ahead and take them; and we'll double check them, and he'll read them back.
-|067:20:14|CC|Okay.
+|067:14:48|CC|Okay; and if you draw a line up the page at the DVM of 670, that is the end of the Mode I 30-minute and everything to the right of that you are in Mode II.
+|067:15:54|CC|Gene, Houston.
+|067:16:03|CDR|Stand by, Bob.
+|067:16:04|CC|Roger.
+|067:20:13|CDR|Hello, Houston. Are you reading yet?
+|067:20:15|CC|Roger. Go ahead.
+|067:20:19|CDR|Okay, Bob, curve looks good. I just checked the DPS/APS crossover on the DPS available, and it comes out with what you gave me on the card - about 2521.
+|067:20:28|CC|Roger. And just one minor point. Across the top, on the velocity to be gained, you can bias all those numbers - add a six to every one of them across the top, to be technically correct.
+|067:20:51|CDR|Okay.
+|067:20:58|CC|The next thing we have on that, Gene - -
+|067:20:59|CDR|... correct, I could have done that before I - before I plotted the curve; but that's good. We understand, and we got it down.
+|067:21:08|CC|Okay. The next thing I've got is - that whole update column in the little block there is all updated; and we probably ought to get a readback on all these numbers, Gene. I can give it to you right like a regular pad, just from the - right down from the top to the bottom, and then read it back to me. I think that'll be the best way, don't you?
+|067:21:26|CDR|Okay. Ron's going to go ahead and take them; and we'll double check them, and he'll read them back.
+|067:21:31|CC|Okay.
 ||||Tape 46/15|Page 348
-|067:20:14|CMP|Okay, just go ahead and start at the top and go down.
-|067:20:14|CC|Okay. I'm starting at LOI ignition time. 88:54:26.8. Pitch is minus 43, yaw 112. GET abort ignition, 89:24:26.8; roll 217, pitch 6, yaw 25. Minus 42 on the Pitch, 110 on the yaw. 216, 6, 18. High-gain angles again. Minus 75, Yaw 250; GET abort ignition there 90:5^:26.8; 153, 17, 19* Next time there is GET abort ignition for the LM FDAI angles there - 90:54:26.8; Roll, Pitch, and Yaw angles, 202, 29, 330. Over.
-|067:20:14|CMP|Okay, Bob, here we go on the readback. I'll Just read them right down the line. 88:5^:26.8; minus 43, 112, 89:24:26.8; 217, 6, 25; minus 42, 110; 216, 6, 18; minus 75, 250; 90:54:26.8; 153, 17, 19, 90:54:26.8; 202, 29, 330. Over.
-|067:20:14|CC|Roger, Ron. A real good readback. The - on the next page, on page 3-82, the data there is exactly the same as the LOI limit cue card - the changes. We can read it up to you individually or you can take it from your cue cards; your choice.
+|067:21:32|CMP|Okay, just go ahead and start at the top and go down.
+|067:21:35|CC|Okay. I'm starting at LOI ignition time. 88:54:26.8. Pitch is minus 43, yaw 112. GET abort ignition, 89:24:26.8; roll 217, pitch 6, yaw 25. Minus 42 on the Pitch, 110 on the yaw. 216, 6, 18. High-gain angles again. Minus 75, Yaw 250; GET abort ignition there 90:54:26.8; 153, 17, 19. Next time there, GET abort ignition for the LM FDAI angles there - 90:54:26.8; Roll, Pitch, and Yaw angles, 202, 29, 330. Over.
+|067:23:50|CMP|Okay, Bob, here we go on the readback. I'll Just read them right down the line. 88:54:26.8; minus 43, 112, 89:24:26.8; 217, 6, 25; minus 42, 110; 216, 6, 18; minus 75, 250; 90:54:26.8; 153, 17, 19, 90:54:26.8; 202, 29, 330. Over.
+|067:24:39|CC|Roger, Ron. A real good readback. The - on the next page, on page 3-82, the data there is exactly the same as the LOI limit cue card - the changes. We can read it up to you individually or you can take it from your cue cards; your choice.
 |067:25:00|CMP|No, we'll change it from the cue card.
-|067:25:00|CC|Okay.
-|067:25:00|LMP|Bob, since they won't let me write anything, I tried looking for the Moon near the Sun with the filters and could not see it.
-|067:25:00|CC|Roger.
-|067:25:00|LMP|You sure you're sending us to the right place?
-|067:25:00|CC|Roger, Jack. Hey, I've got some information on that S-IVB that you're looking at. The azimuth was in - within 1 degree of what you called when we looked - checked out on your angles.
-|067:25:00|CC|Hey, Jack. Houston.
-|067:25:00|CC|17, Houston.
+|067:25:03|CC|Okay.
+|067:25:26|LMP|Bob, since they won't let me write anything, I tried looking for the Moon near the Sun with the filters and could not see it.
+|067:25:36|CC|Roger.
+|067:25:43|LMP|You sure you're sending us to the right place?
+|067:25:46|CC|Roger, Jack. Hey, I've got some information on that S-IVB that you're looking at. The azimuth was in - within 1 degree of what you called when we looked - checked out on your angles.
+|067:27:08|CC|Hey, Jack. Houston.
+|067:27:48|CC|17, Houston.
 ||||Tape 46/16|Page 349
-|067:25:00|CMP|Go ahead, Bob.
+|067:27:53|CMP|Go ahead, Bob.
 |067:27:54|CC|This was for Jack and Gene. The trench has computed the S-IVB location in reference to your body axis; and the azimuth was within 1 degree, very close, and the - we calculate it should have been out of that window at 62 degrees from the X-axis, and you reported 45 degrees, which is just a 17-degree error. It's real close there. You know, just eyebailing it like that.
-|067:27:54|LMP|That's great. Then that is the S-IVB, huh?
-|067:27:54|CC|Okay. Well, we - you might check it this way, Jack. Line up the star Denebola and Rigel - say again, Regulus; I'm sorry, Regulus - Denebola and Regulus. And then, on that line, go perpendicular to that line right above Ri - rigiht above Regulus, and that should be the S-IVB. It forms one point of a right triangle with Denebola and Regulus.
-|067:27:54|LMP|What you're saying is, it's the eye of Leo the Lion.
-|067:27:54|CC|That1 s firm.
-|067:27:54|LMP|Except we can't see Leo the Lion very well.
+|067:28:23|LMP|That's great. Then that is the S-IVB, huh?
+|067:28:26|CC|Okay. Well, we - you might check it this way, Jack. Line up the star Denebola and Rigel - say again, Regulus; I'm sorry, Regulus - Denebola and Regulus. And then, on that line, go perpendicular to that line right above Ri - right above - right above Regulus, and that should be the S-IVB. It forms one point of a right triangle with Denebola and Regulus.
+|067:28:59|LMP|What you're saying is, it's the eye of Leo the Lion.
+|067:29:03|CC|That's affirm.
+|067:29:07|LMP|Except we can't see Leo the Lion very well.
 |067:29:11|CC|Okay.
 |067:29:11|CC|And, 17; Houston.
 |067:29:11|LMP|Go ahead.
