@@ -65,4 +65,6 @@
 |091:29:49 - joke
 |091:48:55 - joke (barking)
 |093:11:19 - camera magazine
+|093:25:08 - description of radio/tv coverage
+|094:45:09 - photos - Oscar Oscar is on 93 now.
 
