@@ -67,4 +67,6 @@
 |093:11:19 - camera magazine
 |093:25:08 - description of radio/tv coverage
 |094:45:09 - photos - Oscar Oscar is on 93 now.
+|106:07:34 - SPLIT - LM / CSM now on different loops
+|106:35:36 - OO on hasselblad CMP
 
