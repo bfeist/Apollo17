@@ -2600,7 +2600,7 @@
 |034:55:37|CC|Roger. That looks good.
 |035:03:02|CMP|And you're looking at NOUN 93. Okay, you're looking at NOUN 93.
 |035:03:04|CC|Okay, and we go to torque it.
-|035:03:04|CMP|Houston, Apollo 17. When we ran the DELTA-V test, we - we're reading minus 22.2 and I'm having a little trouble finding the SPS cue card. Wonder if FA0 know exactly - knows exactly where that is?
+|035:03:04|CMP|Houston, Apollo 17. When we ran the DELTA-V test, we - we're reading minus 22.2 and I'm having a little trouble finding the SPS cue card. Wonder if FAO know exactly - knows exactly where that is?
 |035:03:04|CC|Stand by; I'll check.
 |035:07:07|LMP|Houston, if you saw a MASTER ALARM, it was the POWER SCE NORMAL switch getting hooked to OFF.
 |035:07:07|CC|Roger.
@@ -6337,744 +6337,765 @@
 |086:46:25|CMP|My big problem was all the holes were hills when I first started. Looked just like you had the picture upside down.
 |086:46:32|CC|Roger, Ron. I have a couple pan camera photo pads for you.
 |086:46:50|LMP|Go ahead, Gordo.
-|086:46:52|CC|Okay, the first one goes in the Flight Plan at 90:45, and the start time is 090:50:32. Stop time is 091:10:57* Go ahead.
-|086:46:10|LMP|Okay, I got 090:50:32 and 091:10:57-
-|086:46:10|CC|Okay, and next one goes on the next page. Start time is 091:18:05. Stop time is 091:27:43-
-|086:46:10|LMP|91:18:05, 91:27:43.
-|086:46:10|CC|That1s right.
-|086:47:58|LMP|Okay, Gordy, I turned the PAN CAMERA, OFF, there about 30 seconds ago and the post-SPS burn checks are complete. LOGIC - no, that's - well, just a minute. The post-SPS burns are complete down to LOGIC POWER, two, to DEPLOY/RETRACT. No, that's your Flight Plan. Okay? MODE is STANDBY.
-|086:48:33|LMP|MARK it. POWER is ON on the PAN CAMERA. Okay, Houston, we're waiting your cue on the power.
-|086:48:33|CC|Okay on that, and there'll be no update to the TEI-4 pad. Over.
-|086:48:33|LMP|Beautiful.
-|086:48:33|LMP|Here's Smythii, gang. Coming over Mare - No, let's see, Crisium. Coining over Crisium. It's - coming underneath us now.
+|086:46:52|CC|Okay, the first one goes in the Flight Plan at 90:45, and the start time is 090:50:32. Stop time is 091:10:57. Go ahead.
+|086:47:16|LMP|Okay, I got 090:50:32 and 091:10:57.
+|086:47:21|CC|Okay, and next one goes on the next page. Start time is 091:18:05. Stop time is 091:27:43.
+|086:47:45|LMP|91:18:05, 91:27:43.
+|086:47:53|CC|That's right.
+|086:47:57|LMP|Okay, Gordy, I turned the PAN CAMERA, OFF, there about 30 seconds ago and the post-SPS burn checks are complete. LOGIC - no, that's - well, just a minute. The post-SPS burns are complete down to LOGIC POWER, two, to DEPLOY/RETRACT. No, that's your Flight Plan. Okay? MODE is STANDBY.
+|086:48:32|LMP|MARK it. POWER is ON on the PAN CAMERA. Okay, Houston, we're waiting your cue on the power.
+|086:48:43|CC|Okay on that, and there'll be no update to the TEI-4 pad. Over.
+|086:48:51|LMP|Beautiful.
+|086:49:02|LMP|Here's Smythii, gang. Coming over Mare - No, let's see, Crisium. Coining over Crisium. It's - coming underneath us now.
 ||||Tape 59/5|Page 438
-|086:48:33|LMP|I will have in a jiffy. Okay, I'm going to hang off then a little bit. Get a - Boy, this window.
-|086:48:33|CDR|And, Gordo, how did the spacecraft look to you as we came around?
-|086:48:33|CC|Real good, Geno. Nothing to report.
-|086:48:33|CDR|Very fine. Thank you.
-|086:48:33|LMP|(Laughter) One little minor problem, Gordy, is that we're breathing so hard that the windows are fogging up on the inside for a change.
+|086:49:21|LMP|I will have in a jiffy. Okay, I'm going to hang off then a little bit. Get a - Boy, this window.
+|086:49:44|CDR|And, Gordo, how did the spacecraft look to you as we came around?
+|086:49:50|CC|Real good, Geno. Nothing to report.
+|086:49:57|CDR|Very fine. Thank you.
+|086:50:04|LMP|(Laughter) One little minor problem, Gordy, is that we're breathing so hard that the windows are fogging up on the inside for a change.
 |086:50:24|CC|Okay, and we'd like the PAN CAMERA POWER, off, now. The pan camera run; good.
-|086:50:24|CDR|Beautiful.
-|086:50:24|LMP|Oh, boy, there is Picard - or Peirce, one of the two.
-|086:50:24|LMP|Okay, Gordy, all those dark and light albedo changes around Picard and Peirce are not obvious at this particular angle yet. There's some hint of them.
-|086:50:24|CC|Roger.
-|086:50:24|LMP|The - rim - Is there one farther south of Peirce?
-|086:50:24|LMP|Which - is it far - Is the one farthest - Picard, yes.
-|086:50:24|LMP|Picard, I think, is the one I'm looking at. Yes, it is. Yes, and I can see Peirce now just -behind the rendezvous antenna - or radar. And -Yes, way out there, you ought to start seeing them.
-|086:50:24|CMP|I guess I ought to get that other stuff on the camera, huh?
-|086:50:24|LMP|Okay. We're just about over the top of Picard, and the rim materials, which go out about a third of a crater in diameter, as near as I can tell, are - are distinctly darker but not by much. They're more gray, really, then the gray-tan, or tannish gray of the rest of the mare.
+|086:50:38|CDR|Beautiful.
+|086:50:43|LMP|Oh, boy, there is Picard - or Peirce, one of the two.
+|086:51:00|LMP|Okay, Gordy, all those dark and light albedo changes around Picard and Peirce are not obvious at this particular angle yet. There's some hint of them.
+|086:51:18|CC|Roger.
+|086:51:21|LMP|The - rim - Is there one farther south of Peirce?
+|086:51:29|LMP|Which - is it far - Is the one farthest - Picard, yes.
+|086:51:38|LMP|Picard, I think, is the one I'm looking at. Yes, it is. Yes, and I can see Peirce now just - behind the rendezvous antenna - or radar. And - Yes, way out there, you ought to start seeing them.
+|086:52:02|CMP|I guess I ought to get that other stuff on the camera, huh?
+|086:52:09|LMP|Okay. We're just about over the top of Picard, and the rim materials, which go out about a third of a crater in diameter, as near as I can tell, are - are distinctly darker but not by much. They're more gray, really, then the gray-tan, or tannish gray of the rest of the mare.
 ||||Tape 59/6|Page 439
-|086:50:24|CC|Roger. Now we assume you're all set up or about to get that way for the landing site photos.
-|086:50:24|LMP|Yes, sir. There is no obvious ray pattern or secondary pattern outside of that blanket around Picard.
-|086:50:24|CC|Roger.
-|086:50:24|LMP|I see no loops or obvious alignment that would be related to that crater. There are blocks - look like great big blocky areas on the rim.
-|086:50:24|CC|Roger.
-|086:50:24|LMP|Do they want the 80-millimeter lens on these terminators now?
-|086:50:24|LMP|There's Taruntius, Ron.
-|086:50:24|LMP|Yes, I guess that's right.
-|086:50:24|LMP|I've got to get another magazine on it.
-|086:55:12|CC|Roger. Can you verify the position of the P - PU valve at this time for us?
-|086:55:19|CDR|Roger. It's in NORMAL.
-|086:55:19|CC|Okay.
-|086:55:45|LMP|Macrobius, Macrobius, my friend.
-|086:55:45|CDR|No, it's Microbus [sic].
-|086:55:45|LMP|Okay, I'm loaded up for your terminator, Ron. What's - is it not out of 105, or what? Is it -Okay, 80-millimeter or -
-|086:55:45|CMP|80.
-|086:55:45|LMP|80 - -
-|086:55:45|CMP|... Millimeter ... f/ll at 1/500 ...
-|086:55:45|LMP|Okay.
-|086:55:45|CMP|8o-millimeter.
-|086:55:45|LMP|Okay.
+|086:52:33|CC|Roger.
+|086:52:38|CC|Now we assume you're all set up or about to get that way for the landing site photos.
+|086:52:46|LMP|Yes, sir. There is no obvious ray pattern or secondary pattern outside of that blanket around Picard.
+|086:53:07|CC|Roger.
+|086:53:08|LMP|I see no loops or obvious alignment that would be related to that crater. There are blocks - look like great big blocky areas on the rim.
+|086:53:21|CC|Roger.
+|086:53:28|PAO|This is Apollo Control, some 6 minutes 13 seconds away from S-IVB impact. The traces - seismograph traces - from Apollo 14 and Apollo 16 will be visible in the news room video monitors. There will be a briefing in the small briefing room on the seismology of the impact. Some 5 minutes 43 seconds now away from S-IVB predicted impact.
+|086:54:08|LMP|Do they want the 80-millimeter lens on these terminators now?
+|086:54:32|LMP|There's Taruntius, Ron.
+|086:54:37|LMP|Yes, I guess that's right.
+|086:54:58|LMP|I've got to get another magazine on it.
+|086:55:11|CC|America, can you verify the position of the P - PU valve at this time for us?
+|086:55:18|CDR|Roger. It's in NORMAL.
+|086:55:21|CC|Okay.
+|086:55:44|LMP|Macrobius, Macrobius, my friend.
+|086:55:46|CDR|No, it's Microbus [sic].
+|086:55:57|LMP|Okay, I'm loaded up for your terminator, Ron. What's - is it not out of 105, or what? Is it - Okay, 80-millimeter or -
+|086:56:13|CMP|80.
+|086:56:14|LMP|80 - -
+|086:56:15|CMP|... Millimeter ... f/ll at 1/500 ...
+|086:56:18|LMP|Okay.
+|086:56:19|CMP|80-millimeter.
+|086:56:21|LMP|Okay.
 ||||Tape 59/7|Page 440
-|086:55:45|CMP|f/11 at 1/500.
-|086:55:45|LMP|Five frames over the terminator, huh?
-|086:55:45|CMP|12 frames.
-|086:55:45|LMP|12 frames. Very good. How soon do I start?
-|086:55:45|CMP|Well, about -
-|086:55:45|LMP|Okay.
-|086:55:45|CC|Roger.
-|086:55:45|LMP|Not Posidonius, Proclus. That's what I'm describing. You know I - You're looking where?
-|086:55:45|CDR|... 4l.
-|086:55:45|LMP|Infamous Proclus. Okay, give me a mark when I'm -Hey, look at the - -
-|086:55:45|CDR|Okay, I'll give you a mark, Jack.
-|086:55:45|LMP|At the Cauchy Rilles here. Man, is that neat. Let me see. Going to have to -
-|086:55:45|CDR|One right there with the shadowed peak in there. Right? Yes, yes, yes, yes, yes. And that's out of this window, huh? I'm not - sure I'm seeing it yet.
-|086:55:45|LMP|Manischewitz! Look at those terminators.
-|086:55:45|CDR|Shadows.
+|086:56:22|CMP|f/11 at 1/500.
+|086:56:23|LMP|Five frames over the terminator, huh?
+|086:56:25|CMP|12 frames.
+|086:56:26|LMP|12 frames. Very good. How soon do I start?
+|086:56:29|CMP|Well, about -
+|086:56:33|LMP|Okay.
+|086:56:36|LMP|Okay, in about 5 minutes, all right.
+|086:56:39|LMP|Gordy, you'd be interested - there's a crater that just on - on the west rim of Crisium. Relatively fresh rim - fairly crisp rim - but no strong ray pattern. There's no ray pattern apparent at all. It looks like it's pre - the plains material around it - that - since they come right up over the - right up to the edge of the crater in one spot. That is Posidonius. That's right. That's what I'm looking at.
+|086:57:20|CC|Roger.
+|086:57:26|LMP|Not Posidonius, Proclus. That's what I'm describing. You know I - You're looking where?
+|086:57:36|CDR|... 4l.
+|086:57:38|LMP|Infamous Proclus. Okay, give me a mark when I'm - Hey, look at the - -
+|086:57:50|CDR|Okay, I'll give you a mark, Jack.
+|086:57:51|LMP|At the Cauchy Rilles here. Man, is that neat. Let me see. Going to have to -
+|086:58:06|CDR|One right there with the shadowed peak in there. Right? Yes, yes, yes, yes, yes. And that's out of this window, huh? I'm not - sure I'm seeing it yet.
+|086:58:40|LMP|Manischewitz! Look at those terminators.
+|086:58:42|CDR|Shadows.
+|086:58:44|PAO|One minute MARK to the S-IVB impact.
 ||||Tape 59/8|Page 441
-|086:55:45|LMP|There's the mare domes for the central craters. They're certainly obvious. In - northern part of -Let's see -
-|086:55:45|CDR|The lineations that trend to the northwest through this entire - entire section - they go through the -mostly through the highlands.
-|086:55:45|LMP|I can get the pictures. Is it directly out of window 5? Okay. We've got about another minute and a half. I'm going to proceed here at 4l.
-|086:55:45|CMP|It'll be right underneath the groundtrack. It's right under it.
-|086:59:36|LMP|Well, that's the way we're going. I'm taking them east-west.
-|086:59:36|CMP|Okay. I ...
-|086:59:36|LMP|0 - yes. Okay.
-|086:59:36|CDR|Hey, Jack, we're at - coming up on 40.
+|086:58:49|LMP|There's the mare domes for the central craters. They're certainly obvious. In - northern part of - Let's see -
+|086:59:05|CDR|The lineations that trend to the northwest through this entire - entire section - they go through the - mostly through the highlands.
+|086:59:21|LMP|I can get the pictures. Is it directly out of window 5? Okay. We've got about another minute and a half. I'm going to proceed here at 4l.
+|086:59:32|CMP|It'll be right underneath the groundtrack. It's right under it.
+|086:59:35|LMP|Well, that's the way we're going. I'm taking them east-west.
+|086:59:38|CMP|Okay. I ...
+|086:59:40|LMP|O - yes. Okay.
+|086:59:49|CDR|Hey, Jack, we're at - coming up on 40.
+|080:00:03|PAO|We had loss of signal right on time with the instrument unit of the Saturn IVB which - -
 |087:00:07|CC|... about a minute to PRO on P20.
-|087:00:07|CDR|Yes. We're at 40 - Okay, I'm with you, Gordo. Thank you.
-|087:00:07|CMP|Okay, you got it.
-|087:00:07|LMP|Okay.
-|087:00:07|CDR|Don't forget to PRO, Ron; you've got - you got 8 seconds.
-|087:01:02|CDR|MARK it - 4l. Okay, I guess you can - -
-|087:01:02|LMP|Goes. With the usual FA0 flight planning, that was a good time.
-|087:01:02|CC|Roger.
-|087:01:02|LMP|Hey, you can even see horizon in the - earthshine out there.
-|087:01:02|CDR|Boy, you sure can. You can see an earthlit horizon out there into the dark part of the Moon.
+|087:00:09|CDR|Yes. We're at 40 - Okay, I'm with you, Gordo. Thank you.
+|087:00:27|PAO|Seismic signals beginning to come in.
+|087:00:30|CMP|Okay, you got it.
+|087:00:38|LMP|Okay.
+|087:00:52|CDR|Don't forget to PRO, Ron; you've got - you got 8 seconds.
+|087:01:01|CDR|MARK it - 4l. Okay, I guess you can - -
+|087:01:08|LMP|Goes. With the usual FAO flight planning, that was a good time.
+|087:01:17|CC|Roger.
+|087:01:18|LMP|Hey, you can even see horizon in the - earthshine out there.
+|087:01:26|CDR|Boy, you sure can. You can see an earthlit horizon out there into the dark part of the Moon.
 ||||Tape 59/9|Page 442
-|087:01:02|LMP|Can you see the landing site? I think it's going to be in the darkness.
-|087:01:02|CDR|No, I - it - The shadows are so contrasting here, Ron, that I -
-|087:01:02|CMP|Give me that thing a minute.
-|087:02:00|LMP|Donius [sic]. There's le Monnier, the landing site. I can't -
-|087:02:00|CDR|No, it's just - it's just dark.
-|087:02:00|LMP|Isn't it a little north of track?
-|087:02:00|CDR|No, I think it's right below us, Jack. I think it's right smack below us in darkness.
-|087:02:00|LMP|Yes, I yes, it is. I can't - I think I'm looking at Littrow right there, right below us. But I can't quite tell.
-|087:02:00|CDR|If I could see Vitruvius, I'd have a better handle on it.
-|087:02:00|CC|A reminder to go to f/4 and 1/250 on the last six pictures.
-|087:02:00|CDR|Roger. That's Posidonius all right, le Monnier; we're here early.
-|087:02:00|LMP|Boy, I tell you, there's no question that right at the terminator you - you pick up relief that you normally would not believe is there in the mare. I remember Bill Anders talking about the appearance of a sea swell within the mare itself and that's certainly clearly shown right at the terminator. Unless you start to see the shadows from all the very small craters that otherwise don't show up as much more that just little depressions, if that.
-|087:02:00|CC|Okay. We need ACCEPT so we can give you a landing site REFSMMAT.
+|087:01:34|LMP|Can you see the landing site? I think it's going to be in the darkness.
+|087:01:37|CDR|You know, I - it - The shadows are so contrasting here, Ron, that I -
+|087:01:44|CMP|Give me that thing a minute.
+|087:01:59|LMP|Donius [sic]. There's le Monnier, the landing site. I can't -
+|087:02:08|CDR|No, it's just - it's just dark.
+|087:02:09|LMP|Isn't it a little north of track?
+|087:02:12|CDR|No, I think it's right below us, Jack. I think it's right smack below us in darkness.
+|087:02:17|LMP|Yes, I yes, it is. I can't - I think I'm looking at Littrow right there, right below us. But I can't quite tell.
+|087:02:31|CDR|If I could see Vitruvius, I'd have a better handle on it.
+|087:02:36|CC|A reminder to go to f/4 and 1/250 on the last six pictures.
+|087:02:44|CDR|Roger. That's Posidonius all right, le Monnier; we're here early.
+|087:03:04|LMP|Boy, I tell you, there's no question that right at the terminator you - you pick up relief that you normally would not believe is there in the mare. I remember Bill Anders talking about the appearance of a sea swell within the mare itself and that's certainly clearly shown right at the terminator. Plus you start to see the shadows from all the very small craters that otherwise don't show up as much more that just little depressions, if that.
+|087:03:35|CC|Okay. We need ACCEPT so we can give you a landing site REFSMMAT.
 ||||Tape 59/10|Page 443
-|087:03:45|CMP|Okay, you have it.
-|087:03:45|LMP|Yes. Okay, I think that will do her. Okay, Houston. I cheated. I took three extra pictures, and those were at 2.8 and a 250th at the end.
-|087:03:45|CC|Okay, Jack.
-|087:03:45|LMP|And, your - actually your times might have been a little off, because I was just about ready to lose the terminator because of the maneuver - are we maneuvering or have we?
-|087:03:45|CMP|Yes.
-|087:03:45|LMP|But, I think we got a good set going up to the terminator.
-|087:03:45|CC|Roger.
-|087:03:45|LMP|Plus a couple of shots - a few shots on the CEX mag Quebec Que - No, mag Kilo Kilo as we came around the Moon and that number's now on 20. Kilo Kilo is 20, and Quebec Quebec is 42.
-|087:03:45|CC|Okay, we need the IR, ON, now.
-|087:03:45|LMP|Okay, back to work.
-|087:03:45|CC|It's your computer; the up-link's in there, and you can go back to BLOCK.
-|087:03:45|LMP|IR going ON -
-|087:05:33|LMP|MARK it.
-|087:05:33|LMP|Yes, enough - enough tourist activity.
-|087:05:33|LMP|Warm in here, isn't it?
-|087:05:33|CC|America, a couple of items. Would you verify the S-BAND AUX TV switch is in the SCIENCE position? And one other thing, we think you were in LOW BIT RATE during the burn.
-|087:06:34|LMP|Okay, it's in SCIENCE and we very definitely were in HIGH BIT RATE during the burn by the checklist.
+|087:03:44|CMP|Okay, you have it.
+|087:04:06|LMP|Yes. Okay, I think that will do her. Okay, Houston. I cheated. I took three extra pictures, and those were at 2.8 and a 250th at the end.
+|087:04:22|CC|Okay, Jack.
+|087:04:25|LMP|And, your - actually your times might have been a little off, because I was just about ready to lose the terminator because of the maneuver - are we maneuvering or have we? Yes. But, I think we got a good set going up to the terminator.
+|087:04:50|CC|Roger.
+|087:04:51|LMP|Plus a couple of shots - a few shots on the CEX mag Quebec Que - No, mag Kilo Kilo as we came around the Moon and that number's now on 20. Kilo Kilo is 20, and Quebec Quebec is 42.
+|087:05:16|CC|Okay, we need the IR, ON, now.
+|087:05:21|LMP|Okay, back to work.
+|087:05:28|CC|It's your computer; the up-link's in there, and you can go back to BLOCK.
+|087:05:30|LMP|IR going ON -
+|087:05:32|LMP|MARK it.
+|087:05:45|LMP|Yes, enough - enough tourist activity.
+|087:06:02|LMP|Warm in here, isn't it?
+|087:06:15|CC|America, a couple of items. Would you verify the S-BAND AUX TV switch is in the SCIENCE position? And one other thing, we think you were in LOW BIT RATE during the burn.
+|087:06:32|LMP|Okay, it's in SCIENCE and we very definitely were in HIGH BIT RATE during the burn by the checklist.
 ||||Tape 59/11|Page 444
-|087:06:34|CC|Roger. We may have a problem there because it looks like LOW to us on the data. We'll check further.
-|087:06:34|LMP|Hey, Gordy, there was - Ron questioned - brought up the question or possibility of not having gone to COMMAND RESET; but, just before we left you, you'll probably be able to see that I went COMMAND RESET and turned on the tape, because I remember seeing the tape motion.
-|087:06:34|CC|Okay, Jack. We're discussing it - what happened there.
+|087:06:39|CC|Roger. We may have a problem there because it looks like LOW to us on the data. We'll check further.
+|087:07:01|LMP|Hey, Gordy, there was - Ron questioned - brought up the question or possibility of not having gone to COMMAND RESET; but, just before we left you, you'll probably be able to see that I went COMMAND RESET and turned on the tape, because I remember seeing the tape motion.
+|087:07:18|CC|Okay, Jack. We're discussing it - what happened there.
 |087:08:35|CC|America, you can go back to BLOCK.
 |087:11:52|LMP|Okay, Houston. How do you read 17?
-|087:11:52|CC|You're loud and clear, Jack.
-|087:11:52|LMP|Okay. Before we really got concentrating on the burn, and I had an opportunity to - we all had an opportunity to look at Korolev, at a very low grazing Sun, one of the striking things was the -to me was the extreme absence of relief, the very smooth surface that existed in Korolev, independent, of course, of the craters that are penetrating that surface. And it looked like there was a ring in the floor - outsi - next to the wall about maybe one-sixth of a crater radius that was somewhat brighter at the low grazing Sun, suggesting it may have had a different slope. And I believe I'm correct in saying that the inner floor may be slightly raised. We'll try to make other observations this next time around on that one, but there was just a very smooth floor. The light plains material in that crater is very smooth.
-|087:11:52|CC|Okay; understand. One quick word from FAO's - -
-|087:11:52|LMP|And, of course, that's independent - -
+|087:11:55|CC|You're loud and clear, Jack.
+|087:11:59|LMP|Okay. Before we really got concentrating on the burn, and I had an opportunity to - we all had an opportunity to look at Korolev, at a very low grazing Sun, one of the striking things was the - to me was the extreme absence of relief, the very smooth surface that existed in Korolev, independent, of course, of the craters that are penetrating that surface. And it looked like there was a ring in the floor - outsi - next to the wall, about maybe one-sixth of a crater radius, that was somewhat brighter at the low grazing Sun, suggesting it may have had a different slope. And I believe I'm correct in saying that the inner floor may be slightly raised. We'll try to make other observations this next time around on that one, but there was just a very smooth floor. The light plains material in that crater is very smooth.
+|087:13:13|CC|Okay; understand. One quick word from FAO's - -
+|087:13:18|LMP|And, of course, that's independent - -
 ||||Tape 59/12|Page 445
-|087:11:52|CC|- - film watchers here, has to do with optional photographs. We'd rather you take the optional photographs on either 00 or PP and reserve KK for the scheduled photographs. And, as it stands now, we've got to reserve 80 frames on either 00 or PP for scheduled photography. Over.
-|087:13:42|LMP|Okay, you have to keep track of that. We need -I was hoping we had an optional capability on our first rev, and we'll work it out.
-|087:13:42|CC|We do. We just want to put them on 00.
-|087:13:42|CC|That's right; just stick them on 00.
-|087:13:42|CC|Jack, the problem on the high and low bit rate there was a synchronization problem between you on the burn checklist and us on the ground on our pre-IX)S command. No hardware problems, and I don't think it will be a problem in the future.
-|087:13:42|LMP|Okay. But you did lose the high bit rate. Is that correct?
-|087:13:42|CC|That's affirmative. We just had low bit rate during the burn.
-|087:15:19|LMP|Okay. I may have jumped the gun on you there a little bit. But I thought we were supposed to do that just before we went AOS - LOS. I think I did it about a minute before.
-|087:15:19|CC|Okay. It was almost identi - simultaneous with our sending the command. You've got about 4 minutes to start looking at Copernicus coining here.
-|087:15:19|LMP|Okay. Thank you. We're just - Sun's Just setting.
-|087:16:08|LMP|Okay, I have a visual on Copernicus.
-|087:17:06|CC|And by the way, the S-IVB crunched in on time, and it's been ringing the ALSEP seismometers like mad for some time now.
+|087:13:19|CC|- - film watchers here, has to do with optional photographs. We'd rather you take the optional photographs on either OO or PP and reserve KK for the scheduled photographs. And, as it stands now, we've got to reserve 80 frames on either OO or PP for scheduled photography. Over.
+|087:13:42|LMP|Okay, you have to keep track of that. We need - I was hoping we had an optional capability on our first rev, and we'll work it out.
+|087:13:53|CC|We do. We just want to put them on OO.
+|087:13:59|CC|That's right; just stick them on OO.
+|087:14:48|CC|Jack, the problem on the high and low bit rate there was a synchronization problem between you on the burn checklist and us on the ground on our pre-LOS command. No hardware problems, and I don't think it will be a problem in the future.
+|087:15:08|LMP|Okay. But you did lose the high bit rate. Is that correct?
+|087:15:11|CC|That's affirmative. We just had low bit rate during the burn.
+|087:15:18|LMP|Okay. I may have jumped the gun on you there a little bit. But I thought we were supposed to do that just before we went AOS - LOS. I think I did it about a minute before.
+|087:15:32|CC|Okay. It was almost identi - simultaneous with our sending the command. You've got about 4 minutes to start looking at Copernicus coming here.
+|087:15:44|LMP|Okay. Thank you. We're just - Sun's Just setting.
+|087:16:07|LMP|Okay, I have a visual on Copernicus.
+|087:17:05|CC|And by the way, the S-IVB crunched in on time, and it's been ringing the ALSEP seismometers like mad for some time now.
 ||||Tape 59/13|Page 446
 |087:17:42|LMP|VOX, and that's VOX. How do you read the LMP, Gordy?
-|087:17:42|CC|Loud and clear, Jack.
-|087:17:42|LMP|Thank you. Okay, good. All right, I've got a visual on Eratosthenes and Copernicus. The - there are obviously different-age craters in this ligjht. You can see the ray patterns in Copernicus moderately well. You can even tell that they do cross Eratosthenes. Stadius shows up as a very clear dark area to the southwest of Eratosthenes. Now, one of the things that we mapped on the southeast and south rim of Copernicus were dark albedo areas within the ejecta. And those are apparent here, very clearly. And also, within -on the upper portion of the rim and on the benches, in that quadrant. The walls - there are the dark spots - lower albedo material that we mapped. They are - form linear patterns along the benches, apparently. Although the bench - the topography is not too clear. But the dark spots are in arcuate linear arrangement parallel to the rim. And they appear to have - be elongate along radius - along the radius of the crater.
-|087:17:42|CC|Roger, Jack.
-|087:17:42|LMP|This is in the southeast - southeast quadrant I'm referring to. Copernicus H is also very obvious as a dark-rimmed crater, relative to the albedo of the ejecta blanket. And the northwest quadrant, which we mapped as a smooth floor material and somewhat darker albedo, is just as apparent here, although all the contrasts, of course, are less. The main thing that you can pick out in earthshine are albedo distinctions. Now - now we - we - I remember that we also, at one time - and I can't remember whether it made the final map or not -mapped an arcuate fault structure, based on the change in albedo. And this was on the southwest quadrant of Copernicus. And that crossed the southern rim, more or less north-south, went down and curved across the floor and up the southwest rim, and that is a very clear arcuate pattern in this lighting. Darker albedo than the rest of the crater. And along the arc, there appear to be a couple or three even darker spots - much as we thought we saw in some of the early photography.
+|087:17:45|CC|Loud and clear, Jack.
+|087:17:48|LMP|Thank you. Okay, good. All right, I've got a visual on Eratosthenes and Copernicus. The - they are obviously different-age craters in this light. You can see the ray patterns in Copernicus moderately well. You can even tell that they do cross Eratosthenes. Stadius shows up as a very clear dark area to the southwest of Eratosthenes. Now, one of the things that we mapped on the southeast and south rim of Copernicus were dark albedo areas within the ejecta. And those are apparent here, very clearly. And also, within - on the upper portion of the rim and on the benches, in that quadrant. The walls - there are the dark spots - lower albedo material that we mapped. They are - form linear patterns along the benches, apparently. Although the bench - the topography is not too clear. But the dark spots are in arcuate linear arrangement parallel to the rim. And they appear to have - be elongate along radius - along the radius of the crater.
+|087:19:34|CC|Roger, Jack.
+|087:19:36|LMP|This is in the southeast - southeast quadrant I'm referring to. Copernicus H is also very obvious as a dark-rimmed crater, relative to the albedo of the ejecta blanket. And the northwest quadrant, which we mapped as a smooth floor material and somewhat darker albedo, is just as apparent here, although all the contrasts, of course, are less. The main thing that you can pick out in earthshine are albedo distinctions. Now - now we - we - I remember that we also, at one time - and I can't remember whether it made the final map or not - mapped an arcuate fault structure, based on the change in albedo. And this was on the southwest quadrant of Copernicus. And that crossed the southern rim, more or less north-south, went down and curved across the floor and up the southwest rim, and that is a very clear arcuate pattern in this lighting. Darker albedo than the rest of the crater. And along the arc, there appear to be a couple or three even darker spots - much as we thought we saw in some of the early photography.
 ||||Tape 59/l4|Page 447
-|087:17:42|CC|Roger.
-|087:21:24|LMP|There is a general streaking - radial streaking -within that arcuate dark area that radiates radially from the crater, and if I had to project, the dark area would, - north - whose northeast terminus is the arc in the crater, I'd project it off to southeast about crater diameter and a half, maybe. Now there's - I'm getting - essentially directly overhead, and again the dark spots within the crater wall are still apparent, and the streaming or the radial elongation of these spots is clear. Now, on the lower wall - that's below the first bench - I can see four of these dark areas, and on the next wall above that, above the first bench, there are two - two obvious ones and a couple that are somewhat more subtle.
-|087:21:24|CC|Okay - -
-|087:21:24|LMP|In the middle of the - -
-|087:21:24|CC|- - Can you see anything of the - that stuff we were wondering about in the central peaks?
-|087:21:24|LMP|No, Gordy, I can't. The - there's very little indication of relief in earthshine end particularly at this high Sun ang - high Earth angle, pardon the expression.
-|087:21:24|CC|Roger.
-|087:21:24|LMP|The central peaks do stand out, though, as a much lighter albedo area within the crater. It looks to me like the best thing you can do in earthshine is work with albedos. Knowing the general topography from the - from the pre - earlier photography. We're coining up on Kepler now. Copernicus is out of my view in window 5- Maybe Ron sees it. Do you, Ron?
+|087:21:23|CC|Roger.
+|087:21:24|LMP|There is a general streaking - radial streaking - within that arcuate dark area that radiates radially from the crater, and if I had to project, the dark area would - north - whose northeast terminus is the arc in the crater, I'd project it off to southeast about crater diameter and a half, maybe. Now there's - I'm getting - essentially directly overhead, and again the dark spots within the crater wall are still apparent, and the streaming or the radial elongation of these spots is clear. Now, on the lower wall - that's below the first bench - I can see four of these dark areas, and on the next wall above that, above the first bench, there are two - two obvious ones and a couple that are somewhat more subtle.
+|087:22:43|CC|Okay - -
+|087:22:44|LMP|In the middle of the - -
+|087:22:45|CC|- - Can you see anything of the - that stuff we were wondering about in the central peaks?
+|087:22:51|LMP|No, Gordy, I can't. The - there's very little indication of relief in earthshine and particularly at this high Sun ang - high Earth angle, pardon the expression.
+|087:23:07|CC|Roger.
+|087:23:08|LMP|The central peaks do stand out, though, as a much lighter albedo area within the crater. It looks to me like the best thing you can do in earthshine is work with albedos. Knowing the general topography from the - from the pre - earlier photography. We're coming up on Kepler now. Copernicus is out of my view in window 5 - Maybe Ron sees it. Do you, Ron?
 ||||Tape 59/15|Page 448
-|087:21:24|CMP|No, it's out of ny view now, too.
-|087:21:24|LMP|Okay, we, we - -
-|087:21:24|CDR|Can you see Reinhold over there?
-|087:21:24|LMP|Reinhold, I was not conscious of. Yes, I can see Reinhold. Reinhold is one of the craters just like Copernicus that may have contributed ejecta into the Apollo 12 soil. Do you see anything - -
-|087:21:24|CMP|An S - an S-IVB - l6's S-IVB hit out there to the south, I think.
-|087:21:24|LMP|Well, I don't -
-|087:21:24|CMP|No, I don't think you1d see it.
-|087:21:24|LMP|I don't see anything that would indicate that. Reinhold is an Erat os theni an Age crater, as you may recall. It's crossed, very obviously even in this light, by the Copernican rays, which is prime - the main way we determine the age, other than it doesn't have any rays itself. Although, on the good photography we now have, we know it has secondary crater patterns around it.
-|087:21:24|CDR|You're not looking at the same crater I am then.
-|087:21:24|LMP|Reinhold is right down here, Geno.
-|087:21:24|CDR|Where are you looking ...
-|087:21:24|LMP|Well, it's south of Copernicus.
-|087:21:24|CDR|Okay, I'm looking up here.
-|087:24:53|LMP|South and a little west.
-|087:24:53|CDR|I don't have the same view you have.
-|087:24:53|LMP|Okay, I can see Lansberg now. And I'm afraid I can't shed any light, pardon the expression, on the old question we've had about the age of Lansberg relative to the mare.
+|087:23:44|CMP|No, it's out of ny view now, too.
+|087:23:49|LMP|Okay, we, we - -
+|087:23:50|CDR|Can you see Reinhold over there?
+|087:23:53|LMP|Reinhold, I was not conscious - Yes, I can see Reinhold. Reinhold is one of the craters just like Copernicus that may have contributed ejecta into the Apollo 12 soil. Do you see anything - -
+|087:24:05|CMP|An S - an S-IVB - l6's S-IVB hit out there to the south, I think.
+|087:24:10|LMP|Well, I don't - -
+|087:24:12|CMP|No, I don't think you1d see it.
+|087:24:13|LMP|I don't see anything that would indicate that. Reinhold is an Eratosthenian Age crater, as you may recall. It's crossed, very obviously even in this light, by the Copernican rays, which is prime - the main way we determine the age, other than it doesn't have any rays itself. Although, on the good photography we now have, we know it has secondary crater patterns around it.
+|087:24:41|CDR|You're not looking at the same crater I am then.
+|087:24:46|LMP|Reinhold is right down here, Geno.
+|087:24:47|CDR|Where are you looking ...
+|087:24:48|LMP|Well, it's south of Copernicus.
+|087:24:50|CDR|Okay, I'm looking up here.
+|087:24:52|LMP|South and a little west.
+|087:24:54|CDR|I don't have the same view you have.
+|087:24:58|LMP|Okay, I can see Lansberg now. And I'm afraid I can't shed any light, pardon the expression, on the old question we've had about the age of Lansberg relative to the mare.
 ||||Tape 59/16|Page 449
-|087:25:17|CC|Okay.
-|087:25:17|LMP|Kepler ray pattern is very striking in this light -an anastomoting - mosing series of - of bands which only average being radial. In most cases, they're a little off radial, but by joining together, they give you a general radial pattern.
-|087:25:17|CDR|I just wanted to see a -
-|087:25:51|LMP|Okay. Out the window 4, I have an excellent view of Kepler. Once again, albedo differences, such as the - are very clear - such as the distinction between the wall - light - or brighter wall materials and the rim which, in itself, is brighter than the surrounding mare. We can look right down some of the rays, and the rays are not completely linear. I'm looking now to the northwest. Gene, you can see Aristarchus way up there in the northwest. See it?
-|087:25:51|CDR|Yes. It1s coming into ...
-|087:25:51|LMP|You ought to have a good view of Aristarchus. Very bright, up in the northwest part of our field of view.
-|087:25:51|CDR|The inside of that crater almost looks as if it's backlit.
-|087:25:51|LMP|That's right. Well, it should be (chuckle). Strangely enough.
-|087:25:51|LMP|And - but I want - these rays when contrast to the - maybe the feeling one would have that they are - once they get started, they form a linear pattern across the surface. They don't seem to have done that. As a matter of fact, they're quite strikingly curved along their pattern. They'll break from the general radius they're out on, curve away and then curve back. Some - all -let's see, there are one - one, two, three, four -four rays that go from out to the northwest of Kepler, all of which show that nonlinear characteristic.
+|087:25:16|CC|Okay.
+|087:25:25|LMP|Kepler ray pattern is very striking in this light, An anastomoting - mosing series of - of bands which only average being radial. In most cases, they're a little off radial, but by joining together, they give you a general radial pattern.
+|087:25:50|CDR|I just wanted to see a -
+|087:25:52|LMP|Okay. Out the window 4, I have an excellent view of Kepler. Once again, albedo differences, such as the - are very clear - such as the distinction between the wall - light - or brighter wall materials and the rim which, in itself, is brighter than the surrounding mare. We can look right down some of the rays, and the rays are not completely linear. I'm looking now to the northwest. Gene, you can see Aristarchus way up there in the northwest. See it?
+|087:26:31|CDR|Yes. It's coming into ...
+|087:26:32|LMP|You ought to have a good view of Aristarchus. Very bright, up in the northwest part of our field of view.
+|087:26:37|CDR|The inside of that crater almost looks as if it's backlit.
+|087:26:41|LMP|That's right. Well, it should be (chuckle). Strangely enough.
+|087:26:45|LMP|And - but I want - these rays when contrast to the - maybe the feeling one would have that they are - once they get started, they form a linear pattern across the surface. They don't seem to have done that. As a matter of fact, they're quite strikingly curved along their pattern. They'll break from the general radius they're out on, curve away and then curve back. Some - all - let's see, there are one - one, two, three, four - four rays that go from out - to the northwest of Kepler, all of which show that nonlinear characteristic.
 ||||Tape 59/17|Page 450
-|087:25:51|CDR|Yes, they're all radial, though-
-|087:25:51|LMP|They are radial, in general. But when you look at them in detail, only portions of them are radial. And a single ray, which you can follow continuously, will bend and then curve back.
-|087:25:51|CMP|The - it's unique. We've got rays from - I guess those must be Copernicus over here - those long ones out to the right, which you might not be able to see. Kepler and Reiner are all - all intermingling up here.
-|087:25:51|LMP|Yes, this is the area now we're going over where the gamma ray work on 15 indicated a relatively high radioactivity. And - not yet, it's -
-|087:25:51|CMP|Houston, America here. Do you see the torquing angles?
-|087:25:51|LMP|I was going to look for the Hortensius domes near Copernicus, but got sidetracked with Kepler and missed them.
-|087:28:37|CC|Okay, ... torquing angles, Ron,
-|087:28:37|LMP|They are not obvious, though, in looking in the general direction -
-|087:28:37|CMP|Okay, I'll torque it to 845.
-|087:28:37|CC|Roger.
-|087:28:58|LMP|Okay, we're getting out into Procellarum - Oceanus Procell arum proper now and, before long, should pick up the medial ridge that makes that mare so distinctive from the other mare. Actually, the ridge that stretches something like 2000 kilometers north to south, if you want to tie a vari - a number of things together. And, probably is the lun - the Moon's closest analogy to an oceanic ridge, which has - which have been in the news over the last decade.
-|087:28:58|CC|Roger.
+|087:27:33|CDR|Yes, they're all radial, though-
+|087:27:34|LMP|They are radial, in general. But when you look at them in detail, only portions of them are radial. And a single ray, which you can follow continuously, will bend and then curve back.
+|087:27:49|CMP|The - it's unique. We've got rays from - I guess those must be Copernicus over here - those long ones out to the right, which you might not be able to see. Kepler and Reiner are all - all intermingling up here.
+|087:28:05|LMP|Yes, this is the area now we're going over where the gamma ray work on 15 indicated a relatively high radioactivity. And - not yet, it's -
+|087:28:25|CMP|Houston, America here. Do you see the torquing angles?
+|087:28:31|LMP|I was going to look for the Hortensius domes near Copernicus, but got sidetracked with Kepler and missed them.
+|087:28:38|CC|Okay, ... torquing angles, Ron,
+|087:28:39|LMP|They are not obvious, though, in looking in the general direction -
+|087:28:44|CMP|Okay, I'll torque it to 845.
+|087:28:47|CC|Roger.
+|087:28:56|LMP|Okay, we're getting out into Procellarum - Oceanus Procellarum proper now and, before long, should pick up the medial ridge that makes that mare so distinctive from the other mare. Actually, the ridge that stretches something like 2000 kilometers north to south, if you want to tie a vari - a number of things together. And, probably is the lun - the Moon's closest analogy to an oceanic ridge, which has - which have been in the news over the last decade.
+|087:29:34|CC|Roger.
 ||||Tape 59/18|Page 451
-|087:29:49|LMP|Once again, the topography of the Procellarum Mare is not clear in this light. It's just not quite enough light to give you strong, distinct shadows, at least not yet at this Earth angle.
-|087:29:49|CC|Okay. And as you get the camera set up for the orbital science pictures of Galois would want to change and use magazine 00 instead of KK. That's listed in the Flight Plan at 90:20.
-|087:29:49|LMP|Okay, we'll - we'll do that.
-|087:30:32|LMP|Okay I'm - out of the window 4, I'm able to see some of the Rima Gamma materials, and it's - awful hard to say more than just the fact there is a very clear light-colored pattern off to the north -of our position at any rate. I think all I can say is that I've seen it. I can't give you much information on it.
-|087:30:32|CC|Okay.
-|087:30:32|LMP|We can see the area where Marius Hills should be, although it's not an obvious topographic feature in this light. Still see Aristarchus off up there shining like a star, if the Moon could have stars.
-|087:31:40|CMP|Okay, Houston. I'm going to torque those cos -coarse align errors out at 1, 2.
-|087:31:40|CC|Roger, Ron.
-|087:31:40|LMP|And - -
-|087:31:40|CDR|You squared away?
-|087:31:40|CMP|It's good to be able to see some stars out of the telescope. It's the first time I've been able to see any.
-|087:31:40|LMP|Gordy, we have a - a very clear zero phase point for the earthlight. It's certainly not a strong contrast for the Sun, but it's out there. And within it, again, the fresh craters tend to brighten - quite a bit more than the surrounding mare. Still looking at Oceanus Procellarum. And now, out window 3, up to the northwest, Grimaldi is starting to show up - a very obvious dark area within the highlands of that part of the Moon -and one of the darkest mare regions that we have seen on the - on the Moon. It's comparable, at least in the photographs, to that of Tsiolkovsky.
+|087:29:50|LMP|Once again, the topography of the Procellarum Mare is not clear in this light. It's just not quite enough light to give you strong, distinct shadows, at least not yet at this Earth angle.
+|087:30:07|CC|Okay. And as you get the camera set up for the orbital science pictures of Galois would want to change and use magazine OO instead of KK. That's listed in the Flight Plan at 90:20.
+|087:30:24|LMP|Okay, we'll - we'll do that.
+|087:30:32|LMP|Okay I'm - out of the window 4, I'm able to see some of the Rima Gamma materials, and it's - awful hard to say more than just the fact there is a very clear light-colored pattern off to the north - of our position at any rate. I think all I can say is that I've seen it. I can't give you much information on it.
+|087:31:17|CC|Okay.
+|087:31:20|LMP|We can see the area where Marius Hills should be, although it's not an obvious topographic feature in this light. Still see Aristarchus off up there shining like a star, if the Moon could have stars.
+|087:31:41|CMP|Okay, Houston. I'm going to torque those cos - coarse align errors out at 1, 2.
+|087:31:49|CC|Roger, Ron.
+|087:31:55|LMP|And - -
+|087:32:03|CDR|You squared away?
+|087:32:08|CMP|It's good to be able to see some stars out of the telescope. It's the first time I've been able to see any.
+|087:32:14|LMP|Gordy, we have a - a very clear zero phase point for the earthlight. It's certainly not a strong contrast for the Sun, but it's out there. And within it, again, the fresh craters tend to brighten - quite a bit more than the surrounding mare. Still looking at Oceanus Procellarum. And now, out window 3, up to the northwest, Grimaldi is starting to show up - a very obvious dark area within the highlands of that part of the Moon - and one of the darkest mare regions that we have seen on the - on the Moon. It's comparable, at least in the photographs, to that of Tsiolkovsky.
 ||||Tape 59/19|Page 452
-|087:31:40|CC|Roger.
-|087:33:25|LMP|Normally, of course, we think of the dark mare as being the younger basalt flows that - on the Moon, but in our case, of course, young means something on the order of 3 billion years or older.
+|087:33:26|CC|Roger.
+|087:33:27|LMP|Normally, of course, we think of the dark mare as being the younger basalt flows that - on the Moon, but in our case, of course, young means something on the order of 3 billion years or older.
 ||||Tape 60/1|Page 453
-|087:33:25|LMP|For our interp - If we can extrapolate from the samples returned by other missions.
-|087:33:25|LMP|Amazing how far over - now the highlands to the west of Procellarum are - still are bright, and the contrast between fresh craters and the normal highland are very - are very obvious still in earthlight, particularly along the zero phase point with respect to the Earth. Rima Gamma now is - is coming a little bit closer to our oval track in the horseshoe in the - larger and more western end of it; the dark horseshoe is quite clear in this light. It's a west - or northwest-pointing horseshoe, as is the complete trend of that strange feature. I think Ron is going to have an excellent chance to study these light-colored swirls within the mare and other parts of the Moon. We had some good views of them and Mare Marginis and to the east of Crisium - Mare Crisium, and he should - if there is anything to be seen, he should be able to see it for - during the next few days.
-|087:33:25|CC|Okeydoke.
-|087:35:50|CDR|Say, Gordo, something I Just noticed here in working with the GDC what-have-you. I - looked at the Pc gage, and in the Pz - Pc position, there is a continuous bias on it now of about, oh, 7 percent, and if I switch to ALPHA, it goes to zero. We never saw that bias before this last burn.
-|087:35:50|CC|Roger, Gene.
-|087:36:35|LMP|Hey, Gordy, I'm looking right up the western edge of the Procellarum mare where it contacts the -the - the high - western highlands of the Moon, and we're just about to fly a little bit south of Grimaldi. That edge is very irregular. There is no obvious indications that it - there are large basins that have been flooded by mare that have formed that edge, but, again, the topographic dis-* tinction's possible in this lighter small. Now I'm starting to see that there are shadows in the craters.
+|087:33:45|CC|Roger.
+|087:33:45|LMP|For our interp - If we can extrapolate from the samples returned by other missions.
+|087:34:04|LMP|Amazing how far over - now the highlands to the west of Procellarum are - still are bright, and the contrast between fresh craters and the normal highland are very - are very obvious still in earthlight, particularly along the zero phase point with respect to the Earth. Rima Gamma now is - is coming a little bit closer to our oval track in the horseshoe in the - larger and more western end of it; the dark horseshoe is quite clear in this light. It's a west - or northwest-pointing horseshoe, as is the complete trend of that strange feature. I think Ron is going to have an excellent chance to study these light-colored swirls within the mare and other parts of the Moon. We had some good views of them and Mare Marginis and to the east of Crisium - Mare Crisium, and he should - if there is anything to be seen, he should be able to see it for - during the next few days.
+|087:35:36|CC|Okeydoke.
+|087:35:51|CDR|Say, Gordo, something I Just noticed here in working with the GDC what have you. I - looked at the PC gauge, and in the PZ - PC position, there is a continuous bias on it now of about, oh, 7 percent, and if I switch to ALPHA, it goes to zero. We never saw that bias before this last burn.
+|087:36:16|CC|Roger, Gene.
+|087:36:35|LMP|Hey, Gordy, I'm looking right up the western edge of the Procellarum mare where it contacts the - the - the high - western highlands of the Moon, and we're just about to fly a little bit south of Grimaldi. That edge is very irregular. There is no obvious indications that it - there are large basins that have been flooded by mare that have formed that edge, but, again, the topographic distinctions possible in this light are small. Now I'm starting to see that there are shadows in the craters.
 ||||Tape 60/2|Page 454
-|087:36:35|CC|Roger.
-|087:36:35|LMP|That's the small craters. There, in the Mare Procellarum closest to Grimaldi, there are two arcuate rilles. Look like they are probably V-shaped in their cross section. I'm sure we've seen those on the photographs much better than I can see them here. Those - the rille patterns, though, do seem to project over into the highlands.
-|087:36:35|CC|Okay.
-|087:36:35|LMP|To the north of that - to the north of that bay of mare. Just interrupt.
-|087:38:09|LMP|Hey, I just saw a flash on the lunar surface!
-|087:38:09|CC|Oh, yes?
-|087:38:09|LMP|It was just out there north of Grimaldi. Just north of Grimaldi. You might see if you got anything on your seismometers, although a small impact probably would give a fair amount of visible light.
-|087:38:09|CC|Okay. We'll check.
-|087:38:09|LMP|It was a bright little flash right out there near that crater. See the crater right at the edge of Grimaldi. Then there is smother one north of it. Fairly sharp one north of it is where there was just a thin streak of light.
-|087:38:09|CC|How about putting an X on the map where you saw it.
-|087:38:09|LMP|I keep looking occasionally for - yes, we will. I - I was planning on looking for those kind of things. Starting to see the edge of Orientale, Gordy. Way off to the west. Hey, just yell, Gene, anytime you - -
-|087:39:46|LMP|Gordy, to the north of Grimaldi there is a large basin that is about the same size but only incompletely filled with mare in its northeastern quadrant. The rest of it looks like a fairly irregular and hummocky floor material of some kind.
-|087:39:46|CC|Roger.
+|087:37:22|CC|Roger.
+|087:37:23|LMP|That's the small craters. There, in the Mare Procellarum closest to Grimaldi, there are two arcuate rilles. Looks like they're probably V-shaped in their cross section. I'm sure we've seen those on the photographs much better than I can see them here. Those - the rille patterns, though, do seem to project over into the highlands.
+|087:38:03|CC|Okay.
+|087:38:04|LMP|To the north of that - to the north of that bay of mare. Just interrupt.
+|087:38:11|LMP|Hey, I just saw a flash on the lunar surface!
+|087:38:16|CC|Oh, yes?
+|087:38:18|LMP|It was just out there north of Grimaldi. Just north of Grimaldi. You might see if you got anything on your seismometers, although a small impact probably would give a fair amount of visible light.
+|087:38:32|CC|Okay. We'll check.
+|087:38:34|LMP|It was a bright little flash right out there near that crater. See the crater right at the edge of Grimaldi. Then there is another one north of it. Fairly sharp one north of it is where there was just a pin prick of light.
+|087:38:51|CC|How about putting an X on the map where you saw it.
+|087:38:52|LMP|I keep looking occasionally for - yes, we will. I - I was planning on looking for those kind of things. Starting to see the edge of Orientale, Gordy. Way off to the west. Hey, just yell, Gene, anytime you - -
+|087:39:47|LMP|Gordy, to the north of Grimaldi there is a large basin that is about the same size but only incompletely filled with mare in its northeastern quadrant. The rest of it looks like a fairly irregular and hummocky floor material of some kind.
+|087:40:11|CC|Roger.
 ||||Tape 60/3|Page 455
-|087:39:46|LMP|But it's almost the same size as Grimaldi. It even looks like it is a little bit deeper, but, of course, Grimaldi has considerable fill. Grimaldi on its eastern edge has some of the graben, or it's rim, if you will, is cut by three or four anastomosing grabens that make it look like some of the bench areas in the larger basins.
+|087:40:12|LMP|But it's almost the same size as Grimaldi. It even looks like it is a little bit deeper, but, of course, Grimaldi has considerable fill. Grimaldi on its eastern edge has some of the graben, or it's rim, if you will, is cut by three or four anastomosing grabens that make it look like some of the bench areas in the larger basins.
 |087:41:00|LMP|Okay, the first ring of Orientale is showing up. The inner - next ring in is extremely obvious; got some very bright east - east-facing slopes.
-|087:41:00|CDR|I'll turn off the intercom.
-|087:41:00|LMP|It has some very bright east-facing slopes, and you can see the bands of mare that are filling the -both the first bench area and the inner bench.
-|087:41:00|LMP|Any time you need us, Gordy, just interrupt me.
-|087:41:00|CC|Okay; we'll do that.
-|087:41:00|LMP|Now, as I look north along the first bench, that's the first bench from the outside, one inside the Cordillerian ring. I better check that; I may have my names mixed up. Got Orientale, there - handy? See it. Should be on there. Yes, this is what I need. What's the name - they got a name on that ridge, there? That's Rook Mountains. Yes, the Cordillera. Yes, that's right. Looking just west of the Cordillera on the first bench, as I look north, in this light, which is casting some shadows now, Gordy, over in the area, it looks extremely smooth. Now this is not mare; it's lighter albedo, lighter reflectivity than the mare, and, although there are patches of mare in the lower areas in it. But looking along that plain, in fact, a lar - long linear plain, it - it looks quite smooth with only some very broad undulations that appear to be roughly radial to Orientale itself. The more -closer we get to it, the more I see minor relief showing up. I start to see the shadows, I guess. And that relief seems to bring out a hummocky texture in - in addition to the craters you would expect to see there.
-|087:41:00|CC|Roger.
+|087:41:17|CDR|I'll turn off the intercom.
+|087:41:24|LMP|It has some very bright east-facing slopes, and you can see the bands of mare that are filling the - both the first bench area and the inner bench.
+|087:41:53|LMP|Any time you need us, Gordy, just interrupt me.
+|087:41:57|CC|Okay; we'll do that.
+|087:42:03|LMP|Now, as I look north along the first bench, that's the first bench from the outside, one inside the Cordillerian ring. I better check that; I may have my names mixed up. Got Orientale, there - handy? ... see. Should be on there. Yes, this is what I need. What's the name - they got a name on that ridge, there? That's Rook Mountains. Yes, the Cordillera. Yes, that's right. Looking just west of the Cordillera on the first bench, as I look north, in this light, which is casting some shadows now, Gordy, over in here, it looks extremely smooth. Now this is not mare; it's lighter albedo, lighter reflectivity than the mare, and, although there are patches of mare in the lower areas in it. But looking along that plain, in fact, a lar - a long linear plain, it - it looks quite smooth with only some very broad undulations that appear to be roughly radial to Orientale itself. The more - closer we get to it, the more I see minor relief showing up. I start to see the shadows, I guess. And that relief seems to bring out a hummocky texture in - in addition to the craters you would expect to see there.
+|087:43:59|CC|Roger.
 ||||Tape 60/4|Page 456
-|087:41:00|LMP|I won't try to give you a trend on the hummocks because I think the shadows are biasing my view; they do appear to be north-south trending, but I think that is because of the shadow patterns. This is a spectacular sight, you guys; you ought to take a look at Orientale. One of the largest fresh basins on the Moon. It still is probably 4 billion years old, or 3.8 at any rate, if our dating criteria are any - any good. It has the outer Cordillerian ring and the inner ring called the Rook Mountains - very, very nicely shown. There are massifs on that inner ring, the Rook Mountain ring; there are massif complexes much like what we'll be studying at Taurus-Littrow. There are low areas, nonmare areas, that are comparable to some - to the Taurus - the valley that we'll be landing in. And, all in all, I think we'll find that our ring in the Taurus-Li11row area around Serenitatis is comparable in many regards to this Rook Mountain ring around Orientale. You want - did you interrupt, Gordy?
-|087:41:00|CC|No. I didn't say anything.
-|087:45:33|LMP|Okay; I thought I heard your key. Okay; in the inner portion of Orientale, as we approach a terminator, the lighting is still excellent. Matter of fact, it appears brighter than what we were looking at over at Copernicus. Now, part of that may be we're seeing much sharper relief since the slope - Earth-facing slopes are nicely lit, and the backfacing slopes , of course, are in shadow. The first portion of the bench inside the Rook Mountains is partially filled by mare. Now, the higher land in there is very smooth, in a gross sense, is a very smooth hummocky terrain, cut by roughly circumferential grabens. The trend of the hummocks themselves are not radial; they're more -well, they're about a 45-degree angle to the radius. They, in detail, have a much finer hackly texture, much like we've been able to see on photographs before. And, in general, you get the impression that, in several areas here, that that hackly tex-tured surface is draped over material that resembles the massifs of the Rook Mountains themselves. There's one area just to the north now of our track where there's a large, roughly equidimensional mountain mass, with a few projections of massiflike peaks through this hackly textured surface.
+|087:44:00|LMP|I won't try to give you a trend on the hummocks because I think the shadows are biasing my view; they do ap	pear to be north-south trending, but I think that is because of the shadow patterns. This is a spectacular sight, you guys; you ought to take a look at Orientale. One of the largest fresh basins on the Moon. It still is probably 4 billion years old, or 3.8 at any rate, if our dating criteria are any - any good. It has the outer Cordillerian ring and the inner ring called the Rook Mountains - very, very nicely shown. There are massifs on that inner ring, the Rook Mountain ring; there are massif complexes much like what we'll be studying at Taurus-Littrow. There are low areas, nonmare areas, that are comparable to some - to the Taurus - the valley that we'll be landing in. And, all in all, I think we'll find that our ring in the Taurus-Littrow area around Serenitatis is comparable in many regards to this Rook Mountain ring around Orientale. You want - did you interrupt, Gordy?
+|087:45:34|CC|No. I didn't say anything.
+|087:45:38|LMP|Okay; I thought I heard your key. Okay; in the inner portion of Orientale, as we approach a terminator, the lighting is still excellent. Matter of fact, it appears brighter than what we were looking at over at Copernicus. Now, part of that may be we're seeing much sharper relief since the slope - Earth-facing slopes are nicely lit, and the backfacing slopes, of course, are in shadow. The first portion of the bench inside the Rook Mountains is partially filled by mare. Now, the higher land in there is very smooth, in a gross sense, is a very smooth hummocky terrain, cut by roughly circumferential grabens. The trend of the hummocks themselves are not radial; they're more - well, they're about a 45-degree angle to the radius. They, in detail, have a much finer hackly texture, much like we've been able to see on photographs before. And, in general, you get the impression that, in several areas here, that that hackly tex-tured surface is draped over material that resembles the massifs of the Rook Mountains themselves. There's one area just to the north now of our track where there's a large, roughly equidimensional mountain mass, with a few projections of massiflike peaks through this hackly textured surface.
 ||||Tape 60/5|Page 457
-|087:45:33|CC|Roger.
-|087:47:51|LMP|There are also some radial grabens ; I just now picked one up, which we've also seen on the Orientale photographs taken by Lunar Orbiter. It's amazing how fresh appearing this basin looks, considering its great age. But it's - it probably is not - had any more violent a history than Imbrium. Now, we're getting up, just about to go over a delta-rim crater that's out in the basin. I don't remember the name of it offhand. But it's - should be familiar to some of the geologists who have mapped this basin. It does not appear to have a strong impact ejecta blanket around it. It's filled with mare, and it's quite sharply in contrast to a crater of comparable size to the northwest. See that one, Ron; I don't know whether you can get it. I get a good view out of 5 now of that one. And, once again, it looks as if this hackly textured material that forms the higher hills in the inner bench - has a draped appearance over the, over preexisting terrain, and, in fact, along the ridges of the hummocks , you - we now can pick up little rilles that roughly parallel the hummocks , although not - not - not consistently. They do cross down into the valleys. But it has appearance that there may have been a tensional relief along the crest of each of the hummocks, or many of the hummocks.
-|087:47:51|CC|Roger.
-|087:49:58|LMP|Delta-rim crater just as has been, I think, discussed in the literature, has just that Ñ delta rim with no obvious ejecta blanket around it, compared to other larger craters within the basin. We're directly over that crater right now. It's filled with mare, very smooth mare. Matter of fact, within that fill, I can see no - no craters. Getting very close to the Earth terminator, but you see good texture in the ejecta blanket of the large crater in the north part of the inner basin of Orientale. The radial ridge and valley patterns are very clear; the concentric coarse hummocks near the rim are apparent; and you can even see the second - patterns of secondaries, the larger secondaries, extending out away - radially out away from that crater. The south - the mare fill in the south floor of Copernicus, I mean of Orientale, is very smooth but does have the sea-swell texture that we saw over in Tranquillitatis.
+|087:47:47|CC|Roger.
+|087:47:47|LMP|There are also some radial grabens; I just now picked one up, which we've also seen on the Orientale photographs taken by Lunar Orbiter. It's amazing how fresh appearing this basin looks, considering its great age. But it's - it probably is not - had any more violent a history than Imbrium. Now, we're getting up, just about to go over a delta-rim crater that's out in the basin. I don't remember the name of it offhand. But it's - be familiar to some of the geologists who have mapped this basin. It does not appear to have a strong impact ejecta blanket around it. It's filled with mare, and it's quite sharply in contrast to a crater of comparable size to the northwest. See that one, Ron; I don't know whether you can get it. I get a good view out of 5 now of that one. And, once again, it looks as if this hackly textured material that forms the higher hills in the inner bench - has a draped appearance over the, over preexisting terrain, and, in fact, along the ridges of the hummocks, you - we now can pick up little rilles that roughly parallel the hummocks, although not - not - not consistently. They do cross down into the valleys. But it has appearance that there may have been a tensional relief along the crest of each of the hummocks, or many of the hummocks.
+|087:49:53|CC|Roger.
+|087:49:53|LMP|Delta-rim crater just as has been, I think, discussed in the literature, has just that, delta rim with no obvious ejecta blanket around it, compared to other larger craters within the basin. We're directly over that crater right now. It's filled with mare, very smooth mare. Matter of fact, within that fill, I can see no - no craters. Getting very close to the Earth terminator, but you see good texture in the ejecta blanket of the large crater in the north part of the inner basin of Orientale. The radial ridge and valley patterns are very clear; the concentric coarse hummocks near the rim are apparent; and you can even see the second - patterns of secondaries, the larger secondaries, extending out away - radially out away from that crater. The south - the mare fill in the south floor of Copernicus, I mean of Orientale, is very smooth but does have the sea-swell texture that we saw over in Tranquillitatis.
 ||||Tape 60/6|Page 458
-|087:49:58|CDR|Better let him say something before AOS.
-|087:49:58|CC|I ain't got nothing to say.
-|087:49:58|CDR|Houston, I guess we're getting close to AOS. We're getting close to AOS. Do you have some words for us?
-|087:51:54|CC|Okay. We show about 9 minutes to LOS. We'd like to clarify one thing, and that was on this tape recorder commands and high and low bit rate. And we just want to make it clear that preburn the 6 minute callout is HIGH BIT RATE, RECORD, FORWARD, COMMAND RESET. Did you - did you tell us a few minutes ago that you did indeed do all those at about 6 minutes?
-|087:51:54|LMP|Yes, Gordy, I certainly thought I did, but I can't specifically - I know the HIGH BIT RATE was there, because we switched to LOW later. I can't - I'm afraid I can't specifically verify the COMMAND RESET.
-|087:51:54|CDR|Gordy, I can specifically say that when those -after the bus stars came on, we called that out. I'm almost sure Jack did get it, because I had him then check the helium valves and the nitrogen -helium and the nitrogen valves,
-|087:51:54|CC|Okay. We're just trying to make sure if we - or to determine if we do have a switch problem. The INCO did send LOW BIT RATE, COMMAND, just prior to - to LOS there before LOI, which is the way it's called out in the Flight Plan. And then you should have come along later with a COMMAND RESET, setting the switch to HIGH BIT RATE, and the COMMAND RESET switched into HIGH BIT RATE mode, and for some reason it did not go into HIGH BIT RATE.
-|087:51:54|LMP|Well, you want to test it out here, before we go around?
+|087:51:30|CDR|Better let him say something before AOS.
+|087:51:40|CC|I ain't got nothing to say.
+|087:51:40|CDR|Houston, I guess we're getting close to AOS. We're getting close to AOS. Do you have some words for us?
+|087:51:51|CC|Okay. We show about 9 minutes to LOS. We'd like to clarify one thing, and that was on this tape recorder commands and high and low bit rate. And we just want to make it clear that preburn the 6 minute callout is HIGH BIT RATE, RECORD, FORWARD, COMMAND RESET. Did you - did you tell us a few minutes ago that you did indeed do all those at about 6 minutes?
+|087:52:26|LMP|Yes, Gordy, I certainly thought I did, but I can't specifically - I know the HIGH BIT RATE was there, because we switched to LOW later. I can't - I'm afraid I can't specifically verify the COMMAND RESET.
+|087:52:43|CDR|Gordy, I can specifically say that when those - after the bus stars came on, we called that out. I'm almost sure Jack did get it, because I had him then check the helium valves and the nitrogen - helium and the nitrogen valves,
+|087:52:58|CC|Okay. We're just trying to make sure if we - or to determine if we do have a switch problem. The INCO did send LOW BIT RATE, COMMAND, just prior to - to LOS there before LOI, which is the way it's called out in the Flight Plan. And then you should have come along later with a COMMAND RESET, setting the switch to HIGH BIT RATE, and the COMMAND RESET switched into HIGH BIT RATE mode, and for some reason it did not go into HIGH BIT RATE.
+|087:53:41|LMP|Well, you want to test it out here, before we go around?
 ||||Tape 60/7|Page 459
-|087:51:54|CC|That's a pretty good thought. I think we will. On stand by. We'll give you - we'll figure out how we're going to do it here.
-|087:54:27|CC|Okay, Jack. We just now commanded LOW BIT RATE, and you're in LOW BIT RATE. We'd like you now to select HIGH and COMMAND RESET.
-|087:54:43|LMP|Okay. Gordy, you also have an oscillation in uplink signal strength and a clicking in the - in the audio. Do you read? We just switched steady and at about 60 percent - 70 percent signal strength.
-|087:54:43|CC|Roger. We hear that.
-|087:54:43|LMP|Okay. I'm going to - you want me to go ahead and command HIGH and COMMAND RESET?
-|087:55:14|CC|That's affirmative. The HIGH GAIN just went WIDE BEAM, but we're still reading you loud and clear. Go ahead in HIGH BIT RATE and COMMAND RESET.
-|087:55:24|LMP|Okay. HIGH BIT RATE; COMMAND RESET.
-|087:55:24|CC|Okay; it seems to have worked properly, Jack.
-|087:55:24|LMP|Okay, Gordy. I may not have got the COMMAND RESET at 6 minutes. I - I - I just can't tell you right now.
-|087:55:24|CC|Okay; I want to assure you it was no big problem as far as the burn goes. No great loss there.
-|087:55:24|LMP|I hope not.
-|087:56:36|CC|America, Houston. About 5 minutes to LOS now. We'd like to have you go ahead and get the jet inhibits and the covers open as shown in the Flight Plan so we can see that before we lose you.
-|087:56:36|LMP|Okay; Gordy. IR COVER is coming OPEN.
-|087:57:06|LMP|MARK it.
-|087:57:06|CC|Roger.
+|087:53:46|CC|That's a pretty good thought. I think we will. On stand by. We'll give you - we'll figure out how we're going to do it here.
+|087:54:25|CC|Okay, Jack. We just now commanded LOW BIT RATE, and you're in LOW BIT RATE. We'd like you now to select HIGH and COMMAND RESET.
+|087:54:41|LMP|Okay. Gordy, you also have an oscillation in uplink signal strength and a clicking in the - in the audio. Do you read? We just went steady and at about 60 percent - 70 percent signal strength.
+|087:54:59|CC|Roger. We hear that.
+|087:55:03|LMP|Okay. I'm going to - you want me to go ahead and command HIGH and COMMAND RESET?
+|087:55:11|CC|That's affirmative. The HIGH GAIN just went WIDE BEAM, but we're still reading you loud and clear. Go ahead in HIGH BIT RATE and COMMAND RESET.
+|087:55:20|LMP|Okay. HIGH BIT RATE; COMMAND RESET.
+|087:55:36|CC|Okay; it seems to have worked properly, Jack.
+|087:55:46|LMP|Okay, Gordy. I may not have got the COMMAND RESET at 6 minutes. I - I - I just can't tell you right now.
+|087:55:57|CC|Okay; I want to assure you it was no big problem as far as the burn goes. No great loss there.
+|087:56:08|LMP|I hope not.
+|087:56:32|CC|America, Houston. About 5 minutes to LOS now. We'd like to have you go ahead and get the jet inhibits and the covers open as shown in the Flight Plan so we can see that before we lose you.
+|087:57:00|LMP|Okay; Gordy. IR COVER is coming OPEN.
+|087:57:04|LMP|MARK it.
+|087:57:05|CC|Roger.
 ||||Tape 60/8|Page 460
-|087:57:06|LMP|Okay; UV COVER coming OPEN -
-|087:57:14|LMP|MARK it.
-|087:57:14|CC|Roger.
-|087:57:14|LMP|And you want me to stay in HIGH BIT RATE?
-|087:57:14|CC|That's affirmative. You're there. You're going to have to do it in a minute anyway, so since you're there already, stay there.
-|087:57:41|LMP|Okay. We're there; we've got tape motion.
-|087:57:41|CC|Okay.
-|087:57:53|CDR|Gordy, the deadban - or the A/C - B/D, A/C roll has been changed, and you should have the proper jet configuration now.
-|087:57:53|CC|Okay. We see it; it looks good, Geno.
-|087:57:53|CDR|Okay.
-|087:59:02|LMP|Okay; if you're still with us, we're going to OPEN up the MAPPING CAMERA/LASER ALTIMETER COVER.
-|087:59:02|CC|Okay, Jack.
-|087:59:02|LMP|Okay. We're going to EXTEND the MAPPING CAMERA.
-|087:59:02|CC|Roger on that.
-|087:59:02|LMP|Okay. Okay.
-|087:59:40|LMP|MARK. Barber pole.
-|087:59:40|CC|Roger.
+|087:57:09|LMP|Okay; UV COVER coming OPEN -
+|087:57:13|LMP|MARK it.
+|087:57:16|CC|Roger.
+|087:57:25|LMP|And you want me to stay in HIGH BIT RATE?
+|087:57:28|CC|That's affirmative. You're there. You're going to have to do it in a minute anyway, so since you're there already, stay there.
+|087:57:38|LMP|Okay. We're there; we've got tape motion.
+|087:57:43|CC|Okay.
+|087:57:49|CDR|Gordy, the deadban - or the A/C - B/D, A/C roll has been changed, and you should have the proper jet configuration now.
+|087:57:58|CC|Okay. We see it; it looks good, Geno.
+|087:58:03|CDR|Okay.
+|087:58:59|LMP|Okay; if you're still with us, we're going to OPEN up the MAPPING CAMERA/LASER ALTIMETER COVER.
+|087:59:04|CC|Okay, Jack.
+|087:59:28|LMP|Okay. We're going to EXTEND the MAPPING CAMERA.
+|087:59:34|CC|Roger on that.
+|087:59:35|LMP|Okay. Okay.
+|087:59:38|LMP|MARK. Barber pole.
+|087:59:42|CC|Roger.
 |087:59:40||BEGIN LUNAR REV 2
+|088:00:03|PAO|This is Apollo control. We're estimating a change of shift briefing at 3:45 Houston time, 1 minute and 16 seconds away from Loss of Signal on this first lunar revolution. Participants in the flight director change of shift briefing will be Jerry Griffin who has been in charge of the gold flight team, Dr. Royce Hawkins the flight surgeon, and Charlie Dumis the EECOM. At 90 hours 40 minutes ground elapsed time this is Apollo control.
+|088:01:00|PAO|This is Apollo control at 90 hours 41 minutes ground elapsed time. We've had loss of signal. As the Apollo 17 spacecraft coasted behind the Moon on the first lunar orbit currently in an orbit measuring 52.6 by 168.6 nautical miles. It will be up again in about 47 minutes or approximately. The tables are not up on the display here on the next acquisition of signal as to the next time the spacecraft comes around on the second lunar orbit. Change of shift briefing at 3:45 approximately 10 minutes from now in the small briefing room building 1 news room. Participants flight director Jerry Griffin, flight surgeon Dr. Royce Hawkins, and the EECOM Charlie Dumis. At 90 hours 42 minutes ground elapsed time this is Apollo control.
+|088:43:40|PAO|This is Apollo Control at 91 hours 23 minutes. We're 23 seconds away from acquiring Apollo 17 on it's second revolution of the Moon. During this pass, we will send up a DOI 1 pad. That's instructions to the crew for the Descent Orbit Insertion maneuver. We should be acquiring any time now. We'll stand by for the first call.
 |088:44:34|CMP|Okay, Houston. We're with you on the OMNI Delta.
-|088:44:34|CC|Roger, Ron. Read you loud and clear.
+|088:44:42|CC|Roger, Ron. Read you loud and clear.
 ||||Tape 6o/9|Page 461
-|088:44:34|CDR|Okay, Robert. We should have gotten everything right on up through AOS here in the Flight Plan.
-|088:44:34|CC|Good show.
-|088:44:34|CDR|And the pan camera should be running right now.
-|088:45:30|CMP|Okay, Houston. America here. We stopped the orbital photo path, frame 59* And about the sub-stellar point, we took 59 to 66, and frame 67 was taken of the, oh, the dark slide on the corner of Lobachevsky.
-|088:45:30|CC|Roger, America.
-|088:45:30|LMP|Those frames that Ron mentioned - this is Jack -that he mentioned were taken of a area where there's a much lighter gray albedo. Rather than the tannish gray, it's pure gray material that generally is on the rim crest of a number of craters. It may be related to the swirls that we see elsewhere.
-|088:45:30|CC|Roger, Jack.
-|088:47:56|LMP|Bob, we're abeam of Al-Biruni and coming up on Goddard and Margin!s right now.
-|088:47:56|CC|Roger, America. We're tracking you on the map here, watching it.
-|088:47:56|LMP|Okay.
-|088:47:56|LMP|Al-Biruni has got variations in the - its floor, variations in albedo. It almost looks like a pattern as if water were flowing on a beach. It's that irregular. Not in great areas, but in small areas around on the southern side, and the part that looks like it's a waterÑwashing pattern is of a much lighter albedo, although I cannot see any real source for it. The texture, however, looks about the same.
-|088:47:56|CC|Roger, Jack.
-|088:49:25|CMP|And Houston, America. For your info, it took an hour - an hour (laughter) - a minute and 45 seconds for the map - your mapping camera to extend and a minute and 45 for it to retract.
+|088:44:48|CDR|Okay, Robert. We should have gotten everything right on up through AOS here in the Flight Plan.
+|088:44:57|CC|Good show.
+|088:45:01|CDR|And the pan camera should be running right now.
+|088:45:28|CMP|Okay, Houston. America here. We stopped the orbital photo path, frame 59. And at about the sub-stellar point, we took 59 to 66, and frame 67 was taken of the, oh, the dark slide on the corner of Lobachevsky.
+|088:45:57|CC|Roger, America.
+|088:46:34|LMP|Those frames that Ron mentioned - this is Jack - that he mentioned were taken of a area where there's a much lighter gray albedo. Rather than the tannish gray, it's pure gray material that generally is on the rim crest of a number of craters. It may be related to the swirls that we see elsewhere.
+|088:47:05|CC|Roger, Jack.
+|088:47:56|LMP|Bob, we're abeam of Al-Biruni and coming up on Goddard and Margin is right now.
+|088:48:08|CC|Roger, America. We're tracking you on the map here, watching it.
+|088:48:14|LMP|Okay.
+|088:48:24|LMP|Al-Biruni has got a - a variation in the - its floor, variations in albedo. It almost looks like a pattern as if water were flowing on a beach. It's that irregular. Not in great areas, but in small areas around on the southern side, and the part that looks like it's a water-washing pattern is of a much lighter albedo, although I cannot see any real source for it. The texture, however, looks about the same.
+|088:48:56|CC|Roger, Jack.
+|088:49:26|CMP|And Houston, America. For your info, it took an hour - an hour (laughter) - a minute and 45 seconds for the map - your mapping camera to extend and a minute and 45 for it to retract.
 ||||Tape 60/10|Page 462
-|088:49:25|CC|Roger, Ron. Copy. 1:45, extend and retract.
-|088:49:25|CDR|Bob, what's our altitude now?
-|088:49:58|CC|Looks like you're crossing - you're just about 90 miles, but we'll firm that up here, Gene. You're 90.8 - -
-|088:49:58|CDR|Okay.
-|088:49:58|CC|- - America.
-|088:49:58|CDR|Okay; thank you.
-|088:49:58|LMP|Bob, this is Jack. And the question of these irregular swirls that we've got in Mare Marginis, and we are looking just north of Nep - Neper now. I tell you, in the mare, there just is no visible relief. Although there seem to be some sinuous systematics anyway to the distribution. Like, there'll be a very dark area associated with the light area. And that dark area is darker than the mare. I think the pictures'll show that. Now, in the highlands, however, the - the light albedo areas, which are very comparable, that appear to be swirllike patterns of the same type, seem to be associated with a crest of crater ridges and other high points. We're on over - right over a concentration of these now in the northern part of Marginis , where the rule of a - of the light areas being associated with a - either - either symmetrically around a much darker area than the normal mare, or on one side, and in this case, generally the south side - of a dark area is - that rule is very clear. And that also seems to hold in the back side that there was a slightly darker region between areas of light-colored swirls.
-|088:49:58|CC|Roger, Jack. We understand, and we're standing by. We have a DOI pad and some other updates.
-|088:49:58|LMP|Okay. We'll go back to work.
-|088:49:58|CC|America, Houston. We'd like PAN CAMERA, OFF.
-|088:49:58|CDR|You're reading our minds, Bob.
+|088:49:39|CC|Roger, Ron. Copy. 1:45, extend and retract.
+|088:49:52|CDR|Bob, what's our altitude now?
+|088:49:57|CC|Looks like you're crossing - you're just about 90 miles, but we'll firm that up here, Gene. You're 90.8 - -
+|088:50:06|CDR|Okay.
+|088:50:06|CC|- - America.
+|088:50:10|CDR|Okay; thank you.
+|088:50:18|LMP|Bob, this is Jack. And the question of these irregular swirls that we've got in Mare Marginis, and we are looking just north of Nep - Neper now. I tell you, in the mare, there just is no visible relief. Although there seem to be some sinuous systematics anyway to the distribution. Like, there'll be a very dark area associated with the light area. And that dark area is darker than the mare. I think the pictures will show that. Now, in the highlands, however, the - the light albedo areas, which are very comparable, that appear to be swirllike patterns of the same type, seem to be associated with a crest of crater ridges and other high points. We're on over - right over a concentration of these now in the northern part of Marginis, where the rule of a - of the light areas being associated with a - either - either symmetrically around a much darker area than the normal mare, or on one side, and in this case, generally the south side - of a dark area is - that rule is very clear. And that also seemed to hold in the back side that there was a slightly darker region between areas of light-colored swirls.
+|088:52:42|CC|Roger, Jack. We understand, and we're standing by. We have a DOI pad and some other updates.
+|088:52:51|LMP|Okay. We'll go back to work.
+|088:53:21|CC|America, Houston. We'd like PAN CAMERA, OFF.
+|088:53:31|CDR|You're reading our minds, Bob.
 ||||Tape 60/ll|Page 463
 |088:53:32|LMP|It's OFF.
-|088:53:32|CC|Roger.
-|088:53:32|CDR|It's off.
-|088:53:32|CC|PAN CAMERA'S OFF, and we'd like ACCEPT. We've got the DOI target load, the CSM state vector, PIPA -and an SPS tailoff constant.
+|088:53:34|CC|Roger.
+|088:53:34|CDR|It's off.
+|088:53:35|CC|PAN CAMERA'S OFF, and we'd like ACCEPT. We've got the DOI target load, the CSM state vector, PIPA - and an SPS tailoff constant.
 |088:53:49|CDR|Okay; you've got ACCEPT, Bob.
-|088:53:49|CC|Roger, Gene. And there will be no PIPA bias.
-|088:53:49|CDR|Okay.
-|088:53:49|LMP|Bob, I can start with that pad if you want to.
-|088:53:49|CC|Roger. We're standing by. I'll start with D0I-1. Are you ready to copy?
-|088:53:49|LMP|Go ahead.
-|088:55:02|CC|Purpose: DOI-1, SPS/G&N; 40035; plus 1.90, minus 0.64; 093:11:36.60. NOUN 8l's minus 019-6, all balls for DELTA-Vy. DELTA-V^, is plus 0047-8; 000, 228, 000; 0058.9, plus 0014.5; 0197.4, 0:22, 0192.1; sextant star is 45, 187-5, 19-1- Let me say trunnion again; it's 19-1. The rest of the pad is not applicable. Set stars will be Sirius and Rigel; 133, 200, 030. Four jet, 15 second on the ullage. Other comments: overburn limits, DELTA-V one seven - 17 feet per second; burn time, 2 seconds. Over.
-|088:55:02|LMP|Okay, Bob. Ready for a readback. D0I-1, SPS/G&N; 40035; plus 1.90, minus 0.64; 093:11:36.60; minus 019-6, all zeros, plus 0047-8; all zeros, 228, all zeros; 0058.9, plus 00l4.5; 0197-4, 0:22, 0192.1; 45, 187.5, 19-1. Rest of pad is NA. Sirius and Rigel; 133, 200, 030. Four jets, 15 seconds ullage - Overburn limits: DELTA-V 7-17 feet per second; burn time, 2 seconds.
-|088:55:02|CC|Roger, Jack. Good readback. Okay; I've got a map update for - at 93:38 in the Flight Plan.
+|088:53:51|CC|Roger, Gene. And there will be no PIPA bias.
+|088:53:56|CDR|Okay.
+|088:54:47|LMP|Bob, I can start with that pad if you want to.
+|088:54:50|CC|Roger. We're standing by. I'll start with D0I-1. Are you ready to copy?
+|088:54:59|LMP|Go ahead.
+|088:55:00|CC|Purpose: DOI-1, SPS/G&N; 40035; plus 1.90, minus 0.64; 093:11:36.60. NOUN 8l's minus 01916, all balls for DELTA-Vy. DELTA-Vz, is plus 0047-8; 000, 228, 000; 0058.9, plus 0014.5; 0197.4, 0:22, 0192.1; sextant star is 45, 187.5, 19-1. Let me say trunnion again; it's 19-1. The rest of the pad is not applicable. Set stars will be Sirius and Rigel; 133, 200, 030. Four jet, 15 second on the ullage. Other comments: overburn limits, DELTA-V one seven - 17 feet per second; burn time, 2 seconds. Over.
+|088:57:11|LMP|Okay, Bob. Ready for a readback. DOI-1, SPS/G&N; 40035; plus 1.90, minus 0.64; 093:11:36.60; minus 01916, all zeros, plus 0047-8; all zeros, 228, all zeros; 0058.9, plus 00l4.5; 0197-4, 0:22, 0192.1; 45, 187.5, 19-1. Rest of pad is NA. Sirius and Rigel; 133, 200, 030. Four jets, 15 seconds ullage - Overburn limits: DELTA-V 7 - 17 feet per second; burn time, 2 seconds.
+|088:58:14|CC|Roger, Jack. Good readback. Okay; I've got a map update for - at 93:38 in the Flight Plan.
 ||||Tape 60/12|Page 464
-|088:55:02|CMP|Okay; go ahead. I have it.
-|088:55:02|CC|Okay, Ron. AOS without burn, 93:31:37; with burn is 3^:24. Over.
-|088:55:02|CMP|Okay. Without, 93:31:37; with burn is 34:24.
-|088:55:02|CC|Roger, Ron. I've got a - You can go back to BLOCK, Ron. And on that same page with the J-3, I've got the T-horizon and TCA.
-|088:55:02|CMP|Okay; ready to copy. Go ahead.
-|088:55:02|CC|Okay. You can go to BLOCK on the computer. T-horizon time 93:48:04; TCA minus 20 is 93:50:44. Over.
-|088:55:02|CMP|Okay. T-horizon, 93:48:04; TCA minus 20 is 50:44.
-|088:55:02|CC|Roger. Good readback.
-|088:55:02|CC|Okay, Ron. Over at 93:52, 93:52, we've got a difference in the NOUN 89 value.
-|088:55:02|CMP|Okay; go ahead.
-|088:55:02|CC|Okay. the NOUN 89s have changed to the following: NOUN 89, the first one, plus 20.284, plus 15.151, minus 001.96. Over.
-|088:55:02|CMP|Okay. It's a plus 20.284, and a plus 15-151Ç minus 001.96. Over.
-|088:55:02|CC|Roger, Ron. And here's a note for you. The landmark is F Crater, located on landing site - picture 4 of 4 in the Lunar Landmark Maps. Over.
-|088:55:02|CMP|Okay. Understand.
-|088:55:02|CC|Okay; and I've got a TEI minus 5 pad. Over.
-|088:55:02|LMP|Okay; go ahead. TEI-5-
-|089:01:30|CC|Roger , Jack. TEI minus 5- SPS/G&N; 38570; plus 0.49, plus 0.92; 098:39:43-24. NOUN 8l, plus 2329.8, minus 2403-1, minus 1152.8; 193, 099, 318. The rest of the pad is all not applicable. Set stars, Sirius and Rigel; 133, 200, 030. Ullage four jet, 12 seconds. Comments: burn undocked; assumes a D0I. Over.
+|088:58:33|CMP|Okay; go ahead. I have it.
+|088:58:35|CC|Okay, Ron. AOS without burn, 93:31:37; with burn is 34:24. Over.
+|088:58:52|CMP|Okay. Without, 93:31:37; with burn is 34:24.
+|088:58:58|CC|Roger, Ron. I've got a - You can go back to BLOCK, Ron. And on that same page with the J-3, I've got the T-horizon and TCA.
+|088:59:17|CMP|Okay; ready to copy. Go ahead.
+|088:59:19|CC|Okay. You can go to BLOCK on the computer. T-horizon time 93:48:04; TCA minus 20 is 93:50:44. Over.
+|088:59:41|CMP|Okay. T-horizon, 93:48:04; TCA minus 20 is 50:44.
+|088:59:48|CC|Roger. Good readback.
+|088:59:51|CC|Okay, Ron. Over at 93:52, 93:52, we've got a difference in the NOUN 89 value.
+|089:00:04|CMP|Okay; go ahead.
+|089:00:05|CC|Okay. the NOUN 89s have changed to the following: NOUN 89, the first one, plus 20.284, plus 15.151, minus 001.96. Over.
+|089:00:36|CMP|Okay. It's a plus 20.284, and a plus 15.151, and a minus 001.96.
+|089:00:45|CC|Roger, Ron. And here's a note for you. The landmark is F Crater, located on landing site - picture 4 of 4 in the Lunar Landmark Maps. Over.
+|089:01:03|CMP|Okay. Understand.
+|089:01:08|CC|Okay; and I've got a TEI minus 5 pad. Over.
+|089:01:26|LMP|Okay; go ahead. TEI-5.
+|089:01:29|CC|Roger , Jack. TEI minus 5: SPS/G&N; 38570; plus 0.49, plus 0.92; 098:39:43.24. NOUN 8ls, plus 2329.8, minus 2403.1, minus 1152.8; 193, 099, 318. The rest of the pad is all not applicable. Set stars, Sirius and Rigel; 133, 200, 030. Ullage four jet, 12 seconds. Comments: burn undocked; assumes a DOI. Over.
 ||||Tape 60/13|Page 465
-|089:01:30|LMP|Okay, Bob. TEI-5, SPS/G&N; 38570; plus 0.49, plus 0.92; 098:39=43.24; plus 2329.8, minus 2403-1, minus 1152.8; 193, 099, 318. Rest of pad NA. Sirius and Rigel; 133, 200, 030. Ullage: four jets for 12 seconds. Comment 1: burn undocked; comment 2: assume DOI.
-|089:01:30|CC|Good readback, Jack.
-|089:01:30|LMP|Okay. What else can we do for you?
-|089:01:30|CC|Stand by 1, here. I've got an addition for Ron on that comment about that F Crater landmark. Let me get it. It's right here, and I'll come right up to Ron on it.
-|089:01:30|CMP|Okay; I'll stand by.
-|089:01:30|CC|Ron, this additional comment will have - the crater is 8 nautical miles north of your track. You will lose the landmark at a 36-degree elevation angle. Over.
-|089:01:30|CMP|Okay. It's 8 miles north, and I'll lose it at 30 degrees. Okay; so that'll be pretty quick.
-|089:01:30|CC|Thirty-six degrees; pretty quick still.
-|089:01:30|CMP|Is that the one on Family Mountain?
+|089:02:58|LMP|Okay, Bob. TEI-5, SPS/G&N; 38570; plus 0.49, plus 0.92; 098:39:43.24; plus 2329.8, minus 2403.1, minus 1152.8; 193, 099, 318. Rest of pad NA. Sirius and Rigel; 133, 200, 030. Ullage: four jets for 12 seconds. Comment 1: burn undocked; comment 2: assume DOI.
+|089:03:41|CC|Good readback, Jack.
+|089:03:49|LMP|Okay. What else can we do for you?
+|089:03:52|CC|Stand by 1, here. I've got an addition for Ron on that comment about that F Crater landmark. Let me get it. It's right here, and I'll come right up to Ron on it.
+|089:04:02|CMP|Okay; I'll stand by.
+|089:04:19|CC|Ron, this additional comment will have - the crater is 8 nautical miles north of your track. You will lose the landmark at a 36-degree elevation angle. Over.
+|089:04:41|CMP|Okay. It's 8 miles north, and I'll lose it at 30 degrees. Okay; so that'll be pretty quick.
+|089:04:47|CC|Thirty-six degrees; pretty quick still.
+|089:05:06|CMP|Is that the one on Family Mountain?
 |089:05:11|CC|Stand by on that, Ron. Let me look at the book here. And I'll get Farouk to help me out on that one.
-|089:05:11|CMP|Okay, Houston. I've got F Crater, now. I'm all s quared away. Thank you.
-|089:05:11|CC|Okay, Ron. It's - it's right in the middle of that landing site 4 of 4 which is right before Ache-in[?] in the book on your - on the Landmark Tracking Book. And it's right dead center on that page.
-|089:05:11|CMP|Okay, I've got it now. I wrote down 404; it's 4 of 4.
-|089:07:09|LMP|Okay, Houston. We've got a good shot of the landing site.
+|089:06:40|CMP|Okay, Houston. I've got F Crater, now. I'm all squared away. Thank you.
+|089:06:45|CC|Okay, Ron. It's - it's right in the middle of that landing site 4 of 4 which is right before Ignin in the book on your - on the Landmark Tracking Book. And it's right dead center on that page.
+|089:07:01|CMP|Okay, I've got it now. I wrote down 404; it's 4 of 4.
+|089:07:06|LMP|Okay, Houston. We've got a good shot of the landing site.
 ||||Tape 60/14|Page 466
 |089:07:09|CC|Roger. Understand. And Roger, Ron.
-|089:07:09|LMP|The shadows, Bob, go all the way across the Scarp and very long pyramiding shadows go all the way past Family Mountain. Die - looks like the Sculptured. Hills are lit up on this side, but it almost puts the entire North Massif in shadow, from where I stand.
-|089:07:09|CC|America, Houston.
-|089:08:07|LMP|Quite an interesting place to land down there.
-|089:08:07||END OF TAPE X
+|089:07:27|LMP|The shadows, Bob, go all the way across the Scarp and very long pyramiding shadows go all the way past Family Mountain. It looks like the Sculptured Hills are lit up on this side, but it almost puts the entire North Massif in shadow, from where I stand.
+|089:08:05|CC|America, Houston.
+|089:08:06|LMP|Quite an interesting place to land down there.
+|089:08:12|CC|America, Houston.
 ||||Tape 61/1|Page 467
-|089:08:07|CDR|We can now, I think, see contrast down in the shadow. And the only part of the scarp that is visible - I think Jack picked it out - as being right where Lara is.
-|089:08:07|CC|Roger. America, Houston.
-|089:08:07|LMP|Roger; go ahead.
-|089:08:07|CC|Roger. Just some words in your - You'll be going through your systems checklist here and you'll probably see that it says dump the waste water if it's greater than 85 percent and you are at about 89.6 percent. We'd - we'd like you not to dump the waste water until the nominal time in the Flight Plan. Do not dump the waste water during this systems check. Over.
-|089:08:07|CDR|Okay, and I understand that was about 9^ hours as I recall.
-|089:08:07|CC|That's affirmative. That's where the nominal time is and that is where we'd like it dumped.
-|089:08:07|CDR|Okay.
-|089:08:07|CDR|Bob, that's a - a fantastic black-and-white shot of the landing area with the shadow stretching across most of it.
-|089:08:07|CC|Roger. Understand.
-|089:10:34|CDR|Bob, I can now see down in through the shadow. I can see - Bare Mountain, I can see - I can't really make out the - the slide yet. Most of the North Mass - Massif are still in shadow due to the -due to the Sculptured Hills. And just at the point where we can start really to see through the shadows and see the - some hummocky terrain on the North Massif, it just went out of my next reach. But, I did see some sort of albedo change that went across the canyon about in the vicinity of the - of the scarp.
+|089:08:21|CDR|We can now, I think, see contrast down in the shadow. And the only part of the scarp that is visible - I think Jack picked it out - as being right where Lara is.
+|089:08:41|CC|Roger. America, Houston.
+|089:08:47|LMP|Roger; go ahead.
+|089:08:49|CC|Roger. Just some words in your - You'll be going through your systems checklist here and you'll probably see that it says dump the waste water if it's greater than 85 percent and you are at about 89.6 percent. We'd - we'd like you not to dump the waste water until the nominal time in the Flight Plan. Do not dump the waste water during this systems check. Over.
+|089:09:12|CDR|Okay, and I understand that was about 94 hours as I recall.
+|089:09:17|CC|That's affirmative. That's where the nominal time is and that is where we'd like it dumped.
+|089:09:22|CDR|Okay.
+|089:09:36|CDR|Bob, that's a - a fantastic black-and-white shot of the landing area with the shadow stretching across most of it.
+|089:09:45|CC|Roger. Understand.
+|089:10:35|CDR|Bob, I can now see down in through the shadow. I can see - Bare Mountain, I can see - I can't really make out the - the slide yet. Most of the North Masstif - Massif are still in shadow due to the - due to the Sculptured Hills. And just at the point where we can start really to see through the shadows and see the - some hummocky terrain on the North Massif, it just went out of my next reach. But, I did see some sort of albedo change that went across the canyon about in the vicinity of the - of the scarp.
 ||||Tape 6l/2|Page 468
 |089:12:20|LMP|Bob, with respect to the landing site - this is Jack - when we had near - or were closer to low phase angle, approaching it - when I first had it in view - there was a clear lightening in the area of the light mantle. It was not sharply defined, but around the crater Lara and Nansen and to the west of the scarp - there was very clearly, slightly brighter - reflectivity.
-|089:12:20|CC|Roger, Jack.
+|089:13:00|CC|Roger, Jack.
+|089:14:51|PAO|Apollo 17's orbit is 168.8 by 52.5 nautical miles. Present altitude 154.9 nautical miles moving towards apolune.
 |089:16:27|CDR|Houston, America. The MAPPING CAMERA and LASER ALTIMETER COVERS are CLOSED. I'm going to ENABLE A-l, A-2, and C-2.
-|089:16:27|CC|Roger, Gene.
-|089:16:27|CMP|Yes, it looks like the old gravity gradient worked there or something. I didn't see it get out of attitude at all. Did you all see any movement at all?
-|089:16:27|CC|Max er [error?] was about 0.2 - 0.3 of a degree, Ron.
-|089:16:27|CMP|Okay.
-|089:17:35|LMP|I'm sorry, Houston. I should have cued you on changing the SPS pressure indicators. You want to see that again?
-|089:17:35|CC|Stand by on that.
-|089:17:35|CC|Jack, it's not required to go back and do them again; we watched it on telemetry.
-|089:17:35|LMP|Okay. I'll try to remember to be a little more informative.
+|089:16:35|CC|Roger, Gene.
+|089:16:48|CMP|Yes, it looks like the old gravity gradient worked there or something. I didn't see it get out of attitude at all. Did you all see any movement at all?
+|089:17:00|CC|Max error was about 0.2 - 0.3 of a degree, Ron.
+|089:17:08|CMP|Okay.
+|089:17:36|LMP|I'm sorry, Houston. I should have cued you on changing the SPS pressure indicators. You want to see that again?
+|089:17:47|CC|Stand by on that.
+|089:18:32|CC|Jack, it's not required to go back and do them again. We watched it on telemetry.
+|089:18:39|LMP|Okay. I'll try to remember to be a little more informative.
 |089:18:46|CC|No problem, Jack; no problem.
 |089:28:52|CMP|Okay, Houston. There are the torquing angles.
-|089:28:52|CC|Roger. We see them. They look good.
-|089:28:52|CMP|Just for another little matter of interest - once the Earth is in the field of view, which it's about - looks like it must be about 12 degrees from Regulus - it's so bright, that it blacks out any - blanks out the telescope for any star recognition. However, it worked real good, in the sextant. You can see the star real well. You just have to assume it's Regulus, though.
+|089:28:56|CC|Roger. We see them. They look good.
+|089:29:04|CMP|Just for another little matter of interest - once the Earth is in the field of view, which it's about - looks like it must be about 12 degrees from Regulus - it's so bright, that it blacks out any - blanks out the telescope for any star recognition. However, it worked real good, in the sextant. You can see the star real well. You just have to assume it's Regulus, though.
 ||||Tape 6l/3|Page 469
-|089:28:52|CC|Roger. Would that star angle difference - -
-|089:28:52|CMP|Okay, I'll torque at 30.
+|089:29:29|CC|Roger. Would that star angle difference - -
+|089:29:31|CMP|Okay, I'll torque at 30.
 |089:29:35|CMP|I torqued at 30 - 09:30.
-|089:29:35|CC|Roger. We copy.
-|089:29:35|CMP|And the first - the first star angle difference was - you know, you can get a little bit lax about it - if you want to spend a little time at it, you can get five balls every time, looks like.
-|089:29:35|CC|Roger, Ron. With that star angle difference on the second one, I can assume it was Regulus. I think you're safe in your assumption.
-|089:29:35|CMP|Oh, yes. Right.
-|089:29:35|CDR|He had to do it, or else I'd have to go down there and do it.
-|089:30:13|CC|Roger.
+|089:29:39|CC|Roger. We copy.
+|089:29:42|CMP|And the first - the first star angle difference was - you know, you can get a little bit lax about it - if you want to spend a little time at it, you can get five balls every time, looks like.
+|089:29:57|CC|Roger, Ron. With that star angle difference on the second one, I can assume it was Regulus. I think you're safe in your assumption.
+|089:30:07|CMP|Oh, yes. Right.
+|089:30:11|CDR|He had to do it, or else I'd have to go down there and do it.
+|089:30:14|CC|Roger.
+|089:31:02|PAO|This is Apollo Control at 92 hours 11 minutes. Apollo 17 now at the highest point of it's orbit, 168.8 nautical miles. 37 minutes remaining before loss of signal on this revolution.
 |089:34:06|CC|America, Houston. P40 looks good.
-|089:34:06|CMP|Okay. Mighty fine; we'll go ahead and maneuver to attitude then.
-|089:34:06|CC|Roger.
-|089:34:06|CDR|Houston, I think I put the wrong number in on the PITCH. We'll correct it. It's 228, isn't it?
-|089:34:06|CC|That's affirmative, Gene.
-|089:35:31|CDR|Okay, we'll fix it.
+|089:34:12|CMP|Okay. Mighty fine; we'll go ahead and maneuver to attitude then.
+|089:34:17|CC|Roger.
+|089:35:17|CDR|Houston, I think I put the wrong number in on the PITCH. We'll correct it. It's 228, isn't it?
+|089:35:26|CC|That's affirmative, Gene.
+|089:35:31|CDR|Okay, we'll fix that.
+|089:36:37|PAO|This is Apollo control. Apollo 17 is maneuvering to the proper attitude for Descent Orbit Insertion maneuver. This will put the crew heads down.
 |089:38:09|CC|America, Houston. We'd like the HIGH GAIN to AUTO.
 ||||Tape 6l/4|Page 470
 |089:38:20|CDR|You've got it.
-|089:38:20|CC|Roger.
+|089:38:22|CC|Roger.
 |089:41:48|CC|America, Houston. We'd like you to hold off switching to OMNI Charlie until we cue you on that.
-|089:41:48|CDR|Wilco.
+|089:41:58|CDR|Wilco.
 |089:42:43|LMP|Bob, this is Jack.
-|089:42:43|CC|Go ahead, Jack.
-|089:42:43|LMP|Was there any indication on the seismometers of an impact, about the time I thought I saw a light flash on the surface?
-|089:42:43|CC|Stand by that - we'll check on that, Jack.
-|089:42:43|LMP|Don't worry about it. Some - I thought somebody was looking at it. It could have been one of the other light flashes.
-|089:42:43|CC|Roger. We copied the time and - -
-|089:42:43|LMP|I have a place marked.
-|089:42:43|CC|- - passed it to the back room.
-|089:43:23|LMP|Okay, I got it marked on the map, too.
-|089:51:20|CDR|Okay, Bob. The star sextant checks out okay.
-|089:51:24|CC|Roger, Gene. Good show.
+|089:42:45|CC|Go ahead, Jack.
+|089:42:49|LMP|Was there any indication on the seismometers of an impact, about the time I thought I saw a light flash on the surface?
+|089:42:59|CC|Stand by that - we'll check on that, Jack.
+|089:43:05|LMP|Don't worry about it. Some - I thought somebody was looking at it. It could have been one of the other light flashes.
+|089:43:15|CC|Roger. We copied the time and - -
+|089:43:17|LMP|I have a place marked.
+|089:43:17|CC|- - passed it to the back room.
+|089:43:22|LMP|Okay, I got it marked on the map, too.
+|089:51:19|CDR|Okay, Bob. The star sextant checks out okay.
+|089:51:23|CC|Roger, Gene. Good show.
+|089:53:02|PAO|Flight Director, Pete Frank, now checking all flight control positions for a GO NO-GO on the Descent Orbit Insertion burn. He's getting a GO from all positions.
 |089:54:41|CC|America, Houston. You are GO for DOI and you can leave the high gain selected. We're holding good.
-|089:54:41|CDR|Okay, Robert. DOI. ... the high gain.
-|089:54:41|CC|Ro - Gene, say again. You were way down in the mud on that one. Can you say again, please?
-|089:54:41|CDR|Roger; understand. We are GO for DOI, and you have the high gain.
-|089:54:41|CC|That's affirmative, Gene. Just -
+|089:54:50|CDR|Okay, Robert. DOI. ... the high gain.
+|089:54:58|CC|Ro - Gene, say again. You were way down in the mud on that one. Can you say again, please?
+|089:55:07|CDR|Roger; understand. We are GO for DOI, and you have the high gain.
+|089:55:11|CC|That's affirmative, Gene. Just -
 ||||Tape 61/5|Page 471
-|089:54:41|LMP|Hey, Bob, I know I've argued against this kind of thing, but you got tenths on that burn time?
-|089:54:41|CC|It's 0.1 on that.
-|089:54:41|LMP|Okay, 0.1.
-|089:54:41|CC|Jack, just some words from the back room on you. The a - There may have been an impact at the time you called, but the Moon is still ringing from the S-IVB impact. So it's masked any other - would mask any other impact. So they may be able to strip it out at a later time, but right now they don't see anything at your called time.
+|089:55:24|LMP|Hey, Bob, I know I've argued against this kind of thing, but you got tenths on that burn time?
+|089:55:36|CC|It's 0.1 on that.
+|089:55:43|LMP|Okay, 0.1.
+|089:55:44|CC|Jack, just some words from the back room on you. The - There may have been an impact at the time you called, but the Moon is still ringing from the S-IVB impact. So it's masked any other - would mask any other impact. So they may be able to strip it out at a later time, but right now they don't see anything at your called time.
 |089:56:05|LMP|Just my luck.
-|090:00:39|LMP|Bob, log us for a picture of the Earth at 92:40 on mag Oscar Oscar. And we're on frame 68.
-|090:00:39|CC|Roger, Jack; we've got that.
-|090:00:39|LMP|You've got a lot of healthy weather out there in the Pacific today. Looks like most of those things we talked about yesterday, up in the Hawaii region and also in the south, have intensified.
-|090:00:39|CC|Roger.
-|090:05:38|CC|America, Houston. We're about 3 minutes until LOS and everything is looking great. No changes since our GO for DOI. We'll expect to see you at 93:34:24.
-|090:05:38|CDR|We'll see you at 93:34:24, Bob.
-|090:05:58|CC|Roger, Gene.
+|090:00:37|LMP|Bob, log us for a picture of the Earth at 92:40 on mag Oscar Oscar. And we're on frame 68.
+|090:00:53|CC|Roger, Jack; we've got that.
+|090:00:59|LMP|You've got a lot of healthy weather out there in the Pacific today. Looks like most of those things we talked about yesterday, up in the Hawaii region and also in the south, have intensified.
+|090:01:17|CC|Roger.
+|090:05:37|CC|America, Houston. We're about 3 minutes until LOS and everything is looking great. No changes since our GO for DOI. We'll expect to see you at 93:34:24.
+|090:05:53|CDR|We'll see you at 93:34:24, Bob.
+|090:05:57|CC|Roger, Gene.
+|090:09:03|PAO|This is Apollo control at 92 hours 49 minutes. And, we've had loss of signal as Apollo 17 goes behind the Moon. During this pass Jack Schmitt saw a flash just north of the crater Grimaldi at an elapsed time of 90 hours 18 minutes and thought it might be a meteor impact. We could not confirm that; however, the Moon was still ringing from the S-IVB impact and would mask out other activity on seismometer recorders in the science support room here. Apollo 17 will perform the Descent Orbit Insertion maneuver behind the Moon just after the start of the third revolution and at a point near perilune the low point in that revolution. Ignition time for that maneuver is 93 hours 11 minutes 36 seconds. Delta-V change of velocity of 197.4 feet per second. Duration of the burn 22 seconds and we anticipate a result orbit of 58.9 by 14.5 nautical miles. If the burn is performed as expected we'll next acquire Apollo 17 at 93 hours 34 minutes 24 seconds. If Apollo 17 is unable to perform the burn acquisition time will be 93 hours 31 minutes 37 seconds. We'll come back up just prior to the no burn acquisition time and stand by through that period of several minutes. At 92 hours 51 minutes this is mission control Houston.
+|090:50:00|PAO|This is Apollo Control at 93 hours 30 minutes. We're a minute and a half away from acquisition without a burn, 4 minutes 10 seconds away from acquisition given a nominal Descent Orbit Insertion burn. Acquisition between those two times would indicate a partial burn of some kind. We'll leave the line up now.
+|090:51:55|PAO|We've passed the no-burn AOS time and do not have a signal. That's an encouraging sign that we did perform a maneuver.
+|090:53:24|PAO|One minute to nominal AOS.
+|090:54:25|We have a signal, right on the money.
 ||||Tape 62/1|Page 472
-|090:54:51|CDR|Hello, Houston; America.
-|090:54:51|CC|America, Houston. Go ahead.
-|090:54:51|CDR|Okay. And the burn was good on all counts, 22-second burn. It was on time, V^, 1982; roll after the burn, 357 > 225, and 003. Residuals were plus 0, plus 0.2, and plus 0.1. DELTA-V^ is 0.1, and that was with DELTA-V total set into the EMS. Should have been - should been zero and the residual on the EMS was plus 0.1. OXIDIZER's 305, and FUEL is 311 and an UNBALANCE of 150 DECREASE. We're in a 59.1 by 14.9.
-|090:54:51|CC|Okay, America; sounds great.
-|090:54:51|CDR|It looks pretty great.
-|090:54:51|CDR|We're getting back down among us where us plain folks belong.
+|090:54:50|CDR|Hello, Houston; America.
+|090:54:54|CC|America, Houston. Go ahead.
+|090:55:00|CDR|Okay. And the burn was good on all counts, 22-second burn. It was on time, Vgx, 1982; roll after the burn, 357, 225, and 003. Residuals were plus 0, plus 0.2, and plus 0.1. DELTA-Vc is 0.1, and that was with DELTA-V total set into the EMS. Should have been - should been zero and the residual on the EMS was plus 0.1. OXIDIZER's 305, and FUEL is 311 and an UNBALANCE of 150 DECREASE. We're in a 59.1 by 14.9.
+|090:55:55|CC|Okay, America; sounds great.
+|090:56:01|CDR|It looks pretty great.
+|090:56:14|CDR|We're getting back down among us where us plain folks belong.
 |090:56:20|CC|Roger.
-|091:01:01|LMP|Houston, this is.the LMP. There seem to be two general kinds of ray patterns: those associated with a lot of secondaries and light colored and those that have no visible secondaries. And that's independent, yet, from the irregular light-colored areas we've been calling swirls.
-|091:01:01|CC|Roger, Jack. We're copying.
-|091:01:01|LMP|Houston, there also - a lot more - there is -there is a lot more of that light-colored swirllike irregular material, or discoloration - if -whatever you want to call it, in the back side highlands, particularly as we approach Marginis, than I had previously gathered from the available photography.
+|090:56:45|PAO|Those orbital numbers are an on-board readout, we'll confirm those m a few minutes after some tracking.
+|091:01:00|LMP|Houston, this is the LMP. There seem to be two general kinds of ray patterns: those associated with a lot of secondaries and light colored, and those that have no visible secondaries. And that's independent, yet, from the irregular light-colored areas we've been calling swirls.
+|091:01:22|CC|Roger, Jack. We're copying.
+|091:02:14|LMP|Houston, there also - a lot more - there is - there is a lot more of that light-colored swirl-like irregular material, or discoloration - if - whatever you want to call it, in the back side highlands, particularly as we approach Marginis, than I had previously gathered from the available photography.
 ||||Tape 62/2|Page 473
-|091:01:01|CC|Roger, Jack.
-|091:01:01|LMP|And there still seems to be no relief associated with it. Although, in many cases, it seems to follow ridge lines, or crater rims part way. In other cases, it's quite irregular in its distribution.
-|091:01:01|CC|Okay.
-|091:03:33|CMP|And bank A, that time, with the chamber pressure, was up to 95-
-|091:03:33|CC|Roger, Ron. And we got tracking data on you; has a 13.1 perigee - peri - perilune, rather.
-|091:03:33|CDR|Roger.
-|091:03:33|CMP|Okay, that's great, Bob, and we're still looking at that zero bias on the DC meter of about 5 to 7 psi.
-|091:03:33|CC|Roger.
-|091:03:33|CMP|Okay.
-|091:05:52|LMP|Some of the boys might be interested to know that in a place where the Sun is just grazing the slope -it's a steep slope on the north rim of Crisium, I can see the horizontal lineaments that were such a controvery on 15.
-|091:05:52|CC|Roger. Understand. The north rim of Crisium?
-|091:05:52|CDR|... big one with the central peak.
-|091:05:52|LMP|Roger. There are some very steep slopes that just have grazing Sun on them now, and with the binocs, you can see that horizontal lineation pattern.
-|091:05:52|CC|Roger.
-|091:05:52|CMP|There it is. T-horizon will be good. Yes. Okay, I've got the edge of Crisium now. ... Getting hills on the side of Crisium, there. Sure a lot smoother-looking material than I thought it would be.
+|091:02:48|CC|Roger, Jack.
+|091:02:54|LMP|And there still seems to be no relief associated with it. Although, in many cases, it seems to follow ridge lines, or crater rims part way. In other cases, it's quite irregular in its distribution.
+|091:03:09|CC|Okay.
+|091:03:32|CMP|And bank A, that time, with the chamber pressure, was up to 95.
+|091:03:38|CC|Roger, Ron. And we got tracking data on you; has a 13.1 perigee - peri - perilune, rather.
+|091:03:49|CDR|Roger.
+|091:03:49|CMP|Okay, that's great, Bob, and we're still looking at that zero bias on the DC meter of about 5 to 7 psi.
+|091:04:01|CC|Roger.
+|091:04:07|CMP|Okay ...
+|091:05:51|LMP|Some of the boys might be interested to know that in a place where the Sun is just grazing the slope - it's a steep slope on the north rim of Crisium, I can see the horizontal lineaments that were such a controvery on 15.
+|091:06:08|CC|Roger. Understand. The north rim of Crisium?
+|091:06:09|CDR|... big one with the central peak.
+|091:06:13|LMP|Roger. There are some very steep slopes that just have grazing Sun on them now, and with the binocs, you can see that horizontal lineation pattern.
+|091:06:25|CC|Roger.
+|091:06:36|CMP|There it is. T-horizon will be good. Yes. Okay, I've got the edge of Crisium now. ... Getting hills on the side of Crisium, there. Sure a lot smoother-looking material than I thought it would be.
 ||||Tape 62/3|Page 474
-|091:05:52|CC|Ron, you're about 1 minute from T-horizon.
-|091:05:52|CMP|Okay, Bob. Thank you. Oh. (Laughter) Here.
-|091:05:52|CC|And, Ron, we - we're copying you on VOX, we believe. Is that affirm?
-|091:05:52|CMP|Yes, that's right.
-|091:05:52|CC|Roger.
-|091:05:52|CMP|You're not supposed to copy the other guys, though. Are you copying the other guys?
-|091:05:52|CC|No, just you, Ron.
-|091:05:52|CMP|Okay.
-|091:05:52|CDR|I may have been talking loud.
-|091:08:03|CC|Okay, Ron. You should be at T-horizon.
-|091:08:08|LMP|MARK. T-horizon.
-|091:08:08|CMP|Okay, that's pointing at the horizon all right. I don't see the crater, yet.
-|091:08:08|CMP|Okay.
-|091:08:08|CMP|Okay, I can see the rims of Microbus [sic] A and B.
-|091:08:08|CMP|Okay.
-|091:08:08|CMP|Okay, I really don't see it yet. I can see Microbus A and B, real well.
-|091:08:08|CMP|Okay, I'm going to pick out one and start marking on it.
-|091:08:08|CMP|1, 2, 3, 4, 5, 6, 7, 8. That's the wrong one. Okay, now I see what I'm supposed to mark on; okay.
-|091:08:08|CMP|1, 2, 3, 4, 5, 6, 7, 8, 9, *** 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, and it's gone.
+|091:07:03|CC|Ron, you're about 1 minute from T-horizon.
+|091:07:09|CMP|Okay, Bob. Thank you. Oh. (Laughter) Here.
+|091:07:26|CC|And, Ron, we - we're copying you on VOX, we believe. Is that affirm?
+|091:07:32|CMP|Yes, that's right.
+|091:07:33|CC|Roger.
+|091:07:34|CMP|You're not supposed to copy the other guys, though. Are you copying the other guys?
+|091:07:37|CC|No, just you, Ron.
+|091:07:40|CMP|Okay.
+|091:07:43|CDR|I may have been talking loud.
+|091:08:02|CC|Okay, Ron. You should be at T-horizon.
+|091:08:06|LMP|MARK. T-horizon.
+|091:08:09|CMP|Okay, that's pointing at the horizon all right. I don't see the crater, yet.
+|091:08:19|CMP|Okay.
+|091:08:38|CMP|Okay, I can see the rims of Microbus [sic] A and B.
+|091:08:59|CMP|Okay.
+|091:09:25|CMP|Okay, I really don't see it yet. I can see Microbus A and B, real well.
+|091:10:02|CMP|Okay, I'm going to pick out one and start marking on it.
+|091:10:08|CMP|1, 2, 3, 4, 5, 6, 7, 8. That's the wrong one. Okay, now I see what I'm supposed to mark on; okay.
+|091:10:22|CMP|1, 2, 3, 4, 5, 6, 7, 8, 9, ... 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, and it's gone.
 ||||Tape 62/4|Page 475
-|091:08:08|CMP|Okay?
-|091:11:23|CMP|No, the ones I just wrote in there. Right?
-|091:11:23|CMP|Okay? And, lets - now I'm going to take a look and see if it looks like a cinder cone. Hey! There's Maraldi Gamma, the mound sticking up there right beside Maraldi. Hey, you guys are going to have some good hills to run down in there. Can you see it all - at all, coming up?
-|091:11:23|CMP|... north. That crazy radar is going to be in the way - the LM (laughter). Okay, it's going through the landing site, now. The shadow is just up to -You can really see the scarp on there.
-|091:11:23|LMP|See what they mean by Sculptured Hills, Gene? See the knobby characteristics in that - -
-|091:11:23|CDR|Yes. That'll be ...
-|091:11:23|LMP|- - area down there. That's part of the Sculpured Hills.
-|091:11:23|CDR|That's a massif there, too.
-|091:11:23|LMP|Now, we're just over the rim of Serenitatis, looking over the Graben Plains - -
-|091:11:23|CMP|Yes, I can just see. I'm going to switch to 17-1. 3, 4, 5j 6 - just got six of them on 17-1 and then the other three were were on F - F Crater; 17-1 was just barely in the - Sherlock was just barely beyond the shadow.
-|091:11:23|LMP|This is all supposedly covered with the dark mantle, Gene, what you're seeing down there.
-|091:11:23|CDR|Yes, the Sun angles are so that you can't tell the difference in albedo.
-|091:11:23|LMP|And look at those mare ridges, though.
-|091:11:23|CDR|I tell you, that's looking out into the gray -gray desert down in there.
+|091:11:09|CMP|Okay?
+|091:11:22|CMP|No, the ones I just wrote in there. Right?
+|091:11:44|CMP|Okay? And, lets - now I'm going to take a look and see if it looks like a cinder cone. Hey! There's Maraldi Gamma, the mound sticking up there right beside Maraldi. Hey, you guys are going to have some good hills to run down in there. Can you see it all - at all, coming up?
+|091:11:28|CMP|... north. That crazy radar is going to be in the way - the LM (laughter). Okay, it's going through the landing site, now. The shadow is just up to - You can really see the scarp on there.
+|091:12:59|LMP|See what they mean by Sculptured Hills, Gene? See the knobby characteristics in that - -
+|091:13:02|CDR|Yes. That'll be ...
+|091:13:03|LMP|- - area down there. That's part of the Sculpured Hills.
+|091:13:04|CDR|That's a massif there, too.
+|091:13:12|LMP|Now, we're just over the rim of Serenitatis, looking over the Graben Plains - -
+|091:13:19|CMP|Yes, I can just see. I'm going to switch to 17-1. 3, 4, 5, 6 - just got six of them on 17-1 and then the other three were were on F - F Crater; 17-1 was just barely in the - Sherlock was just barely beyond the shadow.
+|091:13:46|LMP|This is all supposedly covered with the dark mantle, Gene, what you're seeing down there.
+|091:13:50|CDR|Yes, the Sun angles are so that you can't tell the difference in albedo.
+|091:13:53|LMP|And look at those mare ridges, though.
+|091:13:57|CDR|I tell you, that's looking out into the gray -gray desert down in there.
 ||||Tape 62/5|Page 476
-|091:11:23|LMP|That's the old Littrow site.
-|091:11:23|CDR|I think so. I think we're just about ready to climb.
-|091:11:23|LMP|I think the terminator is giving you the feeling of that, maybe. Ain't nothing out there.
-|091:11:23|CC|Jack, Houston. Can you see any albedo difference in the landing site area between the dark massif and the light area?
-|091:11:23|LMP|We can't see any difference between - in the low areas, between the dark mantle and other materials right now. We're right at the terminator.
-|091:14:40|CDR|Yes, but Jack and I weren't really looking at the landing site. I think Ron was.
-|091:14:40|CC|Roger.
-|091:14:40|CMP|Jerry, you could really see a difference between the - the South Massif and the - the mantle material around through there. The mantle is not nearly as dark as it looks on the pictures, though But the massif, South Massif, especially, looked almost a whitish color. I guess it's because the, partly the Sun was shining on it. But then - -
-|091:14:40|CDR|Could you see anything that looks like the slide?
-|091:14:40|CMP|Oh, yes. You can see the slide on the thing and definitely see the scarp going across through there. I was primarily concentrating on looking for the various craters so I didn't spend that much time, you know, concentrating on how the thing looked. But in the marks on the thing, the first about four or five marks were on F Crater and then I saw Sherlock about halfway through it and I got about five marks on the Sherlock for 17-1.
-|091:14:40|LMP|Gene.
-|091:16:25|LMP|Houston, in crossing Crisium and Marginis, it looked fairly clear that with the small fresh craters, and I don't have a good size estimate right now - I think I'm looking in terms of 100 or 2 meters. You can distinguish where blocks have been thrown up by them, or not - possibly giving depth of the local regolith from the pictures you'll get in there.
+|091:13:59|LMP|That's the old Littrow site.
+|091:14:08|CDR|I think so. I think we're just about ready to climb.
+|091:14:11|LMP|I think the terminator is giving you the feeling of that, maybe. Ain't nothing out there.
+|091:14:17|CC|Jack, Houston. Can you see any albedo difference in the landing site area between the dark massif and the light area?
+|091:14:28|LMP|We can't see any difference between - in the low areas, between the dark mantle and other materials right now. We're right at the terminator.
+|091:14:39|CDR|Yes, but Jack and I weren't really looking at the landing site. I think Ron was.
+|091:14:43|CC|Roger.
+|091:14:53|CMP|Jerry, you could really see a difference between the - the South Massif and the - the mantle material around through there. The mantle is not nearly as dark as it looks on the pictures, though. But the massif, South Massif especially, looked almost a whitish color. I guess it's because the, partly the Sun was shining on it. But then - -
+|091:15:19|CDR|Could you see anything that looks like the slide?
+|091:15:20|CMP|Oh, yes. You can see the slide on the thing and definitely see the scarp going across through there. I was primarily concentrating on looking for the various craters so I didn't spend that much time, you know, concentrating on how the thing looked. But in the marks on the thing, the first about four or five marks were on F Crater and then I saw Sherlock about halfway through it and I got about five marks on the Sherlock for 17-1.
+|091:16:00|LMP|... Gene.
+|091:16:23|LMP|Houston, in crossing Crisium and Marginis, it looked fairly clear that with the small fresh craters, and I don't have a good size estimate right now - I think I'm looking in terms of 100 or 2 meters. You can distinguish where blocks have been thrown up by them, or not - possibly giving depth of the local regolith from the pictures you'll get in there.
 ||||Tape 62/6|Page 477
-|091:16:25|CC|Roger, Jack.
-|091:16:25|LMP|And, also, on that lineation question, not only, where the Sun grazes a - a slope do you see the horizontal lineations, but they're at the southern end of the shadowed area on a slope. You get a couple other lineations showing up at least in a couple places I saw. One would be parallel to the slope - that is cross-contour, and the other was at a - an angle to that direction - oh - say of about 30 degrees.
-|091:16:25|CC|Roger, Jack. We're copying you loud and clear and no problems with comm at all.
-|091:18:12|LMP|Okay. We just had sunset.
-|091:18:12|CMP|And, Houston; America. On mag Bravo Bravo, 75 to 70 percent were utilized on J-3 and F Crater and 17-1 through the sextant.
-|091:18:12|CC|Roger. Just want to confirm, Ron. You started on J-3 and then you went to F Crater and -
-|091:18:12|CMP|Yes. I went to F Crater and then back to Sherlock or 17-1.
-|091:18:12|CC|Roger.
-|091:18:12|CMP|Actually, on J-3, I took four marks on a crater that was to the west of J-3 and then I finally saw J-3 and started marking on it.
-|091:18:12|CC|Roger, Ron.
-|091:18:12|LMP|Okay, Houston. Mag Oscar Oscar is 85.
-|091:18:12|CC|Roger, Jack. Thank you.
-|091:18:12|LMP|And, then - okay; and there's a number of pictures - Now, just a minute, let me try to give you a general feeling for where they were taken. St and by 1.
+|091:17:05|CC|Roger, Jack.
+|091:17:12|LMP|And, also, on that lineation question, not only, where the Sun grazes a - a slope do you see the horizontal lineations, but they're at the southern end of the shadowed area on a slope. You get a couple other lineations showing up at least in a couple places I saw. One would be parallel to the slope - that is cross-contour, and the other was at a - an angle to that direction - oh - say of about 30 degrees.
+|091:18:02|CC|Roger, Jack. We're copying you loud and clear and no problems with comm at all.
+|091:18:10|LMP|Okay. We just had sunset.
+|091:18:15|CMP|And, Houston; America. On mag Bravo Bravo, 75 to 70 percent were utilized on J-3 and F Crater and 17-1 through the sextant.
+|091:18:33|CC|Roger. Just want to confirm, Ron. You started on J-3 and then you went to F Crater and -
+|091:18:43|CMP|Yes. I went to F Crater and then back to Sherlock or 17-1.
+|091:18:48|CC|Roger.
+|091:18:51|CMP|Actually, on J-3, I took four marks on a crater that was to the west of J-3 and then I finally saw J-3 and started marking on it.
+|091:18:01|CC|Roger, Ron.
+|091:19:06|LMP|Okay, Houston. Mag Oscar Oscar is 85.
+|091:19:13|CC|Roger, Jack. Thank you.
+|091:19:15|LMP|And, then - okay; and there's a number of pictures - Now, just a minute, let me try to give you a general feeling for where they were taken. Stand by 1.
 ||||Tape 62/7|Page 478
-|091:18:12|LMP|Okay; a number of the last pictures that were taken on that series, or that rev, were taken between - say about 115 east, and - oh, about 100 east and they show several examples of the light-colored or swirl - -
-|091:18:12|CMP|Coming up now.
-|091:18:12|LMP|- - alterations to the surface. And that's in highland country where that is a distinct gray against the tan-gray or tan highland background -general highland color.
-|091:18:12|CC|Okay, Jack. I got that.
-|091:18:12|CMP|And, all my pictures (laughter).
-|091:18:12|CC|Ron, Houston. We'd like you to move up and do the waste water dump starting now and the 02 fuel cell purge.
-|091:18:12|LMP|Okay, we'll get to that and mag Quebec Quebec is on frame 50.
-|091:18:12|CC|Roger. Copy.
-|091:21:35|CMP|Okay, you want to dump the waste water on the front side?
-|091:21:35|CC|That's affirm, Ron. We'd like to get a third dump now, so we have it dumped prior to the camera pass.
-|091:21:35|CMP|Oh, okay.
-|091:21:35|CC|We want to get a dump prior to the UV work there, Ron.
-|091:21:35|CMP|Okay, that's right - I'm sorry, I forgot about that.
-|091:21:35|CMP|... how ... going to go, with BATTERY VENT to - Okay, BATTERY VENTED, BATTERY VENT is CLOSED and going to DUMP A.
-|091:23:31|LMP|PAN CAMERA POWER going OFF.
+|091:19:51|LMP|Okay; a number of the last pictures that were taken on that series, or that rev, were taken between - say about 115 east, and - oh, about 100 east and they show several examples of the light-colored or swirl - -
+|091:20:27|CMP|Coming up now.
+|091:20:28|LMP|- - alterations to the surface. And that's in highland country where that is a distinct gray against the tan-gray or tan highland background - general highland color.
+|091:20:45|CC|Okay, Jack. I got that.
+|091:21:03|CMP|And, all my pictures, Jesus (laughter).
+|091:21:13|CC|Ron, Houston. We'd like you to move up and do the waste water dump starting now and the O2 fuel cell purge.
+|091:21:24|LMP|Okay, we'll get to that and mag Quebec Quebec is on frame 50.
+|091:21:31|CC|Roger. Copy.
+|091:21:34|CMP|Okay, you want to dump the waste water on the front side?
+|091:21:39|CC|That's affirm, Ron. We'd like to get a third dump now, so we have it dumped prior to the camera pass.
+|091:21:48|CMP|Oh, okay.
+|091:21:48|CC|We want to get a dump prior to the UV work there, Ron.
+|091:21:56|CMP|Okay, that's right - I'm sorry, I forgot about that.
+|091:21:02|CMP|... how ... going to go, with BATTERY VENT to - Okay, BATTERY VENTED, BATTERY VENT is CLOSED and going to DUMP A.
+|091:23:30|LMP|PAN CAMERA POWER going OFF.
 ||||Tape 62/8|Page 479
-|091:24:24|LMP|Okay, Houston. Beginning the fuel cell purge -¡2 Ô
-|091:24:24|CC|Roger, Jack.
-|091:25:15|CDR|Bob , any objections to making that V49 maneuver , now?
-|091:25:15|CC|Stand by on that, Gene.
-|091:25:15|CDR|Okay.
-|091:25:15|CC|America, no objection to going to V49 maneuver any time. Just do not open the UV door until the 9^:45 Flight Plan time.
-|091:26:08|CDR|Okay. We're with you.
-|091:29:25|CDR|Hey, Gordo. I think we're still in LM PRESSURE up there in the tunnel. You want us to go back to LM/CM DELTA-P?
-|091:29:25|CC|Okay, Gordo's off. I'll have to wait a minute here, Gene.
-|091:29:25|CDR|For a Sunday night, you're - you're hard to get along with.
-|091:29:25|CC|Oh, come on.
-|091:29:25|LMP|Wise Marines - wise Marines end up in Antarctica.
-|091:29:25|CC|Roger. Can't do that. They don't have any gates down there.
-|091:29:25|CDR|That sounds like a job you could probably handle.
-|091:29:25|LMP|Listen, after that answer, I'll build one down there for you.
-|091:29:25|CC|Thank you, sir. Hey, you can go to LM/CM DELTA-P.
-|091:30:32|CDR|Okay, thank you. (Laughter)
-|091:32:29|CC|America, Houston. The fuel cell 3 purge can be terminated.
+|091:24:22|LMP|Okay, Houston. Beginning the fuel cell purge - O2
+|091:24:28|CC|Roger, Jack.
+|091:25:14|CDR|Bob , any objections to making that VERB 49 maneuver, now?
+|091:25:32|CC|Stand by on that, Gene.
+|091:25:36|CDR|Okay.
+|091:25:54|CC|America, no objection to going to VERB 49 maneuver any time. Just do not open the UV door until the 94:45 Flight Plan time.
+|091:26:06|CDR|Okay. We're with you.
+|091:28:50|PAO|This is Apollo Control at 94 hours 8 minutes. Apollo 17 now is maneuvering to the attitude from which the ultraviolet spectrometer and the infrared scanning radiometer experiments will be performed. The start of those experiments on this pass will be after LOS, behind the Moon.
+|091:29:23|CDR|Hey, Gordo. I think we're still in LM PRESSURE up there in the tunnel. You want us to go back to LM/CM DELTA-P?
+|091:29:36|CC|Okay, Gordo's off. I'll have to wait a minute here, Gene.
+|091:29:49|CDR|For a Sunday night, you're - you're hard to get along with.
+|091:29:56|CC|Oh, come on.
+|091:29:58|LMP|Wise Marines - wise Marines end up in Antarctica.
+|091:30:06|CC|Roger. Can't do that. They don't have any gates down there.
+|091:30:15|CDR|That sounds like a job you could probably handle.
+|091:30:19|LMP|Listen, after that answer, I'll build one down there for you.
+|091:30:22|CC|Thank you, sir. Hey, you can go to LM/CM DELTA-P.
+|091:30:28|CDR|Okay, thank you. (Laughter)
+|091:32:28|CC|America, Houston. The fuel cell 3 purge can be terminated.
 ||||Tape 62/9|Page 480
-|091:32:29|LMP|I beat you.
-|091:37:37|CDR|Hey, Bob. Who you talking to us with, Honeysuckle or Goldstone? Honeysuckle, I'd guess.
-|091:37:37|CC|We're talking through Goldst - Goldstone, Gene.
-|091:37:37|CDR|Okay, looks like about a tossup from here. I'll tell you, there is really one heck of a big low-pressure area developing somewhere off the coast of California, Washington, or Canada, out in the Pacific Northwest part of the country.
-|091:37:37|CC|Roger. We copy.
-|091:37:37|CDR|We were watching it earlier today, but I tell you, now, it's really dragged in some other clouds with it. It must cover an enormous distance and it's got some real spectacular circulation.
-|091:37:37|CC|Just for curiosity, are you using a monocular on that?
-|091:37:37|CDR|No, I'm using a binocular.
-|091:37:37|CC|Roger.
-|091:37:37|CDR|Bob, it's - it's got a trailing front. I can't really see the States, or even the North American continent, because - -
-|091:37:37|CC|Stand by, Jack - or Gene. We'd like for you to terminate - -
-|091:37:37|CDR|- - pretty well covered - -
-|091:37:37|CC|- - waste water dump.
-|091:37:37|CDR|Okay.
-|091:37:37|CC|Sorry about that. Go ahead.
-|091:39:56|CDR|Okay, I was just going to say, it's got a - looks like a tremendous trailing front. Roughly, north-northwest, south-southeast, and it looks like it may just sweep up the western coast. It's hard to tell how far off the actual center rotation or even a front is. I just remember from earlier this morning, when I could see landmasses, that it appeared to me to be off the Pacific Northwest out in the ocean.
+|091:32:34|LMP|I beat you.
+|091:32:48|PAO|This is Apollo Control at 94 hours 15 minutes. Apollo 17 is just south of the Oceans of Storm, Ocean of Storms now. Shortly, we'll be coming up on the crater Grimaldi again. That's where Jack Schmitt saw a flash on the last pass. We're showing an orbit of 58.9 by 14.3 nautical miles at the present altitude of 28.1 nautical miles.
+|091:37:34|CDR|Hey, Bob. Who you talking to us with, Honeysuckle or Goldstone? Honeysuckle, I'd guess.
+|091:37:50|CC|We're talking through Goldst - Goldstone, Gene.
+|091:37:59|CDR|Okay, looks like about a tossup from here. I'll tell you, there is really one heck of a big low-pressure area developing somewhere off the coast of California, Washington, or Canada, out in the Pacific Northwest part of the country.
+|091:38:17|CC|Roger. We copy.
+|091:38:26|CDR|We were watching it earlier today, but I tell you, now, it's really dragged in some other clouds with it. It must cover an enormous distance and it's got some real spectacular circulation.
+|091:38:39|CC|Just for curiosity, are you using a monocular on that?
+|091:38:49|CDR|No, I'm using a binocular.
+|091:38:52|CC|Roger.
+|091:39:33|CDR|Bob, it's - it's got a trailing front. I can't really see the States, or even the North American continent, because - -
+|091:39:40|CC|Stand by, Jack - or Gene. We'd like for you to terminate - -
+|091:39:43|CDR|- - pretty well covered - -
+|091:39:44|CC|- - waste water dump.
+|091:39:47|CDR|Okay.
+|091:39:49|CC|Sorry about that. Go ahead.
+|091:39:54|CDR|Okay, I was just going to say, it's got a - looks like a tremendous trailing front. Roughly, north-northwest, south-southeast, and it looks like it may just sweep up the western coast. It's hard to tell how far off the actual center rotation or even a front is. I just remember from earlier this morning, when I could see landmasses, that it appeared to me to be off the Pacific Northwest out in the ocean.
 ||||Tape 62/10|Page 481
-|091:39:56|CC|Roger.
-|091:42:21|CC|Jack, Houston here. We've just been kicking around with Farouk, and if you get - if you want to, during your - any of your free time, if you have any, you might look at Copernicus with your binoculars and see if the dike goes all the way -all the way across. He would recommend using the binoculars. Don't take any of your eat or sleep time at all, but you might get a chance on this one eat pass to, as you go by there.
-|091:42:21|LMP|Okay. I'll give her a try. You might give me a couple minutes' warning the next time around.
-|091:42:21|CC|Okay, Jack.
-|091:42:21|LMP|I'm not sure the attitude is too good for that. I wish I'd thought of it this round.
-|091:42:21|CC|Roger. Well, we were pretty busy coming up on it this time. I think the - that's why we mentioned the attitude may be okay during the eat period. We don't want you to break away from your eat period unless you see you can spare the time.
+|091:40:25|CC|Roger.
+|091:42:21|CC|Jack, Houston here. We've just been kicking around with Farouk, and if you get - if you want to, during your - any of your free time, if you have any, you might look at Copernicus with your binoculars and see if the dike goes all the way - all the way across. He would recommend using the binoculars. Don't take any of your eat or sleep time at all, but you might get a chance on this one eat pass to, as you go by there.
+|091:42:54|LMP|Okay. I'll give her a try. You might give me a couple minutes' warning the next time around.
+|091:43:06|CC|Okay, Jack.
+|091:43:10|LMP|I'm not sure the attitude is too good for that. I wish I'd thought of it this round.
+|091:43:15|CC|Roger. Well, we were pretty busy coming up on it this time. I think the - that's why we mentioned the attitude may be okay during the eat period. We don't want you to break away from your eat period unless you see you can spare the time.
 |091:44:04|LMP|Just looking at the southern edge of Grimaldi, Bob, and we probably have it covered on photos, but there's a nice tangential to slightly circumferential graben along the southern wall and climbs out over the western rim and off the eastern rim, and that graben is premare - premare.
-|091:44:04|CC|Okay, I copy on that, Jack, and as long as we're talking about Grimaldi, you might just rem -we'd like to have you brief Ron exactly on the location of that flash you saw. We'll probably ask him to take a picture of it, maybe during one of his solo periods.
+|091:44:40|CC|Okay, I copy on that, Jack, and as long as we're talking about Grimaldi, you might just rem - we'd like to have you brief Ron exactly on the location of that flash you saw. We'll probably ask him to take a picture of it, maybe during one of his solo periods.
 ||||Tape 62/11|Page 482
-|091:44:04|CDR|Hey, Bob, before we get awfully involved, just let me tell you what our motive is here in the next couple of hours. That's to eat and get done what's in the Flight Plan, and come our rest period, we're probably going to turn out the lights and make sure everything's done by then so we can start it on time tonight.
-|091:44:04|CC|Yes, that's a definite - we concur with that definitely, Gene. Don't want you to work into your sleep period.
+|091:45:11|CDR|Hey, Bob, before we get awfully involved, just let me tell you what our motive is here in the next couple of hours. That's to eat and get done what's in the Flight Plan, and come our rest period, we're probably going to turn out the lights and make sure everything's done by then so we can start it on time tonight.
+|091:45:32|CC|Yes, that's a definite - we concur with that definitely, Gene. Don't want you to work into your sleep period.
 |091:45:44|CDR|Okay.
-|091:47:20|CC|Gene, Houston.
-|091:47:20|CDR|Go ahead.
-|091:47:20|CC|Gene, last night you didn't use a tone booster, and the work you gave us was that it had - it wasn't working, and we're just wondering if you want - we're thinking about working up a test board to see if - did you test it out thoroughly to make sure it wasn't working, or was that just your desire not to use it?
-|091:47:20|CDR|We tried it, Bob, and it did not work. The only reason I'm reluctant on a test is I just don't want it to take much time.
-|091:47:20|CC|I don't think it would take much time. The only thing I could say is it would - you know - two obvious things I'm sure you checked them, Gene, would be the utility power and make sure you had the right lamp tests on when you tried it, and that's the only - I'm sure you did it, and that's the only obvious thing - maybe a circuit breaker or something like that.
-|091:47:20|CDR|Well, we checked it both on the left side and on the right side with two separate UTILITY POWERS and verified that the MASTER ALARMs came on with the test on both sides, and nothing ever happened.
-|091:47:20|CC|Roger. I was sure of that, Gene. Just wanted to make it - put everybody at ease that it's just not working. That was essentially the test. Just forget anything we said about tests.
+|091:47:19|CC|Gene, Houston.
+|091:47:25|CDR|Go ahead.
+|091:47:27|CC|Gene, last night you didn't use a tone booster, and the work you gave us was that it had - it wasn't working, and we're just wondering if you want - we're thinking about working up a test board to see if - did you test it out thoroughly to make sure it wasn't working, or was that just your desire not to use it?
+|091:47:46|CDR|We tried it, Bob, and it did not work. The only reason I'm reluctant on a test is I just don't want it to take much time.
+|091:47:57|CC|I don't think it would take much time. The only thing I could say is it would - you know - two obvious things I'm sure you checked them, Gene, would be the utility power and make sure you had the right lamp tests on when you tried it, and that's the only - I'm sure you did it, and that's the only obvious thing - maybe a circuit breaker or something like that.
+|091:48:19|CDR|Well, we checked it both on the left side and on the right side with two separate UTILITY POWERS and verified that the MASTER ALARMs came on with the test on both sides, and nothing ever happened.
+|091:48:33|CC|Roger. I was sure of that, Gene. Just wanted to make it - put everybody at ease that it's just not working. That was essentially the test. Just forget anything we said about tests.
 ||||Tape 62/12|Page 483
-|091:47:20|CDR|Okay.
-|091:47:20|LMP|What test?
-|091:47:20|CC|Roger. Got you guys trained up there, finally.
-|091:49:09|LMP|Arf, arf.
-|091:49:09|CMP|Houston, America.
-|091:49:09|CC|Roger. Go ahead, Ron.
-|091:49:09|CMP|If I don't find my scissors here one of these days, I think it takes about four bolts on either side of the - you know the optics, where they stow the optics? It looks like there are four little tool E bolts that'll come out. And I think maybe they might be back behind there, I don't know. See, there's a great big slot up at the top of that - oh, it1s at least an inch - inch between the top of the optics thing and the top of the spacecraft. I looked back in there with a flashlight and can't see anything, but it's a big hole back there anyhow.
-|091:49:09|LMP|I think the commander might have something to say.
-|091:49:09|CDR|Hey, Bob, just ignore everything he said. We'll leave him a pair of our scissors, and he's just worried about being hungry.
-|091:49:09|CC|Roger. Those are your EVA scissors, too, aren't they?
-|091:49:09|CDR|But, he is not - Yes, but we can handle - we can handle it with one down there. He is not taking the spacecraft apart to find his scissors, and I will not let him go hungry.
-|091:49:09|CC|Roger.
-|091:50:40|CMP|Okay, either way.
+|091:48:51|CDR|Okay.
+|091:48:55|LMP|What test?
+|091:47:57|CC|Roger. Got you guys trained up there, finally.
+|091:49:07|LMP|Arf, arf.
+|091:49:13|CMP|Houston, America.
+|091:49:14|CC|Roger. Go ahead, Ron.
+|091:49:19|CMP|If I don't find my scissors here one of these days, I think it takes about four bolts on either side of the - you know the optics, where they stow the optics? It looks like there are four little tool E bolts that'll come out. And I think maybe they might be back behind there, I don't know. See, there's a great big slot up at the top of that - oh, it's at least an inch - inch between the top of the optics thing and the top of the spacecraft. I looked back in there with a flashlight and can't see anything, but it's a big hole back there anyhow.
+|091:50:07|LMP|I think the commander might have something to say.
+|091:50:12|CDR|Hey, Bob, just ignore everything he said. We'll leave him a pair of our scissors, and he's just worried about being hungry.
+|091:50:21|CC|Roger. Those are your EVA scissors, too, aren't they?
+|091:50:24|CDR|But, he is not - Yes, but we can handle - we can handle it with one down there. He is not taking the spacecraft apart to find his scissors, and I will not let him go hungry.
+|091:50:35|CC|Roger.
+|091:50:39|CMP|Okay, either way.
 |091:55:46|LMP|Hey, Bob, before we lose you, how did the Oilers do today? (Laughter)
-|091:55:46|CC|9 to 3. Steelers over the Oilers.
+|091:55:57|CC|9 to 3. Steelers over the Oilers.
 ||||Tape 62/13|Page 484
-|091:55:46|LMP|9 to 3?
-|091:55:46|CC|That's affirm.
-|091:55:46|LMP|9? 09 to 03?
-|091:55:46|CC|That's affirmative. Played one of their better games, I guess.
-|091:55:46|LMP|How about the Chicago Bears? You got their score handy?
-|091:55:46|CC|Hey, Jack, how about if we pick you up during the eat period. While you're eating, we'll brief you of the whole NFL situation for today. Okay?
-|091:55:46|LMP|Well, we are eating. I guess we wait until we come around next time. Okay.
-|091:55:46|CC|Oh - I - the Bears were - -
-|091:55:46|LMP|Bob, we'll wait and you can get up the late evening news prepared for us here the next time around.
-|091:55:46|CC|Okay. Have your gourmet dinner and I'll give you the news.
-|091:55:46|LMP|Okay.
-|091:58:12|CC|America, Houston. We're going to lose you here in about 2-1/2 minutes. We'll see you at 95:28, according to the Flight Plan, and you're looking good. We don't have anything, any anomalies or anything against you right now. You're looking great.
-|091:58:12|CDR|Thank you, Robert. We'll see you coming around the horn.
-|091:58:12|CC|Roger.
-|091:58:12|CDR|Hey, Bob, if you could, it might be appreciated with a word or two from our home fronts.
+|091:56:02|LMP|9 to 3?
+|091:56:04|CC|That's affirm.
+|091:56:09|LMP|9? 09 to 03?
+|091:56:12|CC|That's affirmative. Played one of their better games, I guess.
+|091:56:21|LMP|How about the Chicago Bears? You got their score handy?
+|091:56:25|CC|Hey, Jack, how about if we pick you up during the eat period. While you're eating, we'll brief you of the whole NFL situation for today. Okay?
+|091:56:36|LMP|Well, we are eating. I guess we wait until we come around next time. Okay.
+|091:56:39|CC|Oh - I - well, the Bears were ... losing but - -
+|091:56:48|LMP|Bob, we'll wait and you can get up the late evening news prepared for us here the next time around.
+|091:56:55|CC|Okay. Have your gourmet dinner and I'll give you the news.
+|091:57:00|LMP|Okay.
+|091:58:13|CC|America, Houston. We're going to lose you here in about 2-1/2 minutes. We'll see you at 95:28, according to the Flight Plan, and you're looking good. We don't have anything, any anomalies or anything against you right now. You're looking great.
+|091:58:33|CDR|Thank you, Robert. We'll see you coming around the horn.
+|091:58:36|CC|Roger.
+|091:58:46|CDR|Hey, Bob, if you could, it might be appreciated with a word or two from our home fronts.
 ||||Tape 62/14|Page 485
-|091:58:12|CC|Yes. You didn't let me do it. I was going to give them all a call while on this LOS here, Gene.
-|091:58:12|CDR|It's that thing again. I bet you were concentrating on the dot.
+|091:58:54|CC|Yes. You didn't let me do it. I was going to give them all a call while on this LOS here, Gene.
+|091:59:02|CDR|It's that thing again. I bet you were concentrating on the dot.
 |092:00:15|CC|Hey, guys. The Bears 21 to 12 over Philadelphia.
-|092:00:15|CDR|Thank you. We're going to watch your signal get cut off here.
-|092:00:15|CC|Roger. Was touch and go on that because at one time they're losing that game.
-|092:00:30|CDR|I watch.
+|092:00:23|CDR|Thank you. We're going to watch your signal get cut off here.
+|092:00:28|CC|Roger. Was touch and go on that because at one time they're losing that game.
+|092:00:31|CDR|I won Gene ...
+|092:47:08|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
+|092:01:00|PAO|This is Apollo Control at 95 hours 27 minutes. We should be acquiring Apollo 17 on it's fourth revolution of the Moon in about 45 seconds. We'll stand by for the first words.
+|092:48:25|PAO|We have a signal and are receiving data.
+|092:48:59|LMP|Hello Houston, America.
+|092:49:03|CC|Hello America. Reading you loud and clear.
+|092:49:09|LMP|Bob, the flight plan is complete to 95:30.
+|092:49:13|CC|Roger.
+|092:49:22|LMP|And Bob, the IR cover came open about 1 minute late.
+|092:49:27|CC|Okay, Understand. Might be interested, the lasted tracking data has you at about 14.1 perilune. It's coming up closer to your CMC data. And, America, we'd like to have the H2 tank, H2 tank 1, fans off. We'll be letting that pressure decay on that. We'll be bringing them back on prior to sleep period.
+|092:50:04|LMP|Okay, that's OFF.
+|092:49:08|CC|I've got a number of pads and flight plan update any time you're ready for them, if you want or you can hold off it awhile.
+|092:49:28|LMP|Why don't you start with flight plan updates Bob?
+|092:49:29|CC|Okay, At 97:30, 97:30.
+|092:49:41|LMP|Okay.
+|092:49:42|CC|You should have a pen and ink change there that says UV cover CLOSE. After that add UV OFF.
+|092:51:03|LMP|Okay, got it.
+|092:51:04|CC|Okay, now, just a note, or you can jump way ahead to 106:51, where it says delete, see where it says UV off, just delete that, or else make a verified, because it will be off during that whole period.
+|092:51:22|LMP|106. Yes, I'll just put a verified by that. 106:51.
+|092:21:27|CC|Roger. The next thing I've got are the pads. The TEI 12 and TEI 19 pad.
 ||||Tape 63/3|Page 486
-|092:00:30|LMP|Okay. Go ahead.
-|092:00:30|CC|TEI-19, SPS/G&N; 38023; plus 0.49, plus 0.86; the Tig time, 125:46:47.22; plus 2456.3, minus 1925.3, minus 0731-3; 186, 108, 325. Rest of the pad is not applicable. All the notes are the same as on the TEI-12 pad, except the longitude is minus 147.62. Over.
-|092:00:30|LMP|Stand by 1.
-|092:48:20|LMP|Okay. Here's your readback. TEI-19, SPS/G&N; 38023; Plus 0.49, plus 0.86; 125:46:47.22; plus 2456.3, minus 1925.3; minus 0731.3; 186, 108, 325. Rest of pad is NA. And the remarks are the same for the TEI-12; that includes set stars. And the only change is the 3, which is the lunar longitude at Tig of a minus 147.62. Over.
-|092:48:20|CC|That's a good readback Jack. I've got a LM DAP read-up here for you. They recommend this be copied on page 1 of the LM Data Card Book, Jack.
-|092:48:20|LMP|Well, strangely enough, the LM Data Card Book's in the LM.
-|092:48:20|CC|Yes, I figured as much.
-|092:48:20|LMP|We'll put it in our Activation Book. Let me find the right page.
-|092:48:20|CC|Okay.
-|092:48:20|LMP|Let me find the right page.
-|092:48:20|CC|Roger.
-|092:49:45|CC|And, Jack, the computer's yours.
-|092:49:45|LMP|Okay.
-|092:50:56|LMP|Go ahead, Bob.,
-|092:50:56|CC|Okay. LM DAP information: LM weight, 36714; CSM weight, 38078.
+|092:51:42|LMP|Okay. Go ahead.
+|092:51:44|CC|The first one is TEI 12, SPS G&N 38570, plus 0.49 plus 0.92, NOUN 33 times 111:54:42.86 plus 2543.8 minus 1765.6 minus 7950. Roll is 186, 109, 328. The rest of the pad is not applicable. BREAK - BREAK Jack, we'd like an ACCEPT on the computer please.
+|092:52:51|LMP|You got it.
+|092:52:53|CC|Okay. The set stars are as always, Sirius and Rigel, 133, 200, 030. Four Jet, 12 second on the ullage. Three notes: Burn undocked, assumes no CIRC, longitude of the Moon at TIG will be minus 140.19 degrees. Over.
+|092:53:56|LMP|Bob, give me note two again please.
+|092:54:00|CC|Okay, Jack, the three comments are: assumes burn undocked, assumes no CIRC burn, and the Moon at TIG, the longitude will be minus 140.19 degrees. Over.
+|092:54:26|LMP|Okay, I got everything, but number 2. All right, here's your readback. TEI-12, twelve that is, SPS/G&N 38570 plus 0.49 plus 0.92 111:54:42.86 plus 2543.8 minus 1765.6 minus 0795.0. 186, 109, 328. Rest of the pad is NA. Sirius and Rigel 133, 200, 030. Ullage is 4 Jets for 12 seconds. Remarks: (1) burn undocked, (2) assume no CIRC, (3) longitude, lunar longitude at TIG minus 140.19 degrees, .19 degrees.
+|092:55:22|CC|Roger. Good readback, Jack, and I've got the TEI-19 pad, if you're ready.
+|092:55:43|LMP|Okay, go ahead.
+|092:55:44|CC|TEI-19, SPS/G&N 38023 plus 0.49, plus 0.86; the TIG time, 125:46:47.22; plus 2456.3, minus 1925.3, minus 0731.3; 186, 108, 325. Rest of the pad is not applicable. All the notes are the same as on the TEI-12 pad, except the longitude is minus 147.62. Over.
+|092:57:06|LMP|Stand by 1.
+|092:57:50|LMP|Okay. Here's your readback. TEI-19, SPS/G&N; 38023; Plus 0.49, plus 0.86; 125:46:47.22; plus 2456.3, minus 1925.3; minus 0731.3; 186, 108, 325. Rest of pad is NA. And the remarks are the same as for the TEI-12; that includes set stars. And the only change is the 3, which is the lunar longitude at TIG of a minus 147.62. Over.
+|092:58:40|CC|That's a good readback Jack. I've got a LM DAP read-up here for you. They recommend this be copied on page 1 of the LM Data Card Book, Jack.
+|092:59:00|LMP|Well, strangely enough, the LM Data Card Book's in the LM.
+|092:59:04|CC|Yes, I figured as much.
+|092:59:04|LMP|We'll put it in our Activation Book. Let me find the right page.
+|092:59:08|CC|Okay.
+|092:59:08|LMP|Let me find the right page.
+|092:59:10|CC|Roger.
+|092:59:15|CC|And, Jack, the computer's yours.
+|092:59:21|LMP|Okay.
+|093:00:27|LMP|Go ahead, Bob.
+|093:00:29|CC|Okay. LM DAP information: LM weight, 36714; CSM weight, 38078.
+|093:00:55|LMP|Okay, the DAP load is LM weight 36714, CSM weight 38078.
+|093:01:02|CC|Roger, Jack, and I'd like to correct one call on my, the TEI pads. There is one other difference between the TEI-19 and the TEI-12 under notes. And the TEI-19 assumes the circ burn, over.
+|093:01:36|LMP|Okay, that's corrected to assume circ on the TEI-19. 
+|093:01:41|CC|Roger, Jack. I'm sorry on that. I've got some notes from the flight - -
+|093:01:45|LMP|That's alright, Bob.
+|093:01:50|CC|Got some notes for Gene from the Flight Surgeon. He promised an update to you on some meal recommendations here on food. You might want to copy this into a supplement.
+|093:02:09|LMP|Okay. Just standby one, please.
+|093:02:12|CC|Roger.
+|093:03:25|LMP|Bob, let us take a look at the landing area and will be right back with you.
+|093:03:30|CC|Okay. Just whenever you want it, there's no hurry on this at all. Jack, you just might put a little note there somewhere for yourself that Copernicus is at 96.03 if you want to look at it.
+|093:03:44|LMP|Okay. 96.03.
+|093:05:45|PAO|Apollo 17 is coming up over the Taurus Littrow landing site now.
 ||||Tape 63/2|Page 487
-|092:50:56|CC|Okay. Now, just a note, or you can jump way ahead to 106:51 where it says delete. See where it says UV, OFF; just delete that or else make it a verified, "because it will be off during that whole period.
-|092:50:56|LMP|106, Yes, I'll just put a verified by that; 106:51.
-|092:50:56|CC|Roger. The next thing I've got are the pads. The TEI-12 and TEI-19 pad.
-|092:50:56|LMP|Okay. Go ahead.
-|092:50:56|CC|The first one is TEI-12, SPS/G&N; 38570; plus 0.49, plus 0.92; NOUN 33 times, 111:54:42.86; plus 2543.8, minus 1765.6, minus 0795*0. Roll is 186, 109, 328. Rest of the pad is not applicable. Break, break, Jack. We'd like ACCEPT on the computer, please.
-|092:53:21|LMP|You got it.
-|092:53:21|CC|Okay. The set stars are, as always, Sirius and Rigel; 133, 200, 030 j four jet; 12 seconds on the ullage. Three notes: Burn undocked, assumes no circ, longitude of the Moon at T. - it'll be minus 140.19 degrees. Over. 6
-|092:53:21|LMP|Bob, give me note 2 again, please.
-|092:53:21|CC|Okay, Jack. The three comments are: Assumes burn undocked. Assumes no circ burn. And the Moon at T^, the longitude'll be minus 140.19 degrees . Over.
-|092:53:21|LMP|Okay. I got everything but number 2. All right, here's your readback. TEI-12, 12, that is; SPS/GMf; 38570; plus 0.49, plus 0.92; 111:54:42.86; plus 2543.8, minus 1765*6, minus 0795*0. 186, 109, 328. Sirius and - Rest of the pad is NA. Sirius and Rigel; 133, 200, 030. Ullage is four Jets for 12 seconds. Remarks: 1, burn undocked; 2, assume no circ; 3, longitude - lunar longitude at T^, minus 140.19 degrees, .19 degrees.
-|092:53:21|CC|Roger. Good readback, Jack. And I've got the TEI-19 pad, if you're ready.
-||||Tape 63/3|Page 488
-|092:53:21|LMP|Okay. Go ahead.
-|092:53:21|CC|TEI-19, SPS/G&N; 38023; plus 0.49, plus 0.86; the T. time, 125:46:47.22; plus 2456.3, minus 1925.3, 2-6 minus 0731.3; 186, 108, 325. Rest of the pad is not applicable. All the notes are the same as on the TEI-12 pad, except the longitude is minus 147.62. Over.
-|092:53:21|LMP|Stand by 1.
-|092:58:20|LMP|Okay. Here's your readback. TEI-19, SPS/G&N; 38023; plus 0.49, plus 0.86; 125:46:47.22; plus 2456.3, mi mis 1925-3; minus 0731.3; 186, 108, 325- Rest of pad is NA. And the remarks are the same as for TEI-12; that includes set stars. And the only change is the 3, which is the lunar longitude at T, of a minus 147.62. Over. 18
-|092:58:20|CC|That's a good readback, Jack. I've got a LM DAP read-up here for you. They recommend this be copied on page 1 of the LM Data Card Book, Jack.
-|092:58:20|LMP|Well, strangely enough, the LM Data Card Book's in the LM.
-|092:58:20|CC|Yes, I figured as much.
-|092:58:20|LMP|We'll put it in our Activation Book. Let me find the right page.
-|092:58:20|CC|Okay.
-|092:58:20|LMP|Let me find the right page.
-|092:58:20|CC|Roger.
-|092:59:45|CC|And, Jack, the computer's yours.
-|092:59:45|LMP|Okay.
-|093:00:56|LMP|Go ahead, Bob.
-|093:00:56|CC|Okay. LM DAP information: LM weight, 36714; CSM weight, 38078.
-||||Tape 63/4|Page 489
-|093:00:56|LMP|Okay. The DAP load is LM weight, 36714; CSM weight, 38078.
-|093:00:56|CC|Roger, Jack. And I'd like to correct one call on my - the TEI pads. There is one other difference between the TEI-19 and the TEI-12 on their notes. And the TEI-19 assumes a circ burn. Over.
-|093:00:56|LMP|Okay. That's corrected to assume circ on the TEI-19.
-|093:00:56|CC|Roger, Jack. I'm sorry on that. I've got some -some notes from the Flight Surgeon - -
-|093:00:56|LMP|That's all ri ght, Bob.
-|093:00:56|CC|Got some notes for Gene from the Flight Surgeon. He promised an update to you on some meal recommendations here on food - if you - you might want to copy this into the supplement.
-|093:00:56|CDR|Okay. Just stand by 1, please.
-|093:00:56|CC|Roger.
-|093:03:56|CDR|Bob, let us take a look at the landing area and we'll be right back with you.
-|093:03:56|CC|Okay. Just whenever you want it, there's no hurry on this at all. Jack, you just might put a little note there somewhere for yourself - Copernicus at 96:03 - if you want to look at it.
-|093:03:56|LMP|Okay; 96.03.
-|093:06:55|LMP|Now we're getting some clear - look like pretty clear high-water marks on the - -
-|093:06:55|CMP|There's high-water marks all over the place there.
-|093:06:55|LMP|- - on the north part of Tranquillitatis in here -mare onto the highlands.
-|093:06:55|CC|Roger.
+|093:06:27|LMP|Now we're getting some clear - look like pretty clear high-water marks on the - -
+|093:06:31|CMP|There's high-water marks all over the place there.
+|093:06:33|LMP|- - on the north part of Tranquillitatis in here - mare onto the highlands.
+|093:06:41|CC|Roger.
 ||||Tape 63/5|Page 490
-|093:06:55|CMP|Yes, there's high-water marks all over that -that - I think that's Maraldi there, isn't it? Are you sure we're at 13 miles up?
-|093:06:55|CC|You're at l4.1, to be exact, Ron.
-|093:06:55|CMP|(Laughter) Looks pretty low.
-|093:06:55|CDR|Gee, I wonder what it feels like to be at 8 to 10.
-|093:06:55|CC|You're going to find out, I think.
+|093:07:11|CMP|Yes, there's high-water marks all over that - that - I think that's Maraldi there, isn't it? Are you sure we're at 13 miles up?
+|093:07:28|CC|You're at l4.1, to be exact, Ron.
+|093:07:34|CMP|(Laughter) Looks pretty low.
+|093:07:38|CDR|Gee, I wonder what it feels like to be at 8 to 10.
+|093:07:45|CC|You're going to find out, I think.
 |093:08:17|LMP|I tell you there's some mare ridge or scarps, very sinuous - just passing one. They not only cross the low planar areas but go right up the side of a crater in one place and a hill in another. And it's not at all like a fault scarp. It looks very much like a constructional ridge. And it has the sinuousity of a, pardon the expression, rattle snake.
-|093:08:17|CC|Roger. Does it look like that one we saw on the track the other day?
-|093:08:17|LMP|Yes, very much like that one that you almost caught. Look at that. There's a tongue depress -several of them - grabens in here. We must be out on the edge of Serenitatis now, right?
-|093:08:17|CC|Yes, we show you on the edge of Serenitatis, Jack.
-|093:08:17|LMP|Roger. I just - we didn't get a view of the site, though, going over this time. I think it was off to the north of us just a tad. That's the best example of a mare - marelike ridge that was as clearly constructional as I would want to see it. Out on the mare, it's never quite that obvious. But there, it climbed up over a hill and then back down again.
-|093:08:17|CC|Roger.
-|093:08:17|LMP|And that was just east of the - an area just east of the edge of Serenitatis and probably a little bit south of the landing site.
+|093:08:42|CC|Roger. Does it look like that one we saw on the track the other day?
+|093:08:49|LMP|Yes, very much like that one that you almost caught. Look at that. There's a tongute - there's a tongue depressor - several of them - grabens in here. We must be out on the edge of Serenitatis now, right?
+|093:09:08|CC|Yes, we show you on the edge of Serenitatis, Jack.
+|093:09:15|LMP|Roger. I just - we didn't get a view of the site, though, going over this time. I think it was off to the north of us just a tad. That's the best example of a mare - mare-like ridge that was as clearly constructional as I would want to see it. Out on the mare, it's never quite that obvious. But there, it climbed up over a hill and then back down again.
+|093:09:43|CC|Roger.
+|093:09:50|LMP|And that was just east of the - an area just east of the edge of Serenitatis and probably a little bit south of the landing site.
 ||||Tape 63/6|Page 491
-|093:08:17|CDR|Say, Bob, rather than copy specific recommended changes or deletions to a diet, can you have a general comment that's any different than what I already understand?
-|093:08:17|CC|Right. It's no problem.
-|093:08:17|CDR|If not, I would rather delay it.
-|093:08:17|CC|It's no problem, Gene. Two quick comments: the next couple of days, delete the peach ambrosia and the mixed fruit bar, and don't delete anything from the LM menu. And make sure you get all the water in for rehydration, and take - bias it if you think you get 30 percent gas, then put in 30 percent more so you get all the water that is required. And take two antigas tablets after each meal instead of one. That sums it up.
-|093:08:17|CDR|Okay - Okay. Very good. I'll - I'll handle all those words according to their needs.
-|093:08:17|CC|Roger.
-|093:08:17|CDR|Appreciate them, though.
-|093:08:17|CMP|Houston, America.
-|093:08:17|CC|Go ahead.
+|093:10:05|CDR|Say, Bob, rather than copy specific recommended changes or deletions to a diet, can you have a general comment that's any different than what I already understand?
+|093:10:18|CC|Right. It's no problem.
+|093:10:19|CDR|If not, I would rather delay it.
+|093:10:20|CC|No, it's no problem, Gene. Two quick comments: the next couple of days, delete the peach ambrosia and the mixed fruit bar, and don't delete anything from the LM menu. And make sure you get all the water in for rehydration, and take - bias it if you think you get 30 percent gas, then put in 30 percent more so you get all the water that is required. And take two anti-gas tablets after each meal instead of one. That sums it up.
+|093:10:53|CDR|Okay - Okay. Very good. I'll - I'll handle all those words according to their needs.
+|093:11:00|CC|Roger.
+|093:11:02|CDR|Appreciate them, though.
+|093:11:15|CMP|Houston, America.
+|093:11:19|CC|Go ahead.
 |093:11:19|CMP|We're shooting magazine QQ, frame 50 - frame 50, 51, and 52. We're taking - looking south at the terminator.
-|093:11:19|CC|Ron, we need to get looking at the pan camera here, per the Flight Plan.
-|093:11:19|CMP|Thank you.
-|093:11:19|LMP|Okay, Bob. POWER on the PAN CAMERA now.
+|093:11:36|CC|Ron, we need to get looking at the pan camera here, per the Flight Plan.
+|093:11:45|CMP|Thank you.
+|093:12:14|LMP|Okay, Bob. POWER on the PAN CAMERA now.
 |093:12:23|LMP|MARK it.
 |093:12:23|CC|Roger. We got it.
 |093:12:23|LMP|Okay. And has my biomed been looking all right?
@@ -15075,7 +15096,7 @@
 |134:45:19|CMP|Oh, okay.
 |134:45:52|CC|And we'll see you at 01:38:15 when you'll be just about eating. So give us a call if you want anything. We'll be listening.
 |134:45:52|CMP|Okay. I'll be on the loop. Oh - Hey, one thing. Can you check on mag - what do I have on the Nikon now, XX, I guess? It seems to me like - we just need that for another zodiacal light thing.
-|134:45:52|CC|Okay. We got FA0 working on that.
+|134:45:52|CC|Okay. We got FAO working on that.
 |134:45:52|CMP|... know is, in other words, are there two or three frames available? Do we have two or three frames available on that one?
 |134:45:52|CC|Okay. Let me check on it, Ron?
 |134:45:52|CMP|Okay.
@@ -16029,7 +16050,7 @@
 |138:06:41|CMP|Yes, that was - I'm on number 29 now.
 |138:06:41|CC|29- Roger. You're on 29, right here.
 |138:06:41|CMP|Say, on magazine Oscar Oscar, did we get enough of our required photos out of that, or are the rest of those - opportunity or not?
-|138:06:41|CC|We'll check on that with FA0, Ron. I do have one Flight Plan update for you on the pan camera photo pad. But you first ought to go to the IMAGE MOTION, INCREASE, barber pole plus four steps, to ON, and LASER ALTIMETER, ON.
+|138:06:41|CC|We'll check on that with FAO, Ron. I do have one Flight Plan update for you on the pan camera photo pad. But you first ought to go to the IMAGE MOTION, INCREASE, barber pole plus four steps, to ON, and LASER ALTIMETER, ON.
 |138:06:41|CMP|Right now, you mean?
 |138:06:41|CC|Yes, it's - It's time, Ron. It's time for that.
 |138:09:35|CMP|Okay. IMAGE MOTION - let's see - I think that was barber pole plus three before. There it is, 3 - 4 -
@@ -24827,7 +24848,7 @@
 |163:33:09|LMP-EVA|Wait a minute, let's get a bag on it. We're getting too many rocks, and we don't know where they came from.
 |163:33:09|LMP-EVA|I don't think it will fit. Know it?
 |163:33:09|CDR-EVA|Yes, we'll wrap it a little bit. ... it will fit. ... fit.
-|163:34:03|LMP-EVA|Okay. Bag 5^1 is partially around smother big rock in Gene's - Gene's collection bag.
+|163:34:03|LMP-EVA|Okay. Bag 5^1 is partially around another big rock in Gene's - Gene's collection bag.
 |163:34:03|CDR-EVA|Did you get pictures of this thing here?
 |163:34:03|LMP-EVA|Yes; well, not the big rock yet. Not in focus anyway.
 |163:34:03|CDR-EVA|I got to do that.
@@ -29256,7 +29277,7 @@
 |183:32:14|CMP|Okay. Let's go on with the LM then.
 |183:32:14|CC|Okay. I'll give you the same thing. Just interrupt me about every five. LM state vector, VERB 71; GET 188:19:00. Index 21 data follows: 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. that's it. You can read back. The computer is yours.
 |183:37:32|CMP|Okay, I'll go to BLOCK. VERB 71; 188:19:00; 21; 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. Over.
-|183:37:32|CC|Roger, Ron. Good readback. I've got a DAP weight for one man for the CSM, if you want to copy it somewhere. FA0 would like to get the maneuver started, Ron. Go ahead, and I'll give it - -
+|183:37:32|CC|Roger, Ron. Good readback. I've got a DAP weight for one man for the CSM, if you want to copy it somewhere. FAO would like to get the maneuver started, Ron. Go ahead, and I'll give it - -
 |183:37:32|CMP|Okay. Okay. All righty; 244 and 341 PROCEED; 50 18; CMC; caged; PROCEED. Okay. CSM weight.
 |183:37:32|CC|Okay, CSM DAP weight for one man: 36032. Note 2: engine trim good as is. And a note from FAO: if mag Bravo Bravo has 50 percent, no need to change; good for docking with 50 percent. Readback.
 |183:37:32|CMP|Okay, CSM weight is 36032. And that's for me alone, I guess. Packed [?] off and yacked [?] off are good as is. And there's 50 percent on mag Bravo Bravo, so we might as well use it, huh?
@@ -36519,12 +36540,12 @@
 |277:02:00|CDR|Hello, Bob.
 |277:02:00|CC|Yes.
 |277:02:00|CDR|Can you get a reading? Is it the same two subjects on ALFMED as we had going out, or is this a case where you want all three of us? It's not exactly clear.
-|277:03:57|CC|Jack, we agree with you that it's not clear, and FA0 tells us we want the two - same two subjects wearing the blindfolds as on the transearth coast as was on the translunar coast.
+|277:03:57|CC|Jack, we agree with you that it's not clear, and FAO tells us we want the two - same two subjects wearing the blindfolds as on the transearth coast as was on the translunar coast.
 |277:03:57|CDR|Okay. Well, this has been Gene, and that's the way we'll do it.
 |277:03:57|CC|Roger, Gene.
 |277:03:57|LMP|Houston, this Is Jack.
 |277:03:57|CC|Go ahead.
-|277:06:17|LMP|Yes. We've got pretty good attitude here, and the - ask FA0 if they want them on VOX and if they also want the notes recorded up here.
+|277:06:17|LMP|Yes. We've got pretty good attitude here, and the - ask FAO if they want them on VOX and if they also want the notes recorded up here.
 |277:06:17|CC|Okay. I'll check on that.
 |277:07:12|CC|The easiest way to do it would be to just go ahead and do it on VOX, and we'll get everything recorded down here.
 |277:07:12|LMP|I agree, because taking notes is good when you're having dropouts, but it's hardly the same as tapes.
