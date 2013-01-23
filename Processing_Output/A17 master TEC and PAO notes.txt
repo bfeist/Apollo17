@@ -70,4 +70,7 @@
 |106:07:34 - SPLIT - LM / CSM now on different loops
 |106:35:36 - OO on hasselblad CMP
 |108:19:57 - photo of America over the landing site from Challenger
+|109:08:04 - begin rev 12
+|110:09:57 - PDI Ignition *******
+|110:13:13 - LANDED *******
 
