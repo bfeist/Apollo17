@@ -8429,559 +8429,390 @@
 |110:21:45|LMP-LM|Stand by. 25 feet, down at 2. Fuel's good. 20 feet. Going down at 2. 10 feet. 10 feet -
 |110:22:00|LMP-LM|CO - CONTACT.
 |110:22:04|LMP-LM|.. op, push. Engine stop; ENGINE ARM; PROCEED; COMMAND override, OFF; MODE CONTROL, ATT HOLD; PGNS, AUTO.
-|110:13:13|CHALLENGER|Okay, Houston, the Challenger has landed.
+|110:22:13|CDR-LM|Okay, Houston, the Challenger has landed!
 ||||Tape 75A/1|Page 587
-|111:53:44|CC|Roger, Challenger. That's super.
-|111:53:44|LMP-LM|Okay, Parker valves - Boy, you bet it is, Gordo.
-|111:53:44|CDR-LM|Boy, when you said shut down, I shut down and we dropped, didn't we?
-|111:53:44|LMP-LM|Yes, sir. But we is here; man, is we here. How does that look?
-|111:53:44|CDR-LM|That looks good.
+|110:22:17|CC|Roger, Challenger. That's super.
+|110:22:19|LMP-LM|Okay, Parker valves - Boy, you bet it is, Gordo.
+|110:22:28|CDR-LM|Boy, when you said shut down, I shut down and we dropped, didn't we?
+|110:22:31|LMP-LM|Yes, sir. But we is here; man, is we here. How does that look?
+|110:22:36|CDR-LM|That looks good.
 |110:22:35|LMP-LM|Pressure - pressures look great. Tank 2 is down just a little from before.
-|110:22:40|CDR-LM|The ENGINE OVERRIDE is OFF ... --
-|110:22:41|LMP-LM|Manifold is great. Manifold is right on. Get -go to JETS.
-|110:22:44|CDR-LM|Okay. I am JETS.
-|110:22:44|LMP-LM|Okay. That side's complete. Houston, you can tell America that Challenger is at Taurus-Littrow.
-|110:22:44|CC|We'll do it.
-|110:22:44|CDR-LM|Ron, I had the meatball all the way. Jack, are we going to have some nice boulders in this area.
-|110:23:08|LMP-LM|Okay. The old camera's off,
-|110:23:08|CDR-LM|Okay.
-|110:23:12|LMP-LM|LANDING RADAR breaker, OPEN. Checking the water. .And, Gordy, ascent tank 1, we started out a little low. It's still - same place. That's water.
-|110:23:12|CC|Roger, Jack.
+|110:22:41|CDR-LM|The ENGINE OVERRIDE is OFF ... --
+|110:22:42|LMP-LM|Manifold is great. Manifold is right on. Get - go to JETS.
+|110:22:46|CDR-LM|Okay. I am JETS.
+|110:22:48|LMP-LM|Okay. That side's complete. Houston, you can tell America that Challenger is at Taurus-Littrow.
+|110:22:55|CC|We'll do it.
+|110:23:00|CMP|Great.
+|110:23:02|CDR-LM|Ron, I had the meatball all the way.
+|110:23:04|CMP|Beautiful.
+|110:23:07|CDR-LM|Jack, are we going to have some nice boulders in this area.
+|110:23:09|LMP-LM|Okay. The old camera's off.
+|110:23:12|CDR-LM|Okay.
+|110:23:15|LMP-LM|LANDING RADAR breaker, OPEN. Checking the water. And, Gordy, ascent tank 1, we started out a little low. It's still - same place. That's water.
+|110:23:30|CC|Roger, Jack.
 ||||Tape 75A/2|Page 588
-|110:23:28|LMP-LM|Batteries look good.
-|110:23:28|CDR-LM|Oh, man. Look at that rock out there.
-|110:23:28|LMP-LM|Absolutely incredible. Absolutely incredible.
-|110:23:28|CDR-LM|I think I can see the rim of Camelot.
-|110:23:28|CC|Roger.
-|110:23:28|CDR-LM|Epic moment of ray life.
-|110:23:28|LMP-LM|Where'd you land? You never let me look outside at all. Hey, you can see the boulder tracks.
-|110:23:58|CDR-LM|Okay, Gordy. We're standing by for your GO. We look good. We're looking good on board.
-|110:23:58|CC|Okay. You're looking great here so far.
-|110:23:58|LMP-LM|There are boulders all over those massifs. Gosh, look at that propellant. We could have gone all around and looked around.
-|110:23:58|CDR-LM|We should have hovered around a little bit; gone and looked at the Scarp.
-|110:23:58|LMP-LM|Wo, thank you.
-|110:23:58|CDR-LM|(Laughter)
-|110:23:58|LMP-LM|I like it right where we are.
-|110:23:58|CDR-LM|Okay, Gordy. While you're - while you're waiting on that GO, I had to - I - I shot for a spot, around 2 o'clock from Poppy. There's a number of boulders out at 12 o'clock from Poppy, and I really think I'm probably not more than about 100 meters out in front of it - and slightly to the north. Actually, I may be a little bit closer to Trident than I expected Poppy to be. I - I think I've got Trident right out the left window. And our first cut at the mobility around here in the Rover. It ought to be super.
+|110:23:30|LMP-LM|Batteries look good.
+|110:23:38|CDR-LM|Oh, man. Look at that rock out there.
+|110:23:42|LMP-LM|Absolutely incredible. Absolutely incredible.
+|110:23:47|CDR-LM|I think I can see the rim of Camelot.
+|110:23:50|CC|Roger.
+|110:23:50|CDR-LM|Epic moment of ray life.
+|110:23:51|LMP-LM|Where'd you land? You never let me look outside at all. Hey, you can see the boulder tracks.
+|110:24:01|CDR-LM|Okay, Gordy. We're standing by for your GO. We look good - we're looking good on board.
+|110:24:06|CC|Okay. You're looking great here so far.
+|110:24:07|LMP-LM|There are boulders all over those massifs. God, look at that propellant. We could have gone all around and looked around.
+|110:24:15|CDR-LM|We should have hovered around a little bit; gone and looked at the Scarp.
+|110:24:18|LMP-LM|No, thank you.
+|110:24:19|CDR-LM|(Laughter)
+|110:24:19|LMP-LM|I like it right where we are.
+|110:24:21|CDR-LM|Okay, Gordy. While you're - while you're waiting on that GO, I had to - I - I shot for a spot, around 2 o'clock from Poppy. There's a number of boulders out at 12 o'clock from Poppy, and I really think I'm probably not more than about 100 meters out in front of it - and slightly to the north. Actually, I may be a little bit closer to Trident than I expected Poppy to be. I - I think I've got Trident right out the left window. And our first cut at the mobility around here in the Rover. It ought to be super.
 ||||Tape 75A/3|Page 589
-|110:23:58|CC|Okay. Sounds good.
-|110:23:58|LMP-LM|But I tell you, the massifs and Bare Mountain are two different products.
-|110:23:58|CDR-LM|Do look it, don't they?
-|110:23:58|LMP-LM|Of course, they're different slopes, too.
-|110:23:58|CDR-LM|I think you're looking - probably - that may be Rudolph, right there, Jack, out your window. I was looking more at those boulders and trying to stay in the spots in between them them I was - -
-|110:23:58|LMP-LM|Yes, you did great, Gene.
-|110:23:58|CDR-LM|- - relationship to that crater. Man, there was practically no dust, just a little bit of a film; you had the ground, all the way to the ground.
-|110:23:58|LMP-LM|Yes. I could call touchdown on the shadow. Look at that. Really here.
-|110:25:44|CDR-LM|(Laughter) Okay, Gordy. We're hanging in for your GO.
-|110:25:44|LMP-LM|It better be a GO. I'll check everything again. Let's just doublecheck.
-|110:25:44|CDR-LM|Okay.
-|110:25:44|LMP-LM|That hasn't changed.
-|110:25:44|CDR-LM|Okay, that's good.
-|110:25:55|LMP-LM|Those - the manifold hasn't changed. The RCS hasn't changed. Ascent water hasn't changed. The batteries haven't changed.
-|110:25:55|CDR-LM|Oh, my golly.
-|110:25:55|LMP-LM|Only we have changed.
+|110:24:56|CC|Okay. Sounds good.
+|110:25:03|LMP-LM|And I tell you, the massifs and Bare Mountain are two different products.
+|110:25:13|CDR-LM|Do look it, don't they?
+|110:25:15|LMP-LM|Of course, they're different slopes, too.
+|110:25:16|CDR-LM|I think you're looking - probably - that may be Rudolph, right there, Jack, out your window. I was looking more at those boulders and trying to stay in the spots in between them them I was - -
+|110:25:28|LMP-LM|Yes, you did great, Gene.
+|110:25:29|CDR-LM|- - relationship to that crater. Man, there was practically no dust, just a little bit of a film; you had the ground, all the way to the ground.
+|110:25:36|LMP-LM|Yes. I could call touchdown on the shadow. Look at that. Really here.
+|110:25:43|CDR-LM|(Laughter) Okay, Gordy. We're hanging in for your GO.
+|110:25:49|LMP-LM|It better be a GO. I'll check everything again. Let's just doublecheck.
+|110:25:54|CDR-LM|Okay.
+|110:25:56|LMP-LM|That hasn't changed.
+|110:25:57|CDR-LM|Okay, that's good.
+|110:25:58|LMP-LM|Those - the manifold hasn't changed. The RCS hasn't changed. Ascent water hasn't changed. The batteries haven't changed.
+|110:26:10|CDR-LM|Oh, my golly.
+|110:26:11|LMP-LM|Only we have changed.
 ||||Tape 75A/4|Page 590
-|110:25:55|CDR-LM|You know the - you can't see into Camelot, Jack; that rim is - is Camelot out in front of us.
-|110:25:55|LMP-LM|Yes.
-|110:25:55|CDR-LM|You ... - -
-|110:26:16|CC|Challenger, you'll be glad to hear you're STAY for T-l.
-|110:26:16|CDR-LM|Gordy, you're a smooth talker, you know it?
-|110:26:16|LMP-LM|Very good.
-|110:26:25|CDR-LM|We are STAY for T-l.
-|110:26:25|LMP-LM|Okay. You can forget all I told you about VERB 22 NOUN 46.
-|110:26:25|CDR-LM|What was that? (Laughter)
-|110:26:37|LMP-LM|Okay. Let's find out where we are. Engine stop is reset.
-|110:26:42|CDR-LM|Okay. The AGS is ready for us if we need it.
-|110:26:42|LMP-LM|Okay. I need a P12 time as soon as I get 60 - -
-|110:26:42|CDR-LM|Okay.
-|110:27:02|CDR-LM|Okay, Gordy. You're looking at NOUN 43. Copy that down, Jack, right here.
-|110:27:09|CC|Okay. We've got it.
-|110:27:11|LMP-LM|20 21 and 20 21 and 30 75, and I'm going to P12. Okay. I need a P12 time from you.
-|110:27:11|CDR-LM|Okay. For T-2. For T-2, the time is 113 - -
-|110:27:11|LMP-LM|Okay.
-|110:27:11|CDR-LM|14 - -
-|110:27:11|LMP-LM|14.
+|110:26:13|CDR-LM|You know the - you can't see into Camelot, Jack; that rim is - is Camelot out in front of us.
+|110:26:18|LMP-LM|Yes.
+|110:26:18|CDR-LM|You ... - -
+|110:26:18|CC|Challenger, you'll be glad to hear you're STAY for T-l.
+|110:26:24|CC|And, America; we have a STAY for T-l.
+|110:26:24|CDR-LM|Gordy, you're a smooth talker, you know it?
+|110:26:26|LMP-LM|Very good.
+|110:26:28|CDR-LM|We are STAY for T-l.
+|110:26:30|LMP-LM|Okay. You can forget all I told you about VERB 22 NOUN 46.
+|110:26:31|CMP|Challenger - understand a STAY for T-l. Good.
+|110:26:34|CDR-LM|What was that? (Laughter)
+|110:26:39|LMP-LM|Okay. Let's find out where we are. Engine stop is reset.
+|110:26:45|CDR-LM|Okay. The AGS is ready for us if we need it.
+|110:26:47|LMP-LM|Okay. I need a P12 time as soon as I get 60 - -
+|110:26:49|CDR-LM|Okay.
+|110:27:04|CDR-LM|Okay, Gordy. You're looking at NOUN 43. Copy that down, Jack, right here.
+|110:27:11|CC|Okay. We've got it.
+|110:27:13|LMP-LM|20 21 and 20 21 and 30 75, and I'm going to P12. Okay. I need a P12 time from you.
+|110:27:30|CDR-LM|Okay. For T-2. For T-2, the time is 113 - -
+|110:27:38|LMP-LM|Okay.
+|110:27:38|CDR-LM|14 - -
+|110:27:39|LMP-LM|14.
 ||||Tape 75A/5|Page 591
-|110:27:11|CDR-LM|24.91.
-|110:27:11|LMP-LM|4.91.
-|110:27:11|CDR-LM|Yes, sir.
-|110:27:11|LMP-LM|I can't feel any difference between l/6g and anything else right now.
-|110:27:11|CDR-LM|Well, you still got your restraints on. (Laughter) Okay. 113:14:24.91. You happy with that?
-|110:27:11|LMP-LM|That looks good, sir.
-|110:27:11|CDR-LM|Okay.
-|110:27:11|LMP-LM|I got to change these numbers. You didn't get an update on NOUN 76, did you? I don't think so.
-|110:27:11|CDR-LM|No. No.
-|110:27:11|LMP-LM|Okay.
-|110:27:11|CDR-LM|No. Okay; 5515* Hello, Gordy. How would you like me to handle R-3 of NOUN 76?
-|110:28:26|CC|Stand by. I'll come back to you.
-|110:28:26|CDR-LM|Okay. Oh, that radar performed super.
-|110:28:26|LMP-LM|How was the view on the way down, Gene? (Laughter)
-|110:28:26|CDR-LM|You know, after we pitched over, I was just looking for a place to land. I'm not sure, I just didn't want to hit one of those boulders out there which would have been as easy - and look at that. Look at right in front of us. I didn't want to land there either.
-|110:28:26|LMP-LM|I see that one right in front of us.
-|110:28:26|CDR-LM|You see that? ... a boulder, a hole.
-|110:28:26|LMP-LM|Where's the hole? I can't see the hole - -
+|110:27:41|CDR-LM|24.91.
+|110:27:44|LMP-LM|4.91.
+|110:27:46|CDR-LM|Yes, sir.
+|110:27:48|LMP-LM|I can't feel any difference between l/6g and anything else right now.
+|110:27:50|CDR-LM|Well, you still got your restraints on. (Laughter) Okay. 113:14:24.91. You happy with that?
+|110:27:57|LMP-LM|That looks good, sir.
+|110:27:59|CDR-LM|Okay.
+|110:28:02|LMP-LM|I got to change these numbers. You didn't get an update on NOUN 76, did you? I don't think so.
+|110:28:13|CDR-LM|No. No. No.
+|110:28:13|LMP-LM|Okay.
+|110:28:19|CDR-LM|Okay; 5515. Hello, Gordy. How would you like me to handle R-3 of NOUN 76?
+|110:28:28|CC|Stand by. I'll come back to you.
+|110:28:33|CDR-LM|Okay. Oh, that radar performed super.
+|110:28:43|LMP-LM|How was the view on the way down, Gene? (Laughter)
+|110:28:45|CDR-LM|You know, after we pitched over, I was just looking for a place to land. I'm not sure, I just didn't want to hit one of those boulders out there which would have been as easy - and look at that. Look at right in front of us. I didn't want to land there either.
+|110:28:58|LMP-LM|I see that one right in front of us.
+|110:28:59|CDR-LM|You see that? ... a boulder, a hole.
+|110:29:00|LMP-LM|Where's the hole? I can't see the hole - -
 ||||Tape 75A/6|Page 592
-|110:28:58|CC|Challenger, Houston. R-3, cross range, is okay as is.
-|110:28:58|LMP-LM|Okay. Okay. We're coming up - -
-|110:29:11|CDR-LM|We're in posture for a T-2, Gordy.
-|110:29:11|CC|Roger.
-|110:29:11|CDR-LM|Okay. I can see the Scarp. I can see Hanover. Good thing we didn't plan to go to Hanover. (Laughter) It's steep.
-|110:29:11|LMP-LM|Look at the boulder - halfway up the hill.
-|110:29:11|CDR-LM|Yes,
-|110:29:11|LMP-LM|Not halfway, just enough - -
-|110:29:11|CDR-LM|Yes, the boulder tracks - they're beautiful.
-|110:29:11|LMP-LM|It's sitting right there in the end of the tracks. There are tracks all over that hillside. There's a boulder came right down to the surface there. See it?
-|110:29:11|CDR-LM|Yes.
-|110:29:11|LMP-LM|That one right through that little crater -
-|110:29:11|CDR-LM|Yes.
-|110:29:11|LMP-LM|- - sitting right there for us to sample. Look at it.
-|110:29:11|CDR-LM|Yes, sir. I'll bet Bare Mountain and the Sculptured Hills are the same.
-|110:29:11|LMP-LM|Yes. They - Well, the slope's different. We'll have to look at it from outside. You may be right. Now I see why they call them sculptured. Jfy gosh, they're so hummocky that there's shadow all over them.
-|110:29:11|CDR-LM|Yes.
+|110:29:00|CC|Challenger, Houston. R-3, cross range, is okay as is.
+|110:29:08|LMP-LM|Okay. Okay. We're coming up - -
+|110:29:12|CDR-LM|We're in posture for a T-2, Gordy.
+|110:29:19|CC|Roger.
+|110:29:22|CDR-LM|Okay. I can see the Scarp. I can see Hanover. Good thing we didn't plan to go to Hanover. (Laughter) It's steep.
+|110:29:34|LMP-LM|Look at the boulder - halfway up the hill.
+|110:29:35|CDR-LM|Yes.
+|110:29:36|LMP-LM|Not halfway, just enough - -
+|110:29:37|CDR-LM|Yes, the boulder tracks - they're beautiful.
+|110:29:39|LMP-LM|It's sitting right there in the end of the tracks. There are tracks all over that hillside. There's a boulder came right down to the surface there. See it?
+|110:29:45|CDR-LM|Yes.
+|110:29:45|LMP-LM|That one right through that little crater -
+|110:29:46|CDR-LM|Yes.
+|110:29:46|LMP-LM|- - sitting right there for us to sample. Look at it.
+|110:29:50|CDR-LM|Yes, sir. I'll bet Bare Mountain and the Sculptured Hills are the same.
+|110:29:56|LMP-LM|Yes. They - Well, the slope's different. We'll have to look at it from outside. You may be right. Now I see why they call them sculptured. My god, they're so hummocky that there's shadow all over them.
+|110:30:07|CDR-LM|Yes.
 ||||Tape 75A/7|Page 593
-|110:29:11|LMP-LM|Gosh, there are some holes and rocks around here. Who told me this was a flat landing site?
-|110:29:11|CDR-LM|It is flat. For crying out loud. What do you want, an airtight guarantee?
-|110:30:14|LMP-LM|Let's see, we got about 2 degrees left and about 5 degrees pitchup.
-|110:30:14|CDR-LM|We're about what - about 100 meters from Trident?
-|110:30:14|LMP-LM|Yes - yes, less than that, I think Trident's right here. Our shadow's about 100 feet, Geno, I think.
-|110:30:14|CDR-LM|Yes, we're only about - yes, less than 100 meters then. It doesn't look that long, but it ... - -
-|110:30:14|LMP-LM|Yes, there are some holes I'm glad I didn't land in around here, I'll tell you.
-|110:30:14|CDR-LM|Now, if you look at the massif, Jack. I don't know if you can see it over here. You see, they're almost like a series of linear boulder tracks, but they come crossways down the slope. So it looks like there may very definitely be some - some jointed - There's outcrop on top the massif, too.
-|110:30:14|LMP-LM|Oh, it sure looks like it, gray outcrop. And there's a bluish gray compared to the - the brown or tan gray of the massif side.
-|110:30:14|CDR-LM|And a lot of that boulder is - a lot of that outcrop down on the bottom is boulder.
-|110:30:14|LMP-LM|Yes. Do you know what that reminds me of, way up on top - that outcrop? It reminds me of sunset where you could just get a little piece of outcrop around the corner.
-|110:30:14|CDR-LM|That's right.
-|110:31:25|LMP-LM|Okay. Let's see what we're doing. We got 3 minutes for T-2. Let's take another check.
+|110:30:08|LMP-LM|God, there are some holes and rocks around here. Who told me this was a flat landing site?
+|110:30:11|CDR-LM|It is flat. For crying out loud. What do you want, an airtight guarantee?
+|110:30:17|LMP-LM|Let's see, we got about 2 degrees left and about 5 degrees pitchup.
+|110:30:22|CDR-LM|We're about what - about 100 meters from Trident?
+|110:30:27|LMP-LM|Yes - yes, less than that, I think Trident's right here.
+|110:30:31|CDR-LM|Our shadow's about 100 feet, Geno, I think.
+|110:30:34|LMP-LM|Yes, we're only about - yes, less than 100 meters then. It doesn't look that long, but it ... - -
+|110:30:39|CDR-LM|Yes, there are some holes I'm glad I didn't land in around here, I'll tell you.
+|110:30:50|CDR-LM|Now, if you look at the massif, Jack. I don't know if you can see it over here. You see, they're almost like a series of linear boulder tracks, but they come crossways down the slope. So it looks like there may very definitely be some - some jointed - There's outcrop on top the massif, too.
+|110:31:05|LMP-LM|Oh, it sure looks like it, gray outcrop. And there's a bluish gray compared to the - the brown or tan gray of the massif side.
+|110:31:15|CDR-LM|And a lot of that boulder is - a lot of that outcrop down on the bottom is boulder.
+|110:31:19|LMP-LM|Yes. Do you know what that reminds me of, way up on top - that outcrop? It reminds me of sunset where you could just get a little piece of outcrop around the corner.
+|110:31:20|CC|And, America, I have a pan camera photo pad whenever you're ready for it. It'll go on page 129.
+|110:31:25|CDR-LM|That's right.
+|110:31:28|LMP-LM|Okay. Let's see what we're doing. We got 3 minutes for T-2. Let's take another check.
 ||||Tape 75A/8|Page 594
-|110:31:25|CDR-LM|Okay. I just looked at them.
-|110:31:25|LMP-LM|Okay. Ascent looks good.
-|110:31:36|CDR-LM|Gordy, I noticed something ever since we've landed. The oxidizer quantity went from - from 7 or 8, and now it's down to 2, and the fuel has stayed constant.
-|110:31:36|CC|Roger.
-|110:31:36|CDR-LM|And the QUANTITY light came on somewhere, I believe, after we landed.
-|110:31:36|LMP-LM|Yes, it did. I noticed the QUANTITY light also. I was thinking reg light, though, when I saw it. Oh, man.
-|110:31:36|CC|Challenger, we'll have a story on that for you later. We don't think we were really low level.
-|110:31:36|CDR-LM|Okay. It doesn't make any difference now, Gordy, expect to talk about when we get home.
-|110:31:36|CC|Roger.
-|110:32:27|CDR-LM|And we're 2 minutes and counting to T-2.
+|110:31:33|CDR-LM|Okay. I just looked at them.
+|110:31:34|LMP-LM|Okay. Ascent looks good.
+|110:31:39|CDR-LM|Gordy, I noticed something ever since we've landed. The oxidizer quantity went from - from 7 or 8, and now it's down to 2, and the fuel has stayed constant.
+|110:31:52|CC|Roger.
+|110:31:53|CDR-LM|And the QUANTITY light came on somewhere, I believe, after we landed.
+|110:31:58|LMP-LM|Yes, it did. I noticed the QUANTITY light also. I was thinking reg light, though, when I saw it. Oh, man.
+|110:32:13|CC|Challenger, we'll have a story on that for you later. We don't think we were really low level.
+|110:32:22|CDR-LM|Okay. It doesn't make any difference now, Gordy, expect to talk about when we get home.
 |110:32:27|CC|Roger.
-|110:32:27|LMP-LM|We better hurry if - you're going to give - they're going to give us the GO.
-|110:32:27|LMP-LM|How about some water?
-|110:32:27|CDR-LM|Yes, you can zap me.
-|110:32:27|LMP-LM|Oh, I tell you. That's something everyone's got to do once in their life. I want to - We're not going to have much time for T-2 - -
-|110:33:18|CC|Challenger, Houston. You're STAY for T-2, and GO for the DPS vent.
-|110:33:18|LMP-LM|Okay.
+|110:32:30|CDR-LM|And we're 2 minutes and counting to T-2.
+|110:32:34|CC|Roger.
+|110:32:35|LMP-LM|We better hurry if - you're going to give - they're going to give us the GO.
+|110:33:04|LMP-LM|How about some water?
+|110:33:06|CDR-LM|Yes, you can zap me.
+|110:33:10|LMP-LM|Oh, I tell you. That's something everyone's got to do once in their life. I want to - We're not going to have much time for T-2 - -
+|110:33:21|CC|Challenger, Houston. You're STAY for T-2, and GO for the DPS vent.
+|110:33:29|LMP-LM|Okay.
 ||||Tape T5A/9|Page 595
-|110:33:18|CDR-LM|Okay. Understand. STAY for T-2, and GO for the DPS vent. Let me get out of - Okay, we can't hack that. I'm going to get out at 12.
-|110:33:18|LMP-LM|Excuse me, Gene.
-|110:33:46|CDR-LM|Okay. You can unzap that water, if you'd like. And let's go off VOX. Let's go on PTT.
-|110:34:41|CDR-LM|Okay. REG 1 is CLOSED, Houston; OXIDIZER FUEL VENTS coming OPEN.
-|110:34:41|CC|Roger.
-|110:34:45|CDR-LM|MASTER ARM, ON. MASTER ARM's coming ON. Okay, Gordo. I got two good lights.
-|110:34:45|CC|Roger.
-|110:34:45|CDR-LM|DESCENT VENT, FIRE. Okay -
-|110:35:01|CDR-LM|MARK it. Now we did not hear anything on that one, Gordy.
-|110:35:01|CC|Roger.
-|110:35:11|CDR-LM|... pressure's coming down, though. Pressure's coming down.
-|110:35:17|LMP-LM|Okay. MASTER ARM, OFF. Okay. We'll monitor oxidizer pressure until 20 to 40, and then OX VENT, CLOSED; fuel pressure to less than 8. FUEL VENT.
-|110:35:28|CDR-LM|DESCENT QUANTITY light - REG light. Excuse me.
-|110:35:36|CDR-LM|Okay. MODE CONTROL, two to ATT HOLD. Well, we just keep going, I guess.
-|110:35:36|LMP-LM|Yes. Hey, we can press on. Okay. Okay. Now wait a minute. Here we go. Let's get that. Go up here first, because I haven't selected it.
-|110:36:03|LMP-LM|Okay. ECA CONTROL is CLOSED. Three is back on.
+|110:33:29|CDR-LM|Okay. Understand. STAY for T-2, and GO for the DPS vent. Let me get out of - Okay, we can't hack that. I'm going to get out at 12.
+|110:33:38|LMP-LM|Excuse me, Gene.
+|110:33:49|CDR-LM|Okay. You can unzap that water, if you'd like. And let's go off VOX. Let's go on PTT.
+|110:34:27|PAO|This is Apollo Control. We mark the unofficial landing time at 113 hours 1 minute, 52 seconds Ground Elapsed Time. And, from the description, the unofficial landing site is about 100 meters beyond the crater Poppy -
+|110:34:46|CDR-LM|Okay. REG 1 is CLOSED, Houston; OXIDIZER FUEL VENTS coming OPEN.
+|110:34:49|CC|Roger.
+|110:34:49|CDR-LM|MASTER ARM, ON. MASTER ARM's coming ON. Okay, Gordo. I got two good lights.
+|110:34:57|CC|Roger.
+|110:34:57|CDR-LM|DESCENT VENT, FIRE. Okay -
+|110:35:04|CDR-LM|MARK it. Now we did not hear anything on that one, Gordy.
+|110:35:09|CC|Roger.
+|110:35:12|CDR-LM|... pressure's coming down, though. Pressure's coming down.
+|110:35:20|LMP-LM|Okay. MASTER ARM, OFF. Okay, we'll monitor oxidizer pressure until 20 to 40, and then OX VENT, CLOSED; fuel pressure to less than 8. FUEL VENT.
+|110:35:31|CDR-LM|DESCENT QUANTITY light - REG light. Excuse me.
+|110:35:39|CDR-LM|Okay. MODE CONTROL, two to ATT HOLD. Well, we just keep going, I guess.
+|110:35:50|LMP-LM|Yes. Hey, we can press on. Okay. Okay. Now wait a minute. Here we go. Let's get that. Go up here first, because I haven't selected it.
+|110:36:07|LMP-LM|Okay. ECA CONTROL is CLOSED. Three is back on.
 ||||Tape 75A/10|Page 596
-|110:36:11|LMP-LM|BATTERY 5 is OFF/RESET, and it's off the line.
-|110:36:18|LMP-LM|BATTERY 6, OFF/RESET, and it's off the line. INVERTER number 2 breaker is IN. INVERTER 2. Let me check the voltage. Voltage is great. Okay. Keep going.
-|110:36:41|LMP-LM|DESCENT ENGINE OVERRIDE'S OPEN. ASCENT ECA CONTROL'S OPEN. CWEA cycling, cycled; both lights are out. Okay. Cabin pressure is good. Okay.
-|110:37:04|LMP-LM|And then, A and B going to CABIN. A is to CABIN. B is to CABIN. PULL-EGRESS. RETURN is EGRESS. REPRESS going to AUTO. Stand by for a noise.
-|110:37:29|LMP-LM|There you go. It's In AUTO. Okay. Now it's your turn. Verify - Wonder where it's going? (Laughter) Out, I guess.
-|110:37:51|LMP-LM|INVERTER 2 is selected. Okay. And DECA POWER, OPEN. And guess what? Take your helmet and gloves off.
-|110:38:59|LMP-LM|Okay, Gordy. We're in 1-1. Helmets and gloves are off, DIVERTER VALVES are IV.
-|110:38:59|CC|Okay. We're right with you.
-|110:39:16|LMP-LM|And you're looking at NOUN 20.
-|110:39:16|LMP-LM|Window shades are going close. I just - I'm using it instead of a light switch because I've got it covered up.
-|110:39:16|CDR-LM|Gordy, you got NOUN 20?
-|110:40:26|CC|That's affirmative. We copy NOUN 20.
-|110:40:26|CDR-LM|Okay. Jack's going to pick up the AGS - on the right side of that page, and I'll part the antenna
-|110:40:26|CC|Roger.
+|110:36:15|LMP-LM|BATTERY 5 is OFF/RESET, and it's off the line.
+|110:36:21|LMP-LM|BATTERY 6, OFF/RESET, and it's off the line. INVERTER number 2 breaker is IN. INVERTER 2. Let me check the voltage. Voltage is great. Okay. Keep going.
+|110:36:44|LMP-LM|DESCENT ENGINE OVERRIDE'S OPEN. ASCENT ECA CONTROL'S OPEN. CWEA cycling, cycled; both lights are out. Okay. Cabin pressure is good. Okay.
+|110:37:06|LMP-LM|And then, A and B going to CABIN. A is to CABIN. B is to CABIN. PULL-EGRESS. RETURN is EGRESS. REPRESS going to AUTO. Stand by for a noise.
+|110:37:32|LMP-LM|There you go. It's In AUTO. Okay. Now it's your turn. Verify - Wonder where it's going? (Laughter) Out, I guess.
+|110:37:55|LMP-LM|INVERTER 2 is selected. Okay. And DECA POWER, OPEN. And guess what? Take your helmet and gloves off.
+|110:39:04|LMP-LM|Okay, Gordy. We're in 1-1. Helmets and gloves are off, DIVERTER VALVES are IV.
+|110:39:12|CC|Okay. We're right with you.
+|110:39:20|LMP-LM|And you're looking at NOUN 20.
+|110:40:03|LMP-LM|Window shades are going close. I just - I'm using it instead of a light switch because I've got it covered up.
+|110:40:28|CDR-LM|Gordy, you got NOUN 20?
+|110:40:30|CC|That's affirmative. We copy NOUN 20.
+|110:40:35|CDR-LM|Okay. Jack's going to pick up the AGS - on the right side of that page, and I'll part the antenna
+|110:40:42|CC|Roger.
 |110:43:01|CDR-LM|P20's in work. Correction, P57's in work.
 ||||Tape 75A/11|Page 597
-|110:43:13|CC|Challenger, Houston. Your DPS OXIDIZER PRESSURE
-|110:43:13|CDR-LM|is 40 or less. You can close it. Thank you, Gordy.
-|110:43:13|CDR-LM|Gordy, while the P57 is doing its gravity work,
-|110:43:13|CC|let me say that the LNA and the landing site, from a relief point of view, I - I think, are identical. I - I couldn't say enough for the LNA. I actually didn't look around nearly as much as I thought I would, or as I wanted to, because I had fixation on - on a reasonable spot to land. They're not all reasonable in that there's some very subtle hummocky-like craters right in and around where we are. And there's not a - a lot of boulders laying on the surface, but there's a lot of what appear to be boulders that are covered up by some of the dark mantle. Numerous enough that you would not like to take a chance at putting a - a pad down on one of them or in one of those hummocky subtle craters. As a result, I really didn't have a chance to look all around at where I wanted to except to put the bird down where I wanted it. Okay. We've got no complaint with that.
-|110:43:13|CDR-LM|I guess the thing that probably - probably sur-
-|110:43:13|CC|prised me most about the site, as far as landing is concerned, is the fact that there were these -these - I hesitate to say they're outcrops but certainly they're buried massive pieces of rock -whether they're boulders or not, we'll have to find out - out here in the plains area, partially covered and filleted by the dark mantle. And I expected to find a number of craters, but I guess I really didn't expect to find - to find the -the rock types around. And we're talking about anywhere from 1 to 2 meters down to - oh, 2 or 3 feet, which when they're sticking out and on the sides of some of these subtle craters look pretty menacingly. But that probably is the one thing that surprised me most. Roger, Gene.
+|110:43:14|CC|Challenger, Houston. Your DPS OXIDIZER PRESSURE is 40 or less. You could close it. 
+|110:43:23|CDR-LM|Thank you, Gordy.
+|110:43:29|CDR-LM|Gordy, while the P57 is doing its gravity work, let me say that the LNA and the landing site, from a relief point of view, I - I think, are identical. I couldn't say enough for the LNA. I actually didn't look around nearly as much as I thought I would, or as I wanted to, because I had fixation on - on a reasonable spot to land. They're not all reasonable in that there's some very subtle hummocky-like craters right in and around where we are. And there's not a - a lot of boulders laying on the surface, but there's a lot of what appear to be boulders that are covered up by some of the dark mantle. Numerous enough that you would not like to take a chance at putting a - a pad down on one of them or in one of those hummocky subtle craters. As a result, I really didn't have a chance to look all around at where I wanted to except to put the bird down where I wanted it.
+|110:44:38|CC|Okay. We've got no complaint with that.
+|110:44:50|CDR-LM|I guess the thing that probably - probably surprised me most about the site, as far as landing is concerned, is the fact that there were these - these - I hesitate to say they're outcrops but certainly they're buried massive pieces of rock, whether they're boulders or not we'll have to find out, out here in the plains area, partially covered and filleted by the dark mantle. And I expected to find a number of craters, but I guess I really didn't expect to find - to find the - the rock types around. And we're talking about anywhere from 1 to 2 meters down to - oh, 2 or 3 feet, which when they're sticking out and on the sides of some of these subtle craters look pretty menacingly. But that probably is the one thing that surprised me most. 
+|110:45:44|CC|Roger, Gene.
 ||||Tape 75A/12|Page 598
-|110:45:49|CDR-LM|The visibility prior to pitchover was such that I could see Nansen. I could see the Scarp. I could see Lara. I could not see Camelot until after pitchover. However, once I had pitchover, if I could have froze it right there like we do in the simulator occasionally, I could have picked out everything there was to see. Even at 6000 feet, the small triangle with Frosty and Rudolph and Punk were visible to me. I had - I had Poppy from orbit, as a matter of fact, so it was -easily - easy to see. Barjea was a very sharp round crater just as depicted on the LNA. The thing I really didn't get a good look at, because I didn't pay too much attention to it, was from Trident on to the south.
-|110:45:49|CC|Roger.
-|110:45:49|LMP-LM|Gordy, this is the LMP. Let me say - Gordy, this is the LMP. Let me say that the inside of the spacecraft looked just like the simulators.
-|110:45:49|CC|Very good, Jack.
-|110:45:49|CDR-LM|Another interesting thing, Gordy. All the way through PDI prior to pitchover, Jack and I had -had the real America - or the other America -right out - smack out the front window all the way down, which was pretty spectacular.
-|110:47:21|CC|I bet it was. And you can consider yourself STAY for T-3.
-|110:47:21|CDR-LM|Thank you, sir. You're getting smoother all the time. If you're happy with NOUN 22, I'll PRO.
-|110:47:21|CC|Stand by 1.
+|110:45:48|CDR-LM|The visibility prior to pitchover was such that I could see Nansen. I could see the Scarp. I could see Lara. I could not see Camelot until after pitchover. However, once I had pitchover, if I could have froze it right there like we do in the simulator occasionally, I could have picked out everything there was to see. Even at 6000 feet, the small triangle with Frosty and Rudolph and Punk were visible to me. I had - I had Poppy from orbit, as a matter of fact, so it was easily - easy to see. Barjea was a very sharp round crater just as depicted on the LNA. The thing I really didn't get a good look at, because I didn't pay too much attention to it, was from Trident on to the south.
+|110:46:39|CC|Roger.
+|110:46:40|LMP-LM|Gordy, this is the LMP. Let me say - Gordy, this is the LMP. Let me say that the inside of the spacecraft looked just like the simulators.
+|110:46:51|CC|Very good, Jack.
+|110:47:06|CDR-LM|Another interesting thing, Gordy. All the way through PDI prior to pitchover, Jack and I had - had the real America, the other America - right out - smack out the front window all the way down, which was pretty spectacular.
+|110:47:23|CC|I'll bet it was. And you can consider yourself STAY for T-3.
+|110:47:30|CDR-LM|Thank you, sir. You're getting smoother all the time. If you're happy with NOUN 22, I'll PRO.
+|110:47:40|CC|Stand by 1.
 |110:47:46|CC|You're clear to PRO.
-|110:48:41|LMP-LM|Okay, Gordy. I had the angles matched on the steerable and went to SLEW, and they - it held for a few seconds and then dropped off.
+|110:48:42|LMP-LM|Okay, Gordy. I had the angles matched on the steerable and went to SLEW, and they - it held for a few seconds and then dropped off.
 ||||Tape 75A/13|Page 599
-|110:48:41|CC|Okay. It looks pretty good. You might try to peak it up just a little more.
-|110:49:01|LMP-LM|No, we're on an OMNI now.
-|110:49:01|CC|Roger.
-|110:49:12|LMP-LM|I'll try the steerable one more time here.
-|110:49:12|CC|Okay, you should be - -
-|110:49:22|LMP-LM|Okay. We're on the steerable, and I'm not going to touch it.
-|110:49:35|LMP-LM|It's steerable and SLEW, and I got 3.8.
-|110:49:35|CC|Okay. That looks good to us, Jack.
-|110:49:35|CC|Jack, we'd like you to verify the TAPE RECORDER, OFF.
-|110:50:12|LMP-LM|Yes, that's verified, Gordy.
-|110:50:12|LMP-LM|Gordy, how does the fuel vent look to you?
+|110:48:54|CC|Okay. It looks pretty good. You might try to peak it up just a little more.
+|110:49:03|LMP-LM|No, we're on an OMNI now.
+|110:49:07|CC|Roger.
+|110:49:13|LMP-LM|I'll try the steerable one more time here.
+|110:49:23|CC|Okay, you should be - -
+|110:49:24|LMP-LM|Okay. We're on the steerable, and I'm not going to touch it.
+|110:49:36|LMP-LM|It's steerable and SLEW, and I got 3.8.
+|110:49:42|CC|Okay. That looks good to us, Jack.
+|110:50:05|CC|Jack, we'd like you to verify the TAPE RECORDER, OFF.
+|110:50:13|LMP-LM|Yes, that's verified, Gordy.
+|110:50:58|LMP-LM|Gordy, how does the fuel vent look to you?
 |110:51:04|CC|Okay. Looks like 8 to us. You can go ahead and close it.
-|110:51:04|LMP-LM|Anyway, it - Okay. I already did.
-|110:58:28|CDR-LM|Gordy, I - I guess I'm puzzled on that one. I had the right star. You see anything we did wrong?
-|110:58:28|CC|Stand by. We're checking.
-|110:59:52|CC|Gene, our only guess is that you might have loaded NOUN 88 wrong. We'd like you to start over, and we'll watch you real close again.
-|111:00:05|LMP-LM|Gordy. Listen, I think we know what we did. We loaded SPRL for CRSR, and CRSR for SPRL. How would it be if we went through the P57 again and -Yes - we'll - I guess we got to do it all over. Those old numbers are no good anymore.
-|111:00:05|CC|Okay.
+|110:51:07|LMP-LM|Anyway, it - Okay. I already did.
+|110:58:30|CDR-LM|Gordy, I - I guess I'm puzzled on that one. I had the right star. You see anything we did wrong?
+|110:58:42|CC|Stand by. We're checking.
+|110:59:55|CC|Gene, our only guess is that you might have loaded NOUN 88 wrong. We'd like you to start over, and we'll watch you real close again.
+|111:00:07|LMP-LM|Gordy. Listen, I think we know what we did. We loaded SPRL for CRSR, and CRSR for SPRL. How would it be if we went through the P57 again and - Yes - we'll - I guess we got to do it all over. Those old numbers are no good anymore.
+|111:00:28|CC|Okay.
 ||||Tape 75A/14|Page 600
-|111:00:05|LMP-LM|I - you can - I'm sure that's what we did. We loaded CRSR for SPRL, and SPRL for CRSR.
-|111:00:05|CC|Okay. And it's our fault, too. We should have watched that.
-|111:01:51|CC|Jack, this is Houston. We do have the pre-PDI AGS cal numbers. You won't need to read them to us.
-|111:01:51|LMP-LM|Okay.
-|111:01:51|CDR-LM|Gordy, you going to want a recycle on this gravity measurement? I doubt if it'll need it.
-|111:01:51|CC|Stand by. No, no recycle necessary this time through.
-|111:01:51|CDR-LM|Okay.
-|111:02:32|LMP-LM|Gordy, ED BATs are 37-2.
-|111:02:32|CDR-LM|Gordy, let me comment about the handling of the bird. After you once fly it around in orbit a little bit, you get accustomed to the thrusters, and it - it came back to me quite a bit from 10, anyway. And you get a feel for acceleration and deceleration as well as the attitude hold capability. And it really - the response, even with a heavy descent - descent stage near the surface -is phenomenal. Responded exactly in the direction I wanted, held attitude very good. And, let me tell you, the LLTV plays no small part in this landing as far as I'm concerned.
-|111:02:32|CC|Roger, Gene.
-|111:03:45|LMP-LM|Okay. NOUN 22 again. I'll go ahead and torque them.
-|111:03:45|CC|Okay. Go ahead.
-|111:10:18|CDR-LM|Okay, Gordy. It's a little better.
-|111:10:18|CC|Roger. Looks good.
+|111:00:33|LMP-LM|I - you can - I'm sure that's what we did. We loaded CRSR for SPRL, and SPRL for CRSR.
+|111:00:40|CC|Okay. And it's our fault, too. We should have watched that.
+|111:01:53|CC|Jack, this is Houston. We do have the pre-PDI AGS cal numbers. You won't need to read them to us.
+|111:02:04|LMP-LM|Okay.
+|111:02:08|CDR-LM|Gordy, you going to want a recycle on this gravity measurement? I doubt if it'll need it.
+|111:02:16|CC|Stand by. No, no recycle necessary this time through.
+|111:02:27|CDR-LM|Okay.
+|111:02:34|LMP-LM|Gordy, ED BATs are 37-2.
+|111:02:51|CDR-LM|Gordy, let me comment about the handling of the bird. After you once fly it around in orbit a little bit, you get accustomed to the thrusters, and it - it came back to me quite a bit from 10, anyway. And you get a feel for acceleration and deceleration as well as the attitude hold capability. And it really - the response, even with a heavy descent - descent stage near the surface -is phenomenal. Responded exactly in the direction I wanted, held attitude very good. And, let me tell you, the LLTV plays no small part in this landing as far as I'm concerned.
+|111:03:35|CC|Roger, Gene.
+|111:03:47|LMP-LM|Okay. NOUN 22 again. I'll go ahead and torque them.
+|111:03:52|CC|Okay. Go ahead.
+|111:04:26|PAO|This is Apollo Control at 113 hours 44 minutes ground elapsed time in the mission of Apollo 17. Some refined numbers on the landing site for Challenger: In degrees minutes and seconds, the latitude has been pinned down to 20 degrees 9 minutes 50.5 seconds north, longitude 30 degrees 46 minutes 19.3 seconds east, which is about 639 meters east of the designated landing point — the premission landing point. For those newsmen who have the landing site with the grid coordinates on it, that corresponds to DN.0 by 84.2. At 113:45 Ground Elapsed Time, this is Apollo Control.
+|111:08:59|PAO|This is Apollo Control at 113 hours, 48 minutes Ground Elapsed Time. We're estimating a change of shift, if you will, Press Conference with the landing team flight director, Gerry Griffin, in the small briefing room at 3:00PM, To repeate estimated Press Conference in about 20 minutes, approximately, 18 minutes to be exact, in the small Briefing Room in Building 1. Some 42 minutes away from acquisition as the Command Module, America, comes around on revolution 14. Meanwhile on the surface, to repeat: the estimated landing site is right down the line on the Ground Track. However some 369 meters east or short of the predesignated, premission landing point.
+|111:10:20|CDR-LM|Okay, Gordy. It's a little better.
+|111:10:26|CC|Roger. Looks good.
 ||||Tape 75A/15|Page 601
-|111:10:28|LMP-LM|Computer is NOUN 93.
-|111:10:48|CC|Okay. Torque it.
-|111:10:48|CC|Challenger, Houston. We're standing by for the dumps.
-|111:11:38|LMP-LM|Okay, Gordo. I'm ready to give the E-mem -Coming at you -
-|111:11:46|LMP-LM|MARK it. It's on the way.
-|111:12:58|CDR-LM|Gordy, one other thing about the landing. I saw the light, I think. And I heard Jack call it -the CONTACT light. I think I waited about a second and - and hit the stop button. She shut down immediately. And, of course, you could feel the fall. I don't really feel we fell that much, but it was quite a change In acceleration at that point.
-|111:12:58|CC|Roger, Gene.
-|111:12:58|CDR-LM|And I guess I had, from what I would guess, a foot or 2 for - per second forward on that one.
-|111:12:58|CC|Okay. Sounds good.
-|111:12:58|CDR-LM|And let me know when I can have the computer, please
-|111:14:13|CC|Okay. It's your computer. And I'm standing by with parking angles when you're ready to load them.
-|111:14:13|CDR-LM|Okay. We'll be ready in a second.
-|111:14:13|LMP-LM|Go ahead with the angles.
-|111:15:02|CC|Okay. These are the IMU parking angles. Plus 295.86. I see you're loading the radar. Do you just want to load these or write them down?
-|111:15:02|LMP-LM|Go ahead. I'm writing.
-|111:15:29|CC|Okay. Y will be plus all zeros. And plus 084,l4, Over.
+|111:10:31|LMP-LM|Computer is NOUN 93.
+|111:10:52|CC|Okay. Torque it.
+|111:11:42|CC|Challenger, Houston. We're standing by for the dumps.
+|111:11:44|LMP-LM|Okay, Gordo. I'm ready to give the E-mem - Coming at you -
+|111:11:49|LMP-LM|MARK it. It's on the way.
+|111:13:02|CDR-LM|Gordy, one other thing about the landing. I saw the light, I think. And I heard Jack call it - the CONTACT light. I think I waited about a second and - and hit the stop button. She shut down immediately. And, of course, you could feel the fall. I don't really feel we fell that much, but it was quite a change in acceleration at that point.
+|111:13:37|CC|Roger, Gene.
+|111:13:41|CDR-LM|And I guess I had, from what I would guess, a foot or 2 for - per second forward on that one.
+|111:13:50|CC|Okay. Sounds good.
+|111:14:12|CDR-LM|And let me know when I can have the computer, please.
+|111:14:17|CC|Okay. It's your computer. And I'm standing by with parking angles when you're ready to load them.
+|111:14:25|CDR-LM|Okay. We'll be ready in a second.
+|111:15:02|LMP-LM|Go ahead with the angles.
+|111:15:05|CC|Okay. These are the IMU parking angles. Plus 295.86. I see you're loading the radar. Do you want to just load these or write them down?
+|111:15:32|LMP-LM|Go ahead. I'm writing.
+|111:15:33|CC|Okay. Y will be plus all zeros. And plus 084.l4, Over.
 ||||Tape 75A/16|Page 602
-|111:15:29|LMP-LM|Okay. NOUN 20 will be plus 295.86, plus all zeros, plus 084.14.
-|111:15:29|CC|That's correct.
-|111:16:16|LMP-LM|Okay, Houston. I'm going to power down the AGS, if you're willing.
-|111:16:16|CC|Not yet, Jack. We'd like you to read out 047 and 053 to us.
-|111:16:16|LMP-LM|Okay. You want the new ones.
-|111:16:46|CDR-LM|Okay, Gordy. If you're happy with NOUN 22, I'll ENTER them.
-|111:16:46|CC|We're happy.
-|111:16:46|CDR-LM|Okay. And it just dawned on me. I'm sorry about the zero on the NOUN 69. (Laughter)
-|111:16:46|CC|That's okay. You're forgiven.
-|111:16:46|CDR-LM|I appreciate that.
-|111:17:24|CC|Okay, Jack. We got 047 and 053.
-|111:17:24|LMP-LM|Okay. Am I GO to PULL the breakers?
-|111:18:01|CDR-LM|Okay. Are you happy with NOUN 20?
-|111:18:14|CC|Okay. We're happy with NOUN 20, and you're clear to power down the AGS.
-|111:18:14|LMP-LM|Okay,
-|111:19:37|LMP-LM|Gordy, the breakers are coming OPEN on 1-4 and 1-5
-|111:19:37|CC|Roger.
-|111:22:11|CDR-LM|Gordo, we're on 1-6.
-|111:22:11|CC|Okay, Thank you.
+|111:15:48|LMP-LM|Okay. NOUN 20 will be plus 295.86, plus all zeros, plus 084.14.
+|111:15:55|CC|That's correct.
+|111:16:19|LMP-LM|Okay, Houston. I'm going to power down the AGS, if you're willing.
+|111:16:31|CC|Not yet, Jack. We'd like you to read out 047 and 053 to us.
+|111:16:40|LMP-LM|Okay. You want the new ones.
+|111:16:50|CDR-LM|Okay, Gordy. If you're happy with NOUN 22, I'll ENTER them.
+|111:16:56|CC|We're happy.
+|111:17:00|CDR-LM|Okay. And it just dawned on me. I'm sorry about the zero on the NOUN 69. (Laughter)
+|111:17:09|CC|That's okay. You're forgiven.
+|111:17:13|CDR-LM|I appreciate that.
+|111:17:27|CC|Okay, Jack. We got 047 and 053.
+|111:17:36|LMP-LM|Okay. Am I GO to PULL the breakers?
+|111:18:02|CDR-LM|Okay. Are you happy with NOUN 20?
+|111:18:19|CC|Okay. We're happy with NOUN 20, and you're clear to power down the AGS.
+|111:18:19|LMP-LM|Okay.
+|111:19:41|LMP-LM|Gordy, the breakers are coming OPEN on 1-4 and 1-5
+|111:19:46|CC|Roger.
+|111:21:39|PAO|This is Apollo Control. To repeat, there will be a change in shift press conference with the Flight Director, Gerry Griffin, in the small briefing room in approximately 5 minutes. At 114 hours 1 minute Ground Elapsed Time, this is Apollo Control.
+|111:22:16|CDR-LM|Gordo, we're on 1-6.
+|111:31:10|PAO|This is Apollo control at 114 hours 11 minutes Ground Elapsed Time into the mission of Apollo 17. Commander Gene Cernan's heart rate during the descent and landing ranged from 102 average during the descent portion of the landing to 12 8 at actual touchdown. There is a change of shift briefing that will start momentarily in the small briefing room in building 1. We'll take down the broadcast line at this time and tape any conversation during that period and play it back at the conclusion of the briefing which starts now. This is Apollo control out.
+|111:56:02|PAO|This is Apollo Control at 114 hours 36 minutes Ground Elapsed Time. During the just ended Press Conference with the off-going flight director Gerry Griffin, some four minutes of air-to-ground tape with the crew of Challenger has been accumulated, compressed somewhat from the actual real-time. That four minutes of tape will be played back and we'll rejoin the conversation with the Crew of Challenger at Taurus Littro Landing Site at the conclusion of that tape. Roll the tape.
+|111:22:19|CC|Okay, Thank you.
 ||||Tape 75A/17|Page 603
-|111:31:31|LMP-LM|Okay, Houston. We're at the bottom of 1-8, and I'm standing by for your lift-off times.
-|111:31:38|CC|Okay, Jack. Lift-off time for rev 15 is 116:55:51', 16 is 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53. Over.
-|111:32:27|LMP-LM|Okay. Starting with rev 15, 116:55:51; 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53.
-|111:32:27|CC|That's a good readback.
+|111:31:37|LMP-LM|Okay, Houston. We're at the bottom of 1-8, and I'm standing by for your lift-off times.
+|111:31:43|CC|Okay, Jack. Lift-off time for rev 15 is 116:55:51, 16 is 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53. Over.
+|111:32:30|LMP-LM|Okay. Starting with rev 15, 116:55:51; 118:54:28; 120:53:04; 122:51:40; 124:50:17; 126:48:53.
+|111:32:50|CC|That's a good readback.
 |111:35:11|CDR-LM|Gordo, the PLSS is against the hatch, and we're installing the BRA.
-|111:35:11|CC|Roger on that.
+|111:35:17|CC|Roger on that.
 |111:48:22|CC|Challenger, Houston. We've got three questions for you to help pin down your exact position, any time it's convenient. Maybe when you're taking the out-the-window pictures. Over.
-|111:48:22|CDR-LM|Okay, Gordo. I think we can give it to you. Why don't you wait? We're just getting the - the mag bag out and jett bags out from behind the engine cover here, to give you an idea where we are.
-|111:48:22|CC|Okay. No hurry at all.
-|111:48:22|CDR-LM|I had it pinned down for you, until I got to about 500 feet, when I changed my mind.
-|111:48:22|CC|Roger.
-|111:50:17|CDR-LM|Gordy, we're not going any further, and we'll answer your questions here when we get some time, tfcr best guess is 150 meters from Poppy at 1 to 2 o'clock.
-|111:50:17|CC|Okay. We copy that.
-|111:50:17|CDR-LM|And I'll bet on that one. But we'll get with you in a minute.
-|111:50:17|CC|Okay. 150 north-northwest of Poppy.
+|111:48:36|CDR-LM|Okay, Gordo. I think we can give it to you. Why don't you wait? We're just getting the - the mag bag out and jett bags out from behind the engine cover here, to give you an idea where we are.
+|111:48:48|CC|Okay. No hurry at all.
+|111:48:54|CDR-LM|I had it pinned down for you, until I got to about 500 feet, when I changed my mind.
+|111:49:03|CC|Roger.
+|111:50:17|CDR-LM|Gordy, we're not going any further, and we'll answer your questions here when we get some time, my best guess is 150 meters from Poppy at 1 to 2 o'clock.
+|111:50:34|CC|Okay. We copy that.
+|111:50:38|CDR-LM|And I'll bet on that one. But we'll get with you in a minute.
+|111:50:43|CC|Okay. 150 north-northwest of Poppy.
 ||||Tape 75A/18|Page 604
-|111:50:17|CDR-LM|Yes. Mostly west, but slightly north.
-|111:50:17|CC|Roger.
-|111:50:17|CDR-LM|I'll tell you the - we're abeam, I think, just about abeam of Trident 1. I can see it out there, but I can't really define Trident 1 from Trident 2. And the thing that is a little different is that I appear to be closer to it than I normally would have expected to be.
-|111:50:17|CC|Okay.
-|111:50:17|LMP-LM|That's probably as close as the Navy Captain could ever guess where he is anyway.
-|111:51:56|CC|Roger. (Laughter)
-||||Tape 75B/1|Page 605
-|111:53:23|CMP|PAN CAMERA to STANDBY.
-|111:53:23|CC|America, Houston. We're reading you; how us?
-|111:53:23|CMP|Okay; just about have you, Houston. But not quite.
-|111:53:23|CMP|Not quite.
-|111:56:01|CMP|... vent's closed. Okay, Houston. This is America. Looks like we have you for good now.
-|111:56:01|CC|Roger. Ron, you're looking great. We need a -words on the spacecraft condition. We got a couple of rockets out at White Sands ready to launch for a UV calibration, and we need the GO from you on that.
-|111:56:01|CMP|(Laughter) Yes, I'm great up here. They're not going to try to hit me, are they?
-|111:56:01|CC|No, babe. We wouldn't do that. These are a couple of calibration rockets on Aerobee.
-|111:56:01|CMP|(Laughter) Okay. Sounds great. Tape motion has stopped, by the way. And I'm ready to charge battery B.
-|111:56:01|CC|Roger. That's a GO on that.
-|111:56:01|CMP|By the way, battery - Okay - the battery compartment pressure went up to 0.8 after 3 or 4 days here.
-|111:56:01|CC|Roger, Ron. We copy that.
-|111:57:18|CMP|Okay. BUS TIES are OFF; PYR0 BUS TIES are OPEN. Let's see about BUS A and B. I think those are OPEN. Yes, they're OPEN.
-|111:57:40|CMP|Okay; RELAY BUS BAT B is OPEN - coming OPEN. Getting around to battery charger. BAT CHARGE to Alfa and then to Bravo. Both about 30.
-||||Tape 75B/2|Page 606
-|111:57:40|CC|Ron, we're ready for bat - PAN CAMERA POWER, OFF.
-|111:58:24|CMP|Okay. PAN CAMERA POWER is OFF. And - let's see. Is the time for the lunar sounder stuff?
-|111:58:24|CC|Got about 3 minutes on that, Ron.
-|111:58:24|CMP|Okay.
-|111:58:24|CMP|You know, all I did was eat for 3 days. And now I don't even get a chance to eat.
-|111:58:24|CC|Roger. You getting hungry?
-|111:58:24|CDR|I've had two gingerbread bars and a brownie, so far.
-|111:58:24|CC|Yes. We1 re going to keep you busy.
-|111:58:24|CMP|(Laughter) Okay. That's good.
-|111:58:24|CC|I understand they left you some scissors so you can eat. Huh?
-|111:58:24|CMP|Yes, fortunately. I still got them. I even got them tied down this time.
-|111:58:24|CC|Roger.
-|111:58:24|CMP|Did Challenger figure out where they are? Are they pretty close to - the center of the ellipse?
-|111:58:24|CC|They look like they're a couple of hundred meters short, Ron. No problem. They landed in a smooth area. And that's what counted.
-|111:58:24|CMP|Oh, that's great.
-|112:02:11|CMP|Okay. LUNAR SOUNDER OPERATE is in STANDBY. RECORDER is going ON. RADAR is going ON. RECORDER is gone OFF. OFF to center; not to HEATERS. And the MODE is going to VHF.
-|112:02:11|CC|Thank you, Ron. I've got that pan camera photo pad any time you want it.
-|112:02:11|CMP|Okay. Let's see, 116:30. Huh?
-||||Tape 75B/3|Page 607
-|112:02:11|CMP|(Humming) Okay; ready to copy.
-|112:02:11|CC|Okay, Ron. T-start time: 116:31:10. T-stop time: ll6:59:k-6.
-|112:02:11|CMP|Start: 116:31:10. T-stop: 116:59:^-6.
-|112:02:11|CC|Good readback, Ron.
-|112:02:11|CC|Ron, we'd like the HIGH GAIN to AUTO.
-|112:04:09|CMP|HIGH GAIN to AUTO.
-|112:04:09|CMP|And, Houston; America here. I'm ready to do the LUNAR SOUNDER EXTEND test here for a while, if you want. Whenever your ready.
-|112:04:09|CC|Roger. Stand by, Ron.
-|112:05:40|CC|Okay, America. We're ready for the HF ANTENNA EXTEND test, and, just for your information, White Sands got one of the rockets off. The other one was a NO GO.
-|112:05:40|CMP|Oh, okay. Good.
-|112:06:02|CMP|Okay. HF ANTENNA 1. Barber pole. 1001, 1002. It's OFF. Gray. Okay; number 1, RETRACT, barber pole. Barber pole? No barber pole. Very interesting.
-|112:06:02|CMP|Would you believe number 1 stuck out there?
-|112:06:02|CC|Roger, Ron. We're seeing stall current right now.
-|112:06:02|CC|Ron, we'd like to go OFF on HF ANTENNA 1. And standby on number 2.
-|112:06:02|CMP|Okay; it's OFF, and, of course, it went gray again.
-|112:06:02|CC|Roger.
-|112:06:02|CMP|You say standby for number 2?
-|112:06:02|CC|Stand by on that, Ron. Don't do number 2 yet.
-||||Tape 75B/4|Page 608
-|112:06:02|CMP|Okay. I won't do it yet.
-|112:09:51|CC|America, Houston. We'd like to try ANTENNA 1 again We'd like you to go EXTEND for barber pole plus 3 seconds, then OFF, then RETRACT.
-|112:09:51|CMP|Okay. We'll try that. HF number 1, EXTEND. 1001, 1002, 1003. It's OFF. And, of course, I got a barber pole as it was going up. Okay; you want to try RETRACT again?
-|112:09:51|CC|That's affirmative.
-|112:10:32|CMP|Okay. HF for number 1 to RETRACT, now. And a barber pole.
-|112:10:32|CC|Ron, we'd like you to turn it OFF now.
-|112:11:14|CMP|Okay; it's OFF, and the talkback is gray.
-|112:13:56|CC|Ron, Houston here. On that one, we followed your RETRACT current in for 7 seconds, and then it went into stall; so it apparently is the track -it's retracting normally up to a point, and then goes into stall. We'd like you to press on and do EXTEND on HF ANTENNA 2. And we're going to press on here, probably thinking like maybe we won't get the antennas in. And on ANTENNA 2 - -
-|112:13:56|CMP|Okay.
-|112:13:56|CC|- - it's - it's according to the Flight Plan, barber pole plus 2 seconds.
-|112:13:56|CMP|Okay; we'll go barber pole plus 2.
-|112:14:31|CMP|Okay. Number 2, EXTEND. Barber pole 1001, 1002, Off. Okay; number 2 going to RETRACT, now. Barber pole 1001, 1002. Hey! Okay; it went gray - and back to OFF.
-|112:14:31|CC|Roger. We copy that.
-|112:14:31|CC|Okay, Ron. You're GO for the extending, and just a reminder on the Flight Plan, there's a RECORDER, ON, prior to the EXTEND there.
-||||Tape 75B/5|Page 609
-|112:14:31|CMP|Oh, okay; that's good.
-|112:15:28|CMP|Okay. RECORDER'S going ON. And we'll extend number 1. Let me get the clock going here. Okay; 3, 2, 1 -
-|112:15:44|CMP|MARK it.
-|112:15:44|CC|Currents are looking good. The extension is looking normal, so far. And the Aerobee rocket had some problem - -
-|112:15:44|CMP|Okay; great.
-|112:15:44|CC|- - and didn't get a chance to look at the Sun.
-|112:15:44|CMP|Uh-oh.
-|112:15:44|CC|And they're going to try and launch a couple more the day after tomorrow.
-|112:15:44|CMP|Very good.
-|112:16:45|CMP|Hey, I think I can see a light spot down there on the landing site where they might have blown off some of that halo stuff.
-|112:16:45|CC|Roger. Interesting, interesting comment.
-|112:16:45|CMP|It's between Sherlock and Camelot - between -
-|112:17:00|CMP|Hey, it's gray now on the number 1 EXTEND.
-|112:17:00|CC|Roger. We got it. And we got - we copy it's all the way out down here. You can to go 0EF on that one.
-|112:17:08|CMP|Okay; number 2 is going to - it's OFF. And number 2 is going to EXTEND.
-|112:17:08|CC|Okay, Ron. The currents look normal on number 2 while it extends.
-|112:17:08|CMP|Okay.
-|112:18:17|CMP|Hey, I can see number 2.
-||||Tape 75B/6|Page 610
-|112:18:17|CC|Roger. That's good show. It's going to be moving, Ron.
-|112:18:17|CMP|All the way out there. It is?
-|112:18:17|CMP|My window's all fogged up here, and can't see a thing.
-|112:18:17|CC|Roger.
-|112:18:17|CC|Okay, Ron. We show it all the way out - -
-|112:18:17|CMP|Fogged up on the ... side ...
-|112:18:17|CC|- - so you can go ahead and turn it off.
-|112:19:09|CMP|Okay; we'll turn it off.
-|112:19:09|CMP|Houston, this is America.
-|112:19:09|CC|Go ahead, Ron.
-|112:19:09|CMP|I didn't have my map there, but I was looking at the landing site, and as close as I can remember, it had to be somewhere around about DN 83.3 on the 200-meter scale, the TL25-8.
-|112:19:09|CC|Okay, Ron. I'm coming up on some Flight Plan operations on the mapping camera that you might want to check.
-|112:19:09|CMP|Thank you.
-|112:19:09|CMP|Okay.
-|112:23:58|CMP|Probably dark down there. MAPPING CAMERA to OFF.
-|112:24:49|CMP|Okay; MAPPING CAMERA to STANDBY. LASER ALTIMETER, OFF, IMAGE MOTION, OFF. Barber pole; gray.
-|112:25:08|CMP|MAPPING CAMERA to OFF.
-|112:26:09|CMP|Let's see. PAN CAMERA SELF TEST, OFF. And it's after sunset. UV, OFF. IR is OFF. DATA SYSTEM is OFF. SM/AC POWER, we're going to get that OFF. SM/AC POWER is OFF. Okay; it looks like 12. LUNAR SOUNDER to OPERATE.
-||||Tape 75B/7|Page 611
-|112:29:01|CC|America, while we're waiting for this lunar sounder to operate for 2 minutes, could you - could you say again those coordinates you gave us. I dug out the map TL 25-8, and I got the 83-3, but what was the azimuth coordinate on that, Ron?
-|112:29:01|CMP|It was Dog November, and maybe just a little bit to the right of Dog November.
-|112:29:01|CC|Okay; Dog November. Thank you. And you think that's where they are, huh?
-|112:29:01|CMP|Yes.
-|112:29:01|CC|Okay.
-|112:29:01|CMP|Well, there's the - there's a real white spot down there, you know. And I didn't have - I only got a short - I only got a look at that thing for about 30 seconds before I had to so something else. But I'm just re - re - recalling in my mind where the - where the white spot is with respect to those - there's Camelot and there's Sherlock, and them from Camelot to Sherlock, there were two other craters, and they were just a little bit closer to Camelot, but between those two other craters there.
-|112:29:01|CC|Good show. Roger.
-|112:29:01|CMP|There's a white spot - yes, there's a white spot on the - like it might have been dust blowing or something, you know.
-|112:29:01|CC|Roger. That may be the - the rocket exhaust. It might be just a little off that light spot.
-|112:29:01|CMP|Yes.
-|112:29:01|CC|Okay, Ron. We're ready for LUNAR SOUNDER, OPERATE to OPERATE. And if you'll give me a mark, I'll time it out for you.
-|112:29:01|CMP|Okay. Stand by. 3, 2, 1 -
-|112:31:13|CMP|MARK it. Barber pole; gray.
-||||Tape 75B/8|Page 612
-|112:33:15|CMP|Okay; she's STANDBY. MODE has gone to HF. I'll select, I'm going to need Bravo. Too bad. Do old HIGH GAIN, MANUAL and WIDE. That's 12 and 211.
-|112:34:23|CMP|Okay; minus 12, 211. HIGH GAIN ANTENNA POWER is OFF BIT RATE is LOW. Okay; ready for the HF part of it?
-|112:34:23|CC|Stand by, Ron.
-|112:34:23|CMP|Okay; standing by.
-|112:34:23|CC|Okay, Ron. You can go LUNAR SOUNDER OPERATE to OPERATE.
-|112:35:03|CMP|Okay. OPERATE at 15. Barber pole and then a gray.
-|112:37:03|CMP|SOUNDER to STANDBY at 17.
-|112:37:03|CC|Roger.
-|112:37:09|CMP|Okay; BIT RATE - BIT RATE to HIGH.
-|112:37:09|CC|Stand by, Ron.
-|112:37:09|CMP|May as well pull some film for - Okay; we'll stand by.
-|112:37:09|CC|Okay, Ron. LUNAR SOUNDER OPERATE to OPERATE. We're all set.
-|112:37:09|CMP|Okay. We'll make it at 17:40.
-|112:37:09|CC|Roger.
-|112:37:43|CMP|17:40, went to OPERATE.
-|112:38:44|CMP|18:40. LUNAR SOUNDER, STANDBY.
-|112:38:44|CC|Roger, Ron. Just for your information, whatever we could read down here was looking great.
-|112:38:44|CMP|Hey, great!
-|112:38:44|CC|Both HF and VHF look good, and we saw no visible interference on the CSM telemetry.
-||||Tape 75B/9|Page 613
-|112:38:44|CMP|Hey, outstanding! That's great.
-|112:38:44|CMP|Now, if the old antenna would come back in, we'd be in good shape, huh?
-|112:38:44|CC|Yes, sir.
-|112:39:56|CMP|Okay; we're maneuvering to VHF test attitude.
-|112:46:26|CMP|Okay, Houston. I'm about ready to press ahead, if you all are?
-|112:46:26|CC|Stand by on that, Ron. Okay, Ron. We are all ready to press on.
-|112:46:53|CMP|Okay. HIGH GAIN ANTENNA POWER is ON. We go to MANUAL and WIDE. Minus about 12, and YAW about 21 or something, 211. ... on the HIGH GAIN. Ah-ha, AUTO. Looks like it worked pretty good. Okay. MODE to VHF. Find it - there it is. MODE to VHF.
-|112:46:53|CC|Okay, Ron. We're ready for LUNAR SOUNDER OPERATE to OPERATE.
-|112:46:53|CMP|Okay. OPERATE at 28.
-|112:48:04|CMP|OPERATE.
-|112:48:04|CMP|Boy, you talk about night flying, this is the kind of night flying you want to do, by the full Earth.
-|112:48:04|CC|Is that right?
-|112:48:04|CMP|Beautiful out there.
-|112:50:04|CMP|Okay. It went to STANDBY at 30.
-|112:50:04|CC|Roger.
-|112:50:10|CMP|MODE is gone to HF. RECORDER is OFF. Lose a little comm here, huh? Maybe. Okay; there's Bravo. Select OMNI. The HIGH GAIN at minus - MANUAL, WIDE. Minus 10 and 25 for AOS.
-|112:50:10|CC|Okay, Ron. We're still riding you - reading you loud -
-||||Tape 75B/10|Page 614
-|112:51:08|CMP|Okay; good'. And HIGH GAIN ANTENNA POWER is going OFF.
-|112:51:08|CC|Roger.
-|112:51:08|CC|We just want to give you some fair warning, Ron. When you come around AOS next time at 116:30, it's a - Flight Plan update. We got quite a lengthy update on the Flight Plan - all orbital picture work, but quite lengthy.
-|112:51:08|CMP|Okay. Are you going to try to pull that antenna back in first before we completely change the Flight Plan?
-|112:51:08|CC|Ron, we're going to take a good hard look at that, and see if we can generate up either a test on that or what. That's kind of in limbo right now, Ron. These Flight Plan changes - -
-|112:51:08|CMP|Oh, okay.
-|112:51:08|CC|- - these Flight Plan changes I've got for you coming up later will be all some items Farouk has on camera pictures on the - that spot Jack thought he saw the light spot and a few other changes.
-|112:51:08|CMP|Oh, okay.
-|112:51:08|CC|And, Ron, just for your information, regardless of what we do on that antenna, we won't have any Flight Plan changes until after 144 hours due to that antenna.
-|112:51:08|CMP|Oh! Okay,
-|112:51:08|CC|Ron, we would like Hg tank 2 FANS to ON.
-|112:54:00|CMP|tank 2 FANS are ON, now.
-|112:54:00|CC|Okay, Ron. You're lucky you're up there tonight,, Ron. We're having really ratty weather down here. Low clouds and rain and drizzle and cold.
-|112:54:00|CMP|Oh, really?
-||||Tape 75B/11|Page 615
-|112:54:00|CC|Yes. You walk - you walk outside, you just about can't see the top of building 2.
-|112:54:00|CMP|Gee whiz! Guess I picked a good time to be gone.
-|112:54:00|CC|That's for sure.
-|112:55:27|CMP|Hey! You know, you'll never believe it. I'm right over the edge of Orientale. I just looked down and saw a light flash myself.
-|112:55:27|CC|Roger. Understand.
-|112:55:27|CMP|Right at the end of the rille.
-|112:55:27|CC|Any chance of - -
-|112:55:27|CMP|That's on the east of Orientale.
-|112:55:27|CC|Roger.
-|112:55:27|CMP|You know, you don't suppose it could be - Vostog [?]
-|112:55:27|CMP|I'll be derned. I've got to mark that spot on the map.
-|112:55:27|CC|Ron, just before you leave, you're too bad to hear. You're looking good as you go around the horn, and we'll pick you up at 116:30. Voices will be pretty marginal the rest of the way out.
-|113:00:27|CMP|Just about to lose you.
+|111:50:49|CDR-LM|Yes. Mostly west, but slightly north.
+|111:50:54|CC|Roger.
+|111:51:00|CDR-LM|I'll tell you the - we're abeam, I think, just about abeam of Trident 1. I can see it out there, but I can't really define Trident 1 from Trident 2. And the thing that is a little different is that I appear to be closer to it than I normally would have expected to be.
+|111:51:22|CC|Okay.
+|111:51:27|LMP-LM|That's probably as close as the Navy Captain could ever guess where he is anyway.
+|111:51:33|CC|Roger. (Laughter)
+|111:51:35|LMP-LM|Okay, Houston. We're just starting our eat-period. Sorry to be a little behind, DRD readings are 17037 and LMP is 24117.
 ||||Tape 76A/1|Page 616
-|113:00:27|CC|Okay, Jack. We got that.
-|113:00:27|CC|Would you verify your BIOMED, RIGHT?
-|113:00:27|LMP-LM|Yes, that's verified. How does it look?
-|113:00:27|CC|Looks good.
+|111:51:50|CC|Okay, Jack. We got that.
+|111:51:56|CC|Would you verify your BIOMED, RIGHT?
+|111:52:03|LMP-LM|Yes, that's verified. How does it look?
+|111:52:05|CC|Looks good.
 |112:01:11|CDR-LM|Okay, Gordy. We're starting to cut into a little lunch here and, if you've got any questions, why don't you come up with them now?
-|112:01:11|CC|Okay. We're wondering if you can give us estimate of the angular position, clock position of Rudolph. And can you line up Rudolph with a horizontal feature out beyond it?
-|112:01:11|CC|I - I should say horizon feature - out in the distance, not horizontal.
-|112:01:11|CDR-LM|Okay. I thought Rudolph was right out there at 3 o'clock. Jack's looking at it and he said, yes, that is Rudolph right at 3 o'clock out his right-hand window.
-|112:01:11|CC|Okay.
-|112:01:11|CDR-LM|I don't know if it'll mean anything to you, but the shadow of the LM, the rendezvous radar antenna is pointing about one-third of the way down from the peak of Family. And that, I know, is pretty gross. And, Gordo, I - I must be right here abeam of Trident 1. The only reason I hesitate is that I'm so close - but it's probably, well I guess it's close to 100 meters - 80 meters anyway -to where the - where the rim of Trident 1 falls off. And I am abeam of the center of Trident 1, and that's the only possible thing it could be. And that would put Poppy just about where I expected it to be.
-||||Tape T6A/2|Page 617
-|112:01:11|CC|Okay.
-|112:01:11|CC|We just want to confirm. You're referring to Trident 1 as the easternmost part of Trident, is that right?
-|112:01:11|CDR-LM|No, sir, Gordo. It's always been the westernmost part of Trident. The - the landing site was on a line between Trident 1 and Rudolph and judging from what Jack's got on his right-hand window and what I got on my left-hand window we're right there, except possibly a skosh further south on that line.
-|112:01:11|CC|Okay, understand.
-|112:01:11|LMP-LM|And the target point that was in the PGNS was right up where we all had expected it to be about halfway between here and what we're calling the rim of Camelot. We can't see into Camelot; we can just see the rim of it. It's several - oh, at least 200 meters - 2 to 300 meters up there, I expect.
-|112:01:11|CC|Okay, what o'clock position is the west - the nearest part of the rim of Camelot? Or maybe if it's better defined - -
-|112:01:11|LMP-LM|12 o' clock.
-|112:01:11|CC|- - Define the south rim. Can you see the south rim of it?
-|112:01:11|CDR-LM|Yes, Gordy, but it - it blends in so well; all we're seeing is a - an undulating high as the rim. And to the best of my knowledge, we've got the south rim at - or correction, the east rim right at 12 o'clock. Hey, Gordy, right at 12 o'clock also is a boulder that's at least 3 meters and maybe 5, and I wouldn't be a bit surprised if you can find it. It's on a line between us and the intersection of the South Massif and the Family Moun - Mountain horizon. Just slightly left of that line or south of that line. And that boulder ought to show up on your best photography.
+|112:01:21|CC|Okay. We're wondering if you can give us estimate of the angular position, clock position of Rudolph. And can you line up Rudolph with a horizontal feature out beyond it?
+|112:01:36|CC|I - I should say horizon feature - out in the distance, not horizontal.
+|112:01:46|CDR-LM|Okay. I thought Rudolph was right out there at 3 o'clock. Jack's looking at it and he said, yes, that is Rudolph right at 3 o'clock out his right-hand window.
+|112:01:59|CC|Okay.
+|112:02:03|CDR-LM|I don't know if it'll mean anything to you, but the shadow of the LM, the rendezvous radar antenna is pointing about one-third of the way down from the peak of Family. And that, I know, is pretty gross. And, Gordo, I - I must be right here abeam of Trident 1. The only reason I hesitate is that I'm so close - but it's probably, well I guess it's close to 100 meters - 80 meters anyway - to where the - where the rim of Trident 1 falls off. And I am abeam of the center of Trident 1, and that's the only possible thing it could be. And that would put Poppy just about where I expected it to be.
+||||Tape 76A/2|Page 617
+|112:03:01|CC|Okay.
+|112:03:05|CC|We just want to confirm. You're referring to Trident 1 as the easternmost part of Trident, is that right?
+|112:03:17|CDR-LM|No, sir, Gordo. It's always been the westernmost part of Trident. The - the landing site was on a line between Trident 1 and Rudolph and judging from what Jack's got on his right-hand window and what I got on my left-hand window we're right there, except possibly a skosh further south on that line.
+|112:03:40|CC|Okay, understand.
+|112:03:45|LMP-LM|And the target point that was in the PGNS was right up where we all had expected it to be about halfway between here and what we're calling the rim of Camelot. We can't see into Camelot; we can just see the rim of it. It's several - oh, at least 200 meters - 2 to 300 meters up there, I expect.
+|112:04:10|CC|Okay, what o'clock position is the west - the nearest part of the rim of Camelot? Or maybe if it's better defined - -
+|112:04:21|LMP-LM|12 o'clock.
+|112:04:23|CC|- - Define the south rim. Can you see the south rim of it?
+|112:04:29|CDR-LM|Yes, Gordy, but it - it blends in so well; all we're seeing is a - an undulating high as the rim. And to the best of my knowledge, we've got the south rim at - or correction, the east rim right at 12 o'clock. Hey, Gordy, right at 12 o'clock also is a boulder that's at least 3 meters and maybe 5, and I wouldn't be a bit surprised if you can find it. It's on a line between us and the intersection of the South Massif and the Family Moun - Mountain horizon. Just slightly left of that line or south of that line. And that boulder ought to show up on your best photography.
 ||||Tape 76A/3|Page 618
-|112:01:11|CC|Okay, Jack. We'll take a look. One other question - -
-|112:01:11|LMP-LM|And it's at - it's at least - that boulder's at least 200 meters away.
-|112:01:11|CC|Okay* Can you see the west rim of Trident, and can you give us a clock position on the west rim of West Trident?
-|112:01:11|CDR-LM|Okay, Gordy. The west rim of Trident, which, by the way, is full of outcropping-looking boulders, is at 10 o'clock.
-|112:01:11|CC|Okay, Gene - -
-|112:01:11|CDR-LM|Okay, I can look back around the corner now and I can - I can see where the east - where Trident 1 rose up to its rim on the east side, and I would say we're abeam of a point - abeam of a.point one-third the way from east to west up the center of Trident; that is, we're - we've covered one-third of Trident 1 and we're abeam of a point of a line that goes through the one-third point from east to west of Trident 1.
-|112:01:11|CC|Okay, Gene; that's very clear. I think we've got you pretty well nailed down. And you're pretty close to the - the planned landing site.
-|112:01:11|CDR-LM|Yes, I think it's very close to our planned landing site and I - I'm (chuckle) - I'm anxious to see where Poppy is, because I think what I said earlier is true.
-|112:01:11|CC|Okay. That's all the questions now. Enjoy your dinner.
+|112:05:16|CC|Okay, Jack. We'll take a look. One other question - -
+|112:05:21|LMP-LM|And it's at - it's at least - that boulder's at least 200 meters away.
+|112:05:29|CC|Okay. Can you see the west rim of Trident, and can you give us a clock position on the west rim of West Trident?
+|112:05:46|CDR-LM|Okay, Gordy. The west rim of Trident, which, by the way, is full of outcropping-looking boulders, is at 10 o'clock.
+|112:06:02|CC|Okay, Gene - -
+|112:06:02|CDR-LM|Okay, I can look back around the corner now and I can - I can see where the east - where Trident 1 rose up to its rim on the east side, and I would say we're abeam of a point - abeam of a point one-third the way from east to west up the center of Trident; that is, we're - we've covered one-third of Trident 1 and we're abeam of a point of a line that goes through the one-third point from east to west of Trident 1.
+|112:06:49|CC|Okay, Gene; that's very clear. I think we've got you pretty well nailed down. And you're pretty close to the - the planned landing site.
+|112:07:02|CDR-LM|Yes, I think it's very close to our planned landing site and I - I'm (chuckle) - I'm anxious to see where Poppy is, because I think what I said earlier is true.
+|112:07:13|CC|Okay. That's all the questions now. Enjoy your dinner.
 |112:10:24|LMP-LM|Houston, I have calmed down, but be advised that our dinner is corn chowder.
-|112:10:24|CC|Roger.
-|112:10:24|CDR-LM|He went to captain's mast for eating that the other day.
+|112:10:35|CC|Roger.
+|112:10:42|CDR-LM|He went to captain's mast for eating that the other day.
 ||||Tape 76A/4|Page 619
-|112:16:09|LMP-LM|Gordy, Houston; 17. How do you read - or Challenger or whoever we are?
-|112:16:09|CC|Whoever you are; you're loud and clear.
-|112:16:09|LMP-LM|I took the binocs and looked at some large boulders at our 12 o'clock position. They're probably on the order of a half meter to 2 meters, buried but without strong filleting. And most of them that I could see had the same mottled light-gray and medium-gray texture, and it looked like there's a lineation in it. And whatever the mottling is, it's on a frame size or fragment size of a - or a few centimeters, and it looks as if it's very uniform in that mottling; that is, there's one -one fragment size.
-|112:16:09|CC|Okay.
-|112:16:09|LMP-LM|There are a few near one crater out at 12 o'clock -dark-gray rock that may be glass coated. Matter of fact, one of them looks like it's right at the rim and might have been part of a projectile that made the crater.
-|112:16:09|CC|Roger.
-|112:17:47|LMP-LM|The large boulder that I mentioned that's several meters in diameter - I'm not even sure it's a boulder - It does have a well-developed fillet. It's highly fractured. It looks like the fractures generally are north-south. At least you can't -we can't see end on into the fractures. And it's too far away to be sure, but it looks like it's mottled also, although there did appear in the bin - in the monocular to be a more heterogeneous mottling. It might be a breccia.
-|112:17:47|CC|Okay.
-|112:17:47|LMP-LM|That boulder ought to be very close to the ALSEP site.
-|112:17:47|CC|Roger.
+|112:16:09|LMP-LM|Gordy, Houston; 17. How do you read - or Challenger or whoever we are.
+|112:16:15|CC|Whoever you are; you're loud and clear.
+|112:16:21|LMP-LM|I took the binocs and looked at some large boulders at our 12 o'clock position. They're probably on the order of a half meter to 2 meters, buried but without strong filleting. And most of them that I could see had the same mottled light-gray and medium-gray texture, and it looked like there's a lineation in it. And whatever the mottling is, it's on a frame size or fragment size of a - or a few centimeters, and it looks as if it's very uniform in that mottling; that is, there's one -one fragment size.
+|112:17:11|CC|Okay.
+|112:17:14|LMP-LM|There are, a few near one crater out at 12 o'clock, dark-gray rock that may be glass coated. Matter of fact, one of them looks like it's right at the rim and might have been part of a projectile that made the crater.
+|112:17:35|CC|Roger.
+|112:17:48|LMP-LM|The large boulder that I mentioned that's several meters in diameter - I'm not even sure it's a boulder - It does have a well-developed fillet. It's highly fractured. It looks like the fractures generally are north-south. At least you can't - we can't see end on into the fractures. And it's too far away to be sure, but it looks like it's mottled also, although there did appear in the bin - in the monocular to be a more heterogeneous mottling. It might be a breccia.
+|112:18:28|CC|Okay.
+|112:18:32|LMP-LM|That boulder ought to be very close to the ALSEP site.
+|112:18:38|CC|Roger.
 ||||Tape 76A/5|Page 620
-|112:17:47|CDR-LM|Gordo, in reference to these boulders, everywhere I can see out of my left window and out ahead of me in referring to that boulder Jack's talking about which is just a little bit on my side at 12 o'clock, it appears that the dark mantle has filleted and, for the most part, covered - or it has covered part of or is up on top of some of the crevices and the crannies in the boulders themselves, with the exception of - Well, I'll take that back - even the very small ones. I'd say from a population point of view, boulders of the size Jack's talking about that are visible through the surface anywhere from 1 to 2 to 3 meters - a very small percentage, but when you look at them at our level, it looks like they are quite populous. I'd say there are maybe about 25 of them in view between myself and the - where the horizon falls off down away from us towards the South Massif. The area back towards Station 1, at least the other side of Trident, looks like it's more heavily strewn with some of these filleted and partially mantled large fragments.
-|112:17:47|CC|Roger, Gene.
-|112:17:47|LMP-LM|To say that there is a boulder, as such, actually sitting on the surface, I can't - I really can't find one, unless they're along - around something very small and possibly younger craters. But I think for the most part everything is somewhat mantled.
-|112:17:47|CC|Okay.
-|112:20:48|LMP-LM|Gordy, I think maybe the predictions of a fairly thin regolith were good. I have a crater at about - oh, 130 feet. It looks like it's not more than a meter deep. It's very fresh, has a bright halo around it, and it's very rocky in its Interior and has some rocks that are at least 10 or 20 centimeters in diameter on the rim. It looks like it's penetrated into some rockier - much rockier substrate than what we're seeing on the surface. The surface itself looks like a - oh, probably 15 percent fragments greater than half a centimeter.
+|112:18:47|CDR-LM|Gordo, in reference to these boulders, everywhere I can see out of my left window and out ahead of me in referring to that boulder Jack's talking about which is just a little bit on my side at 12 o'clock, it appears that the dark mantle has filleted and, for the most part, covered - or it has covered part of or is up on top of some of the crevices and the crannies in the boulders themselves, with the exception of - Well, I'll take that back - even the very small ones. I'd say from a population point of view, boulders of the size Jack's talking about that are visible through the surface anywhere from 1 to 2 to 3 meters - a very small percentage, but when you look at them at our level, it looks like they are quite populous. I'd say there are maybe about 25 of them in view between myself and the - where the horizon falls off down away from us towards the South Massif. The area back towards Station 1, at least the other side of Trident, looks like it's more heavily strewn with some of these filleted and partially mantled large fragments.
+|112:20:18|CC|Roger, Gene.
+|112:20:23|LMP-LM|To say that there is a boulder, as such, actually sitting on the surface, I can't - I really can't find one, unless they're along - around something very small and possibly younger craters. But I think for the most part everything is somewhat mantled.
+|112:20:41|CC|Okay.
+|112:20:49|LMP-LM|Gordy, I think maybe the predictions of a fairly thin regolith were good. I have a crater at about - oh, 130 feet. It looks like it's not more than a meter deep. It's very fresh, has a bright halo around it, and it's very rocky in its interior and has some rocks that are at least 10 or 20 centimeters in diameter on the rim. It looks like it's penetrated into some rockier - much rockier substrate than what we're seeing on the surface. The surface itself looks like a - oh, probably 15 percent fragments greater than half a centimeter.
 ||||Tape J6A/6|Page 621
-|112:20:48|CC|Okay, Jack.
-|112:20:48|LMP-LM|I don't see any general si - I don't see any general size, Gordy. I do have a crater out here that's - maybe a meter in diameter that - fairly fresh, although not bright halo - that has not penetrated to blocky material. And it looks like that the saturation crater size is very small in the area we can see; that is, there don't seem to be any old or very subdued craters - Well, let me -let me think about how to put that again. They're -It's obviously saturated with craters a few centimeters in diameter, but when you get bigger than that, there seems to be more of a - a clear distribution rather than a saturation.
-|112:20:48|CC|Okay.
-|112:23:02|LMP-LM|Gordy, let me give you a quick far horizon. At 12 o'clock, I've got Family Mountain. It's a -it and South Massif are a replica from their plane form where I - up from where I am, except that Family Mountain is much more symmetrical and rounds off to a very more definite peak. The South Massif, in turn, has got a high plateau, a high flat peak on top. My far horizon then, at 12 o'clock, from about - to 11:30 is dominated by Family Mountain. It's - Well, I hate to use the word anorthosite without getting out of the spacecraft, but it sure is white. It sure is white, but its varied shades of white - with - sort of a -a tendency on its southern or southeastern slope to sort of be marble caked with a darker material much the same color as the mantle that we're - we've landed on. The Family Mountain disappears just about at the level of the rim of Camelot on my far horizon and just in front of it - It starts out - that's at about 11 o'clock - it just - just there is where the South Massif starts up very abruptly - I'd say - well, I'll try not to overestimate, but certainly 30 degrees, I'd say - very abruptly to a very impressive altitude. I know I was at 13,000 when I said I was at their level, but - it sure looked it from there. It - it plateaus off from about 10:30 to about 9;30, and then it starts sloping back down towards the east at about the same angle. Very symmetrical. There are several places where you can see what appear to be outcrops. I say several - about a dozen anyway, where you can see relatively large areas of outcrop on the South Massif. That outcrop is a - of a darker gray color than the white-gray of the Massif itself. The one most domineering -dominant outcrop is right at the change in slope to the west, where it goes upslope and then plateaus off, and there is a definite outcrop. And you can see several boulders on all levels of the Massif that have come apparently from outcrops and I feel certain we will be able to get to some of those - that have come all the way down. South Massif, too, is a - appears to be in areas marbly caked dirty, such as if it was sprinkled with a dirty or a darker covering, and that covering is more evident as - as it slopes back here towards the - towards the east. As the far horizon now, I can see - I can see - South Massif all the way to 9 o'clock, but then behind it, there's just a little breadloaf-type dome of a much darker, much more hummocky mound back there, relatively big. It's probably, from where I stand, at least 10 percent the - the size of the Massif, the South Massif. Gray in texture. There appear to be some lineations running - well, as I'm looking at them, they're dipping down into the west at about 20 degrees, but that may be a Sun-angle problem. But they're definitely there. And then, contrasting that is - is Bare Mountain which is also much darker gray, much different than the Massif from where I stand, much more hummocky surface. It appears to be to me what I would expect Sculptured Hills to be like. One other thing about the South Massif is that - as I look at - as I look at it -at about 9:30 to 10:30, there is a little knob of the South Massif that sort of flows toward -towards the east or slightly towards the northeast. That's the one that tends to be a little bit more heavily covered with the - darker dusty material - -
+|112:21:56|CC|Okay, Jack.
+|112:21:57|LMP-LM|I don't see any general si - I don't see any general size, Gordy. I do have a crater out here that's - maybe a meter in diameter that - fairly fresh, although not bright halo - that has not penetrated to blocky material. And it looks like that the saturation crater size is very small in the area we can see; that is, there don't seem to be any old or very subdued craters - Well, let me -let me think about how to put that again. They're - It's obviously saturated with craters a few centimeters in diameter, but when you get bigger than that, there seems to be more of a - a clear distribution rather than a saturation.
+|112:22:57|CC|Okay.
+|112:23:03|LMP-LM|Gordy, let me give you a quick far horizon. At 12 o'clock, I've got Family Mountain. It's a - it and South Massif are a replica from their plane form where I - up from where I am, except that Family Mountain is much more symmetrical and rounds off to a very more definite peak. The South Massif, in turn, has got a high plateau, a high flat peak on top. My far horizon then, at 12 o'clock, from about - to 11:30 is dominated by Family Mountain. It's - Well, I hate to use the word anorthosite without getting out of the spacecraft, but it sure is white. It sure is white, but its varied shades of white - with - sort of a - a tendency on its southern or southeastern slope to sort of be marble caked with a darker material much the same color as the mantle that we're - we've landed on. The Family Mountain disappears just about at the level of the rim of Camelot on my far horizon and just in front of it - it starts up - that's at about 11 o'clock - it just - just there is where the South Massif starts up very abruptly - I'd say - well, I'll try not to overestimate, but certainly 30 degrees, I'd say - very abruptly to a very impressive altitude. I know I was at 13,000 when I said I was at their level, but - it sure looked it from there. It - it plateaus off from about 10:30 to about 9:30, and then it starts sloping back down towards the east at about the same angle. Very symmetrical. There are several places where you can see what appear to be outcrops. I say several - about a dozen anyway, where you can see relatively large areas of outcrop on the South Massif. That outcrop is a - of a darker gray color than the white-gray of the Massif itself. The one most domin - dominant outcrop is right at the change in slope to the west, where it goes upslope and then plateaus off, and there is a definite outcrop. And you can see several boulders on all levels of the Massif that have come apparently from outcrops and I feel certain we will be able to get to some of those - that have come all the way down. South Massif, too, is a - appears to be in areas marbly caked dirty, such as if it was sprinkled with a dirty or a darker covering, and that covering is more evident as - as it slopes back here towards the - towards the east. As the far horizon now, I can see - I can see - South Massif all the way to 9 o'clock, but then behind it, there's just a little breadloaf-type dome of a much darker, much more hummocky mound back there, relatively big. It's probably, from where I stand, at least 10 percent the - the size of the Massif, the South Massif. Gray in texture. There appear to be some lineations running - well, as I'm looking at them, they're dipping down into the west at about 20 degrees, but that may be a Sun-angle problem. But they're definitely there. And then, contrasting that is - is Bare Mountain which is also much darker gray, much different than the Massif from where I stand, much more hummocky surface. It appears to be to me what I would expect Sculptured Hills to be like. One other thing about the South Massif is that - as I look at - as I look at it - at about 9:30 to 10:30, there is a little knob of the South Massif that sort of - oh flows toward - towards the east or slightly towards the northeast. That's the one that tends to be a little bit more heavily covered with the - darker dusty material - -
 ||||Tape ?6A/7|Page 622
-|112:28:06|CC|Challenger, Houston, over.
+|112:28:08|CC|Challenger, Houston, over.
 ||||Tape 76A/8|Page 623
-|112:28:06|LMP-LM|There are. Go ahead.
-|112:28:06|CC|Okay. We're about 12 - 13 minutes behind the time line for starting cabin preps. And backroom is enjoying your descriptions, but we think we'd rather you press on with the preps and get ready to get out for a really good view. Over.
-|112:28:06|LMP-LM|Okay* Gordy. We're - we're doing this and eating too - We're trying to do them both at the same time, and we are pressing. Just want to say one other thing about the Massif. I can see a couple of places where craters have - have penetrated very small craters and penetrated the Massif -craters maybe a meter or 2 in size, some 5 meters, and there's a lot of rock debris around them, which tends to believe that there is very little, if any, soft covering on that Massif.
-|112:28:06|CC|Roger.
-|112:28:06|LMP-LM|Gordy, just a couple more words about the North Massif. It looks like a good distribution of boulder tracks. Many of the boulders are accessible. They are - the tracks can be traced up, at least to midslope. That's at my 3 o'clock position And occasionally, at that midslope position, particularly northwest of Henson, you can see abun-dent boulders suggestive of outcrop. That's something that we had missed seeing on the pre-mission photos. But - And it isn't as abundant as on the South Massif, but there are apparent ledge formers about midslope.
-|112:30:08|CDR-LM|Yes, let's make ... I don't know ... a lot of ... No way it could be 1.
-|112:30:08|CDR-LM|Give me that ... throw away.
-|112:31:03|LMP-LM|Okay, Gordy. There's also a few very bright sparks - sparkles from the surface - not abundant, but a few.
-|112:31:03|CDR-LM|Well, let me - I - I need these.
+|112:28:12|LMP-LM|There are. Go ahead.
+|112:28:13|CC|Okay. We're about 12 - 13 minutes behind the timeline for starting cabin preps. And backroom is enjoying your descriptions, but we think we'd rather you press on with the preps and get ready to get out for a really good view. Over.
+|112:28:34|LMP-LM|Okay, Gordy. We're - we're doing this and eating too - We're trying to do them both at the same time, and we are pressing. Just want to say one other thing about the Massif. I can see a couple of places where craters have - have penetrated very small craters and penetrated the Massif -craters maybe a meter or 2 in size, some 5 meters, and there's a lot of rock debris around them, which tends to believe that there is very little, if any, soft covering on that Massif.
+|112:29:06|CC|Roger.
+|112:29:08|LMP-LM|Gordy, just a couple more words about the North Massif. It looks like a good distribution of boulder tracks. Many of the boulders are accessible. They are - the tracks can be traced up, at least to midslope. That's at my 3 o'clock position. And occasionally, at that midslope position, particularly northwest of Henson, you can see abundant boulders suggestive of outcrop. That's something that we had missed seeing on the pre-mission photos. But - And it isn't as abundant as on the South Massif, but there are apparent ledge formers about midslope.
+|112:30:10|CDR-LM|Yes, let's make ... I don't know ... a lot of ... No way it could be 1.
+|112:30:49|CDR-LM|Give me that ... throw away.
+|112:31:04|LMP-LM|Okay, Gordy. There's also a few very bright spark - sparkles from the surface - not abundant, but a few.
+|112:31:18|CDR-LM|Well, let me - I - I need these.
 ||||Tape 76A/9|Page 624
-|112:33:52|CC|Challenger, Houston. I'm going to hand you over to the good Dr. Parker here. Have a good trip outside there.
-|112:33:52|CDR-LM|Gordy, thank you. You do outstanding work and we sure do appreciate it, babe.
-|112:33:52|CC|My pleasure.
+|112:33:53|CC|Challenger, Houston. I'm going to hand you over to the good Dr. Parker here. Have a good trip outside there.
+|112:34:01|CDR-LM|Gordy, thank you. You do outstanding work and we sure do appreciate it, babe.
+|112:34:08|CC|My pleasure.
+|112:36:18|PAO|This is Apollo Control at 115 hours 16 minutes. Mission Control at presently is using these coordinates as the landing point. We will continue to try to refine that landing point further. But, as of now, we're saying the landing point is 20 degrees 9 minutes 50 seconds north, 30 degrees 46 minutes 19 seconds east. This would correspond to — on the map, for those of you who have grid maps, DM 8 and 82.7. This —
 |112:37:12|CDR-LM|Bob, we'll give you a call in a minute. We just made a couple of suit adjustments.
-|112:37:12|CC|Okay. Copy that.
+|112:37:18|CC|Okay. Copy that.
+|112:37:25|PAO|It's estimated that the lunar module, Challenger, is on the planned north south line and approximately 1 to 200 meters east of the planned landing point.
+|112:38:35|PAO|This is Apollo Control at 115 hours 18 minutes. We want to distinguish between the targeted landing point and the planned landing point. It had been the crew's intention all along to land approximately 200 meters east or short of the targeted landing point, the point at which the computer was targeting the Challenger. So, we believe that Challenger is approximately 300 meters east of the targeted landing point, which would put it about 100 to 200 meters east of the planned landing point.
 |112:40:38|CC|Apollo 17, Houston.
-|112:40:38|CDR-LM|Go ahead, Bob.
-|112:40:38|CC|Okay, Challenger; we've just lost about 16 dB on your high gain signal strength there. We're wondering if you happened to hit the switch there, has it moved, or could you give us a check on it?
-|112:40:38|CDR-LM|We're nowhere near it. Stand by 1.
-|112:40:38|CC|Okay. And, Challenger, that should be a PITCH of 21 and a YAW of minus 45*
-|112:40:38|CDR-LM|Plus 21 and minus 45; Roger. Bob, about 2 minutes here.
+|112:40:45|CDR-LM|Go ahead, Bob.
+|112:40:46|CC|Okay, Challenger; we've just lost about 16dB on your high gain signal strength there. We're wondering if you happened to hit the switch there, has it moved, or could you give us a check on it?
+|112:41:02|CDR-LM|We're nowhere near it. Stand by 1.
+|112:41:22|CC|Okay. And, Challenger, that should be a PITCH of 21 and a YAW of minus 45.
+|112:41:32|CDR-LM|Plus 21 and minus 45; Roger. Bob, about 2 minutes here.
+|112:41:38|CC|Okay.
 |112:46:30|LMP-LM|Bob, this is Jack. On that high gain, I'm up close to 39 now,, which is better than when we landed. Do you want me to do anything to it?
 |112:46:30|CC|Stand by on that.
 |112:46:30|CC|Leave it alone. It seems to have gone away, Jack. It may have been a ground problem.
