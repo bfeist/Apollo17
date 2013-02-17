@@ -74,4 +74,9 @@
 |110:09:57 - PDI Ignition *******
 |110:13:13 - LANDED *******
 |112:16:09 - "whoever we are"
+|114:21:38 - Watches started on first EVA.
+|114:31:13 - FIRST STEP
+|114:34:50 - "don't lock the hatch"
+|114:38:57 - Challenge next generation
+|114:46:07 - twinkle toes
 

@@ -8813,1039 +8813,896 @@
 |112:41:22|CC|Okay. And, Challenger, that should be a PITCH of 21 and a YAW of minus 45.
 |112:41:32|CDR-LM|Plus 21 and minus 45; Roger. Bob, about 2 minutes here.
 |112:41:38|CC|Okay.
-|112:46:30|LMP-LM|Bob, this is Jack. On that high gain, I'm up close to 39 now,, which is better than when we landed. Do you want me to do anything to it?
-|112:46:30|CC|Stand by on that.
-|112:46:30|CC|Leave it alone. It seems to have gone away, Jack. It may have been a ground problem.
-|112:46:30|CC|Did you guys adjust it, Jack?
-|112:46:30|LMP-LM|Yes, Bob. We had to fix the drink bags and a couple other things.
+|112:46:30|LMP-LM|Bob, this is Jack. On that high gain, I'm up close to 39 now, which is better than when we landed. Do you want me to do anything to it?
+|112:46:43|CC|Stand by on that.
+|112:46:49|CC|Leave it alone. It seems to have gone away, Jack. It may have been a ground problem.
+|112:46:57|CC|Did you guys adjust it, Jack?
+|112:47:04|LMP-LM|Yes, Bob. We had to fix the drink bags and a couple other things.
 ||||Tape 76A/10|Page 625
-|112:46:30|CC|No. Did you guys adjust the high gain antenna?
-|112:46:30|LMP-LM|No. I didn't touch it.
-|112:46:30|CC|Okay. Copy that.
-|112:46:30|CDR-LM|Buddy SLSS's in there?
-|112:46:30|LMP-LM|No. That's over there. Oh, did they? *** in there? I don't - I thought it was over on your side. Okay? Okay, that's over there. Bigger than it used to.
-|112:47:51|CC|And, Challenger, we have your hot mike.
-|112:47:51|LMP-LM|Well, because I - -
-|112:49:04|CC|Challenger, Houston. Over.
-|112:49:04|CDR-LM|Go ahead, Bob.
-|112:49:04|CC|Okay. When you guys get to the top of page 2-5, and I assume you're down still in the - ETBs from what your comments were on the hot mike there. When you get to the top of page 2-5, we'd like you to put both DEMAND REGs to EGRESS. Over.
-|112:49:04|CDR-LM|Okay, Bob. Will do. We'll give you a call as we go along.
-|112:49:04|CC|Roger. Thank you.
+|112:47:10|CC|No. Did you guys adjust the high gain antenna?
+|112:47:16|LMP-LM|No. I didn't touch it.
+|112:47:18|CC|Okay. Copy that.
+|112:46:20|CDR-LM|Buddy SLSS's in there?
+|112:46:23|LMP-LM|No. That's over there. Oh, did they? ... in there? I don't - I thought it was over on your side. Okay? Okay, that's over there. Bigger than it used to.
+|112:47:52|CC|And, Challenger, we have your hot mike.
+|112:47:59|LMP-LM|Well, because I - -
+|112:49:05|CC|Challenger, Houston. Over.
+|112:49:10|CDR-LM|Go ahead, Bob.
+|112:49:11|CC|Okay. When you guys get to the top of page 2-5, and I assume you're down still in the - ETBs from what your comments were on the hot mike there. When you get to the top of page 2-5, we'd like you to put both DEMAND REGs to EGRESS. Over.
+|112:49:28|CDR-LM|Okay, Bob. Will do. We'll give you a call as we go along.
+|112:49:31|CC|Roger. Thank you.
+|112:40:36|PAO|This is Apollo Control at 115 hours 30 minutes. Ron Evans in America has about 14 and a half minutes left before loss of signal on the 14th revolution. He's -
 |112:50:55|CDR-LM|Hey, Bob, while I'm thinking of it, we're - we're working with one pair of scissors down here. We're going to take them out with us in the ETB. You might make a point of reminding us to bring them back.
-|112:50:55|CC|Okay. I copy that. Never did find Ron's, huh?
-|112:50:55|CDR-LM|No, sir, and I couldn't just leave him up there starving to death.
-|112:50:55|CC|Roger on that.
-|112:50:55|CDR-LM|By the way, how's he doing?
+|112:51:05|CC|Okay. I copy that. Never did find Ron's, huh?
+|112:51:12|CDR-LM|No, sir, and I couldn't just leave him up there starving to death.
+|112:51:19|CC|Roger on that.
+|112:51:25|CDR-LM|By the way, how's he doing?
 ||||Tape 76A/11|Page 626
-|112:50:55|CC|Stand by.
-|112:50:55|CC|Challenger, Houston. Your buddy is doing great, and the sounder is also doing great, which is a surprise, I guess.
-|112:50:55|CDR-LM|I'm glad to hear that.
-|112:50:55|LMP-LM|That was no surprise, Bob. We wouldn't have taken it if it wasn't going to work.
-|112:50:55|CC|I thought about that after I said it.
-|112:53:09|CDR-LM|Bob, I just turned the URINE LINE HEATER, ON.
-|112:53:09|CC|Copy that.
-|112:53:09|CDR-LM|And the physical status of the crew is excellent, by the way.
-|112:53:09|CC|Beautiful, The Surgeon's happy.
-|112:51:35|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.
-|112:51:35|CC|Okay. We'd like you to have DEMAND REGs, both of them, go to EGRESS, please.
+|112:51:28|CC|Stand by.
+|112:51:42|CC|Challenger, Houston. Your buddy is doing great, and the sounder is also doing great, which is a surprise, I guess.
+|112:51:51|CDR-LM|I'm glad to hear that.
+|112:51:57|LMP-LM|That was no surprise, Bob. We wouldn't have taken it if it wasn't going to work.
+|112:52:04|CC|I thought about that after I said it.
+|112:53:10|CDR-LM|Bob, I just turned the URINE LINE HEATER, ON.
+|112:53:14|CC|Copy that.
+|112:53:27|CDR-LM|And the physical status of the crew is excellent, by the way.
+|112:53:32|CC|Beautiful, The Surgeon's happy.
+|112:54:36|CDR-LM|Say, Bob, we're at the top of 2-5, and I forgot what it was you wanted me to do up there.
+|112:54:43|CC|Okay. We'd like you to have DEMAND REGs, both of them, go to EGRESS, please.
 |112:54:49|CDR-LM|Yes, sir. Okay, they're EGRESS now.
-|112:54:49|CC|Okay, thank you.
-|112:57:36|CDR-LM|Oksgr, Bob, we're in the middle of the first paragraph on - at 115:15 in the time line.
-|112:57:36|CC|Okay; copy that.
+|112:54:53|CC|Okay, thank you.
+|112:56:34|PAO|Ron Evans has just reported seeing a light flash just to the east of crater Orientale.
+|112:57:36|CDR-LM|Okay, Bob, we're in the middle of the first paragraph on - at 115:15 in the time line.
+|112:57:44|CC|Okay; copy that.
+|113:01:25|PAO|This is Apollo Control at 115 hours 41 minutes. Neil Hutchinson who has been the Flight Director for the CSM America during this past shift will be in the MSC News Center in approximately 15 minutes for a news conference for those men who would like to discuss the CSM with him.
+|113:02:30|PAO|This is Apollo Control. This upcoming news conference will not be carried on the Public Affairs release line. We will continue carrying the air-ground from Challenger on the lunar surface. The CSM press conference will not be carried on this PAO release line.
 |113:04:12|CDR-LM|CDR's OPS ... 5800.
-|113:04:12|CC|Okay; we copy 5800.
-|113:04:45|LMP-LM|LMP's OPS is 6000 plus.
-|113:04:45|CC|Copy that, Jack.
-|113:04:45|LMP-LM|Okay, eng.
+|113:04:18|CC|Okay; we copy 5800.
+|113:04:46|LMP-LM|LMP's OPS is 6000 plus.
+|113:04:51|CC|Copy that, Jack.
+|113:04:57|LMP-LM|Okay, eng.
+|113:05:15|PAO|This is Apollo Control at 115 hours 45 minutes. We've just had a loss of signal with America, which has now gone behind the Moon. We'll next acquire the command module at 116 hours 30 minutes. All going well with Evans in America.
 ||||Tape 76A/12|Page 627
 |113:05:31|CDR-LM|Okay. Both regulators are reg - regulating slightly under 4.0.
-|113:05:31|CC|Copy that, Challenger.
+|113:05:40|CC|Copy that, Challenger.
 |113:09:48|CDR-LM|Okay, Bob. The URINE LINE HEATER is OFF and the URINE LINE BREAKER is OPEN, and we are down to applying antifog.
-|113:09:48|CC|Okay. Copy that, Challenger.
+|113:10:03|CC|Okay. Copy that, Challenger.
+|113:11:18|PAO|This is Apollo control at 115 hours 51 minutes. The crew of Challenger, Gene Cernan and Jack Schmitt, are running approximately 20 to 25 minutes behind the timeline at present - 20 to 25 minutes behind the timeline. We'll continue to keep you updated as we go along.
+|113:16:44|PAO|This is Apollo Control at 115 hours 56 minutes. We have an update on the location of Challenger. Coordinates 20 degrees 9 minutes 41 seconds north, 30 degrees 45 minutes 25.9 seconds east.
 |113:17:12|LMP-LM|Okay, Bob, the BRA is stowed.
-|113:17:12|CC|Okay. Copy that, Challenger.
+|113:17:17|CC|Okay. Copy that, Challenger.
+|113:17:30|PAO|Map grid coordinates DM 682.1. This location is about 80 meters south, 220 meters east of the targeted landing point.
+|113:18:33|PAO|This location would make it very close to the planned landing point which was approximately 200 meters east of the targeted landing point.
 |113:20:15|LMP-LM|Okay. We're at "Starting PLSS donning on LMP."
-|113:20:15|CC|Roger. Copy that.
-||||Tape T6B/1|Page 628
-|113:54:45|CMP|Okay, Houston. This is America. Looks like you're with me now.
-|113:54:45|CC|That's affirmative, America. We read you loud and clear.
-|113:54:45|CMP|Okay.
-|113:54:45|CC|Did you get the pan camera start time there, Ron?
-|113:54:45|CMP|That's affirm. But, I got a 31:11 instead of 31:10.
-|113:54:45|CC|Oh, Roger. No problem.
-|113:54:45|CMP|Okay. (Laughter) I'll try to do better next time.
-|113:54:45|CC|America, is the bird in good shape?
-|113:54:45|CMP|So far as I know.
-|113:54:45|CC|Okay, great. Anytime you want to start taking a Flight Plan update, just let me know.
-|113:54:45|CMP|Okay. (Cough) Give me a little bit of time to lead into the landing site there, and we can go ahead and do it now.
-|113:54:45|CC|Okay.
-|113:54:45|CC|The first thing is at 119:00, 119:00. Add the following words, Ron: "Configure camera." In parenthesis, "Earthshine photos. CM5, command module 5 window/November Kilo. Nikon/55/VHBW." That's Victor Hotel Bravo Whiskey.
-|113:54:45|CMP|Okay.
-|113:54:45|CC|In parenthesis; f/1.2, 1, infinity, end of parenthesis. Eighteen frames FR - 18 FR.
-||||Tape 76B/2|Page 629
-|113:54:45|CMP|Good.
-|113:54:45|CC|Magazine Zulu Zulu.
-|113:54:45|CMP|Okay, got it.
-|113:54:45|CC|Okay. Go down to 119:24 and add the following. Let me just read it to you in - quickly here, so you can put in the words you want to. The words are "Point at target marked by LMP. Use same technique as for Copernicus central peak."
-|113:54:45|CMP|Okay. We'll point at the target by the LMP. Use the same technique, which is starting out at 1 second - -
-|113:54:45|CC|Roger, Let me read it to you.
-|113:54:45|CMP|- - was it 30 seconds?
-|113:54:45|CC|Roger, 1 second, two frames; 1/2 second, two frames; 1/4 second, two frames; 1/8 second, two frames; l/l6 second, two frames. On Copernicus, we're using a 30-second interval. It's not important, - the interval. It's mainly just the stop settings on that. You're going to use a total of 10 frames.
-|113:54:45|CMP|Okay.
-|113:54:45|CC|Okay, then add the following after that: After completion of above, switch to window CB3. For 8 frame of end of target, Papa 17 Delta. At 30-second intervals. Record frame number.
-|113:59:52|CMP|Okay, I've got to switch to window number 3 for end of target. Say again, the target number.
-|113:59:52|CC|P, as in Papa; 17 Delta, D as in Delta. 17 Delta.
-|113:59:52|CMP|Okay, Papa 17 Delta.
-|113:59:52|CC|As 30-second intervals.
-|113:59:52|CC|Okay, Ron. There is a caution note on this. It's a note concerning the frame usage.
-||||Tape 76B/3|Page 630
-|113:59:52|CMP|Seems to me like Zebra Zebra only has 18 frames, doesn't it?
-|113:59:52|CC|That's affirm. Do not exceed 18 frames. The balance of mag Zebra Zebra was used for preflight calibration. Do not exceed 18 frames. You can put that down any way you want it.
-|113:59:52|CMP|Okay.
-|113:59:52|CC|Okay. Under rev 17, I've got a note - a similar note, Ron, for rev 17.
-|113:59:52|CMP|Okay.
-|113:59:52|CC|The note is, do not exceed 40 frames on earthshine mag Whiskey Whiskey. Balance of magazine was used for preflight cal. I'll say again, do not exceed 40 frames on earthshine mag Whiskey Whiskey.
-|113:59:52|CMP|Okay, on mag Whiskey Whiskey don't exceed 40 frames. The balance is already on calibration.
-|113:59:52|CC|That's affirmative. And I've got three notes then, Ron, just general notes - may come up in the crew film area. Mag Papa Papa for crew option. Just use mag Papa Papa for crew option. Do not use Kilo Kilo for crew option. Do not use Kilo Kilo for crew option. The last one is save all the remaining VHBW on Quebec Quebec and Romeo Romeo for scheduled photos. We have a very small margin on each.
-|113:59:52|CC|... end of update.
-|113:59:52|CMP|That was - Okay, save all remaining on Quebec Quebec. And what was the other one, Jack?
-|113:59:52|CC|Romeo Romeo.
-|113:59:52|CMP|Okay, no extras on those two, then - on the VHBW, huh?
-|113:59:52|CC|Yes, we got a very small margin on those now. And, you're about 10 minutes prior to landing site orbital. Why don't you go over and start studying that, if you want?
-||||Tape 76B/4|Page 631
-|114:03:20|CMP|Okay.
-|114:11:52|CMP|You know you look at - next to Macrobius A, there is a lind of a dark halo-type crater there. Very small one. And it doesn't have the appearance of a hummocky crater rim to it, at all. It looks like the material just kind of spreads out all over the area, but it doesn't have a hummocky appearance to it. I'm going to take a look at that again when I come back - on back around on the other side. There's a small mound down in the bottom of the crater, also. It's a domicalshaped structure in the bottom of that small crater. It's right next to J3. North of J3.
-|114:11:52|CC|Roger, Ron.
-|114:11:52|CMP|Coming in, I can see the landing site, now -quite well. The appearance of the slide area definitely shows up. The South Massif seems to have the Sun shining right on the walls. I'm looking for any type of layering, or anything like that. And can't see anything that - that would show that up. The big difference between the massif structures and the Sculptured Hills is that the massifs look like they are a steeper slope. And they - they don't seem to have that type of covering over them, like the Sculptured Hills do.
-|114:11:52|CMP|I'm right over now. The scarp definitely cuts up through the North Massif. I can't see continuation on into the South Massif at all. But, you can definitely see a vertical exaggeration as it cuts on around up over the North Massif. And it's almost - I'd have to take another look at it for sure, but it almost looks like a flow coming from Family or in the vicinity - in the direction of Family Mountain - but from the direction of Family Mountain - lapping up on the side of the North Massif. That's the way it looks as you go on by it. I couldn't see anything that would lead you to believe that the slide area, so to speak, would come on across anything that would be the source of that slide area. I still think I can see the -one spot that has a lighter albedo than the surrounding area there in the Pentagon complex. And it's pretty close to the - Let me get my chart out here and take a look at it again.
-||||Tape T6B/5|Page 632
-|114:16:50|CMP|No, it still looks like that area that's blown away there is Dog November - between Dog November and Dog Papa. And about 83.4 or something like that.
-|114:17:07|CC|Copy.
-|114:17:07|CMP|Yes, just like the map shows, and all the pictures, you've got a definite demarcation in the annulus around Serenitatis here, as you look by Sulpicius Gallus area. As you look at it - I'm going to have to take another check on it - but the dark annulus looks to me like it's raised above the mare, proper, itself. I'll check that a little more as we come on across.
-|114:17:07|CMP|You know all those rilles to the north of - I mean to the west of Sulpicius Gallus. There is a bunch of crisscrossing. One is right on the edge of the Serenitatis basin - and I don't remember the name of that crater, I'll have to look it up later - but they've got slightly raised rims around the rilles. You can see some layering down inside the rille itself, in the east-west and the one that runs in the east-west direction.
-|114:17:07|CC|Roger. You're talking about near Menelaus?
-|114:17:07|CMP|Yes, I'll have to look on the map and see for sure what the crater is, but there's an impact crater right on the edge of Serenitatis basin -right on the terminator. Right now.
-|114:17:07|CC|P.oger.
-|114:17:07|CMP|And then those rilles are just to the north of that crater.
-|114:17:07|CC|Roger. That's probably Menelaus - M-e-n-e-l-a-u-s -Menelaus.
-||||Tape 76B/6|Page 633
-|114:17:07|CMP|I think it is.
-|114:17:07|CC|Okay, Ron. Is The PAN CAMERA, OFF? T-stop time. PAN CAMERA to STANDBY. T-stop time.
-|114:17:07|CMP|Okay. Is it now?
-|114:17:07|CC|Roger. You're just a little bit past it.
-|114:17:07|CMP|Oh, okay, thank you. (Chuckle) Okay, PAN CAMERA -STANDBY. Thank you. That's the first chance I had to look at the Moon, you know. These guys - -
-|114:17:07|CC|Roger.
-|114:17:07|CMP|- - let me look at the windows.
-|114:17:07|CC|That's all right. We don't mind calling you, if you don't mind getting the call.
-|114:17:07|CMP|(Chuckle) No, not in the least.
-|114:17:07|CC|Ron, I'll give you a cue here shortly for PAN CAMERA - OFF. I just want you to know, we will not be retracting the mapping camera; and, therefore, we will not be closing the mapping camera, laser altimeter cover. But we will be dumping normally. Over.
-|114:17:07|CMP|Okay. We're going to dump with the mapper open, is what you're saying, huh?
-|114:17:07|CC|That * s aff innative.
-|114:17:07|CMP|Okay.
-|114:17:07|CMP|You know it looks to me like it all disappears anyhow. It just kind of leaves the spacecraft. I don't think anything comes around or even sticks around.
-|114:17:07|CC|Roger, Ron.
-|114:22:03|CC|At your convenience, HIGH GAIN to AUTO.
-|114:22:03|CMP|You have HIGH GAIN to AUTO.
-||||Tape 76B/7|Page 634
-|114:22:03|CC|Thank you, sir.
-|114:22:03|CMP|Okay, it's orbital science photos coming up here. Do you want to use magazine KK still? Or should we finish up Oscar Oscar?
-|114:22:03|CC|Stand by, Ron. Checking with Tommy on that one.
-|114:22:03|CC|Ron, they'd like you to use mag KK on that.
-|114:22:03|CMP|Okay.
-|114:22:03|CC|While you're looking at the Flight Plan there, at 117'-20 where that mapping camera stuff - just delete mapping camera, retract; and mapping camera, laser altimeter cover, closed at 117:15-
-|114:22:03|CMP|Okay. Delete mapping camera, retract; arid mapping camera, laser altimeter, closed. Okay.
-|114:22:03|CC|Roger.
-|114:22:03|CMP|Okay, magazine KK is starting with 21 pictures.
-|114:22:03|CC|Roger. We copy.
-|114:22:03|CMP|Okay. Bob, if - would you give me a call when you get ready for that mapping camera stuff? I was kind of shoved off this morning, and I got to sample their buses.
-|114:22:03|CC|Yes. Roger, Ron. We'll give you a call - first one will probably be a pan camera call here shortly, and then I'll call you when it's time for those purge line heaters - things like that.
-|114:26:20|CMP|Okay.
-|114:26:20|CC|Okay, Ron, PAN CAMERA POWER to OFF.
-|114:28:22|CMP|Okay, PAR CAMERA POWER - Let's see. PAN CAMERA POWER is OFF.
-|114:28:22|CC|Thank you, sir.
-|114:28:22|CMP|Good.
-||||Tape 76B/8|Page 635
-|114:28:22|CMP|Hey, this is not so bad, if you think of iced tea, I guess.
-|114:28:22|CC|Roger.
-|114:28:22|CC|Just for your information, Ron. Gene's out on the surface right now.
-|114:28:22|CMP|Oh, they are? Hey, great I
-|114:28:22|CMP|Did they confirm my position yet?
-|114:28:22|CC|I don't - Let me check here - I don't think we have it pinned down exactly. You're pretty darn close to it. That's for sure.
-|114:32:25|CMP|You know, it's funny. It wasn't as bright - That pass over - This last pass - as it was the time before.
-|114:41:05|CC|I hope you haven't - I hope you haven't spilled any; and, by the way, LMP is on the surface now, too.
-|114:41:05|CC|America, Houston. You can go with the HO PURGE HEATERS now.
-|114:41:05|CC|America, Houston.
-|114:41:05|CMP|Houston, America. Go ahead.
-|114:41:05|CC|Roger. You can go with the H2 PURGE LINE HEATERS and the rest of that Flight Plan.
-|114:41:05|CMP|Okay. What do you know? The PURGE LINE HEATERS have been ON.
-|114:41:05|CC|Roger. We kind of suspected that.
-|114:41:05|CMP|Okay. (Laughter) Okay. Let's see. MAPPING CAMERA can come OFF. Thirty seconds.
-|114:45:31|CMP|Okay, MAPPING CAMERA is going to STANDBY. IM PITCH MOTION is OFF. Altimeter - LASER ALTIMETER -is OFF. UV is OFF. IR is OFF. Okay, UV cover -box. UV COVER is CLOSED; barber pole, gray. IR COVER is CLOSED; barber pole, gray. Okay, MAP CAMERA LASER ALTIMETER - we'll leave that one OPEN.
-||||Tape T6B/9|Page 636
-|114:45:31|CC|Good show, Ron.
-|114:45:31|CMP|Okay. Then it's my understanding you don't want to do any dumping until I go on the back side of the Moon. Is that correct?
-|114:45:31|CC|That's affirm, Ron.
-|114:45:31|CMP|Okay.
-|114:45:31|CC|According to the Flight Plan, you do it at 117:50. Right about that time.
-|114:45:31|CMP|Okay. Will do.
-|114:48:23|CMP|Bob, one little notice. Supplies I had this morning. Might made notes, so I wouldn't forget about it. It was when you go to tunnel vent, it takes a heck of a long time to vent that tunnel. In the simulator down there, you go to tunnel vent, and it flips right down and vents. And I was beginning to wonder if it - if it was leaking or something.
-|114:48:23|CC|Roger.
-|114:48:23|CMP|As it turned out, as it turns out, it worked out all right. But I bet it took a good 10 minutes, -to get up to 3.5. Before I could turn the jets back on, you know.
-|114:48:23|CC|Roger.
-|114:48:23|CMP|Go, that's ready to go.
-|114:48:23|CC|Ron, just one reminder as we go around the horn here. The waste water - the way - the position it is in will probably take between 10 and 12 minutes to dump it completely. Or dump it to your .10 percent number.
-|114:48:23|CMP|Okay, that's good. Oh, glad I don't have anybody watching for me this time. Do I?
-|114:48:23|CC|Yes, that's right. We won't be able to call you on that. When it's down to 8 percent.
-||||Tape 76B/10|Page 637
-|114:48:23|CMP|(Laughter) Okay, I'll put my old timer on.
-|114:48:23|CC|Hey, Ron, one other reminder. We know it's in the Flight Plan, but you may get real busy just prior to that orbital science photos. And EECOM would like to make sure you get the H purge line heaters off, as scheduled, at 118:02.
-|114:48:23|CMP|Okay. Okay, is she in there? Yes - it's in the Flight Plan. Okay.
-|114:53:21|CC|Roger; it's in the Flight Plan. But it's just before you're going to get busy on that orbital science photo. You might of - you might go to the window earlier or something.
-|114:53:21|CMP|Okay. It's a good point.
-|114:53:21|CC|And your friends out on the surface have the Rover out now and - starting to load it up and getting ready to check it out.
-|114:53:21|CMP|Hey, great 1
-|114:53:21|CC|The surface work is going really good. They're just a little bit behind the time line from their suiting-up exercise. But it doesn't make a whole lot of difference.
-|114:53:21|CMP|Uhuh. Uhuh. 250 lens on that thing.
-|114:58:19|CC|Ron, you're 5 minutes to LOS here. And you're looking real good all around the room. No problems with any of the systems that we can see. We'll see it at 118:29. And we'll be with you for another 5 minutes here.
-|114:58:19|CMP|118:29, okay. Okay, we're going to have a little grape drink.
-|114:58:19|CC|Just remember what Jan says. Don't spill it on your flight suit.
-|114:58:19|CMP|(Laughter) Right.
-||||Tape 76B/11|Page 638
-|114:58:19|CMP|Did I miss lunch? Or wasn't I supposed to get any lunch today?
-|114:58:19|CC|I don't know, that wasn't on my shift. But if you're hungry, why don't you eat something?
-|114:58:19|CMP|(Laughter) That's what I'm doing.
-|114:58:19|CC|It's been a long time since lunch - -
-|114:58:19|CMP|I'm nibbling.
-|114:58:19|CMP|Yes. Long time since breakfast, I think, wasn't it?
-|114:58:19|CC|Yes, I think it was. And you got about 4 more hours until scheduled eat time. So - you got some lunar sounder work there - and about 119 or so, so you might as well consider eating a lot.
-|114:58:19|CMP|Yes, I could eat dinner. I'm kind of nibbling a little bit.
-|114:58:19|CC|Just want to make sure you don't lose your scissors, too.
-|114:58:19|CMP|Yes. This time I got them snapped to the hand controller and stuck in the little thing around it. I don't know how I've lost those things.
-|114:58:19|CC|Roger.
-|114:58:19|CMP|I didn't like that big string on there all the time. I didn't like that big string getting all over the place. So I rolled the string on the strap, and stuck the scissors in that little bungee that's on the hand controller. I woke up the next morning and they're gone. I still think it's behind the optics.
-|114:58:19|CC|Just don't go look at them; okay? We'll find them pre - postflight. Okay?
-|114:58:19|CMP|Okay.
-||||Tape 76B/12|Page 639
-|114:58:19|CC|Hey, Ron. I don't know what Tommy has against you, but they just never scheduled an eat period in here. We checked this out so thoroughly that, we forgot to check it to see if there was an eat period in there.
-|114:58:19|CMP|We probably weren't hungry when we checked it out.
-|115:00:54|CC|Roger.
+|113:20:20|CC|Roger. Copy that.
+|113:20:58|PAO|Donning of the Life Support System, the back pack, was scheduled for 115 hours 40 minutes, so we're about 20 minutes behind at this time.
+|113:30:17|LMP|Okay, the LMP has got the RCU connected to the PLSS.
 ||||Tape 77A/1|Page 640
-|115:00:54|CC|Copy that, Jack. .
+|113:30:24|CC|Copy that, Jack.
 |113:31:43|CDR-LM|Okay, Bob, I'm going to get on the PLSS, now.
-|113:31:43|CC|Okay, Geno. Copy that.
+|113:31:48|CC|Okay, Geno. Copy that.
 |113:32:34|CDR-LM|Sublimator exhausts.
-|113:42:17|CDR-LM|Okay, Bob. I've got my PLSS on. We're picking it up with verifying the powerdown configuration on the upper right-hand corner.
-|113:42:17|CC|Roger. Copy that.
-|113:43:00|CDR-LM|Circuit breakers are configured.
-|113:43:00|CC|Houston copies.
-|113:45:21|CDR-LM|Okay, I'm in VOX. VOX SENSITIVITY is MAX, A is T/R and B is RECEIVE. Okay. You can open your breaker and connect to the PLSS comm. Houston, I guess you heard that.
-|113:45:21|CC|That's affirm. Loud and clear.
-|113:45:21|CDR-LM|... just AUDIO breaker. Your AUDIO breaker, that's all. Want some help with that?
-|113:46:08|CDR-LM|Yes. Do it while you're facing that way. Just hang them up. Got time to do it. All you've got is water.
-|113:46:08|CDR-LM|Okay, Bob. We're getting Jack up on PLSS comm, and we'll be picking it up - the comm check here on left-hand column of the bottom sheet.
-|113:46:08|CC|Roger. We're following you.
-|113:46:58|CDR-LM|Okay. You're on and locked. Okay, and you got the cover? Okay. Your AUDIO breaker, CLOSED. Okay, on your PLSS PTT go MAIN; that's right.
+|113:42:18|CDR-LM|Okay, Bob. I've got my PLSS on. We're picking it up with verifying the powerdown configuration on the upper right-hand corner.
+|113:42:25|CC|Roger. Copy that.
+|113:43:01|CDR-LM|Circuit breakers are configured.
+|113:43:08|CC|Houston copies.
+|113:45:24|CDR-LM|Okay, I'm in VOX. VOX SENSITIVITY is MAX, A is T/R and B is RECEIVE. Okay. You can open your breaker and connect to the PLSS comm. Houston, I guess you heard that.
+|113:45:40|CC|That's affirm. Loud and clear.
+|113:45:49|CDR-LM|... just AUDIO breaker. Your AUDIO breaker, that's all. Want some help with that?
+|113:46:08|CDR-LM|Yes. Do it while you're facing that way. Just hang them up. Best time to do it. All you've got is water.
+|113:46:19|CDR-LM|Okay, Bob. We're getting Jack up on PLSS comm, and we'll be picking it up - the comm check here on left-hand column of the bottom sheet.
+|113:46:34|CC|Roger. We're following you.
+|113:47:00|CDR-LM|Okay. You're on and locked. Okay, and you got the cover? Okay. Your AUDIO breaker, CLOSED. Okay, on your PLSS PTT go MAIN; that's right.
 ||||Tape 77A/2|Page 641
-|113:46:58|CDR-LM|Okay. PLSS MODE A.
-|113:47:16|LMP-LM|A.
-|113:47:16|CDR-LM|Okay; tone ON; VENT flag, P.
+|113:47:14|CDR-LM|Okay. PLSS MODE A.
+|113:47:17|LMP-LM|A.
+|113:47:18|CDR-LM|Okay; tone ON; VENT flag, P.
 |113:47:20|LMP-LM|Got a weak tone and a VENT flag, P.
-|113:47:20|CDR-LM|Okay.
-|113:47:23|LMP-LM|Got a good tone right now.
-|113:47:23|CDR-LM|PRESS flag, 0; and O2 - -
-|113:47:23|LMP-LM|... 0 and - -
-|113:47:23|CDR-LM|- - momentarily.
-|113:47:23|LMP-LM|- - Og still there.
-|113:47:23|CDR-LM|Okay, PLSS 0 - -
+|113:47:24|CDR-LM|Okay.
+|113:47:25|LMP-LM|Got a good tone right now.
+|113:47:25|CDR-LM|PRESS flag, O; and O2 - -
+|113:47:27|LMP-LM|... 0 and - -
+|113:47:28|CDR-LM|- - momentarily.
+|113:47:29|LMP-LM|- - O2 still there.
+|113:47:31|CDR-LM|Okay, PLSS O2 - -
 |113:47:32|LMP-LM|It's on.
-|113:47:32|CDR-LM|What's your PLSS O2 pressure gage?
-|113:47:32|LMP-LM|The Og - -
-|113:47:32|CDR-LM|Give Houston a call and give it to them.
-|113:47:40|LMP-LM|I'm reading 100 percent, Houston.
-|113:47:40|CC|Roger, Jack. And we're reading you slightly garbled but loud.
-|113:47:40|LMP-LM|Okay. Well, you're loud and clear, Bob.
-|113:47:40|CDR-LM|Okay, Jack. You got that, and I'm reading you. How you reading me?
-|113:47:40|LMP-LM|Loud and clear.
-|113:47:40|CDR-LM|Okay. We will not unstow the antenna. You are a skosh garbled, but very readable.
+|113:47:33|CDR-LM|What's your PLSS O2 pressure gauge?
+|113:47:37|LMP-LM|The O2 - -
+|113:47:39|CDR-LM|Give Houston a call and give it to them.
+|113:47:41|LMP-LM|I'm reading 100 percent, Houston.
+|113:47:44|CC|Roger, Jack. And we're reading you slightly garbled but loud.
+|113:47:51|LMP-LM|Okay. Well, you're loud and clear, Bob.
+|113:47:55|CDR-LM|Okay, Jack. You got that, and I'm reading you. How you reading me?
+|113:47:59|LMP-LM|Loud and clear.
+|113:48:00|CDR-LM|Okay. We will not unstow the antenna. You are a skosh garbled, but very readable.
 ||||Tape 77A/3|Page 642
-|113:47:40|CDR-LM|Okay. Stay where you are. I'm going to get mine. Okay. AUDIO breaker is -
-|113:47:40|LMP-LM|...
-|113:47:40|CDR-LM|...
-|113:47:40|LMP-LM|...
-|113:47:40|CDR-LM|B.
-|113:49:37|CDR-LM|Okay. I got a tone.
-|113:49:37|LMP-LM|VENT flag, P.
-|113:49:39|CDR-LM|I got a VENT flag, P.
-|113:49:39|LMP-LM|PRESSURE flag and O2, momentarily.
-|113:49:43|CDR-LM|PRESSURE flag, and I still got an O2 flag.
-|113:49:43|LMP-LM|Off with your tone.
-|113:49:47|CDR-LM|Okay. The tone is gone. The O2 flag cleared.
-|113:49:47|LMP-LM|Okay. PLSS O2 PRESS quantity.
-|113:49:53|CDR-LM|Okay; and I'm reading 10 percent.
-|113:49:53|LMP-LM|Okay.
+|113:48:05|CDR-LM|Okay. Stay where you are. I'm going to get mine. Okay. AUDIO breaker is -
+|113:49:27|LMP-LM|...
+|113:49:28|CDR-LM|...
+|113:49:30|CDR-LM|B.
+|113:49:33|CDR-LM|...
+|113:49:38|CDR-LM|Okay. I got a tone.
+|113:49:39|LMP-LM|VENT flag, P.
+|113:49:40|CDR-LM|I got a VENT flag, P.
+|113:49:42|LMP-LM|PRESSURE flag and O2, momentarily.
+|113:49:44|CDR-LM|PRESSURE flag, and I still got an O2 flag.
+|113:49:46|LMP-LM|Off with your tone.
+|113:49:48|CDR-LM|Okay. The tone is gone. The O2 flag cleared.
+|113:49:50|LMP-LM|Okay. PLSS O2 PRESS quantity.
+|113:49:54|CDR-LM|Okay; and I'm reading 10 percent.
+|113:49:58|LMP-LM|Okay.
 |113:49:59|CDR-LM|Okay. Note crewman in MODE B, that's me, cannot hear Houston. Houston, broadcasting in the blind 100 percent on the CDR.
-|113:50:06|CC|Roger, CDR. Houston reads you loud and clear.
+|113:50:07|CC|Roger, CDR. Houston reads you loud and clear.
 |113:50:13|LMP-LM|I read you loud and clear, Gene. ... me?
-|113:50:13|CDR-LM|I'm reading you loud and clear.
-|113:50:13|LMP-LM|Okay.
-|113:50:13|CDR-LM|Give me a call again.
-|113:50:13|LMP-LM|Okay. How do you read, Gene? 1, 2, 3, 4, 5-
+|113:50:16|CDR-LM|I'm reading you loud and clear.
+|113:50:17|LMP-LM|Okay.
+|113:50:17|CDR-LM|Give me a call again.
+|113:50:20|LMP-LM|Okay. How do you read, Gene? 1, 2, 3, 4, 5-
 ||||Tape 77A/4|Page 643
-|113:50:13|CDR-LM|Give me again.
-|113:50:13|LMP-LM|1, 2, 3, 4, 5-
-|113:50:13|CDR-LM|I think so. I can't - Okay. I'm reading you. Okay. PLSS . LMP go B.
+|113:50:23|CDR-LM|Give me again.
+|113:50:23|LMP-LM|1, 2, 3, 4, 5-
+|113:50:26|CDR-LM|I think so. I can't - Okay. I'm reading you. Okay. PLSS. LMP go B.
 |113:50:32|LMP-LM|Going B.
-|113:50:32|CDR-LM|Try that. B ... A. Okay. How do you read me,
-|113:50:32||Jack.
-|113:50:32|LMP-LM|You're loud and clear, and I got a tone.
-|113:50:32|CDR-LM|Okay. Give me a short count once.
-|113:50:32|LMP-LM|Starting. 1, 2, 3, 4, 5-
-|113:50:32|CDR-LM|...
-|113:50:32|LMP-LM|You're great.
-|113:50:32|CDR-LM|Okay. I had a tone, too. I still got a PRESSURE and a VENT flag.
-|113:50:32|LMP-LM|And, Houston, how do you read the LMP?
-|113:50:32|CC|Roger, LMP. We read you loud and clear.
-|113:50:32|CDR-LM|Okay, Bob. I'm reading you loud and clear, and he's not reading you in this mode. How me?
-|113:50:32|CC|I read you loud and clear also, Gene.
-|113:51:19|CDR-LM|Very, very, good. We're both going AR, now.
-|113:51:19|LMP-LM|Let's go.
-|113:51:19|CDR-LM|Okay. Ought to get a tone. I didn't, but my VENT flag did clear.
-|113:51:19|LMP-LM|Here it is.
-|113:51:19|CDR-LM|Tone and a VENT flag.
-|113:51:19|LMP-LM|... my tone and - VENT flag.
+|113:50:39|CDR-LM|Try that. B ... A. Okay. How do you read me, Jack?
+|113:50:47|LMP-LM|You're loud and clear, and I got a tone.
+|113:50:53|CDR-LM|Okay. Give me a short count once.
+|113:50:55|LMP-LM|Starting. 1, 2, 3, 4, 5-
+|113:50:58|LMP-LM|You're great.
+|113:50:59|CDR-LM|Okay. I had a tone, too. I still got a PRESSURE and a VENT flag.
+|113:51:04|LMP-LM|And, Houston, how do you read the LMP?
+|113:51:07|CC|Roger, LMP. We read you loud and clear.
+|113:51:11|CDR-LM|Okay, Bob. I'm reading you loud and clear, and he's not reading you in this mode. How me?
+|113:51:16|CC|I read you loud and clear also, Gene.
+|113:51:20|CDR-LM|Very, very, good. We're both going AR, now.
+|113:51:23|LMP-LM|Let's go.
+|113:51:24|CDR-LM|Okay. Ought to get a tone. I didn't, but my VENT flag did clear.
+|113:51:30|LMP-LM|Here it is.
+|113:51:31|CDR-LM|Tone and a VENT flag.
+|113:51:32|LMP-LM|... my tone and - VENT flag.
 ||||Tape 77A/5|Page 644
-|113:51:19|CDR-LM|Okay, Jack. The wheel is Houston and the blade is me. Hello, there; Houston. How are you reading CDR?
-|113:51:19|CC|Read CDR loud and clear. And, for your information, your TM on the PLSSs looks good.
+|113:51:35|CDR-LM|Okay, Jack. The wheel is Houston and the blade is me. Hello, there; Houston. How are you reading CDR?
+|113:51:43|CC|Read CDR loud and clear. And, for your information, your TM on the PLSSs looks good.
 |113:51:52|CDR-LM|Okay. Let's go.
-|113:51:52|LMP-LM|How do you read, Houston? This is the LMP.
-|113:51:52|CC|Houston reads LMP loud and clear now. You're much clearer than you were before, Jack.
-|113:51:52|LMP-LM|Very good.
-|113:51:52|CDR-LM|Okay. Jack, we gave them our quantities already; so, SQUELCH, VHF B LMP, FULL DECREASE.
-|113:51:52|LMP-LM|SQUELCH B is to FULL DECREASE, huh?
-|113:51:52|CDR-LM|That's affirm.
+|113:51:54|LMP-LM|How do you read, Houston? This is the LMP.
+|113:51:57|CC|Houston reads LMP loud and clear now. You're much clearer than you were before, Jack.
+|113:51:03|LMP-LM|Very good.
+|113:51:05|CDR-LM|Okay. Jack, we gave them our quantities already; so, SQUELCH, VHF B LMP, FULL DECREASE.
+|113:52:12|LMP-LM|SQUELCH B is to FULL DECREASE, huh?
+|113:52:15|CDR-LM|That's affirm.
 |113:52:16|LMP-LM|Okay. It's FULL DECREASE.
-|113:52:16|CDR-LM|Okay. On 60, leave that PUMP breaker CLOSED.
-|113:52:16|LMP-LM|Okay.
-|113:52:16|CDR-LM|Oh, that's cold; but that's good. Okay. On 16, ECS, CABIN REPRESS, CLOSED.
-|113:52:16|LMP-LM|Okay. It's - Is that a verify?
-|113:52:16|CDR-LM|That's a verify.
-|113:52:30|LMP-LM|Okay. It's CLOSED.
-|113:52:30|CDR-LM|SUIT FAN DELTA-P, OPEN.
-|113:52:33|LMP-LM|Okay. DELTA-P is OPEN.
-|113:52:33|CDR-LM|And SUIT FAN number 2, OPEN.
-|113:52:36|LMP-LM|2's open.
+|113:52:18|CDR-LM|Okay. On 60, leave that PUMP breaker CLOSED.
+|113:52:20|LMP-LM|Okay.
+|113:52:21|CDR-LM|I'll - Oh, that's cold; but that's good. Okay. On 16, ECS, CABIN REPRESS, CLOSED.
+|113:52:28|LMP-LM|Okay. It's - Is that a verify?
+|113:52:30|CDR-LM|That's a verify.
+|113:52:31|LMP-LM|Okay. It's CLOSED.
+|113:52:32|CDR-LM|SUIT FAN DELTA-P, OPEN.
+|113:52:34|LMP-LM|Okay. DELTA-P is OPEN.
+|113:52:35|CDR-LM|And SUIT FAN number 2, OPEN.
+|113:52:37|LMP-LM|2's open.
 ||||Tape 77A/6|Page 645
 |113:52:38|CDR-LM|Okay. And I've got SUIT FAN number 2. There's a MASTER ALARM. Okay. And I heard it run down. Okay. I don't see a - No, there's not an ECS caution until that thing runs down - about a minute or so. We'll watch for that. Okay; SUIT GAS DIVERTER, PULL-EGRESS.
 |113:52:57|LMP-LM|Okay. DIVERTER is PULL-EGRESS.
-|113:52:57|CMP-LM|CABIN GAS RETURN, EGRESS.
+|113:53:01|CMP-LM|CABIN GAS RETURN, EGRESS.
 |113:53:03|LMP-LM|TURN [sic] is EGRESS.
-|113:53:03|CDR-LM|SUIT CIRCUIT RELIEF, AUTO.
+|113:53:05|CDR-LM|SUIT CIRCUIT RELIEF, AUTO.
 |113:53:07|LMP-LM|RELIEF is AUTO.
-|113:53:07|CDR-LM|Okay. OPS CONNECT. You ready?
-|113:53:07|LMP-LM|Yes .
-|113:53:07|CDR-LM|Okay. SUIT ISOL, ACTIVATE OVERRIDE.
+|113:53:12|CDR-LM|Okay. OPS CONNECT. You ready?
+|113:53:17|LMP-LM|Yes.
+|113:53:18|CDR-LM|Okay. SUIT ISOL, ACTIVATE OVERRIDE.
 |113:53:21|LMP-LM|Okay. OVERRIDE.
-|113:53:21|CDR-LM|Okay. Disconnect your LM O2 hoses.
+|113:53:23|CDR-LM|Okay. Disconnect your LM O2 hoses.
 |113:53:26|LMP-LM|Okay. LM O2 hoses are disconnected.
-|113:53:26|CDR-LM|Okay. And they're stowed, right?
-|113:53:26|LMP-LM|Right.
-|113:53:26|CDR-LM|Okay. Connect OPS O2 hose to PGA, blue to blue.
-|113:53:26|LMP-LM|Okay. Where is It?
-|113:53:26|CDR-LM|Okay. It's sticking - right - Turn around. No, that's not right.
-|113:53:26|LMP-LM|Ivo, that's the water.
-|113:53:26|CDR-LM|Could you turn towards me a little bit? Turn to the left. There you are, because I got ... Okay. Here it comes - right here. OPS hose under it now. Right here.
+|113:53:29|CDR-LM|Okay. And they're stowed, right?
+|113:53:30|LMP-LM|Right.
+|113:53:31|CDR-LM|Okay. Connect OPS O2 hose to PGA, blue to blue.
+|113:53:34|LMP-LM|Okay. Where is It?
+|113:53:35|CDR-LM|Okay. It's sticking - right - Turn around. No, that's not right.
+|113:53:38|LMP-LM|No, that's the water.
+|113:53:39|CDR-LM|Could you turn towards me a little bit? Turn to the left. There you are, because I got ... Okay. Here it comes - right here. OPS hose under it now. Right here.
 ||||Tape 77A/7|Page 646
-|113:53:26|LMP-LM|Here it is.
-|113:53:26|CDR-LM|Let me get it. I'll get it - I'll get it under your electrical cable.
-|113:53:26|LMP-LM|Guess you're going to want a purge valve in a minute.
-|113:53:26|CDR-LM|Okay. That is locked in the lock lock.
-|113:53:26|LMP-LM|Move your arm.
-|113:53:26|CDR-LM|This is ... Could you do that?
-|113:53:26|LMP-LM|I will in a second.
-|113:53:26|CDR-LM|Move your arm. I can't see.
-|113:53:26|LMP-LM|Okay.
-|113:54:19|CDR-LM|Okay. We're right here. Okay. And I'm going to connect OPS hose to put it blue to blue, retrieve PURGE valve. Let me give you purge valve, and I' 11 pick that up, Jack. The cockpit's just as small as the mockup. Okay. Here you are. You verify it's in LOW, LOW.
-|113:54:37|LMP-LM|Okay. It's in LOW.
-|113:54:37|CDR-LM|Slip to the right just a skosh.
-|113:54:37|LMP-LM|Yes; slipped it to the right just a skosh.
-|113:54:37|CDR-LM|Oh, it's - man, that's easy.
-|113:54:37|LMP-LM|(Laughter) Whee.
+|113:53:50|LMP-LM|Here it is.
+|113:53:51|CDR-LM|Let me get it. I'll get it - I'll get it under your electrical cable.
+|113:53:57|LMP-LM|Guess you're going to want a purge valve in a minute.
+|113:54:00|CDR-LM|Okay. That is locked in the lock lock.
+|113:54:03|LMP-LM|Move your arm.
+|113:54:04|CDR-LM|This is ... Could you do that?
+|113:54:06|LMP-LM|I will in a second.
+|113:54:10|CDR-LM|Move your arm. I can't see.
+|113:54:19|CDR-LM|Okay. We're right here. Okay. And I'm going to connect OPS hose to put it blue to blue, retrieve PURGE valve. Let me give you purge valve, and I'll pick that up, Jack. The cockpit's just as small as the mockup. Okay. Here you are. You verify it's in LOW, LOW.
+|113:54:38|LMP-LM|Okay. It's in LOW.
+|113:54:40|CDR-LM|Slip to the right just a skosh.
+|113:54:41|LMP-LM|Yes; slipped it to the right just a skosh.
+|113:54:44|CDR-LM|Oh, it's - man, that's easy.
+|113:54:48|LMP-LM|(Laughter) Whee.
 |113:54:50|CDR-LM|Okay. Pin's installed. And I might be an iceberg when I get out there, but it's going to feel good.
-|113:55:03|LMP-LM|Okay. It's in.
-|113:55:06|CDR-LM|Okay. My PURGE valve's LOW, locked, and the pin's in. Want some help with that? I want to take a look at it.
+|113:55:04|LMP-LM|Okay. It's in.
+|113:55:05|CDR-LM|Okay. My PURGE valve's LOW, locked, and the pin's in. Want some help with that? I want to take a look at it.
 ||||Tape 77A/8|Page 647
-|113:55:18|LMP-LM|There's the old MASTER ALARM.
-|113:55:18|CDR-LM|Okay. That should be the WATER SEP.
-|113:55:18|LMP-LM|Yes.
-|113:55:18|CDR-LM|It's on.
-|113:55:18|LMP-LM|Yes. It's barely on.
-|113:55:18|CDR-LM|You're going to have to push my lock lock down.
-|113:55:18|LMP-LM|I'll get it.
-|113:55:18|CDR-LM|I don't know why, but -
-|113:55:18|LMP-LM|Why don't you check mine, too. That's it. I'm going to have to check you anyway. Let me turn this way.
-|113:55:18|CDR-LM|Okay.
+|113:55:19|LMP-LM|There's the old MASTER ALARM.
+|113:55:21|CDR-LM|Okay. That should be the WATER SEP.
+|113:55:23|LMP-LM|Yes.
+|113:55:23|CDR-LM|It's on.
+|113:55:24|LMP-LM|Yes. It's barely on.
+|113:55:28|CDR-LM|You're going to have to push my lock lock down.
+|113:55:30|LMP-LM|I'll get it.
+|113:55:31|CDR-LM|I don't know why, but -
+|113:55:33|LMP-LM|Why don't you check mine, too. That's it. I'm going to have to check you anyway. Let me turn this way.
+|113:55:40|CDR-LM|Okay.
 |113:55:56|LMP-LM|That's why; because it wasn't locked.
-|113:55:56|CDR-LM|Is that where you want it; facing down or in? You don't want it there, do you?
-|113:55:56|LMP-LM|No, I don't want it there. Must have had it in the wrong - ... Thank you.
-|113:55:56|CDR-LM|Is that where you want it?
-|113:55:56|LMP-LM|Yes.
-|113:55:56|CDR-LM|Okay. It1s there.
-|113:55:56|LMP-LM|Good.
-|113:56:14|CDR-LM|The lock lock Is down and it's verified LOW and the pin still is in. Okay. Look at mine while you'ro there.
-|113:56:25|LMP-LM|Okay. It's safe and in. Lock's in and rides [?] low. Pin's in; it's good.
+|113:55:59|CDR-LM|Is that where you want it; facing down or in? You don't want it there, do you?
+|113:56:02|LMP-LM|No, I don't want it there. Must have had it in the wrong - ... Thank you.
+|113:56:11|CDR-LM|Is that where you want it?
+|113:56:12|LMP-LM|Yes.
+|113:56:13|CDR-LM|Okay. It's there.
+|113:56:14|LMP-LM|Good.
+|113:56:14|CDR-LM|The lock lock Is down and it's verified LOW and the pin still is in. Okay. Look at mine while you're there.
+|113:56:26|LMP-LM|Okay. It's safe and in. Lock's in and lines low. Pin's in; it's good.
 ||||Tape 77A/9|Page 648
-|113:56:25|CDR-LM|Okay. Let me get my - this thing right here. Reach that hose for me under my arm.
-|113:56:25|LMP-LM|Put it under the electrical cable.
-|113:56:25|CDR-LM|Okay.
-|113:56:25|LMP-LM|I think that'll be better, isn't it?
-|113:56:25|CDR-LM|Okay.
-|113:56:25|LMP-LM|... and lock. Verify lock lock.
-|113:56:56|CDR-LM|Lock.
-|113:56:56|LMP-LM|Okay.
-|113:56:56|CDR-LM|And the cover Is going on.
-|113:56:56|LMP-LM|Okay.
-|113:56:56|LMP-LM|Look pretty good under that
-|113:56:56|CDR-LM|...
-|113:56:56|LMP-LM|Yes. That's right.
-|113:56:56|CDR-LM|Good.
-|113:56:56|CDR-LM|Okay. You're covered. Okay. I think we're getting to our favorite part here. (Laughter) Okay. PURGE valves are installed on both. PGA DIVERTER VALVE; put It vertical.
-|113:57:40|LMP-LM|Okay. It's vertical.
-|113:57:40|CDR-LM|Okay; commander repeat - that's done. Drink - Let's take a drink then close the descent water.
-|113:57:40|LMP-LM|Okay.
-|113:57:40|CDR-LM|My ... is already prepared. And drink and position mikes.
-|113:57:40|LMP-LM|Oh, those little ... covers are next. Okay.
+|113:56:34|CDR-LM|Okay. Let me get my - this thing right here. Reach that hose for me under my arm.
+|113:56:47|LMP-LM|Put it under the electrical cable.
+|113:56:48|CDR-LM|Okay.
+|113:56:48|LMP-LM|I think that'll be better, isn't it?
+|113:56:54|CDR-LM|Okay.
+|113:56:55|LMP-LM|... and lock. Verify lock lock.
+|113:56:57|CDR-LM|Locked.
+|113:56:58|LMP-LM|Okay.
+|113:56:58|CDR-LM|And the cover is going on.
+|113:56:59|LMP-LM|Okay.
+|113:57:04|LMP-LM|Look pretty good under that
+|113:57:05|CDR-LM|...
+|113:57:06|LMP-LM|Yes. That's right.
+|113:57:06|CDR-LM|Good.
+|113:57:09|CDR-LM|Okay. You're covered. Okay. I think we're getting to our favorite part here. (Laughter) Okay. PURGE valves are installed on both. PGA DIVERTER VALVE; put it vertical.
+|113:57:21|LMP-LM|Okay. It's vertical.
+|113:57:23|CDR-LM|Okay; commander repeat - that's done. Drink - Let's take a drink then close the descent water.
+|113:57:29|LMP-LM|Okay.
+|113:57:29|CDR-LM|My ... is already prepared. And drink and position mikes.
+|113:57:42|LMP-LM|Oh, those little ... covers are next. Okay.
 ||||Tape 77A/10|Page 649
-|113:57:40|CDR-LM|Had enough water today; they could - you could say you discovered me. I'm water on the Moon. Okay. Let's turn the descent water off, and let's stow this.
-|113:58:19|LMP-LM|Okay. WATER is going OFF. DESCENT WATER is OFF.
-|113:58:19|CDR-LM|Okay. And it's - Man, is it - Okay.
-|113:58:19|CDR-LM|Position your mike.
+|113:58:12|CDR-LM|Had enough water today; they could - you could say you discovered me. I'm water on the Moon. Okay. Let's turn the descent water off, and let's stow this.
+|113:58:20|LMP-LM|Okay. WATER is going OFF. DESCENT WATER is OFF.
+|113:58:24|CDR-LM|Okay. And it's - Man, is it - Okay.
+|113:58:33|CDR-LM|Position your mikes.
 |113:58:34|LMP-LM|Okay; mikes are good.
-|113:58:34|CDR-LM|Top of the page. Okay. Before we turn the fans on, let's make sure we've got - all I got hooked here is the water. Those cables are all stowed. They're not in your way, are they?
-|113:58:34|LMP-LM|No, not in my way.
-|113:58:34|CDR-LM|Pretty good.
-|113:58:34|LMP-LM|... though.
-|113:58:34|CDR-LM|Do you want to put - put this around them?
-|113:58:34|LMP-LM|Yes.
-|113:58:34|CDR-LM|That1s probably a little bit better. ...
-|113:58:34|CC|17, Houston. Over.
-|113:58:34|CDR-LM|Go ahead, Houston.
-|113:59:05|CC|Roger. We're still seeing the commander's SUIT DISCONNECT VALVES in CONNECT.
-|113:59:05|LMP-LM|How's that?
-|113:59:05|CC|Yes, there it goes. We got it. Thank you.
-|113:59:05|CDR-LM|Okay, Bob. Okay. We got to get the PLSS fan on. Don't forget that's battery power. We can don our helmets, check our drink bags, don our LEVAs , protective visors, secure our tool harness. Our O2 umbilicals are already stowed.
+|113:58:36|CDR-LM|Top of the page. Okay. Before we turn the fans on, let's make sure we've got - all I got hooked here is the water. Those cables are all stowed. They're not in your way, are they?
+|113:58:46|LMP-LM|No, not in my way.
+|113:58:48|CDR-LM|Pretty good.
+|113:58:50|LMP-LM|... though.
+|113:58:51|CDR-LM|Do you want to put - put this around them?
+|113:58:54|LMP-LM|Yes.
+|113:58:57|CDR-LM|That's probably a little bit better. ...
+|113:59:00|CC|17, Houston. Over.
+|113:59:05|CDR-LM|Go ahead, Houston.
+|113:59:06|CC|Roger. We're still seeing the commander's SUIT DISCONNECT VALVES in CONNECT.
+|113:59:15|LMP-LM|How's that?
+|113:59:18|CC|Yes, there it goes. We got it. Thank you.
+|113:59:24|CDR-LM|Okay, Bob. Okay. We got the PLSS fan on. Don't forget that's battery power. We can don our helmets, check our drink bags, don our LEVAs, protective visors, secure our tool harness. Our O2 umbilicals are already stowed.
 ||||Tape 77A/11|Page 650
-|113:59:38|CDR-LM|CDR's under the handhold. Verify the following. Now, where we pick up our -
-|113:59:54|LMP-LM|Have to put the helmets on, I think.
-|113:59:54|CDR-LM|Okay, yes. Then we pick up our gloves.
-|113:59:54|LMP-LM|I reckon.
-|113:59:54|CDR-LM|Yes, there it is. Okay. Well, let's do one at a time here.
-|113:59:54|LMP-LM|That's mine.
-|113:59:54|CDR-LM|That1s yours.
-|113:59:54|CDR-LM|Okay. Do you want to turn your fan on for circulation?
-|114:00:11|LMP-LM|Well, I guess I better. Pan's, on.
-|114:00:11|CDR-LM|Now pull this out just to get it out of your way?
-|114:00:11|LMP-LM|Okay.
-|114:00:11|CDR-LM|Okay. Okay. All your candy bars, and lemonade, and ail that jazz are all clear. Water, I should say.
-|114:00:11|LMP-LM|That sounded good.
-|114:00:11|CDR-LM|Okay. Try it. Okay. It looks good here, Jack. Okay. And what's your LEVA?
-|114:00:11|LMP-LM|Okay.
-|114:00:11|CDR-LM|Enjoy it in there; you're going to be in there for a few hours.
-|114:00:11|LMP-LM|Can't think of any place I'd rather be right now.
-|114:00:11|CDR-LM|Sounds like you're in there, too. Darn, too far back. Okay, that's better. I'm freezing my you know what off.
-|114:00:11|LMP-LM|Me, too. (Laughter)
+|113:59:42|CDR-LM|CDR's under the handhold. Verify the following. Now, where we pick up our -
+|113:59:54|LMP-LM|Let's to put the helmets on, I think.
+|113:59:56|CDR-LM|Okay, yes. Then we pick up our gloves.
+|113:59:59|LMP-LM|I reckon.
+|114:00:00|CDR-LM|Yes, there it is. Okay. Well, let's do one at a time here.
+|114:00:07|LMP-LM|Okay, that's mine.
+|114:00:07|CDR-LM|That's yours.
+|114:00:09|CDR-LM|Okay. Do you want to turn your fan on for circulation?
+|114:00:11|LMP-LM|Well, I guess I better. Fan's on.
+|114:00:13|CDR-LM|Now pull this out just to get it out of your way?
+|114:00:15|LMP-LM|Okay.
+|114:00:24|CDR-LM|Okay. Okay. All your candy bars, and lemonade, and all that jazz are all clear. Water, I should say.
+|114:00:39|LMP-LM|That sounded good.
+|114:00:43|CDR-LM|Okay. Try it. Okay. It looks good here, Jack. Okay. And what's your LEVA?
+|114:00:53|LMP-LM|...
+|114:00:57|CDR-LM|Okay. Enjoy it in there; you're going to be in there for a few hours.
+|114:01:03|LMP-LM|Can't think of any place I'd rather be right now.
+|114:01:05|CDR-LM|Sounds like you're in there, too. Darn, too far back. Okay, that's better. I'm freezing my you know what off.
+|114:01:18|LMP-LM|Me, too. (Laughter)
 ||||Tape 77A/12|Page 651
-|114:00:11|CDR-LM|Okay. Does that look lined up to you?
-|114:00:11|LMP-LM|Looks pretty good.
-|114:00:11|CDR-LM|Okay. Let me - Wait a minute. Let me get this down around - Okay. That's around behind you; thermally protected back there. That's below the OPS hose.
-|114:00:11|LMP-LM|Right now, I'm hoping to get out of this warm. (Laughter)
-|114:00:11|CDR-LM|Okay. You're thermally - Let me double check that. The helmet is locked. Your visor is locked. It's one thing you don't want to lose among some others. Okay. Okay. You want to give me a hand?
-|114:00:11|LMP-LM|Not particularly. (Laughter)
+|114:01:20|CDR-LM|Okay. Does that look lined up to you?
+|114:01:23|LMP-LM|Looks pretty good.
+|114:01:24|CDR-LM|Okay. Let me - Wait a minute. Let me get this down around - Okay. That's around behind you; thermally protected back there. That's below the OPS hose.
+|114:01:46|LMP-LM|Right now, I'm hoping to get out of this warm. (Laughter)
+|114:01:50|CDR-LM|Okay. You're thermally - Let me double check that. The helmet is locked. Your visor is locked. It's one thing you don't want to lose among some others. Okay. Okay. You want to give me a hand?
+|114:02:11|LMP-LM|Not particularly. (Laughter)
 |114:02:15|CDR-LM|Oh, man. Where did that come from?
-|114:02:15|LMP-LM|Watch your nose, drink bag, candy bars, popcorn. Click, click, click.
-|114:02:15|CDR-LM|Breathe hard back there.
-|114:02:15|LMP-LM|Want your fan?
-|114:02:15|CDR-LM|Yes.
-|114:02:15|LMP-LM|Looks good.
-|114:02:15|CDR-LM|Okay. I can hear the fan running. Oh, man, whew!
-|114:03:23|CDR-LM|Looks good here.
-|114:03:23|LMP-LM|Yes. That's all right.
-|114:03:23|CDR-LM|Steady ...
-|114:03:23|LMP-LM|New; never been used before.
-|114:03:23|CDR-LM|Make sure that flap in back goes below that OPS hose.
-|114:03:23|LMP-LM|Want to put your protective visor down?
-|114:03:23|CDR-LM|Yes, if you got that thing all - You got it all done?
+|114:02:20|LMP-LM|Watch your nose, drink bag, candy bars, popcorn. Click, click, click.
+|114:02:34|CDR-LM|Breathe hard back there.
+|114:02:35|LMP-LM|Want your fan?
+|114:02:38|CDR-LM|Yes.
+|114:02:40|LMP-LM|Looks good.
+|114:02:41|CDR-LM|Okay. I can hear the fan running. Oh, man, whew!
+|114:03:24|CDR-LM|Looks good here.
+|114:03:25|LMP-LM|Yes. That's all right.
+|114:03:27|CDR-LM|Steady ...
+|114:03:27|LMP-LM|New; never been used before.
+|114:03:31|CDR-LM|Make sure that flap in back goes below that OPS hose.
+|114:03:40|LMP-LM|Want to put your protective visor down?
+|114:03:49|CDR-LM|Yes, if you got that thing all - You got it all done?
 ||||Tape 77A/13|Page 652
-|114:03:23|LMP-LM|Yes.
-|114:03:23|CDR-LM|You happy with it back there?
-|114:03:23|LMP-LM|Yes, sir. You're nice and protected. Okay. Good Velcro.
-|114:03:23|CDR-LM|Okay. You're all covered here.
-|114:03:23|LMP-LM|Okay.
-|114:03:23|CDR-LM|Not my other one is it? No.
-|114:03:23|LMP-LM|No.
-|114:03:23|CDR-LM|Okay. Ohhh! I think we've got to get two harnesses here. Don LEVAs. Look at that scratch right in the middle of that thing. Okay. Don LEVAs and lower protective visor.
-|114:03:23|CDR-LM|Okay. Secure harness and self doff straps.
-|114:03:23|LMP-LM|Okay. Stay where you are.
-|114:03:23|LMP-LM|Can't miss it.
-|114:03:23|CDR-LM|Okay. Stow LM 02 - the LM 02. And comm. Okay. They're all stowed; everything except water, right?
-|114:03:23|LMP-LM|Okay. Verify the following. Check your helmet and visor.
-|114:03:23|CDR-LM|Okay. You check me. I'll read them. Helmet and visor, aligned and locked.
-|114:05:27|LMP-LM|Okay. That's locked.
-|114:05:27|CDR-LM|Okay. O2 cover is all locked. There's a ...
-|114:05:27|LMP-LM|That's locked.
-|114:05:27|CDR-LM|Purge valve; everything down there.
-|114:05:27|LMP-LM|That's locked; that's locked.
-|114:05:27|CDR-LM|Comm carrier.
-|114:05:27|LMP-LM|Standby. That's locked.
+|114:03:52|LMP-LM|Yes.
+|114:03:53|CDR-LM|You happy with it back there?
+|114:03:54|LMP-LM|Yes, sir. You're nice and protected. Okay. Good Velcro.
+|114:04:02|CDR-LM|Okay. You're all covered here.
+|114:04:04|LMP-LM|Okay.
+|114:04:05|CDR-LM|Not my other one is it? No.
+|114:04:06|LMP-LM|No.
+|114:04:08|CDR-LM|Okay. Ohhh! I think we've got to get two harnesses here. Don LEVAs. Look at that scratch right in the middle of that thing. Okay. Don LEVAs and lower protective visor.
+|114:04:26|CDR-LM|Okay. Secure harness and self doff straps.
+|114:04:44|LMP-LM|Okay. Stay where you are.
+|114:04:55|LMP-LM|Can't miss it.
+|114:05:06|CDR-LM|Okay. Stow LM O2 - the LM O2. And comm. Okay. They're all stowed; everything except water, right?
+|114:05:17|LMP-LM|Okay. Verify the following: Check your helmet and visor.
+|114:05:21|CDR-LM|Okay. You check me. I'll read them. Helmet and visor, aligned and locked.
+|114:05:26|LMP-LM|Okay. That's locked.
+|114:05:28|CDR-LM|Okay. O2 cover is all locked. There's a ...
+|114:05:33|LMP-LM|That's locked.
+|114:05:36|CDR-LM|Purge valve; everything down there.
+|114:05:37|LMP-LM|That's locked; that's locked.
+|114:05:41|CDR-LM|Comm carrier.
+|114:05:42|LMP-LM|Standby. That's locked.
 ||||Tape 77A/14|Page 653
-|114:05:27|CDR-LM|Okay. DIVERTER VALVE is vertical.
-|114:05:27|LMP-LM|Comm is that way. DIVERTER VALVE is vertical.
-|114:05:27|CDR-LM|Okay. One more time. Your helmet is locked, purge valve, locked. Yes. That's locked; that's locked; that's locked. And, let me see - let me see. Sure and that's locked.
-|114:05:27|LMP-LM|Don't let anything to chance.
-|114:05:27|CDR-LM|Today?
-|114:05:27|LMP-LM|And the DIVERTER VALVE is vertical.
-|114:05:27|CDR-LM|Okay. Comm, you check, too.
-|114:05:27|LMP-LM|Yes, sir.
-|114:05:27|CDR-LM|Okay. Verify your old white dots.
-|114:05:27|LMP-LM|Okay. Old white dots. My old white dots - Can you manage to move a little?
-|114:05:27|CDR-LM|Yes, I'll move.
-|114:05:27|LMP-LM|Okay. Got it.
-|114:05:27|CDR-LM|I'm going to miss Danny being out there to hand us those light PLSSs.
-|114:05:27|LMP-LM|That's right.
-|114:05:27|CDR-LM|You want - Okay. I want the EVA decals, also, Jack.
-|114:05:27|LMP-LM|Yes, white dots plus decals.
-|114:05:27|CDR-LM|Roger. Okay, Bob, we're turning the page.
-|114:05:27|CC|Roger. We're right with you.
-|114:07:31|CDR-LM|Okay; don EV gloves.
-|114:07:31|LMP-LM|Okay. Is that it?
-|114:07:31|CDR-LM|That's it. Don EV gloves. Do a little grease in here.
+|114:05:44|CDR-LM|Okay. DIVERTER VALVE is vertical.
+|114:05:46|LMP-LM|Comm is that way. DIVERTER VALVE is vertical.
+|114:05:48|CDR-LM|Okay. One more time. Your helmet is locked, purge valve, locked. Yes. That's locked; that's locked; that's locked. And, let me see - let me see. Sure and that's locked.
+|114:06:22|LMP-LM|Don't let anything to chance.
+|114:06:25|CDR-LM|Today?
+|114:06:29|LMP-LM|And the DIVERTER VALVE is vertical.
+|114:06:32|CDR-LM|Okay. Comm, you check, too.
+|114:06:35|LMP-LM|Yes, sir.
+|114:06:36|CDR-LM|Okay. Verify your old white dots.
+|114:06:38|LMP-LM|Okay. Old white dots. My old white dots - Can you manage to move a little?
+|114:06:45|CDR-LM|Yes, I'll move.
+|114:06:48|LMP-LM|Okay. Got it.
+|114:06:51|CDR-LM|I'm going to miss Danny being out there to hand us those light PLSSs.
+|114:06:54|LMP-LM|That's right.
+|114:07:00|CDR-LM|You want - Okay. I want the EVA decals, also, Jack.
+|114:07:06|LMP-LM|Yes, white dots plus decals.
+|114:07:09|CDR-LM|Roger. Okay, Bob, we're turning the page.
+|114:07:13|CC|Roger. We're right with you.
+|114:07:32|CDR-LM|Okay; don EV gloves.
+|114:07:34|LMP-LM|Okay. Is that it?
+|114:07:36|CDR-LM|That's it. Don EV gloves. Do a little grease in here.
 ||||Tape 77A/15|Page 654
-|114:07:31|CDR-LM|And make sure your wrist locks are locked. Glove straps adjusted and cover the wrist rings. Golly.
-|114:08:14|CDR-LM|I sure missed hearing it click, but they are locked. One of them is, anyway. Hey, Jack. I verify - -
-|114:08:14|LMP-LM|(Laughter)
-|114:08:14|CDR-LM|What?
-|114:08:14|LMP-LM|Guess what?
-|114:08:14|CDR-LM|They don't go on any easier in one-sixth g, do they?
-|114:08:14|LMP-LM|They break just as easily, too.
-|114:08:14|CDR-LM|Okay, I've got my one glove locked. One of them -one of the old fist covers.
-|114:08:14|LMP-LM|I never had that happen in training; you did.
-|114:08:14|CDR-LM|It's locked - that's about as locked as it can go. Boy, I'd hate like the devil to have that pop open. Okay; that's very good. You want me to help you with one, or can you get it?
-|114:08:14|LMP-LM|Well, I don't know. I've only worked on one so far.
-|114:08:14|CDR-LM|I've got a free hand before I grease it up.
+|114:07:43|CDR-LM|And make sure your wrist locks are locked. Glove straps adjusted and cover the wrist rings. Golly.
+|114:08:15|CDR-LM|I sure missed hearing it click, but they are locked. One of them is, anyway. Hey, Jack. I verify - -
+|114:08:28|LMP-LM|(Laughter)
+|114:08:30|CDR-LM|What?
+|114:08:35|LMP-LM|Guess what?
+|114:08:36|CDR-LM|They don't go on any easier in one-sixth g, do they?
+|114:08:39|LMP-LM|They break just as easily, too.
+|114:08:42|CDR-LM|Okay, I've got my one glove locked. One of them - one of the old fist covers.
+|114:08:52|LMP-LM|I never had that happen in training; you did.
+|114:08:57|CDR-LM|It's locked - that's about as locked as it can go. Boy, I'd hate like the devil to have that pop open. Okay; that's very good. You want me to help you with one, or can you get it?
+|114:09:11|LMP-LM|Well, I don't know. I've only worked on one so far.
+|114:09:15|CDR-LM|I've got a free hand before I grease it up.
 |114:09:17|LMP-LM|I broke that one.
-|114:09:17|CDR-LM|I'm telling you, from the looks of that soil out there, that drill may have a job ahead of it.
-|114:09:17|LMP-LM|Yes, I didn't have a chance to mention that. I don't think the regolith is very thick, and I think you've got rocks below it.
-|114:09:17|CDR-LM|You got that?
-|114:09:17|LMP-LM|Well, how does it look?
-|114:09:17|CDR-LM|Let me take a look. No.
-|114:09:17|LMP-LM|Didn't make it, huh?
+|114:09:31|CDR-LM|I'm telling you, from the looks of that soil out there, that drill may have a job ahead of it.
+|114:09:35|LMP-LM|Yes, I didn't have a chance to mention that. I don't think the regolith is very thick, and I think you've got rocks below it.
+|114:09:43|CDR-LM|You got that?
+|114:09:45|LMP-LM|Well, how does it look?
+|114:09:46|CDR-LM|Let me take a look. No.
+|114:09:52|LMP-LM|Didn't make it, huh?
 ||||Tape 77A/16|Page 655
-|114:09:17|CDR-LM|Yes, well, let me - Hold your hand up here. Hold it up here.
-|114:09:17|CDR-LM|Looks good on my side. How is your side?
-|114:09:17|LMP-LM|Good over here.
-|114:09:17|CDR-LM|Okay. Let me pull this one out for you.
+|114:09:52|CDR-LM|Yes, well, let me - Hold your hand up here. Hold it up here.
+|114:09:58|CDR-LM|Looks good on my side. How is your side?
+|114:10:00|LMP-LM|Good over here.
+|114:10:01|CDR-LM|Okay. Let me pull this down for you.
 |114:10:08|LMP-LM|Okay. Thank you.
-|114:10:08|CDR-LM|Get the old other hand.
-|114:10:08|CDR-LM|Okay. That's locked.
-|114:10:08|LMP-LM|And mine - other glove is locked.
-|114:10:08|CDR-LM|Now for the fun in back (laughter).
-|114:10:08|CDR-LM|Oh, me; oh, iqy.
-|114:10:08|LMP-LM|I think I got it. I think I got it.
-|114:11:37|LMP-LM|Pull it and let go. Isn't that the word?
-|114:11:37|CDR-LM|That's what they tell me. Want me to get it?
-|114:11:37|LMP-LM|I got mine - No, I got it.
-|114:11:37|CDR-LM|Verified your's locked?
-|114:11:37|LMP-LM|Yes, sir.
-|114:11:37|CDR-LM|Okay. Both n$r gloves are verified locked. How does that grab you?
-|114:11:37|LMP-LM|Okay; feels good.
-|114:11:37|CDR-LM|Is your air on tight enough? Checklist on tight enough?
-|114:11:37|CDR-LM|That's the best I can do; I guess.
-|114:11:37|LMP-LM|Okay. Now what?
-|114:12:22|CDR-LM|Wrist rings are covered. Note if PGA biting. ... No, mine's all right. Your's okay?
+|114:10:13|CDR-LM|Get the old other hand.
+|114:10:53|CDR-LM|Okay. That's locked.
+|114:11:05|LMP-LM|And mine - other glove is locked.
+|114:11:08|CDR-LM|Now for the fun in back (laughter).
+|114:11:16|CDR-LM|Oh, me; oh, my.
+|114:11:27|LMP-LM|I think I got it. I think I got it.
+|114:11:38|LMP-LM|Pull it and let go. Isn't that the word?
+|114:11:40|CDR-LM|That's what they tell me. Want me to get it?
+|114:11:41|LMP-LM|I got mine - No, I got it.
+|114:11:44|CDR-LM|Verified yours is locked?
+|114:11:45|LMP-LM|Yes, sir.
+|114:11:46|CDR-LM|Okay. Both my gloves are verified locked. How does that grab you?
+|114:11:55|LMP-LM|Okay; feels good.
+|114:11:57|CDR-LM|Is your air on tight enough? Checklist on tight enough?
+|114:12:17|CDR-LM|That's the best I can do; I guess.
+|114:12:20|LMP-LM|Okay. Now what?
+|114:12:24|CDR-LM|Wrist rings are covered. Note if PGA biting. ... No, mine's all right. Your's okay?
 ||||Tape 77A/17|Page 656
-|114:12:22|LMP-LM|No; it's fine.
-|114:12:22|CDR-LM|Okay. LGC cold's required. We been on cold all this time, right?
-|114:12:22|LMP-LM|Yes.
-|114:12:22|CDR-LM|Okay. Guess you can open that breaker, and I'll stop shivering. (Laughter)
-|114:12:22|LMP-LM|Okay.
-|114:12:22|CDR-LM|And, we can disconnect the LM water hoses. Let's help each other with those, so we don't screw up the other hoses.
+|114:12:27|LMP-LM|No; it's fine.
+|114:12:28|CDR-LM|Okay. LGC cold's required. We been on cold all this time, right?
+|114:12:31|LMP-LM|Yes.
+|114:12:32|CDR-LM|Okay. Guess you can open that breaker, and I'll stop shivering. (Laughter)
+|114:12:36|LMP-LM|Okay.
+|114:12:37|CDR-LM|And, we can disconnect the LM water hoses. Let's help each other with those, so we don't screw up the other hoses.
 |114:12:42|LMP-LM|Okay; breaker's open.
-|114:12:42|CDR-LM|Okay.
-|114:12:42|LMP-LM|Let me turn around this way.
-|114:12:42|CDR-LM|Okay. Go ahead and I'll -
-|114:12:42|LMP-LM|Okay. You want to get mine or you - -
-|114:12:42|CDR-LM|No, I'll get yours.
-|114:12:42|LMP-LM|Okay.
-|114:12:42|CDR-LM|Okay. First of all I'm going to take that off. Okay. Now let me get your other one. There it is. Okay. We did this before. Stand right there. It's locked, Jack.
-|114:13:27|LMP-LM|Okay. It is locked.
-|114:13:27|CDR-LM|Get the cover on. Okay. The cover is on.
-|114:13:27|LMP-LM|Okay. Yours off?
-|114:13:27|CDR-LM|Get that in a second. Okay. Yours is just laying there, too.
-|114:13:27|LMP-LM|Okay. Hang on.
-|114:13:27|CDR-LM|Okay. I'll push towards you. Make sure that thing falls in the hole, because yours didn't right away.
+|114:12:44|CDR-LM|Okay.
+|114:12:45|LMP-LM|Let me turn around this way.
+|114:12:46|CDR-LM|Okay. Go ahead and I'll -
+|114:12:53|LMP-LM|Okay. You want to get mine or you - -
+|114:12:55|CDR-LM|No, I'll get yours.
+|114:12:56|LMP-LM|Okay.
+|114:12:57|CDR-LM|Okay. First of all I'm going to take that off. Okay. Now let me get your other one. There it is. Okay. We did this before. Stand right there. It's locked, Jack.
+|114:13:28|LMP-LM|Okay. It is locked.
+|114:13:30|CDR-LM|Get the cover on. Okay. The cover is on.
+|114:13:41|LMP-LM|Okay. Yours off? Get that in a second.
+|114:13:45|CDR-LM|Okay. Yours is just laying there, too.
+|114:13:50|LMP-LM|Okay. Hang on.
+|114:13:50|CDR-LM|Okay. I'll push towards you. Make sure that thing falls in the hole, because yours didn't right away.
 ||||Tape 77A/18|Page 657
-|114:13:27|CDR-LM|Did it fall in?
-|114:13:27|LMP-LM|Yes - yes, it's in the hole.
-|114:13:27|CDR-LM|Okay. Wrist cover on.
-|114:13:27|LMP-LM|Wrist cover's on.
-|114:13:27|CDR-LM|And my PGA is going to start biting here if we don't get going.
-|114:13:27|LMP-LM|Yes, Okay - okay - PLSS to the - -
-|114:13:27|CDR-LM|I've got to turn my oxygen on a second, Jack.
-|114:13:27|LMP-LM|Yes, so do I.
-|114:13:27|LMP-LM|That's that. There it is.
-|114:13:27|CDR-LM|Okay. It's on.
-|114:13:27|CDR-LM|A little hard to get it off, isn't it.
-|114:13:27|LMP-LM|Yes.
-|114:13:27|CDR-LM|Okay. Mine is back off.
-|114:13:27|LMP-LM|Yes, mine is.
-|114:13:27|CDR-LM|Okay. PLSS DIVERTER VALVE, MIN; verify.
+|114:14:06|CDR-LM|Did it fall in?
+|114:14:09|LMP-LM|Yes - yes, it's in the hole.
+|114:14:13|CDR-LM|Okay. Wrist cover on?
+|114:14:16|LMP-LM|Wrist cover's on.
+|114:14:17|CDR-LM|And my PGA is going to start biting here if we don't get going.
+|114:14:23|LMP-LM|Yes, Okay - okay - PLSS to the - -
+|114:14:27|CDR-LM|I've got to turn my oxygen on a second, Jack.
+|114:14:30|LMP-LM|Yes, so do I.
+|114:14:34|LMP-LM|That's that. There it is.
+|114:14:39|CDR-LM|Okay. It's on.
+|114:14:46|CDR-LM|A little hard to get it off, isn't it.
+|114:14:47|LMP-LM|Yes.
+|114:14:48|CDR-LM|Okay. Mine is back off.
+|114:14:49|LMP-LM|Yes, mine is.
+|114:14:50|CDR-LM|Okay. PLSS DIVERTER VALVE, MIN; verify.
 |114:14:56|LMP-LM|Okay. Mine's MIN.
-|114:14:56|CDR-LM|Okay. PLSS PUMP, ON; that's to the right. PRESSURE REGs A and B, EGRESS.
-|114:14:56|LMP-LM|I think we're already at EGRESS.
-|114:14:56|CDR-LM|Pump's on.
-|114:14:56|LMP-LM|We're in EGRESS.
-|114:14:56|CDR-LM|Okay, my PUMP is on. I can feel it running.
-|114:14:56|LMP-LM|Keep talking.
-|114:14:56|CDR-LM|Pressure integrity check. Okay. PLSS 02 ON. You ready for this?
+|114:14:57|CDR-LM|Okay. PLSS PUMP, ON; that's to the right. PRESSURE REGs A and B, EGRESS.
+|114:15:06|LMP-LM|I think we're already at EGRESS.
+|114:15:08|CDR-LM|Pump's on.
+|114:15:09|LMP-LM|We're in EGRESS.
+|114:15:11|CDR-LM|Okay, my PUMP is on. I can feel it running.
+|114:15:13|LMP-LM|Keep talking.
+|114:15:14|CDR-LM|Pressure integrity check. Okay. PLSS O2 ON. You ready for this?
 ||||Tape 77A/19|Page 658
-|114:14:56|LMP-LM|I hope so.
-|114:14:56|CDR-LM|Okay. PLSS 02 ON.
-|114:14:56|LMP-LM|Mine's on.
-|114:14:56|CDR-LM|PRESSURE flag and O^ flag clear, 3.1 to 3.4.
+|114:15:20|LMP-LM|I hope so.
+|114:15:21|CDR-LM|Okay. PLSS O2 ON.
+|114:15:23|LMP-LM|Mine's on.
+|114:15:24|CDR-LM|PRESSURE flag and O2 flag clear, 3.1 to 3.4.
 |114:15:38|LMP-LM|Okay. I'm coming up. I know that.
-|114:15:38|CDR-LM|Gee, it's 10 minutes to 6 at home.
-|114:15:38|LMP-LM|Okay. Okay. I'm still coming up, coming up.
-|114:15:38|CDR-LM|Keep coming up. Just got mine on.
-|114:15:38|LMP-LM|Oh, okay. Well, I'm ahead of you then.
-|114:15:38|CDR-LM|Yes. Okay. The PRESS flag will clear 37 -correction - 3*1 to 3.4.
-|114:15:38|LMP-LM|What do you want me to do when I'm pressurized?
-|114:15:38|CDR-LM|We'll want to make an integrity check.
-|114:15:38|LMP-LM|Yes, but then what?
-|114:15:38|CDR-LM|Can you reach those water hoses right there? By chance before you get too hard?
-|114:15:38|LMP-LM|Throw them out of the way?
-|114:16:25|CDR-LM|Okay. When you get - when you get up - Okay. A PRESS flag cleared on the commander. Okay. The 02 flag did not clear. I'm at 3 - 8 - Okay. 02 flag cleared on the commander.
-|114:16:25|LMP-LM|Still got an 02 on the LMP.
-|114:16:25|CDR-LM|Okay, you're not up yet; I suppose.
-|114:16:25|LMP-LM|No.
-|114:16:58|CDR-LM|Okay. I'm going to take my PLSS 02 OFF for 1 - counting 1 minute, 57* Let me know when you're up, Jack, and I'll give you a minute hand.
+|114:15:45|CDR-LM|Gee, it's 10 minutes to 6 at home.
+|114:15:48|LMP-LM|Okay. Okay. I'm still coming up.
+|114:15:51|CDR-LM|Keep coming up. Just got mine on.
+|114:15:56|LMP-LM|Oh, okay. Well, I'm ahead of you then.
+|114:15:57|CDR-LM|Yes. Okay. The PRESS flag will clear 37 - correction - 3.1 to 3.4.
+|114:16:07|LMP-LM|What do you want me to do when I'm pressurized?
+|114:16:10|CDR-LM|We'll want to make an integrity check.
+|114:16:12|LMP-LM|Yes, but then what?
+|114:16:12|CDR-LM|Can you reach those water hoses right there? By chance before you get too hard?
+|114:16:23|LMP-LM|Throw them out of the way?
+|114:16:25|CDR-LM|Okay. When you get - when you get up - Okay. A PRESS flag cleared on the commander. Okay. The O2 flag did not clear. I'm at 3.8 - Okay. O2 flag cleared on the commander.
+|114:16:50|LMP-LM|Still got an O2 on the LMP.
+|114:16:52|CDR-LM|Okay, you're not up yet; I suppose.
+|114:16:54|LMP-LM|No.
+|114:16:58|CDR-LM|Okay. I'm going to take my PLSS O2 OFF for 1 - counting 1 minute, 57. Let me know when you're up, Jack, and I'll give you a minute hand.
 ||||Tape 77A/20|Page 659
-|114:16:58|LMP-LM|Okay. I'm clear.
-|114:16:58|CDR-LM|Okay. You up?
-|114:16:58|LMP-LM|Yes.
-|114:16:58|CDR-LM|You can turn your PLSS 02 OFF any time. Let me know when. Can you reach it? If you can't, I'll get it for you.
-|114:16:58|LMP-LM|Why don't you get it.
-|114:16:58|CDR-LM|Okay. Okay.
-|114:17:34|CDR-LM|MARK it.
-|114:17:34|LMP-LM|Okay.
-|114:17:34|CDR-LM|You're on the 30-second mark, and I'm on the minute mark.
-|114:17:34|LMP-LM|Okay, and I'm at 3.8.
-|114:17:34|CDR-LM|Okay. I'll give you a hack on it.
-|114:17:34|CDR-LM|Okay. I'm coming up on 45 seconds.
-|114:18:01|CDR-LM|Okay. I'm 1 minute; going back on. Okay, Houston. Commander went from 3.8 to about 3.67. I'll get yours on when you need it on, Jack.
-|114:18:01|CC|I copy that, Commander.
-|114:18:01|CDR-LM|Okay. And we'll pick Jack up here in about 10 more seconds.
-|114:18:01|CC|Okay.
+|114:17:09|LMP-LM|Okay. I'm clear.
+|114:17:10|CDR-LM|Okay. You up?
+|114:17:11|LMP-LM|Yes.
+|114:17:12|CDR-LM|You can turn your PLSS O2 OFF any time. Let me know when. Can you reach it? If you can't, I'll get it for you.
+|114:17:29|LMP-LM|Why don't you get it.
+|114:17:30|CDR-LM|Okay. Okay.
+|114:17:35|CDR-LM|MARK it.
+|114:17:36|LMP-LM|Okay.
+|114:17:36|CDR-LM|You're on the 30-second mark, and I'm on the minute mark.
+|114:17:39|LMP-LM|Okay, and I'm at 3.8.
+|114:17:41|CDR-LM|Okay. I'll give you a hack on it.
+|114:17:46|PAO|Still about 20 minutes behind time.
+|114:17:48|CDR-LM|Okay. I'm coming up on 45 seconds.
+|114:18:02|CDR-LM|Okay. I'm 1 minute; going back on. Okay, Houston. Commander went from 3.8 to about 3.67. I'll get yours on when you need it on, Jack.
+|114:18:18|CC|I copy that, Commander.
+|114:18:24|CDR-LM|Okay. And we'll pick Jack up here in about 10 more seconds.
+|114:18:27|CC|Okay.
 |114:18:31|CDR-LM|Okay, Jack. I'm turning on. Did you mark it?
-|114:18:31|CDR-LM|Okay, Houston; 3.8 to 3.6.
-|114:18:31|LMP-LM|Hello, Houston; you copy the LMP?
-|114:18:31|CC|Roger. Copy the LMP. Okay; and Challenger - -
+|114:18:34|CDR-LM|Okay, Houston; 3.8 to 3.6.
+|114:18:45|LMP-LM|Hello, Houston; you copy the LMP?
+|114:18:48|CC|Roger. Copy the LMP. Okay; and Challenger - -
 ||||Tape 77A/21|Page 660
-|114:18:31|CDR-LM|Okay. Standing by for your GO for depress.
-|114:18:31|CC|You'll be glad to know you are GO for depress.
-|114:18:31|CDR-LM|Thank you, Robert. I understand we are GO for depress.
-|114:18:31|CC|That's affirm.
-|114:18:31|CDR-LM|Okay, Jack. Can you reach the front valve, or do you want me to?
-|114:18:31|LMP-LM|Well, let me turn around here.
-|114:18:31|CDR-LM|Okay, on l6 - first around, on 16, CABIN REPRESS, OPEN.
+|114:18:52|CDR-LM|Okay. Standing by for your GO for depress.
+|114:18:54|CC|You'll be glad to know you are GO for depress.
+|114:18:59|CDR-LM|Thank you, Robert. I understand we are GO for depress.
+|114:19:02|CC|That's affirm.
+|114:19:03|CDR-LM|Okay, Jack. Can you reach the front valve, or do you want me to?
+|114:19:07|LMP-LM|Well, let me turn around here.
+|114:19:10|CDR-LM|Okay, on l6 - first around, on 16, CABIN REPRESS, OPEN.
 |114:19:16|LMP-LM|Okay; 16: CABIN REPRESS, OPEN. Circuit breaker is op - coming open.
-|114:19:16|CDR-LM|Okay, and CABIN REPRESS valve, CLOSED on the panel.
-|114:19:25|LMP-LM|Okay. The valve is closed.
-|114:19:25|CDR-LM|Okay. If you can't reach it, I guess I can.
-|114:19:25|LMP-LM|Okay. I just had a momentary tone.
-|114:19:25|CDR-LM|So did I. I got it, too.
-|114:19:25|LMP-LM|Okay.
-|114:19:25|CDR-LM|I think it was when you closed the REPRESS valve.
-|114:19:25|CDR-LM|Can you reach it? If not I'll reach your overhead one.
-|114:19:25|LMP-LM|I think you better reach your overhead one.
-|114:19:25|CDR-LM|Okay. Slip over to your right.
-|114:19:25|LMP-LM|Some more?
-|114:19:25|CDR-LM|Let me turn here. Wait a minute, I got turned.
-|114:19:25|LMP-LM|Okay. How far down are we going to take it? 3.5, right?
+|114:19:22|CDR-LM|Okay, and CABIN REPRESS valve, CLOSED on the panel.
+|114:19:26|LMP-LM|Okay. The valve is closed.
+|114:19:28|CDR-LM|Okay. If you can't reach it, I guess I can.
+|114:19:31|LMP-LM|Okay. I just had a momentary tone.
+|114:19:35|CDR-LM|So did I. I got it, too.
+|114:19:36|LMP-LM|Okay.
+|114:19:37|CDR-LM|I think it was when you closed the REPRESS valve.
+|114:19:42|CDR-LM|Can you reach it? If not I'll reach your overhead one.
+|114:19:44|LMP-LM|I think you better reach your overhead one.
+|114:19:45|CDR-LM|Okay. Slip over to your right.
+|114:19:48|LMP-LM|Some more?
+|114:19:50|CDR-LM|Let me turn here. Wait a minute, I got turned.
+|114:20:06|LMP-LM|Okay. How far down are we going to take it? 3.5, right?
 ||||Tape 77A/22|Page 661
-|114:19:25|CDR-LM|Yes, wait a minute. I'm not there yet.
-|114:19:25|LMP-LM|Well, I just want to make sure that I'm watching.
-|114:19:25|CDR-LM|Okay; now.
-|114:20:18|CDR-LM|Okay, coming open. You ready? You reading the checklist?
-|114:20:18|LMP-LM|Stand by AUTO. REPRESS is CLOSED.
-|114:20:18|CDR-LM|Say when.
-|114:20:18|LMP-LM|Wait a minute, wait a minute, wait a minute.
-|114:20:18|CDR-LM|Okay.
-|114:20:18|LMP-LM|Got the wrong place. OPEN, then AUTO at 3.5* Okay; go ahead.
+|114:20:10|CDR-LM|Yes, wait a minute. I'm not there yet.
+|114:20:12|LMP-LM|Well, I just want to make sure that I'm watching.
+|114:20:15|CDR-LM|Okay; now.
+|114:20:19|CDR-LM|Okay, coming open. You ready? You reading the checklist?
+|114:20:21|LMP-LM|Stand by AUTO. REPRESS is CLOSED.
+|114:20:25|CDR-LM|Say when.
+|114:20:26|LMP-LM|...
+|114:20:28|CDR-LM|You ready?
+|114:20:29|LMP-LM|Wait a minute, wait a minute, wait a minute.
+|114:20:31|CDR-LM|Okay.
+|114:20:32|LMP-LM|Got the wrong place. OPEN, then AUTO at 3.5. Okay; go ahead.
 |114:20:37|CDR-LM|Okay. Here it comes. I can see daylight through it.
-|114:20:37|LMP-LM|Okay, it4s coming down. Okay. That's 4 - Stand ^y-
-|114:20:53|LMP-LM|MARK. 3.5-
-|114:20:53|CDR-LM|Okay. It's off.
-|114:20:53|LMP-LM|Okay. And your cuff gage should not be below 4.6, and mine's at 5 - mine's at 5*0.
-|114:20:53|CDR-LM|One? Okay.
-|114:20:53|LMP-LM|Okay, The suit circuit is locked up at 4.5. We're at 3.5 and holding.
-|114:20:53|CDR-LM|And I'm decaying.
-|114:20:53|LMP-LM|Okay. I'm below 5-
-|114:20:53|CDR-LM|So am I.
+|114:20:41|LMP-LM|Okay, it's coming down. Okay. That's 4 - Stand by.
+|114:20:47|PAO|Cabin pressure is coming down now.
+|114:20:53|LMP-LM|MARK. 3.5.
+|114:20:54|CDR-LM|Okay. It's off.
+|114:20:56|LMP-LM|Okay. And your cuff gauge should not be below 4.6, and mine's at 5 - mine's at 5.0.
+|114:21:04|CDR-LM|One? Okay.
+|114:21:12|LMP-LM|Okay, The suit circuit is locked up at 4.5. We're at 3.5 and holding.
+|114:21:23|CDR-LM|And I'm decaying.
+|114:21:26|LMP-LM|Okay. I'm below 5.
+|114:21:27|CDR-LM|So am I.
 ||||Tape 77A/23|Page 662
-|114:20:53|LMP-LM|Verify that; okay.
+|114:21:28|LMP-LM|Verify that; okay.
 |114:21:32|LMP-LM|Okay. I'll start my watch.
-|114:21:32|CC|Okay. We verify and we're counting.
-|114:21:32|LMP-LM|Watches started.
+|114:21:37|CC|Okay. We verify and we're counting.
+|114:21:38|LMP-LM|Watches started.
 |114:21:41|LMP-LM|Okay. OVERHEAD or FORWARD DUMP VALVE, OPEN.
-|114:21:41|CDR-LM|Okay. Here it comes.
-|114:21:41|LMP-LM|And it's going down.
-|114:21:41|CDR-LM|You going to want me to put this in AUTO afterwards or not? So, I can turn around. Jack.
-|114:21:41|LMP-LM|Stand by.
-|114:21:41|CDR-LM|.. . open - -
-|114:21:41|LMP-LM|...--
-|114:21:41|CDR-LM|- - leave it open.
-|114:21:41|LMP-LM|Leave it open.
-|114:21:41|CDR-LM|No, we don't, because then we don't want that hatch to get closed.
-|114:22:09|LMP-LM|You got to turn around here. Oh, boy!
-|114:22:09|LMP-LM|Boy, you sure get heavy at 5, don't you? Okay. Where are we? Right here, huh? What that was -
-|114:22:09|CDR-LM|What's cabin, Jack.
+|114:21:44|CDR-LM|Okay. Here it comes.
+|114:21:46|LMP-LM|And it's going down.
+|114:21:49|PAO|Unofficial start of EVA 117:01:35.
+|114:21:52|CDR-LM|You going to want me to put this in AUTO afterwards or not? So, I can turn around. Jack.
+|114:21:58|LMP-LM|Stand by.
+|114:21:02|CDR-LM|... open - -
+|114:21:02|LMP-LM|... - -
+|114:21:03|CDR-LM|- - leave it open.
+|114:21:04|LMP-LM|Leave it open.
+|114:21:04|CDR-LM|No, we don't, because then we don't want that hatch to get closed.
+|114:22:11|LMP-LM|You got to turn around here. Oh, boy!
+|114:22:23|PAO|Cabin press below 1 lb per square inch now.
+|114:22:35|LMP-LM|Boy, you sure get heavy at 5, don't you? Okay. Where are we? Right here, huh? What that was -
+|114:22:58|CDR-LM|What's cabin, Jack.
 |114:23:05|CDR-LM|Do you read, Jack?
-|114:23:05|CC|Jack, this is Houston.
-|114:23:05|CDR-LM|Wait a minute.
-|114:23:05|CC|CDR, we're not reading the LMP either.
-|114:23:05|LMP-LM|Now, how do you read?
+|114:23:07|CC|Jack, this is Houston.
+|114:23:08|CDR-LM|Wait a minute.
+|114:23:09|CC|CDR, we're not reading the LMP either.
+|114:23:11|LMP-LM|Now, how do you read?
 ||||Tape 77A/24|Page 663
-|114:23:05|CC|We read you - -
-|114:23:05|CDR-LM|Now, how do you read, Jack?
-|114:23:05|LMP-LM|Okay. You're loud and clear. Okay.
-|114:23:05|LMP-LM|We got a switch in the wrong place as usual, Bob. I just hit the MODE SELECT; that's all.
-|114:23:05|CC|Okay. We copy.
-|114:23:05|LMP-LM|Okay. Partially open the forward hatch, when we can. Okay. Can you zap over to the left as much as you can?
-|114:23:05|CDR-LM|To the right, you mean?
-|114:23:05|LMP-LM|Yes.
-|114:23:05|CDR-LM|Yes. To the north.
-|114:23:05|LMP-LM|To the north.
-|114:23:05|CDR-LM|The north.
-|114:23:05|LMP-LM|The north. (Laughter) Okay, it's about 0.2, Gene.
-|114:23:05|CDR-LM|Okay. Let me -
-|114:23:05|LMP-LM|You going to be able to get to it?
-|114:23:05|CDR-LM|Yes. You bet you. I've come this far. I'm not going to miss getting that hatch open.
-|114:23:56|LMP-LM|Hey, something just flew out.
-|114:23:58|CDR-LM|It's open now.
-|114:23:58|LMP-LM|Gosh, look at those trajectories (laughter).
-|114:23:58|CDR-LM|Yes. Put just enough air in here, we're - Okay; it's open, babe. Okay; it is open.
-|114:24:12|LMP-LM|Good. Okay; final prep, PLSS primary H20. I've got to figure out how to open that now.
+|114:23:13|CC|We read you - -
+|114:23:14|CDR-LM|Now, how do you read, Jack?
+|114:23:15|LMP-LM|Okay. You're loud and clear. Okay.
+|114:23:18|LMP-LM|We got a switch in the wrong place as usual, Bob. I just hit the MODE SELECT; that's all.
+|114:23:25|CC|Okay. We copy.
+|114:23:26|LMP-LM|Okay. Partially open the forward hatch, when we can. Okay. Can you zap over to the left as much as you can?
+|114:23:33|CDR-LM|To the right, you mean?
+|114:23:34|LMP-LM|Yes.
+|114:23:34|CDR-LM|Yes. To the north.
+|114:23:35|LMP-LM|To the north.
+|114:23:36|CDR-LM|The north.
+|114:23:36|LMP-LM|The north. (Laughter) Okay, it's about 0.2, Gene.
+|114:23:44|CDR-LM|Okay. Let me -
+|114:23:44|LMP-LM|You going to be able to get to it?
+|114:23:45|CDR-LM|Yes. You bet you. I've come this far. I'm not going to miss getting that hatch open.
+|114:23:57|LMP-LM|Hey, something just flew out.
+|114:23:59|CDR-LM|It's open now.
+|114:24:01|LMP-LM|Gosh, look at those trajectories (laughter).
+|114:24:04|CDR-LM|Yes. Put just enough air in here, we're - Okay; it's open, babe. Okay; it is open.
+|114:24:12|LMP-LM|Good. Okay; final prep, PLSS primary H2O. I've got to figure out how to open that now.
 ||||Tape 77A/25|Page 664
-|114:24:12|CDR-LM|Okay.
-|114:24:12|CDR-LM|When you're at 5 psi, it's - We never did really train for this in the right way.
-|114:24:39|LMP-LM|Yes, we did. Okay. My water is OPEN.
+|114:24:22|CDR-LM|Okay.
+|114:24:31|CDR-LM|When you're at 5 psi, it's - We never did really train for this in the right way.
+|114:24:40|LMP-LM|Yes, we did. Okay. My water is OPEN.
 |114:24:47|CDR-LM|And my water is OPEN.
-|114:24:47|CDR-LM|Okay. Well, let's see, rest until cooling sufficient; 3*7 to 4.6. I'm to 4.9; coming down.
-|114:24:47|LMP-LM|Yes, I am, too. Coming down.
-|114:24:47|CDR-LM|CWEA status.
-|114:25:13|CDR-LM|PREAMPs and ECS. Can you see that?
-|114:25:16|LMP-LM|See a PREAMPs, and I see ECS.
-|114:25:18|CDR-LM|Okay. Water SEP component light, on.
-|114:25:22|LMP-LM|Water, excuse me, water SEP. Well, the next thing it says that Gene gets out.
-|114:25:22|CDR-LM|I don't see that.
-|114:25:22|LMP-LM|That's what it says on my checklist.
-|114:25:22|CDR-LM|Okay. Good heavens! That means you got to get out of the way so I can open the hatch.
-|114:25:22|LMP-LM|Well, I'm going to have to turn around a little, I think, so I can help you.
-|114:25:22|CDR-LM|Okay. Boy, beware of that corner.
-|114:25:22|LMP-LM|It's high pressure (laughter).
-|114:25:22|CDR-LM|Yes. I tell you at 4-1/2, you're really pretty heavy.
-|114:25:22|LMP-LM|What was that that came shooting up here? A piece of bread? (Laughter) Would you believe that?
+|114:25:02|CDR-LM|Okay. Well, let's see, rest until cooling sufficient; 3.7 to 4.6. I'm to 4.9; coming down.
+|114:25:11|LMP-LM|Yes, I am, too. Coming down.
+|114:25:12|CDR-LM|CWEA status.
+|114:25:14|CDR-LM|PREAMPs and ECS. Can you see that?
+|114:25:17|LMP-LM|See a PREAMPs, and I see ECS.
+|114:25:19|CDR-LM|Okay. Water SEP component light, on.
+|114:25:23|LMP-LM|Water, excuse me, water SEP. Well, the next thing it says that Gene gets out.
+|114:25:31|CDR-LM|I don't see that.
+|114:25:34|LMP-LM|That's what it says on my checklist.
+|114:25:35|CDR-LM|Okay. Good heavens! That means you got to get out of the way so I can open the hatch.
+|114:25:46|LMP-LM|Well, I'm going to have to turn around a little, I think, so I can help you.
+|114:25:49|CDR-LM|Okay. Boy, beware of that corner.
+|114:25:54|LMP-LM|It's high pressure (laughter).
+|114:25:56|CDR-LM|Yes. I tell you at 4-1/2, you're really pretty heavy.
+|114:25:59|LMP-LM|What was that that came shooting up here? A piece of bread? (Laughter) Would you believe that?
 ||||Tape 77A/26|Page 665
-|114:25:22|CDR-LM|Yes, I'd believe it.
-|114:25:22|LMP-LM|Why is our hatch open? Somebody opened our hatch. Are you getting cooling?
-|114:25:22|CDR-LM|I'm beginning to, I think.
-|114:25:22|LMP-LM|I still got a water flag. Not hot. Stand by. Okay. Well.
-|114:26:39|LMP-LM|How does the water pressures look, Houston?
+|114:26:05|CDR-LM|Yes, I'd believe it.
+|114:26:09|LMP-LM|Why is our hatch open? Somebody opened our hatch. Are you getting cooling?
+|114:26:14|CDR-LM|I'm beginning to, I think.
+|114:26:17|LMP-LM|I still got a water flag. Not hot. Stand by. Okay. Well.
+|114:26:40|LMP-LM|How does the water pressures look, Houston?
 |114:26:46|CC|Challenger, they're looking just a little bit low. We're still expecting it to build up. It's going to take a little while.
-|114:26:54|CDR-LM|Okay. I'm getting down on my knees out here. How am I looking, Jack?
-|114:26:54|LMP-LM|You're just fine. I'm holding you away from the DEDA, the ... DSKY.
-|114:26:54|CDR-LM|Okay. I'm going to put this visor down now, I think. How does that look to you?
-|114:26:54|LMP-LM|What?
-|114:26:54|CDR-LM|How are my legs? Am I getting out?
-|114:26:54|LMP-LM|Well, I don't know. I can't see your legs.
-|114:26:54|CDR-LM|Oh, okay (laught er).
-|114:26:54|LMP-LM|I think you're getting out though, because there's not as much of you in here as there used to be. Oh, hey; Gene, when I get down there, I got to fix your tool harness. Hold it.
-|114:26:54|CDR-LM|Okay. Can you reach it?
-|114:26:54|LMP-LM|It's come off the bottom again.
-|114:26:54|CDR-LM|Can you reach it?
-|114:26:54|LMP-LM|Well, I can't do it now, because it's come off from the bottom. I'll have to - -
+|114:26:55|CDR-LM|Okay. I'm getting down on my knees out here. How am I looking, Jack?
+|114:27:00|LMP-LM|You're just fine. I'm holding you away from the DEDA, the ... DSKY.
+|114:27:06|CDR-LM|Okay. I'm going to put this visor down now, I think. How does that look to you?
+|114:27:17|LMP-LM|What?
+|114:27:18|CDR-LM|How are my legs? Am I getting out?
+|114:27:19|LMP-LM|Well, I don't know. I can't see your legs.
+|114:27:22|CDR-LM|Oh, okay (laughter).
+|114:27:24|LMP-LM|I think you're getting out though, because there's not as much of you in here as there used to be. Oh, hey; Gene, when I get down there, I got to fix your tool harness. Hold it.
+|114:27:35|CDR-LM|Okay. Can you reach it?
+|114:27:36|LMP-LM|It's come off the bottom again.
+|114:27:39|CDR-LM|Can you reach it?
+|114:27:39|LMP-LM|Well, I can't do it now, because it's come off from the bottom. I'll have to - -
 ||||Tape 77A/27|Page 666
-|114:26:54|CDR-LM|Oh, the bottom of the PLSS, huh?
-|114:26:54|LMP-LM|Yes.
-|114:07:46|CDR-LM|Okay. Well, my legs are out. Keep that hatch open.
-|114:07:46|LMP-LM|Can you squat down any further, because you're hooked on - you're making it worse. Okay,
-|114:07:46|CDR-LM|How's that?
-|114:07:46|LMP-LM|Okay. Now, I think I - Be careful because you might hook it on something down there.
-|114:07:46|CDR-LM|Oh, the tool harness?
-|114:07:46|LMP-LM|Yes. The back. It's loose on your back; on the back of the PLSS.
-|114:07:46|CDR-LM|Oh, man, I don't like that. Okay. I'll watch it
-|114:07:46|LMP-LM|Well, I'll fix it when I get out there.
-|114:28:21|CDR-EVA|Okay. I'm still reading 4.0. Houston, Commander is on the porch of Challenger.
+|114:27:43|CDR-LM|Oh, the bottom of the PLSS, huh?
+|114:27:44|LMP-LM|Yes.
+|114:27:46|CDR-LM|Okay. Well, my legs are out. Keep that hatch open.
+|114:27:50|LMP-LM|Can you squat down any further, because you're hooked on - you're making it worse. Okay.
+|114:28:05|CDR-LM|How's that?
+|114:28:06|LMP-LM|Okay. Now, I think I - Be careful because you might hook it on something down there.
+|114:28:10|CDR-LM|Oh, the tool harness?
+|114:28:11|LMP-LM|Yes. The back. It's loose on your back; on the back of the PLSS.
+|114:28:16|CDR-LM|Oh, man, I don't like that. Okay. I'll watch it.
+|114:28:18|LMP-LM|Well, I'll fix it when I get out there.
+|114:28:20|CDR-EVA|Okay. I'm still reading 4.0. Houston, Commander is on the porch of Challenger.
 |114:28:30|CC|Roger. We copy you, Commander, and your feed water pressure is looking much better - -
-|114:28:30|CDR-EVA|Okay. Everything else look good to you?
-|114:28:30|CC|That's affirmative.
-|114:28:46|CDR-EVA|Okay, Jack. I'm going to get the MESA.
-|114:28:46|LMP-LM|Okay. And I'll have an ETB ready for you.
-|114:28:46|CDR-EVA|Oh, man; oh, man; oh, man.
-|114:28:46|LMP-LM|Deploy MESA.
-|114:29:00|CDR-EVA|Okay. Here it comes.
+|114:28:39|CDR-EVA|Okay. Everything else look good to you?
+|114:28:42|CC|That's affirmative.
+|114:28:47|CDR-EVA|Okay, Jack. I'm going to get the MESA.
+|114:28:50|LMP-LM|Okay. And I'll have an ETB ready for you.
+|114:28:52|CDR-EVA|Oh, man; oh, man; oh, man.
+|114:29:00|LMP-LM|Deploy MESA.
+|114:29:01|CDR-EVA|Okay. Here it comes.
 ||||Tape 77A/28|Page 667
 |114:29:08|CDR-EVA|There she goes, Babe.
-|114:29:08|LMP-LM|Yea, hey!
-|114:29:08|CDR-EVA|There she is. All the way down; it looks like. Okay. I jettisoned - Oh, you want an ETB?
-|114:29:08|LMP-LM|That's up to you.
-|114:29:08|CDR-EVA|Yes.
-|114:29:08|LMP-LM|You're the commander.
-|114:29:08|CDR-EVA|I got it. I got it. And, the pressure looks like it's started to stabilize at 3.8. I don't know whether I'm getting cooler or not, but I feel pretty good.
-|114:29:08|CC|Okay. We copy that.
-|114:29:08|LMP-LM|How about a jett bag, too?
-|114:29:08|CDR-EVA|Okay. Oh, Jack, I could swing it over the - Won't be any problem. Over the strut. Okay; and the jet bag is springing free - swinging free.
-|114:29:08|LMP-LM|You mean the ETB.
-|114:29:08|CDR-EVA|ETB. Oh, man. This looks like a Santa Claus bag.
-|114:29:08|LMP-LM|It is.
-|114:29:08|CDR-EVA|Oh, boy. There it goes. The Rover looks in good shape. ETB is down there. Okay. I've got all my visors down. Jack, I wouldn't lower your gold visor until after you get on the porch, because it's plenty dark out here.
-|114:29:08|LMP-LM|Okay.
-|114:29:08|CDR-EVA|Okay.
-|114:29:08|LMP-LM|Tape recorder - -
+|114:29:10|LMP-LM|Yea, hey!
+|114:29:11|CDR-EVA|There she is. All the way down; it looks like. Okay. I jettisoned - Oh, you want an ETB?
+|114:29:20|LMP-LM|That's up to you.
+|114:29:21|CDR-EVA|Yes.
+|114:29:23|LMP-LM|You're the commander.
+|114:29:25|CDR-EVA|I got it. I got it. And, the pressure looks like it's started to stabilize at 3.8. I don't know whether I'm getting cooler or not, but I feel pretty good.
+|114:29:41|CC|Okay. We copy that.
+|114:29:43|LMP-LM|How about a jett bag, too?
+|114:29:55|CDR-EVA|Okay. Oh, Jack, I could swing it over the - Won't be any problem. Over the strut. Okay; and the jet bag is springing free - swinging free.
+|114:30:15|LMP-LM|You mean the ETB.
+|114:30:16|CDR-EVA|ETB. Oh, man. This looks like a Santa Claus bag.
+|114:30:21|LMP-LM|It is.
+|114:30:23|CDR-EVA|Oh, boy. There it goes. The Rover looks in good shape. ETB is down there. Okay. I've got all my visors down. Jack, I wouldn't lower your gold visor until after you get on the porch, because it's plenty dark out here.
+|114:30:40|LMP-LM|Okay.
+|114:30:42|CDR-EVA|Okay.
+|114:30:42|LMP-LM|Tape recorder - -
 |114:30:43|CDR-EVA|I'm on my way.
 ||||Tape 77A/29|Page 668
-|114:30:43|LMP-LM|-- is off.
-|114:30:43|CDR-EVA|Sensitivity, max and max.
-|114:30:43|CDR-EVA|Okay, Houston, The Commander Is about three-quarters of the way down.
-|114:31:09|CDR-EVA|I'm on the footpad. And, Houston, as I step off at the surface at Taurus-Littrow, I'd like to dedicate the first step of Apollo 17 to all those who made it possible. Jack, I'm out here. Oh, my golly. Unbelievable. Unbelievable, but is it bright in the Sun. Okay. We landed in a very shallow depression. That's why we've got a slight pitch-up angle. Very shallow, dinner-plate-like dish crater just about the width of the struts. How you doing, Jack?
-|114:32:12|LMP-LM|Fine. Getting the circuit breakers verified.
-|114:32:12|CDR-EVA|The LM looks beautiful. Oh, do we have boulder tracks coining down. Let me see exactly where we are. I think I may be just in front of Punk.
-|114:32:45|CC|Okay. We copy that, Gene, and are the boulder tracks - -
-|114:32:45|CDR-EVA|I'm beginning to - -
-|114:32:45|CC|- - to both the north and south?
-|114:32:53|CDR-EVA|Okay. On the North Massif, we've got very obvious boulder tracks. A couple of large boulders come within 20 or 30 feet of the - Looks like where we can get to them, but there's a couple -there's a couple I know we can get to. Well, the Sun angle is such that, what I saw on the South Massif earlier I can't see very well. But, I know there were boulder tracks over there. The -Bare Mountain - Boy, it's hard to look to the east - Bare Mountain and the Sculptured Hills have a very, very similar texture on the surface. The Sculptured Hills is like the wrinkled skin of an old,sold, 100-year-old man - is probably the best way I could put it. Very, very hummocky, and -but smoothly pockmarked. I do not see any boulders up by the Sculptured Hills from here. But it's awful hard to look to the east and to the southeast
+|114:30:44|LMP-LM|-- is off.
+|114:30:47|CDR-EVA|Sensitivity, max and max.
+|114:30:57|CDR-EVA|Okay, Houston, The Commander is about three-quarters of the way down.
+|114:31:10|CDR-EVA|I'm on the footpad.
+|114:31:13|CDR-EVA|And, Houston, as I step off at the surface at Taurus-Littrow, I'd like to dedicate the first step of Apollo 17 to all those who made it possible. Jack, I'm out here. Oh, my golly. Unbelievable. Unbelievable, but is it bright in the Sun. Okay. We landed in a very shallow depression. That's why we've got a slight pitch-up angle. Very shallow, dinner-plate-like dish crater just about the width of the struts. How you doing, Jack?
+|114:32:13|LMP-LM|Fine. Getting the circuit breakers verified.
+|114:32:22|CDR-EVA|The LM looks beautiful. Oh, do we have boulder tracks coming down. Let me see exactly where we are. I think I may be just in front of Punk.
+|114:32:46|CC|Okay. We copy that, Gene, and are the boulder tracks - -
+|114:32:49|CDR-EVA|I'm beginning to - -
+|114:32:49|CC|- - to both the north and south?
+|114:32:53|CDR-EVA|Okay. On the North Massif, we've got very obvious boulder tracks. A couple of large boulders come within 20 or 30 feet of the - Looks like where we can get to them, but there's a couple - there's a couple I know we can get to. Well, the Sun angle is such that, what I saw on the South Massif earlier I can't see very well. But, I know there were boulder tracks over there. The - Bare Mountain - Boy, it's hard to look to the east - Bare Mountain and the Sculptured Hills have a very, very similar texture on the surface. The Sculptured Hills is like the wrinkled skin of an old, old, 100-year-old man - is probably the best way I could put it. Very, very hummocky, and - but smoothly pockmarked. I do not see any boulders up by the Sculptured Hills from here. But it's awful hard to look to the east and to the southeast.
 ||||Tape 77A/30|Page 669
-|114:32:53|CC|Okay. We copy that, Gene. Have you got an LMP with you yet?
-|114:34:09|CDR-EVA|Well, here come his feet. Jack, let me make sure. We didn't have an awful lot of dust on landing; but I can dig my foot in 8 or 10 inches, and I know we're at least that thick. There's a small little 1-meter crater right in front of us with a whole mess of glass right in the middle. That's right in front of the MESA, as a matter of fact. Right where I want to park the Rover. Jack, you're looking good.
-|114:34:09|CC|Beautiful, guys; beautiful.
-|114:34:09|CDR-EVA|I'm going to take a quick look back. I think this is Poppy, and I can give you a real better idea where we are.
-|114:34:09|LMP-LM|Hatch is closed, barely.
-|114:34:09|CDR-EVA|Hey, Jack, don't lock it.
-|114:34:09|LMP-LM|I'm not going to lock it.
-|114:34:09|CDR-EVA|We've got to go back there. You lose the key, and we're in trouble.
-|114:35:01|LMP-EVA|Oh, I'm on the porch. Who said this place was smooth?
-|114:35:01|CDR-EVA|Boy, there's a lot of local depressions here I didn't figure existed.
+|114:34:04|CC|Okay. We copy that, Gene. Have you got an LMP with you yet?
+|114:34:10|CDR-EVA|Well, here come his feet. Jack, let me make sure. We didn't have an awful lot of dust on landing; but I can dig my foot in 8 or 10 inches, and I know we're at least that thick. There's a small little 1-meter crater right in front of us with a whole mess of glass right in the middle. Right smack - That's right in front of the MESA, as a matter of fact. Right where I want to park the Rover. Jack, you're looking good.
+|114:34:39|CC|Beautiful, guys; beautiful.
+|114:34:43|CDR-EVA|I'm going to take a quick look back. I think this is Poppy, and I can give you a real better idea where we are.
+|114:34:50|LMP-LM|Hatch is closed, barely.
+|114:34:52|CDR-EVA|Hey, Jack, don't lock it.
+|114:34:54|LMP-LM|I'm not going to lock it.
+|114:34:55|CDR-EVA|We've got to go back there. You lose the key, and we're in trouble.
+|114:35:02|LMP-EVA|Oh, I'm on the porch. Who said this place was smooth?
+|114:35:09|CDR-EVA|Oh Boy, there's a lot of local depressions here I didn't figure existed.
 |114:35:17|LMP-EVA|Hey, who's been tracking up my lunar surface?
-|114:35:17|CDR-EVA|Hey, Bob, I'm east of the LM now. I'm east of the LM, and the back strut of the LM is - Well, the LM straddles this crater I talked about, and that's where we get the pitch angle; the back strut is probably right down in the eastern one-third of that crater. Just a little - very subtle crater.
-|114:35:17|LMP-EVA|Hey, man; you had some forward velocity.
-|114:35:17|CDR-EVA|That's what I wanted to have.
+|114:35:21|CDR-EVA|Hey, Bob, I'm east of the LM now. I'm east of the LM, and the back strut of the LM is - Well, the LM straddles this crater I talked about, and that's where we get the pitch angle; the back strut is probably right down in the eastern one-third of that crater. Just a little - very subtle crater.
+|114:35:47|LMP-EVA|Hey, man; you had some forward velocity.
+|114:35:51|CDR-EVA|That's what I wanted to have.
 ||||Tape 77A/31|Page 670
-|114:35:17|CDR-EVA|Boy, I look at some of these rocks that are filleted here, Jack, and there sure are a lot of sparklies in them. Awful lot of sparklies.
-|114:35:17|LMP-EVA|You landed in a crater!
-|114:35:17|CDR-EVA|That's a pretty good shot.
-|114:35:17|CDR-EVA|Okay. I'm going to get to work in a minute, just as soon as I take a look at Trident.
-|114:35:17|LMP-EVA|Why don't you come over here and let me deploy your antenna.
-|114:35:17|CDR-EVA|Okay. Just walk around for 1 second.
-|114:35:17|LMP-EVA|(Laughter) Hey, man, put your visor down.
-|114:35:17|CDR-EVA|And, I'll be over there, and you can fix my tool harness. I don't like that thing loose.
-|114:35:17|LMP-EVA|I don't like it loose, either. What are you doing over there? We're supposed to be working.
+|114:35:58|CDR-EVA|Boy, I look at some of these rocks that are filleted here, Jack, and there sure are a lot of sparklies in them. Awful lot of sparklies.
+|114:36:07|LMP-EVA|You landed in a crater!
+|114:36:10|CDR-EVA|That's a pretty good shot.
+|114:36:15|CDR-EVA|Okay. I'm going to get to work in a minute, just as soon as I take a look at Trident.
+|114:36:18|LMP-EVA|Why don't you come over here and let me deploy your antenna.
+|114:36:22|CDR-EVA|Okay. Just walk around for 1 second.
+|114:36:25|LMP-EVA|(Laughter) Hey, man, put your visor down.
+|114:36:30|CDR-EVA|And, I'll be over there, and you can fix my tool harness. I don't like that thing loose.
+|114:36:36|LMP-EVA|I don't like it loose, either. What are you doing over there? We're supposed to be working.
 |114:36:39|CDR-EVA|I was just going to give them a fix. All these little craters, Jack, have got glass in the bottom of them. Here's another one.
-|114:36:39|LMP-EVA|There's very clear sweeping of the surface by the descent plume out, oh, about 10 meters -no, 15 meters. Come over here, and I'll fix your antenna.
-|114:36:39|CDR-EVA|Okay. Hey, Bob, how big is Poppy supposed to be?
-|114:36:39|CC|Stand by. It looks on the map - -
-|114:36:39|CDR-EVA|I didn't hear you. You cut out.
-|114:36:39|CC|Okay. It looks on the map like it's about 75 meters in diameter. Fairly subtle.
-|114:37:28|CDR-EVA|Okay. Okay, I tell you where I think I landed -oh, about 100 meters from Poppy at 10 o'clock.
-|114:37:28|LMP-EVA|You think that's Poppy, huh?
+|114:36:46|LMP-EVA|There's very clear sweeping of the surface by the descent plume out, oh, about 10 meters - no, 15 meters. Come over here, and I'll fix your antenna.
+|114:37:11|CDR-EVA|Okay. Hey, Bob, how big is Poppy supposed to be?
+|114:37:15|CC|Stand by. It looks on the map - -
+|114:37:20|CDR-EVA|I didn't hear you. You cut out.
+|114:37:21|CC|Okay. It looks on the map like it's about 75 meters in diameter. Fairly subtle.
+|114:37:28|CDR-EVA|Okay. Okay, I tell you where I think I landed - oh, about 100 meters from Poppy at 10 o'clock.
+|114:37:40|LMP-EVA|You think that's Poppy, huh?
 ||||Tape 77A/32|Page 671
-|114:37:28|CDR-EVA|I think so - I think - -
-|114:37:28|LMP-EVA|That's an awful big hole.
-|114:37:28|CDR-EVA|Well, I know. I got to look axound a little more. It sure is not Trident.
-|114:37:28|LMP-EVA|Bend over and I'll - -
-|114:37:28|CDR-EVA|It might be part of Trident.
-|114:37:28|LMP-EVA|- - get your antenna. Get your antenna. Oh, a little more.
-|114:37:28|CDR-EVA|Gosh, it's beautiful out here.
-|114:37:28|LMP-EVA|Well, hang on.
-|114:37:28|CDR-EVA|Yes.
-|114:37:28|CDR-EVA|Okay. The immediate surf - -
-|114:37:28|LMP-EVA|Not yet. Yes, go - you talk to them. I don't want you to stand up yet.
-|114:37:28|CDR-EVA|The surface is moderately cohesive, which holds a pretty good bootprint - very fine grain. ... looks very much like previous soils. You got her?
-|114:37:28|LMP-EVA|Yes. You got a hole behind you now.
-|114:37:28|CDR-EVA|Well, I'll stand in it, and you can get at it better.
-|114:37:28|LMP-EVA|Well, you got me right in the Sun. Can you come around this way? Ho-ho. (Laughter) I'm going to have to get upstream of you.
-|114:37:28|CDR-EVA|Look, you get up on the hill, and I'll get in the hole.
-|114:37:28|LMP-EVA|Yes. There you go. Whoa, whoa, whoa, whoa.
-|114:37:28|CDR-EVA|Don't move too fast. Boy, your feet look like you just walked on the Moon, you know.
+|114:37:41|CDR-EVA|I think so - I think - -
+|114:37:42|LMP-EVA|That's an awful big hole.
+|114:37:43|CDR-EVA|Well, I know. I got to look axound a little more. It sure is not Trident.
+|114:37:48|LMP-EVA|Bend over and I'll - -
+|114:37:48|CDR-EVA|It might be part of Trident.
+|114:37:50|LMP-EVA|- - get your antenna. Get your antenna. Oh, a little more.
+|114:37:56|CDR-EVA|God, it's beautiful out here.
+|114:37:59|LMP-EVA|Well, hang on.
+|114:38:00|CDR-EVA|Yes.
+|114:38:05|CDR-EVA|Okay. The immediate surf - -
+|114:38:07|LMP-EVA|Not yet. Yes, go - you talk to them. I don't want you to stand up yet.
+|114:38:11|CDR-EVA|The surface is moderately cohesive, which holds a pretty good bootprint - very fine grain. Gene's ... looks very much like previous soils. You got her?
+|114:38:27|LMP-EVA|Yes. You got a hole behind you now.
+|114:38:29|CDR-EVA|Well, I'll stand in it, and you can get at it better.
+|114:38:31|LMP-EVA|Well, you got me right in the Sun. Can you come around this way? Ho-ho. (Laughter) I'm going to have to get upstream of you.
+|114:38:43|CDR-EVA|Look, you get up on the hill, and I'll get in the hole.
+|114:38:45|LMP-EVA|Yes. There you go. Whoa, whoa, whoa, whoa.
+|114:38:48|CDR-EVA|Don't move too fast. Boy, your feet look like you just walked on the Moon, you know.
 ||||Tape 77A/33|Page 672
-|114:37:28|LMP-EVA|Well, I tell you Gene, I think the next generation ought to accept this as a challenge.
-|114:37:28|LMP-EVA|Let's see them leave footsteps like these someday. Got another - there, that'll be all right.
-|114:39:12|CDR-EVA|Okay. What did you do with my tool harness?
-|114:39:12|LMP-EVA|I'm going to work on it; that's what I'm going to do. Whoa; hold still.
-|114:39:12|CDR-EVA|Okay. Boy, I tell you, looking to the east, you might just well forget it.
-|114:39:12|LMP-EVA|Well, let's see. How's this thing - I'm going to have to loosen it.
-|114:39:12|CDR-EVA|Well, if you could just stretch it around.
-|114:39:12|LMP-EVA|I can't.
-|114:39:12|CDR-EVA|You can't huh?
-|114:39:12|LMP-EVA|But I will be in a minute.
-|114:39:12|CDR-EVA|Don't loosen it to the point where you can't get it back on.
-|114:39:12|LMP-EVA|Okay. You're almost reconfigured.
-|114:39:12|CDR-EVA|Okay.
-|114:39:12|LMP-EVA|Okay. Somebody tied you on wrong, too. They've got the strap reversed for the Velcro. Okay, Gene. I think that will hold.
-|114:39:12|CDR-EVA|Okay, and I'm going to - -
-|114:39:12|LMP-EVA|If it doesn't I'll fix you again.
-|114:40:20|CDR-EVA|Man, there's sparklies in the soil, Jack. You can just look at it. See them all over? Very fine grained. It's sparkly, that's all. Bob, I'm going to min cooling - or, intermediate cooling.
-|114:40:33|CC|Okay. Copy that.
+|114:38:57|LMP-EVA|Well, I tell you Gene, I think the next generation ought to accept this as a challenge.
+|114:39:08|LMP-EVA|Let's see them leave footsteps like these someday. Got another - there, that'll be all right.
+|114:39:13|CDR-EVA|Okay. What can you do with my tool harness?
+|114:39:16|LMP-EVA|I'm going to work on it; that's what I'm going to do. Whoa; hold still.
+|114:39:23|CDR-EVA|Okay. Boy, I tell you, looking to the east, you might just well forget it.
+|114:39:34|LMP-EVA|Well, let's see. How's this thing - I'm going to have to loosen it.
+|114:39:38|CDR-EVA|Well, if you could just stretch it around.
+|114:39:40|LMP-EVA|I can't.
+|114:39:41|CDR-EVA|You can't huh?
+|114:39:42|LMP-EVA|But I will be in a minute.
+|114:39:43|CDR-EVA|Don't loosen it to the point where you can't get it back on.
+|114:39:50|LMP-EVA|Okay. You're almost reconfigured.
+|114:39:54|CDR-EVA|Okay.
+|114:40:01|LMP-EVA|Okay. Somebody tied you on wrong, too. They've got the strap reversed for the Velcro. Okay, Gene. I think that will hold.
+|114:40:17|CDR-EVA|Okay, and I'm going to - -
+|114:39:18|LMP-EVA|If it doesn't I'll fix you again.
+|114:40:21|CDR-EVA|Man, there's sparklies in the soil, Jack. You can just look at it. See them all over? Very fine grained. It's sparkly, that's all. Bob, I'm going to min cooling - or, intermediate cooling.
+|114:40:34|CC|Okay. Copy that.
 ||||Tape 77A/34|Page 673
-|114:40:33|LMP-EVA|Boy, that sure -
-|114:40:33|CDR-EVA|See the soil sparkle?
-|114:40:33|LMP-EVA|Yes, I think that's a little glass.
-|114:40:33|CDR-EVA|There's - Let's go back here and get to work, and I'll show you that crater that's got nothing but glass in the bottom.
-|114:40:33|LMP-EVA|That's a vesicular rock of some kind there, Geno. It almost looks like a mono crater - pumice, but don't quote me.
-|114:41:01|CDR-EVA|Bob, I have to reiterate. Even the small - even the very small - the 1- and 2-inch - 3-inch fragments that are laying around here have been dusted and filleted - -
-|114:41:01|LMP-EVA|Do-tu-doo.
-|114:41:01|CDR-EVA|- - with the dark mantle.
-|114:41:01|LMP-EVA|And that sweeping by the descent stage goes all the way out there, Houston, to where we were, which was about 50 meters, I guess. Hey, man - whuh, whuh, whuh, whuh - these rocks - they almost have a pink - very light pinkish hue to them, and they are not - they're not obviously breccia. Now, that - that's a - like a breccia there. But this stuff is something else again.
-|114:41:01|CDR-EVA|Yes. I don't think there is any place you could land around here where you wouldn't have one foot, in the crater.
-|114:41:01|LMP-EVA|Looks like a vesicular, very light-colored porphyry of some kind; it's about 10 or 15 percent vesicles. I'm right in front of the LM. They - Quite a few of the rocks look of that type. Sort of a pinkish hue to them. The texture is coarse, but I'm not sure how crystalline they are, yet. Okay; back to work.
-|114:41:01|CDR-EVA|Jack, when you put up the ETB, the - check down there below it.
+|114:40:37|LMP-EVA|Boy, that sure -
+|114:40:39|CDR-EVA|See the soil sparkle?
+|114:40:42|LMP-EVA|Yes, I think that's a little glass.
+|114:40:45|CDR-EVA|There's - Let's go back here and get to work, and I'll show you that crater that's got nothing but glass in the bottom.
+|114:40:49|LMP-EVA|That's a vesicular rock of some kind there, Geno. It almost looks like a mono crater - pumice, but don't quote me.
+|114:41:02|CDR-EVA|Bob, I have to reiterate. Even the small - even the very small - the 1 and 2-inch - 3-inch fragments that are laying around here have been dusted and filleted - -
+|114:41:15|LMP-EVA|Do-tu-doo.
+|114:41:15|CDR-EVA|- - with the dark mantle.
+|114:41:17|LMP-EVA|And that sweeping by the descent stage goes all the way out there, Houston, to where we were, which was about 50 meters, I guess. Hey, man - whuh, whuh, whuh, whuh - hey these rocks - they almost have a pink - very light pinkish hue to them, and they are not - they're not obviously breccia. Now, that - that's a - like a breccia there. But this stuff is something else again.
+|114:41:53|CDR-EVA|Yes. I don't think there is any place you could land around here where you wouldn't have one foot, in the crater.
+|114:41:57|LMP-EVA|Looks like a vesicular, very light-colored porphyry of some kind; it's about 10 or 15 percent vesicles. I'm right in front of the LM. They - Quite a few of the rocks look of that type. Sort of a pinkish hue to them. The texture is coarse, but I'm not sure how crystalline they are, yet. Okay; back to work.
+|114:42:27|CDR-EVA|Jack, when you put up the ETB, the - check down there below it.
 ||||Tape 77A/35|Page 674
-|114:41:01|LMP-EVA|Oh-ho-ho (laught er).
-|114:42:33|CDR-EVA|Okay, let's take a look at the Rover.
-|114:42:33|LMP-EVA|Let's don't forget those.
-|114:42:33|CDR-EVA|Yes.
-|114:42:33|LMP-EVA|That's my fault; I guess.
-|114:42:33|CDR-EVA|Yes.
-|114:42:33|LMP-EVA|Okay.
-|114:42:33|CDR-EVA|Oh man, I tell you, we came down at just a little forward velocity. Look at that - right there. About a foot slip on the pad. I tell you, there's craters all over here. Okay, baby. I'd sure like to think that that wheel is where it's supposed to be. It looks good to me.
-|114:43:06|CDR-EVA|Our next little vehicle to work.
+|114:42:32|LMP-EVA|Oh-ho-ho (laughter).
+|114:42:35|CDR-EVA|Okay, let's take a look at the Rover.
+|114:42:37|LMP-EVA|Let's don't forget those.
+|114:42:38|CDR-EVA|Yes.
+|114:42:39|LMP-EVA|That's my fault; I guess.
+|114:42:40|CDR-EVA|Yes.
+|114:42:42|LMP-EVA|Okay.
+|114:42:45|CDR-EVA|Oh man, I tell you, we came down at just a little forward velocity. Look at that - right there. About a foot slip on the pad. I tell you, there's craters all over here. Okay, baby. I'd sure like to think that that wheel is where it's supposed to be. It looks good to me.
+|114:43:07|CDR-EVA|Our next little vehicle to work.
 |114:43:35|CDR-EVA|Okay. Bob, so far, the Rover looks pretty good.
 |114:43:39|CC|Roger; sounds good, Geno.
-|114:43:39|CDR-EVA|Hey, let me ask you. When I was behind the LM, I could look right into an area and see the bell of the ascent stage. I never realized that before, but I guess that's normal, huh?
-|114:43:39|LMP-EVA|Yes. We saw it on the pad. Remember.
-|114:43:39|CDR-EVA|Barely.
-|114:43:39|LMP-EVA|Remember when we went out there?
-|114:43:39|CDR-EVA|The only reason I asked, Bob, I'm sure it's normal, and it doesn't look anything's missing, it's just right - right into the Sun.
-|114:43:39|CC|Yes. The consensus of opinion down here is that you can, also.
+|114:43:44|CDR-EVA|Hey, let me ask you. When I was behind the LM, I could look right into an area and see the bell of the ascent stage. I never realized that before, but I guess that's normal, huh?
+|114:43:55|LMP-EVA|Yes. We saw it on the pad. Remember.
+|114:43:58|CDR-EVA|Barely.
+|114:44:01|LMP-EVA|Remember when we went out there?
+|114:44:05|CDR-EVA|The only reason I asked, Bob, I'm sure it's normal, and it doesn't look anything's missing, it's just right - right into the Sun.
+|114:44:13|CC|Yes. The consensus of opinion down here is that you can, also.
 ||||Tape 77A/36|Page 675
-|114:43:39|CDR-EVA|Yes, that's probably the best place in the world to get a consensus of opinion from. Okay, Jack, it's about work time. I've got this Rover about ready for - your pull up there.
-|114:43:39|LMP-EVA|I got a little delayed here.
-|114:43:39|CDR-EVA|Okay. I'm sure glad those guys made us train so hard.
-|114:43:39|LMP-EVA|Okay. The MESA's up. Let me know when you're ready to deploy.
-|114:43:39|CDR-EVA|Okay. Babe, I am - I am ready for you. Everything I can see looks pretty good. The walking hinges, you will be glad to know, are intact. They did not drop.
-|114:45:12|CC|Roger. That's a first.
-|114:45:12|LMP-EVA|You want me to go up there and do that, huh?
-|114:45:12|CDR-EVA|Yes, sir. The beginning.
-|114:45:12|LMP-EVA|You ready for me to deploy?
-|114:45:12|CDR-EVA|Okay. Let me just doublecheck. Drape, contingency, unstow aft deployment cable, verify walking hinge, forward and aft chassis parallel. They are.
-|114:45:12|LMP-EVA|MESA insulation is not coming off as easy as in training.
-|114:45:12|CDR-EVA|Okay. Outrigger cables are taut. Looking good to me. Yes, Jack. You can go on up. Go on up.
-|114:45:12|LMP-EVA|Okay.
-|114:45:12|CDR-EVA|I'm ready for you. Gosh, that LM is a pretty sight. Challenger, you're a beauty.
-|114:45:12|LMP-EVA|Well, let's see how good I am.
-|114:45:12|CDR-EVA|Don't drop that. Let me get that thing again.
+
+|114:44:21|CDR-EVA|Well, that's probably the best place in the world to get a consensus of opinion from. Okay, Jack, it's about work time. I've got this Rover about ready for - your pull up there.
+|114:44:35|LMP-EVA|I got a little delayed here.
+|114:44:37|CDR-EVA|Okay. I'm sure glad those guys made us train so hard.
+|114:44:50|LMP-EVA|Okay. The MESA's up. Let me know when you're ready to deploy.
+|114:44:57|CDR-EVA|Okay. Babe, I am - I am ready for you. Everything I can see looks pretty good. The walking hinges, you will be glad to know, are intact. They did not drop.
+|114:45:14|CC|Roger. That's a first.
+|114:45:15|LMP-EVA|You want me to go up there and do that, huh?
+|114:45:18|CDR-EVA|Yes, sir. The beginning.
+|114:45:23|LMP-EVA|You ready for me to deploy?
+|114:45:25|CDR-EVA|Okay. Let me just doublecheck. Drape, contingency, unstow aft deployment cable, verify walking hinge, forward and aft chassis parallel. They are.
+|114:45:34|LMP-EVA|MESA insulation is not coming off as easy as in training.
+|114:45:37|CDR-EVA|Okay. Outrigger cables are taut. Looking good to me. Yes, Jack. You can go on up. Go on up.
+|114:45:48|LMP-EVA|Okay.
+|114:45:49|CDR-EVA|I'm ready for you. God, that LM is a pretty sight. Challenger, you're a beauty.
+|114:45:58|LMP-EVA|Well, let's see how good I am.
+|114:45:59|CDR-EVA|Don't drop that. Let me get that thing again.
 ||||Tape 77A/37|Page 676
-|114:45:12|CDR-EVA|Yes, sir. (Laughter) Yes, sir. You're pretty agile there, twinkle toes.
-|114:45:12|LMP-EVA|You bet your - life I am.
-|114:45:12|CDR-EVA|All I asked you to do was pull that handle up there. Man, anything you grab, Jack - I just grabbed this lanyard that was in the dust - is really black.
-|114:45:12|LMP-EVA|You ready?
-|114:46:29|CDR-EVA|Go. She fell, Houston. She's open.
-|114:46:29|LMP-EVA|Okay. You've got parallel chassis; the wheels look good on this side.
-|114:46:29|CDR-EVA|Okay. They're good on this side. Let's get done. Let's get it out.
-|114:46:29|CDR-EVA|I'll wait for you to get the deploy cable. I'll tell you, Jack, this place is not locally level.
-|114:46:29|LMP-EVA|You - you're right.
-|114:46:29|CDR-EVA|Okay. There's not - there's not many places you could put the LM down and have it be zero, zero, zero. Okay. I'm ready if you are.
-|114:46:29|LMP-EVA|I don't know how much help I'm going to be.
-|114:46:29|CDR-EVA|Well, I'm starting; you pull. It's coming. It's coming. It's coming, baby. How's your wheels on that side? Can you see them: Mine look good.
-|114:46:29|LMP-EVA|Wheels; they looked good a minute ago. I got the Sun, so I can't tell much - -
-|114:46:29|CDR-EVA|Okay.
-|114:46:29|CDR-EVA|Eeee. The only way to do it.
-|114:46:29|LMP-EVA|I'm putting all my weight (laughter).
-|114:46:29|CDR-EVA|Okay. Wait a minute. I'm coming down now. She's going to pop here.
+|114:46:07|CDR-EVA|Yes, sir. (Laughter) Yes, sir. You're pretty agile there, twinkle toes.
+|114:46:16|LMP-EVA|You bet your - life I am.
+|114:46:19|CDR-EVA|All I asked you to do was pull that handle up there. Man, anything you grab, Jack - I just grabbed this lanyard that was in the dust - is really black.
+|114:46:29|LMP-EVA|You ready?
+|114:46:30|CDR-EVA|Go. She fell, Houston. She's open.
+|114:46:33|LMP-EVA|Okay. You've got parallel chassis; the wheels look good on this side.
+|114:46:39|CDR-EVA|Okay. They're good on this side. Let's get done. Let's get it out.
+|114:46:46|CDR-EVA|I'll wait for you to get the deploy cable. I'll tell you, Jack, this place is not locally level.
+|114:46:49|PAO|Deploying the Rover now.
+|114:46:54|LMP-EVA|You - you're right.
+|114:46:57|CDR-EVA|Okay. There's not - there's not many places you could put the LM down and have it be zero, zero, zero. Okay. I'm ready if you are.
+|114:47:10|LMP-EVA|I don't know how much help I'm going to be.
+|114:47:12|CDR-EVA|Well, I'm starting; you pull. It's coming. It's coming. It's coming, baby. How's your wheels on that side? Can you see them: Mine look good.
+|114:47:25|LMP-EVA|Wheels? They looked good a minute ago. I got the Sun, so I can't tell much - -
+|114:47:29|CDR-EVA|Okay.
+|114:47:37|CDR-EVA|Eeee. The only way to do it.
+|114:47:41|LMP-EVA|I'm putting all my weight (laughter).
+|114:47:43|CDR-EVA|Okay. Wait a minute. I'm coming down now. She's going to pop here.
 ||||Tape 77A/38|Page 677
-|114:46:29|LMP-EVA|Okay.
-|114:46:29|CDR-EVA|Wait a minute. Stand by.
-|114:46:29|LMP-EVA|I may pull a Jim Irwin here.
-|114:46:29|CDR-EVA|Wait a minute. Watch out. Here she goes.
-|114:46:29|LMP-EVA|Got her.
-|114:47:52|CDR-EVA|Okay. Beautiful, Houston. The aft chassis's out.
-|114:47:57|CC|Roger. Beautiful.
-|114:47:57|CDR-EVA|Beautiful. Whoa, whoa, wait, wait, wait, wait.
-|114:47:57|LMP-EVA|Tried to get off the hinge there.
-|114:47:57|CDR-EVA|Yes, yes. She's on, though. She's all in. She's in the walking hinges. I wish you could see it. Jack, those wheels did not lock all the way up though. We ought to pull them up before we -well - -
-|114:47:57|LMP-EVA|Okay. Walk away from it. Easier.
-|114:47:57|CDR-EVA|That tape up there - on the reel.
-|114:47:57|LMP-EVA|Yeah, it's all -
-|114:47:57|CDR-EVA|It's coming.
-|114:47:57|LMP-EVA|It's free reeling.
-|114:47:57|CDR-EVA|Yes. Let me - let me - don't pull it until I -Okay. Now I've got it.
-|114:47:57|CDR-EVA|Man, I'd walk and fall into that crater if I went to the end of this line.
+|114:47:46|LMP-EVA|Okay.
+|114:47:47|CDR-EVA|Wait a minute. Stand by.
+|114:47:48|LMP-EVA|I may pull a Jim Irwin here.
+|114:47:50|CDR-EVA|Wait a minute. Watch out. Here she goes.
+|114:47:53|LMP-EVA|Got her.
+|114:47:53|CDR-EVA|Okay. Beautiful, Houston. The aft chassis's out.
+|114:47:58|CC|Roger. Beautiful.
+|114:47:59|CDR-EVA|Beautiful. Whoa, whoa, wait, wait, wait, wait.
+|114:48:04|LMP-EVA|Tried to get off the hinge there.
+|114:48:05|CDR-EVA|Yes, yes. She's on, though. She's all in. She's in the walking hinges. I wish you could see it. Jack, those wheels did not lock all the way up though. We ought to pull them up before we - Well, there it goes. By itself.
+|114:48:21|LMP-EVA|Okay.
+|114:48:23|CDR-EVA|Wait a minute. Wait a minute. Okay. Let me pull it until the outriggers cables get slack.
+|114:48:21|LMP-EVA|Okay. Walk away from it. Easier.
+|114:48:39|CDR-EVA|That tape up there - on the reel.
+|114:48:40|LMP-EVA|Yeah, it's all -
+|114:48:42|CDR-EVA|It's coming.
+|114:48:43|LMP-EVA|It's free reeling.
+|114:48:44|CDR-EVA|Yes. Let me - let me - don't pull it until I - Okay. Now I've got it.
+|114:48:56|CDR-EVA|Man, I'd walk and fall into that crater if I went to the end of this line.
 ||||Tape 77A/39|Page 678
-|114:48:59|LMP-EVA|Houston, I do think we've got a different -
-|114:48:59|CDR-EVA|Well, we're deploying it at an angle. Okay. The outrigger cables are free, Jack.
-|114:48:59|LMP-EVA|Okay. Got a different breed of rock up here. The stuff's sticking through this thin regolith - or regolith, period. I don't know whether it's thin or thick yet (singing). Okay. Mine's free.
-|114:48:59|CDR-EVA|Let me get this - let me get all this cable out of the way. Otherwise, I'll - is that enough of this stuff? I don't like all that over there. ...
-|114:48:59|LMP-EVA|A geologist's paradise, if I ever saw one. Boy, you certainly are changing the color of that cable, sir.
-|114:48:59|CDR-EVA|Yes. Just tried a John Young trick.
-|114:48:59|LMP-EVA|Did it work?
-|114:48:59|CDR-EVA|Yes. (Laughter).
-|114:48:59|LMP-EVA|You're getting dirty.
-|114:48:59|CDR-EVA|But, I'm still getting my balance. I didn't touch the ground. Just got to get some of this cable out of here.
-|114:48:59|LMP-EVA|I'm not sure my pockets are going to be accessible.
-|114:48:59|CDR-EVA|Man, I'll tell you, I don't know how long this line to pull the Rover out is, but -
-|114:48:59|CDR-EVA|Well, I'll tell you, it sure is easy to get dusty, but that's nothing new to anybody. Okay, Babe, let me get - Wheel
-|114:50:32|LMP-EVA|I think it's safe to say this surface was not formed yesterday. There is a regolith; it looks classic. Area distribution of particles up to 3 or 4 centimeters, anyway. Then, you start to get maybe a selective distribution of large fragments. Got that cable?
+|114:49:01|LMP-EVA|Houston, I do think we've got a different -
+|114:49:04|CDR-EVA|Well, we're deploying it at an angle. Okay. The outrigger cables are free, Jack.
+|114:49:07|LMP-EVA|Okay. Got a different breed of rock up here. The stuff's sticking through this thin regolith - or regolith, period. I don't know whether it's thin or thick yet (singing). Okay. Mine's free.
+|114:49:25|CDR-EVA|Let me get this - let me get all this cable out of the way. Otherwise, I'll - is that enough of this stuff? I don't like all that over there. ...
+|114:49:39|LMP-EVA|A geologist's paradise, if I ever saw one. Boy, you certainly are changing the color of that cable, sir.
+|114:49:48|CDR-EVA|Yes. Just tried a John Young trick.
+|114:49:52|LMP-EVA|Did it work?
+|114:49:52|CDR-EVA|Yes. (Laughter).
+|114:49:54|LMP-EVA|You're getting dirty.
+|114:49:55|CDR-EVA|But, I'm still getting my balance. I didn't touch the ground. Just got to get some of this cable out of here.
+|114:50:04|LMP-EVA|I'm not sure my pockets are going to be accessible.
+|114:50:15|CDR-EVA|Man, I'll tell you, I don't know how long this line to pull the Rover out is, but -
+|114:50:25|CDR-EVA|Well, I'll tell you, it sure is easy to get dusty, but that's nothing new to anybody. Okay, Babe, let me get - Whee!
+|114:50:34|LMP-EVA|I think it's safe to say this surface was not formed yesterday. There is a regolith; it looks classic. Area distribution of particles up to 3 or 4 centimeters, anyway. Then, you start to get maybe a selective distribution of large fragments. Got that cable?
 ||||Tape 77A/40|Page 679
-|114:50:32|CDR-EVA|Yes.
-|114:50:32|LMP-EVA|Okay. I'm going to walk away with this one.
-|114:50:32|CDR-EVA|Okay; outrigger cable.
-|114:50:32|LMP-EVA|You ready?
-|114:50:32|CDR-EVA|Okay. When forward wheels on surface; okay. Let me - let me pull.
+|114:50:54|CDR-EVA|Yes.
+|114:50:56|LMP-EVA|Okay. I'm going to walk away with this one.
+|114:50:57|CDR-EVA|Okay; outrigger cable.
+|114:50:59|LMP-EVA|You ready?
+|114:50:59|CDR-EVA|Okay. When forward wheels on surface; okay. Let me - let me pull.
 |114:51:09|CDR-EVA|Okay, Houston. She's continuing to come.
-|114:51:09|LMP-EVA|Here's a couple of different looking rocks. One's very white; one's quite dark. But we do have a general rock type, I think, in the area - of the big boulders. Gosh, how much cable is there?
-|114:51:09|CDR-EVA|There's a lot of it Jack. Keep going.
-|114:51:09|LMP-EVA|(Laughter)
-|114:51:09|CDR-EVA|You're going to be a long way away. We're not there yet. Keep going. Okay. We've got the front wheels on the surface, but keep going, I don't think you've got it up there.
-|114:51:09|LMP-EVA|I never thought I'd do geology this way.
-|114:51:09|CDR-EVA|Okay. I think you got it. Let me see.
-|114:51:09|LMP-EVA|Is it slack?
-|114:51:09|CDR-EVA|I'll get up there and ta&e a look. Okay. It's slack.
-|114:51:09|LMP-EVA|Longest cable in the world.
-|114:52:12|CDR-EVA|It's slack.
-|114:52:15|CC|Wait till you get to the ALSEP package.
-|114:52:15|CDR-EVA|Okay. By golly, those wheels did lock.
+|114:51:17|LMP-EVA|Here's a couple of different looking rocks. One's very white; one's quite dark. But we do have a general rock type, I think, in the area - of the big boulders. Jesus, how much cable is there?
+|114:51:31|CDR-EVA|There's a lot of it Jack. Keep going.
+|114:51:33|LMP-EVA|(Laughter)
+|114:51:33|CDR-EVA|You're going to be a long way away. We're not there yet. Keep going. Okay. We've got the front wheels on the surface, but keep going, I don't think you've got it up there.
+|114:51:50|LMP-EVA|I never thought I'd do geology this way.
+|114:51:54|CDR-EVA|Okay. I think you got it. Let me see.
+|114:52:01|LMP-EVA|Is it slack?
+|114:52:03|CDR-EVA|I'll get up there and take a look. Okay. It's slack.
+|114:52:12|LMP-EVA|Longest cable in the world.
+|114:52:13|CDR-EVA|It's slack.
+|114:52:16|CC|Wait till you get to the ALSEP package.
+|114:52:17|CDR-EVA|Okay. By golly, those wheels did lock.
 ||||Tape 77A/41|Page 680
-|114:52:15|LMP-EVA|(Laughter) I never knew that cable was that long, Bob. Oh, a glass bottom - a glass bottom crater with a little bench. Looks like one of the Flagstaff explosion craters except for the glass in it. Right out at 12 o'clock. That's the one I was talking about, about having a bright halo. I don't know whether it's easier to walk out there or to do what I did in training - that I wouldn't do on the Moon. Somebody's going to get tangled up with this thing.
-|114:52:15|CDR-EVA|That's why I'd get it all under the LM somewhere. I'd - what I'd - took me 5 minutes to do and get it all out of the way. Okay, Bob, the front wheels locked in. I had to pull the rear wheels -rear wheels back to get them to lock in.
-|114:53:11|CC|Okay. Copy that.
-|114:53:16|CDR-EVA|At least no one let any air out of the tires. Man, I look like I've been on the surface for a week already. Holy smoley. Okay. Pull pins on deploy cable and fittings - move LRV from LM.
-|114:53:16|LMP-EVA|Wait a minute. I haven't ... the - -
-|114:53:16|CDR-EVA|Okay.
-|114:53:16|LMP-EVA|- - other pins. It's going to take awhile. Think we can avoid that cable?
-|114:53:16|CDR-EVA|Why don't you set it there, pull this pin, and then you can go back and get it; that is, it's better to use the Rover contingency tool, because - -
-|114:53:16|LMP-EVA|Yes, but that's off over there on the ground now, somewhere or another.
-|114:53:16|CDR-EVA|Okay. Pull that pin. Until we get that saddle loose.
-|114:53:52|LMP-EVA|Loose.
-|114:53:52|CDR-EVA|Beautiful. Okay, we're going to have to move that thing - that line, Jack. You ready?
+|114:52:20|LMP-EVA|(Laughter) I never knew that cable was that long, Bob. Oh, a glass bottom - a glass bottom crater with a little bench. Looks like one of the Flagstaff explosion craters except for the glass in it. Right out at 12 o'clock. That's the one I was talking about, about having a bright halo. I don't know whether it's easier to walk out there or to do what I did in training - that I wouldn't do on the Moon. Somebody's going to get tangled up with this thing.
+|114:52:56|CDR-EVA|That's why I'd get it all under the LM somewhere. I'd - what I'd - took me 5 minutes to do and get it all out of the way. Okay, Bob, the front wheels locked in. I had to pull the rear wheels - rear wheels back to get them to lock in.
+|114:53:12|CC|Okay. Copy that.
+|114:53:17|CDR-EVA|At least no one let any air out of the tires. Man, I look like I've been on the surface for a week already. Holy smoley. Okay. Pull pins on deploy cable and fittings - move LRV from LM.
+|114:53:31|LMP-EVA|Wait a minute. I haven't ... the - -
+|114:53:32|CDR-EVA|Okay.
+|114:53:33|LMP-EVA|- - my other pins. It's going to take awhile. Think we can avoid that cable?
+|114:53:39|CDR-EVA|Why don't you set it there, pull this pin, and then you can go back and get it; that is, it's better to use the Rover contingency tool, because - -
+|114:53:45|LMP-EVA|Yes, but that's off over there on the ground now, somewhere or another.
+|114:53:46|CDR-EVA|Okay. Pull that pin. Until we get that saddle loose.
+|114:53:53|LMP-EVA|Loose.
+|114:53:54|CDR-EVA|Awe Beautiful. Okay, we're going to have to move that thing - that line, Jack. You ready?
 ||||Tape 77A/42|Page 681
-|114:53:52|LMP-EVA|I'll move it.
-|114:53:52|CDR-EVA|Okay. Let's find a - back over here. See that?
-|114:53:52|LMP-EVA|Yes .
-|114:53:52|CDR-EVA|Oh, man. Face a little more east, so I don't have to run into the ... Okay, how about here?
-|114:53:52|LMP-EVA|That's - You're the driver.
-|114:53:52|CDR-EVA|Okay; right there.
-|114:53:52|LMP-EVA|You like it?
-|114:53:52|CDR-EVA|Like it.
-|114:53:52|LMP-EVA|Okay. You got it.
-|114:53:52|CDR-EVA|Not yet. You got some fenders and stuff for me - -
-|114:53:52|LMP-EVA|I was going to get my cable. I thought you said I could work on the cable.
-|114:53:52|CDR-EVA|Ohh.
-|114:53:52|LMP-EVA|You're putting me farther and farther behind.
-|114:53:52|CDR-EVA|Oop.
-|114:53:52|LMP-EVA|Don't forget your post.
-|114:53:52|CDR-EVA|Okay.
-|114:54:38|LMP-EVA|Okay. Pull pins. I can see a little yellow ...
-|114:54:38|CDR-EVA|Okay. The post is up.
-|114:54:38|LMP-EVA|Hinge pins.
-|114:54:38|CDR-EVA|Okay. Yours is in, but mine is not.
+|114:53:59|LMP-EVA|I'll move it.
+|114:54:00|CDR-EVA|Okay. Let's find a - back over here. See that?
+|114:54:01|LMP-EVA|Yes.
+|114:54:06|CDR-EVA|Oh, man. Face a little more east, so I don't have to run into the ... Okay, how about here?
+|114:54:20|LMP-EVA|That's - You're the driver.
+|114:54:21|CDR-EVA|Okay; right there.
+|114:54:22|LMP-EVA|You like it?
+|114:54:23|CDR-EVA|Like it.
+|114:54:24|LMP-EVA|Okay. You got it.
+|114:54:26|CDR-EVA|Not yet. You got some fenders and stuff for me - -
+|114:54:28|LMP-EVA|I was going to get my cable. I thought you said I could work on the cable.
+|114:54:30|CDR-EVA|Ohh.
+|114:54:31|LMP-EVA|You're putting me farther and farther behind.
+|114:54:35|CDR-EVA|Oop.
+|114:54:35|LMP-EVA|Don't forget your post.
+|114:54:37|CDR-EVA|Okay.
+|114:54:37|PAO|The crew's right on the EVA timeline.
+|114:54:41|LMP-EVA|Okay. Pull pins. I can see a little yellow ... inside.
+|114:54:48|CDR-EVA|Okay. The post is up.
+|114:54:53|LMP-EVA|Hinge pins.
+|114:54:54|CDR-EVA|Okay. Yours is in, but mine is not.
 |114:54:38|LMP-EVA|Well - neither's my outboard one.
 |114:54:38|CDR-EVA|Ity outboard is in, but my inboard is not.
 ||||Tape 77A/43|Page 682
