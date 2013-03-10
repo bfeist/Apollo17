@@ -12461,10 +12461,10 @@
 |120:03:28|CDR-EVA|Okay, taking your pictures?
 |120:03:29|LMP-EVA|Yes, sir. Wheels cleared it by - it's got to be a lot. Is my low gain dropping out?
 |120:03:41|CDR-EVA|How much are my wheels missing it by - going around?
-|120:03:44|LMP-EVA|Lots. About a meter. Okay.
-|120:03:48|CDR-EVA|Okay. We're on our way. The low gain is set again.
+|120:03:44|LMP-EVA|Lots. About a meter.
+|120:03:46|CDR-EVA|Okay. Okay, we're on our way. The low gain is set again.
 |120:03:52|CDR-EVA|Okay, we're heading on back to SEP.
-|120:03:54|CC|Okey, and a frame count there, Jack.
+|120:03:54|CC|Okay, and a frame count there, Jack.
 |120:03:55|LMP-EVA|Okay, pan - was more - the pan was more or less complete at l46.
 |120:04:04|CC|Copy, 146 on Hotel.
 |120:04:14|LMP-EVA|Bob, you know, the more I look at this - Watch out for those babies there - at this - at this dark dust, if you will, the more it doesn't seem like the kind of thing you'd expect to have been derived from the underlying bedrock. But I think you're going to have to play that game in the lab right now.
@@ -12566,729 +12566,736 @@
 |120:13:45|CDR-EVA|I can park 180 but -
 |120:14:03|CDR-EVA|Okay, Bob, I've stopped - back at the SEP.
 |120:14:06|CC|Copy that, Gene.
-|120:14:03|CDR-EVA|Dropped the - One came out, Jack.
-|120:14:03|LMP-EVA|Oh, yes. This thing is a lot harder to turn than it was in training.
-|120:14:03|CDR-EVA|Oops. Okay, that's the first two we've got to deploy. Can you bring your tongs?
-|120:14:03|LMP-EVA|Yes.
-|120:14:03|CDR-EVA|Bob, do you want me to dust this? I'll dust b ack at the LM. We're going to deploy the SEP. God bless.
-|120:14:03|CC|Okay. They all say to dust, Geno.
-|120:14:03|CDR-EVA|Okay. You're going to have to wait for me, Jack.
-|120:14:03|LMP-EVA|Well, I've got antennas all over the place here.
-|120:14:03|CDR-EVA|Yes, as a matter of fact, you do. Stand by 1 second. I'll make it a quick one.
-|120:14:03|LMP-EVA|That's all right. No, I can handle it, I think, here. But we're going to need your tongs to pick them up and not get them all confused. Okay, where's the shadow graph? There it is. Sun quadrant - that's the Sun quadrant.
+|120:14:14|CDR-EVA|Dropped the - One came out, Jack.
+|120:14:16|LMP-EVA|Oh, yes. This thing is a lot harder to turn than it was in training.
+|120:14:34|CDR-EVA|Oops. Okay, that's the first two we've got to deploy. Can you bring your tongs?
+|120:14:39|LMP-EVA|Yes.
+|120:14:40|CDR-EVA|Bob, ... do you want me to dust here? I'll dust back at the LM. We're going to deploy the SEP. God bless.
+|120:14:56|CC|Okay. They all say to dust, Geno.
+|120:15:02|CDR-EVA|Okay. You're going to have to wait for me, Jack.
+|120:15:07|LMP-EVA|Well, I've got antennas all over the place here.
+|120:15:09|CDR-EVA|Yes, as a matter of fact, you do. Stand by one second. I'll make it a quick one.
+|120:15:14|LMP-EVA|That's all right. No, I can handle it, I think, here. But we're going to need your tongs to pick them up and not get them all confused. Okay, where's the - where's the shadow graph? There it is. Sun quadrant - that's the Sun quadrant.
 ||||Tape 81A/23|Page 868
-|120:14:03|CDR-EVA|For sure we lost that fender.
-|120:14:03|LMP-EVA|Okay, I'll deploy number 2 and 4. And, let's see, that's number 1. This one must be number 2. It is.
-|120:14:03|CDR-EVA|Okay, I'm almost there, Jack. Let me run around and dust. Let me tell you, this dust isn't going to be fun tomorrow.
-|120:14:03|LMP-EVA|Okay, I won't bore you with details on why you see the antenna all over the ground (laughter) but it has to do with 1/6 g.
-|120:14:03|CC|Roger, Jack. Understand you dropped a couple of the antenna reels.
-|120:14:03|LMP-EVA|You know, Bob, they're very - more accurately, I dropped three of them. Bob, you know this finegrained dust that we're in could be groundup pyroclastic. It might grind more easily than other things, and the blocks are just the - those blocks that have been excavated from below that pyroclastic by the larger craters and some of the smaller ones in the area.
-|120:17:46|CDR-EVA|MARK, gravimeter reading.
-|120:17:46|CC|Okay; mark that. Roger, Jack. That would make a nice story, wouldn't it?
-|120:17:46|LMP-EVA|... Well, you'd think glassy pyroclastic might turn into regolith a little bit faster than some of these other things. But we'll check that one out.
-|120:17:46|CC|Okay.
-|120:17:46|CDR-EVA|You want 2?
-|120:17:46|LMP-EVA|Two, and you get 1. Right there.
-|120:17:46|CC|And, Jack, did you get the reels straightened out again?
-|120:17:46|LMP-EVA|Yes, they're okay.
+|120:15:38|CDR-EVA|For sure we lost that fender.
+|120:15:53|LMP-EVA|Okay, I'll deploy number 2 and 4. And, let's see, that's number 1. This one must be number 2. It is.
+|120:16:34|CDR-EVA|Okay, I'm almost there, Jack. Let me run around and dust. Let me tell you, this dust isn't going to be fun tomorrow.
+|120:16:52|LMP-EVA|Okay, I won't bore you with details on why you see the antenna all over the ground (laughter) but it has to do with 1/6 g.
+|120:17:11|CC|Roger, Jack. Understand you dropped a couple of the antenna reels.
+|120:17:14|LMP-EVA|You know, Bob, they're very - more accurately, I dropped three of them. Bob, you know this fine-grained dust that we're in could be ground-up pyroclastic. It might grind more easily than other things, and the blocks are just the - those blocks that have been excavated from below that pyroclastic by the larger craters and some of the smaller ones in the area.
+|120:17:47|CDR-EVA|MARK, gravimeter reading.
+|120:17:48|CC|Okay; mark that. Roger, Jack. That would make a nice story, wouldn't it?
+|120:17:55|LMP-EVA|... Well, you'd think glassy pyroclastic might turn into regolith a little bit faster than some of these other things. But we'll check that one out.
+|120:18:12|CC|Okay.
+|120:18:13|CDR-EVA|You want 2?
+|120:18:14|LMP-EVA|Two, and you get 1. Right there.
+|120:18:16|CC|And, Jack, did you get the reels straightened out again?
+|120:18:22|LMP-EVA|Yes, they're okay.
 ||||Tape 81A/24|Page 869
-|120:17:46|CC|Thank you.
-|120:17:46|LMP-EVA|How can you stop a crew like this?
-|120:17:46|CC|I don't know any way.
-|120:17:46|LMP-EVA|In all modesty, I mean. Okay, Geno, I'm on my way. Pull gently on that thing because I - it's awful easy to knock it over. I had that geophone module all over the place.
-|120:17:46|CDR-EVA|I can't tell whether I'm pulling gently or not.
-|120:17:46|LMP-EVA|Any time you feel a tug, stop.
-|120:17:46|CC|Careful, guys.
-|120:17:46|CDR-EVA|At least we're pulling at the base. I better watch what I'm backing into. There's a lot of holes around here.
-|120:17:46|LMP-EVA|Well, it happened, Bob. I'm glad we Velcroed those - tabs.
-|120:17:46|CDR-EVA|Okay, I'm at the end, Jack. Are you having -
-|120:17:46|LMP-EVA|Well, I - What happened was which we thought might happen. It twisted on my - I'll be there in just a second.
-|120:17:46|CDR-EVA|Okay, I want f/ll at 250 and 74 feet. Well - ah, ah, ah, ah. Ah, ah, yes; you're pulling it over.
-|120:17:46|LMP-EVA|I'm not. You are.
-|120:17:46|CDR-EVA|No, I'm not. I've got all sorts of slack in here.
-|120:17:46|LMP-EVA|Okay, it's okay.
-|120:17:46|CDR-EVA|All right. Are you out there?
-|120:17:46|LMP-EVA|Yes.
-|120:17:46|CDR-EVA|Okay, let me back up - a skosh and take the slack out. And I would say, offhand -Oh, boy, what have you got a - that's about as close to a 1/6-g orthogonal - at least, not orthogonal yet, but straight lined. That's it Jack, here.
+|120:18:24|CC|Thank you.
+|120:18:25|LMP-EVA|How can you stop a crew like this?
+|120:18:28|CC|I don't know any way.
+|120:18:31|LMP-EVA|In all modesty, I mean. Okay, Geno, I'm on my way. Pull gently on that thing because I - it's awful easy to knock it over. I had that geophone module all over the place.
+|120:18:47|CDR-EVA|I can't tell whether I'm pulling gently or not.
+|120:18:50|LMP-EVA|Any time you feel a tug, stop.
+|120:18:55|PAO|This antenna's being deployed in tracks that have been made by the rover.
+|120:19:02|CC|Careful, guys.
+|120:19:04|CDR-EVA|At least we're pulling at the base. I better watch what I'm backing into. There's a lot of holes around here.
+|120:19:30|LMP-EVA|Well, it happened, Bob. I'm glad we Velcroed those - tabs.
+|120:19:43|CDR-EVA|Okay, I'm at the end, Jack. Are you having -
+|120:19:46|LMP-EVA|Well, I - What happened was which we thought might happen. It twisted on my - I'll be there in just a second.
+|120:19:58|CDR-EVA|Okay, I want f/ll at 250th and 74 feet. Well - ah, ah, ah, ah. Ah, ah, yes; you're pulling it over.
+|120:20:20|LMP-EVA|I'm not. You are.
+|120:20:22|CDR-EVA|No, I'm not. I've got all sorts of slack in here.
+|120:20:25|LMP-EVA|Okay, it's okay.
+|120:20:29|CDR-EVA|All right. Are you out there?
+|120:20:31|LMP-EVA|Yes.
+|120:20:32|CDR-EVA|Okay, let me back up - a skosh and take the slack out. And I would say, offhand -Oh, boy, what have you got a - that's about as close to a 1/6th g orthogonal - at least, not orthogonal yet, but straight lined. That's it Jack, here.
 ||||Tape 81A/25|Page 870
-|120:17:46|LMP-EVA|Stay there, and I'll take a picture.
-|120:17:46|CDR-EVA|I thought you did.
-|120:17:46|LMP-EVA|No. Okay, I got it now.
-|120:17:46|CMP-EVA|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
-|120:17:46|LMP-EVA|Yes. You talked me into it.
-|120:17:46|CDR-EVA|That was a good idea, but - that's a good straight line.
-|120:17:46|LMP-EVA|(Singing) We were strolling in the park one day -Well, we've had lots of good ideas in our time.
-|120:17:46|CDR-EVA|Oh, boy; the thing that makes me sick is losing that fender. I can stand a lot of things, but I sure don't like that.
-|120:17:46|LMP-EVA|Okay, I get number 4, which - Where is it? Is that the one on the ground?
-|120:17:46|CDR-EVA|It's probably the one on the ground. Got it? Is that the right one?
+|120:21:05|LMP-EVA|Stay there, and I'll take a picture.
+|120:21:46|CDR-EVA|I thought you did.
+|120:21:09|LMP-EVA|No. Okay, I got it now.
+|120:21:14|CMP-EVA|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
+|120:21:20|LMP-EVA|Yes. You talked me into it.
+|120:21:24|CDR-EVA|That was a good idea, but - that's a good straight line.
+|120:21:29|LMP-EVA|(Singing) We were strolling in the park one day - Well, we've had lots of good ideas in our time.
+|120:21:43|CDR-EVA|Oh, boy; the thing that makes me sick is losing that fender. I can stand a lot of things, but I sure don't like that.
+|120:21:57|LMP-EVA|Okay, I get number 4, which - Where is it? Is that the one on the ground?
+|120:22:02|CDR-EVA|It's probably the one on the ground. Got it? Is that the right one?
 |120:22:16|LMP-EVA|Well, 3 - No, this is yours.
-|120:22:16|CDR-EVA|No. Take it; doesn't make any difference.
-|120:22:16|LMP-EVA|Okay, I'm deploying the - the LMP's deploying reel 3 for your photography purposes.
-|120:22:16|CC|Roger. Copy that.
-|120:22:16|LMP-EVA|Oh, - Hey, push that in.
-|120:22:16|CDR-EVA|Roger.
-|120:22:16|LMP-EVA|Ha, ha, ha. Ha, ha, ha.
-|120:22:16|CDR-EVA|Serves you right.
-|120:22:16|LMP-EVA|This doesn't push.
+|120:22:19|CDR-EVA|No. Take it; doesn't make any difference.
+|120:22:20|LMP-EVA|Okay, I'm deploying the - the LMP's deploying reel 3 for your photography purposes.
+|120:22:29|CC|Roger. Copy that.
+|120:22:30|LMP-EVA|Oh, - Hey, push that in.
+|120:22:34|CDR-EVA|Roger.
+|120:22:34|LMP-EVA|Ha, ha, ha. Ha, ha, ha.
+|120:22:37|CDR-EVA|Serves you right.
+|120:22:43|LMP-EVA|This doesn't push.
 ||||Tape 81A/26|Page 871
-|120:22:16|CDR-EVA|Okay, I'm ready to stroll.
-|120:22:16|LMP-EVA|(Humming) I found a brown rock that I'm going to bring back.
-|120:22:16|CDR-EVA|Please do.
-|120:22:16|LMP-EVA|I think it's the back side of a piece of glass, but it's brown.
-|120:22:16|CDR-EVA|Well, I think I'm more or less on your track. It wiggled a little bit.
-|120:22:16|LMP-EVA|Well, we're - Oh, oh, oh, ooh, stop, Geno.
-|120:22:16|CDR-EVA|Okay, Jack, wait a minute. That looks orthagonal to me. Got your picture?
-|120:22:16|LMP-EVA|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
-|120:22:16|CC|Is that the one that came out of the hatch?
-|120:22:16|CDR-EVA|Ñ the heck is that? Huh? Oh, it's a piece of -Well, it's a piece of glass, all right - crumbled -part of it crumbled but - I got to get that in a bag. Oh, man, is that a nice piece of glass. Just laying out there all by itself. Jack, well -you got a bag handy while I take wy pan. I can't reach a bag; I got this sample in the wrong hand.
-|120:22:16|LMP-EVA|I don't have a bag.
-|120:22:16|CDR-EVA|You don't have - well, take one off of mine and give it to me. I'll take it back to the Rover. Wa, wa, wa! Watch it; you've got a wire under your foot.
-|120:22:16|LMP-EVA|Bag number 460.
+|120:22:51|CDR-EVA|Okay, I'm ready to stroll.
+|120:23:23|LMP-EVA|(Humming) I found a brown rock that I'm going to bring back.
+|120:23:31|CDR-EVA|Please do.
+|120:23:34|LMP-EVA|I think it's the back side of a piece of glass, but it's brown.
+|120:23:39|CDR-EVA|Well, I think I'm more or less on your track. It wiggled a little bit.
+|120:23:45|LMP-EVA|Well, we're - Oh, oh, oh, ooh, stop, Geno.
+|120:23:48|CDR-EVA|Okay, Jack, wait a minute. That looks orthagonal to me. Got your picture?
+|120:24:04|LMP-EVA|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
+|120:24:40|CC|Is that the one that came out of the hatch?
+|120:24:43|CDR-EVA|What the heck is that? Huh? Oh, it's a piece of - Well, it's a piece of glass, all right - crumbled - part of it crumbled but - I got to get that in a bag. Oh, man, is that a nice piece of glass. Just laying out there all by itself. Jack, well - you got a bag handy while I take my pan. I can't reach a bag; I got this sample in the wrong hand.
+|120:25:17|LMP-EVA|I don't have a bag.
+|120:25:19|CDR-EVA|You don't have - well, take one off of mine and give it to me. I'll take it back to the Rover. Wa, wa, wa! Watch it; you've got a wire under your foot.
+|120:25:30|LMP-EVA|Bag number 460.
 ||||Tape 81A/27|Page 872
-|120:22:16|CC|Copy that. 460 has brown glass.
-|120:22:16|CDR-EVA|I'm halfway out on the north course - -
-|120:22:16|CC|Sorry about that.
-|120:22:16|CDR-EVA|- - I'm halfway out on the north course of the -of the SEP.
-|120:22:16|LMP-EVA|It's brown vesicular glass. Sort of a yellow-brown, as a matter of fact.
+|120:25:34|CC|Copy that. 460 has brown glass.
+|120:25:35|CDR-EVA|I'm halfway out on the north course - -
+|120:25:41|CC|Sorry about that.
+|120:25:42|CDR-EVA|- - I'm halfway out on the north course of the - of the SEP.
+|120:25:48|LMP-EVA|It's brown vesicular glass. Sort of a yellow-brown, as a matter of fact.
 |120:26:01|CDR-EVA|Okay, it says - take locator photo to LM. I thought I took a pan here. The LM wasn't - Okay.
-|120:26:01|CC|Yes, the locator is really all you need; but a partial pan to show the area would be appreciated.
-|120:26:01|CDR-EVA|Yes, I'm here. I'm going to get a partial pan, Bob.
-|120:26:01|CC|Okay.
-|120:26:01|CDR-EVA|The only reason I'm doing it is I know it would be appreciated.
-|120:26:01|CDR-EVA|Okay, take locator to photo LM; I got it. Bob, I'm on - if I can get where I can read it - on about 71 on my frame count; and let me give you -Boy, we got to stay out of this area, Jack. We'll pick up these cables just as sure as the devil. Oh, that fender. Boo - boo.
-|120:26:01|LMP-EVA|Hey, Houston, will you look at your solar panel?
-|120:26:01|CC|Roger. We see the solar panel.
-|120:26:01|LMP-EVA|You notice how they flop up?
-|120:26:01|CC|We noticed that, too.
-|120:26:01|LMP-EVA|I think we need some gray tape.
-|120:26:01|CDR-EVA|Okay, 670, 010, 101; that's 670, 010, 101.
-|120:26:01|CC|Okay, I got that one, Geno.
+|120:26:18|CC|Yes, the locator is really all you need; but a partial pan to show the area would be appreciated.
+|120:26:25|CDR-EVA|Yes, I'm here. I'm going to get a partial pan, Bob.
+|120:26:28|CC|Okay.
+|120:26:33|CDR-EVA|The only reason I'm doing it is I know it would be appreciated.
+|120:27:00|CDR-EVA|Okay, take locator to photo LM; I got it. Bob, I'm on - if I can get where I can read it - on about 71 on my frame count; and let me give you - Boy, we got to stay out of this area, Jack. We'll pick up these cables just as sure as the devil. Oh, that fender. Boo - boo.
+|120:27:31|LMP-EVA|Hey, Houston, will you look at your solar panels?
+|120:27:35|CC|Roger. We see some solar panels.
+|120:27:40|LMP-EVA|You notice how they flop up?
+|120:27:44|CC|We noticed that, too.
+|120:27:45|LMP-EVA|I think we need some gray tape.
+|120:27:49|CDR-EVA|Okay, 670, 010, 101; that's 670, 010, 101.
+|120:28:00|CC|Okay, I got that one, Geno.
 ||||Tape 81A/28|Page 873
-|120:26:01|CDR-EVA|The wires have memory. Okay, let me - -
-|120:26:01|LMP-EVA|I need gray tape.
-|120:26:01|CDR-EVA|Let me put this in your bag, and I'll get the gray tape.
-|120:26:01|LMP-EVA|Okay.
-|120:26:01|CDR-EVA|..., Jack, we didn't break any records collecting samples, but at least we got an ALSEP deployed. That gray tape, Jack, is not going to stick on anything with dust.
-|120:26:01|LMP-EVA|I know; that's what I was thinking.
-|120:26:01|CDR-EVA|Because I just been there with that fender.
-|120:26:01|LMP-EVA|Well, let's try it. You have a -
-|120:26:01|CDR-EVA|I don't need the scissors. I can cut it without it. Come on. Once we - Don't back up in that wire - Just like the cover of a -
-|120:26:01|LMP-EVA|Got it?
-|120:26:01|CDR-EVA|... that?
-|120:26:01|LMP-EVA|Yes, I guess. Okay.
-|120:26:01|CDR-EVA|Get this side?
-|120:26:01|LMP-EVA|Yes.
-|120:26:01|CDR-EVA|Keep from falling over. You want to take those polar - solar panels off?
-|120:26:01|LMP-EVA|Let me hold on to you.
-|120:26:01|CDR-EVA|Okay, lean on me.
-|120:26:01|CDR-EVA|If not, let's take them off and hold them.
-|120:26:01|LMP-EVA|No, I think it's going to be easier this way.
+|120:28:02|CDR-EVA|The wires have memory. Okay, let me - -
+|120:28:06|LMP-EVA|I need gray tape.
+|120:28:07|CDR-EVA|Let me put this in your bag, and I'll get the gray tape.
+|120:28:09|LMP-EVA|Okay.
+|120:28:15|CDR-EVA|We didn't exactly break any records collecting samples, but at least we got an ALSEP deployed. That gray tape, Jack, is not going to stick on anything with dust.
+|120:28:23|LMP-EVA|I know; that's what I was thinking.
+|120:28:29|CDR-EVA|I've just been there with that fender.
+|120:28:33|LMP-EVA|Well, let's try it. You have a -
+|120:28:38|CDR-EVA|I don't need the scissors. I can cut it without it. Come on. Once we - Don't back up in that wire - Just like the cover of a - of the -
+|120:28:54|LMP-EVA|Got it?
+|120:28:58|CDR-EVA|... that?
+|120:29:00|LMP-EVA|Yes, I guess. Okay.
+|120:29:08|CDR-EVA|Get this side?
+|120:29:09|LMP-EVA|Yes.
+|120:29:10|CDR-EVA|Keep from falling over. You want to take those polar - solar panels off?
+|120:29:14|LMP-EVA|Let me hold on to you.
+|120:29:15|CDR-EVA|Okay, lean on me.
+|120:29:19|CDR-EVA|If not, let's take them off and hold them.
+|120:29:22|LMP-EVA|No, I think it's going to be easier this way.
 ||||Tape 81A/29|Page 874
-|120:26:01|CDR-EVA|Okay, try it. I don't think they're going to be much problem the way they are, anyway.
-|120:26:01|LMP-EVA|You holding?
-|120:26:01|CDR-EVA|Yes, go ahead and lean if you want.
-|120:26:01|LMP-EVA|I don't know how long it will stay.
-|120:26:01|CDR-EVA|No, I don't know. Okay, there's one.
-|120:26:01|LMP-EVA|Give me another one.
+|120:29:24|CDR-EVA|Okay, try it. I don't think they're going to be much problem the way they are, anyway.
+|120:29:31|LMP-EVA|You holding?
+|120:29:33|CDR-EVA|Yes, go ahead and lean if you want.
+|120:29:43|LMP-EVA|I don't know how long it will stay.
+|120:29:44|CDR-EVA|No, I don't know. Okay, there's one.
+|120:29:47|LMP-EVA|Give me another one.
 |120:29:49|CC|It's only going to stay for 2 days, guys.
-|120:29:49|CDR-EVA|... pull the whole thing over.
-|120:29:49|LMP-EVA|This will be a - this will be a test. If it holds -holds until we see it again -
-|120:29:49|CDR-EVA|... Don't knock the whole thing over.
-|120:29:49|LMP-EVA|Okay, I'm leaning on you.
-|120:29:49|CDR-EVA|Okay, lean.
-|120:29:49|LMP-EVA|The piece of tape is so dusty - it may not work.
-|120:29:49|CDR-EVA|Try it somewhere. Okay, are you happy with the alignment?
-|120:29:49|LMP-EVA|I was. Is the gnomon the zero mark?
-|120:29:49|CDR-EVA|Gnomon is right up to zero mark.
-|120:29:49|LMP-EVA|That's where it's supposed to be.
-|120:29:49|CC|Okay, copy that. And we have that transmitter switch in STANDBY, right?
-|120:29:49|CDR-EVA|Bob, there's just a couple little bows around the transmitter, is that -
+|120:29:51|CDR-EVA|... pull the whole thing over.
+|120:29:52|LMP-EVA|This will be a - this will be a test. If it holds - holds until we see it again -
+|120:30:02|CDR-EVA|... Don't knock the whole thing over.
+|120:30:08|LMP-EVA|Okay, I'm leaning on you.
+|120:30:10|CDR-EVA|Okay, lean.
+|120:30:17|LMP-EVA|The piece of tape is so dusty - it may not work.
+|120:30:20|CDR-EVA|Try it somewhere. Okay, are you happy with the alignment?
+|120:30:28|LMP-EVA|I was. Is the gnomon the zero mark?
+|120:30:33|CDR-EVA|Gnomon is right up to zero mark.
+|120:30:35|LMP-EVA|That's where it's supposed to be.
+|120:30:37|CC|Beautiful guys.
+|120:30:33|CDR-EVA|Okay, and the level bubble is just touching the - the inner circle.
+|120:30:45|CC|Okay, copy that. And we have the transmitter switch in STANDBY, right?
+|120:30:52|CDR-EVA|Bob, there's just a couple little bows around the transmitter, is that -
 ||||Tape 81A/30|Page 875
-|120:29:49|LMP-EVA|It will be -
-|120:29:49|CDR-EVA|Oh, those are all right - those are okay.
-|120:29:49|LMP-EVA|Let's forget those.
-|120:29:49|CDR-EVA|Jack, looking where the LM is, if I were you, I'd just walk down.
-|120:29:49|LMP-EVA|Come here, Gene.
-|120:29:49|CDR-EVA|What do you need?
-|120:29:49|LMP-EVA|I need same support.
-|120:29:49|CDR-EVA|Yes; boy, that's the key around here.
-|120:29:49|LMP-EVA|Everything on this SEP is coming off harder than it did in the - when we deployed it at the Cape. See that? It just ... It may not be harder, but it ...
-|120:29:49|CDR-EVA|Okay.
-|120:29:49|LMP-EVA|Now, I got to reorient it.
-|120:29:49|CDR-EVA|Now, let me see. You're STANDBY - now let me look at it - The gnomon's right at zero.
-|120:29:49|LMP-EVA|Okay, right at zero.
-|120:29:49|CDR-EVA|It's just the same - it settled back just the same. Zero gnomon and inner circle.
-|120:29:49|CC|Okay; beautiful.
-|120:29:49|LMP-EVA|Let's go.
-|120:29:49|CMP-EVA|You want to walk back or ride?
-|120:29:49|LMP-EVA|Let's see -
-|120:29:49|CDR-EVA|It's up to you but -
-|120:29:49|LMP-EVA|Oh, I'll walk back.
-|120:29:49|CDR-EVA|Man, I hate this dust. I got to make a new fender tonight.
+|120:30:56|LMP-EVA|It will be, yes.
+|120:30:59|CDR-EVA|Oh, those are all right - those are okay.
+|120:31:02|LMP-EVA|Let's forget those.
+|120:31:04|CDR-EVA|Jack, looking where the LM is, if I were you, I'd just walk down.
+|120:31:07|LMP-EVA|Come here, Gene.
+|120:31:08|CDR-EVA|What do you need?
+|120:31:08|LMP-EVA|I need same support.
+|120:31:10|CDR-EVA|Yes; boy, that's the key around here.
+|120:31:12|LMP-EVA|Everything on this SEP is coming off harder than it did in the - when we deployed it at the Cape. See that? It just lifts it. It may not be harder, but it lifts it.
+|120:31:27|CDR-EVA|Okay.
+|120:31:28|LMP-EVA|Now, I got to reorient it.
+|120:31:30|CDR-EVA|Now, let me see. You're STANDBY - now let me look at it - The gnomon's right at zero.
+|120:31:34|LMP-EVA|Okay, right at zero.
+|120:31:36|CDR-EVA|It's just the same - it settled back just the same. Zero gnomon and inner circle.
+|120:31:41|CC|Okay; beautiful.
+|120:31:42|LMP-EVA|Let's go.
+|120:31:44|CMP-EVA|You want to walk back or ride?
+|120:31:46|LMP-EVA|Let's see -
+|120:31:48|CDR-EVA|It's up to you but -
+|120:31:49|LMP-EVA|Oh, I'll walk back.
+|120:31:52|CDR-EVA|Man, I hate this dust. I got to make a new fender tonight.
 ||||Tape 81A/31|Page 876
-|120:29:49|LMP-EVA|Well, let's see, I guess I'm supposed to -
-|120:29:49|CC|Hey, Gene, I presume that the fender that came off is the fender that came off before, right?
-|120:29:49|CDR-EVA|Yes, same one. My tape didn't hold; it was too dusty.
-|120:29:49|CC|All right.
-|120:29:49|CDR-EVA|Okay.
-|120:29:49|LMP-EVA|Hey, watch out for this antenna line I found out here.
-|120:29:49|CDR-EVA|Yes. Okay, travel to LM, Okay, Bob, I'm not going to change anything right now except get in and travel. All right?
-|120:29:49|CC|That's affirm. Time to go home.
-|120:29:49|LMP-EVA|How's our time, Bob?
-|120:29:49|CC|You'll have a nominal closeout, guys, as soon as you get back. We're right about on the time that we've been figuring on for you guys to get back there on. Right now, you are 6 hours and 11 minutes into the EVA.
-|120:29:49|CDR-EVA|Boy, here's a big boulder.
-|120:29:49|LMP-EVA|Gene, I discovered something - I learned a lot today, let me tell you.
-|120:29:49|CDR-EVA|Okay, you're going to lose TV because the high gain is going to be out of whack here in a minute.
-|120:33:39|LMP-EVA|Hey, I got a football-size rock of this vesicular -coarsely vesicular gabbro, Bob. It's off a large 3- to 4-meter buried boulder to the north -oh, let's say, northeast of the LM about 30 meters.
-|120:33:39|LMP-EVA|Do you read, Bob?
-|120:33:39|CC|Roger, Jack. Read you loud and clear on that one.
-|120:33:39|LMP-EVA|Okay. It'll be in the big bag.
+|120:31:59|LMP-EVA|Well, let's see, I guess I'm supposed to -
+|120:32:01|CC|Hey, Gene, I presume that the fender that came off is the fender that came off before, right?
+|120:32:08|CDR-EVA|Yes, same one. My tape didn't hold; it was too dusty.
+|120:32:11|CC|All right.
+|120:32:14|CDR-EVA|Okay.
+|120:32:16|LMP-EVA|Hey, watch out for this antenna line I found out here.
+|120:32:19|CDR-EVA|Yes. Okay, travel to LM, Okay, Bob, I'm not going to change anything right now except get in and travel. All right?
+|120:32:32|CC|That's affirm. Time to go home.
+|120:32:38|LMP-EVA|How's our time, Bob?
+|120:32:44|CC|You'll have a nominal closeout, guys, as soon as you get back. We're right about on the time that we've been figuring on for you guys to get back there on. Right now, you are 6 hours and 11 minutes into the EVA.
+|120:33:06|LMP-EVA|Boy, here's a big boulder.
+|120:33:12|CDR-EVA|Yes, I discovered something - I learned a lot today, let me tell you.
+|120:33:21|CDR-EVA|Okay, you're going to lose TV because the high gain is going to be out of whack here in a minute.
+|120:33:39|LMP-EVA|Okay, I got a football-size rock of this vesicular - coarsely vesicular gabbro, Bob. It's off a large 3 - to 4 meter buried boulder to the north - oh, let's say, northeast of the LM about 30 meters.
+|120:34:10|LMP-EVA|Do you read, Bob?
+|120:34:12|CC|Roger, Jack. Read you loud and clear on that one.
+|120:34:18|LMP-EVA|Okay. It'll be in the big bag.
 ||||Tape 81A/32|Page 877
-|120:33:39|CC|Okay, ...
-|120:33:39|LMP-EVA|Undocumented, it's about - it's roughly tabular -15 by 25 centimeters and about 5 to 7 centimeters thick. One - one face is very flat; looks like it was off of a parting plane, which were in that rock.
-|120:33:39|CC|Okay, and if it fits in the SRC with all the other samples, you might put it there because the SRC's going to be kind of empty.
-|120:33:39|CDR-EVA|Got any new parking angles for your batteries or anything?
-|120:33:39|CC|No, it will be a heading of 013, which is hardly a change at all from the 012 in the checklist.
-|120:33:39|CDR-EVA|Okay, I'll buy that.
-|120:33:39|CC|Jack, did you copy my comments about putting that thing in the SRC perhaps?
-|120:33:39|LMP-EVA|Well, it was pretty big. It's in the big bag now. We can do that.
-|120:33:39|CC|Well, I'd get*the other samples - the small ones and particularly soils in the SRC first.
-|120:33:39|LMP-EVA|Okay.
-|120:33:39|CDR-EVA|Are you through?
-|120:33:39|LMP-EVA|No, I'm going right - right about here. Now I'm done.
-|120:33:39|CDR-EVA|Okay.
-|120:33:39|LMP-EVA|Right there.
-|120:36:15|CDR-EVA|Okay, Bob, 086, 0.5, 0.1, 108 - Oh - oh, 102.
-|120:36:15|LMP-EVA|Stand by 1.
-|120:36:15|CDR-EVA|Amp-hours are at 108, 102; volts are 74 and 75-Batteries are 108 and 123. Motors are all off scale low, all four of them.
+|120:34:22|CC|Okay, ...
+|120:34:23|LMP-EVA|Undocumented, it's about - it's roughly tabular, 15 by 25 centimeters, and about 5 to 7 centimeters thick. One - one face is very flat; looks like it was off of a parting plane, which were in that rock.
+|120:34:48|CC|Okay, and if it fits in the SRC with all the other samples, you might put it there because the SRC's going to be kind of empty.
+|120:34:55|CDR-EVA|Got any new parking angles for your batteries or anything?
+|120:35:00|CC|No, it will be a heading of 013, which is hardly a change at all from the 012 in the checklist.
+|120:35:10|CDR-EVA|Okay, I'll buy that.
+|120:35:28|CC|Jack, did you copy my comments about putting that thing in the SRC perhaps?
+|120:35:36|LMP-EVA|Well, it was pretty big. It's in the big bag now. We can do that.
+|120:35:43|CC|Well, I'd get*the other samples - the small ones and particularly soils in the SRC first.
+|120:35:51|LMP-EVA|Okay.
+|120:36:01|CDR-EVA|Are you through?
+|120:36:02|LMP-EVA|No, I'm going right - right about here. Now I'm done.
+|120:36:07|CDR-EVA|Okay.
+|120:36:08|LMP-EVA|Right there.
+|120:36:11|CDR-EVA|Okay, Bob, 086, 0.5, 0.1, 108 - Oh - oh, 102.
+|120:36:28|LMP-EVA|Stand by 1.
+|120:36:29|CDR-EVA|Okay, Amp-hours are at 108, 102; volts are 74 and 75 - Batteries are 108 and 123. Motors are all off scale low, all four of them.
 ||||Tape 81A/33|Page 878
-|120:36:15|CC|Roger, Gene. Understand 108, 102 on the amp-hours, hub?
-|120:36:15|CDR-EVA|That's affirm; 108 and 102.
-|120:36:15|CC|Okay; copy that.
-|120:36:15|CDR-EVA|I can't read this thing, because it's full of dust, so I've got to get off and dust it.
-|120:36:15|LMP-EVA|Okay, the SEP receiver temp is 45, 45-
-|120:36:15|CC|Copy 45* Beautiful.
-|120:36:15|LMP-EVA|You know, I think they left some Velcro off of this thing, Gene. There's no Velcro holding those flaps down.
-|120:36:15|CDR-EVA|Isn't there?
-|120:36:15|LMP-EVA|No.
-|120:36:15|CDR-EVA|Okay. I've got to get the brush and dust that thing - a minute or 2.
-|120:36:15|LMP-EVA|Okay, ... get the high gain.
-|120:36:15|CDR-EVA|I feel like taking some core tubes tomorrow.
-|120:36:15|CC|I have a feeling you've got a couple left over, don't you?
-|120:36:15|CDR-EVA|Bob, you got -
-|120:36:15|LMP-EVA|Yes.
-|120:36:15|CDR-EVA|Bob, you got the high gain?
-|120:36:15|CC|Okay, thank you.
-|120:36:15|CDR-EVA|Is that - is that my bag, Jack, you got?
-|120:36:15|LMP-EVA|Yes .
-|120:36:15|CDR-EVA|That's pretty good.
+|120:36:48|CC|Roger, Gene. Understand 108, 102 on the amp-hours, hub?
+|120:36:56|CDR-EVA|That's affirm; 108 and 102.
+|120:36:59|CC|Okay; copy that.
+|120:37:03|CDR-EVA|I can't read this thing, because it's full of dust, so I've got to get off and dust it.
+|120:37:07|LMP-EVA|Okay, the SEP receiver temp is 45, 45 -
+|120:37:12|CC|Copy 45. Beautiful.
+|120:37:19|LMP-EVA|You know, I think they left some Velcro off of this thing, Gene. There's no Velcro holding those flaps down.
+|120:37:27|CDR-EVA|Isn't there?
+|120:37:27|LMP-EVA|No.
+|120:37:33|CDR-EVA|Okay. I've got to get the brush and dust that thing - a minute or 2.
+|120:37:42|LMP-EVA|Okay, let me get the high gain.
+|120:38:03|CDR-EVA|I feel like taking some core tubes tomorrow.
+|120:38:08|CC|I have a feeling you've got a couple left over, don't you?
+|120:38:11|CDR-EVA|Bob, you got -
+|120:38:13|LMP-EVA|Yes.
+|120:38:14|CDR-EVA|Bob, you got the high gain?
+|120:38:15|CC|Okay, thank you.
+|120:38:19|CDR-EVA|Is that - is that my bag, Jack, you got?
+|120:38:21|LMP-EVA|Yes.
+|120:38:22|CDR-EVA|That's pretty good.
 ||||Tape 81A/34|Page 879
-|120:36:15|CC|Okay, let's put all the stuff in that bag, Jack -both the stuff that's in yours and the stuff that's in Gene's.
-|120:36:15|LMP-EVA|Okay. ... Samples - two samples from under the LMP's seat.
-|120:36:15|CDR-EVA|Put these under the seat. Clean you up here while I'm at it. Oh, man, I tell you, it's going to take us half - a dozen Sundays to dust. Look at that fender; that's terrible.
-|120:36:15|LMP-EVA|Okay, you want to get my bag off?
-|120:36:15|CDR-EVA|Yes. If you're ready.
-|120:36:15|LMP-EVA|Yes.
-|120:36:15|LMP-EVA|I've got to put your - those samples in the SRC, in your bag; and we'll save this one, I guess.
-|120:36:15|CDR-EVA|Wait a minute. Let me clean you up.
-|120:36:15|LMP-EVA|Okay.
-|120:36:15|CDR-EVA|Did you get me cleaned up?
-|120:36:15|LMP-EVA|Yes, you've lost your - -
-|120:36:15|CDR-EVA|Wait a minute.
-|120:36:15|LMP-EVA|- - your strap though, here.
-|120:36:15|CDR-EVA|Wait a minute, now, ... Okay, you get my hook back up over here.
-|120:36:15|LMP-EVA|Okay, - my - turn around. Your hook's up, but I'm not sure I closed your - your other one. Take a look at it. Yes, it's all closed. Okay, you're good. There you go.
-|120:36:15|CDR-EVA|Okay, you're filling which bag, the -
-|120:36:15|LMP-EVA|Putting them in the bag that goes into the SRC -
-|120:36:15|CDR-EVA|That's SRC - SCB 1.
+|120:38:23|CC|Okay, let's put all the stuff in that bag, Jack -both the stuff that's in yours and the stuff that's in Gene's.
+|120:38:33|LMP-EVA|Okay. ... Samples - two samples from under the LMP's seat.
+|120:38:51|CDR-EVA|Put these under the seat. Clean you up here while I'm at it. Oh, man, I tell you, it's going to take us half - a dozen Sundays to dust. Look at that fender; that's terrible.
+|120:39:10|LMP-EVA|Okay, you want to get my bag off?
+|120:39:13|CDR-EVA|Yes. If you're ready.
+|120:39:14|LMP-EVA|Yes.
+|120:39:15|LMP-EVA|I've got to put your - those samples in the SRC, in your bag; and we'll save this one, I guess.
+|120:39:23|CDR-EVA|Wait a minute. Let me clean you up.
+|120:39:24|LMP-EVA|Okay.
+|120:39:26|CDR-EVA|Did you get me cleaned up?
+|120:39:27|LMP-EVA|Yes, you've lost your - -
+|120:39:29|CDR-EVA|Wait a minute.
+|120:39:29|LMP-EVA|- - your strap though, here.
+|120:39:32|CDR-EVA|Wait a minute, now, ... Okay, you get my hook back up over here.
+|120:39:37|LMP-EVA|Okay, - my - turn around. Your hook's up, but I'm not sure I closed your - your other one. Take a look at it. Yes, it's all closed. Okay, you're good. There you go.
+|120:39:53|CDR-EVA|Okay, you're filling which bag, the -
+|120:39:56|LMP-EVA|Putting them in the bag that goes into the SRC -
+|120:39:58|CDR-EVA|That's SRC - SCB 1.
 ||||Tape 81A/35|Page 880
-|120:36:15|CC|Roger.
-|120:36:15|CDR-EVA|Okay; let's see, offload LM - PLSS - core cap dispenser tools. Okay, as soon as you get that, I'll take that SCB 1 from you, and I'll close the SRC 1.
-|120:36:15|CC|Okay; and I gather you didn't have any Rover samples today, did you, Jack?
-|120:36:15|CDR-EVA|I've still got my tongs here. I got - -
-|120:36:15|LMP-EVA|No, I have one sample bag in my pocket that has a rock in it.
-|120:36:15|CC|We'll have to take that out when we get in the Rover, I assume.
-|120:36:15|LMP-EVA|Okay. Gene, where's that - you want to put that little rock?
-|120:36:15|CDR-EVA|Yes, is it there?
-|120:36:15|LMP-EVA|Well, what did you do with it?
-|120:36:15|CDR-EVA|It was on the floor on my side.
-|120:36:15|LMP-EVA|Your side?
-|120:36:15|CDR-EVA|There it is; let me get it.
-|120:36:15|LMP-EVA|We can put that in one of the core tube slots here.
-|120:43:02|CDR-EVA|Boy, that one fender just - just is an order of magnitude more of a dust problem. Here can you reach it?
-|120:43:02|LMP-EVA|Okay, the rock that Gene picked up - early - right at the start, is in a core tube slot in the SRC 1.
-|120:43:02|CC|Okay, I copy that.
-|120:43:02|LMP-EVA|Okay, Gene, you want this one?
-|120:43:02|CDR-EVA|Yes, I want the full one.
-|120:43:02|LMP-EVA|Yes. Latched.
+|120:40:01|CC|Roger.
+|120:40:02|CDR-EVA|Okay; let's see, offload LM - PLSS - core cap dispenser tools. Okay, as soon as you get that, I'll take that SCB 1 from you, and I'll close the SRC 1.
+|120:40:17|CC|Okay; and I gather you didn't have any Rover samples today, did you, Jack?
+|120:40:20|CDR-EVA|I've still got my tongs here. I got - -
+|120:40:23|LMP-EVA|No, I have one sample bag in my pocket that has a rock in it.
+|120:40:28|CC|We'll have to take that out when we get in the Rover, I assume.
+|120:40:32|LMP-EVA|Okay. Gene, where's that - you want to put that little rock?
+|120:40:41|CDR-EVA|Yes, is it there?
+|120:40:43|LMP-EVA|Well, what did you do with it?
+|120:40:44|CDR-EVA|It was on the floor on my side.
+|120:40:45|LMP-EVA|Your side?
+|120:40:47|CDR-EVA|There it is; let me get it.
+|120:40:49|LMP-EVA|We can put that in one of the core tube slots here.
+|120:40:58|CDR-EVA|Boy, that one fender just - just is an order of magnitude more of a dust problem. Here can you reach it?
+|120:41:07|LMP-EVA|Okay, the rock that Gene picked up - early - right at the start, is in a core tube slot in the SRC 1.
+|120:41:16|CC|Okay, I copy that.
+|120:41:21|LMP-EVA|Okay. Gene, you want this one?
+|120:41:26|CDR-EVA|Yes, I want the full one.
+|120:41:28|LMP-EVA|Yes. Latched.
 ||||Tape 81A/36|Page 881
-|120:43:02|CDR-EVA|Okay.
-|120:43:02|LMP-EVA|Bob, that's almost full of samples, and I think that big rock would be - probably wouldn't fit in there.
-|120:43:02|CC|Okay, then we'll put that in the big bag.
-|120:43:02|LMP-EVA|It's in the big bag.
-|120:43:02|CC|Good enough. And I gather there's no Rover samples today, right?
-|120:43:02|CDR-EVA|Okay - No Rover samples; sorry.
-|120:43:02|CDR-EVA|Okay, the seal is clear, like I promised I'd make it, coming over the top. Bob, the seal is clear.
-|120:43:02|CC|Beautiful.
-|120:43:02|CDR-EVA|I don't know if it's beautiful, but it's clear.
-|120:43:02|CC|It's clearly beautiful.
-|120:43:02|CDR-EVA|Okay, okay, that big mamou is locked. I got a lot of oxygen. I still got 22 percent.
-|120:43:02|LMP-EVA|I expect our feedwater may be getting a little low.
-|120:43:02|CDR-EVA|I'm going to leave this right here until I take it up to you. Okay, close ... verify good seal, place in plus-Z. Okay, LRV circuit breakers: LRV LCRU power OFF. Dust - well, let me get at that dusting first.
-|120:43:02|LMP-EVA|Give me a yell when you need a spell there.
-|120:43:02|CDR-EVA|What, dusting?
-|120:43:02|LMP-EVA|Yes.
-|120:43:02|CDR-EVA|Well, I need a fender, that's what I need. Figure out something we can make a fender with.
-|120:43:02|LMP-EVA|How about one of the others that's not as critical?
+|120:41:33|CDR-EVA|Okay.
+|120:41:36|LMP-EVA|Bob, that's almost full of samples, and I think that big rock would be - probably wouldn't fit in there.
+|120:41:43|CC|Okay, then we'll put that in the big bag.
+|120:41:48|LMP-EVA|It's in the big bag.
+|120:41:50|CC|Good enough. And I gather there's no Rover samples today, right?
+|120:41:54|CDR-EVA|Okay - No Rover samples; sorry.
+|120:42:34|CDR-EVA|Okay, the seal is clear, like I promised I'd make it, coming over the top. Bob, the seal is clear.
+|120:42:53|CC|Beautiful.
+|120:42:59|CDR-EVA|I don't know if it's beautiful, but it's clear.
+|120:43:03|CC|It's clearly beautiful.
+|120:43:06|CDR-EVA|Okay, okay, that big mamou is locked. I got a lot of oxygen. I still got 22 percent.
+|120:43:23|LMP-EVA|I expect our feedwater may be getting a little low.
+|120:43:28|CDR-EVA|I'm going to leave this right here until I take it up to you. Okay, close ... verify good seal, place in plus-Z. Okay, LRV circuit breakers: LRV LCRU power OFF. Dust - well, let me get at that dusting first.
+|120:43:43|LMP-EVA|Give me a yell when you need a spell there.
+|120:43:45|CDR-EVA|What, dusting?
+|120:43:47|LMP-EVA|Yes.
+|120:43:48|CDR-EVA|Well, I need a fender, that's what I need. Figure out something we can make a fender with.
+|120:43:55|LMP-EVA|How about one of the others that's not as critical?
 ||||Tape 81A/37|Page 882
-|120:43:02|CDR-EVA|Yes, but I wouldn't ever take one of those off. You know, getting it - I had one to put on and it didn't stay, which is what I figured.
-|120:43:02|LMP-EVA|I thought you said it was broken, though?
-|120:43:02|CDR-EVA|Well, it was. But these aren't supposed to come off, either, unless you break them. I broke that one. My hammer got caught underneath it. It wasn't the fender's fault.
-|120:43:02|LMP-EVA|Okay, the core tube is packed.
-|120:43:02|LMP-EVA|Every time I read containment bag, it fools me; I can't figure out what it is.
-|120:43:02|CDR-EVA|Every time what?
-|120:43:02|LMP-EVA|I read containment bag.
-|120:43:02|CDR-EVA|(Laughter) You've been thinking of the other kind too long. You've been living in the command module too long.
-|120:43:02|CDR-EVA|That's a pretty good day's workout, you know. You know, I don't think we need an exercise period. We get back in there. I don't think we have to apologize to anybody. I'm sorry we didn't get out to station 1. One of the main reasons is, I think, we could have got our navigation bearings a little bit better.
-|120:43:02|LMP-EVA|Well, I'll tell you. That new ALSEP had more to it than met the eye.
-|120:43:02|CDR-EVA|This hole out here - you know, this is just such an easy site to find out and to identify yourself on and to land in. But, I tell you, all of a sudden there is so many local holes that I can't think big enough.
-|120:43:02|LMP-EVA|Does that sound familiar?
-|120:43:02|CDR-EVA|Okay, Jack, ... rest of my dusting until - -
-|120:43:02|LMP-EVA|Am I in your way?
+|120:43:57|CDR-EVA|Yes, but I wouldn't ever take one of those off. You know, getting it - I had one to put on and it didn't stay, which is what I figured.
+|120:44:04|LMP-EVA|I thought you said it was broken, though?
+|120:44:05|CDR-EVA|Well, it was. But these aren't supposed to come off, either, unless you break them. I broke that one. My hammer got caught underneath it. It wasn't the fender's fault.
+|120:44:18|LMP-EVA|Okay, the core tube is packed.
+|120:44:53|LMP-EVA|Every time I read containment bag, it fools me; I can't figure out what it is.
+|120:44:59|CDR-EVA|Every time what?
+|120:45:00|LMP-EVA|I read containment bags.
+|120:45:03|CDR-EVA|(Laughter) You've been thinking of the other kind too long. You've been living in the command module too long.
+|120:45:23|CDR-EVA|That's a pretty good day's workout, you know. You know, I don't think we need an exercise period. We get back in there. I don't think we have to apologize to anybody. I'm sorry we didn't get out to station 1. One of the main reasons is, I think, we could have got our navigation bearings a little bit better.
+|120:45:43|LMP-EVA|Well, I'll tell you. That new ALSEP had more to it than met the eye.
+|120:45:52|CDR-EVA|This hole out here - you know, this is just such an easy site to find out and to identify yourself on and to land in. But, I tell you, all of a sudden there is so many local holes that I can't think big enough.
+|120:46:04|LMP-EVA|Does that sound familiar?
+|120:46:05|CDR-EVA|Okay, Jack, ... rest of my dusting until - -
+|120:46:11|LMP-EVA|Am I in your way?
 ||||Tape 81A/38|Page 883
-|120:43:02|CDR-EVA|Yes, I'd like to get over there to get the - this last battery cover. I can. That's good enough. I can get over there now. I want to make sure these things stay clean because I don't want to walk.
-|120:43:02|LMP-EVA|I agree. Okay, Bob, containment bags and two cameras are stowed in the ETB.
-|120:43:02|CC|Copy that. And don't forget the scissors, guys.
-|120:43:02|LMP-EVA|Don't worry. I've got them right here.
-|120:43:02|CC|Beautiful - don't want to go hungry.
-|120:43:02|LMP-EVA|It's a good call, Bob. That's right.
-|120:43:02|CC|And, Jack, give me your consideration - or Gene -on that question of bringing back the big bag into the cabin. The people down here are saying they want to bring it in, and then we'd end up bringing it back out in the second EVA. What do you guys think about that?
-|120:47:23|LMP-EVA|That's all right; we can do that.
-|120:47:23|CDR-EVA|Yes, we can do that - I guess just because that rock's in there, huh?
-|120:47:23|LMP-EVA|I'd like to do that - look at that rock with the handle in it.
-|120:47:23|CC|All right; so then we'd be taking it back out in the second EVA, if you guys are agreeable to that.
-|120:47:23|LMP-EVA|Yes, we'll do that, Bob.
-|120:47:23|CC|And, Jack, do you think it'll go in the SCB?
-|120:47:23|LMP-EVA|Say again.
-|120:47:23|CC|Do you think it'll go in the SCB number 2?
-|120:47:23|LMP-EVA|What would - the bock - the rock?
-|120:47:23|CC|Yes, that's right.
+|120:46:11|CDR-EVA|Yes, I'd like to get over there to get the - this last battery cover. I can. That's good enough. I can get over there now. I want to make sure these things stay clean because I don't want to walk.
+|120:46:36|LMP-EVA|I agree. Okay, Bob, containment bags and two cameras are stowed in the ETB.
+|120:46:50|CC|Copy that. And don't forget the scissors, guys.
+|120:46:55|LMP-EVA|Don't worry. I've got them right here.
+|120:46:57|CC|Beautiful - don't want to go hungry.
+|120:47:00|LMP-EVA|It's a good call, Bob. That's right.
+|120:47:03|CC|And, Jack, give me your consideration - or Gene - on that question of bringing back the big bag into the cabin. The people down here are saying they want to bring it in, and then we'd end up bringing it back out in the second EVA. What do you guys think about that?
+|120:47:19|LMP-EVA|That's all right; we can do that.
+|120:47:20|CDR-EVA|Yes, we can do that - I guess just because that rock's in there, huh?
+|120:47:23|LMP-EVA|I'd like to do that - look at that rock with a hand lens.
+|120:47:27|CC|All right; so then we'd be taking it back out in the second EVA, if you guys are agreeable to that.
+|120:47:34|LMP-EVA|Yes, we'll do that, Bob.
+|120:47:36|CC|And, Jack, do you think it'll go in the SCB?
+|120:47:43|LMP-EVA|Say again.
+|120:47:43|CC|Do you think it'll go in the SCB number 2?
+|120:47:50|LMP-EVA|What would - the bock - the rock?
+|120:47:52|CC|Yes, that's right.
 ||||Tape 81A/39|Page 884
-|120:47:23|LMP-EVA|Well, it'll go in there. It's not that big.
-|120:47:23|CC|Okay, why don't you put it in SCB - why don't you put it in SCB 2 and bring that in, instead. Leave SRB out, and then we'll just leave SCB 2 in forever.
-|120:47:23|LMP-EVA|Okay.
-|120:48:18|CDR-EVA|Okay, verify SRC plus-Z pad. What are those things going over? What is that, Jack? Hey, something just hit here! What blew? Hey, what is that?
-|120:48:18|LMP-EVA|Oh, your antenna - your - it's that styrofoam off the high-gain antenna package.
-|120:48:18|CDR-EVA|On the LM?
-|120:48:18|LMP-EVA|No, the one you deployed. The Rover high-gain antenna.
-|120:48:18|CDR-EVA|tty gosh, it blew up!
-|120:48:18|LMP-EVA|Yes.
-|120:48:18|CDR-EVA|I thought we'd been hit by a - by a - Look at that stuff just keeps flying over the top of our heads. I thought we were the closest witnesses to a lunar meteor impact. I wonder if ... that's the same glass I picked up?
-|120:48:18|LMP-EVA|Oh, I don't know.
-|120:48:18|CC|John says it blew up on his mission too, guys.
-|120:48:18|LMP-EVA|Isn't that what you thought it was? Isn't that what you thought it was? Huh? I thought you were kidding.
-|120:48:18|CDR-EVA|No, I've never seen that before.
-|120:48:18|LMP-EVA|Oh, I'm sorry. I thought that was -
-|120:48:18|CDR-EVA|No - you just - you just - Well, you saw that stuff coming. I didn't see that at all. Holy Smoly!
+|120:47:57|LMP-EVA|Well, it'll go in there. It's not that big.
+|120:47:59|CC|Okay, why don't you put it in SCB - why don't you put it in SCB 2 and bring that in, instead. Leave SRB out, and then we'll just leave SCB 2 in forever.
+|120:48:11|LMP-EVA|Okay.
+|120:48:14|CDR-EVA|Okay, verify SRC plus-Z pad. What are those things going over? What is that, Jack? Hey, something just hit here! What blew? Hey, what is that?
+|120:48:28|LMP-EVA|Oh, your antenna - your - it's that styrofoam off the high-gain antenna package.
+|120:48:37|CDR-EVA|On the LM?
+|120:48:39|LMP-EVA|No, the one you deployed. The Rover high-gain antenna.
+|120:48:43|CDR-EVA|My gosh, it blew up!
+|120:48:45|LMP-EVA|Yes.
+|120:48:46|CDR-EVA|I thought we'd been hit by a - by a - Look at that stuff just keeps flying over the top of our heads. I thought we were the closest witnesses to a lunar meteor impact. I wonder if ... that's the same glass I picked up?
+|120:49:05|LMP-EVA|Oh, I don't know.
+|120:49:06|CC|John says it blew up on his mission too, guys.
+|120:49:09|LMP-EVA|Isn't that what you thought it was? Isn't that what you thought it was? Huh? I thought you were kidding.
+|120:49:15|CDR-EVA|No, I've never seen that before.
+|120:49:17|LMP-EVA|Oh, I'm sorry. I thought that was -
+|120:49:19|CDR-EVA|No - you just - you just - Well, you saw that stuff coming. I didn't see that at all. Holy Smoly!
 ||||Tape 81A/40|Page 885
-|120:48:18|CC|Roger, 17- And John says that it blew up on his mission, as well.
-|120:48:18|CDR-EVA|Okay, Bob, I guess I'm going to take the TV away from you.
-|120:48:18|CC|Okay. And, Gene, one thing we'd like before you guys leave the Rov - -
-|120:48:18|CDR-EVA|Okay.
-|120:48:18|LMP-EVA|Mag - -
-|120:48:18|CDR-EVA|- the - -
-|120:48:18|LMP-EVA|- - Romeo.
-|120:48:18|CDR-EVA|Well, a piece of the rail on the - on the aft - aft inboard side here - the rail isn't missing - it's just a piece of the flange - the rail that fits against the fender - but that doesn't hold any part of the fender on. I don't remember what I saw on the fender - The rails look pretty good, Bob. And I had one of them completely on, and I just couldn't get the other one on. If I had known what that dust was, I would have tried an awful lot harder.
-|120:48:18|CC|Okay, do you have any feeling that - -
-|120:48:18|CDR-EVA|I heard John telling me, but - -
-|120:48:18|CC|Do you have any feeling that you could get away with putting a front fender on?
-|120:48:18|CDR-EVA|Well, I have done it before, but it's not easy.
-|120:48:18|CC|Okay, as far as you can tell, so that we can look at it over night, the rear fender - the part that's remaining - looks in fairly good shape, right?
+|120:49:27|CC|Roger, 17. And John says that it blew up on his mission, as well.
+|120:49:35|CDR-EVA|Okay, Bob, I guess I'm going to take the TV away from you.
+|120:49:43|CC|Okay. And, Gene, one thing we'd like before you guys leave the Rov - One thing we'd like before you guys leave the Rover is a farely good description of what happened to the rear fender when it came off. Is the damage primarily to the piece that you've lost, or is - or are the rails on the piece that's remaining fairely bad?
+|120:50:06|CDR-EVA|Okay.
+|120:50:11|LMP-EVA|Mag - -
+|120:50:13|CDR-EVA|The - -
+|120:50:14|LMP-EVA|- - Romeo.
+|120:50:18|CDR-EVA|Well, a piece of the rail on the - on the aft - aft inboard side here - the rail isn't missing - it's just a piece of the flange - the rail that fits against the fender - but that doesn't hold any part of the fender on. I don't remember what I saw on the fender - The rails look pretty good, Bob. And I had one of them completely on, and I just couldn't get the other one on. If I had known what that dust was, I would have tried an awful lot harder.
+|120:50:45|CC|Okay, do you have any feeling that - -
+|120:50:47|CDR-EVA|I heard John telling me, but - -
+|120:50:50|CC|Do you have any feeling that you could get away with putting a front fender on?
+|120:50:59|CDR-EVA|Well, I have done it before, but it's not easy.
+|120:51:05|CC|Okay, as far as you can tell, so that we can look at it over night, the rear fender - the part that's remaining - looks in fairly good shape, right?
 ||||Tape 8lA/4l|Page 886
-|120:48:18|CDR-EVA|Let me take a good look at it. Yes, the part you need, I think, to hold that fender on -
-|120:48:18|LMP-EVA|Let's see - we better take those dustbrushes up there.
-|120:48:18|CDR-EVA|Yes, there's enough here to hold the fender on, Bob.
-|120:48:18|CC|Okay, we'll take a look at it here while you're sleeping.
-|120:48:18|CDR-EVA|Okay, let me get some breakers here. LRV breakers Alfa, Bravo, Charlie, and Delta.
-|120:48:18|LMP-EVA|Bob, while you were talking, I got all the mags -Romeo, Alfa, Bravo, Charlie.
-|120:48:18|CC|Hotel. Hotel.
-|120:48:18|LMP-EVA|That's on a magazine. That's on our camera.
-|120:48:18|CC|Okay. Got you on that one; you're right.
-|120:48:18|LMP-EVA|Is it not?
-|120:48:18|CC|You're right; my fault - you've got the maps, too.
-|120:48:18|LMP-EVA|Okay, I need those maps, Gene. Could you hand me the maps ?
-|120:48:18|CDR-EVA|I don't know. Pretty good clip, splitting apart a bit, too, aren't they?
-|120:48:18|LMP-EVA|Getting hot.
-|120:48:18|CDR-EVA|This thing keeps falling out of your clip, in case you're interested, or I keep knocking it. out.
-|120:48:18|LMP-EVA|Put it down here. Okay, I've got the maps, the 500 mag, yes - and the three - two cameras.
-|120:48:18|CC|Okay, we'll have to get the contamination bags, too, there.
-|120:48:18|CDR-EVA|Huh?
+|120:51:20|CDR-EVA|Let me take a good look at it. Yes, the part you need, I think, to hold that fender on -
+|120:51:38|LMP-EVA|Let's see - we better take those dustbrushes up there.
+|120:51:41|CDR-EVA|Yes, there's enough here to hold the fender on, Bob.
+|120:51:45|CC|Okay, we'll take a look at it here while you're sleeping.
+|120:51:52|CDR-EVA|Okay, let me get some breakers here. LRV breakers Alfa, Bravo, Charlie, and Delta.
+|120:51:58|LMP-EVA|Hey, Bob, while you were talking, I got all the mags - Romeo, Alfa, Bravo, Charlie.
+|120:52:07|CC|Hotel.
+|120:52:12|LMP-EVA|That's on a magazine. That's on a camera.
+|120:52:14|CC|Okay. Got you on that one; you're right.
+|120:52:19|LMP-EVA|Is it not?
+|120:52:20|CC|You're right; my fault - you've got the maps, too.
+|120:52:23|LMP-EVA|Okay, I need those maps, Gene. Could you hand me the maps?
+|120:52:28|CDR-EVA|I don't know. Pretty good clip, splitting apart a bit, too, aren't they?
+|120:52:42|LMP-EVA|Getting hot.
+|120:52:43|PAO|That'll end the television until EVA 2 tomorrow.
+|120:52:47|CDR-EVA|This thing keeps falling out of your clip, in case you're interested, or I keep knocking it out.
+|120:52:56|LMP-EVA|Put it - put it down, yes. Okay, I've got the maps, the 500 mag, yes - and the three - two cameras.
+|120:53:06|CC|Okay, we'll have to get the contamination bags, too, there.
+|120:53:16|CDR-EVA|Huh?
 ||||Tape 81A/42|Page 887
-|120:48:18|LMP-EVA|Say that again, Bob.
-|120:48:18|CC|Roger. We've got the contamination bags to get, too - out of the MESA.
-|120:48:18|LMP-EVA|I've got them.
-|120:48:18|CC|Okay; copy that.
-|120:48:18|LMP-EVA|Mentioned that earlier.
-|120:48:18|CC|Sorry about that.
-|120:48:18|LMP-EVA|They're in there.
-|120:48:18|CC|Okay; do you know when you're brushing LCRU, we'd like the blankets left at 100 percent rather than 65 percent - we'd like them all left open; and it's been a little warm, also.
-|120:53:56|CDR-EVA|Okay, Bob, I've already dusted everything. And it all looks pretty good. The bay - the breakers are OPEN; the LCRU power is OFF ... Where do you want the TV camera? Do you want it tilted down and aft?
-|120:53:56|CC|Roger. Down and away from the Sun, like we talked about. Think that's what you mean by aft.
-|120:53:56|CDR-EVA|That's what I thought. Okay. It's down - yes, it's there.
-|120:53:56|CC|Okay; can you confirm that that's 100 percent on the LCRU blanket rather than 65 percent as per the checklist?
-|120:53:56|CDR-EVA|Yes, sir; I sure can.
-|120:53:56|CDR-EVA|Okay, I'm opening all the battery covers. The batteries are not dirty. I've been dusting the covers every stop.
-|120:53:56|CC|Okay; good.
-|120:53:56|LMP-EVA|Are you through - are you through with the SRC?
-|120:53:56|CDR-EVA|Yes, I just left it there.
+|120:53:18|LMP-EVA|Say that again, Bob.
+|120:53:19|CC|Roger. We've got the contamination bags to get, too - out of the MESA.
+|120:53:26|LMP-EVA|I've got them.
+|120:53:27|CC|Okay; copy that.
+|120:53:28|LMP-EVA|Mentioned that earlier.
+|120:53:29|CC|Sorry about that.
+|120:53:30|LMP-EVA|They're in there.
+|120:53:33|CC|Okay; and Geno, when you're brushing LCRU, we'd like the blankets left at 100 percent rather than 65 percent - we'd like them all left open; and it's been a little warm, also.
+|120:53:48|CDR-EVA|Okay, Bob, I've already dusted everything. And it all looks pretty good. The bay - the breakers are OPEN; the LCRU power is OFF. I'm going to - Where do you want the TV camera? Do you want it tilted down and aft?
+|120:54:06|CC|Roger. Down and away from the Sun, like we talked about. Think that's what you mean by aft.
+|120:54:12|CDR-EVA|That's what I thought. Okay. It's down - yes, it's there.
+|120:54:18|CC|Okay; can you confirm that that's 100 percent on the LCRU blanket rather than 65 percent as per the checklist?
+|120:54:27|CDR-EVA|Yes, sir; I sure can.
+|120:54:36|CDR-EVA|Okay, I'm opening all the battery covers. The batteries are not dirty. I've been dusting the covers every stop.
+|120:54:42|CC|Okay; good.
+|120:54:45|LMP-EVA|Are you through with the - are you through with the SRC?
+|120:54:49|CDR-EVA|Yes, I just left it there.
 ||||Tape 81A/43|Page 888
-|120:53:56|LMP-EVA|I've got to get to the table.
-|120:53:56|CDR-EVA|Okay.
-|120:53:56|CDR-EVA|Okay, the batteries look pretty good. Bob, you got -you got - The left-hand forward reflector on the batteries is about 10 percent in shade. The others are in the Sun. Is that what you want?
-|120:53:56|CC|Stand by. Okay; that sounds right, they say.
-|120:53:56|CDR-EVA|Okay, the LCRU has been dusted; everything is dusted. Our blankets are open 100 percent. ... I'll check. Battery covers, open; LCRU blanket is open 100 percent; samples off. You got them all off, Jack?
-|120:53:56|LMP-EVA|Yes.
-|120:53:56|CDR-EVA|And anything else? Let me look around. I got to get the TGE.
-|120:53:56|LMP-EVA|Check it one more time.
-|120:53:56|CDR-EVA|Samples off; let's look under here. There's nothing tinder here. This bag is empty. Those are sample bags.
-|120:53:56|LMP-EVA|Okay, we do not bring up the LM ECS canister. Is that correct?
-|120:53:56|CC|That's correct, 17-
-|120:53:56|LMP-EVA|Okay.
-|120:53:56|CC|And, Jack, confirm you have the scissors in the ETB. Roger.
-|120:53:56|LMP-EVA|Just a second. (Laughter) Yes, sir. Thank you, again.
-|120:53:56|CDR-EVA|Okay, ... the old blanket.
-|120:56:39|LMP-EVA|Okay, that pin's green; that pin's green. Both pins are green.
-|120:56:39|CC|Copy that.
+|120:54:50|LMP-EVA|I've got to get to the table.
+|120:54:51|CDR-EVA|Okay.
+|120:54:57|PAO|Ron Evans in America, began an 8 hour rest period about 10 minutes ago.
+|120:55:02|CDR-EVA|Okay, the batteries look pretty good. Bob, you got - you got - The left-hand forward reflector on the batteries is about 10 percent in the shade. The others are in the Sun. Is that what you want?
+|120:55:17|CC|Stand by. Okay; that sounds right, they say.
+|120:55:27|CDR-EVA|Okay, the LCRU has been dusted; everything is dusted. Our blankets are open 100 percent. ... I'll recheck. Battery covers, open; LCRU blanket is open 100 percent; samples off. You got them all off, Jack?
+|120:55:39|LMP-EVA|Yes.
+|120:55:40|CDR-EVA|And anything else? Let me look around. I got to get the TGE.
+|120:55:44|LMP-EVA|Check it one more time.
+|120:55:47|CDR-EVA|Samples off; let's look under here. There's nothing under here. This bag is empty. Those are sample bags.
+|120:55:56|LMP-EVA|Okay, we do not bring up the LM ECS canister. Is that correct?
+|120:56:02|CC|That's correct, 17.
+|120:56:07|LMP-EVA|Okay.
+|120:56:13|CC|And, Jack, confirm you have the scissors in the ETB. Roger.
+|120:56:15|LMP-EVA|Just a second. (Laughter) Yes, sir. Thank you, again.
+|120:56:24|CDR-EVA|Okay, ... the old blanket.
+|120:56:30|LMP-EVA|Okay, that pin's green; that pin's green. Both pins are green.
+|120:56:38|CC|Copy that.
 ||||Tape 81A/44|Page 889
-|120:56:39|CDR-EVA|Boy, that's dirty.
-|120:56:39|LMP-EVA|Okay. Okay, I'll take some stuff up. SCB 2, we don't have. Oh, wait a minute. What did we decide to do - -
-|120:56:39|CC|SCB 2 for the big rock there, Jack.
-|120:56:39|LMP-EVA|Put that big rock in the - Oh, okay.
-|120:56:39|CDR-EVA|How's our time, Bob?
-|120:56:39|CC|No problem on time.
-|120:56:39|LMP-EVA|A little in on those ... Can I sneak in and get a bag?
-|120:56:39|CDR-EVA|Yes.
-|120:56:39|LMP-EVA|See you later, Rover.
-|120:56:39|CDR-EVA|Okay, the SEP blankets are open; it is dusted. Okay, and I verify that the DSEA is OFF, and the power's OFF.
-|120:56:39|CC|Copy that, Gene; thank you.
-|120:56:39|CDR-EVA|Okay, you want the TGE, right side of the MESA, but in the shade. Okay.
-|120:56:39|CC|That's affirm.
-|120:56:39|CDR-EVA|Boy, did it get covered with dust, too.
-|120:56:39|CDR-EVA|Bob, no trouble with the TGE in the TV, huh?
-|120:56:39|CC|None so we can tell. We'll get another reading here when we see it on the ground here.
-|120:56:39|CDR-EVA|Hey, Jack, if I set this here, we'll - Jack?
-|120:56:39|LMP-EVA|What?
-|120:56:39|CDR-EVA|Okay, I just want to set it here so you don't knock it over.
-|120:56:39|LMP-EVA|What's that?
+|120:56:41|CDR-EVA|Boy, that's dirty.
+|120:56:46|LMP-EVA|Okay. Okay, I'll take some stuff up. SCB 2, we don't have. Oh, wait a minute. What did we decide to do - -
+|120:57:01|CC|SCB 2 for the big rock there, Jack.
+|120:57:03|LMP-EVA|Put that big rock in the - Oh, okay.
+|120:57:10|CDR-EVA|How's our time, Bob?
+|120:57:13|CC|No problem on time.
+|120:57:15|LMP-EVA|A little in on those ... Can I sneak in and get a bag?
+|120:57:24|CDR-EVA|Yes.
+|120:57:29|PAO|We're at 6 hours, 36 minutes in this EVA.
+|120:57:34|LMP-EVA|See you later, Rover.
+|120:57:44|CDR-EVA|Okay, the SEP blankets are open; it is dusted. Okay, and I verify that the DSEA is OFF, and the power's OFF.
+|120:58:01|CC|Copy that, Gene; thank you.
+|120:58:06|CDR-EVA|Okay, you want the TGE, right side of the MESA, but in the shade. Okay.
+|120:58:12|CC|That's affirm.
+|120:58:20|CDR-EVA|Boy, did it get covered with dust, too.
+|120:58:42|CDR-EVA|Bob, no trouble with the TGE in the TV, huh?
+|120:58:48|CC|None so we can tell. We'll get another reading here when we see it on the ground here.
+|120:59:01|CDR-EVA|Hey, Jack, if I set this here, we'll - Jack?
+|120:59:09|LMP-EVA|What?
+|120:59:10|CDR-EVA|Okay, I just want to set it here so you don't knock it over.
+|120:59:13|LMP-EVA|What's that?
 ||||Tape 81A/45|Page 890
-|120:56:39|CDR-EVA|The TGE, right where you left foot is.
-|120:56:39|LMP-EVA|Oh, well.
-|120:56:39|CDR-EVA|I'm afraid we'll knock it over if I set it anywhere else.
-|120:56:39|LMP-EVA|Well, stand by; I've got a lot of stuff here.
-|120:56:39|CDR-EVA|Okay.
-|120:56:39|LMP-EVA|You should have volunteered to take the big bag in.
-|120:56:39|CDR-EVA|Why? You having trouble getting that thing in?
-|120:56:39|LMP-EVA|Oh, it's just ... Yes, I'm having trouble.
-|120:56:39|CDR-EVA|Well, here; let me help you.
-|120:56:39|LMP-EVA|Hold this big bag, please.
-|120:56:39|CDR-EVA|Just don't back up if you can help it.
-|120:56:39|LMP-EVA|Hold the bag. This big one, this one. No, the other one, the other one; don't.
-|120:56:39|CDR-EVA|I can't ...
-|120:56:39|LMP-EVA|I got it. That's a big rock.
-|120:56:39|CDR-EVA|... fit there is long ways.
-|120:56:39|LMP-EVA|Okay, there should be another one in there. Is there? Feel it, squeeze it, hit it.
-|120:56:39|CDR-EVA|... the box, see if there's any in there.
-|120:56:39|LMP-EVA|Well, let's leave it. ... let's get it out. Here, pick it up. We'll get it out.
-|120:56:39|CDR-EVA|Hold the top.
+|120:59:14|CDR-EVA|The TGE, right where you left foot is.
+|120:59:16|LMP-EVA|Oh, well.
+|120:59:17|CDR-EVA|I'm afraid we'll knock it over if I set it anywhere else.
+|120:59:19|LMP-EVA|Well, stand by; I've got a lot of stuff here.
+|120:59:21|CDR-EVA|Okay.
+|120:59:25|LMP-EVA|You should have volunteered to take the big bag in.
+|120:59:28|CDR-EVA|Why? You having trouble getting that thing in?
+|120:59:30|LMP-EVA|Well, it's just ... Yes, I'm having trouble.
+|120:59:41|CDR-EVA|Well, here; let me help you.
+|120:59:41|LMP-EVA|Hold this big bag, please.
+|120:59:44|CDR-EVA|Just don't back up if you can help it.
+|120:59:47|LMP-EVA|Hold the bag. This big one, this one. No, the other one, the other one; don't.
+|120:59:52|CDR-EVA|I can't ...
+|120:59:54|LMP-EVA|I got it. That's a big rock.
+|121:00:00|CDR-EVA|Want to fit there? It's long ways.
+|121:00:02|LMP-EVA|Okay, there should be another one in there. Is there? Feel it, squeeze it, hit it.
+|121:00:08|CDR-EVA|... the box, see if there's any in there. ... yes, there is. Okay.
+|121:00:17|PAO|America has just gone behind the Moon.
+|121:00:20|LMP-EVA|Well, let's leave it. ... let's get it out. Here, pick it up. We'll get it out.
+|121:00:24|CDR-EVA|Hold the top.
 ||||Tape 81A/46|Page 891
-|121:00:39|LMP-EVA|Shake it. Well, I thought there was one in there.
-|121:00:39|CDR-EVA|I don't think there's anything in there.
-|121:00:39|LMP-EVA|I thought I put one in there.
-|121:00:39|CDR-EVA|Okay.
+|121:00:30|LMP-EVA|Shake it. Well, I thought there was one in there.
+|121:00:35|CDR-EVA|I don't think there's anything in there.
+|121:00:36|LMP-EVA|I thought I put one in there.
+|121:00:38|CDR-EVA|Okay.
 |121:00:39|LMP-EVA|Well, I guess not. If I did, it's gotten out. Okay, got away.
-|121:00:39|CDR-EVA|Okay, I'm going to leave the TGE right here. I'll put the TGE right side of MESA. Okay, I might give them a gravimeter reading, believe it or not. Boy, I'll tell you, the only thing bad about putting this thing on the ground - it's like everything else - you have to bend over to get at it. And you need support to get back up. Okay.
-|121:01:18|CDR-EVA|MARK, gravimeter.
-|121:01:18|CC|Roger. Mark.
-|121:01:18|CDR-EVA|And she's flashing, Bob.
-|121:01:18|CC|Thank you.
-|121:01:18|LMP-EVA|Okay, I'm supposed to take this and the core stem bag up there.
-|121:01:18|CDR-EVA|I'll get it for you.
-|121:01:18|LMP-EVA|Can you get the core stem bag?
-|121:01:18|CDR-EVA|Yes, I'll get it for you.
-|121:01:18|LMP-EVA|Okay, you got a core stem bag?
-|121:01:18|CDR-EVA|Yes, let me give it one zap with the brush.
-|121:01:18|LMP-EVA|Okay. I didn't mean to drop that, but I did.
-|121:01:18|CDR-EVA|Yes, we got to - we got to keep from dropping everything. I'll tell you, the big lesson today - -
+|121:00:44|CDR-EVA|Okay, I'm going to leave the TGE right here. I'll put the TGE right side of MESA. Okay, I might give them a gravimeter reading, believe it or not. Boy, I'll tell you, the only thing bad about putting this thing on the ground - it's like everything else - you have to bend over to get at it. And you need support to get back up. Okay.
+|121:01:10|CDR-EVA|MARK, gravimeter.
+|121:01:11|CC|Roger. MARK.
+|121:01:13|CDR-EVA|And she's flashing, Bob.
+|121:01:15|CC|Thank you.
+|121:01:23|LMP-EVA|Okay, I'm supposed to take this and the core stem bag up there.
+|121:01:26|CDR-EVA|I'll get it for you.
+|121:01:28|LMP-EVA|Can you get the core stem bag?
+|121:01:29|CDR-EVA|Yes, I'll get it for you.
+|121:02:08|LMP-EVA|Okay, you got a core stem bag?
+|121:02:11|CDR-EVA|Yes, let me give it one zap with the brush.
+|121:02:14|LMP-EVA|Okay. I didn't mean to drop that, but I did.
+|121:02:23|CDR-EVA|Yes, we got to - we got to keep from dropping everything. I'll tell you, the big lesson today - -
 ||||Tape 81A/47|Page 892
-|121:01:18|LMP-EVA|Dropped.
-|121:01:18|CDR-EVA|Dropped, I guess.
-|121:01:18|LMP-EVA|The big lesson is that it's going to get dropped if your hands get tired.
-|121:01:18|CDR-EVA|Yes.
-|121:01:18|LMP-EVA|... come down. Got it.
-|121:01:18|CDR-EVA|Okay. Me see. Okay, the TGE is reading. We got to stow our antennas and ... dusting down here. I'll make a check of what you've got up there. What have you got up there so far?
-|121:01:18|LMP-EVA|Just the SRC 2 and the core steins.
-|121:01:18|CDR-EVA|Okay, SRC 2 and the core stems. Okay- Where's EVA pallet?
-|121:01:18|LMP-EVA|It's on the MESA table.
-|121:01:18|CDR-EVA|Okay, that's good; that's ready. Where's ETB? That's ready to go up.
-|121:01:18|LMP-EVA|Yes.
-|121:01:18|CDR-EVA|Okay, core stem bag, SRC 2; SRC 1 is in the - SCB 1 is in SRC 1. ... It's there. Big bag is not required. Okay, any more room up there? If not, why don't -
-|121:01:18|LMP-EVA|No, I think - -
-|121:01:18|CDR-EVA|Why don't I dust you here.
-|121:01:18|LMP-EVA|Okay. This rock you laid it on here.
-|121:01:18|CDR-EVA|Watch your foot; you're caught in that thing.
-|121:01:18|LMP-EVA|Yes.
+|121:02:29|LMP-EVA|Dropped.
+|121:02:30|CDR-EVA|Dropped, I guess.
+|121:02:31|LMP-EVA|The big lesson is that it's going to get dropped if your hands get tired.
+|121:02:33|CDR-EVA|Yes.
+|121:02:35|LMP-EVA|... come down. Got it.
+|121:02:46|CDR-EVA|Okay. ... me see. Okay, the TGE is reading. We got to stow our antennas and ... dusting down here. I'll make a check of what you've got up there. What have you got up there so far?
+|121:03:06|LMP-EVA|Just the SRC 2 and the core stems.
+|121:03:10|CDR-EVA|Okay, SRC 2 and the core stems. Okay - Where's EVA pallet?
+|121:03:20|LMP-EVA|It's on the MESA table.
+|121:03:21|CDR-EVA|Okay, that's good; that's ready. Where's ETB? That's ready to go up.
+|121:03:25|LMP-EVA|Yes.
+|121:03:27|CDR-EVA|Okay, core stem bag, SRC 2; SRC 1 is in the - SCB 1 is in SRC 1. ... It's there. Big bag is not required. Okay, any more room up there? If not, why don't -
+|121:03:42|LMP-EVA|No, I think - -
+|121:03:44|CDR-EVA|Why don't I dust you here.
+|121:03:45|LMP-EVA|Okay. This rock you landed on here.
+|121:03:49|CDR-EVA|Watch your foot; you're caught in that thing.
+|121:03:50|LMP-EVA|Yes.
 ||||Tape 81A/48|Page 893
-|121:01:18|CDR-EVA|Pick up your right foot. Jack, you're just going to have to get up on that ladder somewhere so I don't - don't get the dust all over this thing.
-|121:01:18|LMP-EVA|Well, I've got to dust you, too.
-|121:01:18|CDR-EVA|Well, okay. Go ahead and get me.
-|121:01:18|LMP-EVA|Yes, where's your brush?
-|121:01:18|CDR-EVA|Right on the hook.
-|121:04:18|LMP-EVA|Right; see what I can do. Kick most of it off, I hope.
-|121:04:18|CDR-EVA|You have to go anywhere else, now?
-|121:04:18|LMP-EVA|Just right around here; no place but right around here. Man! That's a - that's like a super-endless task.
-|121:04:18|CDR-EVA|Get the top of that thing if you can.
-|121:04:18|LMP-EVA|Oop - oop. It landed on a slope.
-|121:04:18|CDR-EVA|Yes.
-|121:04:18|LMP-EVA|Okay. That's good.
-|121:04:18|CDR-EVA|About the arms?
-|121:04:18|LMP-EVA|Yes, hold them up and shake them, too, in case there's anything down in them?
-|121:04:18|CDR-EVA|Let me just - Yes.
-|121:04:18|LMP-EVA|Let me get lower so you can get at me. Okay, how's that? At best, it is going to be bad but we want to get as much off as we can.
-|121:04:18|CDR-EVA|How about this one?
-|121:04:18|LMP-EVA|Guess I can come around on the other side, if you want.
-|121:04:18|CDR-EVA|Yes, I can hold on better that way.
+|121:03:50|CDR-EVA|Pick up your right foot. Jack, you're just going to have to get up on that ladder somewhere so I don't - don't get the dust all over this thing.
+|121:03:58|LMP-EVA|Well, I've got to dust you, too.
+|121:04:03|CDR-EVA|Well, okay. Go ahead and get me.
+|121:04:06|LMP-EVA|Yes, where's your brush?
+|121:04:07|CDR-EVA|Right on the hook.
+|121:04:10|LMP-EVA|Right; see what I can do. Kick most of it off, I hope.
+|121:04:13|CDR-EVA|You have to go anywhere else, now?
+|121:04:15|LMP-EVA|Just right around here; no place but right around here. Man! That's a - that's like a super-endless task.
+|121:04:35|CDR-EVA|Get the top of that thing if you can.
+|121:04:40|LMP-EVA|Oop - oop. It landed on a slope.
+|121:04:44|CDR-EVA|Yes.
+|121:04:48|LMP-EVA|Okay. That's good.
+|121:04:51|CDR-EVA|... about the arms?
+|121:04:53|LMP-EVA|Yes, hold them up and shake them, too, in case there's anything down in them?
+|121:04:56|CDR-EVA|Let me just - Yes.
+|121:05:02|LMP-EVA|Let me get lower so you can get at me. Okay, how's that? At best, it is going to be bad but we want to get as much off as we can.
+|121:05:22|CDR-EVA|How about this one?
+|121:05:25|LMP-EVA|Guess I can come around on the other side, if you want.
+|121:05:27|CDR-EVA|Yes, I can hold on better that way.
 ||||Tape 81A/49|Page 894
-|121:04:18|LMP-EVA|Just take some of it off.
-|121:04:18|CDR-EVA|Yes.
-|121:04:18|LMP-EVA|Hold still.
-|121:04:18|CDR-EVA|I'll get up on that ladder and you get a whack at my legs, best you can. And I'll kick my boots clean.
-|121:04:18|LMP-EVA|That fender is really going to be a nuisance.
-|121:04:18|CDR-EVA|Mean going?
-|121:04:18|LMP-EVA|I'm going to have to get you to bend over, too, so I - not now. Know there's a lot on the OPS.
-|121:06:45|CDR-EVA|I just will stow - my antenna while you're up there.
-|121:06:45|LMP-EVA|Oh, boy! That's really putting the finishing touches on the old arms, isn't it?
-|121:06:45|CDR-EVA|Yes.
-|121:06:45|LMP-EVA|How'd you get so dirty?
-|121:06:45|CDR-EVA|Wait until I show you the picture I took of you.
-|121:06:45|LMP-EVA|Didn't. Okay, Gene. Most of what's left is up on your - get your antenna. Oh, you're going to go up there, first.
-|121:06:45|CDR-EVA|You want -
-|121:06:45|LMP-EVA|Okay.
-|121:06:45|CDR-EVA|I don' t know how you do that.
-|121:06:45|LMP-EVA|Just - just really spring. You got it. Beautiful.
-|121:07:47|CC|Okay, 17, do we copy - -
-|121:07:47|LMP-EVA|Okay.
+|121:05:53|LMP-EVA|Just take some of it off.
+|121:05:54|CDR-EVA|Yes.
+|121:05:55|LMP-EVA|Hold still.
+|121:05:57|CDR-EVA|I'll get up on that ladder and you get a whack at my legs, best you can. And I'll kick my boots clean.
+|121:06:11|LMP-EVA|That fender is really going to be a nuisance.
+|121:06:17|CDR-EVA|... gone.
+|121:06:25|LMP-EVA|I'm going to have to get you to bend over, too, so I - not now. Know there's a lot on the OPS.
+|121:06:36|CDR-EVA|I just will stow my antenna, if you're up there. ...
+|121:06:45|LMP-EVA|Oh, boy. That's really putting the finishing touches on the old arms, isn't it?
+|121:06:49|CDR-EVA|Yes.
+|121:07:03|LMP-EVA|How'd you get so dirty?
+|121:07:04|CDR-EVA|Wait until I show you the picture I took of you.
+|121:07:12|LMP-EVA|Didn't. Okay, Gene. Most of what's left is up on your - get your antenna. Oh, you're going to go up there, first.
+|121:07:25|CDR-EVA|You want -
+|121:07:27|LMP-EVA|Okay.
+|121:07:28|CDR-EVA|I don't know how you do that.
+|121:07:29|LMP-EVA|Just - just really spring. You got it. Beautiful.
+|121:07:37|CC|Okay, 17, do we copy - -
+|121:07:37|LMP-EVA|Okay.
 ||||Tape 81A/50|Page 895
-|121:07:47|CDR-EVA|Better get my legs, then I'll ...
-|121:07:47|CC|- - both antennas up?
-|121:07:47|CDR-EVA|No. No, sir, Bob. I'm still getting dusted. We're trying to go over this thing pretty thoroughly.
-|121:07:47|CC|Okay.
-|121:07:47|CDR-EVA|Pocket is fairly full of dirt.
-|121:07:47|LMP-EVA|That brush does pretty good, though.
-|121:07:47|CDR-EVA|Want me to move, or anything now?
-|121:07:47|LMP-EVA|No.
-|121:07:47|CDR-EVA|Okay. I'm just a mess. Course, when I do this, I get dirtier.
-|121:07:47|LMP-EVA|Yes.
-|121:08:34|CDR-EVA|Once I get you this far, I'm just going to shove you on up that ladder and not let you get in the dust. Whoo! BEGIN LUNAR REV 21
-||||Tape 81B-85B/1|Page 896
-|121:08:34||BEGIN LUNAR REV 22
-|121:08:34||REST PERIOD - NO COMMUNICATIONS
+|121:07:38|CDR-EVA|Better get my legs, then I'll ...
+|121:07:39|CC|- - both antennas up?
+|121:07:43|CDR-EVA|No. No, sir, Bob. I'm still getting dusted. We're trying to go over this thing pretty thoroughly.
+|121:07:48|CC|Okay.
+|121:08:04|CDR-EVA|Pocket is probably full of dirt.
+|121:08:06|LMP-EVA|That brush does pretty good, though.
+|121:08:11|CDR-EVA|Want me to move, or anything now?
+|121:08:13|LMP-EVA|No.
+|121:08:14|CDR-EVA|Okay. I'm just a mess. Course, when I do this, I get dirtier.
+|121:08:22|LMP-EVA|Yes.
+|121:08:24|CDR-EVA|Once I get you this far, I'm just going to shove you on up that ladder and not let you get in the dust. Whoo! 
 ||||Tape 82A/1|Page 897
-|121:08:34|LMP-EVA|No. You're not okay. You're awful dusty, but I don't know that I can - -
-|121:08:34|CDR-EVA|Okay.
-|121:08:34|LMP-EVA|Ñ do too much more.
-|121:08:34|CDR-EVA|That looks pretty good. I'll walk -
-|121:08:34|LMP-EVA|Hit your boots real hard when you come up.
-|121:08:34|CDR-EVA|Yes.
-|121:08:34|CDR-EVA|Okay. I've just got to stay on my feet here for a while.
-|121:08:34|LMP-EVA|Want me to -
-|121:08:34|CDR-EVA|Stand in - stand in the pan* Yes, Stay there and I'll get your back and your PLSS while I'm at it - to start with. Stoop down, if you can. Stand on the bottom of the p - there you go.
-|121:08:34|LMP-EVA|How's the old ALSEP, Bob?
-|121:08:34|CC|It's looking great, guys.
-|121:08:34|CDR-EVA|Don't forget, Jack; you'll have to stow my antenna yet.
-|121:08:34|LMP-EVA|Right.
-|121:08:34|LMP-EVA|Okay, while I'm up here let me get the top of your OPS and I'll stow your antenna at the same time.
-|121:08:34|CDR-LM|Okay.
-|121:08:34|LMP-EVA|. I - You're going to have to get further down. I can't reach you.
+|121:08:57|CDR-EVA|Okay?
+|121:08:58|LMP-EVA|No. You're not okay. You're awful dusty, but I don't know that I can - -
+|121:09:05|CDR-EVA|Okay.
+|121:09:05|LMP-EVA|- - do too much more.
+|121:09:06|CDR-EVA|That looks pretty good. I'll walk -
+|121:09:07|LMP-EVA|Hit your boots real hard when you come up.
+|121:09:09|CDR-EVA|Yes.
+|121:09:11|CDR-EVA|Okay. I've just got to stay on my feet here for a while.
+|121:09:17|LMP-EVA|Want me to -
+|121:09:19|CDR-EVA|Stand in - stand in the pad; yes. Stay there and I'll get your back and your PLSS while I'm at it - to start with. Stoop down, if you can. Stand on the bottom of the pad - there you go.
+|121:09:35|LMP-EVA|How's the old ALSEP, Bob?
+|121:09:39|CC|It's looking great, guys.
+|121:09:48|CDR-EVA|Don't forget, Jack; you'll have to stow my antenna yet.
+|121:09:52|LMP-EVA|Right.
+|121:09:54|LMP-EVA|Okay, while I'm up here, let me get the top of your OPS and I'll stow your antenna at the same time.
+|121:10:00|CDR-LM|Okay.
+|121:10:00|LMP-EVA|I - You're going to have to get further down. I can't reach it.
 ||||Tape 82A/2|Page 898
-|121:08:34|CDR-EVA|That's good. I feel like I'm praying. I guess I am.
-|121:08:34|LMP-EVA|Now, maybe I can get some dust off you, if you stay there. The antenna will be stowed in half of a jiff.
-|121:10:40|LMP-EVA|Oh, my fingers. They do not have the dexterity that they once had.
-|121:10:40|CDR-EVA|Okay.
-|121:10:40|LMP-EVA|Make sure you don't have anything hanging on you. Wait a minute.
-|121:10:40|LMP-EVA|Okay. You can stand up. I'll work on your arms.
-|121:10:40|LMP-EVA|I'll come around that side and get the other one. No, maybe I won't either. Maybe I'll get it -hold onto the ladder some. It'll give me stability, too. Okay, I'll get the backside of your arm from the other side. Let me get around -around your waist here now.
-|121:10:40|LMP-EVA|Getting there - kilter. Ah.
-|121:10:40|LMP-EVA|Here, let me try your left arm.
-|121:10:40|LMP-EVA|Okay.
-|121:10:40|CDR-EVA|Okay?
-|121:10:40|CDR-EVA|Why don't you go - up the steps.
-|121:10:40|CDR-EVA|Okay. You1 re there.
-|121:10:40|CDR-EVA|Oh, boy. Hallelujah. Yes, do that. That gets a lot off, Jack. Keep doing that. Keep doing that. Boy, that gets it off your shoes.
-|121:10:40|LMP-EVA|Okay. Okay. Put this foot out here.
-|121:10:40|CDR-EVA|We're still at it, Bob.
-|121:10:40|CC|Yes. It seemed to go a lot faster down there in the clean room at the Cape.
+|121:10:04|CDR-EVA|That's good. I feel like I'm praying. I guess I am.
+|121:10:12|LMP-EVA|Now, maybe I can get some dust off you, if you stay there. The antenna will be stowed in half of a jiff.
+|121:10:31|LMP-EVA|Oh, my fingers. They do not have the dexterity that they once had.
+|121:10:53|CDR-EVA|Okay.
+|121:10:59|LMP-EVA|Make sure you don't have anything hanging on you. Wait a minute.
+|121:11:07|LMP-EVA|Okay. You can stand up. I'll work on your arms.
+|121:11:41|LMP-EVA|I'll come around that side and get the other one. No, maybe I won't either. Maybe I'll get it - hold onto the ladder some. It'll give me stability, too. Okay, I'll get the backside of your arm from the other side. Let me get to around your waist here now.
+|121:12:14|LMP-EVA|Getting there - kilter. Ah.
+|121:12:28|LMP-EVA|Here, let me try your left arm.
+|121:12:47|LMP-EVA|Okay.
+|121:12:48|CDR-EVA|Okay?
+|121:12:55|CDR-EVA|Why don't you go - up the steps.
+|121:12:57|CDR-EVA|Okay. You're there.
+|121:13:06|CDR-EVA|Oh, boy. Hallelujah. Yes, do that. That gets a lot off, Jack. Keep doing that. Keep doing that. Boy, that gets it off your shoes.
+|121:13:22|LMP-EVA|Okay. Okay. Put this foot out here.
+|121:13:36|CDR-EVA|We're still at it, Bob.
+|121:13:41|CC|Yes. It seemed to go a lot faster down there in the clean room at the Cape.
 ||||Tape 82A/3|Page 899
-|121:10:40|CDR-EVA|Boy, you bet you. And I know why we didn't do it. It was just as tough down there as it is here.
-|121:10:40|LMP-EVA|Okay?
-|121:10:40|CDR-EVA|No, not yet. I want to get - the other leg. And then I want you to lean over and get my antenna.
-|121:10:40|LMP-EVA|Roger. Right. I need to brush off the top, too. I'll stow your antenna first.
-|121:10:40|CDR-EVA|Okay, babe. That's about all I can do for you. Okay, get my antenna. Oh, I think all the dust I took off you went on me.
-|121:10:40|CDR-EVA|Can you reach it from there?
-|121:10:40|LMP-EVA|Well, yes; I think I can. Oh, whew.
-|121:15:13|LMP-EVA|I have 7 hours from the time I looked at my watch. That's got to be pretty close.
-|121:15:19|CC|You guys have got 6 hours and 53 minutes and 40 seconds.
-|121:15:19|LMP-EVA|Okay, Gene, you're stowed. Let me -
-|121:15:19|LMP-EVA|Okay. Let me see your brush.
-|121:15:19|CDR-EVA|Okay. Here it is.
-|121:15:19|LMP-EVA|Okay. That's the best I can do.
-|121:15:19|CDR-EVA|Okay. Let me get the top of this pocket.
-|121:15:19|CDR-EVA|Okay. Go on up; stay clean.
-|121:15:19|LMP-EVA|Well - you've got - let's see -
-|121:15:19|CDR-EVA|.1 hand you something.
-|121:15:19|LMP-EVA|You've got to bring stuff up I guess, huh?
-|121:15:19|CDR-EVA|Yes.
-|121:15:19|LMP-EVA|Okay, Bo - I need the EVA pallet.
+|121:13:48|CDR-EVA|Boy, you bet you. And I know why we didn't do it. It was just as tough down there as it is here.
+|121:13:40|LMP-EVA|Okay?
+|121:13:57|CDR-EVA|No, not yet. I want to get - the other leg. And then I want you to lean over and get my antenna.
+|121:14:13|LMP-EVA|Roger. Right. I need to brush off the top, too. I'll stow your antenna first.
+|121:14:21|CDR-EVA|Okay, babe. That's about all I can do for you. Okay, get my antenna. Oh, I think all the dust I took off you went on me.
+|121:14:35|CDR-EVA|Can you reach it from there?
+|121:14:42|LMP-EVA|Well, yes; I think I can. There. Oh, whew.
+|121:15:03|LMP-EVA|I have 7 hours from the time I looked at my watch. That's got to be pretty close.
+|121:15:09|CC|You guys have got 6 hours and 53 minutes and 40 seconds.
+|121:15:12|LMP-EVA|Okay, Gene, you're stowed. Let me -
+|121:15:16|LMP-EVA|Okay. Let me see your brush.
+|121:15:17|CDR-EVA|Okay. Here it is.
+|121:15:29|LMP-EVA|Okay. That's the best I can do.
+|121:15:30|CDR-EVA|Okay. Let me get the top of this pocket.
+|121:15:35|CDR-EVA|Okay. Go on up; stay clean.
+|121:15:38|LMP-EVA|Well - you've got - let's see -
+|121:15:43|CDR-EVA|I'll hand you something.
+|121:15:44|LMP-EVA|You've got to bring stuff up I guess, huh?
+|121:15:45|CDR-EVA|Yes.
+|121:15:47|LMP-EVA|Okay, Bob - I need the EVA pallet.
 ||||Tape 82A/4|Page 900
-|121:15:19|CDR-EVA|Okay, I've give you that and then I'll get to work. I've got some work I've got to do for Bob. Ah. Okay, everything on the EVA pallet?
-|121:15:19|LMP-EVA|Yes. Just hand it to me and I'll start unstowing it up there.
-|121:15:19|CDR-EVA|Okay. Man, I forgot I had my visor up. Zowie! See if I can get back in the shade.
-|121:15:19|CDR-EVA|Got it?
-|121:15:19|LMP-EVA|Yes.
-|121:16:37|CDR-EVA|Okay, Bob. I'll try giving you one at a time. LMP's got the EVA pallet. Let me give you a MESA reading, then I'll tidy - or - reading, and I'll tidy the blanket.
-|121:16:37|CC|Okay.
-|121:16:55|CDR-EVA|Okay. The reading is 000, 133, 201, and I can only assume that one of us hit it. I think I've got time to give you another one.
-|121:16:55|CC|Okay. Quickly.
-|121:16:55|CDR-EVA|Well, that's the way it'll be, because it's already punched.
-|121:17:16|CDR-EVA|MARK it.
-|121:17:16|CC|Copy that.
-|121:17:16|CDR-EVA|Okay, I'm tidying up the MESA blanket. I'm pretty tidy.
-|121:17:16|LMP-LM|I did that.
-|121:17:16|CDR-EVA|Okay, MESA blankets are tidied. Okay. Open TGE -I'll do that. Brush to ladder hook. Final transfer, Jack. I'm going to - Okay, I'll tell you what I'm going to do. You've got the - I'm going to - I'm going to inventory here. You got the pallet. ETB is here, and you got the corestem bag. SR - SCB-2 is there; SRC-1 is here; big bag is not required. Bob, I think we got everything. The two things on the surface yet are the ETB and the SRC and me.
+|121:15:49|CDR-EVA|Okay, I've give you that and then I'll get to work. I've got some work I've got to do for Bob. Ah. Okay, everything on the EVA pallet?
+|121:15:57|LMP-EVA|Yes. Just hand it to me and I'll start unstowing it up there.
+|121:16:00|CDR-EVA|Okay. Man, I forgot I had my visor up. Zowie! See if I can get back in the shade.
+|121:16:14|CDR-EVA|Got it?
+|121:15:15|LMP-EVA|Yes.
+|121:16:28|CDR-EVA|Okay, Bob. I'll try giving you one at a time. LMP's got the EVA pallet. Let me give you a MESA reading, then I'll tidy - or - reading, and I'll tidy the blankets.
+|121:16:41|CC|Okay.
+|121:16:45|CDR-EVA|Okay. The reading is 000, 133, 201, and I can only assume that one of us hit it. I think I've got time to give you another one.
+|121:16:59|CC|Okay. Quickly.
+|121:17:04|CDR-EVA|Well, that's the way it'll be, because it's already punched.
+|121:17:07|CDR-EVA|MARK it.
+|121:17:08|CC|Copy that.
+|121:17:13|CDR-EVA|Okay, I'm tidying up the MESA blanket. That's pretty tidy.
+|121:17:18|LMP-LM|I did that.
+|121:17:19|CDR-EVA|Okay, MESA blankets are tidied. Okay. Open TGE - I'll do that. Brush to ladder hook. Final transfer, Jack. I'm going to - Okay, I'll tell you what I'm going to do. You've got the - I'm going to - I'm going to inventory here. You got the pallet. ETB is here, and you got the corestem bag. SR - SCB-2 is there; SRC-1 is here; big bag is not required. Bob, I think we got everything. The two things on the surface yet are the ETB and the SRC and me.
 ||||Tape 82A/5|Page 901
-|121:17:16|CC|Okay, we copy that. But, of course - -
-|121:17:16|CDR-EVA|Jack, get down a little bit more, and you've got another 2 or 3 inches.
-|121:17:16|LMP-LM|I can't get any lower, Willie, [sic]. Me buttons are in the way.
-|121:17:16|CDR-EVA|Okay. Keep going. Get your pockets over the sill - There you go. There you are - you're in. Kick off your feet if you can - kick them right there. That's good. That got a lot off. Okay, go on in. You're over to the right - Okay, there you are. You've got all the room you want now.
-|121:17:16|LMP-LM|That's not as easy as in the J-bird.
-|121:17:16|CDR-EVA|Okay. I think I'll give this rockbox a quick dust in here.
-|121:17:16|LMP-LM|Your hoses - we've got to have a better way to store your hoses.
-|121:17:16|CDR-EVA|Yes, I don't like them there either. I saw that when we went out.
-|121:17:16|LMP-LM|(Heavy breathing) Whew, boy.
-|121:17:16|CDR-EVA|You in?
-|121:17:16|LMP-LM|Yes.
-|121:17:16|CDR-EVA|Sounds like it.
-|121:17:16|LMP-LM|Oh, come on get up there.
-|121:19:31|CDR-EVA|Okay, Jack, coming up with the rockbox.
-|121:19:31|LMP-LM|I'm not ready.
-|121:19:31|CDR-EVA|Well, I've got to - I've got to -
-|121:19:31|LMP-LM|You ... put it on the porch?
+|121:18:04|CC|Okay, we copy that. But, of course - -
+|121:18:05|CDR-EVA|Jack, get down a little bit more, and you've got another 2 or 3 inches.
+|121:18:13|LMP-LM|I can't get any lower, Willie, me buttons are in the way.
+|121:18:15|CDR-EVA|Okay. Keep going. Get your pockets over the sill - There you go. There you are - you're in. Kick off your feet if you can - kick them right there. That's good. That got a lot off. Okay, go on in. You're over to the right - Okay, there you are. You've got all the room you want now.
+|121:18:37|LMP-LM|That's not as easy as in the J-bird.
+|121:18:39|CDR-EVA|Okay. I think I'll give this rockbox a quick dust in here.
+|121:18:50|LMP-LM|Your hoses - we've got to have a better way to store your hoses.
+|121:18:53|CDR-EVA|Yes, I don't like them there either. I saw that when we went out.
+|121:19:03|LMP-LM|(Heavy breathing) Whew, boy.
+|121:19:09|CDR-EVA|You in?
+|121:19:10|LMP-LM|Yes.
+|121:19:13|CDR-EVA|Sounds like it.
+|121:19:19|LMP-LM|Oh, come on get up there.
+|121:19:21|CDR-EVA|Okay, Jack, coming up with the rockbox.
+|121:19:24|LMP-LM|I'm not ready.
+|121:19:26|CDR-EVA|Well, I've got to - I've got to -
+|121:19:29|LMP-LM|You ... put it on the porch?
 ||||Tape 82A/6|Page 902
 |121:19:31|CDR-EVA|Well, I only got one more thing to do and that's taking out there - just clean up the TGE. Okay. I've got to come up there anyway.
-|121:19:31|CDR-EVA|God speed the crew of Apollo 17.
-|121:19:31|LMP-LM|Who signed it? I forgot to read it.
-|121:19:31|CDR-EVA|I'm not going to tell you, but I like the message. Probably shouldn't tell you.
-|121:19:31|CDR-LM|Okay, that ought to stay up there.
-|121:19:31|CDR-EVA|Okay, I can!t hand you anything in anyway. I'm going down and clean up the TGE.
-|121:19:31|CC|Roger. It should be ready to read by now.
-|121:19:31|CDR-EVA|Oh! That last step down again. Okay? Bob, before - well, let me get this for you.
-|121:21:11|CDR-EVA|Okay, Bob, 670, 021, 501 - 670, 021, 501.
+|121:19:58|CDR-EVA|God speed the crew of Apollo 17.
+|121:20:03|LMP-LM|Who signed it? I forgot to read it.
+|121:20:07|CDR-EVA|I'm not going to tell you, but I like the message. Probably shouldn't tell you.
+|121:20:23|CDR-LM|Okay, that ought to stay up there.
+|121:20:30|CDR-EVA|Okay, I can!t hand you anything in anyway. I'm going down and clean up the TGE.
+|121:20:36|CC|Roger. It should be ready to read by now.
+|121:20:37|CDR-EVA|Oh! That last step down again. Okay? Bob, before - well, let me get this for you.
+|121:21:02|CDR-EVA|Okay, Bob, 670, 021, 501 - 670, 021, 501.
 |121:21:11|CC|Okay. Got that, Gene.
-|121:21:11|CDR-EVA|And the cover is up. Cover is up, if I can keep it up. If I can keep it up. That'll keep it up. It's been dusted. And I'll get it to STANDBY.
-|121:21:11|CC|Okay. Copy that. And did you dust the radiator?
-|121:21:11|CDR-EVA|Yes sir, I dusted that a little earlier. Okay, it is STANDBY, Bob. Radiator is up.
-|121:21:11|CC|And dusted.
-|121:22:03|CDR-EVA|Cover is open. Okay. I'm going up to the porch. All I've got down here is ETB, and it's on the LEC.
+|121:21:12|CDR-EVA|And the cover is up. Cover is up, if I can keep it up. If I can keep it up. That'll keep it up. It's been dusted. And I'll get it to STANDBY.
+|121:21:38|CC|Okay. Copy that. And did you dust the radiator?
+|121:21:43|CDR-EVA|Yes sir, I dusted that a little earlier. Okay, it is STANDBY, Bob. Radiator is up.
+|121:21:50|CC|And dusted.
+|121:21:53|CDR-EVA|Cover is open. Okay. I'm going up to the porch. All I've got down here is ETB, and it's on the LEC.
 |121:22:03|LMP-LM|I'm ready for you.
-|121:22:03|CDR-EVA|Have you got anything else?
-|121:22:03|CC|Negative.
+|121:22:04|CDR-EVA|Have you got anything else?
+|121:22:06|CC|Negative.
 ||||Tape 82A/7|Page 903
-|121:22:03|LMP-LM|I'm ready for you up here.
-|121:22:03|CDR-EVA|Let's see what kind of dusting job I can do on myself.
-|121:22:49|CDR-EVA|Okay, Jack, coming up. Whee!
-|121:22:49|LMP-LM|Okay.
-|121:22:49|CDR-LM|Okay.
-|121:22:49|LMP-LM|A little higher. ...
-|121:22:49|CDR-LM|I got it.
-|121:22:49|LMP-LM|Watch the seal.
-|121:22:49|CDR-LM|Okay. Okay, here's an SRC; okay?
-|121:22:49|LMP-LM|Put her in here.
-|121:22:49|CDR-LM|Oh, me. Well, I'll get it up for you.
-|121:22:49|LMP-LM|No. That's all right.
-|121:22:49|CDR-LM|Ah. I think you got the ticket right there. Ah.
-|121:22:49|LMP-LM|I'll watch that.
-|121:22:49|CDR-LM|No sense making it hard. See if I can't stand this one up. Okay. Okay. There come the core tubes. Boy let's - protect that core tube. Man, that was - that was the turning point today.
-|121:22:49|CDR-EVA|Got it?
-|121:22:49|LMP-LM|Got it. Yes, we had a lot of turning points.
-|121:22:49|CDR-EVA|Do you want the LEC in there? You don't, do you?
-|121:22:49|CC|Negative, you can leave the LEC outside.
-|121:22:49|LMP-LM|No, just the bag.
-|121:22:49|CDR-EVA|Where are the scissors, by the way?
+|121:22:07|LMP-LM|I'm ready for you up here.
+|121:22:11|CDR-EVA|Let's see what kind of dusting job I can do on myself.
+|121:22:39|CDR-EVA|Okay, Jack, come up.
+|121:22:40|LMP-LM|Okay.
+|121:22:46|CDR-LM|Whee! Okay.
+|121:23:01|LMP-LM|A little higher. ...
+|121:23:06|CDR-LM|I got it.
+|121:23:07|LMP-LM|Watch the seal.
+|121:23:09|CDR-LM|Okay. Okay, here's an SRC.
+|121:23:17|LMP-LM|Okay, put her in here.
+|121:23:21|CDR-LM|Oh, me. Well, I'll get it up for you.
+|121:23:23|LMP-LM|No. That's all right.
+|121:23:26|PAO|Handing the rockbox into the LM.
+|121:23:27|CDR-LM|Ah. I think you got the ticket right there. Ah.
+|121:23:32|LMP-LM|I'll watch that.
+|121:23:34|CDR-LM|No sense making it hard. See if I can't stand this one up. Okay. Okay. There come the core tubes. Boy let's - protect that core tube. Man, that was - that was the turning point today.
+|121:24:13|CDR-EVA|Got it?
+|121:24:13|LMP-LM|Got it. Yes, we had a lot of turning points.
+|121:24:20|CDR-EVA|Do you want the LEC in there? You don't, do you?
+|121:24:24|CC|Negative, you can leave the LEC outside.
+|121:24:29|LMP-LM|No, just the bag.
+|121:24:31|CDR-EVA|Where are the scissors, by the way?
 ||||Tape 82A/8|Page 904
-|121:22:49|LMP-LM|They're in the bag.
-|121:22:49|CDR-EVA|Okay. I hope they don't come out this time.
-|121:22:49|LMP-LM|Well, I stuck them down in there. I hope they don't.
-|121:22:49|CC|Yes, Jack - -
-|121:22:49|LMP-LM|We'll have to figure out something else if they do.
-|121:22:49|CC|- - You guys put the tools in the ETB?
-|121:22:49|LMP-LM|I think so, Bob. I'll take a peek down there. If they fell out, they'll be right on top. Okay.
-|121:22:49|CDR-EVA|Mama me.
-|121:22:49|CC|Okay, Gene. And you got the SCB number 2 in and the pallet out, right?
-|121:22:49|CDR-EVA|Right. Here it comes, Jack. Take that. There are no scissors on the ground beneath where the ETB was. So I would say that they're probably in the ETB.
-|121:22:49|CC|Well, good enough.
-|121:22:49|LMP-LM|Okay. You got everything, now?
-|121:22:49|CDR-EVA|Yes sir.
-|121:22:49|LMP-LM|Okay, let me get out of the way.
-|121:26:38|CDR-EVA|Okay. Whoops, that's me dusting. Well, I guess I got about - 25, 20, 15 - I guess 13 percent oxygen, 3.8. Okay, babe.
-|121:26:38|CC|I copy that. Fifty percent oxygen, Geno - that's
-|121:26:38|LMP-LM|Come on in.
-|121:26:38|CDR-LM|... Comes through that hole. No; 13 - 13 percent, I think.
-|121:26:38|CC|One, five [sic].
+|121:24:32|LMP-LM|They're in the bag.
+|121:24:33|CDR-EVA|Okay. I hope they don't come out this time.
+|121:24:34|LMP-LM|Well, I stuck them down in there. I hope they don't.
+|121:24:38|CC|Yes, Jack - -
+|121:24:38|LMP-LM|We'll have to figure out something else if they do.
+|121:24:39|CC|- - You guys put the tools in the ETB?
+|121:24:44|LMP-LM|I think so, Bob. I'll take a peek down there. If they fell out, they'll be right on top. Okay.
+|121:24:56|CDR-EVA|Mama me.
+|121:25:01|CC|Okay, Gene. And you got the SCB number 2 in and the pallet out, right?
+|121:25:09|CDR-EVA|Right. Here it comes, Jack. Take that. There are no scissors on the ground beneath where the ETB was. So I would say that they're probably in the ETB.
+|121:25:47|CC|Well, good enough.
+|121:25:48|LMP-LM|Okay. You got everything, now?
+|121:25:49|CDR-EVA|Yes sir.
+|121:25:52|LMP-LM|Okay, let me get out of the way.
+|121:26:15|CDR-EVA|Okay. Whoops, that's me dusting. Well, I guess I got about - 25, 20, 15 - I guess 13 percent oxygen, 3.8. Okay, babe.
+|121:26:40|CC|I copy that. Fifty percent oxygen, Geno - that's
+|121:26:41|LMP-LM|Come on in.
+|121:26:42|CDR-LM|... comes through that hole. No; 13 - 13 percent, I think.
+|121:26:49|CC|One, five [sic].
 ||||Tape 82A/9|Page 905
-|121:26:38|LMP-LM|Okay. Put your but - put your buttons down. You're great. Now your head up. You're right against the top, right against the ... 27. Come towards me. Okay, now up.
-|121:26:38|CDR-LM|Okay.
-|121:26:38|LMP-LM|Tight fit.
-|121:26:38|CDR-LM|What am I caught on back there?
-|121:26:38|LMP-LM|You're just getting - you're just scraping against your PLSS.
-|121:26:38|CDR-LM|Okay. I'll just bend.
-|121:26:38|LMP-LM|Watch your - - your - your pockets. Your leg pockets might be part of the problem.
-|121:26:38|CDR-LM|Okay.
-|121:26:38|LMP-LM|Okay. Come on in. Just hug as close as you can. Okay, you're there.
-|121:26:38|LMP-LM|Okay?
-|121:28:09|CDR-LM|Yes, let me just get on my feet here. Oh - all -Wait a minute. Got to turn one way or the other. Does this look better?
-|121:28:09|LMP-LM|Yes. I'd turn towards your right.
-|121:28:09|CDR-LM|Well, can't do that.
-|121:28:09|LMP-LM|Try the other way. Get your PLSS back in there towards the circuit breakers. Move your right -your left arm.
-|121:28:09|CDR-LM|(Laught er) Where ? Okay.
-|121:28:09|LMP-LM|There.
-|121:28:09|CDR-LM|Okay. Let me make sure there's nothing in that hatch.
-|121:28:09|LMP-LM|Well, there's dust. That's one thing that's in there.
+|121:27:02|LMP-LM|Okay. Put your but - put your buttons down. You're great. Now your head up. You're right against the top, right against the ... 27. Come towards me. Okay, now up.
+|121:27:23|CDR-LM|Okay.
+|121:27:25|LMP-LM|Tight fit.
+|121:27:26|CDR-LM|What am I caught on back there?
+|121:27:28|LMP-LM|You're just getting - you're just scraping against your PLSS.
+|121:27:31|CDR-LM|Okay. I'll just bend.
+|121:27:32|LMP-LM|Watch your - - your - your pockets. Your leg pockets might be part of the problem.
+|121:27:36|CDR-LM|Okay.
+|121:27:38|LMP-LM|Okay, come on in. Just hug as close as you can. Okay, you're there.
+|121:27:58|LMP-LM|Okay?
+|121:27:59|CDR-LM|Yes, let me just get on my feet here. Oh - oh - Wait a minute. Got to turn one way or the other. Does this look better?
+|121:28:12|LMP-LM|Yes. I'd turn towards your right.
+|121:28:15|PAO|We marked Cernan in at 124 hours 8 minutes. Schmitt in at 123 hours 59 minutes.
+|121:28:15|CDR-LM|Well, can't do that.
+|121:28:20|LMP-LM|Try the other way. Get your PLSS back in there towards the circuit breakers. Move your right - your left arm.
+|121:28:26|CDR-LM|(Laughter) Where? Okay.
+|121:28:31|LMP-LM|There.
+|121:28:33|CDR-LM|Okay. Let me make sure there's nothing in that hatch.
+|121:28:35|LMP-LM|Well, there's dust. That's one thing that's in there.
 ||||Tape 82A/10|Page 906
-|121:28:09|CDR-LM|Well - Take one quick peek.
-|121:28:09|LMP-LM|I can't - From where I stand, all I can see is dust.
-|121:28:09|CDR-LM|Okay, it's clear. Did it. Now what do we do next?
-|121:28:09|LMP-LM|Pockets - your pockets.
-|121:28:09|CDR-LM|Okay?
-|121:28:09|LMP-LM|Okay.
-|121:29:07|LMP-LM|Primary water, CLOSED. Forward hatch - Turn that WATER OFF.
-|121:29:07|CDR-LM|Do you have to turn the PRIMARIES or just the SECONDARY, Bob?
-|121:29:07|LMP-LM|Primary.
-|121:29:07|CC|Primary only. That's why you don't turn your PRIMARY WATER, OFF, when you go to AUT.
-|121:29:07|CDR-LM|Okay. I've got them both OFF. Is that all right?
-|121:29:07|CC|That's okay, too.
-|121:29:07|CDR-LM|Well, wait a minute. Got yours?
-|121:29:07|LMP-LM|No, I can't quite reach it.
-|121:29:07|CDR-LM|Well, if you can roll to the left, I'll get it for you.
-|121:29:07|LMP-LM|Yes, I can.
-|121:29:07|CDR-LM|Let me get - let me get back here. I've gotten bigger since I've been out there. You've got to go more. You've got to go more.
-|121:29:07|LMP-LM|Yes. There's something keeping me from going more.
-|121:29:07|CDR-LM|Okay. Okay, let me see if I can't -
+|121:28:37|CDR-LM|Well - Take one quick peek.
+|121:28:41|LMP-LM|I can't - From where I stand, all I can see is dust.
+|121:28:45|CDR-LM|Okay, it's clear. Did it. Now what do we do next?
+|121:28:49|LMP-LM|Pockets - your pockets.
+|121:28:55|CDR-LM|Okay.
+|121:28:55|LMP-LM|Okay.
+|121:28:58|LMP-LM|Primary water, CLOSED. Forward hatch - Turn our WATER OFF.
+|121:29:11|CDR-LM|Do you have to turn the PRIMARIES or just the SECONDARY, Bob?
+|121:29:13|LMP-LM|Primary.
+|121:29:14|CC|Primary only. That's why you don't turn your PRIMARY WATER, OFF, when you go to AUT.
+|121:29:25|CDR-LM|Okay. I've got them both OFF. Is that all right?
+|121:29:27|CC|That's okay, too.
+|121:29:31|CDR-LM|Well, wait a minute. Got yours?
+|121:29:34|LMP-LM|No, I can't quite reach it.
+|121:29:35|CDR-LM|Well, if you can roll to the left, I'll get it for you.
+|121:29:37|LMP-LM|Yes, I can.
+|121:29:38|CDR-LM|Let me get - let me get back here. I've gotten bigger since I've been out there. You've got to go more. You've got to go more.
+|121:29:55|LMP-LM|Yes. There's something keeping me from going more.
+|121:29:58|CDR-LM|Okay. Okay, let me see if I can't -
 ||||Tape 82A/11|Page 907
-|121:29:07|LMP-LM|... to be awfully far inboard for what I - fitted it.
-|121:30:23|CDR-LM|Okay. Your PRIMARY WATER is OFF.
-|121:30:23|LMP-LM|Okay. LMP's WATER is OFF.
-|121:30:23|CDR-LM|Now you're going to have to move way over there, so I can get the hatch.
-|121:30:23|LMP-LM|Yes, I have to go back the way I was.
-|121:30:23|CDR-LM|Back up against the circuit breakers.
+|121:30:09|LMP-LM|... to be awfully far inboard for what I - fitted it.
+|121:30:13|CDR-LM|Okay. Your PRIMARY WATER is OFF.
+|121:30:17|LMP-LM|Okay. LMP's WATER is OFF.
+|121:30:20|CDR-LM|Now you're going to have to move way over there, so I can get the hatch.
+|121:30:22|LMP-LM|Yes, I have to go back the way I was.
+|121:30:25|CDR-LM|Back up against the circuit breakers.
 |121:30:23|LMP-LM|Yes.
 |121:30:23|CDR-LM|Can you see what I'm catching on, upward?
 |121:30:23|LMP-LM|Yes. You're just hitting the rail over there.

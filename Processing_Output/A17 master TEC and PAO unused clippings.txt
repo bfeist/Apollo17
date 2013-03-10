@@ -1076,6 +1076,9 @@
 |120:53:24|CC|That's all right. You - you can call us, but we - -
 |120:53:36|CMP|... VOICE is going OFF. You can call me, but I can't call you. (Laughter)
 |120:53:36||BEGIN LUNAR REV 19
+||||Tape 81B-85B/1|Page 896
+|121:08:34||BEGIN LUNAR REV 22
+|121:08:34||REST PERIOD - NO COMMUNICATIONS
 ||||Tapes 101A-105A/1|Page 1390
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
