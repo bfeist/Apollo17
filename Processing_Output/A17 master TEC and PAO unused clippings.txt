@@ -1080,6 +1080,155 @@
 |121:08:34||BEGIN LUNAR REV 22
 |121:08:34||REST PERIOD - NO COMMUNICATIONS
 ||||Tapes 101A-105A/1|Page 1390
+|134:18:15|CC|Ron, Houston here. We're coming up on some TEI-38 pad, and some flight - and a solar corona pad, and some Flight Plan update any time you're ready?
+|134:18:15|CMP|Okay. Let's see. I think I've got the - ...
+|134:18:15|CMP|Okay. Let's see. I'll get my TEI book here. Okay. All set for TEI-38.
+|134:18:15|CC|Okay, Ron. TEI-38, SPS/G&N; 37580; plus 0.55, plus 0.97; 163:21:54.04; NOUN 8ls are plus 2668.0, minus 1238.0, minus 04l4.1; roll, l8l; pitch, 114; yaw, 338; rest of the pad is not applicable. Good ole Sirius and Rigel for our set stars-, 133, 200, 030. Ullage, four jets* 12 seconds - that's 12 seconds. Ten, the longitude of the Moon at the T. time is minus 153.71. Over.
+||||Tape 89B/3|Page 967
+|134:18:15|CMP|Okay. TEI-38 is SPS/G&N; 37580; plus 0.55, plus 0.97; T. is 163:21:54.04; NOUN 8ls,
+|134:18:15||plus 2668.0, minus 1238.0, minus 04l4.1; roll, 181; pitch, 114, 338; Sirius and Rigel; 133, 200, 030; four jet, 12 seconds; longitude at T. is a minus 153*71. ig
+|134:18:15|CC|Good readback, Ron.
+|134:18:15|CC|Okay. All the rest of our readup here is in the Flight Plan.
+|134:18:15|CMP|Okay. Just a second.
+|134:18:15|CMP|Okay. Go.
+|134:21:59|CC|Okay. At 137:33, the solar corona photo pad is T-start: 137=33:48. Over.
+|134:21:59|CMP|Okay. Solar corona pad, 137:33:48.
+|134:21:59|CC|Roger. The next one's over at 139:20.
+|134:21:59|CMP|Okay ¥ Go.
+|134:21:59|CC|Okay. The old one, delete "MAPPING CAMERA/LASER ALTIMETER COVER, OPEN." And at 139:21, delete "MAPPING CAMERA, EXTEND," since they're already there.
+|134:21:59|CMP|Okay. Got them.
+|134:22:54|CC|Okay, Ron. At 139:21, where it says, "UV COVER, OPEN," move that down to 139:23. Make the following note. "Delay opening 2 minutes to check operating current with cover closed." We'll be checking that and giving you a cue on that.
+|134:22:54|CMP|Oh, okay.
+||||Tape 89B/4|Page 968
+|134:22:54|CC|And there's nothing - no problems expected there, Ron, We're just getting some extra data that OSO wants.
+|134:22:54|CMP|Okay. Good deal.
+|134:23:35|CC|Okay. The next one is at l4l:50.
+|134:23:35|CMP|l4l -
+|134:23:35|CC|141:50.
+|134:23:35|CMP|l4l:50; okay.
+|134:23:35|CC|Okay. We got - -
+|134:23:35|CMP|Okay, I got It.
+|134:23:35|CC|We've got a little - seeing some funnies on the V/H OVERRIDE, so after PAN CAMERA, STANDBY, STEREO, and POWER, we want to add the following: V/H OVERRIDE, HIGH ALTITUDE - HIGH ALT.
+|134:23:35|CMP|Okay, V/H OVERRIDE to HIGH ALTITUDE.
+|134:23:35|CC|Okay, make - -
+|134:23:35|CMP|After you get the PAN CAMERA POWER, ON.
+|134:23:35|CC|Pardon me, Ron. I missed that.
+|134:23:35|CMP|That's right. That's - after you get the PAN CAMERA POWER, ON, V/H to HIGH ALTITUDE.
+|134:24:40|CC|Roger. Okay, Ron, the next two are just a couple of info notes for you. I don't know where you want to write this one, but FAO would like to remind you that you don't have any margin on mag Lima Lima anymore; you used up all your margin on that mag. Everything else is needed for planned operation.
+|134:24:40|CMP|Uh-huh! Okay.
+|134:25:10|CC|And, the last one just - -
+||||Tape 89B/5|Page 969
+|134:25:10|CMP|Discontinue spares on Lima Lima.
+|134:25:10|CC|Roger. Just use Lima Lima as scheduled, but don't -don't use any spare shots on it. And the last one is just a sum up here, Ron.
+|134:25:10|CMP|Okay.
+|134:25:10|CC|You obviously are aware of it, but you have not missed any mapping camera, pan- camera, or lunar sounder operations to date. And we're all on schedule and right on the Flight Plan - outstanding Flight Plan.
+|134:25:10|CMP|Yes. You bet it's an outstanding Flight Plan. That's great!
+|134:25:10|CC|Yes, Ron. I think you had a really outstanding Flight Plan to be flying at this time of the year, because the weather in Houston is so miserable that you can't believe it.
+|134:25:10|CMP|(Laughter) Oh, boy. That's what everybody keeps saying.
+|134:25:57|CC|Roger. I just drove in, and it's kind of a sleety rain. It feels like it might snow at any moment, although It's really not that cold. The ceiling is probably down about 6 - 700 feet. It is really rotten out there.
+|134:25:57|CMP|(Laughter) Yes, we did - we did pick a good time to make the flight then.
+|134:25:57|CC|That's affirmative. It's been this way since you left.
+|134:25:57|CMP|(Laughter)
+|134:25:57|CC|You guys - you realize, of course, that you're going to get --
+|134:25:57|CMP|Well, we want everybody to get ... - -
+|134:25:57|CC|- - blamed for that, because with two people on the Moon, that's what happens.
+||||Tape 89B/6|Page 970
+|134:25:57|CMP|(Laughter) Yes, right.
+|134:25:57|CC|Okay. You can get back to work then, if you want.
+|134:25:57|CMP|Okay.
+|134:26:54|CMP|See if I can get my solar - solar corona squared away here.
+|134:26:54|CC|Okay.
+|134:27:35|CMP|Okay. Solar corona is mag QQ, and we're on frame 69*
+|134:27:35|CC|Okay. Mag QQ, 69.
+|134:31:56|CMP|And, Houston; America. Let's see. You're going to send me over the hill in high bit rate this time for sure, are you? As usual (chuckle).
+|134:31:56|CC|Stand by on that, Ron. Let me check in the go on that.
+|134:31:56|CMP|Looks like it.
+|134:31:56|CC|That's affirmative, Ron. You'll be going over the hill in high bit rate.
+|134:36:14|CMP|And, Houston; America. Just so I won't get confused there, I put two protect frames at the start of this.
+|134:36:14|CC|Roger. That's affirm. We got that.
+|134:36:14|CMP|I just wanted to try out that - mode contrable [sic] -control cable with the PCM stuff, you know?
+|134:36:14|CC|Roger. Understand.
+|134:44:42|CC|Ron, we're coming up on 5 minutes to LOS and just want to update you. We went around the room, and the spacecraft is looking great. We just have one reminder and that's at the end of the solar corona period. Please use only one protect frame - one protect frame per the Flight Plan or per the checklist. And the other thing is - the lunar sounder -the little check you did at the beginning of this pass - the recorder is pulling film as normal. The glitch we saw was a telemetry grit - glitch and the lunar sounder is looking great.
+||||Tape 89B/7|Page 971
+|134:45:19|CMP|Hey, outstanding! That's good to hear. Sounds like we're getting kind of low on VHBW film though is what you're saying, huh?
+|134:45:19|CC|On that particular magazine; yes, Ron. That's the problem, I think. Looking at the total thing is more - is which magazine has got what on it.
+|134:45:19|CMP|Oh, okay.
+|134:45:52|CC|And we'll see you at 01:38:15 when you'll be just about eating. So give us a call if you want anything. We'll be listening.
+|134:45:52|CMP|Okay. I'll be on the loop. Oh - Hey, one thing. Can you check on mag - what do I have on the Nikon now, XX, I guess? It seems to me like - we just need that for another zodiacal light thing.
+|134:45:52|CC|Okay. We got FAO working on that.
+|134:45:52|CMP|... know is, in other words, are there two or three frames available? Do we have two or three frames available on that one?
+|134:45:52|CC|Okay. Let me check on it, Ron?
+|134:45:52|CMP|Okay.
+|134:46:44|CMP|I want to take a red and a blue picture of the landing site sometime.
+|134:46:44|CC|It's going to take a little bit of chasing on that, Ron. We may not have the word before you go LOS, but we'll have it definitely when you come up AOS.
+|134:46:44|CMP|Oh, okay. Yes, don't - No - no problem. I won't use it until we get to the landing site anyhow.
+|134:47:24|CC|Okay, Ron. There are 18 spares on X-ray X-ray that you could use.
+|134:47:31|CMP|Oh, okay . Good.
+||||Tape 90B/1|Page 980
+|135:36:33|CMP|Houston, America.
+|135:36:33|CC|Hello, America. How are you doing?
+|135:36:33|CMP|Well, I think I've got it back under control again.
+|135:36:33|CC|What happened - any problems?
+|135:36:33|CMP|Let's see. Let me go back to my - Well, I almost got into gimbal lock (laughter).
+|135:36:33|CC|Okay. You almost got into gimbal lock. Go ahead - -
+|135:36:33|CMP|Just at the last step of the - last step of the solar corona thing which says go back to CMC AUTO - which wouldn't have been too bad, except as soon as you get a waste water dump, it really torques it around, I guess. And, somewhere - you ought to be able to check it back on the tape -at about 137:50 - between 50 and probably - no, between 55 and 58, somewhere in there, I got the GIMBAL LOCK light and all those good deal things; and got her under control. Took her back. And we got back to SIM bay attitude at 137:59:20. In the meantime, while I was doing all that, looked like my waste water dropped down kind of low, too. How much are you reading down there?
+|135:38:25|CC|Okay. Stand by on that, Ron.
+|135:38:25|CC|We're reading 0.16 percent and 0.9 pound - 1.6 percent and 0.9 pounds, Ron.
+|135:38:25|CMP|I didn't quite make it to zero, did I?
+|135:38:25|CC|Ron, that's affirm.
+|135:38:25|CMP|Okay. Caught that in time, anyway.
+||||Tape 90B/2|Page 981
+|135:38:25|CC|Hey, Ron, just a question, here. Pick up where you were briefing us there. Did you go to CMC AUTO after the solar corona, or did you get the GIMBAL LOCK light prior to going to AUTO.
+|135:40:04|CMP|(Laughter) I got it prior to going to AUTO. I forgot to go to AUTO after the solar corona thing.
+|135:40:04|CC|Okay. We've got you.
+|135:40:04|CMP|The full cell purge and the waste water dump. Yes.
+|135:40:04|CMP|I saw it before it tumbled the platform, though.
+|135:40:04|CC|Roger. We've got you, and the platform looks good then, too?
+|135:40:04|CMP|Oh, yes. The platform's okay.
+|135:40:04|CMP|And if Enco's [?] timing his bit rate forces there, high bit rate was - I mean going to low bit rate is about 137=42 - was pretty - -
+|135:40:04|CC|Okay. We copy that.
+|135:40:04|CMP|... this thing. Okay. And then going to high bit rate, I've got the high bit at 137:50:30. And I hit LOW BIT RATE again at 138:08; went to HIGH BIT RATE at 138:14.
+|135:42:05|CC|Roger, Ron. We copy those times.
+|135:42:05|CC|Sounds like you might have got your heartbeat going good for your eat period. Is that right, Ron?
+|135:43:17|CMP|(Laughter) Yes, might have. I'm going to have some peanut butter now, if you guys don't care.
+|135:43:17|CC|Roger. It's your eat period.
+|135:43:17|CMP|(Laughter) Okay.
+|135:43:17|CC|At least he didn't forget this one. Ron, we've got some data here for you.
+||||Tape 90B/3|Page 982
+|135:43:17|CMP|Yes, that's right, by gosh. I've even got one scheduled. Go ahead.
+|135:43:17|CC|We've got some data here for you, for - if you're planning on taking those red and blue filtered exposures across the landing site - if you want this information.
+|135:43:17|CMP|Oh, yes. Okay; go ahead.
+|135:43:17|CC|Okay, Ron. Here is - here it is. It's a Nikan [sic] - NK - November Kilo 55; VH - VW; mag X-ray X-ray. Okay. With the red-blue filtered exposure you want it at F/ll, 1/125, one frame each filter; F/ll, 1/250; one frame each filter. With no filter, expose at F/ll, 1/1000. And if you want to use the polarizing filter, expose at F/ll, 1/500 of a second.
+|135:45:25|CMP|Okay. Looks like we'll bracket it, there: F/ll, 1/125, one frame on each filter; and F/ll at 1/250, one frame on each filter; and without a filter, one -F/ll at 1/1000; and polarizing F/ll at 1/500.
+|135:45:25|CC|Okay. Here's a note that I'm not sure I understand totally, but let me read it to you. "Observe targets through viewfinder and shoot as desired with polarizing filter in different positions. Mark exposure time with polarizing filter as data analysis requires the incidence angle."
+|135:45:25|CMP|Okay. So we need the GET time when we take the picture.
+|135:45:25|CC|That's - that's affirm - with the polarizer.
+|135:45:25|CMP|... Yes. Yes, with the polarizer. Right.
+|135:45:25|CC|And there's another note here. Do not exceed 18 frames total for the above pictures. 18 frames total.
+|135:45:25|CMP|Okay.
+|135:45:25|CC|And your TCA - TCA is - for the landing site - is 138:39:11.
+||||Tape 90B/4|Page 983
+|135:45:25|CMP|Okay. TCA is 138:39:11.
+|135:45:25|CC|And, Ron, if you'll just give us a MARK when you make the shot. That'll be close enough and we'll -we'll mark the time here on those polarizing ones. So we'll get the angle that way.
+|135:47:22|CMP|Oh, okay.
+|135:49:37|CMP|Lost the freaking camera.
+|135:49:37|CC|Ron, we'd like ACCEPT on the computer. We have a new state vector for you. Your downtrack there got to be in excess of 30,000 feet, and this has nothing to do with your backside water dump just now - it's just accumulation of errors in the path.
+|135:51:53|CMP|Oh, okay. You have ACCEPT.
+|135:51:53|CC|Ron, it's your computer.
+|135:51:53|CMP|Okay. Going to BLOCK.
+|135:57:11|CC|Okay, Ron, anytime you want to reach up and go AUTO on the HIGH GAIN - your - your convenience.
+|135:57:11|CMP|Okay. Stand by. Is it 1/500? Yes. Stand by.
+|135:58:37|CMP|MARK it. And the polarizer all the way to the left. Stand by.
+|135:58:45|CMP|MARK it. That's the polarizer all the way, counterclockwise.
+|135:58:45|CC|Got you.
+|135:58:45|CMP|Okay. That's eight pictures. Okay. Stand by. Okay. Wait a minute. I lost the landing site. Stand by. Okay. Stand by.
+|135:59:34|CMP|MARK it. It's all the way to counterclockwise. Stand by.
+|135:59:42|CMP|MARK it. And that's all the way clockwise.
+||||Tape 90B/5|Page 984
+|135:59:42|CC|Roger. We got them.
+|135:59:42|CMP|Frame 23 and 24-1 mean - yes, 23 and 24; we're looking north along the ridges there. The other two polarizers - the two before that were looking at the landing site. Then I had three - three red ones at a 1/500 and 1/250 and a l/25th and the rest l6. And, the blue one's at the same thing.
+|135:59:42|CMP|And we're setting on frame number 25 on mag XX -that's XX ...
+|136:01:03|CC|Roger, Ron.
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
 |152:01:17|CC|Glad to hear it, Ron. Good morning.
