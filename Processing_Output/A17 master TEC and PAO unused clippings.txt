@@ -1229,6 +1229,306 @@
 |135:59:42|CMP|Frame 23 and 24-1 mean - yes, 23 and 24; we're looking north along the ridges there. The other two polarizers - the two before that were looking at the landing site. Then I had three - three red ones at a 1/500 and 1/250 and a l/25th and the rest l6. And, the blue one's at the same thing.
 |135:59:42|CMP|And we're setting on frame number 25 on mag XX -that's XX ...
 |136:01:03|CC|Roger, Ron.
+||||Tape 91B/1|Page 1005
+|136:19:08|CMP|Oh, okay. Want me to configure the DSE, though, at 39:32 right?
+|136:19:08|CC|That's affirmative.
+|136:19:08|CMP|Okay.
+|136:28:49|CMP|How's the crew of Challenger? Are they getting about ready to go out again?
+|136:28:49|CC|They're a little bit delayed, Ron, but there's no problem. They just slept a little longer and -Yes, they're in their prep - pre-EVA prep.
+|136:28:49|CMP|Yes .
+|136:28:49|CC|And everything's going good.
+|136:28:49|CMP|Bet they're going to find that Scarp is a pretty good hill.
+|136:29:19|CC|Roger. We understand.
+|136:29:19|CC|America, Houston. At your convenience, Ron - no hurry on this - we'd like you to service your ZPN sensors on each side there. We're getting some bad data on that now.
+|136:29:19|CMP|'They're itching. (Laughter)
+|136:29:19|CC|Roger.
+|136:29:19|CMP|Yes, it's pretty dry.
+|136:29:19|CC|Roger. The - Dr. Z. recommends you might find a new location for them - just move them around a little bit, and put some cream on the other ones.
+|136:29:19|CMP|Okay.
+||||Tape 91B/2|Page 1006
+|136:29:19|CC|There's no hurry on that, Ron, I wouldn't interrupt what you're doing now to - for that - it's not critical.
+|136:29:19|CMP|Okay, I understand, Bob. I'll - -
+|136:29:19|CC|You sound like a tour - -
+|136:29:19|CMP|I will as soon as I get a chance. Okay?
+|136:29:19|CC|Roger. You sound like a tourist up there.
+|136:29:19|CMP|(Laughter) That's right.
+|136:29:19|CC|Going to need a Kodak store here shortly, I'm afraid.
+|136:29:19|CMP|(Laughter)
+|136:29:19|CC|Okay, Ron, you might want to look at your Flight Plan when you get a chance. We're coming up on a SIM bay reconfiguration here shortly.
+|136:29:19|CMP|Ah-ha. Okay.
+|136:29:19|CMP|56, 57, 58, 59 -
+|136:35:02|CMP|MARK it. OFF.
+|136:35:02|CC|Roger. We got it.
+|136:35:02|CMP|... wherever that is.
+|136:35:02|CMP|Okay. RECORDER is going OFF, not the HEATERS. RADAR is OFF. DATA SYSTEM is ON. Uh-oh. Should have the SM/AC POWER switch up - up there (laughter) at 230, as much as we use It.
+|136:35:02|CC|Roger. I concur with that one. I thought it would only be in the simulation that it would get to you on that one.
+|136:35:02|CDR|(Laughter) Yes. Okay. SM/AC POWER is ON. The old MAPPER's going to STANDBY. IR is going ON. SELF TEST is going to HEATERS. UV is going ON, Now, we're going to open IR and we're going to wait on UV.
+||||Tape 91B/3|Page 1007
+|136:37:19|CC|We concur with that, Ron.
+|136:37:19|CMP|Okay.
+|136:37:19|CC|We'll give you a cue on that UV COVER, OPEN, here.
+|136:37:33|CMP|Okay, there's the IR. Barber pole. And a gray.
+|136:37:33|CMP|Houston, America.
+|136:37:33|CC|Go ahead, Ron.
+|136:37:33|CMP|Okay. Are you going to try to ship the back-side DSE back in there for this next pass - on the Orbital science visuals and stuff?
+|136:37:33|CC|Ron, we're calling for the DSE operation exactly as - as it is in the Flight Plan. Is that - do you concur with that?
+|136:37:33|CMP|Oh, yes. I concur, but I mean - sure, that's -that's no problem there. But I mean getting it back to Houston before the end of the flight, you know.
+|136:37:33|CC|Negative. That was not in the plans unless you want us to, Ron. We don't have any provision to - to - to record it and send it back here, until it comes back in the transcript form.
+|136:37:33|CMP|Okay, no problem. I'll paraphrase what I say then, and when I get into AOS over there.
+|136:37:33|CC|Okay. No sweat. And if you have something you really want us to listen to, we can bring up the loop to get It, but it takes a little effort, Ron. That's all.
+|136:37:33|CMP|Okay. Yes. No, I - it's - let's don't do it, yet.
+|136:37:33|CC|Ron, I just heard the voice quality has been real good. We've listened to it several different times, and it's been real good and we can bring it in without too much problem. Probably wouldn't be ready for the next rev, but we can get it In here without too much strain, if you want it brought in.
+||||Tape 91B/4|Page 1008
+|136:37:33|CMP|Okay. I think it might be worthwhile, especially on - on this particular one, where I'll be essentially talking all the way across, on this one.
+|136:37:33|CC|Okay, we'll just plan on it, Ron.
+|136:37:33|CMP|If it's not too much of a problem. Yes.
+|136:40:32|CC|Okay, Ron. You can UV COVER, OPEN, anytime.
+|136:40:32|CMP|... Okay. Okay.
+|136:40:40|CMP|OFF, OPEN, barber pole. And it's gray.
+|136:40:40|CC|Ron, we need to precondition our tanks again. We'd like tank 2 FANs to OFF, please.
+|136:41:07|CMP|tank 2 FANs are OFF.
+|136:41:07|CC|Roger.
+|136:41:07|CC|And, Ron, just a reminder, ve will bring in that voice from the - the rev 27 backside pass.
+|136:41:07|CMP|Oh, okay, good. Thank you. Tell the lunar sounder guys I'm sorry if I pointed their antenna in the wrong direction there, for a short period of time.
+|136:41:07|CC|No problem. Just one question, Ron, that is the Hasselblad we're hearing every once in a while, isn't it?
+|136:41:07|CMP|There's what?
+|136:41:07|CC|Is that your camera running? Every once in a while?
+|136:41:07|CMP|No, not now.
+||||Tape 91B/5|Page 1009
+|136:41:07|CC|How about during this eat period - on this pass, were you running the camera quite a bit?
+|136:41:07|CMP|Wo. The only thing was - was the Nikon.
+|136:41:07|CC|Okay, understand. We keep hearing something that sure sounds like the camera is chugging - -
+|136:41:07|CMP|The - might have been picking up the tape re -no, it might have been the tape recorder. Might have been me, trying to clear my ears, you know?
+|136:41:07|CC|No, I don't think so.
+|136:45:29|CC|Ron, we're a few minutes from LOS. And you're looking real good.
+|136:45:29|CMP|Okay, Robert. Thank you much. We'll see you on the other side.
+|136:45:29|CC|Okeydoke. And I'll try and get through to the -the homefront here, maybe for this next pass. And you are going to be pretty busy, but I'll give you a little update.
+|136:45:49|CMP|Okay.
+|136:45:49||BEGIN LUNAR REV 27
+|137:33:16|CMP|... it as well as the - some of the more Eratosthenian craters around Saenger. Looks to me like you can still have a little bit of a hint - at least of the layering, or a broken-up different-colored material at the top of all these craters.
+|137:33:16|CMP|And supposed to stop and rewind the DSE. Forgot to do that.
+|137:33:16|CC|Roger, Ron. We'll take care of the DSE.
+|137:33:16|CMP|Okay. Okay, I'll let you do it.
+||||Tape 91B/6|Page 1010
+|137:33:16|CC|Roger, Ron.
+|137:33:16|CMP|Okay.
+|137:33:16|CMP|Okay. I took three, or four, pictures on mag 00 up to frame 104 kind of looking north across the Arabia.
+|137:33:16|CC|Roger, Ron. We copy.
+|137:33:16|CC|Ron. Just some words for you. We placed - -
+|137:33:16|CMP|Okay, kind of a - Okay, go ahead.
+|137:33:16|CC|No, go ahead - go ahead with yours. We don't want to interrupt.
+|137:33:16|CMP|I was just going to say that on the crater Aitken, on the other side, is probably - there are no -no - rays - visible rays that I can see at the low Sun angle, anyhow, coming across there. There's definitely a mare floor in there. It's a dark albedo-type - flat floor with swirls in it; no definite expression of swirls. One thing that's quite apparent, you have a flow scarp in the northeast corner of it coming out of - oh, a little cloverleaf-type of an area there. I'm going to have to look the next pass over it to see if, on account of the south domical structure that's in there, it's breached. And I can't tell if the flow of material is flowing to the east out of that domical structure or if the flow is flowing into the domical structure. I ought to take a better look at that the next time - the next time around.
+|137:37:11|CC|Roger. We got you. See any lava marks on the crater rims, there?
+|137:37:11|CMP|Well, that's - that's the - the lava mark is what I'd call - is almost a lava scarp - in - up in the northeast corner. There are some lava marks along the central peak. They aren't nearly as apparent as the one up in the northeast corner. The northeast corner is definitely a flow front -a lava flow front, that has flown up the - the old interior wall of the crater.
+||||Tape 91B/T|Page 1011
+|137:37:11|CC|Roger, Ron. What's the color of the dome in Aitken?
+|137:37:11|CMP|Well, the color of the dome in Aitken is - the colors are hard to - to visualize - the color of the dome is essentially the same as, as - pretty much the surrounding material around there. Maybe a little bit lighter - a little bit lighter than the surrounding material. Of course it's definitely lighter than the floor. The floor itself, to me, has a tan - had a tan to it.
+|137:37:11|CC|Okay, Ron. We'll have to break away here a second. PAN CAMERA MODE to STANDBY.
+|137:38:41|CMP|Okay.
+|137:38:41|CC|If you haven't got your Plight Plan, it's PAN CAMERA MODE to STANDBY, then POWER ON.
+|137:38:55|CMP|... Okay, POWER is going ON.
+|137:38:55|CC|Okay, Ron. And it's time to charge battery A and we'll cue you on the PAN CAMERA POWER OFF. Okay, that should have been deleted. We've already charged the bat A, so - -
+|137:38:55|CMP|... Yes. Yes. It's already charging.
+|137:38:55|CC|Right. Sorry about that, Ron.
+|137:38:55|CMP|Okay, no problem.
+|137:39:17|CC|How about the freshness of the wall and ejecta materials, and the brightness of the rim deposits on Aitken while we have a minute here.
+|137:39:17|CMP|Okay. The brightness of the rim deposits are a little bit brighter than the surrounding area on the thing. The way that you put It, probably early Eratosthenian. It's definitely not Copernican because I can't see - well, at least in that low Sun - I can't see any rays - any rays around it. But probably late Eratosthenian -somewhere in that area because you have the slumping - Well, it's not subdued at all. The walls themselves - of the crater are not subdued. They are fairly fresh - not as fresh as Copernican. And - and I just can't remember whether we had the - seems to me like it was brighter at the higher Sun angles around there, which indicate that there would still be some remnants of a -of a bright ring around it.
+||||Tape 91B/8|Page 1012
+|137:39:17|CC|Okay, Ron. And whenever you're ready, PAN CAMERA POWER to OFF.
+|137:40:35|CMP|PAN CAMERA POWER is going OFF.
+|137:40:35|CC|And -we're with all eyes here waiting for a Crisium-Serenitatis visual.
+|137:40:35|CMP|(Laughter) Okay.
+|137:40:35|CC|Anything at all, Ron, while we've got an open area, anything you want to say - we're following you on the map - just sing out.
+|137:40:35|CMP|Okay.
+|137:40:35|CC|Ron, while you're thinking here a second, do you have any views on the possible origin of the domes in Aitken?
+|137:40:35|CMP|Well, I'm pretty sure they've got to be volcanic in origin. That's what - that's what it looks like to me anyhow. And especially if I can determine that the material in the northeast corner of Aitken has flown out of that domical little structure in there.
+|137:40:35|CC|Roger. Understand.
+|137:42:51|CMP|You know something - the observation that I think is pretty significant is the fact that most of the 30-kilometer craters on the back side of the Moon seem to be fairly fresh. And any of them that are fresh - by fresh I mean you don't have any real definite ray pattern to them, but you've got a real smooth - not smooth but streaked straight - slope, 45-degree angle going down into the crater and the crater wall. And then you get down to the bottom of the crater, and you got a flat floor down there or sometimes there is a domical type of a floor. And the domical material down there doesn't resemble anything like the stuff that's slumped down the side.
+||||Tape 91B/9|Page 1013
+|137:42:51|CC|Okay, we copy. Ron, if you're handy, you might hit Error RESET on the DSKY. It looks like you might have hit a MARK button or something.
+|137:42:51|CMP|... Yes, might have hit the MARK button.
+|137:42:51|CC|That - that makes it.
+|137:42:51|CMP|Okay. I just got used to the other attitude, and now I'm at a different attitude. (Laughter) ... attitude, though.
+|137:42:51|CC|Roger. Understand. Roger. Are you able to pick anything up on the Crisium yet?
+|137:44:37|CMP|No, just now coming up on Crisium. I just now see it out of window 5È Just off the southern edge. Let me try window 3; I think it might be better.
+|137:44:37|CC|Okay; you might remember we're looking for the colored tones , the shades between units up on Crisium, and we're looking for location of color boundaries relative to the mare ridge system.
+|137:45:10|CMP|Okay, I'm looking at the eastern edge of Crisium now. As you come across there, it looks there might be - a little bit darker - You know, I keep seeing browns all the time up here instead of grays - gray tones. Maybe that's just the way I interpret them. They are - to me kind of a brownish tint to them, and it's a darker brown than the - the stuff to the - to the south of the ridge system there.
+|137:45:10|CC|Roger. Ron, our data would show that CM5 might be a better window.
+|137:45:10|CMP|Take a look at that one. Yes, it's a little better. Looking straight down. I am just now passing that crater I took a picture of on the last time - of the pass on there. And instead of having a round bottom, it's got a diamond-shape fill in the bottom. And the diamond, Itself, is about - oh, a half of the crater diameter. And this is on the south rim of Crisium.
+||||Tape 91B/10|Page 1014
+|137:45:10|CC|Okay. We copy. Does the ridge system cross the color boundary, Ron, in Crisium?
+|137:46:52|CMP|Well, this ridge system is running east and west down here. The color boundary isn't nearly as apparent in Crisium as it is in Serenitatis. Except that right under me right now there's kind of a subdued crater-type thing and with a southern part of a ridge. The ridge runs east - west, and it looks like we've got a flow coming out of it. Let me see if I can get a quick picture of that one. Well, lost my camera (laughter). Here it is. Oh, it's too late; it's gone now. You know something, you see this subsolar point, it's kind of -zero phase - zero phase point, I mean, is following me right along out here in Crisium, so I get a different color straight out from the window than I do out from the edge of it. So I think that's going to influence my thinking.
+|137:46:52|CC|Roger, Ron. How does color of Picard - the rim deposits on Picard compare to the surrounding mare material there?
+|137:48:35|CMP|Okay. The color on Picard is - is definitely darker. It's got a darker rim, darker material that goes out to - oh about a half a crater and some points extending out to a crater diameter. And then from south arcing around to the west to -to the northwest corner, you got some light-colored material on top of that.
+|137:48:35|CC|Is any of that tan or brown?
+|137:48:35|CMP|It's kind of a - the darker material I'd call tannish-gray. More gray than tan. In other words, the whole mare, itself, I'd consider kind of a - kind of a light tan. And then the type of material, the dark material that's flowing out -has flown out - is kind of a tannish-gray.
+|137:48:35|CC|Okay. In the inner appearances of Picard, for color variations, can you determine different units based on color and flow characteristics?
+||||Tape 91B/11|Page 1015
+|137:49:42|CMP|Yes, you can. In the area where you have the white thrown out on top, you essentially got a -as - as you go down the crater wall, you've got a white streak that goes all the way around it, and then you've got a dark layer underneath that. And then a white layer on below that.
+|137:49:42|CC|Roger. Are you saying the color zones are concentric?
+|137:49:42|CMP|Yes, the color zones are concentric going around.
+|137:49:42|CC|Beautiful. How about the central peak material to that of the crater walls?
+|137:50:30|CMP|Well, the central peak material is - you know, it's more smooth-type stuff. This stuff in the crater walls is - fine, straight sloping, except where it is slumped down. Where it's slumped down, it's just kind of piled up - a jumble of -type stuff, you know?
+|137:50:30|CC|Roger.
+|137:50:30|CMP|You know, in the crater nearest over there has the same color distinction around it for - out for about a crater diameter, except it doesn't have any of the light material on it at all.
+|137:50:30|CC|Okay, Ron, we might direct your attention to the dark halo craters in the western Mare Crisium. Are they impact or volcanic in origin?
+|137:50:30|CMP|You can see some of the rays from the crater Proclus have spread out all the way across here. And they completely cover up the ridge system that goes around there, so I can't see any color distinction on the eastern - or on the western edge of Crisium.
+|137:50:30|CC|Roger. We copy. How about those dark halo craters? Are they volcanic in origin?
+||||Tape 91B/12|Page 1016
+|137:51:40|CMP|Some of the - Yes, I was looking at the volcanic -or the dark-rimmed craters, and some of them have what I'd call a - an ejecta pattern around them; and the others just have kind of a raised rim with no apparent blocks. The one to the west - let's see, southwest - of that little V that sticks out there by Yerkes - that hill that sticks out there by Yerkes - now, that's the one that, to me, looks like it has an ejecta pattern around it with blocks It's about a - oh, a thousand-meter crater.
+|137:51:40|CC|Roger. Got it. Oh that crater that you mentioned was a flow pattern, will you be sure and make a mark on your map on that, please? We're really interested in that.
+|137:51:40|CMP|Okay.
+|137:51:40|CC|Should be coming up on Macrobius by now, aren't you?
+|137:53:07|CMP|Yes, I can just barely see Macrobius. And - ... be better out of window 3.
+|137:53:07|CC|Okay. We're standing by.
+|137:53:07|CMP|I'm looking for any dark-halo craters in - I was looking for any dark-halo .craters in this area that might be sticking through the Proclus rays. Well, you know, you compare on either side of the Proclus ray, though, and the same size crater rather ... Tranquilitatis or the - the moundy stuff before you get to Tranquilitatis are really underneath Coper - the - the Proclus ray. You get the same albedo of ray material from the small craters in either case.
+|137:53:07|CC|Roger. We understand.
+|137:54:12|CMP|Oh, here's a Macrobius A and B. Course, J-3 is up there. The two dark craters - well, the one just - north, I guess, of Macrobius A, and also north of J-3 - that's the one that has the dark mound around it. It's got a small dome down in the center. It - it doesn't have any ejecta pattern around it - you know, no rays, no nothing. To me, that looks like - it sure looks like a cinder cone to me. You get that same type of feeling. The dark halo that goes around it goes out for at least a crater and a half diameter. The raised dome down in the center of the crater is about a fourth of a crater diameter. And there are no rays. And it has a dark halo.
+||||Tape 9IB/13|Page 1017
+|137:54:12|CC|See any color tones on that crater at all, Ron?
+|137:56:05|CMP|Yes, the color on that particular - color of that is the same color as you see in Maraldi and as you see in the landing site. And that is what I consider the dark tannish - tannish gray.
+||||Tape 92B/1|Page 1037
+|137:55:01|CMP|Yes, the color on that particular - the color cf that is the same color as you see in Maraldi and as you see in the - the landing site. And that is what I - what I consider the dark - tannish -tannish-gray type of material. And again, the fresh craters around Maraldi still look kind of bluish to me, not as much as they did yesterday, but they still look kind of a - have a bluish tint to them from the reflection of the Sun. In other words, they are fresh craters and they are about the size of - one of them is about the size of MOCR, and the other one is about the size of Sherlock or Camelot.
+|137:55:01|CC|Okay. You're around Maraldi now ... - -
+|137:55:01|CMP|... same way. Yes, I'm still on Maraldi. Yes.
+|137:55:01|CC|Okay - -
+|137:55:01|CMP|I was on Maraldi, and - -
+|137:55:01|CC|How about comparing the floor fill of Maraldi to the light plains In Maraldi E?
+|137:55:01|CMP|The floor fill in Maraldi is definitely a darker color. The light plains in Maraldi E are the -the light-tan material. And Maraldi - The floor of Maraldi looks just like the landing site.
+|137:55:01|CC|How about the color, tone, and texture of Maraldi Gamma?
+|137:57:44|CMP|Okay. Maraldi Gamma looks just like the rest of all of the surrounding hills around there. I think that's just a - some of the - what do you call it, the Sculptured Hills type of material that has been - was high and has been inundated by mare flow at one time or another. It had - mare flows kind of come up around it.
+|137:57:44|CC|Okay. How about the domical hills inside of Vitruvius A, as compared to Aitken?
+||||Tape 92B/2|Page 1038
+|137:57:44|CMP|Okay. I just missed that one. We'll have to pet that one on the way by.
+|137:57:44|CC|Okay.
+|137:58:23|CMP|Next time I guess. Right now, I'm looking at the ridge system around the annulus of Serenitatis. And the dark material stops before you get up to -Oh, what's the crater that sticks into the side of Serenitatis and sticks out beyond the eastern edge of Serenitatis? Anyhow, the dark material stops before you get to there. The dark material only goes up to - let's see - There's a definite rllle. There's a wrinkled ridge and at the east of the wrinkled ridge, there are two craters, about 20 kilometers in diameter. And then farther east of that is the - the rille. A graben, it looks like that goes up - and that's about the extent of the dark area that's the same as the - the same material as the landing site.
+|137:58:23|CC|Roger. We copy.
+|137:58:23|CC|Okay, Ron. That - that completes the visuals on this pass. We - if you want to look some more, we've got some time. We do have some Flight Plan camera pads and all that, but no hurry on any of it.
+|137:58:23|CC|We do have some attitude changes - -
+|137:58:23|CMP|- - continue looking here until we pass - oh, do you need an attitude change now?
+|137:58:23|CC|No, that's not until 46. We got some time on that. It's a VERB - change of NOUN 78.
+|137:58:23|CMP|Okay. Give me a clue about a minute ahead of that,.
+|137:58:23|CC|Yes, I'll do that, Ron. Just keep talking.
+|138:00:09|CMP|Okay. We're in the Tacquet area now, and in this case, the wrinkled ridge system that's out in the middle does not make a change in the color boundary. The color boundary is completely out to the outer edge and is - in the area of those - the rille. Those are - There's kind of arcuate rilles, straight rilles, and in the Tacquet, yesterday, I said this was Sulpicius Callus, but it's Tacquet - Tacquet area, but ... - -
+||||Tape 92B/3|Page 1039
+|138:00:09|CC|Roger, Ron. Can you give us a color difference on the dark mantle and the mare at this Sun angle?
+|138:01:07|CMP|Yes, the color difference - again the - You know, I just - I just now noticed that when I get down at this Sun angle, out in front of me, I got one color, and then I look straight down and I have a different color. But in this Tacquet area, you've definitely got some cinder cone type - No, I don't want to say cinder cone, but anyhow - volcanic. And it almost looks like a breached cinder cone right next to - I think it's Melrose [?] - is the name of that - that crater - the big one that's right on the edge of Serenitatis. I'll find it on the map and mark it for sure. But just to the east of that, it sure looks like a breached cinder cone in - in - in one of those rilles down there. And then that type of material is - is - kind of a dark tan in - at this Sun angle. And it's definitely darker than the - than the Serenitatis Basin material.
+|138:01:07|CC|I think it's Tacquet is the name of that crater. Isn't it, Ron?
+|138:01:07|CMP|Tacquet is the little one, and then - then there's a bigger one right next to Tacquet.
+|138:01:07|CC|Okay. Menelaus is just to the east of Tacquet there.
+|138:03:04|CC|Hey, Ron, I - I blew that. Menelaus is west of Tacquet up there.
+|138:03:04|CMP|Yes, Menelaus; that's the one.
+|138:03:04|CC|Any textural difference between the dark mantle in the site and the Sulpicius Callus formation, Ron?
+|138:03:04|CMP|Yes, there is.
+||||Tape 92B/4|Page 1040
+|138:03:04|CC|Would you attribute it to the actual ground or would you attribute it to possibly the Sun angle difference?
+|138:03:04|CMP|I think, I would attribute it really to the - to the actual ground. I guess what I am going to have to do is really wait until the Sun angle gets a little bit higher there in that Tacquet region to answer that for sure. But it seems to me like the - the material in the landing site area is -is more smooth, you know, or smoother than what's in the Tacquet region. The part in the Tacquet region seemed to me like it was - is - It's just a rougher-looking-type material. You know, not - not massive. Hey. There's D - D-Caldera. Hey, what do you know?
+|138:05:06|CC|Do you have - do have any dark - do you have any dark halo craters near Sulpicius Gallus?
+|138:05:06|CMP|Yes. The - I'll be darned.
+|138:05:06|CC|We're - we're with bated breath, waiting.
+|138:05:06|CMP|... Picture 28 of D-Caldera with the Hasselblad. I mean with the Nikon (laughter), and Sun angle must be about 1 or 2 degrees.
+|138:05:06|CC|Roger. We copy.
+|138:05:06|CMP|You know, I really didn't concentrate too much on - on Sulpicius Gallus at that - that particular passing, I was concentrating on the Tacquet area, and in that - in that case, all of the - the rilles and the ridges - not the wrinkled ridges out in the middle out in there, but the rilles and the area built up around the rilles and also associated maybe - Oh, I was going to say 10 times the will -the rilles width is all one color.
+|138:05:06|CC|Okay, Ron. We'd like HIGH GAIN to AUTO, and we'd like to load your NOUN 78.
+|138:06:41|CMP|Okay. HIGH GAIN to AUTO. Let me see, 22 NOUN 70 to ENTER. Okay. Let's see, plus 5?.25- Plus 52.25. Up-1ink. VERB 58 ENTER. ... PROCEED to ... gets out of the way. Okay. D-Caldera was taken on picture number 28. It was f/8 at 1/500, and then I took three more before that. They're terminator photos, looking north across Sulpicius Gallus and farther north. And they were 1/500 at f/l6 to start with and then f/11.
+||||Tape 92B/5|Page 1041
+|138:06:41|CC|Roger, Ron.
+|138:06:41|CMP|That's probably about all I'm allowed, I think, on this XX film.
+|138:06:41|CC|What was your last frame number on XX, Ron?
+|138:06:41|CMP|Yes, that was - I'm on number 29 now.
+|138:06:41|CC|29- Roger. You're on 29, right here.
+|138:06:41|CMP|Say, on magazine Oscar Oscar, did we get enough of our required photos out of that, or are the rest of those - opportunity or not?
+|138:06:41|CC|We'll check on that with FAO, Ron. I do have one Flight Plan update for you on the pan camera photo pad. But you first ought to go to the IMAGE MOTION, INCREASE, barber pole plus four steps, to ON, and LASER ALTIMETER, ON.
+|138:06:41|CMP|Right now, you mean?
+|138:06:41|CC|Yes, it's - It's time, Ron. It's time for that.
+|138:09:35|CMP|Okay. IMAGE MOTION - let's see - I think that was barber pole plus three before. There it is, 3 - 4 -
+|138:09:56|CMP|LASER ALTIMETER, ON.
+|138:09:56|CC|Okay, Ron. That pan camera - -
+|138:09:56|CMP|I hope to pick up some answers to some of t,hos--.o things on a couple more pasties. Okuy. That's right. Go ahead.
+|138:09:56|CC|Okay. Did - did it bother you, me - me reading some of those questions to you? I know you'd probably had time to study them, but I thought I'd jog your memory on them.
+||||Tape 92B/6|Page 1042
+|138:09:56|CMP|Oh, no. That's - no, that's good. I appreciate it.
+|138:09:56|CC|Okay. I'll get a conference here with Farouk before we start the next pass on the next- rev around and see if we can improve it. Things worked perfect down here. We - I had the questions in front of me, and Farouk flipped them into the screen and it really worked great.
+|138:09:56|CC|Okay, Ron - -
+|138:09:56|CMP|Yes. That's good, okay.
+|138:10:44|CC|- - at l4l:50, I've got the pan camera photo pad.
+|138:10:44|CMP|Okay. Ready to copy.
+|138:10:54|CC|Okay. T-start time, 141:54:01; T-stop time, 142:18:24.
+|138:10:54|CMP|Okay. T-start, 141:54:01; T-stop, l42:l8:2U.
+|138:10:54|CC|Good show, Ron. It's - your bird now for a while.
+|138:10:54|CMP|Okay.
+|138:12:37|CC|Ron, just for your information, we're playing back the voice playback from the last rev, and it'll be recorded in house. It is readable, and we can read it.
+|138:12:37|CMP|Oh, okay. Good. I purposely tried to keep one of the microphones right on my mouth on those things. I don't know if that helps or hinders it .
+|138:12:37|CC|Roger, Ron - -
+|138:12:37|CMP|At least I could hear myself talk that way.
+|138:12:37|CC|Roger. It worked. We can read it, and somebody can listen to it here when we get a chance. How about on this back side of this next rev? Looks like you're pretty busy with some pads and - and some photo work in there. Do you expect to be doing any recording - much recording there?
+||||Tape 92B/7|Page 1043
+|138:12:37|CMP|No, probably not. I'll just try to - try to make notes of it or something, and then pass it on out when I come out the other side.
+|138:12:37|CC|Good show, Ron. Good show.
+|138:14:07|CC|And your - your grounded friends down there are busy working around the LM right now and doing some loading the Rover and that, getting ready for the EVA-2 work. They're out on the surface and loading the Rover.
+|138:14:07|CMP|Very good. I'll be glad to - curious to know if they can make it up that hill or not - to Scarp.
+|138:14:07|CC|Roger.
+|138:14:07|CMP|Looks like they should be able to go right up that valley, the way they've got it planned there.
+|138:14:07|CC|Gene's got to take some time here on this EVA and make a fender. We're - we're piecing together a couple of maps and trying to get a fender, because they lost a piece of the fender last night.
+|138:14:07|CMP|(Laughter) They did, huh?
+|138:14:07|CC|We're going to give Gene his auto mechanic's license if it works.
+|138:14:57|CMP|How's my - yes, right. How's my ZPN? All I did was move it. I didn't put in a new sensor yet. Do I need to put on a new sensor?
+|138:17:34|CC|Ron, the ZPN data isn't too good. It's the sensor sponges need to be replaced, if you didn't already replace them.
+|138:17:34|CMP|(Laughter) Thought I'd get by without replacement. Yes, I'll replace them pretty quick.
+|138:17:34|CC|Hey - you know - your choice. We can - we can stand the crew exercise period without replacing them, I'm sure.
+||||Tape 92B/8|Page 1044
+|138:17:34|CMP|Okay. While I was eating my peanut butter awhile ago, I lost my lobster bisque and my Juice. And I just now found it.
+|138:19:08|CC|Okay, Ron. Here's your word on some magazines here X-ray X-ray has to be left for the Zodiacal light. You - you should not take any more on X-ray X-ray until after Zodiacal light. Mag Oscar Oscar and Papa Papa are yours to play with, as long as you stay with the Flight Plan on the rest of the mags .
+|138:19:08|CMP|Okay.
+|138:19:08|CC|And those are your crew options for the rest of the mission, those two mags.
+|138:19:08|CMP|Okay. In other words, we made it up on Oscar Oscar, I guess, on that one pass, huh? Rest of them are - are crew options.
+|138:19:08|CC|Roger.
+|138:25:38|CC|Hey, Ron. You got a 110 heart rate. What are you doing?
+|138:25:38|CMP|(Laughter) Shaking the couch.
+|138:25:38|CC|(Laughter) I thought we could hear that. That's pretty good.
+|138:25:38|CMP|Shaking the couch (laughter).
+|138:26:19|CC|Okay. Keep it up, there; you got 120 now. Dr. Berry would like to keep it there for a while.
+|138:26:19|CMP|(Laughter) I'm getting tired.
+|138:26:19|CC|That's the whole idea of the thing, Ron.
+|138:26:19|CMP|(Laughter)
+|138:26:51|CC|Okay. Got you 130 that time.
+|138:26:51|CMP|Oh.
+||||Tape 92B/9|Page 1045
+|138:31:47|CC|Hate to say this, because it's very dead serious work, but I'm kind of watching a lunar comedy as the - the two lunar stalwarts are trying to plan the new fender on the vehicle down there.
+|138:31:47|CMP|(Laughter) I'll bet that's really no easy job, you know.
+|138:31:47|CC|That's right. They've got a couple of their clamps - what they did is they - -
+|138:31:47|CMP|... kind of hard.
+|138:31:47|CC|They took a couple of their clamps, and they took -taped together in the cockpit a couple of their big lunar maps - the big heavy maps - and they're - now they're clamping that map to the fender where the removable part is.
+|138:31:47|CMP|Oh, I see. Must be pretty dusty down there or something.
+|138:32:33|CC|Yes. Well, they lost a fender, and it was throwing dust up on Gene. It's just ridiculous how much dust they got on them, so they - they just decided they just had to go ahead and do something.
+|138:32:33|CMP|Yes.
+|138:32:33|CC|I would hate to be paying for that fender repair job by the minute.
+|138:32:33|CMP|(Laughter) Boy, that's for sure.
+|138:32:33|CC|Oh, that was me - went off on the wrong loop, - loop there, Ron.
+|138:32:33|CMP|Oh, okay. (Laught er) Okay.
+|138:32:33|CMP|On that Crisium Serenitatis - number 4 of 5 - that - dark dome just to the northwest of J-3 - the one I was talking about that had the typical cone-type shape with the dome down in the side of it.
+||||Tape 92B/10|Page 1046
+|138:32:33|CC|Roger. We had It. Farouk had a pointer on it the whole time. I knew just what you were talking at.
+|138:32:33|CMP|Yes. Okay. Okay.
+|138:40:45|CC|Just talked to the home front a little while ago, and everybody's fine, Ron. And they were able to get the squawk boxes squared away, so she should have been listening to you for last couple of passes - all on the ... The problem was it wasn't able to shut off one loop or the other, so today we've been - they've been able to get all - just the CSM loop in there for - during the AOS periods.
+|138:40:45|CMP|Oh, I see. Otherwise, they - they were both coming in, huh?
+|138:40:45|CC|Yes. Last night, they were both coming in. Today, they got it squared away, so you're just coming in, and they are able to watch and listen to the other one on - on the TV camera.
+|138:40:45|CMP|Yes. TV, yes.
+|138:40:45|CC|And they say they are looking forward to good weather tomorrow. Supposed to finally get a break in this stuff tomorrow.
+|138:41:38|CMP|Hey, good. We can say that 's because the guys went to the Moon, see?
+|138:41:38|CC|Roger. Okay (laughter).
+|138:41:38|CMP|... get the good break's In the weather (laughter).
+|138:41:56|CC|About 5 min - 4 and 1/2 minutes to LOS now, Ron. We went around the room, and all systems look good and you're just looking great.
+|138:41:56|CMP|Okay. Mighty fine, I'm feeling pretty good.
+|138:41:56|CC|That's great. We noticed your heart rate went up pretty well on the exercise. Looks like you got some exercise, and we'll be seeing you at 142:12.
+|138:41:56|CMP|42:12. Okay.
+||||Tape 92B/11|Page 1047
+|138:41:56|CC|And we'll be all set up with our backroom for those orb science visuals from Copernicus on down to Reiner Gamma; and you know, ... too, but we'll be up for all - everything in between. So, just standing by for your word.
+|138:41:56|CMP|Okay.
+|138:41:56|CC|And Stu's mentioned if you hadn't earlier, that you might try the binoculars when you look at Copernicus for that dike you said - if you hadn't thought of it before.
+|138:41:56|CMP|Yes. I'm going to try that this time.
+|138:42:54|CC|Okay. Good show.
+|138:42:54||BEGIN LUNAR REV 28
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
 |152:01:17|CC|Glad to hear it, Ron. Good morning.

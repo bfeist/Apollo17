@@ -104,3 +104,9 @@
 |134:04:13 - CMP frame 92
 |134:16:51 - joke: caltech finals week
 |135:58:08 - joke: can it talk? (asking about new weather satellite)
+|137:12:44 - EVA 2 start - hatch unlocked.
+|137:35:23 - joke: If I have any more water I'll float out there.
+|137:54:20 - EVA 2 clock starts
+|138:04:59 - cernan burps
+|138:18:17 - joke: bag of peanuts
+|138:21:34 - Pan is complete
