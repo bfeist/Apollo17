@@ -1529,6 +1529,297 @@
 |138:41:56|CMP|Yes. I'm going to try that this time.
 |138:42:54|CC|Okay. Good show.
 |138:42:54||BEGIN LUNAR REV 28
+||||Tape 93B/1|Page 1102
+|139:29:50|CMP|Houston, America.
+|139:29:50|CC|Go.ahead, Ron.
+|139:29:50|CMP|Okay, Robert. I guess the big thing I want to report from the back side on this one here is that I took another look at the - the Cloverleaf in Aitken, with the binocs, and that southern, domical crater of the Cloverleaf - it has a breach on the east - east side of it. it - I can't tell -There's - there's a flow - In other words, the domical structures, themselves, are part of a flow material that is partially filled up the breach. In other words, the breach has either flowed into that little domical structure before the domes were built, or else all of that stuff that's in the mare floor has flown out of that domical structure before the domes came in. In other words, the domical structures, themselves, are different time relationship to the floor, itself. They are - are younger than the floor, itself.
+|139:29:50|CC|Roger, Ron. We copy that.
+|139:35:20|CC|Ron, is there a difference in the color between the dome and the mare in Aitken, there?
+|139:35:20|CMP|Yes, there - yes, there is. The dome-type material is - the colors again are very hard, you know? I'm just going to have to say that it's - it's slightly darker than the mare floor - is the way it looks to me, right at this point in time. Also, the texture is a coarser texture than the floor itself. In other words, the floor, to me, is kind of a standard mare flat-floor-type stuff. And I have to compare the texture of the domical hills to - Oh - I guess what I would imagine is some of the dacite flows that I've seen out in California. You know, the heavy viscous-type flows.
+||||Tape 93B/2|Page 1103
+|139:35:20|CC|Roger. We copy there, Ron.
+|139:35:20|CC|That's good data on Aitken there, Ron. Those color differences any - on any of these things - that color is one of the most important things you can give us. We'll be all ears for that. »
+|139:35:20|CMP|Okay. I'll try to - The trouble with colors, I'm finding out, is that - it's sure a function of the Sun angle as to what color it appears to your eye.
+|139:35:20|CC|Roger. We can believe that. We just - we'll - -
+|139:35:20|CMP|... passes. Yes.
+|139:37:41|CMP|You know, you take a look at the central peak of Neper, and on the south and western edge of it, you get the vertical stripes in it or streaking like you get off of the massifs in the landing site area. And then, you look at the area around in the rim - around the rim of Neper, and you get the corncob - I guess - or Sculptured Hill-type of appearance.
+|139:37:41|CC|Ron, it's time for PAW CAMERA T-stop time.
+|139:37:41|CMP|Okay. Thank you. ***teen 24 -
+|139:38:38|CMP|Now. Okay, went to STANDBY at - whatever I said now. (Laughter)
+|139:38:38|CC|Roger.
+|139:38:38|CMP|It's been about 30 - something.
+|139:38:38|CC|That's fine. No problem.
+|139:38:38|CC|Ron, if you start your Picard orbital science photos on time, I'll be glad to call you to change to f/5*6 and the change to f/4, if you want.
+|139:38:38|CMP|Oh, okay.
+|139:38:38|CC|Okay, Ron. You can go PAN CAMERA, OFF at this t ime.
+||||Tape 93B/3|Page 1104
+|139:38:38|CMP|Okay. PAN CAMERA POWER is -
+|139:40:11|CMP|OFF.
+|139:40:11|CMP|That's Conder - Condorsay or Condorcet, or whatever you want to call it, there. Condorcet Hotel is the one that has got that diamond-shaped fill down in the - in the floor.
+|139:40:11|CC|Roger. Understand. Condorcet Hotel.
+|139:40:11|CMP|Condor - Condorcet Alfa - it's either got a landslide - I'll get a picture of that the next time with - with the other frame, but it's either got a landslide on it, or it's had a - And it doesn't look like a crater on the side of the wall, on the northwest wall of the crater.
+|139:40:11|CC|Okay. We copy that. Northwest wall of Condorcet A
+|139:40:11|CMP|That's a - the area is oval or ellipse shape. Of course, the top of the ellipse is toward the top of the crater. And it looks like it's - almost gets a flow out of the bottom of the ellipse, which is about a fourth of the way up from the bottom of the crater.
+|139:40:11|CC|Ron, can you give me a scale on the size of that flow, as compared to the rest of the crater?
+|139:40:11|CMP|Uhhh. The - the hole or the slope or the slide, or whatever you want to call it, down through there, is maybe one-eighth of the crater diameter. And the floor area is only just a real small portion of one-eighth size. it's a ... - -
+|139:40:11|CC|You seeing any lineaments in the area? Any lineaments in the area?
+|139:40:11|CMP|Yes. There was some lineaments on the area - in the area; and again, they're vertical-type lineaments or lineations kind of like the - the downslope - operations of most ... craters.
+|139:40:11|CC|Roger.
+||||Tape 93B/4|Page 1105
+|139:45:34|CMP|They're fresher ones. Okay, let's see. We're going to Picard and then on up to - Yerkes - Where's Yerkes? There it is. Okay. Let's see where we're aiming at, here. Okay, is it about time, does it look like?
+|139:45:34|CC|Roger. You can start at - you're just about 30 seconds from starting on Picard, And like you said on the map, you go up - you go up Picard, after you start up Picard X, there, and you go on up through Picard and Yerkes and that - -
+|139:45:34|CMP|Okay.
+|139:45:34|CC|- - that front there, up at Yerkes' area. That's the Yerkes. Right above there is where you change to f/11.
+|139:45:34|CMP|Okay. Okay, here we go.
+|139:46:21|CMP|Started it, Picard X,
+|139:46:21|CMP|Works better when you take the slide out.
+|139:46:21|CC|If you'll give me kind of a call at what you're aiming at, like Picard X and Picard, I can give you a call on those f-stops, Ron.
+|139:46:21|CMP|Okay. I just passed Picard X; and then the one west of that. *** what it was. The next - about half the size of Picard X. Hey, does this go right through Picard? Or south of it?
+|139:46:21|CC|No, it goes right through dead center of Picard.
+|139:46:21|CMP|Okay. We!ll get it.
+|139:47:43|CMP|Sure hope that color difference shows up in - on Picard.
+|139:47:43|CC|Roger. We hope so9 too.
+|139:47:43|CMP|There's black material - now - get on up here -you get on up here5 the darker tannish-gray material covers essentially from the east all the way around to the south. it goes outside the rim as well as inside the rim. it drapes over the rim. That can't be a shadow effect.
+||||Tape 93B/5|Page 1106
+|139:47:43|CC|Have you taken Picard yet, Ron?
+|139:47:43|CMP|Just now. Just one more, and I'll be through with Picard. Change to what?
+|139:47:43|CC|No, not yet. You don't change it until you get on the other side of Yerkes, up there. Your path goes directly between Yerkes and ... - -
+|139:47:43|CMP|Okay. Let me go to f/ll.
+|139:47:43|CC|No. Don't change to f/ll until you're at Yerkes.
+|139:47:43|CMP|Yes, okay. Until I get to the other side of Yerkes.
+|139:47:43|CMP|I can still see those dark halo craters down there. I'm going to have to look at them with the binocs sometime.
+|139:47:43|CC|Roger.
+|139:47:43|CC|Okay. When you're at Yerkes there, you want to switch to f/ll. Just - -
+|139:47:43|CMP|Okay.
+|139:47:43|CC|And looking west, you'll go right through Proclus.
+|139:47:43|CMP|Okay.
+|139:47:43|CMP|Now, what comes after Proclus?
+|139:47:43|CC|Okay. You just keep pressing on up through -through - up in towards Maraldi. You go up through Proclus, and then Proclus D; and at that point, you'll change to f/5.6 and then get - get into the Maraldi N, across the maria there; and the mare of Tran - Tranquillity.
+||||Tape 93B/6|Page 1107
+|139:47:43|CMP|Oh, okay.
+|139:47:43|CMP|It's sure easy to see why that - ray excluded zone shows up on the pictures because, to me, it's -it's a tan Sculptured Hill-type material - where -in the ray excluded zone of Proclus.
+|139:47:43|CC|Okay, Ron. The - this pass continues and you change to 5-6 up there at Proclus D at the mare/ highland contact at Proclus - up around Proclus and Franz.
+|139:53:13|CMP|Okay. it's about now. Change to 5-6. Getting out into the mare.
+|139:53:13|CC|Okay. You go right across the Mare - Maraldi M and Maraldi D, and across Vitruvius A and Vitruvius.
+|139:53:13|CMP|Oh. Okay. it's a little closer in, then.
+|139:53:32|CC|And, at Vitruvius again - -
+|139:53:32|CMP|At - Okay, Vitruvius? Yes, okay; f/4. You know, if you can look up on your map, it looks like there's kind of a subdued ... almost submerged crater, between - I mean just east of Vitruvius A. And that - that domical mounds that are sticking up around there are the same type of structures as Maraldi Gamma. And that's what lead me to believe that - you know - it's just some old jumbled-up-type stuff that was here before the mare.
+|139:53:32|CC|Roger. We copy.
+|139:53:32|CMP|That has a completely - it has a completely different - texture to it than the domical structures of Aitken.
+|139:53:32|CC|Okay. We got that.
+||||Tape 93B/7|Page 1108
+|139:53:32|CC|Okay. Have you gotten up over, vertical over Vitruvius? If you are, that's where you go to f/4.
+|139:53:32|CMP|Not quite. I'm in Vitruvius A, right now.
+|139:53:32|CC|Okay. Good show.
+|139:53:32|CMP|And I just took a peak at it with the binocs and -Let's see, I'm 5*6 at 1/250. And that's a different type of material. it looks like it's a - it almost has to be a slump-type of operation. Somehow, it gets piled up down in the middle. But they're a smoother, more subdued type of domical structures than the ones in Aitken. Okay. Switching to f/4 - -
+|139:53:32|CC|Roger; f/4 - -
+|139:53:32|CMP|- - 1/250.
+|139:53:32|CC|Your track goes right across the mare - the mare there between Tranquillity and Serenity - right across Dawes, and ends at just to the east and north of Plinius. On that - -
+|139:53:32|CMP|Okay.
+|139:53:32|CC|- - that appears to be the boundary between Tranquillity and Serenity.
+|139:53:32|CMP|No, when I take a look at it from this angle, you even get a different - the - the ejecta from Plinius kind of covers up the rilles and the annulus around Serenitatis.
+|139:57:29|CMP|Now, we're getting into a relatively low Sun. And Serenitatis is a lot lighter colored than the -the light tan, to me. And then you — in the low Sun, you look out into Tranquillitatis, across Plinius, and that demarcation turns out to be the same - same kind of gray-tan. You know, it's a darker -
+||||Tape 93B/8|Page 1109
+|139:57:29|CC|But there is a color difference between Serenity and Tranquillitatis, there?
+|139:57:29|CMP|Yes. There's a definite color difference between Tra - and it almost looks like - If you could stand on color alone, the color from Tranquillitatis extends on over, and covers into - you know, kind of drapes over the edge and covers up part Serenity.
+|139:57:29|CC|Okay. We got that. Well, that should be all of your photos there, on that pass, Ron.
+|139:57:29|CMP|Oh, okay. (Laught er)
+|139:57:29|CC|And, Ron, before we get into the visual, here, we'd like HIGH GAIN, AUTO.
+|139:58:40|CMP|Okay. HIGH GAIN -
+|139:58:40|CC|And, can you give me --
+|139:58:40|CMP|... away from the window, here.
+|139:58:40|CC|- - a magazine report on that two pictures?
+|139:58:40|CMP|Okay. We're magazine Lima Lima. And it's 129-
+|139:58:40|CMP|Yes, we're at the same Sun angle, and there's no doubt about it from Tacquet on up to Mel something or other, there's a group of small rilles in there, and those rilles have got ejected material, around and up and over the rilles. And not - not impact-type ejecta. it's got to be a volcanic ejecta of some kind up and around there. it's a dark brown -a darker brown, than the tan of Serenitatis.
+|139:58:40|CC|Roger. You're referring to the Menulus [sic] rilles, there, right to the west of Tacquet, right? That's to the west of Tacquet? Still, it looks like it's in the Serenitatis - Serenitatis Basin, right on the edge of it.
+||||Tape 93B/9|Page 1110
+|140:01:13|CC|Roger. We see -them.
+|140:01:13|CMP|And then they kind of st - they stop just even with Mel whatever it is. (Laughter) Malinius or something like that.
+|140:01:13|CC|Not Melinius or Menelaus? Pick your pick.
+|140:01:13|CMP|Yes. Okay.
+|140:01:36|CC|You see a ray coming out of Menelaus going through -through Bessel? is that one of Tycho's rays?
+|140:01:36|CMP|It disappeared. I couldn't - couldn't see that one.
+|140:01:36|CC|Roger.
+|140:01:36|CMP|Take a look the next time around.
+|140:01:36|CC|That was my question. I was just curious.
+|140:01:36|CMP|Yes. I know it shows it on the map there, and I haven't really got a good - a good clear picture of a ray, yet.
+|140:01:36|CC|I'm going to be more interested to see it - -
+|140:01:36|CMP|I'll look for it for sure the next time.
+|140:01:36|CC|— - I want to - more interested to see if you can see the alleged crater Arabia on this next pass-
+|140:01:36|CMP|(Laughter) I've been looking for that every pass. And - there's a lot of depressions - and ridges and - hills around there. it's hard to - see, you don't really get a big picture view of it. You get a little piece of it at a time. And I think, in order to really con - convince yourself that you got something there, you're going to have to get - get off - away from it. And - -
+|140:01:36|CC|Roger. Understand.
+|140:01:36|CMP|*** D-Caldera is sure a depression. Like nothing I've ever seen before.
+||||Tape 93B/10|Page 1111
+|140:01:36|CC|Got you. You're going to get a chance to get some pictures of that next - next rev.
+|140:01:36|CMP|Next rev? Okay, they ought to be good ones because the Sun angle is going to be pretty good. But, at this point, you get a dark tan, kind of a mare-type material - it's in mare-type materials And then it's a light gray down in the D-Caldera itself. Sure looks like a "D" all right. But it's a light gray down in there. And then it's got burnps that stick up, and the burnps themselves are - I want to look at it again for sure. But I get the impression the burnps, themselves, are the light tan material.
+|140:04:59|CC|Okay. Understand. The burnps are light tan. Right?
+|140:04:59|CMP|Whereas, down - Yes, the burnps are light tan. And down between the burnps that are down in the Caldera, it looks like a rough - real rough blocky - gray material.
+|140:04:59|CMP|Bob, I hope you're keeping me honest on the Flight Plan. I got my head out the window. I can't follow the Flight Plan.
+|140:04:59|CC|Affirmative. All you got is, in about 4 minutes, or 3 minutes, now, you pick up orbital science visuals on Copernicus. And we'll just stay with you on those orb science visuals right through Reiner Gajrnna. And at 143:12, you've got a rather rapid time, you might want to quit early. You got the LOI [sic] canister change. Then you got a P52. So, your choice on that. I'll call you right at 143:12, if that's what you want.
+|140:06:13|CMP|Okay, yes. Give me a call right there, because I got to get ready for this - I'll do the PJ2 first, so you all can see it, then I can always change that canister.
+|140:06:13|CC|Yes, okay. We'll concur on that; but just don't forget it.
+|140:06:13|CMP|Okay.
+||||Tape 93B/11|Page 1112
+|140:06:13|CC|Ron, you're coming up on Copernicus; I might read you some of these questions. One of them was, "Study the floor of Copernicus, and compare its material to that on the walled terraces." The other one is, "When viewed from the opposite direction, is there an extension of the structure in the middle central peak?" I guess that we refer to that as what might be a dike In that middle central peak. And "What is the nature of that structure?"
+|140:06:13|CMP|Okay. I think those things are going to be kind of hard to see. But we'll try.
+|140:06:13|CC|The back room would like you to kind of concentrate on looking on that dike, if it is at all possible, Ron. Even if you have to use - -
+|140:06:13|CMP|Okay. I'll --
+|140:06:13|CC|- - even if you have to use the binoculars.
+|140:06:13|CMP|- - get the ole binocs, here. Okay.
+|140:08:25|CC|If you want to feel for some scale on that, just a reminder: the crater is about 3 kilometers deep, and the central peak is 400 meters high, Ron.
+|140:08:25|CMP|400 meters. Okay.
+|140:08:25|CMP|Is this Eratosthenes I'm passing over now? 1 hope.
+|140:08:25|CC|Yes. You should be just about over Eratosthenes right now.
+|140:09:57|CMP|1 hope it's Eratosthenes because the old Sun's shining right on my rendezvous light, out here.
+|140:09:57|CC|Roger.
+|140:09:57|CMP|And you can't see anything out the window.
+|140:09:57|CMP|Ahhhhhh, there's Copernicus.
+|140:09:57|CMP|And I'll tell you what. 1 think we - need more daylight (1aught er).
+||||Tape 93B/12|Page 1113
+|140:09:57|CC|Kind of tough, huh?
+|140:09:57|CMP|Yes, especially the binocs cut off - they must cut off too much light or something.
+|140:09:57|CC|Okay, we understand that. Might just stick with the naked eye then and do the best you can, I guess.
+|140:09:57|CMP|Well, I'm trying to - to recall what Jack said on it, and what I see. I'm not sure, did he mention the - the dark part to the south - on the south side of Copernicus? In other words, you can see albedoes real well, and there's a dark area that extends maybe - oh, a half a crater diameter, three-quarters of a crater diameter to the south5 and then it kind of flows down in -I don't know - I don't want to say flows, but at least it carries itself down - down the crater wall - down to the crater floor. And this is kind of in the south maybe from 6 - or let's see, from about 4:30 to 7:30. And then the rest of the crater all the way - all the rest of the way around it, you can see light albedo step all away around the crater. The first step down about a fourth of the way down in the crater wall.
+|140:13:31|CC|I don't recall that, but sounds good, Ron.
+|140:13:31|CMP|Okay. Unfortunately, those things really disappear fast.
+|140:13:31|CC|Roger. Take - take a look at the peaks and concentrate on that mountain in the center of the peaks, If you will, Ron.
+|140:13:31|CMP|Okay. is - it's already passed now but I can recall as - as I was looking at it, the peaks -well, seems to me like there's four and they have the same light albedo texture as the - not texture, but the same light albedo - as that first - rings on the inner wall of the crater. And then interspersed between those white peaks were a darker -you could just tell it's the darker - albedo. And you couldn't tell for sure - it's not part of the crater floor, it's just a darker albedo interspersed in there. And I spent - oh, half my time trying to acquire the thing in the binocs. And it just cuts - the binocs just cut down the light too much.
+||||Tape 93B/13|Page 1114
+|140:13:31|CC|Okay. We'll try maybe later on with the binocs on Copernicus. I guess you're coming up in the Kepler area, aren't you - your - your right coming up on Kepler B.
+|140:13:31|CMP|Yes. I think there should be Kepler B right out there now.
+|140:13:31|CMP|Let's see - Yes, that's out in Oceanus Procellarum, I guess, isn't it?
+|140:15:32|CC|That's af firmat ive.
+|140:15:32|CMP|Yes, and then Aristarchus is coming up, I think, isn't it? No, that's Kepler.
+|140:15:32|CC|I think Kepler is the real bright one with many bright rays from - coming out it.
+|140:15:32|CMP|Yes, it's got a - got a lot of the bright rays on it. Kepler D, and must be another one down there. They, the two small Keplers, don't show any bright rays at all. Do show they're - they've bright slopes on the inner walls. The rays of Kepler really show up quite markedly in the earth-shine. I bet - I bet they show up probably better in earthshine than they do - otherwise. Because I think earthshine tends to bring out the - the albedo differences - considerably.
+|140:16:55|CC|Why don't you give me a hack when you're right over Kepler, Ron?
+|140:16:55|CMP|Okay, will do. And then what's directly south of Kepler, there's one about the same size as Kepler?
+|140:16:55|CC|Encke is about the same size and directly south of Kepler.
+||||Tape 93B/14|Page 1115
+|140:16:55|CMP|Yes, that's Encke. Okay, Encke.
+|140:16:55|CMP|Encke has - departing from the west - Yes, no, I mean departing on its eastern side - it's either -it's a light - I don't see how in the world it can have only one ray, but that's the only one I can see. But there's a light streak - oh about an eighth of the diameter of Encke; and it goes out to the east a little ways and then curves back - it goes out to the east - oh, about three-quarters of the crater diameter, and then it essentially curves back to the northeast and continues on out for another crater diameter.
+|140:18:20|CC|Roger. Good show.
+|140:18:20|CMP|That might be - that might be the margin of the highlands, there. I'm not sure.
+|140:18:20|CC|Okay.
+|140:18:20|CMP|Let's see, Reiner Gamma is going to be out of window 3, won't it?
+|140:18:20|CC|That's affirmative, Ron. Window 3 for Reiner Gamma.
+|140:18:20|CMP|Yes. Okay. Just north of - sure can't remember those names - Kyber?
+|140:18:20|CC|North of Kepler, there?
+|140:18:20|CMP|Kepler. Yes.
+|140:19:45|CMP|And I'm looking out window 3 now, and you can still see those rays. They must be coming from Kepler. They go way on up north toward - the next one is - is - -
+|140:19:45|CC|Yes, did you see them going up toward Mariun, there
+|140:19:45|CMP|Yes, there's ... zero phase. Yes, I can see Aristarchus. I think that must be Aristarchus. Way back over to the north.
+|140:19:45|CC|Yes, that's - that's Aristarchus.
+||||Tape 93B/15|Page 1116
+|140:19:45|CMP|Sure - -
+|140:19:45|CC|That's affirm.
+|140:19:45|CMP|--yes , yes.
+|140:20:31|CC|Can you see anything on that Marius Rille up there? Or is that too far up?
+|140:20:31|CMP|Yes. it - I've sort of kind of looking for it. I can just see some - about three or four light spots up in there. But that's a long ways away, you know.
+|140:20:31|CC|Roger.
+|140:20:31|CMP|It's about halfway - it's about halfway to the horizon. Or the real light area. Let's see, and you can see Reiner Gamma. I guess Reiner is the crater there. ... isn't there a big crater just before you get to it - -
+|140:20:31|CC|That's affirm.
+|140:20:31|CMP|- - I think. And then Reiner Gamma - Hey, you know, from here it almost looks like it's the -the ejecta from a crater, because (chuckle) and then continuing from the bottom of the - bottom of the Gamma is a - again a lighter albedo that comes down toward the crater Reiner about halfway between the two of them, and then it takes off and goes perpendicular to - to the line between Reiner and Reiner Gamma.
+|140:21:51|CC|Roger. We copy that.
+|140:21:51|CMP|And that's a lighter - lighter albedo demarcation, there.
+|140:21:51|CC|Is there any topographical expression associated with brightness - with the brightness of Gamma?
+||||Tape 93B/16|Page 1117
+|140:21:51|CMP|Well, that's what it - is - is very hard to pick up. Maybe that's what the - what I'm describing here - is going perpendicular to the - to the two of them. I got to check and see if that's a - you know, a rise from a relatively flat area up to a kind of a - a hilly terrain.
+|140:21:51|CC|Any dark deposits associated with the Gamma? Reiner Gamma?
+|140:21:51|CMP|Yes, it's - the Gamma, itself, is - is dark. Now, when zero - zero - Hey, I think we're going to be lucky - zero phase is going to go right through it. But there are dark - in other words, the Gamma, itself - is about the same size as the - as the -the full extension is about the same size as the crater Reiner. And then half of a crater diameter on the inside of that - and, of course, in the Gamma-type shape is a dark type material. Zero-phase is going right through it right now. By gosh, it didn't blot out the dark at all.
+|140:23:46|CC|Got any — any more thoughts about what it is?
+|140:23:46|CMP|The--
+|140:23:46|CC|Do the light-colored markings to the north look the same, Ron?
+|140:23:46|CMP|You know, you get - you mean off toward the Marius Hills area?
+|140:23:46|CC|Yes, that's right.
+|140:23:46|CMP|There's a - the only light - yes, the only light-colored stuff that you can see - I don't see anything off towards the Marius Hills on the thing. You see it right around Reiner Gamma itself. And intermixed within that is that dark - it's a dark annulus, except the annulus is on the inside of the white. And it looks like - I don't know if your eyes deceive you in this darkness or not, but it sure looks the light-colored stuff is raised up with respect to the dark. In other words, the dark almost looks like the interior of a crater -crater rim, interior of a crater wall, you know - -
+||||Tape 93B/17|Page 1118
+|140:24:58|CC|Roger.
+|140:24:58|CMP|- - with the light material around it. Now that's what it looks like in the - in the darkness. And then on the - let's see - southwestern rim of it, it almost looks like you've got a breach of the dark albedo stuff going out to the southeast corner of it in two spots. Okay, then the light stuff turns into - how do you put it - a darker swirly looking type stuff as you continue on west of Reiner Gamma. it crosses kind of a wrinkle ridge, I can see a wrinkle ridge down there, now. it crosses the wrinkle ridge with the no - no apparent change in albedo, anyhow, as it crosses the ridge.
+|140:24:58|CC|Roger. Got you, and I think I've got the ridge on my map. I think we've got you.
+|140:24:58|CMP|Okay.
+|140:24:58|CC|Still - still think it might be a ray from one of those craters - -
+|140:26:09|CMP|That's the last of the - you know, it's kind of associated with its own little thing. it doesn't look like it's a ray. it doesn't look like a ray, in other words, it doesn't thin out in different parts of it, like a ray does.
+|140:26:09|CC|Okay.
+|140:26:09|CMP|It looks like it was a lot thicker than - than a ray.
+|140:26:09|CMP|Yes. Okay, this must be - what - Riccioli, I guess? The big crater? About -
+|140:27:03|CMP|Now.
+|140:27:03|CC|You're just coming up on Ricci - Grimaldi and you got to go through Hevelius, first of all, and then you get Into Grimaldi and Riccioli.
+|140:27:03|CMP|Okay, that's Hevelius, then, is the one I'm passing right now. Hevelius is showing up real clear. You can see the slumping of the crater walls coming down there. it's a fairly old-type crater because you don't see any - any rays associated with it. Although the - the slumping is not completely degraded. There's a flat floor with a central peak on it. The central peak has the same albedo -it's a lighter albedo - no, the same albedo texture as the walls - as the west wall.
+||||Tape 93B/18|Page 1119
+|140:28:20|CMP|We're passing over a - well, generally a hilly type of terrain, and then just before we get into Grimaldi area, it looks like we're out into a plains-type material, again, interspersed with a hummocky-type. I guess that hummocky - is -hummocky stuff is associated with Grimaldi.
+|140:28:20|CC|Roger. Looks like you're just passing a little bit to the west of Grimaldi now. You concur with that? About right over Riccioli?
+|140:28:20|CMP|It doesn't look like Grimaldi to me - I guess it is, though.
+|140:28:20|CC|Okay, Ron. You probably ought to think about - If it's getting kind of dark there for seeing or anything, you might consider getting in the P52, although you're a couple more minutes - still a couple minutes left on it. If you can see back at anything within Reiner Gamma - -
+|140:28:20|CMP|Okay.
+|140:28:20|CC|- - from this angle, it would be good; otherwise, if it's out, you ought to just consider the 52.
+|140:29:48|CMP|Ah, she's pointing in the wrong direction.
+|140:29:48|CC|Okay. That was some good stuff, Ron. Just don't hesitate to keep talking on that. We can sort it all out when we get down.
+|140:29:48|CMP|Okay. Well, the bright - I'm looking out window I now. Must be out to the north I guess, and there's two very bright craters, in there, just crossing some rilles that run north and south. There's a little bit of a mare material out in there. I wish I knew what that crater was. Weil, I better get going on P52, I guess.
+||||Tape 93B/19|Page 1120
+|140:29:48|CMP|{Humming - "Deck the Halls")
+|140:34:17|CMP|Old heaters sure work on these optics. They're always nice and warm when you take them out.
+|140:34:17|CC|Well, Roger. Understand you're changing the LOH -LiOH canister now.
+|140:34:17|CMP|(Laughter) No, the optics.
+|140:34:17|CC|Okay, good.
+|140:34:17|CMP|Tele - yes - telescope. When you - you take the telescope out, it's got a heater on it in there and it keeps it nice and warm. Okay, CMC, FREE. Do a P52, option 3. Okay, then back to P20. Okay, this time we will not forget to go to AUTO.
+|140:34:17|CMP|Okay, computer, find me a star. *** out there. Menkar. Okay, take me to Menkar. Oh!
+|140:36:03|CMP|Looks like Menkar.
+|140:37:06|CMP|Okay. Canopus. Canopus. Okay, take me to Canopus.
+|140:37:06|CMP|And Canopus is as bright as all get out.
+|140:37:06|CC|Just like the simulator, huh?
+|140:37:06|CMP|*** bright that - brighter than any star we've ever had in the simulator. *** so bright it almost blanks out the crosshair. Got Saturn.
+|140:37:06|CC|Yes, hope it's not Saturn, huh?
+|140:37:06|CMP|(Laughter) Me, too.
+|140:37:06|CC|Well, we'll know in a minute when we look at your NOUN 05-
+|140:37:06|CMP|Oh, man, okay.
+|140:37:06|CC|Nothing wrong with that one.
+|140:37:06|CMP|That's pretty good.
+||||Tape 93B/20|Page 1121
+|140:37:06|CC|Yes. We'll buy that.
+|140:37:06|CMP|Think that's a good one?
+|140:37:06|CC|Okay, Ron, you can go ahead and torque.
+|140:37:06|CMP|Okay. We'll torque at 19*
+|140:37:06|CC|Good show, huh?
+|140:37:06|CMP|Now my new - bet that's in there, isn't it - unit vectors of Saturn. Would that be in here, somewhere?
+|140:37:06|CC|Say again, Ron?
+|140:37:06|CMP|These unit vectors of Saturn» aren't they in my -planet unit vectors — yes, stars - oh, here we go.
+|140:39:57|CC|Okay, we just got a beautiful picture of the Earth from the - from the Rover. Just spectacular picture of the Earth.
+|140:39:57|CMP|Oh, really?
+|140:39:57|CC|Yes.
+|140:39:57|CMP|Great.
+|140:39:57|CC|Just beautiful. Old Fendell's been hunting for all night, but he finally found it. it's just beautiful.
+|140:39:57|CMP|(Laughter)
+|140:39:57|CC|Ron, we're 5 minutes from LOS here. Everything's looking great. Just - you have to finish off your checklist on that TM, P20 and CMC MODE back to AUTO. And then just a reminder on that LOH [sic] canister: if you'd go back and pick that up, we'd appreciate it.
+|140:39:57|CMP|Okay, we'll get that one- I'm going to try and see if I can find Saturn here.
+||||Tape 93B/21|Page 1122
+|140:39:57|CC|Okay.
+|140:39:57|CC|This VOX mode is just great. We're sitting here following what you're doing. You don't even have to talk to us. it's really great.
+|140:39:57|CMP|(Laughter) I think it's great, too.
+|140:39:57|CC|Your voice is so clear - - Oh, shucks. Now the fuel is - —
+|140:39:57|CC|You sound like you're in the next room.
+|140:39:57|CMP|Oh, really? You know, that's funny because I really can't hear myself and the - you know, on the intercom.
+|140:41:28|CC|You sound - you sound - -
+|140:41:28|CMP|Well, I'll have to look ... - -
+|140:41:28|CC|- - louder in my earphone than in the simulator, when you're down at the Cape, or over here across the way. You're just loud and clear, even better than down there.
+|140:41:28|CMP|(Laughter) That's good. Well, it's beyond the field of view. So we'll have to catch it another time.
+|140:41:28|CC|Yes, that's too bad.
+|140:41:28|CC|We're going to pick you up at l44:10. I'll be losing you in a minute or so. And 144:10 has a good back side.
+|140:41:28|CMP|Okay.
+|140:41:28|CC|And you might check your ZPN settings when you -your sensors - when you get a chance on the back side here. They're still not giving much good data.
+|140:41:28|CMP|Okay. Yes, it looks like I'll have a little time this time, so I'll do it.
+||||Tape 93B/22|Page 1123
+|140:41:28|CC|Roger. Just don't let them tear you away from the window, though.
+|140:41:28|CMP|(Laught er) Okay.
+|140:41:28|CC|And we've dumped the data from the last couple of back-side revs and you sound real good, Ron.
+|140:42:50|CMP|Okay, hey, real fine. You know the guys at lunar surface don't even have any ZPN, you know. They left it up here.
+|140:42:50|CC|Roger. {Laughter)
+|140:42:50|CMP|I didn't even - I didn't know that until they left. Okay, the old LiOH canister, let's see - 13 into A, and 13 must be in A-9 then. (Humming)
+|140:43:54|CMP|Oh, there's old 13. Take 14 out, so we - put ... in the bottom.
+|140:43:54|CC|Hey, Ron. We just had a discussion here and your point is well taken, and why don't you just go ahead, if you want to, and take the ZPN sensors, the yellow plug ones, off and take them off for the evening, if you like.
+|140:44:25|CMP|Hey, that sounds like an excellent idea. Thank you.
+|140:45:09|CMP|Okay, we're 11 - out - picked nice small ones, I guess. None of them have been stuck so far.
+|140:45:09||BEGIN LUNAR REV 29
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
 |152:01:17|CC|Glad to hear it, Ron. Good morning.

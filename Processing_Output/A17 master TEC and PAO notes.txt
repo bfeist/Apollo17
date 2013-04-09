@@ -113,3 +113,4 @@
 |138:51:48 - Begin travel to station 2 (7km travel)
 |139:14:55 - CC mentions "back room"
 |139:23:51 - LMP's camera has come loose
+|140:09:57 - dusts lens at Station 2
