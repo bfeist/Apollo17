@@ -1703,28 +1703,7 @@
 |140:18:20|CC|Okay.
 |140:18:20|CMP|Let's see, Reiner Gamma is going to be out of window 3, won't it?
 |140:18:20|CC|That's affirmative, Ron. Window 3 for Reiner Gamma.
-|140:18:20|CMP|Yes. Okay. Just north of - sure can't remember those names - Kyber?
-|140:18:20|CC|North of Kepler, there?
-|140:18:20|CMP|Kepler. Yes.
-|140:19:45|CMP|And I'm looking out window 3 now, and you can still see those rays. They must be coming from Kepler. They go way on up north toward - the next one is - is - -
-|140:19:45|CC|Yes, did you see them going up toward Mariun, there
-|140:19:45|CMP|Yes, there's ... zero phase. Yes, I can see Aristarchus. I think that must be Aristarchus. Way back over to the north.
-|140:19:45|CC|Yes, that's - that's Aristarchus.
-||||Tape 93B/15|Page 1116
-|140:19:45|CMP|Sure - -
-|140:19:45|CC|That's affirm.
-|140:19:45|CMP|--yes , yes.
-|140:20:31|CC|Can you see anything on that Marius Rille up there? Or is that too far up?
-|140:20:31|CMP|Yes. it - I've sort of kind of looking for it. I can just see some - about three or four light spots up in there. But that's a long ways away, you know.
-|140:20:31|CC|Roger.
-|140:20:31|CMP|It's about halfway - it's about halfway to the horizon. Or the real light area. Let's see, and you can see Reiner Gamma. I guess Reiner is the crater there. ... isn't there a big crater just before you get to it - -
-|140:20:31|CC|That's affirm.
-|140:20:31|CMP|- - I think. And then Reiner Gamma - Hey, you know, from here it almost looks like it's the -the ejecta from a crater, because (chuckle) and then continuing from the bottom of the - bottom of the Gamma is a - again a lighter albedo that comes down toward the crater Reiner about halfway between the two of them, and then it takes off and goes perpendicular to - to the line between Reiner and Reiner Gamma.
-|140:21:51|CC|Roger. We copy that.
-|140:21:51|CMP|And that's a lighter - lighter albedo demarcation, there.
-|140:21:51|CC|Is there any topographical expression associated with brightness - with the brightness of Gamma?
-||||Tape 93B/16|Page 1117
-|140:21:51|CMP|Well, that's what it - is - is very hard to pick up. Maybe that's what the - what I'm describing here - is going perpendicular to the - to the two of them. I got to check and see if that's a - you know, a rise from a relatively flat area up to a kind of a - a hilly terrain.
+|140:18:20|CMP|Yes- you know, a rise from a relatively flat area up to a kind of a - a hilly terrain.
 |140:21:51|CC|Any dark deposits associated with the Gamma? Reiner Gamma?
 |140:21:51|CMP|Yes, it's - the Gamma, itself, is - is dark. Now, when zero - zero - Hey, I think we're going to be lucky - zero phase is going to go right through it. But there are dark - in other words, the Gamma, itself - is about the same size as the - as the -the full extension is about the same size as the crater Reiner. And then half of a crater diameter on the inside of that - and, of course, in the Gamma-type shape is a dark type material. Zero-phase is going right through it right now. By gosh, it didn't blot out the dark at all.
 |140:23:46|CC|Got any — any more thoughts about what it is?
@@ -1820,6 +1799,190 @@
 |140:44:25|CMP|Hey, that sounds like an excellent idea. Thank you.
 |140:45:09|CMP|Okay, we're 11 - out - picked nice small ones, I guess. None of them have been stuck so far.
 |140:45:09||BEGIN LUNAR REV 29
+||||Tape 94B/1|Page 1181
+|141:03:00|CC|Ron, this is your friendly inter - intervalometer speaking, can I help you?
+|141:03:00|CMP|(Laughter) Okay. Let's see, we're about 159 -I'm going to take two more pictures on this frame, and finish it up on Lima Lima, huh? Off to the north. Maybe it's got 160, I'll keep it.
+|141:34:12|CMP|Okay, Lima Lima is on l6l. I don't know how many's left. It says 160 on it, still going, but -
+|141:34:24|CMP|Mike Mike is starting with number 1.
+|141:34:24|CC|Mike Mike, number 1. Roger.
+|141:34:24|CC|Ron, just for your information, we're not going to give you a TEI-49 pad or a state vector this pass. We're going to give it to you at the beginning of the next pass. We want to refine our data a little bit.
+|141:34:24|CMP|Oh, okay. Hey, I found the intervalometer, stuck under the seat - between the web and the - the metal part. ... that.
+|141:35:54|CMP|250 lens on there.
+||||Tape 94B/2|Page 1182
+|141:35:54|CMP|Okay. (Singing) Okeytedokeyte. Let's see now. ... 8, ... 50, ... 88 frames - take lots of pictures. Here's frame 160 on Lima Lima. And now configure camera. Okay, Peirce ... that ... and then mag QQ's standing by (whistling).
+|141:38:48|CC|How'd the photos go, going right across Arabia there, on this last - little bit of go, Ron?
+|141:38:48|CMP|Okay. Yes, those were good. You can - you can kind of see the topographic rise in the Saenger area especially, it's a little bit higher to the west of Saenger than to the east. But you can still see a general rise in that area.
+|141:38:48|CC|Roger.
+|141:38:48|CMP|You get a kind of a hint of the - the second ring of Arabia.
+|141:38:48|CC|Real good, Ron. We need to get the battery A -terminate the charge on battery A.
+|141:39:39|CMP|Okay, BATT CHARGER, OFF. And A looks about 37 volts. RELAY BUS is going CLOSED.
+|141:39:39|CMP|... of a time to lose my map.
+|141:39:39|CMP|(Singing) There it is.
+|141:39:39|CMP|Okay. This is on the pan camera photos. When you want to start looking at something, look for a small - Okay, just to the east of Abul Wafa, there's a small crater. About - oh, he must be about 2 to 400 meters in diameter. And he's got a black strip right on the western wall - going down - going down the western wall of the crater. It doesn't look like the strip extends beyond the rim at all; just down inside the crater wall. Also next to a - Now I forgot where I was.
+|141:39:39|CC|What was that najne of that crater with the black wall there; where - where was it near again?
+|141:39:39|CMP|Well, it's right near Abul Wafa on the first ring of Arabia.
+||||Tape 94b/3|Page 1183
+|141:39:39|CC|Okay.
+|141:39:39|CMP|And I think that ought to be up in - should show up in the pan camera.
+|141:39:39|CC|Okay, good. Good show. You notice the swirls right near Abul Wafa?
+|141:41:58|CMP|Yes, I really saw them that time. And where the swirls, they really show up, are about a crater diameter from Firshov - crater diameter to the west. And I talked about it on the tape. But, basically they're kind of concentric swirls in that area with light and dark. And the contrast between the light and dark is - is something tremendous. The dark is not a mare dark - tan, but it comes real close to it.
+|141:41:58|CC|Real good. Ron, you're coming up within a minute of this or a couple minutes of this orbital science photo of Peirce starting at - in the Sea of Cr -Crisium and going through Peirce in that area.
+|141:41:58|CMP|Okay. Let's see that ought to be out window 3. We are going to stay f/8 all the way across with this one, huh?
+|141:41:58|CC|Wo, it says f/8 at start. And then according to the Flight Plan, you change to f/5-6 and you'll change that at about Macrobius A. And then you'll go to 1/125 right at the Littrow area.
+|141:43:31|CMP|Okay. ... do I want to jump to f/ll going across those highlands, huh? At - on the western edge of Crisium?
+|141:43:31|CC|Well, see, f/8 - 1 shows f/8 on the map all the way across Crisium, starting at f/8 and using f/8 all the way across Crisium.
+|141:43:31|CMP|Okay. Let's see there's Picard X, so we should start in here somewhere.
+|141:43:31|CC|Yes, it's those rilles or whatever you call - rilles I guess, to the north of the Picard X is where you start.
+||||Tape 94B/4|Page 1184
+|141:43:31|CMP|Okay, me get a shot of those - oh, come on ... longer. Okay, we started it, ... then about 10 [?] time.
+|141:44:54|CMP|Okay. There is absolutely no color variation on these flow fronts or scarps, or - By golly, flow fronts, looks to me like. Just looking north, right from the Picard X.
+|141:44:54|CC|Roger. You'd call them flow fronts and -
+|141:44:54|CMP|Well, flow front, or - or I've hardly even, it's -let me see they're bright on the high side, as you're looking north. You know, they're - they're bright on the high side. I would presume they kind of run east and west.
+|141:44:54|CC|Roger. According to the map, they're just exactly east and west.
+|141:44:54|CMP|~ - ... inside of them. Yes.
+|141:44:54|CC|Your photo path goes directly between Peirce and Pease - Peirce Bravo. And then leads up toward Peirce Charlie just a little bit north of Peirce Charlie.
+|141:44:54|CMP|Okay.
+|141:46:21|CMP|Well, Peirce Charlie has really got some black lines going down, vertical down them.
+|141:46:21|CC|You talking about inside the crater, black vertical lines inside the crater?
+|141:46:21|CMP|Yes, inside the crater. And it also looks like it carries on across. As I get a little bit closer, I'll see if it carries on across or not. This can't be shadow. You can still see the darker ennuius around - Peirce. Peirce Bravo's also got a dark annulus around it. In Peirce Bravo has only - goes out to about a half a crater diameter, though.
+|141:46:21|CC|Roger.
+||||Tape 94B/5|Page 1185
+|141:46:21|CMP|Well, you know Peirce Charlie looks like - the sides of the South Massif, almost. Look down in that. In other words, it is kind of highly eroded, elongate crater.
+|141:46:21|CMP|... are all vertical; you know, I don't - I don't -vertical is the only way I know how to describe them. They point toward the - you know, radial -they point radial, but they all point toward the middle of the crater.
+|141:46:21|CC|Roger.
+|141:46:21|CMP|Does that make sense? (Laughter)
+|141:46:21|CC|We will try to salve them out. Yes, that makes sense, Ron.
+|141:46:21|CMP|Okay.
+|141:46:21|CMP|Peirce Charlie was right In the middle of a little framelet there. South of Microbius, huh?
+|141:46:21|CC|Yes, just a little bit south of Mic - Macrobius there. Lay it on the edge of it actually, and on the nor - southern edge of Macrobius.
+|141:46:21|CMP|Okay.
+|141:46:21|CC|As you get up ahead, between the contact line between the mare and the highlands at Macrobius Alfa, is where you'll change to 5*6.
+|141:46:21|CMP|Okay.
+|141:49:54|CMP|Hey, do we go north of Macrobius Alfa?
+|141:49:54|CC|Boy, it looks like you just, yes, you're north of Macrobius Alfa. That's affirm. You're even just a little bit north of Macrobius Bravo.
+|141:49:54|CMP|Yes, that's ... what I mean ... Macrobius 3ravo. Boy, it's a beautiful - between Macrobius 3ravo and Macrobius there is a beautiful - ray excluded -what you call it - butterfly! Little butterfly -about a 1000-meter crater.
+||||Tape 94B/6|Page 1186
+|141:49:54|CC|Roger.
+|141:49:54|CMP|Got him (laughter). 5-6.
+|141:49:54|CMP|You know this - -
+|141:49:54|CC|Okay, you ought to be changing 5-6.
+|141:49:54|CMP|Okay. Let's see about 5 - Now here again is where Sun angle may make a little bit of difference on the thing. But this kind of a hummocky, well, close to sculptured-hill-type of material that we are flying over between Proclus and Macrobius A and B, doesn't look at all like the Sculptured Hills in the landing site area, next to - In other words, all along the edge of Crisium, or the edge of Serenitatis you have the sculptured-hills effect that have the vertical, dark lineations'in it. These vertical, radial or whatever you want to -lineations, striations, I guess, dark striations are not apparent under the western edge of Crisium at all. Where does this come out by the landing site? North of the landing site?
+|141:52:16|CC|Roger. You're quite a bit north of the site. You are over Li - Littrow. In fact, you're north of Littrow.
+|141:52:16|CMP|Over Littrow?
+|141:52:16|CC|You're north of Littrow.
+|141:52:16|CMP|Okay, we're to get the Littrow ...
+|141:52:16|CC|Okay, when you cross into the mare on Serenity there, after Littrow, you want to change to 1/25.
+|141:52:16|CMP|... 25; okay. So that'll be -
+|141:54:26|CC|And, Ron, this is camera path ends at Bessel A -Bessel Alfa in the Sea of - in Serenity -Serenitatis.
+|141:54:26|CMP|Okay. Okay, let's see, that's beyond the rilles out there. Let's see, it's quite a - in the midale isn't it - way out there. Okay.
+||||Tape 94B/7|Page 1187
+|141:54:26|CC|Yes, you cross those east-west - east-west running rilles there in Serenitatis and then get right up to the Bessel.
+|141:54:26|CMP|Okay.
+|141:54:26|CMP|Well, I don't think that scarp could be a flow front across there, but it sure does look like it. The thing that changes your mind about it being a flow front is that it goes up to North Massif. I couldn't see any real continuation. It looks like there's two possible continuations on a south side and the South Massif. I'll have to take another look at that the next time around.
+|141:54:26|CC|Okay, HIGH GAIN to AUTO when you get a chance there, Ron. And you got to switch over for this terminator photo P29 Charlie on Sulpicius Gallus.
+|141:54:26|CMP|Okay.
+|141:57:18|CMP|Okay. Serenitatis Sulpicius Gallus, huh?
+|141:57:18|CC|Roger. You get - -
+|141:57:18|CMP|Two of 500.
+|141:57:18|CC|And then f/ll on the mountains right behind, right to the west of Sulpicius Gallus. That's using a 250-millimeter.
+|141:57:18|CMP|Okay. These are 250 m - 250, f/22. Okay, and it's mag Quebec Quebec, starting at 79-
+|141:57:18|CC|Got it, starting at 79- Roger.
+|141:57:18|CMP|Got six and one - yes, which window was the -
+|141:57:18|CC|I don't have my friendly helper here or I could give it to you.
+|141:57:18|CMP|There's the ones that's going to be ... (laughter).
+|141:57:18|CC|CM-5 is what we think.
+|141:57:18|CMP|... seeing it out of window 3.
+||||Tape 94B/8|Page 1188
+|141:57:18|CC|Try CM-5, Ron.
+|141:57:18|CMP|And - Yes, that CM-5 is ... Okay, about six of them around Sulpicius Gallus there. There's 22 to 500.
+|141:57:18|CC|Okay. Get those Haemus Mountains right to the west of Sulpicius Gallus.
+|141:57:18|CMP|Yes.
+|141:57:18|CC|Then, you get D-Caldera.
+|141:57:18|CMP|Okay. Hope I can find it this time again (laughter) Wouldn't that be a heck of a note?
+|141:57:18|CC|You better believe it.
+|141:59:32|CMP|Try to take a picture of it and couldn't find it (laughter). Okay. Let's see, 1, 2, 3, 4, 5. Okay, next one is 11.
+|141:59:32|CC|Okay. On D-Caldera, you want to go, f/8 at 1/250.
+|141:59:32|CMP|Okay. Let me get some of these mare. Still got to get the Haemus Mountains there.
+|141:59:32|CC|Okay.
+|141:59:32|CMP|And got to get some of the - Okay, D-Caldera. 250th, huh?
+|141:59:32|CC|Yes, 1/250 f/8, f/8, 1/250 on D-Caldera.
+|142:01:31|CMP|Okay. I found it.
+|142:01:31|CMP|Okay. What's the next one?
+|142:01:31|CC|Okay. I don't even know what the name of it is. It's just immediately up that hill and rille there, just immediately to the west of D-Caldera.
+|142:01:31|CMP|Okay.
+|142:01:31|CC|Looks like it would be right at the terminator.
+|142:01:31|CMP|... 125th. Yes, it is, as a matter of fact.
+||||Tape 94B/9|Page 1189
+|142:01:31|CC|Ron, when - soon as you're done with the photos, you might check the laser altimeter. We - it went belly up during this photo pass - just absolutely quit like you had shut it off with your toe or something.
+|142:01:31|CMP|Thank you. Okay. It is off, as a matter of fact. Shall I turn it on now?
+|142:01:31|CC|Why don't you turn it on so we'll get a check here, and then it'll be coming off in a second. Think you got it with a toe or something?
+|142:03:32|CMP|Okay. It's ON. I must have.
+|142:03:32|CC|Okay. It's working good, too.
+|142:03:32|CMP|I wonder if I ever turned - I wonder if I ever turned it on?
+|142:03:32|CC|Wo, it was - it was on and running, Ron. And then all of a sudden, about 5 minutes ago, we got just a complete belly up; no power to it at all.
+|142:03:32|CMP|Oh. Well, I'll tell you, I've (chuckle) worn the toes through in my underwear here, so you do a lot of rolling around (chuckle). Let's see - let's recapitulate here. In mag QQ, we're on frame 104.
+|142:03:32|CMP|I'm not sure where it was when we started on that one.
+|142:03:32|CC|I think you gave me a call at 79> didn't you?
+|142:03:32|CMP|I didn't write it down (chuckle).
+|142:03:32|CC|That's all right. You - We've gotten all your calls. I think Tommy can pick that one up.
+|142:03:32|CMP|Oh, okay.
+|142:03:32|CC|Tommy's shaking his head that he's got it all squared away. So, if the bookkeeper's right, we're right.
+|142:03:32|CMP|Oh, okay (laughter).
+||||Tape 94B/10|Page 1190
+|142:03:32|CC|And you can go ahead and start down that line now. We've seen the laser altimeter enough, I think.
+|142:05:32|CMP|Okay. I have the camera OFF. Yes, it's dark down there. I'm not getting any more pictures. Okay.
+|142:05:46|CMP|MAPPING CAMERA to OFF. Wait 30 seconds, it says. Okay. Rolling them up.
+|142:05:46|CC|Okay. You've got MAPPING CAMERA to STANDBY and IMAGE MOTION, OFF.
+|142:06:39|CMP|Okay. MAPPING CAMERA to STANDBY. OFF, barberpole, gray. LASER ALTIMETER, OFF. Okay. We've already in CMC FREE, and we're rolling left.
+|142:06:39|CC|Roger. Ron, IIJCO just asked me to remind you that those high gain angles that you see in this block here are strictly if we lose lock here during the manuever. That's the reacquire angle.
+|142:06:39|CMP|Okay. That's after we get the attitude. Okay.
+|142:06:39|CC|Watching your buddies on the screen down here right now, and they've, believe me, they've got more black showing than they do white right now -of those suits. They've really been down among them.
+|142:06:39|CMP|They out to the Scarp yet?
+|142:06:39|CC|Yes, they're - Let me ask Bob here.
+|142:06:39|CMP|At the edge of the mountain? Have they - -
+|142:06:39|CC|They've gone up and down the Sc arp. Wh -
+|142:06:39|CMP|Okay. They've gone all the way past Station 2 and then they're going to Station 4, huh?
+|142:06:39|CC|Roger. Let's see, they're - they're at Station 3 right now, matter of fact. That's where they were showing them on TV. They've been up the Massif and up to Station 2, and now they're back down to Station 3.
+||||Tape 94B/11|Page 1191
+|142:08:42|CMP|Okay, Mike Mike is at 95- I don't know if I ever told you that or not. I think I always get more pictures than I'm supposed to.
+|142:08:42|CC|We decided that what you're doing is trying to use up all the crew options before Jack gets up there.
+|142:08:42|CMP|(Laughter) You guessed it!
+|142:08:42|CMP|Hey» yes, which reminds me, if - you know, you get to a point where we've got one of these mags that doesn't have enough for a complete set, you know we could make those options on the end of a - a reel and use Papa Papa, there.
+|142:08:42|CC|Roger. That's - that's affirmative.
+|142:08:42|CC|Ron, I got to ask this - During the last eat period, did you leave the Hasselblad running without a mag in it, just to pull our chain?
+|142:08:42|CMP|(Laughter) No, honest I didn't; I really didn't. You heard something clicking all the time, huh?
+|142:08:42|CC|Roger. It's very periodic, just like it was on the intervalometer and it sounded just like - just like the Hasselblad sounded this last time. Just exactly like it.
+|142:08:42|CC|Tommy was just pulling his hair out over there.
+|142:08:42|CMP|Did - have I used up any more film on some of these than I should have?
+|142:11:08|CC|No, we haven't caught any, anomalies in the film usage.
+|142:11:08|CMP|(Humming: "Who's afraid of the Big Bad Wolf")
+|142:11:08|CMP|„.. 32; roll attitude.
+|142:14:39|CMP|You know, I just noticed something that I didn't know before.
+|142:14:39|CC|What's that ?
+||||Tape 94B/12|Page 1192
+|142:14:39|CMP|That is that the - when you manuever, you know, in a simulator, it's Just like the eye-view ball. You know, it's nice, smooth transition, you know. You look at the GDC ball and it goes, it kind of takes a jump in pitch and then a jump in yaw; a jump in pitch and then a jump in yaw. You put it on ball 2 ... ball 1 and it all does the same thing.
+|142:14:39|CC|Roger.
+|142:14:39|CMP|Yes, it does the same thing. That's just the way the GDC operates I guess.
+|142:14:39|CMP|Yes, not the - not the ball, it's just the GDC.
+|142:14:39|CC|Roger. The G&C is - just said that's a nominal.
+|142:14:39|CMP|Well, I'm sure it is, but, you know, I just didn't even know it. Because I hadn't noticed it before, I guess, either.
+|142:18:55|CC|Ron, while you're sitting there watching this manuever to completion, I've got some read-up from the orbital science report for the CMP if you would like to hear it?
+|142:18:55|CMP|Yes, I sure would. Go ahead.
+|142:18:55|CC|Okay. Let's talk about the UV. The far UV spectrometer data has been excellent throughout the mission. Indications are that the hydrogen atmosphere of the Moon is much less than expected. The Aerobee launched from White Sands on Monday failed to get solar UV calibration because an instrument viewing port failed to open. A second Aerobee flight is scheduled for tomorrow. The IR scanning radiometer is performing beautifully. Indications are that the subsolar point surface temperatures are higher than Earth-based observations predicted. Many thermal anomalies are being seen in the Ocean Procellarum area west of Copernicus. A few unusual cold spots have also been detected indicating areas of fine soil with few and no blocks. The lunar sounder data is excellent and the specular power monitor signals correlate with surface features; HF data indicates that layers are being detected in the mare areas. Over.
+||||Tape 94B/13|Page 1193
+|142:20:14|CMP|Hey, beautiful. Man oh man. That sounds like all that stuff's working good. Outstanding. That's good - good to hear.
+|142:20:14|CC|Roger. And don't worry about that short period of time the laser altimeter was off; it shouldn't affect anything.
+|142:20:14|CMP|Okay.
+|142:20:14|CC|And anytime you can reach over there, Ron, it's H2, tank 2 FANs to ON for the night.
+|142:20:18|CMP|Okay, tank 2 FANs are going ON.
+|142:25:41|CMP|Hear it rattling. It must be pretty close to attitude. Yes.
+|142:25:43|CC|Roger. You've got a 50 18 on the DSKY.
+|142:25:43|CMP|Okay. You know, it doesn't shake, rattle, and roll as much since we got rid of that tin can. But it still does a little bit, you know, you get a - it is a little more dynamic than I had thought it would be.
+|142:25:43|CC|We'd like ACCEPT, we've got a jet-on monitor load for you, Ron.
+|142:25:43|CMP|Okay.
+|142:26:30|CMP|There you got ACCEPT.
+|142:26:30|CC|You're trying to say you've got a - you're prejudiced and you think you've got a better flying vehicle than somebody else.
+|142:26:44|CMP|(Laughter) I just said it doesn't shake, rattle, and roll as much as it did when - when the other guys were on there.
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
 |152:01:17|CC|Glad to hear it, Ron. Good morning.
@@ -2097,6 +2260,20 @@
 |155:49:31|CC|Okay. Those sound like supergood observations, Ron.
 ||||Tape 103B/5|Page 1415
 |155:49:31|CMP|Passing over - Sulpic - and - I'm just passing over Sulpicius Gallus, now. And just beyond Sulpicius Gallus - Sulpicius Gallus is out in the Mare Tranquillitatis, itself, and it looks like you could - it's either a talus slope - you know, you got a gentle slope of the - of the massif coming down and then it changes slope a little bit, and the - it looks like you have finer-grained material. And that might be what we have at one time or another called the high-water mark, but I kind of believe that's just a talus change in the slope. As you..go on down there in the fine-grained material, somehow developing down there in the bottom. But as soon as you cross that area -we're going west now from Sulpicius Gallus - again we've got kind of the same tannish - a dark tan material that essentially covers the highland -this highland-type of an area here. It's a hummocky-type material. There are a few rilles just north of Sulpicius Gallus; those rilles, again, have -have the dark tan material on it. About the same as the tan - same color tones that you pick up from Tacquet to Mele - Meleneis [sic].
+|155:51:54|CC|Okay sounds great. Keep talking, we'll cue you as the Flight Plan events come up.
+|155:51:54|CMP|Okay. D - D-Caldera is sure fascinating. I'll try and take a quick look with the binocs on that one. *** binoc and I can't find it there. There it is.
+|155:51:54|CMP|I hope the pictures will kind of confirm a little bit of a - of a topographic rise around the D-Caldera, just a slight one, and it's about half the width of the - if you - As you look at the "D,” it's a half a width of the "D," not the height, but the width. And it seems to be a raised, kind of a raised, flat rim around it. The color of the raised burnps down in the D-Caldera are the same as the surrounding material, around there. The de - the burnps that are raised up are smooth looking and the depression for it has to be a caldera, I guess, or at least, the part of the depression, anyhow, is a light bluish gray; I'll call it that way, very light bluish gray.
+||||Tape 103B/6|Page 1416
+|155:54:14|CC|Hey, Ron I'm not suggesting you do, because it's probably trouble to find. Have you tried the color wheel, comparing it on any of this stuff?
+|155:54:14|CMP|(Laughter) No, I haven't. Let me try. That's a good idea, though. I'll try that and see what I can come up with on that thing.
+|155:54:14|CC|Well, don't don't go to a lot of trouble. I never got around to it, but you might - you might peg down some of these colors a little better. Particularly when you were talking last night about -on the back side - -
+|155:54:14|CMP|That's a good point.
+|155:54:14|CC|On one of those passes about the green.
+|155:54:14|CMP|Yes.
+|155:54:14|CC|Okay, you're about 7 seconds away from where we're wanting the recorder on, Ron. Any time here's fine
+|155:54:14|CMP|Okay, RECORDER - let's see -
+|155:55:09|CMP|Is ON. Verify RADAR is ON, remove HF, okay.
+|155:55:09|CMP|You know, to me, the Moon's got a lot more color than I'd been led to believe. I kind of had  have -have the dark tan material on it. About the same as the tan - same color tones that you pick up from Tacquet to Mele - Meleneis [sic].
 |155:51:54|CC|Okay sounds great. Keep talking, we'll cue you as the Flight Plan events come up.
 |155:51:54|CMP|Okay. D - D-Caldera is sure fascinating. I'll try and take a quick look with the binocs on that one. *** binoc and I can't find it there. There it is.
 |155:51:54|CMP|I hope the pictures will kind of confirm a little bit of a - of a topographic rise around the D-Caldera, just a slight one, and it's about half the width of the - if you - As you look at the "D,” it's a half a width of the "D," not the height, but the width. And it seems to be a raised, kind of a raised, flat rim around it. The color of the raised burnps down in the D-Caldera are the same as the surrounding material, around there. The de - the burnps that are raised up are smooth looking and the depression for it has to be a caldera, I guess, or at least, the part of the depression, anyhow, is a light bluish gray; I'll call it that way, very light bluish gray.
