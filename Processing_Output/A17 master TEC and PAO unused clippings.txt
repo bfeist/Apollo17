@@ -1983,6 +1983,73 @@
 |142:26:30|CMP|There you got ACCEPT.
 |142:26:30|CC|You're trying to say you've got a - you're prejudiced and you think you've got a better flying vehicle than somebody else.
 |142:26:44|CMP|(Laughter) I just said it doesn't shake, rattle, and roll as much as it did when - when the other guys were on there.
+||||Tape 95B/1|Page 1244
+|142:31:35|CMP|Huh? Okay. Have you got it?
+|142:31:35|CC|Thank you, sir. We would have lost you here shortly in AUTO.
+|142:31:35|CMP|Oh. Okay.
+|142:31:35|CC|Okay, Ron, the EMP is running, and you can go back to BLOCK.
+|142:31:35|CMP|Okay.
+|142:31:35|CMP|It's working.
+|142:31:35|CC|Ron, Jaime wanted me to mention the fact that she got a couple of A's on some tests today, and she's real tickled and knew you'd be happy to hear that.
+|142:31:35|CMP|Hey, you bet, by golly! That's great!
+|142:31:35|CC|Ron, we are probably going to lose you a little early on this half5 and we may pick you up a little late at the start of the next half, unless you were to try and acquire us manually, or something like that. If you go via the Flight Plan, which is really what we want, we will be coming in a little bit later than is shown. If you have to talk to us or anything like that, you can acquire manually, and we'll be right there.
+|142:38:21|CMP|Manually, yes. Okay. I was just looking at the Earth out of window 3 here. Boy, that's beautiful! I have an earthset pretty quick.
+|142:38:21|CC|Roger.
+|142:38:21|CMP|Took some pictures of it the other day.
+||||Tape 95B/2|Page 1245
+|142:38:21|CC|Yes, we were going to steal Jack's thunder and take a - take our own weather report when we had the TV looking at the Earth here a little bit ago.
+|142:38:21|CMP|(Laughter)
+|142:38:21|CC|Johft told me to tell you to be sure and - that he's so glad you're there because he knows you worked so hard all these years to be there. He's really tickled. Jan said to send her love.
+|142:38:21|CMP|Hey, tell them I appreciate it very much.
+|142:38:21|CC|Roger. They're listening, and they're hanging on every word.
+|142:38:21||BEGIN LUNAR REV 30
+|143:29:25|CC|America, Houston.
+|143:29:25|CMP|Okay, Houston', America. I'm with you now.
+|143:29:25|CC|Roger, Ron. Good show. We need the - we need ACCEPT, so we can give you state vector.
+|143:29:25|CMP|Okay. Sorry. I had my helmet off.
+|143:29:25|CC|No problem. Did you unplug your EKG blue lead?
+|143:29:25|CMP|No. But I didn't have the power on. See? I didn't have the suit power on.
+|143:29:25|CC|Okay; the signal looks good right now. You're in good shape there.
+|143:29:25|CMP|Yes. Okay.
+|143:29:25|CC|Ron, we want to delete "CRYO STIR" tonight from the presleep checklist.
+|143:29:25|CMP|Okay. It's deleted.
+|143:29:25|CC|And I've got a TEL-49 pad any time you want it.
+|143:29:25|CMP|Okay.
+||||Tape 95B/3|Page 1246
+|143:29:25|CC|Okay. You ready to copy?
+|143:30:37|CMP|Stand by.
+|143:30:37|CMP|Okay. Ready to copy.
+|143:30:37|CC|Okay, Ron. TEI-49, SPS/G&N; 37568; plus 0.56, plus 0.96; 185:12:47.95. NOUN 8l: plus 2781.5, minus l831.5s minus 0532.3. Roll, 182; pitch, 104; yaw, 330. Rest of the pad, not - NA. Okay. And the set stars are the same as always: Sirius and Rigel; 133, 200, 030. Four jet; 12 seconds. Okay. And - let me see. Two comments. Longitude at T. : minus 178.34. That's minus 178.34. ig And second comment: assume no plane change 1. No plane change burn. Over. And the computer is yours, Ron.
+|143:32:44|CMP|Okay. Going to BLOCK. TEI-49, SPS/G&N; 37568; plus O.56, plus O.96; and T. 185: 12:47.95. DELTA VX: plus 2781.5, minus 1831.5, minus 0532.3; 80, 104, and 330; Rigel; 133, 200. Jet; 12 seconds. Lunar longitude at T. is minus 178.34. Assume no plane change.
+|143:32:44|CC|Good readback, Ron. But I didn't catch your readback on the roll. 182 is the roll, 182. Did you read that?
+|143:32:44|CMP|Roger. Roll, 182.
+|143:32:44|CC|Okay; I just missed the readback on that one. Good readback.
+|143:32:44|CMP|Roger.
+|143:33:56|CC|While you're doing your presleep checklist, you may be interested that - at Shorty, the surface crew found some very, very orange soil, a great deal of it. Indicates strong oxidation and possibly indicates water and/or volcanics in the area. And they're really - Jack's kind of like a boy at Christmas time. I'll tell you, a little kid at Christmas time on that one.
+||||Tape 95B/4|Page 1247
+|143:33:56|CMP|(Laughter) I bet he would be. Hey, that's a great find, by gosh!
+|143:33:56|CC|Yes, that's first time we find - it's orange. Boy, you could see it in the television; it's bright orange soil. Ho question about it.
+|143:33:56|CMP|I'll be darned.
+|143:33:56|CC|And, as luck would have it, they found it all and got working, and then they got - had to pull out of Shorty due to constraints , walkback constraints in the area. You know consumable versus walkback.
+|143:33:56|CMP|Yes.
+|143:35:12|CC|Okay. Ron, everything is - That's everything we've got from down here. Once you finish your presleep checklist, then you'll be clear to turn the comm off and - or turn the - the DOWN VOICE, OFF, and have a good night's sleep. And - -
+|143:35:12|CMP|Okay.
+|143:35:12|CC|- - And if you got anything in specific you want me to check through at the homefront, be glad to take it down and give them a call later or let you know tomorrow, or even before you go to sleep if you want.
+|143:35:12|CMP|Okay. Appreciate it, but can't think of anything right now. Just send my love.
+|143:35:12|CC|Roger. They'll hear that.
+|143:36:01|CMP|(Laughter) Okay. Panel 9 is RECEIVE, and we're in DUPLEX, and SQUELCH B is adjusted.
+|143:36:01|CMP|I'll check my tone booster here.
+|143:36:01|CC|Ron, we - that got garbled. Say again, please?
+|143:36:01|CMP|Hear it?
+|143:36:01|CC|Yes, we got you. We got you. Just working great
+||||Tape 95B/5|Page 1248
+|143:36:01|CMP|(Laughter) Okay.
+|143:42:20|CMP|Well, we'll get down here and clean the old suit circuit return valve.
+|143:45:17|CC|Hey, Ron. Did you have some noise in the cockpit just now?
+|143:45:17|CMP|Yes. I was down there in - cleaning the suit circuit return valve. Could you hear it? I was banging the door.
+|143:45:17|CC|Yes, that's exactly - We're getting a noise on the loop. It sounds exactly like that Hasselblad. Just exactly like the Hasselblad, and that's what we got all during that eat period. But, you know, it gives a click, and then it sounds like its transporting film, and then another click. Just exactly like the Hasselblad.
+|143:45:17|CMP|Yes. (Laughter) No, that's - that's not from up here. At least I don't hear anything like that.
+|143:46:00|CC|Roger. Understand.
 ||||Tape 10IB/I|Page 1391
 |152:01:17|CMP|Hey, Houston. This is the command module pilot of the United States spaceship America, and we're ready to participate in another day's activity.
 |152:01:17|CC|Glad to hear it, Ron. Good morning.
