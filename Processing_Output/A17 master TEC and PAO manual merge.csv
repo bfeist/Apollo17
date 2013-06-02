@@ -20007,158 +20007,599 @@
 |147:47:23|CC|Stand by on that.
 |147:47:30|LMP-LM|And okay, we are ready for your EVA-2 debriefing.
 |147:47:49|CC|Okay, 17. To begin with, we want you to delete that step going to DOWNVOICE BACKUP. And I've got a surface block data to read up to you. A few minor changes in your Lunar Surface Checklist. And a couple of very quick questions for the debriefing when you're ready. Over.
-|147:47:17|LMP-LM|Go ahead, in the stated order.
-|147:47:17|CC|Roger. Moving right along now to the surface block data. Lift-off time, T-33, 152 plus 30 plus 01; T-34, 154 plus 28 plus 33; T-35, 156 plus 27 plus 05; T-36, 158 plus 25 plus 37; T-37, 160 plus 24 plus 09- Over.
-|147:47:17|LMP-LM|Okay, Joe. Starting with 33- 152:30:01, 154:28:33, 156:27:05, 158:25:37, 160:24:09. And what's our present rev?
-|147:47:17|CC|Rev 32, Jack.
+|147:48:18|LMP-LM|Go ahead, in the stated order.
+|147:48:25|CC|Roger. Moving right along now to the surface block data. Lift-off times, T-33, 152 plus 30 plus 01; T-34, 154 plus 28 plus 33; T-35, 156 plus 27 plus 05; T-36, 158 plus 25 plus 37; T-37, 160 plus 24 plus 09. Over.
+|147:49:28|LMP-LM|Okay, Joe. Starting with 33: 152:30:01, 154:28:33, 156:27:05, 158:25:37, 160:24:09. And what's our present rev?
+|147:49:54|CC|Rev 32, Jack.
 ||||Tape 99A/3|Page 1376
-|147:47:17|CDR-LM|Hey, Joe, for pantry purposes, what day is this?
-|147:47:17|CC|We've checked around the room here and the consensus is that it's Wednesday morning. Over.
-|147:47:17|CDR-LM|Oh, okay. I really wanted to know whether it was irridated [sic] ham or frankfurter morning, and I guess we can work that out.
-|147:47:17|CC|Roger, Gene. Apparently, the Surgeon is happy with either of those days. And we want you to turn to - right now, to 5-7 in the checklist and perform that - one particular step at 150 hours, which will prevent the computer clock from overflowing. And that's the "PROCEED, VERB 37 ENTER, 06 ENTER, PROCEED" step. We'll stand by for that. Give us a mark as you start it. Over.
-|147:51:34|CDR-LM|Okay, we're starting.
-|147:51:36|CDR-LM|PRO. PROCEED, VERB 37 ENTER - VERB 30 -
-|147:52:00|CDR-LM|Okay, Joe. You don't want me to go on the VERB 90 - You're not going to give us an update, huh?
-|147:52:07|CC|No update required. That was just to prevent an overflow. And then I'm ready for the quick changes in the Lunar Surface Checklist when you are.
-|147:52:45|LMP-LM|Okay, Joe, go ahead.
-|147:52:45|CC|Okay. Begin by putting the demand REG Bravo to CABIN position and leave the demand REG Alfa in the - in the CABIN position where it now is. And I'll continue on with the changes in the checklist here. Page 5-6, left-hand side, where it reads "Configure ETB." The - the fourth line down that starts out "Four B&W mags," they should read, "Hotel, India, Juliet, and Romeo in LCG compartment." Then going up to the right-hand side under "Stow in ETB," change the line "One B&W mag Romeo" to read "One B&W mag Kilo." Over.
-|147:52:45|LMP-LM|Okay, Joe. I changed the mags in the "Empty" from Kilo to Romeo and the mag in "Stow" from Romeo to Kilo.
+|147:50:08|CDR-LM|Hey, Joe, for pantry purposes, what day is this?
+|147:50:20|CC|We've checked around the room here and the consensus is that it's Wednesday morning. Over.
+|147:50:32|CDR-LM|Oh, okay. I really wanted to know whether it was irridated [sic] ham or frankfurter morning, and I guess we can work that out.
+|147:50:55|CC|Roger, Gene. Apparently, the Surgeon is happy with either of those days. And we want you to turn to - right now, to 5-7 in the checklist and perform that - one particular step at 150 hours, which will prevent the computer clock from overflowing. And that's the "PROCEED, VERB 37 ENTER, 06 ENTER, PROCEED" step. We'll stand by for that. Give us a mark as you start it. Over.
+|147:51:35|CDR-LM|Okay, we're starting.
+|147:51:37|CDR-LM|PRO. PROCEED, VERB 37 ENTER - VERB 30 -
+|147:52:01|CDR-LM|Okay, Joe. You don't want me to go on the VERB 90 - You're not going to give us an update, huh?
+|147:52:08|CC|No update required. That was just to prevent an overflow. And then I'm ready for the quick changes in the Lunar Surface Checklist when you are.
+|147:52:46|LMP-LM|Okay, Joe, go ahead.
+|147:52:52|CC|Okay. Begin by putting the demand REG Bravo to CABIN position and leave the demand REG Alfa in the - in the CABIN position where it now is. And I'll continue on with the changes in the checklist here. Page 5-6, left-hand side, where it reads "Configure ETB." The - the fourth line down that starts out "Four B&W mags," they should read, "Hotel, India, Juliet, and Romeo in LCG compartment." Then going up to the right-hand side under "Stow in ETB," change the line "One B&W mag Romeo" to read "One B&W mag Kilo." Over.
+|147:54:19|LMP-LM|Okay, Joe. I changed the mags in the "Empty" from Kilo to Romeo and the mag in "Stow" from Romeo to Kilo.
 ||||Tape 99A/4|Page 1377
-|147:52:45|CC|Okay, that sounds like the thing to do. And a note on your demand regulators. We're showing that the demand regulator Alfa is - has good integrity and we're now in the process of checking the demand regulator Bravo. I've got a couple of fairly quick questions here when you're ready for those.
-|147:52:45|CDR-LM|Okay, Joe. Go ahead with your questions, and integrity is certainly what we need around here, right?
-|147:52:45|CC|Okay. Jack, a question for you to begin with. is your gold visor sticking halfway down? Apparently, that's based on a discussion earlier. Over.
-|147:52:45|CDR-LM|Yes. Apparently his visor is sticking.
-|147:52:45|CDR-LM|Which one? The gold visor? No, he said his sunshade is sticking halfway down, but his gold visor's not.
-|147:52:45|CC|Okay, that answers the question. We couldn't tell from the TV whether it was the visor or the sunshade. That's fine. We also heard some discussion about possible wear in the seats of the suits when you were dusting each other off. We want to know if you could see the - any hint of the aluminum layers showing through in the suits. Over.
-|147:52:45|CDR-LM|No, Joe. Not to worry. It's just a few scars on the PLSS thermal blanket in back where you probably rub the seat when you get in. Nothing on the suits.
-|147:52:45|CC|Okay, Geno. Now two real quick geology questions that will help us do the planning for your EVA tomorrow. The first one has to do with Station 4. And you called out some material on the rim there -the crater at Station 4 - which looked like bedded spatter. And we're wondering if that resembled things that - that you'd seen in Hawaii? Over.
-|147:57:03|LMP-LM|Hey, Joe, I think they misheard. I think I may have said shattered and you might of said - thought spattered. No, I didn't - neither one of us intended to leave that impression. The rock - the big rock we sampled was - looked like shattered -intensely shattered gabbro, such as we've had around the LM. The rocks, probably more significantly, that Gene - one of which Gene picked up with the fine-grained vesicular basalt - cor> -ely vesicular basalts. And we didn't have any time to really examine the interrelationships of those rock types there, but those were the two fragment types we s aw.
+|147:54:34|CC|Okay, that sounds like the thing to do. And a note on your demand regulators. We're showing that the demand regulator Alfa is - has good integrity and we're now in the process of checking the demand regulator Bravo. I've got a couple of fairly quick questions here when you're ready for those.
+|147:54:58|CDR-LM|Okay, Joe. Go ahead with your questions, and integrity is certainly what we need around here, right?
+|147:55:15|CC|Okay. Jack, a question for you to begin with. Is your gold visor sticking halfway down? Apparently, that's based on a discussion earlier. Over.
+|147:55:41|CDR-LM|Yes. Apparently his visor is sticking.
+|147:55:43|CDR-LM|Which one? The gold visor? No, he said his sunshade is sticking halfway down, but his gold visor's not.
+|147:55:51|CC|Okay, that answers the question. We couldn't tell from the TV whether it was the visor or the sunshade. That's fine. We also heard some discussion about possible wear in the seats of the suits when you were dusting each other off. We want to know if you could see the - any hint of the aluminum layers showing through in the suits. Over.
+|147:56:17|CDR-LM|No, Joe. Not to worry. It's just a few scars on the PLSS thermal blanket in back where you probably rub the seat when you get in. Nothing on the suits.
+|147:56:28|CC|Okay, Geno. Now two real quick geology questions that will help us do the planning for your EVA tomorrow. The first one has to do with Station 4. And you called out some material on the rim there -the crater at Station 4 - which looked like bedded spatter. And we're wondering if that resembled things that - that you'd seen in Hawaii? Over.
+|147:57:04|LMP-LM|Hey, Joe, I think they misheard. I think I may have said shattered and you might of said - thought spattered. No, I didn't - neither one of us intended to leave that impression. The rock - the big rock we sampled was - looked like shattered - intensely shattered gabbro, such as we've had around the LM. The rocks, probably more significantly, that Gene - one of which Gene picked up was a fine-grained vesicular basalt - corsely vesicular basalts. And we didn't have any time to really examine the interrelationships of those rock types there, but those were the two fragment types we saw.
 ||||Tape 99A/5|Page 1378
-|147:57:03|CC|Okay, Jack. That's quite clear to us now. Also a question about Station 4 - -
-|147:57:03|LMP-LM|Joe - Joe.
-|147:57:03|CC|Okay, go ahead.
-|147:58:04|LMP-LM|The bottom of that crater, now, had material that was extremely disorganized in its aspect and, really, we didn't have time to examine it in detail in order to decide why it was disorganized. It did not necessarily look like the boulder that we sampled at the rim.
-|147:58:04|CC|Okay, Jack. Understand that. A question about the boulder you sampled at the rim. Would you compare the basalt in this boulder to - which I -you may have called a gabbro, I'm not sure - in any case the basalt - to samples which you collected at Camelot and at ALSEP. Over.
-|147:58:04|LMP-LM|Well, ny impression was that they were the same rock types.
-|147:58:04|CC|Okay, that's our impression, too. Thank you. That's - that's it for us on the questions. And for information, we're showing your cabin pressure is holding fairly steady even with both those demand regs on.
+|147:57:50|CC|Okay, Jack. That's quite clear to us now. Also a question about Station 4 - -
+|147:57:57|LMP-LM|Joe - Joe.
+|147:57:58|CC|Okay, go ahead.
+|147:58:05|LMP-LM|The bottom of that crater, now, had material that was extremely disorganized in its aspect and, really, we didn't have time to examine it in detail in order to decide why it was disorganized. It did not necessarily look like the boulder that we sampled at the rim.
+|147:58:36|CC|Okay, Jack. Understand that. A question about the boulder you sampled at the rim. Would you compare the basalt in this boulder to - which I - which you may have called a gabbro, I'm not sure - in any case the basalt - to samples which you collected at Camelot and at ALSEP. Over.
+|147:59:03|LMP-LM|Well, ny impression was that they were the same rock types.
+|147:59:07|CC|Okay, that's our impression, too. Thank you. That's - that's it for us on the questions. And for information, we're showing your cabin pressure is holding fairly steady even with both those demand regs on.
 ||||Tape 99A/6|Page 1379
-|147:58:04|CDR-LM|Okay. Keep watching it for us, would you, and let us know. I expect one of them is probably leaking pretty slow.
-|147:58:04|CC|You have no - no worry about that, Gene. We're looking at it real close.
-|147:58:04|CDR-LM|How's - how's America looking to you?
-|147:58:04|CC|It is just as clean as a whistle.
-|147:58:04|CDR-LM|It may not be when we get back there, judging from the looks - looks of us. That's good to hear, though. It's a good bird. So is this one.
-|147:58:04|LMP-LM|Joe, is there any - You got any more debriefing questions?
-|147:58:04|CC|Negative, Jack. And we're interested that you move right along so we can get you - get you turned in there and get some rest.
-|147:58:04|LMP-LM|We're moving. We're eating now, and we're - we're - we feel the same way, I think.
-|147:58:04|CC|Troops, enjoy your meal there. And at your convenience, you can go ahead with the feedwater recharge. We want you to hold off on the oxygen * recharge until we watch these regs for about another 10 minutes. And give us a mark if you do start the water recharge, please. Over.
+|147:59:28|CDR-LM|Okay. Keep watching it for us, would you, and let us know. I expect one of them is probably leaking pretty slow.
+|147:59:35|CC|You have no - no worry about that, Gene. We're looking at it real close.
+|147:59:45|CDR-LM|How's - how's America looking to you?
+|147:59:49|CC|It is just as clean as a whistle.
+|148:00:01|CDR-LM|It may not be when we get back there, judging from the looks - looks of us. That's good to hear, though. It's a good bird. So is this one.
+|148:00:23|LMP-LM|Joe, is there any - You got any more debriefing questions?
+|148:00:28|CC|Negative, Jack. And we're interested that you move right along so we can get you - get you turned in there and get some rest.
+|148:00:39|LMP-LM|We're moving. We're eating now, and we're - we're - we feel the same way, I think.
+|148:01:12|CC|Troops, enjoy your meal there. And at your convenience, you can go ahead with the feedwater recharge. We want you to hold off on the oxygen recharge until we watch these regs for about another 10 minutes. And give us a mark if you do start the water recharge, please. Over.
 |148:01:36|CDR-LM|Okay.
-|148:01:36|CC|And if there are any ways we can cut corners on the time here, it'll be helping us, because we're still looking at - at being down a couple of hours nearly.
-|148:01:36|CDR-LM|Okay, Joe. We're working at it as fast as we can. Best place in the world to make it up is tomorrow night.
-|148:01:36|CC|Right, Geno, and we - actually, we're going to pick up a good one shortly, because we're coming up to a pad in the time line. So, as long as we don't waste too much time, we're doing pretty well.
+|148:01:46|CC|And if there are any ways we can cut corners on the time here, it'll be helping us, because we're still looking at - at being down a couple of hours nearly.
+|148:02:02|CDR-LM|Okay, Joe. We're working at it as fast as we can. Best place in the world to make it up is tomorrow night.
+|148:01:20|CC|Right, Geno, and we - actually, we're going to pick up a good one shortly, because we're coming up to a pad in the time line. So, as long as we don't waste too much time, we're doing pretty well.
 ||||Tape 99A/7|Page 1380
-|148:01:36|CDR-LM|Okay; be assured we're not. There's just a certain amount of housekeeping we have to do. But, very seriously, day after tomorrow is a very short day, and I think we ought to look at making up any time. I'm a hold-faster' on sleep periods but tomorrow is the one that I think is flexible.
-|148:01:36|CC|Roger. We hear you.
+|148:02:35|CDR-LM|Okay; be assured we're not. There's just a certain amount of housekeeping we have to do. But, very seriously, day after tomorrow is a very short day, and I think we ought to look at making up any time. I'm a hold-faster on sleep periods but tomorrow is the one that I think is flexible.
+|148:02:57|CC|Roger. We hear you.
 |148:06:12|LMP-LM|Hey, Joe. This is Jack. We're eating here. Won't be too long at it, but if you've got any significant news or anything, why don't you give it to us?
-|148:06:12|CC|Jack, I don't know if it's significant news, but at least I know you will be interested. Both your demand regs look good now. We show no evidence of a leak there and it may have been that just recycling them reseated them and solved whatever problem we had. You can go ahead with the 0g recharge on the PLSS and the water recharge at your convenience. And let me poll the room here for other news items. Over.
-|148:08:21|CDR-LM|Okay, Joe, we're starting an 0? charge of the CDR's PLSS, 10 minutes.
-|148:08:21|CC|Okay.
-|148:13:29|CC|Challenger, this is Houston.
-|148:13:29|LMP-LM|Go ahead, Joe.
-|148:13:29|CC|Roger. This is a news report to eat by. I'll combine an orbital science report with a sports report, an unusual combination here. I'll start out with a sports report on Monday night football, which you may not have heard yet. Joe Namath tried mightily to lead the New York Jets into the American Football League playoffs, but the Oakland Raiders grounded the Jets in a fourth quarter 24 to 16 blitz. Namath passed for more than 400 yards but, in spite of it, New York scored only cue touchdown. Moving along to the successes of Captain America, I'll run down different items in the SIM bay here, beginning with the UV spectrometer. In general, the data has been excellent. We're getting indications that the hydrogen atmosphere of the Moon is much less than expected. In fact, I don't think we're detecting any, but rather setting a limit on the amount of hydrogen around the Moon. There was an Aerobee launch -an attempt at an Aerobee launch - from White Sands on Monday to calibrate solar UV radiation, but this launch failed because an instrument viewing port in the rocket failed to open. A second launch - let's see - was scheduled, I think, for today, and I don't know whether that was successful or not, I guess it'll be launched later today. The infrared scanning radiometer is performing beautifully. Indications are that subsolar-point surface temperatures are higher than we've detected from our Earth-based observations before. We're seeing many thermal anomolies, particularly in Procellarum and in the Procellarum area west of Copernicus. And we're seeing also a few unusual cold spots, which apparently are indicating areas of very fine soil with a few or no blocks in and on the soil. The lunar sounder data is beautiful, and the power monitor signals we find correlate with the surface features. And the HF data indicates to us that we are detecting a variety of layers in the mare areas.
+|148:06:47|CC|Jack, I don't know if it's significant news, but at least I know you will be interested. Both your demand regs look good now. We show no evidence of a leak there and it may have been that just recycling them reseated them and solved whatever problem we had. You can go ahead with the O2 recharge on the PLSS and the water recharge at your convenience. And let me poll the room here for other news items. Over. 
+|148:08:21|CDR-LM|Okay, Joe, we're starting an O2 charge of the CDR's PLSS, 10 minutes.
+|148:08:27|CC|Okay.
+|148:13:30|CC|Challenger, this is Houston.
+|148:13:37|LMP-LM|Go ahead, Joe.
+|148:13:42|CC|Roger. This is a news report to eat by. I'll combine an orbital science report with a sports report, an unusual combination here. I'll start out with a sports report on Monday night football, which you may not have heard yet. Joe Namath tried mightily to lead the New York Jets into the American Football League playoffs, but the Oakland Raiders grounded the Jets in a fourth quarter 24 to 16 blitz. Namath passed for more than 400 yards but, in spite of it, New York scored only one touchdown. Moving along to the successes of Captain America, I'll run down different items in the SIM bay here, beginning with the UV spectrometer. In general, the data has been excellent. We're getting indications that the hydrogen atmosphere of the Moon is much less than expected. In fact, I don't think we're detecting any, but rather setting a limit on the amount of hydrogen around the Moon. There was an Aerobee launch - or an attempt at an Aerobee launch - from White Sands on Monday to calibrate solar UV radiation, but this launch failed because an instrument viewing port in the rocket failed to open. A second launch - let's see - was scheduled, I think, for today, and I don't know whether that was successful or not, I guess it'll be launched later today. The infrared scanning radiometer is performing beautifully. Indications are that subsolar-point surface temperatures are higher than we've detected from our Earth-based observations before. We're seeing many thermal anomolies, particularly in Procellarum and in the Procellarum area west of Copernicus. And we're seeing also a few unusual cold spots, which apparently are indicating areas of very fine soil with a few or no blocks in and on the soil. The lunar sounder data is beautiful, and the power monitor signals we find correlate with the surface features. And the HF data indicates to us that we are detecting a variety of layers in the mare areas.
 ||||Tape 99A/8|Page 1381
-|148:16:52|LMP-LM|Joe, this is Jack. Do you know where specifically they're seeing the hot spots west of Copernicus?
-|148:16:52|CC|Jack, I don't have it on the page in front of me here. We're going to check into it and I'll get back to you in a second.
-|148:16:52|CC|Jack, this is Houston. With regard to your questions on the hot spots, apparently they've not yet indexed the - these warmer sources that they're detecting to the CSM ephemeris, and - and so they don't know exactly what they correspond to as far as the surface features themselves go. So I can't help you on that right now.
+|148:16:53|LMP-LM|Joe, this is Jack. Do you know where specifically they're seeing the hot spots west of Copernicus?
+|148:17:04|CC|Jack, I don't have it on the page in front of me here. We're going to check into it and I'll get back to you in a second.
+|148:18:45|CC|Jack, this is Houston. With regard to your questions on the hot spots, apparently they've not yet indexed the - these warmer sources that they're detecting to the CSM ephemeris, and - and so they don't know exactly what they correspond to as far as the surface features themselves go. So I can't help you on that right now.
 ||||Tape 99A/9|Page 1382
-|148:16:52|LMP-LM|Okay, Joe. Just curious.
-|148:21:04|CC|And, Jack, TELMU handed me some numbers which I think you will be interested in. From the EVA-2 EMU summary, the elapsed EVA time was 7 hours plus 37 minutes plus 22 seconds for a new outdoor record under international rules. The rest of the sheet looks free from problems in a comforting way. Let's see, average metabolic rates - for you, Geno, 855; and, Jack, you're running at around 920, And that, relative to premission averages of around 850. And you have a grand total EVA time now of l4 hours 49 minutes and 35 seconds.
-|148:22:19|LMP-LM|Very interesting numbers, Joe. Do you have any idea how the metabolic rate compared to yesterday?
-|148:22:19|CC|Good question. Let me ask on that one. Yesterday you were running at 1045 and 1090. So you're down considerably from your work rates of yesterday, which is good news. Maybe you're learning how to do it more easily or something like that.
-|148:22:19|CDR-LM|Yes, but we spent a lot of time riding today and a lot of time working yesterday.
-|148:22:19|CC|That's true. But I guess that's not taken into consideration of the average here. It's certainly true. We can ask for the metabolic rate of the Rover. I bet that is pretty impressive for today.
-|148:22:19|CDR-LM|Well, don't - don't get me wrong. Driving that Rover is ... But I'll tell you, it keeps your attention.
-|148:22:19|CC|I'm sure it does.
-|148:22:19|LMP-LM|It keeps the passenger's attention, too.
+|148:19:18|LMP-LM|Okay, Joe. Just curious.
+|148:21:05|CC|And, Jack, TELMU handed me some numbers which I think you will be interested in. From the EVA-2 EMU summary, the elapsed EVA time was 7 hours plus 37 minutes plus 22 seconds for a new outdoor record under international rules. The rest of the sheet looks free from problems in a comforting way. Let's see, average metabolic rates - for you, Geno, 855; and, Jack, you're running at around 920, And that, relative to premission averages of around 850. And you have a grand total EVA time now of l4 hours 49 minutes and 35 seconds.
+|148:22:20|LMP-LM|Very interesting numbers, Joe. Do you have any idea how the metabolic rate compared to yesterday?
+|148:22:27|CC|Good question. Let me ask on that one. Yesterday you were running at 1045 and 1090. So you're down considerably from your work rates of yesterday, which is good news. Maybe you're learning how to do it more easily or something like that.
+|148:23:00|CDR-LM|Yes, but we spent a lot of time riding today and a lot of time working yesterday.
+|148:23:05|CC|That's true. But I guess that's not taken into consideration of the average here. It's certainly true. We can ask for the metabolic rate of the Rover. I bet that is pretty impressive for today.
+|148:23:20|CDR-LM|Well, don't - don't get me wrong. Driving that Rover is ... But I'll tell you, it keeps your attention.
+|148:23:31|CC|I'm sure it does.
+|148:23:32|LMP-LM|It keeps the passenger's attention, too.
 ||||Tape 99A/10|Page 1383
-|148:22:19|CC|I'm sure it does. We noted some comments when you were rolling along today - and reading between the lines from time to time.
+|148:23:35|CC|I'm sure it does. We noted some comments when you were rolling along today - and reading between the lines from time to time.
 |148:23:59|CDR-LM|Actually, Joe, for good long spans on the run up to Station 2, except when we had to pick our way up the Hole-in-the-Wall, I was running full bore at anywheres from, I guess, what'd I say, 10 to 12 to 15 clicks. I didn't hit 15 going up very much.. Coming down I did, but it's - it's really a "stand by for turn and watch where you're going" type of run. Because the small craters, - of course, are the ones that can really jolt you. But the trouble is, you can't - you can never see what's just over the next ridge, and the next ridge may be 20 meters away, and you just can't see it until you're there, and you don't know whether its a dish crater or pit crater.
-|148:23:59|CC|Roger, Gene. We copy that.
-|148:23:59|LMP-LM|Joe, that des -
-|148:23:59|CC|Go ahead.
-|148:23:59|LMP-LM|That description - that description fits the geology up in there, because we weren't seeing blocky rimmed craters and otherwise you would have been able to tell more easily about the old versus new craters, which would be the ones you could either go through or not go through, respectively.
-|148:23:59|CC|Roger.
-|148:23:59|CDR-LM|That's a super machine to drive though, Joe, I'll tell you. If you had enough time you could really learn to - to take it all the way. But you don't really do that, just the second time around.
-|148:23:59|CC|Geno, was it spraying dirt at you today? Could you - did you notice that you still missed the real fender and that the patch fender wasn't quite doing what - what maybe it could?
+|148:24:57|CC|Roger, Gene. We copy that.
+|148:25:01|LMP-LM|Joe, that des -
+|148:25:02|CC|Go ahead.
+|148:25:05|LMP-LM|That description - that description fits the geology up in there, because we weren't seeing blocky rimmed craters and otherwise you would have been able to tell more easily about the old versus new craters, which would be the ones you could either go through or not go through, respectively.
+|148:25:25|CC|Roger.
+|148:25:35|CDR-LM|That's a super machine to drive though, Joe, I'll tell you. If you had enough time you could really learn to - to take it all the way. But you don't really do that, just the second time around.
+|148:25:54|CC|Geno, was it spraying dirt at you today? Could you - did you notice that you still missed the real fender and that the patch fender wasn't quite doing what - what maybe it could?
 ||||Tape 99A/11|Page 1384
-|148:23:59|CDR-LM|No, sir, I don't think we missed it at all.
-|148:23:59|LMP-LM|Fact is, we're recommending a design change, Joe.
-|148:23:59|CC|That'll be for next year's model.
-|148:26:32|CDR-LM|That's right.
-|148:30:20|LMP-LM|Hey, Joe. is it all right to use the waste management system?
-|148:30:20|CC|Roger. We're happy with those demand regs now. And you can proceed on with that and including all the - the - the PLSS recharges that you'll need to do as well.
-|148:33:23|LMP-LM|Joe, we're filling n$r PISS with water now. You might check on the water quantity.
-|148:33:29|CC|Roger. Thank you.
+|148:26:11|CDR-LM|No, sir, I don't think we missed it at all.
+|148:26:17|LMP-LM|Fact is, we're recommending a design change, Joe.
+|148:26:27|CC|That'll be for next year's models.
+|148:26:33|CDR-LM|That's right.
+|148:30:21|LMP-LM|Hey, Joe. is it all right to use the waste management system?
+|148:30:28|CC|Roger. We're happy with those demand regs now. And you can proceed on with that and including all the - the - the PLSS recharges that you'll need to do as well.
+|148:33:23|LMP-LM|Joe, we're filling my PLSS with water now. You might check on the water quantity.
+|148:33:30|CC|Roger. Thank you.
+|148:43:12|CDR-LM|Joe, that should take care of my PLSS for tonight.
 ||||Tape 100A/1|Page 1385
-|148:33:29|CC|Okay, Gene. Thank you. Out of curiosity, have you packed, or are you packing the ETB now?
-|148:33:29|CDR-LM|Yes. Jack's doing it right now.
-|148:33:29|CC|Okay; we've got a last minute change. We show that you - your mag Bravo is about 77 frames, and we'd like for you to leave it in the ETB - it is already in the ETB - and take it out with you tomorrow. We can shoot up the remaining frames if we run out of film, otherwise.
-|148:33:29|CDR-LM|Okay; fine. That goes along with our thinking.
-|148:33:29|CC|You know, apparently you made some comment earlier in the day about being bothered by comm noise during your egress from Challenger. Did that go away right away, or did it just cease to bother you, or what - what was the story on that?
-|148:33:29|CDR-LM|I don't remember; so, it must have gone away, because the comm was great.
-|148:33:29|CC|Okay; that's what we kind of assumed.
-|148:33:29|CDR-LM|Okay; we're charging Jack's PLSS with oxygen.
-|148:33:29|CC|Sounds good.
+|148:43:18|CC|Okay, Gene. Thank you. Out of curiosity, have you packed, or are you packing the ETB now?
+|148:43:28|CDR-LM|Yes. Jack's doing it right now.
+|148:43:30|CC|Okay; we've got a last minute change. We show that you - your mag Bravo is at about 77 frames, and we'd like for you to leave it in the ETB - it is already in the ETB - and take it out with you tomorrow. We can shoot up the remaining frames if we run out of film, otherwise.
+|148:43:56|CDR-LM|Okay; fine. That goes along with our thinking.
+|148:44:28|CC|Geno, apparently you made some comment earlier in the day about being bothered by comm noise during your egress from Challenger. Did that go away right away, or did it just cease to bother you, or what - what was the story on that?
+|148:44:50|CDR-LM|I don't remember; so, it must have gone away, because the comm was great.
+|148:44:57|CC|Okay; that's what we kind of assumed.
+|148:45:24|CDR-LM|Okay; we're charging Jack's PLSS with oxygen.
+|148:45:34|CC|Sounds good.
 |148:59:44|CDR-LM|Houston, Challenger. The O2 is complete on - O2 FILL is complete on the LMPs PLSS, and we're working on the water.
-|148:59:44|CC|Roger.
+|148:59:57|CC|Roger.
 |149:02:19|CC|Challenger, for your information, we're coming up on comm handover in about a minute and a half.
-|149:02:19|CDR-LM|Okay.
+|149:02:31|CDR-LM|Okay.
+|149:06:10|PAO|This is Apollo Control at 151 hours 46 minutes. Jack Schmitt and Gene Cernan appear to be completing the last few items on their checklist before getting to sleep. We hope to get them to bed within an hour or maybe even a bit less, which would put them about an hour behind the nominal flight plan. Ron Evans aboard America is now in his 33rd revolution of the Moon. That spacecraft currently in an orbit 69.3 by 53.6 nautical miles. Evans began an 8 hour sleep period at 146 hours 40 minutes ground elapsed time, which is right on the flight plan. And he's scheduled to end that sleep period at 154 hours 40 minutes. The pan camera - mapping camera, and laser altimeter in the CSM scientific instrument module bay, have been turned off. The infrared scanning radiometer - the ulraviolet spectrometer are both in the operating mode during the sleep period. And data indicates nominal performance for both.
 ||||Tape 100A/2|Page 1386
 |149:07:33|CDR-LM|Hello, Houston; Challenger. The LMPs PLSS is charged.
-|149:07:33|CC|We copy it.
-|149:07:33|CDR-LM|Joe, how's the weather got down there? Any better?
-|149:07:33|CC|Geno, the weather is better. We were really socked in yesterday. That front's moved on through the Houston area, and it is cold and clear tonight, I suspect. It's been a while since we've been out, but they are calling for it to go down right near freezing.
-|149:07:33|CDR-LM|Okay. Thank you.
+|149:07:39|CC|We copy it.
+|149:07:56|CDR-LM|Joe, how's the weather got down there? Any better?
+|149:08:01|CC|Geno, the weather is better. We were really socked in yesterday. That front's moved on through the Houston area, and it is cold and clear tonight, I suspect. It's been a while since we've been out, but they are calling for it to go down right near freezing.
+|149:08:28|CDR-LM|Okay. Thank you.
 |149:36:12|LMP-LM|Hey, Joe; Challenger.
-|149:36:12|CC|Go ahead.
-|149:36:12|LMP-LM|They succeeded in leveling the gravimeter, yet?
-|149:36:12|CC|Jack, we'll check it, update our information on that, tfy understanding at the moment is that they've not, but - but they're thinking that the unit's just too cold and they're in the process of wanning it up by dumping heat into it by running some of the equipment around it and in it, and they've by no means given up - given up hope for that unit.
-|149:36:12|LMP-LM|I figure that means that n$r fooling around with it didn't help them.
-|149:36:12|CC|Apparently, it - it didn't do too much for then, but what it did do was convince them that it's probably somehow locked up because its temperature's not right yet. And they're not worrying about whether it's level or not level now. They're - they're confident that it's been set up okay, and now they're just biding their time to bring that temperature up. We'll get some more wordr. to you sometime tomorrow on it as you make your traditional visit to the site again - ALSEP site again, probably. How are you coming along with your sleep -prep?
+|149:36:17|CC|Go ahead.
+|149:36:23|LMP-LM|They succeeded in leveling the gravimeter, yet?
+|149:36:33|CC|Jack, we'll check it, update our information on that, my understanding at the moment is that they've not, but - but they're thinking that the unit's just too cold and they're in the process of warming it up by dumping heat into it by running some of the equipment around it and in it, and they've by no means given up - given up hope for that unit.
+|149:37:04|LMP-LM|I figure that means that my fooling around with it didn't help them.
+|149:37:09|CC|Apparently, it - it didn't do too much for them, but what it did do was convince them that it's probably somehow locked up because its temperature's not right yet. And they're not worrying about whether it's level or not level now. They're - they're confident that it's been set up okay, and now they're just biding their time to bring that temperature up. We'll get some more words to you sometime tomorrow on it as you make your traditional visit to the site again - ALSEP site again, probably. How are you coming along with your sleep prep?
 ||||Tape 100A/3|Page 1387
-|149:36:12|CDR-LM|We're just about there, Joe. We picked up some time somewhere in here. Couldn't be much more than 1 hour behind.
-|149:36:12|CC|No, that's just about right. You're looking pretty good on that.
-|149:36:12|LMP-LM|If you get to sleep in the next 5 minutes, you're 1 hour behind.
-|149:36:12|CDR-LM|Yes, sir; we're - I'm putting ny hammock up now, as a matter of fact.
-|149:36:12|LMP-LM|What are you doing up so late?
-|149:36:12|CC|Well, somebody's got to sit up and keep you guys honest. I think we're getting more sleep down here than you are.
-|149:36:12|CDR-LM|Ah me.
-|149:36:12|CC|I might add that not only do we have to stay up late; we have to get up mighty early to keep you honest, too.
-|149:36:12|LMP-LM|Okay; you going to let us sleep 8 hours or what?
-|149:36:12|CC|That's affirm, Jack. We're - we're looking good on the time, and we're - Not only will you get, we hope, 8 hours of good sleep, but you'll have a full EVA tomorrow. So,.it's not costing us anything there.
-|149:36:12|LMP-LM|Sounds great, Joe. I - I fully expect it won't be much longer now.
-|149:36:12|CC|And, Gene, just for rough planning purposes, we'll start to figure your sleep period starting around 152:30. And We'll be looking at your getting up around 8 hours from that time.
-|149:36:12|CDR-LM|Okay, Joe; I'll buy that.
-|149:36:12|CC|Might add, also, that there are a lot of us looking forward to that third EVA tomorrow. It's going to be the last one on the lunar surface for some time.
+|149:37:47|CDR-LM|We're just about there, Joe. We picked up some time somewhere in here. Couldn't be much more than 1 hour behind.
+|149:37:58|CC|No, that's just about right. You're looking pretty good on that.
+|149:38:04|CC|If you get to sleep in the next 5 minutes, you're 1 hour behind.
+|149:38:11|CDR-LM|Yes, sir; we're - I'm putting ny hammock up now, as a matter of fact.
+|149:38:18|LMP-LM|What are you doing up so late?
+|149:38:25|CC|Well, somebody's got to sit up and keep you guys honest. I think we're getting more sleep down here than you are.
+|149:38:47|CDR-LM|... bother me.
+|149:38:49|CC|I might add that not only do we have to stay up late; we have to get up mighty early to keep you honest, too.
+|149:39:00|LMP-LM|Okay; you going to let us sleep 8 hours or what?
+|149:39:05|CC|That's affirm, Jack. We're - we're looking good on the time, and we're - Not only will you get, we hope, 8 hours of good sleep, but you'll have a full EVA tomorrow. So, it's not costing us anything there.
+|149:39:25|LMP-LM|Sounds great, Joe. I - I fully expect it won't be much longer now.
+|149:39:51|CC|And, Gene, just for rough planning purposes, we'll start to figure your sleep period starting around 152:30. And We'll be looking at your getting up around 8 hours from that time.
+|149:40:14|CDR-LM|Okay, Joe; I'll buy that.
+|149:40:23|CC|Might add, also, that there are a lot of us looking forward to that third EVA tomorrow. It's going to be the last one on the lunar surface for some time.
 ||||Tape 100A/4|Page 1388
-|149:36:12|CDR-LM|I tell you, if it's anywhere near what the first two were like, we're looking forward to it, also.
-|149:36:12|CC|Gene and Jack, we're still marveling at the > i-tiful television pictures that we're getting from your TV camera there. It's fun, in fact, to watch the - the tracks that you're leaving behind in -in the - the lunar soil, both footprints and Rover tracks. And some of us are down here now reflecting on what sort of mark or track will someday disturb the tracks that you leave behind there tomorrow.
-|149:36:12|CDR-LM|That's an interesting thought, Joe, but I think we all know that somewhere, someday, someone will be here to disturb those tracks.
-|149:36:12|CC|No doubt about it, Geno.
-|149:36:12|LMP-LM|Don't be too pessimistic, Joe. I think it's going to happen.
-|149:36:12|CC|Oh, there's no doubt about that. But it's fun to think about what sort of - of device will ultimately disturb your tracks.
-|149:36:12|LMP-LM|Well that device may look something like your little boy.
-|149:36:12|CC|Boy, he'd make short work of them.
-|149:36:12|LMP-LM|Joe, I'll tell you it's also a pretty philosophical thought to think that you're riding around out here on what is really undisturbed - undisturbed everything, you know. If there was someone here, way back when sometime, they didn't leave much -much sign of their whereabouts, but that's an interesting thought, too, as you drive around and all of a sudden cross your own Rover tracks and figure out those are the only ones that have maybe have ever been here.
-|149:36:12|CC|Very true.
+|149:40:40|CDR-LM|I tell you, if it's anywhere near what the first two were like, we're looking forward to it, also.
+|149:41:03|CC|Gene and Jack, we're still marveling at the beautiful television pictures that we're getting from your TV camera there. It's fun, in fact, to watch the - the tracks that you're leaving behind in - in the - the lunar soil, both footprints and Rover tracks. And some of us are down here now reflecting on what sort of mark or track will someday disturb the tracks that you leave behind there tomorrow.
+|149:41:43|CDR-LM|That's an interesting thought, Joe, but I think we all know that somewhere, someday, someone will be here to disturb those tracks.
+|149:41:56|CC|No doubt about it, Geno.
+|149:41:57|LMP-LM|Don't be too pessimistic, Joe. I think it's going to happen.
+|149:42:03|CC|Oh, there's no doubt about that. But it's fun to think about what sort of - of device will ultimately disturb your tracks.
+|149:42:17|LMP-LM|Well that device may look something like your little boy.
+|149:42:23|CC|Boy, he'd make short work of them.
+|149:42:36|LMP-LM|Joe, I'll tell you it's also a pretty philosophical thought to think that you're riding around out here on what is really undisturbed - undisturbed everything, you know. If there was someone here, way back when sometime, they didn't leave much - much sign of their whereabouts, but that's an interesting thought, too, as you drive around and all of a sudden cross your own Rover tracks and figure out those are the only ones that have maybe ever been here.
+|149:43:11|CC|Very true.
 ||||Tape 100A/5|Page 1389
-|149:36:12|LMP-LM|And with that, I'm rolling out wy hammock.
-|149:36:12|LMP-LM|Okay, Joe. I'm waving goodnight to you. I'm rolling up my overhead window cover.
-|149:36:12|CC|Okay, Gene and Jack. We'll say good night to you from down here, unless there's some other way can help you.
-|149:36:12|LMP-LM|No, sir. If there is, we'll give you a call, though.
-|149:36:12|CC|Just want to end by saying what a terrific job you did today, and really looking forward to tomorrow. Have a good 8-hours rest.
-|149:36:12|LMP-LM|Thank you, Joe. Tomorrow we answer all the unanswered questions. Right?
-|149:45:22|CC|If not more.
+|149:43:13|LMP-LM|And with that, I'm rolling out my hammock.
+|149:44:14|LMP-LM|Okay, Joe. I'm waving goodnight to you. I'm rolling up my overhead window cover.
+|149:44:28|CC|Okay, Gene and Jack. We'll say good night to you from down here, unless there's some other way can help you.
+|149:44:43|LMP-LM|No, sir. If there is, we'll give you a call, though.
+|149:44:56|CC|Just want to end by saying what a terrific job you did today, and really looking forward to tomorrow. Have a good 8-hours rest.
+|149:45:10|LMP-LM|Thank you, Joe. Tomorrow we answer all the unanswered questions. Right?
+|149:45:20|CC|If not more.
+|149:46:06|PAO|This is Apollo Control at 152 hours 26 minutes. The goodnights with the crew aboard Challenger were exchanged at 152 hours 25 minutes, and we plan to give them a full 8 hour sleep period which puts wakeup at 160 hours 25 minutes. That presumably would move the start time for the EVA 3 back 1 hour. We'll be getting conformation on that shortly. And both the CSM and the Lunar Module continuing to perform almost perfectly as planned. Based on the telemetry that we're getting here on the ground and at this moment our large scribing plotter display in front of mission control, shows the Command Module, America, to be passing almost directly over Challenger on the lunar surface in the Valley of Taurus Mountains. America now on its 33 revolution of the Moon. And Ron Evans well into his scheduled 8 hour sleep period. Evans is right on the planned time for sleep. Sleeping right on the - on the flight plan times. During the sleep period we'll have the air-to-ground lines down. Normally that circuit gets rather noisy after the crew has gone to sleep - configured the lunar module to sleep. The power amplifier is turned off, the transmitter output power of the Lunar Module decreased from about 18 watts down to about 1 watt and that accounts for the noise that we frequently have on that circuit during sleep periods. For that reason, we will have the circuit down configured to record any conversations with the crew for subsequent playback. At 152 hours 29 minutes, this is Apollo Control Houston.
 |149:46:16|LMP-LM|...
+|||APOLLO 17 MISSION COMMENTARY 12/13/72 GET 153:27 CST 0620 MC 609/1
+|150:47:08|PAO|This is Apollo Control at 153 hours 27 minutes. We have heard nothing from the crew aboard Challenger on the lunar surface, Gene Cernan and Jack Schmitt, for the past hour since we said goodnight to them. And we now have a little less than 7 hours until their scheduled wakeup time. We plan to wake them up at a GET time of 160 hours 25 minutes which would be 8 hours after we said goodnight to them. Ron Evans aboard the Command Module, America, is about to begin his 34th revolution of the Moon, and on this revolution we'll be sending Ron a wakeup call. Wakeup for him is 154:40, 154 hours 40 minutes. It'll be about 35 minutes before we regain radio contact with the CSM as it comes back around the eastern limb of the Moon on its 34th revolution. Both vehicles continuing in very good shape. One minor problem appeared to crop up with the Lunar Module following the repressurization after the 2nd EVA. The cabin pressure went up to about 5.8 pounds per square inch. This is about 8 tenths of a pound above what we think of as the normal LM cabin pressure. However, it is not unusual to see the cabin pressure spike up a bit on repressurization and then drop back down. However, this rise was getting fairly close to the pressure of which the cabin relief valves would open and relieve the pressure. One consideration when the pressure goes up in this manner is that perhaps one of the several sources of oxygen in the LM cabin might be leaking. Such things as the portable life support system fill valves or the portable life support system itself, or one of the oxygen purge systems, or even the the main regulator valves that control the flow of oxygen from the LM supply tanks in the cabin. After isolating these possible sources one at a time, and still watching the pressure rise gradually, we elected to shut down both of the oxygen regulator valves and see what happened to the pressure, keeping a flow of oxygen through the cabin to remove carbon dioxide buildup, and on shutting down both regulators, the pressure did, in fact, begin to drop. The assumption at that time was that possibly one of the regulators was leaking slightly, allowing a small amount of oxygen above the needs of the crew and for replenishment, to flow into the cabin. And as the pressure dropped back down, we brought one regulator at a time online. However, the pressure continued to fall back to its normal level of about 5 pounds per square inch even with both regulators on. So, at this point, the assumption is that nothing is the matter. There are a couple of possible explanations for the rise in cabin pressure. One is - one explanation is that one of the regulators was, in fact, leaking, and when they were recycled and reseated, the seal held properly and the regulators are now performing properly. The other possibility is that moisture from the suit circuits - the temperature rise caused by bringing things from outside the LM into the lunar cabin - rocks and other equipment that had been exposed to the Sun on the lunar surface - causing an increase in water vapor, carbon dioxide, and the slight rise in the cabin temperature, which would, in turn, bump the pressure up. Those are probably the most likely possibilities. In any event, the situation as it now stands is that the LM cabin's pressure is at 4.9 pounds per square inch, which is within the normal range, and there's no indication of any leakage either through the regulators or through the other sources of oxygen. It appears that everything is functioning normally. During this shift in Mission Control, Flight Director, Gene Kranz has his flight control team reviewing the situation for liftoff. This team of flight controllers will be in charge of the lunar liftoff, and they are considering such things as the ideal time to conduct the plane change maneuver with the Command Module, to put it in the proper orbit for subsequent rendezvous with the lunar module; also, looking at LM weights and performance characteristics, assuring that all that data is in proper form for the liftoff which we expect will occur at the flight plan time. EVA 3 will be, it looks like now, delayed 1 hour from the published flight plan time. This reflects the late sleep time for the crew, the fact that they began their rest period one hour late. And we expect this will translate to a one hour late start for EVA 3, and the EVA is planned for a full 7 hours duration. At 153 hours 33 minutes, this is Apollo Control Houston.
+|151:55:09|PAO|This is Apolio Control at 154 hours, 35 minutes. We're about 5 minutes away from putting in a call to Ron Evans aboard Amarlca, now on its 34th revolution of the Moon. Ron, completing an 8 hour sleep period, and flight surgeon reports he has been sleeping soundly during virtually all of that sleep period. And Ron Evans, right on the Flight Plan. The command module performing very well. During the sleep period, the pan camera, the mapping camera, and the laser altimeter back in the scientific instrument module bay have been turned off. We have been gathering data from the infrared scanning radiometer and the ultra violet spectrometer. And the telemetry data that we have received indicates that they're performing normally. For Ron Evans - or for rather for Gene Cernan and Jack Schmitt aboard the Lunar Module Challenger, they now have about 5 hours 53 minute remaining in a scheduled 8 hour sleep period, and the surgeon reports that Gene Cernan who is wearing the biomedical sensors during sleep period is sleeping soundly at this time, so the lunar module crew also appears to be getting well into their rest period. We show America in an orbit at the present time with a high point or apocynthion of 69 and 1/2 nautical miles and a low point or pericynthlon of 53.4. No signs of activity, aboard the Command Module at this point. We'll stand by for the wake up call to Ron Evans.
+|152:00:23|CC|Good morning America, how are you?
+||||Tape 10IB/I|Page 1391
+|152:01:17|CMP|Hey, Houston. This is the Command Module Pilot of the United States spaceship America, and we're ready to participate in another day's activity.
+|152:01:28|CC|Glad to hear it, Ron. Good morning.
+|152:01:33|CMP|Good morning.
+|152:01:52|CMP|I slept with my lightweight headset on last night so didn't have to have that cap on. Is the fidelity of this thing any good, at all?
+|152:02:02|CC|Pretty good, Ron. Pretty good. And as you start your morning's activities, you can be aware that we were watching the spacecraft through the night, and as Flight puts it, everything is swinging.
+|152:02:21|CMP|Outstanding. That's what we like.
+|152:06:26|CMP|Hey, it's still dark outside.
+|152:06:35|CC|We start work early around here.
+|152:06:41|CMP|Well, I guess.
+|152:12:34|CMP|Hey, Houston; America.
+|152:12:39|CC|Go ahead.
+|152:12:44|CMP|Joe, I'd just be kind of curious how the old heart rate compares to those sleep tests that we did - preflight? Is it about the same when I'm soundly asleep or is it lower or what, you know?
+|152:13:04|CC|Stand by, Ron, and I'll ask the men on my left.
+||||Tape 101B/2|Page 1392
+|152:13:11|CMP|Okay. You know, maybe they'll have that information.
+|152:13:14|CC|Roger. They think maybe 5 minutes. And we'll be back to you.
+|152:13:21|CMP|Okay. No problem. Curiosity more than anything.
+|152:14:08|CMP|I didn't get quite as much sleep last night. I took a bath and changed my underwear, and all those good ... things, you know. Probably only got - oh, maybe 7 hours at the most. Probably closer to 6-1/2 of good sleep.
+|152:14:30|CC|Roger.
+|152:14:35|CMP|And I'll give you the rest of that in just a jiffy when I get it squared away.
+|152:14:39|CC|Okay.
+|152:18:21|CC|America, this is Houston.
+|152:18:26|CMP|Go ahead.
+|152:18:30|CC|Roger, Ron. Apparently in your preflight database, they show you with a rate of in the low 60s or high 50s, that's a sleeping rate. And we're showing you now, during your sleep periods, of heart rates of about 10 beats lower per minute. And with heart rates that show less variation than the preflight data shows.
+|152:19:11|CMP|Ah ha, okay. Well, thank you much. The heart does slow down a little bit up here, then.
+|152:19:17|CC|Apparently so - they assured me however, that it would not be approaching zero. So you can relax there.
+|152:19:27|CMP|(Laughter) Okay.
+||||Tape 10IB/3|Page 1393
+|152:19:38|CC|And, Ron, in the meantime, Gordo's arrived here and - I'll turn the console over to him. Be talking to you later perhaps.
+|152:19:51|CMP|Okay, Joe. Hey, we thank you much. Appreciate it.
+|152:19:54|CC|Enjoyed it. Have a good day; and we'll all be watching you close.
+|152:19:59|CMP|Okay.
+|152:21:13|CMP|Okay, Houston; America. Here's my medical log.
+|152:21:20|CC|Okay, Ron. Good morning and go ahead.
+|152:21:22|CMP|I just noticed ... day off (laughter). Okay, Gordo. Glad to have you aboard with us. Okay. PRD, 1504l; and the sleep, I mentioned, probably about 6-1/2 or 7 good hours. I took a Seconal last night, and I had four cans of fluid.
+|152:21:52|CC|Okay.
+|152:22:13|CMP|Okay, here's the old chow for day 6.
+|152:22:19|CC|Okay.
+|152:22:22|CMP|Scrambled eggs, bacon squares, peaches, cinnamon toasted bread cubes, orange juice, cocoa with potassium, and a vitamin pill. Okay. Lobster bisque, all the peanut butter, all the jelly, three pieces of bread, citrus beverage, a tea, a chocolate bar, and a package of pecans. And I had a beef steak, butterscotch pudding, and an orange drink.
+|152:23:17|CC|Okay, got that.
+|152:23:18|CMP|I think that was it. Hey, today I get sausage, grits, fruit coctail, orange beverage, and coffee.
+||||Tape 10IB/4|Page 1394
+|152:23:44|CC|Roger.
+|152:24:10|CMP|And, Gordo, if you have one of these preflight, not preflight - but, what do you call it -geology summarys of EVA-2, like you had yesterday. I thought that was great.
+|152:24:24|CC|Okay, Ron. I just picked it up. Let me read it over and then I'll give you a summary.
+|152:24:32|CMP|Oh, okay. Sure; no problem.
+|152:28:40|CC|Hello, Ron. I'll give you a little summary here of the EVA. It's going to be a little rambling, because I haven't had time to organize it, but it was a very interesting night last night on that second EVA.
+|152:28:55|CMP|Sure. No problem. Go ahead.
+|152:28:40|CC|Traverse lay over terrain of extraordinary geologic diversity and yielded a far greater variety of information than ever obtained on any other lunar traverse. Systematic descriptions and samples of four of the six main units of the area, massifs, subfloor, the light mantle, and the dark mantle were obtained. In addition, detailed descriptions were given of a variety of craters, including exciting discoveries that the crater Shorty, and descriptions of the Lee-Lincoln Scarp and lineaments in the hilly terrain. The South Massif is composed of two main varieties of breccia; blue-gray and tan-gray blocks of both varieties were abundant at station 2 up on Nansen. I won't go into the geologic details on those breccias. But, they then found samples of the subfloor unit exposed as blocks in the ejecta around larger craters that had been partly buried by the dark mantle. Stand by.
+||||Tape 10IB/5|Page 1395
+|152:30:16|CC|Okay. They are going to take the antenna away from us, Ron. I'll have to finish this next time around. Spacecraft's looking good, we'll see you in about 45 minutes or so.
+|152:30:31|CMP|Okay. Mighty fine Gordo. Thank you.
+|155:05:00|PAO|This is Apollo Control at 155 hours 11 minutes Ground Elapsed Time. Even though there are some 4 mirutes and 25 seconds remaining to actual disappearance of the spacecraft America behind the Moon, the network has taken down the uplink to the spacecraft so, for all practical purposes, we have had loss of signal to Ron Evans aboard spacecraft America. We'll see him again in about 48 minutes. Meanwhile the crew of lunar module Challenger is still asleep at Taurus-Littrow. To reiterate the new wake-up time for the Challenger crew it's Ground Elapsed Time of 160 hours 25 minutes with the start of EVA 3 coming at 163:40, which is approximately 1 hour later than the Flight Plan. Current orbit measurements of spacecraft America: 69.6 by 53.5 nautical miles. As the spacecraft disappeared behind the Moon, the velocity in orbit was 5372 feet per second. The Gold Team of Flight Directors or Flight Controllers settling in for a fairly short day shift ending at 2:00 p.m., just after the surface crew has been wakened. Gerry Griffin in charge of the LM or Lunar Module flight controllers and the CSM group headed up by Neil Hutchinson. At 155:13 ground elapsed time, this is Apollo Control.
+|153:20:00|PAO|This is Apollo Control at 156 hours Ground Elapsed Time in the mission of Apollo 17. Coming up on acquisition of signal in about 50 seconds the Command Module, America, coming around on her 35th lunar orbit. Command Module Pilot, Ron Evans, awake at this time, should be completing his breakfast and ready for a days work in lunar orbital science. Meanwhile the crew of Challenger on the lunar surface still asleep. About 4 1/2 hours until they're awakened for the third and final EVA of this mission and of the Apollo program. Waiting for confirmation in about 5 seconds or perhaps a few more seconds that network has indeed locked onto the signal from spacecraft, America. We do have acquisition. Let's join the air-ground 2 circuit for any conversation during this 35th front-side pass.
+|153:23:10|CMP|Houston, this is America. I see you tried to come in there.
+||||Tape 102B/1|Page 1396
+|153:23:15|CC|Yes, Ron. You're loud and clear.
+|153:23:22|CMP|Okay. I'm just finishing up my fruit cocktail.
+|153:23:27|CC|Okay. While you're munching there, let me give you a few status reports here. First of all, your RCS is hooking right along there 4 percent above the Flight Plan line; however, we have some plans for that 4 percent, which I'll go over with you later. On the oxygen, you've gained a little on it, since I was last on anyway. O2 tank 1 is a little low, but it's balanced by tank 3 being a - a little high, and tank 2 is right on the redline, so I think they all balance out to be about on the redline on the Flight Plan line. And they all three balance out to be right on the Flight Plan line, as close as I can tell. On hydrogen, you're probably up about 4 percent in tank 1, and the other two are right on the line, so you are in good shape there, still.
+|153:24:31|CMP|Very good.
+|153:24:41|CC|Okay, while you're - I've got some words on - on your orbit here, which won't require anything - writing down anything - but for some reason you're missing the mascons or something, and your orbit's not degrading like we expected it to. It's not degrading down into a circular orbit. It's - I think it's staying just about the way it was, and so we're looking ahead to a plane change, and we're - we're thinking about an extra maneuver prior to plane change - about 1 hour prior to plane change on the back side. There was some discussion here about what to call that maneuver. Somebody wanted to call it a HAM, Height Adjustment Maneuver, and someone else said, well that one's already used in the rendezvous sequence. Maybe we ought to make it "bacon". And even "lox" was was suggested, considering the FDOs objected to "bacon" because of his religion. So the "lox" was eliminated because we already used that for the S-IVB.
+||||Tape 102B/2|Page 1397
+|153:26:05|CMP|How about "mascon adjust?"
+|153:26:10|CC|Anyway, what the maneuver's going to be - whatever we call it - is about 11 foot per second RCS burn, 1 hour prior to plane change so that'll be on the back side. And, that'll just about use up your RCS overage and put you back on the Flight Plan line. That will adjust the height when you get around to the plane change, and then the plane change will be a little bigger than originally planned, showing about 365 feet per second, SPS, of course. And, looking at the consumables, that will put you down right - right on the rescue red-line on SPS, so we're still in good shape - consumable-wise. Further tracking will refine this, of course, so we'll have updates on the plan. Any questions on that? Over.
+|153:27:13|CMP|No, it sounds like you all thought it out. I appreciate your letting me know about that. I think - Is the timeline worked out good enough in there to work in a P4l? I guess it does - an hour before, huh?
+|153:27:25|CC|Yes, well - we'll make it. I haven't looked at it myself, but we are - FAO has - and I haven't heard exactly what needs to be changed, if anything. Okay, on the SIM bay. Basically there's nothing new to report. And all the people down here appreciate your timely operation of the SIM bay, and it's responsible for really maximizing the data return. In general, we're pretty happy. The problems that we're have - having with it are ones that have already been mentioned to you. On the - on the HF antenna retract problem that we have, if we have it, here's the plan. We're - Well, first of all, the consensus on that is that we really think the antennas are retracting okay. That it's a malfunction in the limit switch that drives the talkback that's really the problem. But we have devised an alternate method, utilizing timing and stall current, and actually the signature of the motor stall current down here in the data, to determine proper retraction. And just prior to 168 hours in the Flight Plan, you're supposed to retract those antennas, and we're going to check the data at that time, and say "yes" or "no"; they are retracting or they aren't. If they don't, then the alternate plan we'll swing into at that time is to reschedule the HF targets that are now scheduled on rev 55. Reschedule them and do them on rev 42. After which, we'll try one more time to retract the antennas, and if it still looks like they indeed are not retracting - I guess it's just the one that's in question - then we'll go ahead and jettison them at that time. And we'll still have gotten most of the - of the at least - priority HF targets with that alternate plan. Over.
+||||Tape 102B/3|Page 1398
+|153:29:42|CMP|Yes, that sounds like - sounds like a good plan to me.
+|153:29:46|CC|Okay, we got one request from EECOM here. Can you turn the H2 tank 2 FANs, OFF, please?
+|153:30:01|CMP|H2 tank 2 FANs are OFF now.
+|153:30:04|CC|Okay. And when you get between courses on breakfast there, I have some pencil work for you in the way of Flight Plan updates. Not too much, really.
+|153:30:31|CMP|Okay. Contrary to the way I eat breakfast on the ground, I always end up leaving my orange juice to last. I guess that's because you like to eat the hot things first.
+|153:30:44|CC|Roger.
+|153:30:46|CMP|What I'm saying is the only thing I've got left to eat is orange juice, and I'm ready to copy.
+|153:30:51|CC|Okay, 156:22 - which is coming up here - like to, at that time, verify all Command Module VHP off. It's now 11 after - You have to terminate the jet-on monitor and then get the sounder operating. I can break this off at any time if you think we're pressing that. Just interrupt me. At 156:50, lunar sounder pad. T-start is 156:51:05, and T-spot is 156:56:09. Over.
+|153:31:47|CMP|Okay. T-start, 156:51:05, 156:56:09.
+|153:31:53|CC|That's good. Flip the page - flip two pages and copy the next sounder pad, which is for 158:40. T-start is 158:49:35 and stop time is 158 - -
+||||Tape 102B/4|Page 1399
+|153:32:13|CMP|Wait a minute; wait a minute. I'm not with you.
+|153:32:15|CC|Oh, okay.
+|153:32:20|CMP|Okay. I got it (chuckle).
+|153:32:22|CC|Okay. T-start - -
+|153:32:23|CMP|Go ahead, now, very sorry.
+|153:32:24|CC|- - 158:49:35, and stop is 158:54:38.
+|153:32:41|CMP|Okay. Start 158:49:35, 158:54:38.
+|153:32:47|CC|Okay, that's correct. Now at - that same page - 158:13, after "PAN CAMERA - ON," add a line that says, "V/H OVERRIDE - HIGH ALTITUDE."
+|153:33:14|CMP|Okay, at 158:13, "V/H OVERRIDE to HIGH ALTITUDE."
+|153:33:19|CC|Okay, and at 158 - -
+|153:33:20|CMP|I think it's still in HIGH ALTITUDE from yesterday. Yes, it is.
+|153:33:24|CC|Okay. 158:21 is another, "Verify all Command Module VHF, OFF."
+|153:33:47|CMP|Okay, 158:21, "Verify all VHF, OFF," and I know what that means.
+|153:33:52|CC|Okay, and the next two are easy. Next page, at 159:01. Just draw a line through "MAPPING CAMERA, RETRACT", and at 159:05 - -
+|153:34:06|CMP|Okay, I got it.
+|153:34:06|CC|- - draw a line through "MAPPING CAMERA LASER ALTIM - LASER ALTIMETER COVER, CLOSED."
+|153:34:15|CMP|Okay, got it.
+|153:34:17|CC|Okay, I think we're caught up. We're ready for HIGH GAIN, AUTO.
+|153:34:25|CMP|Okay, I'll go back and see where we are in the old Flight Plan. Okay, you have AUTO.
+||||Tape 102B/5|Page 1400
+|153:34:33|CC|Okay.
+|153:34:53|CMP|Okay. I don't think this lightweight headset is quite as good as the - the other one, and I'm going to change as soon as I get a chance here.
+|153:35:01|CC|Okay.
+|153:35:02|CMP|Okay, VHF A is OFF, B is OFF, RECEIVE ONLY, B DATA is OFF, BEACON is OFF, RANGING is OFF. That's all (chuckle).
+|153:35:14|CC|Okay.
+|153:35:26|CMP|I was looking at - Aitken when they came that side. Aitken is almost right in the terminator, right now. So when they come up on terminator photos there - The only thing is that, even though it was down in the shadow, down in the bottom of the crater, I could still see the bottom of the craters ... when they come around there for the near-terminator photography. I'm going to open the camera up and take a picture down in the shadow itself and see if that works.
+|153:36:01|CC|Okeydoke.
+|153:36:02|CMP|And there was quite a bit of backlight - quite a bit of backlight reflection from the northeastern side of it and also the eastern side of it, I guess. Funny, down in the eastern rim - -
+|153:36:18|CC|Ron, if you give us ACCEPT, we'll give you a vector while you got it.
+|153:36:18|CMP|- - the only way I can describe it - Okay. You have ACCEPT.
+|153:36:27|CC|Roger.
+|153:36:31|CMP|And the DSKY is clear. With the shadow effect on the eastern - I guess the east and southeastern interior rim of the crater, it reminds me a lot of some eroded hills. Like if you've got a valley that maybe has a 20-foot - it's bigger than that - but say you got a 20-foot drop on the thing where it's been - just rain erosion down the side and it kind of washes little - little valleys down it here and there. And it leaves mounds and humps in between that haven't eroded away yet. And that's the way the side of that crater works. And then the other side of it, the northeastern rim of it and the interior rim, looks just like a - one of the massif units. That is, it's a very fine texture, no real erosional processes, just a smooth, gentle - gentle slope.
+||||Tape 102B/6|Page 1401
+|153:37:52|CC|Roger.
+|153:38:08|CC|Okay, Ron; it's your computer. Go gack to BLOCK.
+|153:38:14|CMP|Okay, we're in BLOCK.
+|153:39:44|CMP|You know that Skylab drink bag has really been a pretty good deal because you can use the nipple that's on the end of that thing and use it for all of the beverage packages. And that way, you don't have to cup open the end of it and let it drip out all over the place.
+|153:40:07|CC|Hey, I'll pass that along to the Skylab - -
+|153:40:07|CMP|- - you can use the nipple.
+|153:40:26|CMP|I'm not sure if they have any of our beverage packs or not. I think they are all packaged in these expandable little things we're using for water - water cans.
+|153:40:37|CC|I see.
+|153:42:12|CMP|Hey, Gordo, what day is this?
+|153:42:16|CC|Out of sync there myself. It's Wednesday. It's about 9:15 in the morning, Wednesday.
+|153:42:28|CMP|Ah ha! Thank you. I guess I could have figured it - up, but -
+|153:42:41|CC|That's why we're here. Answer important questions.
+||||Tape 102B/7|Page 1402
+|153:42:47|CMP|(Laughter) That's right.
+|153:42:50|CMP|Hey, getting ready for LUNAR SOUNDER to STANDBY. That's a "verify."
+|153:43:01|CC|Roger.
+|153:43:10|CMP|And RECORDER is - RADAR is ON. RECORDER is OFF, not heaters. I see the old MODE is still in VHF. Ah ha! I get to control the spacecraft again. ... Takes about five minimum impulse blips to get -a tenth of a degree per second.
+|153:44:05|CC|Roger.
+|153:48:17|CMP|The dark annulus around Serenitatis - As you look north - the dark variation there, and I'm kind of looking back - looking a little bit backwards now - but that dark has no continuity with the ridge at all. Goes right down the middle of the ridges. As you look directly east of Littrow - east - I mean directly west of Littrow, the wrinkle ridge is there, and then there's - it comes out, and you have the light tan, tannish, tannish - there's a dark, I guess - you call it a dark tannish-gray. And then you get out to the light tan of the Mare Serenitatis, itself.
+|153:49:18|CC|Okay, Ron.
+|153:53:09|CMP|You know, I'm looking almost directly into the Sun and you can still see a topographic expression - topographic high, around the rilles in the Tacquet area, and also the grayness has disappeared out of that - out of the dark material, and it's just - looking into the Sun now - it looks more of a tan - a darker tan than the Serenitatis area. And you can all see - also see the topographic rise to it now - I'm looking quite a ways away from it and looking down on it.
+|153:53:50|CC|Roger.
+|153:54:24|CMP|You know, that's kind of funny now, looking back at Sulpicius Gallus and just to the north of that, there's a crater that's about - well, it's right at the end of those rilles that go north from Sulpicius Gallus. And you can really see the ejecta blanket. The ejecta blanket looks very dark, around it now in this Sun. Now you look out across the Mare Serenitatis now and you're getting toward the sunset, looking back into the Sun, and the color is disappearing all except in that one spot. Now that must be a - either a fresh ejecta - and you lose the brightness of it or something - or either that or it's dark. It's sure a dark - it's a dark ejecta blanket around it. The blanket itself goes out maybe two or three crater diameters, and it looks like it has kind of a ray-type pattern to it. I'll mark that crater. I don't even know if it has got a name or not, but I'll mark it on my map.
+||||Tape 102B/8|Page 1403
+|153:55:29|CC|Okay.
+|153:55:36|CMP|I got a ding. Let's see. It must be time to do something.
+|153:55:39|CC|Yes, it's time to turn the recorder on.
+|153:55:44|CMP|RECORDER, ON. RECORDER'S ON.
+|153:55:51|CC|Okay.
+|153:57:05|CMP|Just - I don't know where I am right now, I'll be honest with you. I just looked out window 3, and I'm right on the terminator. And, let's see, I'm going west, so we've got some arcuate - There's kind of a - little bit of a mare area down there. Okay, I think it is. And you can see lava tongues sticking out through there. And lava flow fronts with the high side on the east side because you got a shadow all the way along the front. And they're about - in the one area - you might consider a scalloped area - an ejecta scallop. Coming out of that one area you can see a crazy lava flow coming out from it.
+|153:58:11|CC|Roger on that.
+|153:58:13|CMP|At least the flow -
+|153:59:08|CMP|Hey, those are Apennines I'm just going over, aren't they?
+||||Tape 102B/9|Page 1404
+|153:59:11|CC|That's right. That's what they ought to be. We need the IR, OFF.
+|153:59:20|CMP|You look back out across Seren - Okay.
+|153:59:25|CC|We need the IR COVER, CLOSED, please.
+|153:59:27|CMP|Say again, Gordo.
+|153:59:29|CC|We want the IR COVER, CLOSED. Right away.
+|153:59:35|CMP|Okay, it's going CLOSED. Okay, it's CLOSED. How about the UV?
+|153:59:55|CMP|IR COVER is CLOSED.
+|154:00:06|CMP|I was just going to say, looking back across Serenitatis into the Sun now, there must be Bessel that has an ejecta pattern out there. When you look at the ejecta patterns into the Sun, they all look black with respect to the mare. I think it must be a shadow effect or something that you get off of the - the raised ejecta that comes up across it.
+|154:00:39|CC|Roger.
+|154:02:43|CC|Hey, Ron, that frantic call there was because the Sun had started to get in the IR and hadn't really thought that would happen, but started to see it get in there. But you caught it in time; the cover saved it.
+|154:03:00|CMP|Okay. Real good. I figured that's probably what it was.
+|154:03:10|CC|And you can go ahead with the rest of the steps in there with the UV off after sunset.
+|154:03:23|CMP|Okay. MAPPING CAMERA is going OFF. COVER's CLOSED on the IR so then we'll turn it off. PAN CAMERA, SELF TEST, OFF. And let's see, I don't see the Sun shining up a light out there. It must be sunset. Couldn't be yet, though. Yes, it sure enough is, though. Okay, UV's going OFF. You want the IR COVERs back OPEN just to keep things straight here?
+||||Tape 102B/10|Page 1405
+|154:04:41|CC|Stand by on that.
+|154:04:48|CMP|They're just - I - next time we use the IR, let's just remember to open the cover.
+|154:05:03|CC|Okay. Just open it up the next time we use it, which is in about 15 minutes. We'll - we'll remind you on that if you forget.
+|154:05:15|CMP|Oh, okay. That's right. Okay. That's right, these are just short sounder passes now, aren't they?
+|154:05:24|CC|That's right.
+|154:05:45|CC|Ron, I can finish up my description of the last night's EVA if you like, since nothing to look at now. I'm watching the clock on the sounder start for you.
+|154:05:59|CMP|Okay; hey, appreciate it.
+|154:06:02|CC|Okay, think I left off, or was cut off there without mentioning two varieties of breccia in the South Massif they found. Blue-gray and tan-gray and, without going into the geological details, those are the two types they found up there at Nansen. The subfloor unit was exposed as blocks and ejecta around larger craters had been partly buried by dark mantle. And craters apparently had penetrated thin parts of the light mantle. Especially good samples were obtained from the rim of Camelot where the same textural characteristics which are banding caused by variations in vesicle concentration, coarse-grain size, and mineralogic features, as reported in EVA-1, were found. So apparently this unit is quite uniform over the distances that they have covered so far in the traverses. The prominent east-facing scarp, crossing the valley floor from north to south about 5 kilometers west of the LM, was traversed twice near the crater Lara, near Hole-in-the-Wall, although Hole-in-the-Wall appeared to be pretty subtle. No change in the surface characteristics or lithology of the mantle was discernible where the astronauts traversed the Scarp. Outcrops of boulders were observed farther to the north where the northward extension of the Scarp crosses the face of the North Massif, it forms a notably smooth and relatively young-appearing surface. Elsewhere, the surface of the North Massif is prominently furrowed and textured, and the crew described it as a cross-hatched pattern on the surface that they could see with one set of lineaments dipping eastward and the other westward at about 30 degrees. Some of the most interesting observations made during the EVA were related to craters. Many small craters within the dark mantle have glass-coated central pits. Jack called them dimples. Some of the pits are nearly cylindrical and maybe half again as deep as the crater itself. Other small craters occurring in both the dark and light mantle have bright halos, but these halos appear to be noticeably brighter on the light-colored material. This bright material is not blocky or fragmental ejecta derived from a subfloor layer, but rather appears to consist of "instant rock" or soil breccia which has been partly consolidated by the impact shock itself. The most interesting eureka during the EVA was at station 4, Shorty Crater, where Jack found some bright red or orange, he described it, orange dirt within the gray to dark-gray rim material. The colored banding is circumferential to the crater and resembled alteration halos, which occur around many terrestrial volcanic vents. So you can see why the geologists are excited on that one. The morphology of Shorty, however, is similar in some respects - -
+||||Tape 102B/11|Page 1406
+|154:09:22|CMP|You bet you.
+|154:09:22|CC|- - impact craters have definitive interpretation of its origin may depend on sample analysis. And I got about a minute and a half to start the sounder. You might be close to 02:30 there, if you aren't. They took a total of about 850 pictures. They've taken a total of 1270, would you believe, pictures ... on the lunar surface. Including about 150 with the 500-millimeter camera, mostly of the North, South, East Massifs, and Family Mountain. They got 56 samples, two double cores, probably about 36 kilograms worth, and they traveled a total distance of 20 kilometers. Over.
+||||Tape 102B/12|Page 1407
+|154:10:22|CMP|Okay, sounds like a good summary. They're finding all kinds of things up there. Which is the reason you explore, I guess, to find - to see what you can find.
+|154:10:34|CC|Yes, they - they were really in their element last night. About 30 seconds to T-start time. I'll let you call it yourself, though.
+|154:10:43|CMP|Okay. I'll get it.
+|154:11:06|CMP|DATA SYSTEMS are OFF. OPERATE, 05.
+|154:11:13|CC|Okay.
+|154:11:34|CMP|Hope this thing's in Reiner Gamma. Then you can find some sort of a topographic expression, to that light-colored material around there. It looks to me like there is - right around the Reiner Gamma itself anyhow.
+|154:11:53|CC|Roger.
+|154:12:04|CMP|Maybe the lunar sounder will collaborate my moonlight investigations here - or earthlight investigations, I'm sorry.
+|154:12:13|CC|(Laughter)
+|154:12:30|CMP|While we're waiting here - I decided - decided to sleep last night without being tied down or anything. So I slept in the old - What do you call them in the Navy? -
+|154:12:48|CC|Hammocks, I think.
+|154:12:49|CMP|Well, anyhow, sleeper strings, we call them up here. Yes, sleeping bags - or some kind of sack. And the last 2 or 3 nights, what I'd do is put the lap belt on loosely. And you know, it just kind of keeps you from rolling all over the cockpit. Then last night, I didn't put it on at all and stayed in the sack. And I really didn't go too far anyhow. One time I woke up and I was crossways in the couch up here. And then when I woke up this morning my feet were up in the tunnel, and my head was kind of still in the center couch, more or less. So you really don't roam around too much that way anyhow, even if you aren't tied down. And you can get the "huggy pillow" effect by being inside that sack and laying your head on the outside of the sack. It just about fits me, except that if I stretch my feet out - then I get a little bit of a pull. Little bit of a pull - on it and it feels like a huggy pillow that way.
+||||Tape 102B/13|Page 1408
+|154:14:10|CC|Kind of a security blanket effect, huh?
+|154:14:15|CMP|(Laughter) Yes, right. That was the biggest problem the first 2 or 3 days here - what do you do with your head when you go to sleep. I'm used to sleeping with a pillow. And I'm used to sleeping on my side. And it's amazing the psychological effect that you can get from - for me it's hard to go to sleep just laying on my back. So you can turn on your side and you go right to sleep (laughter). What's your side and what's your back - I don't know, but anyhow, it works.
+|154:14:54|CC|That's got to be psychological.
+|154:14:59|CMP|(Laughter) It sure is.
+|154:16:10|CMP|5, 6, 7, 8 -
+|154:16:14|CMP|MARK it. LUNAR SOUNDER to STANDBY.
+|154:16:17|CC|Okay.
+|154:17:17|CMP|Okay. RECORDER is going OFF. ... the heaters.
+|154:17:21|CC|Roger.
+|154:17:27|CMP|DATA SYSTEMs coming ON.
+|154:17:44|CMP|Okay. SM/AC POWER is ON.
+|154:18:41|CMP|I guess we need to open the old door. IR, OFF, barberpole, gray bar. I get to mess with the old optics again.
+||||Tape 102B/14|Page 1409
+|154:19:23|CC|We're getting some of that, Ron. Sounds like the mike might have slipped away from your mouth, though.
+|154:19:33|CMP|Okay. That's a good point - let me change my headsets here. Anyhow, I went right through the Flight Plan with all that stuff.
+|154:19:43|CC|Okay, and - -
+|154:19:43|CMP|... got the IR COVER, OPEN.
+|154:18:48|CC|Okay. Great memory there.
+|154:21:18|CC|Ron, if you like while you're getting ready for the 52, I can summarize the news real rapidly. There wasn't a whole lot.
+|154:21:28|CMP|Okay. Sure, go ahead, I've got a different headset now. Is that okay?
+|154:21:32|CC|Yes, you're loud and clear. Former President Truman is still hanging in there. His heartbeat and breathing became unstable yesterday, but then improved again. Of course, the big headlines were about the discovery of the orange dirt at Shorty Crater. And there was a picture of Jan, John, and Jaime in the paper, watching the EVA on TV. The only thing new on the peace talks is that Kissinger will probably be coming back to the United States today and there's a rumor, the French press said that the compromise is in the work on the withdrawal of the North Vietnamese troops from the south. The Rockets lost - the Aeros, the hockey team, won last night. They beat the Alberta Oilers. The Rockets lost to Buffalo. And the weather finally cleared out. The cold front cleared out the wet stuff and last night I think was the first time since you guys launched that we've had a look at the Moon, so we had a direct look at you last night. It's just high cirrus and sunny this morning when I came to work. Over.
+|154:22:52|CMP|Hey, thanks for the news and I guess those three guys that went up to the Moon - you know, they probably cleared that weather up there in Houston.
+||||Tape 102B/15|Page 1410
+|154:23:01|CC|It sure took you awhile though.
+|154:23:07|CMP|(Laughter) Right.
+|154:24:35|CMP|Okay, 14 is Canopus again, the same ones I had last night I think. That's Canopus. Canopus looks about as bright as Sirius, but not quite.
+|154:25:12|CC|Roger.
+|154:25:20|CMP|My sextant - is good and everything like that, but you just can't quite get the reticle in focus.
+|154:25:33|CC|Roger.
+|154:25:36|CMP|It's kind of the way they said it was going to be.
+|154:25:10|CC|Okay, Ron. We copy those. Clear to torque them.
+|154:26:16|CMP|Okay, let's see; we'll torque at - oh, make it 06:30.
+|154:26:23|CC|All righty.
+|154:27:03|CC|Ron, we've got still about 5 or 6 minutes until LOS, but in case we drop off on your maneuvering there - just want to tell you that everything's looking good. In fact, the IR is pumping out good data, so with that fantastic teamwork, we saved it back there, and we'll see you next time around.
+|154:27:27|CMP|Hey, okay. Sounds good, there's little old Aldebaran in there. Saturn still must be out of the - There it goes into the -
+|154:28:56|CMP|(Humming) Okay, got to align the old GDC here. (Humming)
+|154:34:50|PAO|This is Apollo Control. We've had loss of control from the spacecraft America, going behind the Moon, nearing the end of the 35th lunar orbit. That orbit measuring, at this time, 69.5 nautical miles by 53.6. There is a plan under consideration now for a small trim maneuver just prior to plane change maneuver. Some 12 feet per second with the RCS thrusters to tune up the orbit a little bit. This currently appears to be around 181 hours 33 minutes, with the plane change approximately an hour later. Command Module Pilot, Ron Evans continuing to operate the scientific instrument module experiments in the service module of his spacecraft. All systems apparently operating nominally. Three hours 13 minutes remaining until crew of Challenger is awakened at Taurus-Littrow landing site. And at 157:16 ground elapsed time, this is Apollo Control.
+|155:20:23|PAO|This is Ap - this is Apollo Control. We've acquired the command module, America coming around on the 36th rev. He's on a bad omni antenna at the moment, just barely readable, but we'll stand by here until the communications improve and Gordo Fullerton can continue the two-way communication.
+||||Tape 103B/1|Page 1411
+|155:22:10|CC|Hello there, America. We hear your scratchy-sounding OMNI.
+|155:22:17|CMP|(Laughter) Probably so.
+|155:22:25|CC|You're readable but noisy.
+|155:22:33|CMP|You're cutting in and out on the OMNI. I thought I couldn't get you.
+|155:22:39|CC|Roger.
+|155:22:48|CMP|Looks like we get the high gain here pretty quick. ...
+|155:22:53|CC|Roger.
+|155:27:30|CMP|...
+|155:28:51|CMP|Okay, Houston this is America. We probably have pretty good comm now, huh?
+|155:28:57|CC|Yes, Ron. We're getting you now, and you sound good.
+|155:29:07|CMP|Okay. I don't have any observations to report from the back side. About time for blue bag number 4. Somebody has got to develop a better mouse trap.
+|155:29:23|CC|Roger on that.
+|155:32:08|CMP|Okay, the old PAN CAMERA'S in STANDBY.
+|155:32:16|CC|Roger, Ron.
+|155:32:18|CMP|Power's coming - power's coming on and V/H is the HIGH ALTITUDE.
+|155:32:29|CC|Okay.
+|155:32:42|CC|Okay, Ron, we're ready for SELF TEST.
+||||Tape 103B/2|Page 1412
+|155:32:48|CMP|Okay, going to SELF TEST -
+|155:32:51|CMP|Now. Barber pole.
+|155:32:57|CC|Roger.
+|155:35:56|CMP|Okay, by the way, mag Lima Lima is empty. 165 frames showing there. Started mag Mike Mike with frame number 95. Finished the orbital science at 142. Took the crazy camera at f/5.6 at 1/125. When I got ready to change to f/5.6 at 1/250, I looked at the crazy thing and it was setting at f/ll. Maybe those first frames in there, maybe they can develop them a little different or something and still bring - get them to come out.
+|155:37:00|CC|Okay, Ron. We got that.
+|155:37:09|CMP|I think what happens is I must have been holding the thing by the lens or something or I burnped the - the f-stop thing somehow.
+|155:37:28|CC|Ron, we're ready for PAN CAMERA POWER to OFF. And did you go to HEATERS after you set the SELF TEST switch to SELF TEST, when we started this?
+|155:37:43|CMP|No, I just went back to to OFF. Was I supposed to go to HEATERS?
+|155:37:53|CC|Okay, we'd like it in HEATERS, now.
+|155:37:59|CMP|Okay, it's going to HEATERS. Now it's spring-loaded to OFF, and I just left it there. Okay, going to HEATERS, and now it's going to - power is OFF.
+|155:38:09|CC|Okay.
+|155:38:13|CMP|Okay, let's see. Are we ready for Lunar Sounder? Need a clock down here by panel 230 (laugh). Not really. I can look back and see the LEB one. Okay, it's about time. Okay. LUNAR SOUNDER's verified in STANDBY. The RECORDER is going ON. RADAR is going ON. And the RECORDER is OFF, not the heaters. If antenna 1, verify they're out, eh? EXTEND. No barber pole. Back to OFF. Number 2 EXTEND. No barber pole. Back to OFF. Okay, MODE is going to HF and let me take a look at - Alfa is OFF; Bravo is OFF; B DATA is OFF; BEACON is OFF; RANGING is OFF. Okay, let's see. Two, two. 250 lens.
+||||Tape 103B/3|Page 1413
+|155:40:28|CMP|Okay, 5.6 ... fifth and infinity. Mag QQ.
+|155:40:47|CMP|Mike goes in the temporary stowage bag; QQ goes on with 104 frames.
+|155:41:14|CMP|That's going to be window 3.
+|155:41:57|CMP|Somebody had - had his nose up against window 3, here Got to wipe it off. Boy, these windows have really been great though. They haven't - you know - don't have any coatings or anything like that on them.
+|155:42:18|CC|Roger, on that.
+|155:43:05|CMP|I'll be darned. I'll bet that's a little micro-meteorite pit in window 3. Right in the middle of it. It looks like two of them out there. It's about - much smaller than a 1/32 - 1/64 - 1/64 in diameter probably.
+|155:43:31|CC|Gotcha.
+|155:43:31|CMP|It's a little, round - Doesn't seem to have any - It's just a pit, you know.
+|155:43:46|CC|Ron, you said that was window 3?
+|155:43:52|CMP|Window 3, yes.
+|155:43:54|CC|Okay.
+|155:45:55|CMP|Oh, it scared me for a minute there. I was configuring for terminator photos, and I looked on the near-side terminator, and I didn't see any. It's on the far side.
+|155:46:08|CC|Yes, Stu and I were looking at the same thing. We're just about a - 30 seconds ahead of you.
+|155:46:15|CMP|(Laughter) Okay. One's of Aitkin on the far side. Okay. Aitken and Ibn Hyan [sic], I think, or something like that. Debber [?], Ibn Hyan [sic].
+||||Tape 103B/4|Page 1414
+|155:47:08|CMP|You know, going to come across - come across the Tacquet area again, and there doesn't seem to be any - it - there's a bright crater - a recent crater in the annulus - in that dark annulus, in the southern part of Serenitatis, it shows up again as that kind of a blue-gray brightness, as opposed - as opposed to the tannish - tannish brightness of the - of the bright craters in Serenitatis. There's still is no apparent wrinkle ridge - there's no color tone or differentiation in the winkle-ridge area, in this part of it. The only differentiation, and - It looks like - South of Tacquet you get the same color tone variation occurs on over into Tranquillitatis. When you get to the Tacquet area, from Tacquet up to Miller or something - I wish I could remember the name of that crazy crater.
+|155:48:28|CC|How about Menelaus.
+|155:48:33|CMP|Menelaus. That's it. Yes. From Tacquet up to Menelaus now, the - that's got to be a buildup of material and it's more on the tan side than it is on the - more of a dark tan than it is to the tannish-gray. So it's a different type of material than - than on the annulus down below the crater, Tacquet.
+|155:49:08|CC|Okay, Ron. You're saying this is sort of a annular plateau, then, that stretches across between Tacquet and Menelaus?
+|155:49:19|CMP|Yes, it is. It's an annular plateau in there, and the plateau is got to have been coming from those rilles down - that are down in there.
+|155:49:34|CC|Okay, do those - Maybe you've already said this - do those wrinkle ridges cross the color boundaries?
+|155:49:45|CMP|No, I can't find the wrinkle ridge that crosses the color boundary. The wrinkle ridges are out in Serenitatis itself, and there is no color boundary on the western edge of Serenitatis. It's all the same.
+|155:50:05|CC|Okay. Those sound like supergood observations, Ron.
+||||Tape 103B/5|Page 1415
+|155:50:06|CMP|Passing over - Sulpic - and - I'm just passing over Sulpicius Gallus, now. And just beyond Sulpicius Gallus - Sulpicius Gallus is out in the Mare Tranquillitatis, itself, and it looks like you could - it's either a talus slope - you know, you got a gentle slope of the - of the massif coming down and then it changes slope a little bit, and the - it looks like you have finer-grained material. And that might be what we have at one time or another called the high-water mark, but I kind of believe that's just a talus change in the slope. As you go on down there in the fine-grained material, somehow developing down there in the bottom. But as soon as you cross that area - we're going west now from Sulpicius Gallus - again we've got kind of the same tannish - a dark tan material that essentially covers the highland - this highland-type of an area here. It's a hummocky-type material. There are a few rilles just north of Sulpicius Gallus; those rilles, again, have - have the dark tan material on it. About the same as the tan - same color tones that you pick up from Tacquet to Mele - Meleneis [sic].
+|155:51:55|CC|Okay sounds great. Keep talking, we'll cue you as the Flight Plan events come up.
+|155:52:04|CMP|Okay. D - D-Caldera is sure fascinating. I'll try and take a quick look with the binocs on that one. - binoca and I can't find it there. There it is.
+|155:52:56|CMP|I hope the pictures will kind of confirm a little bit of a - of a topographic rise around the D-Caldera, just a slight one, and it's about half the width of the - if you - As you look at the "D" it's a half a width of the "D", not the height, but the width. And it seems to be a raised, kind of a raised, flat rim around it. The color of the raised bumps down in the D-Caldera are the same as the surrounding material, around there. The de - the bumps that are raised up are smooth looking and the depression for it has to be a caldera, I guess, or at least, the part of the depression, anyhow, is a light bluish gray; I'll call it that way, very light bluish gray.
+||||Tape 103B/6|Page 1416
+|155:54:15|CC|Hey, Ron I'm not suggesting you do, because it's probably trouble to find. Have you tried the color wheel, comparing it on any of this stuff?
+|155:54:27|CMP|(Laughter) No, I haven't. Let me try. That's a good idea, though. I'll try that and see what I can come up with on that thing.
+|155:54:36|CC|Well, don't don't go to a lot of trouble. I never got around to it, but you might - you might peg down some of these colors a little better. Particularly when you were talking last night about - on the back side - -
+|155:54:48|CMP|That's a good point.
+|155:54:48|CC|- on one of those passes about the green.
+|155:54:54|CMP|Yes.
+|155:54:55|CC|Okay, you're about 7 seconds away from where we're wanting the recorder on, Ron. Any time here's fine.
+|155:55:05|CMP|Okay, RECORDER - let's see -
+|155:55:10|CMP|Is ON. Verify RADAR is ON, remove HF, okay.
+|155:56:33|CMP|You know, to me, the Moon's got a lot more color than I'd been led to believe. I kind of had the impression that everything was the same color. That's far from being true.
+|155:56:53|CC|Okay.
+|155:57:11|CC|I guess, maybe we could say, perhaps, color is in the eye of the beholder.
+|155:57:20|CMP|I think there is a considerable amount of truth to that.
+|155:58:28|CMP|(Whistling)
+|155:58:54|CC|Okay, Ron. We'll take the MAPPING CAMERA, OFF, now.
+|155:59:00|CMP|Okay, the old MAPPER is going OFF.
+||||Tape 103B/7|Page 1417
+|155:59:47|CC|Ron, you're clear to go to STANDBY on the MAPPING CAMERA.
+|155:59:53|CMP|Okay, MAPPER's going to STANDBY. MOTION is up, barberpole. CAMERA is OFF. PAN CAMERA SELF TEST, OFF. Okay, turn the old SM/AC POWER, OFF, again. SERVICE MODULE AC POWER is OFF.
+|156:03:40|CMP|(Whistling)
+|156:03:52|CMP|Okay, must be sunset. IR is coming -
+|156:04:00|CMP|OFF. ... OFF. Okay, I'm going to go to plus-X Plus 52.25. There is an UP-LINK. VERB 58 ENTER. Ah, l4l. That's pretty close. 228.
+|156:05:07|CMP|Ah - plus 66641. ENTER, there at 48 07. ... at 49 35. That's about right.
+|156:08:10|CC|Ron, about a minute and a half to T-start, now.
+|156:08:16|CMP|Okay. Cue release, ENTER.
+|156:08:35|CMP|OMNI Bravo.
+|156:08:59|CMP|Power OFF. Okay, data systems - -
+|156:09:05|CC|Okay, 30 seconds to T-start.
+||||Tape 104B/1|Page 1418
+|156:09:08|- - ... five. Okay, at 40 minutes - Okay. I got the HIGH GAIN, OFF. Got my finger on the DATA
+ SYSTEMS. Okay. DATA SYSTEMS are going OFF; OPERATE at 49:35. OPERATE. 54:38. Give me a call on that, Gordo. I'm going to look out the window here for a bit.
+|156:10:02|CC|Sure will, Ron.
+|156:10:04|CMP|A minute before that or so.
+|156:10:13|CMP|I had the lights up. I may not be light adapted.
+|156:10:55|CMP|Sure is ...
+|156:11:52|CMP|I was trying to think if there was anything else I could add to the Reiner Gamma observation there. I'm right over that - the light albedo of that type of material that goes perpendicular between Reiner and Reiner Gamma. It's kind of a crooked type - Well, you know, it goes for a little ways, and then it breaks off into a dark-albedo-type stuff; and then breaks off in another direction a little bit. So, it doesn't look like a straight ray at all.
+|156:12:27|CC|Roger.
+|156:12:31|CMP|You know - you can see crater holes, and this type of thing. You look right down on Reiner now, you've sure got that dark annulus - the lighter-albedo-type stuff is essentially in the middle of it. And the annulus is - let's see, maybe 30 kilometers wide by twice as long - that's a relative size, anyhow - by twice as long, and that's the dark ann - dark area. And then around that, the light albedo stuff is about half of the width, and it's lighter on the outside than it is on the inside. The inside is not quite as light as the - I'd call it the rim, I guess. It's very hard to see any - -
+|156:13:33|CC|Okay.
+||||Tape 104B/2|Page 1419
+|156:13:33|CMP|- - great, great, great topographic expression to it, though. The reason I say that is because it kind of blends in with everything, whereas if you look at a crater, out here in the middle of the mare, or a hill, you get a brighter - part of it's brighter than the surrounding territory. You can actually see the demarcation. So that's the way you get your depth perception out of it.
+|156:14:05|CC|Okay, about 30 seconds now until T-stop.
+|156:14:12|CMP|Okay. T-stop is 54:38 and we'll go to STANDBY at that time. Tape switch. 3, 4, 5, 6, 7; STANDBY.
+|156:14:49|CC|Okay. I'll give you a call in a minute.
+|156:15:54|CMP|Okay.
+|156:15:39|CC|Okay, Ron. It's been a minute.
+|156:15:48|CMP|Okay. RECORDER is OFF - not HEATERS. RADAR is OFF. DATA SYSTEM goes back ON. HIGH GAIN ANTENNA POWER to ON. And we're about minus 44, I guess. And select the old HIGH GAIN. There we go. REACQ ... AUTO. ... in NARROW. INCO's going to do some commanding. ... goes. Tape motion is going. Continue on here to the SM/AC POWER. Okay. SM/AC POWER is ON.
+|156:17:04|CMP|MAPPING CAMERA is STANDBY. IR ... CAMERA SELF TEST ... ... is ON. H2 PURGE LINE HEATER. Do a hydrogen purge, here, shortly, I guess.
+|156:17:43|CMP|Well - Leave that cover open there, and let the Mendall Mendall get some data for a while; or Dr. Low, or whoever happens to be there. And I'll step ahead and sample the old BUSS.
+|156:18:21|CC|Okay.
+|156:19:23|CMP|(Singing).
+|156:19:59|CMP|Houston, America. You might tell the medics not to pay any attention to those sample numbers on those busses. Pay attention to the GET time, because when you take them out of the buss storage bag, the right one never comes out. So I don't think it makes any difference, Just pay attention to the GET time.
+||||Tape 104B/3|Page 1420
+|156:20:25|CC|Okay, Ron. I'll pass that along.
+|156:21:15|CMP|(Singing).
+|156:21:39|CMP|Where are the guys on the Challenger? Are they going to go out the regular time, or are they getting a little extra sleep period here or something?
+|156:21:48|CC|I think we're letting them sleep in again today. They're getting up 1 hour later than the Flight Plan shows; however, there's enough pad downstream that we're planning on ascent at the scheduled time.
+|156:22:15|CMP|Okay.
+|156:23:12|CMP|(Humming and whistling)
+|156:25:19|CMP|(Humming)
+|156:26:20|CMP|I think I'll ... the STOWAGE VENT, ON, just for a little bit.
+|156:26:37|CMP|(Whistling)
+|156:26:42|CC|America, Houston. We've got a couple of - couple of items of general information, as you come up on AOS here - LOS. The - we want to remind you to CLOSE the IR - -
+|156:27:55|CMP|Okay.
+|156:27:55|CC|- - and UV COVERS, before you do any dumps. After LOS, you'll have to - -
+|156:28:02|CMP|Okay. Will do.
+|156:28:02|CC|- - reconfigure the comm.
+||||Tape 104B/4|Page 1421
+|156:28:06|CC|And suggest you wait on the dumps, as per the Flight Plan, until after the photos. And, we estimate the waste water dump will take 10 minutes. Over.
+|156:28:20|CMP|About 10 minutes on the waste water. Okay.
+|156:28:35|CMP|Okay. Let's see - must be ... LOW BIT RATE. Okay, LOW BIT RATE, with DATA SYSTEMS, so no DSE voice. I'll write everything down.
+|156:31:28|CMP|Okay, ... hoses and stuff all tucked down there.
+|156:33:08|CC|Just about LOS, Ron. See you later.
+|156:33:13|CMP|Okay, Gordo. Thank you much.
+|156:33:13||BEGIN LUNAR REV 37
+|156:33:26|PAO|This is Apollo Control at 159 hours 13 minutes ground elapsed time. We've had loss of signal, as Ron Evans, flying the spacecraft America, passed behind the Moon nearing the end of revolution number 36. An hour and 16 minutes until Cernan and Schmitt, aboard Challenger are awakened for the third - for preparations for the third Moon Walk. America, now in an orbit measuring 69.1 by 53.7 nautical miles. We'll come back up at next frontside pass by the spacecraft America in about 48 minutes, and switch over to the wakeup call to the Challenger partway through that 37th revolution. At 159:14 ground elapsed time this is Apollo Control.
+|157:17:13|PAO|This is Apollo Control at 159 hours 57 minutes Ground Elapsed Time in the mission of Apollo 17. Less than 1 minute away now as the command module America, Ron Evans doing his orbital science tasks and orbital photography. As he comes around on revolution number 37; less than a half hour until the wake up call is made to the crew of Challenger on the lunar surface. At that time, we'll switch over to the air/ground 1 circuit and eavesdrop on the conversation between Cernan / Schmitt - Cernan and Schmitt and the CAPCOM here in mission control. We should have acquisition of signal from command module America. We'll come up with that line now.
+|157:19:15|CMP|(Humming)
+|157:19:22|CMP|Well, I've got AOS with you. Okay. ... HEATERs OFF. (Singing) ...
+|157:19:47|CC|Hello, America. Are you there?
+|157:19:52|CMP|Okay. We got REACQ and NARROW now.
+|157:19:56|CC|Okay. You're loud and clear.
+|157:20:34|CC|Ron, when it's convenient - -
+|157:20:35|CMP|Okay. I just finished mag - -
+|157:20:36|CC|- - I have a couple of updates to the Flight Plan - -
+|157:20:40|CMP|Okay. Go ahead.
+||||Tape 104B/5|Page 1422
+|157:20:43|CC|Okay. On your present page, there - the UV solar atmosphere pad, at 160:38.
+|157:20:53|CMP|Ah-ha. I have it.
+|157:20:57|CC|Okay. It's T-start of l60:4l:22; T-stop is l6l:26:47. And the remark that goes with that -you don't need to write this down - but the T-start time is biased 10 seconds prior to when we really think sunset will occur. If you see, visually - Okay, my mistake, it's 10 seconds after sunset. But if you see sunset visually, you can go ahead and proceed with UV cover open as soon as you see it. But we'd like you to close the UV cover exactly on the T-stop time as written. Over.
+||||Tape 105B/1|Page 1423
+|157:21:59|CMP|Okay. Let's see. I'm with you. We'll make sure it gets closed at 61:26:47, but we can open it as soon as sunset comes, okay? Even though we haven't started pitching yet.
+|157:22:23|CC|That's correct, and do you want to read back the start time?
+|157:22:30|CMP|My start time is l60:4l:22. Is that correct?
+|157:22:34|CC|That's correct; 4l:22.
+|157:22:39|CMP|Okay.
+|157:22:43|CC|Okay. Go to l6l:34.
+|157:22:56|CMP|l6l:34, okay.
+|157:22:58|CC|Okay, and the old standard "MAP CAMERA/LASER ALTIMETER COVER, OPEN" cross that out. A couple lines below, at 36, cross out "MAPPING CAMERA, EXTEND" and then turn the page - -
+|157:23:16|CMP|I got them.
+|157:23:21|CC|In fact, turn two pages to 163:31.
+|157:23:31|CMP|31, okay,
+||||Tape 105B/2|Page 1424
+|157:23:32|CC|At 163:31, write in "verify all command module VHF, OFF."
+|157:23:52|CMP|63:31, verily all VHF, OFF, okay?
+|157:23:57|CC|Okay. That completes it.
+|157:24:07|CMP|Goody, I've got a zodiacal light coming up there sometime; blue filter, no less. Oh, I started to say, when I was coming across Aitken - Of course Aitken itself was down in the shadow, and the Sun was really shining on window 3. I took the first one at f/5.6 and a 1/15. the second one 56, 5.6, I mean, at a - at a 1/30; and a third one at a 1/60; and then a fourth one at a 1/25; and the fifth and sixth ones I took off to the north - looking off to the north - out of window 4.
+|157:25:12|CC|Okay.
+|157:25:13|CMP|And they were 5.6 at 1/125. I kind of doubt if - It might work, but there's sure a lot of glare on the window. If it can get through that glare, well then we've got it made.
+|157:25:28|CC|Roger.
+|157:27:10|CMP|Oh, the other thing I was going to tell you was that magazine Quebec Quebec - I finished that one on 114.
+|157:27:18|CC|Okay.
+|157:27:20|CMP|On that pass there.
+|157:27:31|CMP|I don't know who took my water jug, but it's gone.
+|157:28:16|CMP|Okay. Overboard drain is purged enough, I guess, I'll turn that off.
+|157:28:37|CMP|That big filter on here - here. I always leave the hose and everything disconnected and stick it back behind this rock bag. I'm afraid I'll kick it, break it off. You know - you know those rock bags. I unzip those and blow the air out of them every night, wake up the next morning, and they're full of air again; just like two big balloons down there.
+||||Tape 105/3|Page 1425
+|157:29:08|CC|How about that.
+|157:29:13|CMP|(Laughter) I don't know ...
+|157:29:19|CC|You can use one for the pillow you've been missing.
+|157:29:25|CMP|(Laughter) Yes, that's an idea. I could use that.
+|157:30:23|CMP|And, Houston; America. If FAO's got his finger on the next magazine - next Hasselblad mag, I'm going to use - save me looking it up, here.
+|157:30:39|CC|Okay. I'll ask him.
+|157:31:09|CC|Ron, I - You're scheduled to use Mike Mike next.
+|157:31:11|CMP|There's the water - Go ahead. Mike Mike. Okay. Thank you.
+|157:31:23|CMP|Did you hear me sucking all the bubbles out of the - out of my teeth?
+|157:31:38|CC|No, we've missed that pleasure.
+|157:31:44|CMP|Good. Didn't want this VOX to be too good.
+|157:32:52|CMP|Okay. We go to POO in about 2 minutes.
+|157:34:09|CMP|Zero phase is going to go right over Proclus, I mean Picard this time. Just as that darkness disappears there, if I can still see the change in the color on it.
+|157:34:26|CC|Okay, Ron. You can put the HIGH GAIN to AUTO next chance you get and FAO advises there's no more optional film left on Mike Mike. Everything that's left on Mike Mike is scheduled up. Over.
+||||Tape 105B/4|Page 1426
+|109:34:44|CMP|Okay. I'll buy that. You know you could even - as zero phase went right across Picard there, you could still see the - the darkness on the west - let's see east - on the east from 9 o'clock around to 6 o'clock, if north is zero.
+|109:35:10|CC|Roger.
+|109:35:15|CMP|And. if north is zero as you look at the crater, then over about 1 o'clock there's some kind of a fault area in the side of the rim, and that's another spot where the dark material drapes down into the rim and also out on the outer - outside - outside of the rim. And then you have that same type of impression at about 11 o'clock. You've got a black streak going dcwn inside the rim, and then it widens out, going out toward a little crater out there, on the outside of the rim.
+|157:36:03|CC|Okay,- -
+|157:36:05|LMP|Now, let's see - -
+|157:36:05|CC|- - you're scheduled to get a VERB 49 going now.
+|157:36:11|CMP|Thank you. Okay. Pitch is plus 120.55 ENTER, plus 341.00 ENTER, and a plus ENTER for 0 yaw 622. Press on. 50 18. CMC caged. Proceed.
+|157:37:18|CMP|Okay; let's see. We're in AUTO, so we can ...teen. 26 on the dial.
+|157:38:34|CMP|Okay, we'll change 07 to 8 plus 9 - 1 -
+|157:38:56|CMP|... VENTS OPEN. ... waste water dump. Must have been some stuff that's just frozen on the - the dump or something and then when the - when the jets fired too - that kicked it loose.
+||||Tape 105B/5|Page 1427
+|157:39:31|CC|Roger.
+|157:39:37|CMP|Maybe that's the particles of combustion - burning.
+|157:40:12|CMP|Minus 0.05 - degrees per - half a degree dead band.
+|157:40:29|CMP|Five up - Got zero, zero. Stay there ...
+|157:43:13|CC|Ron, this is Houston. Check NOUN 79 again. We think you might have loaded R1 and R2 negative. That's the way it locked down here, anyway.
+|157:43:26|CMP|Okay, I'll check that.
+|157:44:02|PAO|This is Apollo Control at 160 hours 24 minutes switching now to Air-Ground 1 for the initial wake up call to the crew of Challenger, asleep at this time on Taurus-Littrow. Command module America still has some 47 minutes remaining in this frontside pass. We'll stand by for the wakeup call which should be beamed up in about a half a minute or so. (Texas Aggies Fight Song)
 ||||Tape 106A/1|Page 1435
 |157:46:34|CDR-LM|I want you to say it first.
 |157:46:34|CC|Hello there, Challenger. The Gold Team Flight Director picked out the morning's selection, and he said that if can find some maroon dirt, today, instead of orange, you'll probably get a lot more cooperation out of him.
@@ -24702,7 +25143,7 @@
 |166:34:13|LMP-EVA|(Laughter)
 |166:34:13|CDR-EVA|(Laughter) And - any bubbles on the inside of the tires? (laughter)
 |166:34:13|CDR-EVA|Okay. Have you got it?
-|166:35:35|LMP-EVA|Yes, I got it. Hey, Bob. I got n$r rock. It's halfway between the SEP and the LM. Wait, wait. Let me put it in the big bag - in the big bag.
+|166:35:35|LMP-EVA|Yes, I got it. Hey, Bob. I got my rock. It's halfway between the SEP and the LM. Wait, wait. Let me put it in the big bag - in the big bag.
 |166:35:35|CDR-EVA|Big bag. ... - -
 |166:35:35|CC|Is this that - is this that brown one you saw out here before, Jack?
 ||||Tape 112A/6|Page 1710
