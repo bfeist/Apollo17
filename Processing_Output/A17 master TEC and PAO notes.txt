@@ -132,4 +132,5 @@
 |154:09:22 - 1270 pictures taken so far.
 |157:44:02 - END OF CMP COVERAGE
 |158:08:36 - |160:32:41 - MISSING AUDIO
+|161:27:08 - |LMP-EVA|Tallest man on the Moon right now.
 
