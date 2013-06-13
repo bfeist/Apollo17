@@ -2157,6 +2157,78 @@
 |158:30:59|CC|Biat would be real fine, Ron.
 |158:30:59|CC|Okay. We've got the DSE running, Ron, as per the Flight Plan.
 |158:31:33|CMP|Okay.
+||||Tape 108B/1|Page 1511
+|161:51:36|CC|Roger. We copy mag Mike Mike on 172.
+|161:51:36|CMP|... they just put that decal for the heck of it. Do I use the rest of them for targets of opportunity?
+|161:51:36|CC|Stand by. I'll check with Chuck here.
+|161:53:47|CC|Ron, we don't think Mike Mike's got anything left on it, but if you - if you can use it for targets of opportunity, but it's not supposed to have.
+|161:53:47|CMP|Well, it's clear we've got one or two of them left here, you know, and I'll just keep it handy, and take them until - until the ... turns red, you know?
+|161:53:47|CC|Roger.
+|161:54:09|CMP|Th.e next one migjit be the last one (laughter).
+|161:59:49|CMP|Houston, America.
+|161:59:49|CC|Go ahead, Ron.
+|161:59:49|CMP|Is there any way the Surgeon there can tell which - which two things are out of service or is it all three of them or - You know, those things come in packages of twos, not threes.
+|161:59:49|CC|Okay. Why don't you say it again, Ron? I just punched up the Surgeon here. Why don't you say it again, please?
+|161:59:49|CMP|Okay. is there any way the Surgeon can tell which lead needs to be fixed or which two leads, because the ... of all thos e things come in packages of twos, you know?
+||||Tape 10SB/2|Page 1512
+|162:01:07|CC|Hey, Ron, we just talked it over down here. EKG is good and just forget the ZPN for another day. Just go EKG and forget the ZPN. That1 s compliments of Dr. Z.
+|162:01:07|CMP|Oh, Hey, beautiful. No wonder it looked kind of erratic, because I didn't even have ZPN on (laughter).
+|162:01:43|CMP|Yes, last night I moved those - moved all three sensors on the EKG to different spots and put some of that cream stuff on them, and I think that helped.
+|162:01:43|CC|Roger. He can tell and he noticed that. And it's improved their signal on the EKG part.
+|162:01:43|CMP|Oh, okay.
+|162:17:17|CC|Ron, we're about ready to lose you in about 10 minutes. Everything's fine. We'll make one more final go-around the room before you go out of sight. I'm watching your buddies down there. They're up against a rock, which is about twice as tall as they are, and they're trying - pounding away on the side of it. Doesn't look like they're having much luck getting anything off of it, but they're beating on it.
+|162:17:17|CMP|(Laughter) Tell those guys that if they don't roll a rock down a crater - They're supposed to do that for me.
+|162:17:17|CC|Right. I think, I think Jack got the nickname "Twinkle Toes" last night. He was bouncing around very graceful. Every time he'd hit the rock, he'd fall over down there.
+|162:17:59|CMP|(Laughter) Oh, great.
+|162:23:43|CC|Ron, everything's looking good as you go here to LOS; no problems at all. Your buddies are down at Station 6 right now.
+|162:23:43|CMP|Oh, okay. We thank you much.
+||||Tape 108B/3|Page 1513
+|162:23:43|CC|Okay. See you around the other side. On the Flight Plan schedule now -
+|162:24:01|CMP|(Chuckle) Okay.
+|162:24:01||BEGIN LUNAR REV 40
+|163:13:32|CMP|..., I think.
+|163:13:42|CC|America, Houston.
+|163:13:46|CMP|Houston, America. Roger. Loud and clear.
+|163:13:46|CC|How you doing up there, Ron?
+|163:13:46|CMP|Okay; real fine. I just saw a - part of these rilles - type things, and it's got a light-brown - well, dark-brown - it's almost a mare-type coloring - heading in the southeast-northwest direction. And it's down from - oh, yes, there's Saenger, east of Saenger yet. Let me find it on my map.
+|163:15:12|CC|Down east of Saenger there, you get into the first ring of Arabia or the second ring of Arabia there.
+|163:15:26|CMP|Yes. Hey, you know this is - Let me get this picture. This is the first time I've really been able to see that first ring of Arabia.
+|163:15:26|CC|You think - think you see it, huh?
+|163:15:26|CMP|And it shows up as - Yes. It - I'll take two of them. First, I'd better get the dark slide out. The way the Sun is shining on the darn thing, and it shows up as a bright - I'll be darned! That's amazing! it shows up as a bright ring, just like we got it drawn on the map. You know, you - you get a brighter albedo all the way around to the top of the ring. That was frame 120 through -or 122 through 124 on mag Oscar Oscar.
+|163:16:35|CC|Okay, Ron, we've got a - a Flight Plan update and a lunar sounder pad, if you want to take it before we get into the visuals here.
+||||Tape 108B/4|Page 1514
+|163:16:35|CMP|Okay, I better I guess.
+|163:17:51|CMP|Okay. Frames - last three frames before 128 were also looking east. Okay, we had an update, huh?
+|163:17:51|CC|Lunar sounder pad is at 166:40 on the Flight Plan. Let's do that one first, okay?
+|163:17:51|CMP|Okay.
+|163:18:19|CC|Okay« T-start time, 166:42:12; T-stop time, 47:10-
+|163:18:19|CMP|Okay. T-start, 166:42:12, and T-stop is 47:10.
+|163:18:19|CC|Good copy. I've got the lunar sounding - grazing attitude VERB 49 at 167:28.
+|163:18:19|CMP|7:28, okay.
+|163:18:19|CC|We're tweaking up that attitude a little bit; it's 283, 063, and 328. Over.
+|163:18:19|CMP|(Laughter) That's really tweaking it up. 283, 063, and 328.
+|163:18:19|CC|Roger. And over there at 167:55 where it's - the antenna retract bit?
+|163:18:19|CMP|Yes; right.
+|163:18:19|CC|Okay. It's pretty obvious we want to take "HF antenna 2, retract" and move it above "HF antenna 1." We'll call for the retract - make sure we're ready, and we'll also cue it on our cue, Ron. What we want to do is look at HF antenna 2 retract all the way, get the times, et cetera, and then we'll go ahead and retract HF antenna 1.
+|163:18:19|CMP|Oh, okay. Sounds reasonable.
+|163:20:11|CC|Oksy, Ron, we're all just standing by. That takes care of the Flight Plan updates, and we're just standing by for your visuals. This pass you're to concentrate on the landing site and the D-Caldera, you know?
+||||Tape 108B/5|Page 1515
+|163:20:11|CMP|? Okay.
+|163:20:39|CC|Ron, we want to concentrate on the small-scale features, and your binoculars may be what you need. We want to look at the dark-halo craters in the site area and examination of D-Caldera with the binocs.
+|163:20:39|CMP|Okay. That sounds like a good idea. We'll see what we can - (Laughter) That's crazy. I go over in inertial attitude, and every time I look out the window, I've got to look in a different direction.
+|163:20:39|CC|Roger; we understand.
+|163:20:39|CMP|(Laughter) it's funny.
+|163:22:14|CC|Hey, Ron, when you come up on the landing site, we would like you to concentrate on Shorty Crater and F Crater and then the other dark-halo craters. As you know, as I told you last night, Shorty ended up with some orange-colored material that looks an awful lot like a fuma - fumara - event anyway - fumarole. And it looks - -
+|163:22:14|CMP|Fumarole.
+|163:22:14|CC|- - an awful lot - Yes, okay (laughter). Looks an awful lot like it and what we' re trying to do is see what you see from there, and that may give us some correlation on some of these other ones.
+|163:22:49|CMP|Okay. I got to take a look and see which one's Shorty.
+|163:22:49|CC|Ron, it's the dark crater on the slide, the dark crater on the slide.
+|163:23:13|CMP|Oh, okay.
+
+|161:53:33|CDR-EVA|Okay, here we are 1.5 and 185.
+|161:53:37|CC|Okay, copy that.
+|161:53:39|LMP-EVA|Okay, is this a Rover sample?
+|161:53:13|CDR-EVA|
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.

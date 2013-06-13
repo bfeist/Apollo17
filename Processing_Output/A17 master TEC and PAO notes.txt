@@ -133,4 +133,9 @@
 |157:44:02 - END OF CMP COVERAGE
 |158:08:36 - |160:32:41 - MISSING AUDIO
 |161:27:08 - |LMP-EVA|Tallest man on the Moon right now.
-
+|161:53:33 - *** major original transcript discrepancy. Many lines moved to unused. cut lines resume at |161:56:28
+|161:59:18 - "getting to be ridiculous"
+|162:06:21 - turning point rock photos
+|162:20:57 - You can see schmitt's face on tv
+|162:27:45 - hammering boulder
+|162:49:17 - |CDR-EVA|Feel like a kid playing in a sandbox.
