@@ -2229,6 +2229,174 @@
 |161:53:37|CC|Okay, copy that.
 |161:53:39|LMP-EVA|Okay, is this a Rover sample?
 |161:53:13|CDR-EVA|
+||||Tape 109B/1|Page 1567
+|163:24:12|CC|Roger.
+|163:24:12|CMP|Because what that - little diamond turned out to be with the binocs - it's a dome of material in there, and the reason it looks like a diamond is because you have slide material or talus-type stuff that's slumped down around it. And in that dome-type material, there are three or four black spots in it. I call it black; they're really a - I con -I kind of consider it a greenish - greenish black, you know?
+|163:24:12|CC|Roger.
+|163:24:12|CMP|I sure hope we - If - Why don't you check with Farouk and see if our pan camera coverage covers that - that crater? I think it probably did. That's an interesting one to take a look at anyhow.
+|163:30:12|CC|Ron, Farouk thinks it is on the pan.
+|163:30:12|CMP|Very good.
+|163:31:02|CMP|You know, in the eastern wall of Picard - I'm looking at it with the binocs now, and you can definitely see the first part of it up there has some vertical enscarpments [sic] - escarpments along the edge of it. And the vertical escarpments are kind of in irregular layers - well, just kind of like you would suspect if you - you eroded out a bunch of lava layers. In other words, they're noncontinuous, but they're kind of intermingled along, and they go about - oh, a third of the way down from the top of the rim, down to where the talus starts sliding on into the - into the crater.
+||||Tape 109B/2|Page 1568
+|163:31:56|CC|Good show. We'll tie that - tie that up with what you gave us last time on Picard.
+|163:31:56|CMP|Okay.
+|163:31:56|CMP|All these dark-halo craters in the - in that one picture by that little diamond we've got up there by Yerkes. The one that's farthest to the south looks like an impact type of crater. In other words, you've got a definite ejecta lopping out around on those. The one that's hard to look at in the middle of my picture, but I think it's probably the second one down from the top. It has rounded ridges - rounded rims, and - coming up on the side here - I don't know if I am going to be able to see it until I go by it. It has rounded - a rounded rim. The ejecta pattern or the dark halo is about twice the size of the ... one crater diameter. And it doesn't - it's - it's either a highly eroded impact-type crater, or it's a volcanic-type structure. And, to me, it doesn't look like a highly eroded impact one. Again, that's a little one we can probably pick up ground truth, so to speak, off of the pan camera film.
+|163:35:38|CC|Ron, are there any similarity between the highlands, west of Crisium and those east of Serenitatis?
+|163:35:38|CMP|You know, I loo - that's just what I was looking at. And the ones east of - west of - well - yes, east of Crisium and west of - No.
+|163:35:38|CC|West of Crisium - -
+|163:35:38|CMP|What I was looking at was the - -
+|163:35:38|CC|- - and east of Serenitatis.
+|163:35:38|CMP|Yes, west of Crisium and east of Serenitatis. Those are different - seem to be a different type of islands, and I want - I want to check the other ones when I go by, but it looked like when I was coming up on - on those west of Crisium, they're more of a tan-type colors, smaller - undulations smaller - They have a corn-cob effect, I guess is what you'd call it - what I call it anyhow. Smaller - smaller ears of corn or smaller mounds closer together as - as opposed to, when you get over to the landing site - The ones on the landing site seem to be more - raised, I guess. In other words, you still have a - a group of the small mounds and what have you, but they're a little more massive; you get more of an appearance of a dark flow - or a dark albedo between the mounds and between the blimps.
+||||Tape 109B/3|Page 1569
+|163:35:38|CC|Roger. Good show.
+|163:35:38|CC|Are you getting the landing site into view now?
+|163:37:34|CMP|I got it in window 2.
+|163:37:51|CMP|Okay. I've got Shorty in the - picture. It looks like a sharper crater than any of them in the Pentagon complex. The other thing that looks sharp, just like that one, is F Crater.
+|163:38:48|CMP|... back to the other window.
+|163:38:48|CMP|Did they kind of find that orange stuff on the north side of it?
+|163:38:48|CC|Let me check on that, Ron. I'll be back with you in a second. I don't think so; their stop was at -Station 4 was on - -
+|163:38:48|CMP|... I'll get ...
+|163:38:48|CC|Station 4 was on the south side of it.
+|163:38:48|CC|Just go ahead with what you see and - -
+|163:38:48|CMP|I'd say they just barely got into the stuff, then, becau - But it - but it looks like - kind of the north rim of it has more of a - a tint of a different color to it.
+|163:38:48|CMP|I ... my pictures.
+|163:38:48|CC|Is the color differentiation concentric around the -the crater or is it just in - in splotches?
+||||Tape 109B/4|Page 1570
+|163:38:48|CMP|No. It's just in the - kind of the north side of it.
+|163:38:48|CC|What would you say the color is then? is it one of the different tans?
+|163:38:48|CMP|Yes, the color - (chuckle) Yes, it's a kind of a different - Would you believe kind of an orangish -tan through this - mic - through these binocs? I got to take another look at that when I go by the next time.
+|163:38:48|CC|Roger. I'm with you.
+|163:38:48|CC|Ron, when you get back - when you get done with this, we'd like you to sketch - when you get a chance, the color variations - just some thoughts on where the color splotches are with respect to Shorty, in particular.
+|163:38:48|CMP|Okay. The - I'll do that when I finish up here.
+|163:38:48|CC|Roger. Did you get a chance to look at F Crater?
+|163:41:50|CMP|Yes, F Crater is - is sharp - just like - Shorty. I hope I was getting F Crater. F Crater is about the same size as Shorty, isn't it? If not, I was getting one between Family Mountain and -
+|163:41:50|CC|Just about the same size, Ron. Maybe just a tad bigger.
+|163:41:50|CMP|Yes.
+|163:41:50|CC|Ron, is there a cone associated with F Crater?
+|163:41:50|CMP|I didn't get a chance to look at it that much. I'll have to check it the next time.
+|163:41:50|CC|Okay. Have any thoughts on how - what's its origin?
+|163:43:02|CMP|I'll have to look at F Crater again the next time I come over on the thing, because I spent most of the time looking at - Shorty.
+|163:43:02|CC|Okay.
+||||Tape 109B/5|Page 1571
+|163:43:14|CMP|You Know -
+|163:43:32|CMP|This - this formation again from - Tacquet on down to Menelaus or Melinor [sic]. Just went over that again, and I was looking at it with the binoculars, and I saw one sharp crater in the area that had a -an ejecta - almost the same color as the stuff around Shorty.
+|163:44:16|CC|Roger, Ron. You may point - pinpoint that crater between Tacquet and Menelaus when you ... down here.
+|163:44:16|CMP|Okay.
+|163:44:16|CMP|Boy, oh boy, D-Caldera is going to be - between all the windows.
+|163:44:16|CC|You have any flow scarps in that unit - near that Menelaus Crater?
+|163:44:16|CMP|No. I'll tell you what. There aren't any scarps there at all. That's why - That's another thing I was looking for, it's just a gradual degradation or gradual change in the color.
+|163:44:16|CC|You have any topography changes with respect to that color?
+|163:44:16|CMP|Yes, but the - the - No, the topography change is just a gradual - gradual change - with - There's a mound - There it is. I got to switch to all the windows.
+|163:44:16|CC|Are - are you able to get up on the D-Caldera?
+|163:46:07|CMP|Yes, I got D-Caldera into my sights now. The mound - ... In the center - are the same type of material - same type of material as that surrounding the D-Caldera itself. Down in the caldera, the gray blocky-type of stuff - and you know what? I'd almost say that - You know how water drops kind of form on a - on a - on a surface as you - as you - Have you ever had a high spot and something kind of slowed up - up to it, high spot - and water kind of flowed up to and didn't quite stick to it - you know it doesn't stick to it, all in one spot - -
+||||Tape 109B/6|Page 1572
+|163:46:07|CC|Roger.
+|163:46:07|CMP|- - but it would leave a - a depression due to a surface tension as you come on up there - and then you have kind of a little - little bubbles that -float across there, and that's what that looks like to me.
+|163:46:07|CC|Roger. We copy that. Keep - keep going; that sounds great.
+|163:46:07|CC|How about the dark-halo crater west of the D-Caldera?
+|163:47:59|CMP|Hey, I'm finding out with - with the binocs, your observation is - is cut in about a half, and I'm going to have to get that the next time over.
+|163:47:59|CC|Roger. You think the dark halo crater is any relationship to those marelike patches in D-Caldera itself?
+|163:47:59|CMP|No, I don't think so. Just a - because the color differences are - or the color is completely different. So that - that's what - that's an open question on that one, and I'll have to find out the next time around.
+|163:47:59|CC|Any thoughts about the light-colored annulus around D-Caldera.
+|163:47:59|CMP|No. I couldn't see a light-colored annulus.
+|163:47:59|CC|Okay. Hey, we need a RECORDER, ON, here on the lunar sounder.
+|163:49:16|CMP|Oh, okay. Let's see. RECORDER is - The RECORDER is ON.
+|163:49:16|CC|Okay, Ron, let me read you some questions here real quick on D-Caldera. Determine the color difference between D-shaped expression and it's surroundings. I think you pointed some of that out. You got any more comments on that?
+||||Tape 109B/7|Page 1573
+|163:49:16|CMP|Okay. There is nothing - surrounding D-Caldera that looks anything like the - the silver - silver-gray meterial that has depressed. It's definitely depressed with - with respect to the surrounding terrain. The little burnps that are in D-Caldera are the same color and the same - smoothness -kind of - smoothness as the rest of the material -the mare material surrounding the area.
+|163:49:16|CC|Okay.
+|163:50:17|CMP|I could not detect the - an external annulus around the caldera itself.
+|163:50:17|CC|Okay. Do - do you. feel that any of the material on the caldera is related to the material in the immediate vicinity?
+|163:50:17|CMP|The smooth-looking - let me get my picture - the smooth-looking - burnps in there are definitely -doesn't look to me like they're the same material as the stuff in the whole area.
+|163:50:17|CC|Okay.
+|163:50:17|CMP|They're smooth - tannish.
+|163:50:17|CMP|You know, if I look at that picture, the dark-colored stuff looks to me like it's a depression, you know? And it's - and it's the other way around. The light -light - the light-colored light-albedo stuff in the picture is the part that's depressed and the darker portions that look like the - the material surrounding the area is the part that's raised up.
+|163:50:17|CC|Roger. We copy that. ... on D-Caldera, do you have any view of any more of this terrain below you, or are your windows pretty well messed up?
+|163:52:17|CMP|It just got dark.
+|163:52:17|CC|Okay.
+|163:52:17|CMP|Yes, I - I stopped talking joist about the time we got to the terminator.
+||||Tape 109B/8|Page 1574
+|163:52:17|CC|Okay. Good show.
+|163:52:17|CMP|Let me - let me go back to a map and make sure I was talking about F Crater.
+|163:53:03|CC|Ron, I think if you put an order of priority on some activity, as far as the geology goes, you might consider sketching out on Shorty - with just a rough handle on where you thought you saw some of the coloring differentiation up on the northern side of Shorty - and also give some thought on F Crater, if you will. I know you didn't get a chance to look at it because - If we can tie up the -what you see from orbit on Shorty to what we know we've got from the ground truth, we might really have something here, as far as matching up on some of these other craters.
+|163:53:03|CMP|Uh huh; that1s a good point.
+|163:54:04|CMP|Guess I can change the DAP here and get that out of the way.
+|163:55:04|CMP|Well, let's see, just kind of fouled that one up. Really wanted l42, narrow dead band, don't you, at 142, 269, and 0 - and 359? Thought we were already in that attitude.
+|163:55:04|CC|Ron, you might want to trim your attitude that -you were not to go to that VERB 49. That was the deleted at one thir - at 166:36. That VERB 49 was deleted, and your attitude is back to the -142, 269, and 359, and you might want to trim that up.
+|163:55:04|CMP|Okay. Just did it. Thank you, Bob. I'd have done it by myself if I hadn't ^one to CMC FREE, but I'd forgotten we were already in that attitude.
+|163:55:04|CC|Roger. No sweat here; you got a minute ir so before we're in the lunar sounder attitude for the Marius Hills there.
+|163:55:04|CMP|Okay; 166:42. i
+||||Tape 109B/9|Page 1575
+|163:58:16|CC|And, Ron, you may be interested that, after we got the lunar sounder unsaturated there with the different attitude, we - we could detect the SEP in the lunar sounder data.
+|163:58:16|CMP|Oh, very good. Kind of proves it's working anyhow.
+|163:58:16|CC|Yes, that's for sure. Everybody seems to be pretty tickled with what they're getting so far. Just hope the film comes out as well.
+|163:58:16|CMP|Oh, I'm sure it will. People out at Goodyear out there at Litchfield Park do a good job.
+|164:01:39|CC|Ron, we got 30 seconds to T-start.
+|164:01:39|CMP|Oh, thank you.
+|164:01:50|CMP|OPERATE; she started at 42:12. Okay. RECORDER'S ON; RADAR is ON. Go to work.
+|164:01:50|CMP|9 - -
+|164:02:12|CC|MARK.
+|164:02:12|CMP|- - 10, 11, go. Hey, it worked out fine (chuckle). Must have hit it 3 seconds early.
+|164:02:12|CC|Roger. I still haven't figured out how to time this thing, I guess.
+|164:02:12|CMP|(Laughter) No, that was good. I got the mark the same time I did it.
+|164:02:12|CC|Okay, and you can relax, Ron, and I'll give you a call at 40 - about 30 seconds prior to 47:10, so you don't have to sit there and watch for anything.
+|164:02:12|CC|Okay, I'll -
+|164:02:12|CC|Got to earn my pay down here somehow.
+|164:02:12|CMP|(Laughter) Boy, you already have, I'll tell you.
+|164:06:37|CC|Okay, Ron. We're about 30 seconds from T - from LUNAR SOUNDER STANDBY time.
+||||Tape 109B/10|Page 1576
+|164:06:37|CMP|Okay; 7:10, OPERATE to STANDBY.
+|164:07:06|CC|5 seconds.
+|164:07:09|CC|MARK.
+|164:07:14|CMP|Got it.
+|164:08:10|CC|Okay. There's your 1 minute, Ron.
+|164:08:16|CMP|Okay. RECORDER is going OFF, not to HEATERs.
+|164:08:16|CC|Roger. Good show, Ron. Farouk just came out and said a real good show. He's real excited about what you saw there, and we're real, pleased with it.
+|164:08:16|CMP|Okay. I think I said north and as I look at the map -the orange distribution goes generally about a - a crater diameter to the north, but it essentially starts - Well, if you'd cut a - on a 60-degree angle - from Dog Sierra at 63 - cut a 60-degree angle there and then - and then make that go around -out about a crater diameter.
+|164:08:16|CC|Okay. To the north at Dog Sierra at 63?
+|164:08:16|CMP|Yes, Dog Sierra at 63; that's on the 400-meter scale there.
+|164:08:16|CC|Yes, I've got it.
+|164:09:50|CMP|On TL-50. And, at the right-hand side - if you're looking at the thing from the bottom, the right-hand side is 0 - go up 60 degrees. You're 60 degrees up from the horizontal and 30 degrees down from the vertical. It'll be something about like that.
+|164:09:50|CC|Okay.
+|164:09:50|CMP|It had kind of a brownish-orange tint to it.
+|164:11:57|CC|Ron, I guess one of the things that at least t;oes through Stu's and my mind on that Shorty Crater -and I think you dispelled it when you say it goes out like in a 60-degree angular cone away from it. But the question we'd really like to be thinking about - is that a concentric coloring around there, like it might be just a layering from a flap ov -you know, a turned-over flap or something like that, or whether it just seems to be some sort of a - I don't want to say flow, but something that would give it direction that one - the one 60-degree direction like that.
+||||Tape 109B/11|Page 1577
+|164:11:57|CMP|Yes, I see what you're saying. And - it all -almost looked to me like it was gradational, as you, -as you went away from the crater. In other words, more - more orangish - more orangish closer - closer to the crater than as you got away from it.
+|164:13:05|CC|Okay. We're - we're ending up looking at future passes, not today probably, but for the future and see if we can fit in one or two more observations to you here, where we can set up the back room like we had in all the - if you'll go along with that, and if we can fit it in, would you like to do that?
+|164:13:05|CMP|Oh, sure. The crater that I described as looking comparable to Shorty, I don't think is the one on Family Mountain. I think it's the one on - bright dot - about the same size dot as Shorty on the 17-1 leadln for the - 17-1 for the landmark tracking.
+|164:13:05|CC|Okay.
+|164:14:15|CMP|I think Family Mountain is the bigger of the two mounds to the west of the landing site, isn't it?
+|164:14:15|CC|Stand by a minute, Ron. Let me clarify that. Roger, it's west of the landing site, and I believe it's the bigger of the two.
+|164:14:15|CMP|Yes. Okay. The one that I said-that looked like Shorty is kind of between the two mounds, and that1 s the one I looked at.
+|164:14:15|CC|You say it looked like Shorty or looked like the other one?
+|164:14:15|CMP|- - ... a little bit.
+||||Tape 109B/12|Page 1578
+|164:14:15|CC|F Crater or Shorty?
+|164:14:15|CMP|Looked - looked like Shorty.
+|164:14:15|CC|Okay.
+|164:14:15|CC|Ron, we'd like the TANKs and 3 FANs to ON, please.
+|164:15:48|CMP|Okay, H2 TANK 2 FAN is ON now; TANK 3 FAN is ON.
+|164:15:48|CC|Roger. Thank you.
+|164:16:53|CC|Ron, I just might draw your attention to the Flight Plan at 167:20, in that area where the lunar sounder finishes up, and it says that there will be no SIM bay or PCM data recorded until 169:03 and then you have to configure the DSE there. Just want to draw your attention to that.
+|164:16:53|CC|Okay. That's a good point.
+|164:17:33|CMP|Hey, when you all drew that 60-degree angle, were you making that 63 degrees up from - not 60 -60 degrees up from line 63?
+|164:17:33|CC|Yes. I - I didn't know how to handle on 63, but I took a point at Dog Sierra and 63 and kind of -caught - created a 60-degree cone away from the crater at that point.
+|164:17:33|CMP|No, you want to create a semicircle. That's the center of the sem - Well, let's see. With the flat half of the semicircle along the line that goes through Dog Sierra 63 and Dog Whisky 57.
+|164:17:33|CC|Dog Whisky 57? Roger.
+|164:17:33|CMP|Right.
+|164:17:33|CC|Okay. I've connected a line - -
+|164:17:33|CMP|Connect a semicircle to the right of that line.
+|164:17:33|CC|Okay. To the right of that line or - to the north side of that line?
+|164:17:33|CMP|Yes. Actually, it will be kind of to the northeast, but to the north side of it, yes.
+||||Tape 109B/13|Page 1579
+|164:22:03|CC|Ron, we're going to lose you shortly, and all the systems look GO here. I've got a bet with EEC0M that you'll get everything in the Flight Plan. You won't miss anything for me.
+|164:22:03|CMP|(Laughter) Okay. We'll try. Hey, before I go, take a look at Crisium and Serenitatis, 3 of 5; and the second one down from the top - or second one from the north, is the one I was looking at as that - is described as - as a partially subdued and - I mean a rounded-type thing with - with the kind of breaches in the side of the wall - what I consider breaches in the side of the wall.
+|164:22:03|CC|Okay. We got it. Crisium, 3 of 5, second one from the north, huh?
+|164:22:47|CMP|Yes. And the other one's not even circled; it's just north of the - the one in the bottom, and that's the one that even shows up on here and the -impact-type, because it's got ray - ray material, but it's a fresh impact bringing up bluish -bluish-type material.
+|164:22:47|CC|Okay. Good show. You're - you're saying that the two of them are distinctly different from - when you're viewing. One's impact and one is possibly volcanic ...
+|164:22:47|CMP|Yes. Right.
+|164:23:20|CC|Good show.
+|164:23:20||BEGIN LUNAR REV 4l
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.
