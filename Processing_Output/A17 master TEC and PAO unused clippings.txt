@@ -2397,6 +2397,221 @@
 |164:22:47|CMP|Yes. Right.
 |164:23:20|CC|Good show.
 |164:23:20||BEGIN LUNAR REV 4l
+||||Tape 110B/1|Page 1631
+|164:56:58|CC|Roger, Ron.
+|165:15:02|CC|Ron, we're GO for retraction on HF antenna 2, HF antenna 2. You're GO for retraction.
+|165:15:02|CMP|Okay, just half a second here.
+|165:15:22|CC|Hold on that, Ron. Hold. We've lost data here 2 second. Please hold.
+|165:15:22|CMP|Okay, will do.
+|165:15:43|CC|Ron, will you verify you hadn't started to retract them yet?
+|165:15:49|CMP|Yes, that's verified. I did not touch anything.
+|165:15:49|CC|Okay, fine. We'll give you another call, as soon as we get data here.
+|165:15:49|CMP|Okay.
+|165:15:49|CC|It's important, Ron, for us to get the currents on this one, so we can compare it on HF 1.
+|165:15:49|CMP|On the other one, yes. Okay.
+|165:17:08|CC|Okay Ron. Let's try HF ANTENNA 2, RETRACT now, please.
+|165:17:15|CMP|Okay.
+|165:17:27|CMP|There we go. Let's see. Give you a countdown on it. Okay, 5, 4, 3, 2, 1 -
+|165:17:44|CMP|MARK it. Barber pole.
+|165:17:44|CC|Okay Ron, we're reading good data on that.
+|165:19:56|CMP|MARK it; gray.
+||||Tape 110B/2|Page 1632
+|165:19:58|CC|Mark it; Roger.
+|165:19:58|CC|Stand by for HF 2. We're changing some data points here.
+|165:19:58|CMP|Okay.
+|165:19:58|CC|I'm sorry; HF 1.
+|165:19:58|CMP|(Laughter) Okay, no problem.
+|165:19:58|CC|You should hear - hear it in the room when I make a comment like that. I get l4 people saying, "l not 2."
+|165:19:58|CMP|(Laughter) Well, I knew what you were talking about.
+|165:21:14|CC|Okay, Ron, if you'll give us a hack, we're - you're GO for HF ANTENNA 1, RETRACT.
+|165:21:14|CMP|Okay, just a second. (Chuckle) You know that's funny. I can't remember which one I can see out my left window over there.
+|165:21:14|CC|Believe you and I could call it ANTEN -ANTENNA 2 --
+|165:21:14|CMP|I hope it's number 1.
+|165:21:14|CC|If it's still out there, it better be 1.
+|165:21:14|CMP|That's -wfeat bothers me. That's what I'm saying. If it's still out there, it better be 1. Okay. I'll give you a countdown on this one here. 55 4, 3, 2, 1 -
+|165:22:04|CMP|MARK it. Barber pole.
+|165:22:15|CC|We've got ... - -
+|165:22:16|CMP|It's going in.
+|165:22:17|CC|- - ... indication of motion that it's going in. Roger. is that the one you can see?
+||||Tape 110B/3|Page 1633
+|165:22:17|CMP|Yes. I can't anymore. It was gone. I could only gee about - I don't know, 6 or 8 - maybe 8 feet of it sticking out there. Started to move and it's gone!
+|165:24:23|CC|Ron, we can see stall current now. Can you give ANTENNA 1, OFF?
+|165:24:30|CMP|Okay; it's OFF.
+|165:24:30|CC|And you do not have a sight. is that so?
+|165:24:30|CMP|It was ... compared to the other one.
+|165:24:30|CC|That was affirm. I did not.
+|165:24:30|CC|I got about 9 seconds when they called stall current; 9 seconds difference in the other one.
+|165:24:30|CMP|Gee, it ought to be pretty well in there then, hadn't it?
+|165:24:30|CC|Yes, it should be.
+|165:25:30|CMP|Ready for PAN CAMERA MODE to STANDBY?
+|165:25:30|CC|Stand by; let me ask 0S0. Stand by on that, Ron.
+|165:25:30|CMP|Wilco.
+|165:26:07|CC|Ron, we're analyzing the data on the antenna that -We're 1 second out of the tolerance that Stan had established for determining it to end.
+|165:26:07|CMP|(Chuckle)
+|165:27:44|CC|Okay, Ron, PAN CAMERA to STANDBY.
+|165:27:50|CMP|Okay, PAN CAMERA. ... STANDBY. Errr - it's coming on. Barber pole. Gray.
+|165:28:58|CC|Ron, you can turn HF ANTENNA 2, RETRACT, switch to the OFF position.
+|165:29:05|CMP|Okay. Thank you. Sorry.
+||||Tape 110B/4|Page 1634
+|165:29:05|CC|Ron, on X-ray X-ray, is it still in - -
+|165:29:05|CMP|He says we're 1 second off? - Yes. Go ahead.
+|165:29:05|CC|If X-ray X-ray is still in the Nikon, you should shoot off one frame as a protect frame, and then you can just keep shooting on all the rest of them until it won't pull anymore. And you'll feel that, of course. And those are your options.
+|165:29:05|CMP|Oh!
+|165:29:05|CMP|Don't get too happy. It might just pull one - one frame and be done.
+|165:29:05|CMP|(Laughter) Yes; probably.
+|165:29:05|CC|Okay, Ron, PAN CAMERA POWER, OFF.
+|165:30:10|CMP|PAN CAMERA POWER is OFF.
+|165:31:23|CC|Ok - okay, Ron. You got your steno-maphic [sic] tools out up there? Because we got a Flight Plan update for tomorrow - the trim burn or the bagel burn, I guess.
+|165:31:23|CMP|Okay. Ha, ha. You know what I did on that camera? I forgot it. I wound it up in there. I haven't had a chance to take the film out yet. But I wound it back in the can (chuckle).
+|165:31:23|CC|Okay, well; sorry about that. Okay, let me tell you, Ron, we're - all that data analyzed says we got a good retract on HF antenna 1. We're going to fly nominal Flight Plan the rest of this -tonight, and then all this update I'm talking about is for tomorrow morning at 180:15-
+|165:31:23|CMP|Ah ha! Outstanding. I figured you should come to that real good conclusion.
+|165:31:23|CC|Yes, we think so, too - -
+|165:31:23|CMP|Okay. ... - -
+|165:31:23|CC|- - Boy, you should have seen the Flight Plan changes we would have had.
+||||Tape 110B/5|Page 1635
+|165:31:23|CMP|(Laughter) I can imagine them.
+|165:31:23|CMP|Over there; okay.
+|165:31:23|CC|Say again, Ron; I cut you out.
+|165:31:23|CMP|I was just going to say that - running Volume 3 tomorrow morning.
+|165:31:23|CC|That's right. So it - -
+|165:31:23|CMP|Okay.
+|165:31:23|CC|Yes, volume 3.
+|165:32:10|CMP|Okay. At - Okay, I've got volume 3 now.
+|165:32:10|CC|Okay, and it's at 180:15; 180:15 is the first one.
+|165:32:10|CMP|Okay.
+|165:32:10|CC|Okay, I know I told you we wouldn't update the ones in the block, but the very first one is inside the block so you - where it says "LOPC target 1084.." Just cross that out and make that "Trim target load."
+|165:32:10|CMP|Oh, okay.
+|165:32:10|CC|And below the update block - the next block - as part of that block, add "Trim pads." We'll be coming up with you with trim pads.
+|165:32:10|CMP|Okay.
+|165:33:02|CC|Okay, the first one is at 180:20. Add "Poo," and below it, add VERB 49 maneuver to P52/trim attitude."
+|165:33:02|CMP|Okay.
+|165:33:02|CC|And put a note: "Maneuver will take 14 minutes."
+|165:33:02|CMP|Okay.
+|165:33:54|CC|Okay, we're going to give you the high gain angle numbers and the VERB 49 maneuver numbers tomorrow morning. They'll probably change on latest updates, so we won't give anything for the - You can Joist put three blanks for the roll, pitch, and yaw there with that VERB 49 maneuver. Okay, if you go down the page - -
+||||Tape 110B/6|Page 1636
+|165:33:54|CMP|Okay.
+|165:33:54|CC|You go down the page to 180:27. Delete - Cross out "CMC MODE, FREE; POO; CMC MODE, AUTO; LIMIT CYCLE, ON; ATTITUDE DEAD BAND, MIN; and RATE, LOW." And delete that note that starts "Do not stop ORB RATE early (avoid gimbal lock problems)Ó over there right next to that. Joist delete all that.
+|165:33:54|CMP|Okay; got it.
+|165:33:54|CC|Okay, on the next coloimn, 180:40, delete the VERB 49 maneuver.
+|165:33:54|CMP|Okay.
+|165:33:54|CC|Okay; at 180:44, add "UV COVER, CLOSED."
+|165:33:54|CMP|UV COVER CLOSED, 180:44. ¥
+|165:33:54|CC|Roger. And at l80:45È if you can fit it in between the Og fuel cell poirge and that, add the following: "UV, OFF; IR, OFF, and enable all jets."
+|165:35:46|CMP|Okay, after "IR COVER, CLOSE," we'll put "Turn the UV, OFF; the IR, OFF*1; and then enable all Jets before the fuel cell purge, huh?
+|165:35:46|CC|Well, if you can fit it in there wherever it's convenient; Roger.
+|165:35:46|CMP|Okay.
+|165:36:04|CC|Okay. At 180:58, where it says "Configoire DSE," change "HIGH BIT RATE" - cross it out, and make it "LOW BIT RATE."
+|165:36:04|CMP|Okay; LOW BIT RATE instead of HIGH BIT RATE.
+|165:36:04|CC|Okay, at - over on the next page at 181:15, add the following.
+||||Tape 110B/7|Page 1637
+|165:36:04|CMP|Okay.
+|165:36:04|CC|Pre-SPS burn - burn sim prep cue card. Let me read that again. "Pre-SPS burn sim prep cue card." Another statement: "Secure equipment for trim/ LOPC."
+|165:36:04|CMP|Okay. At l8l:15, we'll do the Pre-SPS burn sim prep cue card and secure the equipment for trim/ LOPC.
+|165:36:04|CC|Roger. And right after that, put "P30 - P-30."
+|165:36:04|CMP|Okay.
+|165:37:37|CC|Okay. And you might as well scratch out those words where it says "Eat period" on that line, and down at l8l:23, add "P4l - P4l."
+|165:37:37|CMP|Okay, P4l.
+|165:37:37|CC|Okay. At 181:33, add "Trim burn - Trim burn."
+|165:37:37|CMP|Okay, trim burn.
+|165:38:20|CC|Okay. At l8l:35È add the following: "VERB 49 maneuver to LOPC burn pad attitude."
+|165:38:20|CMP|Okay, VERB 49 to the LOPC burn pad attitude.
+|165:38:20|CC|Roger. At 181:43, add "Report burn status."
+|165:38:20|CMP|Okay.
+|165:38:20|CC|Okay. At 182:15 on the next page - 182:15, delete "Pre-SPS burn sim prep cue card; IR, OFF; UV, OFF; enable all jets; secure equipment for LOPC." Delete all those because you've already done it.
+|165:38:20|CMP|Okay.
+|165:38:20|CC|Okay. At 182:20, delete the note which says "PCM data will not be recorded during LOPC." Delete that note.
+|165:38:20|CMP|Okay.
+||||Tape 110B/8|Page 1638
+|165:39:58|CC|Okay. And then the last - -
+|165:39:58|CMP|Is that - -
+|165:39:58|CC|- - one is just a general comment, Ron. As you can see, we1 re cutting into your eat period, and you1 re going to be awful busy, and your eat period is very short. So, right at wakeup, while you're working, you might be considering getting eat things ready to go up with - ready to eat. You know, just as you're doing you postsleep check and that, you might be getting some food out. You're going to be busier than the proverbial one-armed paperhanger there.
+|165:39:58|CMP|Okay. That's probably a good idea (chuckle).
+|165:39:58|CC|And we wanted that up to you so that you might get a chance to look at it this evening or the rest of this rev and make some thoughts or pull your thoughts together on that burn in the morning and see if we've covered all bets.
+|165:40:57|CMP|Okay. So far it looks pretty good here. We'll have some different high gain angles there at l8l:00. And you're going to give those up anyhow.
+|165:40:57|CC|Okay, at l8l:00 - -
+|165:40:57|CMP|You can send those up with the - well, for the next AOS there.
+|165:40:57|CC|Yes. We see that. Okay. We'll have to be calling that up to you tomorrow as you go around, I guess.
+|165:40:57|CMP|Oh, won't that - well, that'll be the same, because the LOPC burn attitude should be the same as nominal.
+|165:40:57|CC|Yes. Roger.
+|165:40:57|CMP|Or about.
+|165:40:57|CC|Yes; you're right.
+|165:40:57|CMP|Okay, so it's all right. I'm sorry.
+||||Tape 110B/9|Page 1639
+|165:40:57|CC|Ron, just to make sure. You understood the reason why we have to do this trim burn or ham burn or whatever you want to call it?
+|165:42:11|CMP|Yes. As I understand, the mascons didn't work the way we thought they would.
+|165:42:11|CC|That's about the size of it.
+|165:42:11|CMP|It didn't get down into a circular orbit. Let's see. Just glancing through here, it looks to me like we're going to do the trim burn and the LOPC REFSMMAT, right?
+|165:42:11|CC|That's affirmative, Ron.
+|165:42:11|CMP|Okay.
+|165:42:11|CC|And, Ron, just - I think you realize it, but all this has been checked out in the CMS down at the Cape already, and it's all been run. And there's no gimbal lock problem as far as we know.
+|165:42:11|CMP|Hey, outstanding. Okay; good.
+|165:42:11|CMP|Yes. Those guys in the CMS down there do good work.
+|165:42:11|CC|Roger.
+|165:46:17|CMP|You know that crater - that circle next to D-Caldera - has a lot of blocks - blocks - blocky material laying around it. That - little bit of a terrace that I could just barely see on the west side of - western rim - down inside the western rim.
+|165:46:17|CC|Got you. I didn't think you were going to be able to see anything with the attitude. I'm surprised you can see anything at all.
+|165:47:09|CMP|Yes. I was, too. I just happened to look out, and there it was.
+|165:47:09|CC|Just talked to El Lago a few minutes ago, Ron, and all the neighbors are out - are at your home around the squawk box, listening. And Jan said to tell you that Jaime and Jon will be out here at - with us tomorrow. We're going to all - They're going to watch the burn from here - the LOPC and the trim burn.
+||||Tape 110B/10.|Page 1640
+|165:47:09|CMP|Oh, hey, good deal! Yes, I've got some real fine neighbors down there, I'll tell you that.
+|165:48:59|CMP|You know, I look at that D-Caldera from a distance -I can still see it in the binocs - and I keep trying to look for some hint of a topographic expression, a topographic rise surrounding D-Caldera And I can't see a hint of a shadow, difference in the color, or anything. It's just flat out in the middle of a flat plain, and it's a D-shaped depression that's slumped down. There's no rise around the rims - or anything.
+|165:48:59|CC|Roger. Got you. Must be frustrating, because it's supposed to have some type of topographical expression, huh?
+|165:48:59|CMP|Yes; right. You know, it's supposed to have something. But it looks like it just fell right out of the flat plain, you know. It took part of the -took part of the plain with it, because there are these bubble-looking things down in D-Caldera.
+|165:51:06|CMP|How many frames in the next Nikon mag do I have to diddle with?
+|165:51:06|CC|Okay, we're running that one through FAO here. Stand by a moment, Ron, on that.
+|165:51:06|CMP|Okay.
+|165:53:23|CMP|For the ejecta pattern of Eratosthenes, you can just see it looking back into the Sun now, and the terminator is right - right in the middle of Eratosthenes now. And you can sure see the classic impact ejecta pattern around it. It goes out for -you know, almost two crater diameters as we can see the topographic expression. You can see the scalloping or scouring as it's gone back across there, due to the shadows that are created in ohe low Sun angle.
+||||Tape 110B/11|Page 1641
+|165:54:07|CC|Ron, at your convenience, we would like H TANKS 1,
+|165:54:07||2, and 3 FANs, OFF. H TANKS 1, 2, and 3 FANS to OFF.
+|165:54:20|CMP|Okay. I'm going to turn off all the H FANS. There's 3, 2, and 1, are all OFF.
+|165:54:20|CC|Good show.
+|165:54:20|CMP|I took a bath last night. I think I'll try to shave tonight. Starting to itch underneath this helmet.
+|165:54:20|CC|Roger.
+|165:54:20|CC|You mean you're not going to come home with a beard, huh?
+|165:54:20|CMP|Well, Jon wanted me to, but I can't seem to get past the itching stage.
+|165:54:20|CC|Just be comfortable. Just be comfortable. You got another week to go.
+|165:54:20|CMP|(Laughter) I know it. I've already shaved once. And when you - when you start to shave, you can only - you can only put that brushless shaving cream on - oh, maybe a third - a third of your face and start hacking on it there because it dried out real quick. So you put on a little bit, then scrape it off with a razor, then get some more on and then scrape it off.
+|165:54:20|CC|Roger.
+|165:57:10|CC|Okay, Ron, FAO's data says that on magazine Yankee Yankee, we have 20 unscheduled frames that you can use prior to the scheduled photography. After the scheduled photography, anything that's left will also be yours.
+|165:57:10|CMP|Oh, okay. Yankee Yankee must be the next one up then. I can change - put that in, huh?
+|165:57:10|CC|That's affirm, Ron. You can go ahead and put it in and shoot 20 and then you have to hold the rest for the scheduled photography.
+||||Tape 110B/12|Page 1642
+|165:57:10|CMP|Okay, will do.
+|165:57:10|CC|I can see your thoughts there, Ron. You're going to get those 20 shot up before Jack ever gets up there, huh?
+|165:58:03|CMP|(Laughter) Oh, that is a good thought. No, it's just that every once in a while at these terminators, you know, you - you have some real good shots, and we just can't schedule them, you know, all the time, because sometimes you can't do it. But you take one or two shots of each terminator when it comes by, you get some real good pictures.
+|165:58:03|CC|Roger. We understand.
+|166:00:37|CMP|(Humming)
+|166:04:51|CMP|Okay, magazine Yankee Yankee is in the Nikon -finally.
+|166:04:51|CC|Roger.
+|166:04:51|CMP|I think I mentioned here the other night, didn't I, putting that magazine in there - you know, it's a real critical tight fit. And you get it pushed in there just right, and then in zero g, the thing bounces back out of the way, you know - before you can get the back on there.
+|166:04:51|CC|Roger. You don't think - -
+|166:04:51|CMP|Good camera, though.
+|166:04:51|CC|- - Nikon was designed for zero gravity, huh?
+|166:04:51|CMP|(Laughter) No, it works great. Sure something to be said about a removable magazine cassette though.
+|166:04:51|CC|Roger.
+|166:04:51|CMP|But then again, you can focus the Nikon.
+|166:04:51|CC|Roger.
+|166:14:27|CMP|Hey, Houston; America.
+||||Tape 110B/13|Page 1643
+|166:14:27|CC|Okay, Ron. We're here.
+|166:14:27|CMP|Okay. I was looking over this transfer list - about 184:00, and I don't remember Gene and Jack leaving their helmet stowage bags back to me. So I think they must have them in the LM - in Challenger.
+|166:14:27|CC|Okay, we'll make a note of that and check it out tonight.
+|166:14:27|CMP|Okay.
+|166:18:07|CMP|Well, let's see, probably about time to P20 here. Plus-X forward, SIM bay attitude; 2 ENTER ENTER, plus 5 ENTER - ... - okay, PROCEED. Noun 78 -Well, that's already loaded. 52.25; plus X is 180; okay? Except we're going to do - half degree dead band 2 ENTER - 2-1/2 degree dead band, I mean. Plus 2.50. ... number 50 is the Moon. And right now, we'd like to orbrate around the Moon. ... -2 - ...
+|166:20:39|CC|Hey, Ron, do you have your volume 3 handy?
+|166:20:39|CMP|Yes, as a matter of fact.
+|166:20:39|CC|Your last call about the helmet stowage bags. Where - whereabouts in volume 3 is that?
+|166:20:39|CMP|At 184 - about 19.
+|166:20:39|CMP|Took -
+|166:20:39|CC|Okay, we got it. Thank you.
+|166:20:39|CMP|They got suited and took their helmets and gloves with them over in the LM - took their helmets and gloves with them over to LM, and they said they were going to send the back. But I don't think they ever did. We all got busy, and so they've still got them over there somewhere.
+|166:24:30|CC|Ron, we're going to lose you in about 1 minute, and you're looking great. No problems at all.
+|166:24:30|CMP|Okay, we'll see you on the other side there, Bob. Thank you.
+||||Tape 110B/14|Page 1644
+|166:24:30|CC|Roger, Ron. And at 169:51 or thereabouts, we'll see you.
+|166:24:30|CMP|Okay,
+|166:24:30|CC|And you'll be eating, wo we won't call you. But we'll be standing by.
+|166:24:55|CMP|(Laughter) Okay.
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.
