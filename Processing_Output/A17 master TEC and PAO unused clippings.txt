@@ -2612,6 +2612,124 @@
 |166:24:30|CMP|Okay,
 |166:24:30|CC|And you'll be eating, wo we won't call you. But we'll be standing by.
 |166:24:55|CMP|(Laughter) Okay.
+||||Tape 111B/1|Page 1696
+|167:10:12|CC|America, Houston.
+|167:10:12|CC|America, Houston.
+|167:10:12|CC|America, Houston.
+|167:10:12|CC|America, Houston.
+|167:10:12|CC|America, Houston.
+|167:13:49|CMP|Okay, Houston. This is America. Once we get the antenna set right, it is easy to lock up.
+|167:13:49|CC|Roger.
+|167:13:49|CMP|How would you like - how would you like to have some P52 stuff?
+|167:13:49|CC|Standing by. All ears.
+|167:13:49|CMP|Okay, NOUN 71's - excuse me - on 6 and 42; NOUN 05> 0.01; NOUN 93, plus 0.053, minus 0.011, minus 0.039 And I torqued at 169:21:00.
+|167:13:49|CC|Roger. We copy, Ron. And, Ron, while you're there we'd like H2 TANK 1 FANs to ON.
+|167:14:52|CMP|Okay. TANK 1 H2, FANs 1, are on.
+|167:14:52|CMP|I got too much junk. It won't all fit in one jettison bag.
+|167:14:52|CC|Ron, just to update you on several things that happened while you were on the back side this time, the surface crew is at the LM and did their - they're in the close-out procedures there. And they unveiled the plaque and read a message to the school children on the world, And they received a telephone call from Dr. Fletcher, who said he'd been in close contact with the White House and was following - they - the White House was following the journey very closely and expressed the good wishes of all people down here to all of you up there.
+||||Tape 111B/2|Page 1697
+|167:17:31|CMP|Hey, that's mighty fine, by gosh.
+|167:33:04|CC|Ron, sorry to interrupt you eating, but could you take the TANK 2 and 3 FANs to ON? We're trying to get the pressures up prior to sleep.
+|167:33:16|CMP|Okay. 2 and 3 are ON.
+|167:34:39|CMP|You know, through these glasses, Stoney still looks like it's a light - ligiht tannish-orange. And it's - doesn't come all the way down to the center of the crater. It's kind of tangent to the north edge or tangent to the edge - it's perpendicular to the scarp line, itself, as it goes down through there.
+|167:34:39|CC|Roger; copy.
+|167:34:39|CMP|Man, it's hard to see that -
+|167:36:09|CMP|Everytime I focus on F Crater (laughter) I jiggle a little bit, and I can't focus.
+|167:36:09|CC|Roger. Sounds like you use binculars at a football game, huh?
+|167:36:09|CMP|... stablize binocs.
+|167:36:09|CMP|Yes, these - you know you need the 10 power, but you sure need something to stabilize it.
+|167:36:09|CC|Roger.
+|167:36:09|CMP|You know, I looked down here, - Oh, boy! Just between Tacquet and Menelaus ana off to the west of Menelaus, there's a crater that's about 10 kilometers in diameter. And just to the right of it, out in the brown stuff, there's a brand-new spanking-fresh impact crater that has brown ejecta on it. And then some of the other craters - that crater happens to be right on the edge of the brownish-type material, right over one of the rilles. Hope I can mark that on a picture on the map. And some of the other craters about that same size, around the area, out in there, they have the light-colored ejecta just like the normal small impact craters - recent impact craters out in the Mare Serenitatis itself.
+||||Tape 111B/3|Page 1698
+|167:40:56|CC|Roger, Ron.
+|167:40:56|CC|Ron, we'd like to get ready - started on some of these state vectors earlier - this state vector, and the jet-on monitor. So if you'll get ACCEPT, we'd appreciate it.
+|167:40:56|CMP|Okay, you can have it, now. It that - Yes, let's see. Clear the computer for you.
+|167:40:56|CC|Ron, just for my information - -
+|167:40:56|CMP|There you have it.
+|167:40:56|CC|- - I'm sure we - the back room's got it. Could you pinpoint that new crater between Tacquet and Menelaus? is it what - like halfway between, or something like that. is it on a check line? Or is it in the rilles there from Tacquet, say east -west of Tacquet, but in the rille area.
+|167:41:53|CMP|It's - Let me get my map.
+|167:41:53|CC|Oh, that's all rigiht, Ron. It's not that - don't need it that close. Don't want to interrupt your eating.
+|167:41:53|CMP|No, that's all right.
+|167:41:53|CMP|That crater is closer to Menelaus - Melanoff, whatever it is.
+|167:41:53|CC|Okay.
+|167:42:49|CMP|And it's almost directly east of Menelaus.
+||||Tape 111B/4|Page 1699
+|167:42:49|CC|Roger. I'll put a mark here and mark it on my map so you can look at it preflight - postflight.
+|167:42:49|CMP|Okay.
+|167:42:49|CMP|You know, I was looking at D-Caldera and you got a lobate - a lobate flow front sticking down in the crazy thing. I'll be darned.
+|167:42:49|CC|Must be amazing up there. That whole scene seems to change as that terminator is shifting - each rev is something is different in each area, because of that - Sun angle, I'm sure. But - -
+|167:42:49|CMP|Yes.
+|167:42:49|CC|- - But, bqy --
+|167:42:49|CMP|You know, it's almost like - what I originally said, you know, like - maybe there's a high spot or a dry spot and you try to wet it, you know?
+|167:42:49|CC|Roger; I understand exactly what you're talking about.
+|167:42:49|CMP|The flow has come up to it - Yes. That's what it looks like. Just like that.
+|167:42:49|CC|Kind of like a waxed surface, where you throw water on it and it - and the surface tension gathers it together in various lumps and the rest isn't clear.
+|167:42:49|CMP|Yes. Yes, that's it.
+|167:44:47|CMP|And the part that the waxed surface - so to speak -in analogy there, is a light bluish-gray.
+|167:44:47|CMP|Picture number 1 on the Nikon was looking south along the terminator in the rilles east - west of Aristoteles.
+|167:44:47|CMP|And the picture number 2 is looking towara Timocharis.
+||||Tape 111B/5|Page 1700
+|167:44:47|CC|Say again. Looking towards where?
+|167:48:12|CMP|Timocharis.
+|167:48:12|CC|Okay.
+|167:48:12|CMP|Timocharis is right on the terminator now, the middle - -
+|167:48:12|CC|Roger. Got it.
+|167:48:12|CMP|On that crater that has the definite tan ejecta blanket, if you'll go - directly north - directly north of the center of the crater Auwers, A-u-w-e-r-s, until you come out about one of those rilles there in the Tacquet area, that's about where it is.
+|167:48:12|CC|Roger. Got it.
+|167:48:12|CMP|Well, I had better get busy and start eating, I guess.
+|167:48:12|CC|Roger. You have got to eat here and then - Well, don't get too busy eating. You've supposed to have been eating. I've got to read you up a TEI-55 pad, if you want to take that - -
+|167:48:12|CMP|Oh. (Chuckle)
+|167:48:12|CC|- - then you've got to do your presleep checklist and we'll see you - -
+|167:48:12|CMP|Okay. *** seem like there's enough time to get everything done that you want to get done.
+|167:48:12|CC|Roger. Okay, the computer is yours - back to BLOCK.
+|167:50:55|CMP|Okay, going to BLOCK. And you say you have got a TEI pad, huh?
+|167:50:55|CC|Roger. TEI-55.
+|167:50:55|CMP|Okay.
+||||Tape 111B/6|Page 1701
+|167:50:55|CC|Okay, it's SPS/G&N: - -
+|167:50:55|CMP|Copy.
+|167:51:15|CC|- - 36076; plus O.56, plus 0.80; 196:58:46.51; NOUN 8l's: plus 2785*7, minus 0957.1, minus 0174.6; roll of 179, pitch is 085, yaw, 343. Rest of the pad is not applicable. Sirius and Rigel are the set stars, but we got a little difference on the hour line. Tonight's hour line is 136:16:00.34; four jet, 12 seconds. I've got three comments. First comment - -
+|167:52:19|CMP|Okay. Go.
+|167:52:19|CC|- - longitude of the T. , minus 156.91 degrees. This pad assumes a trim burn and a LOPC-1 burn. And this pad assumes a lift-off REFSMMAT. Over.
+|167:52:19|CMP|Okay. The last note was assumes lift-off REFSMMAT, huh?
+|167:52:19|CC|That's right.
+|167:52:19|CMP|Okay, TEI-55. SPS/G&N; 36076; plus 0.56, plus 0.80; 196:58:46.51; plus 2785.7, minus 0957-1, minus 0174.6; roll, 179, O85, 343; Sirius and Rigel, 136, 160, 034; four jet; 12 seconds; longitude at T^ equals minus 156.91; assumes a trim and LOPC burn; and a lift-off REFSMMAT.
+|167:54:00|CC|That's a good readback, Ron. Okay, it's all yours on the Flight Plan, and - Ron, we might point out that, if you get going into the presleep checklist here, in the VHF comm configuration. Get that done, then there's a break - you'll lose comm and you'll have a 15 - 20 minute break, you can jump into your eat and then go right to bed.
+|167:54:00|CMP|Oh, okay.
+|167:54:00|CC|Ron, my last call, I promise. I need - Here's your H2 tank configuration. We want TANK 1 and 2, FANs to OFF. H2 TANK 3 FAN to AUTO. And you can delete cryo stir from the presleep checklist.
+||||Tape 111B/7|Page 1702
+|167:54:00|CMP|Okay. I've got TANK 1 and 2 FANs, OFF. And H FAN number 3 to AUTO.
+|167:54:00|CC|And delete the stir from the checklist.
+|167:54:00|CMP|Okay, we'll do that. We'll delete the stir.
+|167:54:00|CC|Okay, and we'll be standing by for your onboard readout ... - -
+|167:54:00|CMP|Okay, here's the pan -Oh, okay. May as well get those there. Let's get VHF - -
+|167:54:00|CC|Roger. We concur on that.
+|167:55:03|CMP|*** on panel 9- Okay, it's RECEIVE. And, we are in DUPLEX Alfa. And SQUELCH B is - Whooh! About 5, that cuts out the noise. I don't know if I'd ever hear them or not, but, anyhow, it cuts out the noise. Okay, let's see - *** C is about 36*7* Pyro A: barely below the line, but we'll say 37-0, and pyro B is 37-0. Okay, that looks like that's in good shape.
+|167:55:03|CMP|Okay, quantity in RCS Alfa, about 79 j Bravo is 76; Charlie, 78; Delta is 80.
+|167:55:03|CC|Okay, we got them. I don't know what they're advertising down here, but on one of the big screens here for the science group, they've got three, four signs put up now. It says the "Marines are looking for a few good men," "United States Air Force is a challenge for the bold," and "Fly Navy," and "Stay in school."
+|167:55:03|CMP|(Laughter)
+|167:55:03|CC|The first thing they put up was - -
+|167:55:03|CMP|Putting all the good things up, huh?
+|167:55:03|CC|Roger; well, the first thing they put up was "Marines are looking for a few good men" and Deke gave me a dirty look, there.
+||||Tape 111B/8|Page 1703
+|167:55:03|CMP|(Laughter)
+|167:55:03|CC|By the way, the troops are getting into the LM right now.
+|167:55:03|CMP|Okay, they're all ready to crawl back in, huh?
+|167:59:02|CC|That's affirm, Ron. That closes it all out and you can just precede [sic] through your checklist and we'll stand by, if you want any calls. We will see you tomorrow. And, the Doctor's just - -
+|167:59:02|CMP|Okay.
+|167:59:02|CC|- - wanted one question - whether or not the cream had done any good on those spots where the ZPN was? Has it made it feel better?
+|167:59:02|CMP|Yes, it did, as a matter of fact. And, I forgot to look suid see if it is still red.
+|167:59:02|CC|That's all right. As long as it made it feel better.
+|167:59:02|CMP|There's a little bitty spot that must have been the center of it. It's only about one-eighth of an inch in diameter. It's still a little bit red, but the rest of the redness is all gone. And it doesn't itch any more.
+|167:59:02|CC|Real good.
+|167:59:02|CMP|I think I am going to have to use a different mag than what's listed down there for the Hasselblad. I got November November and it's already got 160 frames on it.
+|168:01:58|CC|Okay, let me look at FAO here. He's - he'll give me the word.
+|168:01:58|CMP|Okay.
+|168:01:58|CC|Ron, you should use Kilo Kilo in place of November November.
+||||Tape 111B/9|Page 1704
+|168:01:58|CMP|Okay. It's setting there with 65 frames on it.
+|168:01:58|CMP|Okay, Houston; America.
+|168:04:07|CMP|Go ahead, Ron.
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.

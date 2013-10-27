@@ -159,4 +159,7 @@
 |165:56:16 - decide to scrub Station 10
 |166:04:22 - "can't get SESC and roll at the same time"
 |166:05:57 - CC asking about strange object on the surface in the distance
+|166:35:19 - |LMP-EVA|Need your oil changed?
+|166:49:46 - astronauts exchange cameras
+
 
