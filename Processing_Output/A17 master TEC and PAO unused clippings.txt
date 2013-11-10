@@ -2730,6 +2730,37 @@
 |168:01:58|CMP|Okay. It's setting there with 65 frames on it.
 |168:01:58|CMP|Okay, Houston; America.
 |168:04:07|CMP|Go ahead, Ron.
+||||Tape 112B/1|Page 1751
+|168:00:00|CC|Yes. Ho problems - no problem, Ron. You're not breaking up to us. You know better than we, though, so - no sweat.
+|168:00:00|CMP|Yes. No, that's on the lightweight headset that I'll be wearing tonight.
+|168:00:00|CC|Roger; copy.
+|168:04:53|CMP|I'm wearing the comm carrier now. But it itches if you si - if you leave it on all night, you know?
+|168:05:17|CMP|Okay; get the onboard readouts, recycle the fans; we'll save the potable water - WASTE MANAGEMENT OVERBOARD DRAIN - okay, that's OFF; WASTE STOWAGE VENT valves are closed. BATTERY VENT, by the way, is in VENT. How about a battery readout? ... Alfa is 1. - Okay, OPTICS are ZERO ... OPTICS is ... Optics are stowed. CABIN PRESSURE REGs, two - -
+|168:06:36|CC|Hey, Ron, we didn't - we didn't copy your battery manifold - or battery manifold readout.
+|168:06:36|CMP|Battery manifold? it was 1.2, about. And it was that last night, too.
+|168:06:36|CC|Okay. Thank you, sir. You've just made EECOM very happy.
+||||Tape 112B/2|Page 1752
+|168:06:36|CMP|Okay. I don't know when it was 0.6 up there, but I looked at it last night, and it was 1.2.
+|168:06:36|CC|Roger.
+|168:07:19|CMP|CABIN REPRESS valve - I haven't kicked them off. I think one of them was closed. Okay. TUNNEL VERT valve should still be off. Okay, it's OFF.
+|168:07:19|CMP|(Humming)
+|168:15:07|CC|Hey, Ron. We hear an intervalometer going off every 20 seconds - -
+|168:15:07|CMP|That right?
+|168:15:07|CC|- - it's timed out exactly right. Do you have the intervalometer running on something?
+|168:15:17|CMP|(Laughter) No; I can't figure out what that is.
+|168:15:17|CC|We can't either. Because we hear - -
+|168:15:17|CMP|It times it every 20 seconds, huh?
+|168:15:17|CC|Roger. Tommy just timed it out; every 20 seconds exactly.
+|168:15:17|CMP|I got both valometer - intervalometers stuck to the wall over here. They're not hooked to anything.
+|168:15:17|CC|Well, I hope - -
+|168:15:17|CMP|That's funnyj because I don't heiir that.
+|168:15:41|CC|Roger. I'm sure. Well, we're going to get a recording of it. I mean, we - I am going to ... to the recording when I get a chance and I'll show it to you. Because it's been the last 2 days, every 20 seconds, big as life.
+|168:15:41|CMP|(Laughter) I would be curious aa to what. - see what that is. I don't even have this tape recorder going now.
+||||Tape 112B/3|Page 1753
+|168:15:41|CC|Roger. Understand. We went around the room, Ron. And everything is in great shape and you're -you're GO for sleep or whatever you want to do. We won't call you.
+|168:16:18|CMP|(Laughter) Okay. Thank you much. We'll see you all in the morning then.
+|168:16:24|CC|Roger
+|168:16:24||BEGIN LUNAR REV 43
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.
