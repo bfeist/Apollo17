@@ -186,3 +186,8 @@
 |179:29:08|UNKNOWN|Anything to make you happy.
 |179:53:57 - Command module orbital burn.
 |180:57:11 - Schmitt reads xmas poem.
+missing audio 181:35:11 - 183:21:44
+missing television |184:41:43
+|185:13:39 - GO for lunar liftoff
+|185:21:28 - lunar liftoff ignition
+|185:28:41 - engine shutdown

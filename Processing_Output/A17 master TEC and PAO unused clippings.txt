@@ -2923,6 +2923,173 @@
 |182:09:25|CMP|Let's see - 0.5 *** plus one-half degree dead band Five up 50 18 2 and 4. Looks pretty good. Now, let's see. We can go ahead and -
 |182:09:25|CMP|Ah, NOUN -
 |182:12:23|CC|Ron, we're couple of minutes from LOS here and you're looking good. We'd like to make sure you get the DATA SYSTEM OFF and just a comment on the rendezvous transponder.
+||||Tape 1213/1|Page 1853
+|182:00:59|CMP|Oh, okay, okay. Understand. Okay; the old DATA SYSTEM is going OFF. And I got to configure the DSE at AOS, it looks like.
+|182:00:59|CC|And we have configured the DSE and controlled, Ron. You can scratch that line of the Flight Plan.
+|182:00:59|CMP|Okay.
+|182:00:59|CC|And have a good zodiacal light.
+|182:13:24|CMP|(Laughter) Flip, flip, push-pull, click-click, around the corner, 3 seconds, one-half, one-fourth, skip one, skip two, skip five. Ought to be fun.
+|182:13:24||BEGIN LUNAR REV 50
+|182:59:10|CMP|(Humming) Thin sponge, but I guess it'll work. (Humming) Okay, now - let's see what we need. Find a new spot that's not burned. The hair is starting to grow out again. Got to take this sticky stuff off before it'll stick. (Humming) Take them along. Okay, where did the other little thing go? Okay; 20. (Whistling)
+|183:01:50|CC|MARK. T-2 time.
+|183:01:50|CMP|Oh, okay. Coming up - 42 - No, it's 4l:50, I hope. Because I'm not there yet.
+|183:01:50|CC|T-2 is at 42:50; TCA is 44:30.
+|183:01:50|CMP|Oh, okay. It's on the old DAC here. Not seeing much. Maybe - 7 degrees. Okay, she's coming down now ... Ah ha! I see it. Yes, and it is pointing a long ways x'rom it. It's 5 degrees off. Well, r.ot that much; 3 maybe.
+||||Tape 121B/2|Page 1854
+|183:01:50|CC|Do you have the DAC on now, Ron?
+|183:01:50|CMP|Yes, DAC's ON. Bring her down and - Okay, I guess the best thing to do is take the center of that thing - about right there. It's supposed to be 10 seconds apart. That one was a little bit off -discount that one. Beautiful. Right there. Switch - Ah ha! Both in zero phase. Got it. About to lose it. Last one - Okay, the last one may not be that good. Just lost it.
+|183:05:22|CMP|Okay, the DAC is OFF. Okay, TCA P20; 20 ENTER. Time, VERB 25 NOUN 89 ENTER. Plus 20160. (Humming I have time to load F Crater, look at that through the sextant. Right time to do that. 20 - 1 -Where an I? 15405, plus 15.
+|183:05:22|CC|Roger, Ron. We'd like to make sure you configure your VHF prior to this landmark 17-1 tracking.
+|183:05:22|CMP|Okay. ... Plus 2016 - is plus 15405 ENTER, 6 ENTER.
+|183:06:53|CMP|Okay, configure VHF comm. 3 is DUPLEX. Okay; DUPLEX Bravo. MODE to VOX; I'm in. VHF AM is T/R; panel 9 - instead of RECEIVE, okay? Antenna to right, adjust the SQUELCH. I can hear myself cutting in and out,
+|183:06:53|CC|Okay, you sound good to us. Just a reminder that RENDEZVOUS TRANSPONDER does not go to POWER there. We Just keep it in HEATERS.
+|183:06:53|CMP|Okay, thank you. Okay. Number 1, that's make sure we be sure and pick it up right - transmitter 9, we're DUPLEX. Okay, by the way, the old zodiacal light went like a charm. Amazing. They cut out enough of those things, you know, so that it's reasonable to get them done.
+|183:06:53|CC|Roger. Good show.
+|183:06:53|CMP|And one came smacking through the window - the Sun came smacking through the window at - 15:01, something like that.
+||||Tape 121B/3|Page 1855
+|183:06:53|CC|Okay, Ron. You've got to load your NOUN 39s, or maybe I missed it and we just want to remind you that we'd like B/D ROLL configured and we will be using B/D ROLL for the rest of the mission.
+|183:06:53|CMP|Oh, okay. You want to change the old DAP here -Did I miss that somewhere?
+|183:06:53|CC|No, sir. That's a call from us.
+|183:06:53|CMP|Oh, okay. Thank you.
+|183:06:53|CC|Wait until 186:11 - no hurry or anything like that. Just a reminder.
+|183:06:53|CMP|Okay, let me wait until after this landmark Tracking here. I'll write her down though. (Humming) ... In there. 5725 - Okay, give me a call shortly before T-l and I can start my clock.
+|183:06:53|CC|Roger, Ron.
+|183:06:53|CMP|And in the meantime, I can put in another little old sponge. Got to keep the surgeons happy. Besides -besides it feels better to change them anyhow. There's the spot.
+|183:11:01|CMP|Okay, you ought to be getting good data now.
+|183:11:01|CC|I'll go over here and nudge the - Roger. He says he is getting good data now.
+|183:11:01|CMP|Okay.
+|183:11:01|CMP|I wanted to be all clean shaven and - so I could be all nice and presentable for the guys, and I didn't have time to shave yet.
+|183:11:01|CC|Roger. You still itching?
+|183:11:01|CMP|It's not too bad, really. Right now it is kind of -just to a point right underneath the chin, you know, where - your comm carrier ties on with that, little pad down there.
+|183:11:01|CC|Hey, Ron. If you let it grow a little bit, you can join the backup crew.
+||||Tape 121B/4|Page 1856
+|183:14:19|CMP|Key, that's right. Well, there goes old Picard right through the telescope. At this kind of Sun angle, he still has the dark halo. It looks like the dark halo is a little bit smaller. You can't notice the distinction quite as much. It only goes out to about half a crater diameter now. You can see ahead of something out to one crater diameter. You can still see the dark material, dark albedo-type stuff on the eastern side of the crater. And the demarcation between the two of them. It just disappeared.
+|183:14:19|CC|Okay, Ron. You're less than a minute to T-l. I'll give you a call at 30 seconds.
+|183:14:19|CMP|Okay.
+|183:16:54|CC|Okay. Okay, Ron; 30 seconds to T-l.
+|183:16:54|CMP|Okay. Give me another call on start.
+|183:16:54|CC|And, Ron, you might be getting - Gliey're making a VHF check right while you're doing the landmark tracking.
+|183:16:54|CMP|Okay.
+|183:16:54|CC|I'll call you at T-2, if you want, and you can go ahead and call - make your voice check.
+|183:16:54|CMP|Okay. Man, you can't find anything - anything with that sextant. Okay, let's see - 1'Ñ1 was - went. 25-1 minute. Okay.
+|183:16:54|CC|Ron, will you give me - your LM guys a call there, please. They're calling you.
+|183:16:54|CMP|Oh, okay. Hey, Challenger. This is Sea Monster. How do you read? This is America, really (laughter).
+|183:16:54|CMP|Hey, read you loud and clear.
+|183:19:04|CMP|Okay, I'm just transmitting DUPLEX Bravo.
+|183:19:04|CMP|Okay, I'm doing great now; standing by for you. I am going to take a - do a little landmark tracking on you when I go over .this time.
+||||Tape 121B/5|Page 1857
+|183:19:04|CMP|Negative on the ranging.
+|183:19:04|CMP|Hey, outstanding. I'll tell you. It's a beautiful bird.
+|183:19:04|CMP|Okay, you're kind of fading out a little bit, but -Okay?
+|183:19:04|CMP|Okay, we'll see you - when - just prior to lift-off then.
+|183:19:04|CMP|I guess I can turn my VHF off, since their's is off.
+|183:19:04|CC|Yes, it shows going off at the end of your landmark tracking.
+|183:19:04|CMP|Okay. And there comes Maraldi.
+|183:21:16|CC|Okay. You're coming in 1 minute to T-2 time.
+|183:21:16|CMP|Okay. ... ZERO's OFF, CMC - (Humming) Okay, we're passing over the Sculptured Hills. And coming into the landing site now, I still say -I'll start the old DAC. Oh, boy, that's going to be bright.
+|183:21:16|CC|Okay; stand by for a mark on T-2.
+|183:22:16|CC|MARK, 1-2.
+|183:22:16|CMP|Long, long ways off. I was pointing up to Family Mountain.
+|183:22:16|CMP|Through the telescope, anyhow, the whole area down there's a lot lighter than it used to be, ana I am sure this is due to the increase of the Sun angle. However, the landing site itself and the whole valley extending on out to the Serenitatis annulus is still darker - darker than the surrounding territory, but it - the higher Sun now, it's a lighter tan than it used to be. Come on, catch up with us there. Okay, I got three good narks right in a row there. Just because I missed the TCA, couldn't catch up with it. Last one. She's gone. Okay, in this sunlight, Family Mountain looks like it is black on the top. Not black, but real dark - real dark gray on top of it.
+||||Tape 121B/6|Page 1858
+|183:22:16|CC|We'd like HIGH GAIN to AUTO.
+|183:25:04|CMP|HIGH GAIN to AUTO.
+|183:25:04|CC|Please.
+|183:25:04|CMP|Back to POO here, huh?
+|183:25:04|CMP|Okay, VERB 28 ENTER. VERB 24 ENTER. 1112 ENTER, 01.11 - That looks good. PROCEED, PROCEED. Okay, we will VERB 49 it.
+|183:25:04|CC|Ron, you will need to select your jets for B/D ROLL.
+|183:25:04|CMP|Thank you. Good point. I was diddling around, looking through the telescope, going across Seren-itatis there. Let's see - where were we? 180, 24U, and 12 - No, that's not the ... Okay. ... Look in there.
+|183:25:04|CC|Ron, just some information for you while you ar<; working here. The consumable status, you're abc.ve the line on everything and, in particularly, you might be concerned about SM RCS here. You're 1 percent above the Flight Plan plan at this time, even after that burn.
+|183:25:04|CMP|Even after the burn, dtill 1 percent, huh?
+|183:25:04|CC|That's affirmative.
+|183:25:04|CMP|That's good, because I had a little ACCEL COMMAND in there, too. Yes, I found my bright mound crater. I wish I could do P24. I could just take a nark, somewhere west. I could - I can do that, can't I? Let's see - ENTER, 317 ENTER; probably get a 409 or something. Okay, I'll take a couple cf marks or. It. Yes. I was afraid of that. This :.s fair eno'^i , Still has the brown - the tannish ejecta off of it, and it's hit over in the - in that volcanic rille area. I got some sequence camera pictures of ii , but I don't snow how good that'll be.
+|183:25:04|CC|Ron, did you get your mark on the crater you want?
+||||Tape 121B/7|Page 1859
+|903:30:56|CMP|Yes, I think I got a - yes. I got a 405 alarm and I don't think it will take a mark. When you have that 405 alarm. But, anyhow, I took two narks on it.
+|903:30:56|CC|Okay.
+|903:30:56|CMP|Might be in the data there; I don't know.
+|903:30:56|CC|Ron, I've got that P27 update pad, which is on page 3-277 of the Flight Plan at about 186 hours. It is a long one, so any time you want to copy it.
+|903:30:56|CMP|Okay, I guess I had better get going on that. Let's see, let's - Okay, the magazine Bravo Bravo is down to - 50 percent.
+|903:30:56|CC|Roger,
+|903:30:56|CMP|I lost my pen somewhere. Pencil.
+|903:30:56|CC|Okay, Ron. Now that you are in POO, we'd like ACCEPT. We got a state vector.
+|183:32:14|CMP|Okay. And I am ready to start copying.
+|183:32:14|CC|Okay, it's a long one. The first one is the CSM state vector. 71; GET is 188:01:42. Index is 21. The following line is all data. I'll break about every five, if you want to stop me. Opposite 02 we go - data as follows: 01501, 00002, 77563, 77431, 77517, 45633, 00013, 11736, 65021, 43762, 11131, 31244, 07624, 10720, 10043, 17330, end of the CSM state vector. Read back.
+|183:32:14|CMP|Okay. VERB 71: 188:01:42; 21; 01501, C0002, 77563, 77431, 77517, 45633, 00013, 11736, 65021, 43762, 11131, 31244, 07624, 10720, 10043, 17330.
+|183:32:14|CC|Good show, Ron. Arid you want to break here or do you want to take the LM state vector VERB 71?
+|183:32:14|CMP|If you are through with the computer, I might start the maneuver to attitude here.
+|183:32:14|CC|Negative. We still need the computer, Ron.
+||||Tape 121B/8|Page 1860
+|183:32:14|CMP|Okay. Let's go on with the LM then.
+|183:32:14|CC|Okay. I'll give you the same thing. Just interrupt me about every five. LM state vector, VERB 71; GET 188:19:00. Index 21 data follows: 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. that's it. You can read back. The computer is yours.
+|183:37:32|CMP|Okay, I'll go to BLOCK. VERB 71; 188:19:00; 21; 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. Over.
+|183:37:32|CC|Roger, Ron. Good readback. I've got a DAP weight for one man for the CSM, if you want to copy it somewhere. FAO would like to get the maneuver started, Ron. Go ahead, and I'll give it - -
+|183:37:32|CMP|Okay. Okay. All righty; 244 and 341 PROCEED; 50 18; CMC; caged; PROCEED. Okay. CSM weight.
+|183:37:32|CC|Okay, CSM DAP weight for one man: 36032. Note 2: engine trim good as is. And a note from FAO: if mag Bravo Bravo has 50 percent, no need to change; good for docking with 50 percent. Readback.
+|183:37:32|CMP|Okay, CSM weight is 36032. And that's for me alone, I guess. Packed [?] off and yacked [?] off are good as is. And there's 50 percent on mag Bravo Bravo, so we might as well use it, huh?
+|183:37:32|CC|That's affirm.
+|183:37:32|CMP|Don't want to run out. Okay.
+|183:41:49|CMP|Houston, America. Did you all reset the surface flag?
+|183:41:49|CC|That's affirmative. That's affirmative. We reset it.
+|183:41:49|CMP|Okay.
+||||Tape 121B/9|Page 1861
+|183:41:49|CC|The only thing we got open right now, Ron, is the 0U and ascent pad or pads.
+|183:41:49|CMP|Okay. If you have them, I could go ahead and copy them. If you don't have them yet, it's all right.
+|183:41:49|CC|Okay, Ron. I've got the direct ascent and the coelliptic rendezvous T. times of page 187 - yes, that's on time 187.
+|183:41:49|CMP|Okay, just a second there, Bob.
+|183:41:49|CMP|Okay, ready to copy the old direct ascent pads, I guess.
+|183:41:49|CC|Okay, Ron, the direct ascent, GET lift-off: 188:01:35.93-, GET TPI: 188:55:57.00. Over.
+|183:47:08|CMP|Okay, lift-off - -
+||||Tape 122B/1|Page 1874
+|183:39:47|CMP|Okay, lift-off, 188:01:35.93; TPI, 188:55:57.00.
+|183:39:47|CC|Okay, Ron. And the coelliptic rendezvous pad below that. GET lift-off --
+|183:39:47|CMP|Okay.
+|183:39:47|CC|- - 188:01:14.00; NOUN 11, CSI time, 139:01:53.81; NOUN 37, TPI tine, 190:55:00.00. Over.
+|183:39:47|CMP|Okay, lift-off is 188:01:l4.00; CSI's 189:01:53.81; TPI, 190:55:00.00.
+|183:39:47|CC|One thing's wrong in there, Ron. The GE time -the lift-off is 188:04 on the coelliptic rendezvous pad - l88:04:l4.
+|183:39:47|CMP|Yes, that does sound a little better.
+|183:39:47|CC|Did you get that, Ron? 188:0U:14.00 .
+|183:39:47|CMP|Okay, for the coelliptic, lift-off is later than ascent, so it is 188:04:14.00.
+|183:39:47|CC|Roger. Good readback and up in that block if you didn't copy it there, that CSM weight that I gave you before is 36032.
+|183:39:47|CMP|Yes, 36032. That's right.
+|183:49:13|CMP|Okay, I guess you need a P52.
+|183:49:13|CMP|(Singing) ...
+|183:52:36|CMP|Regulus ...
+|183:52:36|CC|Gave you an easy one, didn't ve?
+|183:52:36|CMP|Yes. But - with the Earth in the field of view, you can tell you - there's a star there, but you can't recognize the pattern.
+||||Tape 122B/2|Page 1875
+|183:52:36|CC|Well, we'll know when we look at the star-angle difference.
+|183:52:36|CMP|(Laughter) That's right.
+|183:52:36|CMP|24 is Gienah. Okay, take me to Gienah.
+|183:54:03|CMP|Has to be Gienah, I hope. Oh, that's not so bad.
+|183:54:03|CC|Yes we ' 11 buy that.
+|183:54:03|CMP|Okay. Plus 102, plus 030, and a minus 06. At 186, zap out 35, huh?
+|183:54:03|CC|You can torque them.
+|183:54:03|CMP|Okay.
+|183:55:03|CMP|I torque.
+|183:56:04|CMP|Ah ha! I tested the theory. The field cf view is 1.8 degrees precisely, isn't it? And the Earth - -
+|183:56:04|CC|Affirmative.
+|183:56:04|CMP|- - is just a little bit inside of it.
+|183:56:04|CC|Affirmative.
+|183:56:04|CMP|So, this is indeed 2 degrees in diameter.
+|183:56:04|CMP|... doing here now. Calibration, okay?
+|183:56:04|CMP|(Humming) And it's pretty good fishing. Test's what they had in the dead band.
+|183:56:04|CMP|Down this time -
+|183:56:04|CMP|That's it right there.
+|184:00:49|CC|Okay, I copy these numbers in your LS?'Y .
+|184:00:49|CMP|Okay.
+||||Tape 122B/3|Page 1876
+|184:00:49|CC|Ron, we're 12 minutes from - from LOS here and you're looking good. You want to be donning your PGA so that you're not - you're not on loop at LOS -we just - you're looking good and just be advised that' we'll be - have the S-band relay from the LM to you - will be active when you come around and it'll be a single CAPCOM loop setup for this next rev.
+|184:00:49|CMP|Okay, I'll go to PTT then for that type of operation
+|184:00:49|CC|Roger. Real good. You will not be relaying to the LM; the LM will be relaying to you, but it won't go the other way, Ron. Unless we need it to set up the - -
+|184:00:49|CMP|Oh, it won't? Oh, okay; I see.
+|184:00:49|CC|And also we do have the dual - -
+|184:00:49|CMP|That's a good deal.
+|184:00:49|CC|- - desk set up here at CAPCOM, so if at any time we want to break down any relay at all ana go back to split loop, we can do it, no problem.
+|184:00:49|CMP|Okay.
+|184:00:49|CC|Ron, just a reminder. Zero the optics when you can, please.
+|184:03:47|CMP|Okay, thank you.
+|184:03:47||BEGIN LUHAR REV 51
 ||||Tape 155/1|Page 2129
 |229:45:25|CMP|Hey, America - Houston, this is America. We've got you loud and clear. A little late on picking you up that time, but worked okay. Okay, on mag Q, Quebec - it's finished right now, and whatever frame number it was on when they left the lunar surface to 143. Q? Oh, K. Mag Kilo, okay. Whatever frame they were on on the lunar surface to 143 were selected shots by the LMP. Frame 143 to 172 were near-side terminator photos of Ts i olkovsky.
 |229:45:25|CC|Okay, Ron. We copy that right from the Flight Plan change.

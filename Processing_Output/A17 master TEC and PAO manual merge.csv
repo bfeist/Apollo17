@@ -26507,6 +26507,8 @@
 |180:16:09||BEGIN LUNAR REV 49
 |180:16:09|PAO|This is Apollo Control. The Command Module, America, passing behind the Moon on the end of the 48th lunar orbit. 48 minutes until the crew of Challenger is awakened at Taurus Littrow. During the just completed front side pass the Command Module Pilot Ron Evans completed the lunar orbit plain change maneuver which went nominally on time with a velocity change of 366 feet per second using the service propulsion system engine. Just prior to that before he appeared on the front side of the Moon a small trim maneuver was performed using the forward firing reaction control system thrusters. This maneuver was to trim up the orbit. Some dispursions that had grown during the lunar orbit period that America has been in motion about the Moon. The Gold Team of Flight Controllers is handing over at the moment to their replacements after about a 12-hour shift. The oncoming team is the White Team of Flight Controllers headed up by Eugene Krantz. There will not be a change of shift press briefing of the off going shift. 47 minutes to wake up of the surface crew, Schmitt and Cernan. And at 182:57 this is Apollo Control.
 ||||Tape 121A/1|Page 1844
+|180:51:12|CDR-LM|(singing) Good morning to you. Good morning to you. Good morning dear Gordy. Good morning to you.
+|180:51:12|LMP-LM|(singing) Good morning to you. Good morning to you. Good morning dear Gordy. Good morning to you.
 |180:51:33|PAO|This is Apollo Control at 183 hours 32 minutes. We're about 14 minutes away from the scheduled wakeup time for Apollo 17 - the lunar module crew, however they beat us to the punch this morning and we just got a rousing rendition of "Good Morning To You" sung by the crew of Gene Cernan and Jack Schmitt on the lunar surface. The Surgeon reports that the two crewmen appear to have gotten a good nights sleep - 6 to 7 hours, and we'll pick up with the taped replay of that Good Morning rendition from the crew and then follow it live, (music)
 |180:52:10|CC|(Music: Thus Spake Zarathrustra by R. Strauss)
 |180:53:14|CC|Good morning, Challenger and thank you for the vocal rendition from - from the Moon, there.
@@ -26563,47 +26565,48 @@
 |181:06:11|CDR-LM|Okay.
 |181:06:37|CDR-LM|(Cough) Gordy, if I - if I get ready for the LGC/IMU power up, I'll give you a call even though it comes earlier but I'd like to get that started, as soon as we're ready to start it.
 |181:06:49|CC|Okay. We concur with that.
-|181:07:03|LMP-LM|Hey, Gordy, as far as the food, medication, and sleep goes - no medication. Gene had 5 hours of good sleep, I had probably around my usual 6, in spite of my poetic inclinations. And the food -we continued to do well, I believe. We've eaten a wet pack apiece last night. We got one this morning. We've eaten our scrambled eggs and sausage yesterday, and as we've run out of juices and tea. And which is somewhat of an inconvenience I might say. And if you've got any specific questions, I can fill you in on it but, I think, food-wise we've done pretty well.
-|181:05:55|CC|Can you give us a feel on the fluid intake?
-|181:05:55|LMP-LM|Well, that's what I was trying to do when I said we'd drunk all the juices and tea. Plus, Gene, in particular, takes water from the hose.
+|181:07:03|LMP-LM|Hey, Gordy, as far as the food, medication, and sleep goes - no medication. Gene had 5 hours of good sleep, I had probably around my usual 6, in spite of my poetic inclinations. And the food -we continue to do well, I believe. We've eaten a wet pack apiece last night. We got one this morning. We've eaten our scrambled eggs and sausage yesterday, and as we've run out of juices and tea. And which is somewhat of an inconvenience I might say. And if you've got any specific questions, I can fill you in on it but, I think, food-wise we've done pretty well.
+|181:07:54|CC|Can you give us a feel on the fluid intake?
+|181:08:02|LMP-LM|Well, that's what I was trying to do when I said we'd drunk all the juices and tea. Plus, Gene, in particular, takes water from the hose.
 ||||Tape 121A/6|Page 1849
-|181:08:13|CC|Okay, Jack, fine. Sounds good.
-|181:17:32|CDR-LM|Okay, Gordy, it's PGNs power up time.
-|181:17:32|CC|Okay, Geno, I - and I've got a couple more items to completely clean up the checklist whenever you can get to that.
-|181:17:32|CDR-LM|I'll let Jack give you a call. I'm going to start on the PGNs, if we're ready.
-|181:17:32|CDR-LM|Gordy, you ready for a PGN?
-|181:17:32|CC|That's affirmative, finally got you a GO to start it as per checklist.
-|181:18:33|CDR-LM|Okay there's the PRO, I did get the RESTART. I got the NO ATT, the DAP, GIMBAL LOCK light, and a PROGRAM ALARM light's on.
-|181:18:33|CC|Roger.
-|181:19:37|CDR-LM|MARK it the gimbal operate breaker is CLOSED.
-|181:19:37|CC|Roger.
-|181:19:48|LMP-LM|That's the I MU OPERATE breaker. Yes. Stand by for a 90 seconds.
-|181:19:48|CC|And we're ready for a POWER AMP PRIMARY and HIGH BIT RATE.
-|181:20:10|CDR-LM|Okay. You got it.
-|181:24:38|CDR-LM|Okay, Gordo, self test is complete and it's GO, and I'll give you an E-memory dump.
-|181:27:35|CC|Okay, we're ready, standing by for it. And while it's coming, I could give you the update for the next page.
-|181:27:35|CDR-LM|Okay, it's coming at you and you can go with the updates on the next page.
-|181:27:35|CC|Okay. Page 7-10, your P57 lift-off time, upper right corner, is 188:01:43-85. Over.
+|181:08:14|CC|Okay, Jack, fine. Sounds good.
+|181:08:41|PAO|This is Apollo Control at 183 hours 49 minutes. Gene Cernan and Jack Schmitt aboard Challenger on the lunar surface after having gotten up about 15 minutes early. Now having breakfast. They're a bit behind in the timeline but we expect to have them caught up by the time they - or about 1-1/2 hour prior to lunar lift-off, which is when we begin the really busy period of liftoff preparations, and everything appears to be going alone very smoothly at this time. The crew's early arising caught us a little unprepared here in mission control we had our own wake up tune to play up to them this morning which was to be the title theme from the motion picture 2001 A Space Oddessy, however they beat us to the punch with their own wake up song to the control center and we'll play that back for you at this time.
+|181:10:06|PAO|And after giving us a few minutes to catch our bearings we hit them with the theme from 2001 A Space Oddessy. Since then things have been going along pretty much normally. The poetic offering was from Jack Schmitt. He said it was for all the kids back home. It was his version of the Night Before Christmas. We have reacquired Ron Evans aboard the Command Module America and everything is progressing very smoothly aboard that vehicle. We're on separate communication circuits at the present time and will be up until the revolution prior to LM liftoff at which time we'll switch back to a single air-to-ground a single spacecraft communicator operation and be able to follow the operation in both vehicles simultaneously. That will be at acquisition of signal on the CSM's 51st revolution.
+|181:17:34|CDR-LM|Okay, Gordy, it's PGNs power up time.
+|181:17:39|CC|Okay, Geno, I - and I've got a couple more items to completely clean up the checklist whenever you can get to that.
+|181:17:56|CDR-LM|I'll let Jack give you a call. I'm going to start on the PGNs, if we're ready.
+|181:18:18|CDR-LM|Gordy, you ready for a PGN?
+|181:18:26|CC|That's affirmative, finally got you a GO to start it as per checklist.
+|181:18:36|CDR-LM|Okay there's the PRO, I did get the RESTART. I got the NO ATT, the DAP, GIMBAL LOCK light, and a PROGRAM ALARM light's on.
+|181:18:52|CC|Roger.
+|181:19:40|CDR-LM|MARK it the gimbal operate breaker is CLOSED.
+|181:19:44|CC|Roger.
+|181:19:49|LMP-LM|That's the IMU OPERATE breaker. Yes. Stand by for a 90 seconds.
+|181:19:54|CC|And we're ready for a POWER AMP PRIMARY and HIGH BIT RATE.
+|181:20:12|CDR-LM|Okay. You got it.
+|181:24:37|CDR-LM|Okay, Gordo, self test is complete and is GO, and I'll give you an E-memory dump.
+|181:24:43|CC|Okay, we're ready, standing by for it. And while it's coming, I could give you the update for the next page.
+|181:24:58|CDR-LM|Okay, it's coming at you and you can go with the updates on the next page.
+|181:25:02|CC|Okay. Page 7-10, your P57 lift-off time, upper right corner, is 188:01:43.85. Over.
 ||||Tape 121A/7|Page 1850
-|181:27:35|CDR-LM|?Okay, Gordy, P57 lift-off time 188:01:43.85.
-|181:27:35|CC|That's affirmative. And now we'd like you to delete all the steps below that lift-off time, from the A/T-3 data star info box through the VERB 32 after the last - after for the remaining data stars and after last star. In other words, just delete all between the box and up to circuit breaker AOT LAMP, OPEN. And, of course, they'll be no P22 time, over.
-|181:27:35|CDR-LM|Okay. Delete all the data star information between the start of that box and after last star VERB 34 ENTER, 00 ENTER.
-|181:27:35|CC|That's correct and then turn to page 7-15. We're changing - we - looking here a little closer we find that radars are already in good position, so you can delete all procedures on page 7-159 except "Copy Ascent pads, CSI pad, and LM DAP weight."
-|181:27:35|CDR-LM|Okay. We deleted everything but the last three lines on that page.
-|181:27:35|CC|Okay. On page 7-12, back up a couple pages. In the lower right corner there, in the blank space, you might jot down 185:58, VHF check with command module. And that'll be according to the procedures on 7-15 in the box. You might just parenthesis 7-15 to remind you where the procedure is. But the comm check will come during that time when you're preping for equipment jettison, or right around there.
-|181:27:35|CDR-LM|Okay. We got that.
-|181:27:35|CC|Okay. That's all we got for you, and we have the E-MOD dump okay.
-|181:27:35|CDR-LM|Okay.
-|181:29:03|CDR-LM|Gordy, we're in POO and data and we're standing by for your up-link, and how long does that AOT HEATER breaker have to be open? I pushed it IN at 184:08.
+|181:25:19|CDR-LM|?Okay, Gordy, P57 lift-off time 188:01:43.85.
+|181:25:27|CC|That's affirmative. And then we'd like you to delete all the steps below that lift-off time, from the A/T-3 data star info box through the VERB 32 after the last - after for the remaining data stars and after last star. In other words, just delete all between the box and up to circuit breaker AOT LAMP, OPEN. And, of course, they'll be no P22 time, over.
+|181:26:02|CDR-LM|Okay. Delete all the data star information between the start of that box and after last star VERB 34 ENTER, 00 ENTER.
+|181:26:16|CC|That's correct and then turn to page 7-15. We're changing - we - looking here a little closer we find that radars are already in good position, so you can delete all procedures on page 7-15 except "Copy Ascent pads, CSI pad, and LM DAP weight."
+|181:26:52|CDR-LM|Okay. We deleted everything but the last three lines on that page.
+|181:26:57|CC|Okay. On page 7-12, back up a couple pages. In the lower right corner there, in the blank space, you might jot down 185:58, VHF check with command module. And that'll be according to the procedures on 7-15 in the box. You might just parenthesis 7-15 to remind you where the procedure is. But the comm check will come during that time when you're preping for equipment jettison, or right around there.
+|181:27:41|CDR-LM|Okay. We got that.
+|181:27:44|CC|Okay. That's all we got for you, and we have the E-MOD dump okay.
+|181:27:53|CDR-LM|Okay.
+|181:29:06|CDR-LM|Gordy, we're in POO and data and we're standing by for your up-link, and how long does that AOT HEATER breaker have to be open? I pushed it IN at 184:08.
 ||||Tape 121A/8|Page 1851
-|181:29:03|CC|Okay. I'll get an answer for that, and I think we'll be coming with the up-link here shortly.
-|181:29:03|CC|Gene, no time constraint on that AOT breaker; except, if it's foggy, it hasn't been in long
-|181:29:03||enough.
-|181:29:03|CDR-LM|(Laughter) Thank you, Gordy.
-|181:31:10|CC|Challenger. Here comes your up-link.
-|181:31:10|CDR-LM|Okay.
-|181:34:58|CC|Challenger, it's - your computer. You have a state vector, a time increment, and an RLS.
-|181:34:58|CDR-LM|Thank you, Gordy.
+|181:29:17|CC|Okay. I'll get an answer on that, and I think we'll be coming with the up-link here shortly.
+|181:30:04|CC|Gene, no time constraint on that AOT breaker; except, if it's foggy, it hasn't been in long enough.
+|181:30:16|CDR-LM|(Laughter) Thank you, Gordy.
+|181:31:13|CC|Challenger. Here comes your up-link.
+|181:31:19|CDR-LM|Okay.
+|181:35:01|CC|Challenger, it's - your computer. You have a state vector, a time increment, and an RLS.
+|181:35:11|CDR-LM|Thank you, Gordy.
 |181:34:58|CDR-LM|Yes, it likes - it likes the command module's orbit.
 |181:37:49|CC|That's good.
 |181:54:35|CC|Okay, we see that.
@@ -26620,123 +26623,6 @@
 |181:59:58|CC|Okay, understand.
 |181:59:58|CDR-LM|That's - that's prior to suit donning.
 |182:00:59|CC|Roger.
-||||Tape 1213/1|Page 1853
-|182:00:59|CMP|Oh, okay, okay. Understand. Okay; the old DATA SYSTEM is going OFF. And I got to configure the DSE at AOS, it looks like.
-|182:00:59|CC|And we have configured the DSE and controlled, Ron. You can scratch that line of the Flight Plan.
-|182:00:59|CMP|Okay.
-|182:00:59|CC|And have a good zodiacal light.
-|182:13:24|CMP|(Laughter) Flip, flip, push-pull, click-click, around the corner, 3 seconds, one-half, one-fourth, skip one, skip two, skip five. Ought to be fun.
-|182:13:24||BEGIN LUNAR REV 50
-|182:59:10|CMP|(Humming) Thin sponge, but I guess it'll work. (Humming) Okay, now - let's see what we need. Find a new spot that's not burned. The hair is starting to grow out again. Got to take this sticky stuff off before it'll stick. (Humming) Take them along. Okay, where did the other little thing go? Okay; 20. (Whistling)
-|183:01:50|CC|MARK. T-2 time.
-|183:01:50|CMP|Oh, okay. Coming up - 42 - No, it's 4l:50, I hope. Because I'm not there yet.
-|183:01:50|CC|T-2 is at 42:50; TCA is 44:30.
-|183:01:50|CMP|Oh, okay. It's on the old DAC here. Not seeing much. Maybe - 7 degrees. Okay, she's coming down now ... Ah ha! I see it. Yes, and it is pointing a long ways x'rom it. It's 5 degrees off. Well, r.ot that much; 3 maybe.
-||||Tape 121B/2|Page 1854
-|183:01:50|CC|Do you have the DAC on now, Ron?
-|183:01:50|CMP|Yes, DAC's ON. Bring her down and - Okay, I guess the best thing to do is take the center of that thing - about right there. It's supposed to be 10 seconds apart. That one was a little bit off -discount that one. Beautiful. Right there. Switch - Ah ha! Both in zero phase. Got it. About to lose it. Last one - Okay, the last one may not be that good. Just lost it.
-|183:05:22|CMP|Okay, the DAC is OFF. Okay, TCA P20; 20 ENTER. Time, VERB 25 NOUN 89 ENTER. Plus 20160. (Humming I have time to load F Crater, look at that through the sextant. Right time to do that. 20 - 1 -Where an I? 15405, plus 15.
-|183:05:22|CC|Roger, Ron. We'd like to make sure you configure your VHF prior to this landmark 17-1 tracking.
-|183:05:22|CMP|Okay. ... Plus 2016 - is plus 15405 ENTER, 6 ENTER.
-|183:06:53|CMP|Okay, configure VHF comm. 3 is DUPLEX. Okay; DUPLEX Bravo. MODE to VOX; I'm in. VHF AM is T/R; panel 9 - instead of RECEIVE, okay? Antenna to right, adjust the SQUELCH. I can hear myself cutting in and out,
-|183:06:53|CC|Okay, you sound good to us. Just a reminder that RENDEZVOUS TRANSPONDER does not go to POWER there. We Just keep it in HEATERS.
-|183:06:53|CMP|Okay, thank you. Okay. Number 1, that's make sure we be sure and pick it up right - transmitter 9, we're DUPLEX. Okay, by the way, the old zodiacal light went like a charm. Amazing. They cut out enough of those things, you know, so that it's reasonable to get them done.
-|183:06:53|CC|Roger. Good show.
-|183:06:53|CMP|And one came smacking through the window - the Sun came smacking through the window at - 15:01, something like that.
-||||Tape 121B/3|Page 1855
-|183:06:53|CC|Okay, Ron. You've got to load your NOUN 39s, or maybe I missed it and we just want to remind you that we'd like B/D ROLL configured and we will be using B/D ROLL for the rest of the mission.
-|183:06:53|CMP|Oh, okay. You want to change the old DAP here -Did I miss that somewhere?
-|183:06:53|CC|No, sir. That's a call from us.
-|183:06:53|CMP|Oh, okay. Thank you.
-|183:06:53|CC|Wait until 186:11 - no hurry or anything like that. Just a reminder.
-|183:06:53|CMP|Okay, let me wait until after this landmark Tracking here. I'll write her down though. (Humming) ... In there. 5725 - Okay, give me a call shortly before T-l and I can start my clock.
-|183:06:53|CC|Roger, Ron.
-|183:06:53|CMP|And in the meantime, I can put in another little old sponge. Got to keep the surgeons happy. Besides -besides it feels better to change them anyhow. There's the spot.
-|183:11:01|CMP|Okay, you ought to be getting good data now.
-|183:11:01|CC|I'll go over here and nudge the - Roger. He says he is getting good data now.
-|183:11:01|CMP|Okay.
-|183:11:01|CMP|I wanted to be all clean shaven and - so I could be all nice and presentable for the guys, and I didn't have time to shave yet.
-|183:11:01|CC|Roger. You still itching?
-|183:11:01|CMP|It's not too bad, really. Right now it is kind of -just to a point right underneath the chin, you know, where - your comm carrier ties on with that, little pad down there.
-|183:11:01|CC|Hey, Ron. If you let it grow a little bit, you can join the backup crew.
-||||Tape 121B/4|Page 1856
-|183:14:19|CMP|Key, that's right. Well, there goes old Picard right through the telescope. At this kind of Sun angle, he still has the dark halo. It looks like the dark halo is a little bit smaller. You can't notice the distinction quite as much. It only goes out to about half a crater diameter now. You can see ahead of something out to one crater diameter. You can still see the dark material, dark albedo-type stuff on the eastern side of the crater. And the demarcation between the two of them. It just disappeared.
-|183:14:19|CC|Okay, Ron. You're less than a minute to T-l. I'll give you a call at 30 seconds.
-|183:14:19|CMP|Okay.
-|183:16:54|CC|Okay. Okay, Ron; 30 seconds to T-l.
-|183:16:54|CMP|Okay. Give me another call on start.
-|183:16:54|CC|And, Ron, you might be getting - Gliey're making a VHF check right while you're doing the landmark tracking.
-|183:16:54|CMP|Okay.
-|183:16:54|CC|I'll call you at T-2, if you want, and you can go ahead and call - make your voice check.
-|183:16:54|CMP|Okay. Man, you can't find anything - anything with that sextant. Okay, let's see - 1'Ñ1 was - went. 25-1 minute. Okay.
-|183:16:54|CC|Ron, will you give me - your LM guys a call there, please. They're calling you.
-|183:16:54|CMP|Oh, okay. Hey, Challenger. This is Sea Monster. How do you read? This is America, really (laughter).
-|183:16:54|CMP|Hey, read you loud and clear.
-|183:19:04|CMP|Okay, I'm just transmitting DUPLEX Bravo.
-|183:19:04|CMP|Okay, I'm doing great now; standing by for you. I am going to take a - do a little landmark tracking on you when I go over .this time.
-||||Tape 121B/5|Page 1857
-|183:19:04|CMP|Negative on the ranging.
-|183:19:04|CMP|Hey, outstanding. I'll tell you. It's a beautiful bird.
-|183:19:04|CMP|Okay, you're kind of fading out a little bit, but -Okay?
-|183:19:04|CMP|Okay, we'll see you - when - just prior to lift-off then.
-|183:19:04|CMP|I guess I can turn my VHF off, since their's is off.
-|183:19:04|CC|Yes, it shows going off at the end of your landmark tracking.
-|183:19:04|CMP|Okay. And there comes Maraldi.
-|183:21:16|CC|Okay. You're coming in 1 minute to T-2 time.
-|183:21:16|CMP|Okay. ... ZERO's OFF, CMC - (Humming) Okay, we're passing over the Sculptured Hills. And coming into the landing site now, I still say -I'll start the old DAC. Oh, boy, that's going to be bright.
-|183:21:16|CC|Okay; stand by for a mark on T-2.
-|183:22:16|CC|MARK, 1-2.
-|183:22:16|CMP|Long, long ways off. I was pointing up to Family Mountain.
-|183:22:16|CMP|Through the telescope, anyhow, the whole area down there's a lot lighter than it used to be, ana I am sure this is due to the increase of the Sun angle. However, the landing site itself and the whole valley extending on out to the Serenitatis annulus is still darker - darker than the surrounding territory, but it - the higher Sun now, it's a lighter tan than it used to be. Come on, catch up with us there. Okay, I got three good narks right in a row there. Just because I missed the TCA, couldn't catch up with it. Last one. She's gone. Okay, in this sunlight, Family Mountain looks like it is black on the top. Not black, but real dark - real dark gray on top of it.
-||||Tape 121B/6|Page 1858
-|183:22:16|CC|We'd like HIGH GAIN to AUTO.
-|183:25:04|CMP|HIGH GAIN to AUTO.
-|183:25:04|CC|Please.
-|183:25:04|CMP|Back to POO here, huh?
-|183:25:04|CMP|Okay, VERB 28 ENTER. VERB 24 ENTER. 1112 ENTER, 01.11 - That looks good. PROCEED, PROCEED. Okay, we will VERB 49 it.
-|183:25:04|CC|Ron, you will need to select your jets for B/D ROLL.
-|183:25:04|CMP|Thank you. Good point. I was diddling around, looking through the telescope, going across Seren-itatis there. Let's see - where were we? 180, 24U, and 12 - No, that's not the ... Okay. ... Look in there.
-|183:25:04|CC|Ron, just some information for you while you ar<; working here. The consumable status, you're abc.ve the line on everything and, in particularly, you might be concerned about SM RCS here. You're 1 percent above the Flight Plan plan at this time, even after that burn.
-|183:25:04|CMP|Even after the burn, dtill 1 percent, huh?
-|183:25:04|CC|That's affirmative.
-|183:25:04|CMP|That's good, because I had a little ACCEL COMMAND in there, too. Yes, I found my bright mound crater. I wish I could do P24. I could just take a nark, somewhere west. I could - I can do that, can't I? Let's see - ENTER, 317 ENTER; probably get a 409 or something. Okay, I'll take a couple cf marks or. It. Yes. I was afraid of that. This :.s fair eno'^i , Still has the brown - the tannish ejecta off of it, and it's hit over in the - in that volcanic rille area. I got some sequence camera pictures of ii , but I don't snow how good that'll be.
-|183:25:04|CC|Ron, did you get your mark on the crater you want?
-||||Tape 121B/7|Page 1859
-|903:30:56|CMP|Yes, I think I got a - yes. I got a 405 alarm and I don't think it will take a mark. When you have that 405 alarm. But, anyhow, I took two narks on it.
-|903:30:56|CC|Okay.
-|903:30:56|CMP|Might be in the data there; I don't know.
-|903:30:56|CC|Ron, I've got that P27 update pad, which is on page 3-277 of the Flight Plan at about 186 hours. It is a long one, so any time you want to copy it.
-|903:30:56|CMP|Okay, I guess I had better get going on that. Let's see, let's - Okay, the magazine Bravo Bravo is down to - 50 percent.
-|903:30:56|CC|Roger,
-|903:30:56|CMP|I lost my pen somewhere. Pencil.
-|903:30:56|CC|Okay, Ron. Now that you are in POO, we'd like ACCEPT. We got a state vector.
-|183:32:14|CMP|Okay. And I am ready to start copying.
-|183:32:14|CC|Okay, it's a long one. The first one is the CSM state vector. 71; GET is 188:01:42. Index is 21. The following line is all data. I'll break about every five, if you want to stop me. Opposite 02 we go - data as follows: 01501, 00002, 77563, 77431, 77517, 45633, 00013, 11736, 65021, 43762, 11131, 31244, 07624, 10720, 10043, 17330, end of the CSM state vector. Read back.
-|183:32:14|CMP|Okay. VERB 71: 188:01:42; 21; 01501, C0002, 77563, 77431, 77517, 45633, 00013, 11736, 65021, 43762, 11131, 31244, 07624, 10720, 10043, 17330.
-|183:32:14|CC|Good show, Ron. Arid you want to break here or do you want to take the LM state vector VERB 71?
-|183:32:14|CMP|If you are through with the computer, I might start the maneuver to attitude here.
-|183:32:14|CC|Negative. We still need the computer, Ron.
-||||Tape 121B/8|Page 1860
-|183:32:14|CMP|Okay. Let's go on with the LM then.
-|183:32:14|CC|Okay. I'll give you the same thing. Just interrupt me about every five. LM state vector, VERB 71; GET 188:19:00. Index 21 data follows: 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. that's it. You can read back. The computer is yours.
-|183:37:32|CMP|Okay, I'll go to BLOCK. VERB 71; 188:19:00; 21; 01501, 77775, 77472, 77201, 77741, 70163, 00121, 16227, 77273, 41206, 17767, 36400, 05052, 15405, 10051, 32120. Over.
-|183:37:32|CC|Roger, Ron. Good readback. I've got a DAP weight for one man for the CSM, if you want to copy it somewhere. FAO would like to get the maneuver started, Ron. Go ahead, and I'll give it - -
-|183:37:32|CMP|Okay. Okay. All righty; 244 and 341 PROCEED; 50 18; CMC; caged; PROCEED. Okay. CSM weight.
-|183:37:32|CC|Okay, CSM DAP weight for one man: 36032. Note 2: engine trim good as is. And a note from FAO: if mag Bravo Bravo has 50 percent, no need to change; good for docking with 50 percent. Readback.
-|183:37:32|CMP|Okay, CSM weight is 36032. And that's for me alone, I guess. Packed [?] off and yacked [?] off are good as is. And there's 50 percent on mag Bravo Bravo, so we might as well use it, huh?
-|183:37:32|CC|That's affirm.
-|183:37:32|CMP|Don't want to run out. Okay.
-|183:41:49|CMP|Houston, America. Did you all reset the surface flag?
-|183:41:49|CC|That's affirmative. That's affirmative. We reset it.
-|183:41:49|CMP|Okay.
-||||Tape 121B/9|Page 1861
-|183:41:49|CC|The only thing we got open right now, Ron, is the 0U and ascent pad or pads.
-|183:41:49|CMP|Okay. If you have them, I could go ahead and copy them. If you don't have them yet, it's all right.
-|183:41:49|CC|Okay, Ron. I've got the direct ascent and the coelliptic rendezvous T. times of page 187 - yes, that's on time 187.
-|183:41:49|CMP|Okay, just a second there, Bob.
-|183:41:49|CMP|Okay, ready to copy the old direct ascent pads, I guess.
-|183:41:49|CC|Okay, Ron, the direct ascent, GET lift-off: 188:01:35.93-, GET TPI: 188:55:57.00. Over.
-|183:47:08|CMP|Okay, lift-off - -
 ||||Tape 122A/1|Page 1862
 |183:47:08|CC|Okay, Jack.
 |183:47:08|LMP-LM|And Gene will be on biomed shortly.
@@ -26869,578 +26755,568 @@
 |183:19:48|LMP-LM|Okay; it's 5 s 4.5> 4. Stand by.
 |183:21:21|LMP-LM|MARK. 3-5.
 |183:21:21|CDR-LM|Okay. Verify - suit circuit lockup at 4.3 and decaying. Okay; it's 4.5. Stand by for the decay. Oh, man, I got to go get that WATER SEP SELECT.
-|183:21:21|LMP-LM|Pull the 2, huh?
-|183:21:21|CDR-LM|Oh, boy.
-|183:21:21|LMP-LM|Want me to get it?
-|183:21:21|CDR-LM|No. I got longer arms, I guess.
-|183:21:21|LMP-LM|I can reach back in there.
-|183:21:21|CDR-LM|Okay. If you can get back there.
+|183:21:44|LMP-LM|Pull the 2, huh?
+|183:21:45|CDR-LM|Oh, boy.
+|183:21:46|LMP-LM|Want me to get it?
+|183:21:47|CDR-LM|No. I got longer arms, I guess.
+|183:21:53|LMP-LM|I can reach back in there.
+|183:21:55|CDR-LM|Okay. If you can get back there.
 ||||Tape 112A/8|Page 1869
-|183:21:21|LMP-LM|I think. Now, they want it?
-|183:21:21|CDR-LM|Yes, now. Pull the 2.
-|183:21:21|LMP-LM|Okay. Pull the 2. Okay. Happy with the suit circuit. And yes, we got a decay in the suit loop.
-|183:21:21|CDR-LM|Okay. Okay; verify suit circuit lock's up. I'm dumping all the way.
-|183:21:21|LMP-LM|Okay.
-|183:21:21|LMP-LM|Circuit is 4.2.
-|183:21:21|LMP-LM|We're at 0.7 in the cabin and 4.1 in the suit.
-|183:21:21|LMP-LM|About 4.0, and the cabin is 0.3.
-|183:21:21|CDR-LM|Okay; let me see if I can jar it.
-|183:21:21|LMP-LM|Okay; I guess we're GO for EVA-4.
-|183:21:21|CDR-LM|Five, isn't it? Five this time? Oh, man, I got it open. If I could bleed that pressure. Oh, boy. Hey, hold it here for a minute. There's a lot of psi on that hatch.
-|183:21:21|LMP-LM|Okay; that'll hack it. Let me go to AUTO here. Need my checklist. Make it - Oops, that's closed. That's AUTO, and the lock ... is on? Okay? Hatch is open all the way. Where are we?
-|183:21:21|LMP-LM|Why is that still waving in the breeze?
-|183:21:21|CDR-LM|Man, there's a solar wind in here.
-|183:21:21|LMP-LM|We're on 7- something here. Still venting, are we? Houston, how's our cabin configuration? Mean there's still the - had a little breeze going out the hatch.
-|183:21:21|CC|All the numbers look good here, Jack.
-|183:21:21|CDR-LM|Hey, hold that, Jack.
-|183:21:21|LMP-LM|Okay. Okay. Ready?
-|183:21:21|CDR-LM|Okay.
+|183:21:56|LMP-LM|I think. Now, they want it?
+|183:22:02|CDR-LM|Yes, now. Pull the 2.
+|183:22:05|LMP-LM|Okay. Pull the 2. Okay. Happy with the suit circuit. And yes, we got a decay in the suit loop.
+|183:22:14|CDR-LM|Okay. Okay; verify suit circuit lock's up. I'm dumping all the way.
+|183:22:21|LMP-LM|Okay.
+|183:22:34|PAO|Cabin pressure dropping down through 2 1/2 pounds now.
+|183:22:46|LMP-LM|Circuit's 4.2.
+|183:22:51|PAO|Approaching 1 pound cabin pressure.
+|183:23:07|LMP-LM|Hey, there's 0.7 in the cabin and 4.1 in the suits.
+|183:23:35|LMP-LM|About 4.0, and the cabin is 0.3.
+|183:23:55|CDR-LM|Okay; let me see if I can jar it.
+|183:23:58|LMP-LM|Okay; I guess we're GO for EVA-4.
+|183:24:02|CDR-LM|Five, isn't it? Five this time? Oh, man, I got it open. If I could bleed that pressure. Oh, boy. Hey, hold it here for a minute. There's a lot of psi on that hatch.
+|183:24:19|LMP-LM|Okay; that'll hack it. Let me go to AUTO here. Need my checklist. Make it - Oops, that's closed. That's AUTO, and the lock lock is on. Okay. Hatch is open all the way. Where are we?
+|183:24:53|LMP-LM|Why is that still waving in the breeze?
+|183:24:56|CDR-LM|Man, there's a solar wind in here.
+|183:25:04|LMP-LM|We're on 7- something here. Still venting, are we? Houston, how's our cabin configuration? Mean there's still the - had a little breeze going out the hatch.
+|183:25:28|CC|All the numbers look good here, Jack.
+|183:25:33|CDR-LM|Hey, hold that, Jack.
+|183:25:35|LMP-LM|Okay. Okay. Ready?
+|183:25:38|CDR-LM|Okay.
 ||||Tape 112A/9|Page 1870
-|183:25:40|LMP-LM|Partially open; that's good. ... Jettison the jett bag. Here goes Santa Claus - -
+|183:25:41|LMP-LM|Partially open; that's good. ... Jettison the jett bag. Here goes Santa Claus - -
 |183:25:47|CDR-LM|Here you go, Santa Claus. - - Santa Claus' bag. Another bag of goodies.
-|183:25:47|LMP-LM|Give it the old - -
-|183:25:47|CDR-LM|There you go.
-|183:25:47|LMP-LM|- - 3-point kick.
-|183:25:47|CDR-LM|Right. Beautifully done. Just where we wanted it. All clear the ascent stage.
-|183:25:47|LMP-LM|Need the - Okay; clear. Good boy. Now, for your next act.
-|183:25:47|CDR-LM|No. Don't - don't even think about it.
-|183:25:47|LMP-LM|Okay. (Laughter)
-|183:25:47|CDR-LM|Okay? (Laughter)
-|183:25:47|LMP-LM|Jettison bag. All items are clear of ascent stage. Ready to close hatch?
-|183:25:47|CDR-LM|Looks like it.
-|183:25:47|LMP-LM|Short EVA-5- Are we STAY/NO STAY for hatch closure?
-|183:25:47|CC|You have a GO for closing the hatch.
-|183:25:47|LMP-LM|Okay.
+|183:25:54|LMP-LM|Give it the old - -
+|183:25:55|CDR-LM|There you go.
+|183:25:55|LMP-LM|- - 3-point kick.
+|183:25:57|CDR-LM|Nice. Beautifully done. Just where we wanted it. All clear the ascent stage.
+|183:26:12|LMP-LM|Need the - Okay; clear. Good boy. Now, for your next act.
+|183:26:27|CDR-LM|No. Don't - don't even think about it.
+|183:26:30|LMP-LM|Okay. (Laughter)
+|183:26:30|CDR-LM|Okay? (Laughter)
+|183:26:32|LMP-LM|Jettison bag. All items are clear of ascent stage. Ready to close hatch?
+|183:26:35|CDR-LM|Looks like it.
+|183:26:37|LMP-LM|Short EVA-5. Are we STAY/NO STAY for hatch closure?
+|183:26:45|CC|You have a GO for closing the hatch.
+|183:26:50|LMP-LM|Okay.
 |183:26:55|CDR-LM|Okay. The hatch is closed.
-|183:26:55|LMP-LM|Boy, is it easy to get around in here without a PLSS on. Okay; your DUMP VALVE verified in AUTO?
-|183:26:55|CDR-LM|Yes, sir, and locked.
-|183:26:55|LMP-LM|Okay.
-|183:26:55|CDR-LM|CABIN REPRESS. Okay.
+|183:26:59|LMP-LM|Boy, is it easy to get around in here without a PLSS on. Okay; your DUMP VALVE verified in AUTO?
+|183:27:09|CDR-LM|Yes, sir, and locked.
+|183:27:10|LMP-LM|Okay.
+|183:27:13|CDR-LM|CABIN REPRESS. Okay.
 ||||Tape 112A/10|Page 1871
-|183:26:55|LMP-LM|Okay.
-|183:26:55|CDR-LM|Verify it's AUTO?
-|183:26:55|LMP-LM|It's AUTO.
-|183:26:55|CDR-LM|Okay; on 16, CABIN REPRESS, CLOSED?
-|183:26:55|LMP-LM|Okay; CABIN REPRESS going CLOSED.
-|183:26:55|CDR-LM|And the hatch looked clear when I - sealed it. Clear when I closed the hatch.
-|183:26:55|LMP-LM|Okay. Closed.
-|183:26:55|CDR-LM|There's the MASTER ALARM. And the cabin is coming up. AUX 0 .
-|183:26:55|CDR-LM|Okay; cabin is increasing, and you can go to CABIN on PRESSURE REG B
-|183:26:55|LMP-LM|It's in CABIN.
-|183:26:55|CDR-LM|Every warning light will go off here shortly. And my suit's coming down.
-|183:26:55|LMP-LM|Mine, also.
-|183:26:55|CDR-LM|Okay. We're just about to go to 50 percent. DESCENT 0 . We're there.
-|183:26:55|CDR-LM|Okay. Cabin's almost at regulating pressure, and cabin lights are still on. Next thing we'll do when it stabilizes, we'll doff our gloves, doff our helmets; locked up.
-|183:26:55|LMP-LM|Okay; 5-0.
-|183:26:55|CDR-LM|Okay. You can doff your gloves.
-|183:26:55|LMP-LM|Let me watch that pressure a minute. Well, it looks like it's stable at five. Okay.
-|183:26:55|CDR-LM|How's the cabin look, Houston? Looks good here.
-|183:26:55|CC|Okay; it looks good here.
+|183:27:15|LMP-LM|Okay.
+|183:27:16|CDR-LM|Verify it's AUTO?
+|183:27:17|LMP-LM|It's AUTO.
+|183:27:18|CDR-LM|Okay; on 16, CABIN REPRESS, CLOSED?
+|183:27:21|LMP-LM|Okay; CABIN REPRESS going CLOSED.
+|183:27:22|CDR-LM|And the hatch looked clear when I - sealed it. Clear when I closed the hatch.
+|183:27:26|LMP-LM|Okay. Closed.
+|183:27:28|CDR-LM|There's the MASTER ALARM. And the cabin is coming up. AUX O2.
+|183:27:42|CDR-LM|Okay; cabin is increasing, and you can go to CABIN on PRESSURE REG B
+|183:27:49|LMP-LM|It's in CABIN.
+|183:27:53|CDR-LM|Every warning light will go off here shortly. And my suit's coming down.
+|183:28:02|LMP-LM|Mine, also.
+|183:28:15|CDR-LM|Okay. We're just about to go to 50 percent. DESCENT O2. We're there.
+|183:28:38|CDR-LM|Okay. Cabin's almost at regulating pressure, and cabin lights are still on. Next thing we'll do when it stabilizes, we'll doff our gloves, doff our helmets; locked up.
+|183:28:50|LMP-LM|Okay; 5.0.
+|183:28:53|CDR-LM|Okay. You can doff your gloves.
+|183:28:58|LMP-LM|Let me watch that pressure a minute. Well, it looks like it's stable at five. Okay.
+|183:29:13|CDR-LM|How's the cabin look, Houston? Looks good here.
+|183:29:23|CC|Okay; it looks good here.
 ||||Tape 112A/11|Page 1872
-|183:26:55|CDR-LM|Okay.
-|183:26:55|LMP-LM|I hope so. Physics says it should have been.
-|183:26:55|CDR-LM|There's an experiment.
-|183:26:55|LMP-LM|Not really, since we do that with our PLSS and everything else.
-|183:26:55|CDR-LM|Okay. Take your helmet off.
-|183:26:55|LMP-LM|That was painless enough.
-|183:26:55|CDR-LM|Jack, I'd wrap that thing around it like that.
-|183:26:55|LMP-LM|Say, man, don't we take our helmets?
-|183:30:10|CDR-LM|Not yet. We - No, obviously. Go behind the engine cover.
-|183:30:10|LMP-LM|Okay.
-|183:33:40|CC|Challenger, Houston. Just a reminder. Before you stow the right-hand OPS on the floor, you need to attach the floor hole cover.
-|183:33:40|CDR-LM|Okay; we're - Jack's down there cleaning up the floor now, and I'm working on the visors.
-|183:33:40|CC|Okay.
-|183:38:53|CC|Challenger, Houston. We have a copy of a - an update on the rock stowage that was given to you last night. We're not sure if they read one part of it to you, and that was concerning using some contingency webbing to reinforce the tiedown of the bag that goes on the Z-27 bulkhead. If you did get that update, forget it. We do not need any extra tiedown other than the normal tiedown. Over.
-|183:38:53|LMP-LM|Okay, Gordy. That's for the buddy PLSS bag, I guess, and we did not get it. But we haven't quite stowed that yet anyway, so we will forget it.
-|183:38:53|CC|Okay.
+|183:29:29|CDR-LM|Okay.
+|183:29:31|PAO|That EVA lasted the total of 1 minute from hatch open to hatch closed.
+|183:29:33|LMP-LM|I hope so. Physics says it should have been.
+|183:29:37|CDR-LM|There's an experiment.
+|183:29:40|LMP-LM|Not really, since we do that with our PLSS and everything else.
+|183:29:43|CDR-LM|Okay. Take your helmet off.
+|183:29:54|LMP-LM|That was painless enough.
+|183:30:03|CDR-LM|Jack, I'd wrap that thing around it like that. ..
+|183:30:07|LMP-LM|Wait a minute, don't we take our helmets?
+|183:30:11|CDR-LM|Not yet. We - No, obviously. Go behind the engine cover.
+|183:30:17|LMP-LM|Okay.
+|183:33:41|CC|Challenger, Houston. Just a reminder. Before you stow the right-hand OPS on the floor, you need to attach the floor hole cover.
+|183:33:57|CDR-LM|Okay; we're - Jack's down there cleaning up the floor now, and I'm working on the visors.
+|183:34:02|CC|Okay.
+|183:38:54|CC|Challenger, Houston. We have a copy of a - an update on the rock stowage that was given to you last night. We're not sure if they read one part of it to you, and that was concerning using some contingency webbing to reinforce the tiedown of the bag that goes on the Z-27 bulkhead. If you did get that update, forget it. We do not need any extra tiedown other than the normal tiedown. Over.
+|183:39:27|LMP-LM|Okay, Gordy. That's for the buddy PLSS bag, I guess, and we did not get it. But we haven't quite stowed that yet anyway, so we will forget it.
+|183:39:36|CC|Okay.
 ||||Tape 112A/12|Page 1873
-|183:38:53|CDR-LM|Are the Rover batteries still alive?
-|183:39:47|CC|I'll check with the ... Stand by.
-||||Tape 122B/1|Page 1874
-|183:39:47|CMP|Okay, lift-off, 188:01:35.93; TPI, 188:55:57.00.
-|183:39:47|CC|Okay, Ron. And the coelliptic rendezvous pad below that. GET lift-off --
-|183:39:47|CMP|Okay.
-|183:39:47|CC|- - 188:01:14.00; NOUN 11, CSI time, 139:01:53.81; NOUN 37, TPI tine, 190:55:00.00. Over.
-|183:39:47|CMP|Okay, lift-off is 188:01:l4.00; CSI's 189:01:53.81; TPI, 190:55:00.00.
-|183:39:47|CC|One thing's wrong in there, Ron. The GE time -the lift-off is 188:04 on the coelliptic rendezvous pad - l88:04:l4.
-|183:39:47|CMP|Yes, that does sound a little better.
-|183:39:47|CC|Did you get that, Ron? 188:0U:14.00 .
-|183:39:47|CMP|Okay, for the coelliptic, lift-off is later than ascent, so it is 188:04:14.00.
-|183:39:47|CC|Roger. Good readback and up in that block if you didn't copy it there, that CSM weight that I gave you before is 36032.
-|183:39:47|CMP|Yes, 36032. That's right.
-|183:49:13|CMP|Okay, I guess you need a P52.
-|183:49:13|CMP|(Singing) ...
-|183:52:36|CMP|Regulus ...
-|183:52:36|CC|Gave you an easy one, didn't ve?
-|183:52:36|CMP|Yes. But - with the Earth in the field of view, you can tell you - there's a star there, but you can't recognize the pattern.
-||||Tape 122B/2|Page 1875
-|183:52:36|CC|Well, we'll know when we look at the star-angle difference.
-|183:52:36|CMP|(Laughter) That's right.
-|183:52:36|CMP|24 is Gienah. Okay, take me to Gienah.
-|183:54:03|CMP|Has to be Gienah, I hope. Oh, that's not so bad.
-|183:54:03|CC|Yes we ' 11 buy that.
-|183:54:03|CMP|Okay. Plus 102, plus 030, and a minus 06. At 186, zap out 35, huh?
-|183:54:03|CC|You can torque them.
-|183:54:03|CMP|Okay.
-|183:55:03|CMP|I torque.
-|183:56:04|CMP|Ah ha! I tested the theory. The field cf view is 1.8 degrees precisely, isn't it? And the Earth - -
-|183:56:04|CC|Affirmative.
-|183:56:04|CMP|- - is just a little bit inside of it.
-|183:56:04|CC|Affirmative.
-|183:56:04|CMP|So, this is indeed 2 degrees in diameter.
-|183:56:04|CMP|... doing here now. Calibration, okay?
-|183:56:04|CMP|(Humming) And it's pretty good fishing. Test's what they had in the dead band.
-|183:56:04|CMP|Down this time -
-|183:56:04|CMP|That's it right there.
-|184:00:49|CC|Okay, I copy these numbers in your LS?'Y .
-|184:00:49|CMP|Okay.
-||||Tape 122B/3|Page 1876
-|184:00:49|CC|Ron, we're 12 minutes from - from LOS here and you're looking good. You want to be donning your PGA so that you're not - you're not on loop at LOS -we just - you're looking good and just be advised that' we'll be - have the S-band relay from the LM to you - will be active when you come around and it'll be a single CAPCOM loop setup for this next rev.
-|184:00:49|CMP|Okay, I'll go to PTT then for that type of operation
-|184:00:49|CC|Roger. Real good. You will not be relaying to the LM; the LM will be relaying to you, but it won't go the other way, Ron. Unless we need it to set up the - -
-|184:00:49|CMP|Oh, it won't? Oh, okay; I see.
-|184:00:49|CC|And also we do have the dual - -
-|184:00:49|CMP|That's a good deal.
-|184:00:49|CC|- - desk set up here at CAPCOM, so if at any time we want to break down any relay at all ana go back to split loop, we can do it, no problem.
-|184:00:49|CMP|Okay.
-|184:00:49|CC|Ron, just a reminder. Zero the optics when you can, please.
-|184:03:47|CMP|Okay, thank you.
-|184:03:47||BEGIN LUHAR REV 51
+|183:39:40|CDR-LM|Are the Rover batteries still alive?
+|183:39:47|CC|I'll check with the back room here. Stand by.
+|184:00:57|CC|Challenger, Houston. I'm standing by with a pad any time you're ready.
 ||||Tape 123A/1|Page 1877
-|184:03:47|LMP-LM|Okay, Gordy. I'll be ready in just a minute.
-|184:05:03|LMP-LM|Okay, Gordy, go with the ascent pad.
-|184:05:03|CC|Okay, Jack. This is the direct ascent pad. T. 1 & is 188:01:35-93; NOUN 76 is 5540.8, 0032.0 minus 000.5; DEDA 047 is plus 37430; minus 72507; plus 58669; plus 56907; plus 0032.0; plus 0535.9; and TPI time is 188:55:57.00. LM weight 10900; and HA, is 62.9; Hp, 62.2. One remark; your Tig for one rev late is 190:00:18. Go ahead.
-|184:07:00|LMP-LM|Okay, Gordy, here is your readback. Direct rendezvous - direct rendezvous is 188:01:35.93; 5540.8, 0032.0, minus 000.5, plus 37430, minus 72507, 58669, 56907, 0032.0, 0535-9; 188:55:57.00; 10900, 629, 622. Remark: one rev late T. is 190:00:18. Over.
-|184:07:00|CC|Okay5 that was a good readback. Now I have a coelliptic ascent pad. T. is 188:04:14.00; 5539-0, ig 0038.0, minus 000.5; plus 37430; minus 72507; 58630; 56907; 0038.0. Rest of the pad down to LM weight is NA. Your LM weight is 10900, and the H and Hp are NA. Over.
-|184:07:00|LMP-LM|Okay, coelliptic readback: l88 : 04:14 .00 ; 5539-0, 0038.0, minus 000-5; plus 37430; minus 72507; 58630; 56907; 0038.0; rest of pad is NA except for LM weight5 10900. Over.
-|184:07:00|CC|Okay, that's a good readback. Turn to page 10; I have the CSI pad coelliptic.
-|184:07:00|CDR-LM|And, Gordy, I'm starting to pick up the breakers on panel 11.
-|184:07:00|CC|Okay, Geno.
-|184:07:00|LMP-LM|Okay, Gordy, CSI on page 10.
+|184:01:05|LMP-LM|Okay, Gordy. I'll be ready in just a minute.
+|184:01:41|PAO|This is Apollo control at 186 hours 42 minutes. Cernan and Schmitt aboard the lunar module Challenger at this time are getting the cabin of the vehicle ship shape for liftoff. Their essentially back on the timeline at this time and ready to begin the final liftoff preparations. Aboard the Command Module, America now in its 50th revolution everything continues to go very smoothly. Ron Evans is beginning to get suited up and configuring the command module for the LMs liftoff, rendezvous and docking.
+|184:05:01|LMP-LM|Okay, Gordy, go with the ascent pad.
+|184:05:06|CC|Okay, Jack. This is the direct ascent pad. Tig is 188:01:35.93; NOUN 76 is 5540.8, 0032.0 minus 000.5; DEDA 047 is plus 37430; minus 72507; plus 58669; plus 56907; plus 0032.0; plus 0535.9; and TPI time is 188:55:57.00. LM weight 10900; and HA, is 62.9; Hp, 62.2. One remark; your Tig for one rev late is 190:00:18. Go ahead.
+|184:06:58|LMP-LM|Okay, Gordy, here is your readback. Direct rendezvous - direct rendezvous is 188:01:35.93; 5540.8, 0032.0, minus 000.5, plus 37430, minus 72507, 58669, 56907, 0032.0, 0535.9; 188:55:57.00; 10900, 629, 622. Remark: one rev late Tig is 190:00:18. Over.
+|184:07:55|CC|Okay, that was a good readback. Now I have a coelliptic ascent pad. Tig is 188:04:14.00; 5539.0, 0038.0, minus 000.5; plus 37430; minus 72507; 58630; 56907; 0038.0. Rest of the pad down to LM weight is NA. Your LM weight is 10900, and the HA and Hp are NA. Over.
+|184:09:17|LMP-LM|Okay, coelliptic readback: l88:04:14.00; 5539.0, 0038.0, minus 000.5; plus 37430; minus 72507; 58630; 56907; 0038.0; rest of pad is NA except for LM weight: 10900. Over.
+|184:09:58|CC|Okay, that's a good readback. Turn to page 10; I have the CSI pad coelliptic.
+|184:10:12|CDR-LM|And, Gordy, I'm starting to pick up the breakers on panel 11.
+|184:10:17|CC|Okay, Geno.
+|184:10:27|LMP-LM|Okay, Gordy, CSI on page 10.
 ||||Tape 123A/2|Page 1878
-|184:07:00|CC|Okay. T. is 189:01:53.81. T, at TPI is ig ig 190:55:00.00. NOUN 8l is 053-9; and DELTA-V is a plus all balls. 373, 0541.9, 0655.0; plus 053.9, plus all balls, and plus 001.2.
-|184:07:00|LMP-LM|Okay. CSI pad; 189:01:53.81, 190:55 Ô.all zeros; plus 053.9, plus all zeros; 0541.9, 0655-0; plus 053-9, plus all zeros; plus 031.2. Over.
-|184:07:00|CC|Okay. That's a good readback. That's all I have for you.
-|184:07:00|LMP-LM|Okay.
-|184:14:36|CDR-LM|Okciy, Gordo, we're on the top of 8-4.
-|184:14:36|CC|Roger, Geno.
-|184:15:55|LMP-LM|Okay, Gordo. The rendezvous radar looks a little warm, it - I'm reading about 90 degrees.
-|184:15:55|CC|Okay 90.
-|184:15:55|LMP-LM|Okay, Gordy, are you ready for AGS STATUS tc OPERATE?
-|184:15:55|CC|Let me check. We're ready, Jack; go ahead.
-|184:18:32|CDR-LM|Okay, Gordo, NOUN 72, R2 is not varying. I've got, both shaft and trunnion, and crosspointers varying.
-|184:18:32|CC|Okay, Geno. We copy that.
-|184:19:26|CDR-LM|Okay, Gordy. On the radar test, everything is GO. Everything is within limits. The only anomaly is the one I just reported.
-|184:19:26|CC|Okay, Geno. And 20 seconds here on the hour even, we'll have a site handover to Goldstone.
-|184:19:26|CDR-LM|Okay.
-|184:24:12|CC|Geno, Houston. You can go ahead ana park the radar at 0 and 30.
-|184:24:20|CDR-LM|Yes. It's going there right now, a:-, a a.atter of f act.
+|184:10:31|CC|Okay. Tig is 189:01:53.81. Tig at TPI is 190:55:00.00. NOUN 8l is 053.9; and DELTA-Vy is a plus all balls. 373, 0541.9, 0655.0; plus 053.9, plus all balls, and plus 001.2.
+|184:11:31|LMP-LM|Okay. CSI pad; 189:01:53.81, 190:55 all zeros; plus 053.9, plus all zeros; 0541.9, 0655.0; plus 053.9, plus all zeros; plus 001.2. Over.
+|184:11:58|CC|Okay. That's a good readback. That's all I have for you.
+|184:12:04|LMP-LM|Okay.
+|184:13:46|PAO|This is Apollo Control at 186 hours 54 minutes. We've just had loss of signal now, with Ron Evans aboard the Command and Service Module. Everything going very smoothly at this time, and our preparations for Lunar lift-off. We'll be reacquiring the Command Module in about 45 minutes. And at that time, we plan to reconfigure the CAPCOM or air-to-ground circuits with the two vehicles, so that we have both the Command and Service Module and the Lunar Module on the same circuit for the single spacecraft communicator operation. Included in the string of numbers read up to the crew aboard Challenger by CAPCOM Gordon Fullerton, was the time that will be used for ignition -
+|184:14:33|CDR-LM|Okay, Gordo, we're on the top of 8-4.
+|184:14:37|CC|Roger, Geno.
+|184:14:52|PAO|The ignition time for Lunar lift-off now, as passed up to the crew, is 188 hours, 1 minute, 36 seconds. And that burn time on the Lunar Module ASCENT engine will be 7 minutes, 20 seconds.
+|184:15:52|LMP-LM|Okay, Gordo. The rendezvous radar looks a little warm, it - I'm reading about 90 degrees.
+|184:15:59|CC|Okay 90.
+|184:16:11|LMP-LM|Okay, Gordy, are you ready for AGS STATUS to OPERATE?
+|184:16:17|CC|Let me check. We're ready, Jack; go ahead.
+|184:18:29|CDR-LM|Okay, Gordo, NOUN 72, R2 is not varying. I've got, both shaft and trunnion, and crosspointers varying.
+|184:18:41|CC|Okay, Geno. We copy that.
+|184:19:23|CDR-LM|Okay, Gordy. On the radar test, everything is GO. Everything is within limits. The only anomaly is the one I just reported.
+|184:19:32|CC|Okay, Geno. And 20 seconds here on the hour even, we'll have a site handover to Goldstone.
+|184:19:43|CDR-LM|Okay.
+|184:24:08|CC|Geno, Houston. You can go ahead and park the radar at 0 and 30.
+|184:24:16|CDR-LM|Yes. It's going there right now, as a matter of fact.
 ||||Tape 123A/3|Page 1879
 |184:24:20|CC|Okay.
-|184:26:14|LMP-LM|Okay, Houston. The AGS gyro calibration is complete and looks pretty good. I guess Z's a little -little - No, that - Yes, Z's a little more than you'd expect, I guess.
-|184:26:14|CC|Okay, Jack.
-|184:26:14|CC|Challenger, Houston. Words on the radar. When you parked it there, we saw it go to the proper places. From all our indications, the interface between the radar and the PGNS is okay. And our best guess is some kind of self-test problem.
-|184:26:14|CDR-LM|Okay, Gordy. Thank you.
-|184:28:04|CDR-LM|Rate gyros are good.
+|184:26:11|LMP-LM|Okay, Houston. The AGS gyro calibration is complete and looks pretty good. I guess Z's a little - little - No, that - Yes, Z's a little more than you'd expect, I guess.
+|184:26:28|CC|Okay, Jack.
+|184:26:57|CC|Challenger, Houston. Words on the radar. When you parked it there, we saw it go to the proper places. From all our indications, the interface between the radar and the PGNS is okay. And our best guess is some kind of self-test problem.
+|184:27:18|CDR-LM|Okay, Gordy. Thank you.
+|184:27:59|CDR-LM|Rate gyros are good.
 |184:28:04|CC|Roger.
-|184:29:28|LMP-LM|Okay, Gordy. I'm gcing to go to AUTO on the S-BAND, if you want it.
-|184:29:28|CC|Okay. We're GO. And go ahead with the check.
-|184:29:28|CDR-LM|Okay, Gordy. I'll give you a call before I fire, but we're in the process of getting ready for the RCS.
-|184:29:28|CC|Roger.
-|184:30:25|CDR-LM|Okay, Gordo. Here we go.
-|184:31:39|CDR-LM|Gordy, the AGS check looked good.
-|184:31:39|CC|Roger. It looked good here also.
-|184:31:57|LMP-LM|Okay; SYSTEM A QUAD 4 talkback still sticky.
-|184:31:57|CC|Roger, Jack.
-|184:33:05|CDR-LM|Okay. Here we go 011 the PGNS, Gordy.
+|184:29:25|LMP-LM|Okay, Gordy. I'm going to go to AUTO on the S-BAND, if you want it.
+|184:29:40|CC|Okay. We're GO. And go ahead with the check.
+|184:29:50|CDR-LM|Okay, Gordy. I'll give you a call before I fire, but we're in the process of getting ready for the RCS.
+|184:29:56|CC|Roger.
+|184:30:21|CDR-LM|Okay, Gordo. Here we go.
+|184:30:45|PAO|Cernan and Schmitt, at this time, are firing the reaction control system thrusters in what's called the hot fire test. Everything continuing to progress smoothly toward liftoff at 188 hours 1 minute 36 seconds. And, we expect to have the lunar surface television up and in operation in about 10 minutes.
+|184:31:35|CDR-LM|Gordy, the AGS check looked good.
+|184:31:38|CC|Roger. It looked good here also.
+|184:31:53|LMP-LM|Okay; SYSTEM A QUAD 4 talkback still sticky.
+|184:31:58|CC|Roger, Jack.
+|184:33:01|CDR-LM|Okay. Here we go on the PGNS, Gordy.
 |184:33:05|CC|Okay, Geno.
-|184:33:47|CDR-LM|Looked good here, Gordy.
+|184:33:43|CDR-LM|Looked good here, Gordy.
 ||||Tape 123A/4|Page 1880
-|184:33:54|LMP-LM|And, you've got DATA and POO.
-|184:34:00|CC|Okay. Your up-links are coming. We'll give you a vector and zero the pos/neg cells. Your PLS is okay.
-|184:36:00|CC|Challenger, Houston. We'd like you to put the ASCENT BATTERIES OK according to the procedures on the next nage, 8-8, just a little early because of pre-conditioning noticed in - tefore descent. And we checked your RGAs during the hot fire, ana your hot fire itself, and they both looked good.
-|184:36:00|LMP-LM|Thank you, Gordo.
-|184:36:28|CC|And, Challenger, it's your computer now.
+|184:33:49|LMP-LM|And, you've got DATA and POO.
+|184:33:55|CC|Okay. Your up-links are coming. We'll give you a vector and zero the pos/neg cells. Your RLS is okay.
+|184:35:56|CC|Challenger, Houston. We'd like you to put the ASCENT BATTERIES ON according to the procedures on the next nage, 8-8, just a little early because of pre-conditioning noticed in - before descent. And we checked your RGAs during the hot fire, ana your hot fire itself, and they both looked good.
+|184:36:20|LMP-LM|Thank you, Gordo.
+|184:36:22|CC|And, Challenger, it's your computer now.
 |184:36:28|LMP-LM|Thank you.
-|184:39:57|CDR-LM|Gordo, did you ever get any word on the Rover batteries?
-|184:39:57|CC|No. I sure haven't. I haven't heard on that one.
-|184:39:57|CDR-LM|It's not important. 1 just wondered whether those things were going to be working back there.
-|184:39:57|CC|Okay. We've got no reason to believe they won't. When you get down to parking the rendezvous radar antenna after this P57, give me a call. We're going to change the parking position.
-|184:39:57|CDR-LM|Okay.
-|184:39:57|CDR-LM|Why don't you just give me the numbers now?
-|184:39:57|CC|Oka;/. Do a - as - as the checklist, shovfa, except do a VERB 4l NOUN 72 to 0 and 30 degrees. Go to SLEW, and then delete the "manual slew for 3 seconds." They want to leave it there for temperature purposes. This will be a cooler position for it during ascent.
-|184:39:57|CDR-LM|Okay. Understand. That's 0 and 03000.
-|184:39:57|CC|That's affirmative.
+|184:36:31|PAO|This is Apollo Control. We're now 45 minutes from LM liftoff. Everything continuing to go very smoothly. We've completed the reaction control system's checkout. It looks good through the telemetry we're receiving here on the ground. Also, aboard the spacecraft, the primary guidance and backup guidance system clocks have been synchronized. The next item on the crew's preparation checklist will be to align the platform of their guidance system which is used as a stable attitude reference. And, we're now some 20 minutes from reacquiring the Command Module, which is now in its 51st revolution of the Moon. And, as mentioned before, when we do acquire, we'll have both the LM and the Command Module on the same communication circuit.
+|184:39:52|CDR-LM|Gordo, did you ever get any word on the Rover batteries?
+|184:39:59|CC|No. I sure haven't. I haven't heard on that one.
+|184:40:05|CDR-LM|It's not important. 1 just wondered whether those things were going to be working back there.
+|184:40:11|CC|Okay. We've got no reason to believe they won't. When you get down to parking the rendezvous radar antenna after this P57, give me a call. We're going to change the parking position.
+|184:40:26|CDR-LM|Okay.
+|184:40:35|CDR-LM|Why don't you just give me the numbers now?
+|184:40:38|CC|Okay. Do a - as - as the checklist, shows, except do a VERB 4l NOUN 72 to 0 and 30 degrees. Go to SLEW, and then delete the "manual slew for 3 seconds." They want to leave it there for temperature purposes. This will be a cooler position for it during ascent.
+|184:41:05|CDR-LM|Okay. Understand. That's 0 and 03000.
+|184:41:11|CC|That's affirmative.
 ||||Tape 123A/5|Page 1881
-|184:39:57|CDR-LM|And the first 01 - first 04 was 0.01.
-|184:39:57|CC|Roger. We got that.
-|184:44:28|CC|Challenger, Houston. We've got you on television now. We have a good picture.
-|184:44:28|CDR-LM|Glad to see old Rover's still -working.
-|184:48:59|CC|Okay. We got your NOUN 05?
-|184:49:21|CC|Go ahead and torque them.
-|184:53:14|CDR-LM|Okay, Houston. P12 looks good, and the PGNS is in AUTO.
-|184:53:20|CC|Okay, Challenger. There's no change to 047 and 053. I do have a K-factor for you.
-|184:53:20|LMP-LM|Go ahead.
-|184:53:20|CC|Okay. It's 179:59:59-82. Over.
-|184:53:20|LMP-LM|Okay; 15 - 179:59:59-82.
-|184:53:20|CC|That's right, Jack.
-|184:55:25|CC|Challenger, Houston. I have a couple of PIPA bias updates for the PGNS.
-|184:55:39|LMP-LM|Okay. Go ahead.
-|184:55:39|CC|Okay, a VERB - with a VERB 21 NOUN 01, load address l452 with 03045, and load address 1454 with 05246. Over.
-|184:55:39|LMP-LM|Okay. That's 1452 with 03045; and 1454, 05246.
-|184:55:39|CC|Readback1s good.
-|184:57:02|LMP-LM|Okay. They're in, Houston.
-|184:57:02|CC|Okay. Look good to us.
-|184:58:09|CMP-CM|Hey, Houston; America.
+|184:41:18|CDR-LM|And the first 01 - first 04 was 0.01.
+|184:41:24|CC|Roger. We got that.
+|184:41:43|PAO|Cernan and Schmitt at this time are in the midst of the platform alignment and we're standing by for television from the lunar surface, via the camera on the Lunar Rover. And we're getting the first, first bits of the picture now. We should have color. And we do have a color picture from the lunar surface.
+|184:44:22|CC|Challenger, Houston. We've got you on television now. We have a good picture.
+|184:44:33|CDR-LM|Glad to see old Rover's still working.
+|184:48:53|CC|Okay. We got your NOUN 05?
+|184:49:20|CC|Go ahead and torque them.
+|184:50:43|PAO|This is Apollo Control at 187 hours 31 minutes. Now approaching 30 minutes until time for Lunar lift-off. The count down toward lift-off is going very smoothly. The crew aboard Challenger has completed aligning their inertial platform that's used as a stable attitude reference during powered flight. And we're less than 6 minutes now from regaining our radio communications with Ron Evans, aboard the Command and Service Module, America. The television picture is coming to us from the Lunar Roving vehicle, parked about 490 feet west of the Lunar Module, looking toward the east. Cernan and Schmitt will shortly be going through their prelaunch switch checks, checking the configuration of all the switches in the Lunar Module. They'll then don their helmets and gloves.
+|184:53:07|CDR-LM|Okay, Houston. P12 looks good, and the PGNS is in AUTO.
+|184:53:13|CC|Okay, Challenger. There's no change to 047 and 053. I do have a K-factor for you.
+|184:53:29|LMP-LM|Go ahead.
+|184:53:30|CC|Okay. It's 179:59:59.82. Over.
+|184:53:46|LMP-LM|Okay; 15 - 179:59:59.82.
+|184:53:51|CC|That's right, Jack.
+|184:55:18|CC|Challenger, Houston. I have a couple of PIPA bias updates for the PGNS.
+|184:55:33|LMP-LM|Okay. Go ahead.
+|184:55:35|CC|Okay, a VERB - with a VERB 21 NOUN 01, load address l452 with 03045, and load address 1454 with 05246. Over.
+|184:56:00|LMP-LM|Okay. That's 1452 with 03045; and 1454, 05246.
+|184:56:07|CC|Readback's good.
+|184:56:29|PAO|This is Apollo Control now 25 minutes from Lunar lift-off. Aboard Challenger, the crew has set up their guidance computer in program 12, which is the program used for the Lunar lift-off. And we're less than 1 minute now, from regaining radio contact with Ron Evans aboard America.
+|184:56:55|LMP-LM|Okay. They're in, Houston.
+|184:56:57|CC|Okay. Look good to us.
+|184:57:23|PAO|And, we've had acquisition of signal now, from the CSM. About 10 minutes from now, the Lunar Module's scheduled to begin pressurizing the ASCENT propulsion tanks.
+|184:58:02|CMP-CM|Hey, Houston; America.
 ||||Tape 123A/6|Page 1882
-|184:58:09|CC|Roger, America. This is Houston. You're loud and clear.
-|184:58:21|CMP-CM|Okay, Gordo. Got my suit on.
-|184:58:21|CC|Okay, Ron. We gave you the wrong skinny on the comm configuration last rev. We're actually, now, in a full MSFN relay mode. We'd like you to stay off of VOX. Over.
-|184:58:44|CMP-CM|Can do. I'm off VOX.
-|184:59:18|CC|Challenger, Houston. When you get to a break point, I have some words on what you can expect in the way of guidance steering. Over.
-|184:59:18|CDR-LM|Stand by.
-|185:00:08|CDR-LM|Okay, Gordy. You can go ahead and talk while we're putting our helmets and gloves on.
-|185:00:08|CC|Okay. We never got around to debriefing you on PDI, but the out-of-plane indications you saw on the AGS during descent were proper. We had changed your - your vector slightly just prior to PDI, and so the AGS was navigating and indicating properly. We just ran the present ascent targets in the LMS with the half-a-mile crossrange as shown on the pad, and you're going to be steering south. That's the way the steering direction goes. That's to your left, for Geio's benefit. And the crosspointer indicated a maximum of about 13 feet-per-second out-of-plane velocity at about ignition plus 3 minutes and 50 seconds, and then came on back to zero. Over. That - that velocity was AGS velocity.
-|185:00:08|LMP-LM|Okay, Gordo. That's good information to have.
-|185:00:08|CDR-LM|Understand; the AGS on that one. Okay.
-|185:02:43|CMP-CM|Okay, Houston. America maneuvering to attitude.
-|185:02:43|CC|Roger, America.
-|185:03:00|CMP-CM|Also I'll start pumping up the cabin, DIRECT' O2-
+|184:58:08|CC|Roger, America. This is Houston. You're loud and clear.
+|184:58:13|CMP-CM|Okay, Gordo. Got my suit on.
+|184:58:18|CC|Okay, Ron. We gave you the wrong skinny on the comm configuration last rev. We're actually, now, in a full MSFN relay mode. We'd like you to stay off of VOX. Over.
+|184:58:36|CMP-CM|Can do. I'm off VOX.
+|184:59:11|CC|Challenger, Houston. When you get to a break point, I have some words on what you can expect in the way of guidance steering. Over.
+|184:59:21|CDR-LM|Stand by.
+|185:00:00|CDR-LM|Okay, Gordy. You can go ahead and talk while we're putting our helmets and gloves on.
+|185:00:05|CC|Okay. We never got around to debriefing you on PDI, but the out-of-plane indications you saw on the AGS during descent were proper. We had changed your - your vector slightly just prior to PDI, and so the AGS was navigating and indicating properly. We just ran the present ascent targets in the LMS with the half-a-mile crossrange as shown on the pad, and you're going to be steering south. That's the way the steering direction goes. That's to your left, for Geno's benefit. And the crosspointer indicated a maximum of about 13 feet-per-second out-of-plane velocity at about ignition plus 3 minutes and 50 seconds, and then came on back to zero. Over. That - that velocity was AGS velocity.
+|185:01:10|LMP-LM|Okay, Gordo. That's good information to have.
+|185:01:19|CDR-LM|Understand; the AGS on that one. Okay.
+|185:02:33|PAO|This is Apollo control coming up now on 18 minutes until lunar liftoff.
+|185:02:35|CMP-CM|Okay, Houston. America maneuvering to attitude.
+|185:02:40|CC|Roger, America.
+|185:02:51|PAO|And flight director Gene Kranz has just gone around the room checked with all flight controllers. We're go for lunar liftoff.
+|185:02:50|CMP-CM|Also I'll start pumping up the cabin, DIRECT O2.
 ||||Tape 123A/7|Page 1883
-|185:03:00|CC|Okay.
-|185:03:08|LMP-LM|ASCENT WATER is OPEN, Houston.
-|185:03:08|CC|Roger.
-|185:04:24|CDR-LM|Okay, Houston. We're at lift-off minus 17 minutes, and VERB 47 is going over.
-|185:04:24|CC|Roger, Challenger.
-|185:05:45|CC|America, we see your cabin at 5-5-
-|185:05:45|CMP-CM|Okay, thank you.
-|185:06:04|CMP-CM|DIRECT 02 is CLOSED.
-|185:06:10|CDR-LM|Houston, the DESCENT BATTS are coming OFF.
-|185:06:10|CC|Roger.
-|185:06:21|CC|America, it looks like, to us here, your maneuver has stopped. Maybe you hit the stick.
-|185:06:21|CMP-CM|You roll around in this thing, you knock the thing off of lock.
-|185:06:56|CC|Challenger, we're recommending PGNS direct rendezvous.
-|185:07:02|CDR-LM|Roger, Gordo; understand. PGNS direct rendezvous for Challenger.
-|185:07:58|CC|America; OMNI Delta, please.
-|185:08:44|CC|America, this is Houston; voice check.
-|185:08:46|CDR-LM|Okay, hold -
-|185:09:02|CDR-LM|Hello, Houston; Challenger. Circuit breakers are configured. We're on the top of 8-l6.
-|185:09:02|CC|Challenger, Houston. Okay; sounds good.
-|185:09:17|CDR-LM|And we're standing by for lift-off minus 10.
-|185:09:17|CC|Roger.
+|185:02:56|CC|Okay.
+|185:03:00|LMP-LM|ASCENT WATER is OPEN, Houston.
+|185:03:02|CC|Roger.
+|185:03:27|PAO|And we've now switched over to the water on the ascent stage to be used in cooling electronic equipment, as called for in the flight plan. There was some concern that we would run out of descent water before we switched over to ascent water, but the water in the descent stage lasted as long as it was required.
+|185:04:16|CDR-LM|Okay, Houston. We're at lift-off minus 17 minutes, and VERB 47 is going over.
+|185:04:22|CC|Roger, Challenger.
+|185:05:36|CC|America, we see your cabin at 5.5.
+|185:05:44|CMP-CM|Okay, thank you.
+|185:05:55|CMP-CM|DIRECT O2 is CLOSED.
+|185:06:02|CDR-LM|Houston, the DESCENT BATTS are coming OFF.
+|185:06:05|CC|Roger.
+|185:06:13|CC|America, it looks like, to us here, your maneuver has stopped. Maybe you hit the stick.
+|185:06:25|CMP-CM|You roll around in this thing, you knock the thing off of lock.
+|185:06:34|PAO|This is Apollo control now 15 minutes from lunar liftoff. The descent stage tanks have been depressurized. We're about 1 minute now from beginning pressurization of the ascent stage tanks.
+|185:06:48|CC|Challenger, we're recommending PGNS direct rendezvous.
+|185:06:54|CDR-LM|Roger, Gordo; understand. PGNS direct rendezvous for Challenger.
+|185:08:09|CC|America; OMNI Delta, please.
+|185:08:35|CC|America, Houston; voice check.
+|185:08:38|CDR-LM|Okay, hold -
+|185:08:53|CDR-LM|Hello, Houston; Challenger. Circuit breakers are configured. We're on the top of 8-l6.
+|185:09:00|CC|Challenger, Houston. Okay; sounds good.
+|185:09:09|CDR-LM|And we're standing by for lift-off minus 10.
+|185:09:12|CC|Roger.
 ||||Tape 123A/8|Page 1884
-|185:09:35|CDR-LM|And, Houston, are you in relay now?
-|185:09:40|CC|We had - we lost high gain on America, so we inhibited the down-link. We're not in relay, no.
-|185:09:40|CDR-LM|Okay.
-|185:09:40|CC|We're actually in a one-way relay. Ron should be able to hear you, but not vice versa.
-|185:11:01|CDR-LM|Okay, Houston; coming up on 10 minutes. And we're ready to pressurize the APS.
-|185:11:06|CC|Okay; you're GO to pressurize the .UPS.
-|185:11:14|CDR-LM|Okay. The MASTER ARM is coming ON. I've got two good lights.
-|185:11:22|CDR-LM|TANK 1 is SELECTED. Okay, ASCENT HELIUM PRESS TANK 1, FIRE. Ready; 3, 2, 1 -
-|185:11:33|CDR-LM|MARK it. We got a squib fired, Houston.
-|185:11:33|CC|Roger.
-|185:11:52|CC|Challenger, you're GO for TANK 2.
-|185:11:52|CDR-LM|Okay, understand; GO for TANK 2. Ready? Okay. 3, 2, 1 -
-|185:12:06|CDR-LM|MARK it. TANK 2. We got the squib.
-|185:12:21|CC|Okay, Challenger. Both tanks look good.
-|185:12:21|CDR-LM|Wonder why they didn't balance off?
-|185:12:28|CDR-LM|Okay. MASTER ARM is coming OFF, and the lights are out.
-|185:12:34|CDR-LM|Okay, Jack. SYSTEM A ASCENT FEED 2, OPEN. Okay, monitor your - okay.
-|185:12:48|CDR-LM|SYSTEM A MAIN SOV, CLOSED. How does it look to you?
-|185:12:48|LMP-LM|Fine.
+|185:09:26|CDR-LM|And, Houston, are you in relay now?
+|185:09:31|CC|We had - we lost high gain on America, so we inhibited the down-link. We're not in relay, no.
+|185:09:42|CDR-LM|Okay.
+|185:09:44|CC|We're actually in a one-way relay. Ron should be able to hear you, but not vice versa.
+|185:10:25|PAO|This is Apollo Control. Gene Kranz now getting a GO for ascent stage pressurization.
+|185:10:52|CDR-LM|Okay, Houston; coming up on 10 minutes. And we're ready to pressurize the APS.
+|185:10:57|CC|Okay; you're GO to pressurize the APS.
+|185:11:05|CDR-LM|Okay. The MASTER ARM is coming ON. I've got two good lights.
+|185:11:13|CDR-LM|TANK 1 is SELECTED. Okay, ASCENT HELIUM PRESS TANK 1, FIRE. Ready; 3, 2, 1 -
+|185:11:24|CDR-LM|MARK it. We got a squib fired, Houston.
+|185:11:28|CC|Roger.
+|185:11:38|PAO|And we can confirm the ascent stage tanks are pressurizing.
+|185:11:43|CC|Challenger, you're GO for TANK 2.
+|185:11:48|CDR-LM|Okay, understand; GO for TANK 2. Ready? Okay. 3, 2, 1 -
+|185:11:57|CDR-LM|MARK it. TANK 2. We got the squib.
+|185:12:12|CC|Okay, Challenger. Both tanks look good.
+|185:12:14|CDR-LM|Wonder why they didn't balance off?
+|185:12:19|CDR-LM|Okay. MASTER ARM is coming OFF, and the lights are out.
+|185:12:24|CDR-LM|Okay, Jack. SYSTEM A ASCENT FEED 2, OPEN. Okay, monitor your - okay.
+|185:12:39|CDR-LM|SYSTEM A MAIN SOV, CLOSED. How does it look to you?
+|185:12:44|LMP-LM|Fine.
 ||||Tape 123A/9|Page 1885
-|185:12:54|CDR-LM|Okay; B ASCENT FEED 2, OPEN. I can feel them in the floor when they go.
-|185:13:02|CDR-LM|Okay; and B MAIN SOV, CLOSED. Check your manifold
-|185:13:02||pressures. Are you happy? Okay, Houston. We got ASCEKT FEED.
-|185:13:02|CC|Roger. And America, can you read Houston? Over.
-|185:13:02|CMP-CM|America. Roger. Loud and clear.
-|185:13:02|CC|Okay, Ron. You're loud and clear.
-|185:13:35|CDR-LM|Okay. We're standing by for 5- Houston, Challenger is GO for lift-off. We're at 7:54 and counting.
-|185:13:49|CC|Roger, Challenger. You're GO for lift-off.
-|185:13:49|CDR-LM|Roger. Understand. Challenger is GO for lift-off.
-|185:14:11|CC|Challenger, Houston. We think the transducer in tank 2 has shifted. We want you to monitor tank 1 for APS helium. Over.
-|185:14:23|LMP-LM|Roger. We were looking at that, and we'll monitor 1.
-|185:14:23|CDR-LM|What of this do you want?
-|185:14:23|LMP-LM|I need the - the big one there, with the cards in it.
-|185:14:23|CDR-LM|Here you go.
-|185:14:23|LMP-LM|Thank you.
-|185:14:23|CDR-LM|That's all right.
-|185:14:23|LMP-LM|Okay.
-|185:15:27|CDR-LM|Okay. Let's go over the APS burn card.
-|185:15:29|LMP-LM|Okay. My DISPLAY/ENGINE OVERRIDE LOGIC breaker is IN; circuit breakers STAB/CONTROL all CLOSED on panel 11, except AEA and DECA POWER.
+|185:12:44|CDR-LM|Okay; B ASCENT FEED 2, OPEN. I can feel them in the floor when they go.
+|185:12:52|CDR-LM|Okay; and B MAIN SOV, CLOSED. Check your manifold pressures. Are you happy?
+|185:13:02|CDR-LM|Okay, Houston. We got ASCEKT FEED.
+|185:13:06|CC|Roger. And America, can you read Houston? Over.
+|185:13:14|CMP-CM|America. Roger. Loud and clear.
+|185:13:16|CC|Okay, Ron. You're loud and clear.
+|185:13:27|CDR-LM|Okay. We're standing by for 5. Houston, Challenger is GO for lift-off. We're at 7:54 and counting.
+|185:13:39|CC|Roger, Challenger. You're GO for lift-off.
+|185:13:47|CDR-LM|Roger. Understand. Challenger is GO for lift-off.
+|185:14:01|CC|Challenger, Houston. We think the transducer in tank 2 has shifted. We want you to monitor tank 1 for APS helium. Over.
+|185:14:13|LMP-LM|Roger. We were looking at that, and we'll monitor 1.
+|185:14:17|CDR-LM|What of this do you want?
+|185:14:19|LMP-LM|I need the - the big one there, with the cards in it.
+|185:14:47|CDR-LM|Here you go.
+|185:14:48|LMP-LM|Thank you.
+|185:14:48|CDR-LM|That's all right.
+|185:14:51|LMP-LM|Okay.
+|185:15:18|CDR-LM|Okay. Let's go over the APS burn card.
+|185:15:19|LMP-LM|Okay. My DISPLAY/ENGINE OVERRIDE LOGIC breaker is IN; circuit breakers STAB/CONTROL all CLOSED on panel 11, except AEA and DECA POWER.
 ||||Tape 123A/10|Page 1886
-|185:15:39|CDR-LM|Okay. STAB/CONTROL breakers are all CLOSED, except AEA and DECA POWER.
-|185:15:43|LMP-LM|Okay. LOGIC breakers IN.
-|185:15:44|CDR-LM|LOGIC breakers IN.
-|185:15:45|CDR-LM|And all of mine are CLOSED except DESCENT ENGINE OVERRIDE. LOGIC'S IN.
-|185:15:49|LMP-LM|Okay. RATE SCALE, 25 DEGREES PER SECOND.
-|185:15:52|CDR-LM|25.
-|185:15:53|LMP-LM|ATTITUDE/TRANSLATION, 4 JETS.
-|185:15:54|CDR-LM|4 JETS.
-|185:15:55|LMP-LM|BALANCE COUPLE, ON.
-|185:15:56|CDR-LM|ON.
-|185:15:57|LMP-LM|DEAD BAND, MIN.
-|185:15:58|CDR-LM|DEAD BAND in MIN.
-|185:15:59|LMP-LM|ABORT/ABORT STAGE, RESET.
-|185:16:00|CDR-LM|ABORT/ABORT STAGE are RESET.
-|185:16:01|LMP-LM|ATTITUDE CONTROL, three, to MODE CONTROL.
-|185:16:04|CDR-LM|ATTITUDE CONTROL, three, on MODE CO'.mOL.
-|185:16:07|LMP-LM|Okay. And you're going to be in AUTO ana ATT HOLD
-|185:16:10|CDR-LM|PGNS is AUTO, and AGS is ATT HOLD.
-|185:16:13|LMP-LM|Stop pushbuttons are reset, and - -
-|185:16:14|CDR-LM|Reset here.
-|185:16:15|LMP-LM|- - And you're in JETS.
-|185:16:16|CDR-LM|And I'm in JETS.
-|185:16:18|LMP-LM|Okay.
+|185:15:30|CDR-LM|Okay. STAB/CONTROL breakers are all CLOSED, except AEA and DECA POWER.
+|185:15:33|LMP-LM|Okay. LOGIC breakers IN.
+|185:15:34|CDR-LM|LOGIC breakers IN.
+|185:15:36|CDR-LM|And all of mine are CLOSED except DESCENT ENGINE OVERRIDE. LOGIC'S IN.
+|185:15:40|LMP-LM|Okay. RATE SCALE, 25 DEGREES PER SECOND.
+|185:15:42|CDR-LM|25.
+|185:15:43|LMP-LM|ATTITUDE/TRANSLATION, 4 JETS.
+|185:15:45|CDR-LM|4 JETS.
+|185:15:46|LMP-LM|BALANCE COUPLE, ON.
+|185:15:46|CDR-LM|ON.
+|185:15:47|LMP-LM|DEAD BAND, MIN.
+|185:15:48|CDR-LM|DEAD BAND in MIN.
+|185:15:49|LMP-LM|ABORT/ABORT STAGE, RESET.
+|185:15:50|CDR-LM|ABORT/ABORT STAGE are RESET.
+|185:15:51|LMP-LM|ATTITUDE CONTROL, three, to MODE CONTROL.
+|185:15:55|CDR-LM|ATTITUDE CONTROL, three, on MODE CONTROL.
+|185:15:57|LMP-LM|Okay. And you're going to be in AUTO and ATT HOLD
+|185:16:01|CDR-LM|PGNS is AUTO, and AGS is ATT HOLD.
+|185:16:03|LMP-LM|Stop pushbuttons are reset, and - -
+|185:16:05|CDR-LM|Reset here.
+|185:16:05|LMP-LM|- - And you're in JETS.
+|185:16:07|CDR-LM|And I'm in JETS.
+|185:16:08|LMP-LM|Okay.
 ||||Tape 123A/11|Page 1887
-|185:16:22|CDR-LM|Okay, let's take a swing around the systems.
-|185:16:25|LMP-LM|I just did. Everything looks good. The propellant pressure is holding up. We're tied to the ascent tanks on the RCS.
-|185:16:34|CDR-LM|Okay; 5 minutes and my -
-|185:16:37|LMP-LM|That EC - -
-|185:16:38|CDR-LM|RENDEZVOUS RADAR breaker is CLOSED.
-|185:16:45|CDR-LM|And let's go to the timeline book.
-|185:16:45|LMP-LM|Got it. Make sure of everything in here.
-|185:16:45|CDR-LM|Okay. At 2 minutes, I'll get the MASTER ARM. We already are VOX. You'll get 400 plus 1.
-|185:16:45|LMP-LM|Okay. And I'll get the camera and - -
-|185:16:45|CDR-LM|Okay. At 10 seconds, I'll hit the ABORT STAGE, followed by the ENGINE ARM to ASCENT. You get the PRO. I'll backup the start. If we don't get a start, I'll go GUIDANCE CONTROL to AGS. I'll wipe out the thrusters. I'll go AGS AUTO. And if we don't get a start, we'll back off. Okay?
-|185:16:45|LMP-LM|Okay.
-|185:18:02|LMP-LM|Houston, we have an awful lot of noise coming up.
-|185:18:07|CC|Okay, Challenger. I understand.
-|185:18:12|LMP-LM|I think we can read you, Gordy. You sound pretty good now.
-|185:18:16|CC|Roger.
-|185:18:16|CDR-LM|That's VHF noise, Jack. VHF B.
-|185:18:16|LMP-LM|Okay. I can cut it out with a high squelch on Bravo.
-|185:18:43|CDR-LM|Okay, Houston. Challenger's at 2 minutes and 50 seconds.
+|185:16:12|CDR-LM|Okay, let's take a swing around the systems.
+|185:16:16|LMP-LM|I just did. Everything looks good. The propellant pressure is holding up. We're tied to the ascent tanks on the RCS.
+|185:16:25|CDR-LM|Okay; 5 minutes and my -
+|185:16:28|LMP-LM|That EC - -
+|185:16:28|CDR-LM|RENDEZVOUS RADAR breaker is CLOSED.
+|185:16:35|CDR-LM|And let's go to the timeline book.
+|185:16:37|LMP-LM|Got it. Takes care of everything in here.
+|185:17:02|CDR-LM|Okay. At 2 minutes, I'll get the MASTER ARM. We already are VOX. You'll get 400 plus 1.
+|185:17:11|LMP-LM|Okay. And I'll get the camera and - -
+|185:17:13|CDR-LM|Okay. At 10 seconds, I'll hit the ABORT STAGE, followed by the ENGINE ARM to ASCENT. You get the PRO. I'll backup the start. If we don't get a start, I'll go GUIDANCE CONTROL to AGS. I'll wipe out the thrusters. I'll go AGS AUTO. And if we don't get a start, we'll back off. Okay?
+|185:17:41|LMP-LM|Okay.
+|185:17:52|LMP-LM|Houston, we have an awful lot of noise coming up.
+|185:17:57|CC|Okay, Challenger. I understand.
+|185:18:01|LMP-LM|I think we can read you, Gordy. You sound pretty good now.
+|185:18:06|CC|Roger.
+|187:18:12|PAO|Three minutes now till lift off. Everything looks good.
+|185:18:14|CDR-LM|That's VHF noise, Jack. VHF B.
+|185:18:26|LMP-LM|Okay. I can cut it out with a high squelch on Bravo.
+|185:18:33|CDR-LM|Okay, Houston. Challenger's at 2 minutes and 50 seconds.
 ||||Tape 123A/12|Page 1888
-|185:18:43|CC|Roger, Challenger - -
-|185:18:43|CDR-LM|We're GO for PGNS --
-|185:18:43|CC|Everything looks great down here.
-|185:18:43|CDR-LM|- - direct.
-|185:18:43|LMP-LM|I'm not going to be able to squelch him out any more.
-|185:18:43|CDR-LM|Okay.
-|185:18:43|LMP-LM|Turn the volume down a little bit.
-|185:19:22|CDR-LM|Reading you loud and clear, America. This is Challenger. We're coming up on 02:10 from lift-off. GOSS net 2 not used hereafter]
+|185:18:40|CC|Roger, Challenger - -
+|185:18:41|CDR-LM|We're GO for PGNS --
+|185:18:41|CC|Everything looks great down here.
+|185:18:43|CDR-LM|- - direct. Okay.
+|185:18:59|LMP-LM|I'm not going to be able to squelch him out any more.
+|185:19:01|CDR-LM|Okay.
+|185:19:03|LMP-LM|Turn the volume down a little bit.
+|185:19:12|CDR-LM|Reading you loud and clear, America. This is Challenger. We're coming up on 02:10 from lift-off.
+|185:19:24|LMP-LM|We'll be with you shortly.
+|185:19:28|CDR-LM|Okay, Jack, double check your logic power breaker.
 ||||Tape 123B/1|Page 1889
 ||||Tape 124/1|Page 1890
-|185:19:22|LMP-LM|Checked.
-|185:19:22|CDR-LM|Okay, MASTER ARM is ON. I've got two good lights
-|185:19:22|LMP-LM|Okay. My - I've got kOO plus 1 in.
-|185:19:22|CDR-LM|Okay.
-|185:19:22|LMP-LM|Hy watch is reset.
-|185:19:22|CDR-LM|Okay. You got 367. You want to pick up the camera just before I hit ABORT STAGE.
-|185:19:22|LMP-LM|One minute coming up, Gene.
-|185:19:22|CDR-LM|Take your final look at the valley of Taurus-Littrow, except from orbit. Okay, 1 minute, Houston. We're 50 seconds now, and we're GO.
-|185:19:22|CC|Roger. You're looking good here.
-|185:19:22|CDR-LM|I' 11 get that at 30.
-|185:19:22|LMP-LM|Okay.
-|185:19:22|LMP-LM|Camera - camera's not going to run without me holding it.
-|185:19:22|CDR-LM|Okay. Average g, 20 seconds.
-|185:19:22|LMP-LM|Oh, shoot I
-|185:19:22|CDR-LM|Okay. Now, let's get off. Forget the camera.
-|185:19:22|LMP-LM|Ten seconds.
-|185:19:22|CDR-LM|- - 10 seconds.
-|185:19:22|MS-LM|ABORT STAGE.
+|185:19:31|LMP-LM|Checked.
+|185:19:32|CDR-LM|Okay, MASTER ARM is ON. I've got two good lights.
+|185:19:36|LMP-LM|Okay. My - I've got 400 plus 1 in.
+|185:19:38|CDR-LM|Okay.
+|185:19:45|LMP-LM|My watch is reset.
+|185:19:55|CDR-LM|Okay. You got 367. You want to pick up the camera just before I hit ABORT STAGE.
+|185:20:18|PAO|Coining up on 1 minute, and we look good.
+|185:20:22|LMP-LM|One minute coming up, Gene.
+|185:20:26|CDR-LM|Take your final look at the valley of Taurus-Littrow, except from orbit. Okay, 1 minute, Houston. We're 50 seconds now, and we're GO.
+|185:20:41|CC|Roger. You're looking good here.
+|185:20:44|CDR-LM|I'll get that at 30.
+|185:20:46|LMP-LM|Okay.
+|185:20:59|LMP-LM|Camera - camera's not going to run without me holding it.
+|185:21:07|PAO|15 seconds.
+|185:21:09|CDR-LM|Okay. Average g, 20 seconds.
+|185:21:12|LMP-LM|Ah, shoot!
+|185:21:14|CDR-LM|Okay. Now, let's get off. Forget the camera.
+|185:21:17|LMP-LM|Ten seconds.
+|185:21:17|CDR-LM|- - 10 seconds.
+|185:21:19|LMP-LM|ABORT STAGE.
+|185:21:19|CDR-LM|ABORT STAGE.
 ||||Tape 124/2|Page 1891
-|185:21:30|CDR-LM|-- pushed. ENGINE ARM is ASCENT.
-|185:21:30|LMP-LM|Okay. I'm going to get the PRO; 99 PROCEEDED; 3, 2, 1 -
-|185:21:39|LMP-LM|IGNITION.
-|185:21:39|CDR-LM|We're on our way, Houston.
-|185:21:39|LMP-LM|Rates are good. AGS solid.
-|185:21:39|MS-LM|Pitchover!
-|185:21:39|CC|Roger. You have good thrust.
-|185:21:39|LMP-LM|Okay, 30 seconds; 308 is your number.
-|185:21:39|CDR-LM|Okay, coming through 1500 feet.
-|185:21:39|LMP-LM|And H-dot looks good.
-|185:21:39|CC|Roger. We've lost data right now, bit we - we'd like APT OMNI, AFT OMNI, please.
-|185:21:39|CDR-LM|Okay; coming up on 40 seconds. And we're GO -coming right over the top of Camelot.
-|185:21:39|CDR-LM|Awful lot of static, Jack. We break lock?
-|185:21:39|LMP-LM|Yes.
-|185:21:39|CDR-LM|Why don't you get it on an OMNI, or something?
-|185:21:39|LMP-LM|Yes, I got it. It's on the OMNI.
-|185:21:39|CDR-LM|See if you can get comm back.
-|185:21:39|LMP-LM|Hello, Houston. How do you read?
-|185:21:39|CC|Roger, Challenger. You're loud and clear, and both systems look good. You're right on the line.
-|185:21:39|LMP-LM|Okay. Should be about 145 and minus 47.
-|185:21:39|CDR-LM|See if we can get comm.
-|185:21:39|LMP-LM|I will.
+|185:21:19|CDR-LM|- - pushed. ENGINE ARM is ASCENT.
+|185:21:21|LMP-LM|Okay. I'm going to get the PRO; 99 PROCEEDED; 3, 2, 1 -
+|185:21:28|LMP-LM|IGNITION.
+|185:21:29|CDR-LM|We're on our way, Houston!
+|185:21:31|LMP-LM|Rates are good. AGS solid.
+|185:21:38|LMP-LM|Pitchover!
+|185:21:38|CDR-LM|Pitchover!
+|185:21:40|CC|Roger. You have good thrust.
+|185:21:48|LMP-LM|Okay, 30 seconds; 308's your number.
+|185:21:52|CDR-LM|Okay, coming through 1500 feet.
+|185:21:53|LMP-LM|And H-dot looks good.
+|185:21:55|CC|Roger. We've lost data right now, but we - we'd like AFT OMNI, AFT OMNI, please.
+|185:22:06|CDR-LM|Okay; coming up on 40 seconds. And we're GO - coming right over the top of Camelot.
+|185:22:13|PAO|And, we show an altitude of 2700 feet.
+|185:22:15|CDR-LM|Awful lot of static, Jack. We break lock?
+|185:21:18|LMP-LM|Yes.
+|185:21:18|CDR-LM|Why don't you get it on an OMNI, or something?
+|185:21:21|LMP-LM|Yes, I got it. It's on the OMNI.
+|185:21:22|CDR-LM|See if you can get comm back.
+|185:21:24|LMP-LM|Hello, Houston. How do you read?
+|185:21:26|CC|Roger, Challenger. You're loud and clear, and both systems look good. You're right on the line.
+|185:21:29|LMP-LM|Okay. Should be about 145 and minus 47.
+|185:21:36|PAO|Altitude 5500 feet.
+|185:21:37|CDR-LM|See if we can get comm.
+|185:21:40|LMP-LM|I will.
+|185:22:48|PAO|Both guidance systems agree, we're nearing 8000 feet altitude. Ascent engine performing very well.
 ||||Tape 124/3|Page 1892
-|185:21:39|CDR-LM|01:30, Houston. We're in the blind, and we're GO.
-|185:21:39|CC|Roger. We'd like the AGS to AUTO.
-|185:21:39|LMP-LM|Okay. I got good lock - Ho. Trying to hold.
-|185:21:39|CDR-LM|Okay, Houston; coming up on 2 minutes - -
-|185:21:39|CC|Challenger, Houston. You're GO at 2 minutes. We'd like AGS to MODE CONTROL AUTO. Over.
-|185:21:39|CDR-LM|- - Challenger is GO and coming through lUK.
-|185:21:39|LMP-LM|Okay. You watch the table, Geno.
-|185:21:39|CDR-LM|I'm watching it. Just get comm, if you can.
-|185:21:39|CC|Challenger, Houston. How do you copy Houston?
-|185:24:02|CDR-LM|Okay, Houston. Challenger's GO; coming up on 02:30. We're through 19K.
-|185:24:02|CC|Roger, Challenger. We need a 623 plus 10,000 in the AGS. Over.
-|185:24:02|LMP-LM|Well, those are the angles.
-|185:24:02|CMP-LM|How about an - an OMNI - -
-|185:24:02|LMP-LM|I've got - I tried it. I've got -
-|185:24:02|CC|Challenger, Houston. AFT OMNI, please. Would you relay, America?
-|185:24:02|CDR-LM|Okay, Houston. Three minutes, and Challenger is GO. We're through 25K.
-|185:24:02|LMP-LM|I tried it - I tried it, Ron, and it doesn't hold. It doesn't help.
-|185:24:02|CDR-LM|Try AFT OMNI again, Jack.
-|185:24:02|CC|America, Houston. Tell Challenger - -
+|185:23:02|CDR-LM|01:30, Houston. We're in the blind, and we're GO.
+|185:23:04|CC|Roger. We'd like the AGS to AUTO.
+|185:23:06|LMP-LM|Okay. I got good lock - No. Trying to hold.
+|185:23:16|CDR-LM|Okay, Houston; coming up on 2 minutes - -
+|185:23:21|CC|Challenger, Houston. You're GO at 2 minutes. We'd like AGS to MODE CONTROL AUTO. Over.
+|185:23:21|CDR-LM|- - Challenger is GO and coming through l4K.
+|185:23:33|LMP-LM|Okay. You watch the table, Geno.
+|185:23:34|CDR-LM|I'm watching it. Just get comm, if you can.
+|185:23:41|CC|Challenger, Houston. How do you copy Houston?
+|185:23:47|CDR-LM|Okay, Houston. Challenger's GO; coming up on 02:30. We're through 19K.
+|185:23:54|CC|Roger, Challenger. We need a 623 plus 10,000 in the AGS. Over.
+|185:24:04|LMP-LM|Well, those are the angles.
+|185:24:07|CMP-LM|How about an - an OMNI - -
+|185:24:08|LMP-LM|I've got - I tried it. I've got -
+|185:24:17|CC|Challenger, Houston. AFT OMNI, please. Would you relay, America?
+|185:24:22|CDR-LM|Okay, Houston. Three minutes, and Challenger is GO. We're through 25K.
+|185:24:31|LMP-LM|I tried it - I tried it, Ron, and it doesn't hold. It doesn't help.
+|185:24:36|CDR-LM|Try AFT OMNI again, Jack.
+|185:24:39|CC|America, Houston. Tell Challenger - -
 ||||Tape 124/4|Page 1893
-|185:24:02|LMP-LM|All my comm breakers are in.
-|185:24:02|CDR-LM|Try AFT OMNI again.
-|185:24:02|CC|- - that they're right on the money on trajectory; both systems are GO. Over.
-|185:24:02|CDR-LM|Okay, Houston. In the blind, Challenger's GO; coming up on 03:25 and at 30K.
-|185:24:02|CC|Okay - -
-|185:24:02|LMP-LM|There's AET. How do you read, Houston?
-|185:24:02|CC|America, would you relay to Challenger to go AFT OMNI?
-|185:24:02|LMP-LM|We are AFT OMNI. How do you read?
-|185:24:02|CMP|Okay, they are in AFT OMNI right now.
-|185:24:02|CC|Okay, America, tell Challenger - -
-|185:24:02|LMP-LM|And we're reading Houston.
-|185:24:02|CC|- - we're reading them 5 by.
-|185:24:02|LMP-LM|Okay. We're reading you, Houston.
-|185:24:02|CC|Okay, Jack - -
-|185:24:02|CMP|Okay, Challenger, America.
-|185:24:02|CC|- - we need a 623 plus 10,000. Jack, give us a 623 plus 10,000.
-|185:25:43|CDR-LM|Okay, 4 minutes. Challenger's GO. We're through 37K.
-|185:25:43|CC|Roger, Challenger. You're looking good here.
-|185:25:43|LMP-LM|Okay, that's in.
+|185:24:41|LMP-LM|All my comm breakers are in.
+|185:24:43|CDR-LM|Try AFT OMNI again.
+|185:24:43|CC|- - that they're right on the money on trajectory; both systems are GO. Over.
+|185:24:46|CDR-LM|Okay, Houston. In the blind, Challenger's GO; coming up on 03:25 and at 30K.
+|185:24:52|CC|Okay - -
+|185:24:52|LMP-LM|There's AFT. How do you read, Houston?
+|185:24:56|CC|America, would you relay to Challenger to go AFT OMNI?
+|185:25:02|LMP-LM|We are AFT OMNI. How do you read?
+|185:25:04|CMP|Okay, they are in AFT OMNI right now.
+|185:25:08|CC|Okay, America, tell Challenger - -
+|185:25:09|LMP-LM|And we're reading Houston.
+|185:25:10|CC|- - we're reading them 5 by.
+|185:25:15|LMP-LM|Okay. We're reading you, Houston.
+|185:25:17|CC|Okay, Jack - -
+|185:25:18|CMP|Okay, Challenger, America.
+|185:25:19|CC|- - we need a 623 plus 10,000. Jack, give us a 623 plus 10,000.
+|185:25:27|CDR-LM|Okay, 4 minutes. Challenger's GO. We're through 37K.
+|185:25:31|CC|Roger, Challenger. You're looking good here.
+|185:25:33|LMP-LM|Okay, that's in.
+|185:25:37|PAO|We're about 3 minutes from shutdown now.
 ||||Tape 124/5|Page 1894
-|185:25:43|CDR-LM|NOUN 37 says we got about a 07:16 burn, Jack.
-|185:25:43|CDR-LM|Okay, at 04:30, I'll be about 282 coming through 41k.
-|185:25:43|LMP-LM|Okay, 04:30. 282 is great; 4lK is great, 73 is good; AGS and PGNS are right together.
-|185:25:43|CDR-LM|Okay, Houston. Challenger is GO. We're now through 04:35-
-|185:25:43|CC|Challenger, Houston. We'd like to terminate ASCENT FEED now.
-|185:25:43|LMP-LM|Okay, MAIN SOV is going ON.
-|185:25:43|CC|And the reason is the mixture ratio problem. - -
-|185:25:43|LMP-LM|ASCENT FEED, CLOSED.
-|185:25:43|CC|- - That's just to be conservative and safe. Over
-|185:25:43|CDR-LM|Understand. And we're going 5, and we're now out of 48K.
-|185:25:43|LMP-LM|Okay, the camera's stopped.
-|185:27:01|CDR-LM|Okay, burn time's going to be about 18 or 19, 07:18 or 07:19, Jack.
-|185:27:01|LMP-LM|Okay.
-|185:27:01|LMP-LM|Okay. The AGS has us just about in plane.
-|185:27:01|CDR-LM|PGNS and AGS are looking good.
-|185:27:01|LMP-LM|A little bit north.
-|185:27:01|CDR-LM|Okay, Houston, 05:40. Challenger's coming through 52K. And PGNS says 126 on the H-dot. We're GO.
-|185:27:01|LMP-LM|AGS likes the plane.
+|185:25:38|CDR-LM|NOUN 37 says we got about a 07:16 burn, Jack.
+|185:25:47|PAO|Altitude approaching 40,000.
+|185:25:48|CDR-LM|Okay, at 04:30, I'll be about 282 coming through 41k.
+|185:25:53|LMP-LM|Okay, 04:30. 282 is great; 4lK is great, 73 is good; AGS and PGNS are right together.
+|185:26:04|CDR-LM|Okay, Houston. Challenger is GO. We're now through 43.5.
+|185:26:15|CC|Challenger, Houston. We'd like to terminate ASCENT FEED now.
+|185:26:23|LMP-LM|Okay, MAIN SOV is going ON.
+|185:26:27|CC|And the reason is the mixture ratio problem. - -
+|185:26:28|LMP-LM|ASCENT FEED, CLOSED.
+|185:26:30|CC|- - That's just to be conservative and safe. Over.
+|185:26:35|CDR-LM|Understand. And we're going 5, and we're now out of 48K.
+|185:26:44|LMP-LM|Okay, the camera's stopped.
+|185:26:46|CDR-LM|Okay, burn time's going to be about 18 or 19, 07:18 or 07:19, Jack.
+|185:26:50|LMP-LM|Okay.
+|185:26:54|PAO|About a minute and a half to go. We look good. Altitude 50,000 feet.
+|185:26:56|LMP-LM|Okay. The AGS has us just about in plane.
+|185:26:58|CDR-LM|PGNS and AGS are looking good.
+|185:26:59|LMP-LM|A little bit north.
+|185:27:02|CDR-LM|Okay, Houston, 05:40. Challenger's coming through 52K. And PGNS says 126 on the H-dot. We're GO.
+|185:27:09|LMP-LM|AGS likes the plane.
 ||||Tape 124/6|Page 1895
-|185:27:01|CC|Roger, Challenger. Your trajectory is right on the money. Both systems are GO.
-|185:27:01|CDR-LM|Get a good shutoff time now.
-|185:27:01|LMP-LM|Okay.
-|185:27:01|CDR-LM|Okay, it'll be 20 - 07:20 on the shutoff.
-|185:27:01|LMP-LM|Okay, we've already terminated ASCENT FEED. You got 1300 to go.
-|185:27:01|CDR-LM|Okay. Let's doublecheck everything now.
-|185:27:01|LMP-LM|You got that; you want - -
-|185:27:01|CDR-LM|Next move is at 200 feet. ENGINE ARM OFF with 200 to go. AGS and PGNS are right together. We got about another minute to go, Houston. And we're coming up on 57K.
-|185:27:01|CC|Roger. And we agree with the - -
-|185:27:01|LMP-LM|900 to go.
-|185:27:01|CDR-LM|... out nicely. Okay, H-dot is rourding right out to the target.
-|185:27:01|LMP-LM|700 to go.
-|185:27:01|CDR-LM|Coming up - Ñ
-|185:27:01|CC|Okay, normal shutdown and normal trim procedures
-|185:27:01|LMP-LM|Thank you.
-|185:27:01|CDR-LM|Roger. Normal shutdown, normal trim. Give me a hack at 200, Jack.
-|185:27:01|LMP-LM|Okay, it's 500 now -
-|185:28:30|LMP-LM|MARK it, and the ascent feeds are already terminated.
-|185:28:30|CDR-LM|Okay. Very good.
-|185:28:30|CDR-LM|Seven minutes, Houston. And we're passing 59 K- ¥
+|185:27:10|CC|Roger, Challenger. Your trajectory is right on the money. Both systems are GO.
+|185:27:21|CDR-LM|Get a good shutoff time now.
+|185:27:23|LMP-LM|Okay.
+|185:27:24|CDR-LM|Okay, it'll be 20 - 07:20 on the shutoff.
+|185:27:26|LMP-LM|Okay, we've already terminated ASCENT FEED. You got 1300 to go.
+|185:27:30|CDR-LM|Okay. Let's doublecheck everything now.
+|185:27:34|LMP-LM|You got that; you want - -
+|185:27:35|CDR-LM|Next move is at 200 feet. ENGINE ARM OFF with 200 to go. AGS and PGNS are right together. We got about another minute to go, Houston. And we're coming up on 57K.
+|185:27:44|PAO|Lunar module now nearing orbital velocity, about 4500 feet per second.
+|185:27:50|CC|Roger. And we agree with the - -
+|185:27:51|LMP-LM|900 to go.
+|185:27:52|CDR-LM|... out nicely. Okay, H-dot is rounding right out to the target.
+|185:27:59|LMP-LM|700 to go.
+|185:27:59|CDR-LM|Coming up -
+|185:28:01|CC|Okay, normal shutdown and normal trim procedures.
+|185:28:03|LMP-LM|Thank you.
+|185:28:06|CDR-LM|Roger. Normal shutdown, normal trim. Give me a hack at 200, Jack.
+|185:28:14|LMP-LM|Okay, it's 500 now -
+|185:28:15|LMP-LM|MARK it, and the ascent feeds are already terminated.
+|185:28:17|CDR-LM|Okay. Very good.
+|185:28:22|PAO|LM velocity now nearly a mile a second.
+|185:28:23|CDR-LM|Seven minutes, Houston. And we're passing 59K.
 ||||Tape 124/7|Page 1896
-|185:28:30|LMP-LM|300; stand by. 200 to go.
-|185:28:30|LMP-LM|MARK it.
-|185:28:47|CDR-LM|Okay, ENGINE ARM is OFF.
-|185:28:47|LMP-LM|Okay, stand by for shutdown; 80, 50 -
-|185:28:57|LMP-LM|SHUTDOWN 1
-|185:28:57|CDR-LM|Okay, AUTO shutdown - -
-|185:28:57|LMP-LM|AUTO shutdown.
-|185:28:57|CDR-LM|- - Houston, AUTO shutdown.
-|185:28:57|CC|Roger.
-|185:28:57|CDR-LM|Okay, no trim, Houston; no trim.
+|185:28:26|LMP-LM|300; stand by. 200 to go.
+|185:28:29|PAO|Coming up on shutdown.
+|185:28:32|LMP-LM|MARK it.
+|185:28:33|CDR-LM|Okay, ENGINE ARM is OFF.
+|185:28:36|LMP-LM|Okay, stand by for shutdown; 80, 50 -
+|185:28:41|LMP-LM|SHUTDOWN!
+|185:28:42|CDR-LM|Okay, AUTO shutdown - -
+|185:28:43|LMP-LM|AUTO shutdown.
+|185:28:43|CDR-LM|- - Houston, AUTO shutdown.
+|185:28:46|CC|Roger.
+|185:28:53|PAO|Flight Dynamics officer says we can expect a tweak burn to trim up the orbit.
+|185:28:55|CDR-LM|Okay, no trim, Houston; no trim.
 |185:28:57|CC|Roger. We're reading the DSKY.
-|185:28:57|CDR-LM|We're showing a 50 by 9*1-
-|185:28:57|CC|Roger. And MSFN confirms that orbit.
-|185:28:57|LMP-LM|Okay. AGS got a little bit out of plane. First one was 0900. Okay, ENGINE STOP is RESET.
-|185:28:57|CDR-LM|Get in the attitude for the tweak. Okay.
-|185:28:57|LMP-LM|Okay, AGS says it's 9-1-
-|185:28:57|CC|Challenger, Houston. There will be a tweak. Stand by for it.
-|185:28:57|LMP-LM|48 by 9.1; 49 by 9.1.
-|185:28:57|CDR-LM|Okay, that's our attitude. We're in attitude for the tweak.
-|185:28:57|CC|Okay, Challenger. Here is your tweak. Ignition is at 12 plus 12; V is a minus 4.0; Y, minus 9-0; and Z, plus 1.0. That's at 12:12; minus 4; minus 9; and plus 1.
-|185:28:57|LMP-LM|Roger. That's at 12:12; minus 4; minus 9; and plus I.
+|185:28:59|CDR-LM|We're showing a 50 by 9.1.
+|185:29:04|CC|Roger. And MSFN confirms that orbit.
+|185:29:09|LMP-LM|Okay. AGS got a little bit of out of plane. First in was 0900. Okay, ENGINE STOP is RESET.
+|185:29:28|CDR-LM|Get in the attitude for the tweak. Okay.
+|185:29:33|LMP-LM|Okay, AGS says it's 9.1.
+|185:29:44|CC|Challenger, Houston. There will be a tweak. Stand by for it.
+|185:29:50|LMP-LM|48 by 9.1; 49 by 9.1.
+|185:29:04|CDR-LM|Okay, that's our attitude. We're in attitude for the tweak.
+|185:30:08|PAO|TWEAK burn, a little less than 3 minutes from now, to put the LM in the proper orbit for the rendezvous sequence.
+|185:30:11|CC|Okay, Challenger. Here is your tweak. Ignition is at 12 plus 12; Vx is a minus 4.0; Y, minus 9.0; and Z, plus 1.0. That's at 12:12; minus 4; minus 9; and plus 1.
+|185:30:34|LMP-LM|Roger. That's at 12:12; minus 4; minus 9; and plus 1.
 ||||Tape 124/8|Page 1897
-|185:28:57|CC|That's a good readback.
-|185:28:57|CDR-LM|Okay, that's out of - Okay, at 12:12, Jack, we'll do the X, Z, Y. I'll do minus 4. Then I'll do plus 1; and then I'll get the Y. That's going to be aft, forward, and left. At 12:12, another minute.
-|185:28:57|LMP-LM|Okay.
-|185:28:57|CDR-LM|We're in the attitude; let me get - -
-|185:28:57|LMP-LM|Say again. You're going to do X and then - -
-|185:28:57|CDR-LM|- - X, Z, Y.
-|185:28:57|LMP-LM|X, Z, Y. All right. AGS is ready.
-|185:28:57|CDR-LM|Okay, we've got P47. Standing by for 12:12.
-|185:28:57|LMP-LM|Okay, it's 10 - 20 seconds away. Okay.
-|185:28:57|CDR-LM|Okay, I'm going to do X first. Okay, let's do it.
-|185:28:57|LMP-LM|Okay, you want 4. Little more. Okay?
-|185:28:57|CDR-LM|Okay, and 1 forward.
-|185:28:57|CDR-LM|Here's 1 forward; I'm going 9 left.
-|185:28:57|LMP-LM|Okay. Keep her coming, keep her coming, keep her coming, 9 left. That's it.
-|185:32:54|CDR-LM|Okay, Houston, I re -
-|185:32:54|LMP-LM|Now that's it.
-|185:32:54|CDR-LM|Let me get this in.
-|185:32:54|LMP-LM|Good, good.
-|185:32:54|CDR-LM|Okay, Houston; 4.1, 9-0, and 1.1. - -
-|185:32:54|CC|Okay, that's good.
-|185:32:54|CDR-LM|- - minus, minus, plus. Okay, 47.7 by 9*5-
+|185:30:39|CC|That's a good readback.
+|185:30:44|PAO|This will be a very small maneuver performed with the reaction control system thrusters on the Lunar Module.
+|185:30:50|CDR-LM|Okay, that's out of - Okay, at 12:12, Jack, we'll do the X, Z, Y. I'll do minus 4. Then I'll do plus 1; and then I'll get the Y. That's going to be aft, forward, and left. At 12:12, another minute.
+|185:31:03|LMP-LM|Okay.
+|185:31:05|CDR-LM|We're in the attitude; let me get - -
+|185:31:08|LMP-LM|Say again. You're going to do X and then - -
+|185:31:10|CDR-LM|- - X, Z, Y.
+|185:31:11|LMP-LM|X, Z, Y. All right. AGS is ready.
+|185:31:32|CDR-LM|Okay, we've got P47. Standing by for 12:12.
+|185:31:36|LMP-LM|Okay, it's 10 - 20 seconds away. Okay?
+|185:31:43|CDR-LM|Okay, I'm going to do X first. Okay, let's do it.
+|185:32:02|LMP-LM|Okay, you want 4. Little more. Okay?
+|185:32:09|CDR-LM|Okay, and 1 forward.
+|185:32:13|PAO|TWEAK burn is in progress.
+|185:32:21|CDR-LM|Okay. Here's 1 forward; I'm going 9 left.
+|185:32:23|LMP-LM|Okay. Keep her coming, keep her coming, keep her coming, 9 left. That's it.
+|185:32:38|CDR-LM|Okay, Houston, I read -
+|185:32:40|LMP-LM|Now that's it.
+|185:32:42|CDR-LM|Let me get this in.
+|185:32:45|LMP-LM|Good, good.
+|185:32:47|CDR-LM|Okay, Houston; 4.1, 9.0, and 1.1. - -
+|185:32:50|CC|Okay, that's good.
+|185:32:50|CDR-LM|- - minus, minus, plus. Okay, 47.7 by 9.5.
 ||||Tape 124/9|Page 1898
-|185:32:54|CC|Roger.
-|185:32:54|CDR-LM|There's those mysterious noises.
-|185:32:54|LMP-LM|Yes, that's right.
-|185:32:54|CMP|Okay, Challenger; America. I'm going to try to get the VHF ranging reset.
-|185:32:54|LMP-LM|Go ahead. We'll keep quiet.
-|185:32:54|CMP|Okay, reset - now.
-|185:32:54|CMP|That wouldn't quite do it. Let me try it again.
-|185:32:54|CC|Challenger, Houston. We'd like FORWARD OMNI.
-|185:32:54|LMP-LM|... Okay; you've got it, Houston.
-|185:32:54|CC|Okay, you're loud and clear.
-|185:34:39|LMP-LM|That sounds good on the AGS, Ron. Gene's getting lockon yet.
-|185:34:39|CMP|Okay; great.
-|185:34:39|CDR-LM|Okay, that was me, Jack. I just reset the MASTER ARM.
-|185:34:39|LMP-LM|Okay.
-|185:34:39|CDR-LM|No functions left on it, anyway.
-|185:34:39|LMP-LM|How you coming, Gene?
-|185:34:39|CDR-LM|Coming good.
-|185:34:39|LMP-LM|P20 going, huh? 26.6 breaking - -
-|185:34:39|CDR-LM|That's not supposed to take those updates. Until I tell it to.
-|185:34:39|LMP-LM|The AGS likes the tweak.
-|185:34:39|CDR-LM|Shaft and trunnion look good.
-|185:34:39|CC|Challenger, Houston - -
+|185:33:02|CC|Roger.
+|185:33:08|CDR-LM|There's those mysterious noises.
+|185:33:09|LMP-LM|Yes, that's right.
+|185:33:13|CMP|Okay, Challenger; America. I'm going to try to get the VHF ranging reset.
+|185:33:22|LMP-LM|Go ahead. We'll keep quiet.
+|185:33:24|CMP|Okay, reset - now.
+|185:33:29|PAO|And, we confirmed an orbit on the ground very closely — agrees very closely with the orbit calculated on board of 48 by 9 nautical miles.
+|185:33:45|CMP|That wouldn't quite do it. Let me try it again.
+|185:34:08|CC|Challenger, Houston. We'd like FORWARD OMNI.
+|185:34:10|LMP-LM|... 36.6 ... Okay; you've got it, Houston.
+|185:34:18|CC|Okay, you're loud and clear.
+|185:34:22|LMP-LM|That sounds good on the AGS, Ron. Gene's getting lockon yet.
+|185:34:28|CMP|Okay; great.
+|185:34:46|CDR-LM|Okay, that was me, Jack. I just reset the MASTER ARM.
+|185:34:48|LMP-LM|Okay.
+|185:34:51|CDR-LM|No functions left on it, anyway.
+|185:35:48|LMP-LM|How you coming, Gene?
+|185:35:49|CDR-LM|Coming good.
+|185:35:50|LMP-LM|P20 going, huh? 26.6 breaking - -
+|185:35:55|CDR-LM|That's not supposed to take those updates. Until I tell it to.
+|185:36:18|LMP-LM|The AGS likes the tweak.
+|185:36:22|CDR-LM|Shaft and trunnion look good.
+|185:36:25|CC|Challenger, Houston - -
 ||||Tape 124/10|Page 1899
-|185:34:39|LMP-LM|We've gone 127 miles in - 430 feet per second.
-|185:34:39|CC|- - that 6l6 should be plus four baLls 5¥ Over.
-|185:34:39|CDR-LM|Okay, Gordy. I'm s - good - good call.
-|185:34:39|CC|Thank you.
-|185:34:39|CDR-LM|Okay, America; Challenger. We've got you at 126 miles locked up hard.
-|185:34:39|CMP|Okay, I got you 125-2 miles now.
-|185:34:39|LMP-LM|You want that relay still on, Gene? We're getting a repeat on Ron.
-|185:34:39|CMP|I tell you what, I'll - let's turn the VHF off.
-|185:34:39|CDR-LM|Up to you, Ron.
-|185:34:39|CMP|Okay, I'm just going to turn the VHF off.
-|185:34:39|CC|Challenger, Houston. There will be no vector update, no PIPA update. The NOUN 1*9s you're seeing are what we expect. You can go ahead and accept them.
-|185:34:39|LMP-LM|Okay, Geno. You can - RANGE/RANGE FATE, shaft and trunnion are all GO - -
-|185:34:39|CDR-LM|Roger, Gordo.
-|185:34:39|LMP-LM|Okay, you like everything?
-|185:34:39|CDR-LM|You can start taking your marks, Jack.
-|185:34:39|LMP-LM|Okay - -
-|185:34:39|CDR-LM|The DAP is changed.
-|185:34:39|LMP-LM|** - 122. AGS like the range.
-|185:34:39|CC|Challenger, Houston. Also you're GO for APS TPI.
+|185:36:26|LMP-LM|We've gone 127 miles in - 430 feet per second.
+|185:36:27|CC|- - that 6l6 should be plus four balls 5. Over.
+|185:36:36|CDR-LM|Okay, Gordy. I'm - good - good call.
+|185:36:40|CC|Thank you.
+|185:36:41|CDR-LM|Okay, America; Challenger. We've got you at 126 miles locked up hard.
+|185:36:48|CMP|Okay, I got you 125.2 miles now.
+|185:36:55|LMP-LM|You want that relay still on, Gene? We're getting a repeat on Ron.
+|185:37:01|CMP|I tell you what, I'll - let's turn the VHF off.
+|185:37:07|CDR-LM|Up to you, Ron.
+|185:37:11|CMP|Okay, I'm just going to turn the VHF off.
+|185:37:15|CC|Challenger, Houston. There will be no vector update, no PIPA update. The NOUN 49s you're seeing are what we expect. You can go ahead and accept them.
+|185:37:28|LMP-LM|Okay, Geno. You can - RANGE/RANGE RATE, shaft and trunnion are all GO - -
+|185:37:34|CDR-LM|Roger, Gordo.
+|185:37:34|LMP-LM|Okay, you like everything?
+|185:37:36|CDR-LM|You can start taking your marks, Jack.
+|185:37:38|LMP-LM|Okay - -
+|185:37:38|CDR-LM|The DAP is changed.
+|185:37:39|LMP-LM|- - 122. AGS likes the range.
+|185:37:44|CC|Challenger, Houston. Also you're GO for APS TPI.
 ||||Tape 124/11|Page 1900
-|185:34:39|CDR-LM|Roger. GO for APS TPI. We're looking good on board.
-|185:34:39|CC|America, Houston - -
-|185:34:39|LMP-LM|Okay.
-|185:34:39|CC|- - the NOUN 49 you have there looks good to us.
-|185:34:39|LMP-LM|Okay, I checked the inverter. You can pull INVERTER 1 breaker.
-|185:38:27|CDR-LM|INVERTER 1 breaker PULLED.
-|185:38:27|CMP|I'm going to ... Okay, you want me to - you're not going to ship me a vector?
-|185:38:27|CC|Negative. No up-link for you either, Ron.
-|185:38:27|CMP|Okay.
-|185:39:21|LMP-LM|Houston, you happy with the OMNIs from the Challenger?
+|185:37:51|CDR-LM|Roger. GO for APS TPI. We're looking good on board.
+|185:38:01|CC|America, Houston - -
+|185:38:02|LMP-LM|Okay.
+|185:38:02|CC|- - the NOUN 29 you have there looks good to us.
+|185:38:07|LMP-LM|Okay, I checked the inverter. You can pull INVERTER 1 breaker.
+|185:38:10|CDR-LM|INVERTER 1 breaker PULLED.
+|185:38:12|CMP|I'm going to ... Okay, you want me to - you're not going to ship me a vector?
+|185:38:18|CC|Negative. No up-link for you either, Ron.
+|185:38:25|CMP|Okay.
+|185:39:04|LMP-LM|Houston, you happy with the OMNIs from the Challenger?
 |185:39:21|CC|That's affirmative. Keep it like it is.
 |185:39:21|LMP-LM|Okay. Terminator's coming up, Geno. We got lights and everything we need?
 |185:39:21|LMP-LM|AGS looks good.
