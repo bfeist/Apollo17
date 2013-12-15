@@ -190,4 +190,10 @@ missing audio 181:35:11 - 183:21:44
 missing television |184:41:43
 |185:13:39 - GO for lunar liftoff
 |185:21:28 - lunar liftoff ignition
+	- TODO: revisit control room audio that's attached to rover video footage in this area
 |185:28:41 - engine shutdown
+|186:10:44 - president quote (read by PAO)
+|186:54:02 - bad audio right channel begins
+|187:01:32 - "good to see you"
+|187:40:42 - president quote transmitted to crew
+|188:01:30 - Hatch open and crew meet again

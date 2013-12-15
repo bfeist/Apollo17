@@ -27317,709 +27317,752 @@
 |185:38:18|CC|Negative. No up-link for you either, Ron.
 |185:38:25|CMP|Okay.
 |185:39:04|LMP-LM|Houston, you happy with the OMNIs from the Challenger?
-|185:39:21|CC|That's affirmative. Keep it like it is.
-|185:39:21|LMP-LM|Okay. Terminator's coming up, Geno. We got lights and everything we need?
-|185:39:21|LMP-LM|AGS looks good.
-|185:39:21|CMP|Challenger, America. I don't see you in the sextant yet. But it's probably because of Sun shafting or something.
-|185:39:21|LMP-LM|Okay, anytime you want them. Okay, ready? 188?
-|185:39:21|CDR-LM|Hello, Houston. Challenger has a visual on America at about 112 miles.
-|185:39:21|CC|Okay, and America's just called. I don't know if you heard him. He hasn't got you in the sextant yet. You might check your light on. He is getting a VHF mark. Over.
-|185:39:21|CDR-LM|Okay, light is OK.
-|185:39:21|LMP-LM|Okay, 55 and 5700. That's good. That's right.
+|185:39:10|CC|That's affirmative. Keep it like it is.
+|185:39:18|LMP-LM|Okay. Terminator's coming up, Geno. We got lights and everything we need?
+|185:39:31|PAO|This is Apollo control. We show the lunar module, Challenger, in an orbit of 47.9 by 9.3 nautical miles now. The CSM in a nearly circular 62 nautical mile orbit. The flight dynamics officer at this time is working up the information that will be used by the lunar module crew in their terminal phase initiation maneuver that puts the lunar module on an intersecting orbit with the command module to be performed with the ascent propulsion system engine.
+|185:40:00|LMP-LM|AGS looks good.
+|185:40:02|CMP|Challenger, America. I don't see you in the sextant yet. But it's probably because of Sun shafting or something.
+|185:40:33|LMP-LM|Okay, anytime you want them. Okay, ready? 188?
+|185:40:44|CDR-LM|Hello, Houston. Challenger has a visual on America at about 112 miles.
+|185:40:50|CC|Okay, and America's just called. I don't know if you heard him. He hasn't got you in the sextant yet. You might check your light on. He is getting VHF marks. Over.
+|185:41:02|CDR-LM|Okay, light is ON.
+|185:41:08|LMP-LM|Okay, 55 and 5700. That's good. That's right.
+|185:41:18|PAO|That was Jack Schmitt confirming visual acquisition of the Command Module about 112 miles away.
 ||||Tape 124/12|Page 1901
-|185:39:21|LMP-LM|The AGS saw that out of plane, Geno.
-|185:39:21|CC|Challenger, this is Houston. I have a MSFN TPI for you.
-|185:39:21|LMP-LM|Go ahead.
-|185:39:21|CC|Okay. DELTA-V is a plus 74.0; Y, olus 3-9; and -A
-|185:39:21||Z, plus 9*0. DELTA-V total is 74.7- And, for once, they didn't give us the braking, Jack.
-|185:39:21|LMP-LM|(Laughter) Okay, plus 74.0, plus 3.9, plus 9-0, and total 74.0.
-|185:39:21|CC|That total is 74.7*
-|185:39:21|LMP-LM|Sorry. Okay, 74.7-
-|185:39:21|LMP-LM|I'm working on my third mark.
-|185:39:21|CDR-LM|And, Houston; Challenger. I still have a visual on America.
-|185:39:21|CC|Okay. I'm sure Ron's problem is he is looking into the Sun.
-|185:39:21|CDR-LM|That's right because he's sunlit up there.
-|185:39:21|CMP|Oh, you are correct, Houston.
-|185:39:21|CC|Challenger, we'd like AFT OMNI now.
-|185:39:21|LMP-LM|Okay, going AFT.
-|185:44:56|CMP-LM|America, how do you read Challenger?
-|185:44:56|LMP-LM|He's not - he's turned his VHF off. You want it on?
-|185:44:56|CMP|I'm reading you relay now, Challenger. This is America.
-|185:44:56|CDR-LM|Okay, that's fine, Ron.
-|185:44:56|CMP|Let me know when you want a voice - VH? voice check, there, and we'll make sure we go to VHF.
+|185:42:02|LMP-LM|The AGS saw that out of plane, Geno.
+|185:42:37|CC|Challenger, this is Houston. I have a MSFN TPI for you.
+|185:42:44|LMP-LM|Go ahead.
+|185:42:46|CC|Okay. DELTA-V is a plus 74.0; Y, plus 3.9; and Z, plus 9.0. DELTA-V total is 74.7. And, for once, they didn't give us the braking, Jack.
+|185:43:10|LMP-LM|(Laughter) Okay, plus 74.0, plus 3.9, plus 9.0, and total 74.0.
+|185:43:24|CC|That total is 74.7.
+|185:43:30|LMP-LM|Sorry. Okay, 74.7.
+|185:44:06|LMP-LM|I'm working on my third mark.
+|185:44:08|CDR-LM|And, Houston; Challenger. I still have a visual on America.
+|185:44:13|CC|Okay. I'm sure Ron's problem is he is looking into the Sun.
+|185:44:19|CDR-LM|That's right because he's sunlit up there.
+|185:44:21|CMP|Oh, you are correct, Houston.
+|185:44:23|CC|Challenger, we'd like AFT OMNI now.
+|185:44:29|LMP-LM|Okay, going AFT.
+|185:44:38|CMP-LM|America, how do you read Challenger?
+|185:44:40|LMP-LM|He's not - he's turned his VHF off. You want it on?
+|185:44:47|CMP|I'm reading you relay now, Challenger. This is America.
+|185:44:52|CDR-LM|Okay, that's fine, Ron.
+|185:45:00|CMP|Let me know when you want a voice - VHF voice check, there, and we'll make sure we go to VHF.
 ||||Tape 124/13|Page 1902
-|185:44:56|LMP-LM|Okay. And we're holding you at 93 miles right now.
-|185:44:56|CMP|Roger. That'd be about 92.7 > which is probably the delay.
-|185:44:56|CDR-LM|Okay, and you just went into darkness up there. I lost you.
-|185:44:56|CMP|Should be able to see you now, then.
-|185:44:56|CDR-LM|Yes, we're also in darkness.
-|185:44:56|CMP|You sure you got your tracker light on?
-|185:44:56|CDR-LM|That's affirm. I can see it flashing. We do have our tracker light on.
-|185:44:56|LMP-LM|See it flashing?
-|185:44:56|CDR-LM|Yes, I see a reflection on - -
-|185:44:56|CMP|Oh, I see it. Hey, I can't see you in the telescope, but I got you right in the sextant.
-|185:44:56|CDR-LM|Good. Outstanding, Babe.
-|185:44:56|LMP-LM|I got it. ...
-|185:44:56|CC|Challenger, Houston. No update on your LM weight.
-|185:44:56|CDR-LM|Okay; understand. No update on the weight.
-|185:44:56|CMP|And, Houston, I'm going to accept that because he was about 1 degree - almost to the edge of the sextant.
-|185:47:25|LMP-LM|Houston, can you tell Challenger what's wrong with our high gain?
-|185:47:25|CC|Stand by, Challenger. For America, go ahead and accept that one.
-|185:47:25|CMP|Okay, brought him right in - This is America -brought him right into the center.
-|185:47:25|CC|Challenger, Houston. Jack - -
+|185:45:08|LMP-LM|Okay. And we're holding you at 93 miles right now.
+|185:45:14|CMP|Roger. That'd be about 92.7, which is probably the delay.
+|185:45:24|CDR-LM|Okay, and you just went into darkness up there. I lost you.
+|185:45:37|CMP|Should be able to see you now, then.
+|185:45:43|CDR-LM|Yes, we're also in darkness.
+|185:45:45|CMP|You sure you got your tracker light on?
+|185:45:49|CDR-LM|That's affirm. I can see it flashing. We do have our tracker light on.
+|185:45:56|LMP-LM|See it flashing?
+|185:45:57|CDR-LM|Yes, I see a reflection on - -
+|185:46:05|CMP|Oh, I see it. Hey, I can't see you in the telescope, but I got you right in the sextant.
+|185:46:12|CDR-LM|Good. Outstanding, Babe.
+|185:46:19|LMP-LM|I got it. ...
+|185:46:26|CC|Challenger, Houston. No update on your LM weight.
+|185:46:34|CDR-LM|Okay; understand. No update on the weight.
+|185:46:53|CMP|And, Houston, I'm going to accept that because he was about 1 degree - almost to the edge of the sextant.
+|185:47:07|LMP-LM|Houston, can you tell Challenger what's wrong with our high gain?
+|185:47:12|CC|Stand by, Challenger. For America, go ahead and accept that one.
+|185:47:19|CMP|Okay, brought him right in - This is America - brought him right into the center.
+|185:47:39|CC|Challenger, Houston. Jack - -
 ||||Tape 124/14|Page 1903
-|185:47:25|LMP-LM|Okay, Houston - -
-|185:47:25|CC|- - if you have a free moment, you might try the steerable again: PITCH, 120; YAW, minus 70.
-|185:47:25|LMP-LM|Okeydoke, Gordy; 120 and minus 70.
-|185:47:25|LMP-LM|And - Okay, Houston, that's AUTO or. the HIGH GAIN. How do you read?
-|185:47:25|CC|Jack, you're loud and clear. Looks good.
-|185:49:57|LMP-LM|Gordy, I don't know what broke lock. Did you read us all through ascent? We had some up-link signal strength.
-|185:49:57|CC|That's affirmative. We read you loud and clear all the way. We haven't figured it out either.
-|185:49:57|LMP-LM|Okay, we had a loud up-link squeal - -
-|185:49:57|CC|Roger.
-|185:49:57|LMP-LM|- - on all - on OMNIs - on ommis as well as high gain.
-|185:49:57|CC|Roger.
-|185:49:57|CDR-LM|That's steerable.
-|185:49:57|LMP-LM|Excuse me.
-|185:49:57|CDR-LM|Okay, Gordy, Challenger's state vector is locked in with the raw data. We've got 12 marks going for us now.
-|185:49:57|CC|Roger.
-|185:49:57|CDR-LM|And, Houston, could we have an LOS time, please?
-|185:49:57|CC|Yes. Stand by.
-|185:49:57|CC|Challenger, LOS should be 188:51:15.
-|185:49:57|CDR-LM|Roger. 51:15-
-|185:52:18|CDR-LM|America, Challenger. We got you now just under 72 miles, and we're 279 feet per second closing.
+|185:47:42|LMP-LM|Okay, Houston - -
+|185:47:42|CC|- - if you have a free moment, you might try the steerable again: PITCH, 120; YAW, minus 70.
+|185:47:56|LMP-LM|Okeydoke, Gordy; 120 and minus 70.
+|185:48:29|LMP-LM|Okay, Houston, that's AUTO or. the HIGH GAIN. How do you read?
+|185:48:33|CC|Jack, you're loud and clear. Looks good.
+|185:48:38|LMP-LM|Gordy, I don't know what broke lock. Did you read us all through ascent? We had some up-link signal strength.
+|185:48:46|CC|That's affirmative. We read you loud and clear all the way. We haven't figured it out either.
+|185:48:54|LMP-LM|Okay, we had a loud up-link squeal - -
+|185:48:58|CC|Roger.
+|185:48:58|LMP-LM|- - on all - on OMNIs - on OMNIs as well as high gain.
+|185:49:04|CC|Roger.
+|185:49:04|CDR-LM|That's steerable.
+|185:49:06|LMP-LM|Excuse me.
+|185:49:08|CDR-LM|Okay, Gordy, Challenger's state vector is locked in with the raw data. We've got 12 marks going for us now.
+|185:49:16|CC|Roger.
+|185:49:29|CDR-LM|And, Houston, could we have an LOS time, please?
+|185:49:33|CC|Yes. Stand by.
+|185:49:54|CC|Challenger, LOS should be 188:51:15.
+|185:50:04|CDR-LM|Roger. 51:15.
+|185:50:44|PAO|This is Apollo Control. We now show America leading Challenger by about 78 nautical miles. The two vehicles closing at about 300 feet per second. And we have about 21 minutes now remaining before we lose contact with the Command Module and we'll lose the LM, which is in a lower orbit 1 minute earlier than that. Shortly after disappearing behind the Moon and shortly after we lose radio contact with the two vehicles, they'll be performing the terminal phase initiate maneuver from the Lunar Module. That will be a burn using the ascent propulsion system engine, a 3500 pound thrust engine imparting an increase in velocity about 74.7 feet per second. This maneuver will place the LM on an intersecting trajectory with the CSM for rendezvous.
+|185:51:59|CDR-LM|America, Challenger. We got you now just under 72 miles, and we're 279 feet per second closing.
 ||||Tape 124/15|Page 1904
-|185:52:18|CMP|Okay, got you 71 miles.
-|185:52:18|CMP|Hello, Challenger; America. You still there? I lost all my noise.
-|185:52:18|CDR-LM|Affirmed* We're still here. And, Ron, that ... is coming right up the pike.
-|185:52:18|CC|Challenger, Houston. For your information, the out-of-plane difference that we - that you probably saw there during ascent was - we think -in the PGNS. The AC-S is okay. There's probably a slight ... In the PGNS.
-|185:52:18|CDR-LM|Okay, Gordy. Understand.
-|185:52:18|CC|Challenger and America, Houston. If that noise, which is due to low signal strength on America, is bothering anyone, we could break down the relay and let you talk to each other VHF. Over.
-|185:52:18|CDR-LM|Yes, sir, Houston. This is Challenger. Let's break down the relay. And, America, let's go VHF.
-|185:52:18|CC|Okay.
-|185:52:18|CMP|Okay, America. I'm on VHF.
-|185:52:18|CMP|Okay; good.
-|185:52:18|CDR-LM|Okay, Houston. We have America on VHF.
-|185:52:18|CC|Roger.
-|185:52:18|CMP|I still got your echo there, Challenger. This is America.
-|185:52:18|CDR-LM|Okay.
-|185:52:18|LMP-LM|Gordy, you want to give us an explanation of the ascent engine mixture ratio problem.
-|185:52:18|CC|Let me get that story myself. We're still looking at the data. I'll try to have one for you before we lose you — at least the next time around, we will.
+|185:52:10|CMP|Okay, got you 71 miles.
+|185:53:07|CMP|Hello, Challenger; America. You still there? I lost all my noise.
+|185:53:13|CDR-LM|Affirm. We're still here. And, Ron, that ... is coming right up the pike.
+|185:53:34|CC|Challenger, Houston. For your information, the out-of-plane difference that we - that you probably saw there during ascent was - we think, in the PGNS. The AGS is okay. There's probably a slight ... in the PGNS.
+|185:53:51|CDR-LM|Okay, Gordy. Understand.
+|185:54:05|CC|Challenger and America, Houston. If that noise, which is due to low signal strength on America, is bothering anyone, we could break down the relay and let you talk to each other VHF. Over.
+|185:54:19|CDR-LM|Yes, sir, Houston. This is Challenger. Let's break down the relay. And, America, let's go VHF.
+|185:54:25|CC|Okay.
+|185:54:27|CMP|Okay, America. I'm on VHF.
+|185:54:36|CMP|Okay; good.
+|185:54:42|CDR-LM|Okay, Houston. We have America on VHF.
+|185:54:46|CC|Roger.
+|185:54:53|CMP|I still got your echo there, Challenger. This is America.
+|185:55:04|CDR-LM|Okay.
+|185:55:09|LMP-LM|Gordy, you want to give us an explanation of the ascent engine mixture ratio problem.
+|185:55:18|CC|Let me get that story myself. We're still looking at the data. I'll try to have one for you before we lose you, at least the next time around we will.
 ||||Tape 124/16|Page 1905
-|185:52:18|LMP-LM|Okay. Yes. Go ahead. Go ahead. How many marks you got? 35-5- Okay. Go ahead. Go. Go.
-|185:56:30|LMP-LM|Well, not very in Z; 15 feet per second difference But it agrees with the AGS, if that makes you feel any better.
-|185:56:30|CDR-LM|Hello, Houston. You were looking e,t our NOUN 8ls on the recycle. That's 17 marks.
-|185:56:30|CC|Roger, Challenger. And what it was on the APS there, we saw an indication, probably due to a temperature shift, which was a possible indication of unbalance in propellant usage there. And it was sort of confirmed by an increase in the roll moment offset, so we just played the conservative thing and terminated ascent feed.
-|185:56:30|LMP-LM|Okay, Gordy. Thank you. I was just curious exactly what it was.
-|185:56:30|CC|Okay, and it's no problem for our TPI on the APS.
-|185:57:56|LMP-LM|Understand.
-|185:57:56|CMP|Okay, Challenger; America. I got tie NOUN 8l for you to recycle.
-|185:57:56|LMP-LM|Okay.
-|185:57:56|CMP|I agree with you pretty well.
-|185:57:56|LMP-LM|Outstanding.
-|185:57:56|CMP|Well, I say TPI is about 4.9, off 5 feet per second.
-|185:57:56|CC|America, Houston. Let's try the HIGH GAIN: PITCH, 0; YAW, 30; MANUAL and WIDE and leave it in MANUAL.
-|185:57:56|CMP|Hey, relay to me. I can't hear then, Challenger. Can you do that?
-|185:57:56|CC|Challenger, Houston - -
+|185:55:30|LMP-LM|Okay. Yes. Go ahead. Go ahead. How many marks you got? 35.5. Okay. Go ahead. Go. Go.
+|185:56:11|LMP-LM|Well, not very in Z; 15 feet per second difference But it agrees with the AGS, if that makes you feel any better.
+|185:56:22|CDR-LM|Hello, Houston. You were looking at our NOUN 8ls on the recycle. That's 17 marks.
+|185:56:28|CC|Roger, Challenger. And what it was on the APS there, we saw an indication, probably due to a temperature shift, which was a possible indication of unbalance in propellant usage there. And it was sort of confirmed by an increase in the roll moment offset, so we just played the conservative thing and terminated ascent feed.
+|185:56:59|LMP-LM|Okay, Gordy. Thank you. I was just curious exactly what it was.
+|185:57:05|CC|Okay, and it's no problem for our TPI on the APS.
+|185:57:12|LMP-LM|Understand.
+|185:57:36|CMP|Okay, Challenger; America. I got some NOUN 8l for you to recycle.
+|185:57:43|LMP-LM|Okay.
+|185:57:47|CMP|I agree with you pretty well.
+|185:58:00|LMP-LM|Outstanding.
+|185:58:11|CMP|Well, I say TPI is about 4.9, or 5 feet a second.
+|185:58:19|CC|America, Houston. Let's try the HIGH GAIN: PITCH, 0; YAW, 30; MANUAL and WIDE and leave it in MANUAL.
+|185:58:32|CMP|Hey, relay to me. I can't hear then, Challenger. Can you do that?
+|185:58:45|CC|Challenger, Houston - -
 ||||Tape 124/17|Page 1906
-|185:57:56|CMP|That's all right. I'll get them.
-|185:57:56|LMP-LM|Go ahead, Houston. This is Challenger.
-|185:57:56|CC|Okay, would you relay to America to try the HIGH GAIN: PITCH, 0; YAW, 30; MANUAL and WIDE.
-|185:57:56|LMP-LM|You want PITCH, 0; YAW at 30; MANUAL and WIDE. That's pitch, 0, yaw 30; MANUAL and WIDE.
-|185:57:56|CC|Yes, that's affirmative.
-|185:57:56|CMP|Okay, I got them.
-|185:57:56|LMP-LM|Okay. He's working at it.
-|185:57:56|CMP|It doesn't work. B is better than that. There's OMNI A; how's that?
-|185:57:56|CC|Challenger, Houston. Over.
-|185:57:56|CMP|Houston, America. How do you read me?
-|186:00:54|LMP-LM|Go ahead, Houston. This is Challenger,
-|186:00:54|CC|Okay. Stand by, America. We just barely read you. Go ahead.
-|186:00:54|CMP|Okay, just a second. I can read you loud and clear now.
-|186:00:54|CC|Okay, you're readable. For Challenger, the MSFN Z was kind of weak. We're expecting more like a plus 20 for the DELTA-V solution for TPI, and Zi that's what all the airborne systems seem to be converging on. Over.
-|186:00:54|CDR-LM|That sounds right. We prepared that way up here. Glad to hear that. Thank you.
-|186:00:54|CC|Roger.
+|185:58:45|CMP|That's all right. I'll get them.
+|185:58:50|LMP-LM|Go ahead, Houston. This is Challenger.
+|185:58:52|CC|Okay, would you relay to America to try the HIGH GAIN: PITCH, 0; YAW, 30; MANUAL and WIDE.
+|185:59:02|LMP-LM|You want PITCH, 0; YAW at 30; MANUAL and WIDE. That's pitch, 0, yaw 30; MANUAL and WIDE.
+|185:59:11|CC|Yes, that's affirmative.
+|185:59:13|CMP|Okay, I got it.
+|185:59:17|LMP-LM|Okay. He's working at it.
+|185:59:20|CMP|It doesn't work. B is better than that. There's OMNI A; how's that?
+|185:59:29|PAO|This is Apollo Control at 188 hours 39 minutes. The noise we're getting on the communications circuits right now is coming from the CSM link and we hope to improve that by getting the Command Module in operation on it's high gain antenna, which will increase our signal strengths and should cut down the noise quite a bit.
+|186:00:28|CC|Challenger, Houston. Over.
+|186:00:29|CMP|Houston, America. How do you read?
+|186:00:33|LMP-LM|Go ahead, Houston. This is Challenger,
+|186:00:35|CC|Okay. Stand by, America. We just barely read you. Go ahead.
+|186:00:42|CMP|Okay, just checking. I can read you loud and clear now.
+|186:00:45|CC|Okay, you're readable. For Challenger, the MSFN Z was kind of weak. We're expecting more like a plus 20 for the DELTA-Vz solution for TPI, and that's what all the airborne systems seem to be converging on. Over.
+|186:01:05|CDR-LM|That sounds right. We prepared that way up here. Glad to hear that. Thank you.
+|186:01:10|CC|Roger.
+|186:01:19|PAO|The numbers that the crew aboard Challenger will use for the TPI or Terminal Phase Initiate maneuver are generated on board. The numbers from the ground are used as backup.
+|186:01:29|CDR-LM|And, Houston, Challenger. We're plotting them right on the black line. Coming right up the pike.
 ||||Tape 124/18|Page 1907
-|186:00:54|CC|Okeydoke. Sounds great.
-|186:00:54|CMP|Okay, Challenger; America. I got you 49 miles now. Okay?
-|186:00:54|CMP|Okay. I'll check it again pretty quick, but I had the running lights and the rendezvous light on.
-|186:00:54|CC|Challenger, this is Houston. If yojl lose the steerables ... blockage, go to APT OMNI.
-|186:00:54|LMP-LM|Roger.
-|186:03:43|CMP|Okay, Challenger; America. They're both checked on. I'm going to check the circuit breakers.
-|186:03:43|CDR-LM|Yes. They are both IN, and I - I just started picking you up in the telescope.
-|186:03:43|CMP|(Laughter) You're going to sleep with them. They're too big.
-|186:03:43|CMP|(Laughter) I don't care what you look like; come on back. I was going to shave and look nice for you, but I didn't have time to shave either. So - (laughter)
-|186:03:43|CMP|Yes, I heard you lost a couple fenders or something.
-|186:07:10|CMP|I'm with you. I'm already in final comm.
-|186:07:10|CDR-LM|Okay, ...
-|186:07:10|CMP|Your what?
-|186:07:10|CMP|Well, let me doublecheck it. 188: 5!; : 57*00 .
-|186:07:10|CMP|We're lucky. (Laughter)
-|186:07:10|CMP|That's right.
-|186:07:10|CMP|Okay, you ready to copy my NOUN 8ls?
+|186:01:36|CC|Okeydoke. Sounds great.
+|186:01:47|CMP|Okay, Challenger; America. I got you 49 miles now. Okay?
+|186:01:54|PAO|Challenger's radar shows the LM now 49 miles behind the CSM, closing at the rate of 178 feet per second. And we have about 10 minutes now until loss of radio contact as the vehicles go behind the Moon. About 13 minutes 25 seconds until TPI initiate.
+|186:02:31|CMP|Okay. I'll check it again pretty quick, but I had the running lights and the rendezvous light on.
+|186:02:48|CC|Challenger, this is Houston. If you lose the steerables ... blockage, go to AFT OMNI.
+|186:02:58|LMP-LM|Roger.
+|186:03:22|CMP|Okay, Challenger; America. They're both checked on. I'm going to check the circuit breakers.
+|186:03:37|CDR-LM|Yes. They are both IN, and I - I just started picking you up in the telescope.
+|186:04:09|CMP|(Laughter) You're going to sleep with them. They're too big.
+|186:04:20|CMP|(Laughter) I don't care what you look like; come on back. I was going to shave and look nice for you, but I didn't have time to shave either. So - (laughter)
+|186:04:46|PAO|That's Ron Evans aboard America that we're hearing right now.
+|186:04:53|CMP|Yes, I heard you lost a couple fenders or something.
+|186:06:48|CMP|I'm with you. I'm already in final comm.
+|186:06:52|CDR-LM|Okay, Houston ...
+|186:06:57|CMP|Your what?
+|186:06:59|CDR-LM|... ETA ...
+|186:07:05|CMP|Well, let me doublecheck it. 188:55:57.00.
+|186:07:12|CDR-LM|Beautiful.
+|186:07:13|CMP|We're lucky. (Laughter)
+|186:07:19|CMP|That's right.
+|186:07:20|CDR-LM|...
+|186:07:27|CMP|Okay, you ready to copy my NOUN 8ls?
 ||||Tape 124/19|Page 1908
-|186:07:10|CDR-LM|Go ahead.
-|186:07:10|CMP|Minus 75-95 minus 4.8 - -
-|186:07:10|CC|Challenger, Houston. We'd like APT OMNI now.
-|186:07:10|CMP|- - and Z is a minus 17-6.
-|186:07:10|CMP|Okay, copy correctly. I'll maneuver to TPI attitude.
-|186:07:10|CC|America, Houston. We'd like NARROW and REACQ on the HIGH GAIN.
-|186:07:10|CC|Challenger, Houston. We see you heading toward gimbal lock. Over.
-|186:10:06|CDR-LM|No, you don't. I'm just rolling - yawing.
-|186:10:06|CC|Okay, let me check back on that call; sorry.
-|186:10:06|CDR-LM|Yes, this is Just normal procedure. I'm rolling l80.
-|186:10:06|CC|Okay, we're about 2 minutes to LOS. All the solutions look good to us. I guess, if we apply the voting logic, we go with the PGNS. Over.
-|186:10:06|CDR-LM|Okay, we've already decided that we are going to go with the PGNS. All the solutions look good on our onboard comparison, Gordo.
-|186:10:43|CC|Roger.
+|186:07:31|CDR-LM|Go ahead.
+|186:07:32|CMP|Minus 75.9 minus 4.8 - -
+|186:07:35|CC|Challenger, Houston. We'd like AFT OMNI now.
+|186:07:47|CMP|- - and Z is a minus 17.6.
+|186:08:05|CMP|Okay, copy correctly. I'm going to maneuver to TPI attitude.
+|186:08:23|CC|America, Houston. We'd like NARROW and REACQ on the HIGH GAIN.
+|186:09:37|CC|Challenger, Houston. We see you heading toward gimbal lock. Over.
+|186:09:44|CDR-LM|No, you don't. I'm just rolling - yawing.
+|186:09:51|CC|Okay, let me check back on that call; sorry.
+|186:09:56|CDR-LM|Yes, this is just normal procedure. I'm rolling l80.
+|186:10:01|CC|Okay, we're about 2 minutes to LOS. All the solutions look good to us. I guess, if we apply the voting logic, we go with the PGNS. Over.
+|186:10:13|CDR-LM|Okay, we've already decided that we are going to go with the PGNS. All the solutions look good on our onboard comparison, Gordo.
+|186:10:21|CC|Roger.
 |186:10:43||BEGIN LUNAR REV 52
+|186:10:44|PAO|This is Apollo control. We've had loss of signal now from the LM and about 1 more minute we'll lose contact with Ron Evans aboard the Command Module, America. As the two vehicles go behind the Moon on the 51st revolution. Challenger, will be performing the terminal phase initiation maneuver in about 4 minutes 30 seconds. This maneuver computed onboard and their time of ignition and Ground Elapsed Time will be 188 hours 55 minutes 57 seconds. This burn again performed with the ascent propulsion system engine a very short burn between 2 and 3 seconds in duration. And when last we had data from the lunar module radar it showed Challenger 39 miles behind America closing at a rate of about a hundred feet per second. And we've had loss of signal now from the Command Module. We'll be reacquireing vehicles in about 45 minutes. And at that time Challenger should be closing with America going through the final breaking prior to station keeping leading up to docking. The following is a statement from the President of the United Stated of America. "As the Challenger leaves the surface of the Moon we are conscience not of what we leave behind, but of what lies before us. The dreams that draw humanity forward seem always to be redeemed if we believe in them strongly enough and pursue them with diligence and courage. Once we stood
+mystified by the stars today we reach up to them. we do this not only because it is man's destiny to dream the impossible, to dare the impossible and to do the impossible. But also, because in space as on Earth, there are new answers and new opportunities for the improvement and the enlargement of human existance. This may be the last time in this century that men will walk on the Moon, but space exploration will continue. The benefits of space exploration will continue. The search for knowledge through the exploration of space will continue, and there will be new dreams to pursue based on what we have learned. So let us not mistake the significance nor miss the majesty of what we have witnessed. Few events have ever marked so clearly the passage of history from one epoch to another. If we understand this about the last flight of Apollo then truly we shall have touched a many splendored thing. To Gene Cernan, Jack Schmitt and Ronald Evans we say Godspeed, and safely back to this good Earth." This statement will be available in the MSC news center.
+|186:18:15|PAO|This is Apollo Control at 188 hours 59 minutes. About 2 minutes 45 seconds ago, Challenger should have performed the Terminal Phase Initiation maneuver that will put the LM on an intersecting trajectory with the Command Module. We would like to recapitulate the lunar liftoff which was nearly normal in all respects. The liftoff occurred at Ground Elapsed Time of 188 hours 1 minute 36 seconds and shutdown occurred 7 minutes 20 seconds, both as predicted. The onboard guidance system, the primary guidance system of the LM calculated an initial orbit of 48 by 9 nautical miles. Correction of 50 by 9 nautical miles, and on the ground we calculated an orbit agreeing very closely with that of 48 by 9. The CSM at this time in an orbit 62 nautical miles circular, nearly circular. There was a period of time during the early phase of the liftoff, at pitchover, which occurs at about 10 seconds, when we lost tracking data. This loss of data lasted for about 3 minutes. Now later in the powered ascent, there was a period of time where the crew aboard Challenger was not receiving voice communications from the Control Center, although we were receiving communications from the LM and we were relaying messages through the Command Module to the Lunar Module. And we don't have an assessment of what caused that problem at this time. We expect to get further information on that later. We'll be reacquiring the vehicles in about 35 minutes as they come back around on the front side of the Moon on the 52nd revolution for the Command Module, America. At 189 hours 1 minute, this is Apollo Control, Houston.
+|||APOLLO 17 MISSION COMMENTARY 12/14/72 CST 18:27 GET 189:33 MC-761/1
+|186:54:02|PAO|This is Apollo Control at 189 hours, 34 minutes. We're about 2 minutes now from reacquiring the spacecraft, America and Challenger. At the time we reacquire, the two vehicles should be about 7 miles apart with Challenger behind and below the Command Module, closing at the rate of about 5 feet per second. As they pass out over the front side of the Moon, approaching the landing site at about 190 hours Ground Elapsed Time, they should be in position for docking. And we expect to have television of that event. Docking is unlike some trajectory events not constrained to occur at a specific time, but depends on when the crew feels that they have everything aligned up properly and in a position to move in and dock. But we would expect that we would be fairly close to that time of 190 hours Ground Elapsed Time.
 ||||Tape 125/1|Page 1909
-|186:10:43|CC|Roger, America. You're loud and clear.
-|186:10:43|CMP|Okay. Do you have him on the tube?
-|186:10:43|CC|Not yet, Ron. I'll let you know.
-|186:10:43|CMP|Okay.
-|186:10:43|CDR-LM|Okay, Houston, we're reading you loud and clear. We're at 1 mile and I just broke into 30 feet per second. TPI was nominal.
-|186:10:43|CC|Okay, Challenger. That's good news.
-|186:10:43|CDR-LM|Okay. And the midcourses were all less than 1.6 feet per second, and we're at 0.8 miles now - 5000 feet.
-|186:10:43|CC|Roger.
-|186:10:43|CDR-LM|Okay, our next breaking gate is at 3000 feet.
-|186:10:43|CDR-LM|Ron, I've got a platform. I can see the command and service module now.
-|186:10:43|CMP|Okay.
-|186:10:43|CDR-LM|We're at 420C feet - 30 feet per second. And inertial line of sights are both zero.
-|186:10:43|CC|America and Challenger, this is Houston. We've got a good picture of the Challenger coming up from the surface of the Moon.
-|186:10:43|CMP|(Laughter) it's coming straight up, all right.
-|186:10:43|CDR-LM|Okay, Ron. Coming up to 3000 feet. I'm going to brake off to 20.
-|186:10:43|CMP|Okay.
+|186:56:22|CMP|Okay, Houston, America here.
+|186:56:27|CC|Roger, America. You're loud and clear.
+|186:56:33|CMP|Okay. Do you have him on the tube?
+|186:56:37|CC|Not yet, Ron. I'll let you know.
+|186:56:41|PAO|And we have a good television picture.
+|186:56:41|CMP|Okay.
+|186:56:43|CDR-LM|Okay, Houston, we're reading you loud and clear. We're at 1 mile and I just broke into 30 feet per second. TPI was nominal.
+|186:56:54|CC|Okay, Challenger. That's good news.
+|186:56:59|CDR-LM|Okay. And the midcourses were all less than 1.6 feet per second, and we're at 0.8 miles now - 5000 feet.
+|186:57:10|CC|Roger.
+|186:57:20|CDR-LM|Okay, our next breaking gate is at 3000 feet.
+|186:57:25|CDR-LM|Ron, I've got a platform. I can see the Command and Service Module now.
+|186:57:31|CMP|Okay.
+|186:57:34|CDR-LM|We're at 4200 feet - 30 feet per second. And inertial line of sights are both zero.
+|186:57:44|CC|America and Challenger, this is Houston. And, we've got a good picture of the Challenger coming up from the surface of the Moon.
+|186:57:55|CMP|(Laughter) it's coming straight up, all right.
+|186:58:05|CDR-LM|Okay, Ron. Coming up to 3000 feet. I'm going to brake off to 20.
+|186:58:09|CMP|Okay.
 ||||Tape 125/2|Page 1910
-|186:10:43|CDR-LM|Hold on; here we go.
-|186:10:43|CDR-LM|And we're 2500 feet and 20.7 feet per second. Fifteen on 110.
-|186:58:33|CDR-LM|Got you centered in the needles, Ror..
-|186:58:33|CMP|Okay. You're looking good.
-|186:58:33|CDR-LM|Coming up right at - you at - under 114 -116 degrees. 1900 feet, 20 feet per second.
-|186:58:33|CMP|Okay. Quarter of a mile, I got you.
-|186:58:33|CDR-LM|I can see your thrusters firing now, Ron. We're at 1500 feet braking.
-|186:58:33|CMP|Okay.
-|186:59:31|CDR-LM|Okay, Ron. We're at 1200 feet and 8.8 feet per second.
-|186:59:31|CMP|Okay, that's about right. Concur.
-|186:59:31|CDR-LM|Yes, you do have a stub of an antenna out there on the same side that the VHF antenna's on.
-|186:59:31|CMP|Yes, how far is it sticking out?
-|186:59:31|CDR-LM|I can't tell yet, but about - from where I am, about a third of the way - a third of the length of the VHF antenna.
-|186:59:31|CMP|Oh, that's not very far.
-|186:59:31|CDR-LM|No. Okay, we're at 970 feet.
-|186:59:31|CDR-LM|800 feet and we're at 8.8 feet per second.
-|186:59:31|CMP|Looks like Challenger's in good shape. I don't see anything hanging down or anything.
-|186:59:31|CDR-LM|She's in excellent shape. Okay, we're at 650 feet and 8.8.
-|186:59:31|CMP|Okay.
+|186:58:10|CDR-LM|Hold on; here we go.
+|186:58:30|CDR-LM|Okay, we're 2500 feet and 20.7 feet per second. Fifteen on 110.
+|186:58:48|CDR-LM|Got you centered in the needles, Ron.
+|186:58:51|CMP|Okay. You're looking good.
+|186:58:57|CDR-LM|Coming up right at - you at - under 114 - 116 degrees. 1900 feet, 20 feet per second.
+|186:59:08|CMP|Okay. Quarter of a mile, I got you.
+|186:59:19|CDR-LM|I can see your thrusters firing now, Ron. We're at 1500 feet braking.
+|186:59:23|CMP|Okay.
+|186:59:46|CDR-LM|Okay, Ron. We're at 1200 feet and 8.8 feet per second.
+|186:59:54|CMP|Okay, that's about right. Concur.
+|186:59:56|CDR-LM|Yes, you do have a stub of an antenna out there on the same side that the VHF antenna's on.
+|187:00:01|CMP|Yes, how far is it sticking out?
+|187:00:02|CDR-LM|I can't tell yet, but about - from where I am, about a third of the way - a third of the length of the VHF antenna.
+|187:00:10|CMP|Oh, that's not very far.
+|187:00:12|CDR-LM|No. Okay, we're at 970 feet.
+|187:00:34|CDR-LM|800 feet and we're at 8.8 feet per second.
+|187:00:43|CMP|Looks like Challenger's in good shape. I don't see anything hanging down or anything.
+|187:00:47|CDR-LM|She's in excellent shape. Okay, we're at 650 feet and 8.8.
+|187:00:54|CMP|Okay.
 ||||Tape 125/3|Page 1911
-|186:59:31|CDR-LM|God, you look pretty. Yes, you just got a snail stub, Ron. Probably not more than a couple of feet.
-|186:59:31|CMP|(Laughter)
-|186:59:31|CDR-LM|600 feet, braking to 5. Okay, I've got 5.0, and I'm at 520 feet.
-|186:59:31|CDR-LM|Ron, I'm closing at 5 feet per second, 440 feet.
-|186:59:31|CMP|Okay.
-|186:59:31|CDR-LM|Good to see you.
-|186:59:31|CMP|Good to have you all back up here.
-|186:59:31|CDR-LM|It's been a good trip. Okay, I'm at 5 feet per second and 350 feet.
-|186:59:31|CDR-LM|Taking off a couple. I'm at 3 feet per second, 280
-|186:59:31|CDR-LM|Just great. Okay, Ron, 240 feet and 3 feet per second.
-|186:59:31|CMP|Okay, keep her coming. Rice and easy. Getting a lot of pictures.
-|187:02:14|CDR-LM|200 feet and 3 feet per second. I got 2 feet per second and I'm at 170 feet.
-|187:02:14|CDR-LM|l40 feet and 2 feet per second. About 3 feet of that antenna, Ron, and we'll get a better look at it when you pitch over.
-|187:02:14|CMP|Okay.
-|187:02:14|CDR-LM|Everything else looks clean.
-|187:02:14|CMP|Man, that Challenger's a beautiful vehicle.
-|187:02:14|CDR-LM|You bet you.
-|187:02:14|CMP|One little strap flopping on the top of it, and that's all.
+|187:00:55|CDR-LM|God, you look pretty. Yes, you just got a smail stub, Ron. Probably not more than a couple of feet.
+|187:01:02|CMP|(Laughter)
+|187:01:03|CDR-LM|600 feet, braking to 5. Okay, I've got 5.0, and I'm at 520 feet.
+|187:01:25|CDR-LM|Ron, I'm closing at 5 feet per second, 440 feet.
+|187:01:28|CMP|Okay.
+|187:01:32|CDR-LM|Good to see you.
+|187:01:34|CMP|Good to have you all back up here.
+|187:01:37|CDR-LM|It's been a good trip. Okay, I'm at 5 feet per second and 350 feet.
+|187:01:55|PAO|Challenger's coming in with the crew in the ó nearly heads down position as seen on the television monitor.
+|187:01:58|CDR-LM|Taking off a couple. I'm at 3 feet per second, 280.
+|187:02:09|CDR-LM|Just great. Okay, Ron, 240 feet and 3 feet per second.
+|187:02:16|CMP|Okay, keep her coming. Rice and easy. Getting a lot of pictures.
+|187:02:30|CDR-LM|200 feet and 3 feet per second. I got 2 feet per second and I'm at 170 feet.
+|187:03:00|CDR-LM|l40 feet and 2 feet per second. About 3 feet of that antenna, Ron, and we'll get a better look at it when you pitch over.
+|187:03:10|CMP|Okay.
+|187:03:14|CDR-LM|Everything else looks clean.
+|187:03:16|CMP|Man, that Challenger's a beautiful vehicle.
+|187:03:18|CDR-LM|You bet you.
+|187:03:21|CMP|One little strap flopping on the top of it, and that's all.
 ||||Tape 125/4|Page 1912
-|187:02:14|CDR-LM|Okay, i've got 2 feet per second; I'm at 100.
-|187:02:14|CMP|Hey, Houston, you can see that strap flopping up there now on the TV, but that's the only thing.
-|187:02:14|CC|Okay, Ron. We haven't picked it cut, but we do have a perfect picture.
-|187:03:35|CDR-LM|Ron, I'm sneaking in at about - a little over 1 foot per second.
-|187:03:35|CMP|Okay, I'm trying to keep you on the - the tube here, so - How come you - how come you guys do everything upside down?
-|187:03:35|CDR-LM|Okay, let's let it drift in like this slowly.
-|187:03:35|CMP|Okay. You still have it.
-|187:03:35|CDR-LM|I've still got it.
-|187:03:35|CDR-LM|Ron, I'm going to stop it here, an3 you can do your maneuver.
-|187:03:35|CMP|Okay,
-|187:03:35|CDR-LM|Okay, I'm stationkeeping on you.
-|187:03:35|CMP|Okay; I'll do my VERB 49.
-|187:03:35|CDR-LM|Seem okay, Jack?
-|187:03:35|LMP-LM|Yes.
-|187:03:35|CDR-LM|Okay.
-|187:03:35|CMP|Oh, I got to get a picture here, too.
-|187:03:35|CDR-LM|Okay, will do. Stand by.
-|187:03:35|CMP|Just another couple of pictures here. Got them. 25 - and a 3195 254, and 0 ... Okay, you ready, ij ac^t ?
-|187:03:35|CDR-LM|I'll ... that; Jack.
-|187:03:35|LMP-LM|...
+|187:03:25|CDR-LM|Okay, I've got 2 feet per second; I'm at 100.
+|187:03:36|CMP|Hey, Houston, you can see that strap flopping up there now on the TV, but that's the only thing.
+|187:03:43|CC|Okay, Ron. We haven't picked it out, but we do have a perfect picture.
+|187:03:52|CDR-LM|Ron, I'm sneaking in at about - a little over 1 foot per second.
+|187:03:55|CMP|Okay, I'm trying to keep you on the - the tube here, so - How come you - how come you guys do everything upside down?
+|187:04:12|CDR-LM|Okay, let's let it drift in like this slowly.
+|187:04:14|CMP|Okay. You still have it.
+|187:04:18|CDR-LM|I've still got it.
+|187:04:27|CDR-LM|Ron, I'm going to stop it here, and you can do your maneuver.
+|187:04:31|CMP|Okay.
+|187:04:33|CDR-LM|Okay, I'm stationkeeping on you.
+|187:04:35|CMP|Okay; I'll do my VERB 49.
+|187:04:39|CDR-LM|Seem okay, Jack?
+|187:04:39|LMP-LM|Yes.
+|187:04:40|CDR-LM|Okay.
+|187:04:43|CMP|Oh, I got to get a picture here, too.
+|187:04:54|CDR-LM|Okay, will do. Stand by.
+|187:04:58|CMP|Just another couple of pictures here. Got them. 25 ENTER. 319, 254, and 0 ... Okay, you ready, Jack?
+|187:05:21|CDR-LM|I'll ... that; Jack.
+|187:05:21|LMP-LM|...
 ||||Tape 125/5|Page 1913
-|187:03:35|CMP|Okay, here we go.
-|187:05:07|CMP|MARK it. ... a minute.
-|187:05:07|CDR-LM|Yes, I'm going to get the radar out of the way, but I'm not going to. I'll lose him here as soon as his transponder get out. I'm going to just stationkeep. Ron, your probe looks good. I can see it extended.
-|187:05:07|CMP|Okay; great.
-|187:05:07|CDR-LM|The radar holds you - well, we don't hold you anymore.
-|187:05:07|CDR-LM|... Radar's being stowed now, Ron.
-|187:05:07|CMP|Okay.
-|187:05:07|CC|America, we'd like OMNI Delta, please.
-|187:05:07|CDR-LM|Houston, America and - -
-|187:05:07|CMP|OMNI Delta?
-|187:05:07|CDR-LM|Houston, .America and Challenger - are ... a good tight Navy formation.
-|187:05:07|CC|Roger, Geno.
-|187:05:07|CDR-LM|Hey, Ron. I may have to take back what I said. That thing I thought was an antenna is nothing more than your EVA light out there.
-|187:05:07|CMP|(Laughter) Okay.
-|187:05:07|CDR-LM|From where I was, it looked like - looked like it was coming out the other side - -
-|187:05:07|CMP|Yes.
-|187:05:07|CDR-LM|- - but I think you're clean.
-|187:05:07|CMP|Okay. Now the one I'm concerned about is on - is on the other side from the EVA antenna - EVA light.
+|187:05:23|CMP|Okay, here we go.
+|187:05:25|CMP|MARK it. ... a minute.
+|187:05:43|CDR-LM|Yes, I'm going to get the radar out of the way, but I'm not going to. I'll lose him here as soon as his transponder get out. I'm going to just stationkeep. Ron, your probe looks good. I can see it extended.
+|187:05:55|CMP|Okay; great.
+|187:05:59|CDR-LM|The radar holds you - well, we don't hold you anymore.
+|187:06:11|PAO|Ron Evans will now maneuver the CSM into position for the final docking.
+|187:06:19|CDR-LM|... Radar's being stowed now, Ron.
+|187:06:26|CMP|Okay.
+|187:06:35|CC|America, we'd like OMNI Delta, please.
+|187:06:37|CDR-LM|Houston, America and - -
+|187:06:40|CMP|OMNI ... -
+|187:06:43|CDR-LM|Houston, America and Challenger - are ... a good tight Navy formation.
+|187:06:50|CC|Roger, Geno.
+|187:06:51|PAO|We've switched to one of the omnidirectional antennas on the Command Module, and we won't have television back until we get back on the high gain antenna, which should be shortly.
+|187:07:03|CDR-LM|Hey, Ron. I may have to take back what I said. That thing I thought was an antenna is nothing more than your EVA light out there.
+|187:07:08|CMP|(Laughter) Okay.
+|187:07:09|CDR-LM|From where I was, it looked like - looked like it was coming out the other side - -
+|187:07:13|CMP|Yes.
+|187:07:13|CDR-LM|- - but I think you're clean.
+|187:07:14|CMP|Okay. Now the one I'm concerned about is on - is on the other side from the EVA antenna - EVA light.
 ||||Tape 125/6|Page 1914
-|187:05:07|CDR-LM|No-uh uh. You were clean over there.
-|187:05:07|CMP|Oh, okay.
-|183:07:16|CMP|The bottom of your vehicle's got a bunch of tinfoil on it. It's a little bit scorched; but it's all intact, as far as - as much as I can tell.
-|183:07:16|CDR-LM|.,. this bird is good enough to fly again.
-|187:08:05|CDR-LM|You in your maneuver, Ron?
-|187:08:05|CMP|Yes. It's maneuvering now.
-|187:08:05|CDR-LM|Okay, I'm going to go out and take a peek at your SIM bay up here. Yes, I know.
-|187:08:05|CDR-LM|See him okay, Jack? See him okay?
-|187:08:05|CMP|Okay, we're getting pretty close now. About another 5 degrees of roll is all. Can you see it?
-|187:08:05|CDR-LM|Yes.
-|187:08:05|CMP|Kov does the mapping camera look? Should be all covered up.
-|187:08:05|CDR-LM|Stand by.
-|187:08:05|CMP|Okay.
-|187:08:05|CDR-LM|... fly over there and take a look at it.
-|187:08:05|CMP|Okay.
-|187:08:05|CDR-LM|Sun's shining right in it.
-|187:08:05|CDR-LM|Okay, Ron. It looks intact here. There's one cover - -
-|187:08:05|CC|Challenger, Houston. Over.
+|187:07:19|CDR-LM|No-uh uh. You were clean over there.
+|187:07:21|CMP|Oh, okay.
+|183:07:33|CMP|The bottom of your vehicle's got a bunch of tinfoil on it. It's a little bit scorched; but it's all intact, as far as - as much as I can tell.
+|183:07:42|CDR-LM|... this bird is good enough to fly again. Yes sir. I'll even move left, how's that? Still got 60 percent left ... I like to fly.
+|187:08:20|CDR-LM|You in your maneuver, Ron?
+|187:08:21|CMP|Yes. It's maneuvering now.
+|187:08:23|CDR-LM|Okay, I'm going to go out and take a peek at your SIM bay up here. Yes, I know.
+|187:08:43|PAO|Our instrumentation and communications engineer estimates that it will be 10 to 12 minutes before we're in position to get the high gain antenna and television back.
+|187:09:11|CDR-LM|See him okay, Jack? See him okay?
+|187:09:35|CMP|Okay, we're getting pretty close now. About another 5 degrees of roll is all. Can you see it?
+|187:09:54|CDR-LM|Yes.
+|187:09:55|CMP|How does the mapping camera look? Should be all covered up.
+|187:10:10|CDR-LM|Stand by.
+|187:10:02|CMP|Okay.
+|187:10:13|CDR-LM|... fly over there and take a look at it.
+|187:10:15|CMP|Okay.
+|187:10:21|CDR-LM|Sun's shining right in it.
+|187:10:28|CDR-LM|Okay, Ron. It looks intact here. There's one cover - -
+|187:10:33|CC|Challenger, Houston. Over.
 ||||Tape 125/7|Page 1915
-|187:08:05|CDR-LM|... cover on the right-hand side. Go ahead.
-|187:08:05|CC|We'd like you take a special look at the pan camera and see if you think maybe the lens is not completely stowed. Over.
-|187:08:05|CDR-LM|No, I'm looking at this thing upside down. There's the Sun - give me the location again of the pan camera, Houston,
-|187:08:05|CC|It's a round, barrel-type object, approximately right in the center of the SIM bay.
-|187:08:05|CMP|It's just - if you were standing in the shoes, the pan camera would be right in front of you.
-|187:08:05|CDR-LM|It's stowed; it's flush. There's one door open, Ron. If you were standing in the shoes, it's at the bottom hand - bottom left-hand side of the SIM bay.
-|187:08:05|CMP|Bottom left-hand side, if you're standing in the shoes.
-|187:08:05|CDR-LM|Yes. It looks like two covers open there. Doesn't it5 Jack?
-|187:08:05|CMP|Yes. Okay; well, that's part of the napping camera - bctton of that door that pushes open by itself.
-|187:08:05|CDR-LM|Okay, Well that's the only thing that's open. Everything is flush.
-|187:08:05|CMP|Okay. You think - is that a door that extends -if you're standing in the shoes - that extends out the bottom of the SIM bay or one that extends out - if you're standing on the shoes - it would be one the - extending on the left side of the SIM bay?
-|187:08:05|CDR-LM|Yes. It extends out trie left side towards the front of the spacecraft down in the bottom left-hand comer, if you're standing in the shoes. l;o you don't - -
+|187:10:34|CDR-LM|... cover on the right-hand side. Go ahead.
+|187:10:38|CC|We'd like you take a special look at the pan camera and see if you think maybe the lens is not completely stowed. Over.
+|187:10:53|CDR-LM|Well, I'm looking at this thing upside down. There's the Sun - give me the location again of the pan camera, Houston.
+|187:11:03|CC|It's a round, barrel-type object, approximately right in the center of the SIM bay.
+|187:11:13|CMP|It's just - if you were standing in the shoes, the pan camera would be right in front of you.
+|187:11:18|CDR-LM|It's stowed; it's flush. There's one door open, Ron. If you were standing in the shoes, it's at the bottom hand - bottom left-hand side of the SIM bay.
+|187:11:31|CMP|Bottom left-hand side, if you're standing in the shoes.
+|187:11:34|CDR-LM|Yes. It looks like two covers open there. Doesn't it, Jack?
+|187:11:37|CMP|Yes. Okay; well, that's part of the mapping camera - bottom of that door that pushes open by itself.
+|187:11:43|CDR-LM|Okay, Well that's the only thing that's open. Everything is flush.
+|187:11:46|CMP|Okay. You think - is that a door that extends - if you're standing in the shoes - that extends out the bottom of the SIM bay or one that extends out - if you're standing on the shoes - it would be one the - extending on the left side of the SIM bay?
+|187:12:02|CDR-LM|Yes. It extends out the left side towards the front of the spacecraft down in the bottom left-hand comer, if you're standing in the shoes.
 ||||Tape 125/8|Page 1916
-|187:08:05|CMP|Yes, Okay. Yes, that's the one tnat the camera pushes open by itself.
-|187:08:05|CDR-LM|Okay. Well, that's good. I can't see anything that's abnormal down there. Everything's covered; everything's flushed.
-|187:08:05|CC|Challenger, Houston.
-|187:08:05|CMP|Okay.
-|187:08:05|CC|Challenger, Houston. Over.
-|187:12:11|CMP|Houston, were you calling America?
-|187:12:11|CDR-LM|Gc ahead.
-|187:12:11|CC|Some more words on identifying whether the pan camera is stowed or not. The pan camera, as Ron said., is right in front of the shoes. And, if it's stowed - well, if it's not stowed properly, you should be able to see the lens or probably part of it. And if it's fully stowed, there'll be just a plan-faced barrel facing outward -silver colored. Over.
-|187:12:11|CDR-LM|It's stowed, Houston.
-|187:12:11|CC|Okay. It sounds good.
-|187:12:11|CDR-LM|It's got to be - there's nothing - it's stowed.
-|187:12:11|CDR-LM|The only thing abnormal is the service module plates, just forward - plus-X - of the SIM bay, are all blistered. It's forward of those EVA handholds.
-|187:12:11|CC|.Roger. We copy that. Our concern - or tne reason we're asking about the pan camera is - we have a higher than normal temperatures in the pan camera, and we were concerned whether it was either not completely stowed cr maybe there's a heater stuc.-c on. We'll check the heater out later on here.
+|187:12:08|CMP|Yes, Okay. Yes, that's the one that the camera pushes open by itself.
+|187:12:11|CDR-LM|Okay. Well, that's good. I can't see anything that's abnormal down there. Everything's covered; everything's flushed.
+|187:12:18|CC|Challenger, Houston.
+|187:12:22|CMP|Okay.
+|187:12:27|CC|Challenger, Houston. Over.
+|187:12:29|CMP|Houston, were you calling America?
+|187:12:33|CDR-LM|Go ahead.
+|187:12:35|CC|Some more words on identifying whether the pan camera is stowed or not. The pan camera, as Ron said, is right in front of the shoes. And, if it's stowed - well, if it's not stowed properly, you should be able to see the lens or probably part of it. And if it's fully stowed, there'll be just a plan-faced barrel facing outward - silver colored. Over.
+|187:13:07|CDR-LM|It's stowed, Houston.
+|187:13:10|CC|Okay. It sounds good.
+|187:13:14|CDR-LM|It's got to be - there's nothing - it's stowed. ... one more of those.
+|187:13:30|CDR-LM|The only thing abnormal is the Service Module plates, just forward - plus-X - of the SIM bay, are all blistered - just forward of those EVA handholds.
+|187:13:43|CC|Roger. We copy that. Our concern - or the reason we're asking about the pan camera is - we have a higher than normal temperatures in the pan camera, and we were concerned whether it was either not completely stowed or maybe there's a heater stuck on. We'll check the heater out later on here.
 ||||Tape 125/9|Page 1917
-|187:12:11|CDR-LM|I'm going around the other side here a little bit, but it's - Yes, the long barrel, through the center down - X-X axis, deep into the SIM bay - then you have a little barrel - oh, about 3 inches - 2 or 3 inches - like about a 500-millimeter lens on a Hasselblad - sticking straight up, perpendicular to SIM bay, and it's well flushed. It's inside the box that it's next to.
-|187:12:11|CC|Okay, Geno.
-|187:12:11|CDR-LM|Yess it's normal.. There's nothing that's unstowed in that thing.
-|187:12:11|CMP|Okay.
-|187:12:11|CDR-LM|It is unbelievable. This is the greatest flying in the world* Ron.
-|187:12:11|CMP|(laughter)
-|187:12:11|CDR-LM|Can you see me?
-|187:12:11|CMP|Yes, I can see you. Right in there. Yes.
-|187:12:11|CDR-LM|Reach out and tickle your probe.
-|187:12:11|CMP|(Laughter) Okay.
-|187:12:11|CDR-LM|Okay. Let's get - let's get this business going. Let's get in a docking attitude.
-|187:12:11|CMP|Okay; we'll maneuver to the docking attitude here.
-|187:12:11|CDR-LM|Ron, I can also see where your - where your HF comes out on this side, and - and it's flush with the box. It's completely stowed.
+|187:14:09|CDR-LM|I'm going around the other side here a little bit, but it's - Yes, the long barrel, through the center down - X-X axis, deep into the SIM bay - then you have a little barrel - oh, about 3 inches - 2 or 3 inches - like about a 500-millimeter lens on a Hasselblad - sticking straight up, perpendicular to SIM bay, and it's well flushed. It's inside the box that it's next to.
+|187:14:45|CC|Okay, Geno.
+|187:14:49|CDR-LM|It's normal. There's nothing that's unstowed in that thing. Not again.
+|187:15:00|CC|Challenger, America, that's good on the inspection from questions from here, anyway. Clear to continue and proceed with docking.
+|187:15:12|CMP|Okay.
+|187:15:15|CDR-LM|It is unbelievable. This is the greatest flying in the world, Ron.
+|187:15:18|CMP|(laughter)
+|187:15:18|CDR-LM|Can you see me?
+|187:15:19|CMP|Yes, I can see you. Right in there.
+|187:15:22|CDR-LM|Yes.
+|187:15:23|CDR-LM|Reach out and tickle your probe.
+|187:15:26|CMP|(Laughter) Okay.
+|187:15:26|CDR-LM|Okay. Let's get - let's get this business going. Let's get in a docking attitude.
+|187:15:31|CMP|Okay; we'll maneuver to the docking attitude here.
+|187:15:36|CDR-LM|Ron, I can also see where your - where your HF comes out on this side, and - and it's flush with the box. It's completely stowed.
 ||||Tape 12 5/10|Page 1918
-|187:12:11|CMP|Okay. Well, that's the one. that T«e think is, the one on that side. The other side is the one that we are a little concerned with. We don't worry about it.
-|187:12:11|CDR-LM|It's stowed too.
-|187:12:11|CMP|Oh, okay.
-|187:12:11|CDR-LM|We were over there.
-|187:12:11|CMP|Okay. And I'm maneuvering back to the docking attitude.
-|187:15:43|CDR-LM|Your high gain is not pointing at the Earth, though, I don't believe.
-|187:15:43|CMP|Oh, we're not using it yet. It's pointing where the Earth will be when we maneuver back around.
-|187:15:43|CDR-LM|Okay.
-|187:15:43|LMP-LM|Another one from there?
-|187:15:43|CDR-LM|I'd try 11 and 8. That's what I'm doing.
-|187:15:43|LMP-LM|Right.
-|187:15:43|CDR-LM|... Guess I ought to pull my radar breakers, now that it's stowed.
-|187:15:43|CMP|Okay, Houston, can you see my logic: yet? Or you want to wait until the high gain? This is America.
-|187:15:43|CC|We can see it now, Ron. We can do it now.
-|187:15:43|CMP|Okay, LOGIC 1.
-|187:16:43|CMP|MARK it. LOGIC 2.
-|187:16:46|CMP|MARK it.
-|187:16:46|CC|Ron, you're GO for PYRO ARM.
-|187:16:46|CMP|Okay.
+|187:15:46|CMP|Okay. Well, that's the one. that T«e think is, the one on that side. The other side is the one that we are a little concerned with. We don't worry about it.
+|187:15:51|CDR-LM|It's stowed too.
+|187:15:52|CMP|Oh, okay.
+|187:15:53|CDR-LM|We were over there.
+|187:15:54|CMP|Okay. And I'm maneuvering back to the docking attitude.
+|187:16:02|CDR-LM|Your high gain is not pointing at the Earth, though, I don't believe.
+|187:16:05|CMP|Oh, we're not using it yet. It's pointing where the Earth will be when we maneuver back around.
+|187:16:11|CDR-LM|Okay.
+|187:16:12|LMP-LM|Another one from there?
+|187:16:15|CDR-LM|I'd try 11 and 8. That's what I'm doing.
+|187:16:20|LMP-LM|Right.
+|187:16:32|CDR-LM|... Guess I ought to pull my radar breakers, now that it's stowed.
+|187:16:47|CMP|Okay, Houston, can you see my logic yet? Or you want to wait until the high gain? This is America.
+|187:16:56|CC|We can see it now, Ron. We can do it now.
+|187:17:02|CMP|Okay, LOGIC 1.
+|187:17:05|CMP|MARK it. LOGIC 2.
+|187:17:06|CMP|MARK it.
+|187:17:13|CC|Ron, you're GO for PYRO ARM.
+|187:17:17|CMP|Okay.
 ||||Tape 125/11|Page 1919
-|187:16:46|CDR-LM|Backing off here a little bit, Ron. Give you a chance to maneuver.
-|187:16:46|CDR-LM|Hey, Jack, what are we forgetting? Let's see the high gain was - or the rendezvous radar is stowed. Okay, as soon as he gets his attitude, I'll get to mine.
-|187:16:46|CDR-LM|Looks like you've been flying well up there, partner, The spacecraft looks good.
-|187:16:46|CMP|Oh, you bet you.
-|187:16:46|CDR-LM|How far you got to go on your maneuvers?
-|187:18:22|CMP|About another 60 degrees of roll yet.
-|187:18:22|CDR-LM|Okay.
-|187:18:22|CMP|And about 10 degrees; pitch.
-|187:18:22|CC|America, gii^e us OMNI Alfa.
-|187:18:22|CDR-LM|Hey, Ron - -
-|187:18:22|CMP|Omni ... Oh, no, there we go.
-|187:18:22|CDR-LM|Okay, Ron, I can confirm your other HF antenna is stowed.
-|187:18:22|CMP|Okay5 good. Thank you.
-|187:19:32|CMP|Okay, the PYROs are ON. Sorry, but I am out of film in the DAC. You guys will just have to - -
-|187:19:32|CDR-LM|No problem.
-|187:19:32|CMP|- - be on TV (laughter).
-|187:19:32|CDR-LM|No problem. Let's just get in attitude and get those capture latches in that drogue.
-|187:19:32|CMP|Gkay.
+|187:17:25|CDR-LM|Backing off here a little bit, Ron. Give you a chance to maneuver.
+|187:18:07|CDR-LM|Hey, Jack, what are we forgetting here? Let's see the high gain was - or the rendezvous radar is stowed. Okay, as soon as he gets his attitude, I'll get to mine.
+|187:18:31|CDR-LM|Looks like you've been flying well up there, partner. The spacecraft looks good.
+|187:18:35|CMP|Oh, you bet you.
+|187:18:40|CDR-LM|How far you got to go on your maneuvers?
+|187:18:44|CMP|About another 60 degrees of roll yet.
+|187:18:46|CDR-LM|Okay.
+|187:18:46|CMP|And about 10 degrees; pitch.
+|187:19:03|PAO|Ron Evans now maneuvering America into position for the docking. The final few feet of the docking maneuver performed with the Command Module because of the better visibility from that vehicle.
+|187:19:16|CC|America, give us OMNI Alpha.
+|187:19:18|CDR-LM|Okay, Ron - -
+|187:19:22|CMP|Omni ... Oh, no, there we go.
+|187:19:33|CDR-LM|Okay, Ron, I can confirm your other HF antenna is stowed.
+|187:19:36|CMP|Okay, good. Thank you.
+|187:19:53|CMP|Okay, the PYROs are ON. Sorry, but I am out of film in the DAC. You guys will just have to - -
+|187:20:13|CDR-LM|No problem.
+|187:20:14|CMP|- - be on TV (laughter).
+|187:20:17|CDR-LM|No problem. Let's just get in attitude and get those capture latches in that drogue.
+|187:20:21|CMP|Okay.
 ||||Tape 125/12|Page 1920
-|187:19:32|CC|Ron, the high gain angles look good. Go NARROW and REACQ, and we should have you.
-|187:19:32|CMP|Okay. I'm in attitude, Gene.
-|187:19:32|CDR-LM|Okay, let me position so I can get. In attitude.
-|187:19:32|CC|And, America and Challenger, we've got a beautiful picture once again.
-|187:19:32|LMP-LM|Very good, Gordy. We're happy to give it to you.
-|187:19:32|CDR-LM|This worked out great, Ron.
-|187:19:32|CMP|Yes, it sure did.
-|187:19:32|CDR-LM|Null PGNS, and then I'll give it to you shortly.
-|187:19:32|CDR-LM|Okay, Ron, you've got it.
-|187:19:32|CMP|Okay.
-|187:19:32|CDR-LM|Okay, you've got it. I'm going into my maneuver.
-|187:19:32|CMP|I've got it.
-|187:19:32|CDR-LM|And that's the landing site down there. We pitched right through the landing site.
-|187:19:32|CMP|You did?
-|187:19:32|CDR-LM|Yes.
-|187:19:32|CMP|Key, good (laughter). Your - -
-|187:19:32|CDR-LM|Hey, don't - don't hit that hand. It's ...
-|187:19:32|LMP-LM|Yes (laughter). Well, the drogue :.s still ir. there.
-|187:19:32|CDR-LM|Okay. I've got you right out the overhead, Ron. i\row I'm going to yaw.
-|187:19:32|CMP|Okay, yaw her around.
+|187:20:27|CC|Ron, the high gain angles look good. Go NARROW and REACQ, and we should have you.
+|187:20:43|CMP|Okay. I'm in attitude, Gene.
+|187:20:51|CDR-LM|Okay, let me position so I can get in attitude.
+|187:20:57|CC|And, America and Challenger, we've got a beautiful picture once again.
+|187:21:11|LMP-LM|Very good, Gordy. We're happy to give it to you.
+|187:21:16|CDR-LM|This worked out great, Ron.
+|187:21:18|CMP|Yes, it sure did.
+|187:21:21|CDR-LM|Null PGNS, and then I'll give it to you shortly.
+|187:21:45|CDR-LM|Okay, Ron, you've got it.
+|187:21:48|CMP|Okay.
+|187:21:49|CDR-LM|Okay, you've got it. I'm going into my maneuver.
+|187:21:51|CMP|I've got it.
+|187:21:20|CDR-LM|And that's the landing site down there. We pitched right through the landing site.
+|187:21:25|CMP|You did?
+|187:21:25|CDR-LM|Yes.
+|187:21:27|CMP|Key, good (laughter). Your - -
+|187:21:31|CDR-LM|Hey, don't - don't hit that hand. It's ...
+|187:21:33|LMP-LM|Yes (laughter). Well, the drogue is still in there.
+|187:21:41|CDR-LM|Okay. I've got you right out the overhead, Ron, now I'm going to yaw.
+|187:21:43|CMP|Okay, yaw her around.
 ||||Tape 125/13|Page 1921
-|187:19:32|CDR-LM|Okay, here we go. What a super flying machine!
-|187:19:32|CMP|Still looks kind of tinny to me.
-|187:19:32|CDR-LM|He's not going to have to do anything but thrust right into the - I might even get your roll angle zero for you by - by this maneuver. Okay, it's all yours.
-|187:19:32|CMP|(Laughter) Okay, I've got her.
-|187:19:32|CDR-LM|Should be looking - I'm looking right up your window.
-|187:19:32|CMP|Well, I got to translate through the - sideways
-|187:19:32|CDR-LM|a little bit here. The trouble is I'm looking right into the Sun.
-|187:19:32|LMP-LM|Yes. Change these focus to 6 feet.
-|187:19:32|CDR-LM|Okay, Jack, let's go over that thing again. We got anything else to do?
-|187:19:32|LMP-LM|Well, you're at the attitude. We're waiting to confirm capture, and then you flip MODE CONTROL, OFF.
-|187:19:32|CDR-LM|Wish the Sun would get out of the way.
-|187:24:46|CDR-LM|Looking good, babe. Keep it coming.
-|187:24:46|CMP|Okay. She's looking all right.
-|187:24:46|CDR-LM|Command module looks just as good as the day they put it on the pad.
-|187:24:46|CMP|And, you know, so does Challenger, by gosh. You're missing some of the pieces.
-|187:24:46|CDR-LM|Yes, one big piece we left behind.
-|187:24:46|CMP|Yes; right.
+|187:22:47|CDR-LM|Okay, here we go. What a super flying machine!
+|187:22:59|CMP|Still looks kind of tinny to me.
+|187:23:13|CDR-LM|He's not going to have to do anything but thrust right into the - I might even get your roll angle zeroed for you by - by this maneuver. Okay, it's all yours.
+|187:23:22|CMP|(Laughter) Okay, I've got her.
+|187:23:23|CDR-LM|Should be looking - I'm looking right up your window.
+|187:23:25|CMP|Well, I got to translate through the - sideways|a little bit here.
+|187:23:30|CDR-LM|The trouble is I'm looking right into the Sun.
+|187:23:32|LMP-LM|Yes. Change these focus to 6 feet.
+|187:23:47|CDR-LM|Okay, Jack, let's go over that thing again. We got anything else to do?
+|187:23:50|LMP-LM|Well, you're at the attitude. We're waiting to confirm capture, and then you flip MODE CONTROL, OFF.
+|187:23:57|CDR-LM|Okay. Wish the Sun would get out of the way.
+|187:25:10|CDR-LM|Looking good, babe. Keep it coming.
+|187:25:12|CMP|Okay. She's looking all right.
+|187:25:24|CDR-LM|Command Module looks just as good as the day they put it on the pad.
+|187:25:30|CMP|And, you know, so does Challenger, by gosh. You're missing some of the pieces.
+|187:25:37|CDR-LM|Yes, one big piece we left behind.
+|187:25:39|CMP|Yes; right.
 ||||Tape 125/I4|Page 1922
-|187:24:46|CDR-LM|Ron, I guess I'm estimating you about 12 or 15 feet.
-|187:24:46|CMP|Yes, that's about right.
-|187:24:46|CDR-LM|Got my reticle coming right in the rendezvous window.
-|187:24:46|CMP|Okay. She ought to be coming right in there.
-|187:24:46|CDR-LM|Looking good. You're stable as a rock.
-|187:24:46|CDR-LM|Bet I'll be able to get with that. Give me a little warning on capture, Ron, so I can go FREE.
-|187:24:46|CMP|Okay; try to.
-|187:24:46|CDR-LM|I can see all your docking latches - or I can see half of them now, but they're all looking good.
-|187:24:46|CMP|Okay,
-|187:24:46|CMP|Coming in nice and slow; no problems.
-|187:24:46|CDR-LM|Okay, you're looking good, babe. 1 got you on my COAS right up in the middle of the window. Looking good.
-|187:28:33|CDR-LM|Looking good.
-|187:28:33|CMP|Okay.
-|187:28:33|CDR-LM|Must be a couple of feet away.
-|187:28:33|CMP|About 2 or 3 feet is all.
-|187:28:33|CDR-LM|Stand by, Jack.
-|187:28:33|CMP|Stand by. Should be getting about the same size.
-|187:28:33|CDR-LM|Looking good from here, Ron.
-|187:28:33|CMP|Stand by.
-|187:28:33|CDR-LM|... to have it here.
+|187:26:26|CDR-LM|Ron, I guess I'm estimating you about 12 or 15 feet.
+|187:26:31|CMP|Yes, that's about right.
+|187:26:46|CDR-LM|Got my reticle coming right in the rendezvous window.
+|187:26:55|CMP|Okay. She ought to be coming right in there.
+|187:26:58|CDR-LM|Looking good. You're stable as a rock.
+|187:27:33|CDR-LM|Bet I'll be able to get with that. Give me a little warning on capture, Ron, so I can go FREE.
+|187:27:47|CMP|Okay; glad to.
+|187:27:51|CDR-LM|I can see all your docking latches - or I can see half of them now, but they're all looking good.
+|187:27:56|CMP|Okay,
+|187:28:19|CMP|Coming in nice and slow; no problem.
+|187:28:21|CDR-LM|Okay, you're looking good, babe. 1 got you on my COAS right up in the middle of the window. Looking good.
+|187:28:59|CDR-LM|Looking good.
+|187:29:01|CMP|Okay.
+|187:29:04|CDR-LM|Must be a couple of feet away.
+|187:29:06|CMP|About 2 or 3 feet is all.
+|187:29:59|CDR-LM|Stand by, Jack.
+|187:30:00|CMP|Stand by. Should be getting about the same size.
+|187:30:08|CDR-LM|Looking good from here, Ron.
+|187:30:36|CMP|Stand by.
+|187:30:59|CDR-LM|... to have it here.
 ||||Tape 125/15|Page 1923
-|187:28:33|CMP|Okay; I didn't get it. Let me plus X it.
-|187:28:33|CDR-LM|Okay. You didn't get it.
-|187:28:33|CMP|Didn't get it. Okay. Might have been a little bit slow.
-|187:28:33|CMP|Stand by.
-|187:31:25|CDR-LM|You got it! CAPTURE!
-|187:31:25|CMP|Barber pole, capture go FREE.
-|187:31:25|CDR|Good. Start here; we're FREE. All you needed was - -
-|187:31:25|CMP|Okay, we're FREE over here. Let me check your rates. Okay, I'm squared away with the rates here.
-|187:31:25|CDR|All you needed was a little more DELTA-V.
-|187:31:25|CMP|Yes, a little more.
-|187:31:25|CDR|That looked good though, Ron. Very good.
-|187:31:25|CMP|Okay. That's a good one.
-|187:31:25|CDR|Okay, Houston, we have capture.
-|187:31:25|CMP|Okay, you ready - -
-|187:31:25|CDR|What did you say, Ron?
-|187:31:25|CMP|Well, we're not quite lined up here. Kind of drifted cff a little bit.
-|187:31:25|CDR|Okay; we'll stand by for you. Take your time.
-|187:31:25|CMP|Okay. Will do. Okay, she's coming back around.
-|187:31:25|CDR|Take your time.
+|187:31:00|CMP|Okay; I didn't get it. Let me plus X it.
+|187:31:10|CDR-LM|Okay. You didn't get it.
+|187:31:12|CMP|Didn't get it. Okay. Might have been a little bit slow.
+|187:31:50|CMP|Stand by.
+|187:31:53|CDR-LM|You got it! CAPTURE!
+|187:31:53|CMP|Barber pole, capture go to FREE.
+|187:31:55|CDR|Good. Start here; we're FREE. All you needed was - -
+|187:31:58|CMP|Okay, we're FREE over here. Let me check your rates. Okay, I'm squared away on the rates here.
+|187:32:02|CDR|All you needed was a little more DELTA-V.
+|187:32:04|CMP|Yes, a little more.
+|187:32:05|CDR|That looked good though, Ron. Very good.
+|187:32:08|CMP|Okay. That's a good one.
+|187:32:10|CDR|Okay, Houston, we have capture.
+|187:32:12|CMP|Okay, you ready - -
+|187:32:12|CC|Roger.
+|187:32:14|CMP|... we're a little bit - not lined up here, Houston.
+|187:32:19|CDR|What did you say, Ron?
+|187:32:21|CMP|Well, we're not quite lined up here. Kind of drifted off a little bit.
+|187:32:25|CDR|Okay; we'll stand by for you. Take your time.
+|187:32:28|CMP|Okay. Will do. Okay, she's coming back around.
+|187:32:41|CDR|Take your time.
 ||||Tape 125/16|Page 1924
-|187:31:25|CDR|We're still free, Ron.
-|187:31:25|CMP|Yes, I know. Okay.
-|187:31:25|CMP|Yes, when you're free, you know, you create a little bit of rates on the thing, too.
-|187:31:25|CDR|I know it. I can see that. Just take your time When you're satisfied, go. But dcn't go until you're satisfied.
-|187:31:25|CMP|Okay, I'm not.
-|187:31:25|CMP|Okay, she's coming back around now.
-|187:31:25|CDR|Okay. Give me a call when you start to retract.
-|187:31:25|CMP|Okay; will do.
-|187:34:48|CMP|Crazy thing.
-|187:34:48|CDR|Say again.
-|187:34:48|CMP|(Laughter) I get the right ... and then it goes around the other way. I think you're bouncing around up there, too, you know'.'
-|187:34:48|CDR|I know it. I'm just swinging free.
-|187:34:48|CMP|Yes.
-|187:34:48|CDR|Okay. Stand by, Ron. Okay?
-|187:34:48|CMP|Okay.
-|187:34:48|CDR|Okay. I'm stable now.
-|187:34:48|CMP|Okay. Now let ne cone up to you.
+|187:33:05|CDR|We're still free, Ron.
+|187:33:07|CMP|Yes, I know. Okay.
+|187:33:28|CMP|Yes, when you're free, you know, you create a little bit of rates on the thing, too.
+|187:33:34|CDR|I know it. I can see that. Just take your time. When you're satisfied, go. But don't go until you're satisfied.
+|187:33:40|CMP|Okay, I'm not.
+|187:34:03|PAO|The soft dock mechanism between the two vehicles has engaged. Evans is in the process now of trying to get things lines up properly, before pulling the LM and CMS together into the hard docking.
+|187:34:16|CMP|Okay, she's coming back around now.
+|187:34:21|CDR|Okay. Give me a call when you start to retract.
+|187:34:24|CMP|Okay; will do.
+|187:35:04|PAO|Gene Cernan should be visible behind that window in the top of the lunar module.
+|187:35:17|CMP|Crazy thing.
+|187:35:20|CDR|Say again.
+|187:35:21|CMP|(Laughter) I get the right ... and then it goes around the other way. I think you're bouncing around up there, too, you know?
+|187:35:31|CDR|I know it. I'm just swinging free. Take it slow.
+|187:36:06|CMP|I think you're going to have to go to attitude hold. You're bouncing around more ... I'm not moving at all.
+|187:36:11|CDR|Okay. Stand by, Ron.
+|187:36:15|CMP|Okay.
+|187:36:19|CDR|Okay. I'm stable now.
+|187:36:21|CMP|Okay. Now let me come up to you.
 ||||Tape 125/17|Page 1925
-|187:34:48|CDR|Okay, when you're happy, I'll go free.
-|187:34:48|CMP|Okay, stand by.
-|187:34:48|CDR|Looking good now.
-|187:34:48|CMP|Looking good, yes. See that's what we needed.
-|187:34:48|CMP|Okay, she's looking good. Why don't you go to FREE, and we'll go to RETRACT 1.
-|187:34:48|CDR|Okay -
-|187:36:53|CDR|MARK it. I'm FREE.
-|187:36:53|CMP|Okay, RETRACT, Here you come.
-|187:37:03|CMP|Bang; I got all - two barber poles.
-|187:37:03|CDR|You got what?
-|187:37:03|CMP|Okay. (Laughter) Two grays, I mean.
-|187:37:03|CDR|That's better.
-|187:37:03|CMP|(laughter)
-|187:37:03|CMP|That's better, Okay, sounded good, in here.
-|187:37:03|CMP|Yes, sounded good in here.
-|187:37:03|CDR|Okay, Houston. We're hard docked.
-|187:37:03|CMP|Okay, SECS PYROS - LOGIC is coming OFF.
-|187:37:03|CC|Roger. Understand two gray.
-|187:37:03|CMP|Circuit breaker is OPEN. Two gray; that's affirm.
-|187:37:03|CC|Challenger, Houston. We'd like to bring up the steerable there. PITCH of 155; YAW, plus 40.
-|187:37:03|LMP|Roger. 155 and plus 40.
-|187:37:03|CC|Affirmative.
+|187:36:55|CDR|Okay, when you're happy, I'll go free.
+|187:36:56|CMP|Okay, stand by.
+|187:36:59|CDR|Looking good now.
+|187:37:00|CMP|Looking good, yes. See, that's what we needed.
+|187:37:19|CMP|Okay, she's looking good. Why don't you go to FREE, and we'll go to RETRACT 1.
+|187:37:22|CDR|Okay -
+|187:37:23|CDR|MARK it. I'm FREE.
+|187:37:24|CMP|Okay, RETRACT, Here you come.
+|187:37:34|CMP|Bang! I got all the - two barber poles.
+|187:37:39|CDR|You got what?
+|187:37:40|CMP|Okay. (Laughter) Two grays, I mean.
+|187:37:42|CDR|That's better.
+|187:37:43|CMP|(laughter)
+|187:37:44|CMP|That's better, Okay, sounded good, in here.
+|187:37:47|CMP|Yes, sounded good in here.
+|187:37:49|CDR|Okay, Houston. We're hard docked.
+|187:37:51|CMP|Okay, SECS PYROS - LOGIC is coming OFF.
+|187:37:53|CC|Roger. Understand two gray.
+|187:37:55|CMP|Circuit breaker is OPEN. Two gray; that's affirm.
+|187:38:59|CC|Challenger, Houston. We'd like to bring up the steerable there. PITCH of 155; YAW, plus 40.
+|187:39:21|LMP|Roger. 155 and plus 40.
+|187:39:25|CC|Affirmative.
 ||||Tape 125/18|Page 1926
-|187:37:03|CDR|Say again, Gordy, 1l55-
-|187:37:03|CC|A PITCH of 135; and YAW, plus ^0.
-|187:37:03|CMP|Okay, Gene. You still free?
-|187:37:03|CDR|That *s affirm. I'm still free.
-|187:37:03|CMP|Gkay. I!ll take control of it.
-|187:37:03|LMP|Okay, Gordy, there's the high gain,
-|187:37:03|CC|America and Challenger. Ird like to - -
-|187:40:07|LMP|Hey, Gordy, we're not - -
-|187:40:07|CC|- - T?d like to take a minute of your time here to read the following statement b;y the President of the United States cf America. "As the Challenger leaves the surface of the Moon, we are conscious not of what we leave "behind, but of what lies before us, The dreams that draw humanity forward seem always to be redeemed, if we believe in them strongly enough and pursue then with diligence and courage* Once we stood mystified by the stars; today we reach up to them. We do this not only because it is man's destiny to dream the impossible* to dare the impossible, and to do the ? impossible, but also because, in space, as on Earth; there are new answers and new opportunities for the improvement of and the enlargement of human existence. This may be the last time in this century that men will walk 011 the Moon, but space exploration will continue, the benefits of space exploration will continue and there will be new dreams to pursue, based on what we have learned. So let us not mistake the significance or miss the majesty of what we have witnessed. Few events have ever marked so clearly the passage of history from one epoch to another* If we understand this about the last flight of Apollo, t:ien trtuy we shall have touched *a many splendored thing. ' To Gene Ceman, Jack Schmitt, and Ron Evans, we say God speed you safely back to this good Earth. ?l
-|187:40:07|CDR|Gordonthose are beautiful words by a great American President, We1re very honored to receive them; wef re very honored to be able to serve our country in a way that we otuisvo ui« Anc we tnan^i you.
+|187:39:37|CDR|Say again, Gordy, a 155?
+|187:39:41|CC|A PITCH of 155; and YAW, plus 40.
+|187:40:20|CMP|Okay, Gene. You still free?
+|187:40:23|CDR|That's affirm. I'm still free.
+|187:40:24|CMP|Okay. I'll take control of it.
+|187:40:29|LMP|Okay, Gordy, there's the high gain.
+|187:40:37|CC|America and Challenger. I'd like to - -
+|187:40:39|LMP|Okay - Gordy, we're not - -
+|187:40:42|CC|- - I'd like to take a minute of your time here to read the following statement by the President of the United States of America. "As the Challenger leaves the surface of the Moon, we are conscious not of what we leave behind, but of what lies before us. The dreams that draw humanity forward seem always to be redeemed, if we believe in them strongly enough, and pursue then with diligence and courage. Once we stood mystified by the stars; today we reach up to them. We do this not only because it is man's destiny to dream the impossible, to dare the impossible, and to do the impossible, but also because, in space, as on Earth, there are new answers and new opportunities for the improvement of and the enlargement of human existence. This may be the last time in this century that men will walk on the Moon, but space exploration will continue. The benefits of space exploration will continue and there will be new dreams to pursue, based on what we have learned. So let us not mistake the significance or miss the majesty of what we have witnessed. Few events have ever marked so clearly the passage of history from one epoch to another. If we understand this about the last flight of Apollo, then trtuy we shall have touched a many splendored thing. To Gene Cernan, Jack Schmitt, and Ron Evans, we say Godspeed you safely back to this good Earth.
+|187:40:19|CDR|Gordon, those are beautiful words by a great American President. We're very honored to receive them; we're very honored to be able to serve our country in a way that we believe in. And we thank you.
 ||||Tape 125/19|Page 1927
-|187:40:07|LMP|Thank you very much, Gordy and Mr. President.
-|187:40:07|CMP|Mr. President, this is America. And we appreciate it very much. Thank you, sir.
-|187:40:07|CDR|Say, Houstonj Challenger.
-|187:40:07|CDR|Ron, would you give us a call, when the tunnel's pressurized?
-|187:40:07|CMP|Okay. Stand by.
-|187:40:07|CDR|And also, we'll need a call when you get to attitude.
-|187:40:07|CMP|Okay. Will do.
-|187:40:07|CMP|Okay, your DUMP valve is in AUTO?
-|187:40:07|CDR|Yes, sir. It's in AUTO.
-|187:40:07|CMP|Okay. CABIN FANS are ON for the first time in the flight.
-|187:43:12|CMP|I got to get down there and turn the tunnel leak.
-|187:43:12|CMP|Okay, EMERGENCY CABIN REGS are OFF.
-|187:43:12|LMP|Houston, Challenger.
-|187:43:12|CC|Go ahead, Challenger.
-|187:43:12|LMP|Roger. Give us a call when you want us to go through the comm configuration. And we're going to leave the cabin fan on a little bit, keep airing out - filtering the cabin. And don't let us forget it.
-|187:43:12|CC|Okay.
-|187:43:12|CMP|Okay, Houston. I'm going to open the PRESSURE EQUALIZATION VALVE going into the tunnel. Can you keep an eye on my cabin pressure?
-|187:43:12|CC|Roger, America. Will do.
-|187:43:12|CMP|Okay
+|187:42:37|LMP|Thank you very much, Gordy and Mr. President.
+|187:42:42|CMP|Mr. President, this is America. And we appreciate it very much. Thank you, sir.
+|187:42:56|CDR|Say, Houston, Challenger.
+|187:43:19|CDR|Ron, would you give us a call, when the tunnel's pressurized?
+|187:43:23|CMP|Okay. Stand by.
+|187:43:25|CDR|And also, we'll need a call when you get to attitude.
+|187:43:29|CMP|Okay. Will do.
+|187:43:38|CMP|Okay, your DUMP valve is in AUTO?
+|187:43:42|CDR|Yes, sir. It's in AUTO.
+|187:43:44|CMP|Okay. CABIN FANS are ON for the first time in the flight.
+|187:44:44|CMP|I got to get down there and turn the tunnel leak.
+|187:44:53|CMP|Okay, EMERGENCY CABIN REGS are OFF.
+|187:45:11|LMP|Houston, Challenger.
+|187:45:13|CC|Go ahead, Challenger.
+|187:45:18|LMP|Roger. Give us a call when you want us to go through the comm configuration. And we're going to leave the cabin fan on a little bit, keep airing out - filtering the cabin. And don't let us forget it.
+|187:45:34|CC|Okay.
+|187:45:44|CMP|Okay, Houston. I'm going to open the PRESSURE EQUALIZATION VALVE going into the tunnel. Can you keep an eye on my cabin pressure?
+|187:45:52|CC|Roger, America. Will do.
+|187:45:56|CMP|Okay.
 ||||Tape 125/20|Page 1928
-|187:43:12|CMP|Okay, there's 2. DELTA-P of 2. ... closed; we'll see if it stays.
-|187:43:12|CC|America, Houston. Xou need a PRO to get the VERB h9 maneuver to Jett attitude started. Over.
-|187:43:12|CMP|Oh, sorry. ... stick again, huh?
-|187:43:12|CC|Ron, while you're down there, there's a couple switches on the SIM bay to check cut this pan camera heater. Over.
-|187:43:12|CMP|Sure; go ahead. Just waiting for the DELTA-P to stay steady ...
-|187:43:12|CC|Okay. PAN CAMERA MODE switch to STANDBY. And the PAN CAMERA POWER switch to POWER.
-|187:46:26|CMP|Verify. STANDBY. PAN CAMERA POWER is going to POWER now.
-|187:46:26|CC|Okay, that's good. We'll take a look at it awhile and let you know when we want power off.
-|187:46:26|CMP|Okay.
-|187:46:26|CMP|Okay. Looks like pressure is holding good there.
-|187:46:26|CC|Challenger, Houston.
-|187:46:26|CMP|Cabin pressure is okay. We'll go ahead and take her on down.
-|187:46:26|CDR|Go ahead.
-|187:46:26|CC|Okay, when yon get ready to transfer an OPS, we want you to transfer the commander's OPS. Over.
-|187:46:26|CDR|Okay; will do.
-|187:46:26|CDR|Hello, Gordy. Were you able to see the lunar surface lift-off?
-|187:46:26|CC|Yes, sir; we certainly were. It we.s a beautiful picture, and Captain Video stayed right on you. We saw you up to about 2 minutes ir.to the burn. We could see the plume.
+|187:46:08|CMP|Okay, there's 2. DELTA-P of 2. ... closed; we'll see if it stays.
+|187:46:17|CC|America, Houston. You need a PRO to get the VERB 49 maneuver to Jett attitude started. Over.
+|187:46:28|CMP|Oh, sorry. ... hit the stick again, huh?
+|187:46:38|CC|Ron, while you're down there, there's a couple switches on the SIM bay to check out this pan camera heater. Over.
+|187:46:47|CMP|Sure; go ahead. Just waiting for the DELTA-P to stay steady ...
+|187:46:49|CC|Okay. Put the PAN CAMERA MODE switch to STANDBY. And the PAN CAMERA POWER switch to POWER.
+|187:46:59|CMP|Verify. STANDBY. PAN CAMERA POWER is going to POWER now.
+|187:47:04|CC|Okay, that's good. We'll take a look at it a while and let you know when we want power off.
+|187:47:11|CMP|Okay.
+|187:48:23|CMP|Okay. Looks like pressure is holding good there.
+|187:48:26|CC|Challenger, Houston.
+|187:48:28|CMP|Cabin pressure is okay. We'll go ahead and take her on down.
+|187:48:35|CDR|Go ahead.
+|187:48:36|CC|Okay, when you get ready to transfer an OPS, we want you to transfer the commander's OPS. Over.
+|187:48:47|CDR|Okay; will do.
+|187:49:11|CDR|Hello, Gordy. Were you able to see the lunar surface lift-off?
+|187:49:16|CC|Yes, sir; we certainly were. It was a beautiful picture, and Captain Video stayed right on you. We saw you up to about 2 minutes into the burn. We could see the plume.
 ||||Tape 125/21|Page 1929
-|187:46:26|CDR|I'll tell you, if Challenger hits that South Massif and you're anywhere pointing in the right direction, you ought to have a spectacular shot.
-|187:46:26|CC|I'm sure of that because that camera is as good as any I've seen in a - in a television studio.
-|187:46:26|CMP|Okay, I've got about 2 - point 2 on the DELTA-P. And the equalization valve's wide open, so it must be about right.
-|187:50:10|CMP|Okay. EMERGENCY CABIN PRESSURE selector's going to BOTH.
-|187:50:10|CMP|Okay, I'm ready to open the hatch.
-|187:50:10|CDR|Ron, do you read?
-|187:50:10|CMP|What? Yes, go ahead.
-|187:50:10|CDR|Okay.
-|187:50:10|LMP|... is the tunnel pressure up?
-|187:50:10|CMP|I got the hatch out. Yes, it's pressurized.
-|187:50:10|LMP|Okay, Just pull it open then.
-|187:50:10|CMP|Okay
-|187:50:10|LMP|...
-|187:50:10|CDR|Okay, Ron, it'll be a minute or two before we open that hatch. We got a little work to do in here.
-|187:50:10|LMP|... egress. LEVA bags.
-|187:52:50|CMP|(Laughter) I don't know what it's like.
+|187:49:30|CDR|I'll tell you, if Challenger hits that South Massif and you're anywhere pointing in the right direction, you ought to have a spectacular shot.
+|187:49:40|CC|I'm sure of that because that camera is as good as any I've seen in a - in a television studio.
+|187:50:18|CMP|Okay, I've got about 2 - point 2 on the DELTA-P. And the equalization valve's wide open, so it must be about right.
+|187:50:44|CMP|Okay. EMERGENCY CABIN PRESSURE selector's going to BOTH.
+|187:51:36|CMP|Okay, I'm ready to open the hatch.
+|187:52:03|CDR|Ron, do you read?
+|187:52:04|CMP|What? Yes, go ahead.
+|187:52:06|CDR|Okay.
+|187:52:14|CMP|Yes. I still got about 5 on the cabin, I think.
+|187:52:18|LMP|... is the tunnel pressure up?
+|187:52:20|CMP|I got the hatch out. Yes, it's pressurized.
+|187:52:22|LMP|Okay, Just pull it open then.
+|187:52:24|CMP|Okay.
+|187:52:27|LMP|...
+|187:52:48|CDR|Okay, Ron, I'll be a minute or two before we open that hatch. We got a little work to do in here.
+|187:52:51|LMP|... egress. LEVA bags.
+|187:53:27|CMP|(Laughter) I don't know what it's like.
+|187:53:32|LMP|...
+|187:53:33|CMP|(Laughter) I guess it's great. Let me check the old docking latches.
 ||||Tape 125/22|Page 1930
-|187:52:50|CMP|Okay, I hear you. And, Houston, every latch has -worked perfectly.
-|187:52:50|CC|Roger.
-|187:52:50|CMP|Okay. Let's get the probe out of here.
-|187:52:50|CMP|I was just bleeding the nitrogen out of the probe.
-|187:52:50|CC|Roger, Ron. And when you get back in the cabin next, we'll take PAN CAMERA POWER, OFF.
-|187:52:50|CMP|Okay. The probe's loose in there.
-|187:52:50|CC|Sure sounds like it.
-|187:52:50|CMP|Is there any hurry on that, Gordo?
-|187:52:50|LMP|What did you say, Ron?
-|187:52:50|CMP|Houston, this is America. is there any hurry on that pan camera thing? If not, I'll take the probe out.
-|187:56:03|CC|Negative. No hurry; we have plenty of time here till LOS - 14 minutes. We want to see it before then.
-|187:56:03|CMP|Oh, okay. I'll get it out before then.
-|187:56:03|CMP|Ouch.
-|187:56:03|LMP|... over here,
-|187:56:03|CMP|Don't lose those (laughter).
-|187:56:03|LMP|They might be in the data file.
-|187:56:03|LMP|...
-|187:56:03|CMP|There comes the old probe.
-|187:56:03|LMP|...
+|187:53:49|LMP|... 6.
+|187:54:41|LMP|Okay.
+|187:54:44|CMP|Okay. I hear you. And, Houston, every latch has worked perfectly.
+|187:54:55|CC|Roger.
+|187:54:57|CMP|Okay. Let's get the probe out of here.
+|187:56:06|CMP|I was just bleeding the nitrogen out of the probe.
+|187:56:11|CC|Roger, Ron. And when you get back in the cabin next, we'll take PAN CAMERA POWER, OFF.
+|187:56:20|CMP|Okay. The probe's loose in there.
+|187:56:27|CC|Sure sounds like it.
+|187:56:29|CMP|Is there any hurry on that, Gordo?
+|187:56:33|LMP|What did you say, Ron?
+|187:56:35|CMP|Houston, this is America. Is there any hurry on that pan camera thing? If not, I'll take the probe out.
+|187:56:41|CC|Negative. No hurry; we have plenty of time here till LOS - 14 minutes. We want to see it before then.
+|187:56:50|CMP|Oh, okay. I'll get it out before then.
+|187:56:55|PAO|Evans will now remove the probe and drogue assembly and hand them through to Jack Schmitt and Gene Cernan in the Lunar Module. He'll also be transfering in the vacuum cleaner and a list of other items that need to be transferred out of the LM into the Command Module. After, gettings things as cleaned up as possible in the LM cabin, the crew will begin transferring samples and other equipment into the Command Module, and getting - begin the process of getting transfered themselves from Challenger into America. We have about 13 minutes remaining before we lose radio contact with Apollo 17.
+|187:56:56|CMP|Ouch.
+|187:57:00|LMP|... over here,
+|187:57:05|CMP|Don't lose those (laughter).
+|187:57:30|LMP|They might be in the data file.
+|187:57:59|LMP|... I got the bags -
+|187:58:12|CMP|There comes the old probe.
+|187:58:23|LMP|...
 ||||Tape 125/23|Page 1931
-|187:58:41|CMP|Okay. The probe is out.
-|187:58:41|CC|Roger, Ron.
-|187:58:41|CMP|Hey, does that - Do you want the probe right away, Jack?
-|187:58:41|LMP|What?
-|187:58:41|CMP|Do you want the probe right now?
-|187:58:41|CC|Okay, Ron. And before you pass the transfer list out of the Flight Plan Supplement, we have two small changes to page 1-11.
-|187:58:41|CMP|Okay. Wait 1 and I'll get it. Okay, I'm on 1-11.
-|187:58:41|CC|Okay, Ron - -
-|187:58:41|CMP|No, that's it.
-|187:58:41|CMP|That's it? Okay? We can do that, I think.
+|187:59:20|CMP|Okay. The probe is out.
+|187:59:24|CC|Roger, Ron.
+|187:59:29|CMP|Hey, does that - Do you want the probe right away, Jack?
+|187:59:32|LMP|What?
+|187:59:33|CMP|Do you want the probe right now?
+|187:59:35|LMP|No, and ...
+|188:00:13|CMP|Okay, Gordo. PAN CAMERA POWER is OFF.
+|188:00:17|CC|Okay, Ron. And before you pass the transfer list out of the Flight Plan Supplement, we have two small changes to page 1-11.
+|188:00:33|CMP|Okay. Wait 1 and I'll get it. Okay, I'm on 1-11.
+|188:01:04|CC|Okay, Ron - -
+|188:01:05|CMP|No, that's it.
+|188:01:06|CC|- item 17. Just change the last part of the statement "stow on A-1" to "stow on A-7"; and,
+on item 19 there, change from "stow on A-7" to "stow on A-1". That's it.
+|188:01:24|CMP|That's it? Okay? We can do that, I think.
+|188:01:30|CC|Okay.
 ||||Tape 125/24|Page 1932
-|187:58:41|CMP|Hey, hey! Here they come, by gosh. now you doing? (Laughter) Beautiful. ...
-|187:58:41|CC|America, advise we're reading all of you on Ron's VOX.
-|187:58:41|CMP|(Laughter) Okay.
-|187:58:41|CDR|Let me just doublecheck all ...
-|187:58:41|CC|Jack, if your handy to it, we'll take the S-band reconfiguration now.
-|187:58:41|LMP|Okay, I'll do that.
-|187:58:41|CC|You're loud and clear, Challenger, on the aft onni.
-|187:58:41|CMP|Here's your old vacuum, cleaner (laughter). You ... No, it's not on. Want it on? (Laughter) Great.
-|187:58:41|CDR|Hey, let me know when you turn it on; it cost me a .„. MASTER ALARM.
-|187:58:41|CMP|Okay, I'll turn it on.
-|187:58:41|CDR|Turn it on. You got the switch.
-|187:58:41|CMP|Okay.
-|187:58:41|CC|America and Challenger, both vehicles rr.ay get a program alarm on the computers due to the W-matrix overflowing. A VERB 93 will fix it in both cases.
+|188:01:30|CMP|Hey, hey! Here they come, by gosh. How you doing? (Laughter) Beautiful! Good show!
+|188:01:36|CMP|Boy, is it cold up there, it's hot as hell down here. It's stuffy.
+|188:01:41|CC|America, advise we're reading all of you on Ron's VOX.
+|188:01:52|CMP|(Laughter) Okay.
+|188:01:57|CDR|Let me just doublecheck all ...
+|188:02:22|CC|Jack, if your handy to it, we'll take the S-band reconfiguration now.
+|188:02:31|LMP|Okay, I'll do that.
+|188:03:01|LMP|Okay, Houston, how do you read on the AFT OMNI?
+|188:03:06|CC|You're loud and clear, Challenger, on the AFT OMNI.
+|188:03:24|CMP|Here's your old vacuum, cleaner (laughter). You ... No, it's not on. You want it on? (Laughter) Great.
+|188:03:42|CDR|Hey, let me know when you turn it on; it costs me a MASTER ALARM.
+|188:03:48|CMP|Okay, I'll turn it on.
+|188:03:53|CMP|Turn it on. You got the switch.
+|188:03:57|CMP|Okay.
+|188:04:13|CC|America and Challenger, both vehicles may get a program alarm on the computers due to the W-matrix overflowing. A VERB 93 will fix it in both cases.
 ||||Tape 125/25|Page 1933
-|188:03:48|CMP|Oh, okay. Should we just do a VERB 93 now for the heck of it anyhow?
-|188:03:48|CC|That's affirmative. VERB 93 on both spacecraft.
-|188:03:48|CMP|Okay, I got my -
-|188:03:48|LMP|Okay, Houston. I'm on the steerable, and I'll start tweaking to the best signal strength I can get.
-|188:03:48|CC|Okay, Jack.
-|188:03:48|CC|Jack, we think you've got the steerable up as good as it's going to get.
-|188:03:48|LMP|I think you're right.
-|188:06:42|LMP|Okay, and I verify I am in SLEW and not in AUTO.
-|188:06:42|CC|Okay; thank you.
-|188:06:42|CMP|Yes, are you going to leave us? Oh, okay; I got it. Okay? Okay, I'll get ... take care of this. Man, you guys got a lot of dirt up there.
-|188:06:42|LMP|It's clean now.
-|188:06:42|CMP|Oh. (Laughter)
-|188:06:42|CMP|One OPSj stowed.
-|188:06:42|CC|Challenger and America, about 2 minutes to LOS now, and both spacecraft are looking good.
-|188:06:42|LMP|Roger, Gordy; thank you. We'll see you coming around.
-|188:06:42|CMP|Okay, Houston, this is America, and we'll see you around there.
-|188:06:42|CC|Okeydoke. Adios.
-|188:06:42|CMP|Hey, Jack, you want a jettison bag?
-|188:06:42|LMP|Not yet.
+|188:04:29|CMP|Oh, okay. Should we just do a VERB 93 now for the heck of it anyhow?
+|188:04:37|CC|That's affirmative. VERB 93 on both spacecraft will fix them.
+|188:04:51|CMP|Okay, I got my -
+|188:05:07|LMP|Okay, Houston. I'm on the steerable, and I'll start tweaking to the best signal strength I can get.
+|188:05:14|CC|Okay, Jack.
+|188:06:57|CC|Jack, we think you've got the steerable up as good as it's going to get.
+|188:07:09|LMP|I think you're right.
+|188:07:24|LMP|Okay, and I verify I am in SLEW and not in AUTO.
+|188:07:28|CC|Okay; thank you.
+|188:07:41|CMP|Yes, are you going to leave us? Oh, okay; I got it. Okay? Okay, I'll get ... take care of this. Man, you guys got a lot of dirt up there.
+|188:08:03|LMP|It's clean now.
+|188:08:09|CMP|Oh. (Laughter)
+|188:08:54|CMP|One OPS, stowed.
+|188:09:03|CC|Challenger and America, about 2 minutes to LOS now, and both spacecraft are looking good.
+|188:09:13|LMP|Roger, Gordy; thank you. We'll see you coming around.
+|188:09:16|CMP|Okay, Houston, this is America, and we'll see you around there.
+|188:09:20|CC|Okeydoke. Adios.
+|188:10:13|CMP|Hey, Jack, you want a jettison bag?
+|188:10:16|LMP|Not yet.
 ||||Tape 125/26|Page 1934
-|188:06:42|CMP|Okay. Let me know when you want it. ...
-|188:06:42|LMP|Not yet.
-|188:09:38|CMP|Okay.
-|188:09:38||BEGIN LUNAR REV 53
+|188:10:17|CMP|Okay. Let me know when you want it - an empty one, you mean?
+|188:10:21|LMP|Not yet.
+|188:10:22|CMP|Okay.
+|188:11:25|PAO|This is Apollo Control at 190 hours 51 minutes. We've had loss of signal now with America and Challenger docked together in the 52nd revolution and we'll be reacquiring in about 45 minutes. The current orbit for the two vehicles is 62.2 by 61.6, and they're currently at an altitude of about 62.2, very close to apogee at this time. This is Apollo Control Houston.
+|188:54:01|PAO|This is Apollo Control at 191 hours 34 minutes, about 1 minute away from reacquiring America and Challenger on the 53rd revolution of the Moon. During this front-side pass one of the major activities here in the Control Center and also aboard the spacecraft will be to get the Lunar Module, Challenger properly configured for the LM jettison and the subsequent de-orbit burn that will impact at ó into the lunar surface near the landing site at Taurus-Littrow. The Flight Dynamics Officer will be coming up with the numbers that will be programmed into the LM for that de-orbit jettison and subsequent de-orbit maneuver. Right now, we're looking a time for ignition, or rather, a time for separation of the LM of 193 hours 58 minutes, and a LM de-orbit burn at 195 hours 38 minutes 14 seconds. The LM will be jettisoned by severing pyrotechnic bolts that ó pyrotechnic charges that in turn sever the connection between the two vehicles. And we have AOS. We'll pick up the live conversation.
+|188:54:38||BEGIN LUNAR REV 53
 ||||Tape 126/1|Page 1935
-|188:09:38|LMP|Yes.
-|188:09:38|CDR|Got a good isA bag - -
-|188:09:38|CMP|Okay.
-|188:09:38|CDR|— and stow on top of A-2 ...?
-|188:09:38|LMP|Darned if I know (laughter). I’ve been sleeping floating around in the tunnel.
-|188:55:06|CC|America, Houston. We hear you talking.
-|188:55:06|LMP|Hey, okay, Houston.
-|188:55:16|LMP|Hello, Houston; Challenger's up also.
-|188:55:16|CC|Okay, Challenger. Keeping busy up there?
-|188:55:23|CDR|Yes sir, Gordo. I think we're moving right along with the - with the transfer and stowage. And we'll give you a hack here. We got the isA bag over for A-2. We got the - two of the sample return bags stowed and a DEC0N bag, and they’re over and a lot of miscellaneous stuff.
-|188:55:23|CDR|Jack?
-|188:55:23|CC|Okay.
-|188:55:23|CMP|It's my page, probably, yes.
-|188:55:23|CDR|Jack, is that -
-|188:55:23|CMP|... did it come loose, there? Yes, my whole book came loose.
-|188:55:23|LMP|You got something on your - -
-|188:55:23|CMP|(laughter}
+|188:55:00|LMP|Yes.
+|188:55:38|CDR|Got a good ISA bag - -
+|188:55:38|CMP|Okay.
+|188:55:38|CDR|- and stow on top of A-2 ...?
+|188:55:25|LMP|Darned if I know (laughter). I've been sleeping floating around in the tunnel.
+|188:55:33|CC|America, Houston. We hear you talking.
+|188:55:37|LMP|Hey, okay, Houston.
+|188:55:43|LMP|Hello, Houston; Challenger's up also.
+|188:55:45|CC|Okay, Challenger. Keeping busy up there?
+|188:55:49|CDR|Yes sir, Gordo. I think we're moving right along with the - with the transfer and stowage. And we'll give you a hack here. We got the ISA bag over for A-2. We got the - two of the sample return bags stowed and a DECON bag, and they're over and a lot of miscellaneous stuff.
+|188:56:14|CDR|Jack?
+|188:56:14|CC|Okay.
+|188:56:19|CMP|It's my page, probably, yes.
+|188:56:21|CDR|Jack, is that -
+|188:56:26|CMP|... did it come loose, there? Yes, my whole book came loose.
+|188:56:39|LMP|You got something on your - -
+|188:56:43|CMP|(laughter)
 ||||Tape 126/2|Page 1936
-|188:55:23|LMP|--...
-|188:55:23|CMP|Thank, you. I'm checking some of this stuff off. Yes.
-|188:55:23|LMP|Okay.
-|188:55:23|CMP|That was a good one.
-|188:55:23|LMP|I didn't like that ...
+|188:56:45|LMP|... bags.
+|188:57:02|CMP|Thank, you. I'm checking some of this stuff off. Yes.
+|188:57:12|LMP|Okay.
+|188:57:25|CMP|That was a good one.
+|188:57:26|LMP|I didn't like that ...
 |188:58:33|CMP|Okay. Are you going to put the Buddy SLSS in the DECON bag and stow it on A-l?
-|188:58:07|LMP|Yes. That's in there now.
-|188:58:07|CMP|Okay. - Okay, the isA has got the - (Sneeze)
-|188:58:07|LMP|You just took the isA bag, - the big ...
-|188:58:07|CMP|Okay, but it had a lens brush, l6-ir.illimeter mag;-, three of them?
-|188:58:07|CDR|No, we can't have ... like that.
-|188:58:07|CMP|Okay, so I got those in - -
-|188:58:07|CDR|The lens brush is there ...
-|188:58:07|CMP|Okay, those - those l6-millimeter mags are in F-15 Yes. Extra sample collection bags? You got two of those in there? in the I - in the isA?
-|188:58:07|LMP|I need another -
-|188:58:07|CDR|Yes, there's two collec - -
-|188:58:07|CMP|Okay.
-|188:58:07|LMP|I need another decontamination baR.
-|188:58:07|CMP|Got one for the - that's got a metal plate in it somewhere.
-|188:58:07|CDR|That's it right there. That's got a metal plate.
-|188:58:07|CMP|Yes, that goes in the PGA bag, I think.
+|188:58:38|LMP|Yes. That's in there now.
+|188:58:40|CMP|Okay. - Okay, the ISA has got the - ...
+|188:58:52|LMP|You just took the ISA bag, - the big ...
+|188:58:54|CMP|Okay, but it had a lens brush, l6 millimeter mags, three of them?
+|188:59:00|CDR|No, we can't have ... like that.
+|188:59:02|CMP|Okay, so I got those in - -
+|188:59:04|CDR|The lens brush is there ...
+|188:59:06|CMP|Okay, those - those l6-millimeter mags are in R-13. Yes. Extra sample collection bags? You got two of those in there? in the I - in the ISA?
+|188:59:19|LMP|I need another -
+|188:59:20|CDR|Yes, there's two collec - -
+|188:59:22|CMP|Okay.
+|188:59:23|LMP|I need another decontamination bag.
+|188:59:29|CMP|Got one for the - that's got a metal plate in it somewhere.
+|188:59:31|CDR|That's it right there. That's got a metal plate.
+|188:59:34|CMP|Yes, that goes in the PGA bag, I think.
 ||||Tape 126/3|Page 1937
-|188:58:07|CDR|Huh?
-|188:58:07|CMP|That goes in the PGA bag.
-|188:58:07|CDR|Yes.
-|188:58:07|CMP|(Laughter) I don't know. I had a pretty nice little home here by myself.
-|188:58:07|CDR|You got any more bags or what?
-|188:58:07|CMP|I'm out of bags, I think.
-|188:58:07|CDR|... what are you going down there? ...
-|188:58:07|CMP|Yes.
-|188:58:07|CDR|... bags .,.
-|188:58:07|CMP|Yes.
-|188:58:07|CDR|We've got to tie that ...
-|188:58:07|CMP|I'd - I don't even know what's going on in the Flight Plan. Let's see.
-|188:58:07|CDR|This.
-|188:58:07|CMP|This, I think. isn't it?
-|189:00:11|CMP|Yes. What time is it? Let's see, 191:40. Let me check. One hour from now.
-|189:00:11|LMP|... What?
-|189:00:11|CMP|One hour from now.
-|189:00:11|LMP|Ho, no. We have two revs.
-|189:00:11|CMP|At 1 hour from now, it's supposed to be - Okay? Okay, let me get some out.
-|189:00:11|CDR|Let me work with this ... Jack.
-|189:00:11|CMP|Guess it doesn't make any difference whicn one goes where, does it?
-|189:00:11|CDR|Hey, Jack - -
+|188:59:36|CDR|Huh?
+|188:59:37|CMP|That goes in the PGA bag.
+|188:59:38|CDR|Yes.
+|188:59:47|CMP|(Laughter) I don't know. I had a pretty nice little home here by myself.
+|188:59:53|CDR|You got any more bags or what?
+|188:59:55|CMP|I'm out of bags, I think.
+|188:59:57|CDR|... what are you going down there? ...
+|188:00:04|CMP|Yes.
+|189:00:07|CDR|... bags ...
+|189:00:10|CMP|Yes.
+|189:00:11|CDR|We've got to tie that ...
+|189:00:17|CMP|I'd - I don't even know what's going on in the Flight Plan. Let's see.
+|189:00:21|CDR|This.
+|189:00:22|CMP|This, I think. Isn't it?
+|189:00:38|CMP|Yes. What time is it? Let's see, 191:40. Let me check. One hour from now.
+|189:01:05|LMP|... What?
+|189:01:05|CMP|One hour from now.
+|189:01:07|LMP|No, no. We have two revs.
+|189:01:09|CMP|At 1 hour from now, it's supposed to be - Okay? Okay, let me get some out.
+|189:01:31|CDR|Let me work with this ... Jack.
+|189:01:37|CMP|Guess it doesn't make any difference whicn one goes where, does it?
+|189:01:41|CDR|Hey, Jack - -
 ||||Tape 126/4|Page 1938
-|189:00:11|LMP|Hey, Gene.
-|189:00:11|CDR|Yes.
-|189:00:11|CMP|You're tangled up in the vacuum cleaner cable.
-|189:01:27|CC|America, Houston. We heard you talking about the time there. As near as we can tell, you're right on the timeline.
-|189:01:27|CMP|Right on the timeline, huh? Aren't we supposed to be closed out in about an hour?
-|189:01:27|CC|Well, let's see - -
-|189:01:27|CMP|That right? Or not?
-|189:02:22|CC|Ron, it's about an hour and a half until you're supposed to close up the IM hatch.
-|189:02:22|CMP|Oh, okay. An hour and a half yet. Yes, we should get it by then, I hope.
-|189:02:22|CMP|Hey, Gene. Do those SRCs have numbers on them, or weights,.or anything like that?
-|189:02:22|CDR|Both weigh the same ...
-|189:02:22|CMP|Both weigh the same?
-|189:02:22|CDR|Yes. Almost.
-|189:02:22|CMP|Okay. Won't make any difference where I put ther. then.
-|189:02:22|CDR|No.
-|189:02:22|CMP|Yes. Okay. Switch.
-|189:02:22|CMP|Oh, that's all right. Yes.
-|189:02:22|CMP|Well, it's serial number 1007- it1In trie b-6 rockbox area. I don't know how you tell whicn one's the number, which number's what.
-|189:02:22|CMP|Just a second, I can't get the other one closed. Nc. I - I don't mean that one. I near, the B-5 rockbox.
+|189:01:42|LMP|Hey, Gene.
+|189:01:43|CDR|Yes.
+|189:01:43|CMP|You're tangled up in the vacuum cleaner cable.
+|189:01:54|CC|America, Houston. We heard you talking about the time there. As near as we can tell, you're right on the timeline.
+|189:02:03|CMP|Right on the timeline, huh? Aren't we supposed to be closed out in about an hour?
+|189:02:09|CC|Well, let's see - -
+|189:02:10|CMP|That right? Or not?
+|189:02:49|CC|Ron, it's about an hour and a half until you're supposed to close up the LM hatch.
+|189:02:56|CMP|Oh, okay. An hour and a half yet. Well, we should get it by then, I hope.
+|189:03:23|CMP|Hey, Gene. Do those SRCs have numbers on them, or weights, or anything like that?
+|189:03:29|CDR|Both weigh the same ...
+|189:03:32|CMP|Both weigh the same?
+|189:03:33|CDR|Yes. Almost.
+|189:03:34|CMP|Okay. Won't make any difference where I put ther. then.
+|189:03:36|CDR|No.
+|189:03:42|CMP|Yes. Okay. Switch.
+|189:04:19|CMP|Oh, that's all right. Yes.
+|189:04:37|CMP|Well, it's serial number 1007. It's in the B-6 rockbox area. I don't know how you tell which one's the number, which number's what.
+|189:05:27|CMP|Just a second, I can't get the other one closed. No. I - I don't mean that one. I mean, the B-5 rockbox.
 ||||Tape 126/5|Page 1939
-|189:02:22|CDR|Okay. That's good ....
-|189:02:22|CDR|I have to think about it. They are in the isA, I should say. Did you want the ...?
-|189:02:22|CMP|Oops, I got the B—6 back again (laughter).
-|189:02:22|CDR|You ready for a ...?
-|189:02:22|CMP|Yes, I'll take it. Okay -
-|189:02:22|CDR|... on the back side of ...
-|189:02:22|CMP|There's a neat way to pass things back and forth. Okay. That's all right, we'll keep - -
-|189:02:22|LMP|Don't have room for it down here yet.
-|189:02:22|CMP|Okay.
-|189:02:22|LMP|How's the rockboxes . .. ?
-|189:02:22|CMP|Let me look.
-|189:02:22|LMP|I've got one, but ...
-|189:02:22|CMP|No.
+|189:05:40|CDR|Okay. That's good ....
+|189:05:22|CDR|I have to think about it. They are in the ISA, I should say. Did you want the ...?
+|189:05:22|CMP|Oops, I got the B—6 back again (laughter).
+|189:05:22|CDR|You ready for a ...?
+|189:05:22|CMP|Yes, I'll take it. Okay -
+|189:05:22|CDR|... on the back side of ...
+|189:05:22|CMP|There's a neat way to pass things back and forth. Okay. That's all right, we'll keep - -
+|189:05:22|LMP|Don't have room for it down here yet.
+|189:05:22|CMP|Okay.
+|189:05:22|LMP|How's the rockboxes . .. ?
+|189:05:22|CMP|Let me look.
+|189:05:22|LMP|I've got one, but ...
+|189:05:22|CMP|No.
 |189:06:41|CMP|Have you guys still got your PGA pockets on?
 |189:06:41|LMP|No, we threw them away.
 |189:06:41|CMP|Oh, okay.
