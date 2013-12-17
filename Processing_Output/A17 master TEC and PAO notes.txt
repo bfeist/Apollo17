@@ -197,3 +197,11 @@ missing television |184:41:43
 |187:01:32 - "good to see you"
 |187:40:42 - president quote transmitted to crew
 |188:01:30 - Hatch open and crew meet again
+|189:57:04 - Challenger going off the air
+|190:55:33|LMP|But that lubing is just so it collects dust to make them tight.
+|190:59:04 - Teasing Ron "We're tough, though, us guys that go to the lunar surface."
+|191:01:06|LMP|Well, you always were a bottom man.
+|191:18:33 - Detaching Challenger
+|193:12:44 - LM impact. They mention not seeing it on the TV.
+|193:17:29 - mention shutting off the TV camera (even though no video available for several hours previous)
+missing audio |193:50:46 - |195:57:12
