@@ -205,3 +205,27 @@ missing television |184:41:43
 |193:12:44 - LM impact. They mention not seeing it on the TV.
 |193:17:29 - mention shutting off the TV camera (even though no video available for several hours previous)
 missing audio |193:50:46 - |195:57:12
+missing audio |204:07:00 - |204:43:00 missing PAO announcement
+|205:05:34 - they don't like the wake-up music
+|205:28:09 - Jerry sends greetings and congratulations
+|205:58:55|LMP|Maybe that ratty data is me.
+|206:44:00 - much noise while expecting communication
+missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet Archive
+|211:38:29 - scientific experiment performance summary.
+|211:53:18 - laughter in mission control.
+|212:16:01 - missing TV coverage of seismic explosion. |212:45:14 detonation.
+|213:06:17 - orange material pictures being taken
+|213:20+ lots of photos being taken (to |213:38:00)
+|213:24:57 - pic: Oscar Oscar is empty
+|213:28:08 - pic: November November put on
+|213:39:34 - TEI joke. |CDR|These guys can call it what they like, but I know what it's going to be and when.
+|214:57:44 - picture frame 162 (NN)
+|214:59:05 - VV VNBW for the Nikon
+|215:14:21 - pic
+|215:14:42 - pic: 55 on RR
+|215:17:06 - P66 pics. many
+|216:44:54 - pic: waste water dump
+|216:55:54 - pic: talking about film availability
+|217:21:10 - santa joke
+|217:47:36|CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
+|225:31:01 - start of last day in lunar orbit
