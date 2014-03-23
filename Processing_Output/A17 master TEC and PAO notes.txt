@@ -269,7 +269,15 @@ missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet A
 |255:48:32 - missing audio starts
 |281:00:11 - missing audio ends
 |281:26:36 - crew television interview
-
+|282:44:27 - Santa visits the MOCR
+|283:35:13 - joke: |LMP|Doesn't it bother you to wield such power, Gordy?
+|283:38:24 - joke: first time we've seen the earth in several days "standing by for a weather report".
+|286:55:31 - missing audio starts
+|300:54:52 - missing audio ends
+|301:23:50 - CM / SM SEP
+|301:38:57 - beginning blackout
+|301:47:18 - main parachutes open
+|301:51:59|P-l|SPLASH.
 
 
 
