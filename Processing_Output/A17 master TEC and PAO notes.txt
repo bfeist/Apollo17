@@ -266,6 +266,9 @@ missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet A
 |255:09:10 - Ron during his EVA: "Hey, this is great! Talk - talk about being a spaceman"
 |255:22:21 - "hello mom!"
 |255:39:46 - American flag visible on Ron's EVA suit.
+|255:48:32 - missing audio starts
+|281:00:11 - missing audio ends
+|281:26:36 - crew television interview
 
 
 
