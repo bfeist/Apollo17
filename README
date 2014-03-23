@@ -20,4 +20,4 @@ The "Processing_Scripts" folder contains Python scripts that were written to scr
 The "MC_Output" folder contains the output from scripts like makeTEC_MCFromRawCSV.py in the "Processing_Scripts" folder. This "MC" output is a format that's usable by Spacelog.org.
 
 The "Processing_Output" folder contains the primary results of this project. Within this folder are post-processing CSV files that have been cleaned in a dynamic coding plus manual process.
-The "A17 master TEC and PAO manual merge.csv" file is the completed, cleaned CSV file--the result of all of the other OCR and scripting work in this project, completed with a full manual cleaning process sourced from original mission audio (more here http://benfeist.com/digitizing-apollo-17-part-7-listening-in-real-time/)
+The "A17 master TEC and PAO manual merge.csv" file is the completed, cleaned CSV file--the result of all of the other OCR and scripting work in this project, completed with a full manual cleaning process sourced from original mission audio (more here http://benfeist.com/digitizing-apollo-17-part-7-listening-in-real-time/) 
