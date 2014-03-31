@@ -10,7 +10,7 @@
 |033:01:06 - |035:06:00 - Missing audio
 |037:00:40 - music
 |038:34:05 - photos mentioned |038:34:29
-|040:00:00||NOTE: During the period 01 l6 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
+|040:00:00 - ||NOTE: During the period 01 l6 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
 |040:21:20 - Air-to-Ground 1 Air-to-Ground 2 split
 |040:53:01 - asking Jack to take internal picture
 |041:15:47 - very staticy "hello houston, America"
@@ -28,7 +28,7 @@
 |060:11:34 - 16mm magazine II requested for opportunity interior photos
 |060:12:12 - 16mm magazine HH was referred to as used during the heat flow experiment
 |060:33:11 - 50% remaining on II 16mm magazine - 6FPS
-|060:53:56|CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
+|060:53:56 - |CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
 |062:57:33 - clock change review - laughter at the complexity
 |063:20:19 - Film budget discussion
 |064:28:22 - Photo taken of the earth
@@ -44,14 +44,14 @@
 |071:07:15 - crew goes to sleep
 |079:44:49 - photo reference - frame 163 NN
 |081:43:27 - 16mm BB 75%
-|082:07:19|CMP|Okay, Houston. At 84:45, we've got about 2-1/2 to 3 minutes at 1 frame a second on mag Bravo Bravo, through the celestial adapter of the Earth.
+|082:07:19 - |CMP|Okay, Houston. At 84:45, we've got about 2-1/2 to 3 minutes at 1 frame a second on mag Bravo Bravo, through the celestial adapter of the Earth.
 |082:37:45 - changing film mags from NN
 |084:06:30 - Sees moon for the first time
 |084:07:11 - CC says they'll miss the moon
 |084:36:11 - mentions private conversation time range
 |085:07:06 - Geologist speechless
 |086:02:07 - LOS
-|086:02:56||BEGIN LUNAR REV 1
+|086:02:56 - ||BEGIN LUNAR REV 1
 |086:48:32 - pan camera power on
 |086:54:32 - you can hear photos being taken
 |087:02:31 - you can hear photos being taken
@@ -183,14 +183,14 @@
 |172:15:24 - Joke: How to get my visor up - give it to the CMP.
 |177:17:16 - "Jack's making up new geological terms as he goes along."
 |177:18:01 - Vertical dikelets - CMP prank
-|179:29:08|UNKNOWN|Anything to make you happy.
+|179:29:08 - |UNKNOWN|Anything to make you happy.
 |179:53:57 - Command module orbital burn.
 |180:57:11 - Schmitt reads xmas poem.
-missing audio 181:35:11 - 183:21:44
-missing television |184:41:43
+|181:35:11 - missing audio starts
+|183:21:44 - missing audio ends
+|184:41:43 - missing television
 |185:13:39 - GO for lunar liftoff
-|185:21:28 - lunar liftoff ignition
-	- TODO: revisit control room audio that's attached to rover video footage in this area
+|185:21:28 - lunar liftoff ignition - TODO: revisit control room audio that's attached to rover video footage in this area
 |185:28:41 - engine shutdown
 |186:10:44 - president quote (read by PAO)
 |186:54:02 - bad audio right channel begins
@@ -198,24 +198,27 @@ missing television |184:41:43
 |187:40:42 - president quote transmitted to crew
 |188:01:30 - Hatch open and crew meet again
 |189:57:04 - Challenger going off the air
-|190:55:33|LMP|But that lubing is just so it collects dust to make them tight.
+|190:55:33 - |LMP|But that lubing is just so it collects dust to make them tight.
 |190:59:04 - Teasing Ron "We're tough, though, us guys that go to the lunar surface."
-|191:01:06|LMP|Well, you always were a bottom man.
+|191:01:06 - |LMP|Well, you always were a bottom man.
 |191:18:33 - Detaching Challenger
 |193:12:44 - LM impact. They mention not seeing it on the TV.
 |193:17:29 - mention shutting off the TV camera (even though no video available for several hours previous)
-missing audio |193:50:46 - |195:57:12
-missing audio |204:07:00 - |204:43:00 missing PAO announcement
+|193:50:46 - missing audio starts
+|195:57:12 - missing audio ends
+|204:07:00 - missing audio starts - missing PAO announcement
+|204:43:00 - missing audio ends 
 |205:05:34 - they don't like the wake-up music
 |205:28:09 - Jerry sends greetings and congratulations
-|205:58:55|LMP|Maybe that ratty data is me.
+|205:58:55 - |LMP|Maybe that ratty data is me.
 |206:44:00 - much noise while expecting communication
-missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet Archive
+|207:08:20 - missing audio starts - entire 812-AAA.wav missing from Internet Archive
+|211:17:09 - missing audio ends 
 |211:38:29 - scientific experiment performance summary.
 |211:53:18 - laughter in mission control.
 |212:16:01 - missing TV coverage of seismic explosion. |212:45:14 detonation.
 |213:06:17 - orange material pictures being taken
-|213:20+ lots of photos being taken (to |213:38:00)
+|213:20:00 - lots of photos being taken (to |213:38:00)
 |213:24:57 - pic: Oscar Oscar is empty
 |213:28:08 - pic: November November put on
 |213:39:34 - TEI joke. |CDR|These guys can call it what they like, but I know what it's going to be and when.
@@ -227,7 +230,7 @@ missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet A
 |216:44:54 - pic: waste water dump
 |216:55:54 - pic: talking about film availability
 |217:21:10 - santa joke
-|217:47:36|CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
+|217:47:36 - |CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
 |225:31:01 - start of last day in lunar orbit
 |228:49:17 - pic: frames of mud craters in Smithii
 |229:04:42 - pics
@@ -238,7 +241,7 @@ missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet A
 |230:44:44 - pic: mag PP 14
 |231:24:35 - closing mapping camera cover mistake
 |233:14:19 - PAN camera stereo failure
-|233:20:52|LMP|We'll leave this country - this part of this planet for the next group to explore, I guess.
+|233:20:52 - |LMP|We'll leave this country - this part of this planet for the next group to explore, I guess.
 |233:27:52 - GO for TEI
 |233:41:52 - LOS before TEI burn
 |232:22:07 - Jack mentioning humans don't get to see the far side, but a trend has been started
@@ -277,7 +280,8 @@ missing audio |207:08:20 - |211:17:09 entire 812-AAA.wav missing from Internet A
 |301:23:50 - CM / SM SEP
 |301:38:57 - beginning blackout
 |301:47:18 - main parachutes open
-|301:51:59|P-l|SPLASH.
-
+|301:51:59 - SPLASHDOWN.
+|302:50:07 - cernan speech about learning from their experiences for years to come
+|302:56:35 - AUDIO ENDS
 
 
