@@ -1,30 +1,6 @@
-|041:18:03|LMP|(garble).
-|041:18:05|CC||Hello Challenger, this is Houston. Do you read me?
-|041:18:05|LMP|Hello, Houston, America. How do you read?
-|041:06:00|CC||America, this is Houston. Over.
-||||Tape 30/2|Page 217
-|041:18:03|CC|Challenger, this is Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
-|041:18:03|CC|America, this is Houston. Over.
-|041:18:03|SC|Okay. Stand by, and Challenger is going to give you a call on S-band, and VHF checks are both GO on A and B.
-|041:18:03|CC|I think I side marked on Challenger. We are getting some data. We'll stand by for another check.
-|041:19:21|CMP|Do you acknowledge that?
-|041:19:21|LMP|I heard him the first time.
-|041:19:21|CDR|Okay. ... me get S-band in
-|041:19:29|LMP|Okay, Houston; this is Challenger. Counting 1, 2, 3, 4, 5 How do you read?
-|041:19:29|CC|Challenger, Houston. You're loud and clear, with the background noise.
-|041:19:29|LMP|They don't have a good up-link, Gene. I - I had signal strength. And now I don't have any at all.
-|041:19:29|CDR|Okay. Houston, Challenger.
-|041:19:29|LMP|There it is. Now I do; 2.2.
-|041:19:29|CDR|Okay.
-|041:19:29|LMP|Tell them I heard their transmission to you.
-||||Tape 30/3|Page 218
-|041:20:34|LMP|I was at zero signal strength, and I heard their transmission ... One of them. The first time they acknowledged that your - that I was going to do it.
-|041:20:34|LMP|Did you shift my hose back? Oh,
-
 |042:21:25|CT|You going back to air-to-ground 1?
 |042:21:32|CMP|Okay. I heard somebody go to air-to-ground 1 that time, and -
 |046:42:55||Note: During the period 01:22:45:55 to 01:22:54:12, time-annotated recordings are not available.
-
 ||||Tape 72B/2|Page 547
 |108:10:20|CC|America, can you verify that you gave us NARROW on the HIGH GAIN?
 |108:10:20|CMP|Houston, America. Say again.
