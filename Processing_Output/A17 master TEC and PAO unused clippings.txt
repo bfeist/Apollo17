@@ -2133,6 +2133,235 @@
 |158:30:59|CC|Biat would be real fine, Ron.
 |158:30:59|CC|Okay. We've got the DSE running, Ron, as per the Flight Plan.
 |158:31:33|CMP|Okay.
+||||Tape 106A/7|Page 1441
+||||Tape 106B/1|Page 1442
+|158:45:26|CMP|Affirm. UV COVER is OPEN. I think SIM bay's all squared away.
+|158:45:26|CC|Roger. Thank you.
+|158:45:26|CMP|Sunrise was - that's 1 seconds, I think - after we closed both covers (laughter). Good timing.
+|158:45:26|CC|Roger. Okay, I'll keep you posted during your eat period of how the Aerobee's coming. It's due to launch at 162:10, and we need to get the 64-kilobit data here. As soon as we get that, we'll be giving it a GO for launch, but we did want to get your word on the cover.
+|158:45:26|CMP|It's OPEN.
+|159:18:41|CMP|It's OPEN and verified on.
+|159:18:41|CC|Roger, Ron. And they're in the count at White Sands.
+|159:18:41|CMP|Okay.
+|159:21:35|CMP|Okay, frame number 110 of mag Oscar Oscar was taken from window 1 off toward Lomonosov. You could really see the swirls in Marginis. They're -Trying to compare them with the same type of swirls back there in Arabia.
+|159:21:35|CC|Okay. We copy.
+|159:21:35|CMP|Let me take the old binocs and look out there. It's a long ways away.
+|159:21:35|CC|Roger. What are you looking at again, Ron?
+||||Tape 106B/2|Page 1443
+|159:22:31|CMP|These are the swirls looking off across the -Marginis toward Lomonosov and - let's see, what's that other sea? Big - big crater Just to the northwest of the Neper?
+|159:22:31|CC|Okay, let me look at it here.
+|159:22:31|CMP|About the same size as Neper.
+|159:22:31|CC|I got a poor map, Ron. All I show is - next to Neper, you have the Border Sea which is northwest of Neper, called the Border Sea. I don't know if that's the proper term you want or not.
+|159:22:31|CMP|Yes, that's - that's - that's what I mean. I think that's - Mare Marginis is a round one up there. I think that's what it is.
+|159:22:31|CC|Yes, I think so, too. I - Soon as I get ahold of - -
+|159:22:31|CMP|And in that case - Yes, my map doesn't go up that way, either, so - or the one I have out.
+|159:22:31|CC|Okay. Stand by.
+|159:22:31|CMP|I think Marginis is a circular basin.
+|159:22:31|CC|Yes, Mar - Marginis is the name; right.
+|159:22:31|CMP|And then, just north of that is - -
+|159:22:31|CC|You got a big - big one called Goddard - -
+|159:22:31|CMP|Yes, and then north of that is - Yes, okay. But in the case of Marginis - there's a brand new crater just in the northeast quarter of it - I mean northwest quarter.
+|159:22:31|CC|Okay. Brand new car - crater in the ... Marginis.
+|159:22:31|CMP|It almost looks like that - in the northwest quarter of Marginis, and it's about - let's see, I'm gy.essing - 100-kilometer size, probably.
+|159:22:31|CC|Okay. We copy that - -
+||||Tape 106B/3|Page 1444
+|159:22:31|CMP|Hey, no, 50-kilometer size.
+|159:22:31|CC|Roger. You've never seen that before on any of the maps?
+|159:22:31|CMP|But you know, it's - that - Well, no. I've got to look on the map. I'm sure it's there, because that's what's causing all the swirls going across Marginis.
+|159:22:31|CC|Okay, do you see a color-texture difference between the swirls across Marginis there?
+|159:22:31|CMP|Yes, the color - the texture is hard to - you just can't get any texture out of it. There's a dark -a dark gray. And then the swirls seem to be around this dark gray - the dark gray areas. The swirls, of course, are a light, light - light, light tan.
+|159:22:31|CC|We'd like - Stu and I would like to know, do you think the swirls are ejecta from that new crater you've seen?
+|159:26:20|CMP|Well, yes. The swirls in that one crater seem to be in Marginis, and I hope that's Marginis. I want to look at my map here in a minute and look for sure, but they seem to be emanating essentially radial from that bright crater - going out across the mare.
+|159:26:20|CC|Roger. Just a reminder, Ron, we don't want to tear you away from your window if you don't want to, but this is your eat period.
+|159:26:20|CMP|No, that's all right. I'd better grab -
+|159:26:20|CC|And we're T minus 3 White Sands and counting.
+|159:26:20|CMP|Better munch on something here. Hey, good.
+|159:26:20|CC|Ron, if you were in the simulator right now, I'd have you adjust your mirrors.
+|159:26:20|CMP|(Laughter) Yes, so you could tell which - where I'm looking, huh?
+||||Tape 106B/4|Page 1445
+|159:26:20|CC|No, sir, so you could look - you know what we used to adjust the mirror for down at the simulator all the time.
+|159:26:20|CMP|(Laughter) Yes, I know what you mean. Uh huh!
+|159:26:20|CC|I guess what I'm saying is I need a mirror down here on ny console for those of us in the peanut gallery here.
+|159:26:20|CMP|(Laughter)
+|159:28:49|CMP|Okay, the crater I was talking about was Al-Biruni -is the one that's got the swirls across coming from it. And then off in the northwest corner, just outside the rim, that's a very bright crater. It shows up on this - contingency chart. So that was Al-Biruni. Goddard's got a lot of - of swirls in it also. No, wait a minute. Goddard was the one I was talking about, not Al-Biruni.
+|159:28:49|CC|Okay. Goddard. Roger; got you.
+|159:28:49|CMP|What? Yes, Goddard is the one I was talking about. Crater size is more relative on that one, and there weren't any craters on the floor so that had - that had to be Goddard.
+|159:28:49|CC|Okay, we just had lift-off at White Sands.
+|159:28:49|CMP|Hey, good! Let's hope she keeps going.
+|159:32:26|CMP|You know, I'm looking north of - along Crisium. Okay, yes; there's Picard and Peirce. And you get the - same - same pattern that looks kind of like a swirl. Looks the same - same type of albedo as a - as a swirl with light places and dark places. The only difference being that you can definitely tell that these are ejecta from Proclus because the pattern is somewhat radial, you know, from Proclus itself. And then you've got the same thing, there's a crater up on the north - north rim - -
+|159:32:26|CC|Roger. We got you.
+||||Tape 106B/5|Page 1446
+|159:32:26|CMP|-- ... Crisium, just outside of it is about a 50-kilometer crater again. And it's a very bright one. And there the rays cross the Proclus swirls -or rays. Here you have to definitely call them -call them rays instead of swirls, and yet they look the same way. And the only - the only distinction is that in Crisium they go essentially radial. They have a direction to them, whereas the ones over there in Marginis and - next to Fermi or somewhere off in that part of the country are -They don't have any particular direction to them.
+|159:37:44|CC|Okay, Ron. White Sands just called us and they got a good data take and their - Preliminary report shows a good report on Aerobee.
+|159:37:44|CMP|Ah, perfect.
+|159:41:39|CMP|You know, I'm looking out of window 2 now, and you can definitely get three different color textures on the thing. You've got the light tan of Serenitatis, and then you've got the - an annulus ring that stops somewhere in about the middle of the two ridge systems that go around. And then you come down south in the landing site area and the two dark things change - Ah, I can't quite see it anymore. Then landing site is a darker - more of a gray, and it go - goes on - goes on up -There's a subdued crater; there's kind of a - The rilles go on up there, and then there's a filled-in crater just to the west of one that's about 20 kilometers in diameter. And that's about where the dark-gray material ends, right on the edge of that crater. And then you run in to the annulus that goes all the way around Crisium. I mean -not - not Crisium - or around Serenitatis.
+|159:41:39|CC|Serenitatis, Roger.
+|159:41:39|CMP|Ouch!
+|159:43:33|CMP|Frame 110 and 111 were taken, just now, out of mag Oscar Oscar - one of the landing site, and ohe north of the landing site, trying to get the color distinction between the three of them there.
+||||Tape 106B/6|Page 1447
+|159:43:33|CC|Roger; we copy.
+|159:47:41|CC|Ron, do you have your Flight Plan handy? I've got an update and stuff like that. I don't want to interrupt eating. If you don't have it, we'll get it after the eat period.
+|159:47:41|CMP|Okay. Just a second here; I'll get it.
+|159:48:31|CMP|Okay, 113, 114, and 115 were taken on the western edge of Serenitatis. I'll get unwound from the cord here in a little bit and I'll (laughter). You know if we design another spacecraft, we got to have something with a - so you don't have to be tied up to this crazy cord.
+|159:48:31|CC|Roger. Copy that. Hey, look, there's no hurry -hurry on the Flight Plan. Just keep doing what you want, and I'll call you at about l62:40.
+|159:48:31|CMP|Let's see, where are we now? I've got -
+|159:49:14|CC|We're at 152:29*
+|159:49:14|CMP|Oh, that's right. Yes. I'm not doing anything. Okay, I'm ready. Go ahead.
+|159:49:14|CC|Okay, what we want to do is, we have to take a look at the data longer, so at 162:45, we want to put in "MAPPING CAMERA, RETRACT" at that point. MAPPING CAMERA, RETRACT.
+|159:49:14|CMP|Okay.
+|159:49:14|CC|And that will delete it over at 163:05. You'll just delete it from that point.
+|159:49:14|CMP|Okay,
+|159:49:14|CC|And the zodiacal light photo pad, which is over there at 163:10 about - is 163:10:49 there. That's 163:10:49.
+|159:49:14|CMP|Okay. Zodiacal light T-start 163:10:49.
+||||Tape 106B/7|Page 1448
+|159:49:14|CC|Okay, the only reason I want to get that up to you is that "MAPPING CAMERA, RETRACT" there at 45 -We have to take a good long look at that data, you know. You know the problem we're having with it.
+|159:50:25|CMP|Oh, yes , uh huh. Okay.
+|159:51:23|CC|Okay, Ron, if you're near there, HIGH GAIN to AUTO.
+|159:51:30|CMP|HIGH GAIN is AUTO.
+|160:01:06|CMP|Houston, America.
+|160:01:06|CC|Roger. Go ahead, Ron.
+|160:01:06|CMP|You want the laser altimeter on while we try to retract that?
+|160:01:06|CC|That's a negative, Ron; just let it run.
+|160:01:06|CMP|Okay. Will do.
+|160:01:06|CC|They're going to stay running until over at 163:35 or so is where they - they go OFF, and we're - we're just going to retract the camera.
+|160:01:06|CMP|Okay. La - laser altimeter still putting out good data? As far as we know, anyhow?
+|160:01:06|CC|Yes, the only problem we had was when your toe caught it that one time. It's been good all along.
+|160:02:06|LMP|Okay.
+|160:02:06|CC|Ron, we'd like TANK 1 FAN, ON, please.
+|160:04:02|CMP|Okay. H2 TANK 1 are going ON.
+|160:04:02|CC|Roger.
+|160:04:56|CMP|Okay; let's try to retract the old mapper, huh?
+|160:04:56|CC|Roger. We're ready. You were watching it.
+|160:05:03|CMP|Okay. TRACK EXTEND, OFF; 5,4,- Well, let's see, I'll start it at 15 - 15:15; 13, 14 -
+||||Tape 106B/8|Page 1449
+|160:05:18|CMP|GO.
+|160:05:22|CMP|Got a barber pole.
+|160:05:22|CC|Okay, we see motion, Ron.
+|160:05:22|CMP|Very good.
+|160:05:22|CC|Ron, we've got one change to the Flight Plan. We should have got it to you sooner. At 163:40, we want to change that VERB 49 maneuver, because we want the lunar sounder to look at the SEP at the landing site.
+|160:05:22|CMP|163:40, okay. Go.
+|160:05:22|CC|Okay, let's change this to roll, 115; pitch, 297; yaw, 0.
+|160:05:22|CMP|Okay. Roll of 115; pitch, 297; yaw, 0.
+|160:06:21|CC|Roger, Ron.
+|160:09:12|CMP|MARK it. Barber pole.
+|160:09:12|CC|Mark it. Roger.
+|160:09:22|CMP|I don't mean barber pole. I mean gray (laughter) Well, whatever it was, it changed.
+|160:09:22|CC|Yes, looks like it's all the way in.
+|160:09:39|CMP|Yes.
+|160:12:23|CMP|The - Since we're having a little trouble with that, why don't I put the TRACK EXTEND switch to OFF on that one?
+|160:12:23|CC|That's okay, Ron.
+|160:12:23|CMP|Okay. We'll just remember it's retracted.
+|160:13:11|CMP|Houston, America.
+|160:13:11|CC|Go ahead, Ron.
+||||Tape 106B/9|Page 1450
+|160:13:11|CMP|Okay. Looks like we're running a bit - a bit beyond what it might take to do this here. Why don't you check with Bob Mercer and see if we can get by without'using the - Call that one, that frame - that1s - the protect frame. Either that or how real is the 40 expose - usable exposures on the front of the film? How much protection -how much room is there to - gravy - before he came to his calibration films?
+|160:13:11|CC|Okay, we're checking on that, Ron.
+|160:14:12|CMP|Okay. That, or he may want to skip one of the 60-second exposures in there somewhere, you know.
+|160:14:12|CC|Roger, Ron.
+|160:14:39|CC|Ron, our film record down here indicates you've got three more frames on there than you need for the zodiacal light, or do we have a bad number somewhere?
+|160:14:39|CMP|You may have. Because I'm - let's see, ready to take - yes, I've only got 11 more pictures on here. I'm sitting on number 30, ready to take picture number 30.
+|160:14:39|CC|Okay. Understand you're sitting on 30, ready to take number 30. And you've got 11 pictures left.
+|160:14:39|CMP|Yes; so that's 30 - 11 pictures, the way I count it. Unless there's some, you know, a little gravy between the 40 usable frames.
+|160:14:39|CC|Okay, Ron. There are 44 useful frames on that mag, so you can go from 30 to 44 in getting data.
+|160:14:39|CDR|Ah ha! Okay, that's good. We can get the whole works, then.
+|160:14:39|CC|Roger.
+|160:15:51|CMP|Outstanding.
+|160:19:15|CMP|Okay, Charlie 3 and Bravo 3 are ON. Alfa 3, and Bravo 3 are OFF. It should have been Charlie 3 and Dog 3 are OK.
+||||Tape 106B/10|Page 1451
+|160:19:15|CC|Roger. We copy that, Ron.
+|160:19:46|CMP|Okay.
+||||Tape 107B/1|Page 1460
+|160:24:28|CMP|Oh, okay. Thank you much.
+|160:24:28||BEGIN LUNAR REV 39
+|160:24:28|CMP|Well, let's see now.
+|161:21:06|CC|America, Houston.
+|161:21:06|CC|America, Houston.
+|161:22:16|CMP|Houston, America here. Sorry, but I didn't have my hat on.
+|161:22:16|CC|Roger, Ron. No problem. We've got a Flight Plan update whenever you're ready.
+|161:22:16|CMP|Let me get the cameras squared away here first, okay?
+|161:22:16|CC|Okay. Just give me a call.
+|161:22:16|CMP|I've been looking out the window, and I took - 1 took the four before 120 on the horizon across Arabia - with an 80 millimeter.
+|161:22:16|CC|Roger.
+|161:22:16|CMP|Mike. Mike Mike. There he is. That was on mag -mag - mag Oscar Oscar, by the way.
+|161:22:16|CC|Roger.
+|161:22:16|CC|Did you see Arabia?
+|161:22:16|CMP|Yes, it was a pretty - pretty good hit at it. It doesn't really - for - You've got to study it.
+||||Tape 107B/2|Page 1461
+|161:22:16|CC|Okay. We don't want to talk you into something.
+|161:22:16|CMP|(Laughter) That's right.
+|161:22:16|CMP|ECX[sic] 20 intervalometer, f/4, 1/250 ... 19 frames. Okay. We're starting with 143. Mike Mike.
+|161:25:50|CMP|Okay. All set for a Flight Plan update here.
+|161:25:50|CC|Okay, Ron. It's a couple of short items. Let's see. First of all, at 164:35, just anywhere in that area, we'd like you to service your biomed harnesses if it's convenient. We're getting pretty ratada-ratty data on you, now.
+|161:25:50|CMP|Oh, I just put a new one on last night.
+|161:25:50|CC|Okay. We think you need to service it with some jelly or something.
+|161:25:50|CMP|... A sponge, I guess, huh? I guess they could dry out. Okay.
+|161:25:50|CC|Roger. Okay the next Flight Plan update is at 166:36.
+|161:25:50|CMP|Okay. Go.
+|161:25:50|CC|Add a VERB 49 maneuver to lunar sounder HF target attitude at 166:40. The angles for the VERB 49 maneuver are as follows: 142, 269, 359-
+|161:27:25|CMP|Okay. That's to be - Okay. It's a VERB 49 to 142, 269, and 359È an<i that's for the pass where we pull film through there, huh?
+|161:27:25|CC|Roger. 166:40 is the time of that maneuver. And it's after - There's a note after that - resume nominal Flight Plan.
+|161:27:25|CMP|Okay.
+|161:27:25|CC|That's it. You've got everything up to date. And you're aware, I assume, that we have a total alternate Flight Plan laid out if we should have to jettison the an - high - the antennas.
+||||Tape 107B/3|Page 1462
+|161:28:17|CMP|Yes, you bet. I don't know what it is yet, but (laughter) - -
+|161:28:17|CC|And, Ron, FAO - just a reminder on that maneuver I just gave you - to start it at - at 36 to be in attitude by l64:40. Say again; 166:40.
+|161:28:17|CMP|Okay , 166. Okay. Figured it was , but - okay, I guess that - I stay in that attitude, then, I guess that's what it is, isn't it? Through the best of the SEP?
+|161:28:17|CC|Affirmative
+|161:28:17|CMP|Best of the receive only? Okay.
+|161:28:17|CC|And just for your information, your buddies on the surface are out walking around the Rover right now on television.
+|161:28:17|CMP|Hey, good deal.
+|161:30:10|CMP|Tacquet up to Bessel E or Men - Tacquet to Menelaus Go right along the pass. Calderas change at Caimon(?) Rilles. Across - 2.8, isn't it? 1/250. The t erminator's there.
+|161:34:49|CMP|Well, I'm just trying to match my color wheel with Crisium, and nothing matches.
+|161:34:54|CC|Roger. Seems a few other people have found that, too.
+|161:34:54|CMP|(Laughter)
+|161:34:54|CC|Hey, Ron. You're already aware, I'm sure, that -with this different attitude you've got, your look angle on D-Caldera photos here are going to be pretty - pretty marginal, and CM-5, I guess, is still the best window; But it's - I guess we're going to go ahead and get them, but it may be marginal.
+|161:35:21|CMP|Okay. I'll see. I was - I was wondering about that, really.
+|161:39:10|CMP|You know, the Crater Dawes has got - starting from the top going down the rim, there's a kind of a light-tan layer, it's a concentric layer that (joes all the way around; and then you come into a lighter - it1s almost to the white and it looks like on the hills and all around the landing site. And this first layer goes down maybe - let's see, as you look at the total distance in there, about a third of the distance; and then the white layer -concentric layer that goes all the way around, and this is in the western wall I'm looking at now, and it goes down to - to about a half of the distance, not quite half of the distance from the top of the rim down to the bottom. And then the lower portion of it, the lower half, a little better than a half really, is kind of a tannish gray - has a tannish-gray albedo to it. It's all streaked. And close to the bottom of the layer, the bottom of the crater itself is - filled with - Well, oddly enough, it's the same color of material that's -that's laying around the edges of the crater. It has some radial rings around it, which gives an indication of a subsidence of some kind, or a sliding down the hill. That's really the first crater where I've been able to see any sort of layering in the walls. Now the first layer on the north side and also on the south side, in the dark brownish layer of the thing, you can see parts that are jagged, jagged, and sticking out. In other words, there's a slight change in slope in it. That looks like it's a very steep slope, which would indicate that it's a fairly eon - compacted type of material in the first layer. And then the slope changes in the white layer on down a little bit more. And the white layer seems to sort of combine and maintain the same type of slope as the dark-gray stand - layer - the bottom, or from halfway down to the bottom of the crater.
+||||Tape 107B/4|Page 1463
+|161:42:00|CC|Roger, Ron. Did you tie in some of that ejecta material to the layer at the very bottom of the crater, like an overturned flap or something?
+|161:42:00|CMP|Yes. That's what it looks like.
+|161:42:00|CC|Roger. Got you.
+|161:42:17|CMP|The ejecta material is about the - Yes, that the -Okay, here we come on - Well, it1s an odd angle, but I guess it will work. Good. I want to get some of the - 30 and let's see. The first one started at Tacquet. I'm going to whip her back one and get one of - back the other way, because that's kind of a change in - in the color. The color of the area changes right at the Tacquet Rille to - to the brown - browns. This - I forgot my little "gouge," here. It goes north of Malinius [sic], doesn't it?
+||||Tape 107B/5|Page 1464
+|161:43:04|CC|You come up Tacquet, and then you go right near Bessel E, up in - you follow those ridges along into Bessel, there; Bessel E, rather.
+|161:43:04|CMP|Follow the - follow the rilles? Okay.
+|161:43:04|CC|You're north of Meilinius [sic], Menelaus E [sic].
+|161:43:04|CMP|Okay.
+|161:43:32|CC|And you cross just a little - -
+|161:43:32|CMP|That's definitely a volcanic field.
+|161:43:32|CC|- - bit south of Sulpicius Gallus. Say again, Rc
+|161:43:32|CMP|Okay, south. I was going to say that - that's definitely a volcanic field or a deposition. And it's - You have relief with it from Tacquet on up to even Men - Menelaus.
+|161:43:32|CC|Roger. Understand.
+|161:43:32|CMP|Bob, you say we cross to the south of Sulpicius Gallus?
+|161:43:32|CC|Yes, just about; just a little south of Sulpicius Gallus and the Haemus Mountains. Cross the Haemus Mountains, and then you're right over D-Caldera.
+|161:43:32|CMP|Okay. I think I got D-Caldera awhile back with a 250 lens, too.
+|161:43:32|CC|Good show.
+|161:44:51|CMP|Now, these Haemus Mountains have the same color tones, and what have you, as the - that field from Tacquet to - to Menelaus.
+||||Tape 10TB/6|Page 1465
+|161:45:40|CC|When you're a little bit past D-Caldera, you - on to - There's a line between the Sea of Vapors mare and the Apennine Mountains. That's where you change to f/2.8.
+|161:45:40|CMP|Okay. Yes, that is pretty good. We're going to hit D-Caldera, anyhow.
+|161:45:40|CMP|(Cough) There's a Cannon Rille, You know, there's a dark halo crater just to the west of D-Caldera. It's about 1200 meters or so in diameter, if my scale's right. It's about 1/4 of - 1/k of the size of D-Caldera.
+|161:47:43|CC|Okay, Ron. I don't show that on Bay map.
+|161:47:43|CMP|Okay. I think it might be on the picture there. I'm not sure. 1*11 have to get a better look at it before -
+|161:47:57|CC|Okay. And, as you cross this mare that you - just to the west of D-Caldera, you'll switch - as you get across, and up into the Apennines, you'll switch to f/2.8.
+|161:47:57|CMP|Okay. Boy, that Cannon Rille's sure got something sticking up on the west side of it, there. They ought to take a look at that picture. Looks like a spire sticking up on the left side, because it creates a tremendous shadcw. And, it's a perfectly round - Suppose that could be a crater? (laughter).
+|161:47:57|CC|Roger.
+|161:47:57|CMP|Yes. Might be a crater. 2.8 at 1/250.
+|161:48:54|CC|Ron, you want f/2.8; and then, up here when you get to the Apennine Mountains, the line between the Apennine Mountains and - the mare up there, you want to go to 1/125-
+|161:48:54|CMP|Okay. 1/125. Okay.
+|161:48:54|CC|Stay at 1/250 until you get across the Apennines there.
+|161:48:54|CMP|Man, oh man. Look. I think those are the La Hire flows or something out across there. They really stick up. You can sure see the flow fronts the - You know, in Imbrium, you can see the flow fronts and - the rilles a lot better than you could in Serenitatis. They must be bigger.
+||||Tape 107B/7|Page 1466
+|161:50:12|CMP|2.8 at 1/125-
+|161:50:56|CMP|Eratosthenes is just - being - picked up.
+|161:50:56|CC|Roger. Roger. The terminator is going to go right across it on the next pass, right across the eastern edge of Eratosthenes.
+|161:50:56|CMP|Oh. Okay. That's all we're going to get.
+|161:51:28|CC|Okay, Ron. Due to the lunar sounder saturating from the SEP, we would like to change the attitude; and, right now, go to that - the VERB 49 maneuver attitude that we called up for 166:36. We'd like you to go that now. Over.
+|161:51:28|CMP|(Laughter) Okay. The old SEP is saturated. Let's see. What was the attitude?
+|161:51:28|CC|Okay. I can read it to you. It's roll - -
+|161:51:28|CMP|42 - -
+|161:51:55|CC|- - 142, 269, 359.
+|161:51:55|CC|Okay, CMC in AUTO; ... Proceed.
 ||||Tape 108B/1|Page 1511
 |161:51:36|CC|Roger. We copy mag Mike Mike on 172.
 |161:51:36|CMP|... they just put that decal for the heck of it. Do I use the rest of them for targets of opportunity?

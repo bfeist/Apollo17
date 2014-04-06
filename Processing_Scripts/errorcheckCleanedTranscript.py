@@ -19,6 +19,6 @@ for curFile in [ "A17 master TEC and PAO manual merge.csv" ]:
 			prevTimestamp = int(intTimestamp)
 		#print(intTimestamp)
 		#print outputLine
-		if curRow > 15000:
-			break
+		#if curRow > 25000:
+			#break
 print "DONE"
