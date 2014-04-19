@@ -1,6 +1,4 @@
 ﻿import csv
-import sys 
-import re
 
 class PrevTimestamp:
 	def __init__(self, line, intTimestamp, strTimestamp):
