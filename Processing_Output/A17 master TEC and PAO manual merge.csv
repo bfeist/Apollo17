@@ -29223,155 +29223,160 @@
 |207:30:20|CC|Okay. 211:08, 211:08.
 |207:30:26|CMP|Okay. We're all set.
 |207:30:33|CC|Ron, just one comment before we start the Flight Plan. You've got a 52 coming up and we want to make sure that gets done prior to the VERB 49 maneuver at 210:30. And there is no slack on that VERB 49 maneuver at 210:30. So you'll have to get on to the 52 at about 20, but we should have enough time to get the rest of these updates up.
-|207:30:47|CMP|Okay.
-|207:30:47|CC|Okay, Ron, at 211:08 delete the lines: Mapping camera - OFF, wait 30 seconds, mapping camera -STANDBY, image motion - OFF, and laser altimeter -OFF. Delete those lines.
-|207:30:47|CMP|Okay, they're deleted.
-|207:30:47|CC|Okay, at 211:11, change the RECEIVE ONLY ATTITUDE to the following: roll, 039, pitch 159 j yaw 300.
-|207:30:47|CMP|Okay at 211:11, VERB 49 will be to 039, 159, and 300.
-|207:31:52|CC|Okay. At 211:26 we're going to do a P20 maneuver. It's going to be a rolling P20 which will roll about the OMNI Bravo line-of-sight to the Earth. We'll need high bit rate during that time. That's why we need the - line of Bravo. And we're doing the Earth study of - with the - with the lunar sounder to determine the polarization of the noise from the Earth so we can subtract it out of our data. And during these maneuvers, you're going to see a middle gimbal angle of plus or minus 65 degrees. We saw that on the - on the simulator, but a word of caution on that. You'll see a middle gimbal angle of plus or minus 65 degrees.
+|207:30:54|CMP|Okay.
+|207:30:56|CC|Okay, Ron, at 211:08 delete the lines: Mapping camera - OFF, wait 30 seconds, mapping camera - STANDBY, image motion - OFF, and laser altimeter - OFF. Delete those lines.
+|207:31:14|CMP|Okay, they're deleted.
+|207:31:15|CC|Okay, at 211:11, change the RECEIVE ONLY ATTITUDE to the following: roll, 039; pitch 159; yaw 300.
+|207:31:39|CMP|Okay at 211:11, VERB 49 will be to 039, 159, and 300.
+|207:31:47|CC|Okay. At 211:26 we're going to do a P20 maneuver. It's going to be a rolling P20 which will roll about the OMNI Bravo line-of-sight to the Earth. We'll need high bit rate during that time. That's why we need the - line of Bravo. And we're doing the Earth study of - with the - with the lunar sounder to determine the polarization of the noise from the Earth so we can subtract it out of our data. And during these maneuvers, you're going to see a middle gimbal angle of plus or minus 65 degrees. We saw that on the - on the simulator, but a word of caution on that. You'll see a middle gimbal angle of plus or minus 65 degrees.
 ||||Tape 139/17|Page 2022
-|207:31:52|CC|The P20 maneuver is as follows: at 211:26, P20 option - -
-|207:31:52|CMP|Okay.
-|207:31:52|CC|- - P20 option 2, HF scan, NOUN 78, plus 270.00, minus 039-30; NOUN 79 j minus 0.3000, plus 000.50; NOUN 34 is all zeros.
-|207:31:52|CMP|Hold it there, Bob.
-|207:31:52|CC|Okay, Roger.
-|207:31:52|CMP|Let me get - I got your NOUN, - I got fouled up in the NOUN 78s. Option, I'm going to need two of those, so it's NOUN 78 is plus 270.00 and a minus 039*30. Okay, your NOUN 79's now are - are say again.
-|207:31:52|CC|Minus 0.3000. And now for other NOUN 39 - -
-|207:31:52|CMP|Okay, 0.3 of a degree per second.
-|207:31:52|CC|Rog, and 0.5, 0.5 - half a degree dead band.
-|207:31:52|CMP|Okay.
-|207:31:52|CC|And, NOUN 34s are all zeros.
-|207:31:52|CMP|Okay, so you're going to PRO at 211:26 then, right.
-|207:31:52|CC|That's affirmative.
-|207:31:52|CMP|Okay.
-|207:31:52|CC|Okay, Ron, this next one - actually we're calling it 212:20, but the simulator came out at 212:18:40, just for information. And it's the following: Stop scan at roll 039*
-|207:31:52|CMP|Okay. Stop scan at roll 039-
+|207:32:32|CC|The P20 maneuver is as follows: at 211:26, P20 option - -
+|207:32:40|CMP|Okay.
+|207:32:40|CC|- - P20 option 2, HF scan, NOUN 78: plus 270.00, minus 039.30; NOUN 79: minus 0.3000, plus 000.50; NOUN 34 is all zeros.
+|207:33:20|CMP|Hold it there, Bob.
+|207:33:20|CC|Okay, Roger.
+|207:33:27|CMP|Let me get - I got your NOUN, - I got fouled up in the NOUN 78s. Option, I'm going to need two of those, so it's NOUN 78 is plus 270.00 and a minus 039.30. Okay, your NOUN 79's now are - are say again.
+|207:33:43|CC|Minus 0.3000. And now for other NOUN 39 - -
+|207:33:53|CMP|Okay, 0.3 of a degree per second.
+|207:33:56|CC|Rog, and 0.5, 0.5 - half a degree dead band.
+|207:34:05|CMP|Okay.
+|207:34:07|CC|And, NOUN 34s are all zeros.
+|207:34:20|CMP|Okay, so you're going to PRO at 211:26 then, right.
+|207:34:26|CC|That's affirmative.
+|207:34:29|CMP|Okay.
+|207:34:43|CC|Okay, Ron, this next one - actually we're calling it 212:20, but the simulator came out at 212:18:40, just for information. And it's the following: Stop scan at roll 039.
+|207:35:10|CMP|Okay. Stop scan at roll 039.
 ||||Tape 139/18|Page 2023
-|207:31:52|CC|Rog. VERB 49 maneuver to lunar sounder RECEIVE ONLY attitude. Roll l42, pitch 286, yaw zero.
-|207:31:52|CMP|Okay. VERB 49, lunar sounder RECEIVE ONLY, roll 142, pitch 286, yaw zero.
-|207:31:52|CC|Okay, and then the last one is 213:03. Configure the DSE high bit rate RECORD/FORWARD/COMMAND RESET.
-|207:31:52|CMP|Okay. At 213 - was that 03?
-|207:31:52|CC|03, that's affirm.
-|207:31:52|CMP|Configure DSE high bit rate RECORD/FORWARD/COMMAND. Okay.
-|207:31:52|CC|Okay -
-|207:31:52|CMP|For the high bit rate, RECORD/FORWARD/COMMAND RESET.
-|207:31:52|CC|Ron, we'll be - No more Flight Plan updates we promise today and we'll be working - -
-|207:31:52|CMP|(Laughter)
-|207:31:52|CC|- - map Delta and getting that updated to you, but everybody here thinks there's two maps on board and I think you're right. I think there's only one, isn't there.
-|207:36:52|CMP|Oh really. is that so?
+|207:35:12|CC|Rog. VERB 49 maneuver to lunar sounder RECEIVE ONLY attitude. Roll 142, pitch 286, yaw zero.
+|207:35:39|CMP|Okay. VERB 49, lunar sounder RECEIVE ONLY, roll 142, pitch 286, yaw zero.
+|207:35:45|CC|Okay, and then the last one is 213:03. Configure the DSE high bit rate RECORD/FORWARD/COMMAND RESET.
+|207:36:13|CMP|Okay. At 213 - was that 03?
+|207:36:19|CC|03, that's affirm.
+|207:36:19|CMP|Configure DSE high bit rate RECORD/FORWARD/COMMAND. Okay.
+|207:36:24|CC|Okay -
+|207:36:26|CMP|For the high bit rate, RECORD/FORWARD/COMMAND RESET.
+|207:36:29|CC|Ron, we'll be - No more Flight Plan updates we promise today and we'll be working - -
+|207:36:36|CMP|(Laughter)
+|207:36:36|CC|- - map Delta and getting that updated to you, but everybody here thinks there's two maps on board and I think you're right. I think there's only one, in there.
+|207:36:45|CMP|Oh really. is that so?
 |207:36:52|CC|FAO thinks there are two - -
-|207:36:52|CMP|- - Oh, wait a minute. Jack said they put an extra one - Okay, well, there were two. Jack just said he had one put on for him.
-|207:36:52|CC|Okay.
-|207:36:52|CMP|I must have picked his up or something.
-|207:36:52|CC|Roger.
-|207:36:52|CMP|Mine must be in there then, somewhere. We'll look for it.
-||||Tape 139/19|Page 2024
-|207:36:52|CC|Okay, if you'll check that and tell us if we need to update you. We'll still plan to update, but if you've got it, fine.
-|207:36:52|CMP|Okay.
-|207:36:52|CC|And it looks like you ought to be getting in your P52 when you get a chance here.
-|207:36:52|CMP|Yes, I'll get her down here. (Humming) Can't tell about these geologists. They put on extra maps in your spacecraft and things like that, you know. Yes, I get - I gave'you the last frame number on that Romeo Romeo, but I think I forgot to tell you the one after the - the other one. Oh, by the way, on the other one, Agassiz was completely in the darkness and there was no crater rim at all to shine down on Agassiz so we didn't get him at all.
-|207:36:52|CC|We copy that.
-|207:36:52|CMP|Oh, are we in P20? Go to FREE. We use to be in 20 - P20 - We'll get back into P20. Not much, but that's all right.
-|207:36:52|CMP|They go right along here. I have them right along here and shove them down over there is what they used to do with them. They haven't called. Get into AUTO now, CMC AUTO.
-|207:39:30|CMP|Okay, are we at - that's going and everything. Okay, go CMC FREE now. Okay. That's my fault, Gene, I should have gotten it. (Laughter) That's right - number 12 Rigel. Hey, I can find Rigel I bet you. There she comes. There's Orion. Man, oh man, I've done P52 only, and it's within the -within a half of a crosshair width. Come on, Alphard. Ah, ha! There's Alphard - for rev 62. Come on in there, baby. Well, up to my usual tricks (laughter). Ah, 12 and 21 - stars 12 and 21. Star angle difference, 5 balls.
-|207:42:21|CMP|Okay, Houston. There's the NOUN 93s.
-|207:42:21|CC|Roger. We copied them down.
+|207:36:53|CMP|- - Oh, wait a minute. Jack said they put an extra one - Okay, well, there were two. Jack just said he had one put on for him.
+|207:37:03|CC|Okay.
+|207:37:03|CMP|I must have picked his up or something.
+|207:37:05|CC|Roger.
+|207:37:05|CMP|Mine must be in there then, somewhere. We'll look for it.
+||||Ta7e 139/19|Page 2024
+|207:37:07|CC|Okay, if you'll check that and tell us if we need to update you. We'll still plan to update, but if you've got it, fine.
+|207:37:14|CMP|Okay.
+|207:37:16|CC|And it looks like you ought to be getting in your P52 when you get a chance here.
+|207:37:23|CMP|Yes, I'll get her down here. (Humming) Can't tell about these geologists. They put on extra maps in your spacecraft and things like that, you know. Yes, I get - I gave you the last frame number on that Romeo Romeo, but I think I forgot to tell you the one after the - the other one. Oh, by the way, on the other one, Agassiz was completely in the darkness and there was no crater rim at all to shine down on Agassiz so we didn't get him at all.
+|207:38:07|CC|We copy that.
+|207:38:23|CMP|Oh, are we in P20? Go to FREE. We use to be in 20 - P20 - We'll get back into P20. Not much, but that's all right.
+|207:38:53|CMP|They go right along here. I have them right along here and shove them down over there is what they used to do with them. They haven't called. Get into AUTO now, CMC AUTO.
+|207:39:22|CMP|Okay, are we at - that's going and everything. Okay, go CMC FREE now. Okay. That's my fault, Gene, I should have gotten it. (Laughter) That's right - number 12 Rigel. Hey, I can find Rigel I bet you. There she comes. There's Orion. Man, oh man, I've done P52 only, and it's within the - within a half of a crosshair width. Come on, Alphard.
+|207:41:22|CMP|Ah, ha! There's Alphard - for rev 62. Come on in there, baby. Well, up to my usual tricks (laughter). Ah, 12 and 21 - stars 12 and 21. Star angle difference, 5 balls.
+|207:42:11|CMP|Okay, Houston. There's the NOUN 93s.
+|207:42:19|CC|Roger. We copied them down.
 ||||Tape 139/20|Page 2025
-|207:42:21|CMP|Okay, and we'll torque them at 22:45-
-|207:42:21|CC|We copy.
-|207:42:21|CMP|Okay.
-|207:42:56|CMP|Okay. Give us the AUTO now.
-|207:42:56|CMP|Okay.
-|207:42:56|CMP|Okay, just a second, Gene, let me look at it. See resolve - Power is OFF. Do the old optics? Yes. I think - (Laughter) Outstanding idea - having a great drink. (Laughter) Okay, 24. Done that. Doesn't matter. Okay.
-|207:42:56|CMP|Houston, America.
-|207:42:56|CC|Say - say again.
-|207:42:56|CMP|Okay. Hey, Bob, how many frames of mag RR do we have to diddle with? Kind of our own, or are there any?
-|207:42:56|CC|That's in work right now.
-|207:42:56|CMP|Okay. Aha, here's another chart D.
-|207:42:56|CC|I do owe you a consumables status yet, and - -
-|207:42:56|CMP|Who knows - it's got all stuff in it. Hey, do we - we have a good chart Delta.
-|207:42:56|CC|Okay. Good. Great. I owe you a consumables status, and when you woke up, you were right on the Flight Plan line, and you had 53 percent remaining of RCS. And, all other consumables are on the line or above.
-|207:42:56|CMP|Okay.
-|207:42:56|LMP|Hey, Bob. Sorry we didn't let you get that in. We're not moving too fast for you, are we? (Laughter)
-|207:42:56|CC|Ron, you have zero spares on RR. No - no film available for yourself on RR.
+|207:42:25|CMP|Okay, and we'll torque them at 22:45.
+|207:42:36|CC|We copy.
+|207:42:40|CMP|Okay.
+|207:42:46|CMP|Okay. Give us the AUTO now.
+|207:43:00|CMP|Okay.
+|207:43:14|CMP|Okay, just a second, Gene, let me look at it. See resolve - Power is OFF. Do the old optics? Yes. I think - (Laughter) Outstanding idea - have a great drink. (Laughter) Okay, 24. Done that. Doesn't matter. Okay.
+|207:44:43|CMP|Houston, America.
+|207:44:51|CC|Say - say again.
+|207:44:55|CMP|Okay. Hey, Bob, how many frames of mag RR do we have to diddle with? Kind of our own, or are there any?
+|207:45:07|CC|That's in work right now.
+|207:45:10|CMP|Okay. Aha, here's another chart D.
+|207:45:19|CC|I do owe you a consumables status yet, and - -
+|207:45:21|CMP|Who knows - it's got all stuff in it. Hey, do we - we have a good chart Delta.
+|207:45:35|CC|Okay. Good. Great. I owe you a consumables status, and when you woke up, you were right on the Flight Plan line, and you had 53 percent remaining of RCS. And, all other consumables are on the line or above.
+|207:45:49|CMP|Okay.
+|207:45:52|LMP|Hey, Bob. Sorry we didn't let you get that in. We're not moving too fast for you, are we? (Laughter)
+|207:46:12|CC|Ron, you have zero spares on RR. No - no film available for yourself on RR.
 ||||Tape 139/21|Page 2026
-|207:42:56|CMP|Oh, okay. We'll - -
-|207:42:56|LMP|Hey - hey, Bob, this is Jack. If you could possibly swing it, I would strongly recommend that we let Ron redo that last terminator sequence if we can work it in the Flight Plan, because Gene and I may or may not have done what you wanted there, and I know we missed the first couple of them.
-|207:42:56|CMP|I'll - I'll use the 35-nillinieter. I still got about 8 or 10 frames on the 35 - -
-|207:42:56|CC|Okay, we'll take that word under advisement, and we'll evaluate it.
-|207:42:56|CMP|(Laughter)
-|207:42:56|LMP|Thank you. We may have to send you to the U.N. with that diplomacy.
-|207:42:56|CC|Thanks a lot for your confidence, Geno [sic].
-|207:42:56|MS|(Laughter)
-|207:47:45|CDR|Glad to hear your voice down there, boss - Admiral
-|207:49:54|CMP|Okay, Houston. Mapping camera is OFF.
-|207:49:54|CC|Roger, Ron.
+|207:46:56|CMP|Oh, okay. We'll - -
+|207:46:23|LMP|Hey - hey, Bob, this is Jack. If you could possibly swing it, I would strongly recommend that we let Ron redo that last terminator sequence if we can work it in the Flight Plan, because Gene and I may or may not have done what you wanted there, and I know we missed the first couple of them.
+|207:46:40|CMP|I'll - I'll use the 35-millimeter. I still got about 8 or 10 frames on the 35 - -
+|207:46:47|CC|Okay, we'll take that word under advisement, and we'll evaluate it.
+|207:46:55|CMP|(Laughter)
+|207:46:57|LMP|Thank you. We may have to send you to the U.N. with that diplomacy.
+|207:47:10|CC|Thanks a lot for your confidence, Geno [sic].
+|207:47:25|MS|(Laughter)
+|207:47:31|CDR|Glad to hear your voice down there, boss - Admiral
+|207:49:41|CMP|Okay, Houston. Mapping camera is OFF.
+|207:49:47|CC|Roger, Ron.
 |207:49:54|CC|Okay, we sug - suggest you start that VERB 49 maneuver at 210:30, or you'll be behind the eight-ball there on time.
 |207:51:26|CMP|Okay, Image motion is coming OFF. Laser altimeter is coming OFF.
-|207:51:26|CC|America, Houston. You're looking real good here coming up to LOS, and we'll see you at 211:22. You're looking good.
-|207:54:26|CMP|Okay. Will do.
+|207:54:02|CC|America, Houston. You're looking real good here coming up to LOS, and we'll see you at 211:22. You're looking good.
+|207:54:12|CMP|Okay. Will do.
 |207:54:26||BEGIN LUNAR REV 63
+|207:58:29|PAO|This is Apollo Control. We've had loss of signal. Apollo 17 spacecraft, America has gone behind the Moon nearing the end of revolution number 62. It will reappear again in about 48 minutes on revolution 63. Presently the orbit measures 62.4 by 65.2. Cabin pressure was holding steady at 4.8 pounds per square inch aboard the spacecraft, America. The crew busily running some photographic assignments, both with the Hand cameras in the cabin and the mapping and panorama camera is back in the SIM bay of the Service Module. Members of the white team of flight controllers beginning to drift in to replace the off-going gold team. And at 210 hours 39 minutes, Ground Elapse Time, this is Apollo Control.
+|208:41:10|PAO|This is Apollo Control at 211 hours 21 minutes. We are about 1 minute now from regaining radio contact with Apollo 17 as it comes around the eastern limb of the Moon on it's 63rd revolution. Here in Mission Control we've completed a shift handover. The Flight Director on this shift is Charles Lewis, and our Spacecraft Communicator is Astronaut Gordon Fullerton. Flight Director, Chuck Lewis has completed a status review for each of his flight controllers and from all around the room reports of everything nominal come back. During this shift two things of interest will be the firing of the explosive charges left on the lunar surface by the astronauts to SS scientists and determining the sub-surface structure. The first of these charges, designated charge No. 6 is scheduled to be detonated at about 212 hours 51 minutes. There is some latitude in this event and because of that we'll have the television camera on the lunar Rover up early to catch the event as - at it's earliest possible occurrence, which would be 212 hours 21 minutes and will leave it up through 213 hours 21 minutes.
 ||||Tape 140/1|Page 2027
-|207:54:26|CC|Hey, America; Houston here.
-|207:54:26|CMP|Hi, Gordo. Good morning.
-|207:54:26|CC|It's afternoon - right, afternoon.
-|207:54:26|CMP|Well, we want to PRO on that at 26. - 20 roll about OMNI Bravo.
-|207:54:26|SC|Oh , that' s ...
-|207:54:26|CMP|Yes, that's Earth study ... lunar sounder and the middle gimbal - -
-|207:54:26|CMP|Yes. How's the weather been there today, Gordo? (Music in background)
-|207:54:26|CC|America, Houston. I missed your last, if that was for me.
-|207:54:26|CMP|Yes. Just checking to see how the weather was doing there in Houston before you came into work.
-|207:54:26|CC|Oh, it's kind of - bunch of high clouds - cirrus, I guess, - but it's down around 35 s I'd say, and and pretty windy. So it's nippy when you're outside.
+|208:41:26|CC|Hey, America; Houston here.
+|208:41:26|CMP|Hi, Gordo. Good morning.
+|208:41:26|CC|It's afternoon - right, afternoon.
+|208:41:26|CMP|Well, we want to PRO on that at 26. - 20 roll about OMNI Bravo.
+|208:41:26|SC|Oh , that' s ...
+|208:41:26|CMP|Yes, that's Earth study ... lunar sounder and the middle gimbal - -
+|208:41:26|CMP|Yes. How's the weather been there today, Gordo? (Music in background)
+|208:41:26|CC|America, Houston. I missed your last, if that was for me.
+|208:44:43|CMP|Yes. Just checking to see how the weather was doing there in Houston before you came into work.
+|208:44:49|CC|Oh, it's kind of - bunch of high clouds, cirrus, I guess,  but it's down around 35, I'd say, and pretty windy. So it's nippy when you're outside.
+|207:45:06|CMP|Ah ha!
 ||||Tape 140/2|Page 2028
-|207:54:26|CMP|And, Houston, how's my biomed looking?
-|207:54:26|CC|About 10 seconds to your PRO.
-|207:54:26|CMP|Okay; thank you.
-|207:54:26|CC|America, we'd like the IR COVER, CLOSED - -
-|207:54:26|CMP|Oh, and away we go.
-|207:54:26|CC|- - and I think there might be a chance the Sun will get in it there.
-|207:54:26|CMP|Okay.
-|207:54:26|CDR|Okay, Gordy. And we're rolling .... - -
-|207:54:26|CMP|Barber pole, gray.
-|207:54:26|CC|Ron, your EKG looks good. The Surgeon wondered how the irritation that you had mentioned, because of the sensors, is - is it getting any better?
-|208:47:12|CMP|Well, it's - yes, it gets better when you take them off and leave it off for a while and I put the cream on it. And looks like it lasts for about a day. You know every time I put it on. I put it on at a different spot. And it takes about a day for it to get red and irritated.
-|208:47:12|CDR|And, Gordo, for information, that's not unique; we're all having that, and taking them off is the best relief for it.
-|208:47:12|CC|Okay.
+|207:45:13|CMP|And, Houston, how's my biomed looking?
+|207:45:34|CC|About 10 seconds to your PRO, there.
+|207:45:39|CMP|Okay; thank you.
+|207:45:46|CC|America, we'd like the IR COVER, CLOSED - -
+|207:45:49|CMP|Oh, and away we go.
+|207:45:49|CC|- - and I think there might be a chance the Sun will get in it there.
+|207:45:56|CMP|Okay.
+|207:45:57|CDR|Okay, Gordy. And we're rolling ... - -
+|207:45:59|CMP|Barber pole, gray.
+|207:46:04|CC|Okay.
+|207:46:39|CC|Ron, your EKG looks good. The Surgeon wondered how the irritation that you had mentioned, because of the sensors, is - is it getting any better?
+|208:46:56|CMP|Well, it's - yes, it gets better when you take them off and leave it off for a while and I put the cream on it. And looks like it lasts for about a day. You know every time I put it on. I put it on at a different spot. And it takes about a day for it to get red and irritated.
+|208:47:20|CDR|And, Gordo, for information, that's not unique; we're all having that, and taking them off is the best relief for it.
+|208:47:31|CC|Okay.
 ||||Tape l40/3|Page 2029
-|208:47:12|CC|America, I've got some words about what you might use for optional cur [?] optional photographs. Over.
-|208:47:12|CMP|Okay, yes, let's write it down there in the - why don't you write it on the back page, or something like that, so we'll know where it is.
-|208:47:12|CMP|Okay. (Music in background) Ready to copy.
-|208:47:12|CC|Okay. Magazine RR has no spare frames. So if you want to take any photos, we are suggesting using the-DAC and the 75-mm lens and using JJ which is very high-speed black and white. Ninety-eight percent of JJ is unscheduled. Here are some settings you might use for terminator photographs over mare. Use T2.8, 1/500, and infinity. For terminator over highlands, use T4, 1/500, and infinity. And for Tsiolkovsky on rev 74 that's GET of 232:58; that's sometime in the future here - we're suggesting using T5.6, 1/500, and infinity. Over.
-|208:50:23|LMP|Okay, Gordo, what was the f-stop for the highlands terminator?
-|208:50:23|CC|Okay, the highlands terminator would be 1'4. I guess that's the far-side terminator, and the nearside terminator is over mare. That's the mare setting.
-|208:50:23|LMP|Okay.
-|208:53:19|LMP|Hello, Houston; America, is today Friday down there?
-|208:53:19|CC|America, Houston. I'm sorry. Say again, please.
-|208:53:19|LMP|Just wondering, Gordo, if today is Friday.
-|208:53:19|CC|That's affirmative. It's Friday.
+|208:47:59|CC|America, I've got some words about what you might use for optional - crew optional photographs. Over.
+|208:48:14|CMP|Okay, yes, let's write it down there in the - why don't you write it on the back page, or something like that, so we'll know where it is.
+|208:48:34|CMP|Okay. (Music in background) Ready to copy.
+|208:48:42|CC|Okay. Magazine RR has no spare frames. So if you want to take any photos, we are suggesting using the-DAC and the 75-mm lens and using JJ which is very high-speed black and white. Ninety-eight percent of JJ is unscheduled. Here are some settings you might use for terminator photographs over mare. Use T2.8, 1/500, and infinity. For terminator over highlands, use T4, 1/500, and infinity. And for Tsiolkovsky on rev 74 that's GET of 232:58; that's sometime in the future here - we're suggesting using T5.6, 1/500, and infinity. Over.
+|208:50:06|LMP|Okay, Gordo, what was the f-stop for the highlands terminator?
+|208:50:11|CC|Okay, the highlands terminator would be T4. I guess that's the far-side terminator, and the nearside terminator is over mare. That's the mare setting.
+|208:50:28|LMP|Okay.
+|208:53:01|LMP|Hello, Houston; America, is today Friday down there?
+|208:53:15|CC|America, Houston. I'm sorry. Say again, please.
+|208:53:20|LMP|Just wondering, Gordo, if today is Friday.
+|208:53:24|CC|That's affirmative. It's Friday.
 ||||Tape 140/4|Page 2030
-|208:53:19|LMP|Okay, thank you.
-|208:53:50|CC|Happens to be pay day. It's the 15th.
-|208:53:50|CC|Jack, Houston. We see no need for you to wear any of your biomed sensors; if you'd rather take them off, give your skin a rest, feel free.
-|208:58:49|LMP|Okay, Gordy. I've done that. And I'll wait till my next time and put them on then.
-|208:58:49|CC|Okay.
-|209:01:36|LMP|Gordy, how do you read LMP?
-|209:01:36|CC|You're loud and clear, Jack.
-|209:01:36|LMP|While we're in a relatively quiet period, we're going to make a few comments about some of the things that cross the two big basins that we're getting very familiar with - or, actually, three: Smythii, Ori - Smythii, Crisium, and Serenitatis -and the degradation of the balls of the major ring and the lack of any obvious blanket structures, I think, in contrast to Imbrium and Orientale , which we've also had a pretty good look at -Orientale and Earthshine, on the earlier revs -is quite striking - that contrast is quite striking -    to me, at any rate. Also, within Orientale, the -    at least at the southeast - on the east-southeast portions of the mare floor, the wrinkle-ridge system is not nearly as well developed; but there is a wrinkle-ridge system that roughly forms an inner floor ring, at any rate.
-|209:01:36|CC|Roger.
-|209:01:36|LMP|The fronts of the major ring in Crisium are strikingly different than those of the Apennines just in their general slopes; sharpness of topographical features; and in any appearance of having even a hint of boulder fields on their slopes like we observed, say, on the South Massif, anything like that. At least Serenitatis massifs seem to locally show fairly major boulder fields on their flanks. And I haven't seen any around Crisl'uin yet. Maybe Ron's already talked to you about that, but I haven't seen any.
+|208:53:30|LMP|Okay, thank you.
+|208:53:32|CC|Happens to be pay day. It's the 15th.
+|208:58:16|CC|Jack, Houston. We see no need for you to wear any of your biomed sensors; if you'd rather take them off, give your skin a rest, feel free.
+|208:58:29|LMP|Okay, Gordy. I've done that. And I'll wait till my next time and put them on then.
+|208:58:37|CC|Okay.
+|209:01:15|LMP|Gordy, how do you read LMP?
+|209:01:18|CC|You're loud and clear, Jack.
+|209:01:24|LMP|While we're in a relatively quiet period, we're going to make a few comments about some of the things that cross the two big basins that we're getting very familiar with - or, actually, three: Smythii, Ori - Smythii, Crisium, and Serenitatis - and the degradation of the balls of the major ring and the lack of any obvious blanket structures, I think, in contrast to Imbrium and Orientale, which we've also had a pretty good look at - Orientale and Earthshine, on the earlier revs - is quite striking - that contrast is quite striking - to me, at any rate. Also, within Orientale, the - at least at the southeast - on the east-southeast portions of the mare floor, the wrinkle-ridge system is not nearly as well developed; but there is a wrinkle-ridge system that roughly forms an inner floor ring, at any rate.
+|209:02:51|CC|Roger.
+|209:02:58|LMP|The fronts of the major ring in Crisium are strikingly different than those of the Apennines just in their general slopes; sharpness of topographical features; and in any appearance of having even a hint of boulder fields on their slopes like we observed, say, on the South Massif, anything like that. At least Serenitatis massifs seem to locally show fairly major boulder fields on their flanks. And I haven't seen any around Crisium yet. Maybe Ron's already talked to you about that, but I haven't seen any.
 ||||Tape 140/5|Page 2031
-|209:01:36|CC|Okay.
-|209:01:36|LMP|Yes. The craters now. I'm speaking of the, Ron, of the front faces themselves, the rim - the face of the ring itself.
-|209:01:36|CMP|Oh, I see. The face of the ring itself - okay; that's what you're talking about.
-|209:01:36|LMP|Yes, yes. Wo it - a crater - a fresh crater in the mare or a fresh crater in the blanket area -rim area - will have boulders, Gordy; don't misunderstand me. But the front faces - the ring front face does not have boulders - that I can see. And I think boulders are pretty obvious when they're there. We've seen them well defined on the central peaks of Tsiolkovsky, and I think any time you have a major boulder popu - field, you can see it with the monocular - with the 10-power monocular.
-|209:01:36|CC|Roger.
-|209:05:28|LMP|Getting into areas that resemble, in their surface texture, the Sculptured Hills of the Taurus-Littrow landing area, here we're just passing - Now where are we? - that would be (laughter) I got disoriented all of the sudden. Proclus is there, so it''s in the ray-excluded zone of Proclus where there is a mare surface projecting up into terrain that looks like Sculptured Hills. And that mare has a distinct bluish-gray color, in contrast to the regolith associated with the Sculptured Hills -between the Hills at least - which is a brown -let's call it a tannish gray. Quite a sharp color hue contrast to my eyes, at any rate.
-|209:05:28|CC|Soger.
-|209:06:55|LMP|Okay. That was a projection of Fecunditatis Mare, I guess, up into there. Sculptured Hills tend to have both a regional distribution and a structurally controlled distribution, the structurally - structural control being apparently related to the rims of - of old craters. For example, there are some Sculptured-Hills-appearing topographic materials that - again, in the ray-excluded zone, but out in Fecunditatis - we: find the rim of a fairly large flooded crater - in Fecunditatis. And all of this may tie in with the possible -possibility that we saw at the landing site, that Sculptured Hills are composed of an igneous gab-broic rock. And these may represent local intrusions controlled by the structure of an old impact crater - extrusions controlled by the structure of the old impact crater.
+|209:03:50|CC|Okay.
+|209:03:58|LMP|Yes. The craters now. I'm speaking of the, Ron, of the front faces themselves, the rim - the face of the ring itself.
+|209:04:08|CMP|Oh, I see. The face of the ring itself - okay; that's what you're talking about.
+|209:04:12|LMP|Yes, yes. Now it - a crater - a fresh crater in the mare or a fresh crater in the blanket area - rim area - will have boulders, Gordy; don't misunderstand me. But the front faces - the ring front face does not have boulders - that I can see. And I think boulders are pretty obvious when they're there. We've seen them well defined on the central peaks of Tsiolkovsky, and I think any time you have a major boulder popu - field, you can see it with the monocular - with the 10-power monocular.
+|209:04:48|CC|Roger.
+|209:05:06|LMP|Getting into areas that resemble, in their surface texture, the Sculptured Hills of the Taurus-Littrow landing area, here we're just passing - Now where are we? - that would be (laughter) I got disoriented all of the sudden. Proclus is there, so it's in the ray-excluded zone of Proclus where there is a mare surface projecting up into terrain that looks like Sculptured Hills. And that mare has a distinct bluish-gray color, in contrast to the regolith associated with the Sculptured Hills - between the Hills at least - which is a brown - let's call it a tannish gray. Quite a sharp color hue contrast to my eyes, at any rate.
+|209:06:12|CC|Roger.
+|209:06:32|LMP|Okay. That was a projection of Fecunditatis Mare, I guess, up into there. Sculptured Hills tend to have both a regional distribution and a structurally controlled distribution, the structurally - structural control being apparently related to the rims of - of old craters. For example, there are some Sculptured-Hills-appearing topographic materials that - again, in the ray-excluded zone, but out in Fecunditatis, we find the rim of a fairly large flooded crater - in Fecunditatis. And all of this may tie in with the possible - possibility that we saw at the landing site, that Sculptured Hills are composed of an igneous gabbroic rock. And these may represent local intrusions controlled by the structure of an old impact crater - extrusions controlled by the structure of the old impact crater.
 ||||Tape 140/6|Page 2032
-|209:06:55|CC|Roger.
-|209:06:55|LMP|I've noticed - now I'm getting a good view of where in Fecunditatis there is a tannish - or let's call it more of a brownish-gray mare in contrast to bluish-gray mare in Fecunditatis itself.
-|209:06:55|CC|Roger.
+|209:07:57|CC|Roger.
+|209:08:10|LMP|I've noticed - now I'm getting a good view of where in Fecunditatis there is a tannish - or let's call it more of a brownish-gray mare in contrast to bluish-gray mare in Fecunditatis itself.
+|209:08:34|CC|Roger.
 |209:06:55|LMP|And in the walls of some - of a large crater -I'll try to figure out which one it is in a minute. It's near the large crater that the Sculptured Hills define you can see in the east wall - or maybe northeast wall of that crater - an area of bluish-gray - material that is streaking the normal tan-gray of that crater wall.
 |209:06:55|CC|Roger.
 |209:06:55|CC|This is a kind of one-sided discussion. I wish I was there so I could take a more active part.

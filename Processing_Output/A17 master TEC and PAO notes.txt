@@ -213,7 +213,9 @@
 |205:58:55 - |LMP|Maybe that ratty data is me.
 |206:44:00 - much noise while expecting communication
 |207:08:20 - missing audio starts - entire 812-AAA.wav missing from Internet Archive - update Nov 2014, 812 added to project.
-|207:29:27 - frame 55 on mag Romeo Romeo.
+|207:29:27 - pic: frame 55 on mag Romeo Romeo.
+|207:37:23 - "Can't tell about these geologists"
+|208:48:42 - pic: RR and JJ description
 |211:17:09 - missing audio ends (no longer missing, Nov 2014).
 |211:38:29 - scientific experiment performance summary.
 |211:53:18 - laughter in mission control.
