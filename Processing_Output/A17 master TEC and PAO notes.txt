@@ -216,6 +216,10 @@
 |207:29:27 - pic: frame 55 on mag Romeo Romeo.
 |207:37:23 - "Can't tell about these geologists"
 |208:48:42 - pic: RR and JJ description
+|209:21:10 - pics: magazine Oscar Oscar
+|209:32:11 - pics: YY
+|209:35:36 - joke: missing scissors search
+|209:54:09 - joke: turning off voice so transcribers can catch up
 |211:17:09 - missing audio ends (no longer missing, Nov 2014).
 |211:38:29 - scientific experiment performance summary.
 |211:53:18 - laughter in mission control.
