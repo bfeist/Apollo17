@@ -268,16 +268,16 @@
 |249:57:29 - 69th anniversary of man's first flight in a heavier-than-air powered machine
 |252:15:11 - joke. Leave the tape on the flashlight so the light won't get out
 |252:34:22 - helmet on for CMP EVA
-|253:30:52 - missing audio starts
-|253:46:29 - missing audio ends
-|253:49:35 - missing audio starts
-|253:59:21 - missing audio ends
+|253:30:52 - missing audio starts (no longer missing)
+|253:46:29 - missing audio ends (no longer missing)
+|253:49:35 - missing audio starts (no longer missing)
+|253:59:21 - missing audio ends (no longer missing)
 |255:00:53 - yells "Hey, there's the Earth, right out the hatch!"
 |255:09:10 - Ron during his EVA: "Hey, this is great! Talk - talk about being a spaceman"
 |255:22:21 - "hello mom!"
 |255:39:46 - American flag visible on Ron's EVA suit.
-|255:48:32 - missing audio starts
-|281:00:11 - missing audio ends
+|255:48:32 - missing audio starts (no longer missing)
+|281:00:11 - missing audio ends (no longer missing)
 |281:26:36 - crew television interview
 |282:44:27 - Santa visits the MOCR
 |283:35:13 - joke: |LMP|Doesn't it bother you to wield such power, Gordy?
