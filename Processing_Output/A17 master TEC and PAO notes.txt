@@ -272,7 +272,10 @@
 |253:46:29 - missing audio ends (no longer missing)
 |253:49:35 - missing audio starts (no longer missing)
 |253:59:21 - missing audio ends (no longer missing)
+|254:51:43 - Gene gives Ron advice on the EVA
+|254:58:29 - Ron loses the pen out the hatch.
 |255:00:53 - yells "Hey, there's the Earth, right out the hatch!"
+|255:05:18 - Ron waves at the camera
 |255:09:10 - Ron during his EVA: "Hey, this is great! Talk - talk about being a spaceman"
 |255:22:21 - "hello mom!"
 |255:39:46 - American flag visible on Ron's EVA suit.
