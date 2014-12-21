@@ -33236,111 +33236,112 @@
 |257:42:09|PAO|This is Apollo Control at 260 hours 22 minutes. During the time that we've had the air-to-ground lines down for the press briefings, there have been no major events in the mission. Things are continuing to progress smoothly and relatively quietly. At the present time, the crew is in the midst of an eat period, and we have about 18 minutes of accumulated taped conversation, which we'll play back for you at this time.
 |257:52:15|CC|America, Houston; over.
 |257:52:20|CDR|Go ahead.
-|257:52:15|CC|We have ... up the DSE, so we'd like you to go ahead now and do the maneuver listed at 26l. Give us the high gain so we can dump it. Over.
-|257:52:44|CDR|Okay. Maneuver's coming at you.
-|257:52:44|CC|Okay. And for your information, charge number 5 just went off. It was a 3-pounder, and it's jiggling the instruments on the surface there properly.
-|257:52:44|LMP|Very good. Any new word on the gravimeter, Gordy?
-|257:52:44|CC|I haven't got it yet, Jack. Let me check. Have you heard anything since you asked me the question last night?
+|257:52:22|CC|We have ... up the DSE, so we'd like you to go ahead now and do the maneuver listed at 261. Give us the high gain so we can dump it. Over.
+|257:52:37|CDR|Okay. Maneuver's coming at you.
+|257:52:41|CC|Okay. And for your information, charge number 5 just went off. It was a 3-pounder, and it's jiggling the instruments on the surface there properly.
+|257:52:55|LMP|Very good. Any new word on the gravimeter, Gordy?
+|257:53:01|CC|I haven't got it yet, Jack. Let me check. Have you heard anything since you asked me the question last night?
 ||||Tape 172/5|Page 2302
-|257:52:44|LMP|Well, whatever it was - No, I haven't heard anything.
-|257:52:44|CC|Okay. I'll try to get an update.
-|257:52:44|LMP|I was thinking of the lunar surface gravimeter, not the traverse. They apparently don't want to talk to me about the traverse gravimeter.
-|257:52:44|CC|Okay. We'll try for info on both of them.
-|257:52:44|LMP|Okay. Any other new stuff you might have heard or get a hold of, I might be interested in.
+|257:53:11|LMP|Well, whatever it was - No, I haven't heard anything.
+|257:53:14|CC|Okay. I'll try to get an update.
+|257:53:18|LMP|I was thinking of the lunar surface gravimeter, not the traverse. They apparently don't want to talk to me about the traverse gravimeter.
+|257:53:30|CC|Okay. We'll try for info on both of them.
+|257:58:20|LMP|Okay. Any other new stuff you might have heard or get a hold of, I might be interested in.
 |257:58:28|CC|Okay. America, Houston; we need OMNI Charlie, please.
-|257:58:28|CDR|Houston.
-|257:58:28|CC|America, Houston. OMNI Charlie, please.
-|257:58:28|LMP|Hello, Houston. How do you read?
-|257:58:28|CC|Okay; loud and clear. Go ahead.
-|257:59:36|LMP|Okay. We apparently - in our struggles up here inadvertently hit the WASTE WATER to DUMP and it1s back in RELIEF now. That dump is terminated; we have 30 percent waste water.
-|257:59:36|CC|Okay.
-|257:59:36|LMP|I'm not sure what we had when it started. I just noticed the streaming. I don't think it was on very long.
-|257:59:36|CC|Roger.
-|258:06:00|CC|America, Houston. We need - we could use the HIGH GAIN now, NARROW and REACQ.
+|257:58:33|CDR|Houston.
+|257:58:40|CC|America, Houston. OMNI Charlie, please.
+|257:58:48|LMP|Hello, Houston. How do you read?
+|257:58:51|CC|Okay; loud and clear. Go ahead.
+|257:58:55|LMP|Okay. We apparently - in our struggles up here inadvertently hit the WASTE WATER to DUMP and it's back in RELIEF now. That dump is terminated; we have 30 percent waste water.
+|257:59:11|CC|Okay.
+|257:59:15|LMP|I'm not sure what we had when it started. I just noticed the streaming. I don't think it was on very long.
+|257:59:23|CC|Roger.
+|258:04:00|PAO|This is Apollo control at 260 hours 44 minutes. We're up live now that completes our tape playback. Apollo 17, 153,321 nautical miles from Earth, And one of the comments you heard from capcom advising the crew that the fifth of the explosive charges left on the lunar surface at Taurus Littrow had gone off as programed. The detonation occurred almost precisely on time at 260 hours 24 minutes. This is a one and a half or rather a three pound explosive charge located one and a half kilometers east of the lunar rover. And, we appeared to get good seismic data here in the control center. At the present time the crew is still in the eat period, and we've had relatively little conservation from them. It also from the flight plan looks as if we'll have relatively quiet evening. Very few things scheduled between now and the time the crew is to begin their rest period at 267 hours or about 6 hours 15 minutes from now.
+|258:06:19|CC|America, Houston. We need - we could use the HIGH GAIN now, NARROW and REACQ.
+|258:08:22|CC|America Houston high gain's not going to work in NARROW now, wait a while it's in a skin reflection area.
 ||||Tape 173/1|Page 2303
-|258:06:00|LMP|Yes, I'm having the same problem there - I noticed the same problem. How's this, leave it in WIDE?
-|258:06:00|CC|That will be fine.
-|258:09:54|CC|America, Houston. We'd like you to go to REACQ now, wait 30 seconds, and then go to NARROW.
-|258:10:43|CDR|Hello, Houston. We're turning the CABIN FAN, OFF, for a while.
-|258:10:43|CC|Roger.
+|258:08:35|LMP|Yes, I'm having the same problem there - I noticed the same problem. How's this, leave it in WIDE?
+|258:08:43|CC|That will be fine.
+|258:10:12|CC|America, Houston. We'd like you to go to REACQ now, wait 30 seconds, and then go to NARROW.
+|258:11:01|CDR|Hello, Houston. We're turning the CABIN FAN, OFF, for a while.
+|258:11:06|CC|Roger.
 |258:13:20|CC|America, Houston. We'd like NARROW beam width.
-|258:13:20|LMP|Thanks for timing 30 seconds for me, Gordy. I think that was beyond me.
-|258:13:20|CC|You're welcome.
-|258:14:33|LMP|Doesn't look like it's going to make it, does it?
-|258:14:33|CC|No, it sure doesn't. Stand by 1, and we'll give you an alternate plan here.
+|258:13:27|LMP|Thanks for timing 30 seconds for me, Gordy. I think that was beyond me.
+|258:13:37|CC|You're welcome.
+|258:14:31|LMP|Doesn't look like it's going to make it, does it?
+|258:14:34|CC|No, it sure doesn't. Stand by 1, and we'll give you an alternate plan here.
 |258:15:20|LMP|I'm back in WIDE.
-|258:15:20|CC|Roger.
+|258:15:30|CC|Roger.
 |258:17:27|CC|America, Houston. We're going to have to have the high gain for the dump and also for a little additional work with the HF antennas and the sounder that we're going to read you here in a minute. So, in order to get it, we'd like you to pitch up 20 degrees in your present attitudes; and when you get there, then we ought to be able to reacquire and go NARROW.
-|258:17:27|LMP|Okay.
+|258:17:59|LMP|Okay.
 ||||Tape 173/2|Page 2304
-|258:17:27|CC|Once you get the antenna locked on in NARROW it will track back to this attitude, and that's what we'd like you do is come back down to this attitude, once you get the antenna locked on.
-|258:17:27|LMP|Okay, Gordy, we got a good lock now.
-|258:17:27|CC|Okay. Fine. Well, then go right on back to the program pitch attitude there, and it should hold.
-|258:17:27|LMP|In work - in work.
-|258:20:14|CC|America, Houston. We'd like to have somebody go to panel 230. I'll give you switches real time, save you writing them all down to get a couple of things cranked up here. Over.
-|258:20:14|CDR|Okay. What do you want at 230?
-|258:20:14|CC|Okay. Basically what we're going to do is turn the IR OH with the COVER, CLOSED, to keep it warm so you can do that IR, ON, now. And then we're going to put out the HF antennas and listen to HF getting some data on background noise from the Earth. If you'll put HF ANTENNA 2 to EXTEND, we'll give you a cue when to go OFF when it's all the way out. Over.
-|258:20:14|CDR|Okay. HF ANTENNA 2 to EXTEND on my MARK.
+|258:18:25|CC|Once you get the antenna locked on in NARROW it will track back to this attitude, and that's what we'd like you do is come back down to this attitude, once you get the antenna locked on.
+|258:18:43|LMP|Okay, Gordy, we got a good lock now.
+|258:18:57|CC|Okay. Fine. Well, then go right on back to the program pitch attitude there, and it should hold.
+|258:19:09|LMP|In work - in work.
+|258:20:15|CC|America, Houston. We'd like to have somebody go to panel 230. I'll give you switches real time, save you writing them all down to get a couple of things cranked up here. Over.
+|258:20:38|CDR|Okay. What do you want at 230?
+|258:20:41|CC|Okay. Basically what we're going to do is turn the IR ON with the COVER, CLOSED, to keep it warm so you can do that IR, ON, now. And then we're going to put out the HF antennas and listen to HF getting some data on background noise from the Earth. If you'll put HF ANTENNA 2 to EXTEND, we'll give you a cue when to go OFF when it's all the way out. Over.
+|258:21:06|CDR|Okay. HF ANTENNA 2 to EXTEND on my MARK.
 |258:21:18|CDR|MARK it.
-|258:21:18|CC|Roger.
-|258:24:01|CC|Okay. We'd like HF ANTENNA 2 to OFF, please.
-|258:24:17|CDR|Okay. HF ANTENNA 2 is OFF. It maintained barber pole all the time there. Ir never went gray until we turned it off.
-|258:24:17|CC|Okay. It probably isn't out yet. The reason we had you stop was because the recorder that's watching that broke down, down here. We got to get that back on line.
+|258:21:20|CC|Roger.
+|258:24:02|CC|Okay. We'd like HF ANTENNA 2 to OFF, please.
+|258:24:16|CDR|Okay. HF ANTENNA 2 is OFF. It maintained barber pole all the time there. It never went gray until we turned it off.
+|258:24:38|CC|Okay. It probably isn't out yet. The reason we had you stop was because the recorder that's watching that broke down, down here. We got to get that back on line.
 ||||Tape 173/3|Page 2305
-|258:24:17|CDR|Okay.
-|258:24:17|CC|While you're waiting there, I can go over the football scores for the weekend, if you wish.
-|258:24:17|LMP|Just a minute. Let's see if we can get Ron on a headset.
-|258:24:17|CC|Okay.
-|258:24:17|LMP|He's walking - he's walking around here thinking he doesn't have to do anything any more after that EVA, but we'll get him back to work.
-|258:24:17|CC|Roger.
-|258:24:17|CMP|Okay, Houston. We're ready for those scores now.
-|258:24:17|CC|Okay. Just 1 second, Ron. I think we've got another switch for you here.
-|258:24:17|CMP|Okay.
-|258:24:17|CC|Okay. We'd like to take the sounder HF ANTENNA number 1 switch to EXTEND. We'll let the motor on 2 cool off. We do have the recorder fixed, so we can watch 1 now.
-|258:24:17|CMP|Okay. Number 1 is going to EXTEND. 3, 2, 1 -
+|258:24:51|CDR|Okay.
+|258:25:29|CC|While you're waiting there, I can go over the football scores for the weekend, if you wish.
+|258:25:39|LMP|Just a minute. Let's see if we can get Ron on a headset.
+|258:25:42|CC|Okay.
+|258:25:50|LMP|He's walking - he's walking around here thinking he doesn't have to do anything any more after that EVA, but we'll get him back to work.
+|258:25:57|CC|Roger.
+|258:26:35|CMP|Okay, Houston. We're ready for those scores now.
+|258:26:40|CC|Okay. Just 1 second, Ron. I think we've got another switch for you here.
+|258:26:49|CMP|Okay.
+|258:27:01|CC|Okay. We'd like to take the sounder HF ANTENNA number 1 switch to EXTEND. We'll let the motor on 2 cool off. We do have the recorder fixed, so we can watch 1 now.
+|258:27:13|CMP|Okay. Number 1 is going to EXTEND. 3, 2, 1 -
 |258:27:18|CMP|MARK it; barber pole.
-|258:27:18|CC|Okay. I've got the whole list of scores here; some of these were yesterday you probably heard of, but I'll just go through them all. San Francisco beat Minnesota, 20 to 17* Miami made it, I guess l4 straight,16 to 0 over Baltimore. And Buffalo beat Washington, 24 to 7, how about that? Cleveland beat the Jets, 26 to 10. Kansas City beat Atlanta, 17 to l4. Green Bay won over New Orleans, 30 to 20. St. Louis beat Philadelphia in a close one, 24 to 23. Denver beat New England, 45 to 21. Detroit beat the Rams, 34 to 17; and Oakland beat the Bears, 28 to 21. And here's some sad news. The Giants beat Dallas, 23 to 3. And one final score - Cincinnati, 6l, Houston, 17-
-||||Tape 173/4|Page 2306
-|258:27:18|CC|Over.
-|258:27:18|LMP|Over. Gordy.
-|258:27:18|CDR|Gordo, we - don't have any contact - comment. All three of my teams lost today.
-|258:27:18|CC|Roger.
-|258:29:36|CMP|Hey, number 1 just went gray on the lunar sounder.
-|258:29:36|CC|Okay.
-|258:29:36|CMP|And I'll turn the switch to OFF, if you want.
-|258:29:36|CC|That's affirmative. OFF on 1 and then on 2, we'd like you to go to. RETRACT- for 10 seconds, then put her in EXTEND, and we'll watch it.
-|258:30:11|CMP|Okay. RETRACT, 1, 2, 3, 4, 5, 6, 7, 8, 9, and about 10, I guess. Okay, then I'm going to -
+|258:27:21|CC|Okay. I've got the whole list of scores here; some of these were yesterday you probably heard of, but I'll just go through them all. San Francisco beat Minnesota, 20 to 17. Miami made it, I guess 14 straight, 16 to 0 over Baltimore. And Buffalo beat Washington, 24 to 7, how about that? Cleveland beat the Jets, 26 to 10. Kansas City beat Atlanta, 17 to 14. Green Bay won over New Orleans, 30 to 20. St. Louis beat Philadelphia in a close one, 24 to 23. Denver beat New England, 45 to 21. Detroit beat the Rams, 34 to 17; and Oakland beat the Bears, 28 to 21. And here's some sad news. The Giants beat Dallas, 23 to 3. And one final score - Cincinnati, 61, Houston, 17. Over.
+|258:28:52|LMP|Over. Gordy.
+|258:28:54|CDR|Gordo, we - don't have any contact - comment. All three of my teams lost today.
+|258:29:02|CC|Roger.
+|258:29:35|CMP|Hey, number 1 just went gray on the lunar sounder.
+|258:29:41|CC|Okay.
+|258:29:53|CMP|And I'll turn the switch to OFF, if you want.
+|258:29:57|CC|That's affirmative. OFF on 1 and then on 2, we'd like you to go to. RETRACT for 10 seconds, then put her in EXTEND, and we'll watch it.
+|258:30:10|CMP|Okay. RETRACT, 1, 2, 3, 4, 5, 6, 7, 8, 9, and about 10, I guess. Okay, then I'm going to -
 |258:30:29|CMP|EXTEND, now.
-|258:30:29|CC|Okay.
-|258:31:55|CC|Okay. We'll take number 2 to OFF, please. And we're going to let the motor cool down for 15 minutes so you got at least that long until the next time we bug you.
+|258:30:31|CC|Okay.
+|258:31:53|CC|Okay. We'll take number 2 to OFF, please. And we're going to let the motor cool down for 15 minutes so you got at least that long until the next time we bug you.
 |258:32:07|CMP|(Laughter) Okay. It's OFF now.
-|258:49:07|CC|America, Houston. We'd like to try antenna number 2 again.
-|258:49:07|CMP|Okay.
-|258:49:07|CC|What we want is you to go to RETRACT for 10 seconds, and then, EXTEND.
-|258:49:07|CMP|Okay. Wait 1.
-|258:49:33|CMP|Okay, RETRACT. There's 10 seconds. Back to EXTEND.
+|258:49:04|CC|America, Houston. We'd like to try antenna number 2 again.
+|258:49:14|CMP|Okay.
+|258:49:15|CC|What we want is you to go to RETRACT for 10 seconds, and then, EXTEND.
+|258:49:23|CMP|Okay. Wait 1.
+|258:49:30|CMP|Okay, RETRACT. There's 10 seconds. Back to EXTEND.
 ||||Tape 173/5|Page 2307
-|258:49:47|CDR|It's going to EXTEND, now.
-|258:49:47|CC|Okay, and we're just wondering where you stood on the post-EVA checklist procedures.
-|258:49:47|CMP|Well, probably about 75 percent through. What we1 re doing is stowing all this stuff out here, and then we're going to go back through and check things off.
-|258:49:47|CC|Okay. Fine.
-|258:49:47|CDR|Gordy, did our little waste-water burn there hurt us or help us?
-|258:49:47|CC|I guess we haven't been able to determine yet.
-|258:49:47|CC|Okay. HF 2 ANTENNA, OFF.
-|258:49:47|CMP|Okay. It was OFF, when you called.
-|258:49:47|CC|I guess the motor is - -
-|258:49:47|CDR|And, Gordy - - ...
-|258:49:47|CC|- - just about stalled out. Doesn't seem to be much - making much - much progress there, so -Go ahead.
-|258:49:47|CDR|I was just going to say we took time out here to grab something to eat, cause it's been a long time between breakfast and lunch so a - I will try and do a little inventory here and give you a page and let you know about where it is.
-|258:49:47|CC|Okay. We're not intimating there's any hurry. We just were curious.
-|258:49:47|CC|Okay, a little more amplification on that antenna. The motor gets hot and it starts Ñ slows down and stops making progress. But each time we make a little more progress to getting it out, and we're almost all the way. We're going to give it another cool-down period. We'll give you a call when we want to try it again.
+|258:49:46|CDR|It's going to EXTEND, now.
+|258:49:48|CC|Okay, and we're just wondering where you stood on the post-EVA checklist procedures.
+|258:49:59|CMP|Well, probably about 75 percent through. What we're doing is stowing all this stuff out here, and then we're going to go back through and check things off.
+|258:50:08|CC|Okay. Fine.
+|258:50:14|CDR|Gordy, did our little waste-water burn there hurt us or help us?
+|258:50:21|CC|I guess we haven't been able to determine yet.
+|258:50:31|CC|Okay. HF 2 ANTENNA, OFF.
+|258:50:42|CMP|Okay. It was OFF, when you called.
+|258:50:45|CC|I guess the motor is - -
+|258:50:45|CDR|And, Gordy - - ...
+|258:50:47|CC|- - just about stalled out. Doesn't seem to be much - making much - much progress there. Go ahead.
+|258:50:55|CDR|I was just going to say we took time out here to grab something to eat, cause it's been a long time between breakfast and lunch so - I will try and do a little inventory here and give you a page and let you know about where it is.
+|258:51:08|CC|Okay. We're not intimating there's any hurry. We just were curious.
+|258:51:27|CC|Okay, a little more amplification on that antenna. The motor gets hot and it starts - slows down and stops making progress. But each time we make a little more progress to getting it out, and we're almost all the way. We're going to give it another cool-down period. We'll give you a call when we want to try it again.
+|258:51:46|CMP|Okay. Sounds good.
 ||||Tape 173/6|Page 2308
-|258:49:47|CC|I do have a bunch of short Flight Plan updates, none of which is very close in the future. So any time someone has nothing to do, I'll be glad to read them up.
-|258:49:47|CDR|Okay. Let's eat for a little while, Gordy.
-|258:49:47|CC|Fine.
-|258:49:47|CDR|Is it still sunny and cold back there?
-|258:49:47|CC|That's affirmative; it was clear and - were you talking about the Houston weather? Or the SIM-bay weather? The SIM bay's getting cold, also. It's cool, but it was sunny here today. It'll probably be a cold night since it's clear.
-|258:53:09|CDR|Okay. Thank you.
+|258:51:56|CC|I do have a bunch of short Flight Plan updates, none of which is very close in the future. So any time someone has nothing to do, I'll be glad to read them up.
+|258:52:15|CDR|Okay. Let's eat for a little while, Gordy.
+|258:52:18|CC|Fine.
+|258:52:39|CDR|Is it still sunny and cold back there?
+|258:52:46|CC|That's affirmative; it was clear and - were you talking about the Houston weather? Or the SIM-bay weather? The SIM bay's getting cold, also. It's cool, but it was sunny here today. It'll probably be a cold night since it's clear.
+|258:53:07|CDR|Okay. Thank you.
 |258:58:45|CC|America, Houston. We're ready to give another stab on the HF ANTENNA.
 |258:58:45|CDR|Okay.
 |258:58:45|CMP|You want to go RETRACT first, then for 10 again?
