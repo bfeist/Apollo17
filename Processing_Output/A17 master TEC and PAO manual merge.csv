@@ -33342,114 +33342,124 @@
 |258:52:39|CDR|Is it still sunny and cold back there?
 |258:52:46|CC|That's affirmative; it was clear and - were you talking about the Houston weather? Or the SIM-bay weather? The SIM bay's getting cold, also. It's cool, but it was sunny here today. It'll probably be a cold night since it's clear.
 |258:53:07|CDR|Okay. Thank you.
-|258:58:45|CC|America, Houston. We're ready to give another stab on the HF ANTENNA.
-|258:58:45|CDR|Okay.
-|258:58:45|CMP|You want to go RETRACT first, then for 10 again?
-|258:58:45|CC|That's affirm. Ten seconds RETRACT, then EXTEND.
-|258:59:09|CMP|Okay. Going to RETRACT and OFF.
-|258:59:22|CMP|Okay; going to EXTEND, now.
+|258:55:42|CMP|(laughter)
+|258:58:43|CC|America, Houston. We're ready to give another stab on the HF ANTENNA.
+|258:58:53|CDR|Okay.
+|258:58:55|CMP|You want to go RETRACT first, then for 10 again?
+|258:58:57|CC|That's affirm. Ten seconds RETRACT, then EXTEND.
+|258:59:02|CMP|Okay. Going to RETRACT and OFF.
+|258:59:19|CMP|Okay; going to EXTEND, now.
 |258:59:22|CC|Roger.
-|258:59:22|CC|Okay, Ron, it's getting out there inch by inch, but we got to back off and hit it again. Go to RETRACT for 10 seconds, and then back to EXTEND.
-|258:59:22|CMP|Oh, okay. I went to OFF there for a second, and I'll go to RETRACT now, and then to EXTEND.
-|258:59:22|CC|Okay.
-|259:00:54|CMP|Okay. I'm going to EXTEND.
+|259:00:18|CC|Okay, Ron, it's getting out there inch by inch, but we got to back off and hit it again. Go to RETRACT for 10 seconds, and then back to EXTEND.
+|259:00:33|CMP|Oh, okay. I went to OFF there for a second, and I'll go to RETRACT now, and then to EXTEND.
+|259:00:39|CC|Okay.
+|259:00:52|CMP|Okay. I'm going to EXTEND.
 ||||Tape 173/7|Page 2309
-|259:00:54|CC|Roger.
-|259:00:54|CC|Okay, Ron, go to OFF, and it'll be another 10-minute wait.
-|259:01:47|CMP|Okay. We're OFF.
-|259:18:31|CDR|Hello, Houston; America. Are you ready to maneuver here to the UV stellar target attitude?
-|259:18:31|CC|Stand by; I'll check.
-|259:18:31|CC|Okay. I guess everybody is in agreement. Go ahead and high gain should stay on during this maneuver.
-|259:19:09|CDR|Okay; we're maneuvering. I hope the Sun comes in the window on this next maneuver.
-|259:19:09|CC|Is it getting cool up there?
-|259:19:09|CDR|Well, I'm freezing something off.
-|259:19:09|CC|Hey, we got a little procedure to warm things up in the cockpit, if you'd like it.
-|259:19:09|CDR|We - we heard that earlier, and we're passing on that right now.
-|259:19:09|CC|Was it the one about turning INVERTER 3?
-|259:19:09|CDR|No, we didn't hear that one. Why don't you tell us what that one is.
-|259:19:09|CC|Okay, Cernan, put INVERTER 3 on MAIN A. That will put some heat load into the system, and then GO to MANUAL on the TEMP IN valve. Go down and adjust the EVAP OUT temperature to 59 degrees -make it 55 degrees, 55 degrees. And that should help warm things up.
-|259:19:09|LMP|Okay. We'll let you know if we give that a try and, Gordy, I guess we're ready to copy some of those Flight Plan updates.
+|259:00:58|CC|Roger.
+|259:01:34|CC|Okay, Ron, go to OFF, and it'll be another 10-minute wait.
+|259:01:45|CMP|Okay. We're OFF.
+|259:03:12|PAO|This is Apollo Control at 261 hours 43 minutes. The exercise that we've been going through with Ron Evans and the antennas aboard the CSM involve an attempt to extend the second of the two elements of the High-Frequency antenna used in the lunar sounder experiment. Each of these elements is about 34 feet 2 inches long. Both together comprising elements of a single antenna. And, one; of the — one of the elements is extended, and the second is balking at extending. Apparently, due to being cold, and the resistance of pushing the antenna out is heating the motor up. Therefore, we have to turn it on for a period of time until the antenna bogs down and the motor begins to heat, and then turn it off to let the motor cool down. In order to assist in getting it out, and you heard CAPCOM Gordon Fullerton advise the crew that it's going out inches at at time, we're backing off a little bit on it to relieve the tension, and then having the crew go forward, and with each of these steps gaining a few inches on getting the antenna extended. Apollo 17 at this time is 151,300 nautical miles from Earth and traveling at a speed of 3,440 feet per second.
+|259:12:55|PAO|This is Apollo Control at 261 hours 53 minutes. We've just had the sixth of the charges, left on the lunar surface by the Apollo 17 crew, detonate, and we're receiving the seismic data in the Control Center. This is the charge designated Number 2, which is a quarter of a pound of explosive, and it had been scheduled to detonate at 261 hours 59 minutes, or about 6 minutes from now. All of the charges we've seen so far have been detonating within about 5 minutes of the nominal or T-zero time.
+|259:14:16|PAO|These charges are part of the seismic profiling experiment and provide scientists with information about the subsurface structure in the landing site area.
+|259:17:19|PAO|This is Apollo Control. There's one more of the seismic charges to be detonated, charge Number 3, which will be the eighth and final charge, and it's scheduled to be exploded on command from the ground at about 264 hours 10 minutes, roughly 2 hours 10 minutes from now. This charge is the closest of the eight to the roving vehicle located about 65 meters away.
+|259:18:28|CDR|Hello, Houston; America. Are you ready to maneuver here to the UV stellar target attitude?
+|259:18:44|CC|Stand by; I'll check.
+|259:18:52|CC|Okay. I guess everybody is in agreement. Go ahead and high gain should stay on during this maneuver.
+|259:19:05|CDR|Okay; we're maneuvering. I hope the Sun comes in the window on this next maneuver.
+|259:19:12|CC|Is it getting cool up there?
+|259:19:17|CDR|Well, I'm freezing something off.
+|259:19:22|CC|Hey, we got a little procedure to warm things up in the cockpit, if you'd like it.
+|259:19:28|CDR|We - we heard that earlier, and we're passing on that right now.
+|259:19:39|CC|Was it the one about turning INVERTER 3?
+|259:19:46|CDR|No, we didn't hear that one. Why don't you tell us what that one is.
+|259:19:50|CC|Okay, Cernan, put INVERTER 3 on MAIN A. That will put some heat load into the system, and then GO to MANUAL on the TEMP IN valve. Go down and adjust the EVAP OUT temperature to 59 degrees - make it 55 degrees, 55 degrees. And that should help warm things up.
+|259:20:22|LMP|Okay. We'll let you know if we give that a try and, Gordy, I guess we're ready to copy some of those Flight Plan updates.
 ||||Tape 173/8|Page 2310
-|259:19:09|CC|Okay. Fine. We'll keep an eye on the TEMP OUT so that - let you know if the - it's getting away. Let's see - let's start on - Stand by 1. Start on page 375 at 263 hours.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay. Down at 263:40 where it lists the jets to use for spinup or for damping, rather, we're going to change the jets to be used for damping, since those ones listed didn't work so hot last night. Want to use all of quad Delta. Delta 1, 2, 3, and 4 and Charlie 3 and 4, those six jets in place of the ones listed.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay, and just to the left of that box delete "IR COVER, CLOSE" and "IR, OFF."
-|259:19:09|CDR|Okay.
-|259:19:09|CC|I guess - delete the deletion. I just got a call since turn the IR ON. We want to turn it OFF at this time, so leave the IR, OFF, call as is.
-|259:19:09|CDR|You want - you want to delete COVER CLOSED, but -but leave IR, OFF, in, huh?
-|259:19:09|CC|Yes, the cover is closed, and we want to turn the IR OFF, at that time.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay. Turn over two pages to 265:20, and make the same jet changes for that PTC rate damping, all of quad Delta and Charlie 3 ana 4.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay, then turn over 1, 2, 3, 4, several pages -let me find the next one here. It's or. 275:10.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|At 275:10, add "Charge BAT A."
-||||Tape 173/9|Page 2311
-|259:19:09|CDR|Yes, sir.
-|259:19:09|CC|Turn the page on 276:25, delete "IR, ON." Then down a few lines at 276:45 delete "IR COVER, OPEN, before dump," and a few more lines at 276:57, delete "Charge BATTERY A."
-|259:19:09|CDR|We got them.
-|259:19:09|CC|Okay, turn over two pages to 279:05, and change "LMP don biomed harness" to "CDR don biomed harness." 279:30 - change - check CDR to - check LMP. Change that to "Check CDR" and then make it "LMP doff biomed harness."
-|259:19:09|CDR|Okay. I - I got those, but that's sort of slighting the CMP.
-|259:19:09|CC|Okay, we'll consider that. Go on to - -
-|259:19:09|CDR|That's harness - that's harnessing the commander.
-|259:19:09|CC|(Laughter) Roger. Okay; let's go to 285:10.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay. Right after the VERB 48 add three steps, number 1 is "RADAR, OFF." Number 2 is "HF ANTENNA to RETRACT (OFF, ON STDN cue)." And the next step is the same for ANTENNA 1. "HF ANTENNA 1, RETRACT, (OFF, ON STDN cue)."
-|259:19:09|CDR|Okay. RADAR OFF, HF ANTENNA number 2 RETRACT OFF, on STDN cue and the same for number 1.
-|259:19:09|CC|Righto, and then same page, 285:30, UIR COVER, CLOSE." Delete it.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Next page, 286:25, "IR COVER, OPEN," delete that. And on the next page, 287:13, "IR COVER, CLOSED" and "IR, OFF," delete both of those. And a little further down the page it says "LMP doff biomed harness." Change that to "CDR doff biomed harness."
+|259:20:30|CC|Okay. Fine. We'll keep an eye on the TEMP OUT so that - let you know if the - it's getting away. Let's see - let's start on - Stand by 1. Start on page 375 at 263 hours.
+|259:21:00|CDR|Okay.
+|259:21:01|CC|Okay. Down at 263:40 where it lists the jets to use for spinup or for damping, rather, we're going to change the jets to be used for damping, since those ones listed didn't work so hot last night. Want to use all of quad Delta. Delta 1, 2, 3, and 4 and Charlie 3 and 4, those six jets in place of the ones listed.
+|259:21:45|CDR|Okay.
+|259:21:47|CC|Okay, and just to the left of that box delete "IR COVER, CLOSE" and "IR, OFF."
+|259:21:58|CDR|Okay.
+|259:22:01|CC|I guess - delete the deletion. I just got a call since turn the IR ON. We want to turn it OFF at this time, so leave the IR, OFF, call as is.
+|259:22:18|CDR|You want - you want to delete COVER CLOSED, but - but leave IR, OFF, in, huh?
+|259:22:22|CC|Yes, the cover is closed, and we want to turn the IR OFF, at that time.
+|259:22:37|CDR|Okay.
+|259:22:39|CC|Okay. Turn over two pages to 265:20, and make the same jet changes for that PTC rate damping, all of quad Delta and Charlie 3 ana 4.
+|259:23:12|CDR|Okay.
+|259:23:14|CC|Okay, then turn over 1, 2, 3, 4, several pages - let me find the next one here. It's on 275:10.
+|259:23:32|CDR|Okay.
+|259:23:33|CC|At 275:10, add "Charge BATT A."
+||||T23e 173/9|Page 2311
+|259:23:44|CDR|Yes, sir.
+|259:23:45|CC|Turn the page on 276:25, delete "IR, ON." Then down a few lines at 276:45 delete "IR COVER, OPEN, before dump," and a few more lines at 276:57, delete "Charge BATTERY A."
+|259:24:19|CDR|We got them.
+|259:24:21|CC|Okay, turn over two pages to 279:05, and change "LMP don biomed harness" to "CDR don biomed harness." 279:30 - change - check CDR to - check LMP, change that to "Check CDR" and then make it "LMP doff biomed harness."
+|259:25:05|CDR|Okay. I - I got those, but that's sort of slighting the CMP.
+|259:25:14|CC|Okay, we'll consider that. Go on to - -
+|259:25:22|CDR|That's harness - that's harnessing the commander.
+|259:25:25|CC|(Laughter) Roger. Okay; let's go to 285:10.
+|259:25:44|CDR|Okay.
+|259:25:44|CC|Okay. Right after the VERB 48 add three steps, number 1 is "RADAR, OFF." Number 2 is "HF ANTENNA to RETRACT (OFF, ON STDN cue)." And the next step is the same for ANTENNA 1. "HF ANTENNA 1, RETRACT, (OFF, ON STDN cue)."
+|259:26:33|CDR|Okay. RADAR OFF, HF ANTENNA number 2 RETRACT OFF, on STDN cue and the same for number 1.
+|259:26:39|CC|Righto, and then same page, 285:30, "IR COVER, CLOSE." Delete it.
+|259:26:50|CDR|Okay.
+|259:26:51|CC|Next page, 286:25, "IR COVER, OPEN," delete that. And on the next page, 287:13, "IR COVER, CLOSED" and "IR, OFF," delete both of those. And a little further down the page it says "LMP doff biomed harness." Change that to "CDR doff biomed harness."
 ||||Tape 173/10|Page 2312
-|259:19:09|CDR|Okay. I got those.
-|259:19:09|CC|Okay; next page is another PTC spinup, same change, "Delta 1, 2, 3, and 4 and Charlie 3 and 4" instead of the listed jets.
-|259:19:09|CDR|Okay.
-|259:19:09|CC|Okay, and then backtracking for one last one that was just handed to me; go back to 263:53-
-|259:19:09|CDR|Okay.
-|259:19:09|CC|And the high gain antenna angles; change them from a "-40 and 90" to "20 and 180."
-|259:19:09|CDR|Understand; plus 20 and 180.
-|259:19:09|CC|That's affirmative and that completes the list.
-|259:19:09|CDR|What about 285:30 on the jets?
-|259:19:09|CC|I asked the same question, I think. Let me turn to it here. Yes, that one is a - just a short -a short run on it and they just as soon as it wobbles a little so they can leave those jets the same. That's for a UV scan.
-|259:29:21|CDR|Okay.
-|259:33:21|CC|Okay, guys, it * s time for another try on the HF antenna.
-|259:33:21|CDR|Go ahead.
-|259:33:21|CC|Okay. HF AUTEOTA to RETRACT for 5 seconds, and then EXTEND, please.
-|259:33:21|CDR|Okay; for 5 seconds. Going to EXTEND -
-|259:33:48|CDR|MARK.
-|259:33:48|CC|Hey, good work. It finally made it out. Put it OFF, please.
-|259:34:47|CDR|It's OFF.
+|259:27:41|CDR|Okay. I got those.
+|259:27:43|CC|Okay; next page is another PTC spinup, same change, "Delta 1, 2, 3, and 4 and Charlie 3 and 4" instead of the listed jets.
+|259:28:11|CDR|Okay.
+|259:28:12|CC|Okay, and then backtracking for one last one that was just handed to me; go back to 263:53.
+|259:28:28|CDR|Okay.
+|259:28:29|CC|And the high gain antenna angles; change them from a "-40 and 90" to "20 and 180."
+|259:28:41|CDR|Understand; plus 20 and 180.
+|259:28:44|CC|That's affirmative and that completes the list.
+|259:28:49|CDR|What about 285:30 on the jets?
+|259:28:54|CC|I asked the same question, I think. Let me turn to it here. Yes, that one is a - just a short - a short run on it and they just as soon as it wobbles a little so they can leave those jets the same. That's for a UV scan.
+|259:29:13|CDR|Okay. Okay.
+|259:33:16|CC|Okay, guys, it's time for another try on the HF antenna.
+|259:33:24|CDR|Go ahead.
+|259:33:25|CC|Okay. HF ANTENNA to RETRACT for 5 seconds, and then EXTEND, please.
+|259:33:33|CDR|Okay; for 5 seconds. Going to EXTEND -
+|259:33:44|CDR|MARK.
+|259:34:33|CC|Hey, good work. It finally made it out. Put it OFF, please.
+|259:34:41|CDR|It's OFF.
 ||||Tape 173/11|Page 2313
-|259:34:47|CC|Okay. And then got some more steps here, as soon as I find them. Okay. LUNAR SOUNDER OPERATE switch to STANDBY. That's a verify. Then RECORDER, ON.
-|259:35:07|CDR|Okay. OPERATE is verified in STANDBY, and RECORDER is ON.
-|259:35:12|CDR|MARK.
-|259:35:12|CC|Okay, and RADAR switch, ON.
-|259:35:27|CDR|RADAR'S ON.
-|259:35:27|CC|Okay. RECORDER, OFF, and MODE, HF.
-|259:35:38|CDR|RECORDER'S OFF, and the MODE's verified in HF.
+|259:34:43|CC|Okay. And then got some more steps here, as soon as I find them. Okay. LUNAR SOUNDER OPERATE switch to STANDBY. That's a verify. Then RECORDER, ON.
+|259:35:02|CDR|Okay. OPERATE is verified in STANDBY, and RECORDER is ON.
+|259:35:08|CDR|MARK.
+|259:35:09|CC|Okay, and RADAR switch, ON.
+|259:35:21|CDR|RADAR'S ON.
+|259:35:25|CC|Okay. RECORDER, OFF, and MODE, HF.
+|259:35:34|CDR|RECORDER'S OFF, and the MODE's verified in HF.
 |259:35:38|CC|Okay. That does it. We'll let her tick away now for a while. Thank you.
-|259:35:38|CDR|I don't believe it. (Music) (Laughter) Got a tissue? (Laughter)
-|259:36:25|CMP|Exactly what I was trying not to do, (Laughter) (Music).
+|259:35:57|CDR|I don't believe it. (Music) (Laughter) Got a tissue? (Laughter)
+|259:36:17|CMP|Exactly what I was trying not to do, (Laughter) (Music).
+|259:53:36|LMP|Houston, 17.
 ||||Tape 174/1|Page 2314
-|259:36:25|F|17, Houston. This is FLIGHT. Gordo's in the back with his family. Go ahead.
-|259:53:56|CMP|Okay. I just wanted to pass on an OPS pressure we owe you. That's 2000 psi.
-|259:53:56|F|Okay; copy.
-|260:23:13|CC|Hello, America; this is Houston. We're ready for that VERB 49 maneuver as'shown in the Flight Plan.
-|260:23:13|CMP|Okay. We'll get to it here. Just a second.
-|260:28:33|LMP|Say, Gordy; this is Jack.
-|260:28:33|CC|Go ahead, Jack.
-|260:28:40|LMP|It may be in my imagination, but I thought I had a major blink in the light from the spacecraft, not just the floodlights but just generally. Did you have any glitch or anything on the traces?
-|260:28:40|CC|We'll take a look. Stand by. Give us your best guess on how long ago it was.
-|260:29:07|LMP|About - now about 20 seconds, maybe 30.
-|260:29:07|CC|Okay.
-|260:29:07|CC|America, Houston. Request the VERB 48 shown in the Flight Plan now.
-|260:31:16|CMP|coming up at you.
-|260:31:16|CC|And we're - we're rechecking on the EPS data. A first glance shows it solid, but we're not sure if it might have been static during that time. We're taking another look here.
-|260:31:16|LMP|Gordy, don't make a big deal out of it. It may have been just my imagination or somebody hitting the floodlight switch, but it - we tried - I - Gene tried that again, and it didn't seem like what I saw. It was just a very quick blink in the lights.
+|259:36:40|FLIGHT|17, Houston. This is FLIGHT. Gordo's in the back with his family. Go ahead.
+|259:53:49|CMP|Okay. I just wanted to pass on an OPS pressure we owe you. That's 2000 psi.
+|259:53:57|FLIGHT|Okay; copy.
+|260:14:21|PAO|This is Apollo Control at 262 hours 54 minutes At present time, we are replaying the video tape of today's CSM EVA. Apollo 17 at the present time is 148 900 nautical miles from Earth. This is a quiet period in the Flight Plan for the crew and we have scheduled an exercise period. And following that the crew will be the spacecraft up in the passive thermal control mode, rotating about the longitudinal axis of the spacecraft at about three revolutions per hour. This is done during the trans-lunar and trans-earth phases of the mission to maintain proper thermal equalibrium while the crew is in the sleep period. The crew is scheduled to begin an 8 hour rest period at 267 hours, or about 4 hours from now.
+|260:23:03|CC|Hello, America; this is Houston. We're ready for that VERB 49 maneuver as shown in the Flight Plan.
+|260:23:12|CMP|Okay. We'll get to it here. Just a second.
+|260:28:23|LMP|Say, Gordy; this is Jack.
+|260:28:27|CC|Go ahead, Jack.
+|260:28:30|LMP|It may be in my imagination, but I thought I had a major blink in the lights of the spacecraft, not just the floodlights but just generally. Did you have any glitch or anything on the traces?
+|260:28:43|CC|We'll take a look. Stand by. Give us your best guess on how long ago it was.
+|260:28:57|LMP|About - now about 20 seconds, maybe 30.
+|260:29:01|CC|Okay.
+|260:30:34|PAO|That was Lunar Module Pilot, Jack Schmitt reporting what he described as an apparent blinking of the spacecraft lights, apparently a momentary thing. Schmitt asked if the ground would take a good hard look at the vehicle to see if there had been any sort of a - a glitch, presumatly electrical. Spacecraft Environmental and electrical systems engineer, John Aaron is looking at the data now in detail and so far has reported nothing amiss.
+|260:30:30|CC|America, Houston. Request the VERB 48 shown in the Flight Plan now.
+|260:31:06|CMP|coming up at you.
+|260:31:17|CC|And we're - we're rechecking on the EPS data. A first glance shows it solid, but we're not sure if it might have been static during that time. We're taking another look here.
+|260:31:30|LMP|Gordy, don't make a big deal out of it. It may have been just my imagination or somebody hitting the floodlight switch, but it - we tried - I - Gene tried that again, and it didn't seem like what I saw. It was just a very quick blink in the lights.
 ||||Tape 174/2|Page 2315
-|260:31:16|CC|Okay. We'll - we'll still chase it down.
-|260:31:16|LMP|Okay.
-|260:43:14|CC|America, Houston. The state vector up-link scheduled for now won't be necessary.
+|260:31:44|CC|Okay. We'll - we'll still chase it down.
+|260:31:48|LMP|Okay.
+|260:31:54|PAO|EECOM, John Aaron reports that the data we have available in Houston at this time, shows nothing - no problems - Nothing wrong with the spacecraft. We are going to double check the data by replaying tapes recorded in the the receiving station at Madrid Spain. And looking in great detail at all of the spacecraft electrical systems to see if there was any sort of a glitch. But, again, at this point, nothing shows up as being amiss.
+|260:33:53|PAO|And about 1 hour from now, at 264 hours 10 minutes Ground Elapsed Time, the last of 8 explosive charges placed on the lunar surface by the Apollo 17 crew, will be detonated to produce seismic waves that will assist scientists in understanding the subsurface structure of the - in the area of the Taurus-Littrow site. This charge is 1/8th of a pound. The smallest of the charges, but also the closest to the lunar roving vehicle, it's located about 65 meters from the Rover, and again the expected time of detonation is about 264 hours 10 minutes. Apollo 17 at this time is 148,300 nautical miles from Earth, and we've seen the velocity creeping up ever so slightly, now up to about 3,500 feet per second.
+|260:43:02|CC|America, Houston. The state vector up-link scheduled for now won't be necessary.
 |260:43:14|CMP|Okay, Gordy. How's the old trajectory looking these days?
 |260:43:37|CC|They're still carrying about one-half foot per second. However, they're not in a period right now of real solid .track, I guess, and - so it - it'll take them some more hours to get a really good handle on it.
 |260:43:37|CMP|Okay.

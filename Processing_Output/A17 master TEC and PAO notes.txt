@@ -281,6 +281,7 @@
 |255:39:46 - American flag visible on Ron's EVA suit.
 |255:48:32 - missing audio starts (no longer missing)
 |255:57:35 - |CDR|Not a bad performance by my CMP, was it?
+|259:19:17 - CDR freezing "something off"
 |281:00:11 - missing audio ends (no longer missing)
 |281:26:36 - crew television interview
 |282:44:27 - Santa visits the MOCR
