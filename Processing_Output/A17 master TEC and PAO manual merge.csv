@@ -33460,321 +33460,346 @@
 |260:31:54|PAO|EECOM, John Aaron reports that the data we have available in Houston at this time, shows nothing - no problems - Nothing wrong with the spacecraft. We are going to double check the data by replaying tapes recorded in the the receiving station at Madrid Spain. And looking in great detail at all of the spacecraft electrical systems to see if there was any sort of a glitch. But, again, at this point, nothing shows up as being amiss.
 |260:33:53|PAO|And about 1 hour from now, at 264 hours 10 minutes Ground Elapsed Time, the last of 8 explosive charges placed on the lunar surface by the Apollo 17 crew, will be detonated to produce seismic waves that will assist scientists in understanding the subsurface structure of the - in the area of the Taurus-Littrow site. This charge is 1/8th of a pound. The smallest of the charges, but also the closest to the lunar roving vehicle, it's located about 65 meters from the Rover, and again the expected time of detonation is about 264 hours 10 minutes. Apollo 17 at this time is 148,300 nautical miles from Earth, and we've seen the velocity creeping up ever so slightly, now up to about 3,500 feet per second.
 |260:43:02|CC|America, Houston. The state vector up-link scheduled for now won't be necessary.
-|260:43:14|CMP|Okay, Gordy. How's the old trajectory looking these days?
-|260:43:37|CC|They're still carrying about one-half foot per second. However, they're not in a period right now of real solid .track, I guess, and - so it - it'll take them some more hours to get a really good handle on it.
-|260:43:37|CMP|Okay.
-|260:43:37|CC|Nobody predicts any more maneuvers until midcourse 7 at the earliest.
-|260:43:37|CMP|What would it be at the latest?
-|260:49:12|LMP|Hey, Gordy; Jack.
-|260:49:12|CC|Go ahead, Jack.
-|260:49:12|LMP|I fail to understand why sill my friends who used to operate the backroom, even though it's Sunday, why they haven’t given you a sort of an interim report on what they - what they think happened at Taurus-Littrow. They usually have those things available.
-|260:49:12|CC|Well, I did - you mean, the whole geological summary?
-|260:49:12|LMP|Well, just the general thing that they pass around after a - a day or so, I think, is the time frame they work in.
-|260:49:12|CC|Yes, there has been such a thing that I think you're referring to. I guess there's a more formal version coming that's supposed to be due out tomorrow morning, but there was a summary, fairly lengthy, on entire science, including the field geology, which I'll try to dig up and maybe read to you if you wish. Over.
+|260:43:10|CMP|Okay, Gordy. How's the old trajectory looking these days?
+|260:43:24|CC|They're still carrying about one-half foot per second. However, they're not in a period right now of real solid track, I guess, and - so it - it'll take them some more hours to get a really good handle on it.
+|260:43:43|CMP|Okay.
+|260:43:58|CC|Nobody predicts any more maneuvers until midcourse 7 at the earliest.
+|260:44:09|CMP|What would it be at the latest?
+|260:48:58|LMP|Hey, Gordy; Jack.
+|260:49:03|CC|Go ahead, Jack.
+|260:49:07|LMP|I fail to understand why all my friends who used to operate the backroom, even though it's Sunday, why they haven't given you a sort of an interim report on what they - what they think happened at Taurus-Littrow. They usually have those things available.
+|260:49:31|CC|Well, I did - you mean, the whole geological summary?
+|260:49:38|LMP|Well, just the general thing that they pass around after a - a day or so, I think, is the time frame they work in.
+|260:49:48|CC|Yes, there has been such a thing that I think you're referring to. I guess there's a more formal version coming that's supposed to be due out tomorrow morning, but there was a summary, fairly lengthy, on entire science, including the field geology, which I'll try to dig up and maybe read to you if you wish. Over.
 ||||Tape 174/3|Page 2316
-|260:49:12|LMP|Well, I don't need a lot. I guess it might be useful to have a general summary maybe tomorrow morning some time, if we have some time in the Plight Plan, of what people have seen up to date on things that we wouldn't normally be familiar with for - in preparation for that press conference tomorrow.
-|260:49:12|CC|Okay. Sounds like a good idea. On the - your gravimeter questions, the TGE numbers for the comparison I believe you wanted, between the north and the North Massif and the Sculptured Hills, just aren't available. The whole TGE team took their data and - and left town, evidently. And - we -we have been unable to come up with any good numbers on that question. The lunar surface gravimeter — Okay, break - break here. We need a VERB 48 load as shown, and then - -
-|260:51:41|LMP|It's already in, Gordy.
-|260:51:41|CC|Oh, okay. So you can go ahead and do the maneuver then. On the LSG, still no positive success. They've sent just about all the commands it can take with no luck at leveling the beam, and so they've decided to fall back and the whole team is regrouping to consider further course of action. They've turned off the command system to it until some time tomorrow when they'll try again, evidently, with whatever they come up with in their conference. Over.
-|260:51:41|LMP|Okay. We're certainly pulling for them, of course.
-|260:51:41|CC|Roger.
-|260:51:41|LMP|Gordy, do I have it straight, that it, apparently, it's a problem just in the leveling commands, or is it - it is receiving other commands, is that correct?
-|260:51:41|CC|That's the impression I have. I hate to - to say yes certainly. My impression is that it just won't - won't level. It - it will accept commands, but the beam will just not level for a - a reason that they just don't fully understand.
+|260:50:16|LMP|Well, I don't need a lot. I guess it might be useful to have a general summary maybe tomorrow morning some time, if we have some time in the Flight Plan, of what people have seen up to date on things that we wouldn't normally be familiar with for - in preparation for that press conference tomorrow.
+|260:50:42|CC|Okay. Sounds like a good idea. On the - your gravimeter questions, the TGE numbers for the comparison I believe you wanted, between the north - the North Massif and the Sculptured Hills, just aren't available. The whole TGE team took their data and - and left town, evidently. And we have been unable to come up with any good numbers on that question. The lunar surface gravimeter - Okay, break break here. We need a VERB 48 load as shown, and then - -
+|260:51:28|LMP|It's already in, Gordy.
+|260:51:30|CC|Oh, okay. So you can go ahead and do the maneuver then. On the LSG, still no positive success. They've sent just about all the commands that it can take with no luck at leveling the beam, and so they've decided to fall back and the whole team is regrouping to consider further course of action. They've turned off the command system to it until some time tomorrow when they'll try again, evidently, with whatever they come up with in their conference. Over.
+|260:52:18|LMP|Okay. We're certainly pulling for them, of course.
+|260:52:30|CC|Roger.
+|260:52:34|LMP|Gordy, do I have it straight, that it, apparently, it's a problem just in the leveling commands, or is it - it is receiving other commands, is that correct?
+|260:52:53|CC|That's the impression I have. I hate to - to say yes certainly. My impression is that it just won't - won't level. It - it will accept commands, but the beam will just not level for a - a reason that they don't fully understand.
 ||||Tape 174/4|Page 2317
-|260:51:41|LMP|Okay. Does that mean that you might - Maybe you could ask Bob when you see him or something - does that mean the beam is not free, or is it not level?
-|260:51:41|CC|As I understand it - Stand by 1.
-|260:54:59|CC|Jack, I got a quick agricultural explanation of the problem. (Laughter) Evidently, it's the two plates between which the beam itself is suspended are adjustable, so that - "by ground command, so that by driving these plates back and forth, they try to center the beam between them. And then the -the data is initiated. When the beam vibrates between the plates, it changes capacitance, or at least that's the general principle. And the problem is that by drive, they can command the plates back and forth and stop the stop, but they cannot get the beam to leave - leave one of the plates. It just is hung up against one plate, and this would -could be caused by one of the wires that's suspended - sort of hang the beam, pendulum-fashion, being broken so that it has cockeyed off to one side. I guess that's the best guess as to the malfunction at the moment. It's presently in use as a seismometer returning data in that mode, but useless in its primary intended data-taking mode. Over.
-|260:54:59|LMP|Right. Did they see the beam leave the plates at all as I shook it there near the last of our third EVA?
-|260:54:59|CC|I guess the answer to that is "no." They saw you jostling it around and could tell where you were from the data but have no evidence that the beam ever moved from the one plate.
-|260:54:59|LMP|Isn't there any possibility that the telemetry is giving them a false indication of not leveling - or not centering, I guess, would be a better word?
-|260:54:59|CC|Stand by.
-|260:54:59|CC|No, Jack. Evidently, they've eliminated that possibility. They're certain it's a problem - a mechanical problem.
-|260:54:59|LMP|Okay.
+|260:53:23|LMP|Okay. Does that mean that you might - Maybe you could ask Bob when you see him or something - does that mean the beam is not free, or is not level?
+|260:53:37|CC|As I understand it - Stand by 1.
+|260:54:45|CC|Jack, I got a quick agricultural explanation of the problem. (Laughter) Evidently, it's the two plates between which the beam itself is suspended are adjustable, so that - by ground command, so that by driving these plates back and forth, they try to center the beam between them. And then the - the data is initiated when the beam vibrates between the plates, it changes capacitance, or at least that's the general principle. And the problem is that by drive, they can command the plates back and forth and stop the stop, but they cannot get the beam to leave - leave one of the plates. It just is hung up against one plate, and this would - could be caused by one of the wires that's suspended - sort of hang the beam, pendulum-fashion, being broken so that it has cockeyed off to one side. I guess that's the best guess as to the malfunction at the moment. It's presently in use as a seismometer returning data in that mode, but useless in its primary intended data-taking mode. Over.
+|260:56:12|LMP|Right. Did they see the beam leave the plates at all as I shook it there near the last of our third EVA?
+|260:56:31|CC|I guess the answer to that is "no." They saw you jostling it around and could tell where you were from the data but have no evidence that the beam ever moved from the one plate.
+|260:57:05|LMP|Is there any possibility that the telemetry is giving them a false indication of not leveling - or not centering, I guess, would be a better word?
+|260:57:25|CC|Stand by.
+|260:57:43|CC|No, Jack. Evidently, they've eliminated that possibility. They're certain it's a problem - a mechanical problem.
+|260:57:52|LMP|Okay.
 ||||Tape 174/5|Page 2318
-|260:59:14|CC|Jack, reference your - the blink you noticed or possibly noticed - we, looking at the data, see about 30 seconds prior to the time we think you mentioned that it happened but that's close to the time frame, I guess, a 1 or 2 amp oscillation in the main B voltage or current. And it only lasted for one or two data cycles, or like 0.1 or 0.2 of a second is all. We would like to know, though, approximately what setting all the floodlights are at right.now.
-|261:00:02|CDR|LEB axe full BRIGHT, and the left hand are about three-quarters, right hand's about three-quarters. Jack's the only one who saw that. We didn't -Ron and I didn't see anything on that one, so if it - if it happened, it was awful quick.
-|261:00:02|CC|Okay.
-|261:01:41|CC|America, we'd like H2 tanks - tank 1 FANS ON, please.
-|261:01:54|CDR|They're ON, Gordy.
-|261:01:54|CC|Okay.
-|261:01:54|CDR|And we're on a damping mode with Delta 1, 2, 4, and ... 3 and 4.
-|261:01:54|CC|Roger, Gene.
-|261:03:33|CC|Okay, America. We've got another change to the changes. (Laughter) We'd like you to leave the IR on until our cue here.
-|261:03:48|CDR|Okay. I'll change my change to my change.
+|260:58:59|CC|Jack, reference your - the blink you noticed or possibly noticed - we, looking at the data, see about 30 seconds prior to the time we think you mentioned that it happened but that's close to the time frame, I guess, a 1 or 2 amp oscillation in the main B voltage or current. And it only lasted for one or two data cycles, or like 0.1 or 0.2 of a second is all. We would like to know, though, approximately what setting all the floodlights are at right.now.
+|260:59:49|CDR|LEB axe full BRIGHT, and the left hand are about three-quarters, right hand's about three-quarters. Jack's the only one who saw that. We didn't - Ron and I didn't see anything on that one, so if it - if it happened, it was awful quick.
+|261:00:04|CC|Okay.
+|261:01:26|CC|America, we'd like H2 tanks - H2 tank 1 FANS ON, please.
+|261:01:39|CDR|They're ON, Gordy.
+|261:01:42|CC|Okay.
+|261:01:42|CDR|And we're on a damping mode with Delta 1 through 4, and C 3 and 4.
+|261:01:48|CC|Roger, Gene.
+|261:03:18|CC|Okay, America. We've got another change to the changes. (Laughter) We'd like you to leave the IR on until our cue here.
+|261:03:33|CDR|Okay. I'll change my change to my change.
+|261:03:41|CC|Rog.
 ||||Tape 175/1|Page 2319
-|261:12:39|LMP|Okay.
+|261:12:11|CC|America, Houston. The rates look good. We're ready to spin it up.
+|261:12:22|LMP|Okay.
+|261:35:40|PAO|This is Apollo Control at 264 hours 15 minutes. The ALSEP staff support room here in Mission Control reports that the last of eight seismic charges left on the lunar surface by the Apollo 17 crew has detonated and a charge went off at 264 hours 14 minutes or about 4 minutes later than the nominal time of 264 hours 10 minutes and within the normal range that we've seen for the other seven charges of about 5 minutes either side of the planned time. This charge was a 1/8th pound charge located about 65 meters from the Lunar Roving Vehicle, the charge that was closest to the landing site of Apollo 17. These charges are part of the Lunar Seismic Profiling Experiment ó the seismic waves produced by the explosions provide information that scientists can use in interpreting the sub-surface structure in the area of the landing site.
 |261:38:50|LMP|Houston, 17.
-|261:38:50|CC|Okay; go ahead.
-|261:38:50|LMP|Hey, I was just wondering how the high gain's working out for you?
-|261:38:50|CC|Looking good, Jack.
-|261:38:50|LMP|Okay.
-|261:38:50|CC|Jack, Houston. Over,
-|261:38:50|LMP|Go ahead.
-|261:38:50|CC|The high gain is holding on there, but we think we can improve our - the time we can hold on to narrow beam width a little bit if you'd tweak it to PITCH, plus 15, and YAW, plus 185, please.
-|261:38:50|LMP|Gordy, you said plus 15?
-|261:38:50|CC|Affirmative. Plus 15 and a plus 185.
-|261:42:05|LMP|Okay.
-|261:42:05|CDR|Gordy, the canister's changed.
-|261:44:08|CC|Thank you.
-|261:44:08|CDR|I guess you're looking at the orange light, too, huh?
+|261:38:55|CC|Okay; go ahead.
+|261:38:59|LMP|Hey, I was just wondering how the high gain's working out for you?
+|261:39:04|CC|Looking good, Jack.
+|261:39:08|LMP|Okay.
+|261:41:20|CC|Jack, Houston. Over,
+|261:41:25|LMP|Go ahead.
+|261:41:28|CC|The high gain is holding on there, but we think we can improve our - the time we can hold on to narrow beam width a little bit if you'd tweak it to PITCH, plus 15, and YAW, plus 185, please.
+|261:41:55|LMP|Gordy, you said plus 15?
+|261:41:58|CC|Affirmative. Plus 15 and a plus 185.
+|261:42:03|LMP|Okay.
+|261:44:06|CDR|Gordy, the canister's changed.
+|261:44:09|CC|Thank you.
+|261:48:08|CDR|I guess you're looking at the orange light, too, huh?
 |261:48:13|CC|That's affirmative.
-|262:11:28|CMP|(Music) Hey, Houston; America.
-|262:11:28|CC|Go ahead, Captain.
+|261:49:10|PAO|This is Apollo Control. The orange light that Jack Schmitt was referring to is a gimbal warning light - one of the caution and warning system lights that, in this case, indicates the attitude of the spacecraft approaching gimbal lock. However, this is of no concern. The passive thermal control attitude that the spacecraft is in was expected to bring them close enough to that limit to trigger the light, but will not cause any problems. The spacecraft at this time is in the passive thermal control mode, rotating about it's longitudinal axis at the rate of about 3 revolutions per hour to distribute the heating and cooling effects of sunlight on one side and the heatsink of space on the other, and produce uniform heating and cooling within the spacecraft structure.
+|261:57:02|PAO|This is Apollo Control at 264 hours 37 minutes. About an hour and a half ago Jack Schmitt reported what appeared to him as a transitory blink of the spacecraft lights. He asked if we'd seen anything in the telemetry that indicated any sort of a glitch or a problem in the spacecraft electrical system. At that time the EECOM looked at his telemetry displays and said everything appeared to be normal, but to be doubly sure, we had the data, replayed from the receiving site at Madrid where it had been picked up from the spacecraft and looked at the data second by second. Aaron has completed that review, John Aaron, the EECOM, and reports that he saw nothing abnormal during the period of time in question. However, there were a couple of instances where the spacecraft current levels increased or spiked, as they say, by about an amp or two, but this is an increase of 1 or 2 amps out of a total of 78 to 80 some amperes being drawn by the spacecraft at this time, and is not considered abnormal. Gene Cernan reported after Schmitt asked the question that neither he nor Command Module Pilot, Ron Evans had seen the blink in lights that Jack Schmitt reported. Schmitt also allowed as how it may have been a - a figment of his imagination. There is, as we say, no - no explanation for the apparent blink in lights. We see nothing here on the ground that indicates anything abnormal in the spacecraft. Crew also reported that the spacecraft cabin was a bit on the chilly side and we read to them a procedure to increase the cabin temperature. We don't have a direct reading of cabin temperature - we can deduce indirectly what that temperature would be from air inlet temperatures which generally read lower than the cabin temperature itself. The EECOM estimates that the temperature in the cabin has been running somewhere between 68 to 70 degrees - probably in the high sixties, and hopefully beginning to come up a bit now. At the present time Apollo 17 is 145,300 nautical miles from Earth, traveling at a speed of 3,600 feet per second now. The crew is scheduled to begin a sleep period at about 267 hours. They've completed the exercise period. Ron Evans, who is on the bio-medical sensors, was exercising and the surgeon reported seeing the - seeing his heart rate rise, indicating that he was exercising.
+|262:01:23|PAO|And at this time the surgeon reports Lunar Module Pilot, Jack Schmitt, is exercising as indicated by a rise in his heart rate.
+|262:11:26|CMP|(Music) Hey, Houston; America.
+|262:11:36|CC|Go ahead, Captain.
 ||||Tape 175/2|Page 2320
-|262:11:28|CMP|Okay, Gordo. I took my comm carrier apart - or, you know, cut this little cloth covering that goes from the plug on up to the headset, what have you. And sure enough, there's two little broken wires in there; and the next one is a little bit - the next one to it is a little bit loose, also. But I found a little piece of metal, and I bent it to the - conform to the shape of the wire and I've got it taped up real tight right now. And I'm going to see if it works for a while - make sure it doesn't cut in or out, you know, or something like that.
-|262:11:28|CC|Okay; good luck.
-|262:11:28|CMP|(Laughter) Okay. Of course, I still have the lightweight headset. I'd just as soon wear the comm carrier for the reentry, if possible.
-|262:11:28|CC|Roger. Say, we've investigated a little more on that possible spike that was alleged by Jack -thought he might have seen. And we mentioned, I think, in response to that, about a 1 or 2 amp jump. Well, looking further, we see those all along; and we think they're probably due to minimum-impulse jet firings. We're trying to correlate that data. But the conclusion, right now, is that we really don't see anything on the data to support what Jack might have seen.
-|262:11:28|CMP|Okay, mighty fine. We - just wanted to - you know, in case there was something there - wanted to make sure you all took a look at it.
-|262:11:28|CC|You bet.
-|262:11:28|CMP|Yes. Knobby. Okay, Knobby, where are you? Hey, I can see a few stars out there on this side of the window.
-|262:11:28|CMP|Can't see anything there. That's right behind the - By gosh, there it is, though.
-|262:11:28|LMP|Houston, 17.
-|262:11:28|CC|Go ahead.
-||||Tape 175/3|Page 2321
-|262:11:28|LMP|Gordy, this is Jack. is anybody watching my heart rate - heart rate over the last 15 minutes or so?
-|262:11:28|CC|That's affirmative. We have.
-|262:11:28|LMP|What - what did I peak out at?
-|262:11:28|CC|You peaked at 105, Jack.
+|262:11:41|CMP|Okay, Gordo. I took my comm carrier apart - or, you know, cut this little cloth covering that goes from the plug on up to the headset, what have you. And sure enough, there's two little broken wires in there; and the next one is a little bit - the next one to it is a little bit loose, also. But I found a little piece of metal, and I bent it to the - conform to the shape of the wire and I've got it taped up real tight right now. And I'm going to see if it works for a while - make sure it doesn't cut in or out, you know, or something like that.
+|262:12:28|CC|Okay; good luck.
+|262:12:32|CMP|(Laughter) Okay. Of course, I still have the lightweight headset too. I'd just as soon wear the comm carrier for the reentry, if possible.
+|262:12:43|CC|Roger. Say, we've investigated a little more on that possible spike that - or glitch that Jack thought he might of seen. And we mentioned, I think, in response to that, about a 1 or 2 amp jump. Well, looking further, we see those all along; and we think they're probably due to minimum-impulse jet firings. We're trying to correlate that data. But the conclusion, right now, is that we really don't see anything on the data to support what Jack might have seen.
+|262:13:22|CMP|Okay, mighty fine. We - just wanted to - you know, in case there was something there - wanted to make sure you all took a look at it.
+|262:13:34|CC|You bet.
+|262:13:46|CMP|Yes. Knobby. Okay, Knobby, where are you? Hey, I can see a few stars out there on this side of the window.
+|262:14:21|CMP|Can't see anything there. That's right behind the - By gosh, there it is, though.
+|262:14:26|LMP|Houston, 17.
+|262:14:29|CC|Go ahead.
+||||Ta4e 175/3|Page 2321
+|262:14:32|LMP|Gordy, this is Jack. is anybody watching my heart rate - heart rate over the last 15 minutes or so?
+|262:14:40|CC|That's affirmative. We have.
+|262:14:45|LMP|What - what did I peak out at?
+|262:14:54|CC|You peaked at 105, Jack.
 |262:14:59|LMP|Hummm, okay.
-|262:14:59|CMP|Well, what do you know. You got to be quick. Just disappeared behind the ... limits.
-|262:14:59|CMP|No, not at all, Jack. Go ahead. Jack's going to stir the cryos again - not stir them but - de-stratify them. 36 Vega. Ahh, that Vega is nothing but a bear. (Laughter)
-|262:17:35|CMP|That really shakes the spacecraft, Jack. You can see it when you sit there marking on a star and it just shakes it back and forth. (Laughter) That's all right; no problem. No, no. That's what I say, no problem. No angle difference from 0.1; that wasn't too bad. Number 1 and 36. You got them down? Okay, Houston, and we'll torque at - if you're all set, anyhow.
-|262:17:35|CC|Yes, we're all set.
-|262:17:35|CMP|Okay, about 58:45.
-|262:17:35|CC|Okay. And then, when you do that, we want you to stop the PTC right now. But we want you to use the jet configuration - configuration we used to start at - That's - all of quad Delta and Charlie 3 and 4, rather than the jets listed in the Flight Plan. Over.
-|262:17:35|CMP|Okay.
-|262:17:35|CC|And while we are mentioning jet configurations, that jet configuration is - this is another change to a change to a change, and we're sorry about this. But we want you to use those jets, all of Delta and Charlie 3 and 4, for every stop and start of PTC from here on out, all the way through the final PTC exit, just prior to midcourse 7, which is shown in the Flight Plan - and - and the way we want it, using coupled jets for that final one. But use Delta 1 through 4, and Charlie 3 and 4 from here on out for going in and out of PTC. And I can read you all the time so that applies to - if you can just remember it, that will save some writing. Your choice. Over.
+|262:15:11|CMP|Well, what do you know. You got to be quick. Just disappeared behind the trunion limits.
+|262:15:51|CMP|No, not at all, Jack. Go ahead. Jack's going to stir the cryos again - not stir them but - de-stratify them. 36 Vega. Ahh, that Vega is nothing but a bear. (Laughter)
+|262:17:36|CMP|That really shakes the spacecraft, Jack. You can see it when you sit there marking on a star and it just shakes it back and forth. (Laughter) That's all right; no problem. No, no. That's what I say, no problem. No angle difference from 0.1; that wasn't too bad. Number 1 and 36. You got them down? Okay, Houston, and we'll torque at - if you're all set, anyhow.
+|262:18:33|CC|Yes, we're all set.
+|262:18:36|CMP|Okay, about 58:45.
+|262:18:41|CC|Okay. And then, when you do that, we want you to stop the PTC right now. But we want you to use the jet configuration - configuration we used to start at - That's - all of quad Delta and Charlie 3 and 4, rather than the jets listed in the Flight Plan. Over.
+|262:19:09|CMP|Okay.
+|262:19:20|CC|And while we are mentioning jet configurations, that jet configuration is - this is another change to a change to a change, and we're sorry about this. But we want you to use those jets, all of Delta and Charlie 3 and 4, for every stop and start of PTC from here on out, all the way through the final PTC exit, just prior to midcourse 7, which is shown in the Flight Plan - and - and the way we want it, using coupled jets for that final one. But use Delta 1 through 4, and Charlie 3 and 4 from here on out for going in and out of PTC. And I can read you all the time so that applies to - if you can just remember it, that will save some writing. Your choice. Over.
 ||||Tape 175/4|Page 2322
-|262:20:17|CMP|I'll write it down here in the spacecraft somewhere.
-|262:20:17|CMP|... on the back here. Yes.
-|262:20:17|CDR|Gordy, you want Delta 1, 2, 3, and 4, and Charlie 3 and 4 for damping. And you want Bravo 2 and Delta 2 for spinup, as the Flight Plan says?
-|262:20:17|CC|That's affirmative. And the damping is for both entry and exit of PTC from here on out, except that final one, which is coupled just prior to midcourse.
-|262:20:17|CMP|Okay.
-|262:20:17|CC|And you don't need to wait until roll of 14. You can go ahead and stop it right now. We'd prefer it that way, as a matter of fact. Over.
-|262:20:17|CDR|Okay.
-|262:24:51|CDR|Is that a CDU glitch there, Gordy? We - Huh? We sure did. Hello, Houston, you read America?
-|262:24:51|CC|Yes. I was just trying to get an answer for you. Yes, it looks, at first glance, like maybe we saw one. Stand by. I'll get a better update.
-|262:24:51|LMP|Gordy, why don't you give me the best OMNI?
-|262:24:51|CC|OMNI Delta is the best right at the moment.
-|262:24:51|LMP|Well, we'll hang on to you here as we go. You were just on the verge of dropping out, but we'll stay with you on the high gain.
+|262:20:18|CMP|I'll write it down here in the spacecraft somewhere.
+|262:20:31|CMP|Put it on the back here. Yes.
+|262:21:00|CDR|Gordy, you want Delta 1, 2, 3, and 4, and Charlie 3 and 4 for damping. And you want Bravo 2 and Delta 2 for spinup, as the Flight Plan says?
+|262:21:11|CC|That's affirmative. And the damping is for both entry and exit of PTC from here on out, except that final one, which is coupled just prior to midcourse 7.
+|262:21:25|CMP|Okay.
+|262:21:35|CC|And you don't need to wait until roll of 14. You can go ahead and stop it right now. We'd prefer it that way, as a matter of fact. Over.
+|262:21:48|CDR|Okay.
+|262:24:52|CDR|Is that a CDU glitch there, Gordy? We - Huh? We sure did. Hello, Houston, you read America?
+|262:25:07|CC|Yes. I was just trying to get an answer for you. Yes, it looks, at first glance, like maybe we saw one. Stand by. I'll get a better update.
+|262:25:23|LMP|Gordy, why don't you give me the best OMNI?
+|262:25:30|CC|OMNI Delta is the best right at the moment.
+|262:25:43|LMP|Well, we'll hang on to you here as we go. You're just on the verge of dropping out, but we'll stay with you on the high gain.
 ||||Tape 175/5|Page 2323
-|262:24:51|CDR|Yes, Gordy, our ball - our ball - let's see -reads about 256 ROLL, and YAW - and PITCH is 2 -about 227, and YAW is about 42 degrees.
-|262:24:51|CC|You know - evidently you definitely had a CDU glitch. We're trying to come up with an attitude that you can fly to on the ball as it stands right now in SCS. Stand by.
-|262:24:51|CMP|Houston, both the SCS and the IMU ball are okay, I think. They're both the same. Well, they're almost - yes, except for the GDC - except for the GDC drift, they're both the same. So the error is in the WOUW 20s in the computer.
-|262:24:51|CC|Stand by.
-|262:24:51|CC|Ron, does the - does the GDC and the IMU attitude agree right now?
+|262:26:00|CDR|Yes, Gordy, our ball - our ball - let's see - reads about 256 ROLL, and YAW - and PITCH is 2 - about 227, and YAW is about 42 degrees.
+|262:26:24|CC|Okay.
+|262:26:43|CC|Geno, evidently you definitely had a CDU glitch. We're trying to come up with an attitude that you can fly to on the ball as it stands right now in SCS. Stand by.
+|262:27:07|CMP|Houston, both the SCS and the IMU ball are okay, I think. They're both the same. Well, they're almost - yes, except for the GDC - except for the GDC drift, they're both the same. So the error is in the NOUN 20s in the computer.
+|262:27:38|CC|Stand by.
+|262:28:09|CC|Ron, does the - does the GDC and the IMU attitude agree right now?
 |262:28:19|CMP|Yes, they do. They agree, you know, except for the 2 or 3 degrees of GDC drift is all.
-|262:28:19|CC|Roger.
-|262:28:19|CMP|And there's our NOUN 20s on the computer now.
-|262:28:19|CC|Roger.
-|262:28:19|CC|America, Houston. What we'd like you to do is -Were those ball angles you read 256, 04 - well, let's see - get the right order - 256, 227, and 042 - Are those still about where you are?
-|262:28:19|CMP|Yes, that's affirm.
-|262:28:19|CC|Okay. We're going to try to compute a - an attitude that can get us - to high gain so we have a little more visibility into the system. That's our problem right now.
-|262:28:19|CMP|(Laughter) Okay.
-|262:32:54|CC|America, Houston. What we'd like you to do is roll l80 degrees to about 076 roll attitude.
+|262:28:26|CC|Roger.
+|262:28:41|CMP|And there's our NOUN 20s on the computer now.
+|262:28:45|CC|Roger.
+|262:29:14|CC|America, Houston. What we'd like you to do is - Were those ball angles you read 256, 04 - well, let's see - get the right order - 256, 227, and 042 - Are those still about where you are?
+|262:29:32|CMP|Yes, that's affirm.
+|262:29:37|CC|Okay. We're going to try to compute a - an attitude that can get us - to high gain so we have a little more visibility into the system. That's our problem right now.
+|262:29:50|CMP|(Laughter) Okay.
+|262:32:56|CC|America, Houston. What we'd like you to do is roll 180 degrees to about 076 roll attitude.
 ||||Tape 175/6|Page 2324
-|262:32:54|CMP|Okay, we'll roll her back to 076.
-|262:32:54|CC|Okay. Then once you get there, the HIGH GAIN angle should be a PITCH of minus 50; and YAW, 205. Over.
-|262:32:54|CMP|Minus 50 and 205. Okay.
-|262:32:54|CDR|We're on the way, Gordy.
-|262:32:54|CC|Okeydoke.
-|262:32:54|CDR|You might check. I was loading NOUN 22. And you might just doublecheck and see what you saw down there and make sure I wasn't loading NOUN 20.
-|262:32:54|CC|Okay, good call; we'll do that.
-|262:32:54|CC|Can you give us best OMNI as you roll around?
-|262:32:54|CMP|Okay, we'll try
-|262:32:54|CDR|Okay, it's OMNI Delta now.
-|262:32:54|CC|Roger. Loud and clear.
-|262:35:57|LMP|Houston, I doubt if it's a problem, but the UV cover's still open.
-|262:35:57|CC|Roger, Jack.
-|262:35:57|CC|Okay, we'd like you to zero the CDUs now.
-|262:35:57|LMP|Looks about right.
-|262:35:57|CDR|Looks good, Gordy. It matches the ball.
-|262:35:57|CC|Roger. We see that. We're getting high bit rate now, by the way, also.
-|262:35:57|CDR|I don't know. You can track it down, but I called up NOUN 20 to check the roll angles, and it was not what we were using in the book here, of 14 degrees. And I very easily could have - could have loaded 20 instead of 22.
-|262:35:57|CC|Okay. We'll sure track that one down.
+|262:33:15|CMP|Okay, we'll roll her back to 076.
+|262:33:20|CC|Okay. Then once you get there, the HIGH GAIN angle should be a PITCH of minus 50; and YAW, 205. Over.
+|262:33:31|CMP|Minus 50 and 205. Okay.
+|262:33:34|CDR|We're on the way, Gordy.
+|262:33:36|CC|Okeydoke.
+|262:33:39|CDR|You might check. I was loading NOUN 22. And you might just doublecheck and see what you saw down there and make sure I wasn't loading NOUN 20.
+|262:34:13|CC|Okay, good call; we'll do that.
+|262:34:54|CC|Can you give us best OMNI as you roll around?
+|262:34:21|CMP|Okay, we'll try
+|262:34:26|CDR|Okay, it's OMNI Delta now.
+|262:34:29|CC|Roger. Loud and clear.
+|262:35:58|LMP|Houston, I doubt if it's a problem, but the UV cover's still open.
+|262:36:06|CC|Roger, Jack.
+|262:36:23|CC|Okay, we'd like you to zero the CDUs now.
+|262:36:41|LMP|Looks about right.
+|262:36:59|CDR|Looks good, Gordy. It matches the ball.
+|262:37:02|CC|Roger. We see that. We're getting high bit rate now, by the way, also.
+|262:37:09|CDR|I don't know. You can track it down, but I called up NOUN 20 to check the roll angles, and it was not what we were using in the book here, of 14 degrees. And I very easily could have - could have loaded 20 instead of 22.
+|262:37:29|CC|Okay. We'll sure track that one down.
 ||||Tape 175/7|Page 2325
-|262:37:28|CDR|... if that were the case.
-|262:37:28|CC|America, we're ready now for you to proceed on per Flight Plan with the VERB 49 to the sleep PTC attitude. We have not had a chance to go back over the data, but we'll give you a call as soon as we get a chance to check it. Over.
-|262:37:28|CDR|Okay, Gordy. One other interesting thing while we went back and looked at NOUN 22 after the glitch. We still had the NOUN 22 angles I had loaded for the previous VERB 49 at 263:40, which either -even makes me feel more like I did not load 22 on this next time around.
-|262:37:28|CC|Yes, it sounds - it sounds like we might have the problem nailed down, but we'll doublecheck that.
-|262:37:28|CDR|This is a gross admission, if that's the case; but I'd rather have it that way.
-|262:41:35|CC|We won't hold it against you.
+|262:37:29|CDR|... feel a lot better about it, if that were the case.
+|262:37:54|PAO|This is Apollo Control at 265 hours 18 minutes. The CDU glitch that is being discussed, refers to a small piece of - refers to a small piece of erroneous information which appears to have gotten through the CDU. The CDU being the Coupling Data Unit, which is a black box that receives information from various measuring devices on the spacecraft, and converts them to a form that is meaningful to the computer. The CDU or Coupling Data Unit in question, is one that handles this transfer of information from a measuring device, in this case the inertial measurement unit, to the computer. The indications that we've gotten so far from the checks run and the telemetry data that we've looked at, do not show any problem. The essential thing is to understand what the nature of the erroneous information that was fed through this CDU to the computer might be. It's very conceivable that there will be a ready explanation for an erroneous bit of information getting through. If, in fact, there is some problem, and the CDU can be expected to continue feeding erroneous information to the computer, there is a program that can be loaded into the erase-able memory of the computer which in effect allows it to question the information that's fed through and to in effect, make a determination as to whether that information is reasonable. If it's not reasonable, the computer then throws it out. And we now have high bit rate data from the spacecraft so we'll be able to look in great detail at this particular aspect of the guidance system.
+|262:40:33|CC|America, we're ready now for you to proceed on per Flight Plan with the VERB 49 to the sleep PTC attitude. We have not had a chance to go back over the data, but we'll give you a call as soon as we get a chance to check it. Over.
+|262:40:51|CDR|Okay, Gordy. One other interesting thing while we went back and looked at NOUN 22 after the glitch. We still had the NOUN 22 angles I had loaded for the previous VERB 49 at 263:40, which either - even makes me feel more like I did not load 22 on this next time around.
+|262:41:16|CC|Yes, it sounds - it sounds like we might have the problem nailed down, but we'll doublecheck that.
+|262:41:30|CDR|This is a gross admission, if that's the case; but I'd rather have it that way.
+|262:41:36|CC|We won't hold it against you.
+|262:42:13|CC|America, Houston. Why don't you hold the PRO on ó on this VERB 49 until we have a chance to check and see if we're going to a gimble lock problem.
 ||||Tape 176/1|Page 2326
-|262:41:35|CDR|Okay.
-|262:41:35|CDR|Gordy, can I use the roll we got, 142? I'll stand by until you check that gimbal lock out.
-|262:41:35|CC|Stand by. WeTre checking that. Your answer is negative, Geno. The present roll - the maneuver should - shows on our computer, you'll go to gimbal lock. So suggest you go to l4 and then start to maneuver. ... Over.
-|262:41:35|CDR|Okay.
-|262:49:05|CC|America, Houston. Can you give us AUTO and NARROW on the HIGH GAIN? Present angles are okay.
-|262:49:05|LMP|Okay, Houston. The computer knows where the stars are anyhow.
-|262:49:05|CC|Okay. We'd like AUTO and HARROW, and make sure you've selected HIGH GAIN also.
-|262:49:05|CDR|Wise ... wise guy. Works every time, doesn't it?
+|262:42:26|CDR|Okay.
+|262:42:48|CDR|Gordy, can I use the roll we got, 142? I'll stand by until you check that gimbal lock out.
+|262:43:08|CC|Stand by, we're checking here. Your answer is negative, Geno. The present roll - the maneuver should - it shows on our computer, you'll go to gimbal lock. So suggest you go to 14 and then start to maneuver. ... Over.
+|262:43:39|CDR|Okay.
+|262:49:06|CC|America, Houston. Can you give us AUTO and NARROW on the HIGH GAIN? Present angles are okay.
+|262:49:32|LMP|Okay, Houston. The computer knows where the stars are anyhow.
+|262:49:39|CC|Okay. We'd like AUTO and NARROW, and make sure you've selected HIGH GAIN also.
+|262:50:08|CDR|Wise ... wise guy. Works every time, doesn't it?
 |262:50:31|CC|Roger.
-|262:53:54|CC|Well, America, the final evidence is in, and we're all putting our EMP books back on the shelf. We played it back and we see a VERB 21 NOUN 20, which is what did it - and a 22 and 23-
-|262:53:54|CDR|Okay, I've been sitting here thinking about it. Yes, I had - and also the glitch occurred when I did the final ENTER, so - plus we had the two-axes glitch and a number of things. I'm -I'm glad you confirmed that. Makes me feel better.
+|262:54:01|CC|Well, America, the final evidence is in, and we're all putting our EMP books back on the shelf. We played it back and we see a VERB 21 NOUN 20, which is what did it - and a 22 and 23 -
+|262:54:19|CDR|Okay, I've been sitting here thinking about it. Yes, I had - and also the glitch occurred when I did the final ENTER, so - plus we had the two-axes glitch and a number of things. I'm - I'm glad you confirmed that. Makes me feel better.
 ||||Tape 176/2|Page 2327
-|262:53:54|LMP|We were discussing whether or not you needed an EMP or not.
-|262:53:54|CC|Well, there must be one for the situation.
-|262:53:54|CDR|Getting a little quiet up here anyway, Gordy. That one sure snapped us out, though.
-|262:53:54|CC|Us also.
-|262:53:54|CDR|Hey, how far are we from home?
-|262:53:54|CC|Well, I can give it to you in hours from entry interface right away - 38 hours 42 minutes and 4 seconds. And in miles, you're 143 500.
-|262:53:54|CDR|Okay, thank you.
-|262:56:33|CC|Picking up speed all the way.
-|262:59:29|CC|America, Houston. Over.
-|262:59:29|CDR|Go ahead, Gordo.
-|262:59:29|CC|I've been talking to Don Beaty and Dick Kruse and looking over a transcript of - of a science press conference we edited up. It was kind of ragged but possibly interesting summary of the science as it stands now. In response to your question of - of items that might help you prepare for tomorrow's press conference, I can come with you with those words any time you wish.
-|262:59:29|CDR|... you can come up with them now.
-|262:59:29|CC|Okay. Let's start with the - the LSPE. All eight charges have now been exploded, and they were all on schedule and produced excellent signals . These data were used in conjunction with the ascent stage lift-off and also its impact data, which should give us an excellent picture of the geologic structure of the outer 3 kilometers of the Moon. This little summary I'm reading right now is - was written by Joel Watkins. The geophone array is functioning beautifully and and we're already talking about its potential in a listening mode for study of meteorite impact frequency J We still don't have precise EP locations from Ray Batson, so the following interpretation will almost certainly be changed when we get better data and field tapes, which we will use to refine our arrival times. Bearing the above in mind, my preliminary interpretation is as follows. The low-velocity layer seems to be thicker and higher in velocity than at either Apollo l4 or 16 sites. I think this may mean that the low-velocity layer here includes dark mantle material as well as the regolith. Details of the higher velocity substrata are fuzzy, but velocities increase with depth in a way which would be consistent with a thick accumulation of lava flows. This probably represents the subfloor material. And he concludes by saying, "You guys did a great job, see you after splash." On the same subject, Dr. Kovach went a little further, and he just recently admits to seeing evidence of two high-velocity layers, especially after the 6-pound charge was fired, that - that evidence showed up. He a]so mentions in - mentioned in his press conference yesterday that the - the data point allowed by the - the ascent-stage impact was - was very important -the fact that they - they got it in about 9 kilometers away and the - that data is right in a critical range where - where they see a big change in the - the percentage of - velocity change. I'm getting kind of balled up here in the words, but that data is very important because it's in -where the steep gradient of velocity change occurs. On looking through here, I guess, in - in summary, I'll read a couple of sentences again out of the press conference. We do find evidence of lunar crust as we did in the past, but we may have to thin it considerably. We may have, in fact, have to thin it as much as to 25 kilometers instead of 60 - that they believed it was up until now. And they're thinking they may have to lower the velocity of seismic ways - waves in the mantle, which, I guess, at last guess was around 9 kilometers per second. Now it's looking more like 7-5, and the crustal velocity is probably as low as 6.3 kilometers per second. Okay, yes. That was - that last data was really from Dr. Latham, and he was
-||||Tape 176/3|Page 2328 interpreting that data mainly from the S-IVB impact and readings from some of the other seismic sites. Any questions on that? I realize that this is pretty ragged. Over.
+|262:54:38|LMP|We were discussing whether or not you needed an EMP or not.
+|262:54:47|CC|Well, there must be one for the situation.
+|262:55:42|CDR|Getting a little quiet up here anyway, Gordy. That one sure snapped us out, though.
+|262:55:49|CC|Us also.
+|262:56:01|CDR|Hey, how far are we from home?
+|262:56:06|CC|Well, I can give it to you in hours from entry interface right away - 38 hours 42 minutes and 4 seconds. And in miles, you're 143,500.
+|262:56:29|CDR|Okay, thank you.
+|262:56:35|CC|Picking up speed all the way.
+|262:59:30|CC|America, Houston. Over.
+|262:59:35|CDR|Go ahead, Gordo.
+|262:59:37|CC|I've been talking to Don Beaty and Dick Kruse and looking over a transcript of - of a science press conference we edited up. It was kind of ragged but possibly interesting summary of the science as it stands now. In response to your question of - of items that might help you prepare for tomorrow's press conference, I can come with you with those words any time you wish.
+|263:00:14|CDR|... you can come up with them now.
+|263:00:17|CC|Okay. Let's start with the - the LSPE. All eight charges have now been exploded, and they were all on schedule and produced excellent signals. These data were used in conjunction with the ascent stage lift-off and also its impact data, which should give us an excellent picture of the geologic structure of the outer 3 kilometers of the Moon. This little summary I'm reading right now is - was written by Joel Watkins. The geophone array is functioning beautifully and and we're already talking about its potential in a listening mode for study of meteorite impact frequency. We still don't have precise EP locations from Ray Batson, so the following interpretation will almost certainly be changed when we get better data and field tapes, which we will use to refine our arrival times. Bearing the above in mind, my preliminary interpretation is as follows. The low-velocity layer seems to be thicker and higher in velocity than at either Apollo l4 or 16 sites. I think this may mean that the low-velocity layer here includes dark mantle material as well as the regolith. Details of the higher velocity substrate are fuzzy, but velocities increase with depth in a way which would be consistent with a thick accumulation of lava flows. This probably represents the subfloor material. And he concludes by saying, "You guys did a great job, see you after splash." On the same subject, Dr. Kovach went a little further, and he just recently admits to seeing evidence of two high-velocity layers, especially after the 6-pound charge was fired, that - that evidence showed up. He also mentions in - mentioned in his press conference yesterday that the - the data point allowed by the - the ascent-stage impact was - was very important - the fact that they - they got it in about 9 kilometers away and the - that data is right in a critical range where - where they see a big change in the - the percentage of - velocity change. I'm getting kind of balled up here in the words, but that data is very important because it's in - where the steep gradient of velocity change occurs. On looking through here, I guess, in - in summary, I'll read a couple of sentences again out of the press conference. We do find evidence of lunar crust as we did in the past, but we may have to thin it considerably. We may have, in fact, have to thin it as much as to 25 kilometers instead of 60 - that they believed it was up until now. And they're thinking they may have to lower the velocity of seismic ways - waves in the mantle, which, I guess, at last guess was around 9 kilometers per second. Now it's looking more like 7-5, and the crustal velocity is probably as low as 6.3 kilometers per second. Okay, yes. That was - that last data was really from Dr. Latham, and he was interpreting that data mainly from the S-IVB impact, reading from some of the other seismic sites. Any questions on that? I realize that this is pretty ragged. Over.
 ||||Tape 176/4|Page 2329
-|262:59:29|LMP|Oh, that's - that's great, Gordy. Did Kovach indicate his tentative depth for the second high-velocity layer?
-|262:59:29|CC|No. As far as the information we have here, he's just - I - I don't see any - the only thing I can see is he mentions we're getting a depth sample down to 3 to 4 kilometers, but that was before all the charges had gone off. So I think, as I say, he just doesn't really state that yet.
-|262:59:29|LMP|Yes, it's a little early. Okay, good. Sounds like what we saw in the field to a certain extent.
-|263:06:09|CC|Okay. On the heat flow, it's continuing to work perfectly. It's stabilizing out and, at the present time, they show about a degree centigrade per meter gradient. Apollo 15 is stabilized at about 1.8, and it looks like the 17 site's headed for about the same, which gives consistent data for the two sites. It looks like that's what is going to result when it reaches final equilibrium. And so that - if you call that - those two sites typical of the Moon, then that leads one to the following conclusions; that that data requires that there be a total greater abundance of radioactive isotopes on the Moon as compared to the Earth, so there would be an implication here for a fundamental difference in the composition between the two. And the higher number of isotopes would in turn require that they be located very near the surface, implying substantial differentiation of the material, at least compositionally or stratisfactionally [sic]. It's not necessary that it had have to be stratified. It was only required that it be stratified in most of - in that most of the isotopes be concentrated in the upper layers of the Moon. I guess that's about what we've got on the heat flow at the present time. Over.
+|263:05:17|LMP|Oh, that's - that's great, Gordy. Did Kovach indicate his tentative depth for the second high-velocity layer?
+|263:05:32|CC|No. As far as the information we have here, he's just - no, I don't see any - the only thing I can see is he mentions we're getting a depth sample down to 3 to 4 kilometers, but that was before all the charges had gone off. So I think, as I say, he just doesn't really state that yet.
+|263:05:58|LMP|Yes, it's a little early. Okay, good. Sounds like what we saw in the field to a certain extent.
+|263:06:10|CC|Okay. On the heat flow, it's continuing to work perfectly. It's stabilizing out and, at the present time, they show about a degree centigrade per meter gradient. Apollo 15 is stabilized at about 1.8, and it looks like the 17 site's headed for about the same, which gives consistent data for the two sites. It looks like that's what is going to result when it's reached its final equilibrium. And so that - if you call that - those two sites typical of the Moon, then that leads one to the following conclusions; that that data requires that there be a total greater abundance of radioactive isotopes in the Moon as compared to the Earth, so there would be an implication here for a fundamental difference in the composition between the two. And the higher number of isotopes would in turn require that they be located very near the surface, implying substantial differentiation of the material, at least compositionally or stratisfactionally [sic]. It's not necessary that it had have to be stratified. It was only required that it be stratified in most of - in that most of the isotopes be concentrated in the upper layers of the Moon. I guess that's about what we've got on the heat flow at the present time. Over.
 ||||Tape 176/5|Page 2330
-|263:06:09|LMP|Gordy, does he indicate where his minimum temperature lay - zone is now at the site?
-|263:06:09|CC|Stand by. Let me look through here.
-|263:06:09|LMP|I think you mentioned something the other night -about - I thought you said 2-1/2 meters, but I'm not sure.
-|263:06:09|CC|Let me just read it straight off here. There is some words to that effect, but it doesn't sound like 2-1/2 meters. At a large scale - let's see, he's describing a viewgraph here - the surface temperature at the time of this sample was 360 degrees Kelvin. At a depth of about 15 centimeters, it had dropped to 280. At about 65 centimeters, the temperature drops to 254, and that's the lowest temperature we see. Below that depth, the temperature begins to increase again, and it's 257 at the bottom of the probes. Over.
-|263:06:09|LMP|Where was the 254 again?
-|263:06:09|CC|At 65 centimeters below the surface.
-|263:06:09|LMP|Okay. That's about the same, I think, as 15-Very good. Some of our double cores will get that deep.
-|263:09:57|CC|Roger. Okay, the TGE has produced some - fair amount of excitement around here - and interest. The instrument really worked beautifully. It had some baro switches that turned it on for temperature control - right aft - during lift-off - and so it had 3 days to stabilize before you got to Taurus-Littrow. And on landing, the bias measurement showed that the bias shift was extremely small, so they feel that they had a very accurate reading on all the readings. And I mentioned the other night that the number they got for the gravity field at the landing site should allow them to actually revise the value for the radius of the Moon at the landing site. But then you asked me about some of the variations in reading around the valley there. Well, it turns out that - if you call the landing site zero on the scale of milli-gals and then take the differences from the landing site, over to the South Massif, you have a minus 36; in other words, a lesser amount of gravity. And all these numbers, by the way, are corrected only for elevation, and there are some more sophisticated corrections to - to be put on them. But the - with - correcting for elevation, you have a 36-milligal negative anomaly at the South Massif. And the number at the North Massif was a minus 26. And there is very little difference, within a milligal or so, between the North Massif and the Sculptured Hills site. But you can see that there's a significant difference between the landing site and the foothills on both sides. The Shorty Crater showed a slight positive anomaly compared to the landing site, but it's less than a milligal, which is sort of -you start to think "Well, that means a localized volcanic center," but it's - nobody's really going out that far on a limb. The - they were especially appreciative of the 2A stop, which was - let's see - well, it verified the extremely sharp gradient of the anomalous condition from the foothills as you go back into the valley. The 2A stop - I'm trying to find the number here -Okay, one's a minus 36 at Station 2 to a minus 29 at 2A, so it's - it really changes quickly as you get away from the - the mountains. Okay, he summar - summarized his feelings by saying that -the negative gravity anomalies which were measured right at the South Massif and the North Massif clearly indicate that the valley is filled with a higher density of material than the material which makes up the massif so that if the material underlying the floor at Taurus-Littrow - say, is basaltic in composition and has a density of about 3* the material which makes up the massif has a substantially lower density. He goes on to say that we're not sure exactly what the density difference is, but if it's as large as 20 percent difference, then the material in the floor of the valley and the - well, the thickness of the high-density material in the valley has to be on the order of about 1-1/2 kilometers thick. So that's a - I guess that's a minimum thickness, assuming the greatest difference in densities.
+|263:08:05|LMP|Gordy, does he indicate where his minimum temperature lay - zone is now at the site?
+|263:08:18|CC|Stand by. Let me look through here.
+|263:08:26|LMP|I think you mentioned something the other night about - I thought you said 2-1/2 meters, but I'm not sure.
+|263:08:56|CC|Let me just read it straight off here. There is some words to that effect, but it doesn't sound like 2-1/2 meters. At a large scale - let's see, he's describing a viewgraph here - the surface temperature at the time of this sample was 360 degrees Kelvin. At a depth of about 15 centimeters, it had dropped to 280. At about 65 centimeters, the temperature drops to 254, and that's the lowest temperature we see. Below that depth, the temperature begins to increase again, and it's 257 at the bottom of the probes. Over.
+|263:09:41|LMP|Where was the 254 again?
+|263:09:43|CC|At 65 centimeters below the surface.
+|263:09:48|LMP|Okay. That's about the same, I think, as 15. Very good. Some of our double cores will get that deep.
+|263:09:58|CC|Roger. Okay, the TGE has produced some - fair amount of excitement around here - and interest. The instrument really worked beautifully. It had some baro switches that turned it on for temperature control - right aft - right during lift-off - and so it had 3 days to stabilize before you got to Taurus-Littrow. And on landing, the bias measurement showed that the bias shift was extremely small, so they feel that they had a very accurate reading on all the readings. And I mentioned the other night that the number they got for the gravity field at the landing site should allow them to actually revise the value for the radius of the Moon at the landing site. But then you asked me about some of the variations in reading around the valley there. Well, it turns out that - if you call the landing site zero on the scale of milli-gals and then take the differences from the landing site, over at the South Massif, you have a minus 36; in other words, a lesser amount of gravity. And all these numbers, by the way, are corrected only for elevation, and there are some more sophisticated corrections to - to be put on them. But the - with - correcting for elevation, you have a 36-milligal negative anomaly at the South Massif. And the number at the North Massif was a minus 26. And there is very little difference, within a milligal or so, between the North Massif and the Sculptured Hills site. But you can see that there's a significant difference between the landing site and the foothills on both sides. The Shorty Crater showed a slight positive anomaly compared to the landing site, but it's less than a milligal, which is sort of - you start to think "Well, that means a localized volcanic center," but it's - nobody's really going out that far on a limb. The - they were especially appreciative of the 2A stop, which was - let's see - well, it verified the extremely sharp gradient of the anomalous condition from the foothills as you go back into the valley. The 2A stop - I'm trying to find the number here - Okay, went from minus 36 at Station 2 to a minus 29 at 2A, so it's - it really changes quickly as you get away from the - the mountains. Okay, he summar - summarized his feelings by saying that "the negative gravity anomalies which were measured right at the South Massif and the North Massif clearly indicate that the valley is filled with a higher density of material than the material which makes up the massif so that if the material underlying the floor at Taurus-Littrow - say, is basaltic in composition and has a density of about 3, the material which makes up the massif has a substantially lower density." He goes on to say that we're not sure exactly what the density difference is, but if it's as large as 20 percent difference, then the material in the floor of the valley and the - well, the thickness of the high-density material in the valley has to be on the order of about 1-1/2 kilometers thick. So that's a - I guess that's a minimum thickness, assuming the greatest difference in densities.
 ||||Tape 176/6|Page 2331
 ||||Tape 176/7|Page 2332
-|263:14:38|LMP|That's very interesting, Gordy.
-|263:14:38|CC|Yes. They're really - everything is really tied in the original theories on the structure and makeup of the valley. Everything seems to be falling right in there, and that's what has - has the whole crowd of scientists around here really smiling. Let's see - let me find out what's next here. Okay. It was Strangway's turn next, and he didn't have any results to present, of course, because he's got to get the tape back first, really. However, the orbital sounder - the command module sounder - when they made the pass across the site with the transmitter on - No, I got it backwards. When it was in a listening mode, listening to the ground transmitter's signals, they found that the signal was in exactly the frequency range that it was supposed to be, and they - they picked up the -exactly the right sequence rate, once every 0.8 second. And when they calculated the power levels, that we were putting out just exactly the 1 watt that we were expected to put out. So that - that everything looks good as far as the operation of the transmitter, and without going into all the details which you know as well as I do about the thermal problems on the receiver, they're still -well, he sums it up, we have no reason yet to be sweating it too badly. They're very hopeful that when the tape gets back, we'll have good data on at least some of the legs, and they're - they're waiting for you to bring it to them. Dick Kruse is here, and he mentioned that all your pains, Geno, in brushing dust off of it probably saved the day. If it's there, it was just due to that, that it did work, because it was really on the ragged edge here.
-|263:17:32|CC|About what's left, I think - is the field geology interpretation. And what I've got and can get tonight because there's no one really around here from the geology team at this time - it's about 11 o'clock at night - is so rambling that I'm not going to bother to read it to you. But I will leave a request so that when Parker get you up in the morning, maybe he can summarize that or answer any questions in that area that you might have. Over.
+|263:14:48|LMP|That's very interesting, Gordy.
+|263:14:55|CC|Yes. They're really - everything is really tied in the original theories on the structure and makeup of the valley. Everything seems to be falling right in there, and that's what has - has the whole crowd of scientists around here really smiling. Let's see - let me find out what's next here. Okay. It was Strangway's turn next, and he didn't have any results to present, of course, because he's got to get the tape back first, really. However, the orbital sounder - the command module sounder - when they made the pass across the site with the transmitter on - No, I got it backwards. When it was in a listening mode, listening to the ground transmitter's signals, they found that the signal was in exactly the frequency range that it was supposed to be, and they - they picked up the - exactly the right sequence rate, once every 0.8 second. And when they calculated the power levels, that we were putting out just exactly the 1 watt that we were expected to put out. So that - that everything looks good as far as the operation of the transmitter, and without going into all the details which you know as well as I do about the thermal problems on the receiver, they're still - well, he sums it up, we have no reason yet to be sweating it too badly. They're very hopeful that when the tape gets back, we'll have good data on at least some of the legs, and they're - they're waiting for you to bring it to them. Dick Kruse is here, and he mentioned that all your pains, Geno, in brushing dust off of it probably saved the day. If it's there, it was just due to that, that it did work, because it was really on the ragged edge here.
+|263:17:33|CC|About what's left, I think - is the field geology interpretation. And what I've got and can get tonight because there's no one really around here from the geology team at this time - it's about 11 o'clock at night - is so rambling that I'm not going to bother to read it to you. But I will leave a request so that when Parker get you up in the morning, maybe he can summarize that or answer any questions in that area that you might have. Over.
 ||||Tape 176/8|Page 2333
-|263:17:32|LMP|Okay, Gordy. Thank you very much.
-|263:17:32|CC|No trouble at all.
-|263:17:32|CMP|Hey, Gordy. Everything under control at the homefront?
-|263:17:32|CC|Yes, Ron. As a matter of fact, talked to Jan and, well, her words to summarize the - the whole show that you put on this afternoon was "out of this world," which is, I guess, a pretty good way to put it. Jon and Jaime were speechless when you waved and called hello to them. And Jan closed by saying that you - you're going to have to hurry home and help rebuild the wall that was broken out by a huge mob of people that were in your house this afternoon during the EVA. Over.
-|263:17:32|CMP|Well, that's okay. We like a lot of friends, and I'm glad everybody enjoyed it and pass my love on - to everyone.
-|263:17:32|CC|Okay, will do.
-|263:17:32|CDR|What about the other side of the tracks, Gordy? Got any words from over there?
-|263:17:32|CC|Hey - I haven't really talked to anyone in the other two families today. So I'm sure that everything is fine or we would have heard it, but I'll try to get a last-minute update on that before you hit the sack.
-|263:17:32|CDR|Okay, thank you.
-|263:20:28|LMP|Gordy, this is Jack.
-|263:20:28|CC|Go ahead, Jack.
-|263:20:28|LMP|Did you have a table there of the various gravity readings, and if so, what did we get at Van Serg? in your - relative to - to the landing site -landing point?
-||||Tape 176/9|Page 2334
-|263:20:28|CC|No, Jack. I don't have that. I'll ask, but I think the ones I gave you, the four places, Shorty, North, South, and Sculptured Hills, are all we got. But I'll check.
-|263:24:03|LMP|Okay.
-|263:24:10|CC|America, Houston. The rates look good now. You're clear to spin it up.
-|263:24:10|CMP|Okay.
-|263:24:10|CDR|Gordy, I'm sorry. I'm going to move.
-|263:24:10|CDR|Gordy, this isn't my day. I'll give you the damping again.
-|263:24:10|CC|Okay, fine.
-|263:31:10|CC|17, Houston. We're ready for spinup.
-|263:31:10|CC|17, Houston. We're ready for spinup.
-|263:31:10|CDR|Gordy couldn't hack it any longer, huh?
-|263:31:10|CC|He's getting some more news for you.
-|263:31:10|CDR|Okay, we'll try and get it right this time.
-|263:33:08|CDR|I think I got it for you this time.
-|263:33:08|CMP|Houston, America. Are you ready for REACQ and NARROW on the HIGH GAIN?
-|263:33:08|CC|That's affirm.
-|263:35:59|CMP|Okay, you have it. REACQ and NARROW.
-|263:52:22|CC|America, Houston. We'd like to verify the present setting of the high gain knobs. We want minus 40 and a plus 90.
-|263:52:22|LMP|Gordy, that's verified.
-|263:52:22|CC|Okay, thank you. I - I have a number of sort of cleanup items before going to bed that I can give you any time.
+|263:18:07|LMP|Okay, Gordy. Thank you very much.
+|263:18:13|CC|No trouble at all.
+|263:18:46|CMP|Hey, Gordy. Everything under control at the homefront?
+|263:18:53|CC|Yes, Ron. As a matter of fact, talked to Jan and, well, her words to summarize the - the whole show that you put on this afternoon was "out of this world," which is, I guess, a pretty good way to put it. Jon and Jaime were speechless when you waved and called hello to them. And Jan closed by saying that you - you're going to have to hurry home and help rebuild the wall that was broken out by the huge mob of people that were in your house this afternoon during the EVA. Over.
+|263:19:35|CMP|Well, that's okay. We like a lot of friends, and I'm glad everybody enjoyed it and pass my love on - to everyone.
+|263:19:45|CC|Okay, will do.
+|263:20:02|CDR|What about the other side of the tracks, Gordy? Got any words from over there?
+|263:20:09|CC|Hey - I haven't really talked to anyone in the other two families today. So I'm sure that everything is fine or we would have heard it, but I'll try to get a last-minute update on that before you hit the sack.
+|263:20:29|CDR|Okay, thank you.
+|263:23:24|LMP|Gordy, this is Jack.
+|263:23:27|CC|Go ahead, Jack.
+|263:23:31|LMP|Did you have a table there of the various gravity readings, and if so, what did we get at Van Serg? in your - relative to - to the landing site - the landing point?
+||||Ta3e 176/9|Page 2334
+|263:23:45|CC|No, Jack. I don't have it. I'll ask, but I think the ones I gave you, the four places, Shorty, North, South, and Sculptured Hills, are all we got. But I'll check.
+|263:24:06|LMP|Okay.
+|263:24:41|CC|America, Houston. The rates look good now. You're clear to spin it up.
+|263:24:53|CMP|Okay.
+|263:26:10|CDR|Gordy, I'm sorry. I'm going to move.
+|263:26:31|CDR|Boy, this isn't my day. I'll give you the damping again.
+|263:24:35|CC|Okay, fine.
+|263:31:13|CC|17, Houston. We're ready for spinup.
+|263:31:53|CC|17, Houston. We're ready for spinup.
+|263:32:05|CDR|Gordy couldn't hack it any longer, huh?
+|263:32:10|CC|He's getting some more news for you.
+|263:32:15|CDR|Okay, we'll try and get it right this time.
+|263:33:11|CDR|I think I got it for you this time.
+|263:34:49|CMP|Houston, America. Are you ready for REACQ and NARROW on the HIGH GAIN?
+|263:34:55|CC|That's affirm.
+|263:35:01|CMP|Okay, you have it. REACQ and NARROW.
+|263:37:22|PAO|This is Apollo Control at 266 hours 17 minutes. The crew at the present time is establishing the spacecraft in its passive thermal control mode. This is rotating at about 3 revolutions per hour for thermal control which means that they're preparing to get some sleep. Sleep period is scheduled to begin at 267 hours and the PTC or passive thermal control mode is the normal set up for the spacecraft to maintain thermal equalibrium during a sleep period. The crew had reported a possible glitch as they referred to it with the CDU or coupling data unit about an hour ago at 265 hours 7 minutes. We looked in great detail at the telemetry data and replayed data from the time when this glitch occured, and by looking at the data, have confirmed that there is no problem with the coupling data unit, and the guidance and navigation system which it forms a part of. To summarize the sequence of events, Gene Cernan was in the process of loading numbers into the spacecraft computer, telling it to maneuver to the proper attitude for passive thermal control, when he noticed that his eight-ball attitude indicator and his computer attitude readout disagreed. These 2 readouts if everything is as it should be, should be in very close agreement. Noting disagreement there, he advised that there was a possible glitch in the CDU or coupling data unit which feeds information from the inertial measurement unit to the computer. The glitch being possibly that the CDU was feeding erroneous information to the computer. If this was in fact the case, the computer knowledge of the spacecraft attitude would become impaired. It would have been possible to work around this sort of problem if it were a transient problem. This would have been done by loading a program into the computer erasable memory which in effect would tell the computer to disregard imputs which were unlikely or unreasonable. As it turned out, Gene Cernan came up with the explanation for the glitch. He suggested that he may have loaded the incorrect numbers into the computer when he was asking the - or telling the computer to maneuver to a new attitude. Rather than telling the computer to maneuver to a new attitude, by punching in the wrong numbers, he in effect told it - that's it's attitude numbers were incorrect and that it should load a new set of attitude numbers which the computer proceeded to do. And at the same time, the next time that he looked at and compared the eight-ball with the computer, he of course, found that they didn't agree. We were able to confirm that this in fact had happened by replaying data, looking at the numbers that were fed into the computer second by second and sure enough just as Cernan had suggested, a wrong series of numbers had been inadvertently loaded. The computer had done precicely what it was told to do and the indication of an error from the coupling data units was displayed. Making a long story short, the coupling data units are functioning precisely as they should and there's no problem with the guidance aid navigation system. Cernan, I'm sure, a bit chragrived at a procedurel error but as with everyone on the ground, relieved that a potentially significant problem turned out to be no problem at all.
+|263:52:25|CC|America, Houston. We'd like to verify the present setting of the high gain knobs. We want minus 40 and a plus 90.
+|263:52:46|LMP|Gordy, that's verified.
+|263:52:49|CC|Okay, thank you. I - I have a number of sort of cleanup items before going to bed that I can give you any time.
 ||||Tape 176/10|Page 2335
-|263:52:22|LMP|Why don't you go ahead?
-|263:52:22|CC|Okay. We'll be calling you for the IR, OFF, before you go to sleep. Want to leave it ON right up to the last minute, I guess. Let me see if we can do this next one. Okay. Why don't you just go ahead and do this one? FANs for sleep - number 1, OFF, and 3 in AUTO.
-|263:52:22|LMP|Okay, we got that.
-|263:52:22|CC|And there'll be no cryo stir necessary. You can leave the OPTICs power switch ON, which will increase the heat input and keep it a little bit warmer in there. You won't have to turn that off per the presleep checklist, if you don't wish to. We are going to change the biomed - -
-|263:52:22|LMP|Okay.
-|263:52:22|CC|- - tomorrow, in deference to the CDRs intimated request anyway, and let the CMP take the next shift where in the Flight Plan it now calls for the CDR. It was really our mistake on the original change. I guess there's no need to call all those detailed Flight Plan changes now unless you want to copy them. A reminder also, prior to going to sleep, to burnp the cabin up to 5-7 with the OPS to start getting the gas out of the OPS. And I checked with the remaining two homefronts, Jack. Your - I talked to your mother and sister. Everybody's fine there, and they watched the top of your head a little bit this afternoon on the EVA. They're looking forward to seeing you tomorrow on the press conference and back on Earth shortly thereafter. I got one from Nassau Bay, too, if the commander's listening.
-|263:52:22|CDR|He's listening.
-|263:52:22|CC|Okay, Gene. Your mother and family have arrived. They - in fact, they just walked in from a party with Barbara. They all wish you to hurry home and send their love. Over.
+|263:53:03|LMP|Why don't you go ahead?
+|263:53:05|CC|Okay. We'll be calling you for the IR, OFF, before you go to sleep. Want to leave it ON right up to the last minute, I guess. Let me see if we can do this next one. Okay. Why don't you just go ahead and do this one? FANs for sleep - number 1, OFF, and 3 in AUTO.
+|263:53:37|LMP|Okay, we got that.
+|263:53:39|CC|And there'll be no cryo stir necessary. You can leave the OPTICs power switch ON, which will increase the heat input and keep it a little bit warmer in there. You won't have to turn that off per the presleep checklist, if you don't wish to. We are going to change the biomed - -
+|263:53:59|LMP|Okay.
+|263:53:59|CC|- - tomorrow, in deference to the CDRs intimated request anyway, and let the CMP take the next shift where in the Flight Plan it now calls for the CDR. It was really our mistake on the original change. I guess there's no need to call all those detailed Flight Plan changes now unless you want to copy them. A reminder also, prior to going to sleep, to burnp the cabin up to 5.7 with the OPS to start getting the gas out of the OPS. And I checked with the remaining two homefronts, Jack. Your - I talked to your mother and sister. Everybody's fine there, and they watched the top of your head a little bit this afternoon on the EVA. They're looking forward to seeing you tomorrow on the press conference and back on Earth shortly thereafter. I got one from Nassau Bay, too, if the commander's listening.
+|263:55:18|CDR|He's listening.
+|263:55:20|CC|Okay, Gene. Your mother and family have arrived. They - in fact, they just walked in from a party with Barbara. They all wish you to hurry home and send their love. Over.
 ||||Tape 176/11|Page 2336
-|263:59:22|LMP|Houston, how do you read 17?
-|263:59:22|CC|Okay, 17. Loud and clear now. How me?
-|263:59:22|LMP|You're loud and clear.
-|263:59:22|CC|Okay. Did you - did you get the homefront update for the commander?
-|263:59:22|CDR|Yes, I got it, Gordy, and that's great news and news I wanted to hear, and you can return my love to them for me if you would.
-|263:59:22|CC|Sure will. That completes our list of goodies with the exception of the normal presleep stuff, and we'll be standing by for that from you.
-|263:59:22|LMP|Okay. And you can tell the Arizona people, next time you talk to them, I tried to get more of myself out in that television picture but the CMP saw to it that my umbilical was limited in its length.
-|264:00:21|CC|Okay.
+|263:59:26|LMP|Houston, how do you read 17?
+|263:59:29|CC|Okay, 17. Loud and clear now. How me?
+|263:59:33|LMP|You're loud and clear.
+|263:59:36|CC|Okay. Did you - did you get the homefront update for the commander?
+|263:59:42|CDR|Yes, I got it, Gordy, and that's great news and news I wanted to hear, and you can return my love to them for me if you would.
+|263:59:50|CC|Sure will. That completes our list of goodies with the exception of the normal presleep stuff, and we'll be standing by for that from you.
+|264:00:09|LMP|Okay. And you can tell the Arizona people, next time you talk to them, I tried to get more of myself out in that television picture but the CMP saw to it that my umbilical was limited in its length.
+|264:00:25|CC|Okay.
+|264:07:37|PAO|This is Apollo Control at 266 hours 47 minutes. Flight Contro1 teams are in the midst of a handover here in the Control Room. Flight Director, Chuck Lewis in the white team being relieved by Flight Director, Pete Frank in the orange team. There will be no change of shift news conference - no change of shift news conference.
+|264:08:40|PAO|The CAPCOM on this shift will be Bob Parker now relieving Gordon Fullerton.
+|264:18:17|CC|America, Houston. I'll turn you over to the crew astrologer here. Pleasant dreams.
 ||||Tape 177/1|Page 2337
-|264:00:21|LMP|Thank you, Gordy. And we enjoyed the day with you. See you tomorrow.
-|264:00:21|LMP|Well, so much for that handover.
-|264:00:21|CC|You guys call while we were unplugging?
-|264:00:21|LMP|Haven't you learned better than to unplug with an interval between?
+|264:18:25|LMP|Thank you, Gordy. And we enjoyed the day with you. See you tomorrow.
+|264:18:47|LMP|Well, so much for that handover.
+|264:18:57|CC|You guys call while we were unplugging?
+|264:19:10|LMP|Haven't you learned better than to unplug with an interval between?
 |264:36:20|LMP|Houston, we're going to turn the CABIN FAN, OFF, for a while. Sorry; it's already OFF.
-|264:36:20|CC|Okay; we copy. CABIN FAN is already OFF.
-|264:36:20|LMP|That's right. It turns out the request was to turn it on, so we will.
-|264:36:20|CC|Okay, understand you're going to turn the CABIN fan, ON. I think that's to keep it a little bit warmer in there for you guys.
+|264:36:28|CC|Okay; we copy. CABIN FAN is already OFF.
+|264:36:33|LMP|That's right. It turns out the request was to turn it on, so we will.
+|264:36:49|CC|Okay, understand you're going to turn the CABIN fan, ON. I think that's to keep it a little bit warmer in there for you guys.
 |264:36:54|LMP|MARK it. MARK it.
-|264:38:27|CC|America, Houston. We'd like to talk to Captain America, please.
-|264:38:27|CDR|Give him about - 5 or 10 minutes and he'll be with you.
-|264:38:27|CC|Okay; have him give us a call when he gets ready.
+|264:38:26|CC|America, Houston. We'd like to talk to Captain America, please.
+|264:38:33|CDR|Give him about - 5 or 10 minutes and he'll be with you.
+|264:38:37|CC|Okay; have him give us a call when he gets ready.
 |264:38:41|CDR|Okay.
-|265:18:50|CC|Apollo 17, Houston. We'd like to talk to you guys before you go to bed, please.
-|265:18:50|CDR|Go ahead, Bob.
-||||Tape 177/2|Page 2338
-|265:18:50|CC|Okay, we panicked there, I guess, or we got our -change, we - because we saw you go VOICE, OFF, and we wanted to talk to you guys about two or three things before you went to bed. For one thing, we don't see the cabin pumped up yet with the OPS as per Plan and we don't have the onboard read-outs yet, and we'd like to find out who's going to be on the comm and talk to Ron about his headset. I guess the general concensus of opinion down here, unless we know more about the fix, is there are some possible serious consequences, like blowing up the audio panel, if those wires did get together and short out, depending on which wires they are. So there's some concern about that.
-|265:18:50|CDR|Okay, let's get you the read-out first, and we're going to bounce up the cabin here very shortly with the OPS.
-|265:18:50|CC|Okay, we'd also like to get the INFRARED to OFF, please - the IR.
-|265:18:50|CDR|Okay, it's coming off here shortly. Okay, Bob, the RC - RCS reads 65, 57, 6l, and 60.
-|265:21:46|CC|Okay, copy those.
-|265:23:27|CDR|Houston, are you reading America?
-|265:23:27|CC|I'm reading you now. The last thing we got from you was the RCS quantities. We didn't get the bat quantities.
-|265:23:27|CDR|You haven't heard Ron at all?
-|265:23:27|CC|No, haven't heard Ron a bit.
-|265:23:27|CC|Sounds like the headset - -
-|265:23:27|CDR|Well, I'll tell him to try again.
-|265:23:27|CC|No, America, we're not reading Ron at all, right now.
+|264:47:03|PAO|This is Apollo Control at 267 hours 27 minutes. The crew has not yet turned in for the night and we'll continue to stand by, live, for any conversation, Apollo 17 now 139,456 nautical miles from Earth, velocity 3,776 feet per second.
+|264:47:10|CC|Apollo 17, Houston. We'd like to talk to you guys before you go to bed, please.
+|264:47:20|CDR|Go ahead, Bob.
+|||4Tape 177/2|Page 2338
+|264:47:36|CC|Okay, we panicked there, I guess, or we got our - change, we - because we saw you go VOICE, OFF, and we wanted to talk to you guys about two or three things before you went to bed. For one thing, we don't see the cabin pumped up yet with the OPS as per Plan, and we don't have the onboard read-outs yet, and we'd like to find out who's going to be on the comm and talk to Ron about his headset. I guess the general concensus of opinion down here, unless we know more about the fix, is there are some possible serious consequences, like blowing up the audio panel, if those wires did get together and short out, depending on which wires they are. So there's some concern about that.
+|264:48:25|CDR|Okay, let's get you the read-out first, and we're going to bounce up the cabin here very shortly with the OPS.
+|264:48:35|CC|Okay, we'd also like to get the INFRARED to OFF, please - the IR.
+|264:48:40|CDR|Okay, it's coming off here shortly.
+|264:50:04|CDR|Okay, Bob, the RC - RCS reads 65, 57, 61, and 60.
+|264:50:13|CC|Okay, copy those.
+|264:51:53|CDR|Houston, are you reading America?
+|264:51:55|CC|I'm reading you now. The last thing we got from you was the RCS quantities. We didn't get the BATT quantities.
+|264:52:03|CDR|You haven't heard Ron at all?
+|264:52:04|CC|No, haven't heard Ron a bit.
+|264:52:07|CC|Sounds like the headset - -
+|264:52:07|CDR|Well, I'll tell him to try again.
+|264:52:10|CC|Okay.
+|264:52:26|CC|No, America, we're not reading Ron at all, right now.
 ||||Tape 177/3|Page 2339
-|265:23:27|CDR|Okay, he's been on the lightweight headset talking to you all this time. Wait a minute, he's going to check a couple switches.
-|265:23:27|CC|Okay. Which headset is broken? The Snoopy?
-|265:23:27|CDR|Yes, Ron's - Ron's Snoopy helmet.
-|265:23:27|CC|Okay.
-|265:23:27|CMP|Hey, are you reading me now, Houston?
-|265:23:27|CC|I read you loud and clear now, Ron.
-|265:23:27|CMP|Okay, I'm wearing the lightweight headset, now. On the comm carrier, there's a whole bunch of wires, about eight of them - looks like they're twisted pairs, you, know, twisted in fours really. They come up through the thing. And two of those eight wires are cut - are broken in two. The hot end, or the end that comes up from the plug going toward the headset - those two wires both come out individually and individually taped, each one of them. And then the whole group - you know, I bent them out of the way so they wouldn't be touching anything. So they wouldn't touch insulation or tape. I bent them out of the way and taped the whole side of it just to keep the rest of them from breaking in two, and it looks like a pretty good fix on the thing, really. However, if you have any concern about blowing the audio panel -I'll just go ahead and wear the lightweight headset.
-|265:25:22|CC|Okay, Ron. Yes, the concern here is not only which wires they are - the potential does exist if one of those shorts to ground to blow the audio panel or at least a circuit breaker, depending upon which wire it is. I gather that what you've done - is that you haven't wired the broken wires back together, but it's just sort of covered the bare leads and wired them out of the way. is that right?
+|264:52:31|CDR|Okay, he's been on the lightweight headset talking to you all this time. Wait a minute, he's going to check a couple switches.
+|264:52:37|CC|Okay. Which headset is broken? The Snoopy?
+|264:52:42|CDR|Yes, Ron's - Ron's Snoopy helmet.
+|264:52:44|CC|Okay.
+|264:52:45|CMP|Hey, are you reading me now, Houston?
+|264:52:47|CC|I read you loud and clear now, Ron.
+|264:52:50|CMP|Okay, I'm wearing the lightweight headset, now. On the comm carrier, there's a whole bunch of wires, about eight of them - looks like they're twisted pairs, you, know, twisted in fours really. They come up through the thing. And two of those eight wires are cut - are broken in two. The hot end, or the end that comes up from the plug going toward the headset - those two wires both come out individually and individually taped, each one of them. And then the whole group - you know, I bent them out of the way so they wouldn't be touching anything. So they wouldn't touch insulation or tape. I bent them out of the way and taped the whole side of it just to keep the rest of them from breaking in two, and it looks like a pretty good fix on the thing, really. However, if you have any concern about blowing the audio panel, I'll just go ahead and wear the lightweight headset.
+|264:53:47|CC|Okay, Ron. Yes, the concern here is not only which wires they are - the potential does exist if one of those shorts to ground to blow the audio panel or at least a circuit breaker, depending upon which wire it is. I gather that what you've done - is that you haven't wired the broken wires back together, but it's just sort of covered the bare leads and wired them out of the way. is that right?
 ||||Tape 177/4|Page 2340
-|265:25:22|CMP|Yes, that's correct. It was too close to the -there is a stiff piece of plastic that comes out of the headset itself, out of the bottom of the left earset, and it's broken off too close to the bottom of it there to - to strip the wires down and wire them together at all.
-|265:25:22|CC|Okay. Roger on that. I guess - let us think about it here overnight. Offhand, our opinion is, as long as you've got a spare headset, let's wear the spare headset - that spare meaning a lightweight. If you're going to be on comm tonight, I guess we offhand suggest wearing the lightweight tonight. Over. How does that strike you?
-|265:25:22|CMP|Okay. Yes, no problem. I won't be on comm tonight, but I'll be wearing the lightweight headset anyhow. The only time I was thinking about it - wearing the other one at all - would be for entry, and there's no problem there. I'll just stick to the lightweight headset around my neck and put that one around my ears just to use as a burnp pad, is all.
-|265:25:22|CC|Okay; let us think about it overnight, and we'll talk to some people about it. Let's see, is Jack going to be on the headset tonight and the biomed, both?
-|265:25:22|CDR|Yes, Jack will be on tonight with the biomed and the headset.
-|265:25:22|CC|Okay. We'd like to get one more valve check there, America. Like to check our WASTE WATER TANK INLET valve to AUTO. EECOM says he is in a flat portion and he can't verify that right now by buildup.
-|265:25:22|CDR|Okay, stand by 1.
-|265:27:57|CDR|WASTE TANK INLET is in AUTO, Bob.
-|265:27:57|CC|Okay, thank you on that, Gene. And we did not get the BAT read-out for the onboard read-out for the night, BAT C and pyro BATs A and B.
-|265:27:57|CDR|Okay, guess you weren't reading. We're at 36. 5» 36.9, 36.9, in that order.
-||||Tape 177/5|Page 2341
-|265:27:57|CC|Okay, we copy that. And let me ask you a question here, Gene. Right now you're an hour behind getting to sleep. Do you want to sleep the 8 hours or get up by the Flight Plan?
-|265:27:57|CDR|No, let's get up per the Flight Plan. We're very much aware of - of that; we've just been doing some restowage and a few other things around here. But let's get up per the Flight Plan and fine.
-|265:27:57|CC|Okay. We'll talk to you in the morning. As soon as the cabin is pumped up, you're GO for sleep and you can turn VOICE back OFF, at your convenience.
-|265:27:57|CDR|Okay, you'll see the cabin pumped up, we'll go to 5.7 and turn the OPS back OFF.
-|265:27:57|CC|Roger. We'll be watching.
-|265:27:57|CDR|Okay, babe. Take care.
-|265:28:57|CC|See you in the morning.
-|265:34:33|CDR|We're looking at 5*7 in the cabin.
-|265:34:33|CC|So are we.
-|265:34:33|CDR|Bob, are you going to want to do that again tomorrow?
-|265:34:33|CC|Yes, Gene. I will do it again prior to finish emptying the OPS.
-|265:35:12|CDR|Okay.
+|264:54:11|CMP|Yes, that's correct. It was too close to the - there is a stiff piece of plastic that comes out of the headset itself, out of the bottom of the left earset, and it's broken off too close to the bottom of it there to - to strip the wires down and wire them together at all.
+|264:54:28|CC|Okay. Roger on that. I guess - let us think about it here overnight. Offhand, our opinion is, as long as you've got a spare headset, let's wear the spare headset - that spare meaning a lightweight. If you're going to be on comm tonight, I guess we offhand suggest wearing the lightweight tonight. Over. How does that strike you?
+|264:54:47|CMP|Okay. Yes, no problem. I won't be on comm tonight, but I'll be wearing the lightweight headset anyhow. The only time I was thinking about it - wearing the other one at all - would be for entry, and there's no problem there. I'll just stick to the lightweight headset around my neck and put that one around my ears just to use as a bump pad, is all.
+|264:55:08|CC|Okay; let us think about it overnight, and we'll talk to some people about it. Let's see, is Jack going to be on the headset tonight and the biomed, both?
+|264:55:27|CDR|Yes, Jack will be on tonight with the biomed and the headset.
+|264:55:31|CC|Okay. We'd like to get one more valve check there, America. Like to check our WASTE WATER TANK INLET valve to AUTO. EECOM says he is in a flat portion and he can't verify that right now by buildup.
+|264:55:45|CDR|Okay, stand by 1.
+|264:56:23|CDR|WASTE TANK INLET is in AUTO, Bob.
+|264:56:25|CC|Okay, thank you on that, Gene. And we did not get the BAT read-outs for the onboard read-outs for the night, BAT C and pyro BATs A and B.
+|264:56:34|CDR|Okay, guess you weren't reading. We're at 36.5, 36.9, 36.9, in that order.
+|||4T56e 177/5|Page 2341
+|264:56:41|CC|Okay, we copy that. And let me ask you a question here, Gene. Right now you're an hour behind getting to sleep. Do you want to sleep the 8 hours or get up by the Flight Plan?
+|264:56:53|CDR|No, let's get up per the Flight Plan. We're very much aware of - of that; we've just been doing some restowage and a few other things around here. But let's get up per the Flight Plan, that's fine.
+|264:57:05|CC|Okay. We'll talk to you in the morning. As soon as the cabin is pumped up, you're GO for sleep and you can turn VOICE back OFF, at your convenience.
+|264:57:13|CDR|Okay, you'll see the cabin pumped up, we'll go to 5.7 and turn the OPS back OFF.
+|264:57:18|CC|Roger. We'll be watching.
+|264:57:21|CDR|Okay, babe. Take care.
+|264:57:23|CC|See you in the morning.
+|264:57:57|PAO| This is Apollo Control at 268 hours 9 minutes. We expect that will be our last conversation with the crew prior to the rest period. We'll leave the line up for a few more minutes and then take it down and come back up with hourly reports. Apollo 17 now 137,900 nautical miles from Earth. Velocity 3,823 feet per second.
+|265:02:59|CDR|We're looking at 5.7 in the cabin.
+|265:03:02|CC|So are we.
+|265:03:26|CDR|Bob, are you going to want to do that again tomorrow?
+|265:03:33|CC|Yes, Gene. I will do it again prior to finish emptying the OPS.
+|265:03:38|CDR|Okay.
+|265:09:01|PAO|This is Apollo Control at 268 hours 19 minutes. The crew has turned off the voice downlink now indicating they are ready for bed and do not intend to talk to us any more this evening or this morning. We'll take the line down now and come back up with hourly reports. At 268 hours 19 minutes, this is Mission Control, Houston.
+|266:42:02|PAO|This is Apollo Control. All spacecraft systems operating normally,. The crew is asleep with 5 hours 37 minutes remaining in the rest period. Spacecraft America now 135,212 nautical miles from the Earth, traveling at a speed of 3,904 feet per second. At 269 hours; 22 minutes, this is Mission Control Houston.
+|267:42:05|PAO|This is Apollo Control. Apollo 17 is now 132,949 nautical miles from Earth, velocity 3,973 feet per second. 4 hours 37 minutes remaining in the crew rest period. At 270 hours 22 minutes, this is Mission Control, Houston.
+|268:42:00|PAO|This is Apollo Control at 271 hours 22 minutes. All still going well with Apollo 17. 3 hours 37 minutes remaining in the crew rest period. Apollo 17 has passed the half way point in time on its return to the Earth. That coming at 270 hours 30 minutes 7 seconds. Half way point in distance will occur at 281 hours 32 minutes 45 seconds about 10 hours from now. At that time, Apollo 17 will be 104,396 nautical miles from both the Earth and the Moon. At this time the spacecraft America is 130,605 nautical miles from Earth traveling at a speed of 4,047 feet per second. At 271 hours 23 minutes, this is Mission Control Houston.
+|269:42:01|PAO|This is Apollo Control at 272 hours 22 minutes. Apollo 17 now 128,282 nautical miles from Earth and velocity has increased to 4,120 feet per second. Crew sleeping and began this rest period an hour later than the planned time because of some entry stowage they were doing at the time, and although going to bed later, they have requested to be awakened at the regular Flight Plan time. 2 hours 37 minutes from now is wakeup. At 272 hours 22 minutes this is Mission Control Houston.
+|270:42:00|PAO|This is Apollo Control at 273 hours 22 minutes. Apollo 17 now 125,884 nautical miles from Earth. Velocity 4,198 feet per second. 1 hour 37 minutes remaining in the crew's rest period. Entry clock is counting and shows 30 hours and 55 minutes until Apollo 17 enters the Earth's atmosphere. At 273 hours 22 minutes, this is Mission Control Houston.
+|271:42:00|PAO|This is Apollo Control at 274 hours 22 minutes. Apollo 17's velocity is continuing to build as it draws closer to EArth now at a distance of 123,440 nautical miles, speed 4,279 feet per second. 37 minutes remaining in the crew's rest period. It's been a quiet night. All spacecraft systems continuing to perform very well. The spaceflight meteorology group with National Weather Service said a short time ago that weather conditions are expected to be satisfactory for the landing and recovery of Apollo 17 crew and spacecraft tomorrow. The weather forecast for the planned landing area, which is located approximately 360 nautical miles southeast of Pango Pango, calls for partly cloudy skies, widely scattered rain showers, variable winds of 10 miles per hour, seas of 3 feet and a temperature of near 80 degrees. At 274 hours 23 mintues, this is Mission Control Houston.
+|272:18:02|PAO|This is Apollo Control at 274 hours 58 minutes. We're 2 minutes away from crew wakeup. Apollo 17 is 121,953 nautical miles from the Earth, velocity 4,329 feet per second. Today's wakeup song will be in keeping with the crews theme that Apollo 17 is a beginning and not an end. We'll stand by now for the wakeup
+|272:20:02|CC|(Music - "We've Only Just Begun")
 ||||Tapes 178-181/1|Page 2342
 ||||Tape 182/1|Page 2343
 |272:23:09|CC|Good morning, America. This is Houston.
-|272:23:09|LMP|Good heavens. It sounded like Bob Parker.
-|272:23:09|CC|Roger. And in case you didn't recognize it, that was "It's Only Just the Beginning."
-|272:23:09|LMP|Or words to that effect.
-|272:23:09|CC|And, Jack, if you give us a call when all three of you get in the headsets, we've got something else to play for you this morning.
-|272:23:09|LMP|You have a call.
-|272:23:09|CC|Say again.
-|272:23:09|SC|... Houston, good morning.
-|272:23:09|LMP|I just gave you a call.
-|272:23:09|CC|Okay. We'll cue up something else for you guys. And, Ron, this was something that was recorded over at your house yesterday morning. I think you'll recognize it.
-|272:23:09|CMP|(Laughter) I'll have to wait and see. (Music: Christmas carol recorded by Ron Evans' neighbors)
-|272:23:09|Jon Evans|Hi, Dad.
-|272:27:10|CC|And, America, if we could do some business this morning. At 275:10 - we'll give you a hack on it -We need UV COVER to go to CLOSE, and we'll give you a call on that one. It's about 3 minutes.
-|272:27:10|CMP|Okay.
+|272:23:14|LMP|Good heavens. It sounded like Bob Parker.
+|272:23:17|CC|Roger. And in case you didn't recognize it, that was "It's Only Just the Beginning."
+|272:23:24|LMP|Or words to that effect.
+|272:23:35|CC|And, Jack, if you give us a call when all three of you get in the headsets, we've got something else to play for you this morning.
+|272:23:50|LMP|You have a call.
+|272:23:52|CC|Say again.
+|272:23:56|CMP|... Houston, good morning.
+|272:23:56|LMP|I just gave you - I just gave you a call.
+|272:23:59|CC|Okay. We'll cue up something else for you guys. And, Ron, this was something that was recorded over at your house yesterday morning. I think you'll recognize it.
+|272:24:22|CMP|(Laughter) I'll have to wait and see.
+|272:25:05|CC|(Music: Christmas carol recorded by Ron Evans' neighbors) Hi, Dad.
+|272:27:10|CC|And, America, if we could do some business this morning. At 275:10 - we'll give you a hack on it, we need UV COVER to go to CLOSE, and we'll give you a call on that one. It's about 3 minutes.
+|272:27:31|CMP|Okay.
 |272:27:10|CC|Okay. One minute to COVER CLOSE - UV, that is.
 ||||Tape 182/2|Page 2344
 |272:27:10|CMP|Hey, Houston; America. Sounds like people are getting in the Christinas spirit around the Houston area there.

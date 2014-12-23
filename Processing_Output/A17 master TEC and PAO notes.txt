@@ -282,6 +282,12 @@
 |255:48:32 - missing audio starts (no longer missing)
 |255:57:35 - |CDR|Not a bad performance by my CMP, was it?
 |259:19:17 - CDR freezing "something off"
+|262:56:01 - |CDR|Hey, how far are we from home?
+|263:00:17 - Preliminary mission science summary read to the crew on their trip back to Earth.
+|263:18:53 - report on Ron Evans' family's reaction to his EVA.
+|268:42:00 - Passes half-way point (time) on the return to Earth.
+|272:20:02 - Crew wakeup.
+|272:25:05 - (Music: Christmas carol recorded by Ron Evans' neighbors) John Evans (Ron's son:) Hi, Dad.
 |281:00:11 - missing audio ends (no longer missing)
 |281:26:36 - crew television interview
 |282:44:27 - Santa visits the MOCR
