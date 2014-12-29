@@ -299,6 +299,12 @@
 |283:35:13 - joke: |LMP|Doesn't it bother you to wield such power, Gordy?
 |283:38:24 - joke: first time we've seen the earth in several days "standing by for a weather report".
 |286:55:31 - missing audio starts
+|296:48:28 - missing audio ends
+|297:41:47 - |CC| "last of the PADs"
+|298:20:30 - Christmas spirit. Looks like it's really snowing (out the window)
+|298:37:18 - 30 seconds to mid-course correction burn 7.
+|299:29:56|CMP|SIM bay has been outstanding.
+|299:55:21 - missing audio starts
 |300:54:52 - missing audio ends
 |301:23:50 - CM / SM SEP
 |301:38:57 - beginning blackout
