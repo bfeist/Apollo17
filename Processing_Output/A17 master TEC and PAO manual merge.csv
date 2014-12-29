@@ -129,11 +129,11 @@
 |000:03:07|CDR|Come on, baby!
 |000:03:09|CMP|Go! Okay, 13.
 |000:03:12|SC|Okay, we just had skirt sep.
-|000:03:14|CMP|19, 15, 17-
-|000:03:15|CC|Roger. We confirm skirt sep.
-|000:03:07|CDR|Watch it, Jack!
-|000:03:14|CMP|16, there it goes -
-|000:03:19|CDR|There goes the tower. Oh, there she goes!
+|000:03:14|CMP|19, 15, 17.
+|000:03:16|CC|Roger. We confirm skirt sep.
+|000:03:17|CDR|Watch it, Jack!
+|000:03:18|CMP|16, there it goes -
+|000:03:19|CDR|There goes the tower. Man, there she goes!
 |000:03:21|CC|Roger. The tower; you're Mode II.
 |000:03:23|CDR|Roger, We're mode II.
 |000:03:28|CDR|Okay, ... command.
@@ -141,10 +141,9 @@
 |000:03:32|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
 |000:03:36|CDR|Okay, Bob. I just confirmed guidance.
 |000:03:38|CMP|And, ELS SEP circuit breakers when you get a chance there, Gene.
-|000:03:43|CDR|Okay, Bob, I got the ELS SEP -
 |000:03:41|PAO|That's the automatic guidance system, the inertial guidance system, performing properly.
-|000:03:45|- circuit breakers. And we've seen it all: ignition, staging, and tower.
-|000:03:51|CC|Roger. Got you.
+|000:03:43|CDR|Okay, Bob, I got the ELS SEP circuit breakers. And we've seen it all: ignition, staging, and tower.
+|000:03:50|CC|Roger. Got you.
 |000:03:53|LMP|By the way, the cabin's sealed (laughter).
 |000:03:56|PAO|Apollo 17 now 65 miles high.
 |000:03:56|CDR|Okay guys, we've got a long way to go.
@@ -178,7 +177,7 @@
 |000:05:33|CDR|8 plus 36 and 9 plus 20. Roger.
 |000:05:36|LMP|Coming up on gimbal motors, Geno.
 |000:05:37|CDR|Okay. ...
-|000:053840|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
+|000:05:40|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
 |000:05:52|CDR|I forget anything yet, Ron?
 |000:05:54|CMP|No.
 |000:05:54|CDR|Okay, we're still MODE 2, coming up on -
@@ -262,10 +261,10 @@
 |000:09:21|CC|MARK. Mode IV capability, and we copy cut-off.
 |000:09:23|CDR|Roger. Mode IV. And we do have S-IVB ignition.
 |000:09:28|CC|Roger. We see it, and the thrust is looking good on it.
-|000:09:23|CDR|God, you see that glow ...
+|000:09:30|CDR|God, you see that glow ...
 |000:09:31|CMP|Geez!
-|000:09:33|CDR|We saw that one, too, Bob.
-|000:09:36|CC|Roger.
+|000:09:31|CDR|We saw that one, too, Bob.
+|000:09:33|CC|Roger.
 |000:09:33|CDR|Did you see it go past us?
 |000:09:35|CMP|Yes.
 |000:09:36|LMP|We're right in the flame.
@@ -29136,8 +29135,8 @@
 |207:14:21|CC|Okay. - -
 |207:14:23|CMP|And it makes I would say an equilateral triangle with those two craters.
 |207:14:28|CC|Okay, fine, I would recommend one of you go on to the "configure camera" while we start the Flight Plan update. We'd like to get the Flight Plan update all read prior to that P52 that you've got to do there, and somebody will be taking those terminator photos.
-||||Ta4e 139/H|Page 2016
-|207:14:25|CMP|Okay, soon as Gene - Gene's drawing in the Flight Plan, there. That crater - Okay, ready for a Flight Plan update.
+||||Tape 139/H|Page 2016
+|207:14:45|CMP|Okay, soon as Gene - Gene's drawing in the Flight Plan, there. That crater - Okay, ready for a Flight Plan update.
 |207:15:02|CC|Okay. Who's going to take the terminator photos. You want me to give you call about 2 minutes before the photo time?
 |207:15:08|CMP|Yes. Jack will.
 |207:15:09|CC|Okay, well, here's the Flight Plan update, then. At 210:30 - 210:30, add the following - -
@@ -29185,10 +29184,10 @@
 |207:23:50|CC|Ron, we can break from this now, we're pretty well ahead, and we can come back to it, if you want to do the photos.
 ||||Tape 139/14|Page 2019
 |207:23:58|CMP|Hey, yes. Do you have the - Do you have the options, there, on the La Hire Rille? And Mount La Hire - which - what the photo settings are.
-|207:24:13|CC|Roger, I've got them, and I can read them - I'll read them to you right off the mop [sic] - map.
-|207:24:17|CMP|Okay.
+|207:24:12|CC|Roger, I've got them, and I can read them - I'll read them to you right off the mop [sic] - map.
+|207:24:16|CMP|Okay.
 |207:24:17|CC|Okay, if you're looking right at the map - -
-|207:24:02|CMP|Okay, read them.
+|207:24:19|CMP|Okay, read them.
 |207:24:19|CC|- - draw - draw a circle around La Hire Bravo. And that is f/32 - -
 |207:24:25|CMP|Oh, I've got the circles on it.
 |207:24:28|CC|- - 1/500.
@@ -29203,8 +29202,8 @@
 |207:25:33|CMP|Yes. I don't have anything on this map.
 |207:25:36|CC|Okay, we'll schedule that in prior to those revs, Ron.
 ||||Tape 139/15|Page 2020
-|207:24:41|CMP|Yes. Okay.
-|207:24:49|CMP|Okay, we're coming up on Timocharis, now. Start at Lambert and get the - right along the La Hire Rille, see - Yes. Take six - six - six shots you know, kind of each area at that - You know, north and south. Yes, you know point them every which way, or whatever's interesting on the thing. Okay.
+|207:25:41|CMP|Yes. Okay.
+|207:25:49|CMP|Okay, we're coming up on Timocharis, now. Start at Lambert and get the - right along the La Hire Rille, see - Yes. Take six - six - six shots you know, kind of each area at that - You know, north and south. Yes, you know point them every which way, or whatever's interesting on the thing. Okay.
 |207:26:40|CMP|Okay. Mount La Hire, you can get in there at f/ll at 1/500.
 |207:27:22|CC|Hey, Ron. Just - Just a point. -
 |207:27:23|SC|There's Euler coming up there. Okay, go ahead, Bob.
@@ -29296,8 +29295,8 @@
 |207:45:52|LMP|Hey, Bob. Sorry we didn't let you get that in. We're not moving too fast for you, are we? (Laughter)
 |207:46:12|CC|Ron, you have zero spares on RR. No - no film available for yourself on RR.
 ||||Tape 139/21|Page 2026
-|207:46:56|CMP|Oh, okay. We'll - -
-|207:46:23|LMP|Hey - hey, Bob, this is Jack. If you could possibly swing it, I would strongly recommend that we let Ron redo that last terminator sequence if we can work it in the Flight Plan, because Gene and I may or may not have done what you wanted there, and I know we missed the first couple of them.
+|207:46:21|CMP|Oh, okay. We'll - -
+|207:46:22|LMP|Hey - hey, Bob, this is Jack. If you could possibly swing it, I would strongly recommend that we let Ron redo that last terminator sequence if we can work it in the Flight Plan, because Gene and I may or may not have done what you wanted there, and I know we missed the first couple of them.
 |207:46:40|CMP|I'll - I'll use the 35-millimeter. I still got about 8 or 10 frames on the 35 - -
 |207:46:47|CC|Okay, we'll take that word under advisement, and we'll evaluate it.
 |207:46:55|CMP|(Laughter)
@@ -29325,19 +29324,19 @@
 |208:41:26|CC|America, Houston. I missed your last, if that was for me.
 |208:44:43|CMP|Yes. Just checking to see how the weather was doing there in Houston before you came into work.
 |208:44:49|CC|Oh, it's kind of - bunch of high clouds, cirrus, I guess,  but it's down around 35, I'd say, and pretty windy. So it's nippy when you're outside.
-|207:45:06|CMP|Ah ha!
+|208:45:06|CMP|Ah ha!
 ||||Tape 140/2|Page 2028
-|207:45:13|CMP|And, Houston, how's my biomed looking?
-|207:45:34|CC|About 10 seconds to your PRO, there.
-|207:45:39|CMP|Okay; thank you.
-|207:45:46|CC|America, we'd like the IR COVER, CLOSED - -
-|207:45:49|CMP|Oh, and away we go.
-|207:45:49|CC|- - and I think there might be a chance the Sun will get in it there.
-|207:45:56|CMP|Okay.
-|207:45:57|CDR|Okay, Gordy. And we're rolling ... - -
-|207:45:59|CMP|Barber pole, gray.
-|207:46:04|CC|Okay.
-|207:46:39|CC|Ron, your EKG looks good. The Surgeon wondered how the irritation that you had mentioned, because of the sensors, is - is it getting any better?
+|208:45:13|CMP|And, Houston, how's my biomed looking?
+|208:45:34|CC|About 10 seconds to your PRO, there.
+|208:45:39|CMP|Okay; thank you.
+|208:45:46|CC|America, we'd like the IR COVER, CLOSED - -
+|208:45:49|CMP|Oh, and away we go.
+|208:45:49|CC|- - and I think there might be a chance the Sun will get in it there.
+|208:45:56|CMP|Okay.
+|208:45:57|CDR|Okay, Gordy. And we're rolling ... - -
+|208:45:59|CMP|Barber pole, gray.
+|208:46:04|CC|Okay.
+|208:46:39|CC|Ron, your EKG looks good. The Surgeon wondered how the irritation that you had mentioned, because of the sensors, is - is it getting any better?
 |208:46:56|CMP|Well, it's - yes, it gets better when you take them off and leave it off for a while and I put the cream on it. And looks like it lasts for about a day. You know every time I put it on. I put it on at a different spot. And it takes about a day for it to get red and irritated.
 |208:47:20|CDR|And, Gordo, for information, that's not unique; we're all having that, and taking them off is the best relief for it.
 |208:47:31|CC|Okay.
@@ -29595,7 +29594,7 @@
 |211:15:18|CMP|And just north of that elongate depression, there is another circular crater. And it also is penetrating down though this mantle stuff. And it had the reds and the browns and oranges dipping down it, too.
 |211:15:37|CDR|Hey, Gordy, just so you're fully aware we're not sort of just leaning and getting color blind up here, I tell you last one Jack was talking about was not even subtle. It's entire ray pattern was this same ... material and definite contact between it and the dark material around it and it had that orange brown hue to it without any question at all.
 ||||Tape 142/1|Page 2052
-|211:16:16|CC|Okay. Very interesting.
+|211:16:06|CC|Okay. Very interesting.
 |211:16:11|CDR|It really is. You know I saw that dirt day before yesterday at Littrow, but, and I really haven't seen too much from orbit that I'd call really very distinct in color, until this one. But, boy, there's no question about this one.
 |211:16:30|CC|Roger.
 |211:16:35|CDR|And we will pick up the lunar sounder at 59.54.
@@ -32285,20 +32284,20 @@
 ||||Tape 170/13|Page 2245
 |254:20:16|CMP|Twist? Doesn't look like it's on. Okay. is she locked? Let me see. Okay, let's see your - they're hooked on the right.
 |254:20:40|CMP|Okay. That's O2 - that's a lock lock. Okay, blue one is a lock lock. Okay, that pin is now locked in. That ... is locked in. Okay, and your helmet, I checked that once. Let's try it again; let's see Moves that way, doesn't it? Okay, it's locked. Here, let me - wrong way (laughter). Okay.
-|254:21:17|CDR|Okay, Houston; this is America. The LMP and the CDR both got their helmets and gloves on, and all connections have been checked.
+|254:21:18|CDR|Okay, Houston; this is America. The LMP and the CDR both got their helmets and gloves on, and all connections have been checked.
 |254:21:26|CC|Roger, America.
 |254:21:42|CMP|It's open.
 |254:21:42|CDR|Okay.
 |254:21:44|CMP|It's locked.
 |254:21:44|CC|America, we are copying the cabin at 4.8. You can stop the venting at this time.
-|254:21:54|CMP|Okay, it's - Gene's closing the valve now.
+|254:21:53|CMP|Okay, it's - Gene's closing the valve now.
 |254:21:56|CDR|Okay, it's closed. And how are you reading CDR on VOX?
-|254:21:02|CC|Read you loud and clear on VOX.
-|254:21:06|CDR|Okay, fine.
-|254:21:08|CMP|Okay, now she's low.
-|254:21:09|CDR|Okay.
-|254:21:13|CMP|(Laughter) Yes. Got to get the dust cover on the ..., okay?
-|254:21:23|CDR|Okay, we're going to do an integrity check, Jack.
+|254:22:02|CC|Read you loud and clear on VOX.
+|254:22:06|CDR|Okay, fine.
+|254:22:08|CMP|Okay, now she's low.
+|254:22:09|CDR|Okay.
+|254:22:13|CMP|(Laughter) Yes. Got to get the dust cover on the ..., okay?
+|254:22:23|CDR|Okay, we're going to do an integrity check, Jack.
 |254:22:26|CDR|And, Houston, the CMPs connections are all verified locked.
 |254:22:31|CC|Roger.
 ||||Tape 170/l4|Page 2246
@@ -32547,7 +32546,7 @@
 |254:44:28|CDR|Okay.
 |254:44:41|CDR|Okay. It seemed like you - it's on 351.
 |254:44:55|CDR|Okay, Houston, I'm 351, EMERGENCY CABIN PRESSURE'S OFF.
-|254:44:01|CC|Roger.
+|254:45:01|CC|Roger.
 |254:45:11|CDR|Okay, Ron. It says - let me read this to you. "CMP monitor cuff gage" - it's "PURGE VALVE, HIGH, verify tone on at 3.1 to 3.4, then PURGE VALVE, CLOSED and verify tone off." Go ahead and turn the switch on.
 |254:45:24|CMP|Okay.
 ||||Tape 170/26|Page 2258
@@ -32750,9 +32749,9 @@
 |255:00:48|CC|Roger, America.
 |255:00:50|CMP|Almost.
 |255:00:59|CMP|Hey, there's the Earth, right out the hatch!
-|255:00:02|CDR|Okay, Ron. You've got a - -
-|255:00:04|CMP|The crescent Earth.
-|255:00:05|CDR|You've got a GO for egress.
+|255:01:02|CDR|Okay, Ron. You've got a - -
+|255:01:04|CMP|The crescent Earth.
+|255:01:05|CDR|You've got a GO for egress.
 |255:01:07|CMP|Beautiful.
 |255:01:09|CDR|And just take it slow.
 |255:01:10|CMP|Okay. First of all, I got to get back in, and get the old TV camera. Oop. Yes. That's right. I don't even know where the Sun is. Which way is the Sun? Okay, yes. Sun's on the right. Okay.
@@ -33224,7 +33223,7 @@
 |257:17:21|CC|Ron, that was such a great show, I don't think anybody would care. That was just tremendous.
 ||||Tape 172/4|Page 2301
 |257:17:27|CMP|(Laughter) Okay, Bob.
-|257:16:19|CDR|Okay, Houston. This the CDR backup.
+|257:18:19|CDR|Okay, Houston. This the CDR backup.
 |257:18:20|CC|Roger.
 |257:25:16|CDR|Houston, America; the WASTE STOWAGE VENT valve is CLOSED.
 |257:25:21|CC|Roger, America.
@@ -33437,7 +33436,7 @@
 |259:36:17|CMP|Exactly what I was trying not to do, (Laughter) (Music).
 |259:53:36|LMP|Houston, 17.
 ||||Tape 174/1|Page 2314
-|259:36:40|FLIGHT|17, Houston. This is FLIGHT. Gordo's in the back with his family. Go ahead.
+|259:53:40|FLIGHT|17, Houston. This is FLIGHT. Gordo's in the back with his family. Go ahead.
 |259:53:49|CMP|Okay. I just wanted to pass on an OPS pressure we owe you. That's 2000 psi.
 |259:53:57|FLIGHT|Okay; copy.
 |260:14:21|PAO|This is Apollo Control at 262 hours 54 minutes At present time, we are replaying the video tape of today's CSM EVA. Apollo 17 at the present time is 148 900 nautical miles from Earth. This is a quiet period in the Flight Plan for the crew and we have scheduled an exercise period. And following that the crew will be the spacecraft up in the passive thermal control mode, rotating about the longitudinal axis of the spacecraft at about three revolutions per hour. This is done during the trans-lunar and trans-earth phases of the mission to maintain proper thermal equalibrium while the crew is in the sleep period. The crew is scheduled to begin an 8 hour rest period at 267 hours, or about 4 hours from now.
@@ -33450,7 +33449,7 @@
 |260:28:57|LMP|About - now about 20 seconds, maybe 30.
 |260:29:01|CC|Okay.
 |260:30:34|PAO|That was Lunar Module Pilot, Jack Schmitt reporting what he described as an apparent blinking of the spacecraft lights, apparently a momentary thing. Schmitt asked if the ground would take a good hard look at the vehicle to see if there had been any sort of a - a glitch, presumatly electrical. Spacecraft Environmental and electrical systems engineer, John Aaron is looking at the data now in detail and so far has reported nothing amiss.
-|260:30:30|CC|America, Houston. Request the VERB 48 shown in the Flight Plan now.
+|260:30:55|CC|America, Houston. Request the VERB 48 shown in the Flight Plan now.
 |260:31:06|CMP|coming up at you.
 |260:31:17|CC|And we're - we're rechecking on the EPS data. A first glance shows it solid, but we're not sure if it might have been static during that time. We're taking another look here.
 |260:31:30|LMP|Gordy, don't make a big deal out of it. It may have been just my imagination or somebody hitting the floodlight switch, but it - we tried - I - Gene tried that again, and it didn't seem like what I saw. It was just a very quick blink in the lights.
@@ -33587,10 +33586,10 @@
 |262:33:34|CDR|We're on the way, Gordy.
 |262:33:36|CC|Okeydoke.
 |262:33:39|CDR|You might check. I was loading NOUN 22. And you might just doublecheck and see what you saw down there and make sure I wasn't loading NOUN 20.
-|262:34:13|CC|Okay, good call; we'll do that.
-|262:34:54|CC|Can you give us best OMNI as you roll around?
-|262:34:21|CMP|Okay, we'll try
-|262:34:26|CDR|Okay, it's OMNI Delta now.
+|262:33:53|CC|Okay, good call; we'll do that.
+|262:34:13|CC|Can you give us best OMNI as you roll around?
+|262:34:21|CMP|Okay, we'll try.
+|262:34:27|CDR|Okay, it's OMNI Delta now.
 |262:34:29|CC|Roger. Loud and clear.
 |262:35:58|LMP|Houston, I doubt if it's a problem, but the UV cover's still open.
 |262:36:06|CC|Roger, Jack.
@@ -33674,7 +33673,7 @@
 |263:24:53|CMP|Okay.
 |263:26:10|CDR|Gordy, I'm sorry. I'm going to move.
 |263:26:31|CDR|Boy, this isn't my day. I'll give you the damping again.
-|263:24:35|CC|Okay, fine.
+|263:26:35|CC|Okay, fine.
 |263:31:13|CC|17, Houston. We're ready for spinup.
 |263:31:53|CC|17, Houston. We're ready for spinup.
 |263:32:05|CDR|Gordy couldn't hack it any longer, huh?
@@ -33940,15 +33939,15 @@
 |274:16:23|CC|Well, I'm sure they do, and I don't mean to shortchange our geology - geology back room, Jack, but on the other hand, I think - I think really  we're just waiting to get the answers from you or tie up maybe their thoughts with you. And I, you know, from a bystander's standpoint, if I read you anything that they've - maybe conclusions that they may have made, we just may be fudging the data because there's - -
 |274:16:47|LMP|I'm not looking for conclusions, I'm looking for ideas.
 ||||Tape 183/8|Page 2356
-|274:15:50|CC|Hey, Jack.
-|274:15:52|LMP|Tell them don't - don't worry about it. You know, I just thought they might have something to say.
-|274:15:58|CC|Yes, they got plenty to say, Jack. But they're down here and they can say it, and I think what you ought to say up there is what you're familiar with and just confine it to that.
+|274:16:50|CC|Hey, Jack.
+|274:16:52|LMP|Tell them don't - don't worry about it. You know, I just thought they might have something to say.
+|274:16:58|CC|Yes, they got plenty to say, Jack. But they're down here and they can say it, and I think what you ought to say up there is what you're familiar with and just confine it to that.
 |274:17:07|LMP|Oh, you can count on that, Deke, I just like to think about things.
 |274:17:12|CC|Roger, you're going to have lots of time to do that.
 |274:17:22|CC|We'd like AUTO and high gain.
 |274:17:36|LMP|Okay, you got AUTO.
 |274:17:38|CC|Thank you.
-|274:23:45|CC|America, Houston. We may have not been looking at the right displays at the right time, but we didn't see an O2 purge. Did you do O2 fuel cell purge?
+|274:22:44|CC|America, Houston. We may have not been looking at the right displays at the right time, but we didn't see an O2 purge. Did you do O2 fuel cell purge?
 |274:23:03|LMP|Sorry about that, Bob. I misunderstood. I thought - I see it now - it's H2 and O2. I'll go into that now.
 |274:23:12|CC|Okay. We'd appreciate it. We're just keeping you honest.
 |274:23:25|LMP|That's what you need to do.
@@ -34017,7 +34016,7 @@
 |275:52:07|CC|Okay. The - Oh, in the other one up in that area, Ron, and I assume you - you've put that outlet bag over the cabin fans - and we wouldn't want you to fool with that at all, because it's probably all full of dirt and everything - but if you didn't, then the outlet to the cabin fan area might be a potential place.
 |275:52:31|CMP|Let's see. We installed that the first day out, I think. And it's been on there ever since.
 |275:52:39|CC|Yes, we assumed you did. I just was trying to cover all bases here. Okay; the last three items are - I think you've actually called one of them - are down in the lower equipment bay. One of them is the - the crack just below panel 101, down in the lower equipment bay. I think you called that one the first night, didn't you?
-|275:52:05|CMP|Not below 101; no.
+|275:53:05|CMP|Not below 101; no.
 |275:53:09|CC|Okay. Our pictures show a crevice below 101, and also while you're right there, I - I don't think it's even - there's a crevice above the door for the optics stowage area that you might check up in there. It might have lodged. And, also, while you're right there, Ron, our picture, of course, shows your hoses stowed, and they kind of come out right there to the right of panel 120, the optics stowage area. And so you've got some area behind those panels - behind those hoses and that - where it might have lodged, but I believe you had to move those in order to do your EVA yesterday, anyway.
 ||||Tape 184/5|Page 2362
 |275:53:59|CMP|Yes, the hoses in the tunnel have all been moved around in here, as far as the hoses are concerned. I still think the biggest probability is - is right above the optics stowage, and that's what I was talking about before. Because it's about - oh, an inch. You know, the crack is at least an inch deep in there and as long as the optics stowage thing itself.
@@ -34777,7 +34776,7 @@
 ||||Tape 198/4|Page 2426
 |296:59:30|CDR|Okay, we've got it covered everywhere.
 |296:59:33|CC|Okay, and the reason for that is for better coverage going through Hawaii and that and then OMNI Charlie is coming back up on the ARIA.
-|297:59:45|CDR|Okay, Bob.
+|296:59:45|CDR|Okay, Bob.
 |297:00:10|CC|And, America, Houston. Just one word for the CMP, if you have a chance. One of your EKG sensors seems to be loose, if you can tighten it up a little bit.
 |297:00:20|CMP|Okay, I'll start pressing on it.
 |297:06:28|CC|America, Houston. You're getting pretty close to your 306 roll.
@@ -34955,7 +34954,7 @@
 ||||Tape 199/10|Page 2436
 |298:37:52|CMP|MARK it.
 |298:37:55|CDR|We're burning, Houston.
-|298:38:57|CC|Roger.
+|298:37:57|CC|Roger.
 |298:38:06|CMP|Okay, got her? And I stopped it right at 9 seconds. There's your NOUN 85.
 |298:38:14|CC|We're looking at them.
 |298:38:15|CMP|Okay, EMS is 100.1. Okay, TRANS CONTROL POWER is OFF. DIRECTs are OFF, Hand controllers are safed.
