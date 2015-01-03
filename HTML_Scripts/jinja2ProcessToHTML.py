@@ -6,7 +6,7 @@ import csv
 
 from jinja2 import Environment, PackageLoader
 env = Environment(loader=PackageLoader('processToHTML', './templates'))
-template = env.get_template('testtemplate.html')
+template = env.get_template('jinja2Testtemplate.html')
 print template.render(var1='test1', var2='test2')
 
 inputFilePath = "../Processing_Output/A17 master TEC and PAO manual merge.csv"
