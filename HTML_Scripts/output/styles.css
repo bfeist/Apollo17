@@ -34,7 +34,7 @@
         font-family:  Verdana, Sans-serif, Arial, 'Trebuchet MS', 'Times New Roman'; 
  **/ 
     body, td, th, input, textarea, pre {
-        font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman'; 
+        font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman';
         font-size: 11.5px; /* x-small, small */
         color: #222;
         voice-family: "\"}\"";
@@ -1080,28 +1080,32 @@
 /* The end 
 -----------------------------------------------------------------------------*/
 
-/* CSS placed here will be applied to all skins 
-<pre><nowiki>*/
+.utterance  {margin-top: 5px; line-height: 1.5em}
+.oralHistory    {margin-top: 5px;}
+.spokenwords{font-weight:normal}
 .afjdef		{color: black}
-.afjmet		{color: black; float:left; width:65px; text-align:right; clear:left}
+.afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left}
 .afjpao    	{color: DarkGreen; margin-left:60px}
+.afjtec		{color: black; margin-left:60px}
+.afjwho		{font-weight:bold; min-width:30px; float:left; text-align:right; margin-right:10px;}
+.afjwho::after	{content: " "}
+.afjother	{color: #2B547E; margin-left:80px}
+.afjed		{color: #2B547E; margin-left:80px}
+.afjed::before	{content: "[ "}
+.afjed::after	{content: " ]"}
+
 .afjob     	{color: #660000; margin-left:60px}
 .afjdb		{color: SaddleBrown; margin-left:70px}
 .afjalt		{color: DimGray; margin-left:70px; margin-top:-10px;}
-.afjother	{color: #2B547E; margin-left:75px}
+
 .afjphoto	{color: red; margin-left:70px}
-.afjwho		{font-weight:bold}
-.afjwhen	{font-weight:bold}
+
 .afjsrc		{font-style:italic}
-.afjtec		{black; margin-left:60px}
-.afjed		{color: #2B547E; margin-left:75px} 
-.afjed p:before	{content: "[ "}
-.afjed p:after		{content: " ]"}
-p.afjed:before	{content: "[ "}
-p.afjed:after		{content: " ]"}
+
+
 
 table.afjdata		{margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;
-		empty-cells:show; font-size: 95%;"}
+		empty-cells:show; font-size: 95%;}
 table.afjdata th,
 table.afjdata th,
 table.afjdata td	{border: 1px solid #ccc; empty-cells: show; vertical-align: top;}

@@ -5,7 +5,7 @@
 import csv
 
 from jinja2 import Environment, PackageLoader
-env = Environment(loader=PackageLoader('processToHTML', './templates'))
+env = Environment(loader=PackageLoader('processToHTMLJinja', './templates'))
 template = env.get_template('jinja2Testtemplate.html')
 print template.render(var1='test1', var2='test2')
 
