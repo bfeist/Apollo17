@@ -595,8 +595,8 @@
 |002:31:11|CDR|Okay, 50. And we'll be into our TLI checklist, and - we'll be ready for that PYRO ARM.
 |002:31:17|CC|Okay.
 |002:31:17||HAWAII (REV 2)
-|002:32:32|PAO|This is Apollo Control. We'll be reacquiring the spacecraft in about 18 minutes. And during that passover at Carnarvon, and we've passed up the numbers to the crew they'll use in the Translunar Injection maneuver. The burn is targeted to last 5 minutes 51 seconds with a change in velocity of some 10 359 feet per second. Accelerating Apollo 17 to the required speed to get it into an orbit that will intercept the Moon. And the time of ignition, 3 hundred 3 hours 12 minutes 35 seconds and we're showing an ejection time of 4 hours 39 minutes. The transposition and docking maneuver which preceeds ejection, is somewhat fluid in that it's done when the crew and mission'contro 1 are ready following translunar injection. However, from the projected time for ejection, it would appear that transposition and docking will occur about 25 to 30 minutes ahead of the nominal flight plan time. And we're now 39 minutes away from the scheduled ignition for translunar injection. At 2 hours 34 minutes this is Apollo Control, Houston.
-|002:32:32|PAO|This is Apollo Control at 2 hours 49 minutes. We're standing by now to acquire radio contact with Apollo 17 through Hawaii. During this Hawaiian pass we're getting another good look at spacecraft and launch vehicle systems. The last look we had through Carnarvon everything looked very good. Flight Director, Gene Kranz, going over the status for these flight controllers observed that there appeared to be no problems that would interfere with TLI and we expect to have a normal translunar injection, about 23 minutes from now as Apollo 17 completes its state-side pass and moves out over the Atlantic Ocean at the start of its third revolution.
+|002:32:32|PAO|This is Apollo Control. We'll be reacquiring the spacecraft in about 18 minutes. And during that passover at Carnarvon, and we've passed up the numbers to the crew they'll use in the Translunar Injection maneuver. The burn is targeted to last 5 minutes 51 seconds with a change in velocity of some 10,359 feet per second. Accelerating Apollo 17 to the required speed to get it into an orbit that will intercept the Moon. And the time of ignition, 300 - 03:12:35 and we're showing an ejection time of 04:39. The transposition and docking maneuver which preceeds ejection, is somewhat fluid in that it's done when the crew and mission control are ready, following Translunar Injection. However, from the projected time for ejection, it would appear that transposition and docking will occur about 25 to 30 minutes ahead of the nominal Flight Plan time. And we're now 39 minutes away from the scheduled ignition for translunar injection. At 2 hours 34 minutes this is Apollo Control, Houston.
+|002:49:00|PAO|This is Apollo Control at 2 hours 49 minutes. We're standing by now to acquire radio contact with Apollo 17 through Hawaii. During this Hawaiian pass we're getting another good look at spacecraft and launch vehicle systems. The last look we had through Carnarvon everything looked very good. Flight Director, Gene Kranz, going over the status for these flight controllers observed that there appeared to be no problems that would interfere with TLI and we expect to have a normal translunar injection, about 23 minutes from now as Apollo 17 completes its state-side pass and moves out over the Atlantic Ocean at the start of its third revolution.
 |002:49:50|CC|Apollo 17, Houston.
 |002:49:51|LMP|Go ahead.
 |002:49:52|CMP|Houston, this is Apollo 17. Go ahead.
@@ -2588,287 +2588,305 @@
 ||||Tape 19/6|Page 166
 |024:48:38|LMP|Bob, you still cut out. Let's try it again.
 |024:48:42|CC|No - no problem, Jack, Just a reminder on the comm; that's all. We're watching you go through the checklist here.
-|024:48:42|LMP|Okay.
-|024:49:19|LMP|I'm on HIGH GAIN now, and OMNI Bravo selected.
-|024:49:19|LMP|How do you read, Bob, on the HIGH GAIN?
-|024:49:19|CC|Read you loud and clear, Jack.
-|024:49:19|LMP|Okay. And it's in REACQ and NARROW.
-|024:49:50|CC|Stand by. Stand by on that, Jack.
-|024:49:50|CC|Say, Jack, can we refer you to the checklist on S/1-27, a sleep configuration there, where you S-BAND SQUELCH, ENABLE, et cetera?
-|024:50:50|LMP|Roger. I'm ENABLED.
-|024:50:50|LMP|Oh, et cetera. Yes.
-|024:50:50|CC|Roger.
-|024:50:50|LMP|Okay. I'll get to that in a minute, Bob. Who knows, I might have something else to say.
-|024:50:50|CC|Okay. (Laught er)
-|024:50:50|LMP|Bob, I just probably ought to qualify all those remarks about the Earth's weather. It's purely novice talking about something he is very unfamiliar with, except for having a longstanding interest in it. And I think the one philosophical point, if any, that comes out of it is that somebody, probably 3-1/2 billion years ago or so, could have looked at the Earth and described patterns not too dissimilar. And it was within those patterns that life developed, and now you see, I think, and obvious to everybody, what that life has progressed to doing. And I certainly think all of us feel that it has not stopped doing that progression, and we'll probably see it do things that even you and I can't imagine them doing I certainly hope so.
+|024:48:49|LMP|Okay.
+|024:49:14|LMP|Okay, I'm on HIGH GAIN now, and OMNI Bravo selected.
+|024:49:37|LMP|How do you read, Bob, on the HIGH GAIN?
+|024:49:39|CC|Read you loud and clear, Jack.
+|024:49:44|LMP|Okay. And it's in REACQ and NARROW.
+|024:49:47|CC|Stand by. Stand by on that, Jack.
+|024:49:30|CC|Say, Jack, can we refer you to the checklist on S/1-27, a sleep configuration there, where you S-BAND SQUELCH, ENABLE, et cetera?
+|024:50:44|LMP|Roger. I'm ENABLED.
+|024:50:55|LMP|Oh, et cetera. Yes.
+|024:51:00|CC|Roger.
+|024:51:05|LMP|Okay. I'll get to that in a minute, Bob. Who knows, I might have something else to say.
+|024:51:08|CC|Okay.
+|024:51:32|LMP|Bob, I just probably ought to qualify all those remarks about the Earth's weather. It's purely a novice talking about something he is very unfamiliar with, except for having a longstanding interest in it. And I think the one philosophical point, if any, that comes out of it is that somebody, probably 3-1/2 billion years ago or so, could have looked at the Earth and described patterns not too dissimilar. And it was within those patterns that life developed, and now you see, I think, and obvious to everybody, what that life has progressed to doing. And I certainly think all of us feel that it has not stopped doing that progression, and we'll probably see it do things that even you and I can't imagine them doing I certainly hope so.
 ||||Tape 19/7|Page 167
-|024:50:50|CC|Roger, Jack. We concur.
-|024:54:11|LMP|Bob, you always wished that you had a poet on board one of these missions, so he could describe things that we're seeing and looking at and feeling in terms that might - might transmit at least a part of that feeling to everybody in the world. Unfortunately, that's not the case. But he certainly couldn't look at that fragile blue globe and not think about the ancient sails of life that are crossing its paths and wonder ahead to the - up to the present, to the modern sails of life that are represented by men that developed out of that life that are sitting there next to you and that are the country in all sorts of different guises and working towards the same end, and that is to put that life farther into the universe. I certainly hope that someday, in the not-too-distant future, the guy can fly who can express these things.
-|024:54:11|CC|Roger, Jack. You're doing a pretty good job expressing them.
-|024:58:29|CC|Jack, Houston.
-|024:58:29|LMP|Go ahead.
-|024:58:29|CC|Jack, we'd like to go to select OMNI Bravo, and stow the high gain the the normal stowage. It's customary we do not use the high gain for PTC going TLC.
-|024:58:29|LMP|Okay, Bob. I'm sorry, but the checklist indicated that you do all go back to OMNI Bravo.
-|024:58:29|CC|Roger. It's probably ambiguous. If you end up going up on the checklist, up to the top of 1-28, it shows you where you want OMNI Bravo.
-|024:58:29|LMP|Ambiguous is the best word I can think of for it,
-|024:58:29|CC|Say again, Jack.
-|024:58:29|LMP|Ambiguous is the best word I can think of for it.
+|024:52:38|CC|Roger, Jack. We concur.
+|024:54:06|LMP|Bob, you always wished that you had a poet onboard one of these missions, so he could describe things that we're seeing and looking at and feeling in terms that might - might transmit at least a part of that feeling to everybody in the world. Unfortunately, that's not the case. But he certainly couldn't look at that fragile blue globe and not think about the ancient sails of life that are crossing its paths and wonder ahead to the - up to the present, to the modern sails of life that are represented by men that developed out of that life that are sitting there next to you and that are the country in all sorts of different guises and working towards the same end, and that is to put that life farther into the universe. I certainly hope that someday, in the not-too-distant future, the guy can fly who can express these things.
+|024:55:24|CC|Roger, Jack. You're doing a pretty good job expressing them.
+|024:58:25|CC|Jack, Houston.
+|024:58:30|LMP|Go ahead.
+|024:58:31|CC|Roger, Jack. We'd like to go to select OMNI Bravo, and stow the high gain the the normal stowage. It's customary we do not use the high gain for PTC going TLC.
+|024:58:55|LMP|Okay, Bob. I'm sorry, but the checklist indicated that you do all go back to OMNI Bravo.
+|024:59:04|CC|Roger. It's probably ambiguous. If you end up going up on the checklist, up to the top of 1-28, it shows you where you want OMNI Bravo.
+|024:59:25|LMP|Ambiguous is the best word I can think of for it.
+|024:59:30|CC|Say again, Jack.
+|024:59:34|LMP|Ambiguous is the best word I can think of for it.
 ||||Tape 19/8|Page 168
-|024:58:29|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "coram," and it says "OMNI," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
-|024:58:29|LMP|Ho, ho, ho. Tricky fellows. I guess you're right.
-|024:58:29|CC|Yes, it's something we don't - we don't - sim PTCs, TLCs, and TECs very often. That's for sure.
-|024:58:29|LMP|Well, that's because we have a whole day to learn out here.
-|024:58:29|CC|That's affirmat ive.
-|024:58:29|LMP|OMNI Bravo.
-|024:58:29|CC|Roger.
-|025:25:44|LMP|Okay, Bob. I think I'll hit the hay. How does everything look to you?
-|025:25:44|CC|Looking pretty good, Jack. We'd like the S-BAND NORMAL VOICE to OFF, and S-BAND SQUELCH ENABLE, please.
-|025:25:44|LMP|Yes, I'll get that. I just want to make sure that PTC and everthing looks good.
-|025:25:44|CC|Yes, it looks real fine, Jack.
-|025:26:26|CC|Have a good sleep.
+|024:58:37|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "comm," and it says "OMNI," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
+|024:59:58|LMP|Ho, ho, ho. Tricky fellows. I guess you're right.
+|025:00:06|CC|Yes, it's something we don't - we don't - sim PTCs, TLCs, and TECs very often. That's for sure.
+|025:00:21|LMP|Well, that's because we have a whole day to learn out here.
+|025:00:24|CC|That's affirmative.
+|025:00:31|LMP|OMNI Bravo.
+|025:00:33|CC|Roger.
+|025:01:16|PAO|This is Apollo Control at 25 hours, 1 minute into the mission. Apollo 17 is 100,953 nautical miles from Earth. Velocity 5,062 feet per second.
+|025:22:40|PAO|This is Apollo Control at 25 hours 22 minutes. We haven't heard from Jack Schmitt recently, however, the Flight Surgeon reports that his data indicates he's not yet asleep. Apollo 17 now at 102,000 miles from Earth velocity 5,018 feet per second. We'll continue to leave this line up until we get an indication that the Lunar Module Pilot is asleep. The other 2 crewmen are asleep at this time. At 25 hours 23 minutes, this is Mission Control, Houston.
+|025:25:37|LMP|Okay, Bob. I think I'll hit the hay. How does everything look to you?
+|025:25:50|CC|Looking pretty good, Jack. We'd like the S-BAND NORMAL VOICE to OFF, and S-BAND SQUELCH ENABLE, please.
+|025:25:59|LMP|Yes, I'll get that. I just want to make sure that PTC and everthing looks good.
+|025:26:04|CC|Yes, it looks real fine, Jack.
+|025:26:10|LMP|Okay, talk to you in the morning - or to somebody anyway.
+|025:26:13|CC|Roger. Parker will wake you up - I think. Have a good sleep.
+|025:26:17|LMP|Oh god.
 ||||Tape 20-23/1|Page 169
 |025:26:26||REST PERIOD - NO COMMUNICATIONS
+|025:26:52|PAO|This is Apollo Control at 25 hours 27 minutes. Jack Schmitt has said "goodnight". We'll take the line down now and come back up with Mission Control reports hourly. Apollo 17 now 102,202 nautical miles from Earth, velocity 5,010 feet per second.
+|026:27:01|PAO|This is Apollo Control at 26 hours 27 minutes. The crew has completed the first hour and 1/2 of an 8 hour rest period. Here in Mission Control, flight controllers are monitoring spacecraft's systems while the crew sleeps. All goes well with Apollo 17. Spacecraft is 105,060 nautical miles from Earth. Its velocity is 4,893 feet per second. This is Mission Control, Houston.
+|027:27:11|PAO|This is Apollo Control at 27 hours 27 minutes. 5 1/2 hours remain in the crew's rest period. All spacecraft systems continue to operate normally. Apollo 17 is now 107,835 nautical miles from Earth, velocity 4,784 feet per second.
+|028:27:02|PAO|This is Apollo Control at 28 hours 27 minutes. Everything continues to go well with Apollo 17. Astronaut Bob Parker has come on duty at the CAPCOM console now, and he will send a wakeup call to the crew in 4 hours and 32 minutes. Apollo 17 is 110,561 nautical miles from Earth. Velocity 4,679 feet per second.
+|029:27:01|PAO|This is Apollo Control at 29 hours 27 minutes. Apollo 17 is 113,208 nautical miles from Earth. Traveling at a speed at 4,579 feet per second. In 36 minutes, Apollo 17 will reach the half-way point to the Moon in terms of distance, at a Ground Elapsed Time of 30 hours, 3 minutes, no seconds. Apollo 17 will be 114,787 nautical miles from both the Moon and the Earth. 3 hours, 32 minutes remaining in the crew's sleep period. At 29 hours 27 minutes, this is Mission Control, Houston.
+|030:27:02|PAO|This is Apollo Control at 30 hours 27 minutes. 24 minutes ago Apollo 17 did reach the half-way point in distance in its journey to the Moon. At that time in the elapsed time of 30 hours 3 minutes, it was 114,787 nautical miles from both the Earth and the Moon. Its velocity at that time was 4,522 feet per second. At this time, Apollo 17's distance is 115,842 nautical miles from the Earth. Velocity is 4,483 feet per second. Midcourse correction number 2 will be performed at an elapsed time of 35 hours 30 minutes. That's 5 hours, 1 minute from now. It will be a 10.5 foot per second burn. The crew still has 2 hours and 31 minutes remaining in the sleep period. At 30 hours 28 minutes this is Mission Control Houston.
+|031:12:10|PAO|This is Apollo Control at 31 hours 12 minutes. Apollo 17 is now 117,746 nautical miles from Earth, traveling at a speed of 4,415 feet per second. Flight Director, Pete Frank, and his orange team of flight controllers will hand over Mission Control duties to Jerry Griffin's gold team of flight controllers in about 15 minutes at 7 A.M. Central Standard Time. Each of the departing controllers is now briefing his relief. There will be no change of shift news conference. The orange team will double back after 1 shift, returning to the Control Center at 5 P.M. today to get back on a schedule which will put them on the EVA shift. To summarize the shift now ending, the crew began rest period at 25 hours elapsed time. Each crewman took a sleeping pill, and Jack Schmitt reported that Gene Cernan and Ron Evans were asleep shortly after the crew configured the spacecraft for their rest period. However, Jack Schmitt, who was the duty man to wear the head set and the bio-medical harness during this rest period, seemed almost reluctant to surrender his view of the earth to sleep. At 100,000 nautical miles from the Earth he broadcast a weather forecast, then indulged in a bit of philosophy as he gazed from his window, about mankind's achievements. He remarked that from his vantage point the Earth probably looks the same now as it did at the dawn of man. Apollo 17 reached the halfway point to the Moon at an elapsed time of 30 hours 3 minutes. At that time it was 114,787 nautical miles from both the Earth and the Moon. Spacecraft's systems are continuing to perform well and the CAPCOM, astronaut Bob Parker, plans to awaken the crew at 33 hours elapsed time, that's 1 hour 44 minutes from now. Midcourse correction number 2 will be performed at an elapsed time of 35 hours 30 minutes, 4 hours and 14 minutes from now. Present indications are that it will be a 10 and 1/2 foot per second burn. The latest prediction on the S-IVB is that it will impact the Moon at an elapsed time of 86 hours 58 minutes 23 seconds. Coordinates of the impact location presently predicted 6.73 degrees south, 9.7 degrees west. The impact time and the coordinates are likely to change prior to the impact itself, and continued tracking of the S-IVB will be performed. At 31 hours 16 minutes, this is Mission Control, Houston.
+|032:27:07|PAO|This is Apollo Control at 32 hours 27 minutes Ground Elapsed Time. The Mission of Apollo 17, which at this moment is 120,887 nautical miles out from Earth, velocity has continued to decrease to 4,305 feet per second. Slightly over a half hour remaining until spacecraft communicator Robert Parker gives the crew a wakeup call. And a relatively busy day ahead with midcourse correction - midcourse correction maneuver #2 at 35:30 Ground Elapsed Time, a 10-1/2—foot per second posigrade maneuver which will raise the trajectory slightly from an impact trajectory with a minus pericynthion at the Moon, raise it to about 60 nautical miles above the surface. Latest numbers on the S-IVB impact predictions is for impact to take place at a Ground Elapsed Time of 86:58:23 at 6.7 degrees south latitude by 9.7 degrees west longitude. The gold team of flight controllers have settled in for a 10-hour day here in Mission Control, which in addition to the midcourse correction burn, includes the first manning of the Lunar Module, first checkout, which begins at about 40 hours. They start actually, at 39:30 getting the probe and drogue removed from the tunnel, going into the Lunar Module. We'll come back up live with the air-ground when the first call is made to the crew by the spacecraft communicator. And at 32:29, this is Apollo Control.
+|032:58:01|PAO|This is Apollo Control, 32 hours 58 minutes Ground Elapsed Time into the Mission of Apollo 17, Almost 2 minutes remaining until the first wakeup call is made to the Crew of Apollo 17 by spacecraft communicator Robert Parker. Parker is joined this morning by Apollo 17 backup Commander John Young at the CAPCOM console, and it appears that Parker's relief CAPCOM, Gordo Fullerton, just walked in the door and likely will relieve Parker in the day's duties of getting off midcourse correction #2 burn, and the first housekeeping venture into the Lunar Module. Apollo 17 is now 122,186 nautical miles out from the Earth, velocity now 4,259 feet per second. We'll stand by with the circuit open for the first wakeup call the usual post-sleep checklist, and Flight Plan updates and all of the conversation that normally takes place when the crew first wakes up. Let's just open the line now.
 ||||Tape 24/1|Page 170
 |033:00:38|CC|Apollo 17, Houston. Good morning.
 |033:01:06|CDR|Is that the best you could do?
-|033:01:06|CC|That's not very good either. Give us a call when you want to talk to us.
-|033:01:06|LMP|Good morning to you.
-|033:01:06|CDR|How's everything look, Bob?
-|033:01:06|CC|You guys look absolutely super. No problem at all.
-|033:01:06|CDR|Nice way to wake up. Maybe we'll just sleep in for a few more hours.
-|033:01:06|CC|Stand by. I'll check on that.
-|033:02:25|CDR|(Laughter).
+|033:01:09|CC|That's not very good either. Give us a call when you want to talk to us.
+|033:01:18|LMP|Good morning to you.
+|033:01:55|CDR|How's everything look, Bob?
+|033:02:08|CC|You guys look absolutely super. No problem at all.
+|033:02:15|CDR|Nice way to wake up. Maybe we'll just sleep in for a few more hours.
+|033:02:22|CC|Stand by. I'll check on that.
+|033:02:24|CDR|(Laughter).
 |033:21:09|CDR|Bob, 17. How do you read?
 |033:21:12|CC|17, this is Gordo. Bob just finished up his workday with that last call, and I'll be on now.
 ||||Tape 25/1|Page 171
-|033:21:12|CC|Loud and clear, Jack.
-|033:21:12|LMP|Good morning, Gordy. How you doing?
-|033:21:12|CC|Real good. How about you?
-|033:21:12|LMP|We all feel pretty good this morning. Got some reports for you.
-|033:21:12|CC|Okay. Ready to copy.
-|033:21:12|LMP|Okay, on the CDR. PRD is 17025; 6-1/2 hours good sleep. One Seconal, which is the one I reported last night, so that's just one now. Had a -yesterday, midday or so - he had a nausea pill for gas. And we hadn't found the other gas pill, so he tried that one. And he drank, since I last reported, two and a half containers of water.
-|033:21:12|CC|Roger.
-|033:21:12|LMP|The CDR food intake, as with all of us, is a little bit random, and I don't know exactly the best way to report it, unless you want it all in detail.
-|033:21:12|CC|Let me check while you - Go on, and I'll see if they want a detailed description of the food or not
-|033:21:12|LMP|Okay. LMP medical. PRD 24036; 5-1/2 to 6 hours good sleep, 1 intermittent. Again, I had a Seconal but that's the same Seconal I mentioned last night. And since last report - I guess one - two and a half containers of fluid. Water.
-|033:21:12|CC|Okay.
-|033:21:12|LMP|And just for checking on the water intake, you should have me down for six containers of water.
-|033:21:12|CC|Roger. Six total.
+|033:31:24|LMP|Houston, 17. How do you read?
+|033:31:27|CC|Loud and clear, Jack.
+|033:31:31|LMP|Good morning, Gordy. How you doing?
+|033:31:33|CC|Real good. How about you?
+|033:31:37|LMP|We all feel pretty good this morning. Got some reports for you.
+|033:31:42|CC|Okay. Ready to copy.
+|033:31:45|LMP|Okay, on the CDR. PRD is 17025; 6-1/2 hours good sleep. One Seconal, which is the one I reported last night, so that's just one now. Had a - yesterday, midday or so - he had a nausea pill for gas. And we hadn't found the other gas pill, so he tried that one. And he drank, since I last reported, two and a half containers of water.
+|033:32:32|CC|Roger.
+|033:32:37|LMP|The CDR food intake, as with all of us, is a little bit random, and I don't know exactly the best way to report it, unless you want it all in detail.
+|033:32:54|CC|Let me check while you - Go on, and I'll see if they want a detailed description of the food or not.
+|033:33:13|LMP|Okay. LMP medical. PRD 24036; 5-1/2 to 6 hours good sleep, 1 intermittent. Again, I had a Seconal but that's the same Seconal I mentioned last night. And since last report - I guess one - two and a half containers of fluid. Water.
+|033:33:53|CC|Okay.
+|033:33:56|LMP|And just for checking on the water intake, you should have me down for six containers of water.
+|033:34:05|CC|Roger. Six total.
 ||||Tape 25/2|Page 172
-|033:21:12|LMP|That's affirm.
-|033:21:12|LMP|CMP medical. PRD is 15023; 7-1/2 hours very good sleep. He had the same Seconal we had. And, since last report, has three water containers for a total of six now.
-|033:21:12|CC|Roger.
-|033:21:12|CC|Jack, I guess we do want an accounting of all the food. Whatever you think is the best way to report it.
-|033:35:19|LMP|Okay, Gordy. Back on the CDR, and I'll just tell you what we ate. For the day 2. CDR: mixed fruit, that's the can, instant breakfast, one vitamin pill, a bag of tea, turkey and gravy, the wet pack, and orange juice.
-|033:35:19|CC|Roger.
-|033:35:19|LMP|Okay, The LMP: cinnamon toast bread, mixed fruit, instant breakfast, coffee, lemonade, peach ambrosia, one vitamin, one slice of bread, grapefruit drink, gingerbread, orange drink. And I have one complaint . Somebody slighted me on a caramel candy in meal C.
-|033:35:19|CC|Roger. We'll start an investigation.
-|033:35:19|LMP|Yes, it was not there. Okay. CMP: the spiced oat cereal, mixed fruit, instant breakfast, and coffee, potato soup, and peach ambrosia. That's all for breakfast. And then later on, he had chocolate pudding and a grape drink. And let's see - we all - You might log him for a vitamin pill and me for a vitamin pill.
-|033:35:19|CC|Okay.
-|033:35:19|LMP|Oh, yes, I forgot. It's here; one frankfurter, for lunch.
-|033:35:19|CC|Roger.
+|033:34:09|LMP|That's affirm.
+|033:34:20|LMP|CMP medical. PRD is 15023; 7-1/2 hours very good sleep. He had the same Seconal we had. And, since last report, has three water containers for a total of six now.
+|033:34:45|CC|Roger.
+|033:34:57|CC|Jack, I guess we do want an accounting of all the food. Whatever you think is the best way to report it.
+|033:35:20|LMP|Okay, Gordy. Back on the CDR, and I'll just tell you what we ate. For the day 2. CDR: mixed fruit, that's the can, instant breakfast, one vitamin pill, a bag of tea, turkey and gravy, the wet pack, and orange juice.
+|033:36:01|CC|Roger.
+|033:36:07|LMP|Okay, The LMP: cinnamon toast bread, mixed fruit, instant breakfast, coffee, lemonade, peach ambrosia, one vitamin, one slice of bread, grapefruit drink, gingerbread, orange drink. And I have one complaint: somebody slighted me on a caramel candy in meal C.
+|033:36:50|CC|Roger. We'll start an investigation.
+|033:36:54|LMP|Yes, it was not there. Okay. CMP: the spiced oat cereal, mixed fruit, instant breakfast, and coffee, potato soup, and peach ambrosia. That's all for breakfast. And then later on, he had chocolate pudding and a grape drink. And let's see - we all - You might log him for a vitamin pill and me for a vitamin pill.
+|033:37:27|CC|Okay.
+|033:37:30|LMP|Oh, yes, I forgot. It's here; one frankfurter, for lunch.
+|033:37:36|CC|Roger.
 ||||Tape 25/3|Page 173
-|033:35:19|LMP|And we just changed LiOH canister as per the Flight Plan.
-|033:35:19|CC|Okay.
-|033:35:19|LMP|And in a minute, I'll have weather report for you.
-|033:37:57|CC|Very well.
-|033:40:58|LMP|Hey, Gordy.
-|033:40:58|CC|Go ahead.
-|033:40:58|LMP|Gordy, the null bias check. Plus 0.9 and 100 seconds.
-|033:40:58|CC|Okay, one question G&C had. Do you do that null bias at plus 100 or minus 100 on the EMS counter?
-|033:40:58|LMP|Plus 100.
-|033:40:58|CC|Okay, and it's increased up to 101.9, right?
-|033:40:58|LMP|No, it increased to 100.9.
-|033:40:58|CC|Roger. Miscopied you; 0.9. Okay; thank you.
-|033:40:58|LMP|Yes, okay. Seems to me like last night it was 100.7.
-|033:40:58|CC|Roger.
-|033:40:58|CC|And for our part of the postsleep checklist, I have the consumables status, if you'd care to listen.
-|033:42:22|LMP|Stand by, Gordy.
-|033:45:11|LMP|Gordy, we'll take your consumables in a second. Let me bring you up to date on the weather around the world, if you're interested.
-|033:45:11|CC|Yes, we are; go ahead.
+|033:37:44|LMP|And we just changed LiOH canister as per the Flight Plan.
+|033:37:49|CC|Okay.
+|033:37:54|LMP|And in a minute, I'll have weather report for you.
+|033:37:58|CC|Very well.
+|033:40:59|LMP|Hey, Gordy.
+|033:41:01|CC|Go ahead.
+|033:41:04|LMP|Gordy, the null bias check. Plus 0.9 and 100 seconds.
+|033:41:11|CC|Okay, one question G&C had. Do you do that null bias at plus 100 or minus 100 on the EMS counter?
+|033:41:23|LMP|Plus 100.
+|033:41:25|CC|Okay, and it's increased up to 101.9, right?
+|033:41:32|LMP|No, it increased to 100.9.
+|033:41:36|CC|Roger. Miscopied you; 0.9. Okay; thank you.
+|033:41:40|LMP|Yes, okay. Seems to me like last night it was 100.7.
+|033:41:48|CC|Roger.
+|033:42:03|CC|And for our part of the postsleep checklist, I have the consumables status, if you'd care to listen.
+|033:42:23|LMP|Stand by, Gordy.
+|033:45:17|LMP|Gordy, we'll take your consumables in a second. Let me bring you up to date on the weather around the world, if you're interested.
+|033:45:28|CC|Yes, we are; go ahead.
 ||||Tape 25/4|Page 174
-|033:45:11|LMP|Africa, looks in pretty good shape. There is a -except for an area probably around Zambia and Rhodesia in the tropical convergence zone there, where it looks pretty cloudy and probably quite rainy. There's a very strong circulation pattern and presumably a storm off - just off the coast of northwest Africa. Very spectacular spiral formation of clouds in a cyclone development. It looks like there are probably two fairly weak cyclones -Southern Hemisphere cyclones in the South Atlantic. One, southwest of Cape of Good Hope, and the other about due west of - of the Falkland islands, maybe a little bit north of that. South America looks to be in quite good shape weatherwise, except possibly Uruguay and maybe northern Argentina which appear to have a - at least some fairly thick clouds there, although no strong circulation associated with this.
-|033:48:01|CC|Okay, Jack. We got all that up to Argentina, then the OMNI switch kind of cut you off.
-|033:48:01|CC|Jack, we got the - at least the first part of your weather report fine up through the clouds in northern Argentina, and then the switch in OMNIs cut you out.
-|033:48:01|LMP|Okay, that was about it, Gordy. That's - I'll talk to you some more later about it. I guess the main thing I need now is - are your consumables.
-|033:48:01|CC|Okay. By the way, you were looking back from more than halfway to the Moon. You're about 125,000 out now. On the consumables, the RCS is running at 1.3 percent over the Flight Plan line. On the C>2Z tanks 2 and 3 are right on the line, end tank 1 is about 4 percent below the line. But it's been there all the way since launch, that same bias on tank 1. On the hydrogen: tanks 1 and 3 are right on the line, tank 2 is about 3 percent above the line. All in all, you're looking real good consumablewise.
-|033:48:01|LMP|Okay. That's hardly worth writing down, I guess.
+|033:45:31|LMP|Africa, looks in pretty good shape. There is a - except for an area probably around Zambia and Rhodesia in the tropical convergence zone there, where it looks pretty cloudy and probably quite rainy. There's a very strong circulation pattern and presumably a storm off - just off the coast of northwest Africa. Very spectacular spiral formation of clouds in a cyclone development. It looks like there are probably two fairly weak cyclones - Southern Hemisphere cyclones in the South Atlantic. One, southwest of Cape of Good Hope, and the other about due west of - of the Falkland islands, maybe a little bit north of that. South America looks to be in quite good shape weatherwise, except possibly Uruguay and maybe northern Argentina which appear to have a - at least some fairly thick clouds there, although no strong circulation associated with this.
+|033:48:03|CC|Okay, Jack. We got all that up to Argentina, then the OMNI switch kind of cut you off.
+|033:48:59|CC|Jack, we got the - at least the first part of your weather report fine up through the clouds in northern Argentina, and then the switch in OMNIs cut you out.
+|033:49:12|LMP|Okay, that was about it, Gordy. That's - I'll talk to you some more later about it. I guess the main thing I need now is - are your consumables.
+|033:49:26|CC|Okay. By the way, you were looking back from more than halfway to the Moon. You're about 125,000 out now. On the consumables, the RCS is running at 1.3 percent over the Flight Plan line. On the O2 tanks 2 and 3 are right on the lines, and tank 1 is about 4 percent below the line. But it's been there all the way since launch, that same bias on tank 1. On the hydrogen: tanks 1 and 3 are right on the lines, tank 2 is about 3 percent above the line. All in all, you're looking real good consumablewise.
+|033:50:21|LMP|Okay. That's hardly worth writing down, I guess.
 ||||Tape 25/5|Page 175
-|033:48:01|CMP|That's the way we like to see it.
-|033:48:01|CC|Same here. The only other thing I have in the way of updates is a PIPA bias update. You can load it yourself, or we can load it when we come up with the up-link prior to the burn. Your choice. And then We'll have an update to the erasable load update and a supplement to correspond with that bias update.
-|033:48:01|CDR|Gordy, why don't you go ahead and load it yourself when you send up the vector?
-|033:48:01|CC|Okay, and I'll give you that update for the supplement . It's on 1-43 whenever you're - whenever it's convenient.
-|033:48:01|CDR|Okay, Jack's getting that out. I ran another PIPA bias at minus 100, and it confirmed the first one. It ended up at 99-2.
-|033:48:01|CC|Roger.
-|033:48:01|LMP|Go ahead with your update on 1-43, Gordy.
-|033:48:01|CC|Okay. It's in the load A of the octal ID of 03, which now reads 77252. Change that to 77655.
-|033:48:01|LMP|Did you copy, Gordy?
-|033:48:01|CC|I didn't copy your readback; no. Okay, 306 03 and Alfa 77655.
-|033:52:42|CC|That's right.
-|034:03:17|LMP|Gordy, how do you read?
-|034:03:17|CC|Loud and clear.
-|034:03:17|LMP|Okay. For the reference on - on those menus, at least for the LMP, I think I'm probably putting 8 or 9 ounces of water in the citrus drinks and those kind of things, rather than 7, which has probably upped my water intake some.
-|034:03:17|CC|Okay.
+|033:50:26|CMP|That's the way we like to see it.
+|033:50:30|CC|Same here.
+|033:50:41|CC|Oh, the only other thing I have in the way of updates is a PIPA bias update. You can load it yourself, or we can load it when we come up with the up-link prior to the burn. Your choice. And then We'll have an update to the erasable load update and a supplement to correspond with that bias update.
+|033:51:04|CDR|Gordy, why don't you go ahead and load it yourself when you send up the vector?
+|033:51:11|CC|Okay, and I'll give you that update for the supplement. It's on 1-43 whenever you're - whenever it's convenient.
+|033:51:23|CDR|Okay, Jack's getting that out. I ran another PIPA bias at minus 100, and it confirmed the first one. It ended up at 99.2.
+|033:51:36|CC|Roger.
+|033:51:41|LMP|Go ahead with your update on 1-43, Gordy.
+|033:51:45|CC|Okay. It's in the load A of the octal ID of 03, which now reads 77252. Change that to 77655.
+|033:52:33|LMP|Did you copy, Gordy?
+|033:52:34|CC|I didn't copy your readback; no.
+|033:52:39|LMP|Okay, 306 03 and Alfa 77655.
+|033:52:44|CC|That's right.
+|034:03:19|LMP|Gordy, how do you read?
+|034:03:24|CC|Loud and clear.
+|034:03:28|LMP|Okay. For the reference on - on those menus, at least for the LMP, I think I'm probably putting 8 or 9 ounces of water in the citrus drinks and those kind of things, rather than 7, which has probably upped my water intake some.
+|034:03:47|CC|Okay.
 ||||Tape 25/6|Page 176
-|034:03:17|LMP|And I think that probably goes for everybody. That probably goes for - it goes for Ron and probably Gene also.
-|034:03:52|CC|Roger.
-|034:10:05|CC|17, Houston. I have a little synopsis of the news here, if you'd like to listen during breakfast. Let me know.
-|034:10:05|CDR|Okay, mighty fine. Send it up.
-|034:10:05|CC|Okay, front page first. In Paris, Henry Kissinger met for 30 minutes this morning with French President George Pompidou at the Elysee Palace just hours before his scheduled conference with North Vietnamese Politburo member Le Duc Tho - Tho, that is. North Vietnamese spokesmen accused Kissinger of attempting to force a peace settlement by threatening further escalation of the war. As both U.S. and North Vietnamese negotiators expressed disappointment at the continued deadlock, Chief American delegate William J. Porter traveled to Brussels to brief Secretary of State William B. Rogers. Rogers will - will return later today from the NATO Conference of Ministers. This one is datel - date - datelined Brussels. Diplomatic sources indicated today that NATO allies will request negotiations with the Soviet Union and its allies on mutual troop reductions in central Europe. Exploratory talks expected to begin about January 31, with full-scale negotiations to follow sometime next fall. In Kansas City, vital life signs for Harry S. Truman appear to have stabilized. But the 88-year-old former President remains on the critical list at Kansas City's Research Hospital. Truman is suffering from lung congestion and heart weakness. In Argentina, aides to popular Argentine politician Juan Peron said that Peron will refuse the nomination to the presidency of Argentina and will return to exile during the coming week. And, on the sports page, Rice coach A1 Conover is expected to reveal today - sometime today his decision to either remain at Rice as head coach or move to his alma mater Wake Forest in a similar position. The Owl head coach has said that he has been offered the job and promises a yes-or-no decision today. There is some speculation that head coach Joe Paterno of Penn State may move to a head coaching job in the pros next year. Paterno is busy preparing his Nittany Lions for a Sugar Bowl meeting with Oklahoma and is refusing to discuss the matter until after the game. Locally, the state high school football playoffs - -
+|034:03:47|LMP|And I think that probably goes for everybody. That probably goes for - it goes for Ron and probably Gene also.
+|034:03:54|CC|Roger.
+|034:10:07|CC|17, Houston. I have a little synopsis of the news here, if you'd like to listen during breakfast. Let me know.
+|034:10:16|CDR|Okay, mighty fine. Send it up.
+|034:10:19|CC|Okay, front page first. In Paris, Henry Kissinger met for 30 minutes this morning with French President George Pompidou at the Elysee Palace just hours before his scheduled conference with North Vietnamese Politburo member Le Duc Tho - Tho, that is. North Vietnamese spokesmen accused Kissinger of attempting to force a peace settlement by threatening further escalation of the war. As both U.S. and North Vietnamese negotiators expressed disappointment at the continued deadlock, Chief American delegate William J. Porter traveled to Brussels to brief Secretary of State William B. Rogers. Rogers will - will return later today from the NATO Conference of Ministers. This one is datel - date - datelined Brussels. Diplomatic sources indicated today that NATO allies will request negotiations with the Soviet Union and its allies on mutual troop reductions in central Europe. Exploratory talks expected to begin about January 31, with full-scale negotiations to follow sometime next fall. In Kansas City, vital life signs for Harry S. Truman appear to have stabilized. But the 88-year-old former President remains on the critical list at Kansas City's Research Hospital. Truman is suffering from lung congestion and heart weakness. In Argentina, aides to popular Argentine politician Juan Peron said that Peron will refuse the nomination to the presidency of Argentina and will return to exile during the coming week. And, on the sports page, Rice coach Al Conover is expected to reveal today - sometime today his decision to either remain at Rice as head coach or move to his alma mater, Wake Forest in a similar position. The Owl head coach has said that he has been offered the job and promises a yes-or-no decision today. There is some speculation that head coach Joe Paterno of Penn State may move to a head coaching job in the pros next year. Paterno is busy preparing his Nittany Lions for a Sugar Bowl meeting with Oklahoma and is refusing to discuss the matter until after the game. Locally, the state high school football playoffs - -
 ||||Tape 25/7|Page 177
-|034:10:05|CDR|Lost you, Gordo.
-|034:12:47|CC|Say again?
-|034:14:26|CC|Okay, 17* Continuing after being rudely interrupted by the OMNI switch, the state high school football playoffs here in Texas are underway and -with a whole host of games scheduled this weekend. And the final item, the Major League Baseball Players' Association and the Commissioner's Office are going at it again. It must be getting close to spring training time.
-|034:14:26|LMP|Gordy, you cut out since the Nittany Lions.
-|034:14:26|CC|Okay. Did you hear about the - the high school playoffs?
-|034:14:26|LMP|No, the last we heard was the Nittany Lions.
-|034:14:26|CC|Okay. (Laughter) Paterno, the head coach at Penn State, may move to a head coaching job in the pros next year. He's busy setting up his Nittany Lions for a Sugar Bowl meeting with Oklahoma and is refusing to discuss the matter until after the game. Here locally, the state high school football players are - playoffs are underway with a whole host of games scheduled for this weekend. And the final item, the - the Major League Baseball Players Association and the Commissioner's Office are going at it again, which means it must be getting close to time for spring training.
-|034:16:00|LMP|No editorials, please (laughter).
+|034:12:48|CDR|Lost you, Gordo.
+|034:12:51|CC|Say again?
+|034:14:28|CC|Okay, 17. Continuing after being rudely interrupted by the OMNI switch, the state high school football playoffs here in Texas are underway and with a whole host of games scheduled this weekend. And the final item, the Major League Baseball Players' Association and the Commissioner's Office are going at it again. It must be getting close to spring training time.
+|034:14:53|LMP|Gordy, you cut out since the Nittany Lions.
+|034:15:03|CC|Okay. Did you hear about the - the high school playoffs?
+|034:15:09|LMP|No, the last we heard was the Nittany Lions.
+|034:15:13|CC|Okay. (Laughter) Paterno, the head coach at Penn State, may move to a head coaching job in the pros next year. He's busy setting up his Nittany Lions for a Sugar Bowl meeting with Oklahoma and is refusing to discuss the matter until after the game. Here locally, the state high school football players are - playoffs are underway with a whole host of games scheduled for this weekend. And the final item, the - the Major League Baseball Players Association and the Commissioner's Office are going at it again, which means it must be getting close to time for spring training.
+|034:16:02|LMP|No editorials, please (laughter).
 ||||Tape 25/8|Page 178
-|034:29:25|LMP|Gordy, film update on mag November November. I'm on frame 138, and that includes a couple of pictures I mentioned to Bob I took just before I went to sleep. And also, two pictures this morning at about 33:30. Those are the Earth.
-|034:29:25|CC|Okay, Jack.
-|034:35:18|CC|17, Houston. A reminder. We need the H2 PURGE LINE HEATERS, ON, now. And I do have a maneuver pad for the midcourse when-you're ready to copy. Over.
-|034:35:33|CDR|Okay. I've already got the HEATER, ON. And give me about 5 minutes, and I'll get the pad.
-|034:35:33|CC|Okay. And if you'll give us ACCEPT and POO, we'll get the up-link started just after the next antenna switch. We want to catch it between switches. Over
-|034:35:55|CDR|Okay. You got POO and ACCEPT.
-|034:35:55|CC|Thank you.
-|034:46:16|CC|17, it's your computer. You have a state vector, VERB 66, and a target load, and a PIPA bias update.
-|034:46:25|CDR|Very good.
-|034:49:46|LMP|Believe it or not, Gordy, I'm ready for your pad.
-|034:49:46|CC|Okay, Jack. It's a midcourse 2, SP&/G&N; the weight is 66786; plus 1.21, minus 0.13; ignition time is 035:29:59.09; minus 0003.4, plus 0002.1, minus 0009.8; attitude is 132, 194, 343; HA and HP are NA; DELTA-V^ 0010.6, burn time is 0:02, 0006.5; sextant star is 25, 233.7, 16.4; rest of the pad is NA. Ullage, none. Other remarks; LM weight, 36281. High gain angles: PITCH, minus 21; YAW, l8l. And this will give you a perilune of 53.1. Should make everybody onboard feel a little more c omf ortable. Over.
+|034:29:28|LMP|Gordy, film update on mag November November. I'm on frame 138, and that includes a couple of pictures I mentioned to Bob I took just before I went to sleep. And also, two pictures this morning at about 33:30. Those are the Earth.
+|034:29:53|CC|Okay, Jack.
+|034:35:20|CC|17, Houston. A reminder. We need the H2 PURGE LINE HEATERS, ON, now. And I do have a maneuver pad for the midcourse when-you're ready to copy. Over.
+|034:35:36|CDR|Okay. I've already got the HEATER, ON. And give me about 5 minutes, and I'll get the pad.
+|034:35:43|CC|Okay. And if you'll give us ACCEPT and POO, we'll get the up-link started just after the next antenna switch. We want to catch it between switches. Over.
+|034:35:57|CDR|Okay. You got POO and ACCEPT.
+|034:36:00|CC|Thank you.
+|034:46:19|CC|17, it's your computer. You have a state vector, VERB 66, and a target load, and a PIPA bias update.
+|034:46:27|CDR|Very good.
+|034:49:49|LMP|Believe it or not, Gordy, I'm ready for your pad.
+|034:49:54|CC|Okay, Jack. It's a midcourse 2, SPS/G&N; the weight is 66786; plus 1.21, minus 0.13; ignition time is 035:29:59.09; minus 0003.4, plus 0002.1, minus 0009.8; attitude is 132, 194, 343; HA and HP are NA; DELTA-Vt 0010.6, burn time is 0:02, 0006.5; sextant star is 25, 233.7, 16.4; rest of the pad is NA. Ullage, none. Other remarks; LM weight, 36281. High gain angles: PITCH, minus 21; YAW, 181. And this will give you a perilune of 53.1. Should make everybody onboard feel a little more comfortable. Over.
 ||||Tape 25/9|Page 179
-|034:51:57|LMP|Okay, Gordy. We haven't been particularly uncomfortable, but knowing no way we would hit the Moon. Here's MCC-2, 7 - SPS/G&N; 66786; plus 1.21, minus 0.13; 035:29:59.09; minus 0003.4, plus 0002.1 And you cut out on DELTA-V^. Give me that again, please.
-|034:51:57|CC|Okay. DELTA-VZ is a minus 0009.8.
-|034:51:57|LMP|Okay. DELTA-Vz, minus 0009.8; 132, 194, 343; NOUN 44 is NA; 0010.6, 0:02, 0006.5; 25, 233.7, l6.4; rest of pad is NA. No ullage. LM weight, 36281. High gain PITCH, minus 21; YAW, l8l. Perilune, 53.1.
-|034:53:20|CC|Okay. That's a good readback.
-|034:54:18|CC|17, Houston. You can go back to BLOCK now.
-|034:54:31|CDR|Okay. We're in BLOCK.
-|034:54:31|CC|Jack, a couple of quick items. We would like for you to terminate the BATTERY A charge now, and also turn the H tank HEATERS for tanks 1 and 2 OFF.
-|034:55:31|LMP|Okay. H2 tank HEATERS 1 and 2 are OFF, and I'll terminate the charge.
-|034:55:37|CC|Roger.
+|034:51:59|LMP|Okay, Gordy. We haven't been particularly uncomfortable, but knowing no way we would hit the Moon. Here's MCC-2, 7 - SPS/G&N; 66786; plus 1.21, minus 0.13; 035:29:59.09; minus 0003.4, plus 0002.1 And you cut out on DELTA-Vz. Give me that again, please.
+|034:52:34|CC|Okay. DELTA-Vz is a minus 0009.8.
+|034:52:45|LMP|Okay. DELTA-Vz, minus 0009.8; 132, 194, 343; NOUN 44 is NA; 0010.6, 0:02, 0006.5; 25, 233.7, 16.4; rest of pad is NA. No ullage. LM weight, 36281. High gain PITCH, minus 21; YAW, 181. Perilune, 53.1.
+|034:53:23|CC|Okay. That's a good readback.
+|034:54:21|CC|17, Houston. You can go back to BLOCK now.
+|034:54:33|CDR|Okay. We're in BLOCK.
+|034:55:16|CC|Jack, a couple of quick items. We would like for you to terminate the BATTERY A charge now, and also turn the H2 tank HEATERS for tanks 1 and 2 OFF.
+|034:55:34|LMP|Okay. H2 tank HEATERS 1 and 2 are OFF, and I'll terminate the charge.
+|034:55:39|CC|Roger.
+|034:58:16|PAO|This is Apollo Control 34 hours, 58 minutes Ground Elapsed Time. Apollo 17 spacecraft, should at this time be coming out of the passive thermal-control mode and getting into the proper attitude for the midcourse correction burn #2, which is some 31 minutes and 23 seconds from now. Apollo 17, presently 126,988 miles from the Earth traveling at velocity of 4,098 feet per second. The midcourse correction burn #2 with an ignition time 35:29:59.1 has a velocity change in the posigrade direction of 10.6 feet per second, which for the service propulsion system engine is a BURP lasting 1.58 seconds. Purpose of this burn is to raise the pericynthion from an impact trajectory as it stands now, to one with a clearance over the Moon of some 53 nautical miles which will become the pericynthion of Lunar Orbit. Standing by on air-ground 1 at 34:59 this is Apollo Control.
 ||||Tape 26/1|Page 180
-|034:55:37|CC|Roger. That looks good.
-|035:03:02|CMP|And you're looking at NOUN 93. Okay, you're looking at NOUN 93.
-|035:03:04|CC|Okay, and we go to torque it.
-|035:03:04|CMP|Houston, Apollo 17. When we ran the DELTA-V test, we - we're reading minus 22.2 and I'm having a little trouble finding the SPS cue card. Wonder if FAO know exactly - knows exactly where that is?
-|035:03:04|CC|Stand by; I'll check.
-|035:03:04|LMP|Houston, if you saw a MASTER ALARM, it was the POWER SCE NORMAL switch getting hooked to OFF.
-|035:03:04|CC|Roger.
-|035:07:07|CC|As far as we know, the SPS burn card ought to be in with the rest of the cards in R-2.
-|035:07:08|LMP|Gordy, we finally found that thing. It was way back in the back; sorry.
-|035:07:12|CC|Okay.
-|035:07:50|LMP|We're starting our purges, Houston.
-|035:07:55|CC|Roger.
-|035:14:18|CMP|Okay, Houston, We'll get to the attitude in about another 4 minutes or so. Then we'll whip in the P30 and go right into P40. We're doing a waste water dump, urine dump, and - man, the sky is just full of little bitty particles.
-|035:14:39|CC|Roger, Ron.
-|035:15:22|CMP|Hey, I doubt if we can get the star sextant check, but you can try it.
+|035:02:54|LMP|Okay, Gordo, there's all balls and 05 on that P52 .
+|035:03:04|CC|Roger. That looks good.
+|035:03:05|CMP|And you're looking at NOUN 93. Okay, you're looking at NOUN 93.
+|035:03:27|CC|Okay, and we GO to torque it.
+|035:04:06|CMP|Houston, Apollo 17. When we ran the DELTA-V test, we - we're reading minus 22.2 and I'm having a little trouble finding the SPS cue card. Wonder if FAO know exactly - knows exactly where that is?
+|035:04:23|CC|Stand by; I'll check.
+|035:07:09|LMP|Houston, if you saw a MASTER ALARM, it was the POWER SCE NORMAL switch getting hooked to OFF.
+|035:07:20|CC|Roger.
+|035:07:33|CC|As far as we know, the SPS burn card ought to be in with the rest of the cards in R-2.
+|035:07:41|LMP|Gordy, we finally found that thing. It was way back in the back; sorry.
+|035:07:45|CC|Okay.
+|035:08:23|LMP|We're starting our purges, Houston.
+|035:08:27|CC|Roger.
+|035:14:51|CMP|Okay, Houston, We'll get to the attitude in about another 4 minutes or so. Then we'll whip in the P30 and go right into P40. We're doing a waste water dump, urine dump, and - man, the sky is just full of little bitty particles.
+|035:15:12|CC|Roger, Ron.
+|035:15:54|CMP|Hey, I doubt if we can get the star sextant check, but you can try it.
 ||||Tape 26/2|Page 181
-|035:18:10|CMP|Okay. Okay, 35:29:59:09 for the time. NOUN 81 - okay, NOUN 81s are loaded good.
-|035:18:37|CMP|Just the burn time's good.
-|035:19:12|CMP|Okay. We'll see if we can get the DET started here.
-|035:19:31|CMP|Okay; got the DET started.
-|035:19:34|CC|Jack, you can bring up the high gain any time now.
-|035:19:37|CMP|In 10 minutes, Jack's ... good shape. Okay, got that. ...
-|035:19:54|CMP|Yes, he's dumping waste water. It's about 15. Yes. Yes, straight up to RELIEF, Jack.
-|035:20:08|CC|And, Jack, also we're showing 10 percent on waste water, now.
-|035:20:11|CMP|... 86, LM weight. Okay, ..., OFF; ..., OFF. That's what I'm doing now. To what? One three, okay. Here we go. Set ... IMU. Okay. Realign the old GDC a little bit.
-|035:21:12|CMP|Okay, GDC is aligned. STAB control breakers. All IN and good shape.
-|035:21:21|CMP|MANUAL ATTs are RATE COMMAND; DEADBAND, MIN; RATE to LOW. Yes.
-|035:21:33|CMP|Okay, TVC is in RATE COMMAND. LM/CSM is in LM/CSM. GIMBAL DRIVE is in AUTO. Okay.
-|035:21:42|CC|Jack, this is Houston. We're ready for the high gain.
-|035:21:48|SC|(Laughter)
-|035:22:00|CC|17, Houston. Do you read?
-|035:22:10|CMP|I think there's no trim on this ... Flight Plan.
-|035:22:17|SC|Okay.
+|035:18:47|CMP|Okay. Okay, 35:29:59:09 for the time. NOUN 81 - okay, NOUN 81s are loaded good.
+|035:19:10|CMP|Just the burn time's good.
+|035:19:44|CMP|Okay. We'll see if we can get the DET started here.
+|035:20:04|CMP|Okay; got the DET started.
+|035:20:07|CC|Jack, you can bring up the high gain any time now.
+|035:20:10|CMP|In 10 minutes, Jack so we're in good shape. Okay, got that. ...
+|035:20:27|CMP|Yes, he's dumping waste water. It's about 15. Yes. Yes, straight up to RELIEF, Jack.
+|035:20:40|CC|And, Jack, also we're showing 10 percent on waste water, now.
+|035:20:44|CMP|... 786, LM weight. Okay, ..., OFF; ..., OFF. That's what I'm doing now. To what? One three, okay. Here we go. Set ... IMU. Okay. Realign the old GDC a little bit.
+|035:21:45|CMP|Okay, GDC is aligned. STAB control breakers. All IN and good shape.
+|035:21:54|CMP|MANUAL ATTs are RATE COMMAND; DEADBAND, MIN; RATE to LOW. Yes.
+|035:22:06|CMP|Okay, TVC is in RATE COMMAND. LM/CSM is in LM/CSM. GIMBAL DRIVE is in AUTO. Okay.
+|035:22:14|CC|Jack, this is Houston. We're ready for the high gain.
+|035:22:21|CMP|(Laughter)
+|035:22:33|CC|17, Houston. Do you read?
+|035:22:42|CMP|I think there's no trim on this ... Flight Plan.
+|035:22:49|CMP|Okay.
 ||||Tape 26/3|Page 182
-|035:22:21|CC|Apollo 17, Houston. How do you copy?
-|035:22:24|CMP|Okay, so that's ... trim, to 0.2.
-|035:22:35|CDR|No trim if it's greater than 2 feet per second.
-|035:22:51|CMP|Yes, we're down to 6 minutes.
-|035:22:57|CC|Apollo 17, Houston. How do you read?
-|035:23:03|CDR|Okay, Gordo. We got you.
-|035:23:05|CC|Okay, we weren't getting through there for a minute or 2. We're ready for the high gain now.
-|035:23:21|CMP|Okay. Minus - minus 21 and l8l.
-|035:23:32|CC|And 17, You're GO for midcourse 2.
-|035:23:40|CMP|Okay. Sounds good.
-|035:23:46|CMP|And, Jack, you ready for GIMBAL MOTORS? - I mean the BUS TIES?
-|035:23:54|LMP|Ready for the BUS TIES.
-|035:24:09|CMP|Okay, TAPE RECORDER, HIGH BIT RATE, RECORD, FORWARD, and COMMAND RESET.
-|035:24:20|CMP|Check your HELIUM VALVES and check your ...
-|035:24:26|CMP|Okay. SERVO POWER 1 and 2, we got.
-|035:24:37|CMP|Okay, got SERVO POWER. AC1 and AC2.
-|035:24:43|CMP|AC, DIRECTS are OFF.
-|035:24:46|CMP|BMAGs, 1/2. Okay.
-|035:24:52|CMP|No hardovers. Okay. We'll go to SCS. Okay, PITCH 1, Jack -
-|035:25:00|CMP|MARK it. YAW 1 -
-|035:25:04|CMP|MARK it. Okay. Got a minus - plus 1.1, okay. A minus 0.13; that's almost zero. Okay. Whoo! Man, bounces it around! (Laughter) little difference.
+|035:22:54|CC|Apollo 17, Houston. How do you copy?
+|035:22:57|CMP|Okay, so that's ... trim, to 0.2.
+|035:23:07|CDR|No trim if it's greater than 2 feet per second.
+|035:23:24|CMP|Yes, we're down to 6 minutes.
+|035:23:30|CC|Apollo 17, Houston. How do you read?
+|035:23:35|CDR|Okay, Gordo. We got you.
+|035:23:38|CC|Okay, we weren't getting through there for a minute or 2. We're ready for the high gain now.
+|035:23:54|CMP|Okay. Minus - minus 21 and 181.
+|035:24:06|CC|And 17, You're GO for midcourse 2.
+|035:24:12|CMP|Okay. Sounds good.
+|035:24:19|CMP|And, Jack, you ready for GIMBAL MOTORS? - I mean the BUS TIES?
+|035:24:27|LMP|Ready for the BUS TIES.
+|035:24:42|CMP|Okay, TAPE RECORDER, HIGH BIT RATE, RECORD, FORWARD, and COMMAND RESET.
+|035:24:52|CMP|Check your HELIUM VALVES and check your ...
+|035:24:59|CMP|Okay. SERVO POWER 1 and 2, we got.
+|035:25:10|CMP|Okay, got SERVO POWER. AC1 and AC2.
+|035:25:16|CMP|AC, DIRECTS are OFF.
+|035:25:19|CMP|BMAGs, 1/2. Okay.
+|035:25:24|CMP|No hardovers. Okay. We'll go to SCS. Okay, PITCH 1, Jack -
+|035:25:33|CMP|MARK it. YAW 1 -
+|035:25:36|CMP|MARK it. Okay. Got a minus - plus 1.1, okay. A minus 0.13; that's almost zero. Okay. Whoo! Man, bounces it around! (Laughter) little difference.
 ||||Tape 26/4|Page 183
-|035:25:29|CMP|Okay, we'll give it to the computer. Clockwise. Go TVC TVC. Okay, PITCH 2.
-|035:25:38|CMP|MARK it. Got it. YAW 2.
-|035:25:41|CMP|MARK it. Got it? Okay, got the trim, about a plus 12 and a minus 0.1. TVC, TVC, TVC, TVC.
-|035:25:55|CMP|Okay, give it to the computer. Returns to zero. Go TVC TVC. Okay.
-|035:26:05|CMP|AC/DC. DIRECTS are MAIN A/MAIN B.
-|035:26:10|CMP|Okay, zero BMAGs.
-|035:26:14|CMP|Okay, 50 18. PROCEED.
-|035:26:19|CMP|ENTER it.
-|035:26:23|CMP|Okay. Uncage BMAGs.
-|035:26:31|CMP|Okay. Let's try a gimbal test. Plus 2, minus 2, 0, plus 2, minus 2, 0.
-|035:26:50|CMP|Okay, she went to trim. 02:38 to go. Okay, we'll reach - SCALE was 5 what?
-|035:26:59|SC|39.
-|035:27:00|CMP|Okay. RATE to HIGH.
-|035:27:04|CMP|Okay, EMS NORMAL at 1 minute. Yes, we use bank A.
-|035:27:28|CMP|This second burn, use bank A only. Okay, so in 3 seconds, Jack.
-|035:27:43|CMP|Okay, cycle to ..., MIN, RATE to HIGH, DIRECT, CMC AUTO; uncaged, RATE COMMAND, GIMBAL MOTORS, LM/CSM and GIM - AUTO.
-|035:27:58|CDR|Okay, Houston. 01:30 and we're GO on board for the burn.
-|035:28:03|CC|Roger.
+|035:26:02|CMP|Okay, we'll give it to the computer. Clockwise. Go TVC TVC. Okay, PITCH 2.
+|035:26:11|CMP|MARK it. Got it. YAW 2.
+|035:26:13|CMP|MARK it. Got it? Okay, got the trim, about a plus 12 and a minus 0.1. TVC, TVC, TVC, TVC.
+|035:26:28|CMP|Okay, give it to the computer. Returns to zero. Go TVC TVC. Okay.
+|035:26:38|CMP|AC/DC. DIRECTS are MAIN A/MAIN B.
+|035:26:42|CMP|Okay, zero BMAGs.
+|035:26:46|CMP|Okay, 50 18. PROCEED.
+|035:26:51|CMP|ENTER it.
+|035:26:55|CMP|Okay. Uncage BMAGs.
+|035:27:03|CMP|Okay. Let's try a gimbal test. Plus 2, minus 2, 0, plus 2, minus 2, 0.
+|035:27:23|CMP|Okay, she went to trim. 02:38 to go. Okay, we'll reach - SCALE was 5 what?
+|035:27:31|CDR|39.
+|035:27:32|CMP|Okay. RATE to HIGH.
+|035:27:37|CMP|Okay, EMS NORMAL at 1 minute. Yes, we use bank A.
+|035:28:01|CMP|This second burn, use bank A only. Okay, so in 3 seconds, Jack.
+|035:28:16|CMP|Okay, cycle to ..., MIN, RATE to HIGH, DIRECT, CMC AUTO; uncaged, RATE COMMAND, GIMBAL MOTORS, LM/CSM and GIM - AUTO.
+|035:28:31|CDR|Okay, Houston. 01:30 and we're GO on board for the burn.
+|035:28:35|CC|Roger.
 ||||Tape 26/5|Page 184
-|035:28:05|CMP|Okay, Houston. No ullage.
-|035:28:12|CDR|Houston - Houston, I'm sure you've seen it. We're reading below the green band oxidizer pressure, about 163.
-|035:28:23|CC|Roger.
-|035:28:33|CMP|(Singing) Okay. Let's wait until 30 seconds and
-|035:28:37|CMP|CONTROL POWER is ON. ... DELTA-V THRUST A switch. Get it and EMS at 30 seconds. Ullage - no ullage.
-|035:28:56|CDR|... an average G is coming.
-|035:29:02|CMP|EMS to NORMAL. DELTA-V THRUST A is ON. Okay, no manuals to it. You'll get the 99 - Okay?
-|035:29:19|CMP|10 seconds, Houston.
-|035:29:22|CC|Roger.
-|035:29:28|CMP|99.
-|035:29:30|CMP|Uh-hoo! There we go. Lift-off!
-|035:29:33|CDR|Okay. The burn is on time and - au - auto shutdown
-|035:29:36|CC|Roger.
-|035:29:37|CMP|Okay. Let's see what kind of trim we got. Yes, we trimmed it. Trimmed it to 0.2. Yes. Less than 2. Okay, plus 7 on the EMS.
-|035:29:51|CC|Roger - -
-|035:29:51|CMP|I mean on the R-l. (Laughter)
-|035:29:57|CMP|Okay, we'll trim it out to 2. Plus 0.3. One more chance. Okay, there we go.
+|035:28:38|CMP|Okay, Houston. No ullage.
+|035:28:44|CDR|Houston - Houston, I'm sure you've seen it. We're reading below the green band oxidizer pressure, about 163.
+|035:28:55|CC|Roger.
+|035:29:00|CMP|(Singing) Okay. Let's wait until 30 seconds and
+|035:29:09|CMP|CONTROL POWER is ON. ... DELTA-V THRUST A switch. Get it and EMS at 30 seconds. Ullage - no ullage.
+|035:29:29|CDR|... an average G is coming.
+|035:29:30|CMP|Okay, average G is coming. EMS to NORMAL. DELTA-V THRUST A is ON. Okay, no manuals to it. You'll get the 99 - Okay?
+|035:29:52|CMP|10 seconds, Houston.
+|035:29:54|CC|Roger.
+|035:30:00|CMP|99.
+|035:30:03|CMP|Uh-hoo! There we go. Lift-off!
+|035:30:05|CDR|Okay. The burn is on time and - au - auto shutdown
+|035:30:08|CC|Roger.
+|035:30:10|CMP|Okay. Let's see what kind of trim we got. Yes, we trimmed it. Trimmed it to 0.2. Yes. Less than 2. Okay, plus 7 on the EMS.
+|035:30:23|CC|Roger - -
+|035:30:24|CMP|I mean on the R-l. (Laughter)
+|035:30:30|CMP|Okay, we'll trim it out to 2. Plus 0.3. One more chance. Okay, there we go.
 |035:30:11|CDR|Okay, Houston. You're looking at NOUN 85, and the EMS is minus 3.3.
 ||||Tape 26/6|Page 185
-|035:30:16|CC|Roger, Gene.
-|035:30:17|CMP|Okay, gimbal motors check. Two -
-|035:30:21|CMP|MARK it. Two -
-|035:30:24|CMP|MARK it. One -
-|035:30:26|CMP|MARK it. One -
-|035:30:29|CMP|MARK it.
-|035:30:32|CMP|Okay. SERVO POWER is OFF.
-|035:30:37|CMP|TRANS CONTROL POWER and DIRECTS are OFF.
-|035:30:42|CMP|ULLAGE circuit breakers are OPEN. Hey, we just caught up with all the particles. They're all ... with us now.
-|035:31:02|CMP|DIRECTS are OFF. PITCH and YAW. PITCH, ROLL, and YAW 1 are OPENED. Okay, you got the DELTA-V counter?
-|035:31:25|CMP|Okay. BMAGs are caged. BUS TIES, JACK?
-|035:31:50|CMP|Okay. BUS TIES are OFF. BIT RATE to LOW, while you're up there.
-|035:32:25|CMP|That shouldn't change, I don't think; should it?
-|035:32:40|SC|Okay.
-|035:32:49|CDR|Houston, America.
-|035:32:51|CC|Go ahead.
-|035:33:00|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was .132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
-|035:33:37|CC|Roger.
+|035:30:49|CC|Roger, Gene.
+|035:30:50|CMP|Okay, gimbal motors check. Two -
+|035:30:54|CMP|MARK it. Two -
+|035:30:56|CMP|MARK it. One -
+|035:30:59|CMP|MARK it. One -
+|035:31:02|CMP|MARK it.
+|035:31:05|CMP|Okay. SERVO POWER is OFF.
+|035:31:10|CMP|TRANS CONTROL POWER and DIRECTS are OFF.
+|035:31:15|CMP|ULLAGE circuit breakers are OPEN. Hey, we just caught up with all the particles. They're all ... with us now.
+|035:31:34|CMP|Okay, DIRECTS are OFF. PITCH and YAW. PITCH, ROLL, and YAW 1 are OPENED. Okay, you got the DELTA-V counter?
+|035:31:58|CMP|Okay. BMAGs are caged. BUS TIES, JACK?
+|035:32:23|CMP|Okay. BUS TIES are OFF. BIT RATE to LOW, while you're up there.
+|035:32:58|CMP|That shouldn't change, I don't think; should it?
+|035:33:04|SC|Okay.
+|035:33:22|CDR|Houston, America.
+|035:33:23|CC|Go ahead.
+|035:33:32|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was .132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
+|035:34:09|CC|Roger.
 ||||Tape 26/7|Page 186
-|035:34:24|CMP|PAN CAMERA'S OFF. MAPPING CAMERA's OFF, huh? And SM/AC POWER will be coming OFF, shortly.
-|035:35:21|LMP|You know, Houston, we must of caught up with everyone of those particles. Because we're right in the middle of them. They're going kind of in a random fashion. Most of them are drifting right along with us. Some of them are going against us and away from us. But before we did the burn - you know, the propulsion, they got out of the vent. Sent them all away from us in what looked like - in more or less the X-direction.
-|035:35:48|CC|How about that.
-|035:35:53|LMP|... we really got a star field out there now (laughter).
-|035:35:57|CC|Roger.
-|035:35:58|CDR|Say, Gordy, the LM/CM DELTA-P is 1 - That's 1.0. You want me to go to TUNNEL VENT?
-|035:36:08|CC|Stand by.
-|035:36:24|CC|Yes, that's affirmative, Geno. You have a GO for TUNNEL VENT valve, VENT.
-|035:36:30|CDR|Okay.
+|035:34:57|CMP|PAN CAMERA'S OFF. MAPPING CAMERA's OFF, huh? And SM/AC POWER will be coming OFF, shortly.
+|035:35:53|LMP|You know, Houston, we must of caught up with everyone of those particles. Because we're right in the middle of them. They're going kind of in a random fashion. Most of them are drifting right along with us. Some of them are going against us and away from us. But before we did the burn - you know, the propulsion, they got out of the vent. Sent them all away from us in what looked like - in more or less the X-direction.
+|035:36:21|CC|How about that.
+|035:36:26|LMP|... we really got a star field out there now (laughter).
+|035:36:30|CC|Roger.
+|035:36:31|CDR|Say, Gordy, the LM/CM DELTA-P is 1 - That's 1.0. You want me to go to TUNNEL VENT?
+|035:36:41|CC|Stand by.
+|035:36:57|CC|Yes, that's affirmative, Geno. You have a GO for TUNNEL VENT valve, VENT.
+|035:36:03|CDR|Okay.
 |035:41:09|CC|17, Houston.
 |035:41:15|CMP|Roger. Go ahead.
 |035:41:16|CC|Okay, we do want to put BATTERY A back on CHARGE as shown in the Flight Plan. And, also, I have a new flyby pad. No hurry on this one, but it's a flyby pad post-MCC-2.
@@ -4725,6 +4743,7 @@
 |063:15:56|LMP|I'll get some shots of that next time around. That's a spectacular pattern. You almost get the feeling that the cold airmass moving out of Antarctica streams for a while north/south. And then it picks - The cloud patterns change and as it starts to migrate, the winds start to change from east to west, Maybe that's where it encounters the Jetstream.
 |063:16:25|CC|Roger.
 |063:18:04|PAO|This is Apollo Control. Going through an antenna switch at the present time.
+|
 |063:19:29|CC|America, Houston. I have a couple of miscellaneous items here.
 |063:19:46|CMP|Okay; go ahead.
 |063:19:47|CC|Okay. We'd like you to disable B2 and D2 just for a drill here.
@@ -24216,9 +24235,8 @@
 |168:46:11|CC|- - that's the flag, I bet, on the charge.
 |168:46:16|CDR-EVA|Yes, but it's only - you're looking right at it, but it's only 10 meters away.
 |168:46:21|CC|Okay. It's hanging in front of the hills. That's the problem.
-|168:46:23|CDR-EVA|You're looking right at the flag.
-|168:46:24|CC|Okay. It's hanging in front of the hills. We thought we had an artifact or something like that. Okay. Press on.
-|168:46:35|LMP-EVA|Bob, bag 486 is a light-colored rock taken about 3 meters to the right of the Rover. It should be - you should be able to pick it out in that last pan, unless the focus was bad.
+|rrent Orbit 66.1 at apocynthion and 61.8 pericynthion, those are nautical miles. We'll stand by here as we wait for the wakeup call from the spacecraft communicator, Bob Overmyer. And whatever the music selection is this morning, which is becoming tradition for wakeup. We'll standby here for wakeup call.
+|ould be able to pick it out in that last pan, unless the focus was bad.
 ||||Tape 111A/39|Page 1683
 |168:46:53|CDR-EVA|Bob, you got all your TG readings?
 |168:46:55|CC|Roger. We've got that. We'd like to have you climb on.
@@ -35590,4 +35608,4 @@
 |305:32:55|EVANS|Thank you, Gene, General Green, - Captain Green, (Laughter) Admiral. You know, about 6-1/2 years ago, I was fortunate enough to be on the Ticonderoga, where I was notified, of my selection to the Astronaut Corps. I think it's quite fitting that I should happen to have the opportunity to be picked up by the Tico after our journey to the Moon. To me that's really something. The fact that, it was the Ticonderoga, is part of the United States Navy, the fact that I'm a Commander in the United States Navy, and I flew the United States Spacecraft America, to the Moon and back, I'm really honored and I'm proud. That's about the best way I can express it. And I think right now I'd like to present our, not our 3rd crew member, but the 3rd member of the Apollo 17 crew. Jack Schmitt. (Applause)
 |305:34:08|LMP|Thank you. I'm happy to be here and I guess I never will be Navy. (Laughter) I'm sorry. But, if there was ever a team I'd like to be part of it's this one. Thank you very much. (Applause)
 |305:34:33|SPEAKER|And so the Astronauts are done with their ceremony and are doing what the sheet told them to not to do, they're shaking hands over there. The sheet said just step off the platform turn left and wave or salute, but they either forgot or decided to go ahead and do their thing anyway. The doctors had thought that the shaking of hands would take too much time away from their experiments. And now, Dr. Don ... is herding them away. He's got one, he's got two, he's got three. They're all going down below, for their medical examinations. (music)
-|305:35:24|SPEAKER|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonderoga.
+|305:35:24|SPEAKER|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonde
