@@ -1,324 +1,322 @@
-|000:03:53 - Joke: BTW the cabin's sealed.
-|000:32:02 - Audio cuts off. Next clip (766-AAA) starts at 002:49:00.
-|003:32:04 - photos mentioned
-|005:08:38 - photos mentioned
-|007:56:44 - photos mentioned
-|011:26:00 - 014:57:56 - Sleep time with large audiogaps.
-|020:00:22 - photos mentioned
-|022:27:27 - |022:27:41 photos mentioned
-|024:17:53 - photos mentioned
-|024:48:42 - leading in to sleep period audio missing. Entire 772-AAA audio tape missing from Internet Archive (no longer missing 1/1/2015). Sleep gap until 033:01:00
-|024:51:32 - Jack philosophical about the earth - "somebody, probably 3-1/2 billion years ago or so, could have looked at the Earth and described patterns not too dissimilar."
-|024:54:06 - Jack wishes there was a poet onboard
-|025:26:14 - CC parker will wake you up - LMP (joking) "oh god".
-|029:27:01 - half-way point to the moon discussed as occurring at Ground Elapsed Time of 30 hours, 3 minutes, no seconds.
-|033:01:06 - |035:06:54 - Missing audio (no longer missing)
-|034:10:07 - news read to crew
-|034:29:28 - photos mag NN
-|035:30:03 - mid-course correction burn #2
-|037:00:40 - music
-|038:34:05 - photos mentioned |038:34:29
-|040:00:00 - ||NOTE: During the period 01 l6 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
-|040:21:20 - Air-to-Ground 1 Air-to-Ground 2 split
-|040:53:01 - asking Jack to take internal picture
-|041:15:47 - very staticy "hello houston, America"
-|042:57:34 - experiment start
-|045:47:50 - picture of experiment request
-|046:07:22 - picture taken |046:07:42
-|046:11:20 - picture frame reference
-|046:46:58 - meal period
-|046:42:55 - POSSIBLE ERROR - announced as a replay but no previous index given
-|047:59:15 - photo frame and mag reference
-|048:14:55 - references more weather photos
-|056:55:02 - unable to wake up
-|059:20:41 - photo reference
-|059:57:53 - entering the LM 2nd time
-|060:11:34 - 16mm magazine II requested for opportunity interior photos
-|060:12:12 - 16mm magazine HH was referred to as used during the heat flow experiment
-|060:33:11 - 50% remaining on II 16mm magazine - 6FPS
-|060:53:56 - |CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
-|062:57:33 - clock change review - laughter at the complexity
-|063:20:19 - Film budget discussion
-|064:28:22 - Photo taken of the earth
-|064:48:12 - pictures taken
-|065:00:02 - clock moved forward 002:40:00
-|065:24:33 - photos taken
-|065:27:51 - ALFMED flash observations experiment begins
-|065:39:04 - photos taken
-|066:41:46 - photo taken
-|066:45:11 - 4 pictures taken
-|066:46:02 - Joke about position of S-IVB
-|068:44:33 - photo mentioned
-|071:07:15 - crew goes to sleep
-|079:44:49 - photo reference - frame 163 NN
-|081:43:27 - 16mm BB 75%
-|082:07:19 - |CMP|Okay, Houston. At 84:45, we've got about 2-1/2 to 3 minutes at 1 frame a second on mag Bravo Bravo, through the celestial adapter of the Earth.
-|082:37:45 - changing film mags from NN
-|084:06:30 - Sees moon for the first time
-|084:07:11 - CC says they'll miss the moon
-|084:36:11 - mentions private conversation time range
-|085:07:06 - Geologist speechless
-|086:02:07 - LOS
-|086:02:56 - ||BEGIN LUNAR REV 1
-|086:48:32 - pan camera power on
-|086:54:32 - you can hear photos being taken
-|087:02:31 - you can hear photos being taken
-|087:03:45 - you can hear photos being taken
-|087:04:51 - mag Kilo Kilo is 20, and Quebec Quebec is 42.
-|087:30:07 - OO instead of KK for science photos
-|087:38:11 - flash on the surface
-|090:00:37 - picture of the earth
-|091:10:08 - counting nav camera photos, one every second
-|091:18:15 - nav camera photo mags listed
-|091:29:49 - joke
-|091:48:55 - joke (barking)
-|093:11:19 - camera magazine
-|093:25:08 - description of radio/tv coverage
-|094:45:09 - photos - Oscar Oscar is on 93 now.
-|106:07:34 - SPLIT - LM / CSM now on different loops
-|106:35:36 - OO on hasselblad CMP
-|108:19:57 - photo of America over the landing site from Challenger
-|109:08:04 - begin rev 12
-|110:09:57 - PDI Ignition *******
-|110:13:13 - LANDED *******
-|112:16:09 - "whoever we are"
-|114:21:38 - Watches started on first EVA.
-|114:31:13 - FIRST STEP
-|114:34:50 - "don't lock the hatch"
-|114:38:57 - Challenge next generation
-|114:46:07 - "twinkle toes"
-|115:04:16 - rover active
-|115:08:50 - "don't run over me"
-|115:15:32 - joke: fly p-38 through here sometime
-|115:16:13 - joke: embarassed geologist
-|115:28:10 - joke: You seen one Earth, you've seen them all.
-|115:34:02 - television switched on
-|115:42:46 - planting flag - lots of photos taken. Speech.
-|116:47:19 - joke: nasa documents, Pin 2 comes before pin 1.
-|117:59:38 - "who's winning the football game?"
-|118:21:07 - falls over
-|118:55:48 - singing - strolling on the moon one day
-|119:43:45 - "nag nag nag"
-|119:50:12 - "I tried to blow the dust off my camera"
-|120:04:04 - photos for past 2 hours. Search for "pan".
-|120:48:14 - "something just hit here!"
-|121:35:40 - "challenging eva"
-|123:45:03 - geology debrief on EVA1
-|124:17:36 - mag bravo has 77 frames
-|124:19:35 - schmitt doesn't admit error
-|125:08:33 - lunar dust hay fever
-|125:31:15 - joking around about "parting shot"
-|126:50:00 - MISSING AUDIO - |126:50:00 - |133:46:58 (793-AAA missing)
-|134:04:13 - CMP frame 92
-|134:16:51 - joke: caltech finals week
-|135:58:08 - joke: can it talk? (asking about new weather satellite)
-|137:12:44 - EVA 2 start - hatch unlocked.
-|137:35:23 - joke: If I have any more water I'll float out there.
-|137:54:20 - EVA 2 clock starts
-|138:04:59 - cernan burps
-|138:18:17 - joke: bag of peanuts
-|138:21:34 - Pan is complete
-|138:51:48 - Begin travel to station 2 (7km travel)
-|139:14:55 - CC mentions "back room"
-|139:23:51 - LMP's camera has come loose
-|140:09:57 - cernan dusts lens at Station 2 "can I change your oil?"
-|140:19:45 - cernan "busting my butt" previously edited out of transcripts
-|140:40:03 - camera on "mother earth" - "isn't that pretty"
-|140:42:30 - "You know, I look out there, I'm not sure I really believe it all."
-|140:46:13 - "Maybe time's different in space. Adventures in space and time."
-|141:00:44 - "One-scoop-Schmitt, they call me."
-|141:36:33 - CC - "Roger. In fact, we understand it's been going so smooth down here that they haven't even spilled any coffee in the SPAN room yet this mission."
-|142:11:56 - Help twinkle toes
-|142:16:26 - "Houston Ballet Foundation ... requesting your services for next season"
-|142:46:29 - orange soil here
-|142:48:59 - cleaning tv camera lens
-|143:32:45 - Jack humming a camelot song
-|144:10:38 - Cernan. Hippity-hoppity, hippity-hoppity, hippity-hopping over hill and dale. (Singing)
-|145:12:04 - dusting off. "glad they can't see this" "Oh, I stand out here and I look at that flag, and I look at the Rover, and I look at those massifs. It's still hard to believe. |145:12:11|LMP-EVA|What did we deserve to do - do to deserve being out here, huh?
-|149:41:03 - tracks left behind. what will be the next thing to disturb those tracks?
-|153:24:41 - CMP, what to call orbital adjustment maneuver.
-|154:09:22 - 1270 pictures taken so far.
-|157:44:02 - END OF CMP COVERAGE
-|158:08:36 - |160:32:41 - MISSING AUDIO
-|161:27:08 - |LMP-EVA|Tallest man on the Moon right now.
-|161:53:33 - *** major original transcript discrepancy. Many lines moved to unused. cut lines resume at |161:56:28
-|161:59:18 - "getting to be ridiculous"
-|162:06:21 - turning point rock photos
-|162:20:57 - You can see schmitt's face on tv
-|162:27:45 - hammering boulder
-|162:49:17 - |CDR-EVA|Feel like a kid playing in a sandbox.
-|162:56:42 - Gene falls
-|162:56:54 - Joke: remind me to dust my camera
-|163:05:32 - takes pictures of the LM from station. magazine L?
-|163:31:38 - dusting lens. "I wouldn't do this for just anyone"
-|163:45:07 - photos: jack taking a big pan
-|164:11:17 - Jack running across the surface. "I think your LMP just ran away."
-|164:21:40 - hammering rock "that probably went into orbit".
-|164:26:57 - Jack running and bouncing down hill.
-|164:27:26 - Jack skis down hill.
-|164:30:03 - Gene two legged hopping "I can cover ground like a kangaroo"
-|164:45:34 - |CDR-EVA|It sounds like Bob's stepping on his foot mike.
-|164:54:44 - keeps trying to blow the dust off his camera.
-|165:18:36 - photos: 123 frame count.
-|165:22:23 - |LMP-EVA|Tiptoe through the tulips (singing) - -
-|165:24:32 - standing on cliff giving geology observations
-|165:40:48 - great zoom out to show Cernan standing alone.
-|165:43:06 - Jack singing
-|165:56:16 - decide to scrub Station 10
-|166:04:22 - "can't get SESC and roll at the same time"
-|166:05:57 - CC asking about strange object on the surface in the distance
-|166:35:19 - |LMP-EVA|Need your oil changed?
-|166:49:46 - astronauts exchange cameras
-|167:03:15 - Speech to young people
-|167:06:50 - Uncovering of the plaque
-|167:11:44 - throwing object
-|167:35:44 - "Okay. We'll consider ourselves tweaked."
-|167:39:56 - Parting the Rover.
-|167:41:46 - You can see Schmidt walking in the far distance near the LM from the final position of the rover.
-|167:42:08 - Cernan's speech about aerospace industry
-|167:47:29 - Gene walking back in the distance.
-|167:50:04 - Jack wants to throw the hammer.
-|168:00:18 - TV of the earth.
-|168:01:17 - Gene - Last steps speech.
-|168:21:34 - EVA stats.
-|168:38:43 - collecting samples after EVA.
-|169:21:52 - Chat with Charlie Duke.
-|169:31:51 - Ken Mattingly takes capcom from Bob Parker.
-|170:07:48 - Missing audio for several lines of transcript.
-|170:50:27 - Debrief on EVA questions over dinner.
-|171:04:13 - Spurt of dust by the window. Sleigh with it?
-|171:51:36 - Stowing mag Bravo and Nancy.
-|172:15:24 - Joke: How to get my visor up - give it to the CMP.
-|177:17:16 - "Jack's making up new geological terms as he goes along."
-|177:18:01 - Vertical dikelets - CMP prank
-|179:29:08 - |UNKNOWN|Anything to make you happy.
-|179:53:57 - Command module orbital burn.
-|180:57:11 - Schmitt reads xmas poem.
-|181:35:11 - missing audio starts
-|183:21:44 - missing audio ends
-|184:41:43 - missing television
-|185:13:39 - GO for lunar liftoff
-|185:21:28 - lunar liftoff ignition - TODO: revisit control room audio that's attached to rover video footage in this area
-|185:28:41 - engine shutdown
-|186:10:44 - president quote (read by PAO)
-|186:54:02 - bad audio right channel begins
-|187:01:32 - "good to see you"
-|187:40:42 - president quote transmitted to crew
-|188:01:30 - Hatch open and crew meet again
-|189:57:04 - Challenger going off the air
-|190:55:33 - |LMP|But that lubing is just so it collects dust to make them tight.
-|190:59:04 - Teasing Ron "We're tough, though, us guys that go to the lunar surface."
-|191:01:06 - |LMP|Well, you always were a bottom man.
-|191:18:33 - Detaching Challenger
-|193:12:44 - LM impact. They mention not seeing it on the TV.
-|193:17:29 - mention shutting off the TV camera (even though no video available for several hours previous)
-|193:50:46 - missing audio starts
-|195:57:12 - missing audio ends
-|204:07:00 - missing audio starts - missing PAO announcement
-|204:43:00 - missing audio ends 
-|205:05:34 - they don't like the wake-up music
-|205:28:09 - Jerry sends greetings and congratulations
-|205:58:55 - |LMP|Maybe that ratty data is me.
-|206:44:00 - much noise while expecting communication
-|207:08:20 - missing audio starts - entire 812-AAA.wav missing from Internet Archive - update Nov 2014, 812 added to project.
-|207:29:27 - pic: frame 55 on mag Romeo Romeo.
-|207:37:23 - "Can't tell about these geologists"
-|208:48:42 - pic: RR and JJ description
-|209:21:10 - pics: magazine Oscar Oscar
-|209:32:11 - pics: YY
-|209:35:36 - joke: missing scissors search
-|209:54:09 - joke: turning off voice so transcribers can catch up
-|211:17:09 - missing audio ends (no longer missing, Nov 2014).
-|211:38:29 - scientific experiment performance summary.
-|211:53:18 - laughter in mission control.
-|212:16:01 - missing TV coverage of seismic explosion. |212:45:14 detonation.
-|213:06:17 - orange material pictures being taken
-|213:20:00 - lots of photos being taken (to |213:38:00)
-|213:24:57 - pic: Oscar Oscar is empty
-|213:28:08 - pic: November November put on
-|213:39:34 - TEI joke. |CDR|These guys can call it what they like, but I know what it's going to be and when.
-|214:57:44 - picture frame 162 (NN)
-|214:59:05 - VV VNBW for the Nikon
-|215:14:21 - pic
-|215:14:42 - pic: 55 on RR
-|215:17:06 - P66 pics. many
-|216:44:54 - pic: waste water dump
-|216:55:54 - pic: talking about film availability
-|217:21:10 - santa joke
-|217:47:36 - |CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
-|225:31:01 - start of last day in lunar orbit
-|228:49:17 - pic: frames of mud craters in Smithii
-|229:04:42 - pics
-|229:22:44 - pic: VV 28
-|229:35:53 - charge detination
-|230:30:38 - pic: KK
-|230:41:30 - CMP bowel movement
-|230:44:44 - pic: mag PP 14
-|231:24:35 - closing mapping camera cover mistake
-|233:14:19 - PAN camera stereo failure
-|233:20:52 - |LMP|We'll leave this country - this part of this planet for the next group to explore, I guess.
-|233:27:52 - GO for TEI
-|233:41:52 - LOS before TEI burn
-|232:22:07 - Jack mentioning humans don't get to see the far side, but a trend has been started
-|229:28:01 - pictures mag PP
-|234:36:52 - reference to wow woozle
-|234:46:45 - great geology summary of lunar exploration
-|234:58:24 - speech from all three crew about accomplishments of apollo and mankind. excellent summary for this project too!
-|235:19:13 - old B-17 pilot joke.
-|235:22:44 - Jack weather joke.
-|235:32:50 - music to crew, then crew plays music to houston.
-|236:04:52 - picture - whole moon with the 80mm
-|237:49:35 - joke - biomed harnesses
-|246:57:01 - Good PAO summary of milestone times of trip home.
-|247:58:33 - joke about pronounciation
-|248:01:07 - pass moon/earth line of influence
-|249:45:06 - meal listing
-|249:57:29 - 69th anniversary of man's first flight in a heavier-than-air powered machine
-|252:15:11 - joke. Leave the tape on the flashlight so the light won't get out
-|252:34:22 - helmet on for CMP EVA
-|253:30:52 - missing audio starts (no longer missing)
-|253:46:29 - missing audio ends (no longer missing)
-|253:49:35 - missing audio starts (no longer missing)
-|253:59:21 - missing audio ends (no longer missing)
-|254:51:43 - Gene gives Ron advice on the EVA
-|254:58:29 - Ron loses the pen out the hatch.
-|255:00:53 - yells "Hey, there's the Earth, right out the hatch!"
-|255:05:18 - Ron waves at the camera
-|255:09:10 - Ron during his EVA: "Hey, this is great! Talk - talk about being a spaceman"
-|255:22:21 - "hello mom!"
-|255:39:46 - American flag visible on Ron's EVA suit.
-|255:48:32 - missing audio starts (no longer missing)
-|255:57:35 - |CDR|Not a bad performance by my CMP, was it?
-|259:19:17 - CDR freezing "something off"
-|262:56:01 - |CDR|Hey, how far are we from home?
-|263:00:17 - Preliminary mission science summary read to the crew on their trip back to Earth.
-|263:18:53 - report on Ron Evans' family's reaction to his EVA.
-|268:42:00 - Passes half-way point (time) on the return to Earth.
-|272:20:02 - Crew wakeup.
-|272:25:05 - (Music: Christmas carol recorded by Ron Evans' neighbors) John Evans (Ron's son:) Hi, Dad.
-|273:18:11 - Sports and news to the crew
-|273:24:57 - Looking for Santa
-|273:30:01 - Guys in the trench ribbing the NAVY ship crew.
-|278:24:15 - Pictures: mag TT 35mm
-|279:45:53 - CMP eating upside down
-|281:00:11 - missing audio ends (no longer missing)
-|281:26:36 - crew television interview
-|282:44:27 - Santa visits the MOCR
-|283:35:13 - joke: |LMP|Doesn't it bother you to wield such power, Gordy?
-|283:38:24 - joke: first time we've seen the earth in several days "standing by for a weather report".
-|286:55:31 - missing audio starts
-|296:48:28 - missing audio ends
-|297:41:47 - |CC| "last of the PADs"
-|298:20:30 - Christmas spirit. Looks like it's really snowing (out the window)
-|298:37:18 - 30 seconds to mid-course correction burn 7.
-|299:29:56|CMP|SIM bay has been outstanding.
-|299:55:21 - missing audio starts
-|300:54:52 - missing audio ends
-|301:23:50 - CM / SM SEP
-|301:38:57 - beginning blackout
-|301:47:18 - main parachutes open
-|301:51:59 - SPLASHDOWN.
-|302:50:07 - cernan speech about learning from their experiences for years to come
-|302:56:35 - AUDIO ENDS
-
-
+|000:03:53| - Joke: BTW the cabin's sealed.
+|000:32:02| - Audio cuts off. Next clip (766-AAA) starts at 002:49:00.
+|003:32:04| - photos mentioned
+|005:08:38| - photos mentioned
+|007:56:44| - photos mentioned
+|011:26:00| - 014:57:56 - Sleep time with large audiogaps.
+|020:00:22| - photos mentioned
+|022:27:27| - |022:27:41 photos mentioned
+|024:17:53| - photos mentioned
+|024:48:42| - leading in to sleep period audio missing. Entire 772-AAA audio tape missing from Internet Archive (no longer missing 1/1/2015). Sleep gap until 033:01:00
+|024:51:32| - Jack philosophical about the earth - "somebody, probably 3-1/2 billion years ago or so, could have looked at the Earth and described patterns not too dissimilar."
+|024:54:06| - Jack wishes there was a poet onboard
+|025:26:14| - CC parker will wake you up - LMP (joking) "oh god".
+|029:27:01| - half-way point to the moon discussed as occurring at Ground Elapsed Time of 30 hours, 3 minutes, no seconds.
+|033:01:06| - |035:06:54 - Missing audio (no longer missing)
+|034:10:07| - news read to crew
+|034:29:28| - photos mag NN
+|035:30:03| - mid-course correction burn #2
+|037:00:40| - music
+|038:34:05| - photos mentioned |038:34:29
+|040:00:00| - ||NOTE: During the period 01 16 00 XX to 01 18 21 XX, the CMP aboard America was switched to the GOSS 2 net, for which time-annotated recordings are not available.
+|040:21:20| - Air-to-Ground 1 Air-to-Ground 2 split
+|040:53:01| - asking Jack to take internal picture
+|041:15:47| - very staticy "hello houston, America"
+|042:57:34| - experiment start
+|045:47:50| - picture of experiment request
+|046:07:22| - picture taken |046:07:42
+|046:11:20| - picture frame reference
+|046:46:58| - meal period
+|046:42:55| - POSSIBLE ERROR - announced as a replay but no previous index given
+|047:59:15| - photo frame and mag reference
+|048:14:55| - references more weather photos
+|056:55:02| - unable to wake up
+|059:20:41| - photo reference
+|059:57:53| - entering the LM 2nd time
+|060:11:34| - 16mm magazine II requested for opportunity interior photos
+|060:12:12| - 16mm magazine HH was referred to as used during the heat flow experiment
+|060:33:11| - 50% remaining on II 16mm magazine - 6FPS
+|060:53:56| - |CDR|Okay. We're up to frame count 151 on magazine November November. They've been pictures of the -primarily of the CSM out the LM windows by the CMP.
+|062:57:33| - clock change review - laughter at the complexity
+|063:20:19| - Film budget discussion
+|064:28:22| - Photo taken of the earth
+|064:48:12| - pictures taken
+|067:40:02| - clock moved forward 002:40:00
+|068:04:33| - photos taken
+|068:07:51| - ALFMED flash observations experiment begins
+|068:19:04| - photos taken
+|069:21:46| - photo taken
+|069:25:11| - 4 pictures taken
+|069:26:02| - Joke about position of S-IVB
+|071:24:33| - photo mentioned
+|073:47:15| - crew goes to sleep
+|082:24:49| - photo reference - frame 163 NN
+|084:23:27| - 16mm BB 75%
+|084:47:19| - |CMP|Okay, Houston. At 84:45, we've got about 2-1/2 to 3 minutes at 1 frame a second on mag Bravo Bravo, through the celestial adapter of the Earth.
+|085:17:45| - changing film mags from NN
+|086:46:30| - Sees moon for the first time
+|086:47:11| - CC says they'll miss the moon
+|087:16:11| - mentions private conversation time range
+|087:47:06| - Geologist speechless
+|088:42:07| - LOS
+|088:42:56| - ||BEGIN LUNAR REV 1
+|089:28:32| - pan camera power on
+|089:34:32| - you can hear photos being taken
+|089:42:31| - you can hear photos being taken
+|089:43:45| - you can hear photos being taken
+|089:44:51| - mag Kilo Kilo is 20, and Quebec Quebec is 42.
+|090:10:07| - OO instead of KK for science photos
+|090:18:11| - flash on the surface
+|092:40:37| - picture of the earth
+|093:50:08| - counting nav camera photos, one every second
+|093:58:15| - nav camera photo mags listed
+|094:09:49| - joke
+|094:28:55| - joke (barking)
+|095:51:19| - camera magazine
+|096:05:08| - description of radio/tv coverage
+|097:25:09| - photos - Oscar Oscar is on 93 now.
+|108:47:34| - SPLIT - LM / CSM now on different loops
+|109:15:36| - OO on hasselblad CMP
+|110:59:57| - photo of America over the landing site from Challenger
+|111:48:04| - begin rev 12
+|112:49:57| - PDI Ignition *******
+|113:02:01| - LANDED *******
+|114:56:09| - "whoever we are"
+|117:01:38| - Watches started on first EVA.
+|117:11:13| - FIRST STEP
+|117:14:50| - "don't lock the hatch"
+|117:18:57| - Challenge next generation
+|117:26:07| - "twinkle toes"
+|117:44:16| - rover active
+|117:48:50| - "don't run over me"
+|117:55:32| - joke: fly p-38 through here sometime
+|117:56:13| - joke: embarassed geologist
+|118:08:10| - joke: You seen one Earth, you've seen them all.
+|118:14:02| - television switched on
+|118:22:46| - planting flag - lots of photos taken. Speech.
+|119:27:19| - joke: nasa documents, Pin 2 comes before pin 1.
+|120:39:38| - "who's winning the football game?"
+|121:01:07| - falls over
+|121:35:48| - singing - strolling on the moon one day
+|122:23:45| - "nag nag nag"
+|122:30:12| - "I tried to blow the dust off my camera"
+|122:44:04| - photos for past 2 hours. Search for "pan".
+|123:28:14| - "something just hit here!"
+|124:15:40| - "challenging eva"
+|126:25:03| - geology debrief on EVA1
+|126:57:36| - mag bravo has 77 frames
+|126:59:35| - schmitt doesn't admit error
+|127:48:33| - lunar dust hay fever
+|128:11:15| - joking around about "parting shot"
+|129:30:00| - MISSING AUDIO - |129:30:00 - |133:46:58 (793-AAA missing)
+|136:44:13| - CMP frame 92
+|136:56:51| - joke: caltech finals week
+|138:38:08| - joke: can it talk? (asking about new weather satellite)
+|139:52:44| - EVA 2 start - hatch unlocked.
+|140:15:23| - joke: If I have any more water I'll float out there.
+|140:34:20| - EVA 2 clock starts
+|140:44:59| - cernan burps
+|140:58:17| - joke: bag of peanuts
+|141:01:34| - Pan is complete
+|141:31:48| - Begin travel to station 2 (7km travel)
+|141:54:55| - CC mentions "back room"
+|142:03:51| - LMP's camera has come loose
+|142:49:57| - cernan dusts lens at Station 2 "can I change your oil?"
+|142:59:45| - cernan "busting my butt" previously edited out of transcripts
+|143:20:03| - camera on "mother earth" - "isn't that pretty"
+|143:22:30| - "You know, I look out there, I'm not sure I really believe it all."
+|143:26:13| - "Maybe time's different in space. Adventures in space and time."
+|143:40:44| - "One-scoop-Schmitt, they call me."
+|144:16:33| - CC - "Roger. In fact, we understand it's been going so smooth down here that they haven't even spilled any coffee in the SPAN room yet this mission."
+|144:51:56| - Help twinkle toes
+|144:56:26| - "Houston Ballet Foundation ... requesting your services for next season"
+|145:26:29| - orange soil here
+|145:28:59| - cleaning tv camera lens
+|146:12:45| - Jack humming a camelot song
+|146:50:38| - Cernan. Hippity-hoppity, hippity-hoppity, hippity-hopping over hill and dale. (Singing)
+|147:52:04| - dusting off. "glad they can't see this" "Oh, I stand out here and I look at that flag, and I look at the Rover, and I look at those massifs. It's still hard to believe. |145:12:11|LMP-EVA|What did we deserve to do - do to deserve being out here, huh?
+|152:21:03| - tracks left behind. what will be the next thing to disturb those tracks?
+|156:04:41| - CMP, what to call orbital adjustment maneuver.
+|156:49:22| - 1270 pictures taken so far.
+|160:24:02| - END OF CMP COVERAGE
+|160:48:36| - |160:32:41 - MISSING AUDIO
+|164:07:08| - |LMP-EVA|Tallest man on the Moon right now.
+|164:33:33| - *** major original transcript discrepancy. Many lines moved to unused. cut lines resume at |161:56:28
+|164:39:18| - "getting to be ridiculous"
+|164:46:21| - turning point rock photos
+|165:00:57| - You can see schmitt's face on tv
+|165:07:45| - hammering boulder
+|165:29:17| - |CDR-EVA|Feel like a kid playing in a sandbox.
+|165:36:42| - Gene falls
+|165:36:54| - Joke: remind me to dust my camera
+|165:45:32| - takes pictures of the LM from station. magazine L?
+|166:11:38| - dusting lens. "I wouldn't do this for just anyone"
+|166:25:07| - photos: jack taking a big pan
+|166:51:17| - Jack running across the surface. "I think your LMP just ran away."
+|167:01:40| - hammering rock "that probably went into orbit".
+|167:06:57| - Jack running and bouncing down hill.
+|167:07:26| - Jack skis down hill.
+|167:10:03| - Gene two legged hopping "I can cover ground like a kangaroo"
+|167:25:34| - |CDR-EVA|It sounds like Bob's stepping on his foot mike.
+|167:34:44| - keeps trying to blow the dust off his camera.
+|167:58:36| - photos: 123 frame count.
+|168:02:23| - |LMP-EVA|Tiptoe through the tulips (singing) - -
+|168:04:32| - standing on cliff giving geology observations
+|168:20:48| - great zoom out to show Cernan standing alone.
+|168:23:06| - Jack singing
+|168:36:16| - decide to scrub Station 10
+|168:44:22| - "can't get SESC and roll at the same time"
+|168:45:57| - CC asking about strange object on the surface in the distance "We thought we had an artifact or something like that"
+|169:15:19| - |LMP-EVA|Need your oil changed?
+|169:29:46| - astronauts exchange cameras
+|169:43:15| - Speech to young people
+|169:46:50| - Uncovering of the plaque
+|169:51:44| - throwing object
+|170:15:44| - "Okay. We'll consider ourselves tweaked."
+|170:19:56| - Parting the Rover.
+|170:21:46| - You can see Schmidt walking in the far distance near the LM from the final position of the rover.
+|170:22:08| - Cernan's speech about aerospace industry
+|170:27:29| - Gene walking back in the distance.
+|170:30:04| - Jack wants to throw the hammer.
+|170:40:18| - TV of the earth.
+|170:41:17| - Gene - Last steps speech.
+|171:01:34| - EVA stats.
+|171:18:43| - collecting samples after EVA.
+|172:01:52| - Chat with Charlie Duke.
+|172:11:51| - Ken Mattingly takes capcom from Bob Parker.
+|172:47:48| - Missing audio for several lines of transcript.
+|173:30:27| - Debrief on EVA questions over dinner.
+|173:44:13| - Spurt of dust by the window. Sleigh with it?
+|174:31:36| - Stowing mag Bravo and Nancy.
+|174:55:24| - Joke: How to get my visor up - give it to the CMP.
+|179:57:16| - "Jack's making up new geological terms as he goes along."
+|179:58:01| - Vertical dikelets - CMP prank
+|182:09:08| - |UNKNOWN|Anything to make you happy.
+|182:33:57| - Command module orbital burn.
+|183:37:11| - Schmitt reads xmas poem.
+|184:15:11| - missing audio starts
+|186:01:44| - missing audio ends
+|187:21:43| - missing television
+|187:53:39| - GO for lunar liftoff
+|188:01:28| - lunar liftoff ignition - TODO: revisit control room audio that's attached to rover video footage in this area
+|188:08:41| - engine shutdown
+|188:50:44| - president quote (read by PAO)
+|189:34:02| - bad audio right channel begins
+|189:41:32| - "good to see you"
+|190:20:42| - president quote transmitted to crew
+|190:41:30| - Hatch open and crew meet again
+|192:37:04| - Challenger going off the air
+|193:35:33| - |LMP|But that lubing is just so it collects dust to make them tight.
+|193:39:04| - Teasing Ron "We're tough, though, us guys that go to the lunar surface."
+|193:41:06| - |LMP|Well, you always were a bottom man.
+|193:58:33| - Detaching Challenger
+|195:52:44| - LM impact. They mention not seeing it on the TV.
+|195:57:29| - mention shutting off the TV camera (even though no video available for several hours previous)
+|196:30:46| - missing audio starts
+|198:37:12| - missing audio ends
+|206:47:00| - missing audio starts - missing PAO announcement
+|207:23:00| - missing audio ends 
+|207:45:34| - they don't like the wake-up music
+|208:08:09| - Jerry sends greetings and congratulations
+|208:38:55| - |LMP|Maybe that ratty data is me.
+|209:24:00| - much noise while expecting communication
+|209:48:20| - missing audio starts - entire 812-AAA.wav missing from Internet Archive - update Nov 2014, 812 added to project.
+|210:09:27| - pic: frame 55 on mag Romeo Romeo.
+|210:17:23| - "Can't tell about these geologists"
+|211:28:42| - pic: RR and JJ description
+|212:01:10| - pics: magazine Oscar Oscar
+|212:12:11| - pics: YY
+|212:15:36| - joke: missing scissors search
+|212:34:09| - joke: turning off voice so transcribers can catch up
+|213:57:09| - missing audio ends (no longer missing, Nov 2014).
+|214:18:29| - scientific experiment performance summary.
+|214:33:18| - laughter in mission control.
+|214:56:01| - missing TV coverage of seismic explosion. |212:45:14 detonation.
+|215:46:17| - orange material pictures being taken
+|216:00:00| - lots of photos being taken (to |213:38:00)
+|216:04:57| - pic: Oscar Oscar is empty
+|216:08:08| - pic: November November put on
+|216:19:34| - TEI joke. |CDR|These guys can call it what they like, but I know what it's going to be and when.
+|217:37:44| - picture frame 162 (NN)
+|217:39:05| - VV VNBW for the Nikon
+|217:54:21| - pic
+|217:54:42| - pic: 55 on RR
+|217:57:06| - P66 pics. many
+|219:24:54| - pic: waste water dump
+|219:35:54| - pic: talking about film availability
+|220:01:10| - santa joke
+|220:27:36| - |CMP|Bob, that's the most beautiful crescent Earth I've ever seen.
+|228:11:01| - start of last day in lunar orbit
+|231:29:17| - pic: frames of mud craters in Smithii
+|231:44:42| - pics
+|232:02:44| - pic: VV 28
+|232:15:53| - charge detination
+|233:10:38| - pic: KK
+|233:21:30| - CMP bowel movement
+|233:24:44| - pic: mag PP 14
+|234:04:35| - closing mapping camera cover mistake
+|235:54:19| - PAN camera stereo failure
+|236:00:52| - |LMP|We'll leave this country - this part of this planet for the next group to explore, I guess.
+|236:07:52| - GO for TEI
+|236:21:52| - LOS before TEI burn
+|235:02:07| - Jack mentioning humans don't get to see the far side, but a trend has been started
+|232:08:01| - pictures mag PP
+|237:16:52| - reference to wow woozle
+|237:26:45| - great geology summary of lunar exploration
+|237:38:24| - speech from all three crew about accomplishments of apollo and mankind. excellent summary for this project too!
+|237:59:13| - old B-17 pilot joke.
+|238:02:44| - Jack weather joke.
+|238:12:50| - music to crew, then crew plays music to houston.
+|238:44:52| - picture - whole moon with the 80mm
+|240:29:35| - joke - biomed harnesses
+|249:37:01| - Good PAO summary of milestone times of trip home.
+|250:38:33| - joke about pronounciation
+|250:41:07| - pass moon/earth line of influence
+|252:25:06| - meal listing
+|252:37:29| - 69th anniversary of man's first flight in a heavier-than-air powered machine
+|254:55:11| - joke. Leave the tape on the flashlight so the light won't get out
+|255:14:22| - helmet on for CMP EVA
+|256:10:52| - missing audio starts (no longer missing)
+|256:26:29| - missing audio ends (no longer missing)
+|256:29:35| - missing audio starts (no longer missing)
+|256:39:21| - missing audio ends (no longer missing)
+|257:31:43| - Gene gives Ron advice on the EVA
+|257:38:29| - Ron loses the pen out the hatch.
+|257:40:53| - yells "Hey, there's the Earth, right out the hatch!"
+|257:45:18| - Ron waves at the camera
+|257:49:10| - Ron during his EVA: "Hey, this is great! Talk - talk about being a spaceman"
+|258:02:21| - "hello mom!"
+|258:19:46| - American flag visible on Ron's EVA suit.
+|258:28:32| - missing audio starts (no longer missing)
+|258:37:35| - |CDR|Not a bad performance by my CMP, was it?
+|261:59:17| - CDR freezing "something off"
+|265:36:01| - |CDR|Hey, how far are we from home?
+|265:40:17| - Preliminary mission science summary read to the crew on their trip back to Earth.
+|265:58:53| - report on Ron Evans' family's reaction to his EVA.
+|271:22:00| - Passes half-way point (time) on the return to Earth.
+|275:00:02| - Crew wakeup.
+|275:05:05| - (Music: Christmas carol recorded by Ron Evans' neighbors) John Evans (Ron's son:) Hi, Dad.
+|275:58:11| - Sports and news to the crew
+|276:04:57| - Looking for Santa
+|276:10:01| - Guys in the trench ribbing the NAVY ship crew.
+|281:04:15| - Pictures: mag TT 35mm
+|282:25:53| - CMP eating upside down
+|283:40:11| - missing audio ends (no longer missing)
+|284:06:36| - crew television interview
+|285:24:27| - Santa visits the MOCR
+|286:15:13| - joke: |LMP|Doesn't it bother you to wield such power, Gordy?
+|286:18:24| - joke: first time we've seen the earth in several days "standing by for a weather report".
+|289:35:31| - missing audio starts
+|299:28:28| - missing audio ends
+|300:21:47| - |CC| "last of the PADs"
+|301:00:30| - Christmas spirit. Looks like it's really snowing (out the window)
+|301:17:18| - 30 seconds to mid-course correction burn 7.
+|302:09:56| - CMP|SIM bay has been outstanding.
+|302:35:21| - missing audio starts
+|303:34:52| - missing audio ends
+|304:03:50| - CM / SM SEP
+|304:18:57| - beginning blackout
+|304:27:18| - main parachutes open
+|304:31:59| - SPLASHDOWN.
+|305:30:07| - cernan speech about learning from their experiences for years to come
+|305:36:35| - AUDIO ENDS
