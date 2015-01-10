@@ -381,7 +381,7 @@
 ||||Tape 3/4|Page 19
 |000:44:02|CC|Roger. Pick you up at 01:17:24.
 |000:44:06|LMP|Roger.
-|000:58:24||STDN (REV 1/2)
+|000:44:06||STDN (REV 1/2)
 |000:44:57|PAO|This is Apollo Control. We're coming up now one 1 hour after liftoff for Apollo 17. And as you heard CAPCOM Robert Overmyer reporting to the crew that everything looks good, including the Saturn 3rd stage. Apparently the indication we had of a possible battery problem in the instrument unit nothing more than a bad bit of telemetry there. When the booster engineer got a good hard look at the telemetry on this pass, he reported everything looked good. We are ready at this point to begin the post-launch press conference at Cape Kennedy and we'll switch to Cape Kennedy and stand by for that press conference.
 |001:17:25|LMP|Hello, earthlings. We're back with you.
 |001:17:27|CC|Roger, Jack. Read you loud and clear; how us?
@@ -429,12 +429,12 @@
 |001:32:05|CDR|If you're talking about the Flight Plan, yes.
 |001:32:13|CC|Roger.
 ||||Tape 3/7|Page 22
-|001:31:16|CMP|What a waste.
+|001:32:16|CMP|What a waste.
 |001:32:32|LMP|If I'm not mistaken, we must be just south of Arizona now. is that right, Bob?
 |001:32:38|CC|That looks real good. Yes, you're over Mexico there, and looks like you're - oh - maybe a hundred miles south of the border there.
 |001:32:46|LMP|Okay. I was pretty sure I was looking up in the Phoenix-Tucson complex there.
 |001:32:51|CC|Roger. Understand.
-|001:32:34|LMP|Beautiful -
+|001:32:54|LMP|Beautiful -
 |001:32:56|CC|Little better than ... Florida.
 |001:33:02|LMP|The west is always that way. I wish it was daylight so we could see Sonora and that country. That's spectacular, I'll bet you.
 |001:33:13|CC|Roger. ...
@@ -447,7 +447,7 @@
 |001:34:04|CC|That's affirmative.
 |001:34:06|LMP|Okay.
 |001:34:07|CDR|And you're still coming up with a loud squeal.
-|001:34:04|CC|Roger. ...
+|001:34:08|CC|Roger. ...
 ||||Ta2e 3/8|Page 23
 |001:34:19|CC|17, how do you read?
 |001:34:21|LMP|Would you believe we're just south of Houston now, Bob?
@@ -499,7 +499,7 @@
 ||||Tape 3/11|Page 26
 |001:43:41|CC|Okay, we'll have to wait and pick you up at Ascension. We just had a keyhole pass at Bermuda, and a little bit of a pass at Vanguard.
 |001:43:49|LMP|Okay, I'll wait for you to finish that, and on the readback. Okay.
-|001:43:43|CC|That's affirmative. Stand by. We've got Vanguard, I can continue on with - after trunnion, the bore-sight Star is not applicable, Jack. NOUN 61, plus 13.29, minus 032.00; 1099.2, 34904; GET of .05G, 024:38:09. Want to read back that much of the pad, Jack?
+|001:43:54|CC|That's affirmative. Stand by. We've got Vanguard, I can continue on with - after trunnion, the bore-sight Star is not applicable, Jack. NOUN 61, plus 13.29, minus 032.00; 1099.2, 34904; GET of .05G, 024:38:09. Want to read back that much of the pad, Jack?
 |001:44:41|LMP|Okay, Bob. It's TLI plus 90 pad, SPS/G&N; 66953; minus 0.59, plus 1.88; 004:40:01.48; minus 0351.8, minus four zeros 1, plus 3378.2; 180, 073, 003; HA is NA; plus 0020.1; 3396.4, 4:54, 3380.8; 11, 342.4, 32.3. Boresight is NA; plus 13.29, minus 032.00; 1099.2, 34904; 024:38:09. Over.
 |001:45:49|CC|Roger, Jack. Good readback except burn time is 4:50 and not 4:54. And we'll be losing you here in about a minute, so wait on the rest of that pad. Just a reminder for Ron, we'll be standing by at Ascension for the next gyro torquing and we, might have a drift update on the IMU there,
 |001:46:17|LMP|Okay, he copied that. And we'll wait for the rest of the pad.
@@ -1567,7 +1567,7 @@
 ||||Tape 9/1|Page 89
 |008:58:10|CDR|Okay. That number on that mag is still 130, Bob.
 |008:58:13|CC|Okay. I copy that, Gene.
-|008:58:16|CDR|And Alfa Alfa, that l6-millimeter mag, is about 25 percent left.
+|008:58:16|CDR|And Alfa Alfa, that 16-millimeter mag, is about 25 percent left.
 |008:58:23|CC|Okay; copy that as well.
 |008:58:35|CC|And I guess as soon as you change the LiOH canister, if you have or haven't, and charge BATTERY Bravo, then we're ready for you to go to sleep at your leisure. Configuring your comm, remember the SQUELCH, ENABLE, and the VOICE, OFF, when you get ready to go to sleep.
 |008:59:31|CC|Roger, Apollo 17. We copy the film update, and we're ready for you to go to sleep once you've got the LiOH canister changed, if you haven't. And remember also the charge on brady - BATTERY Bravo. After that, it's just the comm configuration, SQUELCH, ENABLE, and VOICE, OFF, when you get ready to go to sleep.
@@ -2594,7 +2594,7 @@
 |024:49:39|CC|Read you loud and clear, Jack.
 |024:49:44|LMP|Okay. And it's in REACQ and NARROW.
 |024:49:47|CC|Stand by. Stand by on that, Jack.
-|024:49:30|CC|Say, Jack, can we refer you to the checklist on S/1-27, a sleep configuration there, where you S-BAND SQUELCH, ENABLE, et cetera?
+|024:50:30|CC|Say, Jack, can we refer you to the checklist on S/1-27, a sleep configuration there, where you S-BAND SQUELCH, ENABLE, et cetera?
 |024:50:44|LMP|Roger. I'm ENABLED.
 |024:50:55|LMP|Oh, et cetera. Yes.
 |024:51:00|CC|Roger.
@@ -2614,7 +2614,7 @@
 |024:59:30|CC|Say again, Jack.
 |024:59:34|LMP|Ambiguous is the best word I can think of for it.
 ||||Tape 19/8|Page 168
-|024:58:37|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "comm," and it says "OMNI," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
+|024:59:37|CC|Roger. We - I concur. I should have probably called you earlier and just pointed out on the Flight Plan where it says presleep checklist. And then there's the word "comm," and it says "OMNI," and that leads you into the checklist and makes sure you use the OMNI setup for - for the sleep configuration.
 |024:59:58|LMP|Ho, ho, ho. Tricky fellows. I guess you're right.
 |025:00:06|CC|Yes, it's something we don't - we don't - sim PTCs, TLCs, and TECs very often. That's for sure.
 |025:00:21|LMP|Well, that's because we have a whole day to learn out here.
@@ -2857,7 +2857,7 @@
 |035:30:23|CC|Roger - -
 |035:30:24|CMP|I mean on the R-l. (Laughter)
 |035:30:30|CMP|Okay, we'll trim it out to 2. Plus 0.3. One more chance. Okay, there we go.
-|035:30:11|CDR|Okay, Houston. You're looking at NOUN 85, and the EMS is minus 3.3.
+|035:30:43|CDR|Okay, Houston. You're looking at NOUN 85, and the EMS is minus 3.3.
 ||||Tape 26/6|Page 185
 |035:30:49|CC|Roger, Gene.
 |035:30:50|CMP|Okay, gimbal motors check. Two -
@@ -2886,7 +2886,7 @@
 |035:36:31|CDR|Say, Gordy, the LM/CM DELTA-P is 1 - That's 1.0. You want me to go to TUNNEL VENT?
 |035:36:41|CC|Stand by.
 |035:36:57|CC|Yes, that's affirmative, Geno. You have a GO for TUNNEL VENT valve, VENT.
-|035:36:03|CDR|Okay.
+|035:37:03|CDR|Okay.
 |035:41:09|CC|17, Houston.
 |035:41:15|CMP|Roger. Go ahead.
 |035:41:16|CC|Okay, we do want to put BATTERY A back on CHARGE as shown in the Flight Plan. And, also, I have a new flyby pad. No hurry on this one, but it's a flyby pad post-MCC-2.
