@@ -84,23 +84,23 @@ l6l:16:15|2|Lunar roving vehicle loaded for traverse, and performed panoramic an
 168:07:56|2|Lunar module cabin repressurized.
 178:54:05|1|Orbital trim maneuver
 179:53:54|1|Plane change
-185:21:37|1|Lunar as cent
-185:32:12|1|Lunar module vernier adjustment maneuver
-186:15:58|1|Terminal phase initiation
+185:21:37|1|Lunar ascent
+185:32:12|2|Lunar module vernier adjustment maneuver
+186:15:58|2|Terminal phase initiation
 187:37:15|1|Docking
-191:18:31|1|Lunar module jettison
-191:23:31|1|Separation maneuver
-192:58:14|1|Lunar module deorbit firing
-193:17:21|1|Lunar module impact -
+191:18:31|2|Lunar module jettison
+191:23:31|2|Separation maneuver
+192:58:14|2|Lunar module deorbit firing
+193:17:21|2|Lunar module impact
 234:02:09|1|Transearth injection
-254:54:40|1|Start transearth extravehicular activity
-256:00:24|1|End transearth extravehicular activity
+254:54:40|2|Start transearth extravehicular activity
+256:00:24|2|End transearth extravehicular activity
 298:38:01|1|Second midcourse correction
-301:23:49|1|Command module/service module separation
-301:38:38|1|Entiy interface (400 000 feet)
-301:38:55|1|Begin blackout
-301:42:15|1|End blackout
-301:46:20|1|Forward heat shield jettison
-301:46:22|1|Drogue deployment
-301:47:13|1|Main parachute deployment
+301:23:49|2|Command module/service module separation
+301:38:38|1|Reentery interface (400,000 feet)
+301:38:55|2|Begin reentry blackout
+301:42:15|2|End reentry blackout
+301:46:20|2|Forward heat shield jettison
+301:46:22|2|Drogue deployment
+301:47:13|2|Main parachute deployment
 301:51:59|1|Landing
