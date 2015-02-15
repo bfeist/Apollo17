@@ -24,12 +24,10 @@ for row in reader:
     if row[1] != "": #if not a TAPE change or title row
         loader = FileLoader('templates')
         template = loader.load_template('template_timelineitem.html')
-        outputFile.write(template.render({'timestamp': row[1], 'who': row[2], 'words': row[3]},
-                             loader=loader).encode('utf-8'))
-    if curRow > 1000:
-        break
+        outputFile.write(template.render({'timestamp': row[1], 'who': row[2], 'words': row[3]}, loader=loader).encode('utf-8'))
+    #if curRow > 1000:
+    #    break
 
 #WRITE FOOTER
 template = loader.load_template('template_footer.html')
-outputFile.write(template.render({'datarow': 0},
-            loader=loader).encode('utf-8'))
+outputFile.write(template.render({'datarow': 0}, loader=loader).encode('utf-8'))

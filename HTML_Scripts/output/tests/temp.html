@@ -96,6 +96,10 @@ function callPlayer(frame_id, func, args) {
 
 </script>
 
-<a href="javascript:void callPlayer(&quot;whateverID&quot;,&quot;playVideo&quot;)">Start</a> &bull; <a href="javascript:void callPlayer(&quot;whateverID&quot;,&quot;pauseVideo&quot;)">Pause</a> &bull; <a href="javascript:void callPlayer(&quot;whateverID&quot;,&quot;stopVideo&quot;)">Stop</a> - Hover over the links to see the called function
+<a href="javascript:void callPlayer('videoFrameElement','playVideo')">Start</a>&bull;
+<a href="javascript:void callPlayer('videoFrameElement','pauseVideo')">Pause</a>&bull;
+<a href="javascript:void callPlayer('videoFrameElement','stopVideo')">Stop</a> - Hover over the links to see the called function
 <br />
-<div id="whateverID"><iframe width="640" height="390" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/GrLKWEphq8w?enablejsapi=1"></iframe></div>
+<div id="videoFrameElement">
+    <iframe width="640" height="390" frameborder="0" title="YouTube video player" type="text/html" src="http://www.youtube.com/embed/7W5OAnCC5EA?enablejsapi=1"></iframe>
+</div>

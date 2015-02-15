@@ -1,4 +1,5 @@
-000:00.00|1|Lift-off (Range zero = 342:05:33:00 GMT)|
+-022:00:00|1|Preparation and Countdown.|
+000:00:00|1|Lift-off (Range zero = 342:05:33:00 GMT)|
 000:11:53|1|Earth orbit insertion|
 003:12:37|1|Translunar injection maneuver|
 003:42:29|1|S-IVB/command and service module separation|
@@ -58,8 +59,8 @@
 145:19:24|2|Traverse gravimeter experiment reading obtained.|
 145:32:02|2|Lunar module cabin repressurized.|
 160:52:48|1|Start third extravehicular activity.|
-l6l:02:40|2|Traverse gravimeter experiment reading obtained.|
-l6l:16:15|2|Lunar roving vehicle loaded for traverse.|Performed panoramic and 500-mm photography.
+161:02:40|2|Traverse gravimeter experiment reading obtained.|
+161:16:15|2|Lunar roving vehicle loaded for traverse.|Performed panoramic and 500-mm photography.
 161:19:45|2|Traverse gravimeter experiment reading obtained.|
 161:20:17|2|Cosmic ray experiment retrieved.|
 161:36:31|2|Departed for surface electrical properties experiment site.|
@@ -69,7 +70,7 @@ l6l:16:15|2|Lunar roving vehicle loaded for traverse.|Performed panoramic and 50
 163:22:10|2|Departed for station 7.|
 163:29:05|2|Arrived at station 7.|Gathered samples and performed documentary and panoramic photography.
 163:51:09|2|Departed for station 8.|One short stop to gather enroute samples.
-164:07:40.2||Arrived at station 8.|Two traverse gravimeter experiment readings obtained, gathered samples including rake and trench samples, and performed documentary and panoramic photography.
+164:07:40|2||Arrived at station 8.|Two traverse gravimeter experiment readings obtained, gathered samples including rake and trench samples, and performed documentary and panoramic photography.
 164:55:33|2|Departed for station 9.|
 165:13:10|2|Arrived at station 9.|Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double coretube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from surface electrical properties receiver.
 166:09:25|2|Departed for the lunar module.|Two short stops, one to gather enroute samples and the other to deploy seismic profiling experiment explosive charge 2 and perform documentary and panoramic photography.
@@ -103,4 +104,4 @@ l6l:16:15|2|Lunar roving vehicle loaded for traverse.|Performed panoramic and 50
 301:46:22|2|Drogue deployment|
 301:47:13|2|Main parachute deployment|
 301:51:59|1|Splashdown|
-|0||
+305:35:24|0|Retrieval|
