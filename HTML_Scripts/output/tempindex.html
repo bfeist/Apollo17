@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en" dir="ltr">
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="template" />
@@ -11,10 +10,11 @@
 	<style type="text/css" media="screen,projection"></style>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 
-    <script>
-		lasttimeid = '';
+    <script language="javascript" type="text/javascript">
+		var lastTimeId = '';
+		var intervalID = null;
         var tag = document.createElement('script');
 
         tag.src = "https://www.youtube.com/iframe_api";
@@ -27,7 +27,7 @@
             player = new YT.Player('player', {
                 height: '520',
                 width: '720',
-                videoId: 'yGcmH96w-Fg',
+                videoId: 'TiS9Lucr89A',
                 events: {
                     'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange
@@ -37,44 +37,28 @@
 
         // The API will call this function when the video player is ready.
         function onPlayerReady(event) {
-		
-			//poll for mission time
-			setInterval(function () {
-				var totalSec = player.getCurrentTime();
-				var hours = parseInt(totalSec / 3600) % 24;
-				var minutes = parseInt(totalSec / 60) % 60;
-				var seconds = totalSec % 60;
-				seconds = Math.floor(seconds);
-
-				var result = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-					(minutes < 10 ? "0" + minutes : minutes) + ":" +
-					(seconds < 10 ? "0" + seconds : seconds);
-
-				timer.innerText = result;
-
-				var timeid = "timeid" +
-					(hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-					(minutes < 10 ? "0" + minutes : minutes) +
-					(seconds < 10 ? "0" + seconds : seconds);
-
-				scrollToTimeID(timeid);
-
-			}, 500); //polling frequency in milliseconds		
-			
             event.target.playVideo();
         }
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
-        var done = false;
-
+        var initialPlay = true;
         function onPlayerStateChange(event) {
-            if (event.data == YT.PlayerState.PLAYING && !done) {
-                //setTimeout(seekTo10Min, 5000);				
+            if (event.data == YT.PlayerState.PLAYING && initialPlay) {
 				player.seekTo(0, true);
-                done = true;
-            }
-        }
+				initialPlay = false;
+			}
+            if (event.data == YT.PlayerState.PLAYING && intervalID == null ) {
+				//poll for mission time scrolling if video is playing
+				intervalID = setAutoScrollPoller();
+				console.log("interval started: " + intervalID);
+			} else if (event.data == YT.PlayerState.PAUSED) {
+				//clear polling for mission time scrolling if video is paused
+				window.clearInterval(intervalID);
+				console.log("interval stopped: " + intervalID);
+				intervalID = null;
+			}
+		}
 
         function stopVideo() {
             player.stopVideo();
@@ -87,36 +71,98 @@
 			//$('#iFrameTranscript').contents().scrollTop($('#iFrameTranscript').contents().find('#timeid0001002').offset().top);
 			//$('#timeid0001002').goTo();		
         }
-		
+
+		//jQuery plugin function to check if a content item exists
 		$.fn.exists = function () {
 			return this.length !== 0;
 		}
+
+		//--------------- transcript iframe autoscroll handling --------------------
+
+		function setAutoScrollPoller() {
+			return window.setInterval(function () {
+				var totalSec = player.getCurrentTime();
+				var hours = parseInt(totalSec / 3600) % 24;
+				var minutes = parseInt(totalSec / 60) % 60;
+				var seconds = totalSec % 60;
+				seconds = Math.floor(seconds);
+
+				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
+				(minutes < 10 ? "0" + minutes : minutes) + ":" +
+				(seconds < 10 ? "0" + seconds : seconds);
+
+				var timeId = "timeid" +
+						(hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+						(minutes < 10 ? "0" + minutes : minutes) +
+						(seconds < 10 ? "0" + seconds : seconds);
+
+				scrollToTimeID(timeId);
+
+			}, 500); //polling frequency in milliseconds
+		}
 		
-		function scrollToTimeID(timeid) {
-			//console.log ('#' + timeid + ' - ' + $('#iFrameTranscript').contents().find('#' + timeid).length);			
-			if ($('#iFrameTranscript').contents().find('#' + timeid).exists()) {
-				
+		function scrollToTimeID(timeId) {
+			//console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
+			var transcriptFrame = $('#iFrameTranscript').contents();
+			if (transcriptFrame.find('#' + timeId).exists()) {
 				//reset background color of last line
-				if (lasttimeid != '') {
-					$('#iFrameTranscript').contents().find('#' + lasttimeid).css("background-color","#FFFFFF");
+				if (lastTimeId != '') {
+					transcriptFrame.find('#' + lastTimeId).css("background-color","#FFFFFF");
 				}
-			
-				var content = $('#iFrameTranscript').contents().find('#' + timeid);
-				var topCoord = content.offset().top - 50;
-				content.css("background-color","#DDDDDD");
-				$('#iFrameTranscript').contents().find('body').animate({ scrollTop: topCoord }, 300);
-				//$('#iFrameTranscript').contents().scrollTop(topCoord);
-				lasttimeid = timeid;
+
+				var timeIdMarker = transcriptFrame.find('#' + timeId);
+				var scrollDestination = timeIdMarker.offset().top - 50;
+				timeIdMarker.css("background-color","#DDDDDD");
+				transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
+				lastTimeId = timeId;
 			}
 		}
+		//--------------- transcript click handling --------------------
 
-	//	$(document).ready(function() {
-	//		setTimeout(function() {
-	//			var $contents = $('#iFrameTranscript').contents();
-	//			$contents.scrollTop($contents.find('#timeid0001002').offset().top);
-	//		}, 3000); // ms = 3 sec
-	//		return this; // for chaining...
-	//	});
+		function seekToTime(elementId){
+			var timeStr = elementId.substr(6,7);
+			var hours = parseInt(timeStr.substr(0,3));
+			var minutes = parseInt(timeStr.substr(3,2));
+			var seconds = parseInt(timeStr.substr(5,2));
+			var totalSeconds = (hours * 60 * 60) + (minutes * 60) + seconds;
+			player.seekTo(totalSeconds, true);
+			//alert(elementId);
+		}
+
+		//		document.getElementById("iFrameTranscript").onload = function() {
+//			$('#iFrameTranscript').contents().find('div.utterance').each(function(index, element) {
+//				console.log(index + ": " + $(element).text());
+//			});
+//		});
+
+
+		//--------------- youtube index handling --------------------
+		$(document).ready(function() {
+			$.ajax({
+				type: "GET",
+				url: "YouTube_media_index.csv",
+				dataType: "text",
+				success: function(data) {processYTData(data);}
+			});
+		});
+
+		function processYTData(allText) {
+			var allTextLines = allText.split(/\r\n|\n/);
+			var lines = [];
+
+			for (var i = 0; i < allTextLines.length; i++) {
+				var data = allTextLines[i].split('|');
+
+				var tarr = [];
+				tarr.push("num:" + data[0]);
+				tarr.push("ytId:" + data[1]);
+				tarr.push("startTime:" + data[2]);
+				tarr.push("endTime:" + data[3]);
+				lines.push(tarr);
+			}
+			// alert(lines);
+		}
+
 		
     </script>
 </head>
@@ -130,7 +176,7 @@
     <div style="float: right; width: 640px;" id="player">
 	</div>
 	<div id="timer">00</div>
-	<div id="debug" onclick="seekTo10Min()">Skip to 10:00</div>
+	<div id="debug" onclick="seekToTime('timeid0000010')">Skip to 00:10</div>
     <div style="width: 100%;">
         <iframe src="./segments/0000000_Lift-off(Rangezero=342053300GMT).html" style="border:1px #000000 none;" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
     </div>

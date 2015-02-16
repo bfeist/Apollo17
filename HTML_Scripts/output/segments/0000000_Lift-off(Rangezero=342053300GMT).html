@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en" dir="ltr">
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="template" />
@@ -10,6 +9,16 @@
 	<meta name="robots" content="index,follow" />
 	<style type="text/css" media="screen,projection"></style>
 	<link rel="stylesheet" type="text/css" href="../styles.css" />
+
+    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+    <script language="javascript" type="text/javascript">
+        window.onload = function() {
+            //add an onclick function to all utterances. function calls parent of his iFrame to seek video to that time.
+            $( "div.utterance" ).click(function(){
+                parent.seekToTime($( this).attr('id'));
+            });
+        }
+    </script>
 </head>
 
 <body class="">
@@ -27,7 +36,15 @@
 
             <div class="afjtec">
                 <span class="afjwho">CDR</span>
-                <span class="spokenwords">Roger. The clock has started. We have yaw.</span>
+                <span class="spokenwords">Roger. The clock has started. We have yaw. Woo-hoo!</span>
+            </div>
+        </div>
+        <div class="utterance" id="timeid0000008">
+            <span class="afjget">000:00:08</span>
+
+            <div class="afjtec">
+                <span class="afjwho">CC</span>
+                <span class="spokenwords">Clear of the tower.</span>
             </div>
         </div>
         <div class="utterance" id="timeid0000010">
@@ -51,15 +68,7 @@
 
             <div class="afjtec">
                 <span class="afjwho">CDR</span>
-                <span class="spokenwords">Okay, babe. It's looking good here. </span>
-            </div>
-        </div>
-        <div class="utterance" id="timeid0000018">
-            <span class="afjget">000:00:18</span>
-
-            <div class="afjtec">
-                <span class="afjwho">CDR</span>
-                <span class="spokenwords">Roll is complete. We are pitching.</span>
+                <span class="spokenwords">Okay, babe. It's looking good here. Roll is complete. We are pitching.</span>
             </div>
         </div>
         <div class="utterance" id="timeid0000025">
