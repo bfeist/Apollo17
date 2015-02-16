@@ -24,11 +24,11 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
     utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
     for utterance_row in utterance_reader:
         cur_row += 1
-        #utterance_timestamp_int = int(utterance_row[1].translate(None, ":"))
+        timeid = "timeid" + utterance_row[1].translate(None, ":")
         if utterance_row[1] != "": #if not a TAPE change or title row
             if (int(utterance_row[1].translate(None, ":")) >= timestamp_start_int) & (int(utterance_row[1].translate(None, ":")) < timestamp_end_int):
                 item_template = template_loader.load_template('template_timelineitem.html')
-                output_segment_file.write(item_template.render({'timestamp': utterance_row[1], 'who': utterance_row[2], 'words': utterance_row[3]}, loader=template_loader).encode('utf-8'))
+                output_segment_file.write(item_template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': utterance_row[2], 'words': utterance_row[3]}, loader=template_loader).encode('utf-8'))
             elif int(utterance_row[1].translate(None, ":")) > timestamp_end_int :
                 break
         #if cur_row > 100:
