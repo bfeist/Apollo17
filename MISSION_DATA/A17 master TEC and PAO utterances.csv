@@ -1563,7 +1563,7 @@
 |008:50:12|CC|Okay. And do you have a final change or update on the film status - beyond that 130 that Jack gave us?
 |008:50:21|CMP|Stand by 1.
 |008:55:05|PAO|This is Apollo Control at 8 hours 55 minutes. As the crew of Apollo 17 prepares for a 5-3/4 hours rest period, the spacecraft is 40,165 nautical miles from earth velocity 9,349 feet per second.
-|008:58:04|CC||And, 17, your PTC is looking real good so far.
+|008:58:04|CC|And, 17, your PTC is looking real good so far.
 ||||Tape 9/1|Page 89
 |008:58:10|CDR|Okay. That number on that mag is still 130, Bob.
 |008:58:13|CC|Okay. I copy that, Gene.
@@ -5682,9 +5682,9 @@
 |082:01:10|CMP|No, you might think about that one a little bit. We had a very strong up-link - signal strength, as good as right now. And Gene was trying to call you, off and on, for several minutes and we didn't get any response. But sounds real good now.
 |082:01:25|CC|Okay, sorry about that.
 ||||Tape 54/3|Page 381
-|082:01:31|LMP|Hey, Bob. Good morning. It1s a good chance to talk to you for once.
+|082:01:31|CMP|Hey, Bob. Good morning. It's a good chance to talk to you for once.
 |082:01:35|CC|Yes, for once, yes. Talk to me now this next hour and I won't talk to you again for another 3 or 4 days, Ronald.
-|082:01:43|LMP|(Laughter) Okay.
+|082:01:43|CMP|(Laughter) Okay.
 |082:01:46|CC|Nice to be able to talk to somebody for a change -
 |082:01:48|LMP|Bob, your friendly medical officer -
 |082:01:51|CC|Go ahead.
@@ -5692,7 +5692,7 @@
 |082:02:02|CC|Speak.
 |082:02:06|LMP|Okay. Your friendly medical officer has all the good words starting with the CDR and the food. Are you ready to copy?
 |082:02:15|CC|Ready to copy.
-|082:02:24|LMP|Okay. It was a big day yesterday, eatingwise. CDR had sausage patties, pears, and cocoa for breakfast. And a quarter - one-fourth cheese spread, one-half bread, and one-half cereal bar, and one orange beverage for lunch. Tomato soup, half a hamburger, half mustard, vanilla pudding, and an orange-pineapple drink for dinner.
+|082:02:24|LMP|Okay. It was a big day yesterday, eating-wise. CDR had sausage patties, pears, and cocoa for breakfast. And a quarter - one-fourth cheese spread, one-half bread, and one-half cereal bar, and one orange beverage for lunch. Tomato soup, half a hamburger, half mustard, vanilla pudding, and an orange-pineapple drink for dinner.
 |082:03:00|CC|Okay, copy that.
 |082:03:12|LMP|... 5 hours of good sleep, and two more containers of water.
 |082:03:24|CC|Okay, 17, I got the CDRs food and then you broke up, and I got 5 hours of sleep and two containers of water. Was there something between?
@@ -8449,7 +8449,7 @@
 |112:50:30|CDR-LM|Okay, attitude looks good, Jack.
 |112:50:32|LMP-LM|Okay. At 30 seconds. Should have about 108.
 |112:50:40|CDR-LM|Oh, boy.
-|112:50:43|LMP-LM|AGS and PGNS are CLOSED.
+|112:50:43|LMP-LM|AGS and PGNS are close.
 |112:50:46|CDR-LM|Okay, coming up on 1 minute.
 |112:50:49|LMP-LM|One minute, you ought to have 98.
 |112:50:54|CDR-LM|Okay, H-dot is high right now.

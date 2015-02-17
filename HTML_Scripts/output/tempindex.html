@@ -15,6 +15,9 @@
     <script language="javascript" type="text/javascript">
 		var lastTimeId = '';
 		var intervalID = null;
+		var YTList = [];
+		var currVideoStartSeconds = 0;
+
         var tag = document.createElement('script');
 
         tag.src = "https://www.youtube.com/iframe_api";
@@ -81,11 +84,12 @@
 
 		function setAutoScrollPoller() {
 			return window.setInterval(function () {
-				var totalSec = player.getCurrentTime();
-				var hours = parseInt(totalSec / 3600) % 24;
+				var totalSec = player.getCurrentTime() + currVideoStartSeconds;
+				var hours = parseInt(totalSec / 3600);
 				var minutes = parseInt(totalSec / 60) % 60;
 				var seconds = totalSec % 60;
 				seconds = Math.floor(seconds);
+				console.log(hours);
 
 				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
 				(minutes < 10 ? "0" + minutes : minutes) + ":" +
@@ -96,6 +100,7 @@
 						(minutes < 10 ? "0" + minutes : minutes) +
 						(seconds < 10 ? "0" + seconds : seconds);
 
+				console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
 				scrollToTimeID(timeId);
 
 			}, 500); //polling frequency in milliseconds
@@ -125,7 +130,30 @@
 			var minutes = parseInt(timeStr.substr(3,2));
 			var seconds = parseInt(timeStr.substr(5,2));
 			var totalSeconds = (hours * 60 * 60) + (minutes * 60) + seconds;
-			player.seekTo(totalSeconds, true);
+
+			var currVideoID = player.getVideoUrl().substr(32,11);
+
+			console.log(currVideoID);
+			for (var i = 0; i < YTList.length; ++i) {
+				var itemStartTimeArray = YTList[i][2].split(":");
+				var itemStartTimeSeconds = parseInt(itemStartTimeArray[0]) * 60 * 60 + parseInt(itemStartTimeArray[1]) * 60;
+				var itemEndTimeArray = YTList[i][3].split(":");
+				var itemEndTimeSeconds = parseInt(itemEndTimeArray[0]) * 60 * 60 + parseInt(itemEndTimeArray[1]) * 60;
+				if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) {
+					//change youtube video if the correct video isn't already playing
+					var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+					currVideoStartSeconds = itemStartTimeSeconds;
+					if (currVideoID !== YTList[i][1]) {
+						player.loadVideoById(YTList[i][1], seekToSecondsWithOffset );
+						window.clearInterval(intervalID); //reset the scrolling poller for the new video
+						intervalID = setAutoScrollPoller();
+					} else {
+						player.seekTo(seekToSecondsWithOffset, true);
+					}
+					break;
+				}
+			}
+
 			//alert(elementId);
 		}
 
@@ -148,17 +176,16 @@
 
 		function processYTData(allText) {
 			var allTextLines = allText.split(/\r\n|\n/);
-			var lines = [];
 
 			for (var i = 0; i < allTextLines.length; i++) {
 				var data = allTextLines[i].split('|');
 
-				var tarr = [];
-				tarr.push("num:" + data[0]);
-				tarr.push("ytId:" + data[1]);
-				tarr.push("startTime:" + data[2]);
-				tarr.push("endTime:" + data[3]);
-				lines.push(tarr);
+				var rec = [];
+				rec.push(data[0]);
+				rec.push(data[1]);
+				rec.push(data[2]);
+				rec.push(data[3]);
+				YTList.push(rec);
 			}
 			// alert(lines);
 		}
@@ -171,14 +198,14 @@
 
     <!--<div id="topBar"> <a href ="#" onclick="load_toc()"> Load TOC </a> </div> -->
     <div style="float: left; width: 50%">
-        <iframe src="TOC.html" style="border:1px #000000 none;" id="iFrameTOC" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="400px" width="100%"></iframe>
+        <iframe src="TOC.html" style="border:1px #000000 none;" id="iFrameTOC" name="iFrameTOC" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="400px" width="100%"></iframe>
     </div>
     <div style="float: right; width: 640px;" id="player">
 	</div>
 	<div id="timer">00</div>
 	<div id="debug" onclick="seekToTime('timeid0000010')">Skip to 00:10</div>
     <div style="width: 100%;">
-        <iframe src="./segments/0000000_Lift-off(Rangezero=342053300GMT).html" style="border:1px #000000 none;" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
+        <iframe src="./segments/0000000_Lift-off(Rangezero=342053300GMT).html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
     </div>
 
 </body>
