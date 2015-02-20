@@ -29,7 +29,7 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
             if (int(utterance_row[1].translate(None, ":")) >= timestamp_start_int) & (int(utterance_row[1].translate(None, ":")) < timestamp_end_int):
                 item_template = template_loader.load_template('template_timelineitem.html')
                 output_segment_file.write(item_template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': utterance_row[2], 'words': utterance_row[3]}, loader=template_loader).encode('utf-8'))
-            elif int(utterance_row[1].translate(None, ":")) > timestamp_end_int :
+            elif int(utterance_row[1].translate(None, ":")) > timestamp_end_int:
                 break
         #if cur_row > 100:
         #    break
