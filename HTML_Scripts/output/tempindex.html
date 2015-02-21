@@ -90,11 +90,10 @@
 				var minutes = parseInt(totalSec / 60) % 60;
 				var seconds = totalSec % 60;
 				seconds = Math.floor(seconds);
-				//console.log(hours);
 
-//				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-//				(minutes < 10 ? "0" + minutes : minutes) + ":" +
-//				(seconds < 10 ? "0" + seconds : seconds);
+				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
+				(minutes < 10 ? "0" + minutes : minutes) + ":" +
+				(seconds < 10 ? "0" + seconds : seconds);
 
 				var timeId = "timeid" +
 						(hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
@@ -102,7 +101,7 @@
 						(seconds < 10 ? "0" + seconds : seconds);
 
 				if (timeId != lastTimeIdChecked) {
-					console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+					//console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
 					lastTimeIdChecked = timeId;
 					scrollToTimeID(timeId);
 				}
@@ -206,9 +205,9 @@
     <div style="float: right; width: 640px;" id="player">
 	</div>
 	<div id="timer">00</div>
-	<div id="debug" onclick="seekToTime('timeid0000010')">Skip to 00:10</div>
+	<div id="debug" onclick="seekTo10Min()">Skip to 000:10:00</div>
     <div style="width: 100%;">
-        <iframe src="./segments/0000000_Lift-off(Rangezero=342053300GMT).html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
+        <iframe src="output.html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
     </div>
 
 </body>

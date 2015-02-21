@@ -54,7 +54,8 @@
 |000:00:13|CC|Roger, Geno. Looking great. Thrust good on all five engines.
 |000:00:17|CDR|Okay, babe. It's looking good here. Roll is complete. We are pitching.
 |000:00:25|PAO|This is Mission Control. Gene Cernan reporting the launch vehicle maneuvering to the proper attitude, everything looking good at this point.
-|000:00:26|SC|Wow woozle!
+|000:00:26|LMP|Wow woozle!
+|000:00:27|CDR|Okay, babe. Let's check the angles.
 |000:00:29|LMP|Thirty seconds. We're going up. Man, oh, man!
 |000:00:32|CDR|Thirty seconds, and 17 is GO.
 |000:00:35|CC|Roger, 17. You're GO.
@@ -14278,13 +14279,13 @@
 |137:00:35|LMP-LM|Stow your sleep restraint up there. I mean, your - hammock. Either way. I'll - I'll just stuff my - I'll stuff all mine in this compartment here, if you'll just get yours in there. Otherwise, we can rearrange it. See how it looks first.
 |137:01:58|LMP-LM|Gordy, you guys held comm pretty well last night, I only remember one - one break.
 |137:02:05|CC|Roger, Jack.
-|137:02:40|CC|Take you off biomed for a minute.
+|137:02:40|LMP-LM|Take you off biomed for a minute.
 |137:04:24|LMP-LM|We have ...
 |137:04:31|LMP-LM|Well, how about it, Gordy? Are we STAY or NO STAY for EVA-2 prep?
 ||||Tape 90A/2|Page 973
 |137:04:37|CC|You're STAY. Never any doubt.
 |137:04:43|LMP-LM|Thank you, sir.
-|137:05:42|CC|Have any medication?
+|137:05:42|LMP-LM|Have any medication?
 |137:05:50|CDR-LM|My report to ...
 |137:05:59|LMP-LM|Okay, Gordy. Status report is excellent. No medication for either one of us. CDR slept 6 hours pretty good; I slept 6 hours intermittent, but generally good.
 |137:06:17|CC|Okay, Jack.
@@ -34102,7 +34103,7 @@
 |279:45:58|LMP|Yes. We've got pretty good comm attitude here, and the - ask FAO if they want them on VOX and if they also want the notes recorded up here.
 |279:46:09|CC|Okay. I'll check on that.
 |279:46:52|CC|The easiest way to do it would be to just go ahead and do it on VOX, and we'll get everything recorded down here.
-|279:47:09|LMP|I agree, because taking notes is good when you're having dropouts, but it's hardly the same as tapes.
+|279:46:59|LMP|I agree, because taking notes is good when you're having dropouts, but it's hardly the same as tapes.
 |279:47:07|CC|That's affirmative. And since you do have - you're locked up on comm and HIGH GAIN and that, well, let's just go ahead and we'll just record it all down here for you.
 ||||Tape 185/3|Page 2366
 |279:47:20|LMP|Okay.
