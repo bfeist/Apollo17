@@ -119,6 +119,7 @@
 |140:44:59| - cernan burps
 |140:58:17| - joke: bag of peanuts
 |141:01:34| - Pan is complete
+|141:22:17| - pics and mag
 |141:31:48| - Begin travel to station 2 (7km travel)
 |141:54:55| - CC mentions "back room"
 |142:03:51| - LMP's camera has come loose
@@ -216,7 +217,7 @@
 |196:30:46| - missing audio starts
 |198:37:12| - missing audio ends
 |206:47:00| - missing audio starts - missing PAO announcement
-|207:23:00| - missing audio ends 
+|207:23:00| - missing audio ends
 |207:45:34| - they don't like the wake-up music
 |208:08:09| - Jerry sends greetings and congratulations
 |208:38:55| - |LMP|Maybe that ratty data is me.
