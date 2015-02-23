@@ -18,8 +18,8 @@ tsObj = PrevTimestamp(0,0,"")
 for _ in range(0, numPrevTimestampsToTrack):	
 	prevRowTimestamps.append(tsObj)
 
-for curFile in [ "A17 master TEC and PAO manual merge.csv" ]:
-	inputFilePath = "E:\Apollo17WIP\MISSION_DATA\\" + curFile
+for curFile in [ "A17 master TEC and PAO utterances.csv" ]:
+	inputFilePath = "E:\Apollo17.org\MISSION_DATA\\" + curFile
 	reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
 	for row in reader:
 		curRow += 1

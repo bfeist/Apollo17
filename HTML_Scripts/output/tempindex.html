@@ -48,6 +48,7 @@
         // The function indicates that when playing a video (state=1)
         var initialPlay = true;
         function onPlayerStateChange(event) {
+            console.log("player state change: " + event.data);
             if (event.data == YT.PlayerState.PLAYING && initialPlay) {
 				player.seekTo(0, true);
 				initialPlay = false;
@@ -62,6 +63,10 @@
 				console.log("interval stopped: " + intervalID);
 				intervalID = null;
 			}
+            if (event.data == YT.PlayerState.BUFFERING) {
+                console.log("buffering: " + event.target.getCurrentTime() + currVideoStartSeconds);
+                findClosestUtterance(event.target.getCurrentTime() + currVideoStartSeconds);
+            }
 		}
 
         function stopVideo() {
@@ -81,6 +86,33 @@
 			return this.length !== 0;
 		}
 
+        //--------------- transcript iframe search for closest utterance time to seeked video --------------------
+        function findClosestUtterance(totalSecSearch) {
+            var found = false;
+            var curSecSearch = totalSecSearch;
+            var transcriptFrame = $('#iFrameTranscript').contents();
+            while (!found) {
+                var hours = parseInt(curSecSearch / 3600);
+                var minutes = parseInt(curSecSearch / 60) % 60;
+                var seconds = curSecSearch % 60;
+                seconds = Math.floor(seconds);
+                var timeId = "timeid" +
+                        (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+                        (minutes < 10 ? "0" + minutes : minutes) +
+                        (seconds < 10 ? "0" + seconds : seconds);
+
+                if (transcriptFrame.find('#' + timeId).exists()) {
+                    found = true;
+                    console.log("found: " + timeId);
+                    scrollToTimeID(timeId);
+                    break;
+                } else {
+                    //console.log("not found: " + timeId);
+                    curSecSearch--;
+                }
+            }
+        }
+
 		//--------------- transcript iframe autoscroll handling --------------------
 
 		function setAutoScrollPoller() {
@@ -90,11 +122,10 @@
 				var minutes = parseInt(totalSec / 60) % 60;
 				var seconds = totalSec % 60;
 				seconds = Math.floor(seconds);
-				//console.log(hours);
 
-//				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-//				(minutes < 10 ? "0" + minutes : minutes) + ":" +
-//				(seconds < 10 ? "0" + seconds : seconds);
+				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
+				(minutes < 10 ? "0" + minutes : minutes) + ":" +
+				(seconds < 10 ? "0" + seconds : seconds);
 
 				var timeId = "timeid" +
 						(hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
@@ -102,7 +133,7 @@
 						(seconds < 10 ? "0" + seconds : seconds);
 
 				if (timeId != lastTimeIdChecked) {
-					console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+					//console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
 					lastTimeIdChecked = timeId;
 					scrollToTimeID(timeId);
 				}
@@ -135,28 +166,35 @@
 			var totalSeconds = (hours * 60 * 60) + (minutes * 60) + seconds;
 
 			var currVideoID = player.getVideoUrl().substr(32,11);
-
-			console.log(currVideoID);
+			//console.log(currVideoID);
 			for (var i = 0; i < YTList.length; ++i) {
 				var itemStartTimeArray = YTList[i][2].split(":");
 				var itemStartTimeSeconds = parseInt(itemStartTimeArray[0]) * 60 * 60 + parseInt(itemStartTimeArray[1]) * 60;
 				var itemEndTimeArray = YTList[i][3].split(":");
 				var itemEndTimeSeconds = parseInt(itemEndTimeArray[0]) * 60 * 60 + parseInt(itemEndTimeArray[1]) * 60;
-				if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) {
-					//change youtube video if the correct video isn't already playing
+				if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this item in loop contains the time we want to seek to
+
 					var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+                    //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours in video needs this manual adjustment, all others have their startTime listed including the time change
+                    if (itemStartTimeSeconds == 230400) {
+                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                            seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
+                        }
+                    }
 					currVideoStartSeconds = itemStartTimeSeconds;
+                    //change youtube video if the correct video isn't already playing
 					if (currVideoID !== YTList[i][1]) {
+                        console.log("changing YT video from: " + currVideoID + " to: " + YTList[i][1]);
 						player.loadVideoById(YTList[i][1], seekToSecondsWithOffset );
 						window.clearInterval(intervalID); //reset the scrolling poller for the new video
 						intervalID = setAutoScrollPoller();
 					} else {
+                        console.log("no need to change video, seeking...");
 						player.seekTo(seekToSecondsWithOffset, true);
 					}
 					break;
 				}
 			}
-
 			//alert(elementId);
 		}
 
@@ -167,7 +205,7 @@
 //		});
 
 
-		//--------------- youtube index handling --------------------
+		//--------------- youtube index file handling --------------------
 		$(document).ready(function() {
 			$.ajax({
 				type: "GET",
@@ -201,14 +239,14 @@
 
     <!--<div id="topBar"> <a href ="#" onclick="load_toc()"> Load TOC </a> </div> -->
     <div style="float: left; width: 50%">
-        <iframe src="TOC.html" style="border:1px #000000 none;" id="iFrameTOC" name="iFrameTOC" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="400px" width="100%"></iframe>
+        <iframe src="TOC.html" style="border:1px #000000 none;" id="iFrameTOC" name="iFrameTOC" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="500px" width="100%"></iframe>
     </div>
     <div style="float: right; width: 640px;" id="player">
 	</div>
 	<div id="timer">00</div>
-	<div id="debug" onclick="seekToTime('timeid0000010')">Skip to 00:10</div>
+	<div id="debug" onclick="seekTo10Min()">Skip to 000:10:00</div>
     <div style="width: 100%;">
-        <iframe src="./segments/0000000_Lift-off(Rangezero=342053300GMT).html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
+        <iframe src="allUtterances.html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
     </div>
 
 </body>
