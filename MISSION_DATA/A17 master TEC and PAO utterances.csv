@@ -382,54 +382,54 @@
 |000:25:11|PAO|And we will be reacquiring Apollo 17 through the Carnarvon Tracking Station at a Ground Elapsed Time of about 52 minutes 20 seconds, roughly 27 minutes from now.
 |000:32:02|PAO|This is Apollo Control now 32 minutes after the liftoff of Apollo 17 and we have loss of signal with the spacecraft, we will be reacquiring through the Carnarvon Tracking Station in about 20 minutes. And from the President of the United States we have the following message to the crew of Apollo 17. The message reads: "As you set forth on the final Apollo expedition to the Moon, I want to have my personal best wishes for a successful mission and safe return. I am sure your voyage, your scientific exploration, will be the crowning achievement in a program which has expanded Man's horizons, brought great credit to your country and lifted the spirits of people all over the world. Godspeed to you all." Signed Richard Nixon. The flight Dynamics officer, continuing to process tracking data, following orbital insertions, reports that there is a small amount of out of plane error showing up in the orbit. This it is believed is due to a small error in the instrument unit of the Saturn third stage. However, the orbit is very close to nominal, about 90 nautical miles by 93 nautical miles. And we look very good, both with respect to the spacecraft and with respect to the Saturn third stage which must perform that burn, putting Apollo 17 on its trajectory toward the Moon. At 34 minutes, this is Apollo Control Houston.
 |000:35:33|PAO|This is Apollo Control. The postlaunch press conference at Cape Kennedy is scheduled to begin at 12:33 Central Standard Time, 1:33 a.m. Eastern Standard Time. Again, that time 12:33 Central Standard Time, 1:33 Eastern Standard for the post-launch press conference at Cape Kennedy.
-|000:36:54|PAO|Control at 51 minutes into the flight of Apollo 17 and we're standing by to reacquire the spacecraft through the Carnarvon, Australia, tracking station. One of the things the booster engineer will be looking for when we reacquire and get good lock on the data will be the Saturn 3rd stage instrument unit. Looking at one brief bit of data before we lost signal, it appears that one of the four batteries in the instrument unit had a very high current drain on it. We will be looking closely at that to see if it was simply a telemetry problem or if, in fact, that battery does have some problem. And we should be about 15 seconds now from reacquiring.
+|000:51:00|PAO| - Control at 51 minutes into the flight of Apollo 17 and we're standing by to reacquire the spacecraft through the Carnarvon, Australia, tracking station. One of the things the booster engineer will be looking for when we reacquire and get good lock on the data will be the Saturn 3rd stage instrument unit. Looking at one brief bit of data before we lost signal, it appears that one of the four batteries in the instrument unit had a very high current drain on it. We will be looking closely at that to see if it was simply a telemetry problem or if, in fact, that battery does have some problem. And we should be about 15 seconds now from reacquiring.
 ||||Tape 3/1|Page 16
-|000:37:00|CC|17, read you loud and clear.
-|000:37:00|LMP|Hey, we're going real well up here, Bob. Have no significant anomalies as yet; and we've just about completed our part of the insertion checklist. Gene has his SCS check yet, and Ron's got some P52 numbers for you. And the only thing I've seen so far is a - some spurious MASTER ALARM without caution and warning that seem to be associated with moving switches on panel 2.
-|000:37:00||CC|Okay. Can you get a sudden - what switches anywhere - any ... any switches on?
-|000:37:00|LMP|So far, it's been fairly random. Some that I remember is the SECONDARY COOLANT LOOP EVAP switch, the LAMP TEST switch, - see - I think I got one with the TEMP IN AUTO switch. Gene got one doing something. I can't remember exactly what it was.
-|000:37:00|CC|Okay - -
-|000:37:00|LMP|Probably random.
-|000:37:00|CC|- - we copy. Jack, we're standing by for that P52 data. We've only got about a 4-minute - a 5-minute pass here. We'll take the 52 data, and I got a few updates for you.
-|000:37:00|LMP|Okay.
-|000:37:00|CMP|Okay; 52 data is coming. NOUN 71 is 24 and 30; NOUN 05 is .01; NOUN 93s are plus .080, plus .029, plus .018; and we torqued at 35:25.
-|000:39:50|CC|Okay. We copy that. Okay, while we're filling in some here, you might want to know this, Jack. Your sunset and sunrise times in the Launch Checklist are all off by 8 - approximately 8 minutes and 30 seconds. That every - sunset and sunrise will occur about 8 minutes and 30 seconds sooner than in the - in the Launch Checklist. That's an approximate number.
+|000:51:00|CC|17, read you loud and clear.
+|000:51:00|LMP|Hey, we're going real well up here, Bob. Have no significant anomalies as yet; and we've just about completed our part of the insertion checklist. Gene has his SCS check yet, and Ron's got some P52 numbers for you. And the only thing I've seen so far is a - some spurious MASTER ALARM without caution and warning that seem to be associated with moving switches on panel 2.
+|000:51:00||CC|Okay. Can you get a sudden - what switches anywhere - any ... any switches on?
+|000:51:00|LMP|So far, it's been fairly random. Some that I remember is the SECONDARY COOLANT LOOP EVAP switch, the LAMP TEST switch, - see - I think I got one with the TEMP IN AUTO switch. Gene got one doing something. I can't remember exactly what it was.
+|000:51:00|CC|Okay - -
+|000:51:00|LMP|Probably random.
+|000:51:00|CC|- - we copy. Jack, we're standing by for that P52 data. We've only got about a 4-minute - a 5-minute pass here. We'll take the 52 data, and I got a few updates for you.
+|000:51:00|LMP|Okay.
+|000:51:00|CMP|Okay; 52 data is coming. NOUN 71 is 24 and 30; NOUN 05 is .01; NOUN 93s are plus .080, plus .029, plus .018; and we torqued at 35:25.
+|000:53:56|CC|Okay. We copy that. Okay, while we're filling in some here, you might want to know this, Jack. Your sunset and sunrise times in the Launch Checklist are all off by 8 - approximately 8 minutes and 30 seconds. That every - sunset and sunrise will occur about 8 minutes and 30 seconds sooner than in the - in the Launch Checklist. That's an approximate number.
 ||||Tape 3/2|Page 17
-|000:40:15|LMP|Okay, we got you.
-|000:40:16|CC|Okay. And on page 2-17 of the Launch Checklist, you're going to want to delete all reference to Honeysuckle AOS and LOS and delete all reference to Canaries AOS and LOS.
-|000:40:29|LMP|Wilco.
-|000:40:31|CC|And we want to add an Ascension pass; AOS at Ascension, 01 plus 54 plus 00, and Ascension LOS will be 02:00:16.
-|000:40:54|LMP|Okay, Bob; you're going to have to repeat that.
-|000:40:57|CC|Okay, stand by. Let me give you a page. On 2-17 - let's go Hawaii AOS first of all. On Hawaii AOS, on page 2-17. AOS - -
-|000:41:07|LMP|Go.
-|000:41:07|CC|- - is 01 plus 17 plus 24. Hawaii LOS, 01 plus 22 plus 49.
-|000:41:30|LMP|Roger. Now what about the Ascension?
-|000:41:35|CC|Okay, here - give you the Ascension again now. AOS, 01 plus 54 plus 00. Ascension LOS will be 02:00:16. Over.
-|000:41:59|LMP|Okay, I got those. Hawaii is 01 plus 17 plus 24, and LOS is 01 plus 22 plus 49. And Ascension is AOS, 01 plus 54:00; and LOS, 02 plus 00:16.
-|000:42:16|CC|Roger, Jack. Good copy. And booster's looking good down here and you're looking good.
-|000:42:21|LMP|Okay, and I'll do a better job of itemizing those switches. We were pressing pretty hard, and I'll - I'll be able to go back and get most of them, I think. And We'll keep an eye on it - on the MASTER ALARMS.
-||||Tape 3/3|Page 18
-|000:42:34|CC|Roger, Jack. We understand. And I think we copied most of what you said there, and we're working on it.
-|000:42:40|CDR|Okay, Bob; other than that MASTER ALARM, all is well on America, and I understand the booster is looking good to you.
-|000:42:46|CC|That's affirmative.
-|000:42:48|LMP|And, Bob, let me add that not - we did get spurious MASTER ALARMs without switch movement, but many came with switch movements. We've had about seven.
-|000:42:58|CC|Okay; understand.
-|000:43:04|LMP|That was only after insertion.
-|000:43:09|CC|Seven times that your heart doesn't need, huh?
-|000:43:14|LMP|Oh, we were paying attention to a sunset that was the biggest - -
-|000:43:20|CDR|Sunrise.
-|000:43:20|LMP|- - or sunrise or something that we saw. It was the biggest rainbow I'd ever seen.
-|000:43:27|CC|Beautiful. We can't wait to hear what you had to say about that - the ignition on the S-II. It sounded pretty spectacular.
-|000:43:43|LMP|Bob, just let it be said that that was quite a booster ride. When we get a chance a little later - -
-|000:43:49|CC|Roger.
-|000:43:49|LMP|- - maybe we'll be able to tell you something.
-|000:43:50|CC|We're about ready to lose comm here. You're looking great, guys, and we'll pick you up in Hawaii here shortly.
-|000:43:57|CDR|Okay, we're looking at the deserts of Australia right now and, again, everything's good onboard.
+|000:54:20|LMP|Okay, we got you.
+|000:54:21|CC|Okay. And on page 2-17 of the Launch Checklist, you're going to want to delete all reference to Honeysuckle AOS and LOS and delete all reference to Canaries AOS and LOS.
+|000:54:35|LMP|Wilco.
+|000:54:37|CC|And we want to add an Ascension pass; AOS at Ascension, 01 plus 54 plus 00, and Ascension LOS will be 02:00:16.
+|000:55:00|LMP|Okay, Bob; you're going to have to repeat that.
+|000:55:03|CC|Okay, stand by. Let me give you a page. On 2-17 - let's go Hawaii AOS first of all. On Hawaii AOS, on page 2-17. AOS - -
+|000:55:14|LMP|Go.
+|000:55:14|CC|- - is 01 plus 17 plus 24. Hawaii LOS, 01 plus 22 plus 49.
+|000:55:35|LMP|Gotcha. Now what about the Ascension?
+|000:55:41|CC|Okay, here - give you the Ascension again now. AOS, 01 plus 54 plus 00. Ascension LOS will be 02:00:16. Over.
+|000:56:05|LMP|Okay, I got those. Hawaii is 01 plus 17 plus 24, and LOS is 01 plus 22 plus 49. And Ascension is AOS, 01 plus 54:00; and LOS, 02 plus 00:16.
+|000:56:21|CC|Roger, Jack. Good copy. And booster's looking good down here and you're looking good.
+|000:56:27|LMP|Okay, and I'll do a better job of itemizing those switches. We were pressing pretty hard, and I'll - I'll be able to go back and get most of them, I think. And We'll keep an eye on it - on the MASTER ALARMS.
+||||T56e 3/3|Page 18
+|000:56:40|CC|Roger, Jack. We understand. And I think we copied most of what you said there, and we're working on it.
+|000:56:46|CDR|Okay, Bob; other than that MASTER ALARM, all is well on America, and I understand the booster is looking good to you.
+|000:56:52|CC|That's affirmative.
+|000:56:54|LMP|And, Bob, let me add that not - we did get spurious MASTER ALARMs without switch movement, but many came with switch movements. We've had about seven.
+|000:57:04|CC|Okay; understand.
+|000:57:10|LMP|That was only after insertion.
+|000:57:15|CC|Seven times that your heart doesn't need, huh?
+|000:57:20|LMP|Oh, we were paying attention to a sunset that was the biggest - -
+|000:57:25|CDR|Sunrise.
+|000:57:26|LMP|- - or sunrise or something that we saw. It was the biggest rainbow I'd ever seen.
+|000:57:33|CC|Beautiful. We can't wait to hear what you had to say about that - the ignition on the S-II. It sounded pretty spectacular.
+|000:57:48|LMP|Bob, just let it be said that that was quite a booster ride. When we get a chance a little later - -
+|000:57:55|CC|Roger.
+|000:57:55|LMP|- - maybe we'll be able to tell you something.
+|000:57:56|CC|We're about ready to lose comm here. You're looking great, guys, and we'll pick you up in Hawaii here shortly.
+|000:58:03|CDR|Okay, we're looking at the deserts of Australia right now and, again, everything's good onboard.
 ||||Tape 3/4|Page 19
-|000:44:02|CC|Roger. Pick you up at 01:17:24.
-|000:44:06|LMP|Roger.
-|000:44:06||STDN (REV 1/2)
-|000:44:57|PAO|This is Apollo Control. We're coming up now one 1 hour after liftoff for Apollo 17. And as you heard CAPCOM Robert Overmyer reporting to the crew that everything looks good, including the Saturn 3rd stage. Apparently the indication we had of a possible battery problem in the instrument unit nothing more than a bad bit of telemetry there. When the booster engineer got a good hard look at the telemetry on this pass, he reported everything looked good. We are ready at this point to begin the post-launch press conference at Cape Kennedy and we'll switch to Cape Kennedy and stand by for that press conference.
+|000:58:08|CC|Roger. Pick you up at 01:17:24.
+|000:58:12|LMP|Roger.
+|000:58:12||STDN (REV 1/2)
+|000:59:03|PAO|This is Apollo Control. We're coming up now one 1 hour after liftoff for Apollo 17. And as you heard CAPCOM Robert Overmyer reporting to the crew that everything looks good, including the Saturn 3rd stage. Apparently the indication we had of a possible battery problem in the instrument unit nothing more than a bad bit of telemetry there. When the booster engineer got a good hard look at the telemetry on this pass, he reported everything looked good. We are ready at this point to begin the post-launch press conference at Cape Kennedy and we'll switch to Cape Kennedy and stand by for that press conference.
 |001:17:25|LMP|Hello, earthlings. We're back with you.
 |001:17:27|CC|Roger, Jack. Read you loud and clear; how us?
 |001:17:32|LMP|You're loud and clear. And no change systems-wise that I've seen.
@@ -466,7 +466,7 @@
 |001:24:06|CC|Oh, yeah, I made it, but I had to - you know, I had to work at it. But it's a - we were - I was worried about it getting down as towards MILA there after - you know if we had to scrub and go tomorrow night. Boy, I'm sure glad we got you off tonight.
 |001:24:21|LMP|Guess who else is.
 |001:24:22|CC|No, I can't - I wouldn't believe that.
-|001:25:00|PAO|This is Apollo Control. 1 hour 25 minutes after lift off. During the postlaunch press conference at Cape Kennedy, we had a short aquisition with the crew through the Hawaiian tracking station. During that period of conversation, and during that period of monitoring the systems on the spacecraft and the launch vehicle, we found that the situation was essentially unchanged. That is, both vehicles now looking good; the spacecraft and the launch vehicle. And we're progressing toward a normal translunar injection. 1 hour 46 minutes 50 seconds from now. The crew has discussed one unexplained series of events. It appears that when certain switches are cycled or moved on panel 2 which is the main panel in front of them, the center panel of the spacecraft, they're getting a master caution and warning signal. A light comes on - a tone comes on. This is to attract the crews attention that something may be wrong and the normal procedure is then to look at another matrix of lights which would zero them in on the problem. The light - the system or the subsystem or particular area being monitered, or which had the problem would light an individual light. However, when they go to this other matrix of lights, they find that none of them are lighted. This is leading the crew and the flight controllers here in mission control to believe that they are getting an spurious signal to the master caution and warning, when in fact nothing is wrong. We don't have any further explanation for the problem at this point. We will continue to look at the data and particularly during the translunar coast, we think we'll get a good long time to look at things in detail and try to find out precisely what is happening. At this point however, the problem presents no concern and one of the more likely explanations, or possible explanations that's been advanced is perhaps some contamination in some switches. We did accumulate some taped conversation during the press conference with the crew. We will replay that for you now and then stand by for acquisition of signal over the United States.
+|001:25:00|PAO|This is Apollo Control. 1 hour 25 minutes after lift off. During the post-launch press conference at Cape Kennedy, we had a short acquisition with the crew through the Hawaiian tracking station. During that period of conversation, and during that period of monitoring the systems on the spacecraft and the launch vehicle, we found that the situation was essentially unchanged. That is, both vehicles now looking good; the spacecraft and the launch vehicle. And we're progressing toward a normal translunar injection. 1 hour 46 minutes 50 seconds from now. The crew has discussed one unexplained series of events. It appears that when certain switches are cycled or moved on panel 2 which is the main panel in front of them, the center panel of the spacecraft, they're getting a master caution and warning signal. A light comes on - a tone comes on. This is to attract the crews attention that something may be wrong and the normal procedure is then to look at another matrix of lights which would zero them in on the problem. The light - the system or the subsystem or particular area being monitored, or which had the problem would light an individual light. However, when they go to this other matrix of lights, they find that none of them are lighted. This is leading the crew and the flight controllers here in mission control to believe that they are getting an spurious signal to the master caution and warning, when in fact nothing is wrong. We don't have any further explanation for the problem at this point. We will continue to look at the data and particularly during the translunar coast, we think we'll get a good long time to look at things in detail and try to find out precisely what is happening. At this point however, the problem presents no concern and one of the more likely explanations, or possible explanations that's been advanced is perhaps some contamination in some switches.
 |001:31:25|CC|Parker can't make it back. He's got to come back on the golfstream. So you might have to have Young on for a while after we do a TLI.
 |001:31:35|LMP|Hey, you just wouldn't believe, Bob, the lights you can see in the west right now. It must be absolutely clear.
 |001:31:44|CC|Roger, Jack. Sounds spectacular. Jack, people in the room here want to know if you've been down your checklist yet?
