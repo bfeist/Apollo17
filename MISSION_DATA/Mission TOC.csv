@@ -22,9 +22,9 @@
 088:54:23|1|Lunar orbit insertion|
 089:39:41|2|S-IVB lunar impact|
 093:11:37|1|Descent orbit insertion|
-110:27:56|1|Lunar module undocking and separation|
+110:27:56|1|Lunar Module undocking and separation|
 111:57:29|1|Circularization maneuver|
-112:02:42|1|Lunar module descent orbit insertion|
+112:02:42|1|Lunar Module descent orbit insertion|
 112:49:53|1|Powered descent initiation|
 113:01:57|1|Initiate Lunar landing|
 115:27:47|2|Landing at Taurus-Littrow|
@@ -45,9 +45,9 @@
 122:04:02|2|Arrived at Station 1|Deployed seismic profiling experiment explosive charge 6, obtained traverse gravimeter experiment reading, and documented rake samples and performed panoramic photography.
 122:36:47|2|Departed for Surface Electrical Properties (SEP) experiment site|Included stop to deploy-seismic profiling experiment explosive charge 7, and perform panoramic photography.
 122:51:02|2|Arrived at SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
-123:13:39|2|Departed for the lunar module|
-123:16:15|2|Arrived back at lunar module|Started extravehicular activities closeout.
-124:13:42|3|Lunar module cabin repressurized|
+123:13:39|2|Departed for the Lunar Module|
+123:16:15|2|Arrived back at Lunar Module|Started extravehicular activities closeout.
+124:13:42|3|Lunar Module cabin repressurized|
 124:14:04|2|Post-EVA-1 Activities|
 129:28:00|1|Surface Crew sleep period|
 136:54:03|1|Surface Crew wake-up|
@@ -65,15 +65,15 @@
 145:22:57|2|Arrived at Station 4|Gathered samples including a trench sample and a double core-tube sample, and performed documentary and panoramic photography.
 145:59:03|2|Departed for Station 5|One stop to deploy seismic profiling experiment explosive charge 1, gather samples, and perform panoramic photography.
 146:25:15|2|Arrived at Station 5|Gathered samples, and performed documentary and panoramic photography.
-146:55:58|2|Departed for the lunar module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
-147:12:24|2|Arrived at the lunar module|Started extravehicular activity closeout.
-148:09:47|2|Lunar module cabin repressurization|
+146:55:58|2|Departed for the Lunar Module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
+147:12:24|2|Arrived at the Lunar Module|Started extravehicular activity closeout.
+148:09:47|2|Lunar Module cabin repressurization|
 152:25:20|1|Surface Crew sleep period|Ron Evans continues activities in orbit.
 160:24:02|1|Surface Crew wake-up|
 163:32:48|1|EVA-3|
 163:32:48|2|EVA-3 Preparations|
 163:33:40|2|EVA-3 Start|
-163:56:15|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500-mm photography.
+163:56:15|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
 164:00:17|2|Cosmic ray experiment retrieved|
 164:16:31|2|Departed for Surface Electrical Properties experiment site|
 164:19:07|2|Arrived at Surface Electrical Properties experiment site|Activated the experiment, gathered samples, and performed documentary photography.
@@ -89,9 +89,9 @@
 169:17:51|2|Arrived at Lunar Module|Started extravehicular activity closeout.
 170:13:58|2|ALSEP photography completed|
 170:16:43|2|Lunar neutron probe experiment retrieved|
-170:19:57|2|Lunar roving vehicle positioned to monitor lunar module ascent|
+170:19:57|2|Lunar roving vehicle positioned to monitor Lunar Module ascent|
 170:24:41|2|Seismic profiling experiment explosive charge 3 deployed|
-170:47:56|2|Lunar module cabin repressurized|
+170:47:56|2|Lunar Module cabin repressurized|
 181:34:05|1|CM Orbital trim maneuver|
 182:33:54|1|CM Plane change|
 188:01:37|1|Lunar ascent|
