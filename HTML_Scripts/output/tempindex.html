@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 
     <script language="javascript" type="text/javascript">
-		var lastTimeId = '';
+		var lastTimeIdMarker = '';
 		var lastTimeIdChecked = '';
 		var intervalID = null;
 		var YTList = [];
@@ -33,6 +33,7 @@
                 height: '520',
                 width: '720',
                 videoId: 'ccHq1hv0ohk',
+                iv_load_policy: 3,
                 events: {
                     'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange
@@ -67,9 +68,9 @@
 			}
             if (event.data == YT.PlayerState.BUFFERING) {
                 console.log("buffering: " + event.target.getCurrentTime() + currVideoStartSeconds);
-                //findClosestUtterance(event.target.getCurrentTime() + currVideoStartSeconds);
+                findClosestUtterance(event.target.getCurrentTime() + currVideoStartSeconds);
             }
-            if (event.data == YT.PlayerState.ENDED) {
+            if (event.data == YT.PlayerState.ENDED) { //load next video
                 var currVideoID = player.getVideoUrl().substr(32,11);
                 var secsPositiveMultiplier = 1;
                 for (var i = 0; i < YTList.length; ++i) {
@@ -83,25 +84,18 @@
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
-                if (startHours < 0) {
-                    secsPositiveMultiplier = -1;
-                } else {
-                    secsPositiveMultiplier = 1;
-                }
+                secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
                 currVideoStartSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
                 var itemEndTimeArray = YTList[i + 1][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
-                if (endHours < 0) {
-                    secsPositiveMultiplier = -1;
-                } else {
-                    secsPositiveMultiplier = 1;
-                }
+                secsPositiveMultiplier = (endHours < 0) ? -1 : 1;
                 currVideoEndSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
                 player.loadVideoById(currVideoID, 0);
+                player.iv_load_policy = 3;
 
                 window.clearInterval(intervalID); //reset the scrolling poller for the new video
                 intervalID = setAutoScrollPoller();
@@ -178,13 +172,13 @@
 				var seconds = Math.abs(parseInt(totalSec)) % 60;
 				seconds = Math.floor(seconds);
 
-				timer.innerText = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+                timer.innerText = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
                         (minutes < 10 ? "0" + minutes : minutes) + ":" +
                         (seconds < 10 ? "0" + seconds : seconds);
 
                 var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-						(minutes < 10 ? "0" + minutes : minutes) +
-						(seconds < 10 ? "0" + seconds : seconds);
+                        (minutes < 10 ? "0" + minutes : minutes) +
+                        (seconds < 10 ? "0" + seconds : seconds);
 
                 if (onCountdown) {
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading tripple hours zero with "-"
@@ -203,15 +197,15 @@
 			var transcriptFrame = $('#iFrameTranscript').contents();
 			if (transcriptFrame.find('#' + timeId).exists()) {
 				//reset background color of last line
-				if (lastTimeId != '') {
-					transcriptFrame.find('#' + lastTimeId).css("background-color","#FFFFFF");
+				if (lastTimeIdMarker != '') {
+                    lastTimeIdMarker.css("background-color","#FFFFFF");
 				}
 
 				var timeIdMarker = transcriptFrame.find('#' + timeId);
 				var scrollDestination = timeIdMarker.offset().top - 50;
 				timeIdMarker.css("background-color","#DDDDDD");
+                lastTimeIdMarker = timeIdMarker;
 				transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
-				lastTimeId = timeId;
 			}
 		}
 		//--------------- transcript click handling --------------------
@@ -223,13 +217,8 @@
             var hours = parseInt(timeStr.substr(0,3));
             var minutes = parseInt(timeStr.substr(3,2));
             var seconds = parseInt(timeStr.substr(5,2));
-            if (sign == "-") {
-                secsPositiveMultiplier = -1;
-            } else {
-                secsPositiveMultiplier = 1;
-            }
-			var totalSeconds = (Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds;
-            totalSeconds = totalSeconds * secsPositiveMultiplier;
+            secsPositiveMultiplier = (sign == "-") ? -1 : 1;
+            var totalSeconds = secsPositiveMultiplier * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
 			var currVideoID = player.getVideoUrl().substr(32,11);
 			//console.log(currVideoID);
@@ -238,25 +227,17 @@
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
-                if (startHours < 0) {
-                    secsPositiveMultiplier = -1;
-                } else {
-                    secsPositiveMultiplier = 1;
-                }
+                secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
                 var itemStartTimeSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+
                 var itemEndTimeArray = YTList[i][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
-                if (endHours < 0) {
-                    secsPositiveMultiplier = -1;
-                } else {
-                    secsPositiveMultiplier = 1;
-                }
+                secsPositiveMultiplier = (endHours < 0) ? -1 : 1;
                 var itemEndTimeSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
-                if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this item in loop contains the time we want to seek to
-
+                if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
 					var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
                     //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
                     if (itemStartTimeSeconds == 230400) {
@@ -269,7 +250,6 @@
                     //change youtube video if the correct video isn't already playing
 					if (currVideoID !== YTList[i][1]) {
                         console.log("changing YT video from: " + currVideoID + " to: " + YTList[i][1]);
-
 						player.loadVideoById(YTList[i][1], seekToSecondsWithOffset);
 						window.clearInterval(intervalID); //reset the scrolling poller for the new video
 						intervalID = setAutoScrollPoller();
