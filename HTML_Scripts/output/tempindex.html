@@ -9,7 +9,7 @@
 	<meta name="robots" content="index,follow" />
 	<style type="text/css" media="screen,projection"></style>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	
+    <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 
     <script language="javascript" type="text/javascript">
@@ -22,9 +22,9 @@
 
         var tag = document.createElement('script');
 
-        tag.src = "https://www.youtube.com/iframe_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);        
+//        tag.src = "https://www.youtube.com/iframe_api";
+//        var firstScriptTag = document.getElementsByTagName('script')[0];
+//        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         // This function creates an <iframe> (and YouTube player) after the API code downloads.
         var player;
