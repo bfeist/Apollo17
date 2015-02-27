@@ -9,12 +9,14 @@
 	<meta name="robots" content="index,follow" />
 	<style type="text/css" media="screen,projection"></style>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
     <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 
     <script language="javascript" type="text/javascript">
 		var lastTimeIdMarker = '';
 		var lastTimeIdChecked = '';
+        var currMissionTime = '';
 		var intervalID = null;
 		var YTList = [];
 		var currVideoStartSeconds = 0;
@@ -22,11 +24,6 @@
 
         var tag = document.createElement('script');
 
-//        tag.src = "https://www.youtube.com/iframe_api";
-//        var firstScriptTag = document.getElementsByTagName('script')[0];
-//        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-        // This function creates an <iframe> (and YouTube player) after the API code downloads.
         var player;
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
@@ -114,6 +111,24 @@
 			//$('#timeid0001002').goTo();		
         }
 
+        function missionTimeHistoricalDifference() {
+            historicalTimeDiff.innerText = '';
+            console.log("currMissionTime: " + currMissionTime);
+            var launchDate = Date.parse("1971-12-07 12:33am");
+
+            var currMissionTimeArray = currMissionTime.split(":");
+            var currMissionHours = parseInt(currMissionTimeArray[0]);
+            var currMissionMinutes = parseInt(currMissionTimeArray[1]);
+            var currMissionSeconds = parseInt(currMissionTimeArray[2]);
+
+            var currMissionDate = launchDate.add({
+                                hours: currMissionHours,
+                                minutes: currMissionMinutes,
+                                seconds: currMissionSeconds
+                                });
+            console.log("currMissionDate: " + currMissionDate);
+        }
+
 		//jQuery plugin function to check if a content item exists
 		$.fn.exists = function () {
 			return this.length !== 0;
@@ -172,9 +187,10 @@
 				var seconds = Math.abs(parseInt(totalSec)) % 60;
 				seconds = Math.floor(seconds);
 
-                timer.innerText = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+                currMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
                         (minutes < 10 ? "0" + minutes : minutes) + ":" +
                         (seconds < 10 ? "0" + seconds : seconds);
+                timer.innerText = currMissionTime;
 
                 var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
                         (minutes < 10 ? "0" + minutes : minutes) +
@@ -185,9 +201,10 @@
                 }
 
 				if (timeId != lastTimeIdChecked) {
-					console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+					//console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
 					lastTimeIdChecked = timeId;
 					scrollToTimeID(timeId);
+                    missionTimeHistoricalDifference();
 				}
 			}, 500); //polling frequency in milliseconds
 		}
@@ -308,7 +325,7 @@
     <div style="float: right; width: 640px;" id="player">
 	</div>
 	<div id="timer">00</div>
-	<div id="debug" onclick="seekTo10Min()">Skip to 000:10:00</div>
+    <div id="historicalTimeDiff">00</div>
     <div style="width: 100%;">
         <iframe src="allUtterances.html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
     </div>
