@@ -15,7 +15,7 @@
         window.onload = function() {
             //add an onclick function to all utterances. function calls parent of his iFrame to seek video to that time.
             $( "div.utterance" ).click(function(){
-                parent.seekToTime($( this).attr('id'));
+                parent.seekToTime($(this).attr('id'));
             });
         }
     </script>

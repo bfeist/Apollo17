@@ -1,9 +1,27 @@
+*{margin:0;}
+
+div.main {
+    background: #fff;
+    float: left;
+    height: 33vw;
+    margin: 0%;
+    width: 49%;
+}
+#player {
+    background-color: #eee;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+}
+section{
+    margin:0 10px;
+}
+
 body, td, th, input, textarea, pre {
     font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman';
-    font-size: 11.5px; /* x-small, small */
+    font-size: 11px; /* x-small, small */
     color: #222;
-    voice-family: "\"}\"";
-    voice-family: inherit;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: verdana, arial, sans-serif;
@@ -36,13 +54,15 @@ ul {
     padding: 0;
 }
 ul.TOC1 {
-    font-size: 16px;
+    font-size: 11px;
     list-style-type: none;
 }
 ul.TOC2 {
-    font-size: 14px;
+    font-size: 11px;
     list-style-type: none;
 }
+
+.TOCTitle {color: black; font-weight: bold;}
 
 ol {
     line-height: 1.4em;
@@ -55,7 +75,10 @@ li {
     margin-bottom: .1em;
     padding: 0; /* margin between bullet and content */
 }
-
+table, th, td {
+    border: none;
+    vertical-align: top;
+}
 
 form {
     border: none;
@@ -98,19 +121,17 @@ code {
     background-color: #f9f9f9;
 }
 
-.TOCTitle {color: black; font-weight:bold;}
-
-.utterance  {margin-top: 5px; line-height: 1.5em}
+.utterance  {margin-top: 2px; line-height: 1.4em}
 .oralHistory    {margin-top: 5px;}
-.spokenwords{font-weight:normal}
-.afjdef		{color: black}
-.afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left}
-.afjpao    	{color: DarkGreen; margin-left:60px}
-.afjtec		{color: black; margin-left:60px}
+.spokenwords{font-weight:normal;}
+.afjdef		{color: black;}
+.afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
+.afjpao    	{color: DarkGreen; margin-left:60px;}
+.afjtec		{color: black; margin-left:60px;}
 .afjwho		{font-weight:bold; min-width:30px; float:left; text-align:right; margin-right:10px;}
 .afjwho::after	{content: " "}
-.afjother	{color: #2B547E; margin-left:80px}
-.afjed		{color: #2B547E; margin-left:80px}
+.afjother	{color: #2B547E; margin-left:80px;}
+.afjed		{color: #2B547E; margin-left:80px;}
 .afjed::before	{content: "[ "}
 .afjed::after	{content: " ]"}
 

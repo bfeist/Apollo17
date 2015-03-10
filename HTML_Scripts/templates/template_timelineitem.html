@@ -1,14 +1,14 @@
         <div class="utterance" id="@timeid">
-            <span class="afjget">@timestamp</span>
+            <table>
+                <tr>
+                    <td class="afjget">@timestamp</td>
 #if (@who == 'PAO')
-            <div class="afjpao">
-                <span class="afjwho">@who</span>
-                <span class="spokenwords">@words</span>
-            </div>
+                    <td class="afjwho afjpao">@who</td>
+                    <td class="spokenwords afjpao">@words</td>
 #else
-            <div class="afjtec">
-                <span class="afjwho">@who</span>
-                <span class="spokenwords">@words</span>
-            </div>
+                    <td class="afjwho afjtec">@who</td>
+                    <td class="spokenwords afjtec">@words</td>
 #end
+                </tr>
+            </table>
         </div>

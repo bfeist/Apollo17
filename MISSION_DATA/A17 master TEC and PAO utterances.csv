@@ -87,7 +87,7 @@
 |-00:00:30|CC|30 to go.
 |-00:00:29|CDR|Okay, Robert. We're ready and we're GO up here.
 |-00:00:25|PAO|MARK. T-minus 25. We'll get a final guidance release at the T-minus 17 second mark. T-minus 17, final guidance release. We'll expect engine ignition at 8.9 seconds ...
-|-00:00:20|CC|...
+|-00:00:21|CC|Minus 20.
 |-00:00:10|PAO|10 ... 9 ... 8 ... 7 ... ignition sequence started - all engines are started - we have ignition 2, 1, zero - we have a liftoff.
 |-00:00:10|CC|10 ... 9 ... 8 ... 7 ... ignition ... 6 ... 5 ... 4 ... 3 ... 2 ... 1
 |-00:00:01|CDR|Get the light.
@@ -315,7 +315,7 @@
 |000:09:33|CDR|Did you see it go past us?
 |000:09:35|CMP|Yes.
 |000:09:36|LMP|We're right in the flame.
-|000:09:37|CDR|Yes, that's what the Titan used to do. Used to fly through the flame ... Let's, let's press on here we've got a lot to do. Remote 4.
+|000:09:37|CDR|Yes, that's what the Titan used to do. Used to fly through the flame ... Let's, let's press on here we've got a lot to do. We're MODE 4.
 |000:09:45|PAO|We're up to 23,000 feet per second - we'll be shooting for something over 25,000.
 |000:09:46|CMP|Yes.
 |000:09:47|CDR|Okay, we're at - a little less than 1/2 G.
@@ -323,7 +323,7 @@
 |000:09:51|CDR|Okay, 10 minutes, Ron. I'll be at about fourty ...
 |000:09:55|CC|17, the steering has converged and the CMC is GO. You're looking great.
 |000:09:59|CDR|Roger. The CMC is GO, 10 minutes, and 17 is GO onboard.
-|000:10:02|CDR|Okay, ... a little bit low, but not bad.
+|000:10:02|CDR|Okay, H-DOT's a little bit low, but not bad.
 |000:10:07|CC|17; Houston. You are GO for orbit - GO for orbit.
 |000:10:11|CDR|Those are kind words, Robert. We're GO for orbit here.
 |000:10:15|CC|Good show, Gene.

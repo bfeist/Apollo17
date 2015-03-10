@@ -10,26 +10,28 @@
 	<style type="text/css" media="screen,projection"></style>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
     <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src="lib/humanized_time_span.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
 
     <script language="javascript" type="text/javascript">
-		var lastTimeIdMarker = '';
-		var lastTimeIdChecked = '';
-        var currMissionTime = '';
-		var intervalID = null;
-		var YTList = [];
-		var currVideoStartSeconds = 0;
-        var currVideoEndSeconds = 0;
-
-        var tag = document.createElement('script');
+		var gLastTimeIdMarker= '';
+		var gLastTimeIdChecked = '';
+        var gCurrMissionTime = '';
+        var gCurrMissionDate = null;
+		var gIntervalID = null;
+		var gYTList = [];
+		var gCurrVideoStartSeconds = 0;
+        var gCurrVideoEndSeconds = 0;
 
         var player;
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
-                height: '520',
-                width: '720',
                 videoId: 'ccHq1hv0ohk',
+                width: '100%',
+                height: '100%',
+                frameborder: '0',
                 iv_load_policy: 3,
                 events: {
                     'onReady': onPlayerReady,
@@ -53,88 +55,54 @@
 				player.seekTo(0, true);
 				initialPlay = false;
 			}
-            if (event.data == YT.PlayerState.PLAYING && intervalID == null ) {
+            if (event.data == YT.PlayerState.PLAYING && gIntervalID == null ) {
 				//poll for mission time scrolling if video is playing
-				intervalID = setAutoScrollPoller();
-				console.log("interval started: " + intervalID);
+				gIntervalID = setAutoScrollPoller();
+				console.log("PLAYING: interval started: " + gIntervalID);
 			} else if (event.data == YT.PlayerState.PAUSED) {
 				//clear polling for mission time scrolling if video is paused
-				window.clearInterval(intervalID);
-				console.log("interval stopped: " + intervalID);
-				intervalID = null;
+				window.clearInterval(gIntervalID);
+				console.log("PAUSED: interval stopped: " + gIntervalID);
+				gIntervalID = null;
 			}
             if (event.data == YT.PlayerState.BUFFERING) {
-                console.log("buffering: " + event.target.getCurrentTime() + currVideoStartSeconds);
-                findClosestUtterance(event.target.getCurrentTime() + currVideoStartSeconds);
+                console.log("BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
             }
             if (event.data == YT.PlayerState.ENDED) { //load next video
+                console.log("ENDED. Load next video.");
                 var currVideoID = player.getVideoUrl().substr(32,11);
                 var secsPositiveMultiplier = 1;
-                for (var i = 0; i < YTList.length; ++i) {
-                    if (YTList[i][1] == currVideoID) {
-                        console.log("End of video. Changing YT video from: " + currVideoID + " to: " + YTList[i + 1][1]);
-                        currVideoID = YTList[i + 1][1];
+                for (var i = 0; i < gYTList.length; ++i) {
+                    if (gYTList[i][1] == currVideoID) {
+                        console.log("Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
+                        currVideoID = gYTList[i + 1][1];
                         break;
                     }
                 }
-                var itemStartTimeArray = YTList[i + 1][2].split(":");
+                var itemStartTimeArray = gYTList[i + 1][2].split(":");
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
                 secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
-                currVideoStartSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+                gCurrVideoStartSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
-                var itemEndTimeArray = YTList[i + 1][3].split(":");
+                var itemEndTimeArray = gYTList[i + 1][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
                 secsPositiveMultiplier = (endHours < 0) ? -1 : 1;
-                currVideoEndSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+                gCurrVideoEndSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
                 player.loadVideoById(currVideoID, 0);
                 player.iv_load_policy = 3;
 
-                window.clearInterval(intervalID); //reset the scrolling poller for the new video
-                intervalID = setAutoScrollPoller();
+                window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                gIntervalID = setAutoScrollPoller();
             }
 		}
 
-        function stopVideo() {
-            player.stopVideo();
-        }
-
-        function seekTo10Min() {
-            player.seekTo(600, true);
-			scrollToTimeID('timeid0001002');
-			
-			//$('#iFrameTranscript').contents().scrollTop($('#iFrameTranscript').contents().find('#timeid0001002').offset().top);
-			//$('#timeid0001002').goTo();		
-        }
-
-        function missionTimeHistoricalDifference() {
-            historicalTimeDiff.innerText = '';
-            console.log("currMissionTime: " + currMissionTime);
-            var launchDate = Date.parse("1971-12-07 12:33am");
-
-            var currMissionTimeArray = currMissionTime.split(":");
-            var currMissionHours = parseInt(currMissionTimeArray[0]);
-            var currMissionMinutes = parseInt(currMissionTimeArray[1]);
-            var currMissionSeconds = parseInt(currMissionTimeArray[2]);
-
-            var currMissionDate = launchDate.add({
-                                hours: currMissionHours,
-                                minutes: currMissionMinutes,
-                                seconds: currMissionSeconds
-                                });
-            console.log("currMissionDate: " + currMissionDate);
-        }
-
-		//jQuery plugin function to check if a content item exists
-		$.fn.exists = function () {
-			return this.length !== 0;
-		}
-
-        //--------------- search for closest utterance time to seeked video --------------------
+        //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
         function findClosestUtterance(totalSecSearch) {
             var found = false;
             var onCountdown = false;
@@ -164,7 +132,7 @@
                     break;
                 } else {
                     //console.log("not found: " + timeId);
-                    if (currVideoStartSeconds >= 0) {
+                    if (gCurrVideoStartSeconds >= 0) {
                         curSecSearch--;
                     } else {
                         curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
@@ -174,11 +142,10 @@
         }
 
 		//--------------- transcript iframe autoscroll handling --------------------
-
 		function setAutoScrollPoller() {
 			return window.setInterval(function () {
                 var onCountdown = false;
-				var totalSec = player.getCurrentTime() + currVideoStartSeconds;
+				var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
                 if (totalSec < 0) {
                     onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
                 }
@@ -187,46 +154,73 @@
 				var seconds = Math.abs(parseInt(totalSec)) % 60;
 				seconds = Math.floor(seconds);
 
-                currMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
+                gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
                         (minutes < 10 ? "0" + minutes : minutes) + ":" +
                         (seconds < 10 ? "0" + seconds : seconds);
-                timer.innerText = currMissionTime;
 
                 var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
                         (minutes < 10 ? "0" + minutes : minutes) +
                         (seconds < 10 ? "0" + seconds : seconds);
 
                 if (onCountdown) {
-                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading tripple hours zero with "-"
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading tripple zero hours with "-"
+                    gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
                 }
+                timer.innerText = gCurrMissionTime;
 
-				if (timeId != lastTimeIdChecked) {
+				if (timeId != gLastTimeIdChecked) {
 					//console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
-					lastTimeIdChecked = timeId;
+					gLastTimeIdChecked = timeId;
 					scrollToTimeID(timeId);
                     missionTimeHistoricalDifference();
 				}
 			}, 500); //polling frequency in milliseconds
 		}
-		
 		function scrollToTimeID(timeId) {
 			//console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
 			var transcriptFrame = $('#iFrameTranscript').contents();
-			if (transcriptFrame.find('#' + timeId).exists()) {
+            var timeIdMarker = transcriptFrame.find('#' + timeId);
+			if (timeIdMarker.exists()) {
 				//reset background color of last line
-				if (lastTimeIdMarker != '') {
-                    lastTimeIdMarker.css("background-color","#FFFFFF");
+				if (gLastTimeIdMarker != '') {
+                    gLastTimeIdMarker.css("background-color","#FFFFFF");
 				}
-
-				var timeIdMarker = transcriptFrame.find('#' + timeId);
 				var scrollDestination = timeIdMarker.offset().top - 50;
 				timeIdMarker.css("background-color","#DDDDDD");
-                lastTimeIdMarker = timeIdMarker;
+                gLastTimeIdMarker = timeIdMarker;
 				transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
 			}
 		}
-		//--------------- transcript click handling --------------------
+        function missionTimeHistoricalDifference() {
+            var launchDate = Date.parse("1971-12-07 12:33am");
 
+            var currMissionTimeArray = gCurrMissionTime.split(":");
+            var currMissionHours = parseInt(currMissionTimeArray[0]);
+            var currMissionMinutes = parseInt(currMissionTimeArray[1]);
+            var currMissionSeconds = parseInt(currMissionTimeArray[2]);
+            if (parseInt(currMissionHours) >= 0) {
+                gCurrMissionDate = launchDate.add({
+                    hours: currMissionHours,
+                    minutes: currMissionMinutes,
+                    seconds: currMissionSeconds
+                });
+            } else { //if on countdown, subtract the mission time from the launch moment
+                gCurrMissionDate = launchDate.subtract({
+                    hours: currMissionHours,
+                    minutes: currMissionMinutes,
+                    seconds: currMissionSeconds
+                });
+            }
+            var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
+            var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
+            historicalTimeDiff.innerText = "Exactly " + humanizedRealtimeDifference;
+
+//            console.log("currMissionTime: " + gCurrMissionTime);
+//            console.log("currMissionDate: " + gCurrMissionDate);
+//            console.log("Exactly " + humanizedRealtimeDifference);
+        }
+
+		//--------------- transcript click handling --------------------
 		function seekToTime(elementId){
             var secsPositiveMultiplier = 1;
             var timeStr = elementId.substr(6,7);
@@ -239,15 +233,15 @@
 
 			var currVideoID = player.getVideoUrl().substr(32,11);
 			//console.log(currVideoID);
-			for (var i = 0; i < YTList.length; ++i) {
-				var itemStartTimeArray = YTList[i][2].split(":");
+			for (var i = 0; i < gYTList.length; ++i) {
+				var itemStartTimeArray = gYTList[i][2].split(":");
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
                 secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
                 var itemStartTimeSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
-                var itemEndTimeArray = YTList[i][3].split(":");
+                var itemEndTimeArray = gYTList[i][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
@@ -262,14 +256,14 @@
                             seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
                         }
                     }
-					currVideoStartSeconds = itemStartTimeSeconds;
-                    currVideoEndSeconds = itemEndTimeSeconds;
+					gCurrVideoStartSeconds = itemStartTimeSeconds;
+                    gCurrVideoEndSeconds = itemEndTimeSeconds;
                     //change youtube video if the correct video isn't already playing
-					if (currVideoID !== YTList[i][1]) {
-                        console.log("changing YT video from: " + currVideoID + " to: " + YTList[i][1]);
-						player.loadVideoById(YTList[i][1], seekToSecondsWithOffset);
-						window.clearInterval(intervalID); //reset the scrolling poller for the new video
-						intervalID = setAutoScrollPoller();
+					if (currVideoID !== gYTList[i][1]) {
+                        console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
+						player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
+						window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+						gIntervalID = setAutoScrollPoller();
 					} else {
                         console.log("no need to change video. Seeking to " + elementId.toString());
 						player.seekTo(seekToSecondsWithOffset, true);
@@ -278,13 +272,6 @@
 				}
 			}
 		}
-
-		//		document.getElementById("iFrameTranscript").onload = function() {
-//			$('#iFrameTranscript').contents().find('div.utterance').each(function(index, element) {
-//				console.log(index + ": " + $(element).text());
-//			});
-//		});
-
 
 		//--------------- youtube index file handling --------------------
 		$(document).ready(function() {
@@ -307,28 +294,50 @@
 				rec.push(data[1]);
 				rec.push(data[2]);
 				rec.push(data[3]);
-				YTList.push(rec);
+				gYTList.push(rec);
 			}
 			// alert(lines);
 		}
 
+        $(document).ready(function() {
+            var $w = $(window),
+                    $vids = $("iframe[src*='youtube']");
+
+            // Store video aspect ratio
+            // Store video aspect ratio
+            $vids.each(function() {
+                var aspectRatio = $(this).width() / $(this).height();
+                $(this).attr("data-aspect-ratio", aspectRatio);
+            });
+
+            $w.resize(function() {
+                // Set video width fluidly
+                $vids.each(function() {
+                    $(this).width($(this).parent().width());
+                    $(this).height(Math.floor($(this).width() / $(this).data("aspect-ratio")));
+                });
+            }).resize();
+        });
 		
     </script>
 </head>
-
 <body>
-
-    <!--<div id="topBar"> <a href ="#" onclick="load_toc()"> Load TOC </a> </div> -->
-    <div style="float: left; width: 50%">
-        <iframe src="TOC.html" style="border:1px #000000 none;" id="iFrameTOC" name="iFrameTOC" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="500px" width="100%"></iframe>
+<section>
+    <div class="main">
+        <iframe src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
     </div>
-    <div style="float: right; width: 640px;" id="player">
-	</div>
-	<div id="timer">00</div>
-    <div id="historicalTimeDiff">00</div>
-    <div style="width: 100%;">
-        <iframe src="allUtterances.html" style="border:1px #000000 none;" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="470px" width="100%"></iframe>
+    <div class="main">
+        <div id="player">
+            <iframe src="http://www.youtube.com/embed/xU2fB0pQJkA?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
+        </div>
     </div>
-
+    <div class="main">
+        <iframe src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
+    </div>
+    <div class="main">
+        <div id="timer">00</div>
+        <div id="historicalTimeDiff">00</div>
+    </div>
+</section>
 </body>
 </html>
