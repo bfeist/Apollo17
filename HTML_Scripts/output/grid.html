@@ -1,28 +1,30 @@
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="template" />
-	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="template" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
-	<title>TOC</title>
-	<meta name="robots" content="index,follow" />
-	<style type="text/css" media="screen,projection"></style>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>TOC</title>
+    <meta name="robots" content="index,follow" />
+    <style type="text/css" media="screen,projection"></style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
     <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/humanized_time_span.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
+    <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
     <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
-
-    <script language="javascript" type="text/javascript">
-		var gLastTimeIdMarker= '';
-		var gLastTimeIdChecked = '';
+    <script type="text/javascript">
+        var gLastTimeIdMarker= '';
+        var gLastTimeIdChecked = '';
         var gCurrMissionTime = '';
         var gCurrMissionDate = null;
-		var gIntervalID = null;
-		var gYTList = [];
-		var gCurrVideoStartSeconds = 0;
+        var gIntervalID = null;
+        var gYTList = [];
+        var gCurrVideoStartSeconds = 0;
         var gCurrVideoEndSeconds = 0;
 
         var player;
@@ -52,19 +54,19 @@
         function onPlayerStateChange(event) {
             console.log("player state change: " + event.data);
             if (event.data == YT.PlayerState.PLAYING && initialPlay) {
-				player.seekTo(0, true);
-				initialPlay = false;
-			}
+                player.seekTo(0, true);
+                initialPlay = false;
+            }
             if (event.data == YT.PlayerState.PLAYING && gIntervalID == null ) {
-				//poll for mission time scrolling if video is playing
-				gIntervalID = setAutoScrollPoller();
-				console.log("PLAYING: interval started: " + gIntervalID);
-			} else if (event.data == YT.PlayerState.PAUSED) {
-				//clear polling for mission time scrolling if video is paused
-				window.clearInterval(gIntervalID);
-				console.log("PAUSED: interval stopped: " + gIntervalID);
-				gIntervalID = null;
-			}
+                //poll for mission time scrolling if video is playing
+                gIntervalID = setAutoScrollPoller();
+                console.log("PLAYING: interval started: " + gIntervalID);
+            } else if (event.data == YT.PlayerState.PAUSED) {
+                //clear polling for mission time scrolling if video is paused
+                window.clearInterval(gIntervalID);
+                console.log("PAUSED: interval stopped: " + gIntervalID);
+                gIntervalID = null;
+            }
             if (event.data == YT.PlayerState.BUFFERING) {
                 console.log("BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
                 findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -100,7 +102,7 @@
                 window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 gIntervalID = setAutoScrollPoller();
             }
-		}
+        }
 
         //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
         function findClosestUtterance(totalSecSearch) {
@@ -141,22 +143,22 @@
             }
         }
 
-		//--------------- transcript iframe autoscroll handling --------------------
-		function setAutoScrollPoller() {
-			return window.setInterval(function () {
+        //--------------- transcript iframe autoscroll handling --------------------
+        function setAutoScrollPoller() {
+            return window.setInterval(function () {
                 var onCountdown = false;
-				var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
+                var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
                 if (totalSec < 0) {
                     onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
                 }
-				var hours = Math.abs(parseInt(totalSec / 3600));
-				var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
-				var seconds = Math.abs(parseInt(totalSec)) % 60;
-				seconds = Math.floor(seconds);
+                var hours = Math.abs(parseInt(totalSec / 3600));
+                var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
+                var seconds = Math.abs(parseInt(totalSec)) % 60;
+                seconds = Math.floor(seconds);
 
                 gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-                        (minutes < 10 ? "0" + minutes : minutes) + ":" +
-                        (seconds < 10 ? "0" + seconds : seconds);
+                (minutes < 10 ? "0" + minutes : minutes) + ":" +
+                (seconds < 10 ? "0" + seconds : seconds);
 
                 var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
                         (minutes < 10 ? "0" + minutes : minutes) +
@@ -168,29 +170,29 @@
                 }
                 timer.innerText = gCurrMissionTime;
 
-				if (timeId != gLastTimeIdChecked) {
-					//console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
-					gLastTimeIdChecked = timeId;
-					scrollToTimeID(timeId);
+                if (timeId != gLastTimeIdChecked) {
+                    //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+                    gLastTimeIdChecked = timeId;
+                    scrollToTimeID(timeId);
                     missionTimeHistoricalDifference();
-				}
-			}, 500); //polling frequency in milliseconds
-		}
-		function scrollToTimeID(timeId) {
-			//console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-			var transcriptFrame = $('#iFrameTranscript').contents();
+                }
+            }, 500); //polling frequency in milliseconds
+        }
+        function scrollToTimeID(timeId) {
+            //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
+            var transcriptFrame = $('#iFrameTranscript').contents();
             var timeIdMarker = transcriptFrame.find('#' + timeId);
-			if (timeIdMarker.exists()) {
-				//reset background color of last line
-				if (gLastTimeIdMarker != '') {
+            if (timeIdMarker.exists()) {
+                //reset background color of last line
+                if (gLastTimeIdMarker != '') {
                     gLastTimeIdMarker.css("background-color","#FFFFFF");
-				}
-				var scrollDestination = timeIdMarker.offset().top - 50;
-				timeIdMarker.css("background-color","#DDDDDD");
+                }
+                var scrollDestination = timeIdMarker.offset().top - 50;
+                timeIdMarker.css("background-color","#DDDDDD");
                 gLastTimeIdMarker = timeIdMarker;
-				transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
-			}
-		}
+                transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
+            }
+        }
         function missionTimeHistoricalDifference() {
             var launchDate = Date.parse("1971-12-07 12:33am");
 
@@ -198,7 +200,7 @@
             var currMissionHours = parseInt(currMissionTimeArray[0]);
             var currMissionMinutes = parseInt(currMissionTimeArray[1]);
             var currMissionSeconds = parseInt(currMissionTimeArray[2]);
-            if (parseInt(currMissionHours) >= 0) {
+            if (currMissionTimeArray[0].substr(0,1) != "-") {
                 gCurrMissionDate = launchDate.add({
                     hours: currMissionHours,
                     minutes: currMissionMinutes,
@@ -220,8 +222,8 @@
 //            console.log("Exactly " + humanizedRealtimeDifference);
         }
 
-		//--------------- transcript click handling --------------------
-		function seekToTime(elementId){
+        //--------------- transcript click handling --------------------
+        function seekToTime(elementId){
             var secsPositiveMultiplier = 1;
             var timeStr = elementId.substr(6,7);
             var sign = timeStr.substr(0,1);
@@ -231,10 +233,10 @@
             secsPositiveMultiplier = (sign == "-") ? -1 : 1;
             var totalSeconds = secsPositiveMultiplier * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
-			var currVideoID = player.getVideoUrl().substr(32,11);
-			//console.log(currVideoID);
-			for (var i = 0; i < gYTList.length; ++i) {
-				var itemStartTimeArray = gYTList[i][2].split(":");
+            var currVideoID = player.getVideoUrl().substr(32,11);
+            //console.log(currVideoID);
+            for (var i = 0; i < gYTList.length; ++i) {
+                var itemStartTimeArray = gYTList[i][2].split(":");
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
@@ -249,55 +251,55 @@
                 var itemEndTimeSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
                 if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
-					var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+                    var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
                     //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
                     if (itemStartTimeSeconds == 230400) {
                         if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
                             seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
                         }
                     }
-					gCurrVideoStartSeconds = itemStartTimeSeconds;
+                    gCurrVideoStartSeconds = itemStartTimeSeconds;
                     gCurrVideoEndSeconds = itemEndTimeSeconds;
                     //change youtube video if the correct video isn't already playing
-					if (currVideoID !== gYTList[i][1]) {
+                    if (currVideoID !== gYTList[i][1]) {
                         console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
-						player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
-						window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-						gIntervalID = setAutoScrollPoller();
-					} else {
+                        player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
+                        window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                        gIntervalID = setAutoScrollPoller();
+                    } else {
                         console.log("no need to change video. Seeking to " + elementId.toString());
-						player.seekTo(seekToSecondsWithOffset, true);
-					}
-					break;
-				}
-			}
-		}
+                        player.seekTo(seekToSecondsWithOffset, true);
+                    }
+                    break;
+                }
+            }
+        }
 
-		//--------------- youtube index file handling --------------------
-		$(document).ready(function() {
-			$.ajax({
-				type: "GET",
-				url: "./YouTube_media_index.csv",
-				dataType: "text",
-				success: function(data) {processYTData(data);}
-			});
-		});
+        //--------------- youtube index file handling --------------------
+        $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: "./YouTube_media_index.csv",
+                dataType: "text",
+                success: function(data) {processYTData(data);}
+            });
+        });
 
-		function processYTData(allText) {
-			var allTextLines = allText.split(/\r\n|\n/);
+        function processYTData(allText) {
+            var allTextLines = allText.split(/\r\n|\n/);
 
-			for (var i = 0; i < allTextLines.length; i++) {
-				var data = allTextLines[i].split('|');
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
 
-				var rec = [];
-				rec.push(data[0]);
-				rec.push(data[1]);
-				rec.push(data[2]);
-				rec.push(data[3]);
-				gYTList.push(rec);
-			}
-			// alert(lines);
-		}
+                var rec = [];
+                rec.push(data[0]);
+                rec.push(data[1]);
+                rec.push(data[2]);
+                rec.push(data[3]);
+                gYTList.push(rec);
+            }
+            // alert(lines);
+        }
 
         $(document).ready(function() {
             var $w = $(window),
@@ -317,27 +319,65 @@
                     $(this).height(Math.floor($(this).width() / $(this).data("aspect-ratio")));
                 });
             }).resize();
+
+            // OUTER-LAYOUT
+            $('body').layout({
+                center__paneSelector:	".outer-center"
+                ,   north__paneSelector:     ".outer-north"
+                ,   south__paneSelector:     ".outer-south"
+                ,	north__spacing_open:	5
+                ,   north__togglerLength_open: 0
+                ,	south__spacing_open:	5
+                ,	north__maxSize:			"55%"
+                ,   north__minSize:         "55%"
+                ,	south__maxSize:			100
+                ,   south__minSize:			100
+                ,	spacing_open:			5  // ALL panes
+                ,	spacing_closed:			12 // ALL panes
+                ,
+                // NORTH-LAYOUT (child of outer-north-pane)
+                north__childOptions: {
+
+                    center__paneSelector:	".north-center"
+                    ,	west__paneSelector:		".north-west"
+                    ,	west__size:				"60%"
+                    ,	spacing_open:			5  // ALL panes
+                    ,	spacing_closed:			12 // ALL panes
+                },
+                // CENTER-LAYOUT (child of outer-center-pane)
+                center__childOptions: {
+                    center__paneSelector:	".middle-center"
+                    ,	west__paneSelector:		".middle-west"
+                    ,	east__paneSelector:		".middle-east"
+                    ,	west__size:				"40%"
+                    ,	east__size:				"40%"
+                    ,	spacing_open:			5  // ALL panes
+                    ,	spacing_closed:			12 // ALL panes
+                }
+            });
         });
-		
     </script>
+
 </head>
 <body>
-<section>
-    <div class="main">
-        <iframe src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
-    </div>
-    <div class="main">
+<div class="outer-north">
+    <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
+    <div class="north-center">
         <div id="player">
             <iframe src="http://www.youtube.com/embed/ccHq1hv0ohk?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
         </div>
     </div>
-    <div class="main">
-        <iframe src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
+</div>
+<div class="outer-center">
+    <iframe class="middle-west" src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+    <div class="middle-center">
+        MISSION ELAPSED TIME: <span id="timer">00</span>
+        <BR><BR>
+        HISTORICAL TIME DIFFERENCE:<BR>
+        <span id="historicalTimeDiff"></span>
     </div>
-    <div class="main">
-        <div id="timer">00</div>
-        <div id="historicalTimeDiff">00</div>
-    </div>
-</section>
+    <div class="middle-east">Middle East</div>
+</div>
+<div class="outer-south">South</div>
 </body>
 </html>
