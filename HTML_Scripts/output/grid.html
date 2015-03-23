@@ -24,13 +24,14 @@
         var gCurrMissionDate = null;
         var gIntervalID = null;
         var gYTList = [];
-        var gCurrVideoStartSeconds = 0;
+        var gCurrVideoStartSeconds = -9442;
         var gCurrVideoEndSeconds = 0;
 
         var player;
+
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
-                videoId: 'ccHq1hv0ohk',
+                videoId: '8_0QwiEAZm8',
                 width: '100%',
                 height: '100%',
                 frameborder: '0',
@@ -45,7 +46,7 @@
         // The API will call this function when the video player is ready.
         function onPlayerReady(event) {
             event.target.playVideo();
-            seekToTime("timeid0000000");
+            //seekToTime("timeid0000000");
         }
 
         // The API calls this function when the player's state changes.
@@ -124,7 +125,7 @@
                         (seconds < 10 ? "0" + seconds : seconds);
                 timeId = "timeid" + timeId;
                 if (onCountdown) {
-                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading tripple hours zero with "-"
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
                 }
 
                 if (transcriptFrame.find('#' + timeId).exists()) {
@@ -187,10 +188,10 @@
                 if (gLastTimeIdMarker != '') {
                     gLastTimeIdMarker.css("background-color","#FFFFFF");
                 }
-                var scrollDestination = timeIdMarker.offset().top - 50;
+                var scrollDestination = timeIdMarker.offset().top - 100;
                 timeIdMarker.css("background-color","#DDDDDD");
                 gLastTimeIdMarker = timeIdMarker;
-                transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 300);
+                transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
             }
         }
         function missionTimeHistoricalDifference() {
@@ -207,10 +208,10 @@
                     seconds: currMissionSeconds
                 });
             } else { //if on countdown, subtract the mission time from the launch moment
-                gCurrMissionDate = launchDate.subtract({
+                gCurrMissionDate = launchDate.add({
                     hours: currMissionHours,
-                    minutes: currMissionMinutes,
-                    seconds: currMissionSeconds
+                    minutes: currMissionMinutes * -1,
+                    seconds: currMissionSeconds * -1
                 });
             }
             var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
@@ -302,24 +303,6 @@
         }
 
         $(document).ready(function() {
-            var $w = $(window),
-                    $vids = $("iframe[src*='youtube']");
-
-            // Store video aspect ratio
-            // Store video aspect ratio
-            $vids.each(function() {
-                var aspectRatio = $(this).width() / $(this).height();
-                $(this).attr("data-aspect-ratio", aspectRatio);
-            });
-
-            $w.resize(function() {
-                // Set video width fluidly
-                $vids.each(function() {
-                    $(this).width($(this).parent().width());
-                    $(this).height(Math.floor($(this).width() / $(this).data("aspect-ratio")));
-                });
-            }).resize();
-
             // OUTER-LAYOUT
             $('body').layout({
                 center__paneSelector:	".outer-center"
@@ -364,7 +347,7 @@
     <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
     <div class="north-center">
         <div id="player">
-            <iframe src="http://www.youtube.com/embed/ccHq1hv0ohk?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
+            <iframe src="http://www.youtube.com/embed/8_0QwiEAZm8?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
         </div>
     </div>
 </div>
@@ -376,8 +359,25 @@
         HISTORICAL TIME DIFFERENCE:<BR>
         <span id="historicalTimeDiff"></span>
     </div>
-    <div class="middle-east">Middle East</div>
+    <div class="middle-east">
+        <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
+            You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a></B></P>
+        <p>Instructions:</p>
+        <ul>
+            <li>Jump to any point in the YouTube video, and the mission transcript will scroll automatically to that point.</li>
+            <li>Click any line in the transcript and the video will jump to that instant.</li>
+            <li>For big jumps, click an item in the table of contents (bottom left).</li>
+        </ul>
+        <p>Planned Features:</p>
+        <ul>
+            <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
+            <li>Inclusion of all mission photography (this window).</li>
+            <li>Inclusion of post-mission astronaut commentary.</li>
+            <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
+        </ul>
+        <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a permanent site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+    </div>
 </div>
-<div class="outer-south">South</div>
+<iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
 </body>
 </html>

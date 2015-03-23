@@ -48,8 +48,8 @@ function drawGridOnScreen(){
 
 //Width/Height per cell on the grid variables
 
-    var widthPerCell = 50;
-    var heightPerCell = 50;
+    var widthPerCell = 20;
+    var heightPerCell = 20;
 
 //Draw the grid lines and add them into the global group above that holds all the lines
 

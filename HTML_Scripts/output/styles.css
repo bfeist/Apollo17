@@ -9,7 +9,6 @@ div.main {
 }
 #player {
     background-color: #eee;
-    box-sizing: border-box;
     overflow: hidden;
     padding: 0px;
     width: 100%;
@@ -18,7 +17,7 @@ section{
     margin:0 10px;
 }
 
-body, td, th, input, textarea, pre {
+body, td, th, input, textarea, pre, p, ul {
     font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman';
     font-size: 11px; /* x-small, small */
     color: #222;
