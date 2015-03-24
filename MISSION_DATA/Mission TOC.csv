@@ -13,7 +13,8 @@
 002:53:13|2|GO For Trans-Lunar Injection (TLI)|
 003:12:37|1|Trans-Lunar Injection maneuver|
 003:42:29|2|S-IVB/Command and Service Module separation|
-003:56:45|2|Trans-Lunar docking|
+003:45:00|2|Trans-Lunar docking initiated|
+003:56:45|2|Trans-Lunar docking capture|
 004:45:00|2|Spacecraft ejection|
 009:00:01|1|Crew Sleep Period Start|
 015:02:47|1|Crew Wakeup|
@@ -27,9 +28,9 @@
 111:57:29|1|Circularization maneuver|
 112:02:42|1|Lunar Module descent orbit insertion|
 112:49:53|1|Powered descent initiation|
-113:01:57|1|Initiate Lunar landing|
-115:27:47|2|Landing at Taurus-Littrow|
-115:43:51|2|Post-landing Activities|
+112:52:08|1|Initiate Lunar landing|
+112:57:48|2|Landing at Taurus-Littrow|
+113:43:51|2|Post-landing Activities|
 114:21:49|1|EVA-1|
 115:17:12|2|EVA-1 Preparations|
 117:05:23|2|Down the Ladder|
