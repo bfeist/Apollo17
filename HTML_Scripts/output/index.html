@@ -64,7 +64,7 @@
         // The API will call this function when the video player is ready.
         function onPlayerReady(event) {
             event.target.playVideo();
-            //seekToTime("timeid0000000");
+            seekToTime("timeid-000100"); //jump to 1 minute to launch
         }
 
         // The API calls this function when the player's state changes.
@@ -148,7 +148,7 @@
 
                 if (transcriptFrame.find('#' + timeId).exists()) {
                     found = true;
-                    console.log("found: " + timeId);
+                    //console.log("found: " + timeId);
                     //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
                     scrollToTimeID(timeId);
                     //}
@@ -192,7 +192,7 @@
                 timer.innerText = gCurrMissionTime;
 
                 if (timeId != gLastTimeIdChecked) {
-                    //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+                    console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
                     gLastTimeIdChecked = timeId;
                     scrollToTimeID(timeId);
                     missionTimeHistoricalDifference();
