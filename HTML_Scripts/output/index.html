@@ -192,7 +192,7 @@
                 timer.innerText = gCurrMissionTime;
 
                 if (timeId != gLastTimeIdChecked) {
-                    console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+                    //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
                     gLastTimeIdChecked = timeId;
                     scrollToTimeID(timeId);
                     missionTimeHistoricalDifference();
@@ -301,7 +301,7 @@
         $(document).ready(function() {
             $.ajax({
                 type: "GET",
-                url: "./YouTube_media_index.csv",
+                url: "./YouTube_media_index.csv?stopcache=982793874",
                 dataType: "text",
                 success: function(data) {processYTData(data);}
             });
