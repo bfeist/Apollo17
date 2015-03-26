@@ -641,7 +641,7 @@
 |002:31:08|CC|02 plus 50 at Hawaii.
 |002:31:11|CDR|Okay, 50. And we'll be into our TLI checklist, and - we'll be ready for that PYRO ARM.
 |002:31:17|CC|Okay.
-|002:31:17||HAWAII (REV 2)
+|002:49:50||HAWAII (REV 2)
 |002:32:32|PAO|This is Apollo Control. We'll be reacquiring the spacecraft in about 18 minutes. And during that passover at Carnarvon, and we've passed up the numbers to the crew they'll use in the Translunar Injection maneuver. The burn is targeted to last 5 minutes 51 seconds with a change in velocity of some 10,359 feet per second. Accelerating Apollo 17 to the required speed to get it into an orbit that will intercept the Moon. And the time of ignition, 300 - 03:12:35 and we're showing an ejection time of 04:39. The transposition and docking maneuver which preceeds ejection, is somewhat fluid in that it's done when the crew and mission control are ready, following Translunar Injection. However, from the projected time for ejection, it would appear that transposition and docking will occur about 25 to 30 minutes ahead of the nominal Flight Plan time. And we're now 39 minutes away from the scheduled ignition for translunar injection. At 2 hours 34 minutes this is Apollo Control, Houston.
 |002:49:00|PAO|This is Apollo Control at 2 hours 49 minutes. We're standing by now to acquire radio contact with Apollo 17 through Hawaii. During this Hawaiian pass we're getting another good look at spacecraft and launch vehicle systems. The last look we had through Carnarvon everything looked very good. Flight Director, Gene Kranz, going over the status for these flight controllers observed that there appeared to be no problems that would interfere with TLI and we expect to have a normal translunar injection, about 23 minutes from now as Apollo 17 completes its state-side pass and moves out over the Atlantic Ocean at the start of its third revolution.
 |002:49:50|CC|Apollo 17, Houston.
@@ -1752,7 +1752,7 @@
 |016:57:52|CMP|P37 pad's first.
 |016:57:54|CC|Okay. Okay, the P37 block data for 35 hours. Well, we've got 35, 45, 55, 65. GET ignition of 035:00. DELTA-Vt is 5326, minus 175, 081:39. For a GET of 045:00, 7728, minus 177, 08l:l8. For a GET of 055:00, 5859, minus 175, 105:30. GET of 065:00, 4703, minus 175, 129:40.
 |016:59:34|CMP|Okay, I'll read that. Let's see, 35:00 at 5326, minus 175, and 81:39 At 45:00, 7728, minus 177, and 8l:l8. At 55:00, it's 5859, minus 175, 105:30. At 65:00, it's 4703, minus 175, and 129:40.
-|017:00:11|CC|Okay, that's correct. I've got a maneuver pad for you. It's a flyby maneuver at a time of 8l hours, which is 5 hours prior to LOI, This is required because you're presently on an impacting trajectory. And this is assuming you wouldn't do midcourse 2. Midcourse 2 will put you on a - on the proper trajectory. If you can get a maneuver pad out, I'll give it to you.
+|017:00:11|CC|Okay, that's correct. I've got a maneuver pad for you. It's a flyby maneuver at a time of 81 hours, which is 5 hours prior to LOI, This is required because you're presently on an impacting trajectory. And this is assuming you wouldn't do midcourse 2. Midcourse 2 will put you on a - on the proper trajectory. If you can get a maneuver pad out, I'll give it to you.
 ||||Tape 14/3|Page 100
 |017:00:44|LMP|Okay. That's in work.
 |017:02:11|CMP|Okay, Houston. This is 17. Ready for the flyby pad.
@@ -3005,7 +3005,7 @@
 |037:00:23|CC|Roger, America. Go ahead.
 |037:00:26|CMP|Okay, Gordo. We're up to 2.5 on the tunnel and still venting.
 |037:00:33|CC|Okay. is that music we hear in the background?
-|037:00:40|CMP|Yes, sir. (Music: Up, Up, and Away by Brazil '66} They've been making fun of some of my music. ...
+|037:00:40|CMP|Yes, sir. (Music: Up, Up, and Away by Brazil '66) They've been making fun of some of my music. ...
 |037:00:59|CC|Yes, it's coming down to us in living stereo.
 |037:01:05|CMP|Reminiscent of yesteryear. (Music: Up, Up, and Away by Brazil '66).
 |037:02:43|CMP|Music from America.
@@ -5702,7 +5702,7 @@
 ||||Tape 54/1|Page 379
 |081:30:28|CC|Apollo 17, Houston. Did you call?
 |081:31:00|CDR|Good morning, Houston, Anybody there?
-|081:31:03|CC|Okay, good morning. It's LOI day, Apollo 17*
+|081:31:03|CC|Okay, good morning. It's LOI day, Apollo 17.
 |081:31:11|CDR|Hello, Robert. You gave us an extra half hour.
 |081:31:14|CC|That's affirmative. We're presently still debating on midcourse 4, Geno, and at the present time, it's small, about a half a foot per second. We're expecting a final decision on whether it's necessary or not in approximately 1 hour at 8 - 82:30. We'll let you know then, but it will be small, and so we decided to give you an extra half hour of sleep.
 |081:31:41|CDR|Okay, Bob, without me having to look it up, when will it come if it comes?

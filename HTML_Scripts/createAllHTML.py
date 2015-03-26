@@ -18,7 +18,7 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 #WRITE TOC ITEMS
 prev_depth = 0
 timestamp = ""
-inputFilePath = "E:\Apollo17.org\MISSION_DATA\Mission TOC.csv"
+inputFilePath = "../MISSION_DATA/Mission TOC.csv"
 reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
 for row in reader:
     timestamp = row[0]
@@ -51,7 +51,7 @@ outputUtteranceFile.write(template.render({'datarow': 0}, loader=template_loader
 
 #WRITE ALL UTTERANCE BODY ITEMS
 cur_row = 0
-input_file_path = "E:\Apollo17.org\MISSION_DATA\A17 master TEC and PAO utterances.csv"
+input_file_path = "../MISSION_DATA/A17 master TEC and PAO utterances.csv"
 utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for utterance_row in utterance_reader:
     cur_row += 1

@@ -69,18 +69,23 @@
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
-        var initialPlay = true;
+        var gWasRecentlyBuffering = true;
         function onPlayerStateChange(event) {
             console.log("player state change: " + event.data);
-//            if (event.data == YT.PlayerState.PLAYING && initialPlay) {
-//                player.seekTo(0, true);
-//                initialPlay = false;
-//            }
-            if (event.data == YT.PlayerState.PLAYING && gIntervalID == null ) {
-                //poll for mission time scrolling if video is playing
-                gIntervalID = setAutoScrollPoller();
-                console.log("PLAYING: interval started: " + gIntervalID);
-            } else if (event.data == YT.PlayerState.PAUSED) {
+            if (event.data == YT.PlayerState.PLAYING) {
+                console.log("PLAYER PLAYING");
+                if (gWasRecentlyBuffering) {
+                    console.log("PLAYING: calling findClosestUtterance");
+                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    gWasRecentlyBuffering = false;
+                }
+                if (gIntervalID == null) {
+                    //poll for mission time scrolling if video is playing
+                    gIntervalID = setAutoScrollPoller();
+                    console.log("PLAYING: Interval started: " + gIntervalID);
+                }
+            }
+            if (event.data == YT.PlayerState.PAUSED) {
                 //clear polling for mission time scrolling if video is paused
                 window.clearInterval(gIntervalID);
                 console.log("PAUSED: interval stopped: " + gIntervalID);
@@ -88,7 +93,7 @@
             }
             if (event.data == YT.PlayerState.BUFFERING) {
                 console.log("BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
-                findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                gWasRecentlyBuffering = true;
             }
             if (event.data == YT.PlayerState.ENDED) { //load next video
                 console.log("ENDED. Load next video.");
@@ -96,7 +101,7 @@
                 var secsPositiveMultiplier = 1;
                 for (var i = 0; i < gYTList.length; ++i) {
                     if (gYTList[i][1] == currVideoID) {
-                        console.log("Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
+                        console.log("Ended. Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
                         currVideoID = gYTList[i + 1][1];
                         break;
                     }
@@ -125,6 +130,7 @@
 
         //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
         function findClosestUtterance(totalSecSearch) {
+            console.log("finding closest utterance to (seconds): " + totalSecSearch);
             var found = false;
             var onCountdown = false;
             var curSecSearch = totalSecSearch;
@@ -148,7 +154,7 @@
 
                 if (transcriptFrame.find('#' + timeId).exists()) {
                     found = true;
-                    //console.log("found: " + timeId);
+                    console.log("found closest: " + timeId);
                     //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
                     scrollToTimeID(timeId);
                     //}
@@ -172,6 +178,12 @@
                 if (totalSec < 0) {
                     onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
                 }
+                if (gCurrVideoStartSeconds == 230400) {
+                    if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                        //console.log("adding 9600 seconds to autoscroll target due to MET time change");
+                        totalSec = totalSec + 9600;
+                    }
+                }
                 var hours = Math.abs(parseInt(totalSec / 3600));
                 var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
                 var seconds = Math.abs(parseInt(totalSec)) % 60;
@@ -189,7 +201,8 @@
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading triple zero hours with "-"
                     gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
                 }
-                timer.innerText = gCurrMissionTime;
+                //timer.innerText = gCurrMissionTime;
+                $("#timer").text(gCurrMissionTime);
 
                 if (timeId != gLastTimeIdChecked) {
                     //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
@@ -204,6 +217,7 @@
             var transcriptFrame = $('#iFrameTranscript').contents();
             var timeIdMarker = transcriptFrame.find('#' + timeId);
             if (timeIdMarker.exists()) {
+                //console.log("scrolling to " + timeId);
                 //reset background color of last line
                 if (gLastTimeIdMarker != '') {
                     gLastTimeIdMarker.css("background-color","#FFFFFF");
@@ -236,8 +250,8 @@
             }
             var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
             var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
-            historicalTimeDiff.innerText = "Exactly " + humanizedRealtimeDifference;
-            historicalTime.innerText = gCurrMissionDate;
+            $("#historicalTimeDiff").text("Exactly " + humanizedRealtimeDifference);
+            $("#historicalTime").text(gCurrMissionDate);
 
 //            console.log("currMissionTime: " + gCurrMissionTime);
 //            console.log("currMissionDate: " + gCurrMissionDate);
@@ -255,7 +269,7 @@
             secsPositiveMultiplier = (sign == "-") ? -1 : 1;
             var totalSeconds = secsPositiveMultiplier * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
-            var currVideoID = player.getVideoUrl().substr(32,11);
+            var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
             //console.log(currVideoID);
             for (var i = 0; i < gYTList.length; ++i) {
                 var itemStartTimeArray = gYTList[i][2].split(":");
@@ -276,7 +290,8 @@
                     var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
                     //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
                     if (itemStartTimeSeconds == 230400) {
-                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
+                            console.log("subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
                             seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
                         }
                     }
@@ -292,6 +307,7 @@
                         console.log("no need to change video. Seeking to " + elementId.toString());
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
+                    //scrollToTimeID(elementId);
                     break;
                 }
             }
@@ -378,7 +394,6 @@
 
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
-
     </script>
 </head>
 <body>

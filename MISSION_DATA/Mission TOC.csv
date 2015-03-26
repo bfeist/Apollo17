@@ -7,22 +7,36 @@
 000:02:34|2|S-II Staging|
 000:09:20|2|S-IVB Staging|
 000:11:54|1|Earth orbit insertion|
-000:44:06|2|STDN REV 1|
+000:53:56|2|STDN REV 1|
 001:22:48|2|GOLDSTONE REV 2|
-002:31:17|2|HAWAII REV 2|
+002:49:50|2|HAWAII REV 2|
 002:53:13|2|GO For Trans-Lunar Injection (TLI)|
 003:12:37|1|Trans-Lunar Injection maneuver|
 003:42:29|2|S-IVB/Command and Service Module separation|
 003:45:00|2|Trans-Lunar docking initiated|
 003:56:45|2|Trans-Lunar docking capture|
 004:45:00|2|Spacecraft ejection|
-009:00:01|1|Crew Sleep Period Start|
-015:02:47|1|Crew Wakeup|
+009:00:01|2|Crew Sleep Period Start|
+015:02:47|2|Crew Wakeup|
+024:51:32|3|Jack Schmitt philosophical about observing the earth
+025:26:26|2|Crew Sleep Period Start|
+033:00:38|2|Crew Wakeup|
 035:30:00|1|First mid-course correction|
-065:00:00|2|Mission control center time update (+2:40:00)|
+037:00:40|2|Crew listening to music|
+042:57:34|2|Start of onboard heat flow and convection experiment|
+048:36:12|2|Crew Sleep Period Start|
+056:35:40|2|Crew Wakeup with music|Difficulty waking up
+062:57:33|3|Description of clock change maneuver
+065:00:00|3|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
+068:07:51|2|ALFMED flash observations experiment begins|
+073:47:15|2|Crew Sleep Period Start|
+081:30:28|2|Crew Wakeup|
 084:12:40|2|Scientific instrument module door jettison|
+086:46:30|2|Crew can see the moon for the first time|
+087:47:06|3|Jack Schmitt "speechless"|
 088:54:23|1|Lunar orbit insertion|
 089:39:41|2|S-IVB lunar impact|
+090:18:11|2|"Flash" observed on the lunar surface|
 093:11:37|1|Descent orbit insertion|
 110:27:56|1|Lunar Module undocking and separation|
 111:57:29|1|Circularization maneuver|
