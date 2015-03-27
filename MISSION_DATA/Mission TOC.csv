@@ -18,7 +18,7 @@
 004:45:00|2|Spacecraft ejection|
 009:00:01|2|Crew Sleep Period Start|
 015:02:47|2|Crew Wakeup|
-024:51:32|3|Jack Schmitt philosophical about observing the earth
+024:51:32|3|Jack Schmitt philosophical about observing the earth|
 025:26:26|2|Crew Sleep Period Start|
 033:00:38|2|Crew Wakeup|
 035:30:00|1|First mid-course correction|
@@ -26,7 +26,7 @@
 042:57:34|2|Start of onboard heat flow and convection experiment|
 048:36:12|2|Crew Sleep Period Start|
 056:35:40|2|Crew Wakeup with music|Difficulty waking up
-062:57:33|3|Description of clock change maneuver
+062:57:33|3|Description of clock change maneuver|
 065:00:00|3|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
 068:07:51|2|ALFMED flash observations experiment begins|
 073:47:15|2|Crew Sleep Period Start|
@@ -37,36 +37,44 @@
 088:54:23|1|Lunar orbit insertion|
 089:39:41|2|S-IVB lunar impact|
 090:18:11|2|"Flash" observed on the lunar surface|
-093:11:37|1|Descent orbit insertion|
+093:35:00|1|Descent orbit insertion reported|
 110:27:56|1|Lunar Module undocking and separation|
-111:57:29|1|Circularization maneuver|
-112:02:42|1|Lunar Module descent orbit insertion|
-112:49:53|1|Powered descent initiation|
-112:52:08|1|Initiate Lunar landing|
-112:57:48|2|Landing at Taurus-Littrow|
+111:57:29|2|Circularization maneuver|
+112:02:42|2|Lunar Module descent orbit insertion|
+112:49:49|1|Powered descent initiation|
+112:52:08|2|Initiate Lunar landing|
+112:57:48|3|Landing camera on|
+113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
 115:17:12|1|EVA-1|
 115:17:12|2|EVA-1 Preparations|
+117:01:38|2|EVA-1 Watches started|
 117:10:42|2|Down the Ladder|
+117:14:50|3|"Don't lock the hatch"|
+117:18:57|3|Jack Schmitt challenges the next generation|
 117:24:49|2|Rover Deployment|
 117:31:10|3|Lunar roving vehicle offloaded|
-117:53:50|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
-118:14:58|2|United States flag deployed|Flag documented with photographs and stereo photography.
+117:44:16|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
+118:14:02|2|Video: EVA broadcast from lunar surface begins|
+118:22:46|2|United States flag deployed|Flag documented with photographs and stereo photography.
 118:34:40|2|Cosmic ray experiment deployed|
 118:38:30|2|Apollo Lunar Surface Experiments Package (ALSEP) offloaded|
 120:01:00|2|ALSEP first data|
 120:47:43|2|ALSEP deployed|Documented with photographs and panoramic photography.
-121:00:24|2|Deep core sample obtained|Lunar neutron probe experiment deployed.
-121:26:02|2|Departed for Station 1|
-122:04:02|2|Arrived at Station 1|Deployed seismic profiling experiment explosive charge 6, obtained traverse gravimeter experiment reading, and documented rake samples and performed panoramic photography.
+121:00:24|2|Deep core sample|Lunar neutron probe experiment deployed.
+121:01:07|3|Schmitt falls while retreiving the deep core sample.|
+121:35:42|3|Singing - "strolling on the moon one day".|
+121:51:02|2|Departed for Station 1|
+122:06:15|2|Video: Arrived at Station 1|Deployed seismic profiling experiment explosive charge 6, obtained traverse gravimeter experiment reading, and documented rake samples and performed panoramic photography.
 122:36:47|2|Departed for Surface Electrical Properties (SEP) experiment site|Included stop to deploy-seismic profiling experiment explosive charge 7, and perform panoramic photography.
-122:51:02|2|Arrived at SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
+122:54:56|2|Video: Arrived at SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
 123:13:39|2|Departed for the Lunar Module|
-123:16:15|2|Arrived back at Lunar Module|Started extravehicular activities closeout.
+123:18:03|2|Video: Arrived back at Lunar Module|Started extravehicular activities closeout.
 124:13:42|3|Lunar Module cabin repressurized|
 124:14:04|2|Post-EVA-1 Activities|
-128:47:05|1|Surface Crew sleep period|
-136:54:04|1|Surface Crew wake-up|
+128:54:10|1|Surface Crew sleep period|
+136:26:50|2|Discussions with Ron Evans in lunar orbit|
+136:55:03|1|Surface Crew wake-up (music)|
 138:28:37|1|EVA-2|
 138:28:37|2|EVA-2 Preparations|
 140:35:01|2|EVA-2 Start|
