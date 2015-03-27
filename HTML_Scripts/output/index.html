@@ -76,7 +76,7 @@
                 console.log("PLAYER PLAYING");
                 if (gWasRecentlyBuffering) {
                     console.log("PLAYING: calling findClosestUtterance");
-                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    //findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
                     gWasRecentlyBuffering = false;
                 }
                 if (gIntervalID == null) {
@@ -129,46 +129,46 @@
         }
 
         //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
-        function findClosestUtterance(totalSecSearch) {
-            console.log("finding closest utterance to (seconds): " + totalSecSearch);
-            var found = false;
-            var onCountdown = false;
-            var curSecSearch = totalSecSearch;
-            var transcriptFrame = $('#iFrameTranscript').contents();
-            if (totalSecSearch < 0) {
-                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
-            }
-            while (!found) {
-                var hours = Math.abs(parseInt(curSecSearch / 3600));
-                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
-                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
-                seconds = Math.floor(seconds);
-
-                var timeId = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-                        (minutes < 10 ? "0" + minutes : minutes) +
-                        (seconds < 10 ? "0" + seconds : seconds);
-                timeId = "timeid" + timeId;
-                if (onCountdown) {
-                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-                }
-
-                if (transcriptFrame.find('#' + timeId).exists()) {
-                    found = true;
-                    console.log("found closest: " + timeId);
-                    //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
-                    scrollToTimeID(timeId);
-                    //}
-                    break;
-                } else {
-                    //console.log("not found: " + timeId);
-                    if (gCurrVideoStartSeconds >= 0) {
-                        curSecSearch--;
-                    } else {
-                        curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
-                    }
-                }
-            }
-        }
+//        function findClosestUtterance(totalSecSearch) {
+//            console.log("finding closest utterance to (seconds): " + totalSecSearch);
+//            var found = false;
+//            var onCountdown = false;
+//            var curSecSearch = totalSecSearch;
+//            var transcriptFrame = $('#iFrameTranscript').contents();
+//            if (totalSecSearch < 0) {
+//                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
+//            }
+//            while (!found) {
+//                var hours = Math.abs(parseInt(curSecSearch / 3600));
+//                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
+//                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
+//                seconds = Math.floor(seconds);
+//
+//                var timeId = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+//                        (minutes < 10 ? "0" + minutes : minutes) +
+//                        (seconds < 10 ? "0" + seconds : seconds);
+//                timeId = "timeid" + timeId;
+//                if (onCountdown) {
+//                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+//                }
+//
+//                if (transcriptFrame.find('#' + timeId).exists()) {
+//                    found = true;
+//                    console.log("found closest: " + timeId);
+//                    //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
+//                    scrollToTimeID(timeId);
+//                    //}
+//                    break;
+//                } else {
+//                    //console.log("not found: " + timeId);
+//                    if (gCurrVideoStartSeconds >= 0) {
+//                        curSecSearch--;
+//                    } else {
+//                        curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
+//                    }
+//                }
+//            }
+//        }
 
         //--------------- transcript iframe autoscroll handling --------------------
         function setAutoScrollPoller() {
@@ -307,7 +307,7 @@
                         console.log("no need to change video. Seeking to " + elementId.toString());
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
-                    //scrollToTimeID(elementId);
+                    scrollToTimeID(elementId);
                     break;
                 }
             }
@@ -400,7 +400,7 @@
     <div class="outer-north">
         <div class="north-north">
             <div style="float:left">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div style="float:right">Alpha Release v0.1 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+            <div style="float:right">Alpha Release v0.2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
@@ -426,7 +426,6 @@
             <p>Instructions:</p>
             <ul>
                 <li>Use Google Chrome (this hasn't been tested on any other browser).</li>
-                <li>Jump to any point in the YouTube video, and the mission transcript will scroll automatically to that point.</li>
                 <li>Click any line in the transcript and the video will jump to that instant.</li>
                 <li>For big jumps, click an item in the table of contents (bottom left).</li>
             </ul>
