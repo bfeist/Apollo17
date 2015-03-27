@@ -75,8 +75,8 @@
             if (event.data == YT.PlayerState.PLAYING) {
                 console.log("PLAYER PLAYING");
                 if (gWasRecentlyBuffering) {
-                    console.log("PLAYING: calling findClosestUtterance");
-                    //findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    console.log("PLAYING: calling findClosestUtterance with 1 second delay");
+                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
                     gWasRecentlyBuffering = false;
                 }
                 if (gIntervalID == null) {
@@ -128,47 +128,56 @@
             }
         }
 
+        function padZeros(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
+        }
+
         //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
-//        function findClosestUtterance(totalSecSearch) {
-//            console.log("finding closest utterance to (seconds): " + totalSecSearch);
-//            var found = false;
-//            var onCountdown = false;
-//            var curSecSearch = totalSecSearch;
-//            var transcriptFrame = $('#iFrameTranscript').contents();
-//            if (totalSecSearch < 0) {
-//                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
-//            }
-//            while (!found) {
-//                var hours = Math.abs(parseInt(curSecSearch / 3600));
-//                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
-//                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
-//                seconds = Math.floor(seconds);
-//
+        function findClosestUtterance(totalSecSearch) {
+            console.log("finding closest utterance to (seconds): " + totalSecSearch);
+            var found = false;
+            var onCountdown = false;
+            var curSecSearch = totalSecSearch;
+            var transcriptFrame = $('#iFrameTranscript').contents();
+            if (totalSecSearch < 0) {
+                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
+            }
+            var countSearches = 0;
+            while (!found) {
+                countSearches ++;
+                var hours = Math.abs(parseInt(curSecSearch / 3600));
+                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
+                seconds = Math.floor(seconds);
+
 //                var timeId = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
 //                        (minutes < 10 ? "0" + minutes : minutes) +
 //                        (seconds < 10 ? "0" + seconds : seconds);
-//                timeId = "timeid" + timeId;
-//                if (onCountdown) {
-//                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-//                }
-//
-//                if (transcriptFrame.find('#' + timeId).exists()) {
-//                    found = true;
-//                    console.log("found closest: " + timeId);
-//                    //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
-//                    scrollToTimeID(timeId);
-//                    //}
-//                    break;
-//                } else {
-//                    //console.log("not found: " + timeId);
-//                    if (gCurrVideoStartSeconds >= 0) {
-//                        curSecSearch--;
-//                    } else {
-//                        curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
-//                    }
-//                }
-//            }
-//        }
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (onCountdown) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+
+                if (transcriptFrame.find('#' + timeId).exists()) {
+                    found = true;
+                    console.log("found closest: " + timeId + " after " + countSearches + " searches");
+                    //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
+                    scrollToTimeID(timeId);
+                    //}
+                    break;
+                } else {
+                    //console.log("not found: " + timeId + " | " + curSecSearch);
+                    if (onCountdown) {
+                        curSecSearch++;
+                    } else {
+                        curSecSearch--; //if we're on the countdown, search forward in time for the closest utterance
+                    }
+                }
+            }
+        }
 
         //--------------- transcript iframe autoscroll handling --------------------
         function setAutoScrollPoller() {
@@ -189,19 +198,21 @@
                 var seconds = Math.abs(parseInt(totalSec)) % 60;
                 seconds = Math.floor(seconds);
 
-                gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-                (minutes < 10 ? "0" + minutes : minutes) + ":" +
-                (seconds < 10 ? "0" + seconds : seconds);
+//                gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
+//                (minutes < 10 ? "0" + minutes : minutes) + ":" +
+//                (seconds < 10 ? "0" + seconds : seconds);
+//
+//                var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
+//                        (minutes < 10 ? "0" + minutes : minutes) +
+//                        (seconds < 10 ? "0" + seconds : seconds);
 
-                var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-                        (minutes < 10 ? "0" + minutes : minutes) +
-                        (seconds < 10 ? "0" + seconds : seconds);
+                gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+                timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
 
                 if (onCountdown) {
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading triple zero hours with "-"
                     gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
                 }
-                //timer.innerText = gCurrMissionTime;
                 $("#timer").text(gCurrMissionTime);
 
                 if (timeId != gLastTimeIdChecked) {
@@ -428,6 +439,7 @@
                 <li>Use Google Chrome (this hasn't been tested on any other browser).</li>
                 <li>Click any line in the transcript and the video will jump to that instant.</li>
                 <li>For big jumps, click an item in the table of contents (bottom left).</li>
+                <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
             </ul>
             <p>Planned Features:</p>
             <ul>
