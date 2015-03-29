@@ -19,7 +19,8 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 prev_depth = 0
 timestamp = ""
 inputFilePath = "../MISSION_DATA/Mission TOC.csv"
-reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
+csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
+reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
     timestamp = row[0]
     item_depth = row[1]

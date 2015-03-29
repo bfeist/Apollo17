@@ -52,8 +52,14 @@
                 videoId: '8_0QwiEAZm8',
                 width: '100%',
                 height: '100%',
-                frameborder: '0',
-                iv_load_policy: 3,
+                playerVars: {
+                    frameborder: 0,
+                    iv_load_policy: 3,
+                    modestbranding: 1,
+                    autohide: 1,
+                    rel: 0,
+                    fs: 0
+                },
                 events: {
                     'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange
@@ -63,17 +69,24 @@
 
         // The API will call this function when the video player is ready.
         function onPlayerReady(event) {
-            event.target.playVideo();
             seekToTime("timeid-000100"); //jump to 1 minute to launch
+            event.target.playVideo();
         }
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
         var gWasRecentlyBuffering = true;
+        var gPlayStartOfNextVideo = false; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
         function onPlayerStateChange(event) {
             console.log("player state change: " + event.data);
             if (event.data == YT.PlayerState.PLAYING) {
                 console.log("PLAYER PLAYING");
+                if (gPlayStartOfNextVideo) {
+                    console.log("PLAYING: forcing playback from 0 seconds in new video");
+                    player.seekTo(0, true);
+                    gPlayStartOfNextVideo = false;
+                    gWasRecentlyBuffering = false; //stop youtube from skipping to internal bookmark if video should be starting from zero
+                }
                 if (gWasRecentlyBuffering) {
                     console.log("PLAYING: calling findClosestUtterance with 1 second delay");
                     findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -122,6 +135,7 @@
 
                 player.loadVideoById(currVideoID, 0);
                 player.iv_load_policy = 3;
+                gPlayStartOfNextVideo = true; //force next video to start at 0 seconds
 
                 window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 gIntervalID = setAutoScrollPoller();
@@ -197,14 +211,6 @@
                 var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
                 var seconds = Math.abs(parseInt(totalSec)) % 60;
                 seconds = Math.floor(seconds);
-
-//                gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-//                (minutes < 10 ? "0" + minutes : minutes) + ":" +
-//                (seconds < 10 ? "0" + seconds : seconds);
-//
-//                var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-//                        (minutes < 10 ? "0" + minutes : minutes) +
-//                        (seconds < 10 ? "0" + seconds : seconds);
 
                 gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
                 timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
@@ -328,7 +334,7 @@
         $(document).ready(function() {
             $.ajax({
                 type: "GET",
-                url: "./YouTube_media_index.csv?stopcache=982793874",
+                url: "./YouTube_media_index.csv?stopcache=" + Math.random(),
                 dataType: "text",
                 success: function(data) {processYTData(data);}
             });
@@ -411,13 +417,11 @@
     <div class="outer-north">
         <div class="north-north">
             <div style="float:left">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div style="float:right">Alpha Release v0.2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+            <div style="float:right">Alpha Release v0.3 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
-            <div id="player">
-                <iframe src="http://www.youtube.com/embed/8_0QwiEAZm8?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
-            </div>
+            <div id="player"></div>
         </div>
     </div>
     <div class="outer-center">
@@ -441,6 +445,13 @@
                 <li>For big jumps, click an item in the table of contents (bottom left).</li>
                 <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
             </ul>
+            <p>Recent Updates:</p>
+            <ul>
+                <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                <li>03/25/2015: v0.1 Initial launch made public.</li>
+            </ul>
+            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
             <p>Planned Features:</p>
             <ul>
                 <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
@@ -449,7 +460,6 @@
                 <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
                 <li>Bookmarking and discussion notes for any timeline moment.</li>
             </ul>
-            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
         </div>
     </div>
     <iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
