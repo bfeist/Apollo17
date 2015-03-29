@@ -16,7 +16,7 @@
 003:45:00|2|Video: Trans-Lunar docking initiated|
 003:56:45|2|Trans-Lunar docking capture|
 004:45:00|2|Spacecraft ejection|
-004:49:51|3|Video: S-IVB visible|
+004:49:53|3|Video: S-IVB visible|
 009:00:01|1|Crew Sleep Period Start|
 015:02:47|1|Crew wake-up|
 024:51:32|2|Jack Schmitt philosophical about observing the earth|
@@ -34,6 +34,7 @@
 062:57:33|2|Description of clock change maneuver|
 065:00:00|2|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
 068:07:51|2|ALFMED flash observations experiment begins|
+069:25:48|2|Schmitt asks a difficult flight dynamics question|
 073:47:15|1|Crew Sleep Period Start|
 081:30:28|1|Crew wake-up|
 084:10:12|2|Video: Film of lunar approach|
