@@ -321,6 +321,42 @@
 //            console.log("Exactly " + humanizedRealtimeDifference);
         }
 
+//        function roundToNearestHistoricalTime() {
+//            //$("#roundedMissionTime").text(gCurrMissionDate);
+//            var d = Date.now();
+//            var currDayOfMonth = d.getDate();
+//
+//            if (currDayOfMonth > 19) {
+//                d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+//            } else if (currDayOfMonth < 7) {
+//                d.setDate(currDayOfMonth + (7 - currDayOfMonth));
+//            }
+//            d.setMonth(gCurrMissionDate.getMonth());
+//            d.setYear(gCurrMissionDate.getYear());
+//            var roundedDate = d;
+//            var launchDate = Date.parse("1972-12-07 5:33am GMT");
+//
+//            //find the difference between rounded date and mission start time to determine MET to jump to
+//            var one_day=1000*60*60*24;
+//            // Convert both dates to milliseconds
+//            var roundedDate_ms = roundedDate.getTime();
+//            var launchDate_ms = launchDate.getTime();
+//            var difference_ms = roundedDate_ms - launchDate_ms;
+//
+//            var ch = 60 * 60 * 1000;
+//            var h = Math.floor( (difference_ms) / ch);
+//            var m = Math.round( (difference_ms) - h * ch );
+//
+//            var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
+//            console.log("Rounded time to skip to: " + timeId);
+//            seekToTime(timeId);
+//
+//            //d.setHours(gCurrMissionDate.getHours());
+//            //d.setMinutes (gCurrMissionDate.getMinutes());
+//            //d.setSeconds(gCurrMissionDate.getSeconds());
+//            $("#roundedMissionTime").text(d);
+//        }
+
         //--------------- transcript click handling --------------------
         function seekToTime(elementId){
             var signToggle = 1;
@@ -439,9 +475,7 @@
                 center__paneSelector:	".outer-center"
                 ,   north__paneSelector:     ".outer-north"
                 ,   south__paneSelector:     ".outer-south"
-                ,	north__spacing_open:	5
                 ,   north__togglerLength_open: 0
-                ,	south__spacing_open:	5
                 ,   south__togglerLength_open: 0
                 ,	north__maxSize:			"55%"
                 ,   north__minSize:         "55%"
@@ -511,13 +545,19 @@
             <BR><BR>
             HISTORICAL TIME DIFFERENCE:<BR>
             <span id="historicalTimeDiff"></span>
+            <!--<BR><BR>-->
+            <!--<form>-->
+                <!--<input type="button" onclick="roundToNearestHistoricalTime()" value="Round Time">-->
+            <!--</form>-->
+            <!--ROUNDED MISSION TIME<BR>-->
+            <!--<span id="roundedMissionTime"></span>-->
         </div>
         <div class="middle-east">
             <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
                 You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a></B></P>
             <p>Instructions:</p>
             <ul>
-                <li>Use Google Chrome (this hasn't been tested on any other browser).</li>
+                <li>Desktop only. Use Google Chrome (this hasn't been tested on any other browser).</li>
                 <li>Click any line in the transcript and the video will jump to that instant.</li>
                 <li>For big jumps, click an item in the table of contents (bottom left).</li>
                 <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>

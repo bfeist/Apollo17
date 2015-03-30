@@ -1,22 +1,10 @@
 *{margin:0;}
 
-div.main {
-    background: #fff;
-    float: left;
-    height: 33vw;
-    margin: 0%;
-    width: 49%;
-}
 #player {
     background-color: #eee;
     overflow: hidden;
     padding: 0px;
     width: 100%;
-}
-
-#north-west {
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
 }
 
 section{
