@@ -19,16 +19,19 @@ Ben Feist (bf@benfeist.com)
 	<li>Reconstruct entire mission timeline in Adobe Premiere laying in air-to-ground audio from Internet Archive and television video from NASA History office. (complete - pending last 5% of source material digitized by JSC Audio Lab). (more here http://benfeist.com/digitizing-apollo-17-part-6-timeline-reconstruction/ ) All Premiere source footage can be obtained using Bittorrent Sync. Sync hash key: BBHUF5R7EPR5N3KPHBSHHWNHZYAB5YY2V</li>
 	<li>Listen to reconstruction timeline. Correct transcript of each utterance including timestamp, transcriptions errors from 1972, and OCR errors. (complete) (more here http://benfeist.com/digitizing-apollo-17-part-7-listening-in-real-time/ )</li>
 	<li>Render all Premiere Pro video segments that were created for timecode purposes, and upload all 36, 8 hour segments (125GB) to YouTube. YouTube Channel containing these videos: https://www.youtube.com/channel/UC3pGYbJCfrINT1DNBJMxC2Q/videos
+	<li>Generate HTML output from corrected utterance CSV. (complete)</li>
 </ol>
-Current Steps:
+Current Status:
 <ul>
-	<li>Generate HTML output from corrected utterance CSV. A test initial output of the entire mission can be <b>seen here</b>: http://apollo17.org/output.html</li>
+	<li>http://apollo17.org is live and currently in alpha, utilizing the data in this project</li>
 </ul>
 Future Steps:
 <ul>
-	<li>Generate MC output for Spacelog.org</li>
-	
+	<li>Generate HTML for AFJ</li>
+	<li>Generate MC output for Spacelog.org</li>	
 </ul>
+
+The "HTML_scripts/output" folder contains the apollo17.org website itself in alpha form.
 
 The "Abbyy Image OCR" folder contains a project that can be opened using ABBYY FineReader 11 Pro. This is where the body of the conversion work is being done.
 

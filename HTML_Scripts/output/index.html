@@ -37,11 +37,14 @@
     <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
     <script type="text/javascript">
         var gLastTimeIdMarker = '';
+        var gLastTOCTimeIdMarker = '';
         var gLastTimeIdChecked = '';
         var gCurrMissionTime = '';
         var gCurrMissionDate = null;
         var gIntervalID = null;
         var gYTList = [];
+        var gTOCIndex = [];
+        var gUtteranceIndex = [];
         var gCurrVideoStartSeconds = -9442;
         var gCurrVideoEndSeconds = 0;
 
@@ -52,8 +55,14 @@
                 videoId: '8_0QwiEAZm8',
                 width: '100%',
                 height: '100%',
-                frameborder: '0',
-                iv_load_policy: 3,
+                playerVars: {
+                    frameborder: 0,
+                    iv_load_policy: 3,
+                    modestbranding: 1,
+                    autohide: 1,
+                    rel: 0,
+                    fs: 0
+                },
                 events: {
                     'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange
@@ -63,21 +72,27 @@
 
         // The API will call this function when the video player is ready.
         function onPlayerReady(event) {
-            event.target.playVideo();
             seekToTime("timeid-000100"); //jump to 1 minute to launch
+            event.target.playVideo();
         }
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
         var gWasRecentlyBuffering = true;
+        var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
         function onPlayerStateChange(event) {
             console.log("player state change: " + event.data);
             if (event.data == YT.PlayerState.PLAYING) {
                 console.log("PLAYER PLAYING");
+                if (gNextVideoStartTime != -1) {
+                    console.log("PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
+                    player.seekTo(gNextVideoStartTime, true);
+                    gNextVideoStartTime = -1;
+                }
                 if (gWasRecentlyBuffering) {
-                    console.log("PLAYING: calling findClosestUtterance with 1 second delay");
-                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-                    gWasRecentlyBuffering = false;
+                    //console.log("PLAYING: was buffering so calling findClosestUtterance");
+                    //findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    //gWasRecentlyBuffering = false;
                 }
                 if (gIntervalID == null) {
                     //poll for mission time scrolling if video is playing
@@ -98,7 +113,6 @@
             if (event.data == YT.PlayerState.ENDED) { //load next video
                 console.log("ENDED. Load next video.");
                 var currVideoID = player.getVideoUrl().substr(32,11);
-                var secsPositiveMultiplier = 1;
                 for (var i = 0; i < gYTList.length; ++i) {
                     if (gYTList[i][1] == currVideoID) {
                         console.log("Ended. Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
@@ -110,18 +124,19 @@
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
-                secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
-                gCurrVideoStartSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+                var signToggle = (startHours < 0) ? -1 : 1;
+                gCurrVideoStartSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
                 var itemEndTimeArray = gYTList[i + 1][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
-                secsPositiveMultiplier = (endHours < 0) ? -1 : 1;
-                gCurrVideoEndSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+                signToggle = (endHours < 0) ? -1 : 1;
+                gCurrVideoEndSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
                 player.loadVideoById(currVideoID, 0);
                 player.iv_load_policy = 3;
+                gNextVideoStartTime = true; //force next video to start at 0 seconds in the play event handler
 
                 window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 gIntervalID = setAutoScrollPoller();
@@ -140,7 +155,11 @@
             var found = false;
             var onCountdown = false;
             var curSecSearch = totalSecSearch;
-            var transcriptFrame = $('#iFrameTranscript').contents();
+            if (gCurrVideoStartSeconds == 230400) {
+                if (curSecSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    curSecSearch = curSecSearch + 9600;
+                }
+            }
             if (totalSecSearch < 0) {
                 onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
             }
@@ -152,29 +171,51 @@
                 var seconds = Math.abs(parseInt(curSecSearch)) % 60;
                 seconds = Math.floor(seconds);
 
-//                var timeId = (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-//                        (minutes < 10 ? "0" + minutes : minutes) +
-//                        (seconds < 10 ? "0" + seconds : seconds);
-
                 var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
                 if (onCountdown) {
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
                 }
 
-                if (transcriptFrame.find('#' + timeId).exists()) {
+                if ($.inArray(timeId, gUtteranceIndex) != -1) {
                     found = true;
-                    console.log("found closest: " + timeId + " after " + countSearches + " searches");
-                    //if (timeId != "timeid-022741") { //hack to stop initial playback from scrolling early
+                    console.log("searched utterance array, found closest: " + timeId + " after " + countSearches + " searches");
                     scrollToTimeID(timeId);
-                    //}
                     break;
                 } else {
                     //console.log("not found: " + timeId + " | " + curSecSearch);
                     if (onCountdown) {
-                        curSecSearch++;
+                        curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
                     } else {
-                        curSecSearch--; //if we're on the countdown, search forward in time for the closest utterance
+                        curSecSearch--;
                     }
+                }
+            }
+            findClosestTOC(curSecSearch);
+        }
+
+        function findClosestTOC(secondsSearch) {
+            console.log("finding closest TOC to (seconds): " + secondsSearch);
+            var onCountdown = false;
+            if (gCurrVideoStartSeconds == 230400) {
+                if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    secondsSearch = secondsSearch + 9600;
+                }
+            }
+            var i;
+            for (i = 0; i < gTOCIndex.length; ++i) {
+                var hours = Math.abs(parseInt(secondsSearch / 3600));
+                var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+                seconds = Math.floor(seconds);
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (secondsSearch < 0) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+                if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i].substr(6))) {
+                    console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
+                    scrollTOCToTimeID(gTOCIndex[i - 1]);
+                    break;
                 }
             }
         }
@@ -198,14 +239,6 @@
                 var seconds = Math.abs(parseInt(totalSec)) % 60;
                 seconds = Math.floor(seconds);
 
-//                gCurrMissionTime = " " + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) + ":" +
-//                (minutes < 10 ? "0" + minutes : minutes) + ":" +
-//                (seconds < 10 ? "0" + seconds : seconds);
-//
-//                var timeId = "timeid" + (hours < 10 ? "00" + hours : hours < 100 ? "0" + hours : hours) +
-//                        (minutes < 10 ? "0" + minutes : minutes) +
-//                        (seconds < 10 ? "0" + seconds : seconds);
-
                 gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
                 timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
 
@@ -214,21 +247,20 @@
                     gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
                 }
                 $("#timer").text(gCurrMissionTime);
-
                 if (timeId != gLastTimeIdChecked) {
                     //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
                     gLastTimeIdChecked = timeId;
                     scrollToTimeID(timeId);
                     missionTimeHistoricalDifference();
                 }
-            }, 500); //polling frequency in milliseconds
+            }, 600); //polling frequency in milliseconds
         }
         function scrollToTimeID(timeId) {
             //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-            var transcriptFrame = $('#iFrameTranscript').contents();
-            var timeIdMarker = transcriptFrame.find('#' + timeId);
-            if (timeIdMarker.exists()) {
-                //console.log("scrolling to " + timeId);
+            if ($.inArray(timeId, gUtteranceIndex) != -1) {
+                //console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
+                var transcriptFrame = $('#iFrameTranscript').contents();
+                var timeIdMarker = transcriptFrame.find('#' + timeId);
                 //reset background color of last line
                 if (gLastTimeIdMarker != '') {
                     gLastTimeIdMarker.css("background-color","#FFFFFF");
@@ -237,8 +269,28 @@
                 timeIdMarker.css("background-color","#DDDDDD");
                 gLastTimeIdMarker = timeIdMarker;
                 transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
+
+                scrollTOCToTimeID(timeId);
             }
         }
+
+        function scrollTOCToTimeID(timeId) {
+            if ($.inArray(timeId, gTOCIndex) != -1) {
+                console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                var TOCFrame = $('#iFrameTOC').contents();
+                var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
+
+                //reset background color of last line
+                if (gLastTOCTimeIdMarker != '') {
+                    gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                }
+                var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
+                TOCtimeIdMarker.css("background-color", "#DDDDDD");
+                gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
+            }
+        }
+
         function missionTimeHistoricalDifference() {
             var launchDate = Date.parse("1972-12-07 5:33am GMT");
 
@@ -271,31 +323,30 @@
 
         //--------------- transcript click handling --------------------
         function seekToTime(elementId){
-            var secsPositiveMultiplier = 1;
+            var signToggle = 1;
             var timeStr = elementId.substr(6,7);
             var sign = timeStr.substr(0,1);
             var hours = parseInt(timeStr.substr(0,3));
             var minutes = parseInt(timeStr.substr(3,2));
             var seconds = parseInt(timeStr.substr(5,2));
-            secsPositiveMultiplier = (sign == "-") ? -1 : 1;
-            var totalSeconds = secsPositiveMultiplier * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+            signToggle = (sign == "-") ? -1 : 1;
+            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
             var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
-            //console.log(currVideoID);
             for (var i = 0; i < gYTList.length; ++i) {
                 var itemStartTimeArray = gYTList[i][2].split(":");
                 var startHours = parseInt(itemStartTimeArray[0]);
                 var startMinutes = parseInt(itemStartTimeArray[1]);
                 var startSeconds = parseInt(itemStartTimeArray[2]);
-                secsPositiveMultiplier = (startHours < 0) ? -1 : 1;
-                var itemStartTimeSeconds = secsPositiveMultiplier * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+                signToggle = (startHours < 0) ? -1 : 1;
+                var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
                 var itemEndTimeArray = gYTList[i][3].split(":");
                 var endHours = parseInt(itemEndTimeArray[0]);
                 var endMinutes = parseInt(itemEndTimeArray[1]);
                 var endSeconds = parseInt(itemEndTimeArray[2]);
-                secsPositiveMultiplier = (endHours < 0) ? -1 : 1;
-                var itemEndTimeSeconds = secsPositiveMultiplier * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+                signToggle = (endHours < 0) ? -1 : 1;
+                var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
                 if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
                     var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
@@ -311,6 +362,7 @@
                     //change youtube video if the correct video isn't already playing
                     if (currVideoID !== gYTList[i][1]) {
                         console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
+                        gNextVideoStartTime = seekToSecondsWithOffset;
                         player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
                         window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                         gIntervalID = setAutoScrollPoller();
@@ -319,6 +371,7 @@
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
                     scrollToTimeID(elementId);
+                    findClosestTOC(totalSeconds);
                     break;
                 }
             }
@@ -328,9 +381,21 @@
         $(document).ready(function() {
             $.ajax({
                 type: "GET",
-                url: "./YouTube_media_index.csv?stopcache=982793874",
+                url: "./YouTube_media_index.csv?stopcache=" + Math.random(),
                 dataType: "text",
                 success: function(data) {processYTData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./TOCindex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processTOCIndexData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./utteranceIndex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processUtteranceIndexData(data);}
             });
         });
 
@@ -346,6 +411,24 @@
                 rec.push(data[2]);
                 rec.push(data[3]);
                 gYTList.push(rec);
+            }
+            // alert(lines);
+        }
+
+        function processTOCIndexData(allText) {
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                gTOCIndex[i] = "timeid" + data[0];
+            }
+            // alert(lines);
+        }
+
+        function processUtteranceIndexData(allText) {
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                gUtteranceIndex[i] = "timeid" + data[0];
             }
             // alert(lines);
         }
@@ -411,13 +494,11 @@
     <div class="outer-north">
         <div class="north-north">
             <div style="float:left">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div style="float:right">Alpha Release v0.2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+            <div style="float:right">Alpha Release v0.3 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
-            <div id="player">
-                <iframe src="http://www.youtube.com/embed/8_0QwiEAZm8?rel=0" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
-            </div>
+            <div id="player"></div>
         </div>
     </div>
     <div class="outer-center">
@@ -441,6 +522,13 @@
                 <li>For big jumps, click an item in the table of contents (bottom left).</li>
                 <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
             </ul>
+            <p>Recent Updates:</p>
+            <ul>
+                <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                <li>03/25/2015: v0.1 Initial launch made public.</li>
+            </ul>
+            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
             <p>Planned Features:</p>
             <ul>
                 <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
@@ -449,7 +537,6 @@
                 <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
                 <li>Bookmarking and discussion notes for any timeline moment.</li>
             </ul>
-            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
         </div>
     </div>
     <iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
