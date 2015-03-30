@@ -178,7 +178,7 @@
 
                 if ($.inArray(timeId, gUtteranceIndex) != -1) {
                     found = true;
-                    console.log("searched array, found closest: " + timeId + " after " + countSearches + " searches");
+                    console.log("searched utterance array, found closest: " + timeId + " after " + countSearches + " searches");
                     scrollToTimeID(timeId);
                     break;
                 } else {
@@ -188,6 +188,34 @@
                     } else {
                         curSecSearch--;
                     }
+                }
+            }
+            findClosestTOC(curSecSearch);
+        }
+
+        function findClosestTOC(secondsSearch) {
+            console.log("finding closest TOC to (seconds): " + secondsSearch);
+            var onCountdown = false;
+            if (gCurrVideoStartSeconds == 230400) {
+                if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    secondsSearch = secondsSearch + 9600;
+                }
+            }
+            var i;
+            for (i = 0; i < gTOCIndex.length; ++i) {
+                var hours = Math.abs(parseInt(secondsSearch / 3600));
+                var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+                seconds = Math.floor(seconds);
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (secondsSearch < 0) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+                if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i].substr(6))) {
+                    console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
+                    scrollTOCToTimeID(gTOCIndex[i - 1]);
+                    break;
                 }
             }
         }
@@ -229,7 +257,6 @@
         }
         function scrollToTimeID(timeId) {
             //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-
             if ($.inArray(timeId, gUtteranceIndex) != -1) {
                 //console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
                 var transcriptFrame = $('#iFrameTranscript').contents();
@@ -243,23 +270,27 @@
                 gLastTimeIdMarker = timeIdMarker;
                 transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
 
-                if ($.inArray(timeId, gTOCIndex) != -1) {
-                    //console.log("TOC item found in array. Scrolling TOC to " + timeId);
-                    var TOCFrame = $('#iFrameTOC').contents();
-                    var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
-
-                    //reset background color of last line
-                    if (gLastTOCTimeIdMarker != '') {
-                        gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
-                    }
-                    var TOCscrollDestination = TOCtimeIdMarker.offset().top - 10;
-                    TOCtimeIdMarker.css("background-color", "#DDDDDD");
-                    gLastTOCTimeIdMarker = TOCtimeIdMarker;
-                    TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
-
-                }
+                scrollTOCToTimeID(timeId);
             }
         }
+
+        function scrollTOCToTimeID(timeId) {
+            if ($.inArray(timeId, gTOCIndex) != -1) {
+                console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                var TOCFrame = $('#iFrameTOC').contents();
+                var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
+
+                //reset background color of last line
+                if (gLastTOCTimeIdMarker != '') {
+                    gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                }
+                var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
+                TOCtimeIdMarker.css("background-color", "#DDDDDD");
+                gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
+            }
+        }
+
         function missionTimeHistoricalDifference() {
             var launchDate = Date.parse("1972-12-07 5:33am GMT");
 
@@ -340,6 +371,7 @@
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
                     scrollToTimeID(elementId);
+                    findClosestTOC(totalSeconds);
                     break;
                 }
             }
