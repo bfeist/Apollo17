@@ -276,18 +276,22 @@
 
         function scrollTOCToTimeID(timeId) {
             if ($.inArray(timeId, gTOCIndex) != -1) {
-                console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                //console.log("TOC item found in array. Scrolling TOC to " + timeId);
                 var TOCFrame = $('#iFrameTOC').contents();
                 var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
 
-                //reset background color of last line
-                if (gLastTOCTimeIdMarker != '') {
-                    gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                if (TOCtimeIdMarker[0] != gLastTOCTimeIdMarker[0]) {
+                    //reset background color of last line
+                    if (gLastTOCTimeIdMarker != '') {
+                        gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                    }
+                    var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
+                    TOCtimeIdMarker.css("background-color", "#DDDDDD");
+                    gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                    TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
+                } else {
+                    console.log("TOC item already scrolled to. Not scrolling");
                 }
-                var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
-                TOCtimeIdMarker.css("background-color", "#DDDDDD");
-                gLastTOCTimeIdMarker = TOCtimeIdMarker;
-                TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
             }
         }
 
@@ -554,7 +558,7 @@
         </div>
         <div class="middle-east">
             <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
-                You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a></B></P>
+                You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
             <p>Instructions:</p>
             <ul>
                 <li>Desktop only. Use Google Chrome (this hasn't been tested on any other browser).</li>

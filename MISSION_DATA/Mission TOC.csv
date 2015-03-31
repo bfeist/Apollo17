@@ -10,14 +10,14 @@
 001:22:48|2|GOLDSTONE REV 2|
 002:49:50|2|HAWAII REV 2|
 002:53:13|2|GO For Trans-Lunar Injection (TLI)|
-003:12:37|1|Trans-Lunar Injection maneuver|
-003:42:29|2|S-IVB/Command and Service Module separation|
+003:12:29|1|Trans-Lunar Injection maneuver|
+003:42:28|2|S-IVB/Command and Service Module separation|
 003:45:00|2|Video: Trans-Lunar docking initiated|
-003:56:45|2|Trans-Lunar docking capture|
-004:45:00|2|Spacecraft ejection|
+003:56:52|2|Trans-Lunar docking capture|
+004:45:06|2|Spacecraft ejection|
 004:49:53|3|Video: S-IVB visible|
 009:00:01|1|Crew Sleep Period Start|
-015:02:47|1|Crew wake-up|
+015:02:45|1|Crew wake-up|
 024:51:32|2|Jack Schmitt philosophical about observing the earth|
 025:26:26|1|Crew Sleep Period Start|
 033:00:38|1|Crew wake-up|
@@ -25,8 +25,8 @@
 035:30:00|1|First mid-course correction|
 037:00:40|2|Crew listening to music|
 042:57:34|2|Video: Start of onboard heat flow and convection experiment|
-045:30:19|2|Video: Continuation of onboard heat flow and convection experiment|
-048:14:49|2|Video: Earth and moon|
+045:30:18|2|Video: Continuation of onboard heat flow and convection experiment|
+048:14:48|2|Video: Earth and moon|
 048:36:12|1|Crew Sleep Period Start|
 056:35:40|1|Crew wake-up with music (Difficulty waking up)|
 059:57:53|2|Entering the LM 2nd time|
@@ -37,39 +37,34 @@
 073:47:15|1|Crew Sleep Period Start|
 081:30:28|1|Crew wake-up|
 084:10:12|2|Video: Film of lunar approach|
-084:12:40|2|Scientific instrument module door jettison|
+084:12:45|2|Scientific instrument module door jettison|
 086:46:30|2|Crew can see the moon for the first time|
 087:47:06|2|Jack Schmitt "speechless"|
-088:54:23|1|Lunar orbit insertion|
-089:39:41|2|S-IVB lunar impact|
+089:40:03|2|S-IVB lunar impact|
 090:18:11|2|\"Flash\" observed on the lunar surface|
 093:35:00|1|Descent orbit insertion reported|
-106:09:01|2|Video: Earth and moon through telescope|
+106:09:09|2|Video: Earth and moon through telescope|
 110:27:56|1|Lunar Module undocking and separation|
-111:57:29|2|Circularization maneuver|
 112:04:28|1|Video: Lunar undocking (Far side, no audio)|
-112:38:05|2|Video: Command Module from LM|
-112:49:49|1|Powered Descent Initiation for Lunar landing|
+112:38:07|2|Video: Command Module from LM|
+112:49:49|1|Video: Powered Descent Initiation for Lunar landing|
 112:52:08|2|Initiate Lunar landing|
 112:57:48|3|Video: Landing camera on|
 113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
 115:17:12|1|EVA-1|
-115:17:12|2|EVA-1 Preparations|
 117:01:38|2|EVA-1 Watches started|
 117:10:42|2|Video: Down the Ladder|
 117:14:50|3|\"Don't lock the hatch\"|
 117:18:57|3|Jack Schmitt challenges the next generation|
-117:24:49|2|Rover Deployment|
-117:31:10|3|Lunar roving vehicle offloaded|
+117:24:50|2|Rover Deployment|
+117:31:09|3|Lunar roving vehicle offloaded|
 117:44:16|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
 118:14:02|2|Video: EVA broadcast from lunar surface begins|
 118:21:57|2|United States flag deployed|Flag documented with photographs and stereo photography.
-118:34:40|2|Cosmic ray experiment deployed|
-118:38:30|2|Apollo Lunar Surface Experiments Package (ALSEP) offloaded|
-120:01:00|2|ALSEP first data|
-120:47:43|2|ALSEP deployed|Documented with photographs and panoramic photography.
-121:00:24|2|Deep core sample|Lunar neutron probe experiment deployed.
+118:34:43|2|Cosmic ray experiment deployed|
+120:46:06|2|ALSEP deployed|Documented with photographs and panoramic photography.
+120:59:30|2|Deep core sample|Lunar neutron probe experiment deployed.
 121:01:07|3|Schmitt falls while retreiving the deep core sample|
 121:35:42|3|Singing - "strolling on the moon one day"|
 121:51:02|2|Departed for Station 1|
@@ -78,15 +73,14 @@
 122:54:56|2|Video: Arrived at SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
 123:13:39|2|Departed for the Lunar Module|
 123:18:03|2|Video: Arrived back at Lunar Module|Started extravehicular activities closeout.
-124:13:42|3|Lunar Module cabin repressurized|
+124:13:45|3|Lunar Module cabin repressurized|
 124:14:04|2|Post-EVA-1 Activities|
-126:25:03|3|Geology debrief on EVA-1|
+126:25:37|3|Geology debrief on EVA-1|
 127:48:33|2|Lunar dust hay fever|
 128:54:10|1|Surface Crew sleep period|
 136:26:58|2|Communications with Ron Evans in lunar orbit|
 136:55:03|1|Surface Crew wake-up (music)|
 138:28:37|1|EVA-2|
-138:28:37|2|EVA-2 Preparations|
 140:34:20|2|EVA-2 Start|
 140:45:41|2|Video from EVA-2 begins|
 141:19:00|3|Lunar roving vehicle loaded for traverse|
@@ -112,33 +106,32 @@
 145:54:47|2|Departed for Station 5 (Camelot Crater)|One stop to deploy seismic profiling experiment explosive charge 1, gather samples, and perform panoramic photography.
 146:25:50|2|Video: Arrived at Station 5|Gathered samples, and performed documentary and panoramic photography.
 146:50:38|3|Cernan hopping along and singing|
-146:55:58|2|Departed for the Lunar Module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
-147:12:24|2|Arrived at the Lunar Module|Started extravehicular activity closeout.
+146:55:57|2|Departed for the Lunar Module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
+147:12:23|2|Arrived at the Lunar Module|Started extravehicular activity closeout.
 147:52:04|3|Dusting the camera and philosophizing|
 148:09:47|2|Lunar Module cabin repressurization|
 150:46:12|1|Crew listens to news while eating dinner|
 152:25:20|1|Surface Crew sleep period begins|Ron Evans continues activities in orbit.
-152:40:23|2|Communications with Ron Evans in lunar orbit|
+154:40:23|2|Communications with Ron Evans in lunar orbit|
 160:24:02|1|Surface Crew wake-up|
 163:32:48|1|EVA-3|
-163:32:48|2|EVA-3 Preparations|
 163:33:40|2|EVA-3 Start|
 163:46:15|3|Video from EVA-3 begins|
-163:56:15|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
-164:00:17|2|Cosmic ray experiment retrieved|
+163:56:11|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
+164:00:16|2|Cosmic ray experiment retrieved|
 164:07:08|3|Jack Schmitt, "Tallest man on the moon"|
 164:11:19|2|Departed for Surface Electrical Properties experiment site|
-164:19:07|2|Arrived at Surface Electrical Properties experiment site|Activated the experiment, gathered samples, and performed documentary photography.
+164:19:08|2|Arrived at Surface Electrical Properties experiment site|Activated the experiment, gathered samples, and performed documentary photography.
 164:22:36|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples|
 164:53:10|2|Video: Arrived at Station 6|Gathered samples including a single core tube sample and a rake sample, and performed documentary, panoramic, and 500-mm photography.
 165:00:57|3|Schmitt's face visible on video|
 165:36:42|3|Cernan falls|
 165:36:54|3|\"Remind me to dust my camera\"|
-166:51:17|3|\"I think your LMP just ran away\"|
 166:00:28|2|Departed for Station 7|
 166:11:00|2|Video: Arrived at Station 7|Gathered samples and performed documentary and panoramic photography.
 166:29:50|2|Departed for Station 8 (Sculptured Hills)|One short stop to gather enroute samples.
 166:50:01|2|Video: Arrived at Station 8|Gathered samples including rake and trench samples, and performed documentary and panoramic photography.
+166:51:21|3|\"I think your LMP just ran away\"|
 167:06:57|3|Jack running and bouncing down hill|
 167:07:26|3|Jack skis down hill|
 167:10:03|3|Cernan's two legged hopping, "I can cover ground like a kangaroo"|
@@ -156,13 +149,11 @@
 169:46:50|3|Uncovering of the plaque|
 169:51:44|3|Throwing object|
 170:13:58|2|ALSEP photography completed|
-170:19:56|3|Saying goodbye to the Rover|
 170:16:43|2|Lunar neutron probe experiment retrieved|
 170:19:57|2|Lunar roving vehicle positioned to monitor Lunar Module ascent|
-170:21:46|3|Schmitt in the far distance near the LM from the final position of the rover|
+170:21:37|3|Schmitt in the far distance near the LM from the final position of the rover|
 170:22:08|3|Cernan's speech about aerospace industry|
 170:27:29|3|Distant shot of Cernan walking back|
-170:24:41|2|Seismic profiling experiment explosive charge 3 deployed|
 170:29:59|3|Schmitt throws his geology hammer|
 170:39:36|3|Video shot of Earth|
 170:41:17|3|Cernan's Last Steps speech|
@@ -192,7 +183,7 @@
 193:39:04|3|Cernan and Schmitt playfully teasing Evans|
 193:58:33|2|Lunar Module jettison|
 194:03:31|1|Separation maneuver|
-195:38:14|2|Lunar Module deorbit firing|
+195:38:31|2|Lunar Module deorbit firing|
 195:52:44|2|Lunar Module impact|
 195:59:24|2|Surface TV camera permanently switched off|
 198:45:36|1|Crew Sleep Period Start|
@@ -200,7 +191,7 @@
 208:08:09|2|Flight Director, Gerry Griffin sends greetings and congratulations|
 210:17:23|2|\"Can't tell about these geologists\"|
 212:14:57|2|Searching for scissors|
-212:34:09|2|Turning off voice so \"transcribers can catch up with Jack\"|
+212:34:04|2|Turning off voice so \"transcribers can catch up with Jack\"|
 214:18:03|2|Scientific experiment performance summary|
 214:33:18|2|Laughter in mission control about Schmitt's biomed|
 220:27:36|1|Crew Sleep Period Start|
@@ -208,7 +199,7 @@
 234:04:35|2|Mapping camera cover closed in error|
 236:07:52|2|GO for TEI (Transearth Injection)|
 236:21:52|1|Transearth Injection|
-236:57:34|2|Video: Lunar surface as trip home begins|
+236:57:34|2|Video: Moon as trip home begins|
 237:02:07|2|Schmitt, "Humans don't get to see the far side, but a trend has been started"|
 237:16:52|2|Reference to "wow woozle" uttered at launch|
 237:26:45|2|Geology summary of lunar exploration|
