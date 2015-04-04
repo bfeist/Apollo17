@@ -2,14 +2,14 @@ __author__ = 'Feist'
 import csv
 from quik import FileLoader
 
-output_TOC_file_name_and_path = "./output/TOC.html"
+output_TOC_file_name_and_path = "./_webroot/TOC.html"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "./output/TOCindex.csv"
+output_TOC_index_file_name_and_path = "./_webroot/TOCindex.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -49,14 +49,14 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 
 
 ## -------------------- Write Utterance HTML
-output_utterance_file_name_and_path = "./output/allUtterances.html"
+output_utterance_file_name_and_path = "./_webroot/allUtterances.html"
 output_utterance_file = open(output_utterance_file_name_and_path, "w")
 output_utterance_file.write("")
 output_utterance_file.close()
 
 output_utterance_file = open(output_utterance_file_name_and_path, "a")
 
-output_utterance_index_file_name_and_path = "./output/utteranceIndex.csv"
+output_utterance_index_file_name_and_path = "./_webroot/utteranceIndex.csv"
 output_utterance_index_file = open(output_utterance_index_file_name_and_path, "w")
 output_utterance_index_file.write("")
 output_utterance_index_file.close()
