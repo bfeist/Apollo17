@@ -1,6 +1,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
     <title>Apollo 17 in Real-time</title>
 
@@ -37,6 +40,7 @@
     <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
     <script type="text/javascript">
         var gLastTimeIdMarker = '';
+        var gLastTOCTimeId = '';
         var gLastTOCTimeIdMarker = '';
         var gLastTimeIdChecked = '';
         var gCurrMissionTime = '';
@@ -79,7 +83,7 @@
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
-        var gWasRecentlyBuffering = true;
+        var gPlaybackState = "normal";
         var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
         function onPlayerStateChange(event) {
             console.log("onPlayerStateChange: player state change: " + event.data);
@@ -89,11 +93,12 @@
                     console.log("PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
                     player.seekTo(gNextVideoStartTime, true);
                     gNextVideoStartTime = -1;
+                    gPlaybackState = "normal";
                 }
-                if (gWasRecentlyBuffering) {
-                    //console.log("PLAYING: was buffering so calling findClosestUtterance");
-                    //findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-                    //gWasRecentlyBuffering = false;
+                if (gPlaybackState == "unexpectedbuffering") {
+                    console.log("PLAYING: was unexpected buffering so calling findClosestUtterance");
+                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    gPlaybackState = "normal";
                 }
                 if (gIntervalID == null) {
                     //poll for mission time scrolling if video is playing
@@ -109,7 +114,12 @@
             }
             if (event.data == YT.PlayerState.BUFFERING) {
                 console.log("BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
-                gWasRecentlyBuffering = true;
+                if (gPlaybackState == "transcriptclicked") {
+                    gPlaybackState = "normal";
+                } else {
+                    //buffering for unknown reason, probably due to scrubbing video
+                    gPlaybackState = "unexpectedbuffering";
+                }
             }
             if (event.data == YT.PlayerState.ENDED) { //load next video
                 console.log("ENDED. Load next video.");
@@ -137,7 +147,7 @@
 
                 player.loadVideoById(currVideoID, 0);
                 player.iv_load_policy = 3;
-                gNextVideoStartTime = true; //force next video to start at 0 seconds in the play event handler
+                gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
 
                 window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 gIntervalID = setAutoScrollPoller();
@@ -185,7 +195,7 @@
                 } else {
                     //console.log("not found: " + timeId + " | " + curSecSearch);
                     if (onCountdown) {
-                        curSecSearch++; //if we're on the countdown, search forward in time for the closest utterance
+                        curSecSearch--; //if we're on the countdown, search forward in time for the closest utterance
                     } else {
                         curSecSearch--;
                     }
@@ -258,9 +268,9 @@
         }
 
         function scrollToTimeID(timeId) {
-            //console.log("scrollToTimeID " + timeId);
             //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
             if ($.inArray(timeId, gUtteranceIndex) != -1) {
+                //console.log("scrollToTimeID " + timeId);
                 //console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
                 var transcriptFrame = $('#iFrameTranscript').contents();
                 var timeIdMarker = transcriptFrame.find('#' + timeId);
@@ -281,18 +291,18 @@
             if ($.inArray(timeId, gTOCIndex) != -1) {
                 console.log("scrollTOCToTimeID " + timeId);
                 //console.log("TOC item found in array. Scrolling TOC to " + timeId);
-                var TOCFrame = $('#iFrameTOC').contents();
-                var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
-
-                if (TOCtimeIdMarker[0] != gLastTOCTimeIdMarker[0]) {
+                if (timeId != gLastTOCTimeId) {
+                    var TOCFrame = $('#iFrameTOC').contents();
+                    var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
                     //reset background color of last line
                     if (gLastTOCTimeIdMarker != '') {
                         gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
                     }
-                    var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
                     TOCtimeIdMarker.css("background-color", "#DDDDDD");
-                    gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                    var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
                     TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
+                    gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                    gLastTOCTimeId = timeId;
                 } else {
                     console.log("TOC item already scrolled to. Not scrolling");
                 }
@@ -405,6 +415,7 @@
                     }
                     gCurrVideoStartSeconds = itemStartTimeSeconds;
                     gCurrVideoEndSeconds = itemEndTimeSeconds;
+                    gPlaybackState == "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
                     //change youtube video if the correct video isn't already playing
                     if (currVideoID !== gYTList[i][1]) {
                         console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);

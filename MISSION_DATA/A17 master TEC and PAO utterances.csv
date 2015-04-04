@@ -30,12 +30,12 @@
 |-00:39:08|PAO|This is Apollo Saturn Launch Control. We're continuing to stand by at the T-minus 22 minute mark. We've been given the word here in the firing room now that the count will be resumed at 11 p.m. at T-minus 22 minutes. At this time there still has not been a resolution to the problem, but we'll continue looking at that. We could continue on counting down while this problem is looked at. To reiterate what the problem was; the terminal countdown sequencer failed to give the command to pressurize the third stage liquid oxygen tanks. The crews monitoring this function saw that that happened and immediately manually pressurized the tanks, but this did not occur in time in the sequence and when swing arm one was to retract it had not received this signal. As a consequence an automatic cutoff was sent. There are several possible workarounds to this they are being looked into at this time, and we plan to resume our countdown at the T-minus 22 minute mark at 11 p.m. Now holding at T-minus 22 minutes. This is Kennedy Launch Control.
 |-00:37:54|PAO|This is Apollo Saturn Launch Control. We're at T-minus 21 minutes 10 seconds and counting. The countdown picked up, the launch team here made a quick check of the various elements, all reporting in to the test supervisor Bill Schick, indicating that they were ready to resume the count. Now counting at T-minus 20 minutes 53 seconds, and we'll continue to countdown here as we look at the problem which caused the hold at the T-minus 30 second mark. Now at T-minus 20 minutes 42 seconds and counting, this is Kennedy Launch Control.
 |-00:31:19|PAO|This Apollo Saturn Launch Control. We're at T-14 minutes 35 seconds and counting in our countdown for Apollo 17. Back at the Mission Control Center the men there are updating the launch azimuth. Launch azimuth standing now at 82.54 degrees. This will automatically be feed into the instrument unit. The swing arm, swing arm number 9, the access arm to the spacecraft, remains at the 12 degree position it will remain there until the T-minus 5 minute mark in the countdown. Going on at this time are the recycling of some of the vents for the liquid hydrogen and the liquid oxygen. These are the vents which allow the venting of these gases as there is some boil-off occurring. It is necessary to continue venting these to ensure they do not freeze in either an open or closed position. The countdown proceeding smoothly now. T-minus 13 minutes 43 seconds and counting. This is Kennedy Launch Control.
-|-00:26:38|SC|Alpha. Okay, EDS AUTO is on up now.
-|-00:26:26|SC|... verify AUTO. Launch vehicle rates, verify AUTO.
-|-00:26:20|SC|RCS command is OFF. Release.
+|-00:26:38|CMP|Alpha. Okay, EDS AUTO is on up now.
+|-00:26:26|CMP|... verify AUTO. Launch vehicle rates, verify AUTO.
+|-00:26:20|CMP|RCS command is OFF. Release.
 |-00:26:17|PAO|This is Apollo Saturn Launch Control. We're at T-minus 9 minutes 36 seconds and we are counting. However, we do plan to continue the hold at the T-minus 8 minute mark. We can hold at that point for 20 minutes and plan a 20 minute hold while the launch crew here satisfies themselves that they have worked out a good solution and a work around to the problem. The crew has been alerted aboard the spacecraft. Cernan indicated that perhaps they could start a nice conservation about a good book, Thomas Hardy or something like that. Countdown continuing now aiming toward the 8 minute mark at which time we'll hold. T-minus 9 minutes now T-minus 9 minutes and counting. This is Kennedy Launch Control.
 |-00:26:20|CDR|One at AC1, MAIN A. Two AC2, MAIN B.
-|-00:25:59|SC|Okay, that's going to latch.
+|-00:25:59|LMP|Okay, that's going to latch.
 |-00:25:37|CDR|Roger, ATC. Understand Challenger is GO for launch.
 |-00:25:12|LMP|Okay, secondary PUMP switch is OFF.
 |-00:25:09|LMP|MARK it.
@@ -57,21 +57,21 @@
 |-00:19:14|CDR|It's pull the bypass, skip.
 |-00:19:04|CDR|Roger. 2 Minutes.
 |-00:18:28|PAO|This is Apollo Saturn Launch Control. We're continuing in our hold at the T-minus 8 minute mark. Back at the Marshall Spaceflight Center in Huntsville, Alabama, the crews there are at work on a bread board, or a mock-up of the system in question, where they're putting it through it s paces, checking out the work around solution, that is, jumping around this erroneous signal, and insuring that everything works properly. The crew still standing by in the spacecraft, updating various systems there, updating their flight plan, all continuing to go well there. The crew at the Manned Spacecraft Center also doing considerable amount of updating. They'll be continuing to update the azimuth, and the Launch Control Center here at Kennedy Space Center, the launch team manning their consoles, standing by to pick up the count, when we're given the word to go. However, we're standing by still. At this time, we have no word from the Marshall Spaceflight Center. We're expecting that to come within 10 to 15 minutes from this time. Now at T-minus 8 minutes and holding, this is Kennedy Launch Control.
-|-00:18:24|CDR|Roger. Bus ties going on. The AC's on. DC's on.
+|-00:18:24|LMP|Roger. Bus ties going on. The AC's on. DC's on.
 |-00:18:06|CDR|Roger. 1 Minute.
 |-00:17:59|CDR|CDR PAD COMM is OFF. LMP?
-|-00:17:49|CDR|Roger. DGC align, and ball number 2 is coming in.
+|-00:17:49|CDR|Roger. GDC align, and ball number 2 is coming in.
 |-00:17:25|CDR|Roger. Understand, cut-off.
 |-00:16:55|CDR|That's affirm, understand. We're just holding fast here.
 |-00:16:53|PAO|This is Apollo Saturn Launch Control. We're continuing in our hold period at this time. Test Supervisor Bill Shick just announced here in the Firing Room that the hold is expected to last approximately 20 more minutes. Liquid oxygen and liquid hydrogen continuing to be replenished aboard the 3 stages of the launch vehicle at this time. That replenishing will continue during the hold period and during the final minutes of the countdown. The countdown continuing in the hold. T-minus 8 minutes and holding this is Kennedy Launch Control.
 |-00:16:33|CDR|Okay, we'll just standby, hold fast.
 |-00:16:00|PAO|This is Apollo Saturn Launch Control at one minute to midnight, one minute to midnight. We are continuing to hold at the T-minus 8 minute mark. Work is still going on at the Marshall Spaceflight Center in Huntsville, Alabama. Updating of the tracking continuing at the Manned Spacecraft Center in Houston. And the launch team here at Kennedy Space Center preparing to pick up the count. Hopefully, we will be given a go-ahead to pick up the count in approximately 10 to 12 minutes from this time. We are continuing to standby waiting to hear from the testing going on at the Marshall Space Flight Center in Huntsville. To recap the activities earlier today the countdown picked up at 11:53 a.m. after a planned hold period picked up at T-minus 9 hours mark shortly after that time the pad was cleared and we began loading the cryogenic fuels, that's the liquid hydrogen and the liquid oxygen aboard the space vehicle. Those operations actually went a little bit ahead of schedule. The astronaut crew went out to the pad, entered their spacecraft, began checking it out and those operations also running a little bit ahead of schedule. We went on to our terminal countdown sequencer at the 3 minute 6 second mark as scheduled. Everything seemed to be proceeding fine. At the T-minus 30 second mark we got an automatic cut-off. It was determined that this cut-off came because pressurization of the liquid oxygen tank aboard the third stage was not initiated automatically as it should have been when it was done manually the terminal sequencer did not sense that this had been done, and therefore gave the automatic cut-off. We're working the problem right now continuing to hold at the T-minus 8 minute mark. T-minus 8 minutes, this is Kennedy Launch Control.
 |-00:15:45|CDR|Okay, push to normal.
-|-00:14:08|CDR|Roger. TBC servo 1 is OFF, and 2 is OFF. Roger, REACs valve to NORMAL.
+|-00:14:08|CDR|Roger. TVC servo 1 is OFF, and 2 is OFF. Roger, REAC valve to NORMAL.
 |-00:13:42|PAO|This is Apollo Saturn Launch Control, continuing to hold at the T-minus 8 minute mark. The hold continues to be planned for approximately 5 to 7 more minutes. However, the launch window should be pointed out tonight extends to 1:31 AM. Now if for any reason we could not make it in that launch window, we could recycle under our present configuration and resume our count aiming for a 9:53PM EST launch tonight. The window for tonight is the same as it was for last night and this morning - 9:53PM to 1:31AM, however the launch team appears to be optimistic with the solution they've found to the problem. They are just waiting for verification and confirmation from the testing that's going on at the Marshall Spaceflight Center in Huntsville, Alabama. The time now is 7 minutes after midnight We're continuing to hold at T-minus 8 minutes. T-minus 8 minutes and holding , this is Kennedy Launch Control.
 |-00:13:27|CMP|Okay, I've got a VERB 34. ENTER. Uh. ... That's affirm.
-|-00:13:10|CDR|FTC, CDR. The 5 engine lights all went on about a minute ago.
-|-00:12:58|CDR|Roger, going OFF and then AUTO. AC. DC.
+|-00:13:10|CDR|STC, CDR. The 5 engine lights all went on about a minute ago.
+|-00:12:58|LMP|Roger, going OFF and then AUTO. AC. DC.
 |-00:12:28|CDR|Okay, CDR's PAD COMM. And LMP's ...
 |-00:12:14|PAO|This is Apollo Saturn Launch Control, continuing to hold at the 8 minute mark in the countdown. Still awaiting word from the Marshall Spaceflight Center in Huntsville, Alabama, and the result of the test being run at this time up there. Meanwhile, here in the firing room, all elements of the launch team are assessing their position. They are assessing the effect of the hold and this amount of hold time on each of their systems. Everyone, at this time, busily at work here in the firing room, also at the Mission Control Center in Houston, busy there with their flight update. Now continuing to hold at the T-minus 8 minute mark, this is Kennedy Launch Control.
 |-00:11:37|CDR|TC, CDR. You're busy Skip, I just wondered if think it's going to be a GO for a recycle here. Okay.
@@ -100,9 +100,9 @@
 |000:00:13|CC|Roger, Geno. Looking great. Thrust good on all five engines.
 |000:00:17|CDR|Okay, babe. It's looking good here. Roll is complete. We are pitching.
 |000:00:25|PAO|This is Mission Control. Gene Cernan reporting the launch vehicle maneuvering to the proper attitude, everything looking good at this point.
-|000:00:26|LMP|Wow woozle!
+|000:00:26|CMP|Wow woozle!
 |000:00:27|CDR|Okay, babe. Let's check the angles.
-|000:00:29|LMP|Thirty seconds. We're going up. Man, oh, man!
+|000:00:29|CMP|Thirty seconds. We're going up. Man, oh, man!
 |000:00:32|CDR|Thirty seconds, and 17 is GO.
 |000:00:35|CC|Roger, 17. You're GO.
 |000:00:38|PAO|First stage looks good. Altitude 1.1 miles.
@@ -134,7 +134,7 @@
 |000:01:47|CDR|Okay, we're out of MAXQ.
 |000:01:49|CMP|Okay. Cabin seal looking good.
 |000:01:50|CDR|Alpha's PC.
-|000:01:52|CDR|Okay, standby for -
+|000:01:52|CMP|Okay, standby for -
 |000:01:54|CC|Stand by for Mode I Charlie, 17.
 |000:01:56|CDR|- I Charlie.
 |000:01:56|CC|MARK. Mode I Charlie.
@@ -180,7 +180,8 @@
 |000:03:16|CC|Roger. We confirm skirt sep.
 |000:03:17|CDR|Watch it, Jack!
 |000:03:18|CMP|16, there it goes -
-|000:03:19|CDR|There goes the tower. Man, there she goes!
+|000:03:19|CDR|There goes the tower.
+|000:03:20|CMP|Man, there she goes!
 |000:03:21|CC|Roger. The tower; you're Mode II.
 |000:03:23|CDR|Roger, We're mode II.
 |000:03:28|CDR|Okay, ... command.
@@ -323,7 +324,7 @@
 |000:09:51|CDR|Okay, 10 minutes, Ron. I'll be at about fourty ...
 |000:09:55|CC|17, the steering has converged and the CMC is GO. You're looking great.
 |000:09:59|CDR|Roger. The CMC is GO, 10 minutes, and 17 is GO onboard.
-|000:10:02|CDR|Okay, H-DOT's a little bit low, but not bad.
+|000:10:02|CMP|Okay, H-DOT's a little bit low, but not bad.
 |000:10:07|CC|17; Houston. You are GO for orbit - GO for orbit.
 |000:10:11|CDR|Those are kind words, Robert. We're GO for orbit here.
 |000:10:15|CC|Good show, Gene.
@@ -351,7 +352,7 @@
 |000:11:54|PAO|And that looked like a near nominal shutdown. At shutdown we show 25,600 feet per second. That also looks very close.
 |000:12:00|CDR|We're looking at 93.1 by 89.5.
 |000:12:07|CC|Roger, Gene. We're copying the DSKY.
-|000:12:12|SC|Okay, Jack. Give - -
+|000:12:12|CDR|Okay, Jack. Give - -
 |000:12:16|PAO|Gene Cernan reporting the on-board Indication of an orbit of 93.5 by 89.5. Now we'll be getting tracking and confirming that here on the ground.
 |000:12:20|CC|And the local horizontal maneuver has initiated, Gene.
 |000:12:45|CDR|And, Houston, the - looks like the - tank pressures are venting.
