@@ -268,7 +268,6 @@
         }
 
         function scrollToTimeID(timeId) {
-            //console.log("scrollToTimeID " + timeId);
             //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
             if ($.inArray(timeId, gUtteranceIndex) != -1) {
                 //console.log("scrollToTimeID " + timeId);
@@ -295,7 +294,6 @@
                 if (timeId != gLastTOCTimeId) {
                     var TOCFrame = $('#iFrameTOC').contents();
                     var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
-
                     //reset background color of last line
                     if (gLastTOCTimeIdMarker != '') {
                         gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
