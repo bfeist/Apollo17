@@ -81,10 +81,11 @@ for utterance_row in utterance_reader:
         who_modified = utterance_row[2].replace("CDR", "Cernan")
         who_modified = who_modified.replace("CMP", "Evans")
         who_modified = who_modified.replace("LMP", "Schmitt")
-        source_modified = "source";
+        attribution_modified = utterance_row[0]
 
         template = template_loader.load_template('template_timelineitem.html')
-        output_utterance_file.write(template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': who_modified, 'words': words_modified, 'source': source_modified}, loader=template_loader).encode('utf-8'))
+        output_utterance_file.write(template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': who_modified, 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
+
         timeline_index_template = loader.load_template('template_timeline_index.html')
         output_utterance_index_file.write(timeline_index_template.render({'timeline_index_id': timeline_index_id}, loader=loader).encode('utf-8'))
 
