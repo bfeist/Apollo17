@@ -121,17 +121,22 @@ code {
     background-color: #f9f9f9;
 }
 
-.utterance  {margin-top: 2px; line-height: 1.4em; cursor: pointer;}
+.utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}
+tr.utterance  {cursor: pointer;}
+tr.utterance > td
+{
+    padding: 3px;
+}
+
 .oralHistory    {margin-top: 5px;}
 .spokenwords{font-weight:normal;}
 .afjdef		{color: black;}
 .afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
-.afjpao    	{color: DarkGreen; margin-left:60px;}
-.afjtec		{color: black; margin-left:60px;}
-.afjwho		{font-weight:bold; min-width:30px; float:left; text-align:right; margin-right:10px;}
-.afjwho::after	{content: " "}
-.afjother	{color: #2B547E; margin-left:80px;}
-.afjed		{color: #2B547E; margin-left:80px;}
+.afjpao    	{color: DarkGreen;}
+.afjtec		{color: black;}
+.afjwho		{font-weight:bold; text-align:right;}
+.afjother	{color: #2B547E;}
+.afjed		{color: #2B547E;}
 .afjed::before	{content: "[ "}
 .afjed::after	{content: " ]"}
 
