@@ -15,7 +15,7 @@ def get_key(some_object):
     return some_object.sortnumber
 
 
-class TranscriptItem():
+class TranscriptItem(object):
     def __init__(self, sortnumber, timestamp, who, words):
         self.sortnumber = sortnumber
         self.timestamp = timestamp
@@ -24,12 +24,12 @@ class TranscriptItem():
 
     def __repr__(self):
         return '{}: {} {} {}'.format(self.__class__.__name__,
-                                  self.timestamp,
-                                  self.who,
-                                  self.words)
+            self.timestamp,
+            self.who,
+            self.words)
 
 
-class CommentaryItem():
+class CommentaryItem(object):
     def __init__(self, sortnumber, timestamp, attribution, who, words):
         self.sortnumber = sortnumber
         self.timestamp = timestamp
@@ -39,19 +39,19 @@ class CommentaryItem():
 
     def __repr__(self):
         return '{}: {} *{}* {} {}'.format(self.__class__.__name__,
-                                     self.timestamp,
-                                     self.attribution,
-                                     self.who,
-                                     self.words)
+            self.timestamp,
+            self.attribution,
+            self.who,
+            self.words)
 
 
-class PhotographyItem():
+class PhotographyItem(object):
     def __init__(self, sortnumber, timestamp, photo_num, mag_number, mag_code, film_type, revolution_num, principal_lat, principal_long, camera_tilt, camera_azimuth, alt_km, lens_mm, sun_elevation, activity_name, description, photographer, date_taken):
         self.sortnumber = sortnumber
         self.timestamp = timestamp
         self.photo_num = photo_num
         self.mag_number = mag_number
-        self.mag_code =  mag_code
+        self.mag_code = mag_code
         self.film_type = film_type
         self.revolution_num = revolution_num
         self.principal_lat = principal_lat
@@ -65,6 +65,26 @@ class PhotographyItem():
         self.description = description
         self.photographer = photographer
         self.date_taken = date_taken
+
+    def __repr__(self):
+        return '{}: {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}'.format(self.__class__.__name__,
+            self.timestamp,
+            self.photo_num,
+            self.mag_number,
+            self.mag_code,
+            self.film_type,
+            self.revolution_num,
+            self.principal_lat,
+            self.principal_long,
+            self.camera_tilt,
+            self.camera_azimuth,
+            self.alt_km,
+            self.lens_mm,
+            self.sun_elevation,
+            self.activity_name,
+            self.description,
+            self.photographer,
+            self.date_taken)
 
 
 master_list = []
@@ -80,9 +100,8 @@ for utterance_row in utterance_reader:
 input_file_path = "../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
-    if commentary_row[0] != "": #if not a TAPE change or title row
-        tempObj = CommentaryItem(get_sec(commentary_row[1]), commentary_row[1], commentary_row[0], commentary_row[2], commentary_row[3])
-        master_list.append(tempObj)
+    tempObj = CommentaryItem(get_sec(commentary_row[1]), commentary_row[1], commentary_row[0], commentary_row[2], commentary_row[3])
+    master_list.append(tempObj)
 
 input_file_path = "../MISSION_DATA/photos.csv"
 photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
@@ -93,12 +112,11 @@ for photo_row in photos_reader:
         master_list.append(tempObj)
     first_row = False
 
-print master_list
-
 sorted_list = sorted(master_list, key=get_key, reverse=False)
 
 for list_item in sorted_list:
     print list_item
+    # print type(list_item) is TranscriptItem
     # print "timestamp: " + list_item[1]
     # print "attribution: " + list_item[2]
     # print "who: " + list_item[3]
