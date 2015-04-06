@@ -1,0 +1,150 @@
+*{margin:0;}
+
+#player {
+    background-color: #eee;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+}
+
+section{
+    margin:0 10px;
+}
+
+body, td, th, input, textarea, pre, p, ul {
+    font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman';
+    font-size: 11px; /* x-small, small */
+    color: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: verdana, arial, sans-serif;
+    color: #333;
+    background: none;
+    font-weight: normal;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: .17em;
+    border: none;
+}
+
+h1 { font-size: 180%; }
+h2 { font-size: 133%; }
+h3 { font-size: 125%; }
+h4 { font-size: 110%; }
+h5 { font-size: 100%; }
+h6 { font-size: 80%;  }
+
+h1, h2 { border-bottom: 1px solid #aaa; }
+
+h3, h4, h5, h6 { font-weight: bold; }
+
+li h1, li h2, li h3, li h4, li h5, li h6 { border: none; }
+
+ul {
+    line-height: 1.4em;
+    list-style-type: square;
+    margin: .2em 0 .2em 1.3em;
+    padding: 0;
+}
+ul.TOC1 {
+    font-size: 11px;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul.TOC2 {
+    font-size: 11px;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul.TOC3 {
+    font-size: 11px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.TOCTitle {color: black; font-weight: bold;}
+
+ol {
+    line-height: 1.4em;
+    margin: .3em 0 0 3.2em;
+    padding: 0;
+    list-style-image: none;
+}
+li {
+    margin-left: .5em;
+    margin-bottom: .1em;
+    padding: 0; /* margin between bullet and content */
+}
+table, th, td {
+    border: none;
+    vertical-align: top;
+}
+
+form {
+    border: none;
+    margin: 0;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+p {
+    margin: .4em 0 .5em 0;
+    line-height: 1.5em;
+}
+p img {
+    margin: 0;
+}
+
+input.historysubmit {
+    padding: 0 .3em .3em .3em !important;
+    font-size: 94%;
+    cursor: pointer;
+    height: 1.7em !important;
+    margin-left: 1.6em;
+}
+select {
+    vertical-align: top;
+}
+abbr, acronym, .explain {
+    border-bottom: 1px dotted black;
+    color: black;
+    background: none;
+    cursor: help;
+}
+q {
+    font-family: Times, "Times New Roman", serif;
+    font-style: italic;
+}
+
+code {
+    background-color: #f9f9f9;
+}
+
+.utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}
+tr.utterance  {cursor: pointer;}
+tr.utterance > td
+{
+    padding: 3px;
+}
+
+.oralHistory    {margin-top: 5px;}
+.spokenwords{font-weight:normal;}
+.afjdef		{color: black;}
+.afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
+.afjpao    	{color: DarkGreen;}
+.afjtec		{color: black;}
+.afjwho		{font-weight:bold; text-align:right;}
+.afjother	{color: #2B547E;}
+.afjed		{color: #2B547E;}
+.afjedwords {color: #2B547E;}
+.afjedwords::before	{content: "[ "}
+.afjedwords::after	{content: " ]"}
+
+.afjob     	{color: #660000; margin-left:60px}
+.afjdb		{color: SaddleBrown; margin-left:70px}
+.afjalt		{color: DimGray; margin-left:70px; margin-top:-10px;}
+
+.afjphoto	{color: red; margin-left:70px}
+
+.afjsrc		{font-style:italic}

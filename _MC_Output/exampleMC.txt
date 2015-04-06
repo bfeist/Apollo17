@@ -1,0 +1,1249 @@
+﻿	Tape 1
+	Page 1
+			MILA
+00 00 00 00 CC 10, 9, 8, 7, 6, 5, 4 - Ignition - 3, 2, O.
+00 00 00 01 CC LIFTOFF.
+CDR We have a lift-off.
+CC Roger. Lift-off.
+00 00 00 05 CDR Yaw - yaw maneuver.
+00 00 00 07 CC Roger.
+00 00 00 08 CDR Clock is started.
+00 00 00 09 CC Roger.
+00 00 00 11 CDR And the --
+00 00 00 13 CC - - are off.
+00 00 00 14 CDR Roger.
+00 00 00 15 LMP We're going!
+00 00 00 16 CDR And, roll program right on time.
+00 00 00 17 CC Roger, Tom.
+00 00 00 19 CDR She's looking good, Charlie.
+00 00 00 20 CC Beautiful.
+00 00 00 26 CDR Okay. Pitch is tracking. Looking good.
+00 00 00 29 CC Roger.
+00 00 00 34 CDR Roll complete. ELS MANUAL.
+00 00 00 36 CC Roger. Roll.
+00 00 00 41 CC 10, Houston. Mark. Mode 1 Bravo.
+00 00 00 44 CDR Roger. One Bravo.
+00 00 00 52 CDR I ... around a little bit in here.
+	Tape 1/2
+	Page 2
+00 00 00 56 CDR Cabin is relieving.
+00 00 00 58 LMP Cabin is relieving.
+00 00 01 01 CC Roger. Copy.
+00 00 01 05 CDR 2 g's, Charlie.
+00 00 01 07 CC Roger. Looking good at 1 minute.
+00 00 01 18 LMP What a ride, Babe, what a ride!
+00 00 01 20 CC Roger. You're looking good, 10; you're looking
+			real good.
+00 00 01 26 CDR Roger. Going through MAX Q.
+00 00 01 30 CC Roger.
+00 00 01 35 CC 10, you're through the MAX Q. You're looking
+			good.
+00 00 01 39 CDR Two and a quarter g's. She's looking beautiful.
+00 00 01 51 CDR Okay. Two and a half g's.
+00 00 01 53 CC Roger. Copy, Tom.
+00 00 01 58 CC Okay. And, Mark. Mode I Charlie. You're
+			looking great.
+00 00 02 01 CDR Roger. One Charlie and 3 g's; it feels great.
+00 00 02 06 CC You're GO for staging, 10.
+00 00 02 08 CDR Roger. 10 is GO.
+00 00 02 16 CDR Inboard check alignment.
+00 00 02 19 CC Roger. Inboard.
+00 00 02 24 CDR They're a ]ittle POGO. POGO damps.
+00 00 02 26 CC Roger. Copy, Tom. EDS OFF, 10.
+00 00 02 47 CDR ... staging lights out.
+00 00 02 51 CC Roger.
+	Tape 1/3
+	Page 3
+00 00 02 54 CDR And it looks like we got a good S-II. - -
+00 00 02 57 CC Roger ... 10, on the S-II. It's looking good.
+			Confirm EDS OFF.
+00 00 03 05 CDR EDS is OFF ...
+00 00 03 07 CC Roger.
+00 00 03 14 CDR Plane SEP.
+00 00 03 16 CC Roger.
+00 00 03 18 CDR There goes the tower.
+00 00 03 20 CC Roger, on the tower. Aha we confirm second
+			plane SEP.
+00 00 03 22 CDR Okay.
+00 00 03 25 CDR Man, that staging was quite a sequence!
+00 00 03 27 CC Roger. Sounded like it.
+00 00 03 30 CDR And we have guidance INITIATE.
+00 00 03 31 CC We confirm that, 10.
+00 00 03 33 CDR Roger.
+00 00 03 35 CC The S-II is looking beautiful, Tom. Everything
+			is ...
+00 00 03 37 CDR Roger. It looks good to be back up here, Charlie.
+00 00 03 44 CC Yes, I bet.
+00 00 03 45 CMP Just like old times! It's beautiful out there!
+00 00 03 46 CC Not bad.
+00 00 03 51 CC You guys sound ecstatic.
+00 00 03 55 CDR Man, this is the greatest, Charlie.
+00 00 03 57 LMP Charlie, babe. It's fantastic, babe, really!
+00 00 04 01 CDR Okay. Four minutes - -
+	Tape 1/4
+	Page 4
+00 00 04 01 CC Roger. Four mlnutes. Your trajectory and
+			guidance look good.
+00 00 04 07 CDR Roger. We look on the line on board.
+00 00 05 01 CC 10, Houston. At 5 minutes, you're all GO.
+			All your systems are looking great.
+00 00 05 05 CDR Roger. Five minutes, and 10 is GO.
+00 00 05 07 CC Roger. You're right on the track.
+00 00 05 09 CDR Roger, Charlie.
+00 00 05 58 CC 10, Houston. Coming up on 6 minutes. You're
+			looking beautiful.
+00 00 06 01 CDR Six minutes. Gimbal motors coming ON. PITCH 1.
+00 00 06 03 LMP That's GO.
+00 00 06 04 CDR YAW 1.
+00 00 06 05 LMP That's GO.
+00 00 06 06 CDR PITCH 2.
+00 00 06 07 LMP That's GO.
+00 00 06 08 CDR YAW 2.
+00 00 06 09 LMP You got them all, Tom.
+00 00 06 11 CDR looks good here.
+00 00 06 25 LMP Charlie, are you sure we didn't lose Snoopy on
+        that staging?
+00 00 06 28 CC No, I think Snoopy is still there with you.
+    You're looking good- We copy your gimbal motors
+    ON and your trim looks good.
+00 00 06 34 CDR ... tracking ... beautiful.
+00 00 06 44 CC 10, Houston.
+00 00 06 45 CC MARK.
+00 00 06 46 CC S-IVB to orbit capability.
+00 00 06 47 CDR ...
+	Tape 1/5
+	Page 4
+00 00 06 55 CC 10, Houston. Coming up on 7 minutes. You are
+			all GO. We have nominal level sense arm, 8
+			plus 15. S-II cut-off, 9 plus 11.
+00 00 07 03 CDR You have the level sense arm, and 9 plus 11 is
+			the S-II.
+00 00 07 07 CC Roger.
+00 00 07 31 CDR 07 30. 10 is good.
+00 00 07 33 CC Roger. Looking good here.
+00 00 07 41 CDR Inboards shut down.
+00 00 07 43 CC Roger on the inboards, Tom. We confirm it.
+00 00 07 49 CC How's the ride?
+00 00 08 00 CC 10, Houston. Eight minutes. You're looking
+			good. How's the ride?
+00 00 08 04 CDR Roger. Fantastic, Charlie, fantastic.
+00 00 08 06 CC Roger.
+00 00 08 26 CC 10, Houston -
+00 00 08 27 CC MARK -
+00 00 08 28 CC - the level sense arm - -
+00 00 08 29 CDR The level sense arm.
+00 00 09 01 CDR ... everything looks good.
+00 00 09 04 CC Roger, Apollo 10. You are GO for staging.
+00 00 09 09 CC Mark. Mode IV, Apollo 10. Mode IV.
+00 00 09 13 CDR Through mode SEP IV. Staging.
+00 00 09 14 CC Roger.
+00 00 09 17 CDR Separation.
+00 00 09 18 CC Roger.
+00 00 09 19 CDR Appears we got good ignition.
+00 00 09 21 CC Roger.
+	Tape 1/6
+	Page 6
+00 00 09 26 CC We confirm your guidance, and your S-IVB looks
+			good, 10.
+00 00 09 29 CDR Roger.
+00 00 09 32 LMP Charlie, lots of stuff out the window in staging.
+			We're catching up and passing it now.
+00 00 09 36 CC Okay.
+00 00 09 39 CDR Okay. Guidance looks right on with the onboard
+			jet, Charlie.
+00 00 09 42 CC Roger. We confirm that. Looking great here.
+			You're looking beautiful.
+00 00 09 43 CDR Roger.
+00 00 10 02 CC 10, Houston. At 10 minutes you're GO.
+00 00 10 04 CDR At 10 minutes, GO. Onboard's good.
+00 00 10 06 CC Roger.
+00 00 10 21 CC Apollo 10, Houston. Predicted S-IVB cut-off,
+			11 plus 47.
+00 00 10 26 CDR 11 plus 47.
+00 00 11 03 CDR Eleven minutes, and 10 looks good.
+00 00 11 05 CC Roger, 10.
+00 00 11 06 CDR ...
+00 00 11 10 CC 10, Houston. At 11 10, you're looking good.
+00 00 11 13 CDR Roger, Charlie. The guidance is beautiful.
+00 00 11 15 CC Roger.
+			MILA (REV 1)
+00 00 11 45 CDR SECO!
+00 00 11 46 CC Roger. SECO.
+00 00 11 47 CDR ... at 56.
+00 00 11 50 CC Roger. Stand by, 10.
+	Tape 1/7
+	Page 7
+00 00 12 02 CMP Okay, Houston. We show a 102.6 by 101.1.
+00 00 12 07 CC Roger. We copy that.
+00 00 12 11 CMP And our VI was 25 565, minus one-tenth H dot,
+			and 102.6.
+00 00 12 17 CC Roger. We copy.
+00 00 12 19 CDR ...
+00 00 12 20 CMP And, Charlie, have them take a look at our
+			evaporator. We're reading a high outlet
+			temperature and OFF-SCALE LOW on the steam
+			Pressure right now.
+00 00 12 28 CC Roger. We agree. Stand by.
+			VAN (REV 1)
+00 00 12 35 CDR Okay -
+00 00 12 52 CC 10, Houston. Your S-IVB is safe. We'd like you -
+			On the evaporator, we'd like for you to close the
+			PRIMARY BACK PRESSURE valve , and activate the
+			SECONDARY LOOP.
+00 00 13 03 CMP Roger. Understand. Close the primary hack pres-
+			sure valve and activate the secondary loop.
+00 00 13 08 CC Roger. Just for a little while. We'll give you
+			the number. And we'll have Vanguard LOS at 15 32,
+			and a minute gap. And, we'll see you over the
+			Canaries at 16 29.
+00 00 13 19 CDR Roger. And, we have closed the isolation valve
+			on CM RCS ring 1, 2 is still OPEN.
+00 00 13 26 CC Roger.
+00 00 13 36 CC 10, Houston. The Saturn is in great shape; you're
+			configured for orbit; we're all GO.
+00 00 13 41 CDR Roger. Just looks beautifUl.
+00 00 13 47 CC And 10, Houston. We confirm your orbit. The IU
+			vector has you in a 103 by 100.
+00 00 13 54 CDR Roger.
+	Tape 1/8
+	Page 8
+00 00 14 54 CC 10, Houston. We want you to keep the PRIMARY
+			BACK PRESSURE valve closed for about 15 minutes,
+			and then we'll deacti - Stand by.
+00 00 15 02 CDR Roger.
+00 00 15 18 CC 10, Houston. At GET of 30 we'd like you to put
+			the primary BACK PRESSURE valve back in AUTO and
+			deactivate the SECONDARY LOOP.
+00 00 15 35 LMP Roger. Understand. You want - at 30 - You want
+			to deactivate the SECONDARY LOOP and go back to
+			AUTO on the primary boiler.
+00 00 15 44 CC Affirm, Gene
+			CYI (REV 1)
+00 00 17 01 CC Apollo 10, Houston. Standing by through the
+			Canaries.
+00 00 17 04 CDR Roger. 10 reading you loud and clear. We've
+			just completed that insertion checklist.
+00 00 17 09 CC Roger. Copy. And, 10, Houston, would you like
+			for me to review this ring 2 heater check?
+00 00 17 22 CDR Why don't you do that ...
+00 00 17 25 CC Okay, Tom. We'd like for you to - We got a
+			7-step procedure here, and I'll read it up to
+			you. On panel 8, CB CM heaters, two, MAIN B,
+			closed, CM RCS LOGIC, ON, CM RCS heaters, ON.
+			We want you to heat ring 2 for 15 minutes, and
+			you can select position C5 on the systems test
+			and monitor the OX line temp.
+00 00 18 00 CDR ...
+00 00 18 02 CC Correct - 10, your first step would be to close
+			the RCS PROPELLANT ISOLATION valve on ring 2.
+00 00 18 14 CDR We'll go ahead and do that right now, Charlie.
+00 00 18 16 CC Okay. Then you can - then we'd like for you to
+			- If you arc going to close the PROP valve right
+			now, we'd like for you to turn the heaters on,
+			too.
+00 00 18 22 CDR Okay. trn the, heaters on right now.
+	Tape 1/9
+	Page 9
+00 00 18 24 CC Affirm. And then after -
+00 00 18 30 CC 10, Houston.
+00 00 18 31 CDR Okay, Charlie. We're going through the procedure;
+			the heater is ON.
+00 00 18 34 CC Roger.
+00 00 18 37 LMP Okay. And we'll turn them off after 15 minutes.
+			And you say we can monitor what on C5?
+00 00 18 42 CC You can monitor the oxidizer line temp on C5 -
+			it'll probably be OFF-SCALE HIGH, but if you see
+			any change, we'd appreciate you - we'd appreciate
+			you telling us.
+00 00 18 52 CDR Roger.
+00 00 18 53 LMP Okay. We got that, Charlie.
+00 00 19 05 CC 10, after 15 minutes, we'll - We'd like for you
+			to turn the heater off, RCS LOGIC OFF, and open
+			both heater circuit breakers.
+00 00 19 15 CDR Roger. Will do, Houston.
+00 00 19 31 LMP Charlie, it's Just fantastic to be back up here
+			again! Fantastic, really.
+00 00 19 36 CC Man, you guys - (laughter) You guys really sound
+			great up there.
+00 00 19 40 CDR Yes, Charlie, after 3 years, it seems a long time,
+			but here comes the Coast of Africa again and it
+			looks beautiful.
+00 00 19 49 CC Yes, I'll bet. Wish we were there with you.
+00 00 19 50 LMP They make you feel - we all feel great.
+00 00 19 55 CC Roger. Next time we are going to put a cart - cot
+			on board and one of us is going along.
+00 00 19 56 CDR Roger.
+00 00 21 00 CC Apollo 10, Houston. The P52 is your option. It.
+			really looked great during the launch phase; we
+			have an azimuth correction of minus 0.11.
+00 00 21 08 CDR Roger. Minus O.11. Thank you.
+	Tape 1/10
+	Page 10
+00 00 21 58 CC 10, Houston. If you've taken your helmets off,
+			we'd remind you to open the SUIT CIRCUIT RETURN
+			valve.
+00 00 22 06 CDR Roger. We're gonna do that now.
+00 00 22 08 CC 0kay.
+00 00 22 29 CC Apollo 10, Houston; you've got about 1 minute to
+			Canaries LOS; Tananarive at 3 - correction - 37.
+00 00 22 33 CDR Roger. Tananarive at 37; thank you.
+			TAN (REV 1)
+00 00 37 46 CC Apollo 10, this is Houston through Tananarive.
+			How do you read? Over.
+00 00 38 12 CC Apollo 10, this is Houston through Tananarive.
+			How do you read? Over.
+00 00 38 25 CT Tananarive, Houston COM TECH Net 1.
+00 00 38 28 CT Houston COMM TECH, Tananarive.
+00 00 38 30 CT Roger. Can you confirm that CAP COMM is uplink-
+			ing through your site?
+00 00 38 32 CT That's affirm. You are uplinking.
+00 00 38 34 CT Have you heard any downlink from the spacecraft?
+00 00 38 38 CT Negative. No downlink.
+00 00 38 39 CT Roger.
+00 00 38 45 CC Apollo 10, this is Houston through Tananarive.
+			Radio check. Over.
+00 00 39 13 CC Apollo 10, this is Houston transmitting in the
+			blind. Confirm SIMPLEX Alfa. Over.
+00 00 40 04 CC Apollo 10, Apollo 10, this is Houston through
+			Tananarrive. Over.
+00 00 40 24 CDR Houston, Apollo lO. Transferring to broad. We're
+			reading you loud and clear.
+00 00 40 26 CC Roger, 10. And now we're reading you loud and
+			clear. Up.
+	Tape 1/11
+	Page 11
+00 00 40 32 CDR Okay. We've been reading you all the time down
+			there, Houston. John and Gene have completed
+			the P52, and the torquing on the IMU realign is
+			minus 0.12, plus 0.34, and minus 0.76. looks
+			like the platform is real good.
+00 00 40 50 CC Roger, 10. We copy. Understand platform is good.
+00 00 40 56 CDR And we will turn the Command Module RCS B healer
+			off at 43. That will give us 15 minutes on it.
+00 00 41 06 CC Roger. We confirm - We confirm that. And -
+			Your PROP ISOL valves OFF? RCS PROPELLANT valves
+			OFF?
+00 00 41 13 CDR That's affirmative, Charlie.
+00 00 41 15 CC Okay.
+00 00 41 39 CDR Houston, Apollo 10. The ... on the heater is OFF-
+			SCALE HIGH, which we expected for the heaters, and
+			we're going to turn the heaters off at 43.
+00 00 41 50 CC Say again, 10. You're fading in and out.
+00 00 41 54 CDR Roger. Command Module RCS heaters OFF at 43.
+00 00 41 58 CC Roger. We copy. OFF at 43.
+00 00 42 13 CC 1O, Houston. We expected that on the heaters.
+			We'll have LOS here at Tananarive in 30 seconds;
+			we'll see you over Carnarvon at 52.
+00 00 42 24 LMP Roger. Understand 52. Our radiators appear to
+			be working all right. Our GLYCOL EVAP OUTLET tem-
+			perature is down around 58. The steam pressure
+			is OFF-SCALE LOW, OFF-SCALE LOW.
+00 00 42 42 CC Roger. Steam pressure OFF-SCALE LOW?
+00 00 42 44 LMP That's affirm. And the evaporator outlet tem-
+			perature is 58 degrees with - with the radiators
+			apparently working.
+00 00 42 51 CC Roger. We copy, Gene.
+00 00 43 05 CC And, Apollo 10, Houston. If you read, we'd like
+			you to close the PRIMARY BACK PRESSURE valve
+			again. Over.
+	Tape 1/12
+	Page 12
+			CRO (REV 1)
+00 00 52 42 CC Hello, Apollo 10, Houston through Carnarvon.
+			Standing by.
+00 00 52 49 CDR Roger, Houston. This is Apollo 10. We're going
+			through our ECS checklist and everything looks
+			good.
+00 00 52 53 CC Roger, Tom. COMM is real great.
+00 00 52 59 CDR Roger. We got the - We could read you all the
+			way through Tananarive, Houston, but evidently
+			you couldn't read us - COMM back here until the
+			last. We got the heater OFF exactly at 15 min-
+			utes, the PROPELLANT valve was shut, the LOGIC
+			was OFF and the breakers OPEN.
+00 00 53 13 CC Roger. We copy, Tom.
+00 00 54 53 CDR Houston, Apollo IO. Did you get our torquing
+			angles on the IMU realign?
+00 00 54 58 CC Roger, Tom. You were pretty weak. What I
+			copied was minus 0.12, plus 0.34, and minus 0.76.
+00 00 55 08 CDR Roger. And everything looks real good.
+00 00 55 12 CC Roger. Can you give us the time that y0u
+			torqued those?
+00 00 55 17 CDR Stand by.
+00 00 55 23 CMP It was 41 minutes even, Charlie. That's what -
+			I paid special attention to that.
+00 00 55 30 CC Roger. Thank you very much, John. 41 minutes;
+			special attention.
+00 00 57 03 LMP Hello, Houston; this is 10.
+00 00 57 05 CC Go ahead.
+00 00 57 07 LMP Okay. Guess you got my word on the OFF-SCALE
+			LOW on the steam pressure on the PRIMARY LOOP.
+00 00 57 12 CC Roger. We've been discussing that, Gene, and
+			stand by. We'll have some words on it for you.
+	Tape 1/13
+	Page 13
+00 00 57 17 LMP I Just rechecked the SECONDARY LOOP and it all
+			looks good on it. Going through all our
+			monitor checks and redundant component checks.
+			looks like we've got a good Charlie Brown, here.
+00 00 57 27 CC Roger. Good.
+00 00 57 59 CC Apollo 10, Houston, with some words on the -
+			the primary evap.
+00 00 58 03 LMP Go ahead, Charlie.
+00 00 58 04 CC Roger. We'd like you to put the BACK PRESSURE
+			valve back to AUTO - correction, MANUAL. And
+			we wondered if you went to AUTO on the H20 valve
+			during launch?
+00 00 58 17 LMP That's affirm; I sure did. I went to AUTO on
+			the steam pressure valve and the water valve.
+00 00 58 22 CC Okay. We want the steam pressure back to
+			MANUAL, and we're going to think about it a
+			little bit more, and we might reservice later on.
+00 00 58 30 LMP Okay, fine. looks like our radiators are
+			beginning to carry the load. I'm looking at
+			about 51 degrees on the EVAP OUTLET TEMP.
+00 00 58 37 CC Roger.
+00 00 59 17 CC Apollo lO, Houston. Gene, everybody thinks I
+			might have given you the wrong word. What - Now
+			to clarify it, we want the BACK PRESSURE valve
+			CLOSED. Over.
+00 00 59 31 LMP Okay. In other words, you want STEAM PRESSURE
+			AUTO switched to MANUAL, and you want me to go
+			to INCREASE, is that correct?
+00 00 59 38 CC Affirmative.
+00 00 59 41 LMP Okay. Well, I'm in MANUAL now. I'll go to
+			INCREASE.
+00 01 00 37 LMP Houston, this is lO. Do you want me to leave
+			the WATER FLOW in AUTO during - after I do this?
+00 01 00 41 CC Stand by.
+	Tape 1/14
+	Page 14
+00 01 00 51 CC 10, Houston. You can leave the water valve in
+			AUTO.
+00 01 00 55 LMP Roger. Understand.
+			HSK (REV 1)
+00 01 02 24 CC Hello, Apollo 10. Houston on the S-band through
+			Honeysuckle. How do you read? Over.
+00 01 02 28 CDR Roger. Houston, Apollo 10. Reading you loud
+			and clear.
+00 01 02 32 CC Roger, Tom. Same. The S-band is really great
+			today.
+00 01 02 36 CDR Roger. I've never seen the COMM better. It's
+			great, Charlie.
+00 01 02 39 CC Roger.
+00 01 03 20 CC Apollo 10, HOuston. We'll have LOS at Honey-
+			suckle at 1 plus 06. We'll see you over Guaymas
+			at 1 plus 28.
+00 01 03 28 CDR Apollo 10, Roger.
+	Tape 1/15
+	Page 15
+	NOTE
+	Subsequent to TLI, there is continuous acquisition
+	among Goldstone (GDS), Madrid (MAD), and Honeysuckle
+	(HSK).
+	Tape 2/1
+	Page 16
+00 01 29 49 CC Hello, Apollo 10. Houston through Guaymas.
+			Standing by.
+00 01 29 52 CDR Roger, Houston. Reading you loud and clear.
+00 01 29 54 CC Roger. You're five-by.
+00 01 30 01 CDR Okay. We are ready to extend the docking probe
+			when you are.
+00 01 30 06 CC Roger. Stand by.
+00 01 30 07 LMP We've got to get a GO on that temperature
+			measurement.
+00 01 30 22 CC 10, Houston. We're ready for you to extend the
+			docking probe. And, you'll have to stand by on
+			the temp until we get high bit rate.
+00 01 30 29 CDR Roger.
+00 01 30 34 CDR Okay. We'll count down: 5, 4, 3, 2, 1.
+00 01 30 42 CDR EXTEND.
+00 01 30 43 CC Roger. Copy.
+00 01 30 46 CDR Barberpole, then gray.
+00 01 30 48 CC Roger.
+00 01 30 50 CDR We could feel a klunk.
+00 01 30 53 CC Roger.
+00 01 30 55 CMP We could hear it go out. I believe it's all
+			the way out.
+00 01 30 57 CC Roger. You say you heard it go out?
+00 01 31 00 CMP Yes.
+00 01 31 03 CC Okay. Hey, we will have the P27 for you over
+			Bermuda at about 1 plus 40. And, we've got a
+			TLI plus 90 PAD, if you are ready to copy, Gene.
+	Tape 2/2
+	Page 17
+00 01 31 11 CDR Stand by.
+00 01 31 13 LMP Roger. TLI plus 90. Go ahead, Charlie.
+00 01 31 15 CC Roger. TLI plus 90, SPS/G&N: 63556; minus 148;
+			plus 135; 00355; 4487; minus 05484, minus 4 balls
+			1, plus 66232; 180, 239, 001; apogee is NA;
+			perigee is plus 00175; 66458; burn time 07 37;
+			66199; 24; 2087; 167.
+00 01 32 22 LMP Hello, Houston. This is 10.
+00 01 32 24 CC Go ahead.
+00 01 32 26 LMP Houston, we lost S-band for a seccnd, there.
+			I got everything through HA, NA. Go after that.
+00 01 32 32 CC Okay, Gene. HP is plus 00175; 66458; 07 37;
+			DELTA-VC 66199; 24; 2087; 167; boresight star
+			is Shaula,and it's left 008, down 27; minus
+			2605, minus 02500; 11229; 339930; 12 55 35.
+			Okay, your set stars are Deneo and Vega at
+			067283, 337; no ullage. Your P37 for TLI plus 4
+			ia 00630, 6373; the longitude is minus 165;
+			GET 400K is 00 22 21. Ready for you readback.
+00 01 34 08 LMP Okay, Charlie, here it comes. SPS/G&N: 63556;
+			minus 148; plus 135; 00355; 4487; minus 05484,
+			minus 4 balls 1, plus 66232. You with me?
+00 01 34 20 CC Go ahead.
+00 01 34 24 LMP 180, 239, 001; Apogee is NA; perigee is
+			plus 00175; 66458; 07 37; 66199; 24; 2087; 167;
+			boresight star is Shaula, left 008, down 27;
+			minus 2605, minus 02500; 11229; 339930; 55 44 35.
+			Still there?
+00 01 35 01 CC Keep going.
+00 01 35 03 LMP Okay. Deneb and Vega, 067283; 337; no ullage.
+			TLI plus 4, 00630; 6373; minus 165; 0 22 21.
+			And, you are just a little bit fast on those
+			reads, Charlie. I was barely able to keep up
+			with you.
+00 01 35 21 CC Roger, Gene. Sorry about that. That was a good
+			readback, and we got the TLI PAD if you are ready
+			to copy.
+	Tape 2/3
+	Page 18
+00 01 35 28 LMP Stand by one.
+00 01 35 32 LMP Okay. I'm ready.
+00 01 35 36 CC Okay. Time 6p, 2 24 25; 179, 116, 3 balls;
+			burn time 05 43; 104376; 35603; 358; 151; 040;
+			TLI plus 10 minutes; abort pitch angle is 267.
+			Standing by for your readback.
+00 01 36 27 LMP Okay, TLI is 2 24 25; 179, 116, 000; burn time
+			is 05 43; 104376; 35603; roll is 358, 151, 040;
+			and our TLI plus 10 minutes, pitch is 267 degrees.
+00 01 36 51 CC Roger. The burn looks real - going to look real
+			nominal. The SEP angles - everything is real
+			nominal and your backup S-IVB cue cards are
+			okay. Pitch and yaw and everything looks good.
+00 01 37 05 CMP That's great, Charlie. We ought to be coming
+			over the top here pretty soon.
+00 01 37 09 CC Roger. You ought to be right over.
+00 01 37 21 CC 10, Houston. On the TLI, we've got a string of
+			nines on the probability for a guided cut-off.
+00 01 37 26 CDR Can't beat that.
+00 01 37 28 CC Sure can't.
+00 01 37 32 LMP You're doing good work so far, Charlie.
+00 01 37 34 CC So are you guys. Man, you guys sounded ecstatic
+			on that boost.
+00 01 37 38 LMP Babe, you ain't seen nothing until you've seen
+			that S-IC stage.
+00 01 37 42 CC (Laughter) Would you care to elaborate?
+00 01 37 45 LMP I will later.
+00 01 37 49 CC Okay.
+00 01 37 55 LMP It's real smooth between the start and the end
+			of its burn.
+	Tape 2/4
+	Page 19
+00 01 37 59 CC Yes. (Laughter)
+00 01 38 02 CDR There's no doubt the whole structure unloaded
+			on us when we staged.
+00 01 38 05 CC Yes, you kind of felt like you were pulling
+			yourself off from the 8-ball, there.
+00 01 38 10 CDR No, more like a structural POGO. We'll tell you
+			about it later.
+00 01 38 13 CC Okay. Chris says, "Don't forget now, after
+			8 days."
+00 01 38 17 CDR (Laughter) 0kay.
+	VAN (REV 2)
+00 01 40 35 CC Hello. 10, Houston. We got our load at Bermuda.
+			We're ready to go, if you'll give us ACCEPT.
+00 01 40 42 CC Roger.
+00 01 42 47 CC Hello. Apollo 10, Houstn. We got the load in
+			okay. You can go back to BLOCK. The computer
+			is yours.
+00 01 42 53 CDR We've get BLOCK.
+00 01 42 55 CC Roger.
+00 01 43 18 CDR Houston, Apollo 10. What does your latest orbit
+			show?
+00 01 43 22 CC Stand by.
+00 01 43 31 CC 10, Houston. We're showing you in a 107 by 104.
+00 01 43 35 CDR Roger. Thank you.
+00 01 45 19 CC Hello. Apollo 10, Houston. We think that your
+			PRIMARY EVAP is definitely dried out, so we're
+			going to leave it as is, and if we have to,
+			well, we'll reservice after TLI.
+	Tape 2/5
+	Page 20
+00 01 45 33 LMP Okay. After I closed the valve, it started off
+			to low peg and now has drifted off to a reading
+			of about, 0.24.
+00 01 45 42 CC Roger.
+00 01 45 45 CDR Roger. The spacecraft temp has started to cool
+			down. We feel real good in here.
+00 01 45 47 CC Roger. Good, Tom.
+00 01 45 53 CC 10, Houston. We'll have you through the Canaries
+			until 1 plus 55, except for about a 30-second
+			break at about 1 plus 43, when we go from
+			Vanguard to the Canaries. Correction - -
+00 01 46 06 CDR - - Roger.
+00 01 46 08 CC - - a short break at about 1 plus 49, excuse me.
+00 01 46 11 CDR Roger.
+00 01 46 35 CC 10, Houston. How's the view from up there?
+			Your windows all look good?
+00 01 46 39 CDR Windows are all clear. Gene has a white streak
+			across his external - just a white streak on
+			the right window.
+00 01 46 47 CC Roger. We copy. How wide is it? Is it
+			significant at all, Tom?
+00 01 46 54 LMP No, Charlie. It looks like someone took a little
+			thin paint bursh and Just stabbed it across from
+			top to bottom on the right-hand window.
+00 01 47 03 CC Roger.
+00 01 47 17 CC And, 10, Houston. With the high bit rate, that
+			probe temp is hanging right in there at 85.
+00 01 47 23 CDR Thank you.
+	Tape 2/6
+	Page 21
+			CYI (REV 2)
+00 01 51 37 CC Hello, Apollo 10. Houston through the Canaries.
+			Standing by. We are GO for the PYRO ARM at any
+			time.
+00 01 51 44 CDR Okay, Charlie. I'll get it right now.
+00 01 51 46 CC Okay.
+00 01 51 48 CDR SECS LOGIC to BATT A and B on the breakers; LOGIC
+			1 and LOGIC 2 are coming OFF.
+00 01 51 54 CC Roger. Stand by.
+00 01 52 14 CC 10, Houston. Would you verify that the SECS
+			ARM BREAKERS are CLOSED?
+00 01 52 19 CDR Roger. SECS ARMS coming CLOSED now; A, B.
+00 01 52 25 CC Roger.
+00 01 52 33 CC And, 10, Houston. Your PYRO system looks good.
+			We're GO.
+00 01 52 38 CDR Okay. I'll arm it just Before TLI.
+00 01 52 41 CC Roger, Tom. And w'd like you go UP TELEMETERY
+			COMMAND RESET at Canaries LOS.
+00 01 52 48 CDR Say again?
+00 01 52 50 CC Roger. At Canaries LOS you can go UP TELEMETRY
+			COMMAND to RESET.
+00 01 52 55 CDR Thank you.
+00 01 53 32 CDR Houston, Apollo 10. We're donning our helmets
+			and gloves now.
+00 01 53 35 CC Roger.
+00 01 54 06 CC 10, Houston. Everybody in the room is happy as
+			can Be. You're looking great. We'll have LOS
+			at Canaries at 1 plus 56. We'll see you over
+			Tanararive at 2 plus 09.
+00 01 54 19 CDR All right; TAN. Roger.
+	Tape 2/7
+	Page 22
+	TAN (REV 2)
+00 02 09 52 CC Hello. Apollo 10, Houston through Tananarive.
+			Standing by. We've got nothing for you.
+00 02 09 59 CDR Okay, Houston. We have our PYRO's armed, and
+			we're all set for TLI.
+00 02 10 03 CC Roger. We'll try to come up through ARIA at
+			about 2 plus 14, Tom. They say the circuit
+			margins look good from ARIA 3. The other
+			aircraft - It's sort of marginal, but we'll
+			probably try.
+00 02 10 18 CDR ARIA at 2 plus 14.
+00 02 10 20 CC Roger.
+00 02 16 13 CC Hello. 10, Houston. Coming up on LOS at
+			Tananarive. We'll give you a call through ARIA
+			3 in a minute or so.
+00 02 16 20 CDR Roger. We're all squared away for the burn,
+			Houston.
+00 02 16 22 CC Roger, Tom.
+	ARIA 3 (REV 2)
+00 02 17 40 CC Hello, Apollo 10. Apollo 10, Houston through
+			ARIA 3. How do you read?
+00 02 17 40 CDR ...
+00 02 17 47 CC Roger. You're there, 10, but unreadable.
+00 02 17 57 CDR ...
+	ARIA 5 (REV 2)
+00 02 23 53 CC Hello, Apollo 10. Houston through ARIA 5.
+			Do you read?
+	Tape 2/8
+	Page 23
+00 02 26 15 CC Hello, Apollo 10, Houston through Canarvon.
+			Over.
+00 02 26 19 CDR Roger, through Canarvon. The time base 6
+			started right on time, Charlie.
+00 02 26 23 CC Roger. Good. Your S-IVB is looking great, Tom.
+			It's pressurizing okay.
+00 02 26 27 CDR And I can see the pressure building up, and I'm
+			at 5305- 4, 5 -
+00 02 26 33 CDR MARK.
+00 02 26 34 CDR 5305, counting up.
+00 02 26 36 CC Roger. We're about 3 seconds ahead of you.
+00 02 26 38 CDR Okay.
+00 02 27 45 CDR Houston, Apollo 10. Fuel tank pressure is up
+			to 30.
+00 02 27 48 CC Roger. Copy.
+00 02 30 29 CDR MARK.
+00 02 30 30 CDR Fifty-seven minutes, counting up.
+00 02 30 32 CC Roger, 10. You're GO for TLI. S-IVB is looking
+			as planned.
+00 02 30 35 CDR Good show. We've got the old 8-ball working
+			on number 2, and powered up P47.
+00 02 30 43 CC Okay.
+00 02 31 11 CDR Go.
+00 02 31 17 CMP 13040 turns.
+00 02 31 32 CDR TVC SERVO POWER ON.
+00 02 32 11 CDR S-II SEP light ON.
+00 02 32 13 CC Roger.
+00 02 32 17 CDR ... go.
+00 02 32 21 CC Very well.
+	Tape 2/9
+	Page 24
+00 02 32 44 LMP MAX turn rate; you want 10 degrees?
+00 02 32 47 LMP Exceed 10 degrees, Very well.
+00 02 33 10 CDR SEP light OUT. Right on time.
+00 02 33 12 CC Roger. Copy.
+00 02 33 21 CDR Fuel lead in the starboard. Getting acceleration.
+00 02 33 23 CC Roger.
+00 02 33 27 CDR Light on?
+00 02 33 28 CC Roger.
+00 02 33 29 CDR We're burning.
+00 02 33 30 CC Roger. Burning.
+00 02 33 32 CDR We're on the way.
+00 02 33 36 CC Roger. We confirm.
+00 02 33 45 CC 10, Houston. Your S-IVB looks good.
+00 02 33 47 CDR Roger.
+00 02 33 50 CC And guidance looks good.
+00 02 33 52 CDR Roger.
+00 02 34 02 SC ... light ...
+00 02 34 29 CC Hello. Apollo 10, Houston. At 1 minute, you're
+			looking great.
+00 02 34 32 CDR Roger. One minute, everything looks good on
+			board.
+00 02 34 47 CDR It's starting to pick up the yaw, Just as
+			programed.
+00 02 34 50 CC Roger.
+00 02 35 31 CC 10, 2 minutes. You're looking great.
+00 02 35 34 CDR Roger.
+	Tape 2/10
+	Page 25
+00 02 35 54 LMP What a way to watch a sunrise!
+00 02 35 57 CC Roger.
+00 02 36 11 CDR Three-quarters of a g.
+00 02 36 13 CC Roger. Copy, Tom.
+			
+00 02 36 27 CC Apollo 10, Houston. Coming up 3 minutes;
+			trajectory looks great.
+00 02 36 31 CDR Three minutes. Everything looks good, Charlie.
+00 02 36 42 CC Apollo 10, Houston. We've got a predicted cut-
+			off: 2 plus 39 plus 10.
+00 02 36 48 CDR 2 plus 39 plus 10.
+00 02 36 55 CDR Wow! Right into the sun, here.
+00 02 36 59 CC Roger.
+00 02 37 29 CC And, Apollo 10, Houston. At 4 minutes every-
+			body is saying GO. The S-iVB is looking great.
+00 02 37 35 CDR Roger, Houston. 10, here. Looks good on board.
+00 02 38 06 CC We're getting a ... sequence.
+00 02 38 11 CC Say again?
+00 02 38 12 CDR We're getting small ...
+00 02 38 17 CC Understand. Small yaw oscillation, 10?
+00 02 38 21 CDR Negative. High frequency vibrations.
+00 02 38 23 CC Oh, Ah so.
+00 02 38 30 CC At 5 minutes, we still have you GO, 10.
+00 02 39 02 CC 10, Houston, in the blind. At cutoff, UP
+			TELEMETRY, IU to ACCEPT.
+00 02 39 11 CDR SECO.
+00 02 39 13 CC Roger. SECO. We confirm the cutoff.
+00 02 39 19 LMP H dot 422 point 1. UP TELEMETRY, IU ...
+	Tape 2/11
+	Page 26
+00 02 39 23 CC Roger. Copy.
+00 02 39 30 CDR And would you believe, my DELTA-V C reads minus
+			0.6?
+00 02 39 35 CC Roger. Minus 0.6 on the DELTA-VC. That's
+			beautiful.
+00 02 39 39 CDR Can't beat that, Charlie.
+00 02 39 42 CMP And, Charlie, we've got an O2 FLOW HIGH and a
+			light in the middle of the burn, here, which we
+			can't account for.
+00 02 39 49 CC Stand by, John.
+	RED (REV 2)
+00 02 40 19 CC Apollo 10, Houston. In the blind Have LOS
+			at Redstone 2 plus 41. See you over Hawaii,
+			2 plus 44.
+00 02 40 27 CMP Roger. In trouble-shooting that thing, I went
+			to AUTO 2 on the suit circuit water accumulator.
+			That's the only thing I could think of. It was
+			right at 10 minutes when it happened.
+00 02 40 37 CC Roger. We think that cabin pressure regs
+			kicked An for that O2 flow, John.
+00 02 40 45 CDR They Just went out, and the flow is starting to
+			drop now, Charlie. Looks like we're in good
+			shape.
+00 02 40 48 CC Okay, fine. You're beginning to fade out. We -
+			think we'll be losing you through the Redstone
+			here in about 30 seconds. Hawaii at 2 plus 44.
+00 02 41 06 CC And, 10, in the blind. Everything we got looks
+			nominal. You're on your way.
+00 02 44 19 CC Hello. Apollo 10, Houston through Hawaii. How
+			do you read? Over.
+00 02 44 23 CDR Roger. Houston, Apollo 10. Would you believe
+			the world is starting to fade away?
+	Tape 2/12
+	Page 27
+00 02 44 30 CC Roger. We believe it, Tom. You're all GO here.
+			FIDO confirms it was a perfect insertion. We'd
+			like you to confirm that you're on omni Delta, I
+			and we're all GO.
+00 02 44 40 CDR Roger.
+00 02 44 46 LMP We're on omni Delta, Charlie, and there sure
+			ain't any question about it from here.
+00 02 44 50 CC Roger.
+00 02 44 53 LMP I don't meant the Delta, I mean the world.
+00 02 44 56 CC We got you; we understand.
+00 02 45 18 CC 10, Houston. We expect the S-IVB to start to
+			SEP attitude at 2 plus 54 plus 10, right on
+			time. And your SEP attitude is looking good.
+00 02 45 33 LMP Roger.
+00 02 45 34 CDR Okay. John's in the left seat now, and I'm in in
+			the center seat. We've already changed.
+00 02 45 39 CC Roger, Tom. Did you get a chance to get that
+			radiation survey meter out?
+00 02 45 47 LMP Yes, I did, Charlie, and I read zero on every
+			scale.
+00 02 45 50 CC Okay. And what was the GET of that, Gene?
+			About 245?
+00 02 45 57 LMP About 243.
+00 02 45 58 CC Okay.
+00 02 47 18 CC 10, Houston. We'll have you AOS now until you
+			get to LOS at the moon.
+00 02 47 28 CDR Sounds like Chris has pretty good coverage.
+00 02 47 31 CC Yes, sir. He's sitting back there smiling.
+00 02 47 37 CDR You ought to see us.
+00 02 47 43 CC Chris says there ain't no backing out now.
+00 02 47 47 CDR That's for sure.
+	Tape 2/13
+	Page 28
+00 02 47 49 LMP You can play our favorite song, Charlie, the ..
+			one about Fly me Someplace or Somewhere.
+00 02 47 53 CC Roger, That's up to you.
+00 02 48 00 CC We've got three Marshall guys here, smiling
+			from ear to ear, too.
+			00 02 49 55 CC Apollo 10, Houston. We'd like you to do a
+			VERB 66 to get the state vector in the right
+			position. And, if you've got time, comment
+			on the ORDEAL tracking there for that backup TLI.
+00 02 50 07 CDR Okay. The initial track was Just right on what
+			the nominal was, and the ORDEAL was looking
+			just what it should be.
+00 02 50 14 CC Roger, Tom.
+00 02 52 23 LMP Say, Charlie. looks like we might have a little
+			closed-circuit TV up here.
+00 02 52 27 CC Okay. How's it looking, Gene?
+00 02 52 28 LMP Well, I can't really tell too much, but at
+			least it works closed-circuit.
+00 02 52 33 CC Okay, fine. Goldstone's all configured. We'll
+			be standing by.
+00 02 53 11 LMP Charlie, it's beautiful closed-circuit.
+00 02 53 16 CC Hey, great, Gene. We can't wait - -
+00 02 53 20 LMP I've got my own little show of these 2 guys up
+			here. It's beautiful, really is.
+00 02 53 22 CC Well, great. I hope it's that good down here.
+			We're sitting on pins and needles waiting for
+			it. And, if you've got a second, we'd like to,
+			Tom, we'd like you to recap these S-IVB
+			oscillations; give the guys one up on starting
+			work on it.
+	Tape 2/14
+	Page 29
+00 02 53 35 CDR Yes, okay. All the way through even into earth
+			orbit boost the IV-B had just a slight little -
+			it felt like - like both lateral and longitudinal
+			vibrations to it, and after - It felt like it
+			was running rough, at least compared to the Titan.
+00 02 53 53 CC Okay.
+00 02 53 55 CDR And then after 3 minutes superimposed upon the
+			low frequency vibrations came a real high
+			frequency vibe; I'd say in the ball park of 20 cps
+			something like that. And of course we were
+			sweating it all the way, but it shut down right
+			on time; but there was a definite shift to a
+			high frequency superimposed upon the low frequency,
+			at about 3 minutes into the TLI burn.
+00 02 54 18 CC Roger. Is it a - give you a feeling like it -
+			2.2 Mach in the IO4 [?phil], something like that, just
+			a real rumble?
+00 02 54 26 CDR Yes, kind of. Just about as much. We are
+			starting the maneuver now, so we'll tell you
+			later.
+00 02 54 30 CC Roger.
+00 02 54 49 CDR Okay. Cabin pressure has ... to 57. DIRECT
+			O2[sub] coming OFF.
+00 02 54 51 CC Roger.
+00 02 57 08 CMP Okay. We show ourselves at the attitude. Over.
+00 02 57 11 CC We confirm, 10. You're GO for SEP.
+00 02 57 14 CMP Roger. We're going to check the thrusters here,
+			now.
+00 02 57 22 CC 10, you're GO for PYRO ARM and GO for SEP.
+00 02 57 25 CMP Roger.
+00 02 58 45 SC ...
+00 02 58 51 CMP Houston, this is Apollo 10. Could you confirm
+			the firings? Over.
+00 02 58 56 CC Say again.
+	Tape 2/15
+	Page 30
+00 02 58 59 CMP Could you confirm the thruster firings? Over.
+00 02 59 00 CC Stand by.
+00 02 59 10 CC 10, Houston. We confirm all the rotational
+			inputs; we did not confirm the translational.
+			Aa far as we're concerned, you are GO.
+00 02 59 17 CMP Roger.
+00 02 59 23 CC 10, we did see plus and minus X on the
+			translational.
+00 02 59 27 CMP Roger.
+00 03 01 14 CC 10, Houston. The NOUN 22 looks good to us.
+00 03 02 51 CDR We have SEP.
+00 03 02 53 CC Roger.
+	END OF TAPE
+	Tape 3/1
+	Page 31
+00 03 04 23 LMP That world is just incredible. There goes a
+			panel, Charlie.
+00 03 04 27 CC Roger. How do you read me, Gene?
+00 03 04 30 LMP Loud and clear. We don't have the S-IVB yet,
+			but there goes a panel.
+00 03 04 33 CC Roger.
+00 03 04 37 LMP That world is incredible.
+00 03 04 38 CC Really moving?
+00 03 04 40 LMP Holy Moly, I sure hope we can show it to you,
+			I really do.
+00 03 04 51 CDR Okay. I got the S-IVB.
+00 03 04 53 CC Roger.
+00 03 04 55 LMP And there goes. another panel.
+00 03 04 59 CC Roger. All retrograde, we hope.
+00 03 05 08 CMP I don't know what É it is up here right
+			now.
+00 03 05 11 CC Yes.
+00 03 05 30 LMP Charlie,I've got the world on closed circuit
+			here. so we're going to try and get HIGH GAIN.
+00 03 05 34 CC Roger. Standing by.
+00 03 05 40 LMP Okay, babe. There's HIGH GAIN. The TV is ON.
+			I should be coming down to you, and I'll have
+			to adjust it as we come along into the S-IVB.
+00 03 05 49 CC Hey, it's beautiful, Gene. We got the black
+			and white now with a little time delay on the
+			color.
+00 03 05 55 LMP Okay. And the S-IVB ought to be coming in
+			here in a second.
+00 03 05 58 CC Roger.
+00 03 06 01 CC Hey, we got the S-IVB coming into the top. The
+			sun's really shining on it.
+00 03 06 07 LMP Okay. I'll try to adjust it for you.
+00 03 06 11 CC Hey, we got the color now,
+	Tape 3/2
+	Page 32
+00 03 06 14 CC You're on the air, Babe. Oh, that's beautiful.
+00 03 06 21 LMP Have you got the color?
+00 03 06 22 CC Yes, sir. It's looking great!
+00 03 06 23 LMP I'm sorry it's tilted a little bit. That's the
+			best I could do with the brackets.
+00 03 06 26 CC No sweat; we got it right in the center of the
+			screen, Gene. It looks like the sun's really
+			bright on it.
+00 03 06 31 LMP Tremendously so.
+00 03 06 44 CC The sun's got the S-IVB - the LM sort of blot-
+			ted out; it's so bright.
+00 03 07 06 CC Hey, your zooming in looks really good, Gene.
+00 03 07 21 LMP Charlie, I've got it closed down all the way.
+			Does that help any?
+00 03 07 25 CC Roger. The - In the center of the LM now, we
+			still got a real - couple of real bright spots,
+			but it's looking real good in color. We can
+			see the probe - correction, the drogue.
+00 03 07 53 CC Gene, it's really looking good. The - It's the
+			silver panels that are reflecting back real
+			brightly.
+00 03 08 01 LMP They're awful ... right now, too.
+00 03 08 03 CC Roger. The resolution is fantastic. You're
+			drifting off Just to the right a little bit.
+00 03 08 44 CC 10, Houston. You can't believe the picture we're
+			getting. The resolution is really fantastic.
+00 03 08 51 LMP I'll tell you, this monitor makes it great.
+00 03 09 11 LMP How's the color, Charlie?
+00 03 09 12 CC Say again.
+00 03 09 14 LMP How's the color?
+00 03 09 16 CC It's really beautiful, Gene. You've got it framed
+			just perfectly. The resolution - -
+00 03 09 22 LMP Hey, I think the color will be beautiful once we
+			can show you the Earth.
+	Tape 3/3
+	Page 33
+00 03 09 24 CC Roger.
+00 03 09 44 CC Old Snoopy sure looks good.
+00 03 09 48 LMP Yes. He sure do.
+00 03 09 59 CMP Old Charlie Brown is a mass of of cord and wire
+			floating around here, though.
+00 03 10 06 CC I can imagine.
+00 03 10 48 LMP Houston, Charlie Brown. I've settled down now
+			on the zoom, and the closing rate you see is the
+			closing rate we've got.
+00 03 10 55 CC Roger. We copy. Gene, if it looks like to you -
+			We have a bright spot - It may be on your vidicon,
+			coming in on your vidicon tube on the black and
+			white. It's right above the drogue.
+00 03 11 09 LMP Yes, we've got it in real life. The camera is
+			fully in the shade. That's Just a reflection
+			coming right off the - right off of Snoopy.
+00 03 11 17 CC Roger.
+00 03 11 26 CC 10, we're afraid you might be burning a hole into
+			your vidicon tube. Move it off to the - a little
+			bit off of Snoop. I think those panels are so
+			bright we might be getting problems with the vidi-
+			con tube.
+00 03 11 39 LMP All right.
+00 03 11 52 LMP I can Just cover it up for a while if you like.
+00 03 11 56 CC Stand by.
+00 03 12 33 CC 10, Houston. We'd like the LM - Snoopy back, if
+			you could give it to us.
+00 03 12 38 LMP I'd be glad to.
+00 03 12 40 CC Hey, that's looking great now, except for a couple
+			of fingers there or something
+00 03 12 46 LMP Good resolution; that's what they were.
+00 03 12 48 CC You got your big hands in the way. Hey, I don't
+			know what you did, but the - It's really beautiful
+			nov. Really great.
+00 03 12 57 LMP We're Just a little closer.
+	Tape 3/4
+	Page 34
+00 03 12 58 CC Yes. Hey, the color is great, Gene.
+00 03 13 01 LMP How's that for the front porch?
+00 03 13 04 CC Oh, boy. That's beautiful.
+00 03 13 12 LMP Hell, I got to watch it on TV, too. I've got -
+			can't see out the window.
+00 03 13 29 CC Hey, what's that guy doing on the front porch?
+00 03 13 36 CDR That's a green man, Gordo.
+00 03 13 44 CDR John estimates 50 feet closing.
+00 03 13 46 CC Roger.
+00 03 13 57 CDR How's the resolution?
+00 03 13 58 LMP Well, all I can say is it's really happening,
+			and what hasn't happened you haven't seen yet.
+00 03 14 02 CC Roger.
+00 03 14 10 CC Really great resolution.
+00 03 15 20 LMP Charlie, we can't be more than about 5, I0 feet
+			away.
+00 03 15 24 CC Roger.
+00 03 15 41 CC 10, it's looking real stable to us. We show you
+			closing slightly.
+00 03 15 43 CMP Roger.
+00 03 16 30 LMP Be docked in a second, I hope.
+00 03 16 32 CC Roger.
+00 03 16 57 CC 10, Houston. You're looking good. We can see
+			the markings on the rendezvous window. Looks
+			like you just docked.
+00 03 17 03 CDR Roger. We've got a capture; we haven't fired
+			yet.
+00 03 17 06 CC Roger.
+00 03 17 24 CC Gene, we can read the numbers on the LM docking
+			window.
+00 03 17 38 CDR Snap, snap, and we're there. Got two grays.
+	Tape 3/5
+	Page 35
+00 03 17 40 CC Roger.
+00 03 17 42 LMP You saw the docking, Charlie.
+00 03 17 50 CDR We didn't get any MASTER ALARM. Everything
+			looks snug.
+00 03 17 53 CC Roger. Didn't look like there was any - hardly
+			any afterdock - postdocking oscillations.
+00 03 18 01 CDR Check.
+00 03 18 25 CDR Okay. PYRO's coming OFF.
+00 03 18 26 CC Roger.
+00 03 18 54 CC 10, that's a great picture of the quads.
+00 03 18 57 LMP I'll try and take you on a quick tour. We're -
+			I may have to hold you up for a little bit here.
+00 03 19 03 CDR Okay. John's going down to the LEB and, I'm
+			going to the left seat now.
+00 03 19 06 CC Roger, Tom. We're standing by.
+00 03 19 23 CC Apollo 10, Houston. We'd like you to SAFE the
+			LOGIC.
+00 03 20 27 LMP Charlie, you're going to have to look at the same
+			picture for a while until we get this integrity
+			check complete.
+00 03 20 31 CC Roger. We understand you are busy.
+00 03 21 43 LMP Okay. I'm watching.
+00 03 23 43 CMP Houston, this is 10. We are in the process of
+			attempting to pressurize the tunnel.
+00 03 27 20 LMP Hello, Houston. This is 10. We're going to go
+			ahead and suspend the TV here for about 10 minutes
+			until we get a little bit squared away.
+00 03 27 26 CC Roger. Understand.
+00 03 27 27 LMP We'll be back with you shortly.
+00 03 27 30 CC Roger, Gene. Give me a call when you've got time
+			to copy an evasive pass.
+00 03 27 35 LMP Okay. I will.
+	Tape 3/6
+	Page 36
+00 03 28 58 LMP Charlie, go ahead. I'll take the evasive ma-
+			neuver.
+00 03 29 01 CC Roger. If you're ready to copy, we have a P30
+			pad evasive maneuver, SPS/G&N: 63556, plus 091,
+			minus 021 004 3909 00; NOUN 81 is plus 3 balls 51,
+			plus 5 balls, plus 00190. How do you copy?
+00 03 29 45 LMP I'm still with you. That's just the right speed;
+			I got gloves on yet.
+00 03 29 50 CC Okay. Want me to slow down?
+00 03 29 53 LMP No. Just go the way you are.
+00 03 29 55 CC Roger. 061 255 358. Apogee and perigee are NA,
+			00197 003 00150. The rest of the pad is NA, and
+			no ullage.
+00 03 30 26 LMP Roger. Charlie. Repeat roll, pitch, and yaw.
+00 03 30 28 CC Roger. 061 255 358. Did you copy?
+00 03 30 58 CC Apollo 10, Houston. Do you read?
+00 03 31 37 LMP Hello, Houston. This is 10.
+00 03 31 40 CC Roger, 10. We read you now. We had a handover
+			to Goldstone and lost you for a while. How do
+			you read me?
+00 03 31 45 LMP Okay. I've got you on OMNI, and I'll copy the
+			rest of the pad on OMNI and get HIGH GAIN back
+			again. I got roll of 061, pitch of 255, and
+			give me yaw.
+00 03 31 54 CC Roger. Yaw 358.
+00 03 31 59 LMP Okay. Purpose is evasive. SPS/G&N: 63556,
+			plus 091, minus 021 004 390900 981, and plus
+			00051, plus all balls, plus 00190, roll 061,
+			255, 358, DELTA-VT[sub] is 00197, burn time is 003,
+			and DELTA-VC[sub] is 00150.
+00 03 32 31 CC Roger. Good readback, Gene.
+00 03 32 58 CC Hello, Apollo 10. Houston. the S-IVB's getting
+			ready to do an auxiliary hydraulic pump cycling
+			which you may feel, and we will have a nonpropul-
+			stye vent in a few minutes, also.
+	Tape 3/7
+	Page 37
+00 03 33 09 CMP Okay. Roger. I would reckon that possibly 10,
+			latches 10, 3 - 3, and 4 are probably going to
+			be one shot in progress from the position of
+			the bungee, but they all are automatically made.
+00 03 33 22 CC Roger. We copy, John.
+00 03 33 27 LMP And it looks Just like - Just like downtown up
+			here.
+00 03 33 31 CC Okay. You have seen it before.
+00 03 37 07 LMP Houston. this is Charlie Brown. How do you read
+			me? HIGH GAIN?
+00 03 37 10 CC Roger. Five-by, Gene.
+00 03 37 14 LMP Okay. We're Just getting the hatch area squared
+			away at this time.
+00 03 37 20 CC Roger. Get the umbilicals connected?
+00 03 37 25 LMP Yes. We Just - Just now completed that.
+00 03 37 28 CC Roger.
+00 03 37 52 I2/P Okay, Houston. We're reading 2 volts on systems
+			step meter 4D, and it Just bounced back to four-
+			tenths of a volt, so I guess the heaters are
+			cycling or something in the LM.
+00 03 38 07 CC Roger.
+00 03 38 39 CC Hello, 10. Houston. TEL COMM sees the LM current;
+			it looks nominal.
+00 03 38 41 CMP Okay. Thank you.
+00 03 40 40 CDR Hello, Houston. Apollo 10.
+00 03 40 42 CC Go ahead, Tom.
+00 03 40 46 CDR Okay. When we pressurized the LM, the Mylar all
+			blew out of the tunnel hatch there, and we have
+			got a spacecraft that has beaucoup insulation in
+			it here. It looks like it didn't leave a big
+			enough hole. Just like the same way when the LM
+			forward tunnel insulation used to blow out.
+00 03 41 09 CC Roger. Copy. You lost every bit of the Mylar
+			in the back side of the hatch?
+00 03 41 12 CDR Not every bit, but a whole bunch of it.
+	Tape 3/8
+	Page 38
+00 03 41 14 CMP Oh, Just a little of it, Charlie.
+00 03 41 16 CC Okay.
+00 03 41 17 CMP But, of course, they do away with it on 107 and
+			SUBS.
+00 03 41 19 CC Okay.
+00 03 41 25 CC You got lots of pieces floating around?
+00 03 41 28 CDR A few.
+00 03 41 29 CC Okay.
+00 03 41 32 LMP Just a little snow.
+00 03 48 17 CC Hello, Apollo 10. Houston. We still show the
+			EDS power ON and the EDS breakers closed. Would
+			you turn the power off and open the breakers, if
+			you've got a second?
+00 03 48 28 CDR Okay. Power coming off.
+00 03 50 59 CMP Hello, Houston. This is 10. We've got the logic
+			ON, and we're standing by for your GO for PYRO ARM.
+00 03 51 04 CC Roger. Stand by. You have our GO for PYRO ARM, 10.
+00 03 51 11 CMP Okay. PYRO's coming up and on.
+00 03 51 13 CC Roger.
+00 03 51 43 CC 10, Houston. The S-IVB is still venting non-
+			propulsively.
+00 03 51 48 CMP Roger.
+00 03 51 49 CDR Roger. We're going to separate in just a minute.
+00 03 51 52 CC Roger.
+00 03 51 53 CC And, 10. We'd like you to stand by until that
+			vent's over in about 2 minutes.
+00 03 51 58 CDR Okay.
+00 03 52 00 CDR We're standing by for your GO for SEP.
+00 03 52 03 CC Roger, Tom.
+00 03 54 29 CC 10, Houston. The vent's over; we're GO for SEP.
+	Tape 3/9
+	Page 39
+00 03 54 32 CDR Roger. Understand that we are GO for SEP.
+00 03 54 44 LMP Houston, I'1l turn the TV on, on this one.
+00 03 54 46 CC Roger.
+00 03 56 13 CDR Okay. I'm going to count down to SEP.
+00 03 56 15 CC Roger. Standing by.
+00 03 56 23 CDR 3, 2, 1
+00 03 56 25 CDR GO.
+00 03 56 27 CDR Snoopy's coming out of the doghouse.
+00 03 56 29 CC Roger.
+00 03 56 36 CC And we got the TV.
+00 03 56 48 CMP Houston, we have CRYO pressure light; O2[sub] tank 1
+			and 2 are reading about 800.
+00 03 56 55 CC Roger.
+00 03 57 05 CC 10, we'd like to have you turn the fans on.
+00 03 57 12 CMP They're on.
+00 03 58 38 LMP Houston, we're maneuvering around right now,
+			acquired the S-IVB, going into SEP attitude.
+00 03 58 41 CC Roger.
+00 03 59 15 CMP Houston, that was fans in AUTO or OFF on the O2[sub]?
+00 03 59 20 CC ON, Gene; ON.
+00 03 59 24 LMP They're ON; ON.
+00 03 59 26 CC Roger.
+00 04 00 29 CDR Okay, Houston. We can see the IVB now.
+00 04 00 32 CC Roger. Out of which window, Tom?
+00 04 00 35 CDR John's looking at it out the hatch window.
+00 04 00 37 CC Roger.
+00 04 02 01 LMP Houston, it's the S-IVB in the TV right now.
+00 04 02 06 CC Roger. We got it right over the quad - thrusters
+			there, Gene.
+	Tape 3/10
+	Page 40
+00 04 02 10 LMP That's it. I'll see if I can bring it in to
+			you.
+00 04 02 12 CC Roger. Thanks.
+00 04 02 35 CC 10, That TV is really fantastic.
+00 04 02 41 CDR It looks like the dome there of the I B is gold.
+00 04 02 45 CC Roger.
+00 04 02 49 CDR It looks like we got good separation distance
+			and no problems.
+00 04 02 53 CC Roger. It looks like about the size of a quarter
+			to us here, Tom. What do you estimate your range?
+00 04 03 06 CDR I'd say at least 300 feet, now.
+00 04 03 08 CC Roger.
+00 04 03 22 LMP Are you getting anything, Charlie?
+00 04 03 23 CC Roger, Charlie. That zoom was real good. We have
+			the S-IVB; the Sun's real bright on it.
+00 04 03 28 LMP How's the focus?
+00 04 03 29 CC looks real good.
+00 04 03 35 CC That LM antenna is showing up real bright.
+00 04 03 57 CDR Hello, Houston. Apollo 10.
+00 04 03 59 CC Go ahead, 10.
+00 04 04 01 CDR Roger. I wish you'd tell Dr. Von Braun, Lee
+			James, Kurt Davis, and Rocco Petrone thanks a
+			lot for all thy people who worked on the great
+			ride.
+00 04 04 10 CC Roger. We're going out to the networks now, I
+			think. They probably heard it; we'll pass it on,
+			though.
+00 04 04 15 CDR A few thousand people worked on that machine, and
+			we sure appreciate it.
+00 04 04 20 CC Roger. It looked beautiful from here.
+00 04 04 26 CC Did you move the camera, Gene?
+00 04 04 29 LMP Say again.

@@ -1,0 +1,26 @@
+#macro tablerows @color @somelist:
+    #for @something in @somelist:
+    <tr><td bgcolor=@color>@something</td></tr>
+    #end
+#end
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+#set @greatlakes = ["Superior","Michigan","Huron","Erie","Ontario"]:
+#set @color = "blue":
+<table>
+    #tablerows @color @greatlakes:
+</table>
+
+#if (@color == "blue")
+    <P>said blue</P>
+#end
+
+</body>
+</html>

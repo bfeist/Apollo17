@@ -1,0 +1,12 @@
+#if (@itemDepth != @prevDepth)
+    #if (@itemDepth < @prevDepth)
+</ul>
+    #else
+<ul class="TOC@itemDepth">
+    #end
+#end
+#if (@timestamp != '')
+    <li><span class="TOCTimestamp">@timestamp</span>
+        <span class="TOCTitle"><a href="./segments/@itemURL">@itemTitle</a></span>
+        <span class="TOCSubtitle">@itemSubtitle</span></li>
+#end

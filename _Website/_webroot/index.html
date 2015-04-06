@@ -1,0 +1,608 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+    <title>Apollo 17 in Real-time</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="robots" content="index,follow" />
+    <style type="text/css" media="screen,projection"></style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
+    <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src="lib/humanized_time_span.js"></script>
+    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
+    <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
+    <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
+    <script type="text/javascript">
+        var gLastTimeIdMarker = '';
+        var gLastTOCTimeId = '';
+        var gLastTOCTimeIdMarker = '';
+        var gLastTimeIdChecked = '';
+        var gCurrMissionTime = '';
+        var gCurrMissionDate = null;
+        var gIntervalID = null;
+        var gYTList = [];
+        var gTOCIndex = [];
+        var gUtteranceIndex = [];
+        var gCurrVideoStartSeconds = -9442;
+        var gCurrVideoEndSeconds = 0;
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                videoId: '8_0QwiEAZm8',
+                width: '100%',
+                height: '100%',
+                playerVars: {
+                    frameborder: 0,
+                    iv_load_policy: 3,
+                    modestbranding: 1,
+                    autohide: 1,
+                    rel: 0,
+                    fs: 0
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            console.log("onPlayerStateChange");
+            seekToTime("timeid-000100"); //jump to 1 minute to launch
+            event.target.playVideo();
+        }
+
+        // The API calls this function when the player's state changes.
+        // The function indicates that when playing a video (state=1)
+        var gPlaybackState = "normal";
+        var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
+        function onPlayerStateChange(event) {
+            console.log("onPlayerStateChange: player state change: " + event.data);
+            if (event.data == YT.PlayerState.PLAYING) {
+                console.log("PLAYER PLAYING");
+                if (gNextVideoStartTime != -1) {
+                    console.log("PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
+                    player.seekTo(gNextVideoStartTime, true);
+                    gNextVideoStartTime = -1;
+                    gPlaybackState = "normal";
+                }
+                if (gPlaybackState == "unexpectedbuffering") {
+                    console.log("PLAYING: was unexpected buffering so calling findClosestUtterance");
+                    findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    gPlaybackState = "normal";
+                }
+                if (gIntervalID == null) {
+                    //poll for mission time scrolling if video is playing
+                    gIntervalID = setAutoScrollPoller();
+                    console.log("PLAYING: Interval started: " + gIntervalID);
+                }
+            }
+            if (event.data == YT.PlayerState.PAUSED) {
+                //clear polling for mission time scrolling if video is paused
+                window.clearInterval(gIntervalID);
+                console.log("PAUSED: interval stopped: " + gIntervalID);
+                gIntervalID = null;
+            }
+            if (event.data == YT.PlayerState.BUFFERING) {
+                console.log("BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                if (gPlaybackState == "transcriptclicked") {
+                    gPlaybackState = "normal";
+                } else {
+                    //buffering for unknown reason, probably due to scrubbing video
+                    gPlaybackState = "unexpectedbuffering";
+                }
+            }
+            if (event.data == YT.PlayerState.ENDED) { //load next video
+                console.log("ENDED. Load next video.");
+                var currVideoID = player.getVideoUrl().substr(32,11);
+                for (var i = 0; i < gYTList.length; ++i) {
+                    if (gYTList[i][1] == currVideoID) {
+                        console.log("Ended. Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
+                        currVideoID = gYTList[i + 1][1];
+                        break;
+                    }
+                }
+                var itemStartTimeArray = gYTList[i + 1][2].split(":");
+                var startHours = parseInt(itemStartTimeArray[0]);
+                var startMinutes = parseInt(itemStartTimeArray[1]);
+                var startSeconds = parseInt(itemStartTimeArray[2]);
+                var signToggle = (startHours < 0) ? -1 : 1;
+                gCurrVideoStartSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+
+                var itemEndTimeArray = gYTList[i + 1][3].split(":");
+                var endHours = parseInt(itemEndTimeArray[0]);
+                var endMinutes = parseInt(itemEndTimeArray[1]);
+                var endSeconds = parseInt(itemEndTimeArray[2]);
+                signToggle = (endHours < 0) ? -1 : 1;
+                gCurrVideoEndSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+
+                player.loadVideoById(currVideoID, 0);
+                player.iv_load_policy = 3;
+                gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
+
+                window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                gIntervalID = setAutoScrollPoller();
+            }
+        }
+
+        function padZeros(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
+        }
+
+        //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
+        function findClosestUtterance(totalSecSearch) {
+            console.log("findClosestUtterance: finding closest utterance to (seconds): " + totalSecSearch);
+            var found = false;
+            var onCountdown = false;
+            var curSecSearch = totalSecSearch;
+            if (gCurrVideoStartSeconds == 230400) {
+                if (curSecSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    curSecSearch = curSecSearch + 9600;
+                }
+            }
+            if (totalSecSearch < 0) {
+                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
+            }
+            var countSearches = 0;
+            while (!found) {
+                countSearches ++;
+                var hours = Math.abs(parseInt(curSecSearch / 3600));
+                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
+                seconds = Math.floor(seconds);
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (onCountdown) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+
+                if ($.inArray(timeId, gUtteranceIndex) != -1) {
+                    found = true;
+                    console.log("searched utterance array, found closest: " + timeId + " after " + countSearches + " searches");
+                    scrollToTimeID(timeId);
+                    break;
+                } else {
+                    //console.log("not found: " + timeId + " | " + curSecSearch);
+                    if (onCountdown) {
+                        curSecSearch--; //if we're on the countdown, search forward in time for the closest utterance
+                    } else {
+                        curSecSearch--;
+                    }
+                }
+            }
+            findClosestTOC(curSecSearch);
+        }
+
+        function findClosestTOC(secondsSearch) {
+            console.log("findClosestTOC: finding closest TOC to (seconds): " + secondsSearch);
+            var onCountdown = false;
+            if (gCurrVideoStartSeconds == 230400) {
+                if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    secondsSearch = secondsSearch + 9600;
+                }
+            }
+            var i;
+            for (i = 0; i < gTOCIndex.length; ++i) {
+                var hours = Math.abs(parseInt(secondsSearch / 3600));
+                var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+                seconds = Math.floor(seconds);
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (secondsSearch < 0) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+                if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i].substr(6))) {
+                    console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
+                    scrollTOCToTimeID(gTOCIndex[i - 1]);
+                    break;
+                }
+            }
+        }
+
+        //--------------- transcript iframe autoscroll handling --------------------
+        function setAutoScrollPoller() {
+            console.log("setAutoScrollPoller");
+            return window.setInterval(function () {
+                var onCountdown = false;
+                var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
+                if (totalSec < 0) {
+                    onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
+                }
+                if (gCurrVideoStartSeconds == 230400) {
+                    if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                        //console.log("adding 9600 seconds to autoscroll target due to MET time change");
+                        totalSec = totalSec + 9600;
+                    }
+                }
+                var hours = Math.abs(parseInt(totalSec / 3600));
+                var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
+                var seconds = Math.abs(parseInt(totalSec)) % 60;
+                seconds = Math.floor(seconds);
+                gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+
+                if (gCurrMissionTime != gLastTimeIdChecked) {
+                    var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                    gLastTimeIdChecked = gCurrMissionTime;
+                    if (onCountdown) {
+                        timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading triple zero hours with "-"
+                        gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
+                    }
+                    //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+                    $("#timer").text(gCurrMissionTime);
+                    scrollToTimeID(timeId);
+                    missionTimeHistoricalDifference();
+                }
+            }, 500); //polling frequency in milliseconds
+        }
+
+        function scrollToTimeID(timeId) {
+            //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
+            if ($.inArray(timeId, gUtteranceIndex) != -1) {
+                //console.log("scrollToTimeID " + timeId);
+                //console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
+                var transcriptFrame = $('#iFrameTranscript').contents();
+                var timeIdMarker = transcriptFrame.find('#' + timeId);
+                //reset background color of last line
+                if (gLastTimeIdMarker != '') {
+                    gLastTimeIdMarker.css("background-color","#FFFFFF");
+                }
+                var scrollDestination = timeIdMarker.offset().top - 100;
+                timeIdMarker.css("background-color","#DDDDDD");
+                gLastTimeIdMarker = timeIdMarker;
+                transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
+
+                scrollTOCToTimeID(timeId);
+            }
+        }
+
+        function scrollTOCToTimeID(timeId) {
+            if ($.inArray(timeId, gTOCIndex) != -1) {
+                console.log("scrollTOCToTimeID " + timeId);
+                //console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                if (timeId != gLastTOCTimeId) {
+                    var TOCFrame = $('#iFrameTOC').contents();
+                    var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
+                    //reset background color of last line
+                    if (gLastTOCTimeIdMarker != '') {
+                        gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                    }
+                    TOCtimeIdMarker.css("background-color", "#DDDDDD");
+                    var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
+                    TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
+                    gLastTOCTimeIdMarker = TOCtimeIdMarker;
+                    gLastTOCTimeId = timeId;
+                } else {
+                    console.log("TOC item already scrolled to. Not scrolling");
+                }
+            }
+        }
+
+        function missionTimeHistoricalDifference() {
+            //console.log("missionTimeHistoricalDifference");
+            var launchDate = Date.parse("1972-12-07 5:33am GMT");
+
+            var currMissionTimeArray = gCurrMissionTime.split(":");
+            var currMissionHours = parseInt(currMissionTimeArray[0]);
+            var currMissionMinutes = parseInt(currMissionTimeArray[1]);
+            var currMissionSeconds = parseInt(currMissionTimeArray[2]);
+            if (currMissionTimeArray[0].substr(0,1) != "-") {
+                gCurrMissionDate = launchDate.add({
+                    hours: currMissionHours,
+                    minutes: currMissionMinutes,
+                    seconds: currMissionSeconds
+                });
+            } else { //if on countdown, subtract the mission time from the launch moment
+                gCurrMissionDate = launchDate.add({
+                    hours: currMissionHours,
+                    minutes: currMissionMinutes * -1,
+                    seconds: currMissionSeconds * -1
+                });
+            }
+            var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
+            var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
+            $("#historicalTimeDiff").text("Exactly " + humanizedRealtimeDifference);
+            $("#historicalTime").text(gCurrMissionDate);
+
+//            console.log("currMissionTime: " + gCurrMissionTime);
+//            console.log("currMissionDate: " + gCurrMissionDate);
+//            console.log("Exactly " + humanizedRealtimeDifference);
+        }
+
+//        function roundToNearestHistoricalTime() {
+//            //$("#roundedMissionTime").text(gCurrMissionDate);
+//            var d = Date.now();
+//            var currDayOfMonth = d.getDate();
+//
+//            if (currDayOfMonth > 19) {
+//                d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+//            } else if (currDayOfMonth < 7) {
+//                d.setDate(currDayOfMonth + (7 - currDayOfMonth));
+//            }
+//            d.setMonth(gCurrMissionDate.getMonth());
+//            d.setYear(gCurrMissionDate.getYear());
+//            var roundedDate = d;
+//            var launchDate = Date.parse("1972-12-07 5:33am GMT");
+//
+//            //find the difference between rounded date and mission start time to determine MET to jump to
+//            var one_day=1000*60*60*24;
+//            // Convert both dates to milliseconds
+//            var roundedDate_ms = roundedDate.getTime();
+//            var launchDate_ms = launchDate.getTime();
+//            var difference_ms = roundedDate_ms - launchDate_ms;
+//
+//            var ch = 60 * 60 * 1000;
+//            var h = Math.floor( (difference_ms) / ch);
+//            var m = Math.round( (difference_ms) - h * ch );
+//
+//            var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
+//            console.log("Rounded time to skip to: " + timeId);
+//            seekToTime(timeId);
+//
+//            //d.setHours(gCurrMissionDate.getHours());
+//            //d.setMinutes (gCurrMissionDate.getMinutes());
+//            //d.setSeconds(gCurrMissionDate.getSeconds());
+//            $("#roundedMissionTime").text(d);
+//        }
+
+        //--------------- transcript click handling --------------------
+        function seekToTime(elementId){
+            console.log("seekToTime " + elementId);
+            var signToggle = 1;
+            var timeStr = elementId.substr(6,7);
+            var sign = timeStr.substr(0,1);
+            var hours = parseInt(timeStr.substr(0,3));
+            var minutes = parseInt(timeStr.substr(3,2));
+            var seconds = parseInt(timeStr.substr(5,2));
+            signToggle = (sign == "-") ? -1 : 1;
+            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+
+            var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
+            for (var i = 0; i < gYTList.length; ++i) {
+                var itemStartTimeArray = gYTList[i][2].split(":");
+                var startHours = parseInt(itemStartTimeArray[0]);
+                var startMinutes = parseInt(itemStartTimeArray[1]);
+                var startSeconds = parseInt(itemStartTimeArray[2]);
+                signToggle = (startHours < 0) ? -1 : 1;
+                var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+
+                var itemEndTimeArray = gYTList[i][3].split(":");
+                var endHours = parseInt(itemEndTimeArray[0]);
+                var endMinutes = parseInt(itemEndTimeArray[1]);
+                var endSeconds = parseInt(itemEndTimeArray[2]);
+                signToggle = (endHours < 0) ? -1 : 1;
+                var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+
+                if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
+                    var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+                    //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
+                    if (itemStartTimeSeconds == 230400) {
+                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
+                            console.log("subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
+                            seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
+                        }
+                    }
+                    gCurrVideoStartSeconds = itemStartTimeSeconds;
+                    gCurrVideoEndSeconds = itemEndTimeSeconds;
+                    gPlaybackState == "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+                    //change youtube video if the correct video isn't already playing
+                    if (currVideoID !== gYTList[i][1]) {
+                        console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
+                        gNextVideoStartTime = seekToSecondsWithOffset;
+                        player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
+                        window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                        gIntervalID = setAutoScrollPoller();
+                    } else {
+                        console.log("no need to change video. Seeking to " + elementId.toString());
+                        player.seekTo(seekToSecondsWithOffset, true);
+                    }
+                    scrollToTimeID(elementId);
+                    findClosestTOC(totalSeconds);
+                    break;
+                }
+            }
+        }
+
+        //--------------- youtube index file handling --------------------
+        $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: "./YouTube_media_index.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processYTData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./TOCindex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processTOCIndexData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./utteranceIndex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processUtteranceIndexData(data);}
+            });
+        });
+
+        function processYTData(allText) {
+            console.log("processYTData");
+            var allTextLines = allText.split(/\r\n|\n/);
+
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+
+                var rec = [];
+                rec.push(data[0]);
+                rec.push(data[1]);
+                rec.push(data[2]);
+                rec.push(data[3]);
+                gYTList.push(rec);
+            }
+            // alert(lines);
+        }
+
+        function processTOCIndexData(allText) {
+            console.log("processTOCIndexData");
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                gTOCIndex[i] = "timeid" + data[0];
+            }
+            // alert(lines);
+        }
+
+        function processUtteranceIndexData(allText) {
+            console.log("processUtteranceIndexData");
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                gUtteranceIndex[i] = "timeid" + data[0];
+            }
+            // alert(lines);
+        }
+
+        $(document).ready(function() {
+            // OUTER-LAYOUT
+            $('body').layout({
+                center__paneSelector:	".outer-center"
+                ,   north__paneSelector:     ".outer-north"
+                ,   south__paneSelector:     ".outer-south"
+                ,   north__togglerLength_open: 0
+                ,   south__togglerLength_open: 0
+                ,	north__maxSize:			"55%"
+                ,   north__minSize:         "55%"
+                ,	south__maxSize:			100
+                ,   south__minSize:			100
+                ,	spacing_open:			5  // ALL panes
+                ,	spacing_closed:			12 // ALL panes
+                ,
+                // NORTH-LAYOUT (child of outer-north-pane)
+                north__childOptions: {
+
+                    center__paneSelector:	".north-center"
+                    ,   north__paneSelector:    ".north-north"
+                    ,   north_size:             50
+                    ,	west__paneSelector:		".north-west"
+                    ,	west__size:				"60%"
+                    ,	spacing_open:			5  // ALL panes
+                    ,	spacing_closed:			12 // ALL panes
+                    ,   west__togglerLength_open: 0
+                    ,   center__togglerLength_open: 0
+                    ,   north__togglerLength_open:  0
+                },
+                // CENTER-LAYOUT (child of outer-center-pane)
+                center__childOptions: {
+                    center__paneSelector:	".middle-center"
+                    ,	west__paneSelector:		".middle-west"
+                    ,	east__paneSelector:		".middle-east"
+                    ,	west__size:				"40%"
+                    ,	east__size:				"40%"
+                    ,	spacing_open:			5  // ALL panes
+                    ,	spacing_closed:			12 // ALL panes
+                    ,   west__togglerLength_open: 0
+                    ,   center__togglerLength_open: 0
+                    ,   east__togglerLength_open: 0
+                }
+            });
+        });
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37086725-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div class="outer-north">
+        <div class="north-north">
+            <div style="float:left">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
+            <div style="float:right">Alpha Release v0.3 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+        </div>
+        <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
+        <div class="north-center">
+            <div id="player"></div>
+        </div>
+    </div>
+    <div class="outer-center">
+        <iframe class="middle-west" src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+        <div class="middle-center">
+            MISSION ELAPSED TIME: <span id="timer">00</span>
+            <BR><BR>
+            HISTORICAL TIME:<BR>
+            <span id="historicalTime"></span>
+            <BR><BR>
+            HISTORICAL TIME DIFFERENCE:<BR>
+            <span id="historicalTimeDiff"></span>
+            <!--<BR><BR>-->
+            <!--<form>-->
+                <!--<input type="button" onclick="roundToNearestHistoricalTime()" value="Round Time">-->
+            <!--</form>-->
+            <!--ROUNDED MISSION TIME<BR>-->
+            <!--<span id="roundedMissionTime"></span>-->
+        </div>
+        <div class="middle-east">
+            <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
+                You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
+            <p>Instructions:</p>
+            <ul>
+                <li>Desktop only. Use Google Chrome (this hasn't been tested on any other browser).</li>
+                <li>Click any line in the transcript and the video will jump to that instant.</li>
+                <li>For big jumps, click an item in the table of contents (bottom left).</li>
+                <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
+            </ul>
+            <p>Recent Updates:</p>
+            <ul>
+                <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                <li>03/25/2015: v0.1 Initial launch made public.</li>
+            </ul>
+            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+            <p>Planned Features:</p>
+            <ul>
+                <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
+                <li>Inclusion of all mission photography (this window).</li>
+                <li>Inclusion of post-mission astronaut commentary.</li>
+                <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
+                <li>Bookmarking and discussion notes for any timeline moment.</li>
+            </ul>
+        </div>
+    </div>
+    <iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
+</body>
+</html>
