@@ -1,6 +1,5 @@
 __author__ = 'Feist'
 import csv
-import operator
 
 
 def get_sec(s):
@@ -115,10 +114,14 @@ for photo_row in photos_reader:
 sorted_list = sorted(master_list, key=get_key, reverse=False)
 
 for list_item in sorted_list:
-    print list_item
-    # print type(list_item) is TranscriptItem
-    # print "timestamp: " + list_item[1]
+    # print list_item
+    print type(list_item)
+    print "timestamp: " + list_item.timestamp
     # print "attribution: " + list_item[2]
-    # print "who: " + list_item[3]
-    # print "words: " + list_item[4]
-    # print "\n"
+    if type(list_item) != PhotographyItem:
+        print "who: " + list_item.who
+        print "words: " + list_item.words
+    else:
+        print "photo_num: " + list_item.photo_num
+        print "description: " + list_item.description
+    print "\n"
