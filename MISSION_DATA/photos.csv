@@ -2471,17 +2471,17 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |22664||||||||||80||EO|EARTH (CLOUD, WATER)||
 |22665||||||||||80||EO|EARTH (CLOUD, WATER)||
 |22666|||||||||||||DARK||
-|22667||||||||||80||EO|EARTH (SUNRISE)||
-|22668||||||||||80||EO|EARTH (SUNRISE)||
-|22669||||||||||80||EO|AFRICA, W COAST||
-|22671||||||||||80||EO|AFRICA, W COAST||
-|22672||||||||||80||TLC|DEBRIS||
+003:17:23|22667|148|||||||||80||EO|EARTH (SUNRISE)||
+003:17:28|22668|148|||||||||80||EO|EARTH (SUNRISE)||
+003:18:01|22669|148|||||||||80||EO|AFRICA, W COAST||
+003:18:05|22671|148|||||||||80||EO|AFRICA, W COAST||
+003:18:10|22672|148|||||||||80||TLC|DEBRIS||
 |22673||||||||||80||TLC|DEBRIS||
 |22674||||||||||80||TLC|DEBRIS||
 |22675||||||||||80||TLC|DEBRIS||
 |22676||||||||||80||TLC|DEBRIS||
-|22677||||||||||80||TLC|DEBRIS||
-|22678||||||||||80||TLC|DEBRIS||
+003:38:54|22677|148|||||||||80||TLC|DEBRIS||
+003:38:59|22678|148|||||||||80||TLC|DEBRIS||
 |22679||||||||||80||TLC|SOUTH WEST AFRICA, SOUTH ATLANTIC OCEAN||
 |22680||||||||||80||TLC|LM ADAPTER PANELS, AFRICA||
 |22681||||||||||80||TLC|LM ADAPTER PANELS, AFRICA||
@@ -2490,8 +2490,8 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |22684||||||||||80||TLC|LM ADAPTER PANELS, DEBRIS||
 |22685|148|||||||||80||TLC|view of Earth featuring Africa and Madagascar||
 |22686||||||||||80||TLC|AFRICA, RED SEA, GULF OF ADEN||
-|22687||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
-|22688||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
+003:44:12|22687|148|||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
+003:44:17|22688|148|||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
 |22689||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
 |22690||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
 |22691||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
@@ -2502,22 +2502,22 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |22696||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
 |22697||||||||||80||TLC|TRANSPOSITION, DOCKING, SIVB, LM, DEBRIS||
 |22698|148|||||||||80||TLC|view of LM in S-IVB adapter during transposition and docking|JSC scan|
-|22699||||||||||80||TLC|AFRICA, ARABIA, RED SEA||
-|22700||||||||||80||TLC|AFRICA, ARABIA, RED SEA, GULF OF ADEN||
-|22701||||||||||80||TLC|AFRICA, ARABIA, MADAGASCAR||
-|22702||||||||||80||TLC|AFRICA, ARABIA, MADAGASCAR||
-|22703||||||||||80||TLC|SIVB, LM||
-|22704||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22705||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22706||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22707||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22708||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22709||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22710||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22711||||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
-|22712||||||||||250||TLC|SIVB||
-|22713||||||||||250||TLC|SIVB||
-|22714|148|||||||||250||TLC|discarded S-IVB stage which later impacted on the Moon's surface||
+004:47:29|22699|148|||||||||80||TLC|AFRICA, ARABIA, RED SEA||
+004:47:35|22700|148|||||||||80||TLC|AFRICA, ARABIA, RED SEA, GULF OF ADEN||
+004:47:40|22701|148|||||||||80||TLC|AFRICA, ARABIA, MADAGASCAR||
+004:47:45|22702|148|||||||||80||TLC|AFRICA, ARABIA, MADAGASCAR||
+004:50:25|22703|148|||||||||80||TLC|SIVB, LM||
+004:50:30|22704|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:50:35|22705|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:50:40|22706|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:50:45|22707|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:53:30|22708|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:53:35|22709|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:53:40|22710|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:53:45|22711|148|||||||||80||TLC|SIVB, LM THRUSTERS, ANTENNA||
+004:57:10|22712|148|||||||||250||TLC|SIVB||
+004:57:15|22713|148|||||||||250||TLC|SIVB||
+004:57:20|22714|148|||||||||250||TLC|discarded S-IVB stage which later impacted on the Moon's surface||
 |22715||||||||||250||TLC|SIVB||
 |22716||||||||||250||TLC|SIVB||
 |22717||||||||||250||TLC|AFRICA, MADAGASCAR||
@@ -2527,19 +2527,19 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |22721||||||||||250||TLC|AFRICA, ANTARCTICA||
 |22722||||||||||250||TLC|AFRICA, ARABIA, RED SEA||
 |22723|||||||||||||BLANK||
-|22724||||||||||80||TLC|SIVB||
-|22725||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
-|22726|148|||||||||80||TLC|"""Full Earth"" photographed during lunar coast"||
-|22727||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
-|22728||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
+005:03:10|22724|148|||||||||80||TLC|SIVB||
+005:03:15|22725|148|||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
+005:03:25|22726|148|||||||||80||TLC|"""Full Earth"" photographed during lunar coast"||
+005:03:30|22727|148|||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
+005:03:35|22728|148|||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
 |22729||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
 |22730||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
 |22731||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
-|22732||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
-|22733||||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
-|22734||||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
-|22735||||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
-|22736||||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
+005:49:50|22732|148|||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
+005:50:10|22733|148|||||||||80||TLC|AFRICA, ARABIA, ANTARCTICA||
+007:54:33|22734|148|||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
+007:54:43|22735|148|||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
+007:54:53|22736|148|||||||||80||TLC|AFRICA, SOUTH AMERICA, ANTARCTICA||
 |22737||||||||||250||TLC|AUSTRALIA, ANTARCTICA||
 |22738||||||||||250||TLC|AUSTRALIA, ANTARCTICA||
 |22739||||||||||250||TLC|AUSTRALIA, ANTARCTICA||
@@ -4066,7 +4066,7 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |72-HC-880|||||||||||||Jack Schmitt undergoes final spacesuit pressure checks|research: J.L. Pickering|6-Dec-72
 |72-HC-881|||||||||||||Ron Evans says goodbye to his wife as the Apollo 17 crew leaves the Manned Spacecraft Operations Bldg en route to the launch pad|research: J.L. Pickering|6-Dec-72
 |72-HC-884|||||||||||||Alabama Governor George Wallace waves to well wishers at the Kennedy Space Center during Apollo 17 prelaunch activities.|research: J.L. Pickering|7-Dec-72
-|72-HC-888|||||||||||||Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center|research: J.L. Pickering|7-Dec-72
+000:11:54|72-HC-888|||||||||||||Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center|research: J.L. Pickering|7-Dec-72
 |72-HC-891|||||||||||||Gene Cernan in the White Room|J.L. Pickering|7-Dec-72
 |72-HC-892|||||||||||||In the White Room high above Launch Complex 39A, Ronald Evans prepares to join crew mates in the spacecraft, which is partially shown in the rear.|research: J.L. Pickering|7-Dec-72
 |72-HC-893|||||||||||||A composite photo of the Apollo 17 space vehicle on the launch pad and a streak exposure of the vehicle as it lifted off (ID possibly 72-HC-895)|research: J.L. Pickering|

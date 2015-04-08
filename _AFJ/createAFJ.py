@@ -45,9 +45,10 @@ class CommentaryItem(object):
 
 
 class PhotographyItem(object):
-    def __init__(self, sortnumber, timestamp, photo_num, mag_number, mag_code, film_type, revolution_num, principal_lat, principal_long, camera_tilt, camera_azimuth, alt_km, lens_mm, sun_elevation, activity_name, description, photographer, date_taken):
+    def __init__(self, sortnumber, timestamp, filename, photo_num, mag_number, mag_code, film_type, revolution_num, principal_lat, principal_long, camera_tilt, camera_azimuth, alt_km, lens_mm, sun_elevation, activity_name, description, photographer, date_taken):
         self.sortnumber = sortnumber
         self.timestamp = timestamp
+        self.filename = filename
         self.photo_num = photo_num
         self.mag_number = mag_number
         self.mag_code = mag_code
@@ -66,8 +67,9 @@ class PhotographyItem(object):
         self.date_taken = date_taken
 
     def __repr__(self):
-        return '{}: {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}'.format(self.__class__.__name__,
+        return '{}: {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}'.format(self.__class__.__name__,
                                                                             self.timestamp,
+                                                                            self.filename,
                                                                             self.photo_num,
                                                                             self.mag_number,
                                                                             self.mag_code,
@@ -89,7 +91,8 @@ class PhotographyItem(object):
 def get_combined_transcript_list():
     master_list = []
     # format: sortorder, timestamp, attribution, who, words
-    input_file_path = "../MISSION_DATA/temp_utterances.csv"
+    #input_file_path = "../MISSION_DATA/temp_utterances.csv"
+    input_file_path = "../MISSION_DATA/A17 master TEC and PAO utterances.csv"
     utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
     for utterance_row in utterance_reader:
         if utterance_row[1] != "": #if not a TAPE change or title row
@@ -107,7 +110,11 @@ def get_combined_transcript_list():
     first_row = True
     for photo_row in photos_reader:
         if photo_row[0] != "" and first_row is False: #if timestamp not blank
-            tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_row[1], photo_row[2], photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8], photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
+            if len(photo_row[1]) == 5:
+                photo_filename = "AS17-" + photo_row[2] + "-" + photo_row[1] + ".jpg"
+            else:
+                photo_filename = photo_row[1] + ".jpg"
+            tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2], photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8], photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
             master_list.append(tempObj)
         first_row = False
 
@@ -154,7 +161,7 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
                     output_segment_file.write(item_template.render({'who': combined_list_item.who, 'words': combined_list_item.words, 'attribution': combined_list_item.attribution}, loader=template_loader).encode('UTF-8'))
                 if type(combined_list_item) is PhotographyItem:
                     item_template = template_loader.load_template('template_afj_item_photo.html')
-                    output_segment_file.write(item_template.render({'description': combined_list_item.description, 'photo_num': combined_list_item.photo_num}, loader=template_loader))
+                    output_segment_file.write(item_template.render({'description': combined_list_item.description, 'filename': combined_list_item.filename}, loader=template_loader))
 
             elif int(combined_list_item.timestamp.translate(None, ":")) > timestamp_end_int:
                 break

@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: verdana, arial, sans-serif;
     color: #333;
     background: none;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0;
     padding-top: .5em;
     padding-bottom: .17em;
@@ -64,25 +64,69 @@ ul.TOC3 {
 
 .TOCTitle {color: black; font-weight: bold;}
 
-ol {
-    line-height: 1.4em;
-    margin: .3em 0 0 3.2em;
-    padding: 0;
-    list-style-image: none;
+.title{
+    font-weight: bold;
+    font-size: 140%;
+    float: left;
 }
-li {
-    margin-left: .5em;
-    margin-bottom: .1em;
-    padding: 0; /* margin between bullet and content */
+.titleRight{
+    font-size: 125%;
+    float: right;
 }
+
+#tabs-min {
+    background: transparent;
+    border: none;
+
+}
+#tabs-min .ui-widget-header {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#tabs-min .ui-tabs-nav .ui-state-default {
+    background: transparent;
+    border: none;
+}
+#tabs-min .ui-tabs-nav .ui-state-active {
+    background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
+    border: none;
+}
+#tabs-min .ui-tabs-nav .ui-state-default a {
+    /*color: #c0c0c0;*/
+    color: #000000;
+}
+#tabs-min .ui-tabs-nav .ui-state-active a {
+    color: #459e00;
+    /*color: black;*/
+}
+.ui-tabs .ui-tabs-panel {
+    padding: 1px;
+}
+*:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.photodiv {
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.photodiv img {
+    width: 90%;
+    height: auto;
+}
+
 table, th, td {
     border: none;
     vertical-align: top;
-}
-
-form {
-    border: none;
-    margin: 0;
 }
 img {
     border: none;
@@ -96,29 +140,11 @@ p img {
     margin: 0;
 }
 
-input.historysubmit {
-    padding: 0 .3em .3em .3em !important;
-    font-size: 94%;
-    cursor: pointer;
-    height: 1.7em !important;
-    margin-left: 1.6em;
+.missionTimes {
+    font-size: 125%;
 }
-select {
-    vertical-align: top;
-}
-abbr, acronym, .explain {
-    border-bottom: 1px dotted black;
-    color: black;
-    background: none;
-    cursor: help;
-}
-q {
-    font-family: Times, "Times New Roman", serif;
-    font-style: italic;
-}
-
-code {
-    background-color: #f9f9f9;
+.missionTime {
+    padding-bottom: 20px;
 }
 
 .utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}

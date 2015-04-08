@@ -29,8 +29,9 @@
 
     <meta name="robots" content="index,follow" />
     <style type="text/css" media="screen,projection"></style>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
+    <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/humanized_time_span.js"></script>
@@ -494,6 +495,8 @@
         }
 
         $(document).ready(function() {
+            $(".middle-east").tabs();
+
             // OUTER-LAYOUT
             $('body').layout({
                 center__paneSelector:	".outer-center"
@@ -551,8 +554,8 @@
 <body>
     <div class="outer-north">
         <div class="north-north">
-            <div style="float:left">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div style="float:right">Alpha Release v0.3 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+            <div class="title">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
+            <div class="titleRight">Alpha Release v0.4 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
@@ -562,13 +565,17 @@
     <div class="outer-center">
         <iframe class="middle-west" src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="middle-center">
-            MISSION ELAPSED TIME: <span id="timer">00</span>
-            <BR><BR>
-            HISTORICAL TIME:<BR>
-            <span id="historicalTime"></span>
-            <BR><BR>
-            HISTORICAL TIME DIFFERENCE:<BR>
-            <span id="historicalTimeDiff"></span>
+            <div class="missionTimes">
+                <div class="missionTime"><strong>Mission Elapsed Time:</strong>
+                    <span id="timer">00</span>
+                </div>
+                <div class="missionTime"><strong>Historical Time:</strong>
+                    <span id="historicalTime"></span>
+                </div>
+                <div class="missionTime"><strong>Historical Time Difference:</strong>
+                    <span id="historicalTimeDiff"></span>
+                </div>
+            </div>
             <!--<BR><BR>-->
             <!--<form>-->
                 <!--<input type="button" onclick="roundToNearestHistoricalTime()" value="Round Time">-->
@@ -576,33 +583,50 @@
             <!--ROUNDED MISSION TIME<BR>-->
             <!--<span id="roundedMissionTime"></span>-->
         </div>
-        <div class="middle-east">
-            <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
-                You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
-            <p>Instructions:</p>
+        <div id="tabs-min" class="middle-east">
             <ul>
-                <li>Desktop only. Use Google Chrome (this hasn't been tested on any other browser).</li>
-                <li>Click any line in the transcript and the video will jump to that instant.</li>
-                <li>For big jumps, click an item in the table of contents (bottom left).</li>
-                <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
+                <li><A href="#tabs-min-1"><SPAN>Instructions</SPAN></A></li>
+                <li><A href="#tabs-min-2"><SPAN>Mission Photography</SPAN></A></li>
             </ul>
-            <p>Recent Updates:</p>
-            <ul>
-                <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
-                <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
-                <li>03/25/2015: v0.1 Initial launch made public.</li>
-            </ul>
-            <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
-            <p>Planned Features:</p>
-            <ul>
-                <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
-                <li>Inclusion of all mission photography (this window).</li>
-                <li>Inclusion of post-mission astronaut commentary.</li>
-                <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
-                <li>Bookmarking and discussion notes for any timeline moment.</li>
-            </ul>
+            <div class="ui-layout-content">
+                <div id="tabs-min-1">
+                    <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
+                    You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
+                    <p>Instructions:</p>
+                    <ul>
+                        <li>Desktop only. Use Google Chrome (this hasn't been tested on any other browser).</li>
+                        <li>Click any line in the transcript and the video will jump to that instant.</li>
+                        <li>For big jumps, click an item in the table of contents (bottom left).</li>
+                        <li>Alternatively, jump to different points on the YouTube video and the transcript will scroll to match.</li>
+                    </ul>
+                    <p>Recent Updates:</p>
+                    <ul>
+                        <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
+                        <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                        <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                        <li>03/25/2015: v0.1 Initial launch made public.</li>
+                    </ul>
+                    <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+                    <p>Planned Features:</p>
+                    <ul>
+                        <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
+                        <li>Inclusion of all mission photography (this window).</li>
+                        <li>Inclusion of post-mission astronaut commentary.</li>
+                        <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
+                        <li>Bookmarking and discussion notes for any timeline moment.</li>
+                    </ul>
+                </div>
+                <div id="tabs-min-2">
+                    <div class="photodiv">
+                        <div>
+                            <a href="http://apollo17.org/mission_images/72-HC-888.jpg" target="_blank"><img src="http://apollo17.org/mission_images/72-HC-888.jpg"></a>
+                        </div>
+                    </div>
+                    <span class="photoDescription">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center</span>
+                </div>
+            </div>
         </div>
     </div>
-    <iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
+    <!-- <iframe class="outer-south" src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="100%" width="100%"></iframe> -->
 </body>
 </html>

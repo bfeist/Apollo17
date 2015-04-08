@@ -93,11 +93,15 @@ img {
     padding-bottom: 10px;
 }
 .photo {
-    color: SaddleBrown;
-    margin-left:90px;
+    max-width: 500px;
+    float: right;
     padding: 3px;
     padding-bottom: 10px;
+    margin: 15px;
+    margin-left: 0;
 }
+.photo img { display: block; width: 100%; }
+.photo span { display: block; color: black; }
 
 .oralHistory    {margin-top: 5px;}
 .spokenwords{font-weight:normal;}
