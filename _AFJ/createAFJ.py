@@ -111,7 +111,7 @@ def get_combined_transcript_list():
     for photo_row in photos_reader:
         if photo_row[0] != "" and first_row is False: #if timestamp not blank
             if len(photo_row[1]) == 5:
-                photo_filename = "AS17-" + photo_row[2] + "-" + photo_row[1] + ".jpg"
+                photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
             else:
                 photo_filename = photo_row[1] + ".jpg"
             tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2], photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8], photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
