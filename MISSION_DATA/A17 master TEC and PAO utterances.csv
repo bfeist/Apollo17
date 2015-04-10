@@ -703,16 +703,16 @@
 |003:03:39|CDR|SEP light was OUT on time.
 |003:03:42|CC|Roger, Gene.
 |003:04:21|PAO|This is Apollo Control at 3 hours 4 minutes. We are now some 8 minutes away from ignition. Everything's looking good for the translunar injection maneuver, the combined S-IVB Saturn third stage and the spacecraft with an orbital weight of 308,298 pounds at the start of this maneuver.
-|003:06:15|CDR|Comm check, Bob.
+|003:06:15|LMP|Comm check, Bob.
 |003:06:21|CC|17, Houston; go ahead.
-|003:06:23|CDR|I was just checking with you; you're so quiet down there, we almost forgot you were there.
+|003:06:23|LMP|I was just checking with you; you're so quiet down there, we almost forgot you were there.
 |003:06:27|CC|Roger. Don't want to forget me. We're just watching everything; we can't find anything wrong, so we're just trying to keep quiet here.
 |003:06:37|CDR|Okay, Bob. We're watching the S-IVB tanks pressurize.
 ||||Tape 4/9|Page 35
 |003:06:41|CC|Roger.
-|003:06:50|CDR|You ought to look for the good things rather than the bad.
+|003:06:50|LMP|You ought to look for the good things rather than the bad.
 |003:06:55|CC|Well, that's good when we don't find anything wrong.
-|003:06:59|CDR|Can't agree more.
+|003:06:59|LMP|Can't agree more.
 |003:07:32|CC|17, the chilldown is in progress, and the tank pressures are looking good.
 |003:07:38|CDR|Okay, Bob; looking down here.
 |003:09:37|CC|17, Houston. You are GO at 3 minutes prior to ignition. You're looking good, and you're going to - we're going to have A - ARIA coverage all the way through the burn until Ascension.
@@ -726,22 +726,22 @@
 |003:12:04|CC|17, you're looking great on the final status check here, and you're GO for TLI.
 |003:12:17|PAO|20 seconds now to ignition and we're maintaining communications with the spacecraft through one of the ARIA, Apollo range instrumented aircraft.
 |003:12:20|CDR|... 42, the SEP lights are OUT.
-|003:12:26|SC|Roger.
+|003:12:26|CC|Roger.
 |003:12:29|PAO|10 seconds.
 |003:12:40|CDR|The lights on and we have ignition.
 |003:12:46|PAO|And, very faintly we copy the crew reporting S-IVB ignition and that's confirmed by the telemetry and booster reports the thrust looks good on the S-IVB.
 |003:12:57|CC|17, Houston. You're looking good, and the thrust is GO.
-|003:13:02|CDR|Bob, you're now advised that we're GO onboard at 20 seconds.
+|003:13:02|CDR|Bob, you're down in the mud, but we're GO onboard at 20 seconds.
 ||||Tape 4/10|Page 36
 |003:13:06|CC|Roger.
 |003:13:11|PAO|And telemetry data from the Saturn instrument unit shows the velocity increasing up now to 26,000 feet per second, beginning to climb ever more rapidly. This burn was initiated at an altitude of about 97 nautical miles above Earth, and when finished, the spacecraft will be at about 150 miles above Earth, and on its way to the Moon, some 213,000 miles nautical miles away.
-|003:13:21|SC|... antenna.
-|003:13:41|CDR|One minute, Houston, and we're GO.
+|003:13:21|LMP|... antenna.
+|003:13:41|CDR|One minute, Houston in the blind, and we're GO.
 |003:13:45|CC|Roger, Gene. We can barely hear you through the ARIA, but you're GO.
 |003:13:54|CDR|You have reasonable signal strength, but you are unreadable.
 |003:14:10|PAO|Very weak voice communications and booster says the data is now static but at last look everything looked normal.
 |003:14:15|CDR|Everything's GO at 1:30.
-|003:14:22|CDR|Confirm a FU shift to GO at 01:45.
+|003:14:22|CDR|Confirm a PU shift, and GO at 1:45.
 |003:14:34|CC|17, Houston, We can confirm PU shift, and you are GO.
 |003:14:55|PAO|That was CAPCOM Robert Overmyer confirming to the crew that our data showed the Saturn shifting its propellant utilization for a most efficient utilization of the propellant.
 |003:15:10|CDR|Okay, Houston, 2:30 - in the blind - we're still GO.
@@ -768,13 +768,15 @@
 |003:18:05|CDR|Roger. Understand burn time, nominal.
 |003:18:11|PAO|Shutdown time now in about 21 seconds. Showing a velocity of 33,000 feet per second. Altitude now approaching 150 miles.
 ||||Tape 5/1|Page 38
-|003:18:35|LMP|Cutoff at 52. (Laughs) Did you read the DSKY?
+|003:18:35|LMP|Cutoff at 52.
+|003:18:39|CMP|(Laughter) Did you read the DSKY?
 |003:18:42|CC|We don't have the DSKY. You have to read it to us, Ron.
-|003:18:46|CMP|Okay. VI is - I got a 00 and a 00 and NOUN 95 VI is 35573 - is a plus 9. And, Bob, the EMS is minus - EMS is minus 19.4, minus 19.4.
+|003:18:46|CMP|Okay. VI is - I got a 00 and a 00 and NOUN 95 VI is 35573 - is a plus 9.
+|003:19:04|CDR|And, Bob, the EMS is minus - EMS is minus 19.4, minus 19.4.
 |003:19:13|CC|Roger. We copy that.
-|003:19:17|CMP|And it was an auto cut-off - auto cut-off on time.
+|003:19:17|CDR|And it was an auto cut-off - auto cut-off on time.
 |003:19:21|CC|Understand a guided cut-off on time. Looking great.
-|003:19:27|CMP|And I am watching tank pressures - are venting, the tanks are venting.
+|003:19:27|CDR|And I am watching tank pressures - are venting, the tanks are venting.
 |003:19:33|CC|Understand. The tanks are venting.
 |003:20:04|PAO|And, we're still getting communications through the Apollo Range Instrumented Aircraft. We'll be picking up through Ascension shortly, at which time we'd expect the communications to improve, the noise to drop off. From Gene Cernan's report, also from the reports from Ron Evans, it appeared that that translunar injection was extremely close to nominal. The crew read a cutoff time of 5 minutes 52 seconds. The premaneuver prediction was 5 minutes 51 seconds. And the cutoff velocity appeared to be very, very close to the planned normal. Booster engineer, Frank Van Rosilier reports the booster cutoff appeared to be exactly normal.
 |003:21:43|PAO|And booster engineer now predicting that the maneuver to separation attitude will begin in about 3 hours 33 minutes 27 seconds.
@@ -792,49 +794,50 @@
 |003:25:08|CC|17, Houston. We're making plans here for a spacecraft SEP time of 03 plus 43.
 |003:25:22|LMP|03 plus 43. Roger.
 |003:27:36|CC|17, Houston. We're copying cabin press of 5.9 this time.
-|003:27:42|CMP|Roger. We - we just got it, Bob.
+|003:27:42|LMP|Roger. We - we just got it, Bob.
 |003:27:45|CC|Okay.
-|003:27:46|CMP|Thank you.
+|003:27:46|LMP|Thank you.
 |003:29:42|PAO|This is Apollo Control at 3 hours 30 minutes. The flight dynamics officer has just reported that initial tracking, following the translunar injection burn, shows the spacecraft to be on a very nominal trajectory, and a relatively small midcourse correction indicated at this time. The pre-burn prediction on that first midcourse correction was around 5 feet per second and we expect that that will be updated as we get additional tracking following the burn.
 |003:30:28|PAO|In about 3 minutes the spacecraft should - the launch vehicle should be - begin maneuvering to the proper attitude for separation and we're predicting separation to occur at about 3 hours 43 minutes - or about 13 minutes from now.
 |003:32:04|LMP|Frame 65 for the LMPs mag November November.
 |003:33:28|PAO|About 10 seconds now until the Saturn third stage begins maneuvering into the proper separation attitude.
 |003:33:58|PAO|And booster engineer reports from telemetry data that the booster has begun maneuvering into the proper attitude for spacecraft separation.
-|003:34:21|LMP|Okay. We - we are maneuvering, Houston.
+|003:34:21|CDR|Okay. We - we are maneuvering, Houston.
 |003:34:25|CC|Roger. We're watching it.
-|003:34:52|CMP|Now we've got a few very bright particles or fragments or something that go drifting by as we maneuver.
+|003:34:52|LMP|Now we've got a few very bright particles or fragments or something that go drifting by as we maneuver.
 |003:35:02|CC|Roger. Understand.
-|003:35:07|LMP|There's a whole bunce of big ones on my window down there - just bright. It looks like the Fourth of July out of Ron's window.
-|003:35:17|CMP|Yes. Now you can see some of them in shape. They're very Jagged, angular fragments that are tumbling.
+|003:35:07|CMP|There's a whole bunce of big ones on my window down there - just bright.
+|003:35:10|LMP|It looks like the Fourth of July out of Ron's window.
+|003:35:17|LMP|Yes. Now you can see some of them in shape. They're very Jagged, angular fragments that are tumbling.
 ||||Tape 5/3|Page 40
 |003:35:25|CC|Roger. They look like fluid of some sort?
-|003:35:28|CMP|Not to me. They look like pieces of something.
+|003:35:28|LMP|Not to me. They look like pieces of something.
 |003:35:33|CC|Roger.
-|003:35:34|CMP|They're very bright.
+|003:35:34|LMP|They're very bright.
 |003:35:36|CC|Jack, we'd like OMNI Charlie.
-|003:37:04|CMP|Bob, for the most part, these fragments are not - or are tumbling at a very slow rate. I tried a couple pictures of them - different settings. You may get an idea of what, at least, the patterns look like.
+|003:37:04|LMP|Bob, for the most part, these fragments are not - or are tumbling at a very slow rate. I tried a couple pictures of them - different settings. You may get an idea of what, at least, the patterns look like.
 |003:37:20|CC|Roger. I've got you. We're all ears on these fragments if you think you can figure out what they might be.
-|003:37:25|CMP|Well, you know I - I don't know. There are a number of possibilities. If you had some kind of a - I got the impression maybe they were curved a little bit, as if they might be - off the side of the S-IVB. And that's a wild guess - -
+|003:37:25|LMP|Well, you know I - I don't know. There are a number of possibilities. If you had some kind of a - I got the impression maybe they were curved a little bit, as if they might be - off the side of the S-IVB. And that's a wild guess - -
 |003:37:40|CDR|Okay. RCS LOGIC is ... --
-|003:37:43|CMP|- - ice chunks, possibly. Or maybe there's paint coming off of it.
+|003:37:43|LMP|- - ice chunks, possibly. Or maybe there's paint coming off of it.
 |003:37:46|CC|Roger. I noticed on one trip up the elevator last weak near one of the flags. I thought it was on the S-II, but it might have been on the S-IVB. Looked like it was peeling. Maybe that's what you've got.
 |003:37:57|CC|And the S-IVB maneuver is complete.
 |003:37:59|LMP|... In 1 minute.
 |003:38:03|CDR|Okay. We'll set the old clock.
-|003:38:04|CMP|Okay. And the - with the maneuver complete, the fragment field is essentially static, except for very slight tumbling within the fragments.
+|003:38:04|LMP|Okay. And the - with the maneuver complete, the fragment field is essentially static, except for very slight tumbling within the fragments.
 ||||Tape 5/4|Page 41
 |003:38:13|CC|Roger. Cut in.
-|003:38:15|CMP|Every once in a while, a fragment of considerably higher velocity than the others goes across my window. But that's very rare.
+|003:38:15|LMP|Every once in a while, a fragment of considerably higher velocity than the others goes across my window. But that's very rare.
 |003:38:23|CC|Roger.
 |003:38:34|CMP|Hey, that's that field of view I saw out my window Jack, do you see it now?
 |003:38:39|LMP|Yes.
-|003:38:43|CMP|And, Bob. At least, there - there's no apparent relative motion between fragments.
+|003:38:43|LMP|And, Bob. At least, there - there's no apparent relative motion between fragments.
 |003:38:51|CC|Roger. Understand.
-|003:38:54|CMP|I'll take two pictures about a minute apart if I can. And it'll be Frame 70.
+|003:38:54|LMP|I'll take two pictures about a minute apart if I can. And it'll be Frame 70.
 |003:39:05|CC|Okay. Frame 70.
 |003:39:07|CDR|And, Bob. This is Geno. My impression is that they are - flat, flakelike particles. Some may be 6 inches across. And, although there's no relative motion between the two, most of them seem to be twinkling. And I think, for the most part, they're all moving away from us.
 |003:39:31|CC|Roger, Gene. Thank you.
-|003:39:48|CMP|Okay. We've got 0l880 and 0 on the old thumbwheels
+|003:39:48|CMP|Okay. We've got 0180 and 0 on the old thumbwheels
 |003:39:53|LMP|Okay.
 |003:39:56|CC|Roger, Ron.
 |003:40:06|CMP|Okay. TRANS CONTROL is ARMED.
@@ -847,12 +850,13 @@
 |003:40:25|CC|17, Houston. You have a GO for T&D.
 |003:40:30|CDR|Okay. A GO for T&D.
 |003:40:51|CMP|Okay. We'll ARM the PYROs. And we'll hit the GDC ALIGN.
-|003:41:13|CMP|And maneuver's complete. Okay 01880 and 0? On the GDC? No. It's just ... it's kind of diddling.
+|003:41:13|CMP|And maneuver's complete. Okay 0180 and 0? On the GDC? No. It's just ... it's kind of diddling.
 |003:41:31|CMP|Okay. DELTA-V in NORMAL.
 |003:41:55|CMP|S-IVB, okay. Okay, switches are all set.
 |003:42:06|LMP|Okay; 59:30.
 |003:42:09|CMP|Okay. Let's start the DET.
-|003:42:12|CDR|Tickity-tick-tickity, Houston. We're running at 59:30.
+|003:42:12|CMP|Tickity-tick-tickity.
+|003:42:13|CDR|Houston. We're running at 59:30.
 |003:42:15|CC|Roger.
 |003:42:19|CMP|Okay.
 |003:42:25|CMP|Okay. That's LAUNCH VEHICLE SEP, push button.
@@ -882,18 +886,18 @@
 |003:44:19|CC|Roger. Bet you never saw the SLA panels on the simulator.
 |003:44:24|CDR|No, but we've got the booster and is she pretty. Challenger's just sitting in her nest.
 |003:44:29|CC|Roger. We'd like OMNI Bravo, now, Jack.
-|003:44:38|LMP|Okay, we'll plus-X it. We'll see the - oh, you can't see ... Okay. Oh, I can't see my COAS.
-|003:44:53|CDR|And, Houston, some of the particles going by the window - -
-|003:44:56|LMP|Okay, did you change the DAC?
+|003:44:38|CMP|Okay, we'll plus-X it. We'll see the - oh, you can't see ... Okay. Oh, I can't see my COAS.
+|003:44:53|LMP|And, Houston, some of the particles going by the window - -
+|003:44:56|CMP|Okay, did you change the DAC?
 ||||Tape 5/7|Page 44
 |003:44:59|CDR|- - were obvious enough - fairly obvious to me - paint.
 |003:45:00|CC|Okay. We'll buy that.
-|003:45:10|LMP|Okay. There it is. Okay, did you change the PAC? Got ATT l/rate 2?
-|003:45:32|CDR|Okay, Houston, you want the high gain?
+|003:45:10|CMP|Okay. There it is. Okay, did you change the PAC? Got ATT l/rate 2?
+|003:45:32|LMP|Okay, Houston, you want the high gain?
 |003:45:40|CC|Roger. We're standing by for it, and the angles as published on L/3-3 should be good.
-|003:45:47|CDR|Okay.
-|003:46:16|LMP|Okay, it's flying pretty good.
-|003:46:37|LMP|Okay, we're in REACQ here.
+|003:45:47|LMP|Okay.
+|003:46:16|CMP|Okay, it's flying pretty good.
+|003:46:37|CMP|Okay, we're in REACQ here.
 |003:46:57|LMP|Houston, how do you read? We don't have a very good knock - lockon here in REACQ.
 |003:47:01|CC|Roger, Jack. We're reading you pretty good - voice.
 |003:47:14|LMP|Okay. It looks like it's improving. It dropped off - signal strength dropped off, and now it's picking up again.
@@ -904,17 +908,17 @@
 |003:47:38|CMP|I'm guessing. I don't know - about a hundred ... - -
 |003:47:40|LMP|That's good news. It seemed to smoo - slew very smoothly, so it looks all right.
 |003:47:53|CC|Roger, Jack.
-|003:47:54|LMP|ATT l/RATE 2?
+|003:47:54|CMP|ATT 1/RATE 2?
 ||||Tape 5/8|Page 45
 |003:48:25|CDR|I can't tell you too much, Bob, from the center seat other than Captain America is very intent on getting Challenger at the moment.
 |003:48:33|CC|Roger. I can believe that.
 |003:48:41|CMP|Yes, I'm coming in a little slow, but we've got plenty of time.
 |003:49:05|PAO|Ron Evans now at the controls of America. Now moving in for the docking with lunar module Challenger.
-|003:49:13|CDR|Okay, Houston. While we're moving in here, I can see a few chunks of that platy material, possibly paint, down in the SLA sort of bouncing around between the S-IVB and the LM.
+|003:49:13|LMP|Okay, Houston. While we're moving in here, I can see a few chunks of that platy material, possibly paint, down in the SLA sort of bouncing around between the S-IVB and the LM.
 |003:49:32|CC|Roger.
-|003:49:39|CDR|But, so far, LM looks very clean. Can't see anything abnormal from this view yet.
+|003:49:39|LMP|But, so far, LM looks very clean. Can't see anything abnormal from this view yet.
 |003:49:48|CC|Okay.
-|003:49:59|LMP|Isn't it, though? That thing is really stable out there.
+|003:49:59|CMP|Isn't it, though? That thing is really stable out there.
 |003:50:31|LMP|Yes. Can you see it at all, Gene?
 |003:51:36|LMP|Got one little chunk coming out - it just came out of the SLA, and it's spinning along the long axis, and it looks very stable.
 |003:51:46|CC|Roger.
@@ -946,7 +950,7 @@
 |003:55:57|CMP|Okay, about 10 feet there, Gene. Stand by for a ... on the barber pole.
 |003:56:14|CDR|Okay.
 |003:56:41|CMP|All right; in good shape.
-|003:56:52|CMP|It's out now.
+|003:56:52|CMP|About now.
 |003:57:03|CDR|Capture, Houston.
 |003:57:04|CC|Roger. We copy.
 |003:57:05|CMP|Okay, we're FREE; rates look pretty good. Let's lock it together.
@@ -963,12 +967,12 @@
 |003:57:40|CC|Roger.
 |003:57:41|CDR|We got - we got the most of the latches, but A is barber pole, and B is gray.
 |003:57:47|CMP|Okay, check both circuit breakers; they're IN. Yes, Okay.
-|003:57:57|CMP|We had one clear fire, maybe one or two latches and then a ripple fire on the rest.
+|003:57:57|LMP|We had one clear fire, maybe one or two latches and then a ripple fire on the rest.
 ||||Tape 5/11|Page 48
 |003:58:07|CC|Roger.
-|003:58:10|CMP|And, by the way, I had a good view into the AOT, and I can still look in there, and it's very clean.
+|003:58:10|LMP|And, by the way, I had a good view into the AOT, and I can still look in there, and it's very clean.
 |003:58:16|CC|Roger.
-|003:58:29|CMP|In fact - -
+|003:58:29|LMP|In fact - -
 |003:58:29|CC|Ron and Gene, we saw your MASTER ALARM. Did you have any - anything on the matrix light up?
 |003:58:37|CDR|No, not a thing. I looked.
 |003:58:38|CC|Roger.
@@ -1472,19 +1476,19 @@
 |007:14:51|PAO|This is Apollo Control at 7 hours 15 minutes. Astronaut Bob Parker is now relieving Astronaut Bob Overmyer at the CAPCOM console and the commander of the backup crew, Captain John Young, has just left the control room. He has been sitting at the CAPCOM console with Overmyer since returning from the Cape early this morning. So the next CAPCOM voice you will hear will be that of Bob Parker.
 |007:34:01|PAO|This is Apollo Control at 7 hours 34 minutes. Apollo 17 now 32,697 nautical miles from earth velocity 10,457 feet per second. The crew a little over midway in the scheduled meal period in the flight plan.
 ||||Tape 8/1|Page 80
-|007:49:58|CMP|Houston, 17.
+|007:49:58|LMP|Houston, 17.
 |007:49:59|CC|Roger. Go 17.
-|007:50:03|CMP|That little MASTER ALARM there, I can't be absolutely positive, but out of the corner of my eye, I think it was the SUIT COMPRESSOR light that glitched.
-|007:50:15|CC|Okay. We copy that. You - we believe down here it was the HIGH 02 FLOW.
-|007:50:22|CMP|Well, they're pretty close. I thought it was red and I thought, okay; that's good. That's the right time, I guess.
+|007:50:03|LMP|That little MASTER ALARM there, I can't be absolutely positive, but out of the corner of my eye, I think it was the SUIT COMPRESSOR light that glitched.
+|007:50:15|CC|Okay. We copy that. You - we believe down here it was the HIGH O2 FLOW.
+|007:50:22|LMP|Well, they're pretty close. I thought it was red and I thought, okay; that's good. That's the right time, I guess.
 |007:50:29|CC|Okay; because we'd just called it out. I was just read for you 5 seconds before you called me.
-|007:50:36|CMP|Very good, Doctor.
+|007:50:36|LMP|Very good, Doctor.
 |007:50:39|CC|Roger. And Tony is back in Houston on the console.
-|007:50:42|CMP|That's hard to believe. What are you doing back there? We're - we haven't even had time to go to sleep.
+|007:50:42|LMP|That's hard to believe. What are you doing back there? We're - we haven't even had time to go to sleep.
 |007:50:46|CC|Well, I tell you, it's a tale that's hard to believe. It's almost as miraculous as your escape from the pad tonight.
-|007:51:06|CMP|Did you enjoy the launch?
+|007:51:06|LMP|Did you enjoy the launch?
 |007:51:08|CC|Beautiful.
-|007:51:20|CMP|You've seen one night launch, you've seen them all. Huh, Parker?
+|007:51:20|LMP|You've seen one night launch, you've seen them all. Huh, Parker?
 |007:52:15|CMP|We go to SCS. Okay.
 |007:52:36|CMP|Never know if this is it or not but we'll try it.
 |007:52:52|CMP|Dust whipping all over the place. The stars in there -
