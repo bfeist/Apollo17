@@ -13,7 +13,7 @@ section{
 
 body, td, th, input, textarea, pre, p, ul {
     font-family:  Arial, Sans-serif, Verdana, 'Trebuchet MS', 'Times New Roman';
-    font-size: 11px; /* x-small, small */
+    font-size: 12px; /* x-small, small */
     color: #222;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -47,17 +47,17 @@ ul {
     padding: 0;
 }
 ul.TOC1 {
-    font-size: 11px;
+    font-size: 12px;
     list-style-type: none;
     cursor: pointer;
 }
 ul.TOC2 {
-    font-size: 11px;
+    font-size: 12px;
     list-style-type: none;
     cursor: pointer;
 }
 ul.TOC3 {
-    font-size: 11px;
+    font-size: 12px;
     list-style-type: none;
     cursor: pointer;
 }
@@ -74,12 +74,12 @@ ul.TOC3 {
     float: right;
 }
 
-#tabs-min {
+#tabs-right {
     background: transparent;
     border: none;
 
 }
-#tabs-min .ui-widget-header {
+#tabs-right .ui-widget-header {
     background: transparent;
     border: none;
     border-bottom: 1px solid #c0c0c0;
@@ -87,22 +87,58 @@ ul.TOC3 {
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
-#tabs-min .ui-tabs-nav .ui-state-default {
+#tabs-right .ui-tabs-nav .ui-state-default {
     background: transparent;
     border: none;
 }
-#tabs-min .ui-tabs-nav .ui-state-active {
+#tabs-right .ui-tabs-nav .ui-state-active {
     background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
     border: none;
 }
-#tabs-min .ui-tabs-nav .ui-state-default a {
+#tabs-right .ui-tabs-nav .ui-state-default a {
     /*color: #c0c0c0;*/
     color: #000000;
 }
-#tabs-min .ui-tabs-nav .ui-state-active a {
+#tabs-right .ui-tabs-nav .ui-state-active a {
     color: #459e00;
     /*color: black;*/
 }
+#tabs-left {
+    background: transparent;
+    border: none;
+    overflow-y:hidden;
+    overflow-x:hidden;
+
+}
+#tabs-left .ui-widget-header {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#tabs-left .ui-tabs-nav .ui-state-default {
+    background: transparent;
+    border: none;
+}
+#tabs-left .ui-tabs-nav .ui-state-active {
+    background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
+    border: none;
+}
+#tabs-left .ui-tabs-nav .ui-state-default a {
+    /*color: #c0c0c0;*/
+    color: #000000;
+}
+#tabs-left .ui-tabs-nav .ui-state-active a {
+    color: #459e00;
+    /*color: black;*/
+}
+
+.iFrameClass {
+    border: 0;
+}
+
 .ui-tabs .ui-tabs-panel {
     padding: 1px;
 }

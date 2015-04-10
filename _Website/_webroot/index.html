@@ -496,6 +496,7 @@
 
         $(document).ready(function() {
             $(".middle-east").tabs();
+            $(".middle-west").tabs();
 
             // OUTER-LAYOUT
             $('body').layout({
@@ -555,7 +556,7 @@
     <div class="outer-north">
         <div class="north-north">
             <div class="title">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div class="titleRight">Alpha Release v0.4 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">More Info</a></div>
+            <div class="titleRight">Alpha Release v0.4 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
@@ -563,7 +564,18 @@
         </div>
     </div>
     <div class="outer-center">
-        <iframe class="middle-west" src="TOC.html" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+        <div id="tabs-left" class="middle-west">
+            <ul>
+                <li><A href="#tabs-left-1"><SPAN>Table of Contents</SPAN></A></li>
+                <li><A href="#tabs-left-2"><SPAN>Mission Commentary</SPAN></A></li>
+            </ul>
+            <div id="tabs-left-1">
+                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="90%" width="99%"></iframe>
+            </div>
+            <div id="tabs-left-2">
+                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
+            </div>
+        </div>
         <div class="middle-center">
             <div class="missionTimes">
                 <div class="missionTime"><strong>Mission Elapsed Time:</strong>
@@ -583,13 +595,13 @@
             <!--ROUNDED MISSION TIME<BR>-->
             <!--<span id="roundedMissionTime"></span>-->
         </div>
-        <div id="tabs-min" class="middle-east">
+        <div id="tabs-right" class="middle-east">
             <ul>
-                <li><A href="#tabs-min-1"><SPAN>Instructions</SPAN></A></li>
-                <li><A href="#tabs-min-2"><SPAN>Mission Photography</SPAN></A></li>
+                <li><A href="#tabs-right-1"><SPAN>Instructions</SPAN></A></li>
+                <li><A href="#tabs-right-2"><SPAN>Mission Photography</SPAN></A></li>
             </ul>
             <div class="ui-layout-content">
-                <div id="tabs-min-1">
+                <div id="tabs-right-1">
                     <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
                     You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
                     <p>Instructions:</p>
@@ -616,7 +628,7 @@
                         <li>Bookmarking and discussion notes for any timeline moment.</li>
                     </ul>
                 </div>
-                <div id="tabs-min-2">
+                <div id="tabs-right-2">
                     <div class="photodiv">
                         <div>
                             <a href="http://apollo17.org/mission_images/72-HC-888.jpg" target="_blank"><img src="http://apollo17.org/mission_images/72-HC-888.jpg"></a>
