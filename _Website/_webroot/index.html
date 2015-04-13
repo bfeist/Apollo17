@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
-    <script type="text/javascript" src="lib/humanized_time_span.js"></script>
+    <!--<script type="text/javascript" src="lib/humanized_time_span.js"></script>-->
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
     <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
@@ -52,6 +52,8 @@
         var gUtteranceIndex = [];
         var gCurrVideoStartSeconds = -9442;
         var gCurrVideoEndSeconds = 0;
+        var gPlaybackState = "normal";
+        var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 
         var player;
 
@@ -84,8 +86,6 @@
 
         // The API calls this function when the player's state changes.
         // The function indicates that when playing a video (state=1)
-        var gPlaybackState = "normal";
-        var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
         function onPlayerStateChange(event) {
             console.log("onPlayerStateChange: player state change: " + event.data);
             if (event.data == YT.PlayerState.PLAYING) {
@@ -318,64 +318,97 @@
             var currMissionHours = parseInt(currMissionTimeArray[0]);
             var currMissionMinutes = parseInt(currMissionTimeArray[1]);
             var currMissionSeconds = parseInt(currMissionTimeArray[2]);
-            if (currMissionTimeArray[0].substr(0,1) != "-") {
-                gCurrMissionDate = launchDate.add({
-                    hours: currMissionHours,
-                    minutes: currMissionMinutes,
-                    seconds: currMissionSeconds
-                });
-            } else { //if on countdown, subtract the mission time from the launch moment
-                gCurrMissionDate = launchDate.add({
-                    hours: currMissionHours,
-                    minutes: currMissionMinutes * -1,
-                    seconds: currMissionSeconds * -1
-                });
+            var conversionMultiplier = 1;
+            if (currMissionTimeArray[0].substr(0,1) == "-") { //if on countdown, subtract the mission time from the launch moment
+                conversionMultiplier = -1;
             }
-            var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
-            var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
-            $("#historicalTimeDiff").text("Exactly " + humanizedRealtimeDifference);
+            gCurrMissionDate = launchDate.add({
+                hours: currMissionHours,
+                minutes: currMissionMinutes * conversionMultiplier,
+                seconds: currMissionSeconds * conversionMultiplier
+            });
+            //var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
+            //var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
+
+            var timeDiff = Math.abs(Date.now().getTime() - gCurrMissionDate.getTime());
+            //var timeDiff = Math.abs(Date.parse("2015-12-07 5:33am GMT").getTime() - Date.parse("1972-12-07 5:33am GMT").getTime());
+
+            var msInMinute = 60 * 1000;
+            var msInHour = 60 * msInMinute;
+            var msInDay = 24 * msInHour;
+            var msInYear = 365 * msInDay;
+
+//            var diffYears = Math.floor(timeDiff / msInYear);
+//            timeDiff = timeDiff - diffYears * msInYear;
+//            var diffDays = Math.floor((timeDiff - (diffYears * msInYear)) / msInDay);
+//            timeDiff = timeDiff - diffDays * msInDay;
+//            var diffHours = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay)) / msInHour);
+//            timeDiff = timeDiff - diffHours * msInHour;
+//            var diffMinutes = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay + diffHours * msInHour)) / msInMinute);
+//            timeDiff = timeDiff - diffMinutes * msInMinute;
+//            var diffSeconds = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay + diffHours * msInHour + diffMinutes * msInMinute)) / 1000);
+
+            timeDiff = timeDiff + msInHour; //no idea why I need to add an additional hour to get the time difference to be correct
+
+            var diffYears = Math.floor(timeDiff / msInYear);
+            timeDiff = timeDiff - diffYears * msInYear;
+            var diffDays = Math.floor(timeDiff / msInDay);
+            timeDiff = timeDiff - diffDays * msInDay;
+            var diffHours = Math.floor(timeDiff / msInHour);
+            timeDiff = timeDiff - diffHours * msInHour;
+            var diffMinutes = Math.floor(timeDiff / msInMinute);
+            timeDiff = timeDiff - diffMinutes * msInMinute;
+            var diffSeconds = Math.floor(timeDiff / 1000);
+
+            var humanizedRealtimeDifference = "Exactly " + diffYears + " years<br/>" + diffDays + " days<br/>" + diffHours + " hours<br />" + diffMinutes + " minutes<br />" + diffSeconds + " seconds ago.";
+
+            $("#historicalTimeDiff").html(humanizedRealtimeDifference);
             $("#historicalTime").text(gCurrMissionDate);
 
-//            console.log("currMissionTime: " + gCurrMissionTime);
-//            console.log("currMissionDate: " + gCurrMissionDate);
+            //console.log("currMissionTime: " + gCurrMissionTime);
+            //console.log("currMissionDate: " + gCurrMissionDate);
 //            console.log("Exactly " + humanizedRealtimeDifference);
         }
 
-//        function roundToNearestHistoricalTime() {
-//            //$("#roundedMissionTime").text(gCurrMissionDate);
-//            var d = Date.now();
-//            var currDayOfMonth = d.getDate();
-//
-//            if (currDayOfMonth > 19) {
-//                d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
-//            } else if (currDayOfMonth < 7) {
-//                d.setDate(currDayOfMonth + (7 - currDayOfMonth));
-//            }
-//            d.setMonth(gCurrMissionDate.getMonth());
-//            d.setYear(gCurrMissionDate.getYear());
-//            var roundedDate = d;
-//            var launchDate = Date.parse("1972-12-07 5:33am GMT");
-//
-//            //find the difference between rounded date and mission start time to determine MET to jump to
-//            var one_day=1000*60*60*24;
-//            // Convert both dates to milliseconds
-//            var roundedDate_ms = roundedDate.getTime();
-//            var launchDate_ms = launchDate.getTime();
-//            var difference_ms = roundedDate_ms - launchDate_ms;
-//
-//            var ch = 60 * 60 * 1000;
-//            var h = Math.floor( (difference_ms) / ch);
-//            var m = Math.round( (difference_ms) - h * ch );
-//
-//            var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
-//            console.log("Rounded time to skip to: " + timeId);
-//            seekToTime(timeId);
-//
-//            //d.setHours(gCurrMissionDate.getHours());
-//            //d.setMinutes (gCurrMissionDate.getMinutes());
-//            //d.setSeconds(gCurrMissionDate.getSeconds());
-//            $("#roundedMissionTime").text(d);
-//        }
+        function roundToNearestHistoricalTime() {
+            //$("#roundedMissionTime").text(gCurrMissionDate);
+            var d = Date.now();
+            //var d = Date.parse("2015-12-07 6:33am GMT");
+            var currDayOfMonth = d.getDate();
+
+            if (currDayOfMonth > 19) {
+                d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+            } else if (currDayOfMonth < 7) {
+                d.setDate(currDayOfMonth + (7 - currDayOfMonth));
+            }
+            d.setMonth(gCurrMissionDate.getMonth());
+            d.setYear(gCurrMissionDate.getYear());
+            var roundedDate = d;
+            var launchDate = Date.parse("1972-12-07 5:33am GMT");
+
+            //find the difference between rounded date and mission start time to determine MET to jump to
+            // Convert both dates to milliseconds
+            var roundedDate_ms = roundedDate.getTime();
+            var launchDate_ms = launchDate.getTime();
+            var difference_ms = roundedDate_ms - launchDate_ms;
+
+            var msInHour = 60 * 60 * 1000;
+            var msInMinute = 60 * 1000;
+            var h = Math.floor( (difference_ms) / msInHour);
+            var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
+
+            var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
+            console.log("Rounded time to skip to: " + timeId);
+
+            gPlaybackState = "rounding";
+            seekToTime(timeId);
+
+
+            //d.setHours(gCurrMissionDate.getHours());
+            //d.setMinutes (gCurrMissionDate.getMinutes());
+            //d.setSeconds(gCurrMissionDate.getSeconds());
+            //$("#roundedMissionTime").text(d);
+        }
 
         //--------------- transcript click handling --------------------
         function seekToTime(elementId){
@@ -416,7 +449,9 @@
                     }
                     gCurrVideoStartSeconds = itemStartTimeSeconds;
                     gCurrVideoEndSeconds = itemEndTimeSeconds;
-                    gPlaybackState == "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+                    if (gPlaybackState != "rounding") { //if this function wasn't called from roundToNearestHistoricalTime then set that the transcript has been clicked
+                        gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+                    }
                     //change youtube video if the correct video isn't already playing
                     if (currVideoID !== gYTList[i][1]) {
                         console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
@@ -428,6 +463,7 @@
                         console.log("no need to change video. Seeking to " + elementId.toString());
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
+                    //findClosestUtterance(totalSeconds);
                     scrollToTimeID(elementId);
                     findClosestTOC(totalSeconds);
                     break;
@@ -531,8 +567,8 @@
                     center__paneSelector:	".middle-center"
                     ,	west__paneSelector:		".middle-west"
                     ,	east__paneSelector:		".middle-east"
-                    ,	west__size:				"40%"
-                    ,	east__size:				"40%"
+                    ,	west__size:				"45%"
+                    ,	east__size:				"45%"
                     ,	spacing_open:			5  // ALL panes
                     ,	spacing_closed:			12 // ALL panes
                     ,   west__togglerLength_open: 0
@@ -581,19 +617,18 @@
                 <div class="missionTime"><strong>Mission Elapsed Time:</strong>
                     <span id="timer">00</span>
                 </div>
-                <div class="missionTime"><strong>Historical Time:</strong>
-                    <span id="historicalTime"></span>
+                <div class="historicalTime"><strong>Historical Time:</strong>
+                    <div id="historicalTime"></div>
                 </div>
-                <div class="missionTime"><strong>Historical Time Difference:</strong>
-                    <span id="historicalTimeDiff"></span>
+                <div class="historicalTime"><strong>Historical Time Difference:</strong>
+                    <div id="historicalTimeDiff"></div>
+                </div>
+                <div class="historicalTime">
+                    <form>
+                        <input type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Real-time">
+                    </form>
                 </div>
             </div>
-            <!--<BR><BR>-->
-            <!--<form>-->
-                <!--<input type="button" onclick="roundToNearestHistoricalTime()" value="Round Time">-->
-            <!--</form>-->
-            <!--ROUNDED MISSION TIME<BR>-->
-            <!--<span id="roundedMissionTime"></span>-->
         </div>
         <div id="tabs-right" class="middle-east">
             <ul>

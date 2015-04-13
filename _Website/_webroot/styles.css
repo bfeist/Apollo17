@@ -61,6 +61,9 @@ ul.TOC3 {
     list-style-type: none;
     cursor: pointer;
 }
+li:hover {
+    background-color: #EEEEEE;
+}
 
 .TOCTitle {color: black; font-weight: bold;}
 
@@ -177,15 +180,29 @@ p img {
 }
 
 .missionTimes {
-    font-size: 125%;
+    font-size: 100%;
 }
 .missionTime {
+    padding-bottom: 20px;
+    font-size: 125%;
+}
+.historicalTime {
     padding-bottom: 20px;
 }
 
 .utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}
-tr.utterance  {cursor: pointer;}
+tr.utterance  {
+    cursor: pointer;
+}
+tr.utterance:hover {
+    background-color: #EEEEEE;
+}
 tr.utterance > td
+{
+    padding: 3px;
+}
+
+tr.commentary > td
 {
     padding: 3px;
 }
