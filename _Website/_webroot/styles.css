@@ -152,15 +152,15 @@ li:hover {
     box-shadow: none;
 }
 
-.photodiv {
+#photodiv {
     position:relative;
     display:inline-block;
     overflow:hidden;
 }
 
-.photodiv img {
-    width: 90%;
-    height: auto;
+#photodiv img {
+    width: auto;
+    height: 100%;
 }
 
 table, th, td {
@@ -202,6 +202,10 @@ tr.utterance > td
     padding: 3px;
 }
 
+.commentarytable {border: 2px; padding: 2px; border-collapse: collapse;}
+tr.commentary:hover {
+    background-color: #EEEEEE;
+}
 tr.commentary > td
 {
     padding: 3px;

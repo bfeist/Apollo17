@@ -4007,6 +4007,7 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |72-H-1412|||||||||||||Apollo 17 Lunar Module Pilot Harrison Schmitt deploys a geophone of the Lunar Seismic Profiling Experiment into the subsurface during a training exercise|J.L. Pickering|2-Nov-72
 |72-H-1413|||||||||||||Lunar Module for the Apollo 17 mission undergoes final checkout in the Manned Spacecraft Operations Building prior to mating to the Saturn V launch vehicle.|Ed Hengeveld|2-Nov-72
 |72-H-1420|||||||||||||The Apollo 17 Lunar Module undergoes testing prior to being enclosed in the adapter that will house it during the first four hours of flight to the Moon||7-Nov-72
+-02:40:00|72-H-1454|||||||||||||Saturn V on the pad||9-Dec-72
 |72-H-1460|||||||||||||Apollo 17 astronauts are seen suited up prior to final portion of week-long Countdown Demonstration Test|J.L. Pickering|30-Nov-72
 |72-H-1462|||||||||||||Cernan being suited in preparation for CDDT|J.L. Pickering|30-Nov-72
 |72-H-1464|||||||||||||Evans suits up in preparation for CDDT|J.L. Pickering|30-Nov-72
@@ -4021,6 +4022,7 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |72-H-1508|||||||||||||Apollo 17 crewmembers examine a commemorative display at the base of their Saturn V|Ed Hengeveld|4-Dec-72
 |72-H-1509|||||||||||||Apollo 17 crewmembers at the base of the Saturn V|Ed Hengeveld|4-Dec-72
 |72-H-1512|||||||||||||Eugene Cernan and Harrison Schmitt familiarize themselves with equipment used in the Lunar Module.|Ed Hengeveld|1-Dec-72
+-00:00:05|72-H-1515|||||||||||||Apollo 17 Launch||9-Dec-72
 |72-H-1516|||||||||||||Cernan waves to well-wishers as he and other Apollo 17 crewmembers leave the suiting area for brief ride to launch pad|J.L. Pickering|6-Dec-72
 |72-H-1517|||||||||||||Gene Cernan says goodbye to his family during the Apollo 17 walkout. KSC Security Chief Charlie Buckey is on the right|J.L. Pickering|6-Dec-72
 |72-H-1550|||||||||||||Apollo 17 descends toward splashdown||
@@ -4243,3 +4245,4 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |S73-38346|||||||||||||Gene Cernan and Jack Schmitt present flight controllers in Mission Control with U.S. flag carried to the Moon during mission||11-Dec-73
 |S77-28884|||||||||||||"Apollo 17 Command Module ""America"" on display"|J.L. Pickering|1977
 |S86-30759|||||||||||||Apollo 17 Command Module on display at JSC|J.L. Pickering|1986
+000:00:01|liftoff2-noID|||||||||||||Liftoff||9-Dec-72

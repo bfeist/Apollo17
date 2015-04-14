@@ -43,6 +43,8 @@
         var gLastTimeIdMarker = '';
         var gLastTOCTimeId = '';
         var gLastTOCTimeIdMarker = '';
+        var gLastCommentaryTimeId = '';
+        var gLastCommentaryTimeIdMarker = '';
         var gLastTimeIdChecked = '';
         var gCurrMissionTime = '';
         var gCurrMissionDate = null;
@@ -50,6 +52,10 @@
         var gYTList = [];
         var gTOCIndex = [];
         var gUtteranceIndex = [];
+        var gCommentaryIndex = [];
+        var gPhotoList = [];
+        var gPhotoIndex = [];
+        var gCurrentPhotoTimestamp = "";
         var gCurrVideoStartSeconds = -9442;
         var gCurrVideoEndSeconds = 0;
         var gPlaybackState = "normal";
@@ -263,6 +269,10 @@
                     //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
                     $("#timer").text(gCurrMissionTime);
                     scrollToTimeID(timeId);
+                    scrollTOCToTimeID(timeId);
+                    scrollCommentaryToTimeID(timeId);
+                    showCurrentPhoto(timeId);
+
                     missionTimeHistoricalDifference();
                 }
             }, 500); //polling frequency in milliseconds
@@ -283,8 +293,6 @@
                 timeIdMarker.css("background-color","#DDDDDD");
                 gLastTimeIdMarker = timeIdMarker;
                 transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
-
-                scrollTOCToTimeID(timeId);
             }
         }
 
@@ -306,6 +314,133 @@
                     gLastTOCTimeId = timeId;
                 } else {
                     console.log("TOC item already scrolled to. Not scrolling");
+                }
+            }
+        }
+
+        function scrollCommentaryToTimeID(timeId) {
+            if ($.inArray(timeId, gCommentaryIndex) != -1) {
+                console.log("scrollCommentaryToTimeID " + timeId);
+                //console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                if (timeId != gLastCommentaryTimeId) {
+                    $( "#tabs-left" ).tabs( "option", "active", 1 ); //activate the commentary tab
+
+                    var CommentaryFrame = $('#iFrameCommentary').contents();
+                    var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
+                    //reset background color of last line
+                    if (gLastCommentaryTimeIdMarker != '') {
+                        gLastCommentaryTimeIdMarker.css("background-color", "#FFFFFF");
+                    }
+                    CommentaryTimeIdMarker.css("background-color", "#DDDDDD");
+                    var CommentaryScrollDestination = CommentaryTimeIdMarker.offset().top - 100;
+                    CommentaryFrame.find('body').animate({scrollTop: CommentaryScrollDestination}, 500);
+                    gLastCommentaryTimeIdMarker = CommentaryTimeIdMarker;
+                    gLastCommentaryTimeId = timeId;
+                } else {
+                    console.log("Commentary item already scrolled to. Not scrolling");
+                }
+            }
+        }
+
+        function showCurrentPhoto(timeId) {
+            var timeStr = parseInt(timeId.substr(6,7));
+            //var closestTime = closest(timeStr, gPhotoIndex);
+
+            var CurrentClosestTime = parseInt(gPhotoIndex[0]);
+            var diff = Math.abs(timeStr - CurrentClosestTime);
+            for (var i = 0; i < gPhotoIndex.length; i++) {
+                if (gPhotoIndex[i] > timeStr) {
+                    break;
+                }
+                var newdiff = Math.abs(timeStr - parseInt(gPhotoIndex[i]));
+                if (newdiff < diff) {
+                    diff = newdiff;
+                    CurrentClosestTime = gPhotoIndex[i];
+                }
+            }
+            if (CurrentClosestTime != gCurrentPhotoTimestamp) {
+                for (var i = 0; i < gPhotoList.length; i++) {
+                    if (gPhotoList[i][0] == CurrentClosestTime) {
+                        var photoFilename = gPhotoList[i][1];
+                        break;
+                    }
+                }
+                if (gCurrentPhotoTimestamp != "") { //if not the first photo replacement, activate the photos tab.
+                    $( "#tabs-right" ).tabs( "option", "active", 1 );
+                }
+                gCurrentPhotoTimestamp = CurrentClosestTime;
+                console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
+
+                var imageURL = "http://apollo17.org/mission_images/" + photoFilename;
+                var anchor = document.createElement("a");
+                anchor.href = imageURL;
+                anchor.setAttribute('target', '_blank');
+                var img = document.createElement("IMG");
+                img.src = imageURL;
+                anchor.appendChild(img);
+
+                var photodiv = document.getElementById('photodiv');
+                photodiv.replaceChild(anchor, photodiv.childNodes[1]);
+            }
+        }
+
+        //--------------- transcript click handling --------------------
+        function seekToTime(elementId){
+            console.log("seekToTime " + elementId);
+            var signToggle = 1;
+            var timeStr = elementId.substr(6,7);
+            var sign = timeStr.substr(0,1);
+            var hours = parseInt(timeStr.substr(0,3));
+            var minutes = parseInt(timeStr.substr(3,2));
+            var seconds = parseInt(timeStr.substr(5,2));
+            signToggle = (sign == "-") ? -1 : 1;
+            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+
+            var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
+            for (var i = 0; i < gYTList.length; ++i) {
+                var itemStartTimeArray = gYTList[i][2].split(":");
+                var startHours = parseInt(itemStartTimeArray[0]);
+                var startMinutes = parseInt(itemStartTimeArray[1]);
+                var startSeconds = parseInt(itemStartTimeArray[2]);
+                signToggle = (startHours < 0) ? -1 : 1;
+                var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
+
+                var itemEndTimeArray = gYTList[i][3].split(":");
+                var endHours = parseInt(itemEndTimeArray[0]);
+                var endMinutes = parseInt(itemEndTimeArray[1]);
+                var endSeconds = parseInt(itemEndTimeArray[2]);
+                signToggle = (endHours < 0) ? -1 : 1;
+                var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+
+                if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
+                    var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
+                    //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
+                    if (itemStartTimeSeconds == 230400) {
+                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
+                            console.log("subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
+                            seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
+                        }
+                    }
+                    gCurrVideoStartSeconds = itemStartTimeSeconds;
+                    gCurrVideoEndSeconds = itemEndTimeSeconds;
+                    if (gPlaybackState != "rounding") { //if this function wasn't called from roundToNearestHistoricalTime then set that the transcript has been clicked
+                        gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+                    }
+                    //change youtube video if the correct video isn't already playing
+                    if (currVideoID !== gYTList[i][1]) {
+                        console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
+                        gNextVideoStartTime = seekToSecondsWithOffset;
+                        player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
+                        window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                        gIntervalID = setAutoScrollPoller();
+                    } else {
+                        console.log("no need to change video. Seeking to " + elementId.toString());
+                        player.seekTo(seekToSecondsWithOffset, true);
+                    }
+                    //findClosestUtterance(totalSeconds);
+                    scrollToTimeID(elementId);
+                    findClosestTOC(totalSeconds);
+                    break;
                 }
             }
         }
@@ -370,7 +505,7 @@
 //            console.log("Exactly " + humanizedRealtimeDifference);
         }
 
-        function roundToNearestHistoricalTime() {
+        function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
             //$("#roundedMissionTime").text(gCurrMissionDate);
             var d = Date.now();
             //var d = Date.parse("2015-12-07 6:33am GMT");
@@ -402,73 +537,6 @@
 
             gPlaybackState = "rounding";
             seekToTime(timeId);
-
-
-            //d.setHours(gCurrMissionDate.getHours());
-            //d.setMinutes (gCurrMissionDate.getMinutes());
-            //d.setSeconds(gCurrMissionDate.getSeconds());
-            //$("#roundedMissionTime").text(d);
-        }
-
-        //--------------- transcript click handling --------------------
-        function seekToTime(elementId){
-            console.log("seekToTime " + elementId);
-            var signToggle = 1;
-            var timeStr = elementId.substr(6,7);
-            var sign = timeStr.substr(0,1);
-            var hours = parseInt(timeStr.substr(0,3));
-            var minutes = parseInt(timeStr.substr(3,2));
-            var seconds = parseInt(timeStr.substr(5,2));
-            signToggle = (sign == "-") ? -1 : 1;
-            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
-
-            var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
-            for (var i = 0; i < gYTList.length; ++i) {
-                var itemStartTimeArray = gYTList[i][2].split(":");
-                var startHours = parseInt(itemStartTimeArray[0]);
-                var startMinutes = parseInt(itemStartTimeArray[1]);
-                var startSeconds = parseInt(itemStartTimeArray[2]);
-                signToggle = (startHours < 0) ? -1 : 1;
-                var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
-
-                var itemEndTimeArray = gYTList[i][3].split(":");
-                var endHours = parseInt(itemEndTimeArray[0]);
-                var endMinutes = parseInt(itemEndTimeArray[1]);
-                var endSeconds = parseInt(itemEndTimeArray[2]);
-                signToggle = (endHours < 0) ? -1 : 1;
-                var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
-
-                if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
-                    var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
-                    //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
-                    if (itemStartTimeSeconds == 230400) {
-                        if (seekToSecondsWithOffset > 3600) { //if at 065:00:00 or greater, subtract 000:02:40 to time
-                            console.log("subtracting 9600 seconds from " + seekToSecondsWithOffset + " due to MET time change");
-                            seekToSecondsWithOffset = seekToSecondsWithOffset - 9600;
-                        }
-                    }
-                    gCurrVideoStartSeconds = itemStartTimeSeconds;
-                    gCurrVideoEndSeconds = itemEndTimeSeconds;
-                    if (gPlaybackState != "rounding") { //if this function wasn't called from roundToNearestHistoricalTime then set that the transcript has been clicked
-                        gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
-                    }
-                    //change youtube video if the correct video isn't already playing
-                    if (currVideoID !== gYTList[i][1]) {
-                        console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
-                        gNextVideoStartTime = seekToSecondsWithOffset;
-                        player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
-                        window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-                        gIntervalID = setAutoScrollPoller();
-                    } else {
-                        console.log("no need to change video. Seeking to " + elementId.toString());
-                        player.seekTo(seekToSecondsWithOffset, true);
-                    }
-                    //findClosestUtterance(totalSeconds);
-                    scrollToTimeID(elementId);
-                    findClosestTOC(totalSeconds);
-                    break;
-                }
-            }
         }
 
         //--------------- youtube index file handling --------------------
@@ -490,6 +558,18 @@
                 url: "./utteranceIndex.csv?stopcache=" + Math.random(),
                 dataType: "text",
                 success: function(data) {processUtteranceIndexData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./commentaryIndex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processCommentaryIndexData(data);}
+            });
+            $.ajax({
+                type: "GET",
+                url: "./photoIndex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processPhotoIndexData(data);}
             });
         });
 
@@ -528,6 +608,31 @@
                 gUtteranceIndex[i] = "timeid" + data[0];
             }
             // alert(lines);
+        }
+
+        function processCommentaryIndexData(allText) {
+            console.log("processCommentaryIndexData");
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                gCommentaryIndex[i] = "timeid" + data[0];
+            }
+            // alert(lines);
+        }
+
+        function processPhotoIndexData(allText) {
+            console.log("processPhotoIndexData");
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                if (data[0] != "") {
+                    var rec = [];
+                    rec.push(data[0]);
+                    rec.push(data[1]);
+                    gPhotoList.push(rec);
+                    gPhotoIndex[i] = data[0];
+                }
+            }
         }
 
         $(document).ready(function() {
@@ -592,7 +697,7 @@
     <div class="outer-north">
         <div class="north-north">
             <div class="title">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
-            <div class="titleRight">Alpha Release v0.4 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+            <div class="titleRight">Alpha Release v0.5 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
         </div>
         <iframe class="north-west" src="allUtterances.html" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
         <div class="north-center">
@@ -609,7 +714,7 @@
                 <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="90%" width="99%"></iframe>
             </div>
             <div id="tabs-left-2">
-                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
+                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="90%" width="99%"></iframe>
             </div>
         </div>
         <div class="middle-center">
@@ -637,7 +742,7 @@
             </ul>
             <div class="ui-layout-content">
                 <div id="tabs-right-1">
-                    <P><B>This is an interactive exploration of the entire Apollo 17 Mission in real-time.<BR>
+                    <P><B>This is a real-time interactive exploration of the entire Apollo 17 Mission.<BR>
                     You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
                     <p>Instructions:</p>
                     <ul>
@@ -648,28 +753,25 @@
                     </ul>
                     <p>Recent Updates:</p>
                     <ul>
+                        <li>04/14/2015: v0.5 Commentary and imagery updates in real-time. Commentary for first day online. Imagery ongoing.</li>
                         <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
                         <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
                         <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
                         <li>03/25/2015: v0.1 Initial launch made public.</li>
                     </ul>
-                    <p><B>Note: This is a very early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. This interface represents a proof of concept. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in this way. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+                    <p><B>Note: This is an early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in full detail. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
                     <p>Planned Features:</p>
                     <ul>
                         <li>Interactive visual mission timeline navigation interface (bottom of screen).</li>
-                        <li>Inclusion of all mission photography (this window).</li>
-                        <li>Inclusion of post-mission astronaut commentary.</li>
                         <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
                         <li>Bookmarking and discussion notes for any timeline moment.</li>
                     </ul>
                 </div>
                 <div id="tabs-right-2">
-                    <div class="photodiv">
-                        <div>
-                            <a href="http://apollo17.org/mission_images/72-HC-888.jpg" target="_blank"><img src="http://apollo17.org/mission_images/72-HC-888.jpg"></a>
-                        </div>
+                    <div id="photodiv">
+                        <a href="http://apollo17.org/mission_images/133-20193.jpg" target="_blank"><img src="http://apollo17.org/mission_images/133-20193.jpg"></a>
                     </div>
-                    <span class="photoDescription">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center</span>
+                    <!--<span class="photoDescription">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center</span>-->
                 </div>
             </div>
         </div>
