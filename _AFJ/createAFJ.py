@@ -102,7 +102,7 @@ def get_combined_transcript_list():
     input_file_path = "../MISSION_DATA/A17 master support commentary.csv"
     commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
     for commentary_row in commentary_reader:
-        tempObj = CommentaryItem(get_sec(commentary_row[1]), commentary_row[1], commentary_row[0], commentary_row[2], commentary_row[3])
+        tempObj = CommentaryItem(get_sec(commentary_row[0]), commentary_row[0], commentary_row[1], commentary_row[2], commentary_row[3])
         master_list.append(tempObj)
 
     input_file_path = "../MISSION_DATA/photos.csv"

@@ -105,6 +105,8 @@
                 if (gPlaybackState == "unexpectedbuffering") {
                     console.log("PLAYING: was unexpected buffering so calling findClosestUtterance");
                     findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    findClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+                    findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds);
                     gPlaybackState = "normal";
                 }
                 if (gIntervalID == null) {
@@ -168,47 +170,31 @@
         }
 
         //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
-        function findClosestUtterance(totalSecSearch) {
-            console.log("findClosestUtterance: finding closest utterance to (seconds): " + totalSecSearch);
+        function findClosestUtterance(secondsSearch) {
+            console.log("findClosestUtterance: finding closest utterance to (seconds): " + secondsSearch);
             var found = false;
             var onCountdown = false;
-            var curSecSearch = totalSecSearch;
             if (gCurrVideoStartSeconds == 230400) {
-                if (curSecSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-                    curSecSearch = curSecSearch + 9600;
+                if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    secondsSearch = secondsSearch + 9600;
                 }
             }
-            if (totalSecSearch < 0) {
-                onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
-            }
-            var countSearches = 0;
-            while (!found) {
-                countSearches ++;
-                var hours = Math.abs(parseInt(curSecSearch / 3600));
-                var minutes = Math.abs(parseInt(curSecSearch / 60)) % 60;
-                var seconds = Math.abs(parseInt(curSecSearch)) % 60;
+            for (var i = 0; i < gUtteranceIndex.length; ++i) {
+                var hours = Math.abs(parseInt(secondsSearch / 3600));
+                var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(secondsSearch)) % 60;
                 seconds = Math.floor(seconds);
 
                 var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-                if (onCountdown) {
+                if (secondsSearch < 0) {
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
                 }
-
-                if ($.inArray(timeId, gUtteranceIndex) != -1) {
-                    found = true;
-                    console.log("searched utterance array, found closest: " + timeId + " after " + countSearches + " searches");
-                    scrollToTimeID(timeId);
+                if (parseInt(timeId.substr(6)) < parseInt(gUtteranceIndex[i].substr(6))) {
+                    console.log("searched utterance array, found closest: " + gUtteranceIndex[i - 1] + " after " + i + " searches");
+                    scrollToTimeID(gUtteranceIndex[i - 1]);
                     break;
-                } else {
-                    //console.log("not found: " + timeId + " | " + curSecSearch);
-                    if (onCountdown) {
-                        curSecSearch--; //if we're on the countdown, search forward in time for the closest utterance
-                    } else {
-                        curSecSearch--;
-                    }
                 }
             }
-            findClosestTOC(curSecSearch);
         }
 
         function findClosestTOC(secondsSearch) {
@@ -219,8 +205,8 @@
                     secondsSearch = secondsSearch + 9600;
                 }
             }
-            var i;
-            for (i = 0; i < gTOCIndex.length; ++i) {
+            var scrollDestination = gTOCIndex[gTOCIndex.length - 1];
+            for (var i = 0; i < gTOCIndex.length; ++i) {
                 var hours = Math.abs(parseInt(secondsSearch / 3600));
                 var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
                 var seconds = Math.abs(parseInt(secondsSearch)) % 60;
@@ -231,11 +217,40 @@
                     timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
                 }
                 if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i].substr(6))) {
-                    console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
-                    scrollTOCToTimeID(gTOCIndex[i - 1]);
+                    scrollDestination = gTOCIndex[i - 1];
                     break;
                 }
             }
+            console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
+            scrollTOCToTimeID(scrollDestination);
+        }
+
+        function findClosestCommentary(secondsSearch) {
+            console.log("findClosestCommentary: finding closest commentary to (seconds): " + secondsSearch);
+            var onCountdown = false;
+            if (gCurrVideoStartSeconds == 230400) {
+                if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+                    secondsSearch = secondsSearch + 9600;
+                }
+            }
+            var scrollDestination = gCommentaryIndex[gCommentaryIndex.length - 1];
+            for (var i = 0; i < gCommentaryIndex.length; ++i) {
+                var hours = Math.abs(parseInt(secondsSearch / 3600));
+                var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+                var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+                seconds = Math.floor(seconds);
+
+                var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+                if (secondsSearch < 0) {
+                    timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+                }
+                if (parseInt(timeId.substr(6)) < parseInt(gCommentaryIndex[i].substr(6))) {
+                    scrollDestination = gCommentaryIndex[i - 1];
+                    break;
+                }
+            }
+            console.log("searched commentary array, found closest: " + gCommentaryIndex[i - 1] + " after " + i + " searches");
+            scrollCommentaryToTimeID(scrollDestination);
         }
 
         //--------------- transcript iframe autoscroll handling --------------------
@@ -298,9 +313,9 @@
 
         function scrollTOCToTimeID(timeId) {
             if ($.inArray(timeId, gTOCIndex) != -1) {
-                console.log("scrollTOCToTimeID " + timeId);
                 //console.log("TOC item found in array. Scrolling TOC to " + timeId);
                 if (timeId != gLastTOCTimeId) {
+                    console.log("scrollTOCToTimeID " + timeId);
                     var TOCFrame = $('#iFrameTOC').contents();
                     var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
                     //reset background color of last line
@@ -320,11 +335,11 @@
 
         function scrollCommentaryToTimeID(timeId) {
             if ($.inArray(timeId, gCommentaryIndex) != -1) {
-                console.log("scrollCommentaryToTimeID " + timeId);
-                //console.log("TOC item found in array. Scrolling TOC to " + timeId);
+                //console.log("scrollCommentaryToTimeID " + timeId);
                 if (timeId != gLastCommentaryTimeId) {
                     $( "#tabs-left" ).tabs( "option", "active", 1 ); //activate the commentary tab
 
+                    console.log("scrollCommentaryToTimeID " + timeId);
                     var CommentaryFrame = $('#iFrameCommentary').contents();
                     var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
                     //reset background color of last line
@@ -437,9 +452,10 @@
                         console.log("no need to change video. Seeking to " + elementId.toString());
                         player.seekTo(seekToSecondsWithOffset, true);
                     }
-                    //findClosestUtterance(totalSeconds);
-                    scrollToTimeID(elementId);
+                    findClosestUtterance(totalSeconds);
+                    //scrollToTimeID(elementId);
                     findClosestTOC(totalSeconds);
+                    findClosestCommentary(totalSeconds);
                     break;
                 }
             }
@@ -502,7 +518,7 @@
 
             //console.log("currMissionTime: " + gCurrMissionTime);
             //console.log("currMissionDate: " + gCurrMissionDate);
-//            console.log("Exactly " + humanizedRealtimeDifference);
+            //console.log("Exactly " + humanizedRealtimeDifference);
         }
 
         function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
@@ -613,7 +629,7 @@
         function processCommentaryIndexData(allText) {
             console.log("processCommentaryIndexData");
             var allTextLines = allText.split(/\r\n|\n/);
-            for (var i = 0; i < allTextLines.length; i++) {
+            for (var i = 0; i < allTextLines.length - 1; i++) {
                 var data = allTextLines[i].split('|');
                 gCommentaryIndex[i] = "timeid" + data[0];
             }
@@ -719,8 +735,8 @@
         </div>
         <div class="middle-center">
             <div class="missionTimes">
-                <div class="missionTime"><strong>Mission Elapsed Time:</strong>
-                    <span id="timer">00</span>
+                <div id="missionTime">Mission Elapsed Time:
+                    <span id="timer">000:00:00</span>
                 </div>
                 <div class="historicalTime"><strong>Historical Time:</strong>
                     <div id="historicalTime"></div>

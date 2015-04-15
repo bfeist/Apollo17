@@ -182,9 +182,14 @@ p img {
 .missionTimes {
     font-size: 100%;
 }
-.missionTime {
+#missionTime {
+    font-weight: bold;
+    font-size: 120%;
     padding-bottom: 20px;
-    font-size: 125%;
+}
+#timer {
+    font-weight: normal;
+    font-size: 100%;
 }
 .historicalTime {
     padding-bottom: 20px;
@@ -215,12 +220,19 @@ tr.commentary > td
 .spokenwords{font-weight:normal;}
 .afjdef		{color: black;}
 .afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
+.afjgeted   {color: gray;}
 .afjpao    	{color: DarkGreen;}
 .afjtec		{color: black;}
 .afjwho		{font-weight:bold; text-align:right;}
 .afjother	{color: #2B547E;}
-.afjed		{color: #2B547E;}
-.afjedwords {color: #2B547E;}
+.afjed		{
+    color: #2B547E;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+.afjedwords {
+    color: #2B547E;
+}
 .afjedwords::before	{content: "[ "}
 .afjedwords::after	{content: " ]"}
 
@@ -230,4 +242,7 @@ tr.commentary > td
 
 .afjphoto	{color: red; margin-left:70px}
 
-.afjsrc		{font-style:italic}
+.afjsrc	{
+    font-style:italic;
+    color: SaddleBrown;
+}
