@@ -386,7 +386,10 @@
                 gCurrentPhotoTimestamp = CurrentClosestTime;
                 console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-                var imageURL = "http://apollo17.org/mission_images/" + photoFilename;
+                var imageMetadata = "./mission_images/" + photoFilename + ".html";
+                $("#photoDescription").load(imageMetadata);
+
+                var imageURL = "./mission_images/img/" + photoFilename;
                 var anchor = document.createElement("a");
                 anchor.href = imageURL;
                 anchor.setAttribute('target', '_blank');
@@ -784,10 +787,11 @@
                     </ul>
                 </div>
                 <div id="tabs-right-2">
+                    <!--<iframe src="./mission_images/72-H-1454.jpg.html" class="iFrameClass" id="iFramePhoto" name="iFramePhoto" scrolling="yes" height="100%" width="100%"></iframe>-->
                     <div id="photodiv">
-                        <a href="http://apollo17.org/mission_images/133-20193.jpg" target="_blank"><img src="http://apollo17.org/mission_images/133-20193.jpg"></a>
+                        <a href="http://apollo17.org/mission_images/img/133-20193.jpg" target="_blank"><img src="http://apollo17.org/mission_images/img/133-20193.jpg"/></a>
                     </div>
-                    <!--<span class="photoDescription">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center</span>-->
+                    <div id="photoDescription"></div>
                 </div>
             </div>
         </div>
