@@ -64,7 +64,7 @@ def write_image_file(photo_object):
     """
     ##--------------------------------- Write photo page
     template_loader = FileLoader('templates')
-    output_photo_index_file_name_and_path = "./_webroot/mission_images/" + photo_object.filename + ".html"
+    output_photo_index_file_name_and_path = "./_webroot/mission_images/meta/" + photo_object.filename + ".html"
     output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
     output_photo_index_file.write("")
     output_photo_index_file.close()

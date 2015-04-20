@@ -337,7 +337,8 @@
             if ($.inArray(timeId, gCommentaryIndex) != -1) {
                 //console.log("scrollCommentaryToTimeID " + timeId);
                 if (timeId != gLastCommentaryTimeId) {
-                    $( "#tabs-left" ).tabs( "option", "active", 1 ); //activate the commentary tab
+                    //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
+                    $("#commentaryTab").effect("highlight", {color: '#DDDDDD'}, 1000); //blink the commentary tab
 
                     console.log("scrollCommentaryToTimeID " + timeId);
                     var CommentaryFrame = $('#iFrameCommentary').contents();
@@ -386,7 +387,7 @@
                 gCurrentPhotoTimestamp = CurrentClosestTime;
                 console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-                var imageMetadata = "./mission_images/" + photoFilename + ".html";
+                var imageMetadata = "./mission_images/meta/" + photoFilename + ".html";
                 $("#photoDescription").load(imageMetadata);
 
                 var imageURL = "./mission_images/img/" + photoFilename;
@@ -530,7 +531,7 @@
             //var d = Date.parse("2015-12-07 6:33am GMT");
             var currDayOfMonth = d.getDate();
 
-            if (currDayOfMonth > 19) {
+            if (currDayOfMonth >= 19) {
                 d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
             } else if (currDayOfMonth < 7) {
                 d.setDate(currDayOfMonth + (7 - currDayOfMonth));
@@ -726,8 +727,8 @@
     <div class="outer-center">
         <div id="tabs-left" class="middle-west">
             <ul>
-                <li><A href="#tabs-left-1"><SPAN>Table of Contents</SPAN></A></li>
-                <li><A href="#tabs-left-2"><SPAN>Mission Commentary</SPAN></A></li>
+                <li><A id="tocTab" href="#tabs-left-1"><SPAN>Table of Contents</SPAN></A></li>
+                <li><A id="commentaryTab" href="#tabs-left-2"><SPAN>Mission Commentary</SPAN></A></li>
             </ul>
             <div id="tabs-left-1">
                 <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="90%" width="99%"></iframe>

@@ -103,7 +103,8 @@ li:hover {
     color: #000000;
 }
 #tabs-right .ui-tabs-nav .ui-state-active a {
-    color: #459e00;
+    /*color: #459e00;*/
+    color: #006400;
     /*color: black;*/
 }
 #tabs-left {
@@ -134,7 +135,7 @@ li:hover {
     color: #000000;
 }
 #tabs-left .ui-tabs-nav .ui-state-active a {
-    color: #459e00;
+    color: #006400;
     /*color: black;*/
 }
 
@@ -243,7 +244,7 @@ tr.commentary > td
 .afjdef		{color: black;}
 .afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
 .afjgeted   {color: gray;}
-.afjpao    	{color: DarkGreen;}
+.afjpao    	{color: #006400;}
 .afjtec		{color: black;}
 .afjwho		{font-weight:bold; text-align:right;}
 .afjother	{color: #2B547E;}
