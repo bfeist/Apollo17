@@ -668,8 +668,8 @@
 |002:52:55|CC|17 - -
 ||||Tape 4/7|Page 33
 |002:52:55|LMP|And, Bob, in case you're interested, there - all through the nightside pass here - there's a - quite a strong - well - stronger than I would have ever expected - horizon glow off to the north. I suspect that, I think Gene said a while ago that it's around on his side also.
-|002:53:13|CC|Roger. Guys , I've got the word you wanted to hear; you are GO for TLI - you're GO for the Moon.
-|002:53:20|CDR|Okay, Robert. I understand. America and Challenger with their S-IVB are GO for TLI.
+|002:53:12|CC|Roger. Guys , I've got the word you wanted to hear; you are GO for TLI - you're GO for the Moon.
+|002:53:20|CDR|Okay, Robert. Understand. America and Challenger with their S-IVB are GO for TLI.
 |002:53:26|CC|That's affirmative.
 |002:53:29|CDR|You're a sweet talker.
 |002:53:32|CC|We try to please here, Gene.
@@ -981,14 +981,14 @@
 |003:59:48|CC|Roger, We're working some words up here. We'll be back with you in a second on that, Gene.
 |003:59:53|CDR|Okay. We're down on the checklist through the EDS POWER breakers, OPEN.
 |003:59:59|CC|Understand.
-|004:00:57|CDR|And, Houston, in case we didn't tell you, it's talkback A that's barber pole.
+|004:00:57|CMP|And, Houston, in case we didn't tell you, it's talkback A that's barber pole.
 |004:01:02|CC|Understand. We have it.
 |004:01:14|CC|Say - say, Gene, we don't think it's a problem. We'll find out what it is when you get in. We think we should just press right on with the Flight Plan checklist and keep going.
-|004:01:27|CDR|Okay, we concur with that. Okay, we'll press on, Bob.
+|004:01:27|CMP|Okay, we concur with that. Okay, we'll press on, Bob.
 |004:01:58|CDR|Okay, Bob. We just got a MASTER ALARM when I went to the RETRACT PRIME, from 1 to OFF.
 |004:02:07|CC|Roger. We copy that. Looks like panel 2 is jinxed up there, huh?
 ||||Tape 5/12|Page 49
-|004:03:29|CDR|Okay, O2 HEATER number 3 went to AUTO.
+|004:03:29|CMP|Okay, O2 HEATER number 3 went to AUTO.
 |004:03:35|CC|Roger. We copy that.
 |004:08:08|CDR|Okay, Bob. We're reading a DELTA-P of greater than 4, and I'm going to open the PRESSURE EQUALIZATION VALVE now.
 |004:08:18|CC|Roger, 17. We copy that.
@@ -997,7 +997,7 @@
 |004:09:44|CC|Gene, while you're watching that, I just thought you'd be interested. We talked to some of our friends down at the Cape who watched the launch, and they said you were aglow all the way until you faded into - you couldn't tell you from a star. They saw staging, and they could just see you as a star way off in the distance until you faded out. Not a cloud in the way at all.
 |004:09:53|CDR|Beautiful. Okay, we're at - we're at 2, and we're monitoring it for 3 minutes.
 |004:09:59|CC|Okay.
-|004:10:08|LMP|And, Houston. While we're checking the integrity here, on mag Alfa Alfa, there's about 50 percent.
+|004:10:08|CMP|And, Houston. While we're checking the integrity here, on mag Alfa Alfa, there's about 50 percent.
 |004:10:18|CC|Mag Alfa Alfa, 50 percent. Roger.
 |004:11:59|PAO|This is Apollo Control at 4 hours 12 minutes. The crew aboard Apollo 17 at this time pressing ahead with their preparations for separating the lunar module and command module, now docked together from the Saturn third stage. You heard some conversation earlier about an indication that all of the docking latches have not locked up. Now there are 12 of these latches in the docking mechanism, 6 of which are instrumented, and of the 6 that are instrumented, there was an indication that one of those may not have latched. However, we are confident that more than enough latches have locked up to assure a good solid dock, and for that reason the crew is pressing ahead with their preparations for separation.
 |004:12:54|CDR|Okay, Bob. That's 3 minutes. It's - DELTA-P change is less than 0.1.
@@ -1008,17 +1008,18 @@
 |004:14:41|CMP|Okay, you want cabin's at 4.8 now; REPRESS is about empty. Okay. No, not yet, it's still getting a little bit.
 |004:15:04|CMP|That REPRESS PACKAGE VALVE is kind of noisy.
 ||||Tape 5/13|Page 50
-|004:15:19|CMP|That's all the REPRESS O2. We'll turn that OFF. Okay, Houston, the REPRESS PACKAGE is empty now, and we're down to a DELTA-P of 0.2.
+|004:15:19|CMP|That's all the REPRESS O2. We'll turn that OFF.
+|004:15:24|CDR|Okay, Houston, the REPRESS PACKAGE is empty now, and we're down to a DELTA-P of 0.2.
 |004:15:30|CC|Roger. We copy that.
 |004:15:40|CC|And, 17. Just be advised, you're going to have an S-IVB nonpropulsive vent start 04:18:27- You've got about 3 minutes on that.
-|004:15:51|CDR|(Laughter) Okay. Thank you.
+|004:15:51|CMP|(Laughter) Okay. Thank you.
 |004:17:03|LMP|Can you reach ... there?
 |004:17:05|CMP|Yes, I'll get them.
 |004:17:07|CDR|Okay, Bob. We seem to be holding DELTA-P at about 0.2. I suspect that's probably zero.
 |004:17:18|CC|Roger. We copy that.
-|004:17:24|CDR|And the cabin pressure's about 4.5. You want us to wait until 5 PSI for the EMERGENCY CABIN PRESSURE SELECTS?
+|004:17:24|LMP|And the cabin pressure's about 4.5. You want us to wait until 5 PSI for the EMERGENCY CABIN PRESSURE SELECTS?
 |004:17:42|CC|Negative on that. Let's just go ahead and let's press on.
-|004:17:46|CDR|Okay. They should be BOTH.
+|004:17:46|LMP|Okay. They should be BOTH.
 |004:17:57|CMP|Okay, EMERGENCY register working.
 |004:18:09|CMP|Coming down though, Gene. Let's wait until it gets down a little ways.
 |004:18:28|CMP|Yes.
@@ -1029,27 +1030,27 @@
 ||||Tape 5/14|Page 51
 |004:19:24|CMP|It looks like a rainbow. Dark one.
 |004:19:40|CMP|Okay. REPRESS PACKAGE to FILL.
-|004:19:47|CDR|That ought to take the surge tank down a little bit ... about at what? About 400?
-|004:20:03|CDR|500 on the surge. No, they ought to be closed off by now, I think. Yes.
+|004:19:47|CMP|That ought to take the surge tank down a little bit ... about at what? About 400?
+|004:20:03|CMP|500 on the surge. No, they ought to be closed off by now, I think. Yes.
 |004:20:16|CC|17, Houston.
-|004:20:18|CDR|Go ahead.
+|004:20:18|CMP|Go ahead.
 |004:20:20|CC|Roger. Be advised, you don't have to wait until 5 PSI cabin to go ahead and open the hatch.
 |004:20:26|CDR|Okay, we're not, Bob. We're pressing on with it now.
 |004:20:27|CC|Roger.
-|004:20:30|CDR|Okay, it looks like we're going to maintain about 400 on the surge.
+|004:20:30|CMP|Okay, it looks like we're going to maintain about 400 on the surge.
 |004:21:04|CMP|Okay?
 |004:21:18|CDR|Okay, Houston. The hatch is coming out.
 |004:21:21|CC|Roger.
 |004:21:26|CMP|(Laughter) I don't know what you're going to do with it.
-|004:21:39|CDR|Put it up here in the - in the - on the couch.
-|004:21:57|CDR|There we go.
-|004:21:58|CDR|Hey, that's a lot lighter than it used to be (laughter).
+|004:21:39|CMP|Put it up here in the - in the - on the couch.
+|004:21:57|CMP|There we go.
+|004:21:58|CMP|Hey, that's a lot lighter than it used to be (laughter).
 |004:22:04|CDR|There's going to be a lot of happy people down there, Bob. I haven't checked them all, but visually, they're all locked.
 |004:22:10|CC|Understand, Gene. All of them are locked.
 |004:22:13|CDR|Let me give them a good check.
 ||||Tape 5/15|Page 52
 |004:22:15|CMP|Yes. You'd better check them, because we got a barber pole on that one.
-|004:22:21|CDR|Okay, here's one that *** over.
+|004:22:21|CDR|Okay, here's one that didn't come over.
 |004:22:25|CMP|What is the position of it?
 |004:22:27|CDR|7 ***
 |004:22:45|CMP|7 and 9?
@@ -1068,11 +1069,12 @@
 |004:25:20|CDR|Yes.
 |004:25:21|CMP|And it took two cocks to make it go?
 |004:25:24|CDR|Yes.
+|004:25:25|CMP|Okay.
 |004:25:30|CDR|Okay, 9 cocked twice; it tripped. It is overcenter and locked.
 |004:25:34|CC|Roger. How about the barber pole now?
 |004:25:38|CMP|Okay. Wait a minute, I've got - DOCKING PROBE MAIN A circuit breaker's IN and gone to RETRACT, and it's gray.
 |004:25:44|CC|Okay - -
-|004:25:44|CDR|Aha! That did it.
+|004:25:44|CMP|Aha! That did it.
 |004:25:46|CC|Roger.
 |004:26:13|CDR|Okay, Bob. Cocked 7 twice and tripped it, and it's overcenter and locked.
 |004:26:18|CC|Roger.
@@ -1082,7 +1084,7 @@
 |004:27:14|CMP|Because it belongs on the probe. ... it's painted yellow, it belongs on the probe.
 |004:28:34|CDR|Okay, Bob. The umbilicals are connected.
 |004:28:39|CC|Roger.
-|004:29:33|LMP|Okay, Houston, 7 Delta on the test meter is now reading 1.0, it jumped up to 2.6, and is now back to 1.0.
+|004:29:33|CDR|Okay, Houston, 7 Delta on the test meter is now reading 1.0, it jumped up to 2.6, and is now back to 1.0.
 |004:29:43|CC|Roger. We copy. That's good.
 |004:30:06|PAO|This is Apollo Control at 4 hours 30 minutes. About 9 minutes from now the crew will be firing the pyrotechnic charges that separate the lunar module docked to the command module from the Saturn third stage, and springs will push the LM CSM back away from the launch vehicle at a rate of about 1 foot per second, and at Ground Elapsed Time of 4 hours 52 minutes the launch vehicle will yaw to the proper attitude for an evasive manuever of about 10 feet per second to be performed at a Ground Elapsed Time of about 5 hours 3 minutes. This will increase the separation difference to assure no chance of recontact between the booster and the spacecraft on route to the Moon. On removing the hatch between the LM, the CSM, allowing the crew to get a look inside the docking tunnel, they found that 3 of the 12 latches had not locked up, but on manually recocking them and activating them, they latched up properly, which indicates that there's nothing physically wrong with the system. And we would expect that the next time the 2 vehicles come together to dock that the latches will function properly.
 ||||Tape 5/17|Page 54
@@ -1091,7 +1093,7 @@
 |004:32:30|CDR|Okay, Bob, the hatch is back in.
 |004:32:36|CC|Roger, Gene.
 |004:34:24|CC|17, Houston.
-|004:34:27|CMP|Go ahead, Houston.
+|004:34:27|LMP|Go ahead, Houston.
 |004:34:28|CC|Roger. We've got some new - new angles here for you.
 |004:34:43|LMP|Stand by a minute, and let me find a place to copy them.
 |004:34:49|CMP|What - what kind of angles are they, Bob?
@@ -1100,7 +1102,7 @@
 |004:35:06|CC|Instead of 270, we want 274.
 |004:35:11|CMP|Wait 1. We're not quite with you.
 |004:35:12|CC|Okay.
-|004:35:42|CMP|Okay. I think I'm with you at 3-7; go.
+|004:35:42|LMP|Okay. I think I'm with you at 3-7; go.
 |004:35:48|CC|It's on 3-5, Jack, middle of the page there. Those NOUN 22s.
 |004:35:56|LMP|Okay, I take it back; 3-5, middle of the page.
 |004:36:01|CC|Okay. You notice there's three angles there - 270, make that 274.
@@ -1123,24 +1125,24 @@
 |004:42:04|CC|Roger.
 |004:42:05|LMP|O2 - O2 seems a little higher H2, relatively speaking. (laughter)
 |004:42:26|CMP|Okay. That's pretty close. Verified: SECS ARM breakers are CLOSED.
-|004:42:33|CMP|Okay, Houston. We're ready to come up with the LOGIC.
+|004:42:33|CDR|Okay, Houston. We're ready to come up with the LOGIC.
 ||||Tape 5/19|Page 56
 |004:42:42|CMP|Okay, Houston, LOGIC 1 is coming on now and LOGIC 2.
 |004:42:48|CC|Roger.
 |004:43:13|CMP|And, Houston, just to keep track of EMS null bias check that time, was - went from 100 to 100.7 in 100 seconds.
 |004:43:34|CC|17, we'd like to just verify on that top line S-IVB/LM SEP circuit breakers - both of them are CLOSED?
-|004:43:45|CMP|Okay, we'll verify them again. We doublechecked them.
+|004:43:45|CDR|Okay, we'll verify them again. We doublechecked them.
 |004:43:49|CC|Okay, we just didn't hear your call and we want to make sure of that. Didn't want to miss anything here.
-|004:43:53|CMP|Okay. They are - they are verified CLOSED, and Jack just checked them again.
+|004:43:53|CDR|Okay. They are - they are verified CLOSED, and Jack just checked them again.
 |004:43:57|CC|Okay. You are GO for PYRO ARM and GO for extraction.
-|004:44:01|CMP|Okay, GO for PYRO ARM; GO for PYRO extraction - or LM extraction (laughter).
+|004:44:01|CDR|Okay, GO for PYRO ARM; GO for PYRO extraction - or LM extraction (laughter).
 |004:44:09|LMP|Okay, PYRO ARM.
 |004:44:10|CMP|Okay, we'll ARM the old PYROs. There's PYRO A; PYRO B.
 |004:44:17|LMP|SERVO POWER number 1 ...
 |004:44:19|CMP|TVC SERVO POWER, AC 1.
 |004:44:21|LMP|TRANS CONTROL POWER, up and ON.
 |004:44:24|CMP|TRANS CONTROL POWER is ON.
-|004:44:29|LMP|Okay, ROT CONTROLLERS are ARMED. Okay, I'll wait just a little bit on that - EMS to NORMAL. Get DELTA-V ...
+|004:44:29|CMP|Okay, ROT CONTROLLERS are ARMED. Okay, I'll wait just a little bit on that - EMS to NORMAL. Get DELTA-V ...
 |004:44:58|CMP|Okay, EMS to NORMAL? Push right there. Yes.
 ||||Tape 5/20|Page 57
 |004:45:06|CDR|Okay; on my mark, the S-IVB/LM SEP will come on.
@@ -1160,16 +1162,16 @@
 |004:47:29|CMP|Okay. POWER'S OFF. Hey, Jack. Hand me the Hasselblad. I think we're bowing the right direction. Yes, the Moon is there. The Earth is - that's the Earth.
 |004:47:52|CMP|SERVO POWER'S OFF, yes.
 |004:47:56|CMP|The Earth just fills up window 5. Okay, f infinity, about a 250th.
-|004:48:15|CMP|What - what do you have? A zero in there? Hey, I lost my watch. Turn the AC OFF. Yes, AC is OFF. Whoo, what a beauty! What a beauty! Yes, the Earth. I can see the S-IVB it's going ...
+|004:48:15|CMP|What - what do you have? A zero in there? Hey, I lost my watch. Turn the AC OFF. Yes, AC is OFF. Whoops, what a beauty! What a beauty! Yes, the Earth. I can see the S-IVB it's going ...
 ||||Tape 6/1|Page 58
-|004:48:45|SC|Look at that.
-|004:48:48|LMP|Yes, Madagascar and Africa. Got to be.
-|004:49:00|CDR|... see it.
-|004:49:02|LMP|Got to be.
-|004:49:05|SC|Yes, as soon as I find the S-IVB, we'll -
-|004:49:21|LMP|Hey, there's Antarctica. It's all full of snow. Okay. You want to look?
+|004:48:45|CMP|Look at that.
+|004:48:48|CMP|Yes, Madagascar and Africa. Got to be.
+|004:49:00|CMP|... see it.
+|004:49:02|CMP|Got to be.
+|004:49:05|CMP|Yes, as soon as I find the S-IVB, we'll -
+|004:49:21|CMP|Hey, there's Antarctica. It's all full of snow. Okay. You want to look?
 |004:49:35|CMP|Yeah.
-|004:49:42|LMP|Yes. Oh, there it goes, there. Looks kind of empty down there without the LM - -
+|004:49:42|CMP|Yes. Oh, there it goes, there. Looks kind of empty down there without the LM - -
 |004:49:53|CDR|Okay, Bob, we're looking right up the dome of the S-IVB.
 |004:50:03|CC|Roger. We copy that. We're standing by for your GO for yaw maneuver.
 |004:50:19|CMP|We can give them a GO for yaw, can't we? We can see it now.
@@ -1181,8 +1183,8 @@
 |004:51:16|CC|Sounds like you are taking a picture of that old dome out there, huh?
 ||||Tape 6/2|Page 59
 |004:51:22|CMP|Oh, we're at the end. (Laughter) We're at the end - you know.
-|004:52:21|SC|... In there.
-|004:52:35|LMP|Hey, there it goes. Look at the aft fire of the thing.
+|004:52:21|CMP|... In there.
+|004:52:35|CMP|Hey, there it goes. Look at the aft fire of the thing.
 |004:52:38|CDR|Yes, we can see it fire now.
 |004:52:46|CC|Roger, 17. Yaw maneuver started.
 |004:52:54|PAO|The Saturn third stage now maneuvering into attitude for the APS evasive maneuver, a 10 foot per second burn using the auxiliary propulsion system that will assure -.
@@ -1213,7 +1215,7 @@
 |004:59:19|CC|Roger that.
 |004:59:22|LMP|That was right after we separated from the S-IVB.
 |004:59:28|CC|Roger.
-|004:59:29|CDR|CSM SEP - CSM SEP, Bob.
+|004:59:29|LMP|CSM SEP - CSM SEP, Bob.
 ||||Tape 6/4|Page 61
 |004:59:33|CC|Roger. Understand.
 |004:59:37|CDR|Bob, I know - I know we're not the first to discover this, but we'd like to confirm, from the crew of America, that the world is round.
@@ -1221,7 +1223,8 @@
 |005:00:02|CDR|Well, on Ron's window number 1 - maybe he can tell you a little about it.
 |005:00:09|CMP|You know, it's yeal funny there in Antarctica the - You can see the snow, but there isn't any weather at all in it. All of the weather's around it in the water.
 |005:00:18|CC|Roger.
-|005:00:20|LMP|That's where the moisture is. I don't know what to take a picture of.
+|005:00:20|LMP|That's where the moisture is.
+|005:00:26|CMP|I don't know what to take a picture of.
 |005:01:12|CMP|I can't see the U.S. at all.
 |005:01:14|CC|17, Houston.
 |005:01:16|CDR|Go ahead.
@@ -10376,7 +10379,7 @@
 |118:23:51|CDR|Houston - -
 |118:23:53|LMP|That's beautiful.
 |118:23:55|CDR|This has got to be one of the most proud moments of my life. I guarantee you. Let you get a close in one and we'll trade cameras. Houston, I don't know how many of you are aware of this, but this - this flag has flown in the MOCR since Apollo 11. And we very proudly deploy it on the Moon, to stay for as long as it can, in honor of all those people who have worked so hard to put us here and to put every other crew here and to make the country, United States and mankind, something different than it was.
-|118:24:52|CC|Roger, 17 - And presuming to speak in behalf of some of those that work on the MOCR, we thank you very much.
+|118:24:52|CC|Roger, 17 - And presuming to speak on behalf of some of those that work on the MOCR, we thank you very much.
 |118:25:05|CDR|Back right where you were. Step to the right. Right there.
 |118:25:19|LMP|Yes, that's alright. I'll keep it down.
 |118:25:35|LMP|Stay there. Get closer. I'm going to get on the other side.
@@ -32901,7 +32904,7 @@
 |257:54:30|CDR|We got a couple of hard and soft covers, don't forget.
 |257:54:33|CMP|Yes, yes, there's a couple of covers on there. You know, the old EVA pole, I thought when I was looking at that the other day - it depended on what kind of light you're in - it looked like it was burned a little bit. And, sure enough, it is. Okay, let's see, now, which way did I turn on on this thing. I'm still backwards down here. What the heck? (Humming)
 |257:55:23|CMP|Okay, well, we need to get that big old pan camera. (Humming) Oops.
-|257:55:55|CMP|Okay, I'm locked in there, and you can relax a little bit. Let's see, old suit pressure is - must be breathing a little bit, it's up to 40. (Humming)
+|257:55:55|CMP|Okay, I'm locked in there, and you can relax a little bit. Let's see, old suit pressure is - must be breathing a little bit, it's up to 4.0. (Humming)
 |257:56:14|CDR|Houston, this is America. Everything is looking good from here.
 |257:56:19|CMP|Houston, this is - Let's see, when you're EVA, they use - they use your name, don't they?
 |257:56:25|CC|Okay, Ron. Yes, sir, we'll use it, Ron.

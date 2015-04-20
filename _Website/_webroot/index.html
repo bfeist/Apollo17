@@ -337,7 +337,8 @@
             if ($.inArray(timeId, gCommentaryIndex) != -1) {
                 //console.log("scrollCommentaryToTimeID " + timeId);
                 if (timeId != gLastCommentaryTimeId) {
-                    $( "#tabs-left" ).tabs( "option", "active", 1 ); //activate the commentary tab
+                    //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
+                    $("#commentaryTab").effect("highlight", {color: '#DDDDDD'}, 1000); //blink the commentary tab
 
                     console.log("scrollCommentaryToTimeID " + timeId);
                     var CommentaryFrame = $('#iFrameCommentary').contents();
@@ -386,7 +387,10 @@
                 gCurrentPhotoTimestamp = CurrentClosestTime;
                 console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-                var imageURL = "http://apollo17.org/mission_images/" + photoFilename;
+                var imageMetadata = "./mission_images/meta/" + photoFilename + ".html";
+                $("#photoDescription").load(imageMetadata);
+
+                var imageURL = "./mission_images/img/" + photoFilename;
                 var anchor = document.createElement("a");
                 anchor.href = imageURL;
                 anchor.setAttribute('target', '_blank');
@@ -527,7 +531,7 @@
             //var d = Date.parse("2015-12-07 6:33am GMT");
             var currDayOfMonth = d.getDate();
 
-            if (currDayOfMonth > 19) {
+            if (currDayOfMonth >= 19) {
                 d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
             } else if (currDayOfMonth < 7) {
                 d.setDate(currDayOfMonth + (7 - currDayOfMonth));
@@ -723,8 +727,8 @@
     <div class="outer-center">
         <div id="tabs-left" class="middle-west">
             <ul>
-                <li><A href="#tabs-left-1"><SPAN>Table of Contents</SPAN></A></li>
-                <li><A href="#tabs-left-2"><SPAN>Mission Commentary</SPAN></A></li>
+                <li><A id="tocTab" href="#tabs-left-1"><SPAN>Table of Contents</SPAN></A></li>
+                <li><A id="commentaryTab" href="#tabs-left-2"><SPAN>Mission Commentary</SPAN></A></li>
             </ul>
             <div id="tabs-left-1">
                 <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="90%" width="99%"></iframe>
@@ -784,10 +788,11 @@
                     </ul>
                 </div>
                 <div id="tabs-right-2">
+                    <!--<iframe src="./mission_images/72-H-1454.jpg.html" class="iFrameClass" id="iFramePhoto" name="iFramePhoto" scrolling="yes" height="100%" width="100%"></iframe>-->
                     <div id="photodiv">
-                        <a href="http://apollo17.org/mission_images/133-20193.jpg" target="_blank"><img src="http://apollo17.org/mission_images/133-20193.jpg"></a>
+                        <a href="http://apollo17.org/mission_images/img/133-20193.jpg" target="_blank"><img src="http://apollo17.org/mission_images/img/133-20193.jpg"/></a>
                     </div>
-                    <!--<span class="photoDescription">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center</span>-->
+                    <div id="photoDescription"></div>
                 </div>
             </div>
         </div>

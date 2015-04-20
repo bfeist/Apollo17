@@ -103,7 +103,8 @@ li:hover {
     color: #000000;
 }
 #tabs-right .ui-tabs-nav .ui-state-active a {
-    color: #459e00;
+    /*color: #459e00;*/
+    color: #006400;
     /*color: black;*/
 }
 #tabs-left {
@@ -134,7 +135,7 @@ li:hover {
     color: #000000;
 }
 #tabs-left .ui-tabs-nav .ui-state-active a {
-    color: #459e00;
+    color: #006400;
     /*color: black;*/
 }
 
@@ -156,11 +157,33 @@ li:hover {
     position:relative;
     display:inline-block;
     overflow:hidden;
+    float: left;
 }
 
 #photodiv img {
     width: auto;
     height: 100%;
+}
+
+#photoDescription {
+    border: black;
+}
+
+.photoTable {
+    margin:0px;padding:0px;
+    border:1px solid #000000;
+    border-collapse: collapse;
+}
+.photoTable td{
+    vertical-align:middle;
+    border: 1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:10px;
+    font-size:12px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
 }
 
 table, th, td {
@@ -221,7 +244,7 @@ tr.commentary > td
 .afjdef		{color: black;}
 .afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
 .afjgeted   {color: gray;}
-.afjpao    	{color: DarkGreen;}
+.afjpao    	{color: #006400;}
 .afjtec		{color: black;}
 .afjwho		{font-weight:bold; text-align:right;}
 .afjother	{color: #2B547E;}
