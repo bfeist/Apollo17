@@ -94,7 +94,7 @@
 |-00:00:21|CC|Minus 20.
 |-00:00:10|PAO|10 ... 9 ... 8 ... 7 ... ignition sequence started - all engines are started - we have ignition 2, 1, zero - we have a liftoff.
 |-00:00:10|CC|10 ... 9 ... 8 ... 7 ... ignition ... 6 ... 5 ... 4 ... 3 ... 2 ... 1
-|-00:00:01|CDR|Get the light.
+|-00:00:01|CDR|Look at the light!
 |000:00:00|CC|Liftoff.
 |000:00:00|PAO|We have a liftoff and it's lighting up the area, it's just like daylight here at Kennedy Space Center as the Saturn V is moving off the pad. It has now cleared the tower.
 ||||Tape 2/1|Page 10
@@ -159,9 +159,9 @@
 |000:02:19|CDR|Inboard cut-off.
 |000:02:20|CC|Roger. Inboard.
 |000:02:22|PAO|Inboard engines shutting down on-time as planned. Crew will experience maximum G forces of about 4 Gs at shutdown. Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
-|000:02:23|CDR|Okay, not hold on after staging.
+|000:02:23|CDR|Okay, now hold on after staging guys.
 |000:02:24|LMP|Standby gang.
-|000:02:25|CMP|Okay. Here's 20. Where's the ...? Okay, it's 19.
+|000:02:25|CMP|Okay. Here's 20. Where's the safety? Okay, it's 19.
 |000:02:29|CDR|Now at 41. It's 41. ... seconds
 |000:02:30|CDR|3 1/2 gs.
 |000:02:34|CDR|Hold on!
@@ -174,7 +174,7 @@
 |000:02:50|CMP|Okay, standby to ...
 |000:02:53|LMP|Sure felt like it. I think we saw them all from here.
 |000:02:57|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
-|000:03:01|CDR|Okay; 3 minutes and we're GO.
+|000:03:01|CDR|Okay; 3 minutes and we're GO. See how smooth ...
 |000:03:04|CC|Roger, 17.
 |000:03:05|CMP|Geez, this is smooth. Okay, got some tower switches ...
 |000:03:07|CDR|Come on, baby! Go!
@@ -191,7 +191,7 @@
 |000:03:28|CDR|Okay, ... command.
 |000:03:32|CMP|Okay, alpha ...
 |000:03:32|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
-|000:03:36|CDR|Okay, Bob. I just confirmed guidance.
+|000:03:36|CDR|Okay, Bob. I do confirm guidance.
 |000:03:38|CMP|And, ELS SEP circuit breakers when you get a chance there, Gene.
 |000:03:41|PAO|That's the automatic guidance system, the inertial guidance system, performing properly.
 |000:03:43|CDR|Okay, Bob, I got the ELS SEP circuit breakers. And we've seen it all: ignition, staging, and tower.
@@ -199,10 +199,10 @@
 |000:03:53|LMP|By the way, the cabin's sealed (laughter).
 |000:03:56|PAO|Apollo 17 now 65 miles high.
 |000:03:56|CDR|Okay guys, we've got a long way to go.
-|000:03:58|CMP|Okay, ...
+|000:03:58|CMP|Okay, I'll tell you where in the hell we're going here.
 |000:04:01|CDR|Okay; 4 minutes and we're GO here, Bob.
 |000:04:04|CC|Roger, Gene. We're going round the room. Looks GO here.
-|000:04:09|CDR|21 degrees. REMOTE 2, Ron.
+|000:04:09|CDR|21 degrees. We're MODE 2, Ron.
 |000:04:09|CMP|Okay -
 |000:04:09|CC|You're looking real good, Gene. Right down the line.
 |000:04:13|CMP|Okay, H and H-DOT looks pretty good.
@@ -212,8 +212,10 @@
 |000:04:30|CC|Roger, 17. You're GO.
 |000:04:33|CDR|Let me tell you, this night launch is something to behold.
 |000:04:38|CMP|Okay, H and H-DOT are good.
-|000:04:46|CDR|Okay, I don't know if you'll be able to pick up any horizon. No, it's too dark - too light in here.
+|000:04:46|CDR|Okay, I don't know if you'll be able to pick up any horizon.
 |000:04:49|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
+|000:04:50|CMP|No, it's too dark - too light in here.
+|000:04:52|CDR|Yes.
 |000:04:55|CDR|Okay, let's keep - on. One G.
 |000:04:58|LMP|I got some stars out on the right, but I don't see -
 |000:05:02|CC|Five minutes, Geno, and you're GO down here. You're looking great.
@@ -231,7 +233,7 @@
 |000:05:37|CDR|Okay. ...
 |000:05:40|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
 |000:05:52|CDR|I forget anything yet, Ron?
-|000:05:54|CMP|No.
+|000:05:54|CMP|Nope.
 |000:05:54|CDR|Okay, we're still MODE 2, coming up on -
 |000:05:56|CC|Standby for S-IVB to COI capability.
 |000:05:59|CC|MARK. S-IVB to COI capability.
@@ -254,17 +256,17 @@
 |000:06:35|LMP|Okay, our calibration on that tank changed a little bit again, apparently.
 |000:06:39|CDR|Okay.
 |000:06:40|LMP|Down at 90%.
-|000:06:41|CMP|... On the tank 2?
+|000:06:41|CMP|90? On the tank 2?
 |000:06:44|LMP|On the hydrogen.
-|000:06:45|CMP|Hydrogen ...
+|000:06:45|CMP|Hydrogen. TANK 3, I mean.
 |000:06:46|CC|Stand by for S-IVB to orbit capability.
 |000:06:49|CDR|Roger, Bob. ...
 |000:06:49|CC|MARK. S-IVB to orbit capability. And we'd like OMNI Delta, Jack.
 |000:06:54|LMP|Roger. You've got it.
 |000:06:56|CMP|Okay, 7 minutes ...
 |000:07:00|CC|Roger.
-|000:07:00|CDR|7 ... 6 degrees. How does that sound?
-|000:07:01|CMP|Okay, that's good. 17, 3. Let's see, 119. We go to ...
+|000:07:00|CDR|7, and I'm 6 degrees. How does that sound?
+|000:07:01|CMP|Okay, that's good. 17, 3. Let's see, 119. We go to ... half a mile high.
 |000:07:03|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
 |000:07:08|CDR|Seven minutes, Bob. We're looking good onboard.
 |000:07:11|CC|Roger.
@@ -281,9 +283,9 @@
 |000:07:47|PAO|And that inboard shutdown looked to be on time. Apollo 17 now 625 miles downrange, 93 miles in altitude.
 |000:07:50|CDR|Okay, she pitches up just like the simulator.
 |000:07:51|CMP|Yep. Sure does. Pitches -
-|000:07:56|CDR|(grunting noise)
-|000:07:56|CMP|Is that hard to reach ...
-|000:07:57|CDR|Yes. ...
+|000:07:56|LMP|(grunting noise)
+|000:07:56|CMP|Is that hard to reach, Jack?
+|000:07:57|LMP|Yes. Why don't you take it down, I can't quite - G and a half is too much.
 |000:08:01|CDR|Eight minutes, and we are GO.
 |000:08:03|CC|Roger, 17. You're looking great.
 |000:08:08|CDR|Okay, ... standby for a PU shift.
@@ -320,7 +322,7 @@
 |000:09:33|CDR|Did you see it go past us?
 |000:09:35|CMP|Yes.
 |000:09:36|LMP|We're right in the flame.
-|000:09:37|CDR|Yes, that's what the Titan used to do. Used to fly through the flame ... Let's, let's press on here we've got a lot to do. We're MODE 4.
+|000:09:37|CDR|Yes, that's what the Titan used to do. Used to fly through the flame of that thing. Let's, let's press on here we've got a lot to do. We're MODE 4.
 |000:09:45|PAO|We're up to 23,000 feet per second - we'll be shooting for something over 25,000.
 |000:09:46|CMP|Yes.
 |000:09:47|CDR|Okay, we're at - a little less than 1/2 G.
@@ -332,19 +334,19 @@
 |000:10:07|CC|17; Houston. You are GO for orbit - GO for orbit.
 |000:10:11|CDR|Those are kind words, Robert. We're GO for orbit here.
 |000:10:15|CC|Good show, Gene.
-|000:10:18|CDR|Okay, coming off about 3.0, Ron.
+|000:10:18|CDR|Okay, coming up on 3.0, Ron.
 |000:10:20|CMP|Okay.
 |000:10:20|CDR|Doublecheck everything.
 |000:10:21|PAO|Coming up on 10 minutes 30 seconds after liftoff and the spacecraft launch vehicle now 11,000 - 1,100 miles, rather, downrange, altitude 93.4 miles.
 |000:10:22|CMP|3.0, 347 degrees. 23.9. Okay, we're a little bit high.
 |000:10:28|CDR|I couldn't see a star if I had to right now.
-|000:10:29|CMP|I couldn't either. Velocity's a little high.
+|000:10:29|LMP|I couldn't either. Velocity's a little high.
 ||||Tape 2/5|Page 14
 |000:10:31|CDR|Okay. 10:30 and we're GO.
 |000:10:33|CMP|H-DOT's a little high. A little bit low -
 |000:10:34|CC|Roger, 17. You're looking great.
 |000:10:36|CDR|Okay, the cutoff is VI plus 100.
-|000:10:37|CMP|VI ... okay, I'll ... down.
+|000:10:37|CMP|VI ... okay, I'll count you down.
 |000:10:52|PAO|And we're about 1 minute from shutdown, about 1 minute from orbit insertion.
 |000:11:04|CDR|Eleven minutes and we are GO.
 |000:11:06|CC|Roger, Gene. And cut-off will be at 11 plus 47, 11 plus 47.
