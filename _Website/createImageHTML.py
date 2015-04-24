@@ -71,8 +71,10 @@ def write_image_file(photo_object):
 
     output_photo_index_file = open(output_photo_index_file_name_and_path, "a")
     item_template = template_loader.load_template('template_photo_page.html')
-    output_photo_index_file.write(item_template.render({'photo_num': photo_object.photo_num,
-                                                        'magazine': photo_object.mag_code + "-" + photo_object.mag_number,
+    output_photo_index_file.write(item_template.render({'timestamp': photo_object.timestamp,
+                                                        'photo_num': photo_object.photo_num,
+                                                        'mag_code': photo_object.mag_code,
+                                                        'mag_number': photo_object.mag_number,
                                                         'photographer': photo_object.photographer,
                                                         'description': photo_object.description},loader=template_loader))
 
