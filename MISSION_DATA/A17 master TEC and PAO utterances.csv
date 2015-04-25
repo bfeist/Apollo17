@@ -103,114 +103,116 @@
 |000:00:10|CDR|Roger; tower. Yaw's complete. We're into roll, Bob.
 |000:00:13|CC|Roger, Geno. Looking great. Thrust good on all five engines.
 |000:00:17|CDR|Okay, babe. It's looking good here. Roll is complete. We are pitching.
-|000:00:25|PAO|This is Mission Control. Gene Cernan reporting the launch vehicle maneuvering to the proper attitude, everything looking good at this point.
-|000:00:26|CMP|Wow woozle!
-|000:00:27|CDR|Okay, babe. Let's check the angles.
-|000:00:29|CMP|Thirty seconds. We're going up. Man, oh, man!
-|000:00:32|CDR|Thirty seconds, and 17 is GO.
-|000:00:35|CC|Roger, 17. You're GO.
-|000:00:38|PAO|First stage looks good. Altitude 1.1 miles.
-|000:00:43|CMP|Okay, 1 minute and 68 degrees.
-|000:00:45|CDR|Okay.
-|000:00:46|LMP|Everything looks great over here, Gene.
-|000:00:48|CDR|Okay. Okay, stand-by for MAX - coming up on MAX Q. We'll be at 68 degrees.
-|000:00:55|SC|... Okay.
-|000:00:56|PAO|Booster says we look good. We are now at 2.5 miles.
-|000:00:57|CC|17, stand by for Mode I Bravo -
-|000:00:59|CC|MARK. Mode I Bravo.
-|000:01:01|CDR|Roger. I Bravo; we're GO at 1 minute.
-|000:01:04|CC|Roger, Gene. You're looking great. Right on the line.
-|000:01:06|PAO|Everybody says "Looking great - Right on the line." We're now 1 mile down range. Launch vehicle 4,2 miles high.
-|000:01:07|CDR|Okay, we got the RCS command.
-|000:01:09|CC|17, you are feet wet - feet wet.
-|000:01:11|CDR|Roger. Feet wet.
-|000:01:13|CMP|Man, this thing shakes like a son-of-a-gun.
+|000:00:27|PAO|This is Mission Control. Gene Cernan reporting the launch vehicle maneuvering to the proper attitude, everything looking good at this point.
+|000:00:28|CMP|Wow woozle!
+|000:00:29|CDR|Okay, babe. Let's check the angles.
+|000:00:31|CMP|Thirty seconds. We're going up. Man, oh, man!
+|000:00:34|CDR|Thirty seconds, and 17 is GO.
+|000:00:37|CC|Roger, 17. You're GO.
+|000:00:40|PAO|First stage looks good. Altitude 1.1 miles.
+|000:00:45|CMP|Okay, 1 minute and 68 degrees.
+|000:00:47|CDR|Okay.
+|000:00:48|LMP|Everything looks great over here, Gene.
+|000:00:49|CDR|Okay. Okay, stand-by for MAX - coming up on MAX Q. We'll be at 68 degrees.
+|000:00:57|LMP|... Okay.
+|000:00:58|PAO|Booster says we look good. We are now at 2.5 miles.
+|000:00:59|CC|17, stand by for Mode I Bravo -
+|000:01:01|CC|MARK. Mode I Bravo.
+|000:01:03|CDR|Roger. I Bravo; we're GO at 1 minute.
+|000:01:06|CC|Roger, Gene. You're looking great. Right on the line.
+|000:01:08|PAO|Everybody says "Looking great - Right on the line." We're now 1 mile down range. Launch vehicle 4,2 miles high.
+|000:01:09|CDR|Okay, we got the RCS command.
+|000:01:10|CC|17, you are feet wet - feet wet.
+|000:01:12|CDR|Roger. Feet wet.
+|000:01:14|CMP|Man, this thing shakes like a son-of-a-gun.
 |000:01:15|CDR|Yes, that's MAX Q. Wait until we get out of MAX Q. Stay down there Q-meter.
-|000:01:23|PAO|Coming up on maximum dynamic pressure at this point. 4 miles down range, 8 miles high and the velocity approaching 3000 feet per second.
-|000:01:25|CDR|Okay. 1:30 and about 50 degrees.
-|000:01:30|CMP|50 Degrees. Okay, right on.
-|000:01:32|CDR|01:30, and we are GO, Bob.
-|000:01:34|CC|Roger, Gene. You're looking great.
-|000:01:36|CDR|2 gs. 2 1/2 gs. See it quiets out after MAX Q.
-|000:01:40|CMP|Yes. Quiets out.
-|000:01:42|CDR|Pushing 3 gs.
-|000:01:44|CMP|I can't - can't hold my hand up there anymore. (laughter)
-|000:01:47|CDR|Okay, we're out of MAXQ.
-|000:01:49|CMP|Okay. Cabin seal looking good.
-|000:01:50|CDR|Alpha's PC.
-|000:01:52|CMP|Okay, standby for -
-|000:01:54|CC|Stand by for Mode I Charlie, 17.
-|000:01:56|CDR|- I Charlie.
-|000:01:56|CC|MARK. Mode I Charlie.
-|000:01:58|PAO|And the flight dynamics officer says we look good on all sources, right on the trajectory.
-|000:01:58|CDR|Roger, I Charlie. 2 minutes EDS.
-|000:02:00|CMP|EDS.
-|000:02:00|CDR|EDS is OFF and we are GO. ...
+|000:01:20|CMP|Man.
+|000:01:25|PAO|Coming up on maximum dynamic pressure at this point. 4 miles down range, 8 miles high and the velocity approaching 3000 feet per second.
+|000:01:27|CDR|Okay. 1:30 and about 50 degrees.
+|000:01:32|CMP|50 Degrees. Okay, right on.
+|000:01:33|CDR|01:30, and we are GO, Bob.
+|000:01:36|CC|Roger, Gene. You're looking great.
+|000:01:37|CDR|2 gs. 2 1/2 gs. See it quiets out after MAX Q.
+|000:01:42|CMP|Yes. Quiets out.
+|000:01:43|CDR|Pushing 3 gs.
+|000:01:45|CMP|I can't - can't hold my hand up there anymore. (laughter)
+|000:01:48|CDR|Okay, we're out of MAXQ.
+|000:01:50|CMP|Okay. Cabin seal looking good.
+|000:01:52|CDR|Alpha's PC.
+|000:01:54|CMP|Okay, standby for -
+|000:01:55|CC|Stand by for Mode I Charlie, 17.
+|000:01:57|CDR|- I Charlie.
+|000:01:58|CC|MARK. Mode I Charlie.
+|000:02:00|PAO|And the flight dynamics officer says we look good on all sources, right on the trajectory.
+|000:02:00|CDR|Roger, I Charlie. 2 minutes EDS.
+|000:02:02|CMP|EDS.
+|000:02:02|CDR|EDS is OFF and we are GO. ...
 ||||Tape 2/2|Page 11
-|000:02:03|CC|Roger, 17; you're GO.
+|000:02:05|CC|Roger, 17; you're GO.
 |000:02:06|CDR|... 3 gs. 3 1/2. Standby for inboard.
-|000:02:07|PAO|Flight Director, Gene Kranz, taking a status for staging, we say we look good for staging.
-|000:02:10|CC|17, you are GO for staging.
-|000:02:11|CDR|Roger. We're GO here.
-|000:02:12|CDR|Did you get your VERB 82?
-|000:02:14|CMP|No.
-|000:02:15|CDR|Standby for inboard.
-|000:02:16|CMP|Okay. That's VERB 82.
-|000:02:19|CDR|Inboard cut-off.
-|000:02:20|CC|Roger. Inboard.
-|000:02:22|PAO|Inboard engines shutting down on-time as planned. Crew will experience maximum G forces of about 4 Gs at shutdown. Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
-|000:02:23|CDR|Okay, now hold on after staging guys.
-|000:02:24|LMP|Standby gang.
-|000:02:25|CMP|Okay. Here's 20. Where's the safety? Okay, it's 19.
-|000:02:29|CDR|Now at 41. It's 41. ... seconds
-|000:02:30|CDR|3 1/2 gs.
-|000:02:34|CDR|Hold on!
-|000:02:35|CDR|Okay. 5 seconds. ... gs. 4 gs.
+|000:02:09|PAO|Flight Director, Gene Kranz, taking a status for staging, we say we look good for staging.
+|000:02:11|CC|17, you are GO for staging.
+|000:02:13|CDR|Roger. We're GO here.
+|000:02:14|CDR|Did you get your VERB 82?
+|000:02:15|CMP|No.
+|000:02:17|CDR|Standby for inboard.
+|000:02:18|CMP|Okay. That's VERB 82.
+|000:02:20|CDR|Inboard cut-off.
+|000:02:21|CC|Roger. Inboard.
+|000:02:24|PAO|Inboard engines shutting down on-time as planned. Crew will experience maximum G forces of about 4 Gs at shutdown. Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
+|000:02:24|CDR|Okay, now hold on after staging guys.
+|000:02:26|LMP|Standby gang.
+|000:02:27|CMP|Okay. Here's 20. Where's the safety?
+|000:02:28|LMP|Okay, it's 19.
+|000:02:30|CDR|Now at 41. It's 41. ... seconds
+|000:02:32|CDR|3 1/2 gs.
+|000:02:35|CDR|Hold on!
+|000:02:37|CDR|Okay. 5 seconds. ... gs. 4 gs.
 |000:02:41|CMP|Jesus Christ!
 |000:02:41|CDR|I told you to hold on. Look at that son-of-a-bitch. Man!
-|000:02:44|CMP|Jesus crimany! (laughter)
-|000:02:48|CDR|Okay, Bob. I guess we got all five.
-|000:02:49|CC|Roger. They're looking here - looking good.
-|000:02:50|CMP|Okay, standby to ...
-|000:02:53|LMP|Sure felt like it. I think we saw them all from here.
-|000:02:57|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
-|000:03:01|CDR|Okay; 3 minutes and we're GO. See how smooth ...
-|000:03:04|CC|Roger, 17.
-|000:03:05|CMP|Geez, this is smooth. Okay, got some tower switches ...
-|000:03:07|CDR|Come on, baby! Go!
-|000:03:10|CMP|Okay, 13.
-|000:03:12|SC|Okay, we just had skirt sep.
-|000:03:14|CMP|19, 15, 17.
-|000:03:16|CC|Roger. We confirm skirt sep.
-|000:03:17|CDR|Watch it, Jack!
-|000:03:18|CMP|16, there it goes -
-|000:03:19|CDR|There goes the tower.
-|000:03:20|CMP|Man, there she goes!
-|000:03:21|CC|Roger. The tower; you're Mode II.
-|000:03:23|CDR|Roger, We're mode II.
-|000:03:28|CDR|Okay, ... command.
-|000:03:32|CMP|Okay, alpha ...
-|000:03:32|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
-|000:03:36|CDR|Okay, Bob. I do confirm guidance.
-|000:03:38|CMP|And, ELS SEP circuit breakers when you get a chance there, Gene.
-|000:03:41|PAO|That's the automatic guidance system, the inertial guidance system, performing properly.
-|000:03:43|CDR|Okay, Bob, I got the ELS SEP circuit breakers. And we've seen it all: ignition, staging, and tower.
-|000:03:50|CC|Roger. Got you.
-|000:03:53|LMP|By the way, the cabin's sealed (laughter).
-|000:03:56|PAO|Apollo 17 now 65 miles high.
-|000:03:56|CDR|Okay guys, we've got a long way to go.
-|000:03:58|CMP|Okay, I'll tell you where in the hell we're going here.
-|000:04:01|CDR|Okay; 4 minutes and we're GO here, Bob.
-|000:04:04|CC|Roger, Gene. We're going round the room. Looks GO here.
+|000:02:46|CMP|Jesus crimany! (laughter)
+|000:02:49|CDR|Okay, Bob. I guess we got all five.
+|000:02:51|CC|Roger. They're looking here - looking good.
+|000:02:53|CMP|Okay, standby to ...
+|000:02:55|LMP|Sure felt like it. I think we saw them all from here.
+|000:02:58|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
+|000:03:03|CDR|Okay; 3 minutes and we're GO. See how smooth ...
+|000:03:06|CC|Roger, 17.
+|000:03:07|CMP|Geez, this is smooth. Okay, got some tower switches ...
+|000:03:09|CDR|Come on, baby! Go!
+|000:03:11|CMP|Okay, 13.
+|000:03:13|CDR|Okay, we do have skirt sep.
+|000:03:16|CMP|19, 15, 17.
+|000:03:18|CC|Roger. We confirm skirt sep.
+|000:03:19|CDR|Watch it, Jack!
+|000:03:20|CMP|16, there it goes -
+|000:03:21|CDR|There goes the tower.
+|000:03:22|CMP|Man, there she goes!
+|000:03:23|CC|Roger. The tower; you're Mode II.
+|000:03:25|CDR|Roger, We're Mode II.
+|000:03:29|CDR|Okay, ... command.
+|000:03:34|CMP|Okay, alpha ...
+|000:03:34|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
+|000:03:38|CDR|Okay, Bob. I do confirm guidance.
+|000:03:40|CMP|And, ELS SEP circuit breakers when you get a chance there, Gene.
+|000:03:43|PAO|That's the automatic guidance system, the inertial guidance system, performing properly.
+|000:03:45|CDR|Okay, Bob, I got the ELS SEP circuit breakers. And we've seen it all: ignition, staging, and tower.
+|000:03:52|CC|Roger. Got you.
+|000:03:54|LMP|By the way, the cabin's sealed (laughter).
+|000:03:58|PAO|Apollo 17 now 65 miles high.
+|000:03:58|CDR|Okay guys, we've got a long way to go.
+|000:04:00|CMP|Okay, I'll tell you where in the hell we're going here.
+|000:04:03|CDR|Okay; 4 minutes and we're GO here, Bob.
+|000:04:06|CC|Roger, Gene. We're going round the room. Looks GO here.
 |000:04:09|CDR|21 degrees. We're MODE 2, Ron.
-|000:04:09|CMP|Okay -
-|000:04:09|CC|You're looking real good, Gene. Right down the line.
-|000:04:13|CMP|Okay, H and H-DOT looks pretty good.
-|000:04:16|LMP|We got a 30 and a 430. I can't really see that, let's see.
+|000:04:11|CMP|Okay -
+|000:04:11|CC|You're looking real good, Gene. Right down the line.
+|000:04:15|CMP|Okay, H and H-DOT looks pretty good.
+|000:04:18|LMP|We got a 30 and a 430. I can't really see that, let's see.
 ||||Tape 2/3|Page 12
-|000:04:27|CDR|Okay; 04:30 and we're still GO onboard.
+|000:04:28|CDR|Okay; 04:30 and we're still GO onboard.
 |000:04:30|CC|Roger, 17. You're GO.
-|000:04:33|CDR|Let me tell you, this night launch is something to behold.
+|000:04:34|CDR|Let me tell you, this night launch is something to behold.
 |000:04:38|CMP|Okay, H and H-DOT are good.
 |000:04:46|CDR|Okay, I don't know if you'll be able to pick up any horizon.
 |000:04:49|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
