@@ -187,7 +187,7 @@
 |000:03:19|CDR|Watch it, Jack!
 |000:03:20|CMP|16, there it goes -
 |000:03:21|CDR|There goes the tower.
-|000:03:22|CMP|Man, there she goes!
+|000:03:22|CMP|Wow, there she goes!
 |000:03:23|CC|Roger. The tower; you're Mode II.
 |000:03:25|CDR|Roger, We're Mode II.
 |000:03:29|CDR|Okay, ... command.
@@ -1234,23 +1234,23 @@
 |005:01:16|CDR|Go ahead.
 |005:01:17|CC|Look's like you've got a superconservative CMP up there. We've run off some numbers - Looks like you used about 40 pounds of RCS on the T&D, and you've used about a total of 42 pounds RCS total; so we're hanging right in there. Beautiful.
 |005:01:34|CDR|Very fine; glad to hear that.
-|005:01:37|SC|... velvet touch.
+|005:01:37|LMP|... velvet touch.
 |005:01:40|CMP|Still a little bit too much, but that's not bad.
 |005:01:42|CDR|We'll be glad to leave all that extra, I hope, in the service module when we get home.
 |005:02:47|CMP|It's in the Volkswagen pouch down there.
-|005:03:10|LMP|Oh, I'll change the lens now.
+|005:03:10|CMP|Oh, I'll change the lens now.
 ||||Tape 6/5|Page 62
 |005:03:11|CC|17, Houston. It's about 30 seconds from the evasive maneuver burn.
 |005:03:17|CDR|Okay.
 |005:03:19|CMP|Here, Jack, can you see him good? Check the settings there. I took an f/22 stop.
 |005:03:51|CDR|There it goes, Bob.
-|005:03:52|LMP|There it goes; finally.
+|005:03:52|CMP|There it goes; finally.
 |005:03:54|CC|Roger.
 |005:05:11|PAO|This is Apollo Control at 5 hours 5 minutes.
 |005:05:12|CC|17, Houston. The evasive burn is complete, and the LOX dump will be at 5 plus 24 plus 20.
 |005:05:23|CDR|Okay; 5 plus 24 plus 20.
 |005:05:25|CC|Roger.
-|005:05:26|LMP|It's going to be gone, I think, before we see it.
+|005:05:26|CMP|It's going to be gone, I think, before we see it.
 |005:05:41|CDR|And, Bob, you can tell Frank to forget the - returning that phone call I made to him a couple days ago.
 |005:05:50|CC|Roger. Understand.
 |005:05:54|CDR|All my questions are answered.
@@ -1260,9 +1260,9 @@
 |005:06:08|CDR|Okay. That's - fair enough.
 |005:06:21|CDR|The S-IC and the S-II didn't put on a bad show either.
 |005:06:24|CC|That's right.
-|005:08:38|CMP|Houston, magazine November November is on about 1/23 right now.
+|005:08:38|CMP|Houston, magazine November November is on about 123 right now.
 ||||Tape 6/6|Page 63
-|005:08:46|CC|Okay, Ron. Magazine November November is on 1/23.
+|005:08:46|CC|Okay, Ron. Magazine November November is on 123.
 |005:08:55|CDR|And, Bob, we're on page 3-9 of the Flight Plan now. We'll check the LM/CM DELTA-P, get the cabin fan filter in. We'll go over the check - the Systems Checklist, get the primary EVAP and a few odds and ends, and start doffing our PGAs. How's that sound?
 |005:09:16|CC|Sounds like a winner, Gene.
 |005:09:19|CDR|Okay.
@@ -1294,14 +1294,14 @@
 |005:18:21|CC|Could we get a read-out on the LM/CM DELTA-P?
 |005:18:51|LMP|Plus 0.4.
 |005:18:56|CC|Roger. We copy that.
-|005:19:00|CDR|Bob, Antarctica is what I would call effectively just a solid white cap down on the - South Pole. There's definite contact between the continent and the water. But, as Ron said, most of the clouds seem to be very artistic, very picturesque - some in clockwise rotating fashion but appear to be very thin where you can, for the most part, kind of see through those clouds to the blue water below.
+|005:19:00|CDR|Bob, Antarctica is what I would call effectively just a solid white cap down on the - South Pole. There's definite contact between the continent and the water. But, as Ron said, most of the clouds seem to be, well very artistic, very picturesque - some in clockwise rotating fashion but appear to be very thin where you can, for the most part, kind of see through those clouds to the blue water below.
 ||||Tape 6/8|Page 65
 |005:19:45|CC|Roger.
 |005:19:46|CDR|The continent - the continent itself is - is the same color as the clouds; but, of course, more dense - and striking difference than any of the other white background around because you can definitely see that contact with the water and with the clouds over the water.
-|005:20:05|CC|Roger. Understand. There'll soon be a comm switch over to Madrid here shortly. We may break ... In just a few minutes here. Or a few seconds, rather.
+|005:20:05|CC|Roger. Understand. There'll soon be a comm switch over to Madrid here shortly. We may break lock in a few minutes here. Or a few seconds, rather.
 |005:20:26|CC|And you might watch - your accumulator's going to cycle in about 20 seconds here. Let's see what happens on the MASTER ALARM.
 |005:21:03|CC|17, Houston. How do you read through Madrid?
-|005:21:07|CMP|You're loud and clear, Bob, and could you give us our distance from the Earth?
+|005:21:07|LMP|You're loud and clear, Bob, and could you give us our distance from the Earth?
 |005:21:12|CC|Roger. I'm looking up at the board. I'd guess at about 19,000 miles. Want me to get it exact?
 |005:21:18|CMP|No, just approximate's good enough.
 |005:21:24|CC|18,100, FIDO says.
@@ -1319,7 +1319,7 @@
 ||||Tape 6/10|Page 67
 |005:26:30|CDR|Okay. Sounds good. That's the way they built it for us.
 |005:27:29|CC|Gene, looking at our plot board, you're directly over the southern tip of Africa or just slightly out in the Indian Ocean there, according to our plot board, which isn't exactly accurate all the time. But shortly you're going to start going backwards on the Earth here and head back across the Atlantic. That ought to be some sort of a first. You cross the Atlantic twice, going from west to east, and then, now you're going to cross it going from east to west here shortly. All in a very short span of time.
-|005:28:09|CDR|Yes. I guess that does sound like a first.
+|005:28:09|LMP|Yes. I guess that does sound like a first.
 |005:30:00|PAO|This is Apollo Control at 5 hours 30 minutes Ground Elapsed Time. The white team of flight controllers, headed by Gene Krantz, is in the process now, of handing over to the team headed by flight director Pete Frank. After 12 hours, the team came on about 3 hours prior to the scheduled launch time of 8:53 PM Central Standard Time. Of course, launch occurred 2 hours 40 minutes late at a Ground Elapsed Time of 11, - of a Central Standard Time rather, 11:33 PM. As a result of the late launch-time the trans-lunar injection, that's up through translunar injection, also slipped 2 hours, 40 minutes. We would expect that the translunar injection which is targeted to make up the difference will get us back on the nominal flight plan time by the time the spacecraft arrives at the Moon. In other words, arrival time at the Moon would be at the same Central Standard Time as called for in the Flight Plan at about 1:49 PM Central Standard Time, December 10. But, the Ground Elapsed Time would be about 2 hours, 40 minutes earlier than that provided for in the Flight Plan, the arrival being at about 86 hours, 14 minutes Ground Elapsed Time. The 2 hour, 40 minute difference being accounted for in a speedier arrival time at the Moon, a translunar injection burn being targeted just slightly longer than would have been the case in a normal launch. The spacecraft getting to the Moon in a total elapsed time 2 hours 40 minutes less, in effect, making up for lost time from the late launch. In order to get the flight plan back in agreement with the Ground Elapsed Time the GET, or ground elapsed clock, will simply be moved ahead 2 hours, 40 minutes between now and the time spacecraft arrives at the Moon. So, that by the time Apollo 17 is inserted into Lunar Orbit, the GET will once again agree with the flight plan GET and of course, the Central Standard Time of arrival will be the same as was originally planned by virtue of a speedier trip time. As a result of the late liftoff it was not possible to program television coverage of the transposition and docking. This was because of a shift in the orbital ground track moving the ground track away from the needed Manned Spaceflight network coverage for television. We simply didn't have an adequate ground station to receive the television signal from the spacecraft. There has been one recurring problem that is yet unexplained. That is in the displays and control system. The crew reported on several occassions that MASTER ALARM was occurring. The master alarm manifests itself in a form of a light that flashes in the Command Module. There are three of these lights and also a tone that comes on and a normal procedure is when the MASTER ALARM light comes on and the tone sounds, the crew then looks at another matrix of lights to determine precisely where the problem is. However, when looking at this matrix of lights none of them were lighted, indicating that some spurrious signal had ignited or lighted the MASTER ALARM light and that there was in fact no problem in the systems. There is at this point no explanation for the problem. However, engineers here in the Control Center, are looking into the past history of Panel 2, which is the panel on which a number of switches are located, which have triggered this master alarm, to see if there is a history of Panel 2 that would indicate a possibility of some momentary short in the caution and warning system, which could give a MASTER ALARM. The problem at this point is an annoyance, but does not appear to be a serious problem. All other spacecraft systems are performing normally, and the trajectory to the Moon is almost precisely as planned at this point. We do not anticipate a change of shift press briefing. The white team will be coming back on at the regualar Central Standard Time 4:00 PM tomorrow. And in light of this rather short turnaround we're going to forego the change of shift press briefing. At 5 hours, 36 minutes this is Apollo Control, Houston.
 |005:30:01|CDR|Bob, I can assume that from what you said there will be - probably not be a midcourse 1?
 |005:30:02|CC|That's exactly what we're working towards, Gene. And I - I'm sorry I didn't convey that feeling to you a little earlier. There's no reason for mid-course 1 right now.
@@ -1341,7 +1341,7 @@
 ||||Tape 6/12|Page 69
 |005:35:27|LMP|It feels like about, 20,000 miles.
 |005:35:27|CC|Okay.
-|005:37:28|LMP|Bob, I have the first hint of contamination on window 5. It's covering, probably, the central - well, I'd say, - roughly around - it's square about - 7 inches in - on the side with a very thin film that's catching the sunlight; and slightly irridescent, but also very finely granular - very finely granular. You can just barely tell what it is, actually.
+|005:37:28|LMP|Bob, I have the first hint of contamination on window 5. It's covering, probably, the central - well, I'd say, - roughly around - it's square about - 7 inches in - on a side with a very thin film that's catching the sunlight; and slightly irridescent, but also very finely granular - very finely granular. You can just barely tell what it is, actually.
 |005:38:09|CC|Roger. Understand.
 |005:38:11|LMP|Looks like very uniform in thickness right now.
 |005:46:55|LMP|Bob, this is Jack. We've got a UCTA dump scheduled, or is possible, at 6 o'clock. There's nothing sacred about that time, is there?
@@ -1352,13 +1352,13 @@
 |005:49:50|LMP|Oh, yes. We got some pictures earlier. I'm going to get another one here in a minute. I'll tell you, if there ever was a fragile-appearing piece of blue in space, it's the Earth right now.
 |005:50:03|CC|(laughter) Roger.
 ||||Tape 6/13|Page 70
-|005:50:06|CDR|And we got a MASTER ALARM.
+|005:50:06|LMP|And we got a MASTER ALARM.
 |005:50:08|CC|Okay. We copy that.
-|005:50:11|CDR|And there's one in the LEB.
+|005:50:11|LMP|And there's one in the LEB.
 |005:50:14|CC|Okay. Good data point.
-|005:50:18|CDR|And there are no caution lights.
+|005:50:18|LMP|And there are no caution lights.
 |005:50:21|CC|It came right at accumulator cycle, along with the high O2 flow again.
-|005:50:26|CDR|Yes, I just checked the time, and I think you are right on that one. Well, we gave you your LEB data point.
+|005:50:26|LMP|Yes, I just checked the time, and I think you are right on that one. Well, we gave you your LEB data point.
 |005:50:39|CC|Yes, sir.
 |005:50:49|LMP|The problem with looking at the Earth (laughter) particularly Antarctica, is it's too bright.
 |005:51:00|CC|Understand.
@@ -1386,7 +1386,7 @@
 ||||Tape 6/16|Page 73
 |005:57:54|CC|Roger. Good show.
 |005:57:59|LMP|The interesting thing was the continual glow on the horizon we had, even at night, on the darkside pass - and that glow was in the atmosphere because I could see stars rise over the horizon in it and then pass on through it.
-|005:58:19|CC|Roger. You were talking - the airglow, I guess, is the phenomenon most of the guys had seen before. It's kind of Interesting, huh?
+|005:58:19|CC|Roger. You were talking - the airglow, I guess, is the phenomenon most of the guys had seen before. It's kind of Interesting, Yes?
 |005:58:25|LMP|Yes, that's - that's right. It's interesting - I guess standard airglow, but it is very striking that it's a continuous thing even in the dark pass.
 |005:58:36|CC|Roger.
 |005:58:42|LMP|I think I did see the eastern tip of South America, now.
@@ -1395,7 +1395,7 @@
 |005:59:25|CC|Roger. Jack, how'd the PGA doffing go? Most of you - are you all out of the PGAs now?
 |005:59:38|LMP|That's in work. We're taking it slow and easy up here, Bob.
 |005:59:41|CC|Roger. Understand. I'll just be curious to see if they all fit in that bag.
-|005:59:48|LMP|I think you'll find that Ronald Evans will also be curious about that. He's already made comments.
+|005:59:48|LMP|I think you'll find that Ronald Evans will also be curious about that. He's already making comments.
 |005:59:56|CC|Roger.
 |006:00:03|PAO|This is Apollo Control at 6 hours. As Jack Schmitt gives the description of the earth, Apollo 17 is 22,868 nautical miles from earth, velocity 12,520 feet per second.
 |006:00:17|LMP|Bob, you certainly do have a very clear intuitive impression, although the evidence is hard to pull together, that the - any frontal systems that move off the Antarctic continent do not take on any well-defined character until they get into the moist regions of the ocean. And when they do, they seem to pick up an arcuate circ - circulation that, in the view we have, seem to get fairly regularly spaced cyclone patterns that lie between the Cape of Good Hope and northern portion of Antarctica. And these - circulations of the cyclones follows roughly an east/west pattern, and the curve - and the arcs of the fronts are more north/south than - let's say northwest, swinging around to the south.
@@ -1428,7 +1428,7 @@
 |006:11:59|CC|Okay.
 |006:12:01|LMP|I don't think we'd better put this one up for sale. Somewhere there might be somebody who would like to buy it.
 |006:12:27|CC|Say, Jack. We noticed the O2 flow has dropped down now. We're wondering, did you all close the waste storage vent valve?
-|006:12:36|CMP|I don't think so; let me check on that. It might have gotten closed inadvertently in this game we were playing down in the LEB.
+|006:12:36|LMP|I don't think so; let me check on that. It might have gotten closed inadvertently in this game we were playing down in the LEB.
 |006:12:55|LMP|Ron says it's still on VENT.
 |006:12:58|CC|It's on VENT. Roger.
 |006:13:07|CC|Okay. We're noticing the flow is coming back up slowly; so something caused it to drop, and it's coming back up.
@@ -1472,7 +1472,7 @@
 |006:40:28|CMP|Well, the MAIN A UNDERVOLT - I just happened to be looking right at the panel and the MAIN A UNDERVOLT light blinked on for a second. And, of course, obviously, MAIN A is up now.
 |006:40:45|CC|Roger.
 |006:41:45|CC|Ron, Houston here. We've checked the back room and the high-speed charts and that and don't see any glitch on MAIN A at all on our data down here.
-|006:41:57|CMP|Okay, Bob.
+|006:41:57|CDR|Okay, Bob.
 |006:48:59|PAO|This is Apollo Control. It's 6 hours 49 minutes. Apollo 17 is 28,232 nautical miles from Earth; velocity 11,291 feet per second. We're continuing to operate at present on the normal GET of the flight plan, normal Ground Elapsed Time. Under that schedule the crews rest period will begin about 9 hours and 15 minutes into the mission. If, however, the crew completes the activities that are scheduled in the flight plan early, the rest period will probably begin early if they so desire. However, at the present time we are continuing to operate on the GET of the flight plan. At 6 hours 50 minutes, this is Mission Control, Houston.
 |006:50:00|PAO|On the GET of the Flight Plan. At 6 hours 50 minutes, this is Mission Control, Houston.
 |||APOLLO 17 MISSION COMMENTARY 12/7/72, CST 6:35, GET 7:00, MC-80/1
@@ -1490,8 +1490,8 @@
 |007:50:22|LMP|Well, they're pretty close. I thought it was red and I thought, okay; that's good. That's the right time, I guess.
 |007:50:29|CC|Okay; because we'd just called it out. I was just read for you 5 seconds before you called me.
 |007:50:36|LMP|Very good, Doctor.
-|007:50:39|CC|Roger. And Tony is back in Houston on the console.
-|007:50:42|LMP|That's hard to believe. What are you doing back there? We're - we haven't even had time to go to sleep.
+|007:50:39|CC|Roger. And Stoney is back in Houston on the console.
+|007:50:42|LMP|That's hard to believe. What are you doing back here? We're - we haven't even had time to go to sleep.
 |007:50:46|CC|Well, I tell you, it's a tale that's hard to believe. It's almost as miraculous as your escape from the pad tonight.
 |007:51:06|LMP|Did you enjoy the launch?
 |007:51:08|CC|Beautiful.
@@ -1511,7 +1511,7 @@
 |007:59:01|CMP|... REFSMMAT.
 |007:59:04|CC|And, 17, we have a preferred REFSMMAT standing by if you want to give us ACCEPT, and we'll send it up before you do your second P52.
 |007:59:14|CMP|Okay, you have P00 and ACCEPT now.
-|007:59:19|CC|Roger. Understand we have updata. It's coming in. And, Ron, while we're sending it up to you, we'll also send you an update on the zero trunnion bias, as per the Flight Plan.
+|007:59:19|CC|Roger. Understand we have updata. It's coming at you. And, Ron, while we're sending it up to you, we'll also send you an update on the zero trunnion bias, as per the Flight Plan.
 |007:59:37|CMP|Okay. Mighty fine.
 |008:00:09|CMP|Somewhere. There it goes.
 |008:00:32|CMP|There they are, right there.
@@ -1528,25 +1528,25 @@
 |008:14:07|CC|Okay. The other option is for us, if we were trying to get hold of you, is to put the Klaxon up. But we're a little - un-in-favor of that, because of the possibility of one of these spurious things waking everybody up that way.
 |008:14:22|CDR|Yes, I'll go ahead and keep it on and see how it works out for a while.
 |008:14:27|CC|Okay. We copy that. And, when you guys are ready, we have a couple of - we have three items to read up to you, three updates in the Flight Plan.
-|008:14:52|CMP|Okay. Go ahead, Bob.
-|008:14:53|CC|Okay. The first's in the Flight Plan itself, and it's the quads for the PTC spinup, and they'll be Alfa and Bravo.
-|008:15:19|CMP|Okay. For PTC spinup, quads Alfa and Bravo.
+|008:14:52|LMP|Okay. Go ahead, Bob.
+|008:14:53|CC|Okay. The firsts in the Flight Plan itself, and it's the quads for the PTC spinup, and they'll be Alfa and Bravo.
+|008:15:19|LMP|Okay. For PTC spinup, quads Alfa and Bravo.
 |008:15:24|CC|All right, we just took that back. It should be Bravo and Delta for spinup; Alfa and Bravo only for damping. Copy Bravo and Delta for spinup; Alfa and Bravo for damping.
 |008:17:04|CC|And, 17, if you have that, I have two others. One's the Flight Plan Supplement Book, and the other one is in the G&C Checklist.
 ||||Tape 8/4|Page 83
-|008:17:16|CMP|Okay. Go with the Supplement.
+|008:17:16|LMP|Okay. Go with the Supplement.
 |008:17:18|CC|Okay. In the Flight Plan Supplement, we have an E-LOAD update on page 1-43. Say; 1-43 - can give me a call when you get to that page?
-|008:17:42|CMP|Okay, Bob. I'm there.
+|008:17:42|LMP|Okay, Bob. I'm there.
 |008:17:44|CC|Okay. Under line - it's 30704, column Bravo - you'll find currently 33550. And let me give you a word of warning. When we change this, we'll be changing it again around 67 hours. These are primarily due to the launch delay. And we'll give you another GET update of this sort later on. The new number to replace 3 - -
-|008:18:15|CMP|Bob--
+|008:18:15|LMP|Bob--
 |008:18:15|CC|Go ahead.
-|008:18:17|CMP|Let me get a pencil, please.
+|008:18:17|LMP|Let me get a pencil, please.
 |008:18:17|CC|Okay.
-|008:18:18|CMP|I'll use that instead of a pen.
+|008:18:18|LMP|I'll use that instead of a pen.
 |008:18:20|CC|Okay.
-|008:19:21|CMP|Go ahead.
+|008:19:21|LMP|Go ahead.
 |008:19:22|CC|Okay. Under - Again, I remind you, 30704 column Bravo, which was 33550, is now 34761. The line just below it, which is 05, also in column Bravo, is 15403. Over.
-|008:19:51|CMP|Okay, Bob. For 30704 Bravo, 34761; and for 31005 Bravo, 15403.
+|008:19:51|LMP|Okay, Bob. For 30704 Bravo, 34761; and for 31005 Bravo, 15403.
 |008:20:04|CC|Okay. Very good. And the next one is in the G&C Checklist under the P37 block data. And to help you find it, that's on page 4-23.
 |008:20:39|CMP|Okay. Go ahead.
 |008:20:41|CC|Okay. On the lift-off plus 15, be the first block. It's 01500, 3893, minus 174, 05756. The second block for lift-off plus 25 is 05 - Pardon me, start over again there; 02500, 6651, minus 175, 05725. Over.
@@ -1587,7 +1587,7 @@
 |008:31:35|CC|Roger. Our apologies.
 |008:31:44|LMP|Oh, I don't expect that'll be the last time you have to apologize. I think we're running about even now.
 |008:32:06|LMP|You're missing quite a view, Bob. Sorry you're not here.
-|008:32:12|CC|That makes two of us. White just said, "That makes three of us."
+|008:32:12|CC|That makes two of us. Weitz just said, "That makes three of us."
 |008:32:31|LMP|What are you trying to tell me?
 |008:32:36|CC|Look out.
 |008:32:39|LMP|Who's your friend off on your right, tonight?
@@ -1613,28 +1613,28 @@
 |008:39:09|CMP|Okay.
 |008:39:11|CC|We only needed the high gain to just keep a good check on your rates.
 |008:39:32|CC|And, 17, that means stow the high gain after you - after the startup. We'd like to watch the startup itself.
-|008:39:40|CMP|Okay. I was just going to ask you when.
+|008:39:40|LMP|Okay. I was just going to ask you when.
 |008:42:20|CC|Okay, 17 - We're ready for high gain to stow and select OMNI Bravo.
-|008:42:29|CMP|Okay.
+|008:42:29|LMP|Okay.
 |008:49:35|CC|17, Houston. We gather you're ready for sleep, almost. One thing we'd like to check at the end here is your O2 heater configuration. Over.
-|008:49:48|CMP|Okay. Go ahead, Bob .
-|008:49:50|CC|Roger. Can you give us your O2 heater configuration?
+|008:49:48|CDR|Okay. Go ahead, Bob .
+|008:49:50|CC|Roger, Gene. Can you give us your O2 heater configuration?
 ||||Tape 8/9|Page 88
-|008:49:54|CMP|Okay. We've got 1 and 2 in AUTO, and 3 is OFF.
+|008:49:54|CDR|Okay. We've got 1 and 2 in AUTO, and 3 is OFF.
 |008:50:00|CC|Okay. We'd like those per the Flight Plan; 1 and 2 to OFF, and 3 to AUTO.
-|008:50:08|CMP|Okay; 1 and 2 to OFF and 3 to AUTO.
+|008:50:08|CDR|Okay; 1 and 2 to OFF and 3 to AUTO.
 |008:50:12|CC|Okay. And do you have a final change or update on the film status - beyond that 130 that Jack gave us?
-|008:50:21|CMP|Stand by 1.
+|008:50:21|CDR|Stand by 1.
 |008:55:05|PAO|This is Apollo Control at 8 hours 55 minutes. As the crew of Apollo 17 prepares for a 5-3/4 hours rest period, the spacecraft is 40,165 nautical miles from earth velocity 9,349 feet per second.
 |008:58:04|CC|And, 17, your PTC is looking real good so far.
 ||||Tape 9/1|Page 89
 |008:58:10|CDR|Okay. That number on that mag is still 130, Bob.
 |008:58:13|CC|Okay. I copy that, Gene.
-|008:58:16|CDR|And Alfa Alfa, that 16-millimeter mag, is about 25 percent left.
+|008:58:16|CMP|And Alfa Alfa, that 16-millimeter mag, is about 25 percent left.
 |008:58:23|CC|Okay; copy that as well.
 |008:58:35|CC|And I guess as soon as you change the LiOH canister, if you have or haven't, and charge BATTERY Bravo, then we're ready for you to go to sleep at your leisure. Configuring your comm, remember the SQUELCH, ENABLE, and the VOICE, OFF, when you get ready to go to sleep.
 |008:59:31|CC|Roger, Apollo 17. We copy the film update, and we're ready for you to go to sleep once you've got the LiOH canister changed, if you haven't. And remember also the charge on brady - BATTERY Bravo. After that, it's just the comm configuration, SQUELCH, ENABLE, and VOICE, OFF, when you get ready to go to sleep.
-|008:59:31|CDR|Bob, You're cut in and out. Stand by. We'll talk to you in a minute.
+|008:59:31|LMP|Bob, You're cut in and out. Stand by. We'll talk to you in a minute.
 |009:00:00|CC|Okay, I think we're losing an OMNI here.
 ||||Tapes 10-12/1|Page 90
 |009:00:01||REST PERIOD - NO COMMUNICATIONS
@@ -1728,7 +1728,7 @@
 |015:33:32|CC|Okay.
 |016:00:55|LMP|Gordy, this is Jack. Looks like the windows have cleared up pretty well in PTC from the - ice crystals, anyway, that were on window - window 1. The hatch window still seems to have a film of something on it. But, otherwise, they look pretty good.
 |016:01:13|CC|Okay, sounds good. Jack, while you're there, I might try - we've been talking about consumable updates and what would be the most meaningful way to give you the information. As a trial, for 14 hours, with reference to the charts in the back of the book, which in the case of - in case of all of them, are listed in percentages except the RCS, which is in pounds. On the cryo quantities, when I take all the tank percentages and plot them, it turns out that there's no real significant difference from the lines that are plotted on either hydrogen or oxygen. On RCS, you're running about 3 percent ahead of the line. And if that's a satisfactory way to put it, that's the way we'll give you the - the updates rather than giving you every tank percent by percent. Over.
-|016:02:25|LMP|Okay, that's good. That's outstanding.
+|016:02:25|CMP|Okay, that's good. That's outstanding.
 |016:12:20|LMP|MARK. Two aspirin for the LMP.
 |016:12:20|CC|Roger, LMP.
 |016:13:32|CC|Jack, next time the Surgeon would like a mark on each individual aspirin.
@@ -1761,13 +1761,13 @@
 |016:54:12|CMP|Okay. We'll torque it at 54:30.
 |016:54:16|CC|Okay.
 |016:55:25|CC|17, Houston. When you - if you can find a stenographer, I got some dictation, some pads for you and also a Flight Plan update.
-|016:55:50|CMP|Stand by 1, Gordon.
+|016:55:50|CMP|Stand by 1, Gordo.
 |016:57:38|LMP|Okay, Gordy.
 |016:57:41|CMP|P37.
 |016:57:42|LMP|Oh, okay. Stand by. Okay, Ron's ready to copy.
 |016:57:52|CMP|P37 pad's first.
 |016:57:54|CC|Okay. Okay, the P37 block data for 35 hours. Well, we've got 35, 45, 55, 65. GET ignition of 035:00. DELTA-Vt is 5326, minus 175, 081:39. For a GET of 045:00, 7728, minus 177, 08l:l8. For a GET of 055:00, 5859, minus 175, 105:30. GET of 065:00, 4703, minus 175, 129:40.
-|016:59:34|CMP|Okay, I'll read that. Let's see, 35:00 at 5326, minus 175, and 81:39 At 45:00, 7728, minus 177, and 8l:l8. At 55:00, it's 5859, minus 175, 105:30. At 65:00, it's 4703, minus 175, and 129:40.
+|016:59:34|CMP|Okay, I'll read that. Let's see, 35:00 at 5326, minus 175, and 81:39. At 45:00, 7728, minus 177, and 8l:l8. At 55:00, it's 5859, minus 175, 105:30. At 65:00, it's 4703, minus 175, and 129:40.
 |017:00:11|CC|Okay, that's correct. I've got a maneuver pad for you. It's a flyby maneuver at a time of 81 hours, which is 5 hours prior to LOI, This is required because you're presently on an impacting trajectory. And this is assuming you wouldn't do midcourse 2. Midcourse 2 will put you on a - on the proper trajectory. If you can get a maneuver pad out, I'll give it to you.
 ||||Tape 14/3|Page 100
 |017:00:44|LMP|Okay. That's in work.
@@ -1782,11 +1782,11 @@
 |017:03:36|LMP|Go ahead.
 |017:03:38|CC|Okay. Turn to 17 hours in the Flight Plan, page l8.
 |017:03:55|LMP|Go ahead.
-|017:03:57|CC|Okay. The "VERB 49 maneuver to optics cal attitude" right at the top of the page. Cross out the attitude numbers and replace them with "Roll l64, pitch 301, and yaw 348 at a high-gain pitch angle of minus 48 and a yaw of 315. Over.
+|017:03:57|CC|Okay. The "VERB 49 maneuver to optics cal attitude" right at the top of the page. Cross out the attitude numbers and replace them with "Roll 164, pitch 301, and yaw 348 at a high-gain pitch angle of minus 48 and a yaw of 315. Over.
 |017:04:34|LMP|Okay; 164, 301, 348, minus 48, and 315.
-|017:04:40|CC|That's correct. Now go down a few lines to the sighting attitude at - one's at 17 hours and 15 minutes. And cross out that attitude and the high-gain pitch angle and change to a Roll of 196, pitch 304, and yaw 348. High-gain pitch is minus 6l, and the yaw remains the same, 357. Over.
+|017:04:40|CC|That's correct. Now go down a few lines to the sighting attitude at - one's at 17 hours and 15 minutes. And cross out that attitude and the high-gain pitch angle and change to a Roll of 196, pitch 304, and yaw 348. High-gain pitch is minus 61, and the yaw remains the same, 357. Over.
 ||||Tape 14/4|Page 101
-|017:05:16|LMP|Okay, 196, 304, 348, minus 6l.
+|017:05:16|LMP|Okay, 196, 304, 348, minus 61.
 |017:05:22|CC|That's correct. And now, on the first star of P23, we're going to change the star, so cross out - replace the NOUN 70 numbers with star 21. That would be three balls 21. And delete the NOUN 88 and the vector numbers there.
 |017:06:12|LMP|Okay, start 21 and no NOUN 88s.
 |017:06:16|CC|Right. And over on the right where it says "Merak," you can write in "Alphard." That's what 21 is.
