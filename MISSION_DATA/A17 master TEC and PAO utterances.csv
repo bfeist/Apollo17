@@ -159,15 +159,17 @@
 |000:02:18|CMP|Okay. That's VERB 82.
 |000:02:20|CDR|Inboard cut-off.
 |000:02:21|CC|Roger. Inboard.
-|000:02:24|PAO|Inboard engines shutting down on-time as planned. Crew will experience maximum G forces of about 4 Gs at shutdown. Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
+|000:02:24|PAO|Inboard engines shutting down on-time as planned.
 |000:02:24|CDR|Okay, now hold on after staging guys.
 |000:02:26|LMP|Standby gang.
 |000:02:27|CMP|Okay. Here's 20. Where's the safety?
 |000:02:28|LMP|Okay, it's 19.
 |000:02:30|CDR|Now at 41. It's 41. ... seconds
 |000:02:32|CDR|3 1/2 gs.
+|000:02:34|PAO|Crew will experience maximum G forces of about 4 Gs at shutdown.
 |000:02:35|CDR|Hold on!
 |000:02:37|CDR|Okay. 5 seconds. ... gs. 4 gs.
+|000:02:40|PAO|Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
 |000:02:41|CMP|Jesus Christ!
 |000:02:41|CDR|I told you to hold on. Look at that son-of-a-bitch. Man!
 |000:02:46|CMP|Jesus crimany! (laughter)
@@ -233,7 +235,7 @@
 |000:05:33|CDR|8 plus 36 and 9 plus 20. Roger.
 |000:05:36|LMP|Coming up on gimbal motors, Geno.
 |000:05:37|CDR|Okay. ...
-|000:05:40|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
+|000:05:39|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
 |000:05:52|CDR|I forget anything yet, Ron?
 |000:05:54|CMP|Nope.
 |000:05:54|CDR|Okay, we're still MODE 2, coming up on -
@@ -282,7 +284,7 @@
 |000:07:40|CDR|We have inboard cut-off.
 ||||Tape 2/4|Page 13
 |000:07:43|CC|Roger, Gene. Inboard on time.
-|000:07:47|PAO|And that inboard shutdown looked to be on time. Apollo 17 now 625 miles downrange, 93 miles in altitude.
+|000:07:46|PAO|And that inboard shutdown looked to be on time. Apollo 17 now 625 miles downrange, 93 miles in altitude.
 |000:07:50|CDR|Okay, she pitches up just like the simulator.
 |000:07:51|CMP|Yep. Sure does. Pitches -
 |000:07:56|LMP|(grunting noise)
@@ -311,7 +313,7 @@
 |000:09:01|CDR|Nine minutes, Bob, and 17 is GO.
 |000:09:04|CC|Roger, 17. You're GO here.
 |000:09:06|CDR|Okay, standby. 10 seconds.
-|000:09:09|PAO|And about 10 seconds to staging.
+|000:09:07|PAO|And about 10 seconds to staging.
 |000:09:16|CC|Standby for Mode IV capability.
 |000:09:20|CDR|S-II cut-off.
 |000:09:21|CC|MARK. Mode IV capability, and we copy cut-off.
@@ -322,14 +324,14 @@
 |000:09:31|CDR|We saw that one, too, Bob.
 |000:09:33|CC|Roger.
 |000:09:33|CDR|Did you see it go past us?
-|000:09:35|CMP|Yes.
-|000:09:36|LMP|We're right in the flame.
-|000:09:37|CDR|Yes, that's what the Titan used to do. Used to fly through the flame of that thing. Let's, let's press on here we've got a lot to do. We're MODE 4.
+|000:09:34|CMP|Yes.
+|000:09:35|LMP|We're right in the flame.
+|000:09:36|CDR|Yes, that's what the Titan used to do. Used to fly through the flame of that thing. Let's, let's press on here we've got a lot to do. We're MODE 4.
 |000:09:45|PAO|We're up to 23,000 feet per second - we'll be shooting for something over 25,000.
 |000:09:46|CMP|Yes.
 |000:09:47|CDR|Okay, we're at - a little less than 1/2 G.
-|000:09:50|CMP|Less than half of a G.
-|000:09:51|CDR|Okay, 10 minutes, Ron. I'll be at about fourty ...
+|000:09:49|CMP|Less than half of a G.
+|000:09:50|CDR|Okay, 10 minutes, Ron. I'll be at about fourty ...
 |000:09:55|CC|17, the steering has converged and the CMC is GO. You're looking great.
 |000:09:59|CDR|Roger. The CMC is GO, 10 minutes, and 17 is GO onboard.
 |000:10:02|CMP|Okay, H-DOT's a little bit low, but not bad.
