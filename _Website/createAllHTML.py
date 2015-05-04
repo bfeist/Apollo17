@@ -135,6 +135,7 @@ for utterance_row in utterance_reader:
     if utterance_row[1] != "": #if not a TAPE change or title row
         words_modified = utterance_row[3].replace("O2", "O<sub>2</sub>")
         words_modified = words_modified.replace("H2", "H<sub>2</sub>")
+        words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
         who_modified = utterance_row[2].replace("CDR", "Cernan")
         who_modified = who_modified.replace("CMP", "Evans")
         who_modified = who_modified.replace("LMP", "Schmitt")
