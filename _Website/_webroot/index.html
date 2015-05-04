@@ -31,7 +31,7 @@
     <style type="text/css" media="screen,projection"></style>
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
     <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css?nocache=982734" />
     <script type="text/javascript" src="lib/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/jquery.isloading.js"></script>
@@ -93,11 +93,11 @@
         }
         function utteranceIframeLoaded() {
             if (gMissionTimeParamSent == 1) {
-                $.isLoading("hide");
+                $("#outer-north").isLoading("hide");
+                console.log("Loading overlay off");
                 var paramMissionTime = $.getUrlVar('missionTime'); //code to detect jump-to-timecode parameter
                 if (typeof paramMissionTime != "undefined") {
                     paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
-                    console.log("Missiontime: " + paramMissionTime);
                     var missionTimeArray = paramMissionTime.split(":");
                     var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
                     gCurrentPhotoTimestamp = "replace";
@@ -675,8 +675,9 @@
 
         $(document).ready(function() {
             if (typeof $.getUrlVar('missionTime') != "undefined") {
-                $.isLoading({text: "Loading"});
+                $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
                 gMissionTimeParamSent = 1;
+                console.log("Loading overlay on");
             } else {
                 gMissionTimeParamSent = 0;
             }
@@ -739,7 +740,7 @@
     </script>
 </head>
 <body>
-    <div class="outer-north">
+    <div class="outer-north" id="outer-north">
         <div class="north-north">
             <div class="title">Apollo 17 in Real-Time - The Last Mission to the Moon</div>
             <div class="titleRight">Alpha Release v0.5 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>

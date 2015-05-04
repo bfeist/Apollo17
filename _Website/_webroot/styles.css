@@ -270,7 +270,7 @@ tr.commentary > td
     color: SaddleBrown;
 }
 
-.isloading-wrapper.isloading-right {
+.isloading-wrapper .isloading-right {
     margin-left: 10px;
 }
 
