@@ -20,9 +20,18 @@
                 parent.seekToTime($(this).attr('id'));
             });
         }
+
+        $(document).ready(function(){
+            $('.utterancetable').delegate('.utterance', 'mouseenter', function() {
+                var loctop = $(this).position().top;
+                var locright = $(this).position().left + $(this).width() - $('.shareicon').width();
+                $('.shareicon').animate({top: loctop, left: locright}, 0);
+            })
+        });
     </script>
 </head>
 
 <body class="">
+    <img class="shareicon" src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Share-512.png" alt="" />
     <div id="container">
         <table class="utterancetable">

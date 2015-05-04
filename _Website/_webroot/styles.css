@@ -293,3 +293,9 @@ tr.commentary > td
     top: 10%;
     z-index: 9000;
 }
+
+.shareicon {
+    width:20px;
+    height:20px;
+    position:absolute;
+}
