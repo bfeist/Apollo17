@@ -298,4 +298,5 @@ tr.commentary > td
     width:20px;
     height:20px;
     position:absolute;
+    opacity:0.7;
 }
