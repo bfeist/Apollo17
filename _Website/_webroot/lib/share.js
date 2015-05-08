@@ -378,7 +378,7 @@ Share = (function(superClass) {
       } else {
         style.appendChild(document.createTextNode(css));
       }
-      this.el.head.appendChild(style);
+      //this.el.head.appendChild(style);
       delete this.config.selector;
       meta = document.createElement("meta");
       meta.setAttribute("name", "sharer" + selector);

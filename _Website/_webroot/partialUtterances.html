@@ -11,43 +11,15 @@
     <meta name="robots" content="index,follow" />
     <style type="text/css" media="screen,projection"></style>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/share.css" />
 
     <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
     <script type="text/javascript" src="./lib/share.js"></script>
-    <script language="javascript" type="text/javascript">
-        window.onload = function() {
-            //add an onclick function to all utterances. function calls parent of his iFrame to seek video to that time.
-            $( "tr.utterance" ).click(function(){
-                parent.seekToTime($(this).attr('id'));
-            });
-        }
-
-        $(document).ready(function(){
-            $('.utterancetable').delegate('.utterance', 'mouseenter', function() {
-                var loctop = $(this).position().top;
-                var locright = $(this).position().left + $(this).width() - $('.share-button').width();
-                $('.share-button').animate({top: loctop, left: locright}, 0);
-            })
-            new Share(".share-button", {
-                url: "http://apollo17.org",
-                networks: {
-                    facebook: {
-                        enabled: "false",
-                        app_id: "abc123"
-                    }
-                },
-                ui: {
-                    flyout: "middle left"
-                }
-            });
-        });
-
-    </script>
+    <script language="javascript" src="utterancePage.js"></script>
 </head>
 
 <body class="">
 <div class="share-button" style="position:relative;"></div>
-<img class="shareicon" src="./img/share.svg" alt="" />
 <div id="container">
     <table class="utterancetable">
 

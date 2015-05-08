@@ -53,7 +53,7 @@ function utteranceIframeLoaded() {
     if (gMissionTimeParamSent == 1) {
         $("#outer-north").isLoading("hide");
         console.log("Loading overlay off");
-        var paramMissionTime = $.getUrlVar('missionTime'); //code to detect jump-to-timecode parameter
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
             paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
             var missionTimeArray = paramMissionTime.split(":");
@@ -632,7 +632,7 @@ function processPhotoIndexData(allText) {
 }
 
 $(document).ready(function() {
-    if (typeof $.getUrlVar('missionTime') != "undefined") {
+    if (typeof $.getUrlVar('t') != "undefined") {
         $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
         gMissionTimeParamSent = 1;
         console.log("Loading overlay on");
