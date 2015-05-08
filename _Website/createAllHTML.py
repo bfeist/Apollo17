@@ -66,7 +66,7 @@ output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "./_webroot/TOCindex.csv"
+output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCindex.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -106,14 +106,14 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 
 
 ## -------------------- Write Utterance HTML
-output_utterance_file_name_and_path = "./_webroot/allUtterances.html"
+output_utterance_file_name_and_path = "./_webroot/utterancePage.html"
 output_utterance_file = open(output_utterance_file_name_and_path, "w")
 output_utterance_file.write("")
 output_utterance_file.close()
 
 output_utterance_file = open(output_utterance_file_name_and_path, "a")
 
-output_utterance_index_file_name_and_path = "./_webroot/utteranceIndex.csv"
+output_utterance_index_file_name_and_path = "./_webroot/indexes/utteranceIndex.csv"
 output_utterance_index_file = open(output_utterance_index_file_name_and_path, "w")
 output_utterance_index_file.write("")
 output_utterance_index_file.close()
@@ -160,7 +160,7 @@ output_commentary_file.close()
 
 output_commentary_file = open(output_commentary_file_name_and_path, "a")
 
-output_commentary_index_file_name_and_path = "./_webroot/commentaryIndex.csv"
+output_commentary_index_file_name_and_path = "./_webroot/indexes/commentaryIndex.csv"
 output_commentary_index_file = open(output_commentary_index_file_name_and_path, "w")
 output_commentary_index_file.write("")
 output_commentary_index_file.close()
@@ -196,7 +196,7 @@ output_commentary_file.write(template.render({'datarow': 0}, loader=template_loa
 
 
 ##--------------------------------- Write photo index
-output_photo_index_file_name_and_path = "./_webroot/photoIndex.csv"
+output_photo_index_file_name_and_path = "./_webroot/indexes/photoIndex.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()

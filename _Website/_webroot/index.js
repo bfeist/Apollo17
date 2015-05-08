@@ -272,8 +272,8 @@ function setAutoScrollPoller() {
 function scrollToTimeID(timeId) {
     //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
     if ($.inArray(timeId, gUtteranceIndex) != -1) {
-        //console.log("scrollToTimeID " + timeId);
-        //console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
+        // console.log("scrollToTimeID " + timeId);
+        // console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
         var transcriptFrame = $('#iFrameTranscript').contents();
         var timeIdMarker = transcriptFrame.find('#' + timeId);
         //reset background color of last line
@@ -289,9 +289,8 @@ function scrollToTimeID(timeId) {
 
 function scrollTOCToTimeID(timeId) {
     if ($.inArray(timeId, gTOCIndex) != -1) {
-        //console.log("TOC item found in array. Scrolling TOC to " + timeId);
         if (timeId != gLastTOCTimeId) {
-            console.log("scrollTOCToTimeID " + timeId);
+            // console.log("scrollTOCToTimeID " + timeId);
             var TOCFrame = $('#iFrameTOC').contents();
             var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
             //reset background color of last line
@@ -311,12 +310,11 @@ function scrollTOCToTimeID(timeId) {
 
 function scrollCommentaryToTimeID(timeId) {
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
-        //console.log("scrollCommentaryToTimeID " + timeId);
         if (timeId != gLastCommentaryTimeId) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
             $("#commentaryTab").effect("highlight", {color: '#9DDD97'}, 1000); //blink the commentary tab
 
-            console.log("scrollCommentaryToTimeID " + timeId);
+            //console.log("scrollCommentaryToTimeID " + timeId);
             var CommentaryFrame = $('#iFrameCommentary').contents();
             var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
             //reset background color of last line
@@ -469,16 +467,6 @@ function missionTimeHistoricalDifference() {
     var msInDay = 24 * msInHour;
     var msInYear = 365 * msInDay;
 
-//            var diffYears = Math.floor(timeDiff / msInYear);
-//            timeDiff = timeDiff - diffYears * msInYear;
-//            var diffDays = Math.floor((timeDiff - (diffYears * msInYear)) / msInDay);
-//            timeDiff = timeDiff - diffDays * msInDay;
-//            var diffHours = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay)) / msInHour);
-//            timeDiff = timeDiff - diffHours * msInHour;
-//            var diffMinutes = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay + diffHours * msInHour)) / msInMinute);
-//            timeDiff = timeDiff - diffMinutes * msInMinute;
-//            var diffSeconds = Math.floor((timeDiff - (diffYears * msInYear + diffDays * msInDay + diffHours * msInHour + diffMinutes * msInMinute)) / 1000);
-
     timeDiff = timeDiff + msInHour; //no idea why I need to add an additional hour to get the time difference to be correct
 
     var diffYears = Math.floor(timeDiff / msInYear);
@@ -495,10 +483,6 @@ function missionTimeHistoricalDifference() {
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $("#historicalTime").text(gCurrMissionDate);
-
-    //console.log("currMissionTime: " + gCurrMissionTime);
-    //console.log("currMissionDate: " + gCurrMissionDate);
-    //console.log("Exactly " + humanizedRealtimeDifference);
 }
 
 function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
@@ -539,31 +523,31 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "./YouTube_media_index.csv?stopcache=" + Math.random(),
+        url: "./indexes/YouTube_media_index.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processYTData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./TOCindex.csv?stopcache=" + Math.random(),
+        url: "./indexes/TOCindex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processTOCIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./utteranceIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processUtteranceIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./commentaryIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processCommentaryIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./photoIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
