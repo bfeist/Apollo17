@@ -80,6 +80,7 @@ function onPlayerStateChange(event) {
         }
         if (gPlaybackState == "unexpectedbuffering") {
             console.log("PLAYING: was unexpected buffering so calling findClosestUtterance");
+            ga('send', 'event', 'transcript', 'click', 'youtube scrub');
             findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
             findClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
             findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -380,6 +381,8 @@ function showCurrentPhoto(timeId) {
 //--------------- transcript click handling --------------------
 function seekToTime(elementId){
     console.log("seekToTime " + elementId);
+    var gaTimeVal = parseInt(elementId.replace("timeid", ""));
+    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal);
     var signToggle = 1;
     var timeStr = elementId.substr(6,7);
     var sign = timeStr.substr(0,1);
@@ -514,6 +517,7 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
 
     var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
     console.log("Rounded time to skip to: " + timeId);
+    ga('send', 'event', 'button', 'click', 'snap to real-time');
 
     gPlaybackState = "rounding";
     seekToTime(timeId);

@@ -10,7 +10,7 @@ window.onload = function() {
 $(document).ready(function(){
     $('.utterancetable').delegate('.utterance', 'mouseenter', function() {
         var loctop = $(this).position().top;
-        var locright = $(this).position().left + $(this).width() - $('.share-button').width();
+        var locright = $(this).position().left + $(this).width() - 28;
         $('.share-button').animate({top: loctop, left: locright}, 0);
         var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
         hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
@@ -30,6 +30,7 @@ $(document).ready(function(){
                 },
                 after: function() {
                     console.log("User shared google plus: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'google plus');
                 }
             },
             facebook: {
@@ -43,6 +44,7 @@ $(document).ready(function(){
                 },
                 after: function() {
                     console.log("User shared facebook: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'facebook');
                 }
             },
             twitter: {
@@ -53,6 +55,7 @@ $(document).ready(function(){
                 },
                 after: function() {
                     console.log("User shared twitter: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'twitter');
                 }
             },
             pinterest: {
@@ -65,6 +68,7 @@ $(document).ready(function(){
                 },
                 after: function() {
                     console.log("User shared pinterest: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'pinterest');
                 }
             },
             email: {
@@ -75,6 +79,7 @@ $(document).ready(function(){
                 },
                 after: function() {
                     console.log("User shared email: ", this.title);
+                    ga('send', 'event', 'share', 'click', 'email');
                 }
             }
         }
