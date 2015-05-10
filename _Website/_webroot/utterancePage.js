@@ -51,7 +51,7 @@ $(document).ready(function(){
                 before: function(element) {
                     //this.url = element.getAttribute("data-url");
                     this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 68) + "... %23NASA";
+                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
                 },
                 after: function() {
                     console.log("User shared twitter: ", this.url);
