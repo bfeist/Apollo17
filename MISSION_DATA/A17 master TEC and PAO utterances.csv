@@ -1969,12 +1969,13 @@
 |018:58:32|CC|17, we'll be having a communications handover to Honeysuckle in about a minute and a half.
 |018:58:41|CDR|Okay, Gordo.
 |018:58:45|LMP|That's great. Next time I look at the Earth, I'll see what's happening in Australia.
-|019:01:24|CDR|Okay, Houston. We're starting our waste water dump.
+|019:01:24|LMP|Okay, Houston. We're starting our waste water dump.
 |019:01:29|CC|Okay.
 |019:01:30|CDR|Wish us luck. Wish us luck.
 |019:01:38|CMP|Hey, that really goes out!
 |019:01:52|CC|Can you give us P00 and ACCEPT? And we'll give you a new state vector.
-|019:02:01|CMP|Probably need one after all those ... Okay, you've got P00 and ACCEPT.
+|019:02:01|CMP|Probably need one after all those ... 
+|019:02:05|LMP|Okay, you've got P00 and ACCEPT.
 |019:02:09|CC|Roger.
 |019:04:11|CC|Okay, the vector's in there. It's your computer.
 |019:04:18|CDR|Okay, Gordo. Thank you.
@@ -1995,20 +1996,20 @@
 |019:14:12|LMP|Okay. We're just about there.
 |019:15:07|CMP|Okay, the old IMAGE MOTION is OFF.
 |019:15:12|CC|Roger.
-|019:15:13|LMP|DATA SYSTEMS are going ON. AUX TV is going to SCIENTIFIC.
+|019:15:13|CMP|DATA SYSTEMS are going ON. AUX TV is going to SCIENTIFIC.
 |019:15:23|CC|Jack, we'd like AUTO and NARROW on the HIGH GAIN.
 |019:15:38|LMP|There you go. Okay?
 |019:15:41|CC|Thank you.
 |019:15:43|CMP|Okay. SM/AC POWER is coming ON. MAPPING CAMERA is going to STANDBY; talkback's gray. PAN MODE is verified in STANDBY. PAN CAMERA MODE? Yes. Okay PAN CAMERA is going to POWER - now. Barber pole
-|019:16:19|CDR|Okay, the PAN CAMERA just went to POWER. Okay, Ron's talking to you. Didn't know that.
+|019:16:19|LMP|Okay, the PAN CAMERA just went to POWER. Okay, Ron's talking to you. Didn't know that.
 |019:16:28|CC|Roger.
 |019:16:31|CMP|PAN CAMERA SELF TEST has gone to HEATERS.
-|019:16:38|CDR|High bit rate. Okay; waiting your cue, Gordy.
+|019:16:38|LMP|High bit rate. Okay; waiting your cue, Gordy.
 |019:16:45|CC|Okay, stand by.
 ||||Tape 15/9|Page 116
 |019:16:50|CC|Okay, Ron, we're ready for the film cycling.
 |019:17:45|CMP|Okay, MAPPING Camera is going ON.
-|019:18:15|CMP|Okay, PAN CAMERA SELF TEST is going to SELF TEST. That makes barberpole. Okay, I forgot to time it, yes.
+|019:18:15|CMP|Okay, PAN CAMERA SELF TEST is going to SELF TEST. Talk back's barberpole. Okay, I forgot to time it, yes.
 |019:19:08|CMP|Okay, talkback went gray on the PAN CAMERA.
 |019:19:12|CC|Roger.
 |019:19:27|CMP|Okay, PAN CAMERA POWER is OFF.
@@ -2023,7 +2024,7 @@
 |019:24:07|CC|Okay. We concur with that idea.
 |019:24:12|LMP|And if I could ever get Ron out of the kitchen, we'd get into PTC.
 |019:24:21|CC|Jack, you'll be glad to know your heart is beating normally. We have a good signal.
-|019:25:07|LMP|Just so long as it's beating, Gordy. About 20 hours ago, I wasn't so sure.
+|019:25:07|LMP|Just so long as it's beating, Gordy. About 20 hours ago, (laughter) I wasn't so sure.
 |019:27:06|CDR|Gordo, (cough) we're maneuvering to the PTC attitude now.
 |019:27:11|CC|Okay.
 ||||Tape 15/10|Page 117
@@ -2070,7 +2071,7 @@
 ||||Tape 16/3|Page 120
 |020:08:03|CC|If you're eating, Jack, just go ahead and eat. This is nothing that can - we can just wait, and any time, just go ahead.
 |020:08:11|LMP|Yes, I'm not panicking.
-|020:09:13|LMP|Okay, Bob. Go with the update, and LM/CM DELTA-P at 20 ... 09.
+|020:09:13|LMP|Okay, Bob. Go with the update, and LM/CM DELTA-P at 20 plus 09.
 |020:09:30|CC|Want you to know, Jack, we just cut out by the antenna switching. Say again the LM/CM DELTA-P.
 |020:09:36|LMP|Okay, 0.6 at 20 plus 09.
 |020:09:43|CC|Roger. Okay. My update is just simply on the botton of page 3-23 at 2300 hours in the Flight Plan or 23 hours in the Flight Plan. "WASTE STOWAGE VENT valve, CLOSED." Just delete that one, and move it over to 24:30, That's because you got started late on that.
@@ -2137,10 +2138,10 @@
 |020:57:05|CDR|Well, Stu, I just - -
 |020:57:07|LMP|I - I
 |020:57:07|CDR|- - thought I'd -
-|020:57:10|LMP|Okay. Go ahead, Stu.
+|020:57:10|CDR|Okay. Go ahead, Stu.
 |020:57:12|CC|No, I was saying I was - I'm sure you - you're aware of that, but I think the fact that the volume is - is down just accentuates the - the problem.
 |020:57:28|LMP|Okay. Gene had something he wanted to ask you.
-|020:57:31|CDR|Stu, I - I just thought you'd like to be aware of it, as much time as we've all spent down at the cape, probably May is one of the nicest months down there. However, having had the opportunity to - to be up here during May, I find out that it's not nearly as nice up here.
+|020:57:31|CDR|Stu, I - I just thought you'd like to be aware of it, as much time as we've all spent down at the Cape, probably May is one of the nicest months down there. However, having had the opportunity to - to be up here during May, I find out that it's not nearly as nice up here.
 ||||Tape 16/9|Page 126
 |020:57:53|CC|Okay.
 |020:57:59|CDR|And I'd like to - to thank all my friends for that
@@ -2195,7 +2196,7 @@
 |021:26:46|CC|Roger. It'll be 65 hours of the new time or 66 hours under the old time; depends on how you want to look at it. But that's when we'll sync you up.
 |021:26:55|CDR|Okay.
 |021:26:57|CC|You'll be in sync all the way out to that time; just - we're just going to delete and jump you to 67:40.
-|021:27:06|SC|Okay.
+|021:27:06|CDR|Okay.
 |021:27:10|CC|And just another note of interest - You don't have to write this down - what - let's see; I'll read it to you. The awake periods will be - on day 3, you'll be 15 hours, 8 hours sleep starting at 11:33 CST; then at day 4, you'll be 14 and 20 hours, with 8 hours sleep. So - it actually just shortens a couple days there.
 |021:27:37|CMP|Okay. Mighty fine.
 ||||Tape 17/7|Page 133
@@ -2205,9 +2206,9 @@
 |021:28:07|CMP|(Laughter) You bet.
 |021:28:24|LMP|(Cough) Bob, this is Jack. I'm going to try and get a little exercise. I'd be interested to know how high I can get my heart rate just fooling around up here.
 |021:28:33|CC|Okay, if we can - We'll keep you posted, Jack.
-|021:28:59|CDR|Bob, just to keep you and the people there thinking a little bit, today is a relatively short day; but it is a good day because it gives us a chance to again get acclimated finish our stowage and just generally go through all the things that have to be gone through for the rest of the mission. We've got 3 eating days today, and judging from what we're thinking and talking about now - that the last two are going to be sort of stretched into one eating period because three meals on this particular day just is not really going to be stomachable.
+|021:28:59|CDR|Bob, just to keep you and the people there thinking a little bit, today is a relatively short day; but it is a good day because it gives us a chance to again get acclimated, finish our stowage and just generally go through all the things that have to be gone through for the rest of the mission. We've got 3 eating days today, and judging from what we're thinking and talking about now - that the last two are going to be sort of stretched into one eating period because three meals on this particular day just is not really going to be stomachable.
 |021:29:47|CC|Roger. We understand that.
-|021:29:57|SC|I think you'll find out that our eating and drinking, for the most part, is starting off relatively slow; but - I think we'll pick it up here by tomorrow.
+|021:29:57|CDR|I think you'll find out that our eating and drinking, for the most part, is starting off relatively slow; but - I think we'll pick it up here by tomorrow.
 |021:30:12|CC|Roger.
 |021:33:04|CDR|Bob, one other thing while I'm thinking about it. The PU shifts were all noticeable, but probably the one that really caught me a little bit by surprise was the PU shift on the S-IVB during - during TLI.
 |021:33:20|CC|Roger.
@@ -2240,23 +2241,24 @@
 |021:41:47|CC|America, Houston. Stand by. If you read us, don't change anything in the cockpit yet.
 |021:41:53|CT|17, Honeysuckle.
 |021:41:56|CT|Roger, Honeysuckle. I read you - -
-|021:41:57|CMP|Hello, Honeysuckle. 17's reading you loud and clear.
+|021:41:57|CDR|Hello, Honeysuckle. 17's reading you loud and clear.
 |021:42:00|CT|Roger. We have a comm outage and I'll be right with you.
-|021:42:05|CMP|Okay. Very fine. How are things down there today?
+|021:42:05|CDR|Okay. Very fine. How are things down there today?
 |021:42:08|CT|Fine, your weather report was beautiful. ...
-|021:42:14|LMP|Oh, your country looks beautiful from here.
+|021:42:14|CDR|Oh, your country looks beautiful from here.
 |021:42:30|CC|Okay, 17; Houston. How do you read now?
 |021:42:36|CDR|We got you, Bob.
 |021:42:37|CC|Okay. That was our network problem, not your problem onboard.
 |021:42:43|CDR|Okay thank you, I just figured out what happened on my PTC. Here - with his exercises, Jack is shaking all of America in all three axes, here.
 |021:42:54|CC|Roger. He finally got to 115 on the heart rate.
-|021:43:01|LMP|Yes, my rate needles are bouncing back and forth a half a degree (laughter).
+|021:43:01|CDR|Yes, my rate needles are bouncing back and forth a half a degree (laughter).
 |021:43:04|CC|Roger. Got to find something to pin it on.
 ||||Tape 17/10|Page 136
 |021:44:55|CC|Jack. Surgeon over here says you got a 120 on the heartbeat for a moment there - 122 right now. Okay, 130, Jack. 130. 140 , Jack, 140.
 |021:46:16|PAO|The numbers reported to Jack Schmitt by CAPCOM are his heart rate. And you heard him report a heart rate up to about 140 beats per minute as Jack is apparently continuing to exercise vigorously with the onboard exerciser. This is aimed among other things at keeping the cardio vascular system which tends to get lazy in zero gravity in condition.
 |021:47:25|CC|17, we've got a serious one here. You might be interested. All that exercise banging around in there has destratified tank 3 O2, so it stirred it all up good.
-|021:47:38|LMP|Yes, glad we brought him along then. We found some use for him. Once an EECOM, always an EECOM. I have to cre - create my own G in order to run in place.
+|021:47:38|CDR|Yes, glad we brought him along then. We found some use for him. 
+|021:47:44|LMP|Once an EECOM, always an EECOM. I have to cre - create my own G in order to run in place.
 |021:47:55|CC|Roger.
 |021:48:01|LMP|How high up did the heart rate get, Bob?
 |021:48:05|CC|We got you at 140, Jack. Were you running in place? is that - -
@@ -2279,7 +2281,7 @@
 |021:55:50|CC|Jack, just for your information - the Surgeons pulled out the recovery rate data and it's the same with our data, which is a little rough here. It's the same for zero G as your one G ergometer data.
 |021:56:12|LMP|Okay. That's very interesting.
 |021:56:15|CC|Roger.
-|021:59:46|LMP|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3, and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window - more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
+|021:59:46|CDR|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3, and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window - more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
 ||||Tape 17/12|Page 138
 |022:01:16|CC|Roger. We copy that.
 |022:02:38|LMP|Bob, I don't know whether you were copying Honeysuckle's call to us, while you lost comm there for a while.
