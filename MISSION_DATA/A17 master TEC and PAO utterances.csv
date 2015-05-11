@@ -1794,7 +1794,7 @@
 |017:06:16|CC|Right. And over on the right where it says "Merak," you can write in "Alphard." That's what 21 is.
 |017:06:35|LMP|Okay.
 |017:06:36|CC|Okay. Now down on the next page, at 18 hours 20 minutes, where it says "Optics calibration attitude." We got to put in the same thing as - the same change as above. We want, instead of 175, 298, 330, change that to l64, 301, and 348. High gain of minus 48 and 315. Over.
-|017:07:15|LMP|Okay, l64, 301, 348, minus 48, 315. Over.
+|017:07:15|LMP|Okay, 164, 301, 348, minus 48, 315. Over.
 |017:07:21|CC|Okay. Now, about 10 lines down, delete "Charge battery A." We're going to leave battery A charged for a while longer, since we used up so much of it on the pad last night.
 |017:07:41|LMP|Okay. Delete "Battery charge A," and you want to leave it on B.
 |017:07:44|CC|Yes. Right. Flip the page. Might as well clean up all of these checklist changes. At 19 hours 40 minutes, change "Magazine Kilo Kilo" to "Magazine November November."
@@ -1806,10 +1806,10 @@
 |017:08:37|LMP|Okay, I got you.
 |017:08:40|CC|And we'll be leaving it on battery A all night long. Okay, that's all the Flight Plan changes. I've got that flyby pad when you're ready.
 |017:08:55|LMP|Okay, I'm all set.
-|017:08:58|CC|Okay. Purpose is flyby, SPS/G&N. The weight is 66839; plus 1.21, minus .02 - correction, the yaw trim is a minus 0.12. Ignition time is 081:17:21.03 NOUN 81 is a plus 0091.1, plus 0204.1, plus 0459.3. Attitude is 121, 153, and 321, Apogee is NA; perigee, plus 0021.2. DELTA-V total of 0510.8, 1:17, 0506.3. Sextant star: 26, 096.5, 33.9. Boresight star is NA; NOUN 6l, plus 15-57, minus 175-00; 1099.9, 362.43; and GET of 0.05G is 153:24:11. PTC align stars are Sirius and Rigel; 256, 152, 069 - Ullage is none. And for remarks: number 1 is "Burn docked." number 2 assumes PTC REFSMMAT: number 3, LM weight, 3628l; and number 4 is "Assumes no Midcourse 2." Over.
+|017:08:58|CC|Okay. Purpose is flyby, SPS/G&N. The weight is 66839; plus 1.21, minus .02 - correction, the yaw trim is a minus 0.12. Ignition time is 081:17:21.03 NOUN 81 is a plus 0091.1, plus 0204.1, plus 0459.3. Attitude is 121, 153, and 321, Apogee is NA; perigee, plus 0021.2. DELTA-V total of 0510.8, 1:17, 0506.3. Sextant star: 26, 096.5, 33.9. Boresight star is NA; NOUN 61, plus 15-57, minus 175-00; 1099.9, 362.43; and GET of 0.05G is 153:24:11. PTC align stars are Sirius and Rigel; 256, 152, 069 - Ullage is none. And for remarks: number 1 is "Burn docked." number 2 assumes PTC REFSMMAT: number 3, LM weight, 36281; and number 4 is "Assumes no Midcourse 2." Over.
 |017:12:30|LMP|Okay, Gordy. You read that?
 |017:12:34|CC|I haven't heard anything since I finished the pad, Jack.
-|017:12:39|LMP|Okay. I'll push the other button then. Okay, your readback: Flyby, SPS/G&N; 66839; plus 1.21, minus 0.12; 081:17:21.03; plus 0091.1, plus 0204.1, plus 0459.3; 121, 153, 321; HA is NA, plus 0021.0; 0510.8, 1:17, 0506.3; 26, 096.5, 33.9. Boresight star is NA; plus 15-57; minus 175.00; 1099-9, 362.43; 153:24:11. Sirius and Rigel; 256, 152, 069. No ullage. Remarks: 1, burn docked; 2, PTC REFSMMAT assumed; 3, LM weight, 36281; and 4, assumes no midcourse 2.
+|017:12:39|LMP|Okay. I'll push the other button then. Okay, your readback: Flyby, SPS/G&N; 66839; plus 1.21, minus 0.12; 081:17:21.03; plus 0091.1, plus 0204.1, plus 0459.3; 121, 153, 321; HA is NA, plus 0021.0; 0510.8, 1:17, 0506.3; 26, 096.5, 33.9. Boresight star is NA; plus 1557; minus 175.00; 1099-9, 362.43; 153:24:11. Sirius and Rigel; 256, 152, 069. No ullage. Remarks: 1, burn docked; 2, PTC REFSMMAT assumed; 3, LM weight, 36281; and 4, assumes no midcourse 2.
 |017:14:02|CC|Okay. One correction on perigee of NOUN 44. That's a plus 0021.2.
 |017:14:18|LMP|Okay; 0021.2 plus.
 ||||Tape 14/6|Page 103
@@ -1817,7 +1817,7 @@
 |017:14:58|LMP|Okay. I got that.
 |017:15:00|CC|Okay. For general information, we're planning midcourse 2 tomorrow at about 35:30, and it should be about 10 feet per second.
 |017:15:16|LMP|Okay, Strangely enough, that's even scheduled at 35:30.
-|017:15:35|CC|Roger.
+|017:15:35|CC|Rog.
 |017:15:45|CC|I have one reminder to open the WASTE STOWAGE VENT valve as shown on the - at 17 hours there.
 |017:15:56|LMP|Oh, okay. We were just going back to clean up. I think we owe you a LiOH canister change, too.
 |017:16:09|CC|Roger. We concur with changing it.
@@ -1825,15 +1825,15 @@
 |017:20:04|CC|Okeydoke.
 |017:20:08|CMP|It's funny eating potato soup, and all the soup is all around the outside of the bag. And you get a little hole right down through the middle of it.
 |017:20:22|CC|How about that?
-|017:20:42|CMP|It's just like in one G. The sP00n isn't quite long enough to reach the bottom without getting your fingers on the side of the bowl.
-|017:20:51|CC|Roger.
+|017:20:42|CMP|It's just like in one G. The spoon isn't quite long enough to reach the bottom without getting your fingers on the side of the bowl.
+|017:20:51|CC|Rog.
 |017:23:53|LMP|Gordy, I don't know what your weather is like down there, but from here it looks like you're probably overcast today. Might even have a pretty good storm going.
 ||||Tape 14/7|Page 104
 |017:24:04|CC|Well, it's gray and cold and a little rain, so your - your call is correct.
 |017:24:14|LMP|Yes, it looks like Mexico, in general, is pretty nice, although there is a band of east-west trending clouds that start from the Gulf of California, cross Sonora and probably up through New Mexico, and over into Texas as far around as I can see. Southern California looks like it's in pretty good shape today, but northern California looks like it's probably overcast. And a major system probably associated with that that stretches into the northern western United States. But a band of clear weather looks like it stretches from Arizona right on up through, I would guess it - through Colorado and Kansas and probably into the Midwest pretty well.
-|017:25:24|CC|Roger. You're a regular human weather satellite.
+|017:25:24|CC|Rog. You're a regular human weather satellite.
 |017:25:30|LMP|If Ron would just stop his maneuvers I'd tell you some more, but the Earth just set behind the LM.
-|017:25:38|CC|Roger.
+|017:25:38|CC|Rog.
 |017:25:40|LMP|More specifically, it set behind the Rover, which may be a space first. Pretty impressive storm system down off the west coast of Antarctica.
 |017:26:07|CC|Roger.
 |017:27:11|LMP|And, Houston. The canister has been changed. Number 3 is in A as per the earlier Flight Plan instructions.
@@ -1864,8 +1864,9 @@
 |017:45:48|LMP|Okay, but those were associated with the accumulator as I recall. Yes, the random ones is the ones I was interested in. They just seemed to stop. Of course, we haven't been moving switches on 2, but we were getting them without doing that also.
 |017:46:13|CMP|Okay, there's the old star. Works just like the simulator; you can't see the star when it goes down in the Earth (laughter).
 |017:46:21|CC|It's still being worked on, Jack. Though we don't have any real concrete story to give you on it yet.
-|017:46:31|LMP|Okay, it seemed to be pretty quiet last night, so that's the only problem. Okay. Gene, you want to give me CMC FREE?
-|017:46:40|CDR|Okay.
+|017:46:31|LMP|Okay, it seemed to be pretty quiet last night, so that's the only problem. 
+|017:46:37|CMP|Okay. Gene, you want to give me CMC FREE?
+|017:46:40|CMP|Okay.
 |017:49:45|CMP|Let's see. 379, okay. That's not too bad. There it is; ENTER. Release 23; ENTER.
 |017:51:32|CMP|Okay.
 |017:53:07|CMP|Yes, I don't know what - what's -
@@ -1879,27 +1880,27 @@
 |017:56:18|CDR|Roger.
 |017:56:20|CMP|Okay, Betelgeuse. All right. That's all right; don't move.
 |017:57:11|CMP|20. Okay. Earth's far horizon; 25 ENTER. Plus 02745 ENTER. Plus 99128; 28 ENTER. Plus 12885 - 12885 - 12885. Okay. Hit. It's okay; want the 180 option, no? Computer ... Betelgeuse. Okay, that's Earth's far horizon.
-|017:58:30|CMP|Punch a hole in them. Yes. Good. Okay, as soon as we're there - Okay. Set the old ... at the substellar point. Okay, it's the far horizon, the double line is down in the - down in the Earth. Shaft 280; okay. Reach up a little bit here.
+|017:58:30|CMP|Punch a hole in them. Yes. Good. Okay, says we're there - Okay. Says the old star comes at the substellar point. Okay, it's the far horizon, the double line is down in the - down in the Earth. Shaft 280; okay. Reach up a little bit here.
 |017:59:55|CMP|Okay. Didn't do such a hot job of putting them on there. You want to go to CMC FREE. Okay. Give it a flip that way and a flip thataway and a yaw that way, two yaws that way.
 |018:01:46|CMP|(Singing) Holy mackrel.
 ||||Tape 15/1|Page 108
-|018:01:57|SC|Yes. That was a good ...
+|018:01:57|CMP|Yes. That was a good mark.
 |018:02:01|LMP|Gordy, this is LMP.
 |018:02:06|LMP|Hello, Houston; 17. Are you reading?
 |018:02:09|CC|Go ahead, Jack.
 |018:02:12|LMP|Yes, you got any news today - to read up to us?
 |018:02:17|CC|Well, yes. As a matter of fact, we have a little bit made up here. I guess along the personal line, we checked with Barbara and Jan and the kids, and they're all back home safe and sound and they mentioned that they're going into their own personal quarantine period, glued to the squawk box. Over.
 |018:02:48|CDR|Okay.
-|018:02:48|CMP|I was afraid you were going to get too personal there, for a minute. (Laughter)
+|018:02:48|LMP|I was afraid you were going to get too personal there, for a minute. (Laughter)
 |018:02:55|CC|I'll run down a few quick summaries of this morning's news. Former President Harry Truman has rallied slightly, despite his weakened heart and labored breathing. His doctors report that their main worry is whether his heart is strong enough to withstand the strain, the physical strain of 88 years. Despite the slight rally, Truman's condition is still considered critical. In Paris, Henry Kissinger met with Hanoi's Le Du Tho for 4 hours yesterday in planned secret talks. Paris newspapers report an imminent cease-fire, but neither Kissinger or Tho indicate that this is true. After the 4-hour talks, Kissinger shook hands; and his aid - got a little typo error here - but neither representative made any comment concerning their meeting. At Camp David, Maryland, President Nixon's press secretary, Ron L. Ziegler, said that Kissinger and Nixon are in close communication by cable concerning the secret peace talks. But Ziegler declined to provide more information about progress in the talks. President Nixon selected Claude S. Brinegar, a California oil executive and a doctor of economics, to be Secretary of Transportation succeeding John A. Volpe. Volpe will become the U.S. ambassador to italy. Here's one concerning last night's launch. Mrs. Spiro Agnew reportedly made a wish on a falling star just before the delayed launch of Apollo 17. Sitting beside her at the VIP viewing site was Barbara Cernan, who said that she was nervous when the lift-off was postponed. She added, "But Al Bean was there with me. He said not to be concerned." Mrs. Cernan was accompanied by her daughter Tracy, and her mother, Mrs. Jackie Ashley. Mrs. Ron Evans, who saw the launch with her children, Jamie and John, said that she was never worried because everybody knew what they were doing.
 ||||Tape 15/2|Page 109
-|018:05:19|SC|(Laughter)
+|018:05:19|CMP|(Laughter)
 |018:07:36|CDR|Good summary, Gordo. We thank you, and our best wishes for the return to health of Mr. Truman.
 |018:07:46|CC|Roger.
 |018:07:50|CDR|Gordo, we were figuring up here that we probably launched on the 6th of December in Houston and on the 7th of December in Florida.
 |018:08:00|CC|That's right. You called it right.
 |018:08:06|CMP|Okay, CMC AUTO there, Gene, please.
-|018:08:12|SC|Oh, boy.
+|018:08:12|CMP|Oh, boy.
 |018:09:04|CMP|Okay, let's use the VERB 23, ENTER. Oh, what did I do there. ENTER, let's see, is a 110. There, okay. VERB 25 - ENTER. Oh, Gamma Prime Leonis. (Coughing) Okay, minus 8490 - 84900, I mean; plus 40299 plus 40299 ENTER; plus 34176, plus - 76, ENTER; okay, PROCEED. 202 ... l8, okay. There already. ... I guess. We'll try that one more time. ... CMC, AUTO? 196306.
 |018:10:26|LMP|Gordy, you still there?
 |018:10:27|CMP|Okay; that's right.
@@ -1909,17 +1910,19 @@
 |018:10:57|CC|Roger.
 |018:11:06|CMP|Okay, Gene, ... CMC FREE?
 |018:11:11|CMP|(Singing) ... must be making the vector worse and worse instead of better. (Laughter) Well, it was on the substellar point that time except it was halfway through the Earth almost. Not really.
-|018:12:41|CMP|Hey, Gordy, we haven't really had a clear and detailed description of what you or somebody else saw at the launch, in terms of the lighting around the countryside, the state of the flame, and how long the - exhaust was under the S-IC. Do you have anything to add to that?
+|018:12:41|CDR|Hey, Gordy, we haven't really had a clear and detailed description of what you or somebody else saw at the launch, in terms of the lighting around the countryside, the state of the flame, and how long the - exhaust was under the S-IC. Do you have anything to add to that?
 |018:13:12|CC|Well, I can give you my feelings, anyway. It was a spectacular sight, and no doubt about it. I'd say the level of illumination would have made it easy to - to read a newspaper or anything like that from my vantage point near the VAB. The - the plume itself actually looked no larger or - or even any brighter, really, except in contrast, than it does on a day launch by comparison. But - well, the effect, I guess, was about what I expected just trying to extrapolate previous launches into a nighttime situation. The weather was very clear. That was one advantage gained by delaying the launch the 2 hours and 40 minutes that you did. By that time, there were very few clouds around at all. And we could see a brilliant flash there when the first stage cut off and the second stage ignited. And I lost you visually probably, oh, 4 to 5 minutes into the second stage, as best I can remember. Part of the problem was the brightness of the plume during the first stage, it kind of burned a spot on my eye; and so then I was - had reduced efficiency at looking for a small point of light from there on out. Stu's here with me and he was watching it, too. I'll see if he has anything to add.
 ||||Tape 15/4|Page 111
-|018:15:14|CMP|Stu who?
+|018:15:14|CDR|Stu who?
 |018:15:19|CC|He said after that comment he has no comment.
-|018:15:23|CMP|(Laughter) I'm sorry, Stu. I can't believe that; Stu always has something to add. (Singing) Houston, in case you just noticed, I forgot the VERB 67 until just now. Although, in reality, all we're trying to do here is get a DELTA-H measurement anyhow. And, Houston, do you have any feel yet for what the DELTA-H is - line has been?
+|018:15:23|CDR|(Laughter) I'm sorry, Stu.
+|018:15:28|LMP|I can't believe that; Stu always has something to add.  
+|018:15:32|CMP|(Singing) Houston, in case you just noticed, I forgot the VERB 67 until just now. Although, in reality, all we're trying to do here is get a DELTA-H measurement anyhow. And, Houston, do you have any feel yet for what the DELTA-H is - line has been?
 |018:15:59|CC|Stand by, Ron.
-|018:16:14|CC||Ron, this is Houston. We're not going to be able to give you a handle on the Delta H until we have a chance to take all the data and reduce it and work it around a little.
+|018:16:14|CC|Ron, this is Houston. We're not going to be able to give you a handle on the Delta H until we have a chance to take all the data and reduce it and work it around a little.
 |018:16:28|CMP|Okay, that's mighty fine.
 |018:16:32|CMP|Okay, Geno, CMC AUTO? Let's see what's on this star here. Kalinan [sic] - that's Menkalinan, I guess. Okay, Earth far horizon; 23, ENTER 120, ENTER, 25 ENTER ... (Coughing) (Singing) Plus - 7073 ENTER, plus 70644 ENTER. Okay, that is the unit vector of the star.
-|018:22:14|CMP|Okay, it's a l80 option we don't want. ... the real option. (Laughter) I guess they're getting - Houston, you must be getting all the good data without the high gain, huh?
+|018:22:14|CMP|Okay, it's a 180 option we don't want. ... the real option. (Laughter) I guess they're getting - Houston, you must be getting all the good data without the high gain, huh?
 |018:22:38|CC|That's affirmative, Ron.
 |018:22:40|CMP|Okay. Okay, let's ENTER that.
 |018:22:55|CMP|Okay, Gene, you go CMC FREE now? Yes, that's about a half a sextant diameter above the - above the horizon. Substellar point looks pretty good, though.
@@ -1936,7 +1939,7 @@
 |018:45:57|CC|Roger.
 |018:46:07|LMP|Okay, Houston, you ready for some purges and dumps?
 |018:46:11|CC|Let me make sure here. We're standing by.
-|018:46:43|LMP|Okay. I'll get going on the 0 purges on the fuel cell.
+|018:46:43|LMP|Okay. I'll get going on the O2 purges on the fuel cell.
 |018:46:43|CC|Okay.
 |018:49:28|LMP|Well, I had my clock on the wrong scale. is that about 2 minutes, Houston?
 |018:49:48|CC|That's good, Jack.
@@ -2036,7 +2039,7 @@
 |019:33:00|PAO|This is Apollo Control at 19 hours 33 minutes. That completes our replay of the segments of the air-to-ground that were lost on a portion of the Public Affairs Release Network earlier today. During that replay, we accumulated about 5 or 6 minutes of additional tape with the crew, the activities involved during that period of time or completion of waste water dump, the crew dumping excess water produced by the fuel cells and stored in a storage tank on the spacecraft, and they dump it down to about 10 percent of its quantity, or its capacity. And, also completed one other routine housekeeping activity. That was cycling the film in the panoramic and mapping cameras contained back in the service module scientific instrument module bay. That bay, of course, still has the door over it. The door will be jettisoned before going into orbit around the moon exposing those cameras for use in lunar orbit taking high-resolution and very accurately controlled mapping cameras - mapping photos of the lunar surface. The cycling of the film is made necessary by the fact that the film is under some tension in the magazine in the transport mechanism. This tension tends to put pressure on the emulsion, and if the film is not advanced, oh, four or five cycles, at least once every 24 hours, it tends to create striations in the emulsion, and this is done during the translunar coast when the cameras are not being used periodically, once a day to prevent these striations from developing in the emulsion of the film. We'll replay that accumulated tape for you and then continue to stand by live.
 |019:42:07|PAO|This is Apollo control. That completes our replay of accumulated tape we'll now stand by for any live conservations with the crew. One thing additionally that we get out of cycling the cameras the panoramic and mapping cameras as an indication of how they are performing mechanically. As you heard based on the telemetry data that we got here on the ground both cameras appear to be functioning properly tucked away in the scientific instrument module bay of the CSM. You also heard some conservation with Jack Schmitt who is wearing the biomedical harness during sleep periods it's customary for one of the three crewman only to wear the biomedical harness which allows them to get heart rate during the sleep period and the crewman take turns wearing that biomedical harness and during the sleep we are getting good biomedical data - good heart rate data on Schmitt at the present time. Also, Ron Evans commented on getting the spacecraft in the PTC attitude. Essentially, this attitude has the spacecraft oriented at right angles to it's direction of travel. Right angles to the Earth Moon plane so that the Sun is essentially shining on the sides of the vehicle of the CSM and LM. And, then using the reaction control system thrusters on the command module they set up a slow roll rate so that the two vehicles docked together are rotating at the rate of about three revolutions per hour. And, if this is done properly and it's a tricky maneuver usually crews get more and more experienced at it as they go through the mission, and tend to have the most problems early on in getting it set up. But if it is set up with all of the rates damped and everything very stable when the roll is started it will maintain this roll without wobbling out of it throughout the rest period. The purpose of this is to maintain a proper thermal equilibrium on the spacecraft so that the heating on one side from the Sun the cooling of the other as it is exposed to the black of space is uniform and nothing gets too hot or too cold. At the present time Apollo 17 is 84,482 nautical miles from Earth and the velocity continuing to decrease gradually down to about 5,824 feet per second, just a little over one mile per second. We'll continue to stand by live now for any conversations with the crew. This could continue to be a relatively quiet period based on Ron Evans or I guess it was Jack Schmitt's comment that Evans was in the kitchen leads us to believe that they are probably getting ready to eat. This is Apollo control at 19 hours 45 minutes.
 |019:51:21|PAO|This is Apollo Control at 19 hours 51 minutes. On the telemetry data that we have here in the Control Center, we're watching as the spacecraft is automatically killing off its rates, in preparation for setting up it's passive thermal control mode. They're getting the vehicles very stable, and they're measuring rate changes in thousandths of a degree per second. And when it is as essentially as stable as it appears possible to get it, they'll then fire the thrusters, to begin rolling at a slow 3 revolutions per hour rate. This is the second passive thermal control mode established.
-|019:52:11|CC||The rates are looking good, they're amped adequately. We're ready for spin-up.
+|019:52:11|CC|The rates are looking good, they're amped adequately. We're ready for spin-up.
 |019:52:20|CDR|Okay, Bob.
 |019:52:35|PAO|The crew set up the spacecraft in the passive thermal control mode before their previous sleep period and experienced no difficulties, and they appear to be going very smoothly, in this passive thermal control setup. You heard CAPCOM Robert Overmeyer who's come in to relieve CAPCOM Gordon Fullerton, advise them that the rates have been killed off sufficiently to begin rotating the vehicles now.
 |019:54:40|CDR|Okay, Gordo. We're in PTC. Or, Bob, I guess you're down there now.
@@ -3014,7 +3017,7 @@
 |036:18:33|CDR|We could call it the T-T room. Tissue and tape, of course.
 |036:18:39|CC|Roger.
 |036:34:41|PAO|This is Apollo Control at 36 hours, 34 minutes Ground Elapsed Time. Apollo 17, 130,714 nautical miles out from Earth, velocity now, 3,985 feet per second, continuing to decelerate as we approach the so-called cross over between the sphere of influence from Earth to Moon. I can't recall ever seeing two pages of a flight plan as blank as these are, from 36 hours to 38 hours. Later on today, the - after the eat-period the crew will crawl through the hatch into the Lunar Module for some housekeeping chores, checking out of stowage of equipment in the Lunar Module. But the most exciting thing going on now, was the checkout of the Bio-medical harness on the Command Module Pilot. Midcourse correction burn went nominally on time. The velocity just at time of ignition was 4,058 feet per second. It jumped approximately 10 feet since there was a 10-foot per second burn. But then, within a few minutes it was down below the original velocity as the spacecraft continues to decelarate. Altitude at the time of burn, or distance from Earth, was 128,217. We show a pericynthion of 52.09 miles at closest approach after the burn. And standing by at 36:36, this is Apollo Control.
-|036:42:07|CC||Apollo 17, Houston. In about an hour or you might check the LM Command Module Delta-P again.
+|036:42:07|CC|Apollo 17, Houston. In about an hour or you might check the LM Command Module Delta-P again.
 ||||Tape 27/1|Page 191
 |036:42:16|CDR|Okay; thank you. We'll do that.
 |036:43:13|CDR|It's 2.2, Gordo; I put it back in VENT.
@@ -3437,10 +3440,10 @@
 |041:14:29|LMP|Okay, I took it V to 2. So it's the same kind of thing I guess.
 |041:14:35|SC| ...
 |041:14:50|LMP|Okay, Houston, how do you ready Challenger? Counting 1, 2, 3, 4, 5. Over.
-|041:14:56|CC||Challenger, Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
+|041:14:56|CC|Challenger, Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
 |041:15:09|LMP|... give you a call ...
 |041:15:47|LMP|Hello, Houston, America. How do you read?
-|041:15:51|CC||America, this is Houston. Over.
+|041:15:51|CC|America, this is Houston. Over.
 |041:15:57|LMP|Okay, stand by, and Challenger is going to give you a call on S-band, and VHF checks are both GO on A and B.
 |041:16:05|CC|I think I side ... lock on Challenger, we are getting some data. We'll stand by for another check.
 |041:16:13|LMP|We acknowledge that. I heard him the first time. Okay, you ought to be getting in ... low bit rate.
@@ -3448,9 +3451,9 @@
 |041:16:28|CC|Challenger, Houston. You're loud and clear, with some background noise.
 |041:16:38|SC|They don't have a good up-link Gene. I had signal strength. And now I don't have any at all.
 |041:16:46|LMP|Okay, Houston, Challenger gave you a call, but he does not have any up link signal strength at all.
-|041:16:46|CC||Okay, and we'd like him to hold this configuration right there, until we get things straightened out and we understand what the problem is.
+|041:16:46|CC|Okay, and we'd like him to hold this configuration right there, until we get things straightened out and we understand what the problem is.
 |041:17:05|LMP|Okay, understand hold configuration there. He just got about 2.2 on the signal strength.
-|041:17:11|CC||Okay, Gene.
+|041:17:11|CC|Okay, Gene.
 |041:17:16|LMP|And tell them I heard their transmission to you. No, a few minutes ago. I was at zero signal strength and I heard their transmission ... One of them. The first time they acknowledged, that I was going to do it.
 |041:17:50|LMP|Did you shift my hose back?
 |041:18:05|CC|Hello, Challenger; this is Houston. Do you read me?
@@ -3890,7 +3893,7 @@
 |044:49:07|CC|Okay.
 |044:50:18|CC|Okay, you're up to 115, Jack.
 |044:58:20|PAO|This is Apollo Control at 44 hours 58 minutes. Moving the GET clock ahead at 65 hours will affect the time that has previously been given for the lunar sphere of influence crossing. Newsmen who are interested in this time should add 2 hours and 40 minutes to the time previously given, which would make the time for lunar sphere crossing now 73 hours 23 minutes 24 seconds Ground Elapsed Time. The distances and the velocities that were previously predicted will remain the same. Those are 190,725 nautical miles from Earth; 33,639 nautical miles from the Moon; and an Earth reference to velocity of 2,340 feet per second. Apollo 17 is now 148,668 nautical miles from Earth - -
-|044:59:52|CC||-- resting, or did you quit?
+|044:59:52|CC|- - resting, or did you quit?
 |044:59:56|LMP|No, I'm resting right now. Didn't seem like my arms have the stamina they did yesterday to hold the artificial g. What - -
 |045:00:02|CC|... understand.
 |045:00:02|LMP|- - did I get to?
@@ -3981,7 +3984,7 @@
 |045:32:05|CC|Roger. I've got 1 minute on my timer right now - about 01:27, actually.
 |045:32:11|CMP|Oh, thank you.
 |045:32:24|CMP|Well, we'll start at 2 minutes.
-|045:33:37|CC||You're still on the front page with the ...
+|045:33:37|CC|You're still on the front page with the ...
 |045:38:41|PAO|This is Apollo Control at 45 hours 38 minutes. Distance now 149,941 nautical miles from the Earth; velocity 3,405 feet per second.
 |045:47:50|CMP|Okay, Houston. The DAC is OFF now.
 |045:47:53|CC|Roger. DAC OFF.
@@ -4337,7 +4340,7 @@
 |057:22:23|PAO|This is Apollo Control at 57 hours 22 minutes Ground Elapsed Time. The crew is still asleep. Have been unable to raise them until now. They're considering using an oscillator passed directly into the air-to-ground circuit to put a high-pitched tone, that perhaps even with the earplug out they would be able to hear it from a fairly good distance. Presently, Apollo 17 is 59,682 nautical miles out from the Moon approaching at a velocity of 3,285 feet per second. Mother Earth is behind them some 172,562 nautical miles. Here goes another call.
 |057:23:14|CC|Apollo 17; oh, Apollo 17; it's morning. Time to get up. Over.
 |057:23:31|CC|Hello, Apollo 17; do you read? Over.
-|057:39:14|CC||Here goes the tone up on the air-ground circuit from network.
+|057:39:14|CC|Here goes the tone up on the air-ground circuit from network.
 |057:39:35||(Music: Jayhawk Fight Song)
 |057:40:32|CC|Hello, 17. Hello, 17. How do you read us this morning?
 |057:40:42|LMP|We're asleep.
