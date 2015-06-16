@@ -269,10 +269,10 @@
 |000:06:49|CC|MARK. S-IVB to orbit capability. And we'd like OMNI Delta, Jack.
 |000:06:54|LMP|Roger. You've got it.
 |000:06:56|CMP|Okay, 7 minutes ...
-|000:07:00|CC|Roger.
+|000:06:58|CC|Roger.
 |000:07:00|CDR|7, and I'm 6 degrees. How does that sound?
 |000:07:01|CMP|Okay, that's good. 17, 3. Let's see, 119. We go to ... half a mile high.
-|000:07:03|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
+|000:07:01|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
 |000:07:08|CDR|Seven minutes, Bob. We're looking good onboard.
 |000:07:11|CC|Roger.
 |000:07:18|CDR|Am I glad I took my hand off that abort handle!
@@ -2282,7 +2282,7 @@
 |021:55:50|CC|Jack, just for your information - the Surgeons pulled out the recovery rate data and it's the same with our data, which is a little rough here. It's the same for zero G as your one G ergometer data.
 |021:56:12|LMP|Okay. That's very interesting.
 |021:56:15|CC|Roger.
-|021:59:46|CDR|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3, and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window - more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
+|021:59:46|LMP|Bob, since we've got a few moments to talk - which I know we won't have later in the mission. Something I don't ever remember happening, but it's happening now in the windows. That's the 1, 3, and 5, but not 2 and 4, is that in the center of the window about 6 or 8 inches in diameter, as you come through the night side of the rotation, you pick up a very light - oh, you might call it even a frost. Very light frost on the window - more like a - a moisture frost, film of moisture, or film of frost - not very thick like crystals at all. As you come through the sunlight, it tends to sublime away, but never - you never fully lose it until you go back into darkness again. The very artistic definite ice crystals that we had on my number 1 window over here yesterday - I think we reported to you this morning that they were gone or they sublimed away. But the impression they left on the window is still there; it's very sharp and very evident.
 ||||Tape 17/12|Page 138
 |022:01:16|CC|Roger. We copy that.
 |022:02:38|LMP|Bob, I don't know whether you were copying Honeysuckle's call to us, while you lost comm there for a while.
@@ -2296,7 +2296,7 @@
 ||||Tape 17/13|Page 139
 |022:04:15|LMP|That front is - seems to have slowed down its progress. It's about in the same position, possibly slightly farther north than when I started talking about it this morning. The wave that has - seems to be developing off the - now off the southwest coast of New Zealand is much more pronounced than it was. Definitely seems to now have a slight cyclonic pattern - clockwise pattern. And I wouldn't be surprised if the next couple of days that moves along the front over towards Sydney. And maybe a little farther north than that might - Brisbane is probably more likely.
 |022:05:06|CC|Roger, Jack.
-|022:05:11|LMP|Except I got the movement wrong again. Although it does seem to have progressed west from New Zealand.
+|022:05:11|LMP|Except I got the movement wrong again. Although it does seem to have progressed west from - from New Zealand.
 |022:05:26|CC|Roger.
 |022:05:31|LMP|I take back what I said about forecasting Sydney's weather. I think that will - I would suspect that would move to the northeast like - now that I look - it seems like an earlier front, which is partly dissipated, had the same kind of motion, and now lies considerably north and east of the one I've been talking about.
 |022:05:58|CC|Roger.
@@ -2311,7 +2311,7 @@
 |022:11:49|CC|Roger, Jack.
 |022:12:40|CDR|Houston, how are you reading now?
 |022:12:42|CC|Reading you loud and clear.
-|022:12:46|CDR|Okay, Bob. As I look at the clock, we're - just 24 hours ago we were about within our hold somewhere. For this period yesterday we were in our hold, and I think it goes without saying; but we'd sure like to pass on our bit of gratitude and thanks for the response that the people down at the Cape came up with. And particularly at Marshall. I think we all knew no one would be going anywhere unless everyone was satisfied that we were going all the way. And that's certainly the way we felt, but we do want to thank everybody who had a part in making that come true.
+|022:12:46|CDR|Okay, Bob. As I look at the clock, we're - just 24 hours ago we were about within our hold somewhere. For this period yesterday we were in our hold, and I think it goes without saying; but we'd sure like to pass on our debt of gratitude and thanks for the response that the people down at the Cape came up with. And particularly at Marshall. I think we all knew no one would be going anywhere unless everyone was satisfied that we were going all the way. And that's certainly the way we felt, but we do want to thank everybody who had a part in making that come true.
 |022:13:28|CC|Roger, Gene. I think it was a superb show between the Cape and Marshall and Houston and probably even Goddard, with the Network and just about everybody concerned, really, had to do some work there to bring it off. And it went off real smoothly.
 |022:13:46|CDR|Yes. After flying with Stafford a couple of times and having that happen a few times back, I thought maybe he was aboard.
 ||||Tape 17/15|Page 141
@@ -2337,7 +2337,7 @@
 |022:22:02|CMP|(Laughter) Right.
 |022:22:14|CDR|How are they doing today, Bob?
 |022:22:17|CC|Really fine, really fine. They're just - like I said, they're just really tickled pink, and Barbara said that she wants you to know she's going into quarantine until after the weekend here, until after landing.
-|022:22:31|CDR|If she goes into quarantine, it'll be a space first
+|022:22:31|CDR|If she goes into quarantine, it'll be a space first.
 |022:22:34|CC|Roger.
 |022:22:44|CC|You got to be careful about all this.
 |022:22:45|CDR|Well, you know what to tell them -
@@ -2365,7 +2365,7 @@
 |022:27:27|LMP|Oh, and, Bob, I got another pair of pictures. And that would be up to 134.
 |022:27:27|CC|Roger. That's on November November, is that affirm?
 |022:27:31|LMP|That's affirm.
-|022:27:32|CC|... Good show.
+|022:27:32|CC|Real - Good show.
 |022:27:41|LMP|And that was taken - the last pass, about 10 minutes ago, if you want to keep track of GET.
 |022:27:48|CC|Roger. Thanks, Jack; I'm doing that.
 |022:28:22|CC|Just for some information for Ron, in particular. We've evaluated the data from the mapping camera and the pan camera cycling there and it looks real good. Everything looks right normal.
@@ -2401,14 +2401,14 @@
 |022:41:52|LMP|Yes, of course, that is Port Moresby. I can see that point there, and between those two - I can pin that one down probably within a couple of degrees.
 |022:42:02|KRANZ|Okay. We'll get a satellite photo and bring it in here in just a bit.
 |022:42:54|PAO|The conversation over the past few minutes has been between Flight Director, Gene Kranz, and Jack Schmitt. Apollo 17 at this time, almost directly above the northeast coast of Australia - some 94,000 nautical miles from earth.
-|022:50:00|LMP|Houston, canister number 4 is in Bravo now.
+|022:50:00|CMP|Houston, canister number 4 is in Bravo now.
 |022:50:09|CC|Roger. We copy that.
 |022:56:11|LMP|Houston, 17.
 |022:56:24|CC|Go ahead, 17.
 |022:56:33|LMP|Okay, Bob. That storm off the - just off the southwest coast of New Zealand is still intensifying and has both high and low level clouds as you can see by shadow lines. It looks like it may go into pretty - pretty fair storm system. Borneo is very clear today; and, as is the Philippines. And as I mentioned, there's a - looks like a very strong frontal system that stretches from, oh, let's say, the south coast of - or southeast coast of Vietnam up - up between and across Tai - between the Philippines and Taiwan and across Taiwan. And right along, and I can't tell I think, just off - just south of Japan. I can't tell whether Japan is in the front or not. I'll look at it some more. The strongest storm center that I can see on that is - is way north, and probably - Hokkaido is - has a fair amount of weather from that storm system. There seems to be a tropical depression just north of Borneo. A very strong circulation system north of Borneo and, I guess, just south of - of Vietnam.
 ||||Tape 18/2|Page 148
-|022:56:34|CC|Roger.
-|022:56:36|LMP|Probably south - probably southeast. I hadn't noticed it before, but it's extremely concentrated northern hemisphere cycl - cyclone pattern. I don't know whether that's on your prog or not. That's not what's left of Sally, is it?
+|022:58:34|CC|Roger.
+|022:58:36|LMP|Probably south - probably southeast. I hadn't noticed it before, but it's extremely concentrated northern hemisphere cycl - cyclone pattern. I don't know whether that's on your prog or not. That's not what's left of Sally, is it?
 |022:58:58|CC|Stand by. Let me look at the prog over here a sec. Okay. We - it doesn't show on the old one; the new one is coming in there shortly, Jack.
 |022:59:07|LMP|Okay. If that is a developing depression, it's approaching Luzon and not very far away - 2 or 3 degrees of longitude now, although Luzon is clear.
 |022:59:25|CC|Roger.
@@ -2480,21 +2480,21 @@
 |023:15:05|LMP|Okay.
 |023:15:07|CC|And we will want to still check it prior to your sleep period.
 |023:15:14|LMP|Okay.
-|023:15:34|LMP|Okay, Bob, a little update on the coast of Asia. It looks like some residual cloudiness would be affecting the Pusan region of Korea. And, also, that's residual after the frontal passage. And it looks like maybe Shanghai, after all, may have some storms associated with it, but it's really hard to pick out exactly - the exact coast line of Asia, but I - there are some clouds in the Yellow Sea behind the front, Look like they might be possibly some high cirrus is all.
+|023:15:34|LMP|Okay, Bob, a little update on the coast of Asia. It looks like some residual cloudiness would be affecting the Pusan region of Korea. And, also, that's residual after the frontal passage. And it looks like maybe Shanghai, after all, may have some storms associated with it, but it's really hard to pick out exactly - the exact coast line of Asia, but I - there are some clouds in the Yellow Sea, behind the front, Look like they might be possibly some high cirrus is all.
 |023:16:21|CC|Jack, do you still see that storm that you said was sitting between Guam and - Borneo in that area?
 |023:16:34|LMP|Okay. I see there is this cloud concentration between New Guinea and Guam. The more I look at it the less well developed it appears to me compared to some of the other circulation patterns. It could be just a residual depression from Teresa that has moved out into that area. It is an isolated, a relatively isolated cloud pattern, fairly small, but apparently fairly dense. But has - does not have a strong cyclonic pattern to it. Nothing at all like the pattern that now exists above Borneo and seems to be moving towards Luzon.
 |023:17:18|CC|Roger. We copy.
-|023:20:04|SC|Say ...
-|023:21:33|CMP|Okay, Houston. We're moving in the pieces of a Presleep Checklist. Here's some onboard read-outs for you. BATTERY C is 37.0; PYRO BAT A, 37.2; PYRO BAT B, 37.2; RCS A, 95; Bravo, 94; Charlie, 94; Delta is 96.
+|023:20:04|LMP|Say ...
+|023:21:33|LMP|Okay, Houston. We're moving in the pieces of a Presleep Checklist. Here's some onboard read-outs for you. BATTERY C is 37.0; PYRO BAT A, 37.2; PYRO BAT B, 37.2; RCS A, 95; Bravo, 94; Charlie, 94; Delta is 96.
 ||||Tape 18/8|Page 154
 |023:22:10|CC|Roger. We copy that. And if you've started it, we don't want you to reinitialize the PTC until about 2400 on the timeline.
-|023:22:27|CMP|Okay. We're - we're just getting a little ahead - we - took us longer last night on the presleep than we expected. We're trying to work it out again.
+|023:22:27|LMP|Okay. We're - we're just getting a little ahead - we - took us longer last night on the presleep than we expected. We're trying to work it out again.
 |023:22:35|CC|Yes. We don't to - we want to terminate the waste stowage vent at that time, because we think that that vent is what's contributing to our PTC coning.
-|023:22:46|CMP|Okay. We're - we're not - we're not really ready to go to sleep yet, but we're just moving ahead.
+|023:22:46|LMP|Okay. We're - we're not - we're not really ready to go to sleep yet, but we're just moving ahead.
 |023:22:52|CC|Roger.
-|023:22:58|CMP|And if it's okay, I'll cycle the H2 fans.
+|023:22:58|LMP|And if it's okay, I'll cycle the H2 fans.
 |023:23:07|CC|Roger. We're standing by.
-|023:24:16|CMP|Okay. The fans are off.
+|023:24:16|LMP|Okay. The fans are off.
 |023:24:18|CC|Roger.
 |023:24:36|PAO|This is Apollo Control at 23 hours 25 minutes. The crew has completed realigning the inertial measurement platform, the platform used as a stable reference. The spacecraft guidance and control system uses it as a reference in determining its own attitude. They've also been charging the two entry batteries that are used during peak electrical loads of liftoff, and then are recharged during the translunar coast when the fuel cells are producing a surplus of electrical energy. They've recharged one of those two batteries and are in the process of recharging the second one at this time. And you heard the crew describe going into their pre-sleep checklist and getting things aboard the spacecraft configured for the sleep period, which is scheduled to begin at 25 hours Ground Elapsed Time or a little more than 1-1/2 hours from now. Apollo 17 at this time is 96,244 nautical miles from Earth, traveling at 5,264 feet per second. And all spacecraft systems continue to function almost perfectly as planned. A little while ago the lunar module officer - control officer - confirmed from telemetry what Gene Cernan was reporting visually out the window and that is that the lunar module appears to be in very good shape. Of course we have a limited number of telemetry readings on the LM at this point. But one of them that we do have gives us an indication of the integrity or tightness of the LM cabins. We can see that in the amount of pressure decaying. It appears to be a very tight vehicle.
 |023:28:27|CC|Say, Jack, we got a request in here from our ARIA friends.
@@ -2538,10 +2538,10 @@
 |023:45:23|CC|You can go to attitude and reinitialize PTC whenever you want to.
 |023:45:30|CDR|Okay. Did you mean to leave the computer with VERB 21 NOUN 01 up?
 |023:45:36|CC|Roger. That's your computer with that - as you got it.
-|023:45:41|LMP|Okay; that's right. That's l462.
+|023:45:41|CDR|Okay; that's right. That's l462.
 |023:46:43|CDR|Okay.
 |023:50:09|CC|17, Houston.
-|023:50:14|LMP|Roger. Go ahead.
+|023:50:14|CMP|Roger. Go ahead.
 |023:50:15|CC|Roger. We've got a recommended configuration for your H2 fans and H2 heaters. We would like the H2 HEATERS 1 and 2 to AUTO and H2 FANS 1 and 2, OFF; 3 to AUTO. Your O2 heaters look good.
 ||||Tape 18/12|Page 158
 |023:50:45|LMP|Okay. Let me verify that I've got these right. H2 HEATERS 1, 2, AUTO. O2 HEATERS, 1 OFF; 2, OFF; 3, AUTO. H2 FANS - H2 FANS, you want OFF; OFF; and AUTO. is that correct?
@@ -2584,14 +2584,14 @@
 |024:12:13|CDR|Bob, I just hit the control stick. It's locked again in roll; it may have burnped it a little bit.
 |024:12:20|CC|Roger, Gene. We copy.
 ||||Tape 19/1|Page 161
-|024:17:15|CDR|Houston, 17. Okay if we CLOSE the waste stowage vent now? Oh, okay. I'm sorry. It's CLOSED.
+|024:17:15|LMP|Houston, 17. Okay if we CLOSE the waste stowage vent now? Oh, okay. I'm sorry. It's CLOSED.
 |024:17:23|CC|Roger, 17.
-|024:17:28|CDR|Forget it. We got it, I - I was left out.
+|024:17:28|LMP|Forget it. We got it, I - I was left out.
 |024:17:53|LMP|Okay, Bob. On the film status, we're still where we were, November-November, 134. And I'll probably take two more pictures before we go to sleep.
 |024:18:11|CC|Roger. We copy.
 |024:19:38|CC|And, 17, if one of you are down in the LEB, could you give us a read-out on SYSTEMS TEST 7 Alfa?
-|024:19:45|CDR|Stand by. ... Okay
-|024:20:58|CDR|Houston, 17. 7 Alfa is 0.6.
+|024:19:45|LMP|Stand by. ... Okay
+|024:20:58|LMP|Houston, 17. 7 Alfa is 0.6.
 |024:21:03|CC|Roger. 7 Alfa equals 0.6.
 |024:22:51|LMP|Okay, Houston; 17. Are we configured properly now for comm?
 |024:23:04|CC|Stand by, Gor - stand by, Jack.
@@ -2605,7 +2605,7 @@
 |024:27:18|CC|Roger, Gene. We copy, and we watch the roll start.
 |024:33:03|CDR|Hello, Houston. I think we've got everything done on the checklist. The chlorine has been - water has been chlorinated, we're in PTC, and I think Jack picked up everything else. How does it look to you?
 |024:33:19|CC|Roger, Gene. Let's - let us make a check through the room here, and then just a reminder that I've got that addition on the E-LOADS for the - in the Flight Plan Supplement.
-|024:33:35|CDR|Yes. Stand by. Jack's going to keep the headset on and the biomed, and he'll close you out with that and if there's nothing else, I'm going to go off the air.
+|024:33:35|CDR|Yes. Stand by. Jack's going to keep the headset on and the biomed, and he'll close you out with that, and if there's nothing else, I'm going to go off the air.
 |024:33:46|CC|Roger, Gene.
 |024:33:49|CDR|Okay, say goodnight to my friends back there.
 |024:33:53|CC|We certainly will.
@@ -2655,7 +2655,7 @@
 |024:47:02|CC|Roger, Jack. You've been sounding good.
 |024:47:06|LMP|Oh, actually, I feel - I've been feeling fine. Just - none of us have felt like eating. And that's probably normal, and everybody's eating more now, and we'll start getting to sleep, I think.
 |024:47:18|CC|Roger. Jack, just a reminder on that comm for the presleep checklist. It's important to us because we can get the - we can get high-bit-rate data more.
-|024:47:48|LMP|Bob, he cut out, but I'm in the comm sleep configuration now. I'm working that way.
+|024:47:48|LMP|Bob, you cut out, but I'm in the comm sleep configuration now. I'm working that way.
 |024:47:58|CC|Okay. Ed Grindell was shaking his head for a minute. Now he says as long as you're working that way.
 ||||Tape 19/6|Page 166
 |024:48:38|LMP|Bob, you still cut out. Let's try it again.
