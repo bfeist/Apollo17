@@ -288,7 +288,7 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 169:40:15|20479|134|B|SO-368|||||||60|38|EVA 3|STA LM, CDR, LRV|Jack Schmitt|
 169:47:19|20480|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
 169:47:29|20481|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
-169:47:38|20482|134|B|SO-368|||||||60|38|EVA 3|"""Cernan unveils Apollo 17 plaque on leg of LM """"Challenger"""""""|Jack Schmitt|
+169:47:38|20482|134|B|SO-368|||||||60|38|EVA 3|Cernan unveils Apollo 17 plaque on leg of LM Challenger|Jack Schmitt|
 169:47:43|20483|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
 169:47:48|20484|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
 169:47:53|20485|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
@@ -348,7 +348,7 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 141:25:13|20539|135|G|3401|||||||60|25|EVA 2|STA SEP, SPL 0275|Jack Schmitt|
 141:25:33|20540|135|G|3401|||||||60|25|EVA 2|STA SEP, SPL 0275|Jack Schmitt|
 141:25:53|20541|135|G|3401|||||||60|25|EVA 2|STA SEP, SPL 0275|Jack Schmitt|
-141:27:08|20542|135|G|3401|||||||60|25|EVA 2|view from the back of the Rover at the start of the EVA-2 Traverse, with the newly installed replacement fender on the right-rear wheel|Jack Schmitt|
+141:27:08|20542|135|G|3401|||||||60|25|EVA 2|View from the back of the Rover at the start of the EVA-2 Traverse, with the newly installed replacement fender on the right-rear wheel|Jack Schmitt|
 141:27:18|20543|135|G|3401|||||||60|25|EVA 2|STA SEP, LRV|Jack Schmitt|
 141:27:28|20544|135|G|3401|||||||60|25|EVA 2|Cernan drives the Rover near the SEP deployment site|Jack Schmitt|
 141:27:38|20545|135|G|3401|||||||60|25|EVA 2|STA SEP, LRV, CDR, SURF ELEC PROP|Jack Schmitt|
@@ -672,168 +672,168 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 122:49:32|20863|136|H|3401|||||||60|17|EVA 1|LRV TRAVERSE, STA 1 TO STA SEP|Jack Schmitt|
 |20864|136|H|3401||||||||||BLANK|Jack Schmitt|
 |20865|136|H|3401||||||||||BLANK|Jack Schmitt|
-|20866|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20867|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20868|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20869|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20870|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20871|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, ALSEP|JSC scan|
-|20872|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM, ALSEP|JSC scan|
-|20873|137|C|SO-368|||||||60|25|EVA 2|view of LM from pan sequence|JSC scan|12-Dec-72
-|20874|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|JSC scan|
-|20875|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|JSC scan|
-|20876|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|JSC scan|
-|20877|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20878|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20879|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20880|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20881|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20882|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20883|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20884|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20885|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20886|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20887|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20888|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20889|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20890|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|JSC scan|
-|20891|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|JSC scan|
-|20892|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|JSC scan|
-|20893|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|JSC scan|
-|20894|137|C|SO-368|||||||60|25|EVA 2|STA LM, LRV, FRONT|JSC scan|
-|20895|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2135|JSC scan|
-|20896|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2140|JSC scan|
-|20897|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, SPL 2140, 55|JSC scan|
-|20898|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|JSC scan|
-|20899|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|JSC scan|
-|20900|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|JSC scan|
-|20901|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|JSC scan|
-|20902|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20903|137|C|SO-368|||||||60|26|EVA 2|STA 2. SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20904|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20905|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20906|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20907|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20908|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20909|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
-|20910|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20911|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20912|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|JSC scan|
-|20913|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|JSC scan|
-|20914|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|JSC scan|
-|20915|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|JSC scan|
-|20916|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75. 95|JSC scan|
-|20917|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20918|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20919|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20920|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20921|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20922|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20923|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20924|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20925|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|JSC scan|
-|20926|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|JSC scan|
-|20927|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|JSC scan|
-|20928|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|JSC scan|
-|20929|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20930|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20931|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20932|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20933|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20934|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20935|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20936|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20937|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20938|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20939|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20940|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20941|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20942|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20943|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20944|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20945|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20946|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20947|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20948|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20949|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20950|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20951|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20952|137|C|SO-358|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20953|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|JSC scan|
-|20954|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|JSC scan|
-|20955|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|JSC scan|
-|20956|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|JSC scan|
-|20957|137|C|SO-368|||||||60|26|EVA 2|view of Earth from lunar surface|JSC scan|
-|20958|137|C|SO-368|||||||60|26|EVA 2|STA 2, EARTH|JSC scan|
-|20959|137|C|SO-368|||||||60|26|EVA 2|STA 2, EARTH|JSC scan|
-|20960|137|C|SO-368|||||||60|26|EVA 2|boulder at Station 2 and Earth above|JSC scan|
-|20961|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER, EARTH|JSC scan|
-|20962|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2500, 2535-57|JSC scan|
-|20963|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|JSC scan|
-|20964|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|JSC scan|
-|20965|137|C|SO-368|||||||60|26|EVA 2|Station 2 sample|JSC scan|
-|20966|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20967|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20968|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20969|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20970|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20971|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20972|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-35, 40, 60, TONGS|JSC scan|
-|20973|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|JSC scan|
-|20974|137|C|SO-358|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|JSC scan|
-|20975|137|C|SO-368|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|JSC scan|
-|20976|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|JSC scan|
-|20977|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|JSC scan|
-|20978|137|C|SO-368|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|JSC scan|
-|20979|137|C|SO-368|||||||60|27|EVA 2|repaired LRV fender|JSC scan|
-|20980|137|C|SO-368|||||||60|27|EVA 2|LRV TRAVERSE, STA 2A TO STA 3|JSC scan|
-|20981|137|C|SO-368|||||||60|27|EVA 2|drive tube at Station 3 / LRV tracks|JSC scan|
-|20982|137|C|SO-368|||||||60|27|EVA 2|drive tube at Station 3 / LRV tracks|JSC scan|
-|20983|137|C|SO-368|||||||60|27|EVA 2|LRV TRAVERSE, STA 3 TO STA 4, SPL 411|JSC scan|
-|20984|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|JSC scan|
-|20985|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|JSC scan|
-|20986|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|JSC scan|
-|20987|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|JSC scan|
-|20988|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|JSC scan|
-|20989|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|JSC scan|
-|20990|137|C|SO-368|||||||60|27|EVA 2|orange soil discovered at rim of Shorty Crater|JSC scan|
-|20991|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|20992|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - East wall and bottom of Shorty Crater|JSC scan|
-|20993|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|20994|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - North wall and bottom of Shorty. Hanover Crater|JSC scan|
-|20995|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|20996|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - West and south walls of Shorty|JSC scan|
-|20997|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|20998|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|20999|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21000|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21001|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21002|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21003|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21004|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21005|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21006|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21007|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21008|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21009|137|C|SO-368|||||||60|27|EVA 2|Schmitt and LRV at Shorty crater (Station 4)|JSC scan|
-|21010|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan / LRV / LMP|JSC scan|
-|21011|137|C|SO-368|||||||60|27|EVA 2|Schmitt and LRV at Shorty crater (Station 4)|JSC scan|
-|21012|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan / LRV / LMP|JSC scan|
-|21013|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21014|137|C|SO-358|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21015|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21016|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21017|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21018|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21019|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21020|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21021|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21022|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21023|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21024|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|JSC scan|
-|21025|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|JSC scan|
-|21026|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|JSC scan|
-|21027|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|JSC scan|
+140:58:51|20866|137|C|SO-368|||||||60|25|EVA 2|LM pan taken at the start of EVA-2. Jack's shadow. (West) Family Mountain is on the horizon to the left of center and (Old) Family Mountain is to the right of center. Lightly sunstruck.|Jack Schmitt|
+|20867|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20868|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20869|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20870|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20871|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, ALSEP|Jack Schmitt|
+|20872|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM, ALSEP|Jack Schmitt|
+|20873|137|C|SO-368|||||||60|25|EVA 2|view of LM from pan sequence|Jack Schmitt|12-Dec-72
+|20874|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
+|20875|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
+|20876|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|Jack Schmitt|
+|20877|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20878|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20879|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20880|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20881|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20882|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20883|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20884|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20885|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20886|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20887|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20888|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20889|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20890|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
+|20891|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
+|20892|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|Jack Schmitt|
+|20893|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
+|20894|137|C|SO-368|||||||60|25|EVA 2|STA LM, LRV, FRONT|Jack Schmitt|
+|20895|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2135|Jack Schmitt|
+|20896|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2140|Jack Schmitt|
+|20897|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, SPL 2140, 55|Jack Schmitt|
+|20898|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|Jack Schmitt|
+|20899|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|Jack Schmitt|
+142:54:53|20900|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Jack Schmitt|
+142:54:55|20901|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Jack Schmitt|
+|20902|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20903|137|C|SO-368|||||||60|26|EVA 2|STA 2. SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20904|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20905|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20906|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20907|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20908|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+|20909|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Jack Schmitt|
+143:08:09|20910|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20911|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+143:09:56|20912|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|Jack Schmitt|
+|20913|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|Jack Schmitt|
+|20914|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|Jack Schmitt|
+|20915|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75, 95|Jack Schmitt|
+|20916|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, 20, 35, 55, 75. 95|Jack Schmitt|
+|20917|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20918|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20919|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20920|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20921|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+|20922|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+143:09:56|20923|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+143:18:49|20924|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+143:20:27|20925|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER|Jack Schmitt|
+143:22:04|20926|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|Jack Schmitt|
+|20927|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|Jack Schmitt|
+|20928|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LMP|Jack Schmitt|
+|20929|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20930|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20931|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20932|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20933|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20934|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20935|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20936|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20937|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20938|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20939|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20940|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20941|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20942|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20943|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20944|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20945|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20946|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20947|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20948|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20949|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20950|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20951|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20952|137|C|SO-358|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20953|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN|Jack Schmitt|
+|20954|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|Jack Schmitt|
+|20955|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|Jack Schmitt|
+|20956|137|C|SO-368|||||||60|26|EVA 2|STA 2, PAN, LRV|Jack Schmitt|
+143:23:22|20957|137|C|SO-368|||||||60|26|EVA 2|view of Earth from lunar surface|Jack Schmitt|
+|20958|137|C|SO-368|||||||60|26|EVA 2|STA 2, EARTH|Jack Schmitt|
+|20959|137|C|SO-368|||||||60|26|EVA 2|STA 2, EARTH|Jack Schmitt|
+|20960|137|C|SO-368|||||||60|26|EVA 2|boulder at Station 2 and Earth above|Jack Schmitt|
+|20961|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER, EARTH|Jack Schmitt|
+|20962|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2500, 2535-57|Jack Schmitt|
+143:28:35|20963|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Jack Schmitt|
+|20964|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Jack Schmitt|
+|20965|137|C|SO-368|||||||60|26|EVA 2|Station 2 sample|Jack Schmitt|
+|20966|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20967|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20968|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20969|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20970|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20971|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20972|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-35, 40, 60, TONGS|Jack Schmitt|
+|20973|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Jack Schmitt|
+|20974|137|C|SO-358|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Jack Schmitt|
+|20975|137|C|SO-368|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Jack Schmitt|
+|20976|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|Jack Schmitt|
+|20977|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|Jack Schmitt|
+143:41:08|20978|137|C|SO-368|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Jack Schmitt|
+|20979|137|C|SO-368|||||||60|27|EVA 2|repaired LRV fender|Jack Schmitt|
+144:10:12 |20980|137|C|SO-368|||||||60|27|EVA 2|LRV TRAVERSE, STA 2A TO STA 3|Jack Schmitt|
+|20981|137|C|SO-368|||||||60|27|EVA 2|drive tube at Station 3 / LRV tracks|Jack Schmitt|
+|20982|137|C|SO-368|||||||60|27|EVA 2|drive tube at Station 3 / LRV tracks|Jack Schmitt|
+|20983|137|C|SO-368|||||||60|27|EVA 2|LRV TRAVERSE, STA 3 TO STA 4, SPL 411|Jack Schmitt|
+|20984|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Jack Schmitt|
+|20985|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Jack Schmitt|
+|20986|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Jack Schmitt|
+|20987|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|Jack Schmitt|
+|20988|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|Jack Schmitt|
+|20989|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|Jack Schmitt|
+|20990|137|C|SO-368|||||||60|27|EVA 2|orange soil discovered at rim of Shorty Crater|Jack Schmitt|
+|20991|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|20992|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - East wall and bottom of Shorty Crater|Jack Schmitt|
+|20993|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|20994|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - North wall and bottom of Shorty. Hanover Crater|Jack Schmitt|
+|20995|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|20996|137|C|SO-368|||||||60|27|EVA 2|Station 4 pan frame - West and south walls of Shorty|Jack Schmitt|
+|20997|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|20998|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|20999|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21000|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21001|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21002|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21003|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21004|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21005|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21006|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21007|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21008|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21009|137|C|SO-368|||||||60|27|EVA 2|Schmitt and LRV at Shorty crater (Station 4)|Jack Schmitt|
+|21010|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan / LRV / LMP|Jack Schmitt|
+|21011|137|C|SO-368|||||||60|27|EVA 2|Schmitt and LRV at Shorty crater (Station 4)|Jack Schmitt|
+|21012|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan / LRV / LMP|Jack Schmitt|
+|21013|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21014|137|C|SO-358|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21015|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21016|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21017|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21018|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21019|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21020|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21021|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21022|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21023|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21024|137|C|SO-368|||||||60|27|EVA 2|Sta 4 / pan frame|Jack Schmitt|
+|21025|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|Jack Schmitt|
+|21026|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|Jack Schmitt|
+|21027|137|C|SO-368|||||||60|27|EVA 2|STA 4, PAN|Jack Schmitt|
 |21028|138|I|3401|||||||60|26|EVA 2|OVEREXPOSED|JSC scan|
 |21029|138|I|3401|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
 |21030|138|I|3401|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|JSC scan|
