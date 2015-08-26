@@ -167,7 +167,7 @@
 |000:02:28|LMP|Okay, it's 19.
 |000:02:30|CDR|Now at 41. It's 41. ... seconds
 |000:02:32|CDR|3 1/2 gs.
-|000:02:34|PAO|Crew will experience maximum G forces of about 4 Gs at shutdown.
+|000:02:33|PAO|Crew will experience maximum G forces of about 4 Gs at shutdown.
 |000:02:35|CDR|Hold on!
 |000:02:37|CDR|Okay. 5 seconds. ... gs. 4 gs.
 |000:02:40|PAO|Coming up on first stage shutdown. And we've had shutdown on time on the first stage.
@@ -230,20 +230,20 @@
 |000:05:14|CDR|You guys believe me about that S-I staging now?
 |000:05:16|CMP|(laughter) I can't -
 |000:05:19|LMP|I can't believe how smooth this is.
-|000:05:19|CMP|I can't - I can't believe how smooth this is.
+|000:05:20|CMP|I can't - I can't believe how smooth this is.
 |000:05:21|CDR|Okay, let's keep this mother burning. We've got a long way to go. We're only half way there.
 |000:05:24|CC|17, Houston. Your times are nominal. Level sense arm at 8 plus 36; S-II shutdown at 9 plus 20. Nominal times.
 |000:05:33|CDR|8 plus 36 and 9 plus 20. Roger.
 |000:05:36|LMP|Coming up on gimbal motors, Geno.
 |000:05:37|CDR|Okay. ...
-|000:05:39|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
+|000:05:38|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
 |000:05:52|CDR|I forget anything yet, Ron?
 |000:05:54|CMP|Nope.
 |000:05:54|CDR|Okay, we're still MODE 2, coming up on -
 |000:05:56|CC|Standby for S-IVB to COI capability.
 |000:05:59|CC|MARK. S-IVB to COI capability.
 |000:06:01|CDR|Roger. S-IVB to COI. We're GO at 6.
-|000:06:04|CDR|Good. Gimbal motors?
+|000:06:03|CDR|Good. Gimbal motors?
 |000:06:04|CMP|Go ahead.
 |000:06:05|CC|Roger, Geno.
 |000:06:06|CDR|PITCH 1.
@@ -303,8 +303,8 @@
 |000:08:21|CC|17, Houston. You are GO for staging.
 |000:08:24|CDR|Thank you, Bob. We are GO for staging up here.
 |000:08:29|CDR|A little over a G.
-|000:08:32|LMP|There's a little chug.
-|000:08:34|PAO|Staging now less than 1 minute.
+|000:08:31|LMP|There's a little chug.
+|000:08:32|PAO|Staging now less than 1 minute.
 |000:08:34|CDR|Okay, we've got to get through this one. Coming in, we're level sense arm now.
 |000:08:40|CC|You have level sense arm this time, Gene.
 |000:08:42|CDR|Roger, Bob. Level sense arm.
@@ -2680,7 +2680,7 @@
 |024:58:25|CC|Jack, Houston.
 |024:58:30|LMP|Go ahead.
 |024:58:31|CC|Roger, Jack. We'd like to go to select OMNI Bravo, and stow the high gain the the normal stowage. It's customary we do not use the high gain for PTC going TLC.
-|024:58:55|LMP|Okay, Bob. I'm sorry, but the checklist indicated that you do all go back to OMNI Bravo.
+|024:58:55|LMP|Okay, Bob. I'm sorry, but the checklist indicated that you do, I'll go back to OMNI Bravo.
 |024:59:04|CC|Roger. It's probably ambiguous. If you end up going up on the checklist, up to the top of 1-28, it shows you where you want OMNI Bravo.
 |024:59:25|LMP|Ambiguous is the best word I can think of for it.
 |024:59:30|CC|Say again, Jack.
@@ -2715,15 +2715,15 @@
 |032:58:01|PAO|This is Apollo Control, 32 hours 58 minutes Ground Elapsed Time into the Mission of Apollo 17, Almost 2 minutes remaining until the first wakeup call is made to the Crew of Apollo 17 by spacecraft communicator Robert Parker. Parker is joined this morning by Apollo 17 backup Commander John Young at the CAPCOM console, and it appears that Parker's relief CAPCOM, Gordo Fullerton, just walked in the door and likely will relieve Parker in the day's duties of getting off midcourse correction #2 burn, and the first housekeeping venture into the Lunar Module. Apollo 17 is now 122,186 nautical miles out from the Earth, velocity now 4,259 feet per second. We'll stand by with the circuit open for the first wakeup call the usual post-sleep checklist, and Flight Plan updates and all of the conversation that normally takes place when the crew first wakes up. Let's just open the line now.
 ||||Tape 24/1|Page 170
 |033:00:38|CC|Apollo 17, Houston. Good morning.
-|033:01:06|CDR|Is that the best you could do?
+|033:01:06|LMP|Is that the best you could do?
 |033:01:09|CC|That's not very good either. Give us a call when you want to talk to us.
 |033:01:18|LMP|Good morning to you.
-|033:01:55|CDR|How's everything look, Bob?
+|033:01:55|LMP|How's everything look, Bob?
 |033:02:08|CC|You guys look absolutely super. No problem at all.
-|033:02:15|CDR|Nice way to wake up. Maybe we'll just sleep in for a few more hours.
+|033:02:15|LMP|Nice way to wake up. Maybe we'll just sleep in for a few more hours.
 |033:02:22|CC|Stand by. I'll check on that.
-|033:02:24|CDR|(Laughter).
-|033:21:09|CDR|Bob, 17. How do you read?
+|033:02:24|LMP|(Laughter).
+|033:21:09|LMP|Bob, 17. How do you read?
 |033:21:12|CC|17, this is Gordo. Bob just finished up his workday with that last call, and I'll be on now.
 ||||Tape 25/1|Page 171
 |033:31:24|LMP|Houston, 17. How do you read?
@@ -2762,11 +2762,11 @@
 |033:41:01|CC|Go ahead.
 |033:41:04|LMP|Gordy, the null bias check. Plus 0.9 and 100 seconds.
 |033:41:11|CC|Okay, one question G&C had. Do you do that null bias at plus 100 or minus 100 on the EMS counter?
-|033:41:23|LMP|Plus 100.
+|033:41:23|CMP|Plus 100.
 |033:41:25|CC|Okay, and it's increased up to 101.9, right?
-|033:41:32|LMP|No, it increased to 100.9.
+|033:41:32|CMP|No, it increased to 100.9.
 |033:41:36|CC|Roger. Miscopied you; 0.9. Okay; thank you.
-|033:41:40|LMP|Yes, okay. Seems to me like last night it was 100.7.
+|033:41:40|CMP|Yes, okay. Seems to me like last night it was 100.7.
 |033:41:48|CC|Roger.
 |033:42:03|CC|And for our part of the postsleep checklist, I have the consumables status, if you'd care to listen.
 |033:42:23|LMP|Stand by, Gordy.
@@ -2782,7 +2782,7 @@
 ||||Tape 25/5|Page 175
 |033:50:26|CMP|That's the way we like to see it.
 |033:50:30|CC|Same here.
-|033:50:41|CC|Oh, the only other thing I have in the way of updates is a PIPA bias update. You can load it yourself, or we can load it when we come up with the up-link prior to the burn. Your choice. And then We'll have an update to the erasable load update and a supplement to correspond with that bias update.
+|033:50:41|CC|Oh, the only other thing I have in the way of updates is a PIPA bias update. You can load it yourself, or we can load it when we come up with the up-link prior to the burn. Your choice. And then we'll have an update to the erasable load update and a supplement to correspond with that bias update.
 |033:51:04|CDR|Gordy, why don't you go ahead and load it yourself when you send up the vector?
 |033:51:11|CC|Okay, and I'll give you that update for the supplement. It's on 1-43 whenever you're - whenever it's convenient.
 |033:51:23|CDR|Okay, Jack's getting that out. I ran another PIPA bias at minus 100, and it confirmed the first one. It ended up at 99.2.
@@ -2801,10 +2801,10 @@
 |034:03:47|LMP|And I think that probably goes for everybody. That probably goes for - it goes for Ron and probably Gene also.
 |034:03:54|CC|Roger.
 |034:10:07|CC|17, Houston. I have a little synopsis of the news here, if you'd like to listen during breakfast. Let me know.
-|034:10:16|CDR|Okay, mighty fine. Send it up.
+|034:10:16|CMP|Okay, mighty fine. Send it up.
 |034:10:19|CC|Okay, front page first. In Paris, Henry Kissinger met for 30 minutes this morning with French President George Pompidou at the Elysee Palace just hours before his scheduled conference with North Vietnamese Politburo member Le Duc Tho - Tho, that is. North Vietnamese spokesmen accused Kissinger of attempting to force a peace settlement by threatening further escalation of the war. As both U.S. and North Vietnamese negotiators expressed disappointment at the continued deadlock, Chief American delegate William J. Porter traveled to Brussels to brief Secretary of State William B. Rogers. Rogers will - will return later today from the NATO Conference of Ministers. This one is datel - date - datelined Brussels. Diplomatic sources indicated today that NATO allies will request negotiations with the Soviet Union and its allies on mutual troop reductions in central Europe. Exploratory talks expected to begin about January 31, with full-scale negotiations to follow sometime next fall. In Kansas City, vital life signs for Harry S. Truman appear to have stabilized. But the 88-year-old former President remains on the critical list at Kansas City's Research Hospital. Truman is suffering from lung congestion and heart weakness. In Argentina, aides to popular Argentine politician Juan Peron said that Peron will refuse the nomination to the presidency of Argentina and will return to exile during the coming week. And, on the sports page, Rice coach Al Conover is expected to reveal today - sometime today his decision to either remain at Rice as head coach or move to his alma mater, Wake Forest in a similar position. The Owl head coach has said that he has been offered the job and promises a yes-or-no decision today. There is some speculation that head coach Joe Paterno of Penn State may move to a head coaching job in the pros next year. Paterno is busy preparing his Nittany Lions for a Sugar Bowl meeting with Oklahoma and is refusing to discuss the matter until after the game. Locally, the state high school football playoffs - -
 ||||Tape 25/7|Page 177
-|034:12:48|CDR|Lost you, Gordo.
+|034:12:48|CMP|Lost you, Gordo.
 |034:12:51|CC|Say again?
 |034:14:28|CC|Okay, 17. Continuing after being rudely interrupted by the OMNI switch, the state high school football playoffs here in Texas are underway and with a whole host of games scheduled this weekend. And the final item, the Major League Baseball Players' Association and the Commissioner's Office are going at it again. It must be getting close to spring training time.
 |034:14:53|LMP|Gordy, you cut out since the Nittany Lions.
@@ -2816,12 +2816,12 @@
 |034:29:28|LMP|Gordy, film update on mag November November. I'm on frame 138, and that includes a couple of pictures I mentioned to Bob I took just before I went to sleep. And also, two pictures this morning at about 33:30. Those are the Earth.
 |034:29:53|CC|Okay, Jack.
 |034:35:20|CC|17, Houston. A reminder. We need the H2 PURGE LINE HEATERS, ON, now. And I do have a maneuver pad for the midcourse when-you're ready to copy. Over.
-|034:35:36|CDR|Okay. I've already got the HEATER, ON. And give me about 5 minutes, and I'll get the pad.
+|034:35:36|LMP|Okay. I've already got the HEATER, ON. And give me about 5 minutes, and I'll get the pad.
 |034:35:43|CC|Okay. And if you'll give us ACCEPT and P00, we'll get the up-link started just after the next antenna switch. We want to catch it between switches. Over.
-|034:35:57|CDR|Okay. You got P00 and ACCEPT.
+|034:35:57|LMP|Okay. You got P00 and ACCEPT.
 |034:36:00|CC|Thank you.
 |034:46:19|CC|17, it's your computer. You have a state vector, VERB 66, and a target load, and a PIPA bias update.
-|034:46:27|CDR|Very good.
+|034:46:27|LMP|Very good.
 |034:49:49|LMP|Believe it or not, Gordy, I'm ready for your pad.
 |034:49:54|CC|Okay, Jack. It's a midcourse 2, SPS/G&N; the weight is 66786; plus 1.21, minus 0.13; ignition time is 035:29:59.09; minus 0003.4, plus 0002.1, minus 0009.8; attitude is 132, 194, 343; HA and HP are NA; DELTA-Vt 0010.6, burn time is 0:02, 0006.5; sextant star is 25, 233.7, 16.4; rest of the pad is NA. Ullage, none. Other remarks; LM weight, 36281. High gain angles: PITCH, minus 21; YAW, 181. And this will give you a perilune of 53.1. Should make everybody onboard feel a little more comfortable. Over.
 ||||Tape 25/9|Page 179
@@ -2830,15 +2830,15 @@
 |034:52:45|LMP|Okay. DELTA-Vz, minus 0009.8; 132, 194, 343; NOUN 44 is NA; 0010.6, 0:02, 0006.5; 25, 233.7, 16.4; rest of pad is NA. No ullage. LM weight, 36281. High gain PITCH, minus 21; YAW, 181. Perilune, 53.1.
 |034:53:23|CC|Okay. That's a good readback.
 |034:54:21|CC|17, Houston. You can go back to BLOCK now.
-|034:54:33|CDR|Okay. We're in BLOCK.
+|034:54:33|CMP|Okay. We're in BLOCK.
 |034:55:16|CC|Jack, a couple of quick items. We would like for you to terminate the BATTERY A charge now, and also turn the H2 tank HEATERS for tanks 1 and 2 OFF.
 |034:55:34|LMP|Okay. H2 tank HEATERS 1 and 2 are OFF, and I'll terminate the charge.
 |034:55:39|CC|Roger.
 |034:58:16|PAO|This is Apollo Control 34 hours, 58 minutes Ground Elapsed Time. Apollo 17 spacecraft, should at this time be coming out of the passive thermal-control mode and getting into the proper attitude for the midcourse correction burn #2, which is some 31 minutes and 23 seconds from now. Apollo 17, presently 126,988 miles from the Earth traveling at velocity of 4,098 feet per second. The midcourse correction burn #2 with an ignition time 35:29:59.1 has a velocity change in the posigrade direction of 10.6 feet per second, which for the service propulsion system engine is a BURP lasting 1.58 seconds. Purpose of this burn is to raise the pericynthion from an impact trajectory as it stands now, to one with a clearance over the Moon of some 53 nautical miles which will become the pericynthion of Lunar Orbit. Standing by on air-ground 1 at 34:59 this is Apollo Control.
 ||||Tape 26/1|Page 180
-|035:02:54|LMP|Okay, Gordo, there's all balls and 05 on that P52 .
+|035:02:54|CDR|Okay, Gordo, there's all balls and 05 on that P52 .
 |035:03:04|CC|Roger. That looks good.
-|035:03:05|CMP|And you're looking at NOUN 93. Okay, you're looking at NOUN 93.
+|035:03:05|CDR|And you're looking at NOUN 93. Okay, you're looking at NOUN 93.
 |035:03:27|CC|Okay, and we GO to torque it.
 |035:04:06|CMP|Houston, Apollo 17. When we ran the DELTA-V test, we - we're reading minus 22.2 and I'm having a little trouble finding the SPS cue card. Wonder if FAO know exactly - knows exactly where that is?
 |035:04:23|CC|Stand by; I'll check.
@@ -2873,16 +2873,16 @@
 ||||Tape 26/3|Page 182
 |035:22:54|CC|Apollo 17, Houston. How do you copy?
 |035:22:57|CMP|Okay, so that's ... trim, to 0.2.
-|035:23:07|CDR|No trim if it's greater than 2 feet per second.
+|035:23:07|CMP|No trim if it's greater than 2 feet per second.
 |035:23:24|CMP|Yes, we're down to 6 minutes.
 |035:23:30|CC|Apollo 17, Houston. How do you read?
-|035:23:35|CDR|Okay, Gordo. We got you.
+|035:23:35|CMP|Okay, Gordo. We got you.
 |035:23:38|CC|Okay, we weren't getting through there for a minute or 2. We're ready for the high gain now.
 |035:23:54|CMP|Okay. Minus - minus 21 and 181.
 |035:24:06|CC|And 17, You're GO for midcourse 2.
 |035:24:12|CMP|Okay. Sounds good.
 |035:24:19|CMP|And, Jack, you ready for GIMBAL MOTORS? - I mean the BUS TIES?
-|035:24:27|LMP|Ready for the BUS TIES.
+|035:24:27|CMP|Ready for the BUS TIES.
 |035:24:42|CMP|Okay, TAPE RECORDER, HIGH BIT RATE, RECORD, FORWARD, and COMMAND RESET.
 |035:24:52|CMP|Check your HELIUM VALVES and check your ...
 |035:24:59|CMP|Okay. SERVO POWER 1 and 2, we got.
@@ -2917,7 +2917,7 @@
 |035:28:55|CC|Roger.
 |035:29:00|CMP|(Singing) Okay. Let's wait until 30 seconds and
 |035:29:09|CMP|CONTROL POWER is ON. ... DELTA-V THRUST A switch. Get it and EMS at 30 seconds. Ullage - no ullage.
-|035:29:29|CDR|... an average G is coming.
+|035:29:29|CDR|You're in average G.
 |035:29:30|CMP|Okay, average G is coming. EMS to NORMAL. DELTA-V THRUST A is ON. Okay, no manuals to it. You'll get the 99 - Okay?
 |035:29:52|CMP|10 seconds, Houston.
 |035:29:54|CC|Roger.
@@ -2939,21 +2939,21 @@
 |035:31:02|CMP|MARK it.
 |035:31:05|CMP|Okay. SERVO POWER is OFF.
 |035:31:10|CMP|TRANS CONTROL POWER and DIRECTS are OFF.
-|035:31:15|CMP|ULLAGE circuit breakers are OPEN. Hey, we just caught up with all the particles. They're all ... with us now.
-|035:31:34|CMP|Okay, DIRECTS are OFF. PITCH and YAW. PITCH, ROLL, and YAW 1 are OPENED. Okay, you got the DELTA-V counter?
+|035:31:15|CMP|DELTA-V circuit breakers are OPEN. Hey, we just caught up with all the particles. They're all going with us now.
+|035:31:34|CMP|Okay, DIRECTS are OFF. PITCH and YAW. PITCH 1, YAW 1 are OPENED. Okay, you got the DELTA-V counter?
 |035:31:58|CMP|Okay. BMAGs are caged. BUS TIES, JACK?
 |035:32:23|CMP|Okay. BUS TIES are OFF. BIT RATE to LOW, while you're up there.
 |035:32:58|CMP|That shouldn't change, I don't think; should it?
-|035:33:04|SC|Okay.
+|035:33:04|CMP|Okay.
 |035:33:22|CDR|Houston, America.
 |035:33:23|CC|Go ahead.
-|035:33:32|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was .132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
+|035:33:32|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was 132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
 |035:34:09|CC|Roger.
 ||||Tape 26/7|Page 186
 |035:34:57|CMP|PAN CAMERA'S OFF. MAPPING CAMERA's OFF, huh? And SM/AC POWER will be coming OFF, shortly.
-|035:35:53|LMP|You know, Houston, we must of caught up with everyone of those particles. Because we're right in the middle of them. They're going kind of in a random fashion. Most of them are drifting right along with us. Some of them are going against us and away from us. But before we did the burn - you know, the propulsion, they got out of the vent. Sent them all away from us in what looked like - in more or less the X-direction.
+|035:35:53|CMP|You know, Houston, we must of caught up with every one of those particles. Because we're right in the middle of them. They're going kind of in a random fashion. Most of them are drifting right along with us. Some of them are going against us and away from us. But before we did the burn - you know, the propulsion, they got out of the vent. Sent them all away from us in what looked like - in more or less the X-direction.
 |035:36:21|CC|How about that.
-|035:36:26|LMP|... we really got a star field out there now (laughter).
+|035:36:26|CMP|... we really got a star field out there now (laughter).
 |035:36:30|CC|Roger.
 |035:36:31|CDR|Say, Gordy, the LM/CM DELTA-P is 1 - That's 1.0. You want me to go to TUNNEL VENT?
 |035:36:41|CC|Stand by.
@@ -2961,7 +2961,7 @@
 |035:37:03|CDR|Okay.
 |035:41:09|CC|17, Houston.
 |035:41:15|CMP|Roger. Go ahead.
-|035:41:16|CC|Okay, we do want to put BATTERY A back on CHARGE as shown in the Flight Plan. And, also, I have a new flyby pad. No hurry on this one, but it's a flyby pad post-MCC-2.
+|035:41:16|CC|Okay, we do want to put BATTERY A back on CHARGE as shown in the Flight Plan. And, also, I have a new flyby pad. No hurry on this one, but it's a flyby pad post MCC-2.
 |035:41:35|CDR|Okay, Gordo, how quickly should this tunnel vent?
 |035:41:41|CC|Let me get a reading on that.
 |035:42:12|CC|Geno, that should take about an hour. We'll try to remember to occasionally remind you to look at it.
@@ -3007,7 +3007,7 @@
 |036:11:49|LMP|Okay, and I guess the other one I can cross out, right?
 |036:11:53|CC|That's affirmative. That's obsolete now that you've done midcourse 2.
 |036:12:12|LMP|Okay, Gordy, I'm all set.
-|036:12:14|CC|Okay, it's a flyby. SPS/G&N; 66678; plus 1.21, minus 0.13. Ignition time is 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453.2. Attitude is 128, 146, 317; Ha is NA. Hp is plus 0021.1. DELTA-Vt is 0502.1. Burn time, 1:18, 0497.6. Sextant star is 25, 189-3 27.4. Boresight star is NA. NOUN 6l is a plus 15.60, minus 175.00; 1101.6, 36242. GET of 05G is 153:24:03 - GDC stars are Sirius and Rigel; 256; 152; 069. Ullage, none. Remarks: 1, burn docked; and number 2, assumes PTC REFSMMAT. And that's it. Over.
+|036:12:14|CC|Okay, it's a flyby. SPS/G&N; 66678; plus 1.21, minus 0.13. Ignition time is 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453.2. Attitude is 128, 146, 317; Ha is NA. Hp is plus 0021.1. DELTA-Vt is 0502.1. Burn time, 1:18, 0497.6. Sextant star is 25, 189.3 27.4. Boresight star is NA. NOUN 6l is a plus 15.60, minus 175.00; 1101.6, 36242. GET of 05G is 153:24:03 - GDC stars are Sirius and Rigel; 256; 152; 069. Ullage, none. Remarks: 1, burn docked; and number 2, assumes PTC REFSMMAT. And that's it. Over.
 |036:14:56|LMP|Okay, Gordy. Here's your readback. Flyby, SPS/G&N; 66678; plus 1.21, minus 0.13; 08l:l4:43.49; plus 0043.3, plus 0211.8, plus 0453.2; 128, l46, 317. Ha is NA. Plus 0021.1; 0502.1, 1:18, 0497.6; 25, 189.3, 27.4. Boresight, NA. Plus 15.60, minus 175.00; 1101.6, 36242; 153:24:03 - Sirius and Rigel; 256; 152; 069. There's no ullage. Remark 1, burn docked - docked; and 2, PC - PTC REFSMMAT is assumed.
 |036:16:16|CC|Okay, that's a good readback.
 |036:17:55|CDR|Gordy, I might mention for future reference that we've established a new list of consumables, or at least added it to the old one. Now includes gray tape and tissues.
@@ -3015,14 +3015,14 @@
 |036:18:12|CDR|It might help. We have a heck of a time finding them in here.
 |036:18:16|CC|Roger.
 ||||Tape 26/11|Page 190
-|036:18:20|CDR|Oh, you meant quantity-wise.
+|036:18:20|LMP|Oh, you meant quantity-wise.
 |036:18:25|CC|Yes, we'll set up in a special back room.
 |036:18:33|CDR|We could call it the T-T room. Tissue and tape, of course.
-|036:18:39|CC|Roger.
-|036:34:41|PAO|This is Apollo Control at 36 hours, 34 minutes Ground Elapsed Time. Apollo 17, 130,714 nautical miles out from Earth, velocity now, 3,985 feet per second, continuing to decelerate as we approach the so-called cross over between the sphere of influence from Earth to Moon. I can't recall ever seeing two pages of a flight plan as blank as these are, from 36 hours to 38 hours. Later on today, the - after the eat-period the crew will crawl through the hatch into the Lunar Module for some housekeeping chores, checking out of stowage of equipment in the Lunar Module. But the most exciting thing going on now, was the checkout of the Bio-medical harness on the Command Module Pilot. Midcourse correction burn went nominally on time. The velocity just at time of ignition was 4,058 feet per second. It jumped approximately 10 feet since there was a 10-foot per second burn. But then, within a few minutes it was down below the original velocity as the spacecraft continues to decelarate. Altitude at the time of burn, or distance from Earth, was 128,217. We show a pericynthion of 52.09 miles at closest approach after the burn. And standing by at 36:36, this is Apollo Control.
-|036:42:07|CC|Apollo 17, Houston. In about an hour or you might check the LM Command Module Delta-P again.
+|036:18:39|CC|Rog.
+|036:34:41|PAO|This is Apollo Control at 36 hours, 34 minutes Ground Elapsed Time. Apollo 17, 130,714 nautical miles out from Earth, velocity now, 3,985 feet per second, continuing to decelerate as we approach the so-called cross over between the sphere of influence from Earth to Moon. I can't recall ever seeing two pages of a flight plan as blank as these are, from 36 hours to 38 hours. Later on today, the - after the eat-period the crew will crawl through the hatch into the Lunar Module for some housekeeping chores, checking out of stowage of equipment in the Lunar Module. But the most exciting thing going on now, was the checkout of the Bio-medical harness on the Command Module Pilot. Midcourse correction burn went nominally on time. The velocity just at time of ignition was 4,058 feet per second. It jumped approximately 10 feet since there was a 10-foot per second burn. But then, within a few minutes it was down below the original velocity as the spacecraft continues to decelerate. Altitude at the time of burn, or distance from Earth, was 128,217. We show a pericynthion of 52.09 miles at closest approach after the burn. And standing by at 36:36, this is Apollo Control.
+|036:42:07|CC|Apollo 17, Houston. It's been about an hour, you might check the LM Command Module Delta-P again.
 ||||Tape 27/1|Page 191
-|036:42:16|CDR|Okay; thank you. We'll do that.
+|036:42:16|CMP|Okay; thank you. We'll do that.
 |036:43:13|CDR|It's 2.2, Gordo; I put it back in VENT.
 |036:43:17|CC|Okay.
 |037:00:19|CMP|Hello, Houston; America.
