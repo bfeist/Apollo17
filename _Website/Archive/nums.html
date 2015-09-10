@@ -16,18 +16,32 @@
             return padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
         }
 
-        var timeStr = "122:45:00";
-        var sign = timeStr.substr(0,1);
-        var tempHours = parseInt(timeStr.substr(0,3));
-        var tempMinutes = parseInt(timeStr.substr(4,2));
-        var tempSeconds = parseInt(timeStr.substr(7,2));
-        var signToggle = (sign == "-") ? -1 : 1;
-        var totalSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+        var startTimeStr = "141:00:58";
+        var endTimeStr = "141:01:35";
+        var photoNumStart = 20866;
+        var photoNumEnd = 20893;
 
-        jumpVal = 8;
-        for (var i = 638; i < 672; i++) {
+
+        var sign = startTimeStr.substr(0,1);
+        var tempHours = parseInt(startTimeStr.substr(0,3));
+        var tempMinutes = parseInt(startTimeStr.substr(4,2));
+        var tempSeconds = parseInt(startTimeStr.substr(7,2));
+        var signToggle = (sign == "-") ? -1 : 1;
+        var totalStartSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+
+        sign = endTimeStr.substr(0,1);
+        tempHours = parseInt(endTimeStr.substr(0,3));
+        tempMinutes = parseInt(endTimeStr.substr(4,2));
+        tempSeconds = parseInt(endTimeStr.substr(7,2));
+        signToggle = (sign == "-") ? -1 : 1;
+        var totalEndSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+
+        var jumpVal = (totalEndSeconds - totalStartSeconds) / (photoNumEnd - photoNumStart);
+        var totalSeconds = totalStartSeconds;
+
+        for (var i = photoNumStart; i < photoNumEnd; i++) {
             totalSeconds = totalSeconds + jumpVal;
-            console.log(secsToTime(totalSeconds));
+            console.log(secsToTime(parseInt(totalSeconds)));
         }
 
     </script>

@@ -267,7 +267,7 @@ function setAutoScrollPoller() {
 
             missionTimeHistoricalDifference();
         }
-    }, 500); //polling frequency in milliseconds
+    }, 1000); //polling frequency in milliseconds
 }
 
 function scrollToTimeID(timeId) {
