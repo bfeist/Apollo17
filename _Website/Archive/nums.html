@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script>
+        function padZeros(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
+        }
+
+        function secsToTime(secs){
+            var hours = Math.abs(parseInt(secs / 3600));
+            var minutes = Math.abs(parseInt(secs / 60)) % 60;
+            var seconds = Math.abs(parseInt(secs)) % 60;
+            seconds = Math.floor(seconds);
+
+            return padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+        }
+
+        var timeStr = "122:45:00";
+        var sign = timeStr.substr(0,1);
+        var tempHours = parseInt(timeStr.substr(0,3));
+        var tempMinutes = parseInt(timeStr.substr(4,2));
+        var tempSeconds = parseInt(timeStr.substr(7,2));
+        var signToggle = (sign == "-") ? -1 : 1;
+        var totalSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+
+        jumpVal = 8;
+        for (var i = 638; i < 672; i++) {
+            totalSeconds = totalSeconds + jumpVal;
+            console.log(secsToTime(totalSeconds));
+        }
+
+    </script>
+</head>
+</html>
