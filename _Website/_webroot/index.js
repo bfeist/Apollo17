@@ -89,7 +89,7 @@ function onPlayerStateChange(event) {
         if (gIntervalID == null) {
             //poll for mission time scrolling if video is playing
             gIntervalID = setAutoScrollPoller();
-            console.log("PLAYING: Interval started: " + gIntervalID);
+            console.log("INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
     }
     if (event.data == YT.PlayerState.PAUSED) {
@@ -109,7 +109,7 @@ function onPlayerStateChange(event) {
     }
     if (event.data == YT.PlayerState.ENDED) { //load next video
         console.log("ENDED. Load next video.");
-        var currVideoID = player.getVideoUrl().substr(32,11);
+        var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gYTList.length; ++i) {
             if (gYTList[i][1] == currVideoID) {
                 console.log("Ended. Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
@@ -131,11 +131,12 @@ function onPlayerStateChange(event) {
         signToggle = (endHours < 0) ? -1 : 1;
         gCurrVideoEndSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
-        player.loadVideoById(currVideoID, 0);
         player.iv_load_policy = 3;
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
+        player.loadVideoById(currVideoID, 0);
 
         window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+        console.log("INTERVAL: Next video started. New interval started: " + gIntervalID);
         gIntervalID = setAutoScrollPoller();
     }
 }
@@ -234,10 +235,11 @@ function findClosestCommentary(secondsSearch) {
 function setAutoScrollPoller() {
     console.log("setAutoScrollPoller");
     return window.setInterval(function () {
-        var onCountdown = false;
         var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
         if (totalSec < 0) {
-            onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative to the search string
+            var onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative sign to the search string
+        } else {
+            onCountdown = false;
         }
         if (gCurrVideoStartSeconds == 230400) {
             if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -255,7 +257,7 @@ function setAutoScrollPoller() {
             var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
             gLastTimeIdChecked = gCurrMissionTime;
             if (onCountdown) {
-                timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading triple zero hours with "-"
+                timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero of triple zero hours with "-"
                 gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
             }
             //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
@@ -267,7 +269,7 @@ function setAutoScrollPoller() {
 
             missionTimeHistoricalDifference();
         }
-    }, 1000); //polling frequency in milliseconds
+    }, 500); //polling frequency in milliseconds
 }
 
 function scrollToTimeID(timeId) {
@@ -429,6 +431,7 @@ function seekToTime(elementId){
                 player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
                 window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 gIntervalID = setAutoScrollPoller();
+                console.log("INTERVAL: New interval started after seek: " + gIntervalID);
             } else {
                 console.log("no need to change video. Seeking to " + elementId.toString());
                 player.seekTo(seekToSecondsWithOffset, true);
