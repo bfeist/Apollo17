@@ -16,7 +16,7 @@
             return padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
         }
 
-        var startTimeStr = "141:00:58";
+        var startTimeStr = "140:58:51";
         var endTimeStr = "141:01:35";
         var photoNumStart = 20866;
         var photoNumEnd = 20893;
@@ -39,9 +39,9 @@
         var jumpVal = (totalEndSeconds - totalStartSeconds) / (photoNumEnd - photoNumStart);
         var totalSeconds = totalStartSeconds;
 
-        for (var i = photoNumStart; i < photoNumEnd; i++) {
-            totalSeconds = totalSeconds + jumpVal;
+        for (var i = photoNumStart; i <= photoNumEnd; i++) {
             console.log(secsToTime(parseInt(totalSeconds)));
+            totalSeconds = totalSeconds + jumpVal;
         }
 
     </script>
