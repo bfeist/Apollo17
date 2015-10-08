@@ -856,9 +856,9 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 143:28:35|21047|138|I|3401|||||||60|26|EVA 2|"Station 2. Boulder 3 down-Sun ""before""."|Jack Schmitt|
 143:28:51|21048|138|I|3401|||||||60|26|EVA 2|"Station 2. Boulder 3 ""locator"" showing the Rover and its inbound tracks, and an assortment of footprints."|Jack Schmitt|
 143:28:54|21049|138|I|3401|||||||60|26|EVA 2|"Station 2. Boulder 3 ""before"" showing area from which samples 2415, 35-36, 40 and 60 will be taken."|Jack Schmitt|
-143:32:30|21050|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
-143:32:40|21051|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
-143:32:47|21052|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
+143:32:35|21050|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
+143:32:42|21051|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
+143:32:48|21052|138|I|3401|||||||60|27|EVA 2|STA 2, SMALL PIT CRATER|Jack Schmitt|
 143:37:16|21053|138|I|3401|||||||60|27|EVA 2|Station 2 pan from second rake site, down-Sun.|Jack Schmitt|
 143:37:19|21054|138|I|3401|||||||60|27|EVA 2|Station 2 pan. South Massif slope.|Jack Schmitt|
 143:37:22|21055|138|I|3401|||||||60|27|EVA 2|Station 2 pan. Down-Sun. South Massif slope.|Jack Schmitt|
@@ -993,88 +993,88 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 |21184|138|I|3401||||||||||BLANK|Jack Schmitt|
 |21185|139|K|3401||||||||||BLANK|Jack Schmitt|
 165:44:50|21186|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21187|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF, FOGGED|Jack Schmitt|
-|21188|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21189|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21190|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21191|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21192|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21193|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
-|21194|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
-|21195|139|K|3401||||||||||BLANK|Jack Schmitt|
-|21196|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
-|21197|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
-|21198|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
-|21199|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
-|21200|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
-|21201|139|K|3401|||||||500|37|EVA 3|Station 6 / looking toward station 2 (500mm)|Jack Schmitt|
-|21202|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
-|21203|139|K|3401|||||||500|37|EVA 3|telephoto view from Station 6 featuring LM in distance|Jack Schmitt|
-|21204|139|K|3401|||||||500|37|EVA 3|telephoto view from Station 6 featuring LM in distance|Jack Schmitt|
-|21205|139|K|3401|||||||500|37|EVA 3|STA 6, LM|Jack Schmitt|
-|21206|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
-|21207|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
-|21208|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
-|21209|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
-|21210|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
-|21211|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
-|21212|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21213|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21214|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21215|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21216|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21217|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21218|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21219|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21220|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21221|139|K|3401|||||||500|38|EVA 3|STA 9, N MACSIF|Jack Schmitt|
-|21222|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21223|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21224|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21225|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21226|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21227|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21228|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21229|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Jack Schmitt|
-|21230|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21231|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21232|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21233|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21234|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21235|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21236|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21237|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21238|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Jack Schmitt|
-|21239|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21240|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21241|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21242|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21243|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21244|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21245|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21246|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21247|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21248|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Jack Schmitt|
-|21249|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21250|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21251|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21252|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS QN N MASSIF|Jack Schmitt|
-|21253|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21254|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21255|139|K|3401|||||||500|38|EVA 3|500mm picture of the dark boulder and its track on the flank of the North Massif, taken from Station 9|Jack Schmitt|
-|21256|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21257|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21258|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21259|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21260|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21261|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21262|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21263|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21264|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21265|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21266|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21267|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
-|21268|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Jack Schmitt|
+165:45:02|21187|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF, FOGGED|Jack Schmitt|
+165:45:14|21188|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:45:26|21189|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:45:38|21190|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:45:50|21191|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:46:02|21192|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:46:14|21193|139|K|3401|||||||500|37|EVA 3|STA 6, N MASSIF|Jack Schmitt|
+165:46:26|21194|139|K|3401|||||||500|37|EVA 3|Station 6. 500-mm lens. Centered on the dark, raised rim of Shorty Crater with the Scarp beyond. The rake is on the back of the Rover. The rake head appears, out-of-focus, at the lower left. The large boulder in the distance, on the flank of the South Massif beyond the center of Shorty is shown in a detail. |Jack Schmitt|
+165:46:39|21195|139|K|3401||||||||||BLANK|Jack Schmitt|
+165:46:52|21196|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
+165:47:06|21197|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
+165:47:19|21198|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
+165:47:33|21199|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
+165:47:46|21200|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
+165:48:00|21201|139|K|3401|||||||500|37|EVA 3|Station 6 / looking toward station 2 (500mm)|Jack Schmitt|
+165:48:13|21202|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 2|Jack Schmitt|
+165:48:27|21203|139|K|3401|||||||500|37|EVA 3|telephoto view from Station 6 featuring LM in distance|Jack Schmitt|
+165:48:35|21204|139|K|3401|||||||500|37|EVA 3|Jack Schmitt took this superb picture of the LM from Station 6 with the 500-mm lens. Note the lighter surface around the spacecraft, produced by the sweeping action of the descent plume. Station 6 is about 3.1 kilometer from the LM, which is about 7 meters tall. The two large craters beyond the LM with prominent rim boulder fields are probably Hess (left) and Mackin (right), which are both about 6 km from Station 6 on higher ground than the landing site. Each of the craters is about 600 meters in diameter.|Jack Schmitt|
+165:49:00|21205|139|K|3401|||||||500|37|EVA 3|Station 6. 500-mm lens. LM. Note that Geophone Rock and the ALSEP Central Station are in the portion of the image framed by the two fiducials to the right of the central fiducials and by the two above them.|Jack Schmitt|
+165:49:31|21206|139|K|3401|||||||500|37|EVA 3|Station 6. 500-mm lens. Toward Station 3, Shorty, Scarp.|Jack Schmitt|
+165:49:41|21207|139|K|3401|||||||500|37|EVA 3|STA 6, TOWARD STA 3|Jack Schmitt|
+165:50:01|21208|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
+165:50:20|21209|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
+165:50:40|21210|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
+165:51:04|21211|139|K|3401|||||||500|37|EVA 3|STA 6, S MASSIF|Jack Schmitt|
+168:25:45|21212|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:25:48|21213|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:25:51|21214|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:25:54|21215|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:25:57|21216|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:00|21217|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:04|21218|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:07|21219|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:10|21220|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:13|21221|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:16|21222|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:20|21223|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:23|21224|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:26|21225|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:29|21226|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:32|21227|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:36|21228|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:39|21229|139|K|3401|||||||500|38|EVA 3|STA 9, N MASSIF|Gene Cernan|
+168:26:42|21230|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:26:45|21231|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:26:48|21232|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:26:52|21233|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:26:55|21234|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:26:58|21235|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:27:01|21236|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:27:04|21237|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:27:08|21238|139|K|3401|||||||500|38|EVA 3|STA 9, BASE OF N MASSIF|Gene Cernan|
+168:27:11|21239|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:14|21240|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:17|21241|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:20|21242|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:24|21243|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:27|21244|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:30|21245|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:33|21246|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:36|21247|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:40|21248|139|K|3401|||||||500|38|EVA 3|STA 9, E OF N MASSIF|Gene Cernan|
+168:27:43|21249|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:27:46|21250|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:27:49|21251|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:27:52|21252|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS QN N MASSIF|Gene Cernan|
+168:27:56|21253|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:27:59|21254|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:02|21255|139|K|3401|||||||500|38|EVA 3|500mm picture of the dark boulder and its track on the flank of the North Massif, taken from Station 9|Gene Cernan|
+168:28:05|21256|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:08|21257|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:12|21258|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:15|21259|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:18|21260|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:21|21261|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:24|21262|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:28|21263|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:31|21264|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:34|21265|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:37|21266|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:40|21267|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
+168:28:44|21268|139|K|3401|||||||500|38|EVA 3|STA 9, BOULDER TRACKS ON N MASSIF|Gene Cernan|
 |21269|139|K|3401||||||||||BLANK|Jack Schmitt|
 |21270|139|K|3401||||||||||BLANK|Jack Schmitt|
 |21271|139|K|3401||||||||||BLANK|Jack Schmitt|
