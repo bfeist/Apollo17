@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^apollo17\.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.apollo17\.org$
-RewriteRule ^/?$ "http\:\/\/benfeist\.com\/project\-apollo\-17\/" [R=301,L]

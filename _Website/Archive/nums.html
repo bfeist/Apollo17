@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script>
+        function padZeros(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
+        }
+
+        function secsToTime(secs){
+            var hours = Math.abs(parseInt(secs / 3600));
+            var minutes = Math.abs(parseInt(secs / 60)) % 60;
+            var seconds = Math.abs(parseInt(secs)) % 60;
+            seconds = Math.floor(seconds);
+
+            return padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+        }
+
+        var startTimeStr = "140:58:51";
+        var endTimeStr = "141:01:35";
+        var photoNumStart = 20866;
+        var photoNumEnd = 20893;
+
+
+        var sign = startTimeStr.substr(0,1);
+        var tempHours = parseInt(startTimeStr.substr(0,3));
+        var tempMinutes = parseInt(startTimeStr.substr(4,2));
+        var tempSeconds = parseInt(startTimeStr.substr(7,2));
+        var signToggle = (sign == "-") ? -1 : 1;
+        var totalStartSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+
+        sign = endTimeStr.substr(0,1);
+        tempHours = parseInt(endTimeStr.substr(0,3));
+        tempMinutes = parseInt(endTimeStr.substr(4,2));
+        tempSeconds = parseInt(endTimeStr.substr(7,2));
+        signToggle = (sign == "-") ? -1 : 1;
+        var totalEndSeconds = signToggle * ((Math.abs(tempHours) * 60 * 60) + (tempMinutes * 60) + tempSeconds);
+
+        var jumpVal = (totalEndSeconds - totalStartSeconds) / (photoNumEnd - photoNumStart);
+        var totalSeconds = totalStartSeconds;
+
+        for (var i = photoNumStart; i <= photoNumEnd; i++) {
+            console.log(secsToTime(parseInt(totalSeconds)));
+            totalSeconds = totalSeconds + jumpVal;
+        }
+
+    </script>
+</head>
+</html>
