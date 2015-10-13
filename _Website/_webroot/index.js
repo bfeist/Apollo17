@@ -488,7 +488,8 @@ function missionTimeHistoricalDifference() {
     var humanizedRealtimeDifference = "Exactly " + diffYears + " years<br/>" + diffDays + " days<br/>" + diffHours + " hours<br />" + diffMinutes + " minutes<br />" + diffSeconds + " seconds ago.";
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
-    $("#historicalTime").text(gCurrMissionDate);
+    $("#historicalDate").text(gCurrMissionDate.toDateString());
+    $("#historicalTime").text(gCurrMissionDate.toLocaleTimeString());
 }
 
 function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
@@ -631,49 +632,33 @@ $(document).ready(function() {
         gMissionTimeParamSent = 0;
     }
 
-    $(".middle-east").tabs();
-    $(".middle-west").tabs();
+    $(".mid-center")
+        .tabs()
+        //.addClass('ui-tabs-vertical ui-helper-clearfix');
 
     // OUTER-LAYOUT
     $('body').layout({
         center__paneSelector:	".outer-center"
-        ,   north__paneSelector:     ".outer-north"
-        ,   south__paneSelector:     ".outer-south"
+        ,   north__paneSelector:    ".outer-north"
+        ,   west__paneSelector:     ".outer-west"
         ,   north__togglerLength_open: 0
-        ,   south__togglerLength_open: 0
-        ,	north__maxSize:			"55%"
-        ,   north__minSize:         "55%"
-        ,	south__maxSize:			100
-        ,   south__minSize:			100
+        ,   center__togglerLength_open: 0
+        ,   west__togglerLength_open: 0
+        ,	north__size:			"15%"
+        ,   west__size:             "50%"
+        ,   center__size:          "50%"
         ,	spacing_open:			5  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
-        // NORTH-LAYOUT (child of outer-north-pane)
-        north__childOptions: {
-
-            center__paneSelector:	".north-center"
-            ,   north__paneSelector:    ".north-north"
-            ,   north_size:             50
-            ,	west__paneSelector:		".north-west"
-            ,	west__size:				"40%"
+        // WEST-LAYOUT (child of outer-west-pane)
+        west__childOptions: {
+            center__paneSelector:	".mid-center"
+            ,   north__paneSelector:    ".mid-north"
+            ,   north__size:             "60%"
+            ,   north__togglerLength_open: 0
+            ,   center__togglerLength_open: 0
             ,	spacing_open:			5  // ALL panes
             ,	spacing_closed:			12 // ALL panes
-            ,   west__togglerLength_open: 0
-            ,   center__togglerLength_open: 0
-            ,   north__togglerLength_open:  0
-        },
-        // CENTER-LAYOUT (child of outer-center-pane)
-        center__childOptions: {
-            center__paneSelector:	".middle-center"
-            ,	west__paneSelector:		".middle-west"
-            ,	east__paneSelector:		".middle-east"
-            ,	west__size:				"45%"
-            ,	east__size:				"45%"
-            ,	spacing_open:			5  // ALL panes
-            ,	spacing_closed:			12 // ALL panes
-            ,   west__togglerLength_open: 0
-            ,   center__togglerLength_open: 0
-            ,   east__togglerLength_open: 0
         }
     });
 });

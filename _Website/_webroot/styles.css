@@ -204,18 +204,24 @@ p img {
 
 .missionTimes {
     font-size: 100%;
+    text-align: center;
 }
-#missionTime {
+.historicalDate {
     font-weight: bold;
     font-size: 120%;
+}
+.historicalTime {
+    font-weight: bold;
+    font-size: 200%;
     padding-bottom: 20px;
+}
+
+#missionTime {
+    padding-bottom: 0px;
 }
 #timer {
     font-weight: normal;
     font-size: 100%;
-}
-.historicalTime {
-    padding-bottom: 20px;
 }
 
 .utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}
