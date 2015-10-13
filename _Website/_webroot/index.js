@@ -655,7 +655,7 @@ $(document).ready(function() {
             ,   north__paneSelector:    ".north-north"
             ,   north_size:             50
             ,	west__paneSelector:		".north-west"
-            ,	west__size:				"60%"
+            ,	west__size:				"40%"
             ,	spacing_open:			5  // ALL panes
             ,	spacing_closed:			12 // ALL panes
             ,   west__togglerLength_open: 0
