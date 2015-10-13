@@ -107,6 +107,8 @@ def main():
     #photos = get_photos_for_person(nsid)
     photos = get_photos_for_person_via_sets(nsid)
 
+    print "Got photo list. Downloading non-duplicates..."
+
     # Then, with photo objects, get the images
     # https://secure.flickr.com/services/api/misc.urls.html
     # Each of these photo objects looks something like this
