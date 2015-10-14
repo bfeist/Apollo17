@@ -241,7 +241,7 @@ tr.utterance:hover {
 }
 tr.utterance > td
 {
-    padding: 3px;
+    padding: 2px;
 }
 
 .commentarytable {border: 2px; padding: 2px; border-collapse: collapse;}
@@ -250,7 +250,7 @@ tr.commentary:hover {
 }
 tr.commentary > td
 {
-    padding: 3px;
+    padding: 2px;
 }
 
 .oralHistory    {margin-top: 5px;}
