@@ -76,7 +76,8 @@ def write_image_file(photo_object):
                                                         'mag_code': photo_object.mag_code,
                                                         'mag_number': photo_object.mag_number,
                                                         'photographer': photo_object.photographer,
-                                                        'description': photo_object.description},loader=template_loader))
+                                                        'description': photo_object.description,
+                                                        'filename': photo_object.filename},loader=template_loader))
 
 
 master_list = []
@@ -91,7 +92,8 @@ for photo_row in photos_reader:
             photo_filename = photo_row[1] + ".jpg"
         tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2],
                                   photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8],
-                                  photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
+                                  photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13],
+                                  photo_row[14], photo_row[15], photo_row[16])
         master_list.append(tempObj)
     first_row = False
 
