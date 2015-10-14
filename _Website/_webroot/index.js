@@ -392,7 +392,7 @@ function showCurrentPhoto(timeId) {
 function seekToTime(elementId){
     console.log("seekToTime " + elementId);
     var gaTimeVal = parseInt(elementId.replace("timeid", ""));
-    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal);
+    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
     var signToggle = 1;
     var timeStr = elementId.substr(6,7);
     var sign = timeStr.substr(0,1);

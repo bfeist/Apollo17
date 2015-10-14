@@ -67,14 +67,58 @@ li:hover {
 
 .TOCTitle {color: black; font-weight: bold;}
 
+.titleBlock{
+    float:left
+}
+
 .title{
     font-weight: bold;
     font-size: 140%;
-    float: left;
 }
 .titleRight{
     font-size: 125%;
     float: right;
+}
+.titleImage{
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.outer-north{
+    overflow: auto;
+}
+
+.missionTimes {
+    font-size: 100%;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.historicalDate {
+    font-weight: bold;
+    font-size: 120%;
+}
+.historicalTime {
+    font-weight: bold;
+    font-size: 200%;
+    padding-bottom: 20px;
+}
+
+#missionTime {
+    padding-bottom: 0px;
+}
+
+#timer {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+#scrubber {
+    position: relative;
+    top: -200px;
 }
 
 #tabs-right {
@@ -173,7 +217,7 @@ li:hover {
 }
 
 .photodivcaption {
-    font-size:24px;
+    font-size:20px;
     font-family:Arial;
     font-weight:bold;
 }
@@ -190,7 +234,7 @@ li:hover {
 .photoTable td{
     padding:5px;
     border: solid #000000;
-    border-width:1px 1px 1px 1px;
+    border-width: 1px 1px 1px 1px;
     vertical-align:middle;
 }
 
@@ -208,28 +252,6 @@ p {
 }
 p img {
     margin: 0;
-}
-
-.missionTimes {
-    font-size: 100%;
-    text-align: center;
-}
-.historicalDate {
-    font-weight: bold;
-    font-size: 120%;
-}
-.historicalTime {
-    font-weight: bold;
-    font-size: 200%;
-    padding-bottom: 20px;
-}
-
-#missionTime {
-    padding-bottom: 0px;
-}
-#timer {
-    font-weight: normal;
-    font-size: 100%;
 }
 
 .utterancetable {border: 2px; padding: 2px; border-collapse: collapse;}
