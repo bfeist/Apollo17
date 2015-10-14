@@ -335,6 +335,11 @@ function scrollCommentaryToTimeID(timeId) {
     }
 }
 
+function loadPhotoPage(filename) {
+    document.getElementById("photodiv").innerHTML='<object type="text/html" data="' + filename + '" width="100%" height="100%" ></object>';
+}
+
+
 function showCurrentPhoto(timeId) {
     var timeStr = parseInt(timeId.substr(6,7));
     //var closestTime = closest(timeStr, gPhotoIndex);
@@ -364,19 +369,22 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = CurrentClosestTime;
         console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-        var imageMetadata = "./mission_images/meta/" + photoFilename + ".html";
-        $("#photoDescription").load(imageMetadata);
+        var photoPage = "./mission_images/meta/" + photoFilename + ".html";
 
-        var imageURL = "./mission_images/img/" + photoFilename;
-        var anchor = document.createElement("a");
-        anchor.href = imageURL;
-        anchor.setAttribute('target', '_blank');
-        var img = document.createElement("IMG");
-        img.src = imageURL;
-        anchor.appendChild(img);
+        loadPhotoPage(photoPage);
 
-        var photodiv = document.getElementById('photodiv');
-        photodiv.replaceChild(anchor, photodiv.childNodes[1]);
+        //$("#photoDiv").load(imagePage);
+
+        //var imageURL = "./mission_images/img/" + photoFilename;
+        //var anchor = document.createElement("a");
+        //anchor.href = imageURL;
+        //anchor.setAttribute('target', '_blank');
+        //var img = document.createElement("IMG");
+        //img.src = imageURL;
+        //anchor.appendChild(img);
+        //
+        //var photodiv = document.getElementById('photodiv');
+        //photodiv.replaceChild(anchor, photodiv.childNodes[1]);
     }
 }
 
@@ -644,9 +652,8 @@ $(document).ready(function() {
         ,   north__togglerLength_open: 0
         ,   center__togglerLength_open: 0
         ,   west__togglerLength_open: 0
-        ,	north__size:			"15%"
-        ,   west__size:             "50%"
-        ,   center__size:          "50%"
+        ,	north__size:			"130"
+        ,   west__size:             "40%"
         ,	spacing_open:			5  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
