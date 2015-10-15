@@ -23,9 +23,9 @@
     <link rel="manifest" href="favicons/manifest.json">
     <link rel="shortcut icon" href="favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
 
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
@@ -52,15 +52,16 @@
 </head>
 <body>
     <div class="outer-north">
-        <div class="title">Apollo 17 in Real-Time</div>
+        <div class="title">Apollo 17 in Real-Time
+            <div class="titleRight">v1.0 Beta 1 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+        </div>
         <div class="titleBlock">
-            <!-- <span>Alpha Release v0.6 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></span> -->
-            <div class="titleImage">
+            <div class="titleLeft">
                 <img src="./img/Apollo_17-insignia100.png">
             </div>
-            <div class="missionTimes">
-                <div id="historicalDate" class="historicalDate"></div>
-                <div id="historicalTime" class="historicalTime"></div>
+            <div class="titleMiddle">
+                <div id="historicalDate" class="historicalDate">Thu Dec 07 1972</div>
+                <div id="historicalTime" class="historicalTime">12:32:00 AM</div>
 
                 <div id="missionTime">Mission Elapsed Time:
                     <span id="timer">000:00:00</span>
@@ -70,11 +71,11 @@
                 </div> -->
                 <div class="historicalTime">
                     <form>
-                        <input type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Real-time">
+                        <input class="btn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Real-time">
                     </form>
                 </div>
             </div>
-            <div id="scrubber">
+            <div class="titleRight">
                 <iframe src="tests/interface_test.html" id="interface" name="interface" frameborder="0" scrolling="no" height="80px" width="100%"></iframe>
             </div>
         </div>
@@ -91,13 +92,13 @@
                 <li><A id="instructionsTab" href="#tabs-left-4"><SPAN>Instructions</SPAN></A></li>
             </ul>
             <div id="tabs-left-1">
-                <iframe src="utterancePage.html" class="iFrameClass" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="99%"></iframe>
+                <iframe src="utterancePage.html" class="iFrameClass" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
             </div>
             <div id="tabs-left-2">
-                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="99%"></iframe>
+                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
             </div>
             <div id="tabs-left-3">
-                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="90%" width="99%"></iframe>
+                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
             </div>
             <div id="tabs-left-4">
                 <div class="ui-layout-content">
@@ -133,6 +134,5 @@
     <div class="outer-center">
         <div id="photodiv"></div>
     </div>
-
 </body>
 </html>

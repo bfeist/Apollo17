@@ -4,13 +4,13 @@
 var text = new paper.PointText({
     point: paper.view.center,
     justification: 'center',
-    fontSize: 30,
+    fontSize: 12,
     fillColor: 'grey',
-    content: 'text'
+    content: 'Mission Timeline Interface Placeholder'
 });
 
 var mouseFollowPath = new paper.Path();
-mouseFollowPath.strokeColor = 'black';
+mouseFollowPath.strokeColor = 'lightgrey';
 
 function onResize(event) {
     // Whenever the window is resized, recenter the path:
@@ -21,7 +21,7 @@ function onMouseMove(event) {
     mouseFollowPath.removeSegments();
     mouseFollowPath.add(event.point.x, 0);
     mouseFollowPath.add(event.point.x, view.size.height);
-    text.content = event.point.x;
+    text.content = "Mission Timeline Interface Placeholder " + event.point.x;
 }
 
 //First define the zoom tool properties
@@ -34,10 +34,10 @@ toolZoomIn.zoomFactor = 2;
 
 //Let's draw a reference rectangle to compare between grids.
 
-var rectangle = new paper.Rectangle(new paper.Point(50, 50), new paper.Point(150, 100));
-var path = new paper.Path.Rectangle(rectangle);
-path.fillColor = '#e9e9ff';
-path.selected = false;
+//var rectangle = new paper.Rectangle(new paper.Point(50, 50), new paper.Point(150, 100));
+//var path = new paper.Path.Rectangle(rectangle);
+//path.fillColor = '#e9e9ff';
+//path.selected = false;
 
 var gridGroup = new paper.Group;
 drawGrid();
@@ -61,7 +61,7 @@ function drawGridOnScreen(){
             var topPoint = new paper.Point(xPos, boundingRect.top);
             var bottomPoint = new paper.Point(xPos, boundingRect.bottom);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = '968d8d';
+            aLine.strokeColor = 'grey';
             gridGroup.addChild(aLine);
         }
 
@@ -71,7 +71,7 @@ function drawGridOnScreen(){
             var leftPoint = new paper.Point(boundingRect.left, yPos);
             var rightPoint = new paper.Point(boundingRect.right, yPos);
             var bLine = new paper.Path.Line(leftPoint, rightPoint);
-            bLine.strokeColor = '968d8d';
+            bLine.strokeColor = 'grey';
             gridGroup.addChild(bLine);
         }
     }

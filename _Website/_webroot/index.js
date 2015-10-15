@@ -21,6 +21,12 @@ var gNextVideoStartTime = -1; //used to track when one video ends to ensure next
 var gMissionTimeParamSent = 0;
 var player;
 
+//var background_color = "#DEDDD1";
+//var background_color_active = "#B5B4A4";
+
+var background_color = "#000000";
+var background_color_active = "#222222";
+
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
         videoId: '5yLfnY1Opwg',
@@ -281,10 +287,10 @@ function scrollToTimeID(timeId) {
         var timeIdMarker = transcriptFrame.find('#' + timeId);
         //reset background color of last line
         if (gLastTimeIdMarker != '') {
-            gLastTimeIdMarker.css("background-color","#FFFFFF");
+            gLastTimeIdMarker.css("background-color",background_color);
         }
         var scrollDestination = timeIdMarker.offset().top - 100;
-        timeIdMarker.css("background-color","#DDDDDD");
+        timeIdMarker.css("background-color",background_color_active);
         gLastTimeIdMarker = timeIdMarker;
         transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
     }
@@ -298,9 +304,9 @@ function scrollTOCToTimeID(timeId) {
             var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
             //reset background color of last line
             if (gLastTOCTimeIdMarker != '') {
-                gLastTOCTimeIdMarker.css("background-color", "#FFFFFF");
+                gLastTOCTimeIdMarker.css("background-color", background_color);
             }
-            TOCtimeIdMarker.css("background-color", "#DDDDDD");
+            TOCtimeIdMarker.css("background-color", background_color_active);
             var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
             TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
             gLastTOCTimeIdMarker = TOCtimeIdMarker;
@@ -315,16 +321,16 @@ function scrollCommentaryToTimeID(timeId) {
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         if (timeId != gLastCommentaryTimeId) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            $("#commentaryTab").effect("highlight", {color: '#9DDD97'}, 1000); //blink the commentary tab
+            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
 
             //console.log("scrollCommentaryToTimeID " + timeId);
             var CommentaryFrame = $('#iFrameCommentary').contents();
             var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
             //reset background color of last line
             if (gLastCommentaryTimeIdMarker != '') {
-                gLastCommentaryTimeIdMarker.css("background-color", "#FFFFFF");
+                gLastCommentaryTimeIdMarker.css("background-color", background_color);
             }
-            CommentaryTimeIdMarker.css("background-color", "#DDDDDD");
+            CommentaryTimeIdMarker.css("background-color", background_color_active);
             var CommentaryScrollDestination = CommentaryTimeIdMarker.offset().top - 100;
             CommentaryFrame.find('body').animate({scrollTop: CommentaryScrollDestination}, 500);
             gLastCommentaryTimeIdMarker = CommentaryTimeIdMarker;
@@ -654,7 +660,7 @@ $(document).ready(function() {
         ,   west__togglerLength_open: 0
         ,	north__size:			"130"
         ,   west__size:             "40%"
-        ,	spacing_open:			5  // ALL panes
+        ,	spacing_open:			0  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
         // WEST-LAYOUT (child of outer-west-pane)
@@ -664,7 +670,7 @@ $(document).ready(function() {
             ,   north__size:             "60%"
             ,   north__togglerLength_open: 0
             ,   center__togglerLength_open: 0
-            ,	spacing_open:			5  // ALL panes
+            ,	spacing_open:			0  // ALL panes
             ,	spacing_closed:			12 // ALL panes
         }
     });
