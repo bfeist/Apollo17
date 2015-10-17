@@ -47,7 +47,7 @@
     <script type="text/javascript" src="lib/jquery_plugins.js?nocache=987234"></script>
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
     <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
-    <script type="text/javascript" src='http://www.youtube.com/iframe_api'></script>
+    <link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
     <script type="text/javascript" src="index.js?nocache=9289845686"></script>
 </head>
 <body>
@@ -82,7 +82,8 @@
     </div>
     <div class="outer-west">
         <div class="mid-north">
-            <div id="player"></div>
+            <video id="player" class="video-js">
+            </video>
         </div>
         <div id="tabs-left" class="mid-center">
             <ul>
@@ -134,5 +135,6 @@
     <div class="outer-center">
         <div id="photodiv"></div>
     </div>
+    <script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
 </body>
 </html>

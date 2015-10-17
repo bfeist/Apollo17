@@ -206,6 +206,22 @@ tr.commentary > td {
     background: #509429;
     text-decoration: none;
 }
+
+/* ----------------- video player -----------------*/
+
+#player {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
 /* ----------------- photo pane -----------------*/
 .outer-center {
     background-color: #000000;
