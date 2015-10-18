@@ -21,39 +21,16 @@ var gPlaybackState = "normal";
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 var gMissionTimeParamSent = 0;
 var player;
-var mediaSrcURL = "http://media.apollo17.org/video/";
+var gMediaSrcURL = "http://media.apollo17.org/video/";
+var gApplicationReady = false;
+var gApplicationReadyIntervalID = null;
+
 
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
 
 var background_color = "#000000";
 var background_color_active = "#222222";
-
-function utteranceIframeLoaded() {
-    if (gMissionTimeParamSent == 1) {
-        $("#outer-north").isLoading("hide");
-        console.log("Loading overlay off");
-        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-        if (typeof paramMissionTime != "undefined") {
-            paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
-            var missionTimeArray = paramMissionTime.split(":");
-            var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
-            gCurrentPhotoTimestamp = "replace";
-            seekToTime(timeId);
-        }
-    }
-}
-
-function initializePlayback() {
-    console.log("initializePlayback");
-    if (gMissionTimeParamSent == 0) {
-        //event.target.playVideo();
-        player.src(mediaSrcURL + "_- - 000.mp4");
-        //player.play();
-    }
-    gIntervalID = setAutoScrollPoller();
-    gStateIntervalID = setVideoStatePoller();
-}
 
 function setVideoStatePoller() {
     return window.setInterval(function () {
@@ -82,7 +59,7 @@ function setVideoStatePoller() {
         if (player.paused()) { //PAUSED
             //clear polling for mission time scrolling if video is paused
             if (gIntervalID != null) {
-                window.clearInterval(gIntervalID);
+                clearInterval(gIntervalID);
                 console.log("PAUSED: scrolling interval stopped: " + gIntervalID);
                 gIntervalID = null;
             }
@@ -121,7 +98,7 @@ function setVideoStatePoller() {
 
             //player.iv_load_policy = 3;
             gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
-            player.src(mediaSrcURL + currVideoID);
+            player.src(gMediaSrcURL + currVideoID);
             player.play();
 
             //window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
@@ -132,6 +109,7 @@ function setVideoStatePoller() {
     }, 1000); //polling frequency in milliseconds
 }
 
+//--------------- transcript iframe autoscroll handling --------------------
 function setAutoScrollPoller() {
     console.log("setAutoScrollPoller");
     return window.setInterval(function () {
@@ -160,7 +138,7 @@ function setAutoScrollPoller() {
                 timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero of triple zero hours with "-"
                 gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
             }
-            console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
+            //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
             $("#timer").text(gCurrMissionTime);
             scrollToTimeID(timeId);
             scrollTOCToTimeID(timeId);
@@ -261,45 +239,8 @@ function findClosestCommentary(secondsSearch) {
     scrollCommentaryToTimeID(scrollDestination);
 }
 
-//--------------- transcript iframe autoscroll handling --------------------
-function setAutoScrollPoller() {
-    console.log("setAutoScrollPoller");
-    return window.setInterval(function () {
-        var totalSec = player.currentTime() + gCurrVideoStartSeconds + 0.5;
-        if (totalSec < 0) {
-            var onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative sign to the search string
-        } else {
-            onCountdown = false;
-        }
-        if (gCurrVideoStartSeconds == 230400) {
-            if (player.currentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-                //console.log("adding 9600 seconds to autoscroll target due to MET time change");
-                totalSec = totalSec + 9600;
-            }
-        }
-        var hours = Math.abs(parseInt(totalSec / 3600));
-        var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
-        var seconds = Math.abs(parseInt(totalSec)) % 60;
-        seconds = Math.floor(seconds);
-        gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
-
-        if (gCurrMissionTime != gLastTimeIdChecked) {
-            var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-            gLastTimeIdChecked = gCurrMissionTime;
-            if (onCountdown) {
-                timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero of triple zero hours with "-"
-                gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
-            }
-            //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
-            $("#timer").text(gCurrMissionTime);
-            scrollToTimeID(timeId);
-            scrollTOCToTimeID(timeId);
-            scrollCommentaryToTimeID(timeId);
-            showCurrentPhoto(timeId);
-
-            missionTimeHistoricalDifference();
-        }
-    }, 500); //polling frequency in milliseconds
+function getSelectedTabIndex() {
+    return $("#tabs-left").tabs('option', 'active');
 }
 
 function scrollToTimeID(timeId) {
@@ -307,7 +248,9 @@ function scrollToTimeID(timeId) {
     if ($.inArray(timeId, gUtteranceIndex) != -1) {
         // console.log("scrollToTimeID " + timeId);
         // console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
-        $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        if (getSelectedTabIndex() != 0) {
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        }
         var transcriptFrame = $('#iFrameTranscript').contents();
         var timeIdMarker = transcriptFrame.find('#' + timeId);
         //reset background color of last line
@@ -325,7 +268,9 @@ function scrollTOCToTimeID(timeId) {
     if ($.inArray(timeId, gTOCIndex) != -1) {
         if (timeId != gLastTOCTimeId) {
             // console.log("scrollTOCToTimeID " + timeId);
-            $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+            if (getSelectedTabIndex() != 1) {
+                $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+            }
             var TOCFrame = $('#iFrameTOC').contents();
             var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
             //reset background color of last line
@@ -347,8 +292,9 @@ function scrollCommentaryToTimeID(timeId) {
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         if (timeId != gLastCommentaryTimeId) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
-
+            if (getSelectedTabIndex() != 2) {
+                $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
+            }
             //console.log("scrollCommentaryToTimeID " + timeId);
             var CommentaryFrame = $('#iFrameCommentary').contents();
             var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
@@ -450,7 +396,7 @@ function seekToTime(elementId){
         signToggle = (endHours < 0) ? -1 : 1;
         var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
-        if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
+        if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
             var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
             //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
             if (itemStartTimeSeconds == 230400) {
@@ -468,8 +414,9 @@ function seekToTime(elementId){
             if (currVideoID !== gMediaList[i][1]) {
                 console.log("changing YT video from: " + currVideoID + " to: " + gMediaList[i][1]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
-                player.src(mediaSrcURL + gMediaList[i][1]);
+                player.src(gMediaSrcURL + gMediaList[i][1]);
                 player.currentTime(seekToSecondsWithOffset);
+                //player.play();
 
                 //window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
                 //gIntervalID = setAutoScrollPoller();
@@ -569,39 +516,84 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
     seekToTime(timeId);
 }
 
+//--------------- async page initialization calls ---------------
+
+$.when(ajaxGetMediaIndex(),
+    ajaxGetTOCIndex(),
+    ajaxGetUtteranceIndex(),
+    ajaxGetCommentaryIndex(),
+    ajaxGetPhotoIndex()).done(function(){
+    // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
+        gApplicationReady = true;
+});
+
+function initializePlayback() {
+    console.log("initializePlayback");
+    if (gMissionTimeParamSent == 0) {
+        //event.target.playVideo();
+        player.src(gMediaSrcURL + "_- - 000.mp4");
+        seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
+        //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
+    }
+    player.play();
+    gIntervalID = setAutoScrollPoller();
+    gStateIntervalID = setVideoStatePoller();
+    clearInterval(gApplicationReadyIntervalID);
+    gApplicationReadyIntervalID = null;
+}
+
 //--------------- index file handling --------------------
-$(document).ready(function() {
-    $.ajax({
+
+function ajaxGetMediaIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/media_index.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMediaIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetTOCIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/TOCindex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processTOCIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetUtteranceIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processUtteranceIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetCommentaryIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processCommentaryIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetPhotoIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
-});
+}
 
 function processMediaIndexData(allText) {
     console.log("processMediaIndexData");
@@ -616,9 +608,7 @@ function processMediaIndexData(allText) {
         rec.push(data[3]);
         gMediaList.push(rec);
     }
-    seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
 }
-
 function processTOCIndexData(allText) {
     console.log("processTOCIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -626,9 +616,7 @@ function processTOCIndexData(allText) {
         var data = allTextLines[i].split('|');
         gTOCIndex[i] = "timeid" + data[0];
     }
-    // alert(lines);
 }
-
 function processUtteranceIndexData(allText) {
     console.log("processUtteranceIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -636,9 +624,7 @@ function processUtteranceIndexData(allText) {
         var data = allTextLines[i].split('|');
         gUtteranceIndex[i] = "timeid" + data[0];
     }
-    findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
 }
-
 function processCommentaryIndexData(allText) {
     console.log("processCommentaryIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -646,9 +632,7 @@ function processCommentaryIndexData(allText) {
         var data = allTextLines[i].split('|');
         gCommentaryIndex[i] = "timeid" + data[0];
     }
-    // alert(lines);
 }
-
 function processPhotoIndexData(allText) {
     console.log("processPhotoIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -664,20 +648,45 @@ function processPhotoIndexData(allText) {
     }
 }
 
+$('iFrameTranscript').load(function() {
+    $("#outer-north").isLoading("hide");
+    console.log("Loading overlay off");
+
+    if (gMissionTimeParamSent == 1) {
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        if (typeof paramMissionTime != "undefined") {
+            paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
+            var missionTimeArray = paramMissionTime.split(":");
+            var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
+            gCurrentPhotoTimestamp = "replace";
+            seekToTime(timeId);
+        }
+    }
+});
+
+function setApplicationReadyPoller() {
+    return window.setInterval(function () {
+        console.log("Checking if App Ready");
+        if (gApplicationReady) {
+            console.log("App Ready!");
+            initializePlayback();
+        }
+    }, 1000);
+}
+
 $(document).ready(function() {
+    $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
+    console.log("Loading overlay on");
 
     player = videojs("player", {
         "controls": true,
         "autoplay": true,
         "preload": "auto",
-        "muted": false
+        "muted": true
     });
-    initializePlayback();
 
     if (typeof $.getUrlVar('t') != "undefined") {
-        $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
         gMissionTimeParamSent = 1;
-        console.log("Loading overlay on");
     } else {
         gMissionTimeParamSent = 0;
     }
@@ -710,4 +719,5 @@ $(document).ready(function() {
             ,	spacing_closed:			12 // ALL panes
         }
     });
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 });

@@ -7,6 +7,10 @@ window.onload = function() {
     });
 };
 
+$(document).ready(function() {
+    console.log("UTTERANCE READY");
+});
+
 //$(document).ready(function(){
 //    $('.utterancetable').delegate('.utterance', 'mouseenter', function() {
 //        var loctop = $(this).position().top;
