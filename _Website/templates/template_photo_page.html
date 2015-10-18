@@ -3,14 +3,12 @@
     <link rel="stylesheet" type="text/css" href="../../styles.css" />
 </head>
 <body>
-    <div>
-        <div>
-            <a href="http://apollo17.org/mission_images/img/@filename" target="_blank">
-                <img src="http://apollo17.org/mission_images/img/@filename" class="photodivimage"/>
-            </a>
+    <div class="imageBlock">
+        <div class="imageLeft" onclick="window.open('http://apollo17.org/mission_images/img/@filename', '_blank');" style="
+            background-image: url('http://apollo17.org/mission_images/img/@filename');
+            ">
         </div>
-        <div style="margin-left: 5px">
-            <div class="photodivcaption">@description</div>
+        <div class="imageRight">
             <table class="photoTable">
                 <tr>
                     <td style="text-align: right;">
@@ -19,6 +17,8 @@
                     <td>
                         @timestamp
                     </td>
+                </tr>
+                <tr>
                     <td style="text-align: right;">
                         Magazine
                     </td>
@@ -30,9 +30,11 @@
                     <td style="text-align: right;">
                         Photo Number
                     </td>
-                    <td>
+                    <td style="word-break: break-all;">
                         @photo_num
                     </td>
+                </tr>
+                <tr>
                     <td style="text-align: right;">
                         Photographer
                     </td>
@@ -41,6 +43,7 @@
                     </td>
                 </tr>
             </table>
+            <div class="photodivcaption">@description</div>
         </div>
     </div>
 </body>

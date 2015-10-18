@@ -13,10 +13,6 @@ body, td, th, input, textarea, pre, p, ul {
     /*color: #222;*/
     color: #999999;
 }
-table, th, td {
-    border: none;
-    vertical-align: top;
-}
 img {
     border: none;
     vertical-align: middle;
@@ -29,9 +25,7 @@ p img {
     margin: 0;
 }
 
-
 /* ----------------- TOC -----------------*/
-
 
 .TOC_container {
     background-color: #000000;
@@ -138,7 +132,16 @@ tr.commentary > td {
     background-color: #000000;
 }
 
-.titleBlock {
+.titleTextRight {
+    font-size: 85%;
+    text-align: right;
+    float: right;
+}
+.titleTextRight a{
+    color: #999999;
+}
+
+.headerBlock {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
     display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -146,25 +149,17 @@ tr.commentary > td {
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-.titleRight {
-    font-size: 85%;
-    text-align: right;
-    float: right;
-}
-.titleRight a{
-    color: #999999;
-}
-.titleLeft {
+.headerLeft {
     width: auto;
 }
-.titleMiddle {
-    width: auto%;
+.headerMiddle {
+    width: auto;
     font-size: 100%;
     text-align: center;
     top: 0px;
     left: 100px;
 }
-.titleRight {
+.headerRight {
     -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
     -moz-box-flex: 1;         /* OLD - Firefox 19- */
     width: auto;               /* For old syntax, otherwise collapses. */
@@ -172,16 +167,75 @@ tr.commentary > td {
     -ms-flex: 1;              /* IE 10 */
     flex: 1;
 }
+
+.imageBlock {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.imageLeft {
+    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;         /* OLD - Firefox 19- */
+    width: auto;               /* For old syntax, otherwise collapses. */
+    -webkit-flex: 1;          /* Chrome */
+    -ms-flex: 1;              /* IE 10 */
+    flex: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.imageRight {
+    width: 180px;
+}
+
+#photodiv {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.photodivimage {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.photodivcaption {
+    font-size:15px;
+    font-family: Arial;
+    font-weight:bold;
+    color: #999999;
+}
+.photoTable {
+    width: 180px;
+    margin:0px;
+    padding:0px;
+    border-collapse: collapse;
+    font-size:12px;
+    font-family: Arial;
+    font-weight:normal;
+}
+.photoTable td {
+    padding:5px;
+    border: solid #c0c0c0;
+    border-width: 1px 1px 1px 1px;
+    vertical-align:middle;
+    color: #999999;
+}
+
+
 .historicalDate {
     font-weight: bold;
     font-size: 120%;
     color: #fff;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 .historicalTime {
     font-weight: bold;
     font-size: 200%;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: #fff;
 }
 #missionTime {
@@ -210,41 +264,6 @@ tr.commentary > td {
 .outer-center {
     background-color: #000000;
 }
-
-#photodiv {
-    width: 100%;
-    height: 100%;
-    position:relative;
-    display:inline-block;
-    overflow:hidden;
-    float: left;
-}
-.photodivimage {
-    max-width: 100%;
-    height: 85%;
-}
-.photodivcaption {
-    font-size:20px;
-    font-family:Arial;
-    font-weight:bold;
-    color: #999999;
-}
-.photoTable {
-    margin:0px;
-    padding:0px;
-    border-collapse: collapse;
-    font-size:12px;
-    font-family:Arial;
-    font-weight:normal;
-}
-.photoTable td {
-    padding:5px;
-    border: solid #c0c0c0;
-    border-width: 1px 1px 1px 1px;
-    vertical-align:middle;
-    color: #999999;
-}
-
 
 /* ----------------- tab system -----------------*/
 

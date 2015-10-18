@@ -573,7 +573,6 @@ function initializePlayback() {
     gApplicationReadyIntervalID = null;
 
     gIntervalID = setAutoScrollPoller();
-    gStateIntervalID = setVideoStatePoller();
 }
 
 //--------------- index file handling --------------------
