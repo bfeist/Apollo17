@@ -239,16 +239,12 @@ function findClosestCommentary(secondsSearch) {
     scrollCommentaryToTimeID(scrollDestination);
 }
 
-function getSelectedTabIndex() {
-    return $("#tabs-left").tabs('option', 'active');
-}
-
 function scrollToTimeID(timeId) {
     //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
     if ($.inArray(timeId, gUtteranceIndex) != -1) {
         // console.log("scrollToTimeID " + timeId);
         // console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
-        if (getSelectedTabIndex() != 0) {
+        if ($("#tabs-left").tabs('option', 'active') != 0) {
             $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
         }
         var transcriptFrame = $('#iFrameTranscript').contents();
@@ -268,7 +264,7 @@ function scrollTOCToTimeID(timeId) {
     if ($.inArray(timeId, gTOCIndex) != -1) {
         if (timeId != gLastTOCTimeId) {
             // console.log("scrollTOCToTimeID " + timeId);
-            if (getSelectedTabIndex() != 1) {
+            if ($("#tabs-left").tabs('option', 'active') != 1) {
                 $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
             }
             var TOCFrame = $('#iFrameTOC').contents();
@@ -292,7 +288,7 @@ function scrollCommentaryToTimeID(timeId) {
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         if (timeId != gLastCommentaryTimeId) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            if (getSelectedTabIndex() != 2) {
+            if ($("#tabs-left").tabs('option', 'active') != 2) {
                 $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
             }
             //console.log("scrollCommentaryToTimeID " + timeId);
@@ -316,7 +312,6 @@ function scrollCommentaryToTimeID(timeId) {
 function loadPhotoPage(filename) {
     document.getElementById("photodiv").innerHTML='<object type="text/html" data="' + filename + '" width="100%" height="100%" ></object>';
 }
-
 
 function showCurrentPhoto(timeId) {
     var timeStr = parseInt(timeId.substr(6,7));
@@ -538,6 +533,7 @@ function initializePlayback() {
     player.play();
     gIntervalID = setAutoScrollPoller();
     gStateIntervalID = setVideoStatePoller();
+
     clearInterval(gApplicationReadyIntervalID);
     gApplicationReadyIntervalID = null;
 }
@@ -691,6 +687,8 @@ $(document).ready(function() {
         gMissionTimeParamSent = 0;
     }
 
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
+
     $(".mid-center")
         .tabs()
         //.addClass('ui-tabs-vertical ui-helper-clearfix');
@@ -719,5 +717,4 @@ $(document).ready(function() {
             ,	spacing_closed:			12 // ALL panes
         }
     });
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
 });
