@@ -722,7 +722,7 @@ var PaperScope = Base.extend({
 						if (n === 'trident') {
 							v = rv;
 							n = 'msie';
-						} 
+						}
 						browser.version = v;
 						browser.versionNumber = parseFloat(v);
 						browser.name = n;

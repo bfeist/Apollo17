@@ -147,6 +147,7 @@ tr.commentary > td {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    height: 110px;
 }
 
 .headerLeft {

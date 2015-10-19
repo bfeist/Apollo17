@@ -1,5 +1,6 @@
 __author__ = 'Feist'
 import csv
+import shutil
 from quik import FileLoader
 
 
@@ -73,7 +74,7 @@ output_TOC_index_file.close()
 
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "a")
 
-## ---------------- Write TOC
+## -------------------- Write TOC
 template_loader = FileLoader('templates')
 #WRITE HEADER
 template = template_loader.load_template('template_TOC_header.html')
@@ -98,11 +99,14 @@ for row in reader:
     output_TOC_file.write(template.render({'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title, 'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=loader).encode('utf-8'))
     prev_depth = item_depth
     toc_index_template = loader.load_template('template_TOC_index.html')
-    output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id}, loader=loader).encode('utf-8'))
+    output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
 
 #WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
+
+## copy TOC index to webroot
+shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCall.csv")
 
 
 ## -------------------- Write Utterance HTML

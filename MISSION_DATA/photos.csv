@@ -267,11 +267,11 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 169:14:50|20458|134|B|SO-368|||||||60|38|EVA 3|LM viewed from LRV|Gene Cernan|
 169:15:00|20459|134|B|SO-368|||||||60|38|EVA 3|LM viewed from LRV|Gene Cernan|
 169:15:10|20460|134|B|SO-368|||||||60|38|EVA 3|LM viewed from LRV|Gene Cernan|
-169:30:33|20461|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
-169:30:53|20462|134|B|SO-368|||||||60|38|EVA 3|LM and Rover (w/ Schmitt) during EVA-3 closeout|Gene Cernan|
-169:31:13|20463|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
-169:31:33|20464|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
-169:31:53|20465|134|B|SO-368|||||||60|38|EVA 3|STA LM, EARTH, FLAG|Gene Cernan|
+169:30:45|20461|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
+169:30:50|20462|134|B|SO-368|||||||60|38|EVA 3|LM and Rover (w/ Schmitt) during EVA-3 closeout|Gene Cernan|
+169:30:56|20463|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
+169:31:03|20464|134|B|SO-368|||||||60|38|EVA 3|LM and half-Earth above|Gene Cernan|
+169:31:07|20465|134|B|SO-368|||||||60|38|EVA 3|STA LM, EARTH, FLAG|Gene Cernan|
 169:32:13|20466|134|B|SO-368|||||||60|38|EVA 3|closeup of U.S. flag with Earth above|Gene Cernan|
 169:32:33|20467|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM, LRV, FLAG|Gene Cernan|
 169:32:53|20468|134|B|SO-368|||||||60|38|EVA 3|STALM, LM, QUAD 2|Gene Cernan|
@@ -286,8 +286,8 @@ GET_taken|photo_num|mag_number|mag_code|film_type|revolution_num|principal_lat|p
 169:40:00|20477|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|13-Dec-72
 169:40:10|20478|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|
 169:40:15|20479|134|B|SO-368|||||||60|38|EVA 3|STA LM, CDR, LRV|Jack Schmitt|
-169:47:19|20480|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
-169:47:29|20481|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
+169:47:10|20480|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
+169:47:25|20481|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
 169:47:38|20482|134|B|SO-368|||||||60|38|EVA 3|Cernan unveils Apollo 17 plaque on leg of LM Challenger|Jack Schmitt|
 169:47:43|20483|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
 169:47:48|20484|134|B|SO-368|||||||60|38|EVA 3|STA LM, LM|Jack Schmitt|
