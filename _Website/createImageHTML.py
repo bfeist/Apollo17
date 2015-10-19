@@ -58,28 +58,6 @@ def get_key(some_object):
     return some_object.sortnumber
 
 
-def write_image_file(photo_object):
-    """
-    :type photo_object: PhotographyItem
-    """
-    ##--------------------------------- Write photo page
-    template_loader = FileLoader('templates')
-    output_photo_index_file_name_and_path = "./_webroot/mission_images/meta/" + photo_object.filename + ".html"
-    output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
-    output_photo_index_file.write("")
-    output_photo_index_file.close()
-
-    output_photo_index_file = open(output_photo_index_file_name_and_path, "a")
-    item_template = template_loader.load_template('template_photo_page.html')
-    output_photo_index_file.write(item_template.render({'timestamp': photo_object.timestamp,
-                                                        'photo_num': photo_object.photo_num,
-                                                        'mag_code': photo_object.mag_code,
-                                                        'mag_number': photo_object.mag_number,
-                                                        'photographer': photo_object.photographer,
-                                                        'description': photo_object.description,
-                                                        'filename': photo_object.filename},loader=template_loader))
-
-
 master_list = []
 input_file_path = "../MISSION_DATA/photos.csv"
 photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
@@ -99,5 +77,21 @@ for photo_row in photos_reader:
 
 sorted_list = sorted(master_list, key=get_key, reverse=False)
 
-for list_item in sorted_list:
-    write_image_file(list_item)
+for i, photo_object in enumerate(sorted_list):
+    ##--------------------------------- Write photo page
+    template_loader = FileLoader('templates')
+    output_photo_index_file_name_and_path = "./_webroot/mission_images/meta/" + photo_object.filename + ".html"
+    # output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
+    # output_photo_index_file.write("")
+
+
+    output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
+    item_template = template_loader.load_template('template_photo_page.html')
+    output_photo_index_file.write(item_template.render({'timestamp': photo_object.timestamp,
+                                                        'photo_num': photo_object.photo_num,
+                                                        'mag_code': photo_object.mag_code,
+                                                        'mag_number': photo_object.mag_number,
+                                                        'photographer': photo_object.photographer,
+                                                        'description': photo_object.description,
+                                                        'filename': photo_object.filename},loader=template_loader))
+    output_photo_index_file.close()

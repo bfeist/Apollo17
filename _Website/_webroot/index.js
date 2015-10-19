@@ -7,8 +7,9 @@ var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
 var gCurrMissionDate = null;
 var gIntervalID = null;
-var gYTList = [];
+var gMediaList = [];
 var gTOCIndex = [];
+//var gTOCAll = [];
 var gUtteranceIndex = [];
 var gCommentaryIndex = [];
 var gPhotoList = [];
@@ -20,6 +21,8 @@ var gPlaybackState = "normal";
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
 var gMissionTimeParamSent = 0;
 var player;
+var gApplicationReady = 0; //starts at 0. Ready at 2. Checks both ajax loaded and player ready before commencing poller.
+var gApplicationReadyIntervalID = null;
 
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
@@ -50,9 +53,10 @@ function onYouTubeIframeAPIReady() {
 // The API will call this function when the video player is ready.
 function onPlayerReady(event) {
     console.log("onPlayerReady");
+    gApplicationReady += 1; //increment app ready indicator.
     if (gMissionTimeParamSent == 0) {
-        event.target.playVideo();
-        seekToTime("timeid-000100"); //jump to 1 minute to launch
+        //event.target.playVideo();
+        //seekToTime("timeid-000100"); //jump to 1 minute to launch
     }
 }
 function utteranceIframeLoaded() {
@@ -116,21 +120,21 @@ function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.ENDED) { //load next video
         console.log("ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
-        for (var i = 0; i < gYTList.length; ++i) {
-            if (gYTList[i][1] == currVideoID) {
-                console.log("Ended. Changing YT video from: " + currVideoID + " to: " + gYTList[i + 1][1]);
-                currVideoID = gYTList[i + 1][1];
+        for (var i = 0; i < gMediaList.length; ++i) {
+            if (gMediaList[i][1] == currVideoID) {
+                console.log("Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][1]);
+                currVideoID = gMediaList[i + 1][1];
                 break;
             }
         }
-        var itemStartTimeArray = gYTList[i + 1][2].split(":");
+        var itemStartTimeArray = gMediaList[i + 1][2].split(":");
         var startHours = parseInt(itemStartTimeArray[0]);
         var startMinutes = parseInt(itemStartTimeArray[1]);
         var startSeconds = parseInt(itemStartTimeArray[2]);
         var signToggle = (startHours < 0) ? -1 : 1;
         gCurrVideoStartSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
-        var itemEndTimeArray = gYTList[i + 1][3].split(":");
+        var itemEndTimeArray = gMediaList[i + 1][3].split(":");
         var endHours = parseInt(itemEndTimeArray[0]);
         var endMinutes = parseInt(itemEndTimeArray[1]);
         var endSeconds = parseInt(itemEndTimeArray[2]);
@@ -141,100 +145,10 @@ function onPlayerStateChange(event) {
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
         player.loadVideoById(currVideoID, 0);
 
-        window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-        console.log("INTERVAL: Next video started. New interval started: " + gIntervalID);
-        gIntervalID = setAutoScrollPoller();
+            //window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+            //console.log("INTERVAL: Next video started. New interval started: " + gIntervalID);
+            //gIntervalID = setAutoScrollPoller();
     }
-}
-
-function padZeros(num, size) {
-    var s = num + "";
-    while (s.length < size) s = "0" + s;
-    return s;
-}
-
-//--------------- search for closest utterance time to video time (used upon seeked video) --------------------
-function findClosestUtterance(secondsSearch) {
-    console.log("findClosestUtterance: finding closest utterance to (seconds): " + secondsSearch);
-    var found = false;
-    var onCountdown = false;
-    if (gCurrVideoStartSeconds == 230400) {
-        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-            secondsSearch = secondsSearch + 9600;
-        }
-    }
-    for (var i = 0; i < gUtteranceIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gUtteranceIndex[i].substr(6))) {
-            console.log("searched utterance array, found closest: " + gUtteranceIndex[i - 1] + " after " + i + " searches");
-            scrollToTimeID(gUtteranceIndex[i - 1]);
-            break;
-        }
-    }
-}
-
-function findClosestTOC(secondsSearch) {
-    console.log("findClosestTOC: finding closest TOC to (seconds): " + secondsSearch);
-    var onCountdown = false;
-    if (gCurrVideoStartSeconds == 230400) {
-        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-            secondsSearch = secondsSearch + 9600;
-        }
-    }
-    var scrollDestination = gTOCIndex[gTOCIndex.length - 1];
-    for (var i = 0; i < gTOCIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i].substr(6))) {
-            scrollDestination = gTOCIndex[i - 1];
-            break;
-        }
-    }
-    console.log("searched TOC array, found closest: " + gTOCIndex[i - 1] + " after " + i + " searches");
-    scrollTOCToTimeID(scrollDestination);
-}
-
-function findClosestCommentary(secondsSearch) {
-    console.log("findClosestCommentary: finding closest commentary to (seconds): " + secondsSearch);
-    var onCountdown = false;
-    if (gCurrVideoStartSeconds == 230400) {
-        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-            secondsSearch = secondsSearch + 9600;
-        }
-    }
-    var scrollDestination = gCommentaryIndex[gCommentaryIndex.length - 1];
-    for (var i = 0; i < gCommentaryIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gCommentaryIndex[i].substr(6))) {
-            scrollDestination = gCommentaryIndex[i - 1];
-            break;
-        }
-    }
-    console.log("searched commentary array, found closest: " + gCommentaryIndex[i - 1] + " after " + i + " searches");
-    scrollCommentaryToTimeID(scrollDestination);
 }
 
 //--------------- transcript iframe autoscroll handling --------------------
@@ -278,11 +192,103 @@ function setAutoScrollPoller() {
     }, 500); //polling frequency in milliseconds
 }
 
+function padZeros(num, size) {
+    var s = num + "";
+    while (s.length < size) s = "0" + s;
+    return s;
+}
+
+//--------------- search for closest utterance time to video time (used upon seeked video) --------------------
+function findClosestUtterance(secondsSearch) {
+    console.log("findClosestUtterance: finding closest utterance to (seconds): " + secondsSearch);
+    var found = false;
+    if (gCurrVideoStartSeconds == 230400) {
+        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+            secondsSearch = secondsSearch + 9600;
+        }
+    }
+    for (var i = 0; i < gUtteranceIndex.length; ++i) {
+        var hours = Math.abs(parseInt(secondsSearch / 3600));
+        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+        seconds = Math.floor(seconds);
+
+        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+        if (secondsSearch < 0) {
+            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+        }
+        if (parseInt(timeId.substr(6)) < parseInt(gUtteranceIndex[i])) {
+            console.log("searched utterance array, found closest: " + gUtteranceIndex[i - 1] + " after " + i + " searches");
+            scrollToTimeID("timeid" + gUtteranceIndex[i - 1]);
+            break;
+        }
+    }
+}
+
+function findClosestTOC(secondsSearch) {
+    console.log("findClosestTOC: finding closest TOC to (seconds): " + secondsSearch);
+    var onCountdown = false;
+    if (gCurrVideoStartSeconds == 230400) {
+        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+            secondsSearch = secondsSearch + 9600;
+        }
+    }
+    var scrollDestination = "timeid" + gTOCIndex[gTOCIndex.length - 1];
+    for (var i = 0; i < gTOCIndex.length; ++i) {
+        var hours = Math.abs(parseInt(secondsSearch / 3600));
+        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+        seconds = Math.floor(seconds);
+
+        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+        if (secondsSearch < 0) {
+            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+        }
+        if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i])) {
+            scrollDestination = "timeid" + gTOCIndex[i - 1];
+            break;
+        }
+    }
+    console.log("searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
+    scrollTOCToTimeID(scrollDestination);
+}
+
+function findClosestCommentary(secondsSearch) {
+    console.log("findClosestCommentary: finding closest commentary to (seconds): " + secondsSearch);
+    var onCountdown = false;
+    if (gCurrVideoStartSeconds == 230400) {
+        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+            secondsSearch = secondsSearch + 9600;
+        }
+    }
+    var scrollDestination = "timeid" + gCommentaryIndex[gCommentaryIndex.length - 1];
+    for (var i = 0; i < gCommentaryIndex.length; ++i) {
+        var hours = Math.abs(parseInt(secondsSearch / 3600));
+        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
+        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
+        seconds = Math.floor(seconds);
+
+        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+        if (secondsSearch < 0) {
+            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
+        }
+        if (parseInt(timeId.substr(6)) < parseInt(gCommentaryIndex[i])) {
+            scrollDestination = "timeid" + gCommentaryIndex[i - 1];
+            break;
+        }
+    }
+    console.log("searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    scrollCommentaryToTimeID(scrollDestination);
+}
+
 function scrollToTimeID(timeId) {
     //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-    if ($.inArray(timeId, gUtteranceIndex) != -1) {
+    if ($.inArray(timeId.substr(6), gUtteranceIndex) != -1) {
         // console.log("scrollToTimeID " + timeId);
         // console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
+        if ($("#tabs-left").tabs('option', 'active') != 0) {
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        }
         var transcriptFrame = $('#iFrameTranscript').contents();
         var timeIdMarker = transcriptFrame.find('#' + timeId);
         //reset background color of last line
@@ -297,9 +303,12 @@ function scrollToTimeID(timeId) {
 }
 
 function scrollTOCToTimeID(timeId) {
-    if ($.inArray(timeId, gTOCIndex) != -1) {
+    if ($.inArray(timeId.substr(6), gTOCIndex) != -1) {
         if (timeId != gLastTOCTimeId) {
             // console.log("scrollTOCToTimeID " + timeId);
+            if ($("#tabs-left").tabs('option', 'active') != 1) {
+                $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+            }
             var TOCFrame = $('#iFrameTOC').contents();
             var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
             //reset background color of last line
@@ -318,11 +327,12 @@ function scrollTOCToTimeID(timeId) {
 }
 
 function scrollCommentaryToTimeID(timeId) {
-    if ($.inArray(timeId, gCommentaryIndex) != -1) {
+    if ($.inArray(timeId.substr(6), gCommentaryIndex) != -1) {
         if (timeId != gLastCommentaryTimeId) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
-
+            if ($("#tabs-left").tabs('option', 'active') != 2) {
+                $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
+            }
             //console.log("scrollCommentaryToTimeID " + timeId);
             var CommentaryFrame = $('#iFrameCommentary').contents();
             var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
@@ -344,7 +354,6 @@ function scrollCommentaryToTimeID(timeId) {
 function loadPhotoPage(filename) {
     document.getElementById("photodiv").innerHTML='<object type="text/html" data="' + filename + '" width="100%" height="100%" ></object>';
 }
-
 
 function showCurrentPhoto(timeId) {
     var timeStr = parseInt(timeId.substr(6,7));
@@ -399,32 +408,31 @@ function seekToTime(elementId){
     console.log("seekToTime " + elementId);
     var gaTimeVal = parseInt(elementId.replace("timeid", ""));
     ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
-    var signToggle = 1;
     var timeStr = elementId.substr(6,7);
     var sign = timeStr.substr(0,1);
     var hours = parseInt(timeStr.substr(0,3));
     var minutes = parseInt(timeStr.substr(3,2));
     var seconds = parseInt(timeStr.substr(5,2));
-    signToggle = (sign == "-") ? -1 : 1;
+    var signToggle = (sign == "-") ? -1 : 1;
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
-    for (var i = 0; i < gYTList.length; ++i) {
-        var itemStartTimeArray = gYTList[i][2].split(":");
+    for (var i = 0; i < gMediaList.length; ++i) {
+        var itemStartTimeArray = gMediaList[i][2].split(":");
         var startHours = parseInt(itemStartTimeArray[0]);
         var startMinutes = parseInt(itemStartTimeArray[1]);
         var startSeconds = parseInt(itemStartTimeArray[2]);
         signToggle = (startHours < 0) ? -1 : 1;
         var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
 
-        var itemEndTimeArray = gYTList[i][3].split(":");
+        var itemEndTimeArray = gMediaList[i][3].split(":");
         var endHours = parseInt(itemEndTimeArray[0]);
         var endMinutes = parseInt(itemEndTimeArray[1]);
         var endSeconds = parseInt(itemEndTimeArray[2]);
         signToggle = (endHours < 0) ? -1 : 1;
         var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
 
-        if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this YT video in loop contains the time we want to seek to
+        if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
             var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
             //adjust for 000:02:40 time addition at 065:00:00 -- only the 65 hours-in video needs this manual adjustment, all others have their startTime listed including the time change
             if (itemStartTimeSeconds == 230400) {
@@ -439,13 +447,13 @@ function seekToTime(elementId){
                 gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
             }
             //change youtube video if the correct video isn't already playing
-            if (currVideoID !== gYTList[i][1]) {
-                console.log("changing YT video from: " + currVideoID + " to: " + gYTList[i][1]);
+            if (currVideoID !== gMediaList[i][1]) {
+                console.log("changing video from: " + currVideoID + " to: " + gMediaList[i][1]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
-                player.loadVideoById(gYTList[i][1], seekToSecondsWithOffset);
-                window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-                gIntervalID = setAutoScrollPoller();
-                console.log("INTERVAL: New interval started after seek: " + gIntervalID);
+                player.loadVideoById(gMediaList[i][1], seekToSecondsWithOffset);
+                // window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
+                // gIntervalID = setAutoScrollPoller();
+                // console.log("INTERVAL: New interval started after seek: " + gIntervalID);
             } else {
                 console.log("no need to change video. Seeking to " + elementId.toString());
                 player.seekTo(seekToSecondsWithOffset, true);
@@ -541,44 +549,98 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
     seekToTime(timeId);
 }
 
-//--------------- youtube index file handling --------------------
-$(document).ready(function() {
-    $.ajax({
+//--------------- async page initialization calls ---------------
+
+$.when(ajaxGetMediaIndex(),
+    ajaxGetTOCIndex(),
+    ajaxGetUtteranceIndex(),
+    ajaxGetCommentaryIndex(),
+    ajaxGetPhotoIndex()).done(function(){
+    // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
+        gApplicationReady += 1;
+});
+
+function initializePlayback() {
+    console.log("initializePlayback");
+    if (gMissionTimeParamSent == 0) {
+        //event.target.playVideo();
+        //player.src(gMediaSrcURL + "_- - 000.mp4");
+        seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
+        player.playVideo();
+        //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
+    }
+    clearInterval(gApplicationReadyIntervalID);
+    gApplicationReadyIntervalID = null;
+
+    gIntervalID = setAutoScrollPoller();
+}
+
+//--------------- index file handling --------------------
+
+function ajaxGetMediaIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
-        url: "./indexes/YouTube_media_index.csv?stopcache=" + Math.random(),
+        url: "./indexes/media_index.csv?stopcache=" + Math.random(),
         dataType: "text",
-        success: function(data) {processYTData(data);}
+        success: function(data) {processMediaIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetTOCIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/TOCindex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processTOCIndexData(data);}
     });
-    $.ajax({
+}
+//function ajaxGetTOCAll() {
+//    // NOTE:  This function must return the value
+//    //        from calling the $.ajax() method.
+//    return $.ajax({
+//        type: "GET",
+//        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+//        dataType: "text",
+//        success: function(data) {processTOCAllData(data);}
+//    });
+//}
+function ajaxGetUtteranceIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processUtteranceIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetCommentaryIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processCommentaryIndexData(data);}
     });
-    $.ajax({
+}
+function ajaxGetPhotoIndex() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
         type: "GET",
         url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
-});
+}
 
-function processYTData(allText) {
-    console.log("processYTData");
+function processMediaIndexData(allText) {
+    console.log("processMediaIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
-
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
 
@@ -587,41 +649,25 @@ function processYTData(allText) {
         rec.push(data[1]);
         rec.push(data[2]);
         rec.push(data[3]);
-        gYTList.push(rec);
+        gMediaList.push(rec);
     }
-    // alert(lines);
 }
-
 function processTOCIndexData(allText) {
     console.log("processTOCIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        gTOCIndex[i] = "timeid" + data[0];
-    }
-    // alert(lines);
+    gTOCIndex = allText.split(/\r\n|\n/);
 }
-
+//function processTOCAllData(allText) {
+//    console.log("processTOCIndexData");
+//    gTOCAll = allText.split(/\r\n|\n/);
+//}
 function processUtteranceIndexData(allText) {
     console.log("processUtteranceIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        gUtteranceIndex[i] = "timeid" + data[0];
-    }
-    // alert(lines);
+    gUtteranceIndex = allText.split(/\r\n|\n/);
 }
-
 function processCommentaryIndexData(allText) {
     console.log("processCommentaryIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length - 1; i++) {
-        var data = allTextLines[i].split('|');
-        gCommentaryIndex[i] = "timeid" + data[0];
-    }
-    // alert(lines);
+    gCommentaryIndex = allText.split(/\r\n|\n/);
 }
-
 function processPhotoIndexData(allText) {
     console.log("processPhotoIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -637,14 +683,43 @@ function processPhotoIndexData(allText) {
     }
 }
 
+$('iFrameTranscript').load(function() {
+    $("#outer-north").isLoading("hide");
+    console.log("Loading overlay off");
+
+    if (gMissionTimeParamSent == 1) {
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        if (typeof paramMissionTime != "undefined") {
+            paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
+            var missionTimeArray = paramMissionTime.split(":");
+            var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
+            gCurrentPhotoTimestamp = "replace";
+            seekToTime(timeId);
+        }
+    }
+});
+
+function setApplicationReadyPoller() {
+    return window.setInterval(function () {
+        console.log("Checking if App Ready");
+        if (gApplicationReady == 2) {
+            console.log("App Ready!");
+            initializePlayback();
+        }
+    }, 1000);
+}
+
 $(document).ready(function() {
+    $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
+    console.log("Loading overlay on");
+    
     if (typeof $.getUrlVar('t') != "undefined") {
-        $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
         gMissionTimeParamSent = 1;
-        console.log("Loading overlay on");
     } else {
         gMissionTimeParamSent = 0;
     }
+
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     $(".mid-center")
         .tabs()
