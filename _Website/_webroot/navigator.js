@@ -8,6 +8,11 @@
 var mouseFollowPath = new paper.Path();
 mouseFollowPath.strokeColor = 'white';
 
+var xhrObj = new XMLHttpRequest();
+xhrObj.open('GET', "indexes/TOCall.csv", false);
+xhrObj.send('');
+window.TOCall = xhrObj.responseText.split(/\r\n|\n/);
+
 //"window" is the global variable scope
 window.timelineWidth = paper.view.size.width - 1;
 window.timelineHeight = paper.view.size.height - 1;
@@ -79,19 +84,18 @@ function timeStrToSeconds(timeStr) {
 
 function drawTOC() {
     //console.log("parent" + parent.gTOCAll[0]);
-    var xhrObj = new XMLHttpRequest();
-    xhrObj.open('GET', "indexes/TOCall.csv", false);
-    xhrObj.send('');
-    var TOCall = xhrObj.responseText.split(/\r\n|\n/);;
+    var largeRect = new paper.Rectangle(1,1,window.timelineWidth, window.timelineHeight);
+    var largeRectPath = paper.Path.Rectangle(largeRect);
+    largeRectPath.strokeColor = 'grey';
 
     var missionDurationSeconds = 1100166;
     var pixelsPerSecond = (paper.view.bounds.width - 1) / missionDurationSeconds;
-    for (var i = 0; i < TOCall.length; i++) {
-        var data = TOCall[i].split('|');
+    for (var i = 0; i < window.TOCall.length; i++) {
+        var data = window.TOCall[i].split('|');
         if (data[1] == "1") { //if level 1 TOC item
             var TOCItemLocX = Math.round(timeStrToSeconds(data[0]) * pixelsPerSecond);
             var topPoint = new paper.Point(TOCItemLocX, 0);
-            var bottomPoint = new paper.Point(TOCItemLocX, largeRect.height);
+            var bottomPoint = new paper.Point(TOCItemLocX, window.timelineHeight);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = '#333333';
             TOCGroup.addChild(aLine);
