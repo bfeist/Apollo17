@@ -1,10 +1,3 @@
-//var missionDuration = "305:36:00";
-//var durationHours = parseInt(missionDuration.substr(0,3));
-//var durationMinutes = parseInt(missionDuration.substr(4,2));
-//var durationSeconds = parseInt(missionDuration.substr(5,2));
-//var missionDurationSeconds = (Math.abs(durationHours) * 60 * 60) + (durationMinutes * 60) + durationSeconds;
-// 1100166
-
 var mouseFollowPath = new paper.Path();
 mouseFollowPath.strokeColor = 'white';
 
@@ -15,7 +8,7 @@ window.missionDurationSeconds = 1100166;
 
 //console.log("parent" + parent.gTOCAll[0]);
 window.xhrObj = new XMLHttpRequest();
-window.xhrObj.open('GET', "../indexes/TOCall.csv", false);
+window.xhrObj.open('GET', "indexes/TOCall.csv", false);
 window.xhrObj.send('');
 window.TOCAll = window.xhrObj.responseText.split(/\r\n|\n/);;
 
