@@ -169,6 +169,11 @@ tr.commentary > td {
     flex: 1;
 }
 
+canvas[resize] {
+    width: 100%;
+    height: 110px;
+}
+
 .imageBlock {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */

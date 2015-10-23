@@ -5,51 +5,72 @@
 //var missionDurationSeconds = (Math.abs(durationHours) * 60 * 60) + (durationMinutes * 60) + durationSeconds;
 // 1100166
 
-var mouseFollowPath = new paper.Path();
-mouseFollowPath.strokeColor = 'white';
+var timelineWidth;
+var timelineHeight;
+var missionDurationSeconds = 1100166;
+var TOCall;
+var TOCGroup;
 
-//"window" is the global variable scope
-window.timelineWidth = paper.view.size.width - 1;
-window.timelineHeight = paper.view.size.height - 1;
-window.missionDurationSeconds = 1100166;
+paper.install(window);
+onload = function() {
+    paper.setup('myCanvas');
+    // Create a simple drawing tool:
 
-var TOCGroup = new paper.Group;
-drawTOC();
+    TOCGroup = new paper.Group;
+    var tool = new paper.Tool();
 
-function onResize(event) {
-    // Whenever the window is resized, recenter the path:
-    TOCGroup.removeChildren();
+    var mouseFollowPath = new paper.Path();
+    mouseFollowPath.strokeColor = 'white';
+
+    var xhrObj = new XMLHttpRequest();
+    xhrObj.open('GET', "indexes/TOCall.csv", false);
+    xhrObj.send('');
+    TOCall = xhrObj.responseText.split(/\r\n|\n/);
+
+    timelineWidth = paper.view.size.width - 1;
+    timelineHeight = paper.view.size.height - 1;
+
+    //DRAW ----------------
+    var text = new paper.PointText({
+        point: paper.view.center,
+        justification: 'center',
+        fontSize: 12,
+        fillColor: 'grey',
+        content: 'Mission Timeline'
+    });
     drawTOC();
-    text.point = paper.view.center;
-}
+    paper.view.draw();
 
-var text = new paper.PointText({
-    point: paper.view.center,
-    justification: 'center',
-    fontSize: 12,
-    fillColor: 'grey',
-    content: 'Mission Timeline'
-});
+    // paperscript handlers
+    paper.view.onResize = function (event) {
+        timelineWidth = paper.view.size.width - 1;
+        timelineHeight = paper.view.size.height - 1;
+        text.point = paper.view.center;
+        TOCGroup.removeChildren();
+        drawTOC();
 
-function onMouseMove(event) {
-    mouseFollowPath.removeSegments();
-    mouseFollowPath.add(event.point.x, 0);
-    mouseFollowPath.add(event.point.x, window.timelineHeight);
+    };
 
-    text.content = "Mission Timeline " + displayRolloverTime(event.point.x);
-}
+    tool.onMouseMove = function (event) {
+        mouseFollowPath.removeSegments();
+        mouseFollowPath.add(event.point.x, 0);
+        mouseFollowPath.add(event.point.x, timelineHeight);
 
-function onMouseUp(event) {
-    //seekToTime("timeid-000100");
-    var secondsPerPixel = window.missionDurationSeconds / window.timelineWidth;
-    var mouseSeconds = event.point.x * secondsPerPixel;
-    var timeStr = secondsToTimeStr(mouseSeconds);
-    console.log("Timeline Clicked. Jumping to " + timeStr);
-    parent.seekToTime("timeid" + timeStr.split(":").join(""));
+        text.content = "Mission Timeline " + displayRolloverTime(event.point.x);
+    };
+
+    tool.onMouseUp = function (event) {
+        //seekToTime("timeid-000100");
+        var secondsPerPixel = missionDurationSeconds / timelineWidth;
+        var mouseSeconds = event.point.x * secondsPerPixel;
+        var timeStr = secondsToTimeStr(mouseSeconds);
+        console.log("Timeline Clicked. Jumping to " + timeStr);
+        parent.seekToTime("timeid" + timeStr.split(":").join(""));
+    };
 }
 
 function displayRolloverTime(mousex) {
-    var secondsPerPixel = window.missionDurationSeconds / window.timelineWidth;
+    var secondsPerPixel = missionDurationSeconds / timelineWidth;
     var mouseSeconds = mousex * secondsPerPixel;
     return secondsToTimeStr(mouseSeconds);
 }
@@ -79,81 +100,21 @@ function timeStrToSeconds(timeStr) {
 
 function drawTOC() {
     //console.log("parent" + parent.gTOCAll[0]);
-    var xhrObj = new XMLHttpRequest();
-    xhrObj.open('GET', "indexes/TOCall.csv", false);
-    xhrObj.send('');
-    var TOCall = xhrObj.responseText.split(/\r\n|\n/);;
+    var largeRect = new paper.Rectangle(1,1,timelineWidth, timelineHeight);
+    var largeRectPath = paper.Path.Rectangle(largeRect);
+    largeRectPath.strokeColor = 'grey';
+    TOCGroup.addChild(largeRectPath);
 
-    var missionDurationSeconds = 1100166;
     var pixelsPerSecond = (paper.view.bounds.width - 1) / missionDurationSeconds;
     for (var i = 0; i < TOCall.length; i++) {
         var data = TOCall[i].split('|');
         if (data[1] == "1") { //if level 1 TOC item
             var TOCItemLocX = Math.round(timeStrToSeconds(data[0]) * pixelsPerSecond);
             var topPoint = new paper.Point(TOCItemLocX, 0);
-            var bottomPoint = new paper.Point(TOCItemLocX, largeRect.height);
+            var bottomPoint = new paper.Point(TOCItemLocX, timelineHeight);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = '#333333';
             TOCGroup.addChild(aLine);
         }
     }
-}
-
-//var gridGroup = new paper.Group;
-//drawGrid();
-
-//The function that draws horizontal/vertical lines
-
-function drawGridOnScreen() {
-
-//Width/Height per cell on the grid variables
-
-    var widthPerCell = 200;
-    var heightPerCell = 20;
-
-//Draw the grid lines and add them into the global group above that holds all the lines
-
-    var drawGridLines = function(num_rectangles_wide, num_rectangles_tall, boundingRect) {
-
-        for (var i = 0; i <= num_rectangles_wide; i++) {
-            var correctedBoundingRectLeft = Math.ceil(boundingRect.left/widthPerCell) * widthPerCell;
-            var xPos = correctedBoundingRectLeft + i * widthPerCell;
-            var topPoint = new paper.Point(xPos, boundingRect.top);
-            var bottomPoint = new paper.Point(xPos, boundingRect.bottom);
-            var aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = 'grey';
-            gridGroup.addChild(aLine);
-        }
-
-        for (i = 0; i <= num_rectangles_tall; i++) {
-            var correctedBoundingRectTop = Math.ceil(boundingRect.top/heightPerCell) * heightPerCell;
-            var yPos = correctedBoundingRectTop + i * heightPerCell;
-            var leftPoint = new paper.Point(boundingRect.left, yPos);
-            var rightPoint = new paper.Point(boundingRect.right, yPos);
-            var bLine = new paper.Path.Line(leftPoint, rightPoint);
-            bLine.strokeColor = 'grey';
-            gridGroup.addChild(bLine);
-        }
-    }
-//Find out how many cells we need vertically/horizontally first and then call the ''grid maker'' function to draw them.
-
-    var numberOfVerticalCells = paper.view.bounds.width / widthPerCell;
-    var numberOfHorizontalCells = paper.view.bounds.height / heightPerCell;
-
-    drawGridLines(numberOfVerticalCells, numberOfHorizontalCells, paper.view.bounds);
-}
-
-//This function gets called on each mouse zoom interval. If there is a previously drawn grid, delete it and start over.
-
-function drawGrid(){
-
-    if (gridGroup.isEmpty()) {
-        drawGridOnScreen();
-    }
-
-    else {
-        gridGroup.removeChildren();
-        drawGridOnScreen();
-    }
-
 }
