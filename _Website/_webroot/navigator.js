@@ -33,12 +33,10 @@ var gTier3PixelsPerSecond;
 var gTier3SecondsPerPixel;
 
 paper.install(window);
-onload = function() {
-    console.log("NAV: Navigator ready");
-    gApplicationReady += 1;
-}
 
 $(document).ready(function() {
+    console.log("NAV: Navigator ready");
+    gApplicationReady += 1;
     $("#myCanvas").mouseleave(function() {
         //console.log("mycanvas mouseleave");
         gTier1NavGroup.removeChildren();

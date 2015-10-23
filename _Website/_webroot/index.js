@@ -704,6 +704,7 @@ function setApplicationReadyPoller() {
         console.log("Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("App Ready!");
+            $.isLoading( "hide" );
             initNavigator();
             initializePlayback();
         }
@@ -711,7 +712,6 @@ function setApplicationReadyPoller() {
 }
 
 $(document).ready(function() {
-    $("#outer-north").isLoading({ text: "Loading", position: "overlay" });
     console.log("Loading overlay on");
     
     if (typeof $.getUrlVar('t') != "undefined") {
@@ -721,6 +721,8 @@ $(document).ready(function() {
     }
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
+
+    $(".mid-center").tabs();
 
     // OUTER-LAYOUT
     $('body').layout({
@@ -746,4 +748,6 @@ $(document).ready(function() {
             ,	spacing_closed:			12 // ALL panes
         }
     });
+
+    $.isLoading({ text: "Loading", position: "overlay" });
 });
