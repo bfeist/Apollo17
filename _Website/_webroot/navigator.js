@@ -39,7 +39,7 @@ onload = function() {
         content: 'Mission Timeline'
     });
     drawTOC();
-    view.draw();
+    paper.view.draw();
 
     // paperscript handlers
     paper.view.onResize = function (event) {
@@ -49,7 +49,7 @@ onload = function() {
         TOCGroup.removeChildren();
         drawTOC();
 
-    }
+    };
 
     tool.onMouseMove = function (event) {
         mouseFollowPath.removeSegments();
@@ -57,7 +57,7 @@ onload = function() {
         mouseFollowPath.add(event.point.x, timelineHeight);
 
         text.content = "Mission Timeline " + displayRolloverTime(event.point.x);
-    }
+    };
 
     tool.onMouseUp = function (event) {
         //seekToTime("timeid-000100");
@@ -66,7 +66,7 @@ onload = function() {
         var timeStr = secondsToTimeStr(mouseSeconds);
         console.log("Timeline Clicked. Jumping to " + timeStr);
         parent.seekToTime("timeid" + timeStr.split(":").join(""));
-    }
+    };
 }
 
 function displayRolloverTime(mousex) {
