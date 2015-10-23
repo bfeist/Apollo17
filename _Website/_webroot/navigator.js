@@ -5,17 +5,25 @@
 //var gMissionDurationSeconds = (Math.abs(durationHours) * 60 * 60) + (durationMinutes * 60) + durationSeconds;
 // 1100166
 
+var gMissionDurationSeconds = 1100166;
+var gMissionDays = 12;
+var gDaySelected = 1;
+
 var gNavigatorWidth;
 var gNavigatorHeight;
 var gTierHeight;
 
 var gTier1Group;
+var gTier1NavGroup;
 var gTier2Group;
 var gTier3Group;
 
-var gMissionDurationSeconds = 1100166;
-var gMissionDays = 12;
-var gDaySelected = 1;
+var gTier1NavBoxLocX;
+
+var gTier1PixelsPerSecond;
+var gTier1SecondsPerPixel;
+var gTier2PixelsPerSecond;
+var gTier3PixelsPerSecond;
 
 paper.install(window);
 onload = function() {
@@ -28,41 +36,37 @@ function initNavigator() {
     paper.setup('myCanvas');
 
     gTier1Group = new paper.Group;
+    gTier1NavGroup = new paper.Group;
     gTier2Group = new paper.Group;
     gTier3Group = new paper.Group;
     var tool = new paper.Tool();
 
-    gNavigatorWidth = paper.view.size.width - 1;
-    gNavigatorHeight = paper.view.size.height - 1;
-    gTierHeight = Math.round(gNavigatorHeight / 3) - 4;
-
     //DRAW ----------------
-    var text = new paper.PointText({
-        point: paper.view.center,
-        justification: 'center',
-        fontSize: 12,
-        fillColor: 'grey',
-        content: 'Mission Timeline'
-    });
-
-    var mouseFollowPath = new paper.Path();
-    mouseFollowPath.strokeColor = 'white';
+    //var text = new paper.PointText({
+    //    point: paper.view.center,
+    //    justification: 'center',
+    //    fontSize: 12,
+    //    fillColor: 'grey',
+    //    content: 'Mission Timeline'
+    //});
 
     redrawAll();
 
     // paperscript handlers
     paper.view.onResize = function (event) {
-        gNavigatorWidth = paper.view.size.width - 1;
-        gNavigatorHeight = paper.view.size.height - 1;
         text.point = paper.view.center;
         redrawAll();
     };
 
     tool.onMouseMove = function (event) {
-        mouseFollowPath.removeSegments();
-        mouseFollowPath.add(event.point.x, 0);
-        mouseFollowPath.add(event.point.x, gNavigatorHeight);
+        if (event.point.y < gTierHeight) { //if in tier1
+            drawTier1NavBox(event.point.x);
+            drawTier2();
+        } else if (event.point.y > (gNavigatorHeight / 3) && event.point.y < (gNavigatorHeight / 3) * 2) {// if in tier2
 
+        } else { //if in tier3
+
+        }
         //text.content = "Mission Timeline " + displayRolloverTime(event.point.x);
     };
 
@@ -89,51 +93,106 @@ function initNavigator() {
 }
 
 function redrawAll() {
+    setDynamicWidthVariables();
+
     gTier1Group.removeChildren();
+    gTier1NavGroup.removeChildren();
     gTier2Group.removeChildren();
     gTier3Group.removeChildren();
     drawTier1();
+    drawTier1NavBox(0);
     drawTier2();
     drawTier3();
     //render navigator
     paper.view.draw();
 }
 
+function setDynamicWidthVariables() {
+    gNavigatorWidth = paper.view.size.width;
+    gNavigatorHeight = paper.view.size.height;
+    gTierHeight = Math.round(gNavigatorHeight / 3) - 4;
+
+    gTier1PixelsPerSecond = gNavigatorWidth / gMissionDurationSeconds;
+    gTier1SecondsPerPixel = gMissionDurationSeconds / gNavigatorWidth;
+    gTier2PixelsPerSecond = gNavigatorWidth / (gMissionDurationSeconds / gMissionDays);
+    //gTier3PixelsPerSecond = gNavigatorWidth / (gMissionDurationSeconds / gMissionDays);
+}
+
 function drawTier1() {
-    var tier1Top = 1;
-    var tier1bottom = Math.round(gNavigatorHeight / 3);
+    var tier1Top = 0;
+    var tier1bottom = gTierHeight;
     var tier1Rect = new paper.Rectangle(1, tier1Top, gNavigatorWidth, gTierHeight);
     var tier1RectPath = paper.Path.Rectangle(tier1Rect);
     tier1RectPath.strokeColor = 'grey';
     gTier1Group.addChild(tier1RectPath);
 
     //draw day boxes
-    var dayBoxWidth = Math.round(gNavigatorWidth / gMissionDays);
-    for (var i = 0; i <= 12; i++) {
-        var dayBoxX = dayBoxWidth * i;
-        var dayBoxRect = new paper.Rectangle(dayBoxX, tier1Top, dayBoxWidth, gTierHeight);
-        var dayBoxRectPath = paper.Path.Rectangle(dayBoxRect);
-        dayBoxRectPath.strokeColor = '#444444';
-        gTier1Group.addChild(dayBoxRectPath);
+    //var dayBoxWidth = Math.round(gNavigatorWidth / gMissionDays);
+    //for (var i = 0; i <= 12; i++) {
+    //    var dayBoxX = dayBoxWidth * i;
+    //    var dayBoxRect = new paper.Rectangle(dayBoxX, tier1Top, dayBoxWidth, gTierHeight);
+    //    var dayBoxRectPath = paper.Path.Rectangle(dayBoxRect);
+    //    dayBoxRectPath.strokeColor = '#444444';
+    //    gTier1Group.addChild(dayBoxRectPath);
+    //
+    //    var dayBoxText = new paper.PointText({
+    //        justification: 'center',
+    //        fontSize: 10,
+    //        fillColor: '#444444'
+    //    });
+    //    dayBoxText.point = new paper.Point(dayBoxX + (dayBoxWidth / 2), tier1Top + (gTierHeight / 2) + 2);
+    //    dayBoxText.content = "Day " + (i + 1);
+    //    gTier1Group.addChild(dayBoxText);
+    //}
+    ////draw selected box
+    //var selectedDayBoxX = dayBoxWidth * (gDaySelected - 1);
+    //var selectedDayBoxRect = new paper.Rectangle(selectedDayBoxX, tier1Top, dayBoxWidth, gTierHeight);
+    //var selectedDayBoxRectPath = paper.Path.Rectangle(selectedDayBoxRect);
+    //selectedDayBoxRectPath.strokeColor = 'white';
+    //gTier1Group.addChild(selectedDayBoxRectPath);
 
-        var dayBoxText = new paper.PointText({
-            justification: 'center',
-            fontSize: 10,
-            fillColor: '#444444'
-        });
-        dayBoxText.point = new paper.Point(dayBoxX + (dayBoxWidth / 2), tier1Top + (gTierHeight / 2) + 2);
-        dayBoxText.content = "Day " + (i + 1);
-        gTier1Group.addChild(dayBoxText);
+    var pixelsPerSecond = gNavigatorWidth  / gMissionDurationSeconds;
+    for (var i = 0; i < gTOCAll.length; i++) {
+        var data = gTOCAll[i].split('|');
+        if (data[1] == "1") { //if level 1 TOC item
+            var TOCItemLocX = Math.round(timeStrToSeconds(data[0]) * pixelsPerSecond);
+            var topPoint = new paper.Point(TOCItemLocX, tier1Top);
+            var bottomPoint = new paper.Point(TOCItemLocX, tier1bottom);
+            var aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = '#444444';
+            gTier1Group.addChild(aLine);
+        }
     }
-    //draw selected box
-    var selectedDayBoxX = dayBoxWidth * (gDaySelected - 1);
-    var selectedDayBoxRect = new paper.Rectangle(selectedDayBoxX, tier1Top, dayBoxWidth, gTierHeight);
-    var selectedDayBoxRectPath = paper.Path.Rectangle(selectedDayBoxRect);
-    selectedDayBoxRectPath.strokeColor = 'white';
-    gTier1Group.addChild(selectedDayBoxRectPath);
+}
+
+function drawTier1NavBox(locX) {
+    gTier1NavGroup.removeChildren();
+    var tier1Top = 0;
+    var navBoxWidth = Math.round(gNavigatorWidth / gMissionDays);
+    gTier1NavBoxLocX = locX - (navBoxWidth / 2);
+    if (gTier1NavBoxLocX < 0) {
+        gTier1NavBoxLocX = 0;
+    } else if (gTier1NavBoxLocX + navBoxWidth > gNavigatorWidth) {
+        gTier1NavBoxLocX = gNavigatorWidth - navBoxWidth;
+    }
+    var navBoxRect = new paper.Rectangle(gTier1NavBoxLocX, tier1Top, navBoxWidth, gTierHeight);
+    var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
+    navBoxRectPath.strokeColor = 'white';
+    gTier1NavGroup.addChild(navBoxRectPath);
+
+    //var navBoxText = new paper.PointText({
+    //    justification: 'center',
+    //    fontSize: 10,
+    //    fillColor: '#444444'
+    //});
+    //navBoxText.point = new paper.Point(locX + (dayBoxWidth / 2), tier1Top + (gTierHeight / 2) + 2);
+    //navBoxText.content = "Day " + (i + 1);
+    //gTier1Group.addChild(navBoxText);
 }
 
 function drawTier2() {
+    gTier2Group.removeChildren();
+
     var tier2Top = Math.round(gNavigatorHeight / 3);
     var tier2bottom = gTierHeight + tier2Top;
     var tier2Rect = new paper.Rectangle(1, tier2Top, gNavigatorWidth, gTierHeight);
@@ -141,30 +200,28 @@ function drawTier2() {
     tier2RectPath.strokeColor = 'grey';
     gTier2Group.addChild(tier2RectPath);
 
-    var pixelsPerSecond = gNavigatorWidth / (gMissionDurationSeconds / gMissionDays);
-    var startSeconds = Math.round(gMissionDurationSeconds / gMissionDays) * (gDaySelected - 1);
-    var endSeconds = Math.round(gMissionDurationSeconds / gMissionDays) * gDaySelected;
+    var startSeconds = gTier1SecondsPerPixel * gTier1NavBoxLocX;
     for (var i = 0; i < gTOCAll.length; i++) {
         var data = gTOCAll[i].split('|');
+        var itemSeconds = Math.round(timeStrToSeconds(data[0])) - startSeconds;
+        var tier2ItemLocX = itemSeconds * gTier2PixelsPerSecond;
+        var barHeight = gTierHeight / parseInt(data[1]);
+        var barTop = tier2bottom - barHeight;
+        var topPoint = new paper.Point(tier2ItemLocX, barTop);
+        var bottomPoint = new paper.Point(tier2ItemLocX, tier2bottom);
+        var aLine = new paper.Path.Line(topPoint, bottomPoint);
+        aLine.strokeColor = '#444444';
         if (data[1] == "1") { //if level 1 TOC item
-            var itemSeconds = Math.round(timeStrToSeconds(data[0])) - startSeconds;
-            var TOCItemLocX = itemSeconds * pixelsPerSecond;
-
-            var topPoint = new paper.Point(TOCItemLocX, tier2Top);
-            var bottomPoint = new paper.Point(TOCItemLocX, tier2bottom);
-            var aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = '#444444';
-            gTier2Group.addChild(aLine);
-
             var itemText = new paper.PointText({
                 justification: 'left',
                 fontSize: 10,
                 fillColor: '#444444'
             });
-            itemText.point = new paper.Point(TOCItemLocX , tier2Top + (gTierHeight / 2) + 2);
+            itemText.point = new paper.Point(tier2ItemLocX , tier2Top + (gTierHeight / 2) + 2);
             itemText.content = data[2];
             gTier2Group.addChild(itemText);
         }
+        gTier2Group.addChild(aLine);
     }
 }
 
