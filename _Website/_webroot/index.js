@@ -722,10 +722,6 @@ $(document).ready(function() {
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
-    $(".mid-center")
-        .tabs()
-        //.addClass('ui-tabs-vertical ui-helper-clearfix');
-
     // OUTER-LAYOUT
     $('body').layout({
         center__paneSelector:	".outer-center"

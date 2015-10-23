@@ -38,6 +38,15 @@ onload = function() {
     gApplicationReady += 1;
 }
 
+$(document).ready(function() {
+    $("#myCanvas").mouseleave(function() {
+        //console.log("mycanvas mouseleave");
+        gTier1NavGroup.removeChildren();
+        gTier2NavGroup.removeChildren();
+        redrawAll();
+    });
+});
+
 function initNavigator() {
     console.log("NAV: initNavigator called");
     paper.setup('myCanvas');
@@ -62,20 +71,22 @@ function initNavigator() {
 
     // paperscript handlers
     paper.view.onResize = function (event) {
-        text.point = paper.view.center;
+        //text.point = paper.view.center;
         redrawAll();
     };
 
     tool.onMouseMove = function (event) {
-        if (event.point.y < gTierHeight) { //if in tier1
+        if (event.point.y < (gNavigatorHeight / 3)) { //if in tier1
             drawTier1NavBox(event.point.x);
             drawTier2();
             drawTier3();
-        } else if (event.point.y > (gNavigatorHeight / 3) && event.point.y < (gNavigatorHeight / 3) * 2) {// if in tier2
+        } else if (event.point.y > (gNavigatorHeight / 3) && event.point.y <= (gNavigatorHeight / 3) * 2) {// if in tier2
             drawTier2NavBox(event.point.x);
             drawTier3();
-        } else { //if in tier3
+        } else if (event.point.y > (gNavigatorHeight / 3) * 2) { //if in tier3
 
+        } else { // if not in nav
+            gTier1NavGroup.removeChildren();
         }
         //text.content = "Mission Timeline " + displayRolloverTime(event.point.x);
     };
@@ -105,10 +116,6 @@ function initNavigator() {
 function redrawAll() {
     setDynamicWidthVariables();
 
-    gTier1Group.removeChildren();
-    gTier1NavGroup.removeChildren();
-    gTier2Group.removeChildren();
-    gTier3Group.removeChildren();
     drawTier1();
     drawTier2();
     drawTier3();
@@ -130,6 +137,7 @@ function setDynamicWidthVariables() {
 }
 
 function drawTier1() {
+    gTier1Group.removeChildren();
     var tier1Top = 0;
     var tier1bottom = gTierHeight;
     var tier1Rect = new paper.Rectangle(1, tier1Top, gNavigatorWidth, gTierHeight);
