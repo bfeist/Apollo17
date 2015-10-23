@@ -9,7 +9,7 @@ var gCurrMissionDate = null;
 var gIntervalID = null;
 var gMediaList = [];
 var gTOCIndex = [];
-//var gTOCAll = [];
+var gTOCAll = [];
 var gUtteranceIndex = [];
 var gCommentaryIndex = [];
 var gPhotoList = [];
@@ -553,6 +553,7 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
 
 $.when(ajaxGetMediaIndex(),
     ajaxGetTOCIndex(),
+    ajaxGetTOCAll(),
     ajaxGetUtteranceIndex(),
     ajaxGetCommentaryIndex(),
     ajaxGetPhotoIndex()).done(function(){
@@ -597,16 +598,16 @@ function ajaxGetTOCIndex() {
         success: function(data) {processTOCIndexData(data);}
     });
 }
-//function ajaxGetTOCAll() {
-//    // NOTE:  This function must return the value
-//    //        from calling the $.ajax() method.
-//    return $.ajax({
-//        type: "GET",
-//        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
-//        dataType: "text",
-//        success: function(data) {processTOCAllData(data);}
-//    });
-//}
+function ajaxGetTOCAll() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
+        type: "GET",
+        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+        dataType: "text",
+        success: function(data) {processTOCAllData(data);}
+    });
+}
 function ajaxGetUtteranceIndex() {
     // NOTE:  This function must return the value
     //        from calling the $.ajax() method.
@@ -637,7 +638,6 @@ function ajaxGetPhotoIndex() {
         success: function(data) {processPhotoIndexData(data);}
     });
 }
-
 function processMediaIndexData(allText) {
     console.log("processMediaIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -656,10 +656,10 @@ function processTOCIndexData(allText) {
     console.log("processTOCIndexData");
     gTOCIndex = allText.split(/\r\n|\n/);
 }
-//function processTOCAllData(allText) {
-//    console.log("processTOCIndexData");
-//    gTOCAll = allText.split(/\r\n|\n/);
-//}
+function processTOCAllData(allText) {
+    console.log("processTOCIndexData");
+    gTOCAll = allText.split(/\r\n|\n/);
+}
 function processUtteranceIndexData(allText) {
     console.log("processUtteranceIndexData");
     gUtteranceIndex = allText.split(/\r\n|\n/);
@@ -702,8 +702,9 @@ $('iFrameTranscript').load(function() {
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
         console.log("Checking if App Ready");
-        if (gApplicationReady == 2) {
+        if (gApplicationReady >= 3) {
             console.log("App Ready!");
+            initNavigator();
             initializePlayback();
         }
     }, 1000);

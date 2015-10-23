@@ -1,9 +1,36 @@
 <html>
 <head>
+    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <!-- Load the Paper.js library -->
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <!-- Define inlined PaperScript associate it with myCanvas -->
-    <script type="text/javascript" src="navigator.js" canvas="myCanvas"></script>
+    <script type="text/javascript" src="navigator.js"></script>
+    <script type="text/javascript">
+        //everything in here simulates the nav sitting in the real app.
+        var gApplicationReady = 0;
+        var gTOCAll = [];
+
+        $.when(ajaxGetTOCAll()).done(function(){
+            // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
+            initNavigator();
+        });
+        function ajaxGetTOCAll() {
+            // NOTE:  This function must return the value
+            //        from calling the $.ajax() method.
+            return $.ajax({
+                type: "GET",
+                url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {
+                    processTOCAllData(data);
+                }
+            });
+        }
+        function processTOCAllData(allText) {
+            console.log("processTOCIndexData");
+            gTOCAll = allText.split(/\r\n|\n/);
+        }
+    </script>
     <style type="text/css">
         html,
         body {
@@ -24,7 +51,7 @@
         spacer
     </div>
     <div style="flex:1;">
-        <canvas style="" id="myCanvas" resize></canvas>
+        <canvas id="myCanvas" resize></canvas>
     </div>
 </div>
 </body>
