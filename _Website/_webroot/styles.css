@@ -70,6 +70,7 @@ li:hover {
 }
 tr.utterance  {
     cursor: pointer;
+    vertical-align: top;
 }
 tr.utterance:hover {
     /*background-color: #B5B4A4;*/

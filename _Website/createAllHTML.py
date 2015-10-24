@@ -227,4 +227,4 @@ sorted_list = sorted(master_list, key=get_key, reverse=False)
 
 for list_item in sorted_list:
     photo_index_id = list_item.timestamp.translate(None, ":")
-    output_photo_index_file.write(photo_index_id + "|" + list_item.filename + "\n")
+    output_photo_index_file.write(photo_index_id + "|" + list_item.filename + "|" + list_item.timestamp + "\n")

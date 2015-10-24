@@ -171,15 +171,17 @@ function setAutoScrollPoller() {
         var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
         var seconds = Math.abs(parseInt(totalSec)) % 60;
         seconds = Math.floor(seconds);
-        gCurrMissionTime = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+
+        if (onCountdown) {
+            var hoursText = "-" + padZeros(hours, 2);
+        } else {
+            hoursText = padZeros(hours, 3);
+        }
+        gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
-            var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
+            var timeId = "timeid" + gCurrMissionTime.split(":").join("");
             gLastTimeIdChecked = gCurrMissionTime;
-            if (onCountdown) {
-                timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero of triple zero hours with "-"
-                gCurrMissionTime = "-" + gCurrMissionTime.substr(2);
-            }
             //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
             $("#timer").text(gCurrMissionTime);
             scrollToTimeID(timeId);
@@ -188,6 +190,15 @@ function setAutoScrollPoller() {
             showCurrentPhoto(timeId);
 
             missionTimeHistoricalDifference();
+
+            //scroll nav cursor
+            if (!gMouseOnNavigator) {
+                drawTier1NavBox(timeStrToSeconds(gCurrMissionTime));
+                drawTier2NavBox(timeStrToSeconds(gCurrMissionTime));
+                drawTier3();
+            }
+            drawCursor(timeStrToSeconds(gCurrMissionTime));
+            paper.view.draw();
         }
     }, 500); //polling frequency in milliseconds
 }
@@ -565,6 +576,7 @@ function initializePlayback() {
     if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
         //player.src(gMediaSrcURL + "_- - 000.mp4");
+        gCurrMissionTime = "-00:01:00";
         seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
         player.playVideo();
         //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
@@ -647,12 +659,7 @@ function processTOCAllData(allText) {
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
-            var rec = [];
-            rec.push(data[0]);
-            rec.push(data[1]);
-            rec.push(data[2]);
-            gTOCAll.push(rec);
-            gTOCIndex[i] = data[0].split(":").join("");
+            gTOCAll.push(data);
         }
     }
 }
@@ -668,12 +675,9 @@ function processPhotoIndexData(allText) {
     console.log("processPhotoIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] != "") {
-            var rec = [];
-            rec.push(data[0]);
-            rec.push(data[1]);
-            gPhotoList.push(rec);
+        if (allTextLines[i] != "") {
+            var data = allTextLines[i].split('|');
+            gPhotoList.push(data);
             gPhotoIndex[i] = data[0];
         }
     }
@@ -701,8 +705,8 @@ function setApplicationReadyPoller() {
         if (gApplicationReady >= 3) {
             console.log("App Ready!");
             $.isLoading( "hide" );
-            initNavigator();
             initializePlayback();
+            initNavigator();
         }
     }, 1000);
 }

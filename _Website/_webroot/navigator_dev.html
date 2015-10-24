@@ -9,14 +9,28 @@
         //everything in here simulates the nav sitting in the real app.
         var gApplicationReady = 0;
         var gTOCAll = [];
+        var gPhotoList = [];
+        var gPhotoIndex = [];
+        var gLastTimeIdChecked;
 
-        var gCurrMissionTime = "000:10:00";
+        var gCurrMissionTime = "141:27:05";
 
-        $.when(ajaxGetTOCAll()).done(function(){
-            // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
+        $.when(ajaxGetTOCAll(),
+                ajaxGetPhotoIndex()).done(function(){
+            // the code here will be executed when all ajax requests resolve
             initNavigator();
             incrementFakeMissionTime();
+            setAutoScrollPoller();
         });
+
+        function incrementFakeMissionTime() {
+            return window.setInterval(function () {
+                var tempSeconds = timeStrToSeconds(gCurrMissionTime);
+                tempSeconds ++;
+                gCurrMissionTime = secondsToTimeStr(tempSeconds);
+                //redrawAll();
+            }, 1000);
+        }
 
         function ajaxGetTOCAll() {
             // NOTE:  This function must return the value
@@ -30,28 +44,70 @@
                 }
             });
         }
-
+        function ajaxGetPhotoIndex() {
+            // NOTE:  This function must return the value
+            //        from calling the $.ajax() method.
+            return $.ajax({
+                type: "GET",
+                url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
+                dataType: "text",
+                success: function(data) {processPhotoIndexData(data);}
+            });
+        }
         function processTOCAllData(allText) {
             console.log("processTOCIndexData");
             var allTextLines = allText.split(/\r\n|\n/);
             for (var i = 0; i < allTextLines.length; i++) {
                 var data = allTextLines[i].split('|');
                 if (data[0] != "") {
-                    var rec = [];
-                    rec.push(data[0]);
-                    rec.push(data[1]);
-                    rec.push(data[2]);
-                    gTOCAll.push(rec);
+                    gTOCAll.push(data);
                 }
             }
         }
-        function incrementFakeMissionTime() {
+        function processPhotoIndexData(allText) {
+            console.log("processPhotoIndexData");
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                if (allTextLines[i] != "") {
+                    var data = allTextLines[i].split('|');
+                    gPhotoList.push(data);
+                    gPhotoIndex[i] = data[0];
+                }
+            }
+        }
+
+        function setAutoScrollPoller() {
             return window.setInterval(function () {
-                var tempSeconds = timeStrToSeconds(gCurrMissionTime);
-                tempSeconds ++;
-                gCurrMissionTime = secondsToTimeStr(tempSeconds);
-                //redrawAll();
-            }, 1000);
+                if (gCurrMissionTime != gLastTimeIdChecked) {
+                    gLastTimeIdChecked = gCurrMissionTime;
+                    //scroll nav cursor
+                    if (!gMouseOnNavigator) {
+                        drawTier1NavBox(timeStrToSeconds(gCurrMissionTime));
+                        drawTier2NavBox(timeStrToSeconds(gCurrMissionTime));
+                        drawTier3();
+                    }
+                    drawCursor(timeStrToSeconds(gCurrMissionTime));
+                    paper.view.draw();
+                }
+            }, 500); //polling frequency in milliseconds
+        }
+
+        function seekToTime(elementId) {
+            var gaTimeVal = parseInt(elementId.replace("timeid", ""));
+            var timeStr = elementId.substr(6,7);
+            var sign = timeStr.substr(0,1);
+            var hours = parseInt(timeStr.substr(0,3));
+            var minutes = parseInt(timeStr.substr(3,2));
+            var seconds = parseInt(timeStr.substr(5,2));
+            var signToggle = (sign == "-") ? -1 : 1;
+            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+            gCurrMissionTime = secondsToTimeStr(totalSeconds);
+        }
+
+        function padZeros(num, size) {
+            var s = num + "";
+            while (s.length < size) s = "0" + s;
+            return s;
         }
 
     </script>
@@ -74,7 +130,7 @@
     <div style="width: 280px; color: grey;">
         spacer
     </div>
-    <div style="flex:1;">
+    <div style="flex:1;" id="navigator">
         <canvas id="myCanvas" resize></canvas>
     </div>
 </div>
