@@ -171,7 +171,7 @@ function setAutoScrollPoller() {
         var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
         var seconds = Math.abs(parseInt(totalSec)) % 60;
         seconds = Math.floor(seconds);
-        gCurrMissionTime = " " + padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+        gCurrMissionTime = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
             var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);

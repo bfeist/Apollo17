@@ -67,12 +67,12 @@ output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCindex.csv"
-output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
-output_TOC_index_file.write("")
-output_TOC_index_file.close()
-
-output_TOC_index_file = open(output_TOC_index_file_name_and_path, "a")
+# output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCindex.csv"
+# output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
+# output_TOC_index_file.write("")
+# output_TOC_index_file.close()
+#
+# output_TOC_index_file = open(output_TOC_index_file_name_and_path, "a")
 
 ## -------------------- Write TOC
 template_loader = FileLoader('templates')
@@ -98,8 +98,8 @@ for row in reader:
     template = loader.load_template('template_TOC_item.html')
     output_TOC_file.write(template.render({'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title, 'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=loader).encode('utf-8'))
     prev_depth = item_depth
-    toc_index_template = loader.load_template('template_TOC_index.html')
-    output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
+    # toc_index_template = loader.load_template('template_TOC_index.html')
+    # output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
 
 #WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')

@@ -158,8 +158,8 @@ function pollForMissionTime() {
         drawTier2Cursor(timeStrToSeconds(gCurrMissionTime));
         drawTier3Cursor(timeStrToSeconds(gCurrMissionTime));
         paper.view.draw();
-        //console.log("polling for time change");
-    }, 500);
+        //console.log("polling for time change " + gCurrMissionTime);
+    }, 1000);
 }
 
 function drawTier1() {
