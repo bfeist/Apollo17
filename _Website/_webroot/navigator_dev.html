@@ -10,12 +10,14 @@
         var gApplicationReady = 0;
         var gTOCAll = [];
 
-
+        var gCurrMissionTime = "000:10:00";
 
         $.when(ajaxGetTOCAll()).done(function(){
             // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
             initNavigator();
+            incrementFakeMissionTime();
         });
+
         function ajaxGetTOCAll() {
             // NOTE:  This function must return the value
             //        from calling the $.ajax() method.
@@ -28,16 +30,29 @@
                 }
             });
         }
+
         function processTOCAllData(allText) {
             console.log("processTOCIndexData");
-            gTOCAll = allText.split(/\r\n|\n/);
+            var allTextLines = allText.split(/\r\n|\n/);
+            for (var i = 0; i < allTextLines.length; i++) {
+                var data = allTextLines[i].split('|');
+                if (data[0] != "") {
+                    var rec = [];
+                    rec.push(data[0]);
+                    rec.push(data[1]);
+                    rec.push(data[2]);
+                    gTOCAll.push(rec);
+                }
+            }
         }
-
-        $(document).ready(function() {
-            $("#myCanvas").mouseleave(function() {
-                console.log("mycanvas mouseleave");
-            });
-        });
+        function incrementFakeMissionTime() {
+            return window.setInterval(function () {
+                var tempSeconds = timeStrToSeconds(gCurrMissionTime);
+                tempSeconds ++;
+                gCurrMissionTime = secondsToTimeStr(tempSeconds);
+                //redrawAll();
+            }, 1000);
+        }
 
     </script>
     <style type="text/css">

@@ -552,7 +552,6 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
 //--------------- async page initialization calls ---------------
 
 $.when(ajaxGetMediaIndex(),
-    ajaxGetTOCIndex(),
     ajaxGetTOCAll(),
     ajaxGetUtteranceIndex(),
     ajaxGetCommentaryIndex(),
@@ -586,16 +585,6 @@ function ajaxGetMediaIndex() {
         url: "./indexes/media_index.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMediaIndexData(data);}
-    });
-}
-function ajaxGetTOCIndex() {
-    // NOTE:  This function must return the value
-    //        from calling the $.ajax() method.
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/TOCindex.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processTOCIndexData(data);}
     });
 }
 function ajaxGetTOCAll() {
@@ -652,13 +641,20 @@ function processMediaIndexData(allText) {
         gMediaList.push(rec);
     }
 }
-function processTOCIndexData(allText) {
-    console.log("processTOCIndexData");
-    gTOCIndex = allText.split(/\r\n|\n/);
-}
 function processTOCAllData(allText) {
     console.log("processTOCIndexData");
-    gTOCAll = allText.split(/\r\n|\n/);
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            var rec = [];
+            rec.push(data[0]);
+            rec.push(data[1]);
+            rec.push(data[2]);
+            gTOCAll.push(rec);
+            gTOCIndex[i] = data[0].split(":").join("");
+        }
+    }
 }
 function processUtteranceIndexData(allText) {
     console.log("processUtteranceIndexData");
