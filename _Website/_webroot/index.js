@@ -477,9 +477,11 @@ function seekToTime(elementId){
                 player.seekTo(seekToSecondsWithOffset, true);
             }
             //scrollToTimeID(findClosestUtterance(totalSeconds));
+            showCurrentPhoto(elementId);
             displayUtteranceRegion(totalSeconds);
             findClosestTOC(totalSeconds);
             findClosestCommentary(totalSeconds);
+
             break;
         }
     }
