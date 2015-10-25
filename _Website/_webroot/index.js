@@ -585,14 +585,13 @@ function displayUtteranceRegion(seconds) {
         console.log('Finished animating: ' + scrollDestination);
     });
     //repopulateUtteranceTable(utteranceIndex);
-
 }
 
 function repopulateUtteranceTable(utteranceIndex) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     $('#utteranceDiv').scrollTop(0);
-    for (var i = -1; i <= 30; i++) {
+    for (var i = -1; i <= 50; i++) {
         if (i == 0) {
             var style = "background-color: #222222";
         } else {
@@ -627,7 +626,6 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
 
 $.when(ajaxGetMediaIndex(),
     ajaxGetTOCAll(),
-    ajaxGetUtteranceIndex(),
     ajaxGetCommentaryIndex(),
     ajaxGetUtteranceData(),
     ajaxGetPhotoIndex()).done(function(){
@@ -671,16 +669,6 @@ function ajaxGetTOCAll() {
         url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processTOCAllData(data);}
-    });
-}
-function ajaxGetUtteranceIndex() {
-    // NOTE:  This function must return the value
-    //        from calling the $.ajax() method.
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processUtteranceIndexData(data);}
     });
 }
 function ajaxGetUtteranceData() {
@@ -738,10 +726,6 @@ function processTOCAllData(allText) {
         }
     }
 }
-function processUtteranceIndexData(allText) {
-    console.log("processUtteranceIndexData");
-    gUtteranceIndex = allText.split(/\r\n|\n/);
-}
 function processUtteranceData(allText) {
     console.log("processUtteranceData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -750,6 +734,7 @@ function processUtteranceData(allText) {
         if (data[0] != "") {
             gUtteranceData.push(data);
             gUtteranceDataLookup[data[0].split(":").join("")] = i;
+            gUtteranceIndex[i] = data[0].split(":").join("");
         }
     }
 }

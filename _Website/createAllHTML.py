@@ -116,11 +116,11 @@ output_utterance_file.write("")
 output_utterance_file.close()
 output_utterance_file = open(output_utterance_file_name_and_path, "a")
 
-output_utterance_index_file_name_and_path = "./_webroot/indexes/utteranceIndex.csv"
-output_utterance_index_file = open(output_utterance_index_file_name_and_path, "w")
-output_utterance_index_file.write("")
-output_utterance_index_file.close()
-output_utterance_index_file = open(output_utterance_index_file_name_and_path, "a")
+# output_utterance_index_file_name_and_path = "./_webroot/indexes/utteranceIndex.csv"
+# output_utterance_index_file = open(output_utterance_index_file_name_and_path, "w")
+# output_utterance_index_file.write("")
+# output_utterance_index_file.close()
+# output_utterance_index_file = open(output_utterance_index_file_name_and_path, "a")
 
 output_utterance_data_file_name_and_path = "./_webroot/indexes/utteranceData.csv"
 output_utterance_data_file = open(output_utterance_data_file_name_and_path, "w")
@@ -152,8 +152,8 @@ for utterance_row in utterance_reader:
         template = template_loader.load_template('template_timelineitem.html')
         output_utterance_file.write(template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': who_modified, 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
 
-        timeline_index_template = loader.load_template('template_timeline_index.html')
-        output_utterance_index_file.write(timeline_index_template.render({'timeline_index_id': timeline_index_id}, loader=loader).encode('utf-8'))
+        # timeline_index_template = loader.load_template('template_timeline_index.html')
+        # output_utterance_index_file.write(timeline_index_template.render({'timeline_index_id': timeline_index_id}, loader=loader).encode('utf-8'))
 
         output_utterance_data_file.write(utterance_row[1] + "|" + who_modified + "|" + words_modified + "\n")
 

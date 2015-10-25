@@ -13,7 +13,6 @@ var gCurrMissionTime = "141:27:05";
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
-    ajaxGetUtteranceIndex(),
     ajaxGetUtteranceData()).done(function(){
         // the code here will be executed when all ajax requests resolve
         initNavigator();
@@ -52,16 +51,6 @@ function ajaxGetPhotoIndex() {
         success: function(data) {processPhotoIndexData(data);}
     });
 }
-function ajaxGetUtteranceIndex() {
-    // NOTE:  This function must return the value
-    //        from calling the $.ajax() method.
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processUtteranceIndexData(data);}
-    });
-}
 function ajaxGetUtteranceData() {
     // NOTE:  This function must return the value
     //        from calling the $.ajax() method.
@@ -94,10 +83,6 @@ function processPhotoIndexData(allText) {
         }
     }
 }
-function processUtteranceIndexData(allText) {
-    console.log("processUtteranceIndexData");
-    gUtteranceIndex = allText.split(/\r\n|\n/);
-}
 function processUtteranceData(allText) {
     console.log("processUtteranceData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -106,6 +91,7 @@ function processUtteranceData(allText) {
         if (data[0] != "") {
             gUtteranceData.push(data);
             gUtteranceDataLookup[data[0].split(":").join("")] = i;
+            gUtteranceIndex[i] = data[0].split(":").join("");
         }
     }
 }
@@ -142,7 +128,7 @@ function seekToTime(elementId) {
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
     gCurrMissionTime = secondsToTimeStr(totalSeconds);
 
-    displayUtteranceRegion(totalSeconds, true);
+    displayUtteranceRegion(totalSeconds);
     //displayUtteranceRegion(totalSeconds);
 }
 
@@ -182,9 +168,7 @@ function padZeros(num, size) {
 
 //------------------------------------------------- utterance chunking code -------------------------------------------------
 
-function displayUtteranceRegion(seconds, reset) {
-    reset = typeof reset !== 'undefined' ? reset : false;
-
+function displayUtteranceRegion(seconds) {
     var timecode = findClosestUtterance(Math.round(seconds)).substr(6);
     //var timecode = secondsToTimeStr(seconds).split(":").join("");
     var utteranceIndex = gUtteranceDataLookup[timecode];
@@ -192,30 +176,21 @@ function displayUtteranceRegion(seconds, reset) {
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
-    if (utteranceTable.html() == '' || reset == true) {
-        console.log('resetting utterance html');
-        repopulateUtteranceTable(utteranceIndex);
-    } else {
-        repopulateUtteranceTable(utteranceIndex);
+    repopulateUtteranceTable(utteranceIndex);
 
-        //var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
-        //var nextTimeIdMarker = gUtteranceData[utteranceIndex + 1];
-        //var timeIdMarkerParent = timeIdMarker.parent().closest('div');
-        //var scrollDestination = timeIdMarker.offset().top - timeIdMarker.parent().closest('div').offset().top - 50;
-        //utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
-        //    $('#utteranceDiv').scrollTop(scrollDestination);
-        //    console.log('Finished animating: ' + scrollDestination);
-        //    repopulateUtteranceTable(utteranceIndex);
-        //});
-    }
-
-    //utteranceDiv.scrollTo("#timeid" + timecode);
+    var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
+    var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
+    utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+        console.log('Finished animating: ' + scrollDestination);
+    });
+    //repopulateUtteranceTable(utteranceIndex);
 }
 
 function repopulateUtteranceTable(utteranceIndex) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
-    for (var i = -2; i <= 30; i++) {
+    $('#utteranceDiv').scrollTop(0);
+    for (var i = -1; i <= 50; i++) {
         if (i == 0) {
             var style = "background-color: #222222";
         } else {

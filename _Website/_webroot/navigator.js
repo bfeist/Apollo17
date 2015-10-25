@@ -6,7 +6,7 @@
 // 1100166
 
 var gMissionDurationSeconds = 1100166;
-var gNavZoomFactor = 25;
+var gNavZoomFactor = 15;
 var gMouseOnNavigator = false;
 
 var gNavigatorWidth;
@@ -24,6 +24,7 @@ var gNavCursorGroup;
 var gTier1NavBoxLocX;
 var gTier2NavBoxLocX;
 
+var gLastTier1TextPosition;
 var gLastTier2TextPosition;
 var gLastTier3TextPosition;
 
@@ -259,14 +260,60 @@ function drawTier1() {
 
     var pixelsPerSecond = gNavigatorWidth  / gMissionDurationSeconds;
     for (var i = 0; i < gTOCAll.length; i++) {
+        //if (gLastTier1TextPosition == 1 || gLastTier1TextPosition == "") {
+        //    var textPosition = 2;
+        //} else if (gLastTier1TextPosition == 2) {
+        //    textPosition = 3;
+        //} else {
+        //    textPosition = 1;
+        //}
+        //gLastTier1TextPosition = textPosition;
         if (gTOCAll[i][1] == "1") { //if level 1 TOC item
-            var TOCItemLocX = Math.round(timeStrToSeconds(gTOCAll[i][0]) * pixelsPerSecond);
-            var topPoint = new paper.Point(TOCItemLocX, tierTop);
-            var bottomPoint = new paper.Point(TOCItemLocX, tierBottom);
+            var itemLocX = Math.round(timeStrToSeconds(gTOCAll[i][0]) * pixelsPerSecond);
+            var topPoint = new paper.Point(itemLocX, tierTop);
+            var bottomPoint = new paper.Point(itemLocX, tierBottom);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = '#444444';
             gTier1Group.addChild(aLine);
+            //if (gTOCAll[i][1] == "1") { //if level 1 TOC item
+            //    var itemText = new paper.PointText({
+            //        justification: 'left',
+            //        fontSize: 10,
+            //        strokeColor: '#444444'
+            //    });
+            //    var textTop = tierBottom - textPosition * (gTierHeight / 3) + 9;
+            //    itemText.point = new paper.Point(itemLocX , textTop);
+            //    itemText.content = gTOCAll[i][2];
+            //    gTier1Group.addChild(itemText);
+            //}
         }
+    }
+    //display photo ticks
+    for (var i = 0; i < gPhotoList.length; i++) {
+        if (gPhotoList[i][2] != "") {
+            itemLocX = timeStrToSeconds(gPhotoList[i][2]) * gTier1PixelsPerSecond;
+            var barHeight = gTierHeight / 4;
+            var barTop = tierBottom - barHeight;
+            topPoint = new paper.Point(itemLocX, barTop);
+            bottomPoint = new paper.Point(itemLocX, tierBottom);
+            aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = 'green';
+            gTier1Group.addChild(aLine);
+        }
+    }
+    //display time ticks
+    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
+    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
+
+    for (var i = 0; i < missionDurationHours * 2; i++) {
+        itemLocX = (i * 60 * 60) / 2 * gTier1PixelsPerSecond;
+        var barHeight = gTierHeight / 8;
+        var barTop = tierBottom - barHeight;
+        topPoint = new paper.Point(itemLocX, barTop);
+        bottomPoint = new paper.Point(itemLocX, tierBottom);
+        aLine = new paper.Path.Line(topPoint, bottomPoint);
+        aLine.strokeColor = 'orange';
+        gTier1Group.addChild(aLine);
     }
 }
 
@@ -324,6 +371,7 @@ function drawTier2() {
             var bottomPoint = new paper.Point(itemLocX, tierBottom);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = '#444444';
+            gTier2Group.addChild(aLine);
             if (gTOCAll[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
@@ -335,7 +383,6 @@ function drawTier2() {
                 itemText.content = gTOCAll[i][2];
                 gTier2Group.addChild(itemText);
             }
-            gTier2Group.addChild(aLine);
         }
     }
     //display photo ticks
@@ -344,7 +391,7 @@ function drawTier2() {
             itemSecondsFromLeft = Math.round(timeStrToSeconds(gPhotoList[i][2])) - gTier2StartSeconds;
             if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier2) {
                 itemLocX = itemSecondsFromLeft * gTier2PixelsPerSecond;
-                barHeight = gTierHeight / 2;
+                barHeight = gTierHeight / 3;
                 barTop = tierBottom - barHeight;
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
@@ -352,6 +399,23 @@ function drawTier2() {
                 aLine.strokeColor = 'green';
                 gTier2Group.addChild(aLine);
             }
+        }
+    }
+    //display time ticks
+    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
+    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
+
+    for (var i = 0; i < missionDurationHours * 2; i++) {
+        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier2StartSeconds;
+        if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier2) {
+            itemLocX = itemSecondsFromLeft * gTier2PixelsPerSecond;
+            var barHeight = gTierHeight / 8;
+            var barTop = tierBottom - barHeight;
+            topPoint = new paper.Point(itemLocX, barTop);
+            bottomPoint = new paper.Point(itemLocX, tierBottom);
+            aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = 'orange';
+            gTier2Group.addChild(aLine);
         }
     }
 }
@@ -408,6 +472,7 @@ function drawTier3() {
             var bottomPoint = new paper.Point(itemLocX, tierBottom);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = '#444444';
+            gTier3Group.addChild(aLine);
             //if (gTOCAll[i][1] == "1") { //if level 1 TOC item
             var itemText = new paper.PointText({
                 justification: 'left',
@@ -419,7 +484,6 @@ function drawTier3() {
             itemText.content = gTOCAll[i][2];
             gTier3Group.addChild(itemText);
             //}
-            gTier3Group.addChild(aLine);
         }
     }
     //display photo ticks
@@ -434,6 +498,40 @@ function drawTier3() {
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
                 aLine.strokeColor = 'green';
+                gTier3Group.addChild(aLine);
+            }
+        }
+    }
+    //display time ticks
+    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
+    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
+
+    for (var i = 0; i < missionDurationHours * 2; i++) {
+        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
+        if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3) {
+            itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
+            barHeight = gTierHeight / 8;
+            barTop = tierBottom - barHeight;
+            topPoint = new paper.Point(itemLocX, barTop);
+            bottomPoint = new paper.Point(itemLocX, tierBottom);
+            aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = 'orange';
+            gTier3Group.addChild(aLine);
+        }
+    }
+
+    //display utterance ticks
+    for (var i = 0; i < gUtteranceData.length; i++) {
+        if (gUtteranceData[i][0] != "") {
+            itemSecondsFromLeft = Math.round(timeStrToSeconds(gUtteranceData[i][0])) - gTier3StartSeconds;
+            if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier3) {
+                itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
+                barHeight = gTierHeight / 8;
+                var barBottom = tierTop + barHeight;
+                topPoint = new paper.Point(itemLocX, tierTop);
+                bottomPoint = new paper.Point(itemLocX, barBottom);
+                aLine = new paper.Path.Line(topPoint, bottomPoint);
+                aLine.strokeColor = 'blue';
                 gTier3Group.addChild(aLine);
             }
         }
