@@ -402,7 +402,7 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = CurrentClosestTime;
         console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-        var photoPage = "./mission_images/meta/" + photoFilename + ".html";
+        var photoPage = "./mission_images/meta/" + photoFilename + ".html?nocache=" + Math.random();
 
         loadPhotoPage(photoPage);
 
