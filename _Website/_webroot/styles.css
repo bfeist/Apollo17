@@ -61,6 +61,11 @@ li:hover {
 }
 
 /* ----------------- transcript -----------------*/
+#utteranceDiv {
+    overflow-y: hidden;
+    position: relative;
+    height: 100%;
+}
 .utterancetable {
     border: 2px;
     padding: 2px;

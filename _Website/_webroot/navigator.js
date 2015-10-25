@@ -445,7 +445,11 @@ function secondsToTimeStr(totalSeconds) {
     var minutes = Math.abs(parseInt(totalSeconds / 60)) % 60 % 60;
     var seconds = Math.abs(parseInt(totalSeconds)) % 60;
     seconds = Math.floor(seconds);
-    return padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+    var timeStr = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+    if (totalSeconds < 0) {
+        timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
+    }
+    return timeStr;
 }
 
 function timeStrToSeconds(timeStr) {

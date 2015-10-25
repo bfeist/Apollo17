@@ -1,116 +1,12 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-    <!-- Load the Paper.js library -->
     <script type="text/javascript" src="lib/paper-full.js"></script>
-    <!-- Define inlined PaperScript associate it with myCanvas -->
+    <script type="text/javascript" src="navigator_dev.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
-    <script type="text/javascript">
-        //everything in here simulates the nav sitting in the real app.
-        var gApplicationReady = 0;
-        var gTOCAll = [];
-        var gPhotoList = [];
-        var gPhotoIndex = [];
-        var gLastTimeIdChecked;
 
-        var gCurrMissionTime = "141:27:05";
-
-        $.when(ajaxGetTOCAll(),
-                ajaxGetPhotoIndex()).done(function(){
-            // the code here will be executed when all ajax requests resolve
-            initNavigator();
-            incrementFakeMissionTime();
-            setAutoScrollPoller();
-        });
-
-        function incrementFakeMissionTime() {
-            return window.setInterval(function () {
-                var tempSeconds = timeStrToSeconds(gCurrMissionTime);
-                tempSeconds ++;
-                gCurrMissionTime = secondsToTimeStr(tempSeconds);
-                //redrawAll();
-            }, 1000);
-        }
-
-        function ajaxGetTOCAll() {
-            // NOTE:  This function must return the value
-            //        from calling the $.ajax() method.
-            return $.ajax({
-                type: "GET",
-                url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
-                dataType: "text",
-                success: function(data) {
-                    processTOCAllData(data);
-                }
-            });
-        }
-        function ajaxGetPhotoIndex() {
-            // NOTE:  This function must return the value
-            //        from calling the $.ajax() method.
-            return $.ajax({
-                type: "GET",
-                url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
-                dataType: "text",
-                success: function(data) {processPhotoIndexData(data);}
-            });
-        }
-        function processTOCAllData(allText) {
-            console.log("processTOCIndexData");
-            var allTextLines = allText.split(/\r\n|\n/);
-            for (var i = 0; i < allTextLines.length; i++) {
-                var data = allTextLines[i].split('|');
-                if (data[0] != "") {
-                    gTOCAll.push(data);
-                }
-            }
-        }
-        function processPhotoIndexData(allText) {
-            console.log("processPhotoIndexData");
-            var allTextLines = allText.split(/\r\n|\n/);
-            for (var i = 0; i < allTextLines.length; i++) {
-                if (allTextLines[i] != "") {
-                    var data = allTextLines[i].split('|');
-                    gPhotoList.push(data);
-                    gPhotoIndex[i] = data[0];
-                }
-            }
-        }
-
-        function setAutoScrollPoller() {
-            return window.setInterval(function () {
-                if (gCurrMissionTime != gLastTimeIdChecked) {
-                    gLastTimeIdChecked = gCurrMissionTime;
-                    //scroll nav cursor
-                    if (!gMouseOnNavigator) {
-                        drawTier1NavBox(timeStrToSeconds(gCurrMissionTime));
-                        drawTier2NavBox(timeStrToSeconds(gCurrMissionTime));
-                        drawTier3();
-                    }
-                    drawCursor(timeStrToSeconds(gCurrMissionTime));
-                    paper.view.draw();
-                }
-            }, 500); //polling frequency in milliseconds
-        }
-
-        function seekToTime(elementId) {
-            var gaTimeVal = parseInt(elementId.replace("timeid", ""));
-            var timeStr = elementId.substr(6,7);
-            var sign = timeStr.substr(0,1);
-            var hours = parseInt(timeStr.substr(0,3));
-            var minutes = parseInt(timeStr.substr(3,2));
-            var seconds = parseInt(timeStr.substr(5,2));
-            var signToggle = (sign == "-") ? -1 : 1;
-            var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
-            gCurrMissionTime = secondsToTimeStr(totalSeconds);
-        }
-
-        function padZeros(num, size) {
-            var s = num + "";
-            while (s.length < size) s = "0" + s;
-            return s;
-        }
-
-    </script>
     <style type="text/css">
         html,
         body {
@@ -134,8 +30,11 @@
         <canvas id="myCanvas" resize></canvas>
     </div>
 </div>
-<div style="width: 100%; height:100%; background-color: #363636;">
+<div style="width: 100%; height:10%; background-color: #363636;">
     x
+</div>
+<div style="width: 500px; height:200px; background-color: #666666; overflow: hidden; position:relative;" id="utteranceDiv">
+    <table class="utteranceTable" id="utteranceTable"></table>
 </div>
 </body>
 </html>
