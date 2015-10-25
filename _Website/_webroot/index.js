@@ -577,20 +577,15 @@ function displayUtteranceRegion(seconds) {
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
-    if (utteranceTable.html() == '') {
-        console.log('no html');
-        repopulateUtteranceTable(utteranceIndex);
-    } else {
-        repopulateUtteranceTable(utteranceIndex);
-        var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
-        var scrollDestination = timeIdMarker.offset().top - $("#utteranceDiv").offset().top;
-        utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
-            console.log('Finished animating: ' + scrollDestination);
-        });
-        //repopulateUtteranceTable(utteranceIndex);
-    }
+    repopulateUtteranceTable(utteranceIndex);
 
-    //utteranceDiv.scrollTo("#timeid" + timecode);
+    var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
+    var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
+    utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+        console.log('Finished animating: ' + scrollDestination);
+    });
+    //repopulateUtteranceTable(utteranceIndex);
+
 }
 
 function repopulateUtteranceTable(utteranceIndex) {
@@ -739,6 +734,7 @@ function processTOCAllData(allText) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
             gTOCAll.push(data);
+            gTOCIndex[i] = data[0].split(":").join("");
         }
     }
 }

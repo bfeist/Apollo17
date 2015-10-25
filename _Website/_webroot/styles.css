@@ -90,6 +90,10 @@ tr.utterance > td {
 tr.commentary:hover {
     background-color: #222222;
 }
+tr.commentary {
+    cursor: pointer;
+    vertical-align: top;
+}
 tr.commentary > td {
     padding: 2px;
 }

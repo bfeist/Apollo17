@@ -1,6 +1,7 @@
 //everything in here simulates the nav sitting in the real app.
 var gApplicationReady = 0;
 var gTOCAll = [];
+var gTOCIndex = [];
 var gUtteranceIndex = [];
 var gUtteranceData = [];
 var gUtteranceDataLookup = [];
@@ -78,6 +79,7 @@ function processTOCAllData(allText) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
             gTOCAll.push(data);
+            gTOCIndex[i] = data[0].split(":").join("");
         }
     }
 }
