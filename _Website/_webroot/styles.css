@@ -62,7 +62,7 @@ li:hover {
 
 /* ----------------- transcript -----------------*/
 #utteranceDiv {
-    overflow-y: hidden;
+    overflow-y: scroll;
     position: relative;
     height: 100%;
 }
@@ -383,26 +383,32 @@ canvas[resize] {
     height: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #c0c0c0;
+    /*background: #c0c0c0;*/
+    background: #000000;
     border: 0px none #ff2c20;
     border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #c0c0c0;
+    /*background: #c0c0c0;*/
+    background: #000000;
 }
 ::-webkit-scrollbar-thumb:active {
-    background: #c0c0c0;
+    /*background: #c0c0c0;*/
+    background: #000000;
 }
 ::-webkit-scrollbar-track {
     background: #000000;
-    border: 1px solid #c0c0c0;
+    /*border: 1px solid #c0c0c0;*/
+    border: 1px solid #0f0f0f;
     border-radius: 0px;
 }
 ::-webkit-scrollbar-track:hover {
-    background: #2e2e2e;
+    /*background: #2e2e2e;*/
+    background: #000000;
 }
 ::-webkit-scrollbar-track:active {
-    background: #717171;
+    /*background: #717171;*/
+    background: #0f0f0f;
 }
 ::-webkit-scrollbar-corner {
     background: transparent;
