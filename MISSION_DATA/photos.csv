@@ -239,7 +239,7 @@ skip|20193|133|J|||||||||||BLANK|Jack Schmitt|
 122:27:42|20430|134|B|SO-368|||||||60|16|EVA 1|STA 1, PAN|Gene Cernan|
 122:27:33|20431|134|B|SO-368|||||||60|16|EVA 1|STA 1, PAN|Gene Cernan|
 122:30:27|20432|134|B|SO-368|||||||60|16|EVA 1|STA 1, SPL 1500, 1535-606|Gene Cernan|
-122:42:15|20433|134|B|SO-368|||||||60|17|EVA 1|LRV TRAVERSE, STA 1 TO STA SEP|Gene Cernan|
+122:42:13|20433|134|B|SO-368|||||||60|17|EVA 1|LRV TRAVERSE, STA 1 TO STA SEP|Gene Cernan|
 122:42:20|20434|134|B|SO-368|||||||60|17|EVA 1|LRV TRAVERSE, STA 1 TO STA SEP|Gene Cernan|
 123:01:05|20435|134|B|SO-368|||||||60|17|EVA 1|view of Schmitt at Surface Electrical Properties experiment; LM and LRV in background|Gene Cernan|
 123:04:03|20436|134|B|SO-368|||||||60|17|EVA 1|Station SEP site pan - LRV tracks and SEP antenna wire|Gene Cernan|
@@ -679,7 +679,7 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 140:59:15|20870|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
 140:59:21|20871|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, ALSEP|Jack Schmitt|
 140:59:27|20872|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM, ALSEP|Jack Schmitt|
-140:59:33|20873|137|C|SO-368|||||||60|25|EVA 2|view of LM from pan sequence|Jack Schmitt|12-Dec-72
+140:59:33|20873|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|12-Dec-72
 140:59:39|20874|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
 140:59:45|20875|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
 140:59:51|20876|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|Jack Schmitt|
@@ -700,7 +700,7 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 141:01:22|20891|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LM|Jack Schmitt|
 141:01:28|20892|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN, LRV TRACKS|Jack Schmitt|
 141:01:35|20893|137|C|SO-368|||||||60|25|EVA 2|STA LM, PAN|Jack Schmitt|
-141:56:12|20894|137|C|SO-368|||||||60|25|EVA 2|STA LM, LRV, FRONT|Jack Schmitt|
+141:56:17|20894|137|C|SO-368|||||||60|25|EVA 2|STA LM, LRV, FRONT|Jack Schmitt|
 141:59:28|20895|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2135|Gene Cernan|
 142:02:44|20896|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2140|Gene Cernan|
 142:06:01|20897|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, SPL 2140, 55|Gene Cernan|
@@ -1633,162 +1633,162 @@ skip|21669|142|M|3401|||||||60|37|EVA 3|STA 7, LRV, OVEREXPOSED|JSC scan|
 168:22:41|21824|142|M|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
 168:24:37|21825|142|M|3401|||||||60|38|EVA 3|Location of Station 9 sample 9165. In the background, Cernan is taking the TGE off the Rover|Jack Schmitt|
 168:24:45|21826|142|M|3401|||||||60|38|EVA 3|Gene is taking the TGE off the Rover.|Jack Schmitt|
-168:30:13|21827|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover. Location of samples 9220, 9240 and 9260.|Jack Schmitt|
-168:30:18|21828|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover.|Jack Schmitt|
-168:30:25|21829|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover.|Jack Schmitt|
-168:30:25|21830|142|M|3401|||||||60|38|EVA 3|Station 9. LRV floor.|Jack Schmitt|
+168:31:13|21827|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover. Location of samples 9220, 9240 and 9260.|Jack Schmitt|
+168:31:18|21828|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover.|Jack Schmitt|
+168:31:25|21829|142|M|3401|||||||60|38|EVA 3|Station 9. Trench site near the Rover.|Jack Schmitt|
+168:33:17|21830|142|M|3401|||||||60|38|EVA 3|Station 9. LRV floor.|Jack Schmitt|
 168:33:19|21831|142|M|3401|||||||60|38|EVA 3|STA 9, LRV FLOOR, OVEREXPOSED|Jack Schmitt|
 skip|21832|142|M|3401||||||||||BLANK|Jack Schmitt|
 skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
-|21834|143|N|3401|||||||60|38|EVA 3|STA 9, LRV FLOOR, OVEREXPOSED|JSC scan|
-|21835|143|N|3401|||||||60|38|EVA 3|STA 9, LRV FLOOR|JSC scan|
-|21836|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, SPL 9001-02, SEIS CHRG 5|JSC scan|
-|21837|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, SPL 9001-02, SEIS CHRG 5|JSC scan|
-|21838|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, CDR, SEIS CHRG 5|JSC scan|
-|21839|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21840|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21841|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21842|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21843|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21844|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21845|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21846|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21847|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21848|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21849|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21850|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21851|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21852|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21853|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21854|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21855|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|JSC scan|
-|21856|143|N|3401|||||||60|38|EVA 3|Station 9 pan frame / LRV & Cernan|JSC scan|
-|21857|143|N|3401|||||||60|38|EVA 3|Station 9 pan frame / LRV & Cernan|JSC scan|
-|21858|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, LRV, CDR|JSC scan|
-|21859|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21860|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21861|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21862|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21863|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21864|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21865|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21866|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21867|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21868|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21869|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21870|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21871|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21872|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21873|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21874|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21875|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21876|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21877|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21878|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21879|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21880|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21881|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21882|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21883|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21884|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21885|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21886|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21887|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21888|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21889|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21890|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21891|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21892|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|JSC scan|
-|21893|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|JSC scan|
-|21894|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|JSC scan|
-|21895|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21896|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21897|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21898|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21899|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21900|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21901|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21902|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21903|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21904|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21905|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21906|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21907|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21908|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21909|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21910|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21911|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21912|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21913|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21914|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21915|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21916|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21917|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21918|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21919|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21920|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21921|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|JSC scan|
-|21922|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, LM|JSC scan|
-|21923|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, LM|JSC scan|
-|21924|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SEIS CHRG 2|JSC scan|
-|21925|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SPL 0215|JSC scan|
-|21926|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SPL 0215|JSC scan|
-|21927|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|JSC scan|
-|21928|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|JSC scan|
-|21929|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|JSC scan|
-|21930|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|JSC scan|
-|21931|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|JSC scan|
-|21932|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|JSC scan|
-|21933|143|N|3401|||||||60|38|EVA 3|LRV in final parking location|JSC scan|
-|21934|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|JSC scan|
-|21935|143|N|3401|||||||60|39|EVA 3|STA SEP, SEIS CHRG 3, LM|JSC scan|
-|21936|143|N|3401|||||||60|39|EVA 3|Station SEP / seismic charge 3 / LM|JSC scan|
-|21937|143|N|3401|||||||60|39|EVA 3|STA SEP, SEIS CHRG 3, LM|JSC scan|
-|21938|143|N|3401|||||||60|39|EVA 3|Jack Schmitt's hammer is seen in flight in this photo taken near the end of EVA 3|JSC scan|
-|21939|143|N|3401|||||||60|39|EVA 3|Station LM pan frame - Hammer in flight|JSC scan|
-|21940|143|N|3401|||||||60|39|EVA 3|Station LM pan frame - Hammer has just landed and has kicked up a spray of dust|JSC scan|
-|21941|143|N|3401|||||||60|39|EVA 3|Schmitt stands beside the flag in what is likely the last photograph of an Apollo astronaut on the Moon|JSC scan|
-|21942|||||||||||||DARK|JSC scan|
-|21943|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21944|143|N|3401|||||||60|40|POST EVA 3|view from LM window of ALSEP, Geophone Rock, and the geology hammer|JSC scan|
-|21945|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21946|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21947|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21948|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|JSC scan|
-|21949|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|JSC scan|
-|21950|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|JSC scan|
-|21951|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21952|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21953|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|JSC scan|
-|21954|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21955|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21956|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21957|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21958|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21959|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21960|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21961|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21962|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21963|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21964|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21965|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21966|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21967|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21968|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21969|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21970|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS|view from LM window / discarded PLSS backpack|JSC scan|
-|21971|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21972|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||JSC scan|
-|21973|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21974|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21975|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21976|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21977|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21978|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21979|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21980|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21981|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
-|21982|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||JSC scan|
+skip|21834|143|N|3401|||||||60|38|EVA 3|STA 9, LRV FLOOR, OVEREXPOSED|Jack Schmitt|
+168:36:36|21835|143|N|3401|||||||60|38|EVA 3|STA 9, LRV FLOOR|Jack Schmitt|
+|21836|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, SPL 9001-02, SEIS CHRG 5|Jack Schmitt|
+|21837|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, SPL 9001-02, SEIS CHRG 5|Jack Schmitt|
+|21838|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, CDR, SEIS CHRG 5|Jack Schmitt|
+|21839|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21840|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21841|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21842|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21843|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21844|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21845|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21846|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21847|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21848|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21849|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21850|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21851|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21852|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21853|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21854|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21855|143|N|3401|||||||60|38|EVA 3|STA 9, PAN|Jack Schmitt|
+|21856|143|N|3401|||||||60|38|EVA 3|Station 9 pan frame / LRV & Cernan|Jack Schmitt|
+|21857|143|N|3401|||||||60|38|EVA 3|Station 9 pan frame / LRV & Cernan|Jack Schmitt|
+|21858|143|N|3401|||||||60|38|EVA 3|STA 9, PAN, LRV, CDR|Jack Schmitt|
+|21859|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21860|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21861|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21862|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21863|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21864|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21865|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21866|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21867|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21868|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21869|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21870|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21871|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21872|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21873|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21874|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21875|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21876|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21877|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21878|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21879|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21880|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21881|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21882|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21883|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21884|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21885|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21886|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21887|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21888|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21889|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21890|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21891|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21892|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|Jack Schmitt|
+|21893|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|Jack Schmitt|
+|21894|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, SPL 0315, 0320|Jack Schmitt|
+|21895|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21896|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21897|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21898|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21899|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21900|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21901|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21902|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21903|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21904|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21905|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21906|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21907|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21908|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21909|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21910|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21911|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21912|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21913|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21914|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21915|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21916|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21917|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21918|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21919|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21920|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21921|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM|Jack Schmitt|
+|21922|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, LM|Jack Schmitt|
+|21923|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, LM|Jack Schmitt|
+|21924|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SEIS CHRG 2|Jack Schmitt|
+|21925|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SPL 0215|Jack Schmitt|
+|21926|143|N|3401|||||||60|38|EVA 3|LRV TRAVERSE, STA 9 TO STA LM, SPL 0215|Jack Schmitt|
+|21927|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|Jack Schmitt|
+|21928|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|Jack Schmitt|
+|21929|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|Jack Schmitt|
+|21930|143|N|3401|||||||60|38|EVA 3|STA LM, SPL 0011|Jack Schmitt|
+|21931|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|Jack Schmitt|
+|21932|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|Jack Schmitt|
+|21933|143|N|3401|||||||60|38|EVA 3|LRV in final parking location|Jack Schmitt|
+|21934|143|N|3401|||||||60|38|EVA 3|FINAL LRV STA, LRV, LM|Jack Schmitt|
+|21935|143|N|3401|||||||60|39|EVA 3|STA SEP, SEIS CHRG 3, LM|Jack Schmitt|
+|21936|143|N|3401|||||||60|39|EVA 3|Station SEP / seismic charge 3 / LM|Jack Schmitt|
+|21937|143|N|3401|||||||60|39|EVA 3|STA SEP, SEIS CHRG 3, LM|Jack Schmitt|
+|21938|143|N|3401|||||||60|39|EVA 3|Jack Schmitt's hammer is seen in flight in this photo taken near the end of EVA 3|Jack Schmitt|
+|21939|143|N|3401|||||||60|39|EVA 3|Station LM pan frame - Hammer in flight|Jack Schmitt|
+|21940|143|N|3401|||||||60|39|EVA 3|Station LM pan frame - Hammer has just landed and has kicked up a spray of dust|Jack Schmitt|
+|21941|143|N|3401|||||||60|39|EVA 3|Schmitt stands beside the flag in what is likely the last photograph of an Apollo astronaut on the Moon|Jack Schmitt|
+|21942|||||||||||||DARK|Jack Schmitt|
+|21943|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21944|143|N|3401|||||||60|40|POST EVA 3|view from LM window of ALSEP, Geophone Rock, and the geology hammer|Jack Schmitt|
+|21945|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21946|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21947|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21948|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|Jack Schmitt|
+|21949|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|Jack Schmitt|
+|21950|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN, FLAG|Jack Schmitt|
+|21951|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21952|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21953|143|N|3401|||||||60|40|POST EVA 3|STA LM, LM WINDOW PAN|Jack Schmitt|
+|21954|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21955|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21956|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21957|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21958|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21959|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21960|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21961|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21962|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21963|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21964|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21965|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21966|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21967|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21968|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21969|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21970|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS|view from LM window / discarded PLSS backpack|Jack Schmitt|
+|21971|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21972|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN, PLSS||Jack Schmitt|
+|21973|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21974|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21975|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21976|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21977|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21978|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21979|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21980|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21981|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
+|21982|143|N|3401|||||||60|40|POST EVA 3 STA LM, LM WINDOW PAN||Jack Schmitt|
 |21983|144|R|3401|||||||500|16|EVA 1|STA LM, S MASSIF|JSC scan|
 |21984|144|R|3401|||||||500|16|EVA 1|STA LM, S MASSIF|JSC scan|
 |21985|144|R|3401|||||||500|16|EVA 1|STA LM, S MASSIF|JSC scan|
@@ -3986,6 +3986,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |27516||||||||||60||POST EVA 3|LM INTERIOR, CERNAN|JSC scan|
 |27790|149|KK|SO-368|1|18.2 N|53.3 E|22|245|224|80|24||PEIRCE, YERKES|JSC scan|
 |29345||||||||||60|28|EVA 2|STA 5, PAN|JSC scan|
+000:00:13|7161301334_78b1a3d152_o_square|||||||||||||Liftoff||7-Dec-72
 |72-H-1190|||||||||||||Apollo 17 Commander Gene Cernan waves at NASA tourists from a lunar rover training vehicle||
 |72-H-1220|||||||||||||The Apollo 17 crew witnesses the rollout of the Apollo 17 Saturn V launch vehicle||28-Aug-72
 |72-H-1221|||||||||||||The Apollo 17 space vehicle is shown at launch complex 39-A||6-Nov-72
@@ -4007,7 +4008,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |72-H-1412|||||||||||||Apollo 17 Lunar Module Pilot Harrison Schmitt deploys a geophone of the Lunar Seismic Profiling Experiment into the subsurface during a training exercise|J.L. Pickering|2-Nov-72
 |72-H-1413|||||||||||||Lunar Module for the Apollo 17 mission undergoes final checkout in the Manned Spacecraft Operations Building prior to mating to the Saturn V launch vehicle.|Ed Hengeveld|2-Nov-72
 |72-H-1420|||||||||||||The Apollo 17 Lunar Module undergoes testing prior to being enclosed in the adapter that will house it during the first four hours of flight to the Moon||7-Nov-72
--02:40:00|72-H-1454|||||||||||||Saturn V on the pad||9-Dec-72
+-02:40:00|72-H-1454|||||||||||||Saturn V on the pad||7-Dec-72
 |72-H-1460|||||||||||||Apollo 17 astronauts are seen suited up prior to final portion of week-long Countdown Demonstration Test|J.L. Pickering|30-Nov-72
 |72-H-1462|||||||||||||Cernan being suited in preparation for CDDT|J.L. Pickering|30-Nov-72
 |72-H-1464|||||||||||||Evans suits up in preparation for CDDT|J.L. Pickering|30-Nov-72
@@ -4022,7 +4023,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |72-H-1508|||||||||||||Apollo 17 crewmembers examine a commemorative display at the base of their Saturn V|Ed Hengeveld|4-Dec-72
 |72-H-1509|||||||||||||Apollo 17 crewmembers at the base of the Saturn V|Ed Hengeveld|4-Dec-72
 |72-H-1512|||||||||||||Eugene Cernan and Harrison Schmitt familiarize themselves with equipment used in the Lunar Module.|Ed Hengeveld|1-Dec-72
--00:00:05|72-H-1515|||||||||||||Apollo 17 Launch||9-Dec-72
+-00:00:05|72-H-1515|||||||||||||Apollo 17 Launch||7-Dec-72
 |72-H-1516|||||||||||||Cernan waves to well-wishers as he and other Apollo 17 crewmembers leave the suiting area for brief ride to launch pad|J.L. Pickering|6-Dec-72
 |72-H-1517|||||||||||||Gene Cernan says goodbye to his family during the Apollo 17 walkout. KSC Security Chief Charlie Buckey is on the right|J.L. Pickering|6-Dec-72
 304:31:55|72-H-1550|||||||||||||Apollo 17 descends toward splashdown||
@@ -4136,6 +4137,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |KSC-72P-453|||||||||||||None|J.L. Pickering|15-Aug-72
 |KSC-72P-454|||||||||||||The Apollo 17 spacecraft (right) crosses paths with the S-IB booster intended for the first manned Skylab mission|J.L. Pickering|23-Aug-72
 |KSC-72P-466|||||||||||||Two M-113 personnel carriers used by Boeing emergency egress crew are parked at the base of the mobile launcher during simulation of an emergency at the launch pad|J.L. Pickering|16-Oct-72
+-00:40:00|KSC-72P-468|||||||||||||Prelaunch||7-Dec-72
 |KSC-72P-468|||||||||||||Banks of xenon searchlights surrounding Complex 39's Pad A light the Apollo 17 space vehicle and mobile launcher during emergency egress training|J.L. Pickering|16-Oct-72
 |KSC-72P-508|||||||||||||Astronaut Harrison H. Schmitt suits up in the astronaut quarters in preparation for the Countdown Demonstraction Test|J.L. Pickering|21-Nov-72
 |KSC-72P-511|||||||||||||Apollo 17 Commander Eugene Cernan suits up in preparation for Countdown Demonstration Test (CDDT)|J.L. Pickering|21-Nov-72
@@ -4171,7 +4173,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |KSC-72PC-508|||||||||||||Apollo 17 CM being moved to the VAB for stacking. Note Ron Evans behind the wheel of the transport truck.|J.L. Pickering|
 |KSC-72PC-539|||||||||||||"""Lunar Module Pilot Harrison """"Jack"""" Schmitt in the LM simulator"""|research: J.L. Pickering|27-Oct-72
 |KSC-72PC-540|||||||||||||Cernan and Schmitt in the LM simulator|research: J.L. Pickering|27-Oct-72
-|KSC-72PC-589|||||||||||||A dramatic photo of the Apollo 17 Saturn V on pad 39-A at dusk|J.L. Pickering|22-Nov-72
+-001:00:00|KSC-72PC-589|||||||||||||A dramatic photo of the Apollo 17 Saturn V on pad 39-A at dusk|J.L. Pickering|22-Nov-72
 |KSC-72PC-605|||||||||||||Eugene Cernan affixes the Apollo 17 insignia to a T-38 jet aircraft at Patrick Air Force Base just south of the Kennedy Space Center.|Ed Hengeveld|2-Dec-72
 |KSC-72PC-612|||||||||||||The Apollo 17 crew at the traditional pre-launch breakfast||6-Dec-72
 |KSC-72PC-616|||||||||||||Ron Evans says goodbye to his wife as he and his crewmates leave the MSOB on their way to pad 39-A||6-Dec-72
@@ -4181,6 +4183,11 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |KSC-73P-62|||||||||||||Harrison Schmitt presents a replica of the plaque left on the Moon to the Kennedy Space Center team|J.L. Pickering|20-Feb-73
 |KSC-73PC-68|||||||||||||Gene Cernan signing autographs at VAB reception|J.L. Pickering|20-Feb-73
 |KSC-73PC-70|||||||||||||Gene Cernan hugs Guenter Wendt at a VAB reception|J.L. Pickering|20-Feb-73
+000:00:06|launch_14963763190_bf5c970e23_o|||||||||||||Liftoff||7-Dec-72
+000:00:01|liftoff1-noID|||||||||||||Liftoff||7-Dec-72
+000:00:03|liftoff2-noID|||||||||||||Liftoff||7-Dec-72
+000:00:10|liftoff-b-noID|||||||||||||Liftoff||7-Dec-72
+-00:00:55|prelaunch_21251698486_a6c893d505_o|||||||||||||Prelaunch||7-Dec-72
 |S71-51273|||||||||||||portrait of Apollo 17 Command Module Pilot Ron Evans||1-Dec-71
 |S71-51308|||||||||||||portrait of Apollo 17 Commander Gene Cernan||1-Dec-71
 |S71-52260|||||||||||||"""portrait of Apollo 17 Lunar Module Pilot Harrison """"Jack"""" Schmitt"""||1-Dec-71
@@ -4214,7 +4221,7 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |S72-53951|||||||||||||Surface Electrical Properties (SEP) receiver, which was mounted on the back of the Rover behind the LMP|research: Eric Jones|
 |S72-53952|||||||||||||Inner workings of the Traverse Gravimeter Experiment (TGE|research: Eric Jones|
 |S72-53953|||||||||||||TGE in its distinctive, blue container|research: Eric Jones|
--00:47:01|S72-54881|||||||||||||Gene Kranz briefing Neil Hutchinson and Gerald Griffin at Mission Contol during Apollo 17 launch delay||6-Dec-72
+-00:47:01|S72-54881|||||||||||||Gene Kranz briefing Neil Hutchinson and Gerald Griffin at Mission Contol during Apollo 17 launch delay||7-Dec-72
 |S72-54999|||||||||||||Seismologist Maurice Ewing examining data from the Passive Seismic Experiment (PSE)|research: Eric Jones|
 |S72-55170|||||||||||||(Left to Right) John Young, Charlie Duke, Deke Slayton, Rocco Petrone and Ron Blevins with the prototype replacement fender. Young performed suited simulations to ensure that the crew could install the fender on their Rover.|research: Eric Jones|
 000:00:08|S72-55482|||||||||||||Apollo 17 lifts off in the first night launch of a Saturn V||7-Dec-72
@@ -4245,7 +4252,3 @@ skip|21833|142|M|3401||||||||||BLANK|Jack Schmitt|
 |S73-38346|||||||||||||Gene Cernan and Jack Schmitt present flight controllers in Mission Control with U.S. flag carried to the Moon during mission||11-Dec-72
 |S77-28884|||||||||||||"""Apollo 17 Command Module """"America"""" on display"""|J.L. Pickering|1977
 |S86-30759|||||||||||||Apollo 17 Command Module on display at JSC|J.L. Pickering|1986
-000:00:01|liftoff2-noID|||||||||||||Liftoff||9-Dec-72
--00:01:00|prelaunch_21251698486_a6c893d505_o|||||||||||||Prelaunch||9-Dec-72
-000:00:03|launch_14963763190_bf5c970e23_o|||||||||||||Liftoff||9-Dec-72
-000:00:13|7161301334_78b1a3d152_o|||||||||||||Liftoff||9-Dec-72
