@@ -56,7 +56,7 @@
 <body>
     <div class="outer-north">
         <div class="title">Apollo 17 in Real-Time
-            <div class="titleTextRight">v1.0 Beta 1 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+            <div class="titleTextRight">v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
         </div>
         <div class="headerBlock">
             <div class="headerLeft">
@@ -66,19 +66,19 @@
                 <div id="historicalDate" class="historicalDate">Thu Dec 07 1972</div>
                 <div id="historicalTime" class="historicalTime">12:32:00 AM</div>
 
-                <div id="missionTime">Mission Elapsed Time:
-                    <span id="timer">000:00:00</span>
-                </div>
+                <!--<div id="missionTime">Mission Elapsed Time:-->
+                    <!--<span id="timer">000:00:00</span>-->
+                <!--</div>-->
                 <!-- <div class="historicalTime"><strong>Historical Time Difference:</strong>
                     <div id="historicalTimeDiff"></div>
                 </div> -->
                 <div class="historicalTime">
                     <form>
-                        <input class="btn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Real-time">
+                        <input class="btn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Historical-time">
                     </form>
                 </div>
             </div>
-            <div class="headerRight">
+            <div class="headerRight" id="navigator">
                 <canvas id="myCanvas" resize></canvas>
             </div>
         </div>
@@ -95,7 +95,10 @@
                 <li><A id="instructionsTab" href="#tabs-left-4"><SPAN>Instructions</SPAN></A></li>
             </ul>
             <div id="tabs-left-1">
-                <iframe src="utterancePage.html" class="iFrameClass" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>
+                <div id="utteranceDiv">
+                    <table class="utteranceTable" id="utteranceTable"></table>
+                </div>
+                <!--<iframe src="utterancePage.html" class="iFrameClass" name="iFrameTranscript" id="iFrameTranscript" scrolling="yes" height="100%" width="100%"></iframe>-->
             </div>
             <div id="tabs-left-2">
                 <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>

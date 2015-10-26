@@ -4,15 +4,16 @@
 </head>
 <body>
     <div class="imageBlock">
-        <div class="imageLeft" onclick="window.open('http://apollo17.org/mission_images/img/@filename', '_blank');" style="
-            background-image: url('http://apollo17.org/mission_images/img/@filename');
-            ">
+        <div class="imageLeft">
+            <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
+                <img src="http://apollo17.org/mission_images/img/@filename">
+            </a>
         </div>
         <div class="imageRight">
             <table class="photoTable">
                 <tr>
                     <td style="text-align: right;">
-                        Time Taken<BR>(Approx. GET)
+                        Time Taken
                     </td>
                     <td>
                         @timestamp
