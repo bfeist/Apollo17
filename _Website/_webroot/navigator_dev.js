@@ -7,12 +7,14 @@ var gUtteranceData = [];
 var gUtteranceDataLookup = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
+var gMissionStages = [];
 var gLastTimeIdChecked;
 
 var gCurrMissionTime = "141:27:05";
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
+    ajaxGetMissionStagesData(),
     ajaxGetUtteranceData()).done(function(){
         // the code here will be executed when all ajax requests resolve
         initNavigator();
@@ -61,6 +63,16 @@ function ajaxGetUtteranceData() {
         success: function(data) {processUtteranceData(data);}
     });
 }
+function ajaxGetMissionStagesData() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
+        type: "GET",
+        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
+        dataType: "text",
+        success: function(data) {processMissionStagesData(data);}
+    });
+}
 function processTOCAllData(allText) {
     console.log("processTOCIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -94,6 +106,20 @@ function processUtteranceData(allText) {
             gUtteranceIndex[i] = data[0].split(":").join("");
         }
     }
+}
+function processMissionStagesData(allText) {
+    console.log("processMissionStagesData");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gMissionStages.push(data);
+        }
+        if (i > 0) {
+            gMissionStages[i - 1][3] = data[0]; //append this items start time as the last item's end time
+        }
+    }
+    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
 
 
@@ -181,7 +207,7 @@ function displayUtteranceRegion(seconds) {
     var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
     var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
     utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
-        console.log('Finished animating: ' + scrollDestination);
+        //console.log('Finished animating: ' + scrollDestination);
     });
     //repopulateUtteranceTable(utteranceIndex);
 }
