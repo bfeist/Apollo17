@@ -584,7 +584,7 @@ function displayUtteranceRegion(seconds) {
     var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
     var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
     utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
-        console.log('Finished animating: ' + scrollDestination);
+        //console.log('Finished animating: ' + scrollDestination);
     });
     //repopulateUtteranceTable(utteranceIndex);
 }

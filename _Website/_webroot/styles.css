@@ -142,10 +142,9 @@ tr.commentary > td {
     background-color: #000000;
 }
 
-.titleTextRight {
+.titleSubtitle {
     font-size: 85%;
-    text-align: right;
-    float: right;
+    text-align: left;
 }
 .titleTextRight a{
     color: #999999;
@@ -157,7 +156,7 @@ tr.commentary > td {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    height: 110px;
+    height: 130px;
 }
 
 .headerLeft {
@@ -181,7 +180,7 @@ tr.commentary > td {
 
 canvas[resize] {
     width: 100%;
-    height: 110px;
+    height: 130px;
 }
 
 .imageBlock {
