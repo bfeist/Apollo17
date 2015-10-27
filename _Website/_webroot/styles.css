@@ -98,6 +98,14 @@ tr.commentary > td {
     padding: 2px;
 }
 
+/* ----------------- instructions -----------------*/
+#instructionsDiv {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+
+
 .spokenwords{font-weight:normal;}
 .afjdef		{color: black;}
 .afjget		{font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}

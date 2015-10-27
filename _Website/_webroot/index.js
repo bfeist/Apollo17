@@ -149,10 +149,6 @@ function onPlayerStateChange(event) {
         player.iv_load_policy = 3;
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
         player.loadVideoById(currVideoID, 0);
-
-            //window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-            //console.log("INTERVAL: Next video started. New interval started: " + gIntervalID);
-            //gIntervalID = setAutoScrollPoller();
     }
 }
 
@@ -305,17 +301,6 @@ function scrollToTimeID(timeId) {
             $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
         }
         displayUtteranceRegion(timeId);
-
-        //var transcriptFrame = $('#iFrameTranscript').contents();
-        //var timeIdMarker = transcriptFrame.find('#' + timeId);
-        ////reset background color of last line
-        //if (gLastTimeIdMarker != '') {
-        //    gLastTimeIdMarker.css("background-color",background_color);
-        //}
-        //var scrollDestination = timeIdMarker.offset().top - 100;
-        //timeIdMarker.css("background-color",background_color_active);
-        //gLastTimeIdMarker = timeIdMarker;
-        //transcriptFrame.find('body').animate({ scrollTop: scrollDestination }, 500);
     }
 }
 
