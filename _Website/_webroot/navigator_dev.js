@@ -20,6 +20,7 @@ $.when(ajaxGetTOCAll(),
         initNavigator();
         incrementFakeMissionTime();
         setAutoScrollPoller();
+        repopulateUtteranceTable();
     });
 
 function incrementFakeMissionTime() {
@@ -199,40 +200,57 @@ function displayUtteranceRegion(seconds) {
     //var timecode = secondsToTimeStr(seconds).split(":").join("");
     var utteranceIndex = gUtteranceDataLookup[timecode];
 
-    var utteranceDiv = $('#utteranceDiv');
-    var utteranceTable = $('#utteranceTable');
-
-    repopulateUtteranceTable(utteranceIndex);
-
-    var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
-    var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
-        //console.log('Finished animating: ' + scrollDestination);
-    });
+    //var utteranceDiv = $('#utteranceDiv');
+    //var utteranceTable = $('#utteranceTable');
+    //
+    //var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
+    //var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
+    //utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+    //    console.log('Finished animating: ' + scrollDestination);
+    //});
     //repopulateUtteranceTable(utteranceIndex);
 }
 
-function repopulateUtteranceTable(utteranceIndex) {
+function repopulateUtteranceTable() {
     var utteranceTable = $('#utteranceTable');
-    utteranceTable.html('');
-    $('#utteranceDiv').scrollTop(0);
-    for (var i = -1; i <= 50; i++) {
+    //utteranceTable.html('');
+    var listView = new infinity.ListView(utteranceTable, {  //Inititalize infinity
+        lazy: function() {                      //With the lazy load callback
+            //$(this).find('.pic').each(function() {
+            //    var $ref = $(this);
+            //    $ref.attr('src', $ref.attr('data-original')); //Set the img source from a string hard coded into the data-original attribute.
+            //});
+            console.log("lazy load attempt");
+        }
+    });
+    //utteranceTable.data('listView', listView); //Use jQeary Data to set our list to the element as a conveniance.
+
+    //$('#utteranceDiv').scrollTop(0);
+    for (var i = 0; i <= 1000; i++) {
         if (i == 0) {
             var style = "background-color: #222222";
         } else {
             style = "";
         }
-        utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
+        var html = getUtteranceObjectHTML(i, style);
+        listView.append(html);
     }
+    var listItems = listView.find('.utterance');
+    console.log("listitems: " + listItems.length);
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
     var utteranceObject = gUtteranceData[utteranceIndex];
-    var html = '<tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">' +
-        '<td class="afjget afjpao">@timestamp</td>' +
-        '<td class="afjwho afjpao">@who</td>' +
-        '<td class="spokenwords afjpao">@words</td>' +
-        '</tr>';
+    //var html = '<tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">' +
+    //    '<td class="afjget afjpao">@timestamp</td>' +
+    //    '<td class="afjwho afjpao">@who</td>' +
+    //    '<td class="spokenwords afjpao">@words</td>' +
+    //    '</tr>';
+    var html = '<div class="utterance" style="display: flex; @style" onclick="seekToTime(this.id)" id="@timeid">' +
+            '<div class="afjget afjpao" style="width: auto;">@timestamp</div>' +
+            '<div class="afjwho afjpao" style="width: auto;">@who</div>' +
+            '<div class="spokenwords afjpao" style="flex: 1;">@words</div>' +
+            '</div>';
     html = html.replace("@style", style);
     var timeid = "timeid" + utteranceObject[0].split(":").join("");
     html = html.replace("@timeid", timeid);
