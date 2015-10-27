@@ -16,6 +16,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
+var gMissionStages = [];
 var gCurrentPhotoTimestamp = "initial";
 var gCurrVideoStartSeconds = -9442;
 var gCurrVideoEndSeconds = 0;
@@ -630,7 +631,8 @@ $.when(ajaxGetMediaIndex(),
     ajaxGetTOCAll(),
     ajaxGetCommentaryIndex(),
     ajaxGetUtteranceData(),
-    ajaxGetPhotoIndex()).done(function(){
+    ajaxGetPhotoIndex(),
+    ajaxGetMissionStagesData()).done(function(){
     // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
         gApplicationReady += 1;
 });
@@ -703,6 +705,16 @@ function ajaxGetPhotoIndex() {
         success: function(data) {processPhotoIndexData(data);}
     });
 }
+function ajaxGetMissionStagesData() {
+    // NOTE:  This function must return the value
+    //        from calling the $.ajax() method.
+    return $.ajax({
+        type: "GET",
+        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
+        dataType: "text",
+        success: function(data) {processMissionStagesData(data);}
+    });
+}
 function processMediaIndexData(allText) {
     console.log("processMediaIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -754,6 +766,20 @@ function processPhotoIndexData(allText) {
             gPhotoIndex[i] = data[0];
         }
     }
+}
+function processMissionStagesData(allText) {
+    console.log("processMissionStagesData");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gMissionStages.push(data);
+        }
+        if (i > 0) {
+            gMissionStages[i - 1][3] = data[0]; //append this items start time as the last item's end time
+        }
+    }
+    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
 
 $('iFrameTranscript').load(function() {
