@@ -25,6 +25,14 @@ p img {
     margin: 0;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 /* ----------------- TOC -----------------*/
 
 .TOC_container {
@@ -244,13 +252,14 @@ canvas[resize] {
     font-size:12px;
     font-family: Arial;
     font-weight:normal;
+    color: grey;
 }
 .photoTable td {
     padding:5px;
-    border: solid #c0c0c0;
+    border: solid;
+    color: grey;
     border-width: 1px 1px 1px 1px;
     vertical-align:middle;
-    color: #999999;
 }
 
 

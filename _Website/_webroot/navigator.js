@@ -320,7 +320,7 @@ function drawTier1() {
         var stageText = new paper.PointText({
             justification: 'left',
             fontSize: 8,
-            fillColor: "grey"
+            fillColor: "lightgrey"
         });
         var textTop = gTier1Top + (gTier1Height / 2) - 3;
         stageText.point = new paper.Point(rectStartX + 2 , textTop);
@@ -481,7 +481,7 @@ function drawTier2() {
                 justification: 'left',
                 fontWeight: 'bold',
                 fontSize: 11,
-                fillColor: "grey"
+                fillColor: "lightgrey"
             });
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
             stageText.point = new paper.Point(rectStartX + 2 , textTop);
@@ -687,7 +687,7 @@ function drawTier3() {
                 justification: 'left',
                 fontWeight: 'bold',
                 fontSize: 14,
-                fillColor: "grey"
+                fillColor: "lightgrey"
             });
             var textTop = gTier3Top + (gTier3Height / 3) - 3;
             stageText.point = new paper.Point(rectStartX + 2 , textTop);

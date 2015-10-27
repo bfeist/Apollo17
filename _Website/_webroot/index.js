@@ -381,8 +381,7 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
-    html = html.replace("@filename", photoObject[1]);
-    html = html.replace("@filename", photoObject[1]);
+    html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp", photoObject[2]);
     html = html.replace("@photo_num", photoObject[3]);
     html = html.replace("@mag_code", photoObject[4]);
@@ -584,8 +583,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
         '</tr>';
     html = html.replace("@style", style);
     var timeid = "timeid" + utteranceObject[0].split(":").join("");
-    html = html.replace("@timeid", timeid);
-    html = html.replace("@timeid", timeid);
+    html = html.replace(/@timeid/g, timeid);
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
@@ -784,7 +782,7 @@ function setApplicationReadyPoller() {
 
 $(document).ready(function() {
     console.log("Loading overlay on");
-    
+
     if (typeof $.getUrlVar('t') != "undefined") {
         gMissionTimeParamSent = 1;
     } else {
