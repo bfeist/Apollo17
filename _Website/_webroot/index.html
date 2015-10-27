@@ -140,4 +140,59 @@
         <div id="photodiv"></div>
     </div>
 </body>
+
+<script type="text/html" id="photoTemplate">
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+    <div class="imageBlock">
+        <div class="imageLeft">
+            <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
+                <img src="http://apollo17.org/mission_images/img/@filename">
+            </a>
+        </div>
+        <div class="imageRight">
+            <table class="photoTable">
+                <tr>
+                    <td style="text-align: right;">
+                        Time Taken
+                    </td>
+                    <td>
+                        @timestamp
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        Magazine
+                    </td>
+                    <td>
+                        @mag_number / @mag_code
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        Photo Number
+                    </td>
+                    <td style="word-break: break-all;">
+                        @photo_num
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        Photographer
+                    </td>
+                    <td>
+                        @photographer
+                    </td>
+                </tr>
+            </table>
+            <div class="photodivcaption">@description</div>
+        </div>
+    </div>
+    </body>
+    </html>
+</script>
+
 </html>

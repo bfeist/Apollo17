@@ -16,6 +16,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
+var gPhotoLookup = [];
 var gMissionStages = [];
 var gCurrentPhotoTimestamp = "initial";
 var gCurrVideoStartSeconds = -9442;
@@ -367,56 +368,46 @@ function scrollCommentaryToTimeID(timeId) {
     }
 }
 
-function loadPhotoPage(filename) {
-    document.getElementById("photodiv").innerHTML='<object type="text/html" data="' + filename + '" width="100%" height="100%" ></object>';
-}
-
 function showCurrentPhoto(timeId) {
-    var timeStr = parseInt(timeId.substr(6,7));
+    var timeStr = parseInt(timeId.substr(6));
     //var closestTime = closest(timeStr, gPhotoIndex);
 
-    var CurrentClosestTime = parseInt(gPhotoIndex[0]);
-    var diff = Math.abs(timeStr - CurrentClosestTime);
+    //find closest photo and display it if it has changed
+    var currentClosestTime = parseInt(gPhotoIndex[0]);
+    var diff = Math.abs(timeStr - currentClosestTime);
     for (var i = 0; i < gPhotoIndex.length; i++) {
         if (gPhotoIndex[i] > timeStr) {
+            var photoIndexNum = i - 1;
             break;
         }
         var newdiff = Math.abs(timeStr - parseInt(gPhotoIndex[i]));
         if (newdiff < diff) {
             diff = newdiff;
-            CurrentClosestTime = gPhotoIndex[i];
+            currentClosestTime = gPhotoIndex[i];
         }
     }
-    if (CurrentClosestTime != gCurrentPhotoTimestamp) {
-        for (var i = 0; i < gPhotoList.length; i++) {
-            if (gPhotoList[i][0] == CurrentClosestTime) {
-                var photoFilename = gPhotoList[i][1];
-                break;
-            }
-        }
-        if (gCurrentPhotoTimestamp != "initial") { //if not the first photo replacement, activate the photos tab.
-            $( "#tabs-right" ).tabs( "option", "active", 1 );
-        }
-        gCurrentPhotoTimestamp = CurrentClosestTime;
-        console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
-
-        var photoPage = "./mission_images/meta/" + photoFilename + ".html?nocache=" + Math.random();
-
-        loadPhotoPage(photoPage);
-
-        //$("#photoDiv").load(imagePage);
-
-        //var imageURL = "./mission_images/img/" + photoFilename;
-        //var anchor = document.createElement("a");
-        //anchor.href = imageURL;
-        //anchor.setAttribute('target', '_blank');
-        //var img = document.createElement("IMG");
-        //img.src = imageURL;
-        //anchor.appendChild(img);
-        //
-        //var photodiv = document.getElementById('photodiv');
-        //photodiv.replaceChild(anchor, photodiv.childNodes[1]);
+    if (currentClosestTime != gCurrentPhotoTimestamp) {
+        gCurrentPhotoTimestamp = currentClosestTime;
+        loadPhotoHtml(photoIndexNum);
     }
+}
+
+function loadPhotoHtml(photoIndex) {
+    var photoObject = gPhotoList[photoIndex];
+    var html = $('#photoTemplate').html();
+
+    html = html.replace("@filename", photoObject[1]);
+    html = html.replace("@filename", photoObject[1]);
+    html = html.replace("@timestamp", photoObject[2]);
+    html = html.replace("@photo_num", photoObject[3]);
+    html = html.replace("@mag_code", photoObject[4]);
+    html = html.replace("@mag_number", photoObject[5]);
+    html = html.replace("@photographer", photoObject[6]);
+    html = html.replace("@description", photoObject[7]);
+
+    var photoDiv = $("#photodiv");
+    photoDiv.html('');
+    photoDiv.append(html);
 }
 
 //--------------- transcript click handling --------------------
@@ -758,6 +749,7 @@ function processPhotoIndexData(allText) {
         if (allTextLines[i] != "") {
             var data = allTextLines[i].split('|');
             gPhotoList.push(data);
+            gPhotoLookup[data[0].split(":").join("")] = i;
             gPhotoIndex[i] = data[0];
         }
     }
