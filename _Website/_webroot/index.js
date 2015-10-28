@@ -392,6 +392,8 @@ function loadPhotoHtml(photoIndex) {
     var photoDiv = $("#photodiv");
     photoDiv.html('');
     photoDiv.append(html);
+    var imageOverlay = $('.imageOverlay');
+    imageOverlay.css({"bottom":imageOverlay.height() * - 1});
 }
 
 //--------------- transcript click handling --------------------
@@ -576,11 +578,7 @@ function repopulateUtteranceTable(utteranceIndex) {
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
     var utteranceObject = gUtteranceData[utteranceIndex];
-    var html = '<tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">' +
-        '<td class="afjget afjpao">@timestamp</td>' +
-        '<td class="afjwho afjpao">@who</td>' +
-        '<td class="spokenwords afjpao">@words</td>' +
-        '</tr>';
+    var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
     var timeid = "timeid" + utteranceObject[0].split(":").join("");
     html = html.replace(/@timeid/g, timeid);

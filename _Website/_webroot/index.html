@@ -30,7 +30,7 @@
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
     <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css?nocache=982734" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,12 +44,12 @@
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/jquery.isloading.js"></script>
-    <script type="text/javascript" src="lib/jquery_plugins.js?nocache=987234"></script>
+    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
     <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <script type="text/javascript" src='http://www.youtube.com/iframe_api'></script>
-    <script type="text/javascript" src="index.js?nocache=9289845686"></script>
+    <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 
 </head>
@@ -146,52 +146,54 @@
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
-    <div class="imageBlock">
-        <div class="imageLeft">
-            <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
-                <img src="http://apollo17.org/mission_images/img/@filename">
-            </a>
+        <div class="imageBlock">
+            <div class="imageContainer">
+                <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
+                    <img src="http://apollo17.org/mission_images/img/@filename">
+                </a>
+                <span class="imageOverlay">
+                    <div class="photodivcaption">@description</div>
+                    <table class="photoTable">
+                        <tr>
+                            <td style="text-align: right;">
+                                Time Taken
+                            </td>
+                            <td>
+                                @timestamp
+                            </td>
+                            <td style="text-align: right;">
+                                Magazine
+                            </td>
+                            <td>
+                                @mag_number / @mag_code
+                            </td>
+                            <td style="text-align: right;">
+                                Photo Number
+                            </td>
+                            <td style="word-break: break-all;">
+                                @photo_num
+                            </td>
+                            <td style="text-align: right;">
+                                Photographer
+                            </td>
+                            <td>
+                                @photographer
+                            </td>
+                        </tr>
+                    </table>
+                </span>
+            </div>
         </div>
-        <div class="imageRight">
-            <table class="photoTable">
-                <tr>
-                    <td style="text-align: right;">
-                        Time Taken
-                    </td>
-                    <td>
-                        @timestamp
-                    </td>
-                </tr>
-                <tr>
-                    <td style="text-align: right;">
-                        Magazine
-                    </td>
-                    <td>
-                        @mag_number / @mag_code
-                    </td>
-                </tr>
-                <tr>
-                    <td style="text-align: right;">
-                        Photo Number
-                    </td>
-                    <td style="word-break: break-all;">
-                        @photo_num
-                    </td>
-                </tr>
-                <tr>
-                    <td style="text-align: right;">
-                        Photographer
-                    </td>
-                    <td>
-                        @photographer
-                    </td>
-                </tr>
-            </table>
-            <div class="photodivcaption">@description</div>
-        </div>
-    </div>
     </body>
     </html>
+</script>
+
+<script type="text/html" id="utteranceTemplate">
+    <tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">
+    <td class="afjget afjpao">@timestamp</td>
+    <td class="afjwho afjpao">@who</td>
+    <td class="spokenwords afjpao">@words</td>
+    </tr>
 </script>
 
 </html>

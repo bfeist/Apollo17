@@ -116,7 +116,7 @@ function initNavigator() {
         var mouseXSeconds;
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if tier1 clicked
             console.log("Tier1 clicked");
-            mouseXSeconds = event.point.x * gTier1SecondsPerPixel;
+            mouseXSeconds = (event.point.x - gTier1Left) * gTier1SecondsPerPixel;
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if tier2 clicked
             console.log("Tier2 clicked");
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
