@@ -392,8 +392,13 @@ function loadPhotoHtml(photoIndex) {
     var photoDiv = $("#photodiv");
     photoDiv.html('');
     photoDiv.append(html);
-    var imageOverlay = $('.imageOverlay');
-    imageOverlay.css({"bottom":imageOverlay.height() * - 1});
+    //var imageOverlay = $('#imageOverlay');
+    //var newHeightVal = imageOverlay.height() * -1;
+    //console.log("BEFORE CLEAR: " + imageOverlay.css('bottom'));
+    //imageOverlay.css('bottom', '');
+    //console.log("AFTER CLEAR: " + imageOverlay.css('bottom'));
+    //imageOverlay.css('bottom', newHeightVal);
+    //console.log("AFTER ASSIGNMENT: " + imageOverlay.css('bottom'));
 }
 
 //--------------- transcript click handling --------------------

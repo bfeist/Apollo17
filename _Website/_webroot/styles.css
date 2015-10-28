@@ -225,18 +225,17 @@ canvas[resize] {
     height: auto;
 }
 
-.imageContainer:hover .imageOverlay {
-    bottom: 0;
+.imageContainer:hover #imageOverlay {
+    bottom: 0px;
 }
 
-.imageOverlay {
+#imageOverlay {
     position: absolute;
+    bottom: -500px;
     left: 0;
     width: 100%;
-    bottom: -100px;
     background-color: #222222;
-    -webkit-transition: bottom 1s; /* Safari */
-    transition: bottom 1s;
+    opacity: 0.7;
 }
 
 #photodiv {
@@ -257,7 +256,7 @@ canvas[resize] {
     color: #999999;
 }
 .photoTable {
-    width: 180px;
+    width: 100%px;
     align: center;
     margin:0px;
     padding:0px;
