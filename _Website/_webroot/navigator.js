@@ -775,8 +775,8 @@ function drawTier3() {
             //var barHeight = gTier3Height / parseInt(gTOCAll[i][1]);
             var barHeight = gTier3Height / 4;
             var itemTop = tierBottom - textPosition * (gTier3Height / 4) + 10;
-            var topPoint = new paper.Point(itemLocX - 2, itemTop - barHeight);
-            var bottomPoint = new paper.Point(itemLocX - 2, itemTop);
+            var topPoint = new paper.Point(itemLocX, itemTop - barHeight);
+            var bottomPoint = new paper.Point(itemLocX, itemTop);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = gTOCStrokeColor;
             gTier3Group.addChild(aLine);
