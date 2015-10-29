@@ -620,9 +620,9 @@ function initializePlayback() {
     if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
         //player.src(gMediaSrcURL + "_- - 000.mp4");
+        initNavigator();
         gCurrMissionTime = "-00:01:00";
         seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
-        player.playVideo();
         //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
     }
     clearInterval(gApplicationReadyIntervalID);
@@ -770,9 +770,7 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
-            $.isLoading( "hide" );
-            initializePlayback();
-            initNavigator();
+            $('#basic-modal-content').isLoading( "hide" );
         }
     }, 1000);
 }
@@ -789,9 +787,17 @@ function toggleFullscreen() {
 
 }
 
+jQuery(function ($) {
+    $('#basic-modal-content').modal({opacity: 90});
+    $("#historicalBtn").button();
+    $("#fullScreenBtn").button();
+    $("#launchBtn").button();
+    $('#basic-modal-content').isLoading({ text: "Loading", position: "overlay" });
+    console.log("Loading overlay on");
+});
+
 
 $(document).ready(function() {
-    console.log("Loading overlay on");
 
     if (typeof $.getUrlVar('t') != "undefined") {
         gMissionTimeParamSent = 1;
@@ -802,8 +808,6 @@ $(document).ready(function() {
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     $(".mid-center").tabs();
-    $("#historicalBtn").button();
-    $("#fullScreenBtn").button();
 
     // OUTER-LAYOUT
     $('body').layout({
@@ -830,8 +834,6 @@ $(document).ready(function() {
             ,	spacing_closed:			12 // ALL panes
         }
     });
-
-    $.isLoading({ text: "Loading", position: "overlay" });
 
     //$('.utterancetable').delegate('.utterance', 'mouseenter', function() {
     //    var loctop = $(this).position().top;
