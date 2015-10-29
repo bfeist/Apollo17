@@ -30,6 +30,7 @@
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
     <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="lib/share.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <script>
@@ -42,13 +43,15 @@
         ga('send', 'pageview');
     </script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/jquery.isloading.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui.js"></script>
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
-    <script type="text/javascript" src="lib/jquery-ui-latest.js"></script>
+    <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <script type="text/javascript" src='http://www.youtube.com/iframe_api'></script>
+    <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 
@@ -70,15 +73,20 @@
                 <!-- <div class="historicalTime"><strong>Historical Time Difference:</strong>
                     <div id="historicalTimeDiff"></div>
                 </div> -->
-                <div class="historicalTime">
+                <div>
                     <form>
-                        <input class="btn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Historical-time">
+                        <input class="btn" id="historicalBtn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Historical-time">
+                    </form>
+                </div>
+                <div>
+                    <form>
+                        <input class="btn" id="fullScreenBtn" type="button" onclick="toggleFullscreen()" value="Full Screen">
                     </form>
                 </div>
                 <div class="titleSubtitle">v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
             </div>
             <div class="headerRight" id="navigator">
-                <canvas id="myCanvas" resize></canvas>
+                <canvas id="myCanvas" resize keepalive="true"></canvas>
             </div>
         </div>
     </div>
@@ -141,42 +149,23 @@
 </body>
 
 <script type="text/html" id="photoTemplate">
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
+
         <div class="imageBlock">
             <div class="imageContainer">
                 <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
                     <img src="http://apollo17.org/mission_images/img/@filename">
                 </a>
-                <span class="imageOverlay">
+                <span id="imageOverlay">
                     <div class="photodivcaption">@description</div>
                     <table class="photoTable">
                         <tr>
                             <td style="text-align: right;">
-                                Time Taken
-                            </td>
-                            <td>
-                                @timestamp
+                                Mission Time Taken : @timestamp
                             </td>
                             <td style="text-align: right;">
-                                Magazine
-                            </td>
-                            <td>
-                                @mag_number / @mag_code
+                                Photo: @mag_code@mag_number@photo_num
                             </td>
                             <td style="text-align: right;">
-                                Photo Number
-                            </td>
-                            <td style="word-break: break-all;">
-                                @photo_num
-                            </td>
-                            <td style="text-align: right;">
-                                Photographer
-                            </td>
-                            <td>
                                 @photographer
                             </td>
                         </tr>
@@ -184,15 +173,14 @@
                 </span>
             </div>
         </div>
-    </body>
-    </html>
+
 </script>
 
 <script type="text/html" id="utteranceTemplate">
     <tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">
-    <td class="afjget afjpao">@timestamp</td>
-    <td class="afjwho afjpao">@who</td>
-    <td class="spokenwords afjpao">@words</td>
+        <td class="afjget afjpao">@timestamp</td>
+        <td class="afjwho afjpao">@who</td>
+        <td class="spokenwords afjpao">@words</td>
     </tr>
 </script>
 

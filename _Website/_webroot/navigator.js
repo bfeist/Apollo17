@@ -13,6 +13,7 @@ var gTier1Top;
 var gTier2Top;
 var gTier3Top;
 var gTierSpacing;
+var gFontScaleFactor;
 
 var gTier1Width;
 var gTier2Width;
@@ -95,7 +96,12 @@ function initNavigator() {
         var mouseXSeconds;
         gNavCursorGroup.removeChildren();
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if in tier1
-            mouseXSeconds = (event.point.x - gTier1Left) * gTier1SecondsPerPixel;
+            mouseXSeconds = ((event.point.x - gTier1Left) * gTier1SecondsPerPixel) - gCountdownSeconds;
+            if (mouseXSeconds < gCountdownSeconds * -1) {
+                mouseXSeconds = gCountdownSeconds * -1;
+            } else if (mouseXSeconds > gMissionDurationSeconds) {
+                mouseXSeconds = gMissionDurationSeconds;
+            }
             //console.log(mouseXSeconds);
             drawTier1NavBox(mouseXSeconds);
             drawTier2();
@@ -116,7 +122,7 @@ function initNavigator() {
         var mouseXSeconds;
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if tier1 clicked
             console.log("Tier1 clicked");
-            mouseXSeconds = (event.point.x - gTier1Left) * gTier1SecondsPerPixel;
+            mouseXSeconds =( (event.point.x - gTier1Left) * gTier1SecondsPerPixel) - gCountdownSeconds;
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if tier2 clicked
             console.log("Tier2 clicked");
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
@@ -144,11 +150,17 @@ function setDynamicWidthVariables() {
     gNavigatorWidth = paper.view.size.width;
     gNavigatorHeight = paper.view.size.height;
 
-    gTierSpacing = 8;
+    gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
+    //console.log("font scaling factor " + gFontScaleFactor);
 
-    gTier1Height = Math.round(gNavigatorHeight / 3) - 20;
-    gTier2Height = Math.round(gNavigatorHeight / 3) - 10;
-    gTier3Height = Math.round(gNavigatorHeight / 3) + 15;
+    gTierSpacing = Math.round(gNavigatorHeight * .05);
+
+    gTier1Height = Math.round(gNavigatorHeight * .20);
+    gTier2Height = Math.round(gNavigatorHeight * .25);
+    gTier3Height = Math.round(gNavigatorHeight * .50) - 13; //TODO -15 hack not understood for tier3height
+    //gTier1Height = Math.round(gNavigatorHeight / 3) - 20;
+    //gTier2Height = Math.round(gNavigatorHeight / 3) - 10;
+    //gTier3Height = Math.round(gNavigatorHeight / 3) + 13;
     //gTier1Height = Math.round(gNavigatorHeight / 3) - 5;
     //gTier2Height = Math.round(gNavigatorHeight / 3) - 5;
     //gTier3Height = Math.round(gNavigatorHeight / 3) - 5;
@@ -195,7 +207,7 @@ function drawCursor(seconds) {
     // tier1
     var tierBottom = gTier1Height;
 
-    var cursorLocX = gTier1Left + (seconds * gTier1PixelsPerSecond);
+    var cursorLocX = gTier1Left + ((seconds + gCountdownSeconds) * gTier1PixelsPerSecond);
     var topPoint = new paper.Point(cursorLocX, gTier1Top);
     var bottomPoint = new paper.Point(cursorLocX, tierBottom);
     var aLine = new paper.Path.Line(topPoint, bottomPoint);
@@ -223,7 +235,7 @@ function drawCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 14 + gFontScaleFactor,
         fillColor: 'red'
     });
     timeText.content = secondsToTimeStr(seconds);
@@ -243,7 +255,7 @@ function drawNavCursor(seconds) {
     gNavCursorGroup.removeChildren();
     // tier1
     var tierBottom = gTier1Height;
-    var cursorLocX = gTier1Left + (seconds * gTier1PixelsPerSecond);
+    var cursorLocX = gTier1Left + ((seconds + gCountdownSeconds) * gTier1PixelsPerSecond);
     var topPoint = new paper.Point(cursorLocX, gTier1Top);
     var bottomPoint = new paper.Point(cursorLocX, tierBottom);
     var aLine = new paper.Path.Line(topPoint, bottomPoint);
@@ -272,7 +284,7 @@ function drawNavCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 14 + gFontScaleFactor,
         fillColor: 'yellow'
     });
     timeText.content = secondsToTimeStr(seconds);
@@ -319,7 +331,7 @@ function drawTier1() {
         gTier1Group.addChild(stageRect);
         var stageText = new paper.PointText({
             justification: 'left',
-            fontSize: 8,
+            fontSize: 8 + gFontScaleFactor,
             fillColor: "lightgrey"
         });
         var textTop = gTier1Top + (gTier1Height / 2) - 3;
@@ -360,7 +372,7 @@ function drawTier1() {
 function drawTier1NavBox(seconds) {
     gTier1NavGroup.removeChildren();
 
-    var locX = gTier1Left + (seconds * gTier1PixelsPerSecond);
+    var locX = gTier1Left + ((seconds + gCountdownSeconds) * gTier1PixelsPerSecond);
     var navBoxWidth = Math.round(gTier1Width / gNavZoomFactor);
     gTier1NavBoxLocX = locX - (navBoxWidth / 2);
     if (gTier1NavBoxLocX < gTier1Left) {
@@ -386,7 +398,7 @@ function drawTier1NavBox(seconds) {
         //strokeColor: 'white',
         strokeColor: {
             gradient: {
-                stops: ['black', 'white']
+                stops: ['grey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -417,7 +429,7 @@ function drawTier1NavBox(seconds) {
         //strokeColor: 'white',
         strokeColor: {
             gradient: {
-                stops: ['black', 'white']
+                stops: ['white', 'grey']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -480,7 +492,7 @@ function drawTier2() {
             var stageText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
-                fontSize: 11,
+                fontSize: 11 + gFontScaleFactor,
                 fillColor: "lightgrey"
             });
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
@@ -515,11 +527,11 @@ function drawTier2() {
             if (gTOCAll[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
-                    fontSize: 10,
+                    fontSize: 10 + gFontScaleFactor,
                     fillColor: gTOCTextColor
                 });
                 var textTop = tierBottom - textPosition * (gTier2Height / 3) + 6;
-                itemText.point = new paper.Point(itemLocX , textTop);
+                itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCAll[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
                 itemTextRect.strokeColor = "black";
@@ -593,7 +605,7 @@ function drawTier2NavBox(seconds) {
         //strokeColor: 'white',
         strokeColor: {
             gradient: {
-                stops: ['black', 'white']
+                stops: ['grey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -604,7 +616,7 @@ function drawTier2NavBox(seconds) {
         //fillColor: "white",
         fillColor: {
             gradient: {
-                stops: ['black', 'black', 'white']
+                stops: ['black', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -623,7 +635,7 @@ function drawTier2NavBox(seconds) {
         //strokeColor: 'white',
         strokeColor: {
             gradient: {
-                stops: ['white', 'black']
+                stops: ['white', 'grey']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -634,7 +646,7 @@ function drawTier2NavBox(seconds) {
         //fillColor: "white",
         fillColor: {
             gradient: {
-                stops: ['white', 'black', 'black']
+                stops: ['white', 'black']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -686,7 +698,7 @@ function drawTier3() {
             var stageText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
-                fontSize: 14,
+                fontSize: 14 + gFontScaleFactor,
                 fillColor: "lightgrey"
             });
             var textTop = gTier3Top + (gTier3Height / 3) - 3;
@@ -763,8 +775,8 @@ function drawTier3() {
             //var barHeight = gTier3Height / parseInt(gTOCAll[i][1]);
             var barHeight = gTier3Height / 4;
             var itemTop = tierBottom - textPosition * (gTier3Height / 4) + 10;
-            var topPoint = new paper.Point(itemLocX - 2, itemTop - barHeight);
-            var bottomPoint = new paper.Point(itemLocX - 2, itemTop);
+            var topPoint = new paper.Point(itemLocX, itemTop - barHeight);
+            var bottomPoint = new paper.Point(itemLocX, itemTop);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = gTOCStrokeColor;
             gTier3Group.addChild(aLine);
@@ -772,10 +784,10 @@ function drawTier3() {
 
             var itemText = new paper.PointText({
                 justification: 'left',
-                fontSize: 12,
+                fontSize: 12 + gFontScaleFactor,
                 fillColor: gTOCTextColor
             });
-            itemText.point = new paper.Point(itemLocX , itemTop);
+            itemText.point = new paper.Point(itemLocX + 2 , itemTop);
             itemText.content = gTOCAll[i][2];
             var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
             itemTextRect.strokeColor = "black";
