@@ -53,8 +53,9 @@ var gTOCStrokeColor = "grey";
 paper.install(window);
 
 $(document).ready(function() {
-    console.log("NAV: Navigator ready");
     gApplicationReady += 1;
+    console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);
+
     $("#myCanvas").mouseleave(function() {
         onMouseOutHandler()
     });
@@ -71,7 +72,7 @@ $(document).ready(function() {
 });
 
 function initNavigator() {
-    console.log("NAV: initNavigator called");
+    console.log("NAV: initNavigator");
     paper.setup('myCanvas');
 
     gTier1Group = new paper.Group;
@@ -121,17 +122,17 @@ function initNavigator() {
     tool.onMouseUp = function (event) {
         var mouseXSeconds;
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if tier1 clicked
-            console.log("Tier1 clicked");
+            console.log("NAV: Tier1 clicked");
             mouseXSeconds =( (event.point.x - gTier1Left) * gTier1SecondsPerPixel) - gCountdownSeconds;
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if tier2 clicked
-            console.log("Tier2 clicked");
+            console.log("NAV: Tier2 clicked");
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
         } else { //tier3 clicked
-            console.log("Tier3 clicked");
+            console.log("NAV: Tier3 clicked");
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         var timeStr = secondsToTimeStr(mouseXSeconds);
-        console.log("Navigator Clicked. Jumping to " + timeStr);
+        console.log("NAV: Jumping to " + timeStr);
         seekToTime("timeid" + timeStr.split(":").join(""));
     };
 }
@@ -153,16 +154,16 @@ function setDynamicWidthVariables() {
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
     //console.log("font scaling factor " + gFontScaleFactor);
 
-    gTierSpacing = gNavigatorHeight * .05; //counted twice
+    gTierSpacing = gNavigatorHeight * .05; //counted twice - one for each space
 
     gTier1Height = gNavigatorHeight * .17;
     gTier2Height = gNavigatorHeight * .23;
     gTier3Height = (gNavigatorHeight * .50); //TODO -15 hack not understood for tier3height
 
-    var totalHeight = gTier1Height + gTier2Height + gTier3Height + (gTierSpacing * 2)
-
-    console.log("TOTAL HEIGHT: " + totalHeight);
-    console.log("CANVAS HEIGHT: " + gNavigatorHeight);
+    //var totalHeight = gTier1Height + gTier2Height + gTier3Height + (gTierSpacing * 2)
+    //
+    //console.log("TOTAL HEIGHT: " + totalHeight);
+    //console.log("CANVAS HEIGHT: " + gNavigatorHeight);
 
     //gTier1Height = Math.round(gNavigatorHeight / 3) - 20;
     //gTier2Height = Math.round(gNavigatorHeight / 3) - 10;
@@ -174,8 +175,8 @@ function setDynamicWidthVariables() {
     gTier2Top = gTier1Height + gTierSpacing;
     gTier3Top = gTier2Top + gTier2Height + gTierSpacing;
 
-    gTier1Width = paper.view.size.width - (paper.view.size.width * 0.2);
-    gTier2Width = paper.view.size.width - (paper.view.size.width * 0.1);
+    gTier1Width = paper.view.size.width - (paper.view.size.width * 0.1);
+    gTier2Width = paper.view.size.width - (paper.view.size.width * 0.05);
     gTier3Width = paper.view.size.width;
     //gTier1Width = paper.view.size.width;
     //gTier2Width = paper.view.size.width;

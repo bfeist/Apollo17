@@ -173,7 +173,7 @@ tr.commentary > td {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
-    min-height: 110px;
+    min-height: 120px;
 }
 
 .headerLeft {
@@ -289,7 +289,7 @@ canvas[resize] {
 .historicalTime {
     font-weight: bold;
     font-size: 200%;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     color: #fff;
 }
 #missionTime {
