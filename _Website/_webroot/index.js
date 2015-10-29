@@ -384,9 +384,9 @@ function loadPhotoHtml(photoIndex) {
     html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp", photoObject[2]);
     html = html.replace("@photo_num", photoObject[3]);
-    html = html.replace("@mag_code", photoObject[4]);
-    html = html.replace("@mag_number", photoObject[5]);
-    html = html.replace("@photographer", photoObject[6]);
+    html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
+    html = (photoObject[5] != "") ? html.replace("@mag_number", photoObject[5] + "-") : html.replace("@mag_number", "");
+    html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
     html = html.replace("@description", photoObject[7]);
 
     var photoDiv = $("#photodiv");
@@ -783,6 +783,19 @@ function setApplicationReadyPoller() {
     }, 1000);
 }
 
+function toggleFullscreen() {
+    var fullScreenBtn = $('#fullScreenBtn');
+    if (fullScreenBtn.attr("value") == "Full Screen") {
+        $(document).fullScreen(true);
+        fullScreenBtn.attr("value", "Exit Full Screen");
+    } else {
+        $(document).fullScreen(false);
+        fullScreenBtn.attr("value", "Full Screen");
+    }
+
+}
+
+
 $(document).ready(function() {
     console.log("Loading overlay on");
 
@@ -795,6 +808,8 @@ $(document).ready(function() {
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     $(".mid-center").tabs();
+    $("#historicalBtn").button();
+    $("#fullScreenBtn").button();
 
     // OUTER-LAYOUT
     $('body').layout({
@@ -804,7 +819,8 @@ $(document).ready(function() {
         ,   north__togglerLength_open: 0
         ,   center__togglerLength_open: 0
         ,   west__togglerLength_open: 0
-        ,	north__size:			"130"
+        ,	north__size:			"13%"
+        ,   north__minSize:         110
         ,   west__size:             "40%"
         ,	spacing_open:			0  // ALL panes
         ,	spacing_closed:			12 // ALL panes
