@@ -30,6 +30,7 @@
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
     <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="lib/share.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <script>
@@ -42,7 +43,6 @@
         ga('send', 'pageview');
     </script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/jquery.isloading.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery-ui.js"></script>
@@ -50,6 +50,8 @@
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <script type="text/javascript" src='http://www.youtube.com/iframe_api'></script>
+    <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 
@@ -176,9 +178,9 @@
 
 <script type="text/html" id="utteranceTemplate">
     <tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">
-    <td class="afjget afjpao">@timestamp</td>
-    <td class="afjwho afjpao">@who</td>
-    <td class="spokenwords afjpao">@words</td>
+        <td class="afjget afjpao">@timestamp</td>
+        <td class="afjwho afjpao">@who</td>
+        <td class="spokenwords afjpao">@words</td>
     </tr>
 </script>
 

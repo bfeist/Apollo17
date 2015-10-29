@@ -151,7 +151,7 @@ function setDynamicWidthVariables() {
     gNavigatorHeight = paper.view.size.height;
 
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
-    console.log("font scaling factor " + gFontScaleFactor);
+    //console.log("font scaling factor " + gFontScaleFactor);
 
     gTierSpacing = Math.round(gNavigatorHeight * .05);
 
