@@ -131,7 +131,7 @@ function initNavigator() {
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         var timeStr = secondsToTimeStr(mouseXSeconds);
-        console.log("Timeline Clicked. Jumping to " + timeStr);
+        console.log("Navigator Clicked. Jumping to " + timeStr);
         seekToTime("timeid" + timeStr.split(":").join(""));
     };
 }
@@ -140,9 +140,9 @@ function onMouseOutHandler() {
     gMouseOnNavigator = false;
     //console.log("mycanvas mouseleave");
 
-    gNavCursorGroup.removeChildren();
-    //drawTier1NavBox(timeStrToSeconds(gCurrMissionTime));
-    //drawTier2NavBox(timeStrToSeconds(gCurrMissionTime));
+    if (typeof gNavCursorGroup != "undefined") {
+        gNavCursorGroup.removeChildren();
+    }
     redrawAll();
 }
 
@@ -153,11 +153,17 @@ function setDynamicWidthVariables() {
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
     //console.log("font scaling factor " + gFontScaleFactor);
 
-    gTierSpacing = Math.round(gNavigatorHeight * .05);
+    gTierSpacing = gNavigatorHeight * .05; //counted twice
 
-    gTier1Height = Math.round(gNavigatorHeight * .20);
-    gTier2Height = Math.round(gNavigatorHeight * .25);
-    gTier3Height = Math.round(gNavigatorHeight * .50) - 13; //TODO -15 hack not understood for tier3height
+    gTier1Height = gNavigatorHeight * .17;
+    gTier2Height = gNavigatorHeight * .23;
+    gTier3Height = (gNavigatorHeight * .50); //TODO -15 hack not understood for tier3height
+
+    var totalHeight = gTier1Height + gTier2Height + gTier3Height + (gTierSpacing * 2)
+
+    console.log("TOTAL HEIGHT: " + totalHeight);
+    console.log("CANVAS HEIGHT: " + gNavigatorHeight);
+
     //gTier1Height = Math.round(gNavigatorHeight / 3) - 20;
     //gTier2Height = Math.round(gNavigatorHeight / 3) - 10;
     //gTier3Height = Math.round(gNavigatorHeight / 3) + 13;
@@ -717,7 +723,7 @@ function drawTier3() {
         if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3) {
             itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
             barHeight = gTier3Height / 8;
-            barTop = tierBottom - barHeight;
+            var barTop = tierBottom - barHeight;
             topPoint = new paper.Point(itemLocX, barTop);
             bottomPoint = new paper.Point(itemLocX, tierBottom);
             aLine = new paper.Path.Line(topPoint, bottomPoint);
@@ -747,9 +753,10 @@ function drawTier3() {
             itemSecondsFromLeft = Math.round(timeStrToSeconds(gUtteranceData[i][0])) - gTier3StartSeconds;
             if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier3) {
                 itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
-                barHeight = gTier3Height / 15;
-                var barBottom = gTier3Top + barHeight;
-                topPoint = new paper.Point(itemLocX, gTier3Top);
+                barHeight = gTier3Height / 14;
+                var barTop = gTier3Top + gTier3Height / 3;
+                var barBottom = barTop + barHeight;
+                topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, barBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
                 aLine.strokeColor = 'CadetBlue';

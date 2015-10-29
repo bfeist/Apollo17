@@ -232,13 +232,15 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    bottom: -500px;
+    bottom: -200px;
     left: 0;
     width: 100%;
 
     background-color: #222222;
     opacity: 0.9;
     padding: 5px;
+
+    transition: all 0.5s ease-in-out;
 }
 
 #photodiv {

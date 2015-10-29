@@ -149,31 +149,29 @@
 </body>
 
 <script type="text/html" id="photoTemplate">
-
-        <div class="imageBlock">
-            <div class="imageContainer">
-                <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
-                    <img src="http://apollo17.org/mission_images/img/@filename">
-                </a>
-                <span id="imageOverlay">
-                    <div class="photodivcaption">@description</div>
-                    <table class="photoTable">
-                        <tr>
-                            <td style="text-align: right;">
-                                Mission Time Taken : @timestamp
-                            </td>
-                            <td style="text-align: right;">
-                                Photo: @mag_code@mag_number@photo_num
-                            </td>
-                            <td style="text-align: right;">
-                                @photographer
-                            </td>
-                        </tr>
-                    </table>
-                </span>
-            </div>
+    <div class="imageBlock">
+        <div class="imageContainer">
+            <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
+                <img src="http://apollo17.org/mission_images/img/@filename">
+            </a>
+            <span id="imageOverlay">
+                <div class="photodivcaption">@description</div>
+                <table class="photoTable">
+                    <tr>
+                        <td style="text-align: right;">
+                            Mission Time Taken : @timestamp
+                        </td>
+                        <td style="text-align: right;">
+                            Photo: @mag_code@mag_number@photo_num
+                        </td>
+                        <td style="text-align: right;">
+                            @photographer
+                        </td>
+                    </tr>
+                </table>
+            </span>
         </div>
-
+    </div>
 </script>
 
 <script type="text/html" id="utteranceTemplate">

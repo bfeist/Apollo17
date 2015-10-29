@@ -338,13 +338,15 @@ function scrollCommentaryToTimeID(timeId) {
             //console.log("scrollCommentaryToTimeID " + timeId);
             var CommentaryFrame = $('#iFrameCommentary').contents();
             var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
-            //reset background color of last line
-            if (gLastCommentaryTimeIdMarker != '') {
-                gLastCommentaryTimeIdMarker.css("background-color", background_color);
+            if (CommentaryTimeIdMarker.length != 0) {
+                //reset background color of last line
+                if (gLastCommentaryTimeIdMarker != '') {
+                    gLastCommentaryTimeIdMarker.css("background-color", background_color);
+                }
+                CommentaryTimeIdMarker.css("background-color", background_color_active);
+                var CommentaryScrollDestination = CommentaryTimeIdMarker.offset().top - 100;
+                CommentaryFrame.find('body').animate({scrollTop: CommentaryScrollDestination}, 500);
             }
-            CommentaryTimeIdMarker.css("background-color", background_color_active);
-            var CommentaryScrollDestination = CommentaryTimeIdMarker.offset().top - 100;
-            CommentaryFrame.find('body').animate({scrollTop: CommentaryScrollDestination}, 500);
             gLastCommentaryTimeIdMarker = CommentaryTimeIdMarker;
             gLastCommentaryTimeId = timeId;
         } else {
