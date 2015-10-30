@@ -53,18 +53,17 @@ var gTOCStrokeColor = "grey";
 paper.install(window);
 
 $(document).ready(function() {
+    paper.setup('myCanvas');
+
+    //init navigator
+    gCurrMissionTime = "-00:01:00";
+    initNavigator();
     gApplicationReady += 1;
     console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);
 
     $("#myCanvas").mouseleave(function() {
-        onMouseOutHandler()
+        onMouseOutHandler();
     });
-    //$("*").mouseover(function(event) {
-    //    if (this.id != "navigator" && this.id != "myCanvas") {
-    //        onMouseOutHandler();
-    //    }
-    //    //console.log("over something: " + this.id);
-    //});
     $(window).mouseleave(function() {
         onMouseOutHandler();
         //console.log("left window");
@@ -73,7 +72,6 @@ $(document).ready(function() {
 
 function initNavigator() {
     console.log("NAV: initNavigator");
-    paper.setup('myCanvas');
 
     gTier1Group = new paper.Group;
     gTier1NavGroup = new paper.Group;
@@ -152,6 +150,7 @@ function setDynamicWidthVariables() {
     gNavigatorHeight = paper.view.size.height;
 
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
+    //console.log("gNavigatorHeight " + gNavigatorHeight);
     //console.log("font scaling factor " + gFontScaleFactor);
 
     gTierSpacing = gNavigatorHeight * .05; //counted twice - one for each space
@@ -310,7 +309,9 @@ function drawNavCursor(seconds) {
 }
 
 function drawTier1() {
-    gTier1Group.removeChildren();
+    if (typeof gTier1Group !== "undefined") {
+        gTier1Group.removeChildren();
+    }
     var tierBottom = gTier1Top + gTier1Height;
     var tierRect = new paper.Rectangle(gTier1Left, gTier1Top, gTier1Width, gTier1Height);
     var tierRectPath = paper.Path.Rectangle(tierRect);

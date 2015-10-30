@@ -76,18 +76,13 @@
                 </div> -->
                 <div>
                     <form>
-                        <input class="btn" id="historicalBtn" type="button" onclick="roundToNearestHistoricalTime()" value="Snap to Historical-time">
-                    </form>
-                </div>
-                <div>
-                    <form>
                         <input class="btn" id="fullScreenBtn" type="button" onclick="toggleFullscreen()" value="Full Screen">
                     </form>
                 </div>
                 <div class="titleSubtitle">v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
             </div>
             <div class="headerRight" id="navigator">
-                <canvas id="myCanvas" resize keepalive="true"></canvas>
+                <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
             </div>
         </div>
     </div>
@@ -154,6 +149,9 @@
             <button id="launchBtn" type="button" data-loading-text="Loading..." class="btn simplemodal-close" onclick="initializePlayback()" >
                 GO at 1 minute to launch
             </button>
+            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="roundToNearestHistoricalTime()">
+                Snap to Historical-time
+            </button>
         </p>
     </div>
 </body>
@@ -162,7 +160,7 @@
     <div class="imageBlock">
         <div class="imageContainer">
             <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
-                <img src="http://apollo17.org/mission_images/img/@filename">
+                <img id="imageContainerImage" src="http://apollo17.org/mission_images/img/@filename">
             </a>
             <span id="imageOverlay">
                 <div class="photodivcaption">@description</div>
