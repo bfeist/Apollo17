@@ -74,6 +74,7 @@ li:hover {
     overflow-y: scroll;
     position: relative;
     height: 100%;
+    font-size: 1.1em;
 }
 .utteranceTable {
     border: 2px;
@@ -222,8 +223,8 @@ canvas[resize] {
 }
 
 .imageContainer img {
-    width: 100%;
-    height: auto;
+    /*display: block;*/
+    /*margin: auto auto;*/
 }
 
 .imageContainer:hover #imageOverlay {

@@ -45,6 +45,7 @@ function onYouTubeIframeAPIReady() {
             modestbranding: 1,
             autohide: 1,
             rel: 0,
+            //'controls': 0,
             fs: 0
         },
         events: {
@@ -63,22 +64,6 @@ function onPlayerReady(event) {
         //seekToTime("timeid-000100"); //jump to 1 minute to launch
     }
 }
-//function utteranceIframeLoaded() {
-//    if (gMissionTimeParamSent == 1) {
-//        $("#outer-north").isLoading("hide");
-//        console.log("Loading overlay off");
-//        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-//        if (typeof paramMissionTime != "undefined") {
-//            paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
-//            var missionTimeArray = paramMissionTime.split(":");
-//            var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
-//            gCurrentPhotoTimestamp = "replace";
-//            seekToTime(timeId);
-//        } else {
-//            seekToTime("timeid-000100"); //jump to 1 minute to launch
-//        }
-//    }
-//}
 
 // The API calls this function when the player's state changes.
 // The function indicates that when playing a video (state=1)
@@ -395,13 +380,50 @@ function loadPhotoHtml(photoIndex) {
     var photoDiv = $("#photodiv");
     photoDiv.html('');
     photoDiv.append(html);
-    //var imageOverlay = $('#imageOverlay');
-    //var newHeightVal = imageOverlay.height() * -1;
-    //console.log("BEFORE CLEAR: " + imageOverlay.css('bottom'));
-    //imageOverlay.css('bottom', '');
-    //console.log("AFTER CLEAR: " + imageOverlay.css('bottom'));
-    //imageOverlay.css('bottom', newHeightVal);
-    //console.log("AFTER ASSIGNMENT: " + imageOverlay.css('bottom'));
+
+    var imageContainerImage = $('#imageContainerImage');
+    imageContainerImage.css("width", photoDiv.width());
+    imageContainerImage.css("height", 'auto');
+
+    imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
+        console.log('***image load complete');
+        scaleMissionImage();
+    });
+}
+
+function scaleMissionImage() {
+    var photodiv = $('#photodiv');
+    var image = $('#imageContainerImage');
+
+    var maxWidth = photodiv.width(); // Max width for the image
+    var maxHeight = photodiv.height();    // Max height for the image
+    console.log("scaleMissionImage():maxWidth " + maxWidth);
+    console.log("scaleMissionImage():maxHeight " + maxHeight);
+    var ratio = 0;  // Used for aspect ratio
+    //var width = image.width();    // Current image width
+    //var height =image.height();  // Current image height
+
+    var width = image.get(0).naturalWidth;
+    var height =image.get(0).naturalHeight;
+    console.log("scaleMissionImage():naturalWidth " + width);
+    console.log("scaleMissionImage():naturalHeight " + height);
+
+    // Check if the current width is larger than the max
+    if(width > maxWidth){
+        ratio = maxWidth / width;   // get ratio for scaling image
+        image.css("width", maxWidth); // Set new width
+        image.css("height", height * ratio);  // Scale height based on ratio
+
+        height = height * ratio;    // Reset height to match scaled image
+        width = width * ratio;    // Reset width to match scaled image
+    }
+
+    // Check if current or newly width-scaled height is larger than max
+    if(height > maxHeight){
+        ratio = maxHeight / height; // get ratio for scaling image
+        image.css("height", maxHeight);   // Set new height
+        image.css("width", width * ratio);    // Scale width based on ratio
+    }
 }
 
 //--------------- transcript click handling --------------------
@@ -528,10 +550,11 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
     } else if (currDayOfMonth < 7) {
         d.setDate(currDayOfMonth + (7 - currDayOfMonth));
     }
-    d.setMonth(gCurrMissionDate.getMonth());
-    d.setYear(gCurrMissionDate.getYear());
-    var roundedDate = d;
     var launchDate = Date.parse("1972-12-07 5:33am GMT");
+    d.setMonth(launchDate.getMonth());
+    d.setYear(launchDate.getYear());
+    var roundedDate = d;
+
 
     //find the difference between rounded date and mission start time to determine MET to jump to
     // Convert both dates to milliseconds
@@ -620,8 +643,6 @@ function initializePlayback() {
     if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
         //player.src(gMediaSrcURL + "_- - 000.mp4");
-        initNavigator();
-        gCurrMissionTime = "-00:01:00";
         seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
         //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
     }
@@ -749,64 +770,43 @@ function processMissionStagesData(allText) {
     gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
 
-//$('iFrameTranscript').load(function() {
-//    $("#outer-north").isLoading("hide");
-//    console.log("Loading overlay off");
-//
-//    if (gMissionTimeParamSent == 1) {
-//        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-//        if (typeof paramMissionTime != "undefined") {
-//            paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
-//            var missionTimeArray = paramMissionTime.split(":");
-//            var timeId = "timeid" + padZeros(missionTimeArray[0], 3) + padZeros(missionTimeArray[1], 2) + padZeros(missionTimeArray[2], 2);
-//            gCurrentPhotoTimestamp = "replace";
-//            seekToTime(timeId);
-//        }
-//    }
-//});
-
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
             $('#basic-modal-content').isLoading( "hide" );
+            window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
 }
 
 function toggleFullscreen() {
     var fullScreenBtn = $('#fullScreenBtn');
-    if (fullScreenBtn.attr("value") == "Full Screen") {
+    if ($(document).fullScreen() == false) {
         $(document).fullScreen(true);
         fullScreenBtn.attr("value", "Exit Full Screen");
     } else {
         $(document).fullScreen(false);
         fullScreenBtn.attr("value", "Full Screen");
     }
-
+    scaleMissionImage();
+    redrawAll();
 }
 
+//on doc init
 jQuery(function ($) {
-    $('#basic-modal-content').modal({opacity: 90});
+    var modal = $('#basic-modal-content');
+    modal.modal({opacity: 90});
+    modal.isLoading({ text: "Loading", position: "overlay" });
+
     $("#historicalBtn").button();
     $("#fullScreenBtn").button();
     $("#launchBtn").button();
-    $('#basic-modal-content').isLoading({ text: "Loading", position: "overlay" });
+
     console.log("Loading overlay on");
-});
 
-
-$(document).ready(function() {
-
-    if (typeof $.getUrlVar('t') != "undefined") {
-        gMissionTimeParamSent = 1;
-    } else {
-        gMissionTimeParamSent = 0;
-    }
-
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
-
+    //init tabs
     $(".mid-center").tabs();
 
     // OUTER-LAYOUT
@@ -834,6 +834,44 @@ $(document).ready(function() {
             ,	spacing_closed:			12 // ALL panes
         }
     });
+});
+
+//on fullscreen toggle
+$(window).bind('fullscreenchange', function(e) {
+    var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
+    var stateStr = state ? 'FullscreenOn' : 'FullscreenOff';
+
+    // Now do something interesting
+    console.log("non-button fullscreen change state: " + stateStr);
+
+    var fullScreenBtn = $('#fullScreenBtn');
+    if (stateStr == "FullscreenOn") {
+        fullScreenBtn.attr("value", "Exit Full Screen");
+    } else {
+        fullScreenBtn.attr("value", "Full Screen");
+    }
+    scaleMissionImage();
+    redrawAll();
+});
+
+//on window resize
+$(window).resize(function(){ //scale image proportionally to image viewport on load
+    console.log('***window resize');
+    $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    scaleMissionImage();
+});
+
+//on document ready
+$(document).ready(function() {
+    if (typeof $.getUrlVar('t') != "undefined") {
+        gMissionTimeParamSent = 1;
+    } else {
+        gMissionTimeParamSent = 0;
+    }
+    $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
+
 
     //$('.utterancetable').delegate('.utterance', 'mouseenter', function() {
     //    var loctop = $(this).position().top;
