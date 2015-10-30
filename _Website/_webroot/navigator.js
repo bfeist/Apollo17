@@ -246,9 +246,9 @@ function drawCursor(seconds) {
     });
     timeText.content = secondsToTimeStr(seconds);
     timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
-    if (timeText.point.x < 5) {
-        timeText.point.x = 5;
-    }
+    //if (timeText.point.x < 5) { //snap time to left if off-screen left
+    //    timeText.point.x = 5;
+    //}
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = "red";
     timeTextRect.fillColor = "black";
@@ -381,7 +381,7 @@ function drawTier1NavBox(seconds) {
     gTier1NavGroup.removeChildren();
 
     var locX = gTier1Left + ((seconds + gCountdownSeconds) * gTier1PixelsPerSecond);
-    var navBoxWidth = Math.round(gTier1Width / gNavZoomFactor);
+    var navBoxWidth = gTier1Width / gNavZoomFactor;
     gTier1NavBoxLocX = locX - (navBoxWidth / 2);
     if (gTier1NavBoxLocX < gTier1Left) {
         gTier1NavBoxLocX = gTier1Left;
@@ -589,7 +589,7 @@ function drawTier2NavBox(seconds) {
     gTier2NavGroup.removeChildren();
 
     var locX = gTier2Left + ((seconds - gTier2StartSeconds) * gTier2PixelsPerSecond);
-    var navBoxWidth = Math.round(gTier2Width / gNavZoomFactor);
+    var navBoxWidth = gTier2Width / gNavZoomFactor;
     gTier2NavBoxLocX = locX - (navBoxWidth / 2);
     if (gTier2NavBoxLocX < gTier2Left) {
         gTier2NavBoxLocX = gTier2Left;
@@ -806,25 +806,4 @@ function drawTier3() {
             //}
         }
     }
-}
-
-function secondsToTimeStr(totalSeconds) {
-    var hours = Math.abs(parseInt(totalSeconds / 3600));
-    var minutes = Math.abs(parseInt(totalSeconds / 60)) % 60 % 60;
-    var seconds = Math.abs(parseInt(totalSeconds)) % 60;
-    seconds = Math.floor(seconds);
-    var timeStr = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
-    if (totalSeconds < 0) {
-        timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
-    }
-    return timeStr;
-}
-
-function timeStrToSeconds(timeStr) {
-    var sign = timeStr.substr(0,1);
-    var hours = parseInt(timeStr.substr(0,3));
-    var minutes = parseInt(timeStr.substr(4,2));
-    var seconds = parseInt(timeStr.substr(7,2));
-    var signToggle = (sign == "-") ? -1 : 1;
-    return Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
 }

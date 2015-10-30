@@ -64,22 +64,19 @@
                 <img src="./img/Apollo_17-insignia100.png">
             </div>
             <div class="headerMiddle">
-                <div class="title">Apollo 17 in Real-Time</div>
-                <div id="historicalDate" class="historicalDate">Thu Dec 07 1972</div>
-                <div id="historicalTime" class="historicalTime">12:32:00 AM</div>
+                <h2>Apollo 17 in Real-Time</h2>
+                <h2><div class="historicalDate date">Thu Dec 07 1972</div></h2>
+                <h1><div class="historicalTime time">12:32:00 AM</div></h1>
 
                 <!--<div id="missionTime">Mission Elapsed Time:-->
                     <!--<span id="timer">000:00:00</span>-->
                 <!--</div>-->
-                <!-- <div class="historicalTime"><strong>Historical Time Difference:</strong>
-                    <div id="historicalTimeDiff"></div>
-                </div> -->
                 <div>
                     <form>
                         <input class="btn" id="fullScreenBtn" type="button" onclick="toggleFullscreen()" value="Full Screen">
                     </form>
                 </div>
-                <div class="titleSubtitle">v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+                <div>v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
             </div>
             <div class="headerRight" id="navigator">
                 <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
@@ -141,18 +138,43 @@
     <div class="outer-center">
         <div id="photodiv"></div>
     </div>
-
     <div id="basic-modal-content">
         <h3>Apollo 17 - The Last Mission to the Moon</h3>
         <p>This is a real-time interactive exploration of the Apollo 17 Mission.</p>
-        <p>
-            <button id="launchBtn" type="button" data-loading-text="Loading..." class="btn simplemodal-close" onclick="initializePlayback()" >
-                GO at 1 minute to launch
-            </button>
-            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="roundToNearestHistoricalTime()">
+        <div class="historicalTimeIllustration">
+            <div class="historicalTime1">
+                Current Historical Mission Time:
+                <h2><div class="historicalDate"></div></h2>
+                <h1><div class="historicalTime"></div></h1>
+            </div>
+            <div class="historicalTime2">
+                <h1>Historical Time Difference</h1>
+                <svg width="80%" height="20px" viewBox="0 0 100 20" >
+                    <defs>
+                        <marker id="arrow" markerWidth="10" markerHeight="10" refx="0" refy="3" orient="auto" markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#bbb" />
+                        </marker>
+                    </defs>
+
+                    <line x1="200" y1="10" x2="-100" y2="10" stroke="#bbb" stroke-width="3" marker-end="url(#arrow)" />
+                </svg>
+                <div id="historicalTimeDiff"></div>
+            </div>
+            <div class="historicalTime3">
+                Current Time:
+                <h2><div class="currentDate"></div></h2>
+                <h1><div class="currentTime"></div></h1>
+            </div>
+        </div>
+        <BR>
+        <div class="introButtons">
+            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="historicalButtonClick()">
                 Snap to Historical-time
             </button>
-        </p>
+            <button id="launchBtn" type="button" data-loading-text="Loading..." class="btn simplemodal-close" onclick="oneMinuteToLaunchButtonClick()" >
+                GO at 1 minute to launch
+            </button>
+        </div>
     </div>
 </body>
 

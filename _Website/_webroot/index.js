@@ -7,6 +7,7 @@ var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
 var gCurrMissionDate = null;
 var gIntervalID = null;
+var gIntroInterval = null;
 var gMediaList = [];
 var gTOCIndex = [];
 var gTOCAll = [];
@@ -177,7 +178,7 @@ function setAutoScrollPoller() {
             scrollCommentaryToTimeID(timeId);
             showCurrentPhoto(timeId);
 
-            missionTimeHistoricalDifference();
+            displayHistoricalTimeDifferenceByTimeId(timeId);
 
             //scroll nav cursor
             if (!gMouseOnNavigator) {
@@ -397,18 +398,18 @@ function scaleMissionImage() {
 
     var maxWidth = photodiv.width(); // Max width for the image
     var maxHeight = photodiv.height();    // Max height for the image
-    console.log("scaleMissionImage():maxWidth " + maxWidth);
-    console.log("scaleMissionImage():maxHeight " + maxHeight);
+    //console.log("scaleMissionImage():maxWidth " + maxWidth);
+    //console.log("scaleMissionImage():maxHeight " + maxHeight);
     var ratio = 0;  // Used for aspect ratio
     //var width = image.width();    // Current image width
     //var height =image.height();  // Current image height
 
     var width = image.get(0).naturalWidth;
     var height =image.get(0).naturalHeight;
-    console.log("scaleMissionImage():naturalWidth " + width);
-    console.log("scaleMissionImage():naturalHeight " + height);
+    //console.log("scaleMissionImage():naturalWidth " + width);
+    //console.log("scaleMissionImage():naturalHeight " + height);
 
-    // Check if the current width is larger than the max
+    // Check if the current width is larger than the max7
     if(width > maxWidth){
         ratio = maxWidth / width;   // get ratio for scaling image
         image.css("width", maxWidth); // Set new width
@@ -466,9 +467,10 @@ function seekToTime(elementId){
             }
             gCurrVideoStartSeconds = itemStartTimeSeconds;
             gCurrVideoEndSeconds = itemEndTimeSeconds;
-            if (gPlaybackState != "rounding") { //if this function wasn't called from roundToNearestHistoricalTime then set that the transcript has been clicked
-                gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
-            }
+            //if (gPlaybackState != "rounding") { //if this function wasn't called from getNearestHistoricalMissionTimeId then set that the transcript has been clicked
+            //    gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
+            //}
+            gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
             //change youtube video if the correct video isn't already playing
             if (currVideoID !== gMediaList[i][1]) {
                 console.log("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][1]);
@@ -492,27 +494,29 @@ function seekToTime(elementId){
     }
 }
 
-function missionTimeHistoricalDifference() {
-    //console.log("missionTimeHistoricalDifference");
+function displayHistoricalTimeDifferenceByTimeId(timeid) {
+    //console.log("displayHistoricalTimeDifferenceByTimeId():" + timeid);
     var launchDate = Date.parse("1972-12-07 5:33am GMT");
 
-    var currMissionTimeArray = gCurrMissionTime.split(":");
-    var currMissionHours = parseInt(currMissionTimeArray[0]);
-    var currMissionMinutes = parseInt(currMissionTimeArray[1]);
-    var currMissionSeconds = parseInt(currMissionTimeArray[2]);
+    var timeStr = timeid.substr(6);
+    var sign = timeStr.substr(0,1);
+    var hours = parseInt(timeStr.substr(0,3));
+    var minutes = parseInt(timeStr.substr(3,2));
+    var seconds = parseInt(timeStr.substr(5,2));
+
     var conversionMultiplier = 1;
-    if (currMissionTimeArray[0].substr(0,1) == "-") { //if on countdown, subtract the mission time from the launch moment
+    if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
         conversionMultiplier = -1;
     }
-    gCurrMissionDate = launchDate.add({
-        hours: currMissionHours,
-        minutes: currMissionMinutes * conversionMultiplier,
-        seconds: currMissionSeconds * conversionMultiplier
+    var timeidDate = launchDate.add({
+        hours: hours * conversionMultiplier,
+        minutes: minutes * conversionMultiplier,
+        seconds: seconds * conversionMultiplier
     });
     //var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
     //var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
 
-    var timeDiff = Math.abs(Date.now().getTime() - gCurrMissionDate.getTime());
+    var timeDiff = Math.abs(Date.now().getTime() - timeidDate.getTime());
     //var timeDiff = Math.abs(Date.parse("2015-12-07 5:33am GMT").getTime() - Date.parse("1972-12-07 5:33am GMT").getTime());
 
     var msInMinute = 60 * 1000;
@@ -532,33 +536,34 @@ function missionTimeHistoricalDifference() {
     timeDiff = timeDiff - diffMinutes * msInMinute;
     var diffSeconds = Math.floor(timeDiff / 1000);
 
-    var humanizedRealtimeDifference = "Exactly " + diffYears + " years<br/>" + diffDays + " days<br/>" + diffHours + " hours<br />" + diffMinutes + " minutes<br />" + diffSeconds + " seconds ago.";
+    var humanizedRealtimeDifference = "Exactly " + diffYears + " years, " + diffDays + " days, " + diffHours + " hours, " + diffMinutes + " minutes, " + diffSeconds + " seconds ago.";
+
+    $(".currentDate").text(Date.now().toDateString());
+    $(".currentTime").text(Date.now().toLocaleTimeString());
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
-    $("#historicalDate").text(gCurrMissionDate.toDateString());
-    $("#historicalTime").text(gCurrMissionDate.toLocaleTimeString());
+    $(".historicalDate").text(timeidDate.toDateString());
+    $(".historicalTime").text(timeidDate.toLocaleTimeString());
 }
 
-function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
+function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
     //$("#roundedMissionTime").text(gCurrMissionDate);
-    var d = Date.now();
+    var nowDate = Date.now();
     //var d = Date.parse("2015-12-07 6:33am GMT");
-    var currDayOfMonth = d.getDate();
+    var currDayOfMonth = nowDate.getDate();
 
     if (currDayOfMonth >= 19) {
-        d.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+        nowDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
     } else if (currDayOfMonth < 7) {
-        d.setDate(currDayOfMonth + (7 - currDayOfMonth));
+        nowDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
     }
     var launchDate = Date.parse("1972-12-07 5:33am GMT");
-    d.setMonth(launchDate.getMonth());
-    d.setYear(launchDate.getYear());
-    var roundedDate = d;
-
+    nowDate.setMonth(launchDate.getMonth());
+    nowDate.setYear(launchDate.getYear());
 
     //find the difference between rounded date and mission start time to determine MET to jump to
     // Convert both dates to milliseconds
-    var roundedDate_ms = roundedDate.getTime();
+    var roundedDate_ms = nowDate.getTime();
     var launchDate_ms = launchDate.getTime();
     var difference_ms = roundedDate_ms - launchDate_ms;
 
@@ -567,12 +572,12 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
     var h = Math.floor( (difference_ms) / msInHour);
     var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
 
-    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(d.getSeconds(),2);
-    console.log("roundToNearestHistoricalTime(): Historical time to skip to: " + timeId);
+    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(nowDate.getSeconds(),2);
+    //console.log("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
     ga('send', 'event', 'button', 'click', 'snap to real-time');
 
-    gPlaybackState = "rounding";
-    seekToTime(timeId);
+    //gPlaybackState = "rounding";
+    return timeId;
 }
 
 //------------------------------------------------- utterance chunking code -------------------------------------------------
@@ -775,7 +780,7 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
-            $('#basic-modal-content').isLoading( "hide" );
+            $('.simplemodal-wrap').isLoading( "hide" );
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
@@ -794,17 +799,58 @@ function toggleFullscreen() {
     redrawAll();
 }
 
+
+function secondsToTimeStr(totalSeconds) {
+    var hours = Math.abs(parseInt(totalSeconds / 3600));
+    var minutes = Math.abs(parseInt(totalSeconds / 60)) % 60 % 60;
+    var seconds = Math.abs(parseInt(totalSeconds)) % 60;
+    seconds = Math.floor(seconds);
+    var timeStr = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+    if (totalSeconds < 0) {
+        timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
+    }
+    return timeStr;
+}
+
+function timeStrToSeconds(timeStr) {
+    var sign = timeStr.substr(0,1);
+    var hours = parseInt(timeStr.substr(0,3));
+    var minutes = parseInt(timeStr.substr(4,2));
+    var seconds = parseInt(timeStr.substr(7,2));
+    var signToggle = (sign == "-") ? -1 : 1;
+    return Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
+}
+
+function setIntroTimeUpdatePoller() {
+    return window.setInterval(function () {
+        console.log("setIntroTimeUpdatePoller()");
+        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
+    }, 1000);
+}
+
+function historicalButtonClick() {
+    window.clearInterval(gIntroInterval);
+    seekToTime(getNearestHistoricalMissionTimeId());
+}
+
+function oneMinuteToLaunchButtonClick() {
+    window.clearInterval(gIntroInterval);
+    initializePlayback();
+}
+
 //on doc init
 jQuery(function ($) {
     var modal = $('#basic-modal-content');
     modal.modal({opacity: 90});
-    modal.isLoading({ text: "Loading", position: "overlay" });
+
+    gIntroInterval = setIntroTimeUpdatePoller();
+
+    $('.simplemodal-wrap').isLoading({ text: "Loading", position: "overlay" });
+    console.log("Loading overlay on");
 
     $("#historicalBtn").button();
     $("#fullScreenBtn").button();
     $("#launchBtn").button();
-
-    console.log("Loading overlay on");
 
     //init tabs
     $(".mid-center").tabs();
