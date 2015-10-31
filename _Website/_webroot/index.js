@@ -367,6 +367,7 @@ function showCurrentPhoto(timeId) {
 }
 
 function loadPhotoHtml(photoIndex) {
+    console.log('loadPhotoHtml():' + photoIndex);
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
@@ -382,17 +383,20 @@ function loadPhotoHtml(photoIndex) {
     photoDiv.html('');
     photoDiv.append(html);
 
+    //prescale to height using css before calling scaleMissionImage so that it looks partically scaled as it loads
     var imageContainerImage = $('#imageContainerImage');
-    imageContainerImage.css("width", photoDiv.width());
-    imageContainerImage.css("height", 'auto');
+    imageContainerImage.css("width", 'auto');
+    imageContainerImage.css("height", photoDiv.height());
 
+    //when image finished loading, scale it proportionally both horizontally and vertically
     imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
-        console.log('***image load complete');
+        //console.log('***image load complete');
         scaleMissionImage();
     });
 }
 
 function scaleMissionImage() {
+    //console.log('scaleMissionImage()');
     var photodiv = $('#photodiv');
     var image = $('#imageContainerImage');
 
