@@ -53,16 +53,16 @@
 112:57:48|3|Video: Landing camera on|
 113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
-115:17:12|1|EVA-1|
+115:17:12|1|EVA-1 Start|
 117:01:38|2|EVA-1 Watches started|
 117:10:42|2|Down the Ladder|
-117:11:35|3|16mm Film|
+117:11:35|3|Video: 16mm Film|
 117:14:50|3|"Don't lock the hatch"|
 117:18:57|3|Jack Schmitt challenges the next generation|
 117:24:50|2|Rover Deployment|
 117:31:09|3|Lunar roving vehicle offloaded|
 117:44:16|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
-118:14:02|2|Video: EVA broadcast from lunar surface begins|
+118:14:02|2|Video: First television from lunar surface|
 118:21:57|2|United States flag deployed|Flag documented with photographs and stereo photography.
 118:34:43|2|Cosmic ray experiment deployed|
 120:46:06|2|ALSEP deployed|Documented with photographs and panoramic photography.
@@ -82,9 +82,9 @@
 128:54:10|1|Surface Crew sleep period|
 136:26:58|2|Communications with Ron Evans in lunar orbit|
 136:55:03|1|Surface Crew wake-up (music)|
-138:28:37|1|EVA-2|
-140:34:20|2|EVA-2 Start|
-140:45:41|2|Video from EVA-2 begins|
+138:28:37|1|EVA-2 Start|
+140:34:20|2|EVA-2 Watches started|
+140:45:41|2|Video: EVA-2|
 141:19:00|3|Lunar roving vehicle loaded for traverse|
 141:21:55|2|Departed for Surface Electrical Properties experiment site|
 141:27:05|2|Arrived at Surface Electrical Properties experiment site|Activated experiment, gathered samples, and performed panoramic photography.
@@ -110,15 +110,16 @@
 146:50:38|3|Cernan hopping along and singing|
 146:55:57|2|Departed for the Lunar Module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
 147:12:23|2|Arrived at the Lunar Module|Started extravehicular activity closeout.
+147:37:40|3|Gene shooting with the 500mm|
 147:52:04|3|Dusting the camera and philosophizing|
 148:09:47|2|Lunar Module cabin repressurization|
 150:46:12|1|Crew listens to news while eating dinner|
 152:25:20|1|Surface Crew sleep period begins|Ron Evans continues activities in orbit.
 154:40:23|2|Communications with Ron Evans in lunar orbit|
 160:24:02|1|Surface Crew wake-up|
-163:32:48|1|EVA-3|
-163:33:40|2|EVA-3 Start|
-163:46:15|3|Video from EVA-3 begins|
+163:32:48|1|EVA-3 Start|
+163:33:40|2|EVA-3 Watches started|
+163:46:15|3|Video: EVA-3|
 163:56:11|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
 164:00:16|2|Cosmic ray experiment retrieved|
 164:07:08|3|Jack Schmitt, "Tallest man on the moon"|
@@ -130,6 +131,7 @@
 165:08:00|3|Hammering boulder to retrieve fragments|
 165:36:42|3|Cernan falls|
 165:36:54|3|"Remind me to dust my camera"|
+165:48:27|3|Photo: Lunar Module in the far distance|
 166:05:36|2|Departed for Station 7|
 166:11:00|2|Video: Arrived at Station 7|Gathered samples and performed documentary and panoramic photography.
 166:29:50|2|Departed for Station 8 (Sculptured Hills)|One short stop to gather enroute samples.
@@ -152,11 +154,10 @@
 169:46:50|3|Uncovering of the plaque|
 169:51:44|3|Throwing object|
 170:13:58|2|ALSEP photography completed|
-170:16:43|2|Lunar neutron probe experiment retrieved|
-170:19:57|2|Lunar roving vehicle positioned to monitor Lunar Module ascent|
-170:21:37|3|Schmitt in the far distance near the LM from the final position of the rover|
-170:22:08|3|Cernan's speech about aerospace industry|
-170:27:29|3|Distant shot of Cernan walking back|
+170:19:57|2|Rover Parked|
+170:21:41|3|Schmitt waking back to LM|
+170:22:08|3|Cernan's speech about aerospace|
+170:28:20|3|Cernan walking back to LM|
 170:29:59|3|Schmitt throws his geology hammer|
 170:39:36|3|Video shot of Earth|
 170:41:17|3|Cernan's Last Steps speech|
@@ -178,7 +179,7 @@
 188:58:15|2|Terminal phase initiation|
 189:36:22|1|Video: Beginning rendezvous with Command Module|
 189:41:32|2|Good to see you|
-190:01:21|1|Video: Preparation for Lunar Docking|
+190:01:41|1|Video: Preparation for Lunar Docking|
 190:17:34|2|Lunar Docking|
 190:20:42|2|Message from the President|
 190:41:30|2|Hatch opened and crew reunited|

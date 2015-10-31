@@ -371,6 +371,14 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
+    //display prerendered 1024 height photos if photo div height smaller than 1024
+    if ($('#photodiv').height() <= 1024) {
+        var sizePath = "1024/";
+    } else {
+        sizePath = ""
+    }
+
+    html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp", photoObject[2]);
     html = html.replace("@photo_num", photoObject[3]);
@@ -612,7 +620,7 @@ function repopulateUtteranceTable(utteranceIndex) {
         } else {
             style = "";
         }
-        if (i >= 0) {
+        if (utteranceIndex + i >= 0) { //TODO verify that this accommodates the first mission utterance
             utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
         }
     }
