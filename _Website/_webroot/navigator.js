@@ -127,9 +127,9 @@ function initNavigator() {
             console.log("NAV: Tier3 clicked");
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
-        var timeStr = secondsToTimeStr(mouseXSeconds);
-        console.log("NAV: Jumping to " + timeStr);
-        seekToTime("timeid" + timeStr.split(":").join(""));
+        gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
+        console.log("NAV: Jumping to " + gCurrMissionTime);
+        seekToTime("timeid" + gCurrMissionTime.split(":").join(""));
     };
 }
 
