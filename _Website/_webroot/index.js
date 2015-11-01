@@ -382,8 +382,9 @@ function loadPhotoHtml(photoIndex) {
     html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp", photoObject[2]);
     html = html.replace("@photo_num", photoObject[3]);
+    var magNum = "AS17-" + photoObject[5] + "-";
     html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
-    html = (photoObject[5] != "") ? html.replace("@mag_number", photoObject[5] + "-") : html.replace("@mag_number", "");
+    html = (photoObject[5] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
     html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
     html = html.replace("@description", photoObject[7]);
 
