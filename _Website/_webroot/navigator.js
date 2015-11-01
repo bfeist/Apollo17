@@ -1,5 +1,3 @@
-var gMissionDurationSeconds = 1100166;
-var gCountdownSeconds = 9442;
 var gNavZoomFactor = 20;
 var gMouseOnNavigator = false;
 
@@ -157,7 +155,7 @@ function setDynamicWidthVariables() {
 
     gTier1Height = gNavigatorHeight * .17;
     gTier2Height = gNavigatorHeight * .23;
-    gTier3Height = (gNavigatorHeight * .50); //TODO -15 hack not understood for tier3height
+    gTier3Height = (gNavigatorHeight * .50);
 
     //var totalHeight = gTier1Height + gTier2Height + gTier3Height + (gTierSpacing * 2)
     //
@@ -512,7 +510,7 @@ function drawTier2() {
 
     //draw TOC items
     gLastTier2TextPosition = 1;
-    for (var i = 0; i < gTOCAll.length; i++) {
+    for (i = 0; i < gTOCAll.length; i++) {
         //if (gLastTier2TextPosition == 1 || gLastTier2TextPosition == "") {
         //    var textPosition = 2;
         //} else if (gLastTier2TextPosition == 2) {
@@ -538,7 +536,7 @@ function drawTier2() {
                     fontSize: 10 + gFontScaleFactor,
                     fillColor: gTOCTextColor
                 });
-                var textTop = tierBottom - textPosition * (gTier2Height / 3) + 6;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 6;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCAll[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -551,7 +549,7 @@ function drawTier2() {
     }
 
     //display photo ticks
-    for (var i = 0; i < gPhotoList.length; i++) {
+    for (i = 0; i < gPhotoList.length; i++) {
         if (gPhotoList[i][2] != "") {
             itemSecondsFromTierStart = timeStrToSeconds(gPhotoList[i][2]) - gTier2StartSeconds;
             if (itemSecondsFromTierStart >= 0  && itemSecondsFromTierStart <= secondsOnTier2) {
@@ -570,7 +568,7 @@ function drawTier2() {
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
     var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
 
-    for (var i = 0; i < missionDurationHours * 2; i++) {
+    for (i = 0; i < missionDurationHours * 2; i++) {
         itemSecondsFromTierStart = (i * 60 * 60) / 2 - gTier2StartSeconds;
         if (itemSecondsFromTierStart >= 0 && itemSecondsFromTierStart <= secondsOnTier2) {
             itemLocX = gTier2Left + itemSecondsFromTierStart * gTier2PixelsPerSecond;
@@ -752,11 +750,11 @@ function drawTier3() {
     //display utterance ticks
     for (i = 0; i < gUtteranceData.length; i++) {
         if (gUtteranceData[i][0] != "") {
-            itemSecondsFromLeft = Math.round(timeStrToSeconds(gUtteranceData[i][0])) - gTier3StartSeconds;
+            itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
             if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier3) {
                 itemLocX = itemSecondsFromLeft * gTier3PixelsPerSecond;
                 barHeight = gTier3Height / 14;
-                var barTop = gTier3Top + gTier3Height / 3;
+                barTop = gTier3Top + gTier3Height / 3;
                 var barBottom = barTop + barHeight;
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, barBottom);
