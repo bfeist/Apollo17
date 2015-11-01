@@ -89,6 +89,7 @@ function initNavigator() {
     };
 
     tool.onMouseMove = function (event) {
+        //console.log("on mouse move");
         gMouseOnNavigator = true;
         var mouseXSeconds;
         gNavCursorGroup.removeChildren();
@@ -140,7 +141,7 @@ function onMouseOutHandler() {
     if (typeof gNavCursorGroup != "undefined") {
         gNavCursorGroup.removeChildren();
     }
-    redrawAll();
+   redrawAll();
 }
 
 function setDynamicWidthVariables() {
@@ -193,6 +194,7 @@ function setDynamicWidthVariables() {
 }
 
 function redrawAll() {
+    //console.log("redrawAll()");
     setDynamicWidthVariables();
 
     drawTier1();
