@@ -1,3 +1,8 @@
+console.log("INIT: Loading index.js");
+
+var gMissionDurationSeconds = 1100166;
+var gCountdownSeconds = 9442;
+
 var gLastTimeIdMarker = '';
 var gLastTOCTimeId = '';
 var gLastTOCTimeIdMarker = '';
@@ -5,7 +10,6 @@ var gLastCommentaryTimeId = '';
 var gLastCommentaryTimeIdMarker = '';
 var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
-var gCurrMissionDate = null;
 var gIntervalID = null;
 var gIntroInterval = null;
 var gMediaList = [];
@@ -35,7 +39,14 @@ var gApplicationReadyIntervalID = null;
 var background_color = "#000000";
 var background_color_active = "#222222";
 
+//load the youtube API
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
 function onYouTubeIframeAPIReady() {
+    console.log("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
         videoId: '5yLfnY1Opwg',
         width: '100%',
@@ -509,7 +520,13 @@ function seekToTime(elementId){
 
 function displayHistoricalTimeDifferenceByTimeId(timeid) {
     //console.log("displayHistoricalTimeDifferenceByTimeId():" + timeid);
-    var launchDate = Date.parse("1972-12-07 5:33am GMT");
+    //TODO accommodate mission time change mid-mission
+
+    var launchDate = Date.parse("1972-12-07 0:33 -500");
+
+    //TODO revisit these blatant date hacks
+    //launchDate.setDate(launchDate.getDate() - 1); //required to get 43 years exactly during mission. Not understood why.
+    //launchDate.setHours(launchDate.getHours() + 1);
 
     var timeStr = timeid.substr(6);
     var sign = timeStr.substr(0,1);
@@ -521,62 +538,60 @@ function displayHistoricalTimeDifferenceByTimeId(timeid) {
     if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
         conversionMultiplier = -1;
     }
-    var timeidDate = launchDate.add({
+
+    var timeidDate = new Date(launchDate.getTime());
+
+    timeidDate.add({
+        days: -1, //TODO figure out hack
         hours: hours * conversionMultiplier,
         minutes: minutes * conversionMultiplier,
         seconds: seconds * conversionMultiplier
     });
-    //var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
-    //var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
+    var historicalDate = new Date(timeidDate.getTime()); //for display only
+    historicalDate.add({days: 1}); //TODO figure out hack
 
-    var timeDiff = Math.abs(Date.now().getTime() - timeidDate.getTime());
-    //var timeDiff = Math.abs(Date.parse("2015-12-07 5:33am GMT").getTime() - Date.parse("1972-12-07 5:33am GMT").getTime());
+    //var nowDate = Date.parse("2015-12-07 0:33 -500");
+    var nowDate = Date.now();
+    //if (nowDate.dst()) {
+        //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
+    //}
 
-    var msInMinute = 60 * 1000;
-    var msInHour = 60 * msInMinute;
-    var msInDay = 24 * msInHour;
-    var msInYear = 365 * msInDay;
+    var timeDiff = Math.abs(nowDate.getTime() - timeidDate.getTime());
 
-    timeDiff = timeDiff + msInHour; //no idea why I need to add an additional hour to get the time difference to be correct
+    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago";
 
-    var diffYears = Math.floor(timeDiff / msInYear);
-    timeDiff = timeDiff - diffYears * msInYear;
-    var diffDays = Math.floor(timeDiff / msInDay);
-    timeDiff = timeDiff - diffDays * msInDay;
-    var diffHours = Math.floor(timeDiff / msInHour);
-    timeDiff = timeDiff - diffHours * msInHour;
-    var diffMinutes = Math.floor(timeDiff / msInMinute);
-    timeDiff = timeDiff - diffMinutes * msInMinute;
-    var diffSeconds = Math.floor(timeDiff / 1000);
-
-    var humanizedRealtimeDifference = "Exactly " + diffYears + " years, " + diffDays + " days, " + diffHours + " hours, " + diffMinutes + " minutes, " + diffSeconds + " seconds ago.";
-
-    $(".currentDate").text(Date.now().toDateString());
-    $(".currentTime").text(Date.now().toLocaleTimeString());
+    $(".currentDate").text(nowDate.toDateString());
+    $(".currentTime").text(nowDate.toLocaleTimeString());
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
-    $(".historicalDate").text(timeidDate.toDateString());
-    $(".historicalTime").text(timeidDate.toLocaleTimeString());
+    $(".historicalDate").text(historicalDate.toDateString());
+    $(".historicalTime").text(historicalDate.toLocaleTimeString());
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
-    //$("#roundedMissionTime").text(gCurrMissionDate);
+    var launchDate = Date.parse("1972-12-07 0:33am -500");
+    //var nowDate = Date.parse("2015-12-07 0:33am -500");
     var nowDate = Date.now();
-    //var d = Date.parse("2015-12-07 6:33am GMT");
-    var currDayOfMonth = nowDate.getDate();
+
+    var histDate = new Date(nowDate.getTime());
+
+    //if (histDate.dst()) {
+    //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
+    //}
+    var currDayOfMonth = histDate.getDate();
 
     if (currDayOfMonth >= 19) {
-        nowDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+        histDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 7));
     } else if (currDayOfMonth < 7) {
-        nowDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
+        histDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
     }
-    var launchDate = Date.parse("1972-12-07 5:33am GMT");
-    nowDate.setMonth(launchDate.getMonth());
-    nowDate.setYear(launchDate.getYear());
+
+    histDate.setMonth(launchDate.getMonth());
+    histDate.setYear(launchDate.getYear());
 
     //find the difference between rounded date and mission start time to determine MET to jump to
     // Convert both dates to milliseconds
-    var roundedDate_ms = nowDate.getTime();
+    var roundedDate_ms = histDate.getTime();
     var launchDate_ms = launchDate.getTime();
     var difference_ms = roundedDate_ms - launchDate_ms;
 
@@ -585,7 +600,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var h = Math.floor( (difference_ms) / msInHour);
     var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
 
-    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(nowDate.getSeconds(),2);
+    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
     //console.log("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
     ga('send', 'event', 'button', 'click', 'snap to real-time');
 
@@ -836,7 +851,7 @@ function timeStrToSeconds(timeStr) {
 
 function setIntroTimeUpdatePoller() {
     return window.setInterval(function () {
-        console.log("setIntroTimeUpdatePoller()");
+        //console.log("setIntroTimeUpdatePoller()");
         displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
     }, 1000);
 }
@@ -851,15 +866,26 @@ function oneMinuteToLaunchButtonClick() {
     initializePlayback();
 }
 
+Date.prototype.stdTimezoneOffset = function() {
+    var jan = new Date(this.getFullYear(), 0, 1);
+    var jul = new Date(this.getFullYear(), 6, 1);
+    return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+};
+
+Date.prototype.dst = function() {
+    return this.getTimezoneOffset() < this.stdTimezoneOffset();
+};
+
 //on doc init
 jQuery(function ($) {
+    console.log("INIT: jQuery(function ($)");
     var modal = $('#basic-modal-content');
     modal.modal({opacity: 90});
 
     gIntroInterval = setIntroTimeUpdatePoller();
 
     $('.simplemodal-wrap').isLoading({ text: "Loading", position: "overlay" });
-    console.log("Loading overlay on");
+    //console.log("Loading overlay on");
 
     $("#historicalBtn").button();
     $("#fullScreenBtn").button();
