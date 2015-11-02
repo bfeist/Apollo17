@@ -71,10 +71,10 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     gApplicationReady += 1; //increment app ready indicator.
     console.log("APPREADY: onPlayerReady: " + gApplicationReady);
-    if (gMissionTimeParamSent == 0) {
+    //if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
         //seekToTime("timeid-000100"); //jump to 1 minute to launch
-    }
+    //}
 }
 
 // The API calls this function when the player's state changes.
@@ -166,17 +166,19 @@ function setAutoScrollPoller() {
                 totalSec = totalSec + 9600;
             }
         }
-        var hours = Math.abs(parseInt(totalSec / 3600));
-        var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
-        var seconds = Math.abs(parseInt(totalSec)) % 60;
-        seconds = Math.floor(seconds);
 
-        if (onCountdown) {
-            var hoursText = "-" + padZeros(hours, 2);
-        } else {
-            hoursText = padZeros(hours, 3);
-        }
-        gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+        gCurrMissionTime = secondsToTimeStr(totalSec);
+        //var hours = Math.abs(parseInt(totalSec / 3600));
+        //var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
+        //var seconds = Math.abs(parseInt(totalSec)) % 60;
+        //seconds = Math.floor(seconds);
+        //
+        //if (onCountdown) {
+        //    var hoursText = "-" + padZeros(hours, 2);
+        //} else {
+        //    hoursText = padZeros(hours, 3);
+        //}
+        //gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
             var timeId = "timeid" + gCurrMissionTime.split(":").join("");
@@ -194,9 +196,12 @@ function setAutoScrollPoller() {
             //scroll nav cursor
             if (!gMouseOnNavigator) {
                 redrawAll();
+            } else {
+                drawCursor(totalSec);
+                paper.view.draw();
             }
             //drawCursor(timeStrToSeconds(gCurrMissionTime));
-            paper.view.draw();
+
         }
     }, 500); //polling frequency in milliseconds
 }
@@ -464,6 +469,8 @@ function seekToTime(elementId){
     var signToggle = (sign == "-") ? -1 : 1;
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
+    gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
+
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
     for (var i = 0; i < gMediaList.length; ++i) {
         var itemStartTimeArray = gMediaList[i][2].split(":");
@@ -558,7 +565,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeid) {
 
     var timeDiff = Math.abs(nowDate.getTime() - timeidDate.getTime());
 
-    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago";
+    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
 
     $(".currentDate").text(nowDate.toDateString());
     $(".currentTime").text(nowDate.toLocaleTimeString());
@@ -679,6 +686,8 @@ function initializePlayback() {
         //player.src(gMediaSrcURL + "_- - 000.mp4");
         seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
         //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
+    } else {
+        //TODO
     }
     clearInterval(gApplicationReadyIntervalID);
     gApplicationReadyIntervalID = null;
@@ -810,6 +819,7 @@ function setApplicationReadyPoller() {
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
             $('.simplemodal-wrap').isLoading( "hide" );
+            $('body').isLoading( "hide" );
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
@@ -880,17 +890,27 @@ Date.prototype.dst = function() {
 //on doc init
 jQuery(function ($) {
     console.log("INIT: jQuery(function ($)");
-    var modal = $('#basic-modal-content');
-    modal.modal({opacity: 90});
+    if (typeof $.getUrlVar('t') != "undefined") {
+        gMissionTimeParamSent = 1;
+    } else {
+        gMissionTimeParamSent = 0;
+    }
 
-    gIntroInterval = setIntroTimeUpdatePoller();
+    if (gMissionTimeParamSent == 0) {
+        var modal = $('#basic-modal-content');
+        modal.modal({opacity: 90});
 
-    $('.simplemodal-wrap').isLoading({ text: "Loading", position: "overlay" });
-    //console.log("Loading overlay on");
+        gIntroInterval = setIntroTimeUpdatePoller();
 
-    $("#historicalBtn").button();
-    $("#fullScreenBtn").button();
-    $("#launchBtn").button();
+        $('.simplemodal-wrap').isLoading({text: "Loading", position: "overlay"});
+        //console.log("Loading overlay on");
+
+        $("#historicalBtn").button();
+        $("#fullScreenBtn").button();
+        $("#launchBtn").button();
+    } else {
+        $('body').isLoading({text: "Loading", position: "overlay"});
+    }
 
     //init tabs
     $(".mid-center").tabs();
@@ -949,11 +969,6 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 
 //on document ready
 $(document).ready(function() {
-    if (typeof $.getUrlVar('t') != "undefined") {
-        gMissionTimeParamSent = 1;
-    } else {
-        gMissionTimeParamSent = 0;
-    }
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();

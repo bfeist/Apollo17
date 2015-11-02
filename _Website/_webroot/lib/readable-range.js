@@ -67,31 +67,31 @@
         }
         var result = [];
 
-        //if (yDiff) {
-        //    result.push(pluralize(yDiff, 'year'));
-        //}
-        //if (mDiff) {
-        //    result.push(pluralize(mDiff, 'month'));
-        //}
-        //if (dDiff) {
-        //    result.push(pluralize(dDiff, 'day'));
-        //}
-        //if (hourDiff) {
-        //    result.push(pluralize(hourDiff, 'hour'));
-        //}
-        //if (minDiff) {
-        //    result.push(pluralize(minDiff, 'minute'));
-        //}
-        //if (secDiff) {
-        //    result.push(pluralize(secDiff, 'second'));
-        //}
+        if (yDiff) {
+            result.push(pluralize(yDiff, 'year'));
+        }
+        if (mDiff) {
+            result.push(pluralize(mDiff, 'month'));
+        }
+        if (dDiff) {
+            result.push(pluralize(dDiff, 'day'));
+        }
+        if (hourDiff) {
+            result.push(pluralize(hourDiff, 'hour'));
+        }
+        if (minDiff) {
+            result.push(pluralize(minDiff, 'minute'));
+        }
+        if (secDiff) {
+            result.push(pluralize(secDiff, 'second'));
+        }
 
-        result.push(pluralize(yDiff, 'year'));
-        result.push(pluralize(mDiff, 'month'));
-        result.push(pluralize(dDiff, 'day'));
-        result.push(pluralize(hourDiff, 'hour'));
-        result.push(pluralize(minDiff, 'minute'));
-        result.push(pluralize(secDiff, 'second'));
+        //result.push(pluralize(yDiff, 'year'));
+        //result.push(pluralize(mDiff, 'month'));
+        //result.push(pluralize(dDiff, 'day'));
+        //result.push(pluralize(hourDiff, 'hour'));
+        //result.push(pluralize(minDiff, 'minute'));
+        //result.push(pluralize(secDiff, 'second'));
 
         return result.join(STRINGS.delimiter);
     };
