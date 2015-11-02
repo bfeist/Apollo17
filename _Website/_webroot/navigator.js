@@ -1,4 +1,3 @@
-var gMissionDurationSeconds = 1100166;
 var gNavZoomFactor = 20;
 var gMouseOnNavigator = false;
 
@@ -826,25 +825,4 @@ function drawTier3() {
             //}
         }
     }
-}
-
-function secondsToTimeStr(totalSeconds) {
-    var hours = Math.abs(parseInt(totalSeconds / 3600));
-    var minutes = Math.abs(parseInt(totalSeconds / 60)) % 60 % 60;
-    var seconds = Math.abs(parseInt(totalSeconds)) % 60;
-    seconds = Math.floor(seconds);
-    var timeStr = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
-    if (totalSeconds < 0) {
-        timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
-    }
-    return timeStr;
-}
-
-function timeStrToSeconds(timeStr) {
-    var sign = timeStr.substr(0,1);
-    var hours = parseInt(timeStr.substr(0,3));
-    var minutes = parseInt(timeStr.substr(4,2));
-    var seconds = parseInt(timeStr.substr(7,2));
-    var signToggle = (sign == "-") ? -1 : 1;
-    return Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
 }
