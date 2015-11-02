@@ -217,6 +217,9 @@ canvas[resize] {
     height: 100%;
 }
 
+/* ----------------- mission photo -----------------*/
+
+
 .imageBlock {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -242,16 +245,15 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    /*bottom: -200px;*/
-    bottom: 0px;
+    bottom: -200px;
+    /*bottom: 0px;*/
     left: 0;
     width: 100%;
 
     background-color: #222222;
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 5px;
-
-    transition: all 0.5s ease-in-out;
+    /*transition: all 0.5s ease-in-out;*/
 }
 
 #photodiv {
@@ -269,7 +271,7 @@ canvas[resize] {
     font-size:15px;
     font-family: Arial;
     font-weight:bold;
-    color: #999999;
+    color: #FFFFFF;
 }
 .photoTable {
     width: 100%;
@@ -280,7 +282,7 @@ canvas[resize] {
     font-size:12px;
     font-family: Arial;
     font-weight:normal;
-    color: grey;
+    color: #FFFFFF;
 }
 .photoTable td {
     padding:5px;
@@ -290,6 +292,17 @@ canvas[resize] {
     vertical-align:middle;
 }
 
+/* ----------------- photo gallery -----------------*/
+
+.outer-east {
+    overflow: scroll;
+    /*background-color: #DEDDD1;*/
+    background-color: #000000;
+}
+
+
+
+/* ----------------- intro overlay -----------------*/
 
 /*.date {*/
     /*font-weight: bold;*/

@@ -214,7 +214,7 @@ function padZeros(num, size) {
 
 //--------------- search for closest utterance time to video time (used upon seeked video) --------------------
 function findClosestUtterance(secondsSearch) {
-    //console.log("findClosestUtterance: finding closest utterance to (seconds): " + secondsSearch);
+    console.log("findClosestUtterance():" + secondsSearch);
     var found = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -240,7 +240,7 @@ function findClosestUtterance(secondsSearch) {
 }
 
 function findClosestTOC(secondsSearch) {
-    console.log("findClosestTOC(): finding closest TOC to (seconds): " + secondsSearch);
+    console.log("findClosestTOC():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -268,7 +268,7 @@ function findClosestTOC(secondsSearch) {
 }
 
 function findClosestCommentary(secondsSearch) {
-    console.log("findClosestCommentary(): finding closest commentary to (seconds): " + secondsSearch);
+    console.log("findClosestCommentary():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -355,104 +355,6 @@ function scrollCommentaryToTimeID(timeId) {
         } else {
             //console.log("scrollCommentaryToTimeID(): Commentary item already scrolled to. Not scrolling");
         }
-    }
-}
-
-function showCurrentPhoto(timeId) {
-    var timeStr = parseInt(timeId.substr(6));
-    //var closestTime = closest(timeStr, gPhotoIndex);
-
-    //find closest photo and display it if it has changed
-    var currentClosestTime = parseInt(gPhotoIndex[0]);
-    var diff = Math.abs(timeStr - currentClosestTime);
-    for (var i = 0; i < gPhotoIndex.length; i++) {
-        if (gPhotoIndex[i] > timeStr) {
-            var photoIndexNum = i - 1;
-            break;
-        }
-        var newdiff = Math.abs(timeStr - parseInt(gPhotoIndex[i]));
-        if (newdiff < diff) {
-            diff = newdiff;
-            currentClosestTime = gPhotoIndex[i];
-        }
-    }
-    if (currentClosestTime != gCurrentPhotoTimestamp) {
-        gCurrentPhotoTimestamp = currentClosestTime;
-        loadPhotoHtml(photoIndexNum);
-    }
-}
-
-function loadPhotoHtml(photoIndex) {
-    console.log('loadPhotoHtml():' + photoIndex);
-    var photoObject = gPhotoList[photoIndex];
-    var html = $('#photoTemplate').html();
-
-    //display prerendered 1024 height photos if photo div height smaller than 1024
-    if ($('#photodiv').height() <= 1024) {
-        var sizePath = "1024/";
-    } else {
-        sizePath = ""
-    }
-
-    html = html.replace(/@sizepath/g , sizePath);
-    html = html.replace(/@filename/g , photoObject[1]);
-    html = html.replace("@timestamp", photoObject[2]);
-    html = html.replace("@photo_num", photoObject[3]);
-    var magNum = "AS17-" + photoObject[5] + "-";
-    html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
-    html = (photoObject[5] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
-    html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
-    html = html.replace("@description", photoObject[7]);
-
-    var photoDiv = $("#photodiv");
-    photoDiv.html('');
-    photoDiv.append(html);
-
-    //prescale to height using css before calling scaleMissionImage so that it looks partically scaled as it loads
-    var imageContainerImage = $('#imageContainerImage');
-    imageContainerImage.css("width", 'auto');
-    imageContainerImage.css("height", photoDiv.height());
-
-    //when image finished loading, scale it proportionally both horizontally and vertically
-    imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
-        //console.log('***image load complete');
-        scaleMissionImage();
-    });
-}
-
-function scaleMissionImage() {
-    //console.log('scaleMissionImage()');
-    var photodiv = $('#photodiv');
-    var image = $('#imageContainerImage');
-
-    var maxWidth = photodiv.width(); // Max width for the image
-    var maxHeight = photodiv.height();    // Max height for the image
-    //console.log("scaleMissionImage():maxWidth " + maxWidth);
-    //console.log("scaleMissionImage():maxHeight " + maxHeight);
-    var ratio = 0;  // Used for aspect ratio
-    //var width = image.width();    // Current image width
-    //var height =image.height();  // Current image height
-
-    var width = image.get(0).naturalWidth;
-    var height =image.get(0).naturalHeight;
-    //console.log("scaleMissionImage():naturalWidth " + width);
-    //console.log("scaleMissionImage():naturalHeight " + height);
-
-    // Check if the current width is larger than the max7
-    if(width > maxWidth){
-        ratio = maxWidth / width;   // get ratio for scaling image
-        image.css("width", maxWidth); // Set new width
-        image.css("height", height * ratio);  // Scale height based on ratio
-
-        height = height * ratio;    // Reset height to match scaled image
-        width = width * ratio;    // Reset width to match scaled image
-    }
-
-    // Check if current or newly width-scaled height is larger than max
-    if(height > maxHeight){
-        ratio = maxHeight / height; // get ratio for scaling image
-        image.css("height", maxHeight);   // Set new height
-        image.css("width", width * ratio);    // Scale width based on ratio
     }
 }
 
@@ -651,7 +553,7 @@ function repopulateUtteranceTable(utteranceIndex) {
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
-    console.log("getUtteranceObjectHTML():" + utteranceIndex);
+    //console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
@@ -665,6 +567,119 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     }
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
+}
+
+//------------------------------------------------- photo display and gallery -------------------------------------------------
+
+function populatePhotoGallery() {
+    var photoGallery = $('#photoGallery');
+    photoGallery.html('');
+
+    for (var i = 0; i < gPhotoIndex.length; i++) {
+        var photoObject = gPhotoList[i];
+        photoGallery.append(photoObject[1] + "<BR>");
+    }
+    console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
+    gApplicationReady += 1;
+}
+
+function showCurrentPhoto(timeId) {
+    //console.log('showCurrentPhoto():' + timeId);
+    var timeStr = parseInt(timeId.substr(6));
+    //var closestTime = closest(timeStr, gPhotoIndex);
+
+    //find closest photo and display it if it has changed
+    var currentClosestTime = parseInt(gPhotoIndex[0]);
+    var diff = Math.abs(timeStr - currentClosestTime);
+    for (var i = 0; i < gPhotoIndex.length; i++) {
+        if (gPhotoIndex[i] > timeStr) {
+            var photoIndexNum = i - 1;
+            break;
+        }
+        var newdiff = Math.abs(timeStr - parseInt(gPhotoIndex[i]));
+        if (newdiff < diff) {
+            diff = newdiff;
+            currentClosestTime = gPhotoIndex[i];
+        }
+    }
+    if (currentClosestTime != gCurrentPhotoTimestamp) {
+        gCurrentPhotoTimestamp = currentClosestTime;
+        loadPhotoHtml(photoIndexNum);
+    }
+}
+
+function loadPhotoHtml(photoIndex) {
+    console.log('loadPhotoHtml():' + photoIndex);
+    var photoDiv = $("#photodiv");
+    var photoObject = gPhotoList[photoIndex];
+    var html = $('#photoTemplate').html();
+
+    //display prerendered 1024 height photos if photo div height smaller than 1024
+    if (photoDiv.height() <= 1024) {
+        var sizePath = "1024/";
+    } else {
+        sizePath = ""
+    }
+
+    html = html.replace(/@sizepath/g , sizePath);
+    html = html.replace(/@filename/g , photoObject[1]);
+    html = html.replace("@timestamp", photoObject[2]);
+    html = html.replace("@photo_num", photoObject[3]);
+    var magNum = "AS17-" + photoObject[5] + "-";
+    html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
+    html = (photoObject[5] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
+    html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
+    html = html.replace("@description", photoObject[7]);
+
+    photoDiv.html('');
+    photoDiv.append(html);
+
+    //prescale to height using css before calling scaleMissionImage so that it looks partically scaled as it loads
+    var imageContainerImage = $('#imageContainerImage');
+    imageContainerImage.css("width", 'auto');
+    imageContainerImage.css("height", photoDiv.height());
+
+    //when image finished loading, scale it proportionally both horizontally and vertically
+    imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
+        //console.log('***image load complete');
+        scaleMissionImage();
+    });
+}
+
+function scaleMissionImage() {
+    //console.log('scaleMissionImage()');
+    var photodiv = $('#photodiv');
+    var image = $('#imageContainerImage');
+
+    var maxWidth = photodiv.width(); // Max width for the image
+    var maxHeight = photodiv.height();    // Max height for the image
+    //console.log("scaleMissionImage():maxWidth " + maxWidth);
+    //console.log("scaleMissionImage():maxHeight " + maxHeight);
+    var ratio = 0;  // Used for aspect ratio
+    //var width = image.width();    // Current image width
+    //var height =image.height();  // Current image height
+
+    var width = image.get(0).naturalWidth;
+    var height =image.get(0).naturalHeight;
+    //console.log("scaleMissionImage():naturalWidth " + width);
+    //console.log("scaleMissionImage():naturalHeight " + height);
+
+    // Check if the current width is larger than the max7
+    if(width > maxWidth){
+        ratio = maxWidth / width;   // get ratio for scaling image
+        image.css("width", maxWidth); // Set new width
+        image.css("height", height * ratio);  // Scale height based on ratio
+
+        height = height * ratio;    // Reset height to match scaled image
+        width = width * ratio;    // Reset width to match scaled image
+    }
+
+    // Check if current or newly width-scaled height is larger than max
+    if(height > maxHeight){
+        ratio = maxHeight / height; // get ratio for scaling image
+        image.css("height", maxHeight);   // Set new height
+        image.css("width", width * ratio);    // Scale width based on ratio
+    }
 }
 
 //--------------- initializePlayback ---------------
@@ -701,6 +716,9 @@ $.when(ajaxGetMediaIndex(),
     // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
         gApplicationReady += 1;
         console.log("APPREADY: Ajax loaded: " + gApplicationReady);
+
+        //populatePhotoGallery next
+        populatePhotoGallery();
 });
 
 //--------------- index file handling --------------------
@@ -824,8 +842,8 @@ function processMissionStagesData(allText) {
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
-        if (gApplicationReady >= 3) {
-            console.log("APPREADY = 3! App Ready!");
+        if (gApplicationReady >= 4) {
+            console.log("APPREADY = 4! App Ready!");
             if (gMissionTimeParamSent == 0) {
                 $('.simplemodal-wrap').isLoading("hide");
             } else {
@@ -881,13 +899,15 @@ function setIntroTimeUpdatePoller() {
 
 function historicalButtonClick() {
     window.clearInterval(gIntroInterval);
-    gIntroInterval = null;
     seekToTime(getNearestHistoricalMissionTimeId());
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     gIntroInterval = null;
 }
 
 function oneMinuteToLaunchButtonClick() {
     window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     initializePlayback();
 }
 
@@ -934,12 +954,14 @@ jQuery(function ($) {
         center__paneSelector:	".outer-center"
         ,   north__paneSelector:    ".outer-north"
         ,   west__paneSelector:     ".outer-west"
+        ,   east__paneSelector:     ".outer-east"
         ,   north__togglerLength_open: 0
         ,   center__togglerLength_open: 0
         ,   west__togglerLength_open: 0
         ,	north__size:			"13%"
         ,   north__minSize:         120
         ,   west__size:             "40%"
+        ,   east__size:             150
         ,	spacing_open:			0  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
