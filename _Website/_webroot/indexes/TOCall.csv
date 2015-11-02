@@ -18,17 +18,19 @@
 004:45:06|2|Spacecraft ejection|
 004:49:53|3|Video: S-IVB visible|
 005:49:50|2|Photographing Earth - "fragile-appearing piece of blue"|
+005:52:25|2|Schmitt: "I'm not keeping you awake, am I?"|
 009:00:01|1|Crew Sleep Period Start|
 015:02:45|1|Crew wake-up|
+018:02:55|1|News read to crew|
 024:51:32|2|Jack Schmitt philosophical about observing the earth|
 025:26:26|1|Crew Sleep Period Start|
 033:00:38|1|Crew wake-up|
 034:10:07|2|Video: crew onboard film|
+034:10:07|2|News read to crew|
 035:30:00|1|First mid-course correction|
 037:00:40|2|Crew listening to music|
-042:57:34|2|Video: Start of onboard heat flow and convection experiment|
+042:59:32|2|Video: Start of onboard heat flow and convection experiment|
 045:30:18|2|Video: Continuation of onboard heat flow and convection experiment|
-048:14:48|2|Video: Earth and moon|
 048:36:12|1|Crew Sleep Period Start|
 056:35:40|1|Crew wake-up with music (Difficulty waking up)|
 059:57:53|2|Entering the LM 2nd time|
@@ -60,8 +62,9 @@
 117:14:50|3|"Don't lock the hatch"|
 117:18:57|3|Jack Schmitt challenges the next generation|
 117:24:50|2|Rover Deployment|
-117:31:09|3|Lunar roving vehicle offloaded|
-117:44:16|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
+117:31:09|3|Lunar Roving Vehicle (LRV) offloaded|
+117:44:16|3|LRV deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
+117:48:24|3|LRV Test Drive|
 118:14:02|2|Video: First television from lunar surface|
 118:21:57|2|United States flag deployed|Flag documented with photographs and stereo photography.
 118:34:43|2|Cosmic ray experiment deployed|
@@ -85,14 +88,14 @@
 138:28:37|1|EVA-2 Start|
 140:34:20|2|EVA-2 Watches started|
 140:45:41|2|Video: EVA-2|
-141:19:00|3|Lunar roving vehicle loaded for traverse|
-141:21:55|2|Departed for Surface Electrical Properties experiment site|
-141:27:05|2|Arrived at Surface Electrical Properties experiment site|Activated experiment, gathered samples, and performed panoramic photography.
+141:19:00|3|LRV loaded for traverse|
+141:21:55|2|Departed for SEP experiment site|
+141:27:05|2|Arrived at SEP site|Activated experiment, gathered samples, and performed panoramic photography.
 141:31:48|2|Departed for Station 2 (South Massif)|Four short stops; one to deploy seismic profiling experiment explosive charge 4, and three to gather enroute samples.
 142:45:50|2|Video: Arrived at Station 2|Gathered samples including a rake sample, and performed documentary and panoramic photography.
 142:50:48|3|Cernan dusts lens at Station 2 "can I change your oil?"|
 142:59:45|3|Cernan "busting my butt"|
-143:19:40|3|Camera on "mother earth" - "isn't that pretty"|
+143:19:40|3|Camera on "mother earth"|
 143:22:30|3|"You know, I look out there, I'm not sure I really believe it all."|
 143:26:13|3|"Maybe time's different in space. Adventures in space and time."|
 143:40:44|3|"One-scoop-Schmitt, they call me."|
@@ -120,11 +123,11 @@
 163:32:48|1|EVA-3 Start|
 163:33:40|2|EVA-3 Watches started|
 163:46:15|3|Video: EVA-3|
-163:56:11|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
+163:56:11|2|LRV loaded for traverse|Performed panoramic and 500mm photography.
 164:00:16|2|Cosmic ray experiment retrieved|
 164:07:08|3|Jack Schmitt, "Tallest man on the moon"|
-164:11:19|2|Departed for Surface Electrical Properties experiment site|
-164:18:35|2|Arrived at Surface Electrical Properties experiment site|Activated the experiment, gathered samples, and performed documentary photography.
+164:11:19|2|Departed for SEP site|
+164:18:35|2|Arrived at SEP site|Activated the experiment, gathered samples, and performed documentary photography.
 164:22:32|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples
 164:53:10|2|Video: Arrived at Station 6|Gathered samples including a single core tube sample and a rake sample, and performed documentary, panoramic, and 500-mm photography.
 165:00:57|3|Schmitt's face visible on video|
@@ -137,9 +140,9 @@
 166:29:50|2|Departed for Station 8 (Sculptured Hills)|One short stop to gather enroute samples.
 166:50:01|2|Video: Arrived at Station 8|Gathered samples including rake and trench samples, and performed documentary and panoramic photography.
 166:51:21|3|"I think your LMP just ran away"|
-167:06:57|3|Jack running and bouncing down hill|
+167:06:57|3|Jack running|
 167:07:26|3|Jack skis down hill|
-167:10:03|3|Cernan's two legged hopping, "I can cover ground like a kangaroo"|
+167:10:03|3|Cernan: "I can cover ground like a kangaroo"|
 167:32:28|2|Departed for Station 9 (Van Serg Crater)|
 167:34:44|3|Trying to blow dust off the camera|
 167:55:48|2|Video: Arrived at Station 9|Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double coretube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.
@@ -154,7 +157,7 @@
 169:46:50|3|Uncovering of the plaque|
 169:51:44|3|Throwing object|
 170:13:58|2|ALSEP photography completed|
-170:19:57|2|Rover Parked|
+170:19:57|2|LRV Parked|
 170:21:41|3|Schmitt waking back to LM|
 170:22:08|3|Cernan's speech about aerospace|
 170:28:20|3|Cernan walking back to LM|
@@ -241,15 +244,14 @@
 301:00:30|2|Christmas spirit. "Looks like it's really snowing" (out the window)|
 301:17:18|1|Second midcourse correction|
 304:03:40|1|Command module/service module separation|
-304:17:46|1|Reentery into Earth's atmosphere (400,000 feet, 32,000 feet per second)|
-304:18:57|2|Video: Begin reentry blackout|
-304:22:52|2|End reentry blackout|
-304:26:20|2|Forward heat shield jettison|
-304:26:22|2|Drogue deployment|
-304:27:14|2|Main parachute deployment|
-304:28:55|2|Three minutes to splashdown|
+304:17:46|1|Reentery begins|
+304:18:57|2|Video: Begin blackout|
+304:26:22|2|Drogue chute|
+304:27:14|2|Main parachute|
+304:28:55|2|Pre-splashdown|
 304:31:50|1|Splashdown|
-304:33:44|1|Crew retrieval by ELS swimmers|
+304:22:33|2|Video: Mission Control|
+304:33:44|1|Crew retrieval|
 305:22:35|1|Crew onboard USS Ticonderoga|
 305:27:32|1|Speeches by the crew|
 305:35:24|0|End of coverage|

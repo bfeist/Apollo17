@@ -643,6 +643,7 @@ function repopulateUtteranceTable(utteranceIndex) {
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
+    console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);

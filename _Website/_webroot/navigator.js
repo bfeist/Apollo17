@@ -62,10 +62,11 @@ $(document).ready(function() {
     $("#myCanvas").mouseleave(function() {
         onMouseOutHandler();
     });
-    $(window).mouseleave(function() {
-        onMouseOutHandler();
-        //console.log("left window");
-    });
+    //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
+    //$(window).mouseleave(function() {
+    //    onMouseOutHandler();
+    //    //console.log("left window");
+    //});
 });
 
 function initNavigator() {
@@ -129,6 +130,7 @@ function initNavigator() {
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
+        //redrawAll();
         console.log("NAV: Jumping to " + gCurrMissionTime);
         seekToTime("timeid" + gCurrMissionTime.split(":").join(""));
     };
