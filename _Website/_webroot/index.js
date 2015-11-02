@@ -470,6 +470,7 @@ function seekToTime(elementId){
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
 
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
+    redrawAll();
 
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
     for (var i = 0; i < gMediaList.length; ++i) {
@@ -666,6 +667,29 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
+//--------------- initializePlayback ---------------
+
+function initializePlayback() {
+    console.log("initializePlayback()");
+    if (gMissionTimeParamSent == 0) {
+        seekToTime("timeid-000100"); //jump to 1 minute to launch
+    } else {
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        if (typeof paramMissionTime != "undefined") {
+            var timeId = "timeid" + paramMissionTime.split(":").join("");
+            seekToTime(timeId);
+        } else {
+            console.log("Invalid t Parameter");
+            seekToTime("timeid-000100"); //jump to 1 minute to launch
+        }
+    }
+    clearInterval(gApplicationReadyIntervalID);
+    gApplicationReadyIntervalID = null;
+    gIntervalID = setAutoScrollPoller();
+}
+
+
+
 //--------------- async page initialization calls ---------------
 
 $.when(ajaxGetMediaIndex(),
@@ -678,22 +702,6 @@ $.when(ajaxGetMediaIndex(),
         gApplicationReady += 1;
         console.log("APPREADY: Ajax loaded: " + gApplicationReady);
 });
-
-function initializePlayback() {
-    console.log("initializePlayback()");
-    if (gMissionTimeParamSent == 0) {
-        //event.target.playVideo();
-        //player.src(gMediaSrcURL + "_- - 000.mp4");
-        seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
-        //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
-    } else {
-        //TODO
-    }
-    clearInterval(gApplicationReadyIntervalID);
-    gApplicationReadyIntervalID = null;
-
-    gIntervalID = setAutoScrollPoller();
-}
 
 //--------------- index file handling --------------------
 
@@ -818,8 +826,12 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
-            $('.simplemodal-wrap').isLoading( "hide" );
-            $('body').isLoading( "hide" );
+            if (gMissionTimeParamSent == 0) {
+                $('.simplemodal-wrap').isLoading("hide");
+            } else {
+                $('body').isLoading("hide");
+                initializePlayback();
+            }
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
@@ -869,7 +881,9 @@ function setIntroTimeUpdatePoller() {
 
 function historicalButtonClick() {
     window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
     seekToTime(getNearestHistoricalMissionTimeId());
+    gIntroInterval = null;
 }
 
 function oneMinuteToLaunchButtonClick() {
