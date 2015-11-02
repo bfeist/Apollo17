@@ -1,3 +1,8 @@
+console.log("INIT: Loading index.js");
+
+var gMissionDurationSeconds = 1100166;
+var gCountdownSeconds = 9442;
+
 var gLastTimeIdMarker = '';
 var gLastTOCTimeId = '';
 var gLastTOCTimeIdMarker = '';
@@ -5,7 +10,6 @@ var gLastCommentaryTimeId = '';
 var gLastCommentaryTimeIdMarker = '';
 var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
-var gCurrMissionDate = null;
 var gIntervalID = null;
 var gIntroInterval = null;
 var gMediaList = [];
@@ -35,7 +39,14 @@ var gApplicationReadyIntervalID = null;
 var background_color = "#000000";
 var background_color_active = "#222222";
 
+//load the youtube API
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
 function onYouTubeIframeAPIReady() {
+    console.log("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
         videoId: '5yLfnY1Opwg',
         width: '100%',
@@ -60,10 +71,10 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     gApplicationReady += 1; //increment app ready indicator.
     console.log("APPREADY: onPlayerReady: " + gApplicationReady);
-    if (gMissionTimeParamSent == 0) {
+    //if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
         //seekToTime("timeid-000100"); //jump to 1 minute to launch
-    }
+    //}
 }
 
 // The API calls this function when the player's state changes.
@@ -155,17 +166,19 @@ function setAutoScrollPoller() {
                 totalSec = totalSec + 9600;
             }
         }
-        var hours = Math.abs(parseInt(totalSec / 3600));
-        var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
-        var seconds = Math.abs(parseInt(totalSec)) % 60;
-        seconds = Math.floor(seconds);
 
-        if (onCountdown) {
-            var hoursText = "-" + padZeros(hours, 2);
-        } else {
-            hoursText = padZeros(hours, 3);
-        }
-        gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+        gCurrMissionTime = secondsToTimeStr(totalSec);
+        //var hours = Math.abs(parseInt(totalSec / 3600));
+        //var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
+        //var seconds = Math.abs(parseInt(totalSec)) % 60;
+        //seconds = Math.floor(seconds);
+        //
+        //if (onCountdown) {
+        //    var hoursText = "-" + padZeros(hours, 2);
+        //} else {
+        //    hoursText = padZeros(hours, 3);
+        //}
+        //gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
             var timeId = "timeid" + gCurrMissionTime.split(":").join("");
@@ -183,9 +196,12 @@ function setAutoScrollPoller() {
             //scroll nav cursor
             if (!gMouseOnNavigator) {
                 redrawAll();
+            } else {
+                drawCursor(totalSec);
+                paper.view.draw();
             }
             //drawCursor(timeStrToSeconds(gCurrMissionTime));
-            paper.view.draw();
+
         }
     }, 500); //polling frequency in milliseconds
 }
@@ -367,14 +383,24 @@ function showCurrentPhoto(timeId) {
 }
 
 function loadPhotoHtml(photoIndex) {
+    console.log('loadPhotoHtml():' + photoIndex);
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
+    //display prerendered 1024 height photos if photo div height smaller than 1024
+    if ($('#photodiv').height() <= 1024) {
+        var sizePath = "1024/";
+    } else {
+        sizePath = ""
+    }
+
+    html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp", photoObject[2]);
     html = html.replace("@photo_num", photoObject[3]);
+    var magNum = "AS17-" + photoObject[5] + "-";
     html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
-    html = (photoObject[5] != "") ? html.replace("@mag_number", photoObject[5] + "-") : html.replace("@mag_number", "");
+    html = (photoObject[5] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
     html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
     html = html.replace("@description", photoObject[7]);
 
@@ -382,17 +408,20 @@ function loadPhotoHtml(photoIndex) {
     photoDiv.html('');
     photoDiv.append(html);
 
+    //prescale to height using css before calling scaleMissionImage so that it looks partically scaled as it loads
     var imageContainerImage = $('#imageContainerImage');
-    imageContainerImage.css("width", photoDiv.width());
-    imageContainerImage.css("height", 'auto');
+    imageContainerImage.css("width", 'auto');
+    imageContainerImage.css("height", photoDiv.height());
 
+    //when image finished loading, scale it proportionally both horizontally and vertically
     imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
-        console.log('***image load complete');
+        //console.log('***image load complete');
         scaleMissionImage();
     });
 }
 
 function scaleMissionImage() {
+    //console.log('scaleMissionImage()');
     var photodiv = $('#photodiv');
     var image = $('#imageContainerImage');
 
@@ -439,6 +468,9 @@ function seekToTime(elementId){
     var seconds = parseInt(timeStr.substr(5,2));
     var signToggle = (sign == "-") ? -1 : 1;
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+
+    gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
+    redrawAll();
 
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
     for (var i = 0; i < gMediaList.length; ++i) {
@@ -496,7 +528,13 @@ function seekToTime(elementId){
 
 function displayHistoricalTimeDifferenceByTimeId(timeid) {
     //console.log("displayHistoricalTimeDifferenceByTimeId():" + timeid);
-    var launchDate = Date.parse("1972-12-07 5:33am GMT");
+    //TODO accommodate mission time change mid-mission
+
+    var launchDate = Date.parse("1972-12-07 0:33 -500");
+
+    //TODO revisit these blatant date hacks
+    //launchDate.setDate(launchDate.getDate() - 1); //required to get 43 years exactly during mission. Not understood why.
+    //launchDate.setHours(launchDate.getHours() + 1);
 
     var timeStr = timeid.substr(6);
     var sign = timeStr.substr(0,1);
@@ -508,62 +546,60 @@ function displayHistoricalTimeDifferenceByTimeId(timeid) {
     if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
         conversionMultiplier = -1;
     }
-    var timeidDate = launchDate.add({
+
+    var timeidDate = new Date(launchDate.getTime());
+
+    timeidDate.add({
+        days: -1, //TODO figure out hack
         hours: hours * conversionMultiplier,
         minutes: minutes * conversionMultiplier,
         seconds: seconds * conversionMultiplier
     });
-    //var custom_date_formats = {past: [{ ceiling: null, text: "$years years, $months months, $days days, $hours hours, $minutes minutes, $seconds seconds ago" }]}
-    //var humanizedRealtimeDifference = humanized_time_span(gCurrMissionDate, Date.now(), custom_date_formats);
+    var historicalDate = new Date(timeidDate.getTime()); //for display only
+    historicalDate.add({days: 1}); //TODO figure out hack
 
-    var timeDiff = Math.abs(Date.now().getTime() - timeidDate.getTime());
-    //var timeDiff = Math.abs(Date.parse("2015-12-07 5:33am GMT").getTime() - Date.parse("1972-12-07 5:33am GMT").getTime());
+    //var nowDate = Date.parse("2015-12-07 0:33 -500");
+    var nowDate = Date.now();
+    //if (nowDate.dst()) {
+        //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
+    //}
 
-    var msInMinute = 60 * 1000;
-    var msInHour = 60 * msInMinute;
-    var msInDay = 24 * msInHour;
-    var msInYear = 365 * msInDay;
+    var timeDiff = Math.abs(nowDate.getTime() - timeidDate.getTime());
 
-    timeDiff = timeDiff + msInHour; //no idea why I need to add an additional hour to get the time difference to be correct
+    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
 
-    var diffYears = Math.floor(timeDiff / msInYear);
-    timeDiff = timeDiff - diffYears * msInYear;
-    var diffDays = Math.floor(timeDiff / msInDay);
-    timeDiff = timeDiff - diffDays * msInDay;
-    var diffHours = Math.floor(timeDiff / msInHour);
-    timeDiff = timeDiff - diffHours * msInHour;
-    var diffMinutes = Math.floor(timeDiff / msInMinute);
-    timeDiff = timeDiff - diffMinutes * msInMinute;
-    var diffSeconds = Math.floor(timeDiff / 1000);
-
-    var humanizedRealtimeDifference = "Exactly " + diffYears + " years, " + diffDays + " days, " + diffHours + " hours, " + diffMinutes + " minutes, " + diffSeconds + " seconds ago.";
-
-    $(".currentDate").text(Date.now().toDateString());
-    $(".currentTime").text(Date.now().toLocaleTimeString());
+    $(".currentDate").text(nowDate.toDateString());
+    $(".currentTime").text(nowDate.toLocaleTimeString());
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
-    $(".historicalDate").text(timeidDate.toDateString());
-    $(".historicalTime").text(timeidDate.toLocaleTimeString());
+    $(".historicalDate").text(historicalDate.toDateString());
+    $(".historicalTime").text(historicalDate.toLocaleTimeString());
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
-    //$("#roundedMissionTime").text(gCurrMissionDate);
+    var launchDate = Date.parse("1972-12-07 0:33am -500");
+    //var nowDate = Date.parse("2015-12-07 0:33am -500");
     var nowDate = Date.now();
-    //var d = Date.parse("2015-12-07 6:33am GMT");
-    var currDayOfMonth = nowDate.getDate();
+
+    var histDate = new Date(nowDate.getTime());
+
+    //if (histDate.dst()) {
+    //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
+    //}
+    var currDayOfMonth = histDate.getDate();
 
     if (currDayOfMonth >= 19) {
-        nowDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 12));
+        histDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 7));
     } else if (currDayOfMonth < 7) {
-        nowDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
+        histDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
     }
-    var launchDate = Date.parse("1972-12-07 5:33am GMT");
-    nowDate.setMonth(launchDate.getMonth());
-    nowDate.setYear(launchDate.getYear());
+
+    histDate.setMonth(launchDate.getMonth());
+    histDate.setYear(launchDate.getYear());
 
     //find the difference between rounded date and mission start time to determine MET to jump to
     // Convert both dates to milliseconds
-    var roundedDate_ms = nowDate.getTime();
+    var roundedDate_ms = histDate.getTime();
     var launchDate_ms = launchDate.getTime();
     var difference_ms = roundedDate_ms - launchDate_ms;
 
@@ -572,7 +608,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var h = Math.floor( (difference_ms) / msInHour);
     var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
 
-    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(nowDate.getSeconds(),2);
+    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
     //console.log("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
     ga('send', 'event', 'button', 'click', 'snap to real-time');
 
@@ -608,13 +644,14 @@ function repopulateUtteranceTable(utteranceIndex) {
         } else {
             style = "";
         }
-        if (i >= 0) {
+        if (utteranceIndex + i >= 0) { //TODO verify that this accommodates the first mission utterance
             utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
         }
     }
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
+    console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
@@ -630,6 +667,29 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
+//--------------- initializePlayback ---------------
+
+function initializePlayback() {
+    console.log("initializePlayback()");
+    if (gMissionTimeParamSent == 0) {
+        seekToTime("timeid-000100"); //jump to 1 minute to launch
+    } else {
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        if (typeof paramMissionTime != "undefined") {
+            var timeId = "timeid" + paramMissionTime.split(":").join("");
+            seekToTime(timeId);
+        } else {
+            console.log("Invalid t Parameter");
+            seekToTime("timeid-000100"); //jump to 1 minute to launch
+        }
+    }
+    clearInterval(gApplicationReadyIntervalID);
+    gApplicationReadyIntervalID = null;
+    gIntervalID = setAutoScrollPoller();
+}
+
+
+
 //--------------- async page initialization calls ---------------
 
 $.when(ajaxGetMediaIndex(),
@@ -642,20 +702,6 @@ $.when(ajaxGetMediaIndex(),
         gApplicationReady += 1;
         console.log("APPREADY: Ajax loaded: " + gApplicationReady);
 });
-
-function initializePlayback() {
-    console.log("initializePlayback()");
-    if (gMissionTimeParamSent == 0) {
-        //event.target.playVideo();
-        //player.src(gMediaSrcURL + "_- - 000.mp4");
-        seekToTime("timeid-000100"); //jump to 1 minute to launch upon initial load
-        //findClosestUtterance(-60); //jump to 1 minute to launch upon initial load
-    }
-    clearInterval(gApplicationReadyIntervalID);
-    gApplicationReadyIntervalID = null;
-
-    gIntervalID = setAutoScrollPoller();
-}
 
 //--------------- index file handling --------------------
 
@@ -780,7 +826,12 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 3) {
             console.log("APPREADY = 3! App Ready!");
-            $('.simplemodal-wrap').isLoading( "hide" );
+            if (gMissionTimeParamSent == 0) {
+                $('.simplemodal-wrap').isLoading("hide");
+            } else {
+                $('body').isLoading("hide");
+                initializePlayback();
+            }
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
@@ -823,14 +874,16 @@ function timeStrToSeconds(timeStr) {
 
 function setIntroTimeUpdatePoller() {
     return window.setInterval(function () {
-        console.log("setIntroTimeUpdatePoller()");
+        //console.log("setIntroTimeUpdatePoller()");
         displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
     }, 1000);
 }
 
 function historicalButtonClick() {
     window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
     seekToTime(getNearestHistoricalMissionTimeId());
+    gIntroInterval = null;
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -838,19 +891,40 @@ function oneMinuteToLaunchButtonClick() {
     initializePlayback();
 }
 
+Date.prototype.stdTimezoneOffset = function() {
+    var jan = new Date(this.getFullYear(), 0, 1);
+    var jul = new Date(this.getFullYear(), 6, 1);
+    return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+};
+
+Date.prototype.dst = function() {
+    return this.getTimezoneOffset() < this.stdTimezoneOffset();
+};
+
 //on doc init
 jQuery(function ($) {
-    var modal = $('#basic-modal-content');
-    modal.modal({opacity: 90});
+    console.log("INIT: jQuery(function ($)");
+    if (typeof $.getUrlVar('t') != "undefined") {
+        gMissionTimeParamSent = 1;
+    } else {
+        gMissionTimeParamSent = 0;
+    }
 
-    gIntroInterval = setIntroTimeUpdatePoller();
+    if (gMissionTimeParamSent == 0) {
+        var modal = $('#basic-modal-content');
+        modal.modal({opacity: 90});
 
-    $('.simplemodal-wrap').isLoading({ text: "Loading", position: "overlay" });
-    console.log("Loading overlay on");
+        gIntroInterval = setIntroTimeUpdatePoller();
 
-    $("#historicalBtn").button();
-    $("#fullScreenBtn").button();
-    $("#launchBtn").button();
+        $('.simplemodal-wrap').isLoading({text: "Loading", position: "overlay"});
+        //console.log("Loading overlay on");
+
+        $("#historicalBtn").button();
+        $("#fullScreenBtn").button();
+        $("#launchBtn").button();
+    } else {
+        $('body').isLoading({text: "Loading", position: "overlay"});
+    }
 
     //init tabs
     $(".mid-center").tabs();
@@ -909,11 +983,6 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 
 //on document ready
 $(document).ready(function() {
-    if (typeof $.getUrlVar('t') != "undefined") {
-        gMissionTimeParamSent = 1;
-    } else {
-        gMissionTimeParamSent = 0;
-    }
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();

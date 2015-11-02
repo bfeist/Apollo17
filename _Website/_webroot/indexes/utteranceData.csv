@@ -2225,7 +2225,7 @@
 022:25:58|CC|Roger, Jack. We're standing by.
 022:26:02|Schmitt|Okay, I had a quick - quick look and just to bring you up to date, we're starting to be able to see the coast of Asia. The Philippines are wide open today. And the - that tropical storm Theresa that I mentioned I thought I could see - indeed, I'm sure that's what that little concentrated mass of clouds was north of New Guinea. And, I suspect, although I didn't get a good fix on it, that the folks in Guam may be in for some heavy weather.
 022:26:37|CC|Roger.
-022:27:27|Schmitt|Oh, and, Bob, I got another pair of pictures. And that would be up to 134.
+022:27:19|Schmitt|Oh, and, Bob, I got another pair of pictures. And that would be up to 134.
 022:27:27|CC|Roger. That's on November November, is that affirm?
 022:27:31|Schmitt|That's affirm.
 022:27:32|CC|Real - Good show.
@@ -10821,9 +10821,9 @@
 120:49:48|CC|Go ahead, 17.
 120:49:51|Schmitt|About the same - about the same position as the heat flow down-Sun - or up-Sun?
 120:50:00|CC|Stand by.
-120:50:07|Schmitt|Okay, Bob, I - I was able to - -
+120:50:07|Cernan|Okay, Bob, I - I was able to - -
 120:50:11|CC|Yes. That sounds pretty good to me, Jack.
-120:50:13|Schmitt|- - to get. Bob, I ran that plug three-quarters - two-thirds of the way down the rammer, and it - it hit solid paydirt.
+120:50:13|Cernan|- - to get. Bob, I ran that plug three-quarters - two-thirds of the way down the rammer, and it - it hit solid paydirt.
 120:50:24|CC|Okay. That sounds good.
 120:50:26|Schmitt|And I'll put a cap on it for you, too.
 120:50:27|CC|Okay. That'll make people happy. Did you copy me, Jack, that ... 6 o'clock to the - -
@@ -16197,7 +16197,7 @@
 143:59:36|Schmitt|A chunk of yellow - yellow-brown rock that apparently has several spots behind it, probably indicating direction from which it came - Oh, no, what is that? That's a reflection (laughter). That really fooled me. A reflection off the mylar (laughter). Crazy. Well, what the heck, I'll sample it anyway.
 144:00:08|Cernan|Okay. Let me get my antenna set so - it's not quite - -
 144:00:12|Schmitt|Is it through reading?
-144:00:14|Cernan|Yes, it's through reading. I'll - Probably read it better by now, Bob. I've got Family Mountain and some of the hills way up to the right of Family Mountain. I'm at 67 on the - on the - 500 and I'll give you the reading on the gravimeter.
+144:00:14|Cernan|Yes, it's through reading. I'll - Probably read it better by now, Bob. I've got Family Mountain and some of the hills way off to the right of Family Mountain. I'm at 67 on the - on the - 500 and I'll give you the reading on the gravimeter.
 144:00:32|CC|Okay. Copy. 67 on Family Mountain.
 144:00:36|Cernan|Did you get the other words on the 500?
 144:00:39|CC|Roger. Copied them all.
@@ -16765,13 +16765,14 @@
 145:00:58|CC|Roger.
 145:00:59|Cernan|I'm going to stand here and look around.
 145:01:01|CC|Okay.
-145:01:10|Schmitt|Okay, I'm picking up with mag - or with frame 56 and I'm going to try to get a little bit of where the scarp overlaps the North Massif. I can't see much of it. All I could get was three frames of that. Now I'm picking up the South Massif.
+145:01:10|Cernan|Okay, I'm picking up with mag - or with frame 56 and I'm going to try to get a little bit of where the scarp overlaps the North Massif. I can't see much of it.
+145:01:31|Cernan|All I could get was three frames of that. Now I'm picking up the South Massif.
 145:01:45|PAO|Jack Schmitt, changing the film magazine in his camera.
 145:02:30|Cernan|Okay, how are you coming, Jack?
 145:02:32|Schmitt|Okay. Oh, I ought to put that in there so you've got room for your camera.
 145:02:39|CC|You got a final frame count there, Gene?
 145:02:46|Schmitt|Okay, I'm all set.
-145:02:55|Schmitt|Okay, Bob. When I finished with South Massif, I was on 94 and I took - now I'm on 99 - I took five more pictures back over to the northeast.
+145:02:55|Cernan|Okay, Bob. When I finished with South Massif, I was on 94 and I took - now I'm on 99 - I took five more pictures back over to the northeast.
 145:03:07|CC|We copy that. And we assume you guys are ready to go by now.
 145:03:13|Cernan|And, Bob, they were all with the lens - Yes, sir - they were all with the lens cap off.
 145:03:22|CC|Splendid.
@@ -18416,7 +18417,7 @@
 147:38:17|Schmitt|Mag Golf.
 147:38:21|Schmitt|Mag India.
 147:38:23|CC|Copy all those. And tell Gene that we can confirm that his lens cover's off.
-147:38:36|Schmitt|Okay. Confirm that your lens cover's off. The scissors are in.
+147:38:36|Schmitt|Okay. They confirm that your lens cover's off. The scissors are in.
 147:38:41|CC|Copy that.
 147:38:47|Schmitt|Lens brushes.
 147:38:52|Cernan|I hope that's at the right setting. It is (laughter).
@@ -21138,7 +21139,7 @@
 165:47:54|CC|Any place. And did you get your camera dusted?
 165:47:57|Cernan|Yes. I got it all dusted and the mag's changed.
 165:48:04|CC|Good.
-165:48:05|Cernan|It's 448.
+165:48:05|Cernan|It's core 48.
 165:48:08|CC|Copy that.
 165:48:11|Cernan|Okay. I'll even get you a picture of it.
 165:48:21|Cernan|Oh me. Oh my.
@@ -24356,7 +24357,7 @@
 172:47:04|CC|Hey, how about if we hit a PRO on the DSKY and get it into P00 and back into STANDBY? We're worrying about the clock registers overflowing. And we'd like to get that done before 172:50, or somewhere in that neighborhood.
 172:47:23|Schmitt|Okay; stand by.
 172:47:28|Schmitt|Is that what you wanted?
-172:47:31|CC|Oh, we can't watch it, Jack. If you just tell us that you've got it into P00 and back into PO6.
+172:47:31|CC|Oh, we can't watch it, Jack. If you just tell us that you've got it into P00 and back into P06.
 172:47:41|Schmitt|That's what happened.
 172:47:46|Schmitt|I thought you watched it the other night.
 172:47:48|CC|No, we don't have any high bit rate now.
@@ -24781,7 +24782,7 @@
 181:53:27|Evans|Okay. 203. Okay, why don't we take some of those Flight Plan changes here?
 181:54:07|CC|Okay. And these are real simple ones on page 283.
 181:54:16|Evans|283. You're really looking ahead. Okay.
-181:54:29|CC|Okay, at l87:45, you've got a magazine Bravo Brave called out and we'd like to make that Delta Delta.
+181:54:29|CC|Okay, at 187:45, you've got a magazine Bravo Brave called out and we'd like to make that Delta Delta.
 181:54:43|Evans|Delta Delta it is.
 181:54:45|CC|Okay, and a couple of lines below that you have a magazine November November which we want to change to Kilo Kilo.
 181:54:55|Evans|Kilo it is.
@@ -25892,7 +25893,7 @@
 189:40:43|Evans|Looks like Challenger's in good shape. I don't see anything hanging down or anything.
 189:40:47|Cernan|She's in excellent shape. Okay, we're at 650 feet and 8.8.
 189:40:54|Evans|Okay.
-189:40:55|Cernan|God, you look pretty. Yes, you just got a smail stub, Ron. Probably not more than a couple of feet.
+189:40:55|Cernan|God, you look pretty. Yes, you just got a small stub, Ron. Probably not more than a couple of feet.
 189:41:02|Evans|(Laughter)
 189:41:03|Cernan|600 feet, braking to 5. Okay, I've got 5.0, and I'm at 520 feet.
 189:41:25|Cernan|Ron, I'm closing at 5 feet per second, 440 feet.
@@ -25927,7 +25928,7 @@
 189:44:39|Schmitt|Yes.
 189:44:40|Cernan|Okay.
 189:44:43|Evans|Oh, I got to get a picture here, too.
-189:44:54|Cernan|Okay, will do. Stand by.
+189:44:54|Evans|Okay, will do. Stand by.
 189:44:58|Evans|Just another couple of pictures here. Got them. 25 ENTER. 319, 254, and 0 ... Okay, you ready, Jack?
 189:45:21|Cernan|I'll ... that; Jack.
 189:45:21|Schmitt|...
@@ -29247,7 +29248,7 @@
 237:16:46|Schmitt|Wow!
 237:16:47|Cernan|That's not a bad climb is it, Gordy?
 237:16:51|CC|Pretty good rate.
-237:16:52|Cernan|A friend of mine says "Wow woozle!"
+237:16:52|Schmitt|A friend of mine says "Wow woozle!"
 237:17:00|Evans|Looking out window - window 3 now, and the Moon is just the size of the window, and I've got my face right up against the window.
 237:17:11|Cernan|Or maybe his head's just the size of the Moon. We're not sure which.
 237:17:13|Evans|(Laughter) That's right.

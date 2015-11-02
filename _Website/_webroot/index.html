@@ -50,8 +50,9 @@
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src="lib/jquery.simplemodal.js"></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
-    <script type="text/javascript" src='http://www.youtube.com/iframe_api'></script>
     <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src="lib/moment.js"></script>
+    <script type="text/javascript" src="lib/readable-range.js"></script>
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
@@ -182,7 +183,7 @@
     <div class="imageBlock">
         <div class="imageContainer">
             <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
-                <img id="imageContainerImage" src="http://apollo17.org/mission_images/img/@filename">
+                <img id="imageContainerImage" src="http://apollo17.org/mission_images/img/@sizepath@filename">
             </a>
             <span id="imageOverlay">
                 <div class="photodivcaption">@description</div>
@@ -192,7 +193,7 @@
                             Mission Time Taken : @timestamp
                         </td>
                         <td style="text-align: right;">
-                            Photo: @mag_code@mag_number@photo_num
+                            Photo: @mag_code @mag_number@photo_num
                         </td>
                         <td style="text-align: right;">
                             @photographer
