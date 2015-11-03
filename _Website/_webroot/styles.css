@@ -300,6 +300,29 @@ canvas[resize] {
     background-color: #000000;
 }
 
+.galleryItemContainer {
+    position: relative;
+}
+
+.galleryImage {
+    height: 75px;
+    width: auto;
+}
+
+.galleryOverlay {
+    position: absolute;
+    bottom: 0px;
+    /*bottom: 0px;*/
+    left: 0;
+    width: 100%;
+
+    background-color: #222222;
+    color: #BBBBBB;
+    opacity: 0.8;
+    padding: 5px;
+    /*transition: all 0.5s ease-in-out;*/
+}
+
 
 
 /* ----------------- intro overlay -----------------*/

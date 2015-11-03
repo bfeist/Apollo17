@@ -32,6 +32,7 @@ var gMissionTimeParamSent = 0;
 var player;
 var gApplicationReady = 0; //starts at 0. Ready at 2. Checks both ajax loaded and player ready before commencing poller.
 var gApplicationReadyIntervalID = null;
+var gListView;
 
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
@@ -575,12 +576,28 @@ function populatePhotoGallery() {
     var photoGallery = $('#photoGallery');
     photoGallery.html('');
 
+    gListView = new infinity.ListView(photoGallery, {  //Inititalize infinity
+        lazy: function() {                     //With the lazy load callback
+            //console.log("lazy load attempt");
+            $(this).find('.galleryImage').each(function() {
+                var $ref = $(this);
+                $ref.attr('src', $ref.attr('data-original')); //Set the img source from a string hard coded into the data-original attribute.
+            });
+        },
+        useElementScroll: true
+    });
+    //for (var i = 0; i < 500; i++) {
+
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
-        photoGallery.append(photoObject[1] + "<BR>");
+        var html = $('#photoGalleryTemplate').html();
+        html = html.replace(/@filename/g , photoObject[1]);
+        html = html.replace(/@timestamp/g , photoObject[2]);
+
+        gListView.append(html);
     }
-    console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
     gApplicationReady += 1;
+    console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
 
 function showCurrentPhoto(timeId) {
@@ -961,7 +978,7 @@ jQuery(function ($) {
         ,	north__size:			"13%"
         ,   north__minSize:         120
         ,   west__size:             "40%"
-        ,   east__size:             150
+        ,   east__size:             75
         ,	spacing_open:			0  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
