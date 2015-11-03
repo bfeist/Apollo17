@@ -276,8 +276,7 @@ canvas[resize] {
     color: #FFFFFF;
 }
 .photoTable {
-    width: 100%;
-    align: center;
+    /*width: 100%;*/
     margin:0px;
     padding:0px;
     border-collapse: collapse;
