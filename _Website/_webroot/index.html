@@ -189,7 +189,7 @@
             <a href="http://apollo17.org/mission_images/img/@filename" target="photowindow">
                 <img id="imageContainerImage" src="http://apollo17.org/mission_images/img/@sizepath@filename">
             </a>
-            <span id="imageOverlay">
+            <div id="imageOverlay">
                 <div class="photodivcaption">@description</div>
                 <table class="photoTable">
                     <tr>
@@ -204,7 +204,7 @@
                         </td>
                     </tr>
                 </table>
-            </span>
+            </div>
         </div>
     </div>
 </script>
@@ -218,8 +218,8 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer">
-        <img class="galleryImage" data-original="http://apollo17.org/mission_images/img/1024/@filename">
+    <div class="galleryItemContainer" id="#@timeid">
+        <img class="galleryImage" data-original="http://apollo17.org/mission_images/img/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>

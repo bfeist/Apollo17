@@ -593,6 +593,8 @@ function populatePhotoGallery() {
         var html = $('#photoGalleryTemplate').html();
         html = html.replace(/@filename/g , photoObject[1]);
         html = html.replace(/@timestamp/g , photoObject[2]);
+        var timeid = "timeid" + photoObject[0].split(":").join("");
+        html = html.replace(/@timeid/g , timeid);
 
         gListView.append(html);
     }
@@ -622,6 +624,9 @@ function showCurrentPhoto(timeId) {
     if (currentClosestTime != gCurrentPhotoTimestamp) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
+        var scrollDest = photoIndexNum * 77; //75 plus 1 for each border
+        $("#photoGallery").scrollTop(scrollDest);
+        console.log("temp");
     }
 }
 
