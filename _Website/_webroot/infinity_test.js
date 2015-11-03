@@ -14,7 +14,10 @@ var gUpdateScheduled;
 
 var gMoreUtterancesIntervalID;
 
-var gCurrMissionTime = "000:15:00";
+var gCurrMissionTime = "000:00:00";
+
+var background_color = "#000000";
+var background_color_active = "#222222";
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
@@ -44,7 +47,7 @@ function setAutoScrollPoller() {
             //console.log (gCurrMissionTime.split(':').join('') + " | " + gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] + " | " + (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined'));
             if (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined') {
                 //displayUtteranceRegion(timeStrToSeconds(gCurrMissionTime));
-                //scrollUtteranceTo(gCurrMissionTime);
+                scrollUtteranceTo(gCurrMissionTime);
             }
         }
     }, 500); //polling frequency in milliseconds
@@ -217,36 +220,39 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
-function findUtteranceTop(timeId) {
+function findUtteranceItem(timeId) {
     //console.log("findUtteranceTop()");
     var utteranceDiv = $('#utteranceDiv');
     var listView = utteranceDiv.data('listView');
-    var foundItemTop = null;
+    var foundItem = null;
     for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
         for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
             if (timeId == listView.pages[pageCounter].items[itemCounter].$el.attr('id')) {
-                foundItemTop = listView.pages[pageCounter].items[itemCounter].top;
+                foundItem = listView.pages[pageCounter].items[itemCounter];
                 //console.log("findUtteranceTop():found:" + foundItemTop);
                 break;
             }
         }
-        if (foundItemTop != null) {
+        if (foundItem != null) {
             break;
         }
     }
-    return foundItemTop;
+    return foundItem
 }
 
 function scrollUtteranceTo(timeStr) {
     var timeId = "timeid" + timeStr.split(":").join("");
-    var scrollTop = findUtteranceTop(timeId);
-    if (scrollTop != null) {
+    var utteranceItem = findUtteranceItem(timeId);
+    if (utteranceItem != null) {
         var utteranceDiv = $('#utteranceDiv');
-
-        var scrollDestination = scrollTop - utteranceDiv.offset().top;
-        utteranceDiv.animate({scrollTop: scrollTop}, '500', 'swing', function() {
-            console.log('Finished animating: ' + scrollDestination);
-        });
+        var scrollDestination = utteranceItem.top - utteranceDiv.offset().top;
+        $('#'+timeId).css("background-color",background_color_active);
+        utteranceDiv.css("white-space", "nowrap");
+        utteranceDiv.scrollTop(scrollDestination);
+        utteranceDiv.css("white-space", "");
+        //utteranceDiv.animate({scrollTop: scrollTop}, '500', 'swing', function() {
+        //    console.log('Finished animating: ' + scrollDestination);
+        //});
     }
 }
 
