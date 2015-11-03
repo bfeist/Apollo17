@@ -209,7 +209,7 @@ function displayUtteranceRegion(seconds) {
     //utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
     //    console.log('Finished animating: ' + scrollDestination);
     //});
-    //repopulateUtteranceTable(utteranceIndex);
+    //prePopulateUtteranceTable(utteranceIndex);
 }
 
 function repopulateUtteranceTable() {

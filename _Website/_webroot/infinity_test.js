@@ -12,7 +12,7 @@ var gMissionStages = [];
 var gLastTimeIdChecked;
 var gUpdateScheduled;
 
-var gListView = null;
+var gMoreUtterancesIntervalID;
 
 var gCurrMissionTime = "141:27:05";
 
@@ -24,7 +24,7 @@ $.when(ajaxGetTOCAll(),
         //initNavigator();
         //incrementFakeMissionTime();
         //setAutoScrollPoller();
-        repopulateUtteranceTable();
+        prePopulateUtteranceTable();
     });
 
 function incrementFakeMissionTime() {
@@ -49,6 +49,7 @@ function setAutoScrollPoller() {
 }
 
 function seekToTime(elementId) {
+    console.log("seekToTime():" + elementId);
     var gaTimeVal = parseInt(elementId.replace("timeid", ""));
     var timeStr = elementId.substr(6,7);
     var sign = timeStr.substr(0,1);
@@ -113,52 +114,86 @@ function displayUtteranceRegion(seconds) {
     //utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
     //    console.log('Finished animating: ' + scrollDestination);
     //});
-    //repopulateUtteranceTable(utteranceIndex);
+    //prePopulateUtteranceTable(utteranceIndex);
 }
 
-function repopulateUtteranceTable() {
-    console.log("repopulateUtteranceTable()");
-    var utteranceTable = $('#utteranceTable');
+function prePopulateUtteranceTable() {
+    console.log("prePopulateUtteranceTable()");
+    var utteranceDiv = $('#utteranceDiv');
     //utteranceTable.html('');
-    gListView = new infinity.ListView(utteranceTable, {  //Inititalize infinity
-        //lazy: function() {                      //With the lazy load callback
-        //    //$(this).find('.pic').each(function() {
-        //    //    var $ref = $(this);
-        //    //    $ref.attr('src', $ref.attr('data-original')); //Set the img source from a string hard coded into the data-original attribute.
-        //    //});
-        //    //console.log("lazy load attempt");
-        //},
+    var listView = new infinity.ListView(utteranceDiv, {  //Inititalize infinity
+        lazy: function() {
+            //console.log("lazy load attempt");
+            $(this).find('.spokenwords').each(function() {
+                var $ref = $(this);
+                $ref.html($ref.attr('data-original'));
+            });
+        },
         useElementScroll: true
     });
-    //utteranceTable.data('listView', listView); //Use jQuery Data to set our list to the element as a convenience.
+    utteranceDiv.data('listView', listView); //Use jQuery Data to set our list to the element as a convenience.
     //$('#utteranceDiv').scrollTop(0);
 
-    for (var i = 0; i <= gUtteranceData.length; i++) {
-    //for (var i = 0; i <= 5000; i++) {
+    //for (var i = 0; i <= gUtteranceData.length; i++) {
+    for (var i = 0; i <= 100; i++) {
         if (i == 0) {
             var style = "background-color: #222222";
         } else {
             style = "";
         }
         var html = getUtteranceObjectHTML(i, style);
-        gListView.append(html);
+        listView.append(html);
     }
-    var listItems = gListView.find('.utterance');
-    //for (i = 0; i < listItems.length; i++) {
-    //    console.log("listitem: " + i + " top:" + listItems[i].top);
+
+    loadMoreUtterancesPoller();
+}
+
+function loadMoreUtterances() {
+    var utteranceDiv = $('#utteranceDiv');
+    var fullyLoaded = false;
+    var listView = utteranceDiv.data('listView');
+    var listViewItemCount = 0;
+
+    for (var pageCounter = 0; pageCounter < listView.pages.length; pageCounter++) {
+        var itemArray = listView.pages[pageCounter].items;
+        listViewItemCount += itemArray.length;
+    }
+
+    //for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
+    //    for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
+    //        var selector = listView.pages[0].items[0].$el;
+    //            console.log("itemID:") + selector.attr('id');
+    //    }
     //}
 
-    //$('#utteranceDiv').on('scroll', function() {
-    //    console.log("scroll event");
-    //    if(!gUpdateScheduled) {
-    //        setTimeout(function() {
-    //            infinity.updateStartIndex(gListView);
-    //            gUpdateScheduled = false;
-    //        }, 500);
-    //        gUpdateScheduled = true;
-    //    }
-    //});
+    //var listItems = listView.find(".utterance");
+    var startIndex = listViewItemCount;
+    console.log("loadMoreUtterance():start:" + startIndex);
+    var endIndex = startIndex + 100;
+    if (endIndex > gUtteranceData.length) {
+        endIndex = gUtteranceData.length;
+        fullyLoaded = true;
+    }
+    for (var i = startIndex; i <= endIndex; i++) {
+        if (i == 0) {
+            var style = "background-color: #222222";
+        } else {
+            style = "";
+        }
+        var html = getUtteranceObjectHTML(i, style);
+        listView.append(html);
+    }
+    return fullyLoaded;
+}
 
+function loadMoreUtterancesPoller() {
+    return window.setInterval(function () {
+        var fullyLoaded = loadMoreUtterances();
+        if (fullyLoaded) {
+            clearInterval(gMoreUtterancesIntervalID);
+            gMoreUtterancesIntervalID = null;
+        }
+    }, 250); //polling frequency in milliseconds
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
@@ -171,7 +206,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     var html = '<div class="utterance" style="display: flex; @style" onclick="seekToTime(this.id)" id="@timeid">' +
         '<div class="afjget afjpao" style="width: auto;">@timestamp</div>' +
         '<div class="afjwho afjpao" style="width: auto;">@who</div>' +
-        '<div class="spokenwords afjpao" style="flex: 1;">@words</div>' +
+        '<div class="spokenwords afjpao" style="flex: 1;" data-original="@words"></div>' +
         '</div>';
     html = html.replace("@style", style);
     var timeid = "timeid" + utteranceObject[0].split(":").join("");

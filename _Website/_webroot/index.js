@@ -582,7 +582,7 @@ function displayUtteranceRegion(timeid) {
     utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
         //console.log('Finished animating: ' + scrollDestination);
     });
-    //repopulateUtteranceTable(utteranceIndex);
+    //prePopulateUtteranceTable(utteranceIndex);
 }
 
 function repopulateUtteranceTable(utteranceIndex) {
@@ -807,7 +807,7 @@ function setApplicationReadyPoller() {
 
 $(document).ready(function() {
     console.log("Loading overlay on");
-    
+
     if (typeof $.getUrlVar('t') != "undefined") {
         gMissionTimeParamSent = 1;
     } else {

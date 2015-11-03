@@ -390,7 +390,7 @@ canvas[resize] {
     /*background: #c0c0c0;*/
     background: #0f0f0f;
     /*border: 0px none #ff2c20;*/
-    border: 1px solid #0f0f0f;
+    border: 1px solid white;
     border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
