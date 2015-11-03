@@ -301,20 +301,25 @@ canvas[resize] {
     overflow-x: hidden;
     /*background-color: #DEDDD1;*/
     background-color: #000000;
+    transition: all 0.5s ease-in-out;
 }
 
 .galleryItemContainer {
     position: relative;
+    border: 1px solid black;
+}
+
+.galleryItemContainer:hover {
+    border: 1px solid green;
+}
+
+.galleryItemContainer:hover .galleryOverlay {
+    background-color: darkgreen;
 }
 
 .galleryImage {
     height: 75px;
     width: auto;
-    border: 1px solid black;
-}
-
-.galleryImage:hover {
-    border: 1px solid green;
 }
 
 .galleryOverlay {
