@@ -218,7 +218,9 @@ canvas[resize] {
 }
 
 /* ----------------- mission photo -----------------*/
-
+.outer-center {
+    background-color: #000000;
+}
 
 .imageBlock {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -231,7 +233,7 @@ canvas[resize] {
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-
+    width: 100%;
 }
 
 .imageContainer img {
@@ -296,6 +298,7 @@ canvas[resize] {
 
 .outer-east {
     overflow: scroll;
+    overflow-x: hidden;
     /*background-color: #DEDDD1;*/
     background-color: #000000;
 }
@@ -307,6 +310,11 @@ canvas[resize] {
 .galleryImage {
     height: 75px;
     width: auto;
+    border: 1px solid black;
+}
+
+.galleryImage:hover {
+    border: 1px solid green;
 }
 
 .galleryOverlay {
@@ -353,10 +361,6 @@ canvas[resize] {
     /*background: #509429;*/
     /*text-decoration: none;*/
 /*}*/
-/* ----------------- photo pane -----------------*/
-.outer-center {
-    background-color: #000000;
-}
 
 /* ----------------- jquery.ui overrides -----------------*/
 .ui-tabs .ui-tabs-panel {
@@ -549,16 +553,16 @@ canvas[resize] {
     /*background: #c0c0c0;*/
     background: #0f0f0f;
     /*border: 0px none #ff2c20;*/
-    border: 1px solid #0f0f0f;
+    border: 1px solid grey;
     border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    /*background: #c0c0c0;*/
-    /*background: #000000;*/
+    /*background: lightgrey;*/
+    /*background: lightgrey;*/
 }
 ::-webkit-scrollbar-thumb:active {
-    /*background: #c0c0c0;*/
-    /*background: #000000;*/
+    /*background: lightgrey;*/
+    /*background: lightgrey;*/
 }
 ::-webkit-scrollbar-track {
     background: #000000;
