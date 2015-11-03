@@ -73,15 +73,19 @@ li:hover {
     /*background-color: #DEDDD1;*/
     background-color: #000000;
 }
-tr.utterance  {
+.utterance  {
     cursor: pointer;
     vertical-align: top;
 }
-tr.utterance:hover {
+.utterance:hover {
     /*background-color: #B5B4A4;*/
     background-color: #222222;
 }
-tr.utterance > td {
+.utterance > td {
+    padding: 2px;
+}
+
+.utteranceItem {
     padding: 2px;
 }
 

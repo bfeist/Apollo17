@@ -135,7 +135,7 @@ function prePopulateUtteranceTable() {
     //$('#utteranceDiv').scrollTop(0);
 
     //for (var i = 0; i <= gUtteranceData.length; i++) {
-    for (var i = 0; i <= 100; i++) {
+    for (var i = 0; i <= 500; i++) {
         if (i == 0) {
             var style = "background-color: #222222";
         } else {
@@ -145,7 +145,7 @@ function prePopulateUtteranceTable() {
         listView.append(html);
     }
 
-    loadMoreUtterancesPoller();
+    gMoreUtterancesIntervalID = loadMoreUtterancesPoller();
 }
 
 function loadMoreUtterances() {
@@ -159,19 +159,12 @@ function loadMoreUtterances() {
         listViewItemCount += itemArray.length;
     }
 
-    //for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
-    //    for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
-    //        var selector = listView.pages[0].items[0].$el;
-    //            console.log("itemID:") + selector.attr('id');
-    //    }
-    //}
-
     //var listItems = listView.find(".utterance");
     var startIndex = listViewItemCount;
     console.log("loadMoreUtterance():start:" + startIndex);
-    var endIndex = startIndex + 100;
-    if (endIndex > gUtteranceData.length) {
-        endIndex = gUtteranceData.length;
+    var endIndex = startIndex + 500;
+    if (endIndex >= gUtteranceData.length - 1) {
+        endIndex = gUtteranceData.length - 1;
         fullyLoaded = true;
     }
     for (var i = startIndex; i <= endIndex; i++) {
@@ -204,9 +197,9 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     //    '<td class="spokenwords afjpao">@words</td>' +
     //    '</tr>';
     var html = '<div class="utterance" style="display: flex; @style" onclick="seekToTime(this.id)" id="@timeid">' +
-        '<div class="afjget afjpao" style="width: auto;">@timestamp</div>' +
-        '<div class="afjwho afjpao" style="width: auto;">@who</div>' +
-        '<div class="spokenwords afjpao" style="flex: 1;" data-original="@words"></div>' +
+        '<div class="afjget afjpao utteranceItem" style="width: auto;">@timestamp</div>' +
+        '<div class="afjwho afjpao utteranceItem" style="width: auto;">@who</div>' +
+        '<div class="spokenwords afjpao utteranceItem" style="flex: 1;" data-original="@words"></div>' +
         '</div>';
     html = html.replace("@style", style);
     var timeid = "timeid" + utteranceObject[0].split(":").join("");
@@ -220,6 +213,39 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     }
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
+}
+
+function findUtteranceTop(timeId) {
+    //console.log("findUtteranceTop()");
+    var utteranceDiv = $('#utteranceDiv');
+    var listView = utteranceDiv.data('listView');
+    var foundItemTop = null;
+    for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
+        for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
+            if (timeId == listView.pages[pageCounter].items[itemCounter].$el.attr('id')) {
+                foundItemTop = listView.pages[pageCounter].items[itemCounter].top;
+                //console.log("findUtteranceTop():found:" + foundItemTop);
+                break;
+            }
+        }
+        if (foundItemTop != null) {
+            break;
+        }
+    }
+    return foundItemTop;
+}
+
+function scrollUtteranceTo(timeStr) {
+    var timeId = "timeid" + timeStr.split(":").join("");
+    var scrollTop = findUtteranceTop(timeId);
+    if (scrollTop != null) {
+        var utteranceDiv = $('#utteranceDiv');
+
+        var scrollDestination = scrollTop - utteranceDiv.offset().top;
+        utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+            console.log('Finished animating: ' + scrollDestination);
+        });
+    }
 }
 
 function secondsToTimeStr(totalSeconds) {
