@@ -14,7 +14,7 @@ var gUpdateScheduled;
 
 var gMoreUtterancesIntervalID;
 
-var gCurrMissionTime = "141:27:05";
+var gCurrMissionTime = "000:15:00";
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
@@ -22,8 +22,8 @@ $.when(ajaxGetTOCAll(),
     ajaxGetUtteranceData()).done(function(){
         // the code here will be executed when all ajax requests resolve
         //initNavigator();
-        //incrementFakeMissionTime();
-        //setAutoScrollPoller();
+        incrementFakeMissionTime();
+        setAutoScrollPoller();
         prePopulateUtteranceTable();
     });
 
@@ -32,6 +32,7 @@ function incrementFakeMissionTime() {
         var tempSeconds = timeStrToSeconds(gCurrMissionTime);
         tempSeconds ++;
         gCurrMissionTime = secondsToTimeStr(tempSeconds);
+        $("#missionTime").html(gCurrMissionTime);
         //redrawAll();
     }, 1000);
 }
@@ -42,7 +43,8 @@ function setAutoScrollPoller() {
             gLastTimeIdChecked = gCurrMissionTime;
             //console.log (gCurrMissionTime.split(':').join('') + " | " + gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] + " | " + (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined'));
             if (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined') {
-                displayUtteranceRegion(timeStrToSeconds(gCurrMissionTime));
+                //displayUtteranceRegion(timeStrToSeconds(gCurrMissionTime));
+                //scrollUtteranceTo(gCurrMissionTime);
             }
         }
     }, 500); //polling frequency in milliseconds
@@ -242,7 +244,7 @@ function scrollUtteranceTo(timeStr) {
         var utteranceDiv = $('#utteranceDiv');
 
         var scrollDestination = scrollTop - utteranceDiv.offset().top;
-        utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+        utteranceDiv.animate({scrollTop: scrollTop}, '500', 'swing', function() {
             console.log('Finished animating: ' + scrollDestination);
         });
     }
