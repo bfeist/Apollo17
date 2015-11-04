@@ -118,6 +118,15 @@ function initNavigator() {
         }
         drawCursor(timeStrToSeconds(gCurrMissionTime));
         drawNavCursor(mouseXSeconds);
+
+        // draw navigator key
+        var navigatorKey = $('#navigatorKey');
+        var topSectionLeftWidth = $('.headerBlock').width() - gNavigatorWidth;
+        navigatorKey.css('display', 'inline');
+        navigatorKey.css('top', gNavigatorHeight);
+        navigatorKey.css('left', (gNavigatorWidth / 4) + topSectionLeftWidth);
+        navigatorKey.css('width', gNavigatorWidth / 2);
+
     };
 
     tool.onMouseUp = function (event) {
@@ -143,6 +152,7 @@ function onMouseOutHandler() {
     gMouseOnNavigator = false;
     //console.log("mycanvas mouseleave");
 
+    $('#navigatorKey').css('display', '');
     if (typeof gNavCursorGroup != "undefined") {
         gNavCursorGroup.removeChildren();
     }
@@ -257,6 +267,7 @@ function drawCursor(seconds) {
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = "red";
     timeTextRect.fillColor = "black";
+    //timeTextRect.opacity = 0.5;
     timeTextRect.scale(1.1, 1);
     gCursorGroup.addChild(timeTextRect);
     gCursorGroup.addChild(timeText);
@@ -308,6 +319,7 @@ function drawNavCursor(seconds) {
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = "yellow";
     timeTextRect.fillColor = "black";
+    //timeTextRect.opacity = 0.5;
     timeTextRect.scale(1.1, 1);
     gNavCursorGroup.addChild(timeTextRect);
     gNavCursorGroup.addChild(timeText);
@@ -335,13 +347,8 @@ function drawTier1() {
         var stageRect = new paper.Path.Rectangle(rectStartX, gTier1Top, rectWidth, gTier1Top + gTier1Height / 2);
         stageRect.strokeColor = 'grey';
         stageRect.fillColor = "black";
-        //if (i % 2 == 0) {
-        //    stageRect.fillColor = "white";
-        //} else {
-        //    stageRect.fillColor = "black";
-        //}
-        //stageRect.fillColor = '#222222';
         gTier1Group.addChild(stageRect);
+
         var stageText = new paper.PointText({
             justification: 'left',
             fontSize: 8 + gFontScaleFactor,
@@ -476,12 +483,32 @@ function drawTier2() {
     gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
     var secondsOnTier2 = gTier2SecondsPerPixel * gTier2Width;
 
+    // draw video segments boxes
+    for (var i = 0; i < gVideoSegments.length; i++) {
+        //draw if video segment start is before end of viewport, and video segment end is after start of viewport
+        if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier2StartSeconds) {
+            var rectStartX = gTier2Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
+            var rectWidth;
+            rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier2PixelsPerSecond;
+
+            //if (rectStartX < gTier2Left + 1) {
+            //    rectStartX = gTier2Left + 1;
+            //}
+            //if (rectWidth > gTier2Width - rectStartX - 1) {
+            //    rectWidth = gTier2Width - rectStartX + gTier2Left - 1;
+            //}
+            var vidRect = new paper.Path.Rectangle(rectStartX, gTier2Top, rectWidth, (gTier2Height / 2) - 3);
+            vidRect.strokeColor = '#010047';
+            vidRect.fillColor ='#010047';
+            gTier2Group.addChild(vidRect);
+        }
+    }
+
     // draw mission stages boxes
-    for (var i = 0; i <= gMissionStages.length - 1; i++) {
+    for (i = 0; i <= gMissionStages.length - 1; i++) {
         //draw if stage start is before end of viewport, and stage end is after start of viewport
         if (timeStrToSeconds(gMissionStages[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gMissionStages[i][3]) >= gTier2StartSeconds) {
-            var rectStartX = gTier2Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
-            var rectWidth;
+            rectStartX = gTier2Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
             if (i != gMissionStages.length - 1) {
                 rectWidth = (timeStrToSeconds(gMissionStages[i + 1][0]) - timeStrToSeconds(gMissionStages[i][0])) * gTier2PixelsPerSecond;
             } else {
@@ -494,14 +521,9 @@ function drawTier2() {
                 rectWidth = gTier2Width - rectStartX + gTier2Left - 1;
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier2Top, rectWidth, (gTier2Height / 2) - 3);
-            stageRect.strokeColor = '#222222';
-            stageRect.fillColor ='black';
-            //if (i % 2 == 0) {
-            //    stageRect.fillColor = "white";
-            //} else {
-            //    stageRect.fillColor = "black";
-            //}
-            gTier2Group.addChild(stageRect);
+            stageRect.strokeColor = 'grey';
+            //stageRect.fillColor ='black';
+
             var stageText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
@@ -511,7 +533,12 @@ function drawTier2() {
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
             stageText.point = new paper.Point(rectStartX + 2 , textTop);
             stageText.content = gMissionStages[i][1];
-            gTier2Group.addChild(stageText);
+
+            var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+            stageTextRect.fillColor ='black';
+            gTier2Group.addChild(stageTextRect); //blank out area behind text
+            gTier2Group.addChild(stageRect); // draw grey outline of stage segment
+            gTier2Group.addChild(stageText); // text label
         }
     }
 
@@ -682,12 +709,26 @@ function drawTier3() {
     gTier3StartSeconds = ((gTier2NavBoxLocX - gTier2Left) * gTier2SecondsPerPixel) + gTier2StartSeconds;
     var secondsOnTier3 = gTier3SecondsPerPixel * gTier3Width;
 
+    // draw video segments boxes
+    for (var i = 0; i <= gVideoSegments.length - 1; i++) {
+        //draw if video segment start is before end of viewport, and video segment end is after start of viewport
+        if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
+            var rectStartX = gTier3Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+            var rectWidth;
+            rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond;
+
+            var vidRect = new paper.Path.Rectangle(rectStartX, gTier3Top, rectWidth, gTier3Height / 3);
+            vidRect.strokeColor = '#010047'; //#010047 - blue //102D0F - green
+            vidRect.fillColor ='#010047';
+            gTier3Group.addChild(vidRect);
+        }
+    }
+
     // draw mission stages boxes
-    for (var i = 0; i <= gMissionStages.length - 1; i++) {
+    for (i = 0; i <= gMissionStages.length - 1; i++) {
         //draw if stage start is before end of viewport, and stage end is after start of viewport
         if (timeStrToSeconds(gMissionStages[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gMissionStages[i][3]) >= gTier3StartSeconds) {
-            var rectStartX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-            var rectWidth;
+            rectStartX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
             if (i != gMissionStages.length - 1) {
                 rectWidth = (timeStrToSeconds(gMissionStages[i + 1][0]) - timeStrToSeconds(gMissionStages[i][0])) * gTier3PixelsPerSecond;
             } else {
@@ -701,13 +742,8 @@ function drawTier3() {
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier3Top, rectWidth, gTier3Height / 3);
             stageRect.strokeColor = 'grey';
-            stageRect.fillColor ='black';
-            //if (i % 2 == 0) {
-            //    stageRect.fillColor = "white";
-            //} else {
-            //    stageRect.fillColor = "black";
-            //}
-            gTier3Group.addChild(stageRect);
+            //stageRect.fillColor ='black';
+
             var stageText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
@@ -717,7 +753,12 @@ function drawTier3() {
             var textTop = gTier3Top + (gTier3Height / 3) - 3;
             stageText.point = new paper.Point(rectStartX + 2 , textTop);
             stageText.content = gMissionStages[i][1];
-            gTier3Group.addChild(stageText);
+            var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+            stageTextRect.fillColor ='black';
+            stageTextRect.opacity = 0.5;
+            gTier3Group.addChild(stageTextRect); //blank out area behind text
+            gTier3Group.addChild(stageRect); // draw grey outline of stage segment
+            gTier3Group.addChild(stageText); // text label
         }
     }
 

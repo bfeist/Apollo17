@@ -23,6 +23,7 @@ var gPhotoList = [];
 var gPhotoIndex = [];
 var gPhotoLookup = [];
 var gMissionStages = [];
+var gVideoSegments = [];
 var gCurrentPhotoTimestamp = "initial";
 var gCurrVideoStartSeconds = -9442;
 var gCurrVideoEndSeconds = 0;
@@ -32,7 +33,6 @@ var gMissionTimeParamSent = 0;
 var player;
 var gApplicationReady = 0; //starts at 0. Ready at 2. Checks both ajax loaded and player ready before commencing poller.
 var gApplicationReadyIntervalID = null;
-var gListView;
 
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
@@ -573,10 +573,10 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
 //------------------------------------------------- photo display and gallery -------------------------------------------------
 
 function populatePhotoGallery() {
-    var photoGallery = $('#photoGallery');
-    photoGallery.html('');
+    var photoGalleryDiv = $('#photoGallery');
+    photoGalleryDiv.html('');
 
-    gListView = new infinity.ListView(photoGallery, {  //Inititalize infinity
+    var listView = new infinity.ListView(photoGalleryDiv, {  //Inititalize infinity
         lazy: function() {                     //With the lazy load callback
             //console.log("lazy load attempt");
             $(this).find('.galleryImage').each(function() {
@@ -587,7 +587,6 @@ function populatePhotoGallery() {
         useElementScroll: true
     });
     //for (var i = 0; i < 500; i++) {
-
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
@@ -596,8 +595,9 @@ function populatePhotoGallery() {
         var timeid = "timeid" + photoObject[0].split(":").join("");
         html = html.replace(/@timeid/g , timeid);
 
-        gListView.append(html);
+        listView.append(html);
     }
+    photoGalleryDiv.data('listView', listView);
     gApplicationReady += 1;
     console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
@@ -624,8 +624,38 @@ function showCurrentPhoto(timeId) {
     if (currentClosestTime != gCurrentPhotoTimestamp) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
-        var scrollDest = photoIndexNum * 77; //75 plus 1 for each border
-        $("#photoGallery").scrollTop(scrollDest);
+
+        var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoList[photoIndexNum][0].split(":").join("");
+
+        //search the listview for the "top" of the current photo
+        var photoGalleryDiv = $('#photoGallery');
+        var listView = photoGalleryDiv.data('listView');
+        var foundItem = null;
+        for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
+            for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
+                if (photoGalleryImageTimeId == listView.pages[pageCounter].items[itemCounter].$el.attr('id')) {
+                    foundItem = listView.pages[pageCounter].items[itemCounter];
+                    //console.log("findUtteranceTop():found:" + foundItemTop);
+                    break;
+                }
+            }
+            if (foundItem != null) {
+                break;
+            }
+        }
+        //scroll to that element //TODO figure out why I can't change CSS attributes of listItems (they blink out of existence on lazyload)
+        //var scrollDest = photoIndexNum * 77; //75 plus 1 for each border
+        if (foundItem != null) {
+            var scrollDest = foundItem.top;
+            //$("#photoGallery").scrollTop(scrollDest);
+            photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+                //console.log('Finished animating gallery: ' + scrollDest);
+            });
+            //var galleryImageDiv = $(photoGalleryImageTimeId);
+            //var galleryImageDiv = foundItem.$el;
+            //galleryImageDiv.css("background-color", "red");
+            //foundItem.$el.css("background-color", "red");
+        }
         //console.log("temp");
     }
 }
@@ -723,142 +753,6 @@ function initializePlayback() {
     clearInterval(gApplicationReadyIntervalID);
     gApplicationReadyIntervalID = null;
     gIntervalID = setAutoScrollPoller();
-}
-
-
-
-//--------------- async page initialization calls ---------------
-
-$.when(ajaxGetMediaIndex(),
-    ajaxGetTOCAll(),
-    ajaxGetCommentaryIndex(),
-    ajaxGetUtteranceData(),
-    ajaxGetPhotoIndex(),
-    ajaxGetMissionStagesData()).done(function(){
-    // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
-        gApplicationReady += 1;
-        console.log("APPREADY: Ajax loaded: " + gApplicationReady);
-
-        //populatePhotoGallery next
-        populatePhotoGallery();
-});
-
-//--------------- index file handling --------------------
-
-function ajaxGetMediaIndex() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/media_index.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processMediaIndexData(data);}
-    });
-}
-function ajaxGetTOCAll() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processTOCAllData(data);}
-    });
-}
-function ajaxGetUtteranceData() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/utteranceData.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processUtteranceData(data);}
-    });
-}
-function ajaxGetCommentaryIndex() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processCommentaryIndexData(data);}
-    });
-}
-function ajaxGetPhotoIndex() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processPhotoIndexData(data);}
-    });
-}
-function ajaxGetMissionStagesData() {
-    return $.ajax({
-        type: "GET",
-        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
-        dataType: "text",
-        success: function(data) {processMissionStagesData(data);}
-    });
-}
-function processMediaIndexData(allText) {
-    //console.log("processMediaIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-
-        var rec = [];
-        rec.push(data[0]);
-        rec.push(data[1]);
-        rec.push(data[2]);
-        rec.push(data[3]);
-        gMediaList.push(rec);
-    }
-}
-function processTOCAllData(allText) {
-    //console.log("processTOCIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] != "") {
-            gTOCAll.push(data);
-            gTOCIndex[i] = data[0].split(":").join("");
-        }
-    }
-}
-function processUtteranceData(allText) {
-    //console.log("processUtteranceData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] != "") {
-            gUtteranceData.push(data);
-            gUtteranceDataLookup[data[0].split(":").join("")] = i;
-            gUtteranceIndex[i] = data[0].split(":").join("");
-        }
-    }
-}
-function processCommentaryIndexData(allText) {
-    //console.log("processCommentaryIndexData");
-    gCommentaryIndex = allText.split(/\r\n|\n/);
-}
-function processPhotoIndexData(allText) {
-    //console.log("processPhotoIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        if (allTextLines[i] != "") {
-            var data = allTextLines[i].split('|');
-            gPhotoList.push(data);
-            gPhotoLookup[data[0].split(":").join("")] = i;
-            gPhotoIndex[i] = data[0];
-        }
-    }
-}
-function processMissionStagesData(allText) {
-    //console.log("processMissionStagesData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] != "") {
-            gMissionStages.push(data);
-        }
-        if (i > 0) {
-            gMissionStages[i - 1][3] = data[0]; //append this items start time as the last item's end time
-        }
-    }
-    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
 
 function setApplicationReadyPoller() {

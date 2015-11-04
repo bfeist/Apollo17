@@ -56,6 +56,7 @@
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src="lib/infinity.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 
 </head>
@@ -181,6 +182,17 @@
             </button>
         </div>
     </div>
+    <div id="navigatorKey">
+        <h1>Mission Navigator</h1>
+        <div style="float: left; display: inline-block; padding-right: 10px;">This tool allows you to navigate to any time within the mission.<BR>
+            The top bar represents the entire mission. (13 days wide)<BR>
+            The 2nd bar is a zoomed view of part of the top bar. (~15 hours wide)<BR>
+            The 3rd bar is a zoomed view of part of the 2nd bar. (~1.5 hours wide)</div>
+        <div>Grey: mission event<BR>
+            Green: photograph taken<BR>
+            Blue: Words spoken by the crew or mission control<BR>
+            Purple: Mission Video</div>
+    </div>
 </body>
 
 <script type="text/html" id="photoTemplate">
@@ -218,7 +230,7 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="#@timeid">
+    <div class="galleryItemContainer" id="#gallery@timeid">
         <img class="galleryImage" data-original="http://apollo17.org/mission_images/img/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
