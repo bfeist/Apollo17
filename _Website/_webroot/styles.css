@@ -271,7 +271,6 @@ canvas[resize] {
 }
 .photodivcaption {
     font-size:15px;
-    font-family: Arial;
     font-weight:bold;
     color: #FFFFFF;
 }
@@ -281,7 +280,6 @@ canvas[resize] {
     padding:0px;
     border-collapse: collapse;
     font-size:12px;
-    font-family: Arial;
     font-weight:normal;
     color: #FFFFFF;
 }
