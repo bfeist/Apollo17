@@ -626,7 +626,7 @@ function showCurrentPhoto(timeId) {
         loadPhotoHtml(photoIndexNum);
         var scrollDest = photoIndexNum * 77; //75 plus 1 for each border
         $("#photoGallery").scrollTop(scrollDest);
-        console.log("temp");
+        //console.log("temp");
     }
 }
 
@@ -886,8 +886,8 @@ function toggleFullscreen() {
         $(document).fullScreen(false);
         fullScreenBtn.attr("value", "Full Screen");
     }
-    scaleMissionImage();
-    redrawAll();
+    //scaleMissionImage();
+    //redrawAll();
 }
 
 
@@ -1014,8 +1014,9 @@ $(window).bind('fullscreenchange', function(e) {
     } else {
         fullScreenBtn.attr("value", "Full Screen");
     }
-    scaleMissionImage();
-    redrawAll();
+    //scaleMissionImage();
+    //populatePhotoGallery();
+    //redrawAll();
 });
 
 //on window resize
@@ -1023,6 +1024,8 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
     console.log('***window resize');
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
     scaleMissionImage();
+    populatePhotoGallery();
+    redrawAll();
 });
 
 //on document ready
