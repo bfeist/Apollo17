@@ -303,12 +303,12 @@ canvas[resize] {
 
 .galleryItemContainer {
     position: relative;
-    border: 1px solid black;
-}
-
-.galleryItemContainer:hover {
     border: 1px solid green;
 }
+
+/*.galleryItemContainer:hover {*/
+    /*border: 1px solid green;*/
+/*}*/
 
 .galleryItemContainer:hover .galleryOverlay {
     background-color: darkgreen;

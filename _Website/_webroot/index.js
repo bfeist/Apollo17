@@ -917,8 +917,10 @@ $(window).bind('fullscreenchange', function(e) {
 $(window).resize(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    setTimeout(function(){
+            populatePhotoGallery(); }
+        ,2000);
     scaleMissionImage();
-    populatePhotoGallery();
     redrawAll();
 });
 
