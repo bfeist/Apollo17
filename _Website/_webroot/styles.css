@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-body, td, th, input, textarea, pre, p, ul {
+body, p, ul {
     font-family: Arial;
     font-size: 12px;
     /*color: #222;*/
@@ -45,7 +45,7 @@ h2 {
 }
 
 h3 {
-    color: #ff0018;
+    color: #84b8d9;
     font-weight: bold;
     font-size: 1em;
 }
@@ -55,30 +55,35 @@ h3 {
 .TOC_container {
     background-color: #000000;
     color: #999999;
+    cursor: pointer;
+}
+.TOCtimestamp {
+
 }
 .TOC_item {
-    font-weight: bold;
+
 }
-ul {
-    line-height: 1.4em;
+.TOCli {
+    line-height: 1.3em;
     list-style-type: square;
-    margin: .2em 0 .2em 1.3em;
+    /*margin: .2em 0 .2em 1.3em;*/
+    margin: 0 0 .2em .4em;
     padding: 0;
 }
 ul.TOC1 {
-    font-size: 12px;
+    font-size: 15px;
     list-style-type: none;
-    cursor: pointer;
+    font-weight: bold;
 }
 ul.TOC2 {
-    font-size: 12px;
+    font-size: 14px;
     list-style-type: none;
-    cursor: pointer;
+    font-weight: normal;
 }
 ul.TOC3 {
-    font-size: 12px;
+    font-size: 14px;
     list-style-type: none;
-    cursor: pointer;
+    font-weight: normal;
 }
 li:hover {
     /*background-color: #B5B4A4;*/
@@ -90,14 +95,9 @@ li:hover {
     overflow-y: scroll;
     position: relative;
     height: 100%;
-    font-size: 1.1em;
 }
 .utteranceTable {
-    border: 2px;
-    padding: 2px;
     border-collapse: collapse;
-    /*background-color: #DEDDD1;*/
-    background-color: #000000;
 }
 tr.utterance  {
     cursor: pointer;
@@ -108,8 +108,15 @@ tr.utterance:hover {
     background-color: #222222;
 }
 tr.utterance > td {
-    padding: 2px;
+    padding: 3px;
+    line-height: 125%;
+    font-size: 13px;
 }
+
+.spokenwords{font-weight:normal;}
+.pao    	{color: green;}
+.timestamp	{font-weight:normal;}
+.who		{font-weight:bold; text-align:right;}
 
 /* ----------------- commentary -----------------*/
 .commentarytable {border: 2px; padding: 2px; border-collapse: collapse;}
@@ -121,25 +128,11 @@ tr.commentary {
     vertical-align: top;
 }
 tr.commentary > td {
-    padding: 2px;
+    padding: 3px;
+    line-height: 125%;
+    font-size: 13px;
 }
-
-/* ----------------- instructions -----------------*/
-#instructionsDiv {
-    overflow-y: scroll;
-    position: relative;
-    height: 100%;
-}
-
-
-.spokenwords{font-weight:normal;}
-.afjdef		{color: black;}
-.afjget		{font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
 .afjgeted   {color: gray;}
-.afjpao    	{color: #006400;}
-.afjtec		{color: black;}
-.afjwho		{font-weight:bold; text-align:right;}
-.afjother	{color: #2B547E;}
 .afjed		{
     color: #2B547E;
     padding: 3px;
@@ -151,24 +144,22 @@ tr.commentary > td {
 .afjedwords::before	{content: "[ "}
 .afjedwords::after	{content: " ]"}
 
-.afjob     	{color: #660000; margin-left:60px}
-.afjdb		{color: SaddleBrown; margin-left:70px}
-.afjalt		{color: DimGray; margin-left:70px; margin-top:-10px;}
-
-.afjphoto	{color: red; margin-left:70px}
-
 .afjsrc	{
     font-style:italic;
     color: SaddleBrown;
 }
 
+/* ----------------- instructions -----------------*/
+#instructionsDiv {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+
 /* ----------------- page top -----------------*/
-/*.title {*/
-    /*font-weight: bold;*/
-    /*font-size: 140%;*/
-    /*color: #fff;*/
-    /*text-align: center;*/
-/*}*/
+.title {
+    color: #84b8d9;
+}
 
 .outer-north {
     overflow: hidden;
@@ -183,6 +174,15 @@ tr.commentary > td {
 /*.titleTextRight a{*/
     /*color: #999999;*/
 /*}*/
+
+#fullscreen li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
 
 .headerBlock {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -289,6 +289,7 @@ canvas[resize] {
     color: grey;
     border-width: 1px 1px 1px 1px;
     vertical-align:middle;
+    font-size: 14px;
 }
 
 /* ----------------- photo gallery -----------------*/
@@ -375,6 +376,11 @@ canvas[resize] {
     background-color: black;
 }
 
+#navigatorKey:hover { /* other css properties dynamically assigned in navigator.js */
+    display: inline;
+    cursor:pointer;
+}
+
 /* ----------------- jquery.ui overrides -----------------*/
 .ui-tabs .ui-tabs-panel {
     padding: 0px;
@@ -399,6 +405,7 @@ canvas[resize] {
     overflow-y:hidden;
     overflow-x:hidden;
     background-color: #000000;
+    font-size: 14px;
 
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
@@ -426,7 +433,7 @@ canvas[resize] {
     border: none;
 }
 #tabs-left .ui-tabs-nav .ui-state-default a {
-    color: #c0c0c0;
+    color: #ffffff;
     /*color: #000000;*/
 }
 #tabs-left .ui-tabs-nav .ui-state-active a {
