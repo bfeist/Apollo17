@@ -563,9 +563,9 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
-    if (utteranceObject[1] != "PAO") {
-        html = html.split("afjpao").join("");
-    }
+    var paoStr = utteranceObject[1] == "PAO" ? "pao" : "";
+    html = html.replace(/@pao/g, paoStr);
+
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
 }
@@ -772,13 +772,10 @@ function setApplicationReadyPoller() {
 }
 
 function toggleFullscreen() {
-    var fullScreenBtn = $('#fullScreenBtn');
     if ($(document).fullScreen() == false) {
         $(document).fullScreen(true);
-        fullScreenBtn.attr("value", "Exit Full Screen");
     } else {
         $(document).fullScreen(false);
-        fullScreenBtn.attr("value", "Full Screen");
     }
     //scaleMissionImage();
     //redrawAll();

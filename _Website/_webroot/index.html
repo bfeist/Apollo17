@@ -67,19 +67,21 @@
                 <img src="./img/Apollo_17-insignia100.png">
             </div>
             <div class="headerMiddle">
-                <h2>Apollo 17 in Real-Time</h2>
+                <h2><div class="title">Apollo 17 in Real-Time</div></h2>
                 <h2><div class="historicalDate date">Thu Dec 07 1972</div></h2>
                 <h1><div class="historicalTime time">12:32:00 AM</div></h1>
 
                 <!--<div id="missionTime">Mission Elapsed Time:-->
                     <!--<span id="timer">000:00:00</span>-->
                 <!--</div>-->
-                <div>
-                    <form>
-                        <input class="btn" id="fullScreenBtn" type="button" onclick="toggleFullscreen()" value="Full Screen">
-                    </form>
-                </div>
                 <div>v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+                <div>
+                    <ul id="fullscreen" class="ui-widget ui-helper-clearfix">
+                        <li class="ui-state-default ui-corner-all" title="Full Screen">
+                            <a href="javascript:toggleFullscreen();"><span class="ui-icon ui-icon-arrow-4-diag"></span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="headerRight" id="navigator">
                 <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
@@ -184,7 +186,8 @@
     </div>
     <div id="navigatorKey">
         <h1>Mission Navigator</h1>
-        <div style="float: left; display: inline-block; padding-right: 10px;">This tool allows you to navigate to any time within the mission.<BR>
+        <div style="float: left; display: inline-block; padding-right: 10px;">
+            <h3>This tool allows you to navigate to any time within the mission.</h3>
             The top bar represents the entire mission. (13 days wide)<BR>
             The 2nd bar is a zoomed view of part of the top bar. (~15 hours wide)<BR>
             The 3rd bar is a zoomed view of part of the 2nd bar. (~1.5 hours wide)</div>
@@ -223,9 +226,9 @@
 
 <script type="text/html" id="utteranceTemplate">
     <tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">
-        <td class="afjget afjpao">@timestamp</td>
-        <td class="afjwho afjpao">@who</td>
-        <td class="spokenwords afjpao">@words</td>
+        <td class="timestamp @pao">@timestamp</td>
+        <td class="who @pao">@who</td>
+        <td class="spokenwords @pao">@words</td>
     </tr>
 </script>
 

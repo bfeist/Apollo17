@@ -43,19 +43,23 @@ var gTier2SecondsPerPixel;
 var gTier3PixelsPerSecond;
 var gTier3SecondsPerPixel;
 
+var gColorTierBoxStroke = "lightgrey";
+var gColorMissionStageBox = "grey";
+var gColorMissionStageText = "lightgrey";
+var gColorVideoRegionBackground =  '#010047';
+var gColorVideoRegionStroke =  'blue';
 var gColorTOCText = "grey";
 var gColorTOCStroke = "lightgrey";
-var gColorTOCStageBox = "grey";
-var gColorTOCStageBoxText = "lightgrey";
-var gColorVideoRegion =  '#010047';
 var gColorPhotoTicks = 'green';
 var gColorTimeTicks = 'orange';
 var gColorUtteranceTicks = 'CadetBlue';
+var gColorCursor = 'red';
+var gColorNavCursor = 'yellow';
 
 var gHeightTimeTickDenominator = 7;
 var gHeightPhotoTickDenominator = 8;
 var gHeightUtteranceTickDenominator = 14;
-var gHeightVideoRectDenominator = 5;
+var gHeightVideoRectDenominator = 6;
 
 paper.install(window);
 
@@ -241,7 +245,7 @@ function drawCursor(seconds) {
     var topPoint = new paper.Point(cursorLocX, gTier1Top);
     var bottomPoint = new paper.Point(cursorLocX, tierBottom);
     var aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'red';
+    aLine.strokeColor = gColorCursor;
     gCursorGroup.addChild(aLine);
 
     // tier2
@@ -250,7 +254,7 @@ function drawCursor(seconds) {
     topPoint = new paper.Point(cursorLocX, gTier2Top);
     bottomPoint = new paper.Point(cursorLocX, tierBottom);
     aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'red';
+    aLine.strokeColor = gColorCursor;
     gCursorGroup.addChild(aLine);
 
     // tier3
@@ -259,14 +263,14 @@ function drawCursor(seconds) {
     topPoint = new paper.Point(cursorLocX, gTier3Top);
     bottomPoint = new paper.Point(cursorLocX, tierBottom);
     aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'red';
+    aLine.strokeColor = gColorCursor;
     gCursorGroup.addChild(aLine);
 
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
         fontSize: 14 + gFontScaleFactor,
-        fillColor: 'red'
+        fillColor: gColorCursor
     });
     timeText.content = secondsToTimeStr(seconds);
     timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
@@ -274,7 +278,7 @@ function drawCursor(seconds) {
     //    timeText.point.x = 5;
     //}
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
-    timeTextRect.strokeColor = "red";
+    timeTextRect.strokeColor = gColorCursor;
     timeTextRect.fillColor = "black";
     //timeTextRect.opacity = 0.5;
     timeTextRect.scale(1.1, 1);
@@ -290,7 +294,7 @@ function drawNavCursor(seconds) {
     var topPoint = new paper.Point(cursorLocX, gTier1Top);
     var bottomPoint = new paper.Point(cursorLocX, tierBottom);
     var aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'yellow';
+    aLine.strokeColor = gColorNavCursor;
     gNavCursorGroup.addChild(aLine);
 
     // tier2
@@ -299,7 +303,7 @@ function drawNavCursor(seconds) {
     topPoint = new paper.Point(cursorLocX, gTier2Top);
     bottomPoint = new paper.Point(cursorLocX, tierBottom);
     aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'yellow';
+    aLine.strokeColor = gColorNavCursor;
     gNavCursorGroup.addChild(aLine);
 
     // tier3
@@ -308,7 +312,7 @@ function drawNavCursor(seconds) {
     topPoint = new paper.Point(cursorLocX, gTier3Top);
     bottomPoint = new paper.Point(cursorLocX, tierBottom);
     aLine = new paper.Path.Line(topPoint, bottomPoint);
-    aLine.strokeColor = 'yellow';
+    aLine.strokeColor = gColorNavCursor;
     gNavCursorGroup.addChild(aLine);
 
     // tier3 cursor time text
@@ -316,7 +320,7 @@ function drawNavCursor(seconds) {
         justification: 'left',
         fontWeight: 'bold',
         fontSize: 14 + gFontScaleFactor,
-        fillColor: 'yellow'
+        fillColor: gColorNavCursor
     });
     timeText.content = secondsToTimeStr(seconds);
     timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
@@ -326,8 +330,8 @@ function drawNavCursor(seconds) {
         timeText.point.x = gNavigatorWidth - timeText.bounds.width - 5;
     }
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
-    timeTextRect.strokeColor = "yellow";
-    timeTextRect.fillColor = "black";
+    timeTextRect.strokeColor = gColorNavCursor;
+    timeTextRect.fillColor = 'black';
     //timeTextRect.opacity = 0.5;
     timeTextRect.scale(1.1, 1);
     gNavCursorGroup.addChild(timeTextRect);
@@ -341,7 +345,7 @@ function drawTier1() {
     var tierBottom = gTier1Top + gTier1Height;
     var tierRect = new paper.Rectangle(gTier1Left, gTier1Top, gTier1Width, gTier1Height);
     var tierRectPath = paper.Path.Rectangle(tierRect);
-    tierRectPath.strokeColor = 'grey';
+    tierRectPath.strokeColor = gColorTierBoxStroke;
     gTier1Group.addChild(tierRectPath);
 
     // draw mission stages boxes
@@ -354,14 +358,14 @@ function drawTier1() {
             rectWidth = (gMissionDurationSeconds - timeStrToSeconds(gMissionStages[i][0])) * gTier1PixelsPerSecond;
         }
         var stageRect = new paper.Path.Rectangle(rectStartX, gTier1Top, rectWidth, gTier1Top + gTier1Height / 2);
-        stageRect.strokeColor = gColorTOCStageBox;
+        stageRect.strokeColor = gColorMissionStageBox;
         stageRect.fillColor = "black";
         gTier1Group.addChild(stageRect);
 
         var stageText = new paper.PointText({
             justification: 'left',
             fontSize: 8 + gFontScaleFactor,
-            fillColor: gColorTOCStageBoxText
+            fillColor: gColorMissionStageText
         });
         var textTop = gTier1Top + (gTier1Height / 2) - 3;
         stageText.point = new paper.Point(rectStartX + 2 , textTop);
@@ -494,7 +498,7 @@ function drawTier2() {
     var tierRect = new paper.Rectangle(gTier2Left, gTier2Top, gTier2Width, gTier2Height);
     var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = "black";
-    tierRectPath.strokeColor = gColorTOCStroke;
+    tierRectPath.strokeColor = gColorTierBoxStroke;
     gTier2Group.addChild(tierRectPath);
 
     gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
@@ -504,12 +508,19 @@ function drawTier2() {
     for (var i = 0; i < gVideoSegments.length; i++) {
         //draw if video segment start is before end of viewport, and video segment end is after start of viewport
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier2StartSeconds) {
-            var rectStartX = gTier2Left + 2 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
+            var rectStartX = gTier2Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
             var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier2PixelsPerSecond;
+            if (rectStartX < gTier2Left + 1) {
+                rectStartX = gTier2Left + 1;
+            }
+            if (rectWidth > gTier2Width - rectStartX - 1) {
+                rectWidth = gTier2Width - rectStartX + gTier2Left - 1;
+            }
             var rectTop = (gTier2Top + gTier2Height) - gTier2Height / gHeightVideoRectDenominator;
             var rectHeight = gTier2Height / gHeightVideoRectDenominator - 2;
             var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-            vidRect.fillColor = gColorVideoRegion;
+            vidRect.fillColor = gColorVideoRegionBackground;
+            vidRect.strokeColor = gColorVideoRegionStroke;
             gTier2Group.addChild(vidRect);
         }
     }
@@ -531,14 +542,14 @@ function drawTier2() {
                 rectWidth = gTier2Width - rectStartX + gTier2Left - 1;
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier2Top, rectWidth, (gTier2Height / 2) - 3);
-            stageRect.strokeColor = gColorTOCStageBox;
+            stageRect.strokeColor = gColorMissionStageBox;
             //stageRect.fillColor ='black';
 
             var stageText = new paper.PointText({
                 justification: 'left',
                 fontWeight: 'bold',
                 fontSize: 11 + gFontScaleFactor,
-                fillColor: gColorTOCStageBoxText
+                fillColor: gColorMissionStageText
             });
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
             stageText.point = new paper.Point(rectStartX + 2 , textTop);
@@ -609,6 +620,10 @@ function drawTier2() {
                 textTop = tierBottom - textPosition * (gTier2Height / 3) + 2;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCAll[i][2];
+                var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
+                itemTextRect.strokeColor = "black";
+                itemTextRect.fillColor = "black";
+                gTier2Group.addChild(itemTextRect);
                 gTier2Group.addChild(itemText);
             }
         }
@@ -697,7 +712,7 @@ function drawTier3() {
     var tierRect = new paper.Rectangle(1, gTier3Top, gNavigatorWidth - 1, gTier3Height);
     var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = 'black';
-    tierRectPath.strokeColor = 'grey';
+    tierRectPath.strokeColor = gColorTierBoxStroke;
     gTier3Group.addChild(tierRectPath);
 
     gTier3StartSeconds = ((gTier2NavBoxLocX - gTier2Left) * gTier2SecondsPerPixel) + gTier2StartSeconds;
@@ -707,12 +722,19 @@ function drawTier3() {
     for (var i = 0; i <= gVideoSegments.length - 1; i++) {
         //draw if video segment start is before end of viewport, and video segment end is after start of viewport
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
-            var rectStartX = gTier3Left + 2 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+            var rectStartX = gTier3Left + 3 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
             var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond;
+            if (rectStartX < gTier3Left + 2) {
+                rectStartX = gTier3Left + 2;
+            }
+            if (rectWidth > gTier3Width - rectStartX - 1) {
+                rectWidth = gTier3Width - rectStartX + gTier3Left - 3;
+            }
             var rectTop = (gTier3Top + gTier3Height) - gTier3Height / gHeightVideoRectDenominator;
             var rectHeight = gTier3Height / gHeightVideoRectDenominator - 2;
             var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-            vidRect.fillColor = gColorVideoRegion;
+            vidRect.fillColor = gColorVideoRegionBackground;
+            vidRect.strokeColor = gColorVideoRegionStroke;
             gTier3Group.addChild(vidRect);
         }
     }
@@ -748,7 +770,7 @@ function drawTier3() {
             stageText.content = gMissionStages[i][1];
             var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
             stageTextRect.fillColor ='black';
-            stageTextRect.opacity = 0.5;
+            //stageTextRect.opacity = 0.5;
             gTier3Group.addChild(stageTextRect); //blank out area behind text
             gTier3Group.addChild(stageRect); // draw grey outline of stage segment
             gTier3Group.addChild(stageText); // text label
