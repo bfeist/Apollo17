@@ -215,8 +215,8 @@
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
         <div class="imageContainer">
-            <a href="http://apollo17.org/mission_images/@filename" target="photowindow">
-                <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath@filename">
+            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
+                <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename">
             </a>
             <div id="imageOverlay">
                 <div class="photodivcaption">@description</div>
@@ -248,7 +248,7 @@
 
 <script type="text/html" id="photoGalleryTemplate">
     <div class="galleryItemContainer" id="#gallery@timeid">
-        <img class="galleryImage" data-original="http://apollo17.org/mission_images/img/75/@filename" onclick="seekToTime('@timeid')">
+        <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>

@@ -56,6 +56,8 @@ var gColorUtteranceTicks = 'CadetBlue';
 var gColorCursor = 'red';
 var gColorNavCursor = 'yellow';
 
+var gNaxBoxZoomFadeOpacity = 0.3;
+
 var gHeightTimeTickDenominator = 7;
 var gHeightPhotoTickDenominator = 8;
 var gHeightUtteranceTickDenominator = 14;
@@ -260,9 +262,6 @@ function drawCursor(seconds) {
     });
     timeText.content = secondsToTimeStr(seconds);
     timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
-    //if (timeText.point.x < 5) { //snap time to left if off-screen left
-    //    timeText.point.x = 5;
-    //}
     var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = gColorCursor;
     timeTextRect.fillColor = "black";
@@ -373,8 +372,8 @@ function drawTier1() {
 
     //display photo ticks
     for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][2] != "") {
-            itemLocX = gTier1Left + (timeStrToSeconds(gPhotoList[i][2]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+        if (gPhotoList[i][0] != "") {
+            itemLocX = gTier1Left + (timeIdToSeconds(gPhotoList[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
             var barHeight = gTier1Height / gHeightPhotoTickDenominator;
             var barTop = tierBottom - barHeight;
             var topPoint = new paper.Point(itemLocX, barTop);
@@ -428,7 +427,7 @@ function drawTier1NavBox(seconds) {
         ],
         strokeColor: {
             gradient: {
-                stops: ['grey', 'white']
+                stops: ['lightgrey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -438,12 +437,12 @@ function drawTier1NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['black', 'white']
+                stops: ['grey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
         },
-        opacity: 0.2
+        opacity: gNaxBoxZoomFadeOpacity
     });
     gTier1NavGroup.addChild(zoomRect);
     leftGradient = new paper.Point(gTier1NavBoxLocX + navBoxWidth, gTier1Top);
@@ -457,7 +456,7 @@ function drawTier1NavBox(seconds) {
         ],
         strokeColor: {
             gradient: {
-                stops: ['white', 'grey']
+                stops: ['white', 'lightgrey']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -467,12 +466,12 @@ function drawTier1NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['white', 'black']
+                stops: ['white', 'grey']
             },
             origin: leftGradient,
             destination: rightGradient
         },
-        opacity: 0.2
+        opacity: gNaxBoxZoomFadeOpacity
     });
     gTier1NavGroup.addChild(zoomRect);
 }
@@ -551,8 +550,8 @@ function drawTier2() {
 
     //display photo ticks
     for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][2] != "") {
-            itemSecondsFromTierStart = timeStrToSeconds(gPhotoList[i][2]) - gTier2StartSeconds;
+        if (gPhotoList[i][0] != "") {
+            itemSecondsFromTierStart = timeIdToSeconds(gPhotoList[i][0]) - gTier2StartSeconds;
             if (itemSecondsFromTierStart >= 0  && itemSecondsFromTierStart <= secondsOnTier2) {
                 itemLocX = gTier2Left + itemSecondsFromTierStart * gTier2PixelsPerSecond;
                 barHeight = gTier2Height / gHeightPhotoTickDenominator;
@@ -643,7 +642,7 @@ function drawTier2NavBox(seconds) {
             [gTier3Left, gTier3Top]],
         strokeColor: {
             gradient: {
-                stops: ['grey', 'white']
+                stops: ['lightgrey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -653,12 +652,12 @@ function drawTier2NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['black', 'white']
+                stops: ['grey', 'white']
             },
             origin: leftGradient,
             destination: rightGradient
         },
-        opacity: 0.2
+        opacity: gNaxBoxZoomFadeOpacity
     });
     gTier2NavGroup.addChild(zoomRect);
 
@@ -671,7 +670,7 @@ function drawTier2NavBox(seconds) {
             [gTier3Left + gTier3Width, gTier3Top]],
         strokeColor: {
             gradient: {
-                stops: ['white', 'grey']
+                stops: ['white', 'lightgrey']
             },
             origin: leftGradient,
             destination: rightGradient
@@ -681,12 +680,12 @@ function drawTier2NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['white', 'black']
+                stops: ['white', 'grey']
             },
             origin: leftGradient,
             destination: rightGradient
         },
-        opacity: 0.2
+        opacity: gNaxBoxZoomFadeOpacity
     });
     gTier2NavGroup.addChild(zoomRect);
 }
@@ -782,8 +781,8 @@ function drawTier3() {
     }
     //display photo ticks
     for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][2] != "") {
-            itemSecondsFromLeft = timeStrToSeconds(gPhotoList[i][2]) - gTier3StartSeconds;
+        if (gPhotoList[i][0] != "") {
+            itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier3StartSeconds;
             if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier3) {
                 itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
                 barHeight = gTier3Height / gHeightPhotoTickDenominator;

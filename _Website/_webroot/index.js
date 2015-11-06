@@ -535,8 +535,10 @@ function populatePhotoGallery() {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
+        var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+        html = html.replace(/@photoTypePath/g , photoTypePath);
         html = html.replace(/@filename/g , photoObject[1]);
-        html = html.replace(/@timestamp/g , photoObject[2]);
+        html = html.replace(/@timestamp/g , timeIdToTimeStr( photoObject[0]));
         var timeid = "timeid" + photoObject[0].split(":").join("");
         html = html.replace(/@timeid/g , timeid);
 
@@ -603,10 +605,12 @@ function loadPhotoHtml(photoIndex) {
     html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
-        var sizePath = "1024/";
+        var sizePath = "1024";
     } else {
-        sizePath = ""
+        sizePath = "2100";
     }
+    var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    html = html.replace(/@fullSizePath/g , fullSizePath);
     html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , photoObject[1]);
     html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
