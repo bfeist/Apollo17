@@ -364,7 +364,7 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = CurrentClosestTime;
         console.log("closest photo time found: " + CurrentClosestTime + "| filename: " + photoFilename);
 
-        var imageMetadata = "./mission_images/meta/" + photoFilename + ".html";
+        var imageMetadata = "http://media.apollo17.org/mission_images/meta/" + photoFilename + ".html";
         $("#photoDescription").load(imageMetadata);
 
         var imageURL = "http://media.apollo17.org/mission_images/img/" + photoFilename;
