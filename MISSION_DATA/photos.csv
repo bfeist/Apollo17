@@ -2745,8 +2745,8 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 216:03:52|22939|149|KK|SO-368|65|23.5 N|22.2 W|7|11|115|80|12|REV 65|LAMBERT R|Jack Schmitt|
 216:04:02|22940|149|KK|SO-368|65|23.3 N|22.3 W|4|4|115|80|12|REV 65|LAMBERT R|Jack Schmitt|
 216:04:11|22941|149|KK|SO-368|65|23.2 N|23.5 W|4|352|115|80|11|REV 65|LAMBERT R, W OF|Jack Schmitt|
-128:54:11|22942|151|LL|SO-368|16|25.3 S|169.3 W|56|185|114|80|2|REV 16|RUMFORD, SNIADECKI|Ron Evans|moved to sleep
-128:54:35|22943|151|LL|SO-368|16|24.6 S|169.5 W|57|185|114|80|2|REV 16|RUMFORD, SNIADECKI|Ron Evans|moved to sleep
+128:54:11|22942|150|LL|SO-368|16|25.3 S|169.3 W|56|185|114|80|2|REV 16|RUMFORD, SNIADECKI|Ron Evans|moved to sleep
+128:54:35|22943|150|LL|SO-368|16|24.6 S|169.5 W|57|185|114|80|2|REV 16|RUMFORD, SNIADECKI|Ron Evans|moved to sleep
 128:54:59|22944|150|LL|SO-368|16|25.9 S|170.3 W|58|190|114|80|3|REV 16|RUMFORD, SNIADECKI|Ron Evans|moved to sleep
 128:55:23|22945|150|LL|SO-368|16|25.6 S|171.2 W|57|193|114|80|4|REV 16|RUMFORD, SNIADECKI, ORLOV|Ron Evans|moved to sleep
 128:55:47|22946|150|LL|SO-368|16|25.1 S|172.7 W|56|194|114|80|5|REV 16|RUMFORD, ORLOV|Ron Evans|moved to sleep
@@ -3986,7 +3986,7 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 |27516||||||||||60||POST EVA 3|LM INTERIOR, CERNAN|JSC scan|
 |27790|149|KK|SO-368|1|18.2 N|53.3 E|22|245|224|80|24||PEIRCE, YERKES|JSC scan|
 |29345||||||||||60|28|EVA 2|STA 5, PAN|JSC scan|
-000:00:13|7161301334_78b1a3d152_o_square|||||||||||||Liftoff||7-Dec-72
+000:00:13|7161301334_78b1a3d152_o|||||||||||||Liftoff||7-Dec-72
 |72-H-1190|||||||||||||Apollo 17 Commander Gene Cernan waves at NASA tourists from a lunar rover training vehicle||
 |72-H-1220|||||||||||||The Apollo 17 crew witnesses the rollout of the Apollo 17 Saturn V launch vehicle||28-Aug-72
 |72-H-1221|||||||||||||The Apollo 17 space vehicle is shown at launch complex 39-A||6-Nov-72
@@ -4026,8 +4026,8 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 -00:00:05|72-H-1515|||||||||||||Apollo 17 Launch||7-Dec-72
 |72-H-1516|||||||||||||Cernan waves to well-wishers as he and other Apollo 17 crewmembers leave the suiting area for brief ride to launch pad|J.L. Pickering|6-Dec-72
 |72-H-1517|||||||||||||Gene Cernan says goodbye to his family during the Apollo 17 walkout. KSC Security Chief Charlie Buckey is on the right|J.L. Pickering|6-Dec-72
-304:31:55|72-H-1550_square|||||||||||||Apollo 17 descends toward splashdown||
-304:32:01|72-H-1552_square|||||||||||||a camera from a helicopter captures the moment of splashdown for Apollo 17|research: Hamish Lindsay|
+304:31:55|72-H-1550|||||||||||||Apollo 17 descends toward splashdown||
+304:32:01|72-H-1552|||||||||||||a camera from a helicopter captures the moment of splashdown for Apollo 17|research: Hamish Lindsay|
 |72-H-1559|||||||||||||Two US Navy pararescueman jump from recovery helicopter with spacecraft flotation collar which they later attached to Apollo 17 spacecraft.||
 |72-H-1560|||||||||||||Main elements of Apollo 17 recovery operations highlight this view shortly after splashdown into the Pacific Ocean.||
 |72-H-1561|||||||||||||Eugene Cernan was the first member of the returning Moon crew to address personnel and guests aboard this prime recovery vessel.||
