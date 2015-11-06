@@ -76,11 +76,19 @@
                 <!--</div>-->
                 <div>v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
                 <div>
-                    <ul id="fullscreen" class="ui-widget ui-helper-clearfix">
-                        <li class="ui-state-default ui-corner-all" title="Full Screen">
-                            <a href="javascript:toggleFullscreen();"><span class="ui-icon ui-icon-arrow-4-diag"></span></a>
+                    <!-- <ul class="tinyButton ui-widget ui-helper-clearfix">
+                        <li class="ui-state-default ui-corner-all" title="Full Screen" >
+                            <span class="ui-icon ui-icon-arrow-4-diag"></span>
                         </li>
-                    </ul>
+                        <li class="ui-state-default ui-corner-all" title="Full Screen" onclick="toggleFullscreen()">
+                            <span class="ui-icon ui-icon-play"></span>
+                        </li>
+                    </ul> -->
+                    <button id="helpBtn"></button>
+                    <button id="fullscreenBtn"></button>
+                    <button id="playPauseBtn"></button>
+                    <button id="soundBtn"></button>
+                    <button id="realtimeBtn"></button>
                 </div>
             </div>
             <div class="headerRight" id="navigator">
@@ -147,16 +155,18 @@
         Content
     </div>
     <div id="basic-modal-content">
-        <h3>Apollo 17 - The Last Mission to the Moon</h3>
-        <p>This is a real-time interactive exploration of the Apollo 17 Mission.</p>
+        <h1>Apollo 17 in Real-Time</h1>
+        <h2>A real-time interactive exploration of Apollo 17 - The Last Mission to the Moon.</h2>
+        <p class="introCopy">Watch and listen to every moment of the mission--over 300 hours of audio transmitted, 550,000+ words spoken and transcribed, 4,200+ photos taken, and 22+ hours of television transmitted from the lunar surface. All media is coordinated within the mission's timeline. Video, photography, and every word spoken is played back in real-time, as the events occurred back in 1972.</p>
+        <p class="introCopy">Below you can choose to start the mission at 1 minute to launch, or join it in-progress as occurred at today's date and time, 43 years ago.</p>
         <div class="historicalTimeIllustration">
             <div class="historicalTime1">
                 Current Historical Mission Time:
-                <h2><div class="historicalDate"></div></h2>
-                <h1><div class="historicalTime"></div></h1>
+                <h3><div class="historicalDate"></div></h3>
+                <h3><div class="historicalTime"></div></h3>
             </div>
             <div class="historicalTime2">
-                <h1>Historical Time Difference</h1>
+                <h3>Historical Time Difference</h3>
                 <svg width="80%" height="20px" viewBox="0 0 100 20" >
                     <defs>
                         <marker id="arrow" markerWidth="10" markerHeight="10" refx="0" refy="3" orient="auto" markerUnits="strokeWidth">
@@ -170,19 +180,23 @@
             </div>
             <div class="historicalTime3">
                 Current Time:
-                <h2><div class="currentDate"></div></h2>
-                <h1><div class="currentTime"></div></h1>
+                <h3><div class="currentDate"></div></h3>
+                <h3><div class="currentTime"></div></h3>
             </div>
         </div>
         <BR>
         <div class="introButtons">
-            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="historicalButtonClick()">
-                Snap to Historical-time
-            </button>
             <button id="launchBtn" type="button" data-loading-text="Loading..." class="btn simplemodal-close" onclick="oneMinuteToLaunchButtonClick()" >
                 GO at 1 minute to launch
             </button>
+            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="historicalButtonClick()">
+                Snap to Historical-time
+            </button>
         </div>
+        <p>
+            <i>"When I left the Moon and started up the ladder, I was really at a loss. I didn’t want to leave and I looked down at my last footsteps and realised I wasn’t coming this way again. Looking back over my shoulder at the Earth had a particular significance to me – it was alive, it was moving, with purpose and beauty through space and time. In those short few minutes I wanted to figure out what was the meaning of us – everyone alive in the world today – leaving the cradle of civilization and calling the Moon our home for a few days. I searched for that answer, I needed more time. I wanted to press the freeze button, stop time to give myself a chance to think about it.<BR>
+            - Gene Cernan, Commander, Apollo 17. The last man to walk on the moon.</i>
+        </p>
     </div>
     <div id="navigatorKey">
         <h1>Mission Navigator</h1>

@@ -175,10 +175,11 @@ function onMouseOutHandler() {
 function setDynamicWidthVariables() {
     gNavigatorWidth = paper.view.size.width;
     gNavigatorHeight = paper.view.size.height;
+    //var navigatorDiv = $('#navigator');
+    //gNavigatorWidth = navigatorDiv.width;
+    //gNavigatorHeight = navigatorDiv.height;
 
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
-    //console.log("gNavigatorHeight " + gNavigatorHeight);
-    //console.log("font scaling factor " + gFontScaleFactor);
 
     gTierSpacing = gNavigatorHeight * .05; //counted twice - one for each space
 
@@ -186,17 +187,6 @@ function setDynamicWidthVariables() {
     gTier2Height = gNavigatorHeight * .23;
     gTier3Height = (gNavigatorHeight * .50);
 
-    //var totalHeight = gTier1Height + gTier2Height + gTier3Height + (gTierSpacing * 2)
-    //
-    //console.log("TOTAL HEIGHT: " + totalHeight);
-    //console.log("CANVAS HEIGHT: " + gNavigatorHeight);
-
-    //gTier1Height = Math.round(gNavigatorHeight / 3) - 20;
-    //gTier2Height = Math.round(gNavigatorHeight / 3) - 10;
-    //gTier3Height = Math.round(gNavigatorHeight / 3) + 13;
-    //gTier1Height = Math.round(gNavigatorHeight / 3) - 5;
-    //gTier2Height = Math.round(gNavigatorHeight / 3) - 5;
-    //gTier3Height = Math.round(gNavigatorHeight / 3) - 5;
     gTier1Top = 1;
     gTier2Top = gTier1Height + gTierSpacing;
     gTier3Top = gTier2Top + gTier2Height + gTierSpacing;
@@ -204,14 +194,10 @@ function setDynamicWidthVariables() {
     gTier1Width = paper.view.size.width - (paper.view.size.width * 0.1);
     gTier2Width = paper.view.size.width - (paper.view.size.width * 0.05);
     gTier3Width = paper.view.size.width;
-    //gTier1Width = paper.view.size.width;
-    //gTier2Width = paper.view.size.width;
-    //gTier3Width = paper.view.size.width;
 
     gTier1Left = (gNavigatorWidth - gTier1Width) / 2;
     gTier2Left = (gNavigatorWidth - gTier2Width) / 2;
     gTier3Left = (gNavigatorWidth - gTier3Width) / 2;
-
 
     gTier1PixelsPerSecond = gTier1Width / (gMissionDurationSeconds + gCountdownSeconds);
     gTier1SecondsPerPixel = (gMissionDurationSeconds + gCountdownSeconds) / gTier1Width;

@@ -3,11 +3,10 @@ console.log("INIT: Loading index.js");
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
 
-var gLastTimeIdMarker = '';
+var gLastTOCElement = '';
 var gLastTOCTimeId = '';
-var gLastTOCTimeIdMarker = '';
 var gLastCommentaryTimeId = '';
-var gLastCommentaryTimeIdMarker = '';
+var gLastCommentaryElement = '';
 var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
 var gIntervalID = null;
@@ -58,7 +57,7 @@ function onYouTubeIframeAPIReady() {
             modestbranding: 1,
             autohide: 1,
             rel: 0,
-            //'controls': 0,
+            'controls': 0,
             fs: 0
         },
         events: {
@@ -84,11 +83,16 @@ function onPlayerStateChange(event) {
     console.log("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
         console.log("onPlayerStateChange():PLAYER PLAYING");
+        gPlaybackState = "normal";
+        $("#playPauseBtn").button({
+            icons: { primary: 'ui-icon-pause' },
+            text: false,
+            label: "Pause"
+        });
         if (gNextVideoStartTime != -1) {
             console.log("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
             player.seekTo(gNextVideoStartTime, true);
             gNextVideoStartTime = -1;
-            gPlaybackState = "normal";
         }
         if (gPlaybackState == "unexpectedbuffering") {
             console.log("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
@@ -97,21 +101,25 @@ function onPlayerStateChange(event) {
             findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
             findClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
             findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-            gPlaybackState = "normal";
+
         }
         if (gIntervalID == null) {
             //poll for mission time scrolling if video is playing
-            gIntervalID = setAutoScrollPoller();
+            gIntervalID = autoScrollPoller();
             console.log("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
-    }
-    if (event.data == YT.PlayerState.PAUSED) {
+    } else if (event.data == YT.PlayerState.PAUSED) {
         //clear polling for mission time scrolling if video is paused
         window.clearInterval(gIntervalID);
         console.log("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
-    }
-    if (event.data == YT.PlayerState.BUFFERING) {
+        gPlaybackState = "paused";
+        $("#playPauseBtn").button({
+            icons: { primary: 'ui-icon-play' },
+            text: false,
+            label: "Play"
+        });
+    } else if (event.data == YT.PlayerState.BUFFERING) {
         console.log("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
         if (gPlaybackState == "transcriptclicked") {
             gPlaybackState = "normal";
@@ -120,8 +128,7 @@ function onPlayerStateChange(event) {
             console.log("onPlayerStateChange():unexpected buffering");
             gPlaybackState = "unexpectedbuffering";
         }
-    }
-    if (event.data == YT.PlayerState.ENDED) { //load next video
+    } else if (event.data == YT.PlayerState.ENDED) { //load next video
         console.log("onPlayerStateChange():ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gMediaList.length; ++i) {
@@ -131,19 +138,8 @@ function onPlayerStateChange(event) {
                 break;
             }
         }
-        var itemStartTimeArray = gMediaList[i + 1][2].split(":");
-        var startHours = parseInt(itemStartTimeArray[0]);
-        var startMinutes = parseInt(itemStartTimeArray[1]);
-        var startSeconds = parseInt(itemStartTimeArray[2]);
-        var signToggle = (startHours < 0) ? -1 : 1;
-        gCurrVideoStartSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
-
-        var itemEndTimeArray = gMediaList[i + 1][3].split(":");
-        var endHours = parseInt(itemEndTimeArray[0]);
-        var endMinutes = parseInt(itemEndTimeArray[1]);
-        var endSeconds = parseInt(itemEndTimeArray[2]);
-        signToggle = (endHours < 0) ? -1 : 1;
-        gCurrVideoEndSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+        gCurrVideoStartSeconds = timeStrToSeconds(gMediaList[i + 1][2]);
+        gCurrVideoEndSeconds = timeStrToSeconds(gMediaList[i + 1][3]);
 
         player.iv_load_policy = 3;
         gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
@@ -152,40 +148,21 @@ function onPlayerStateChange(event) {
 }
 
 //--------------- transcript iframe autoscroll handling --------------------
-function setAutoScrollPoller() {
-    console.log("setAutoScrollPoller()");
+function autoScrollPoller() {
+    console.log("autoScrollPoller()");
     return window.setInterval(function () {
         var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
-        if (totalSec < 0) {
-            var onCountdown = true; //if on the countdown video counting backwards, make all times positive for timecode generation, then add the negative sign to the search string
-        } else {
-            onCountdown = false;
-        }
         if (gCurrVideoStartSeconds == 230400) {
             if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
                 //console.log("adding 9600 seconds to autoscroll target due to MET time change");
                 totalSec = totalSec + 9600;
             }
         }
-
         gCurrMissionTime = secondsToTimeStr(totalSec);
-        //var hours = Math.abs(parseInt(totalSec / 3600));
-        //var minutes = Math.abs(parseInt(totalSec / 60)) % 60 % 60;
-        //var seconds = Math.abs(parseInt(totalSec)) % 60;
-        //seconds = Math.floor(seconds);
-        //
-        //if (onCountdown) {
-        //    var hoursText = "-" + padZeros(hours, 2);
-        //} else {
-        //    hoursText = padZeros(hours, 3);
-        //}
-        //gCurrMissionTime = hoursText + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
-            var timeId = "timeid" + gCurrMissionTime.split(":").join("");
+            var timeId = timeStrToTimeId(gCurrMissionTime);
             gLastTimeIdChecked = gCurrMissionTime;
-            //console.log("totalsec: " + totalSec + "| divmarker: " + timeId);
-           // $("#timer").text(gCurrMissionTime);
 
             scrollToTimeID(timeId);
             scrollTOCToTimeID(timeId);
@@ -201,9 +178,22 @@ function setAutoScrollPoller() {
                 drawCursor(totalSec);
                 paper.view.draw();
             }
-            //drawCursor(timeStrToSeconds(gCurrMissionTime));
-
         }
+
+        if (player.isMuted() == true) {
+            var btnIcon = "ui-icon-volume-off";
+            var btnText = "Un-Mute";
+        } else {
+            btnIcon = "ui-icon-volume-on";
+            btnText = "Mute";
+        }
+        $("#soundBtn")
+            .button({
+                icons: { primary: btnIcon },
+                text: false,
+                label: btnText
+            });
+
     }, 500); //polling frequency in milliseconds
 }
 
@@ -222,22 +212,15 @@ function findClosestUtterance(secondsSearch) {
             secondsSearch = secondsSearch + 9600;
         }
     }
+    var timeId = secondsToTimeId(secondsSearch);
+    var scrollTimeId = gUtteranceIndex[gUtteranceIndex.length - 1];
     for (var i = 0; i < gUtteranceIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gUtteranceIndex[i])) {
-            scrollDestination = "timeid" + gUtteranceIndex[i - 1];
+        if (timeId < parseInt(gUtteranceIndex[i])) {
+            scrollTimeId = gUtteranceIndex[i - 1];
             break;
         }
     }
-    displayUtteranceRegion(scrollDestination);
+    displayUtteranceRegion(scrollTimeId);
 }
 
 function findClosestTOC(secondsSearch) {
@@ -248,24 +231,16 @@ function findClosestTOC(secondsSearch) {
             secondsSearch = secondsSearch + 9600;
         }
     }
-    var scrollDestination = "timeid" + gTOCIndex[gTOCIndex.length - 1];
+    var timeId = secondsToTimeId(secondsSearch);
+    var scrollTimeId = gTOCIndex[gTOCIndex.length - 1];
     for (var i = 0; i < gTOCIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gTOCIndex[i])) {
-            scrollDestination = "timeid" + gTOCIndex[i - 1];
+        if (timeId < parseInt(gTOCIndex[i])) {
+            scrollTimeId = gTOCIndex[i - 1];
             break;
         }
     }
     console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
-    scrollTOCToTimeID(scrollDestination);
+    scrollTOCToTimeID(scrollTimeId);
 }
 
 function findClosestCommentary(secondsSearch) {
@@ -276,31 +251,23 @@ function findClosestCommentary(secondsSearch) {
             secondsSearch = secondsSearch + 9600;
         }
     }
-    var scrollDestination = "timeid" + gCommentaryIndex[gCommentaryIndex.length - 1];
+    var timeId = secondsToTimeId(secondsSearch);
+    var scrollTimeId = gCommentaryIndex[gCommentaryIndex.length - 1];
     for (var i = 0; i < gCommentaryIndex.length; ++i) {
-        var hours = Math.abs(parseInt(secondsSearch / 3600));
-        var minutes = Math.abs(parseInt(secondsSearch / 60)) % 60;
-        var seconds = Math.abs(parseInt(secondsSearch)) % 60;
-        seconds = Math.floor(seconds);
-
-        var timeId = "timeid" + padZeros(hours,3) + padZeros(minutes,2) + padZeros(seconds,2);
-        if (secondsSearch < 0) {
-            timeId = timeId.substr(0,6) + "-" + timeId.substr(7); //change timeid to negative, replacing leading zero in hours with "-"
-        }
-        if (parseInt(timeId.substr(6)) < parseInt(gCommentaryIndex[i])) {
-            scrollDestination = "timeid" + gCommentaryIndex[i - 1];
+        if (timeId < parseInt(gCommentaryIndex[i])) {
+            scrollTimeId = gCommentaryIndex[i - 1];
             break;
         }
     }
     console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
-    scrollCommentaryToTimeID(scrollDestination);
+    scrollCommentaryToTimeID(scrollTimeId);
 }
 
 function scrollToTimeID(timeId) {
     //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-    if ($.inArray(timeId.substr(6), gUtteranceIndex) != -1) {
-        // console.log("scrollToTimeID " + timeId);
-        // console.log("Utterance item found in array. Scrolling utterance frame to " + timeId);
+    if ($.inArray(timeId, gUtteranceIndex) != -1) {
+        // console.log("scrollToElementId " + elementId);
+        // console.log("Utterance item found in array. Scrolling utterance frame to " + elementId);
         if ($("#tabs-left").tabs('option', 'active') != 0) {
             $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
         }
@@ -309,87 +276,72 @@ function scrollToTimeID(timeId) {
 }
 
 function scrollTOCToTimeID(timeId) {
-    if ($.inArray(timeId.substr(6), gTOCIndex) != -1) {
-        if (timeId != gLastTOCTimeId) {
-            //console.log("scrollTOCToTimeID(): scrolling to " + timeId);
+    if (timeId != gLastTOCTimeId) {
+        if ($.inArray(timeId, gTOCIndex) != -1) {
+            //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
             if ($("#tabs-left").tabs('option', 'active') != 1) {
                 $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
             }
             var TOCFrame = $('#iFrameTOC').contents();
-            var TOCtimeIdMarker = TOCFrame.find('#' + timeId);
+            var TOCElement = TOCFrame.find('#timeid' + timeId);
             //reset background color of last line
-            if (gLastTOCTimeIdMarker != '') {
-                gLastTOCTimeIdMarker.css("background-color", background_color);
+            if (gLastTOCElement != '') {
+                gLastTOCElement.css("background-color", background_color);
             }
-            TOCtimeIdMarker.css("background-color", background_color_active);
-            var TOCscrollDestination = TOCtimeIdMarker.offset().top - 100;
-            TOCFrame.find('body').animate({scrollTop: TOCscrollDestination}, 500);
-            gLastTOCTimeIdMarker = TOCtimeIdMarker;
-            gLastTOCTimeId = timeId;
-        } else {
-            //console.log("scrollTOCToTimeID(): TOC item already scrolled to. Not scrolling");
+            TOCElement.css("background-color", background_color_active);
+            var scrollDestination = TOCElement.offset().top - 100;
+            TOCFrame.find('body').animate({scrollTop: scrollDestination}, 500);
+            gLastTOCElement = TOCElement;
         }
+        gLastTOCTimeId = timeId;
+    } else {
+        //console.log("scrollTOCToTimeID(): TOC item already scrolled to. Not scrolling");
     }
 }
 
 function scrollCommentaryToTimeID(timeId) {
-    if ($.inArray(timeId.substr(6), gCommentaryIndex) != -1) {
-        if (timeId != gLastCommentaryTimeId) {
+    if (timeId != gLastCommentaryTimeId) {
+        if ($.inArray(timeId, gCommentaryIndex) != -1) {
             //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
             if ($("#tabs-left").tabs('option', 'active') != 2) {
                 $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
             }
             //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
-            var CommentaryFrame = $('#iFrameCommentary').contents();
-            var CommentaryTimeIdMarker = CommentaryFrame.find('#' + timeId);
-            if (CommentaryTimeIdMarker.length != 0) {
+            var commentaryFrame = $('#iFrameCommentary').contents();
+            var commentaryElement = commentaryFrame.find('#timeid' + timeId);
+            if (commentaryElement.length != 0) {
                 //reset background color of last line
-                if (gLastCommentaryTimeIdMarker != '') {
-                    gLastCommentaryTimeIdMarker.css("background-color", background_color);
+                if (gLastCommentaryElement != '') {
+                    gLastCommentaryElement.css("background-color", background_color);
                 }
-                CommentaryTimeIdMarker.css("background-color", background_color_active);
-                var CommentaryScrollDestination = CommentaryTimeIdMarker.offset().top - 100;
-                CommentaryFrame.find('body').animate({scrollTop: CommentaryScrollDestination}, 500);
+                commentaryElement.css("background-color", background_color_active);
+                var scrollDestination = commentaryElement.offset().top - 100;
+                commentaryFrame.find('body').animate({scrollTop: scrollDestination}, 500);
             }
-            gLastCommentaryTimeIdMarker = CommentaryTimeIdMarker;
-            gLastCommentaryTimeId = timeId;
-        } else {
-            //console.log("scrollCommentaryToTimeID(): Commentary item already scrolled to. Not scrolling");
+            gLastCommentaryElement = commentaryElement;
         }
+        gLastCommentaryTimeId = timeId;
+    } else {
+        //console.log("scrollCommentaryToTimeID(): Commentary item already scrolled to. Not scrolling");
     }
 }
 
 //--------------- transcript click handling --------------------
-function seekToTime(elementId){
+function seekToTime(elementId) {
     console.log("seekToTime(): " + elementId);
-    var gaTimeVal = parseInt(elementId.replace("timeid", ""));
-    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
-    var timeStr = elementId.substr(6,7);
-    var sign = timeStr.substr(0,1);
-    var hours = parseInt(timeStr.substr(0,3));
-    var minutes = parseInt(timeStr.substr(3,2));
-    var seconds = parseInt(timeStr.substr(5,2));
-    var signToggle = (sign == "-") ? -1 : 1;
-    var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+    var timeId = elementId.substr(6);
 
+    var gaTimeVal = parseInt(timeId);
+    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
+
+    var totalSeconds = timeIdToSeconds(timeId);
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
     redrawAll();
 
     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2 ,11);
     for (var i = 0; i < gMediaList.length; ++i) {
-        var itemStartTimeArray = gMediaList[i][2].split(":");
-        var startHours = parseInt(itemStartTimeArray[0]);
-        var startMinutes = parseInt(itemStartTimeArray[1]);
-        var startSeconds = parseInt(itemStartTimeArray[2]);
-        signToggle = (startHours < 0) ? -1 : 1;
-        var itemStartTimeSeconds = signToggle * (Math.abs(startHours) * 60 * 60 + startMinutes  * 60 + startSeconds);
-
-        var itemEndTimeArray = gMediaList[i][3].split(":");
-        var endHours = parseInt(itemEndTimeArray[0]);
-        var endMinutes = parseInt(itemEndTimeArray[1]);
-        var endSeconds = parseInt(itemEndTimeArray[2]);
-        signToggle = (endHours < 0) ? -1 : 1;
-        var itemEndTimeSeconds = signToggle * (Math.abs(endHours) * 60 * 60 + endMinutes * 60 + endSeconds);
+        var itemStartTimeSeconds = timeStrToSeconds(gMediaList[i][2]);
+        var itemEndTimeSeconds = timeStrToSeconds(gMediaList[i][3]);
 
         if (totalSeconds >= itemStartTimeSeconds && totalSeconds < itemEndTimeSeconds) { //if this video in loop contains the time we want to seek to
             var seekToSecondsWithOffset = totalSeconds - itemStartTimeSeconds;
@@ -402,24 +354,18 @@ function seekToTime(elementId){
             }
             gCurrVideoStartSeconds = itemStartTimeSeconds;
             gCurrVideoEndSeconds = itemEndTimeSeconds;
-            //if (gPlaybackState != "rounding") { //if this function wasn't called from getNearestHistoricalMissionTimeId then set that the transcript has been clicked
-            //    gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
-            //}
             gPlaybackState = "transcriptclicked"; //used in the youtube playback code to determine whether vid has been scrubbed
             //change youtube video if the correct video isn't already playing
             if (currVideoID !== gMediaList[i][1]) {
                 console.log("seekToTime(): changing video from: " + currVideoID + " to: " + gMediaList[i][1]);
                 gNextVideoStartTime = seekToSecondsWithOffset;
                 player.loadVideoById(gMediaList[i][1], seekToSecondsWithOffset);
-                // window.clearInterval(gIntervalID); //reset the scrolling poller for the new video
-                // gIntervalID = setAutoScrollPoller();
-                // console.log("INTERVAL: New interval started after seek: " + gIntervalID);
             } else {
                 console.log("seekToTime(): no need to change video. Seeking to " + elementId.toString());
                 player.seekTo(seekToSecondsWithOffset, true);
             }
             //scrollToTimeID(findClosestUtterance(totalSeconds));
-            showCurrentPhoto(elementId);
+            showCurrentPhoto(timeId);
             findClosestUtterance(totalSeconds);
             findClosestTOC(totalSeconds);
             findClosestCommentary(totalSeconds);
@@ -429,7 +375,7 @@ function seekToTime(elementId){
     }
 }
 
-function displayHistoricalTimeDifferenceByTimeId(timeid) {
+function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //console.log("displayHistoricalTimeDifferenceByTimeId():" + timeid);
     //TODO accommodate mission time change mid-mission
 
@@ -439,11 +385,10 @@ function displayHistoricalTimeDifferenceByTimeId(timeid) {
     //launchDate.setDate(launchDate.getDate() - 1); //required to get 43 years exactly during mission. Not understood why.
     //launchDate.setHours(launchDate.getHours() + 1);
 
-    var timeStr = timeid.substr(6);
-    var sign = timeStr.substr(0,1);
-    var hours = parseInt(timeStr.substr(0,3));
-    var minutes = parseInt(timeStr.substr(3,2));
-    var seconds = parseInt(timeStr.substr(5,2));
+    var sign = timeId.substr(0,1);
+    var hours = parseInt(timeId.substr(0,3));
+    var minutes = parseInt(timeId.substr(3,2));
+    var seconds = parseInt(timeId.substr(5,2));
 
     var conversionMultiplier = 1;
     if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
@@ -511,7 +456,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var h = Math.floor( (difference_ms) / msInHour);
     var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
 
-    var timeId = "timeid" + padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
+    var timeId = padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
     //console.log("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
     ga('send', 'event', 'button', 'click', 'snap to real-time');
 
@@ -521,17 +466,17 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 
 //------------------------------------------------- utterance chunking code -------------------------------------------------
 
-function displayUtteranceRegion(timeid) {
-    var utteranceIndex = gUtteranceDataLookup[timeid.substr(6)];
+function displayUtteranceRegion(timeId) {
+    var utteranceIndex = gUtteranceDataLookup[timeId];
 
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
     repopulateUtteranceTable(utteranceIndex);
 
-    var timeIdMarker = utteranceTable.find('#' + timeid);
-    var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+    var elementId = utteranceTable.find('#timeid' + timeId);
+    var scrollDestination = elementId.offset().top - utteranceDiv.offset().top;
+    utteranceDiv.animate({scrollTop: scrollDestination}, '1000', 'swing', function() {
         //console.log('Finished animating: ' + scrollDestination);
     });
     //repopulateUtteranceTable(utteranceIndex);
@@ -604,29 +549,24 @@ function populatePhotoGallery() {
 
 function showCurrentPhoto(timeId) {
     //console.log('showCurrentPhoto():' + timeId);
-    var timeStr = parseInt(timeId.substr(6));
     //var closestTime = closest(timeStr, gPhotoIndex);
 
     //find closest photo and display it if it has changed
     var currentClosestTime = parseInt(gPhotoIndex[0]);
-    var diff = Math.abs(timeStr - currentClosestTime);
+    var timeIDInt = parseInt(timeId);
     for (var i = 0; i < gPhotoIndex.length; i++) {
-        if (gPhotoIndex[i] > timeStr) {
+        if (gPhotoIndex[i] > timeIDInt) {
             var photoIndexNum = i - 1;
+            currentClosestTime = gPhotoIndex[i - 1];
             break;
-        }
-        var newdiff = Math.abs(timeStr - parseInt(gPhotoIndex[i]));
-        if (newdiff < diff) {
-            diff = newdiff;
-            currentClosestTime = gPhotoIndex[i];
         }
     }
     if (currentClosestTime != gCurrentPhotoTimestamp) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
 
+        //find gallery element
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoList[photoIndexNum][0].split(":").join("");
-
         //search the listview for the "top" of the current photo
         var photoGalleryDiv = $('#photoGallery');
         var listView = photoGalleryDiv.data('listView');
@@ -644,19 +584,13 @@ function showCurrentPhoto(timeId) {
             }
         }
         //scroll to that element //TODO figure out why I can't change CSS attributes of listItems (they blink out of existence on lazyload)
-        //var scrollDest = photoIndexNum * 77; //75 plus 1 for each border
         if (foundItem != null) {
             var scrollDest = foundItem.top;
             //$("#photoGallery").scrollTop(scrollDest);
             photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
                 //console.log('Finished animating gallery: ' + scrollDest);
             });
-            //var galleryImageDiv = $(photoGalleryImageTimeId);
-            //var galleryImageDiv = foundItem.$el;
-            //galleryImageDiv.css("background-color", "red");
-            //foundItem.$el.css("background-color", "red");
         }
-        //console.log("temp");
     }
 }
 
@@ -705,16 +639,10 @@ function scaleMissionImage() {
 
     var maxWidth = photodiv.width(); // Max width for the image
     var maxHeight = photodiv.height();    // Max height for the image
-    //console.log("scaleMissionImage():maxWidth " + maxWidth);
-    //console.log("scaleMissionImage():maxHeight " + maxHeight);
     var ratio = 0;  // Used for aspect ratio
-    //var width = image.width();    // Current image width
-    //var height =image.height();  // Current image height
 
-    var width = image.get(0).naturalWidth;
-    var height =image.get(0).naturalHeight;
-    //console.log("scaleMissionImage():naturalWidth " + width);
-    //console.log("scaleMissionImage():naturalHeight " + height);
+    var width = image.get(0).naturalWidth; // Full image width
+    var height =image.get(0).naturalHeight; // Full image height
 
     // Check if the current width is larger than the max7
     if(width > maxWidth){
@@ -752,7 +680,7 @@ function initializePlayback() {
     }
     clearInterval(gApplicationReadyIntervalID);
     gApplicationReadyIntervalID = null;
-    gIntervalID = setAutoScrollPoller();
+    gIntervalID = autoScrollPoller();
 }
 
 function setApplicationReadyPoller() {
@@ -794,6 +722,25 @@ function secondsToTimeStr(totalSeconds) {
     return timeStr;
 }
 
+function secondsToTimeId(seconds) {
+    var timeId = secondsToTimeStr(seconds).split(":").join("");
+    return parseInt(timeId);
+}
+
+function timeIdToSeconds(timeId) {
+    var sign = timeId.substr(0,1);
+    var hours = parseInt(timeId.substr(0,3));
+    var minutes = parseInt(timeId.substr(3,2));
+    var seconds = parseInt(timeId.substr(5,2));
+    var signToggle = (sign == "-") ? -1 : 1;
+
+    return signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+}
+
+function timeStrToTimeId(timeStr) {
+    return timeStr.split(":").join("");
+}
+
 function timeStrToSeconds(timeStr) {
     var sign = timeStr.substr(0,1);
     var hours = parseInt(timeStr.substr(0,3));
@@ -812,7 +759,7 @@ function setIntroTimeUpdatePoller() {
 
 function historicalButtonClick() {
     window.clearInterval(gIntroInterval);
-    seekToTime(getNearestHistoricalMissionTimeId());
+    seekToTime("timeid" + getNearestHistoricalMissionTimeId());
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     gIntroInterval = null;
 }
@@ -853,11 +800,76 @@ jQuery(function ($) {
         //console.log("Loading overlay on");
 
         $("#historicalBtn").button();
-        $("#fullScreenBtn").button();
         $("#launchBtn").button();
     } else {
         $('body').isLoading({text: "Loading", position: "overlay"});
     }
+
+    $("#fullscreenBtn")
+        .button({
+            icons: { primary: "ui-icon-arrow-4-diag" },
+            text: false,
+            label: "Full Screen"
+        })
+        .click(function(){
+            toggleFullscreen();
+        });
+
+
+    $("#playPauseBtn")
+        .button({
+            icons: { primary: "ui-icon-pause" },
+            text: false
+        })
+        .click(function(){
+            if (gPlaybackState == "paused") {
+                player.playVideo();
+            } else {
+                player.pauseVideo();
+            }
+        });
+
+    $("#soundBtn")
+        .button({
+            icons: { primary: "ui-icon-volume-off" },
+            text: false
+        })
+        .click(function(){
+            if (player.isMuted() == true) {
+                player.unMute();
+                var btnIcon = "ui-icon-volume-on";
+                var btnText = "Mute";
+            } else {
+                player.mute();
+                btnIcon = "ui-icon-volume-off";
+                btnText = "Un-Mute";
+            }
+            $( "#soundBtn" ).button({
+                icons: { primary: btnIcon },
+                text: false,
+                label: btnText
+            });
+        });
+
+    $("#realtimeBtn")
+        .button({
+            icons: { primary: "ui-icon-link" },
+            text: false,
+            label: "Snap to Historical Time"
+        })
+        .click(function(){
+            historicalButtonClick();
+        });
+
+    $("#helpBtn")
+        .button({
+            icons: { primary: "ui-icon-help" },
+            text: false,
+            label: "Help"
+        })
+        .click(function(){
+            alert("Help!");
+        });
 
     //init tabs
     $(".mid-center").tabs();
@@ -916,7 +928,7 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
     setTimeout(function(){
             populatePhotoGallery(); }
-        ,2000);
+        ,1000);
     scaleMissionImage();
     redrawAll();
 });

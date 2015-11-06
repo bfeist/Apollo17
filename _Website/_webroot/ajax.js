@@ -11,7 +11,9 @@ $.when(ajaxGetMediaIndex(),
         gApplicationReady += 1;
         console.log("APPREADY: Ajax loaded: " + gApplicationReady);
 
-        populatePhotoGallery();
+        setTimeout(function(){
+            populatePhotoGallery(); }
+        ,1000);
     });
 
 //--------------- index file handling --------------------
