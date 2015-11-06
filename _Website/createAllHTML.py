@@ -212,7 +212,6 @@ for list_item in sorted_list:
     photo_index_id = list_item.timestamp.translate(None, ":")
     output_photo_index_file.write(photo_index_id + "|" +
                                   list_item.filename + "|" +
-                                  list_item.timestamp + "|" +
                                   list_item.photo_num + "|" +
                                   list_item.mag_code + "|" +
                                   list_item.mag_number + "|" +

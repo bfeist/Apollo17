@@ -599,22 +599,23 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
+    var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+    html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
         var sizePath = "1024/";
     } else {
         sizePath = ""
     }
-
     html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , photoObject[1]);
-    html = html.replace("@timestamp", photoObject[2]);
-    html = html.replace("@photo_num", photoObject[3]);
-    var magNum = "AS17-" + photoObject[5] + "-";
-    html = (photoObject[4] != "") ? html.replace("@mag_code", "Mag: " + photoObject[4]) : html.replace("@mag_code", "");
-    html = (photoObject[5] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
-    html = (photoObject[6] != "") ? html.replace("@photographer", "Photographer: " + photoObject[6]) : html.replace("@photographer", "");
-    html = html.replace("@description", photoObject[7]);
+    html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
+    html = html.replace("@photo_num", photoObject[2]);
+    var magNum = "AS17-" + photoObject[4] + "-";
+    html = (photoObject[3] != "") ? html.replace("@mag_code", "Mag: " + photoObject[3]) : html.replace("@mag_code", "");
+    html = (photoObject[4] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
+    html = (photoObject[5] != "") ? html.replace("@photographer", "Photographer: " + photoObject[5]) : html.replace("@photographer", "");
+    html = html.replace("@description", photoObject[6]);
 
     photoDiv.html('');
     photoDiv.append(html);
@@ -734,6 +735,10 @@ function timeIdToSeconds(timeId) {
     var signToggle = (sign == "-") ? -1 : 1;
 
     return signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+}
+
+function timeIdToTimeStr(timeId) {
+    return timeId.substr(0,3) + ":" + timeId.substr(3,2) + ":" + timeId.substr(5,2);
 }
 
 function timeStrToTimeId(timeStr) {
