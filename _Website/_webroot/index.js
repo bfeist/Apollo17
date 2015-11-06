@@ -367,7 +367,7 @@ function showCurrentPhoto(timeId) {
         var imageMetadata = "./mission_images/meta/" + photoFilename + ".html";
         $("#photoDescription").load(imageMetadata);
 
-        var imageURL = "./mission_images/img/" + photoFilename;
+        var imageURL = "http://media.apollo17.org/mission_images/img/" + photoFilename;
         var anchor = document.createElement("a");
         anchor.href = imageURL;
         anchor.setAttribute('target', '_blank');
