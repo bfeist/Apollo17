@@ -153,7 +153,7 @@ function autoScrollPoller() {
     return window.setInterval(function () {
         var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
         if (gCurrVideoStartSeconds == 230400) {
-            if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+            if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 002:40:00 to time
                 //console.log("adding 9600 seconds to autoscroll target due to MET time change");
                 totalSec = totalSec + 9600;
             }
@@ -579,9 +579,8 @@ function showCurrentPhoto(timeId) {
                     break;
                 }
             }
-            if (foundItem != null) {
+            if (foundItem != null)
                 break;
-            }
         }
         //scroll to that element //TODO figure out why I can't change CSS attributes of listItems (they blink out of existence on lazyload)
         if (foundItem != null) {
@@ -671,8 +670,8 @@ function initializePlayback() {
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
-            var timeId = "timeid" + paramMissionTime.split(":").join("");
-            seekToTime(timeId);
+            var elementId = "timeid" + timeStrToTimeId(paramMissionTime);
+            seekToTime(elementId);
         } else {
             console.log("Invalid t Parameter");
             seekToTime("timeid-000100"); //jump to 1 minute to launch
