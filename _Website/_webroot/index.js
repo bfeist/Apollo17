@@ -2,6 +2,7 @@ console.log("INIT: Loading index.js");
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
+var gDefaultStartElementId = 'timeid-000105';
 
 var gLastTOCElement = '';
 var gLastTOCTimeId = '';
@@ -73,7 +74,7 @@ function onPlayerReady(event) {
     console.log("APPREADY: onPlayerReady: " + gApplicationReady);
     //if (gMissionTimeParamSent == 0) {
         //event.target.playVideo();
-        //seekToTime("timeid-000100"); //jump to 1 minute to launch
+        //seekToTime(gDefaultStartTime); //jump to 1 minute to launch
     //}
 }
 
@@ -650,7 +651,7 @@ function scaleMissionImage() {
 function initializePlayback() {
     console.log("initializePlayback()");
     if (gMissionTimeParamSent == 0) {
-        seekToTime("timeid-000100"); //jump to 1 minute to launch
+        seekToTime(gDefaultStartElementId); //jump to default start time (usually 1 minute to launch)
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
@@ -658,7 +659,7 @@ function initializePlayback() {
             seekToTime(elementId);
         } else {
             console.log("Invalid t Parameter");
-            seekToTime("timeid-000100"); //jump to 1 minute to launch
+            seekToTime(gDefaultStartElementId);
         }
     }
     clearInterval(gApplicationReadyIntervalID);
