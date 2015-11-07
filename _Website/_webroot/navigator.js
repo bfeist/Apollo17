@@ -375,6 +375,7 @@ function drawTier1() {
     }
 
     //display photo ticks
+    var tempGroup = new paper.Group;
     for (i = 0; i < gPhotoList.length; i++) {
         if (gPhotoList[i][0] != "") {
             itemLocX = gTier1Left + (timeIdToSeconds(gPhotoList[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
@@ -384,13 +385,18 @@ function drawTier1() {
             var bottomPoint = new paper.Point(itemLocX, tierBottom);
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = gColorPhotoTicks;
-            gTier1Group.addChild(aLine);
+            tempGroup.addChild(aLine);
         }
     }
+    var t1PhotoTicksRaster = tempGroup.rasterize();
+    tempGroup.remove();
+    tempGroup = null;
+    gTier1Group.addChild(t1PhotoTicksRaster);
+
     //display time ticks
+    tempGroup = new paper.Group;
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds + gCountdownSeconds);
     var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
-
     for (i = 0; i < missionDurationHours; i++) {
         var itemLocX = gTier1Left + (i * 60 * 60) * gTier1PixelsPerSecond;
         barHeight = gTier1Height / gHeightTimeTickDenominator;
@@ -399,8 +405,12 @@ function drawTier1() {
         bottomPoint = new paper.Point(itemLocX, tierBottom);
         aLine = new paper.Path.Line(topPoint, bottomPoint);
         aLine.strokeColor = gColorTimeTicks;
-        gTier1Group.addChild(aLine);
+        tempGroup.addChild(aLine);
     }
+    var t1TimeTicksRaster = tempGroup.rasterize();
+    tempGroup.remove();
+    tempGroup = null;
+    gTier1Group.addChild(t1TimeTicksRaster);
 }
 
 function drawTier1NavBox(seconds) {
@@ -553,6 +563,7 @@ function drawTier2() {
     }
 
     //display photo ticks
+    var tempGroup = new paper.Group;
     for (i = 0; i < gPhotoList.length; i++) {
         if (gPhotoList[i][0] != "") {
             itemSecondsFromTierStart = timeIdToSeconds(gPhotoList[i][0]) - gTier2StartSeconds;
@@ -564,10 +575,15 @@ function drawTier2() {
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
                 aLine.strokeColor = 'green';
-                gTier2Group.addChild(aLine);
+                tempGroup.addChild(aLine);
             }
         }
     }
+    var t2PhotoTicksRaster = tempGroup.rasterize();
+    tempGroup.remove();
+    tempGroup = null;
+    gTier2Group.addChild(t2PhotoTicksRaster);
+
     //display time ticks
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
     var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
@@ -766,24 +782,8 @@ function drawTier3() {
         }
     }
 
-    //display time ticks
-    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
-    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
-
-    for (i = 0; i < missionDurationHours * 2; i++) {
-        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
-        if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3) {
-            itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
-            barHeight = gTier3Height / gHeightTimeTickDenominator;
-            var barTop = tierBottom - barHeight;
-            topPoint = new paper.Point(itemLocX, barTop);
-            bottomPoint = new paper.Point(itemLocX, tierBottom);
-            aLine = new paper.Path.Line(topPoint, bottomPoint);
-            aLine.strokeColor = 'orange';
-            gTier3Group.addChild(aLine);
-        }
-    }
     //display photo ticks
+    var tempGroup = new paper.Group;
     for (i = 0; i < gPhotoList.length; i++) {
         if (gPhotoList[i][0] != "") {
             itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier3StartSeconds;
@@ -795,11 +795,17 @@ function drawTier3() {
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
                 aLine.strokeColor = 'green';
-                gTier3Group.addChild(aLine);
+                tempGroup.addChild(aLine);
             }
         }
     }
+    var t3PhotoTicksRaster = tempGroup.rasterize();
+    tempGroup.remove();
+    tempGroup = null;
+    gTier3Group.addChild(t3PhotoTicksRaster);
+
     //display utterance ticks
+    var tempGroup = new paper.Group;
     for (i = 0; i < gUtteranceData.length; i++) {
         if (gUtteranceData[i][0] != "") {
             itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
@@ -812,10 +818,15 @@ function drawTier3() {
                 bottomPoint = new paper.Point(itemLocX, barBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
                 aLine.strokeColor = gColorUtteranceTicks;
-                gTier3Group.addChild(aLine);
+                tempGroup.addChild(aLine);
             }
         }
     }
+    var t3UtteranceTicksRaster = tempGroup.rasterize();
+    tempGroup.remove();
+    tempGroup = null;
+    gTier3Group.addChild(t3UtteranceTicksRaster);
+
     //display TOC ticks and text
     //display TOC ticks at varying heights
     for (i = 0; i < gTOCAll.length; i++) {
