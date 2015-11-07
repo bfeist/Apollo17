@@ -1,0 +1,110 @@
+
+  <div class="page-wrapper">
+    <div class="outer-north">
+        <div class="headerBlock">
+            <div class="headerLeft">
+                <img src="./img/Apollo_17-insignia100.png">
+            </div>
+            <div class="headerMiddle">
+                <h2><div class="title">Apollo 17 in Real-Time</div></h2>
+                <h2><div class="historicalDate date">Thu Dec 07 1972</div></h2>
+                <h1><div class="historicalTime time">12:32:00 AM</div></h1>
+
+                <!--<div id="missionTime">Mission Elapsed Time:-->
+                    <!--<span id="timer">000:00:00</span>-->
+                <!--</div>-->
+                <div>v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
+                <div>
+                    <!-- <ul class="tinyButton ui-widget ui-helper-clearfix">
+                        <li class="ui-state-default ui-corner-all" title="Full Screen" >
+                            <span class="ui-icon ui-icon-arrow-4-diag"></span>
+                        </li>
+                        <li class="ui-state-default ui-corner-all" title="Full Screen" onclick="toggleFullscreen()">
+                            <span class="ui-icon ui-icon-play"></span>
+                        </li>
+                    </ul> -->
+                    <button id="helpBtn"></button>
+                    <button id="fullscreenBtn"></button>
+                    <button id="playPauseBtn"></button>
+                    <button id="soundBtn"></button>
+                    <button id="realtimeBtn"></button>
+                </div>
+            </div>
+            <div class="headerRight" id="navigator">
+                <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
+            </div>
+        </div>
+    </div>
+    <div class="outer-west">
+        <div class="mid-north">
+            <div id="player"></div>
+        </div>
+        <div id="tabs-left" class="mid-center">
+            <ul>
+                <li><A id="transcriptTab" href="#tabs-left-1"><SPAN>Transcript</SPAN></A></li>
+                <li><A id="tocTab" href="#tabs-left-2"><SPAN>Table of Contents</SPAN></A></li>
+                <li><A id="commentaryTab" href="#tabs-left-3"><SPAN>Mission Commentary</SPAN></A></li>
+                <li><A id="instructionsTab" href="#tabs-left-4"><SPAN>Instructions</SPAN></A></li>
+            </ul>
+            <div id="tabs-left-1">
+                <div id="utteranceDiv">
+                    <table class="utteranceTable" id="utteranceTable"></table>
+                </div>
+            </div>
+            <div id="tabs-left-2">
+                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+            </div>
+            <div id="tabs-left-3">
+                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
+            </div>
+            <div id="tabs-left-4">
+                <div id="instructionsDiv">
+                    <P><B>This is a real-time interactive exploration of the Apollo 17 Mission.<BR>
+                        You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
+                    <p>Instructions:</p>
+                    <ul>
+                        <li>Chrome / Firefox / Safari preferred. Works on iPad with patience.</li>
+                        <li>Click transcript items and playback will jump to that moment.</li>
+                        <li>For big jumps, use the mission navigator at the top of the page (or table of contents tab)</li>
+                        <li>Jump to different points using the video scrubber and playback will jump to that moment.</li>
+                    </ul>
+                    <p>Project History:</p>
+                    <ul>
+                        <li>10/27/2015: v1.0b2 Complete rework of interface. Introduced navigator element. Cross-device compatibility.</li>
+                        <li>05/08/2015: v0.6 Social sharing of a given moment added. Also, several transcript corrections thanks to Robin Wheeler's assistance.</li>
+                        <li>04/14/2015: v0.5 Commentary and imagery updates in real-time. Commentary for first day online. Imagery ongoing.</li>
+                        <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
+                        <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                        <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                        <li>03/25/2015: v0.1 Initial launch made public.</li>
+                    </ul>
+                    <p><B>Note: This is an early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in full detail. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+                    <p>Planned Features:</p>
+                    <ul>
+                        <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="outer-center">
+        <div id="photodiv"></div>
+    </div>
+    <div class="outer-east" id="photoGallery">
+        Content
+    </div>
+  </div>
+
+  <div id="navigatorKey">
+      <h1>Mission Navigator</h1>
+      <div style="float: left; display: inline-block; padding-right: 10px;">
+          <h3>This tool allows you to navigate to any time within the mission.</h3>
+          The top bar represents the entire mission. (13 days wide)<BR>
+          The 2nd bar is a zoomed view of part of the top bar. (~15 hours wide)<BR>
+          The 3rd bar is a zoomed view of part of the 2nd bar. (~1.5 hours wide)</div>
+      <div>Grey: mission event<BR>
+          Green: photograph taken<BR>
+          Blue: Words spoken by the crew or mission control<BR>
+          Purple: Mission Video</div>
+  </div>
+
