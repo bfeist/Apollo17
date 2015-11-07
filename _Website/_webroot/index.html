@@ -49,16 +49,16 @@
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src="lib/jquery.simplemodal.js"></script>
+    <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
     <script type="text/javascript" src="lib/moment.js"></script>
     <script type="text/javascript" src="lib/readable-range.js"></script>
     <script type="text/javascript" src='lib/share.js'></script>
-    <script type="text/javascript" src="lib/infinity.js"></script>
+
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
-
 </head>
 <body>
     <div class="outer-north">
@@ -247,7 +247,7 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="#gallery@timeid">
+    <div class="galleryItemContainer" id="gallery@timeid">
         <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>

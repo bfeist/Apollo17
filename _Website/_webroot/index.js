@@ -57,7 +57,7 @@ function onYouTubeIframeAPIReady() {
             modestbranding: 1,
             autohide: 1,
             rel: 0,
-            'controls': 0,
+            //'controls': 0,
             fs: 0
         },
         events: {
@@ -521,17 +521,6 @@ function populatePhotoGallery() {
     var photoGalleryDiv = $('#photoGallery');
     photoGalleryDiv.html('');
 
-    var listView = new infinity.ListView(photoGalleryDiv, {  //Inititalize infinity
-        lazy: function() {                     //With the lazy load callback
-            //console.log("lazy load attempt");
-            $(this).find('.galleryImage').each(function() {
-                var $ref = $(this);
-                $ref.attr('src', $ref.attr('data-original')); //Set the img source from a string hard coded into the data-original attribute.
-            });
-        },
-        useElementScroll: true
-    });
-    //for (var i = 0; i < 500; i++) {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
@@ -542,9 +531,15 @@ function populatePhotoGallery() {
         var timeid = "timeid" + photoObject[0].split(":").join("");
         html = html.replace(/@timeid/g , timeid);
 
-        listView.append(html);
+        //listView.append(html);
+        photoGalleryDiv.append(html);
     }
-    photoGalleryDiv.data('listView', listView);
+
+    $("img.galleryImage").lazyload({
+        container: photoGalleryDiv,
+        threshold : 200
+    });
+
     gApplicationReady += 1;
     console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
@@ -567,35 +562,19 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
 
-        //find gallery element
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoList[photoIndexNum][0].split(":").join("");
-        //search the listview for the "top" of the current photo
         var photoGalleryDiv = $('#photoGallery');
-        var listView = photoGalleryDiv.data('listView');
-        var foundItem = null;
-        for (var pageCounter = 0; pageCounter <= listView.pages.length; pageCounter++) {
-            for (var itemCounter = 0; itemCounter < listView.pages[pageCounter].items.length; itemCounter++) {
-                if (photoGalleryImageTimeId == listView.pages[pageCounter].items[itemCounter].$el.attr('id')) {
-                    foundItem = listView.pages[pageCounter].items[itemCounter];
-                    //console.log("findUtteranceTop():found:" + foundItemTop);
-                    break;
-                }
-            }
-            if (foundItem != null)
-                break;
-        }
-        //scroll to that element //TODO figure out why I can't change CSS attributes of listItems (they blink out of existence on lazyload)
-        if (foundItem != null) {
-            var scrollDest = foundItem.top;
-            //$("#photoGallery").scrollTop(scrollDest);
-            photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
-                //console.log('Finished animating gallery: ' + scrollDest);
-            });
-        }
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
+        photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+            console.log('Finished animating gallery: ' + scrollDest);
+        });
     }
 }
 
 function loadPhotoHtml(photoIndex) {
+    if (typeof photoIndex == "undefined") {
+        console.log('**invalid photo call');
+    }
     console.log('loadPhotoHtml():' + photoIndex);
     var photoDiv = $("#photodiv");
     var photoObject = gPhotoList[photoIndex];
@@ -934,9 +913,9 @@ $(window).bind('fullscreenchange', function(e) {
 $(window).resize(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
-    setTimeout(function(){
-            populatePhotoGallery(); }
-        ,1000);
+    //setTimeout(function(){
+    //        populatePhotoGallery(); }
+    //    ,1000);
     scaleMissionImage();
     redrawAll();
 });
@@ -946,7 +925,6 @@ $(document).ready(function() {
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
-
 
     //$('.utterancetable').delegate('.utterance', 'mouseenter', function() {
     //    var loctop = $(this).position().top;
