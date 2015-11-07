@@ -753,6 +753,10 @@ function historicalButtonClick() {
     seekToTime("timeid" + getNearestHistoricalMissionTimeId());
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     gIntroInterval = null;
+
+    $('#basic-modal-content').fadeTo( 1500, 0, function() {
+      $(this).hide();
+    });
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -760,6 +764,10 @@ function oneMinuteToLaunchButtonClick() {
     gIntroInterval = null;
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     initializePlayback();
+
+    $('#basic-modal-content').fadeTo( 1500, 0, function() {
+      $(this).hide();
+    });
 }
 
 Date.prototype.stdTimezoneOffset = function() {
@@ -861,7 +869,7 @@ jQuery(function ($) {
     $(".mid-center").tabs();
 
     // OUTER-LAYOUT
-    $('.page-wrapper').layout({
+    $('body').layout({
         center__paneSelector:	".outer-center"
         ,   north__paneSelector:    ".outer-north"
         ,   west__paneSelector:     ".outer-west"
