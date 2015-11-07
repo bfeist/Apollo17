@@ -622,7 +622,7 @@ function drawTier2() {
                     fontSize: 10 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom - textPosition * (gTier2Height / 3) + 2;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 3;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCAll[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
