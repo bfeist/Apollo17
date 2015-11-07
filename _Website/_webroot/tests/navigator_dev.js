@@ -8,9 +8,14 @@ var gUtteranceDataLookup = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
 var gMissionStages = [];
+var gVideoSegments = [];
 var gLastTimeIdChecked;
+var gMissionDurationSeconds = 1100166;
+var gCountdownSeconds = 9442;
+var gDefaultStartElementId = 'timeid-000105';
 
 var gCurrMissionTime = "141:27:05";
+var gIntroInterval = null;
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
@@ -36,7 +41,7 @@ function ajaxGetTOCAll() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+        url: "../indexes/TOCall.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {
             processTOCAllData(data);
@@ -48,7 +53,7 @@ function ajaxGetPhotoIndex() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
+        url: "../indexes/photoIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
@@ -58,7 +63,7 @@ function ajaxGetUtteranceData() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "./indexes/utteranceData.csv?stopcache=" + Math.random(),
+        url: "../indexes/utteranceData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processUtteranceData(data);}
     });
@@ -68,9 +73,17 @@ function ajaxGetMissionStagesData() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
+        url: "../indexes/missionStages.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMissionStagesData(data);}
+    });
+}
+function ajaxGetVideoSegmentsData() {
+    return $.ajax({
+        type: "GET",
+        url: "../indexes/video_segments.csv?stopcache=" + Math.random(),
+        dataType: "text",
+        success: function(data) {processVideoSegmentsData(data);}
     });
 }
 function processTOCAllData(allText) {
@@ -120,6 +133,16 @@ function processMissionStagesData(allText) {
         }
     }
     gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+}
+function processVideoSegmentsData(allText) {
+    //console.log("processVideoSegmentsData");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gVideoSegments.push(data);
+        }
+    }
 }
 
 
@@ -245,4 +268,48 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     }
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
+}
+
+function secondsToTimeStr(totalSeconds) {
+    var hours = Math.abs(parseInt(totalSeconds / 3600));
+    var minutes = Math.abs(parseInt(totalSeconds / 60)) % 60 % 60;
+    var seconds = Math.abs(parseInt(totalSeconds)) % 60;
+    seconds = Math.floor(seconds);
+    var timeStr = padZeros(hours,3) + ":" + padZeros(minutes,2) + ":" + padZeros(seconds,2);
+    if (totalSeconds < 0) {
+        timeStr = "-" + timeStr.substr(1); //change timeStr to negative, replacing leading zero in hours with "-"
+    }
+    return timeStr;
+}
+
+function secondsToTimeId(seconds) {
+    var timeId = secondsToTimeStr(seconds).split(":").join("");
+    return parseInt(timeId);
+}
+
+function timeIdToSeconds(timeId) {
+    var sign = timeId.substr(0,1);
+    var hours = parseInt(timeId.substr(0,3));
+    var minutes = parseInt(timeId.substr(3,2));
+    var seconds = parseInt(timeId.substr(5,2));
+    var signToggle = (sign == "-") ? -1 : 1;
+
+    return signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+}
+
+function timeIdToTimeStr(timeId) {
+    return timeId.substr(0,3) + ":" + timeId.substr(3,2) + ":" + timeId.substr(5,2);
+}
+
+function timeStrToTimeId(timeStr) {
+    return timeStr.split(":").join("");
+}
+
+function timeStrToSeconds(timeStr) {
+    var sign = timeStr.substr(0,1);
+    var hours = parseInt(timeStr.substr(0,3));
+    var minutes = parseInt(timeStr.substr(4,2));
+    var seconds = parseInt(timeStr.substr(7,2));
+    var signToggle = (sign == "-") ? -1 : 1;
+    return Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
 }
