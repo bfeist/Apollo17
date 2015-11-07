@@ -672,10 +672,7 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 4) {
             console.log("APPREADY = 4! App Ready!");
-            if (gMissionTimeParamSent == 0) {
-                // $('.simplemodal-wrap').isLoading("hide");
-            } else {
-                // $('body').isLoading("hide");
+            if (gMissionTimeParamSent != 0) {
                 initializePlayback();
             }
             $.isLoading( "hide" );
