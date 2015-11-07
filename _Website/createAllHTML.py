@@ -1,5 +1,6 @@
 __author__ = 'Feist'
 import csv
+import shutil
 from quik import FileLoader
 
 
@@ -66,14 +67,14 @@ output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCindex.csv"
+output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCall.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
 
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "a")
 
-## ---------------- Write TOC
+## -------------------- Write TOC
 template_loader = FileLoader('templates')
 #WRITE HEADER
 template = template_loader.load_template('template_TOC_header.html')
@@ -88,6 +89,8 @@ reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
     timestamp = row[0]
     item_depth = row[1]
+    if item_depth == "3":
+        item_depth = "2" ##do this to avoid indentation of 3rd level items
     item_title = row[2]
     item_subtitle = row[3]
     #item_URL = timestamp.translate(None, ":") + "_" + item_title.translate(None, ":/ .") + ".html"
@@ -97,32 +100,25 @@ for row in reader:
     template = loader.load_template('template_TOC_item.html')
     output_TOC_file.write(template.render({'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title, 'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=loader).encode('utf-8'))
     prev_depth = item_depth
-    toc_index_template = loader.load_template('template_TOC_index.html')
-    output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id}, loader=loader).encode('utf-8'))
+    # toc_index_template = loader.load_template('template_TOC_index.html')
+    # output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
+
+    output_TOC_index_file.write(timestamp + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n")
 
 #WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
 
+## copy TOC index to webroot
+# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCall.csv")
 
-## -------------------- Write Utterance HTML
-output_utterance_file_name_and_path = "./_webroot/utterancePage.html"
-output_utterance_file = open(output_utterance_file_name_and_path, "w")
-output_utterance_file.write("")
-output_utterance_file.close()
 
-output_utterance_file = open(output_utterance_file_name_and_path, "a")
-
-output_utterance_index_file_name_and_path = "./_webroot/indexes/utteranceIndex.csv"
-output_utterance_index_file = open(output_utterance_index_file_name_and_path, "w")
-output_utterance_index_file.write("")
-output_utterance_index_file.close()
-
-output_utterance_index_file = open(output_utterance_index_file_name_and_path, "a")
-
-#WRITE HEADER
-template = template_loader.load_template('template_header.html')
-output_utterance_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
+## -------------------- Write Utterance Data
+output_utterance_data_file_name_and_path = "./_webroot/indexes/utteranceData.csv"
+output_utterance_data_file = open(output_utterance_data_file_name_and_path, "w")
+output_utterance_data_file.write("")
+output_utterance_data_file.close()
+output_utterance_data_file = open(output_utterance_data_file_name_and_path, "a")
 
 #WRITE ALL UTTERANCE BODY ITEMS
 cur_row = 0
@@ -141,16 +137,7 @@ for utterance_row in utterance_reader:
         who_modified = who_modified.replace("LMP", "Schmitt")
         attribution_modified = utterance_row[0]
 
-        template = template_loader.load_template('template_timelineitem.html')
-        output_utterance_file.write(template.render({'timeid': timeid, 'timestamp': utterance_row[1], 'who': who_modified, 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
-
-        timeline_index_template = loader.load_template('template_timeline_index.html')
-        output_utterance_index_file.write(timeline_index_template.render({'timeline_index_id': timeline_index_id}, loader=loader).encode('utf-8'))
-
-#WRITE FOOTER
-template = template_loader.load_template('template_footer.html')
-output_utterance_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
-
+        output_utterance_data_file.write(utterance_row[1] + "|" + who_modified + "|" + words_modified + "\n")
 
 #--------------------------------- Write commentary HTML
 output_commentary_file_name_and_path = "./_webroot/commentary.html"
@@ -208,7 +195,7 @@ input_file_path = "../MISSION_DATA/photos.csv"
 photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 first_row = True
 for photo_row in photos_reader:
-    if photo_row[0] != "" and first_row is False: #if timestamp not blank
+    if photo_row[0] != "" and photo_row[0] != "skip" and first_row is False: #if timestamp not blank and photo not marked to skip
         if len(photo_row[1]) == 5:
             photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
         else:
@@ -223,4 +210,10 @@ sorted_list = sorted(master_list, key=get_key, reverse=False)
 
 for list_item in sorted_list:
     photo_index_id = list_item.timestamp.translate(None, ":")
-    output_photo_index_file.write(photo_index_id + "|" + list_item.filename + "\n")
+    output_photo_index_file.write(photo_index_id + "|" +
+                                  list_item.filename + "|" +
+                                  list_item.photo_num + "|" +
+                                  list_item.mag_code + "|" +
+                                  list_item.mag_number + "|" +
+                                  list_item.photographer + "|" +
+                                  list_item.description + "|" + "\n")
