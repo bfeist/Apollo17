@@ -46,6 +46,10 @@ var gTier3SecondsPerPixel;
 var gColorTierBoxStroke = "lightgrey";
 var gColorMissionStageBox = "grey";
 var gColorMissionStageText = "lightgrey";
+var gColorZoomFillLight = 'white';
+var gColorZoomFillDark = 'black';
+var gColorZoomStrokeLight = 'white';
+var gColorZoomStrokeDark = 'lightgrey';
 var gColorVideoRegionBackground =  '#010047';
 var gColorVideoRegionStroke =  'blue';
 var gColorTOCText = "grey";
@@ -56,7 +60,7 @@ var gColorUtteranceTicks = 'CadetBlue';
 var gColorCursor = 'red';
 var gColorNavCursor = 'yellow';
 
-var gNaxBoxZoomFadeOpacity = 0.3;
+var gNaxBoxZoomFadeOpacity = 0.2;
 
 var gHeightTimeTickDenominator = 7;
 var gHeightPhotoTickDenominator = 8;
@@ -69,7 +73,7 @@ $(document).ready(function() {
     paper.setup('myCanvas');
 
     //init navigator
-    gCurrMissionTime = "-00:01:00";
+    gCurrMissionTime = timeIdToTimeStr(gDefaultStartElementId.substr(6)); //set clock to start time; //TODO make this handle t parameter time
     initNavigator();
     gApplicationReady += 1;
     console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);
@@ -427,7 +431,7 @@ function drawTier1NavBox(seconds) {
         ],
         strokeColor: {
             gradient: {
-                stops: ['lightgrey', 'white']
+                stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -437,7 +441,7 @@ function drawTier1NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['grey', 'white']
+                stops: [gColorZoomFillDark, gColorZoomFillLight]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -446,7 +450,7 @@ function drawTier1NavBox(seconds) {
     });
     gTier1NavGroup.addChild(zoomRect);
     leftGradient = new paper.Point(gTier1NavBoxLocX + navBoxWidth, gTier1Top);
-    rightGradient = new paper.Point(gTier2Left + gTier2Width, gTier2Top + gTier2Height);
+    rightGradient = new paper.Point(gTier2Left + gTier2Width, gTier2Top);
     zoomRect = new Path({
         segments: [
             [gTier1NavBoxLocX + navBoxWidth, gTier1Top],
@@ -456,7 +460,7 @@ function drawTier1NavBox(seconds) {
         ],
         strokeColor: {
             gradient: {
-                stops: ['white', 'lightgrey']
+                stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -466,7 +470,7 @@ function drawTier1NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['white', 'grey']
+                stops: [gColorZoomFillLight, gColorZoomFillDark]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -642,7 +646,7 @@ function drawTier2NavBox(seconds) {
             [gTier3Left, gTier3Top]],
         strokeColor: {
             gradient: {
-                stops: ['lightgrey', 'white']
+                stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -652,7 +656,7 @@ function drawTier2NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['grey', 'white']
+                stops: [gColorZoomFillDark, gColorZoomFillLight]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -661,8 +665,8 @@ function drawTier2NavBox(seconds) {
     });
     gTier2NavGroup.addChild(zoomRect);
 
-    leftGradient = new paper.Point(gTier2NavBoxLocX + navBoxWidth, gTier1Top);
-    rightGradient = new paper.Point(gTier3Left + gTier3Width, gTier3Top + gTier3Height);
+    leftGradient = new paper.Point(gTier2NavBoxLocX + navBoxWidth, gTier2Top);
+    rightGradient = new paper.Point(gTier3Left + gTier3Width, gTier3Top);
     zoomRect = new Path({
         segments:   [[gTier2NavBoxLocX + navBoxWidth, gTier2Top],
             [gTier2NavBoxLocX + navBoxWidth, (gTier2Top + gTier2Height)],
@@ -670,7 +674,7 @@ function drawTier2NavBox(seconds) {
             [gTier3Left + gTier3Width, gTier3Top]],
         strokeColor: {
             gradient: {
-                stops: ['white', 'lightgrey']
+                stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
             },
             origin: leftGradient,
             destination: rightGradient
@@ -680,7 +684,7 @@ function drawTier2NavBox(seconds) {
         strokeJoin: 'round',
         fillColor: {
             gradient: {
-                stops: ['white', 'grey']
+                stops: [gColorZoomFillLight, gColorZoomFillDark]
             },
             origin: leftGradient,
             destination: rightGradient
