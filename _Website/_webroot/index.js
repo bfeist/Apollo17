@@ -473,7 +473,7 @@ function displayUtteranceRegion(timeId) {
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
-    repopulateUtteranceTable(utteranceIndex);
+    repopulateUtterances(utteranceIndex);
 
     var elementId = utteranceTable.find('#timeid' + timeId);
     var scrollDestination = elementId.offset().top - utteranceDiv.offset().top;
@@ -483,7 +483,7 @@ function displayUtteranceRegion(timeId) {
     //repopulateUtteranceTable(utteranceIndex);
 }
 
-function repopulateUtteranceTable(utteranceIndex) {
+function repopulateUtterances(utteranceIndex) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     $('#utteranceDiv').scrollTop(0);
@@ -497,6 +497,32 @@ function repopulateUtteranceTable(utteranceIndex) {
             utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
         }
     }
+}
+
+function prependUtterances(utteranceIndex, count) {
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToPrepend = "";
+    var startIndex = utteranceIndex - count;
+    for (var i = startIndex; i < startIndex + count; i++) {
+        if (utteranceIndex + i >= 0) {
+            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i, ""));
+        }
+    }
+    utteranceTable.prepend(htmlToPrepend);
+}
+
+function appendUtterances(utteranceIndex, count) {
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToAppend = "";
+    var startIndex = utteranceIndex + 1;
+    for (var i = startIndex; i < startIndex + count; i++) {
+        if (utteranceIndex + i >= 0) {
+            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
+        }
+    }
+    utteranceTable.append(htmlToAppend);
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
