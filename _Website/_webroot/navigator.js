@@ -73,7 +73,7 @@ $(document).ready(function() {
     paper.setup('myCanvas');
 
     //init navigator
-    gCurrMissionTime = timeIdToTimeStr(gDefaultStartElementId.substr(6)); //set clock to start time; //TODO make this handle t parameter time
+    gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
     initNavigator();
     gApplicationReady += 1;
     console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);

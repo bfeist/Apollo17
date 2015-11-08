@@ -17,7 +17,7 @@ var gDefaultStartElementId = 'timeid1204322';
 var gLastHighlightedTranscriptElement;
 var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
-var gCurrentHighlitedUtteranceIndex;
+var gCurrentHighlightedUtteranceIndex;
 
 var background_color = "#000000";
 var background_color_active = "#222222";
@@ -243,7 +243,7 @@ function scrollTranscriptToTimeId(timeId) { //must be an existing timeId
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
-    gCurrentHighlitedUtteranceIndex = gUtteranceDataLookup[timeId];
+    gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
     var moreLoaded = false;
     //check if timeId is already loaded into utterance div
@@ -347,8 +347,8 @@ function appendUtterances(count) {
 function trimUtterances() {
     var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 200;
     if (numberToRemove > 0) {
-        var currDistFromStart = gCurrentHighlitedUtteranceIndex - gUtteranceDisplayStartIndex;
-        var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlitedUtteranceIndex;
+        var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
+        var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
                 //console.log("trimming: " + '#timeid' + gUtteranceIndex[i]);
@@ -363,7 +363,7 @@ function trimUtterances() {
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
         }
         var utteranceDiv = $('#utteranceDiv');
-        var currElement = $('#timeid' + timeStrToTimeId(gUtteranceData[gCurrentHighlitedUtteranceIndex][0]));
+        var currElement = $('#timeid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
         var newScrollDestination = utteranceDiv.scrollTop() + currElement.offset().top - utteranceDiv.offset().top;
         utteranceDiv.scrollTop(newScrollDestination);
     }
