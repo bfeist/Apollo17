@@ -723,8 +723,11 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
 
-        var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoList[photoIndexNum][0].split(":").join("");
         var photoGalleryDiv = $('#photoGallery');
+        photoGalleryDiv.children('*').css("border-color", "");
+        var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
+        $(photoGalleryImageTimeId).css("border-color", "green");
+
         var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
             console.log('Finished animating gallery: ' + scrollDest);
