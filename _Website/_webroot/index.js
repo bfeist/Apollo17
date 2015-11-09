@@ -559,20 +559,14 @@ function scrollTranscriptToTimeId(timeId) { //must be an existing timeId
             moreLoaded = true;
         }
     }
-
-    //if ($("#tabs-left").tabs('option', 'active') != 0) {
-    //    $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
-    //}
-
-    var highlightedTranscriptElement = utteranceTable.find('#timeid' + timeId);
+    var highlightedTranscriptElement = $('#timeid' + timeId);
     if (typeof gLastHighlightedTranscriptElement != 'undefined') {
         gLastHighlightedTranscriptElement.css("background-color", "");
-        var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
-        utteranceDiv.scrollTop(oldScrollDestination);
     }
     highlightedTranscriptElement.css("background-color", background_color_active);
     if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
-
+        var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(oldScrollDestination);
     }
     var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
     utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
@@ -580,6 +574,10 @@ function scrollTranscriptToTimeId(timeId) { //must be an existing timeId
         trimUtterances();
     });
     gLastHighlightedTranscriptElement = highlightedTranscriptElement;
+
+    if ($("#tabs-left").tabs('option', 'active') != 0) {
+        $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+    }
 }
 
 function repopulateUtterances(timeId) {
@@ -598,7 +596,8 @@ function repopulateUtterances(timeId) {
     $('#utteranceDiv').scrollTop('#timeid' + timeId);
 }
 
-function prependUtterances(count) {
+function prependUtterances(count, atTop) {
+    atTop = atTop || false;
     console.log("prependUtterances:" + count);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
@@ -612,10 +611,21 @@ function prependUtterances(count) {
         }
     }
     utteranceTable.prepend(htmlToPrepend);
+
+    if (atTop) {
+        var elementToScrollBackTo = $("#timeid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
+        console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+        var oldScrollDestination = utteranceDiv.scrollTop() + elementToScrollBackTo.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(oldScrollDestination);
+    }
+
+    console.log("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
+    console.log("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
 }
 
-function appendUtterances(count) {
+function appendUtterances(count, atBottom) {
+    atBottom = atBottom || false;
     console.log("appendUtterances:" + count);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
@@ -624,12 +634,22 @@ function appendUtterances(count) {
     var appendedCount = 0;
     for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0 && i < gUtteranceData.length) {
+            //console.log("Appended: " + gUtteranceData[i][0]);
             htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
             appendedCount ++;
         }
     }
+    if (atBottom)
+        var topToScrollBackTo = utteranceDiv.scrollTop();
+
     utteranceTable.append(htmlToAppend);
+
+    if (atBottom)
+        utteranceDiv.scrollTop(topToScrollBackTo);
+
+    console.log("appended from" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
+    console.log("appended to" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
 }
 
 function trimUtterances() {
@@ -639,15 +659,15 @@ function trimUtterances() {
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
-                //console.log("trimming: " + '#timeid' + gUtteranceIndex[i]);
                 $('#timeid' + gUtteranceIndex[i]).remove();
             }
+            console.log("Trimming " + numberToRemove + " utterances from top");
             gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
         } else { //trim items from bottom of utterance div
             for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
-                //$('#timeid' + gUtteranceIndex[i]).remove();
-                //$('#utteranceTable').remove('#timeid' + gUtteranceIndex[i]);
+                $('#timeid' + gUtteranceIndex[i]).remove();
             }
+            console.log("Trimming " + numberToRemove + " utterances from bottom");
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
         }
         var utteranceDiv = $('#utteranceDiv');
@@ -1039,6 +1059,7 @@ jQuery(function ($) {
             center__paneSelector:	".mid-center"
             ,   north__paneSelector:    ".mid-north"
             ,   north__size:             "60%"
+            ,   center__size:            "40%"
             ,   north__togglerLength_open: 0
             ,   center__togglerLength_open: 0
             ,	spacing_open:			1  // ALL panes
@@ -1050,13 +1071,13 @@ jQuery(function ($) {
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
     var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
-    var stateStr = state ? 'FullscreenOn' : 'FullscreenOff';
+    var stateStr = state ? 'FullScreenOn' : 'FullScreenOff';
 
     // Now do something interesting
     console.log("non-button fullscreen change state: " + stateStr);
 
     var fullScreenBtn = $('#fullScreenBtn');
-    if (stateStr == "FullscreenOn") {
+    if (stateStr == "FullScreenOn") {
         fullScreenBtn.attr("value", "Exit Full Screen");
     } else {
         fullScreenBtn.attr("value", "Full Screen");
@@ -1080,6 +1101,19 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 //on document ready
 $(document).ready(function() {
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+
+    $("#utteranceDiv").scroll($.throttle(function() {
+        var utteranceDiv = $("#utteranceDiv");
+        //console.log("scrolltop:" + utteranceDiv.scrollTop() + " bottom scroll:" + (utteranceDiv.scrollTop() + utteranceDiv.innerHeight()) + ":" + (parseInt(utteranceDiv[0].scrollHeight) - 300));
+        if(utteranceDiv.scrollTop() < 300) {
+            console.log("top of utteranceDiv reached");
+            prependUtterances(50, true);
+        } else if(utteranceDiv.scrollTop() + utteranceDiv.innerHeight() >= parseInt(utteranceDiv[0].scrollHeight) - 300) {
+            console.log("bottom of utteranceDiv reached");
+            appendUtterances(50, true);
+        }
+
+    }, 50));
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
