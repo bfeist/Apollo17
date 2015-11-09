@@ -1031,7 +1031,7 @@ jQuery(function ($) {
         ,   north__minSize:         120
         ,   west__size:             "40%"
         ,   east__size:             75
-        ,	spacing_open:			0  // ALL panes
+        ,	spacing_open:			1  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
         // WEST-LAYOUT (child of outer-west-pane)
@@ -1041,7 +1041,7 @@ jQuery(function ($) {
             ,   north__size:             "60%"
             ,   north__togglerLength_open: 0
             ,   center__togglerLength_open: 0
-            ,	spacing_open:			0  // ALL panes
+            ,	spacing_open:			1  // ALL panes
             ,	spacing_closed:			12 // ALL panes
         }
     });
