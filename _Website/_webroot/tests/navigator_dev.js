@@ -12,7 +12,7 @@ var gVideoSegments = [];
 var gLastTimeIdChecked;
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
-var gDefaultStartElementId = 'timeid1204322';
+var gDefaultStartTimeId = '3044003';
 
 var gLastHighlightedTranscriptElement;
 var gUtteranceDisplayStartIndex;
@@ -42,7 +42,7 @@ $.when(ajaxGetTOCAll(),
         // the code here will be executed when all ajax requests resolve
         initNavigator();
 
-        repopulateUtterances(gDefaultStartElementId.substr(6));
+        repopulateUtterances(gDefaultStartTimeId);
 
         incrementFakeMissionTime();
         setAutoScrollPoller();
@@ -198,7 +198,7 @@ function seekToTime(elementId) {
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
     gCurrMissionTime = secondsToTimeStr(totalSeconds);
 
-    findClosestUtterance(totalSeconds);
+    scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
 }
 
 function findClosestUtterance(secondsSearch) {
@@ -228,6 +228,7 @@ function findClosestUtterance(secondsSearch) {
     //return timeStrToSeconds(timeStr);
     scrollTranscriptToTimeId( gUtteranceIndex[i - 1]);
     //repopulateUtterances(gUtteranceIndex[i - 1]);
+    return timeId.substr(6);
 }
 
 function padZeros(num, size) {
@@ -300,8 +301,9 @@ function repopulateUtterances(timeId) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
-    startIndex = startIndex < 0 ? 0 : startIndex;
     var endIndex = startIndex + 200;
+    startIndex = startIndex < 0 ? 0 : startIndex;
+    endIndex = endIndex > gUtteranceIndex.length - 1 ? gUtteranceIndex.length - 1 : endIndex;
     for (var i = startIndex; i <= endIndex; i++) {
         utteranceTable.append(getUtteranceObjectHTML(i));
     }

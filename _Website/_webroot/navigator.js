@@ -509,6 +509,9 @@ function drawTier2() {
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier2StartSeconds) {
             var rectStartX = gTier2Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
             var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier2PixelsPerSecond;
+            if (rectStartX < 0) {
+                rectWidth -= Math.abs(rectStartX);
+            }
             if (rectStartX < gTier2Left + 1) {
                 rectStartX = gTier2Left + 1;
             }
@@ -728,7 +731,10 @@ function drawTier3() {
         //draw if video segment start is before end of viewport, and video segment end is after start of viewport
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
             var rectStartX = gTier3Left + 3 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-            var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond;
+            var rectWidth = ((timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond);
+            if (rectStartX < 0) {
+                rectWidth -= Math.abs(rectStartX);
+            }
             if (rectStartX < gTier3Left + 2) {
                 rectStartX = gTier3Left + 2;
             }
@@ -805,7 +811,7 @@ function drawTier3() {
     gTier3Group.addChild(t3PhotoTicksRaster);
 
     //display utterance ticks
-    var tempGroup = new paper.Group;
+    tempGroup = new paper.Group;
     for (i = 0; i < gUtteranceData.length; i++) {
         if (gUtteranceData[i][0] != "") {
             itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;

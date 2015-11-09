@@ -587,8 +587,9 @@ function repopulateUtterances(timeId) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
-    startIndex = startIndex < 0 ? 0 : startIndex;
     var endIndex = startIndex + 200;
+    startIndex = startIndex < 0 ? 0 : startIndex;
+    endIndex = endIndex > gUtteranceIndex.length - 1 ? gUtteranceIndex.length - 1 : endIndex;
     for (var i = startIndex; i <= endIndex; i++) {
         utteranceTable.append(getUtteranceObjectHTML(i));
     }
@@ -685,9 +686,15 @@ function populatePhotoGallery() {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
-        var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+        if (photoObject[3] != "") {
+            var photoTypePath = "flight";
+            var filename = "AS17-" + photoObject[1];
+        } else {
+            photoTypePath = "supporting";
+            filename = photoObject[1];
+        }
         html = html.replace(/@photoTypePath/g , photoTypePath);
-        html = html.replace(/@filename/g , photoObject[1]);
+        html = html.replace(/@filename/g ,filename);
         html = html.replace(/@timestamp/g , timeIdToTimeStr( photoObject[0]));
         var timeid = "timeid" + photoObject[0].split(":").join("");
         html = html.replace(/@timeid/g , timeid);
@@ -744,7 +751,13 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
-    var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+    if (photoObject[3] != "") {
+        var photoTypePath = "flight";
+        var filename = "AS17-" + photoObject[1];
+    } else {
+        photoTypePath = "supporting";
+        filename = photoObject[1];
+    }
     html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
@@ -755,7 +768,7 @@ function loadPhotoHtml(photoIndex) {
     var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
     html = html.replace(/@fullSizePath/g , fullSizePath);
     html = html.replace(/@sizepath/g , sizePath);
-    html = html.replace(/@filename/g , photoObject[1]);
+    html = html.replace(/@filename/g , filename);
     html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
     html = html.replace("@photo_num", photoObject[2]);
     var magNum = "AS17-" + photoObject[4] + "-";
@@ -816,16 +829,16 @@ function scaleMissionImage() {
 function initializePlayback() {
     console.log("initializePlayback()");
     if (gMissionTimeParamSent == 0) {
-        repopulateUtterances(gDefaultStartTimeId); //jump to default start time (usually 1 minute to launch)
+        repopulateUtterances(findClosestUtterance(gDefaultStartTimeId)); //jump to default start time (usually 1 minute to launch)
         seekToTime("timeid" + gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
-            repopulateUtterances(timeStrToTimeId(paramMissionTime));
+            repopulateUtterances(findClosestUtterance(timeStrToTimeId(paramMissionTime)));
             seekToTime("timeid" + timeStrToTimeId(paramMissionTime));
         } else {
             console.log("Invalid t Parameter");
-            repopulateUtterances(gDefaultStartTimeId);
+            repopulateUtterances(findClosestUtterance(gDefaultStartTimeId));
             seekToTime("timeid" + gDefaultStartTimeId);
         }
     }
