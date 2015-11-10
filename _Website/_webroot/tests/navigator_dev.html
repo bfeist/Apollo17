@@ -4,6 +4,8 @@
 
     <script type="text/javascript" src="../lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="../lib/paper-full.js"></script>
+    <script type="text/javascript" src="../lib/jquery_plugins.js"></script>
+
     <script type="text/javascript" src="navigator_dev.js"></script>
     <script type="text/javascript" src="../navigator.js"></script>
 
@@ -33,8 +35,17 @@
 <div style="width: 100%; height:10%; background-color: #363636;">
     x
 </div>
-<div style="width: 500px; height:200px; background-color: #666666; overflow: hidden; position:relative;" id="utteranceDiv">
+<div style="width: 800px; height:500px; background-color: #000000; overflow: scroll; position:relative;" id="utteranceDiv">
     <table class="utteranceTable" id="utteranceTable"></table>
 </div>
 </body>
+
+<script type="text/html" id="utteranceTemplate">
+    <tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">
+        <td class="timestamp @pao">@timestamp</td>
+        <td class="who @pao">@who</td>
+        <td class="spokenwords @pao">@words</td>
+    </tr>
+</script>
+
 </html>
