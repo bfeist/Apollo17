@@ -59,15 +59,16 @@ def get_sec(s):
     else:
         return int(l[0]) * 3600 + (int(l[1]) * 60 * -1) + (int(l[2]) * -1)
 
+template_loader = FileLoader('../templates')
 
-output_TOC_file_name_and_path = "./_webroot/TOC.html"
+output_TOC_file_name_and_path = "../_webroot/TOC.html"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "./_webroot/indexes/TOCall.csv"
+output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCall.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -75,7 +76,6 @@ output_TOC_index_file.close()
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "a")
 
 ## -------------------- Write TOC
-template_loader = FileLoader('templates')
 #WRITE HEADER
 template = template_loader.load_template('template_TOC_header.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
@@ -83,7 +83,7 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 #WRITE TOC ITEMS
 prev_depth = 0
 timestamp = ""
-inputFilePath = "../MISSION_DATA/Mission TOC.csv"
+inputFilePath = "../../MISSION_DATA/Mission TOC.csv"
 csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
@@ -96,9 +96,8 @@ for row in reader:
     #item_URL = timestamp.translate(None, ":") + "_" + item_title.translate(None, ":/ .") + ".html"
     item_URL = timestamp.translate(None, ":")
     toc_index_id = timestamp.translate(None, ":")
-    loader = FileLoader('templates')
-    template = loader.load_template('template_TOC_item.html')
-    output_TOC_file.write(template.render({'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title, 'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=loader).encode('utf-8'))
+    template = template_loader.load_template('template_TOC_item.html')
+    output_TOC_file.write(template.render({'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title, 'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=template_loader).encode('utf-8'))
     prev_depth = item_depth
     # toc_index_template = loader.load_template('template_TOC_index.html')
     # output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
@@ -114,7 +113,7 @@ output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).en
 
 
 ## -------------------- Write Utterance Data
-output_utterance_data_file_name_and_path = "./_webroot/indexes/utteranceData.csv"
+output_utterance_data_file_name_and_path = "../_webroot/indexes/utteranceData.csv"
 output_utterance_data_file = open(output_utterance_data_file_name_and_path, "w")
 output_utterance_data_file.write("")
 output_utterance_data_file.close()
@@ -122,7 +121,7 @@ output_utterance_data_file = open(output_utterance_data_file_name_and_path, "a")
 
 #WRITE ALL UTTERANCE BODY ITEMS
 cur_row = 0
-input_file_path = "../MISSION_DATA/A17 master TEC and PAO utterances.csv"
+input_file_path = "../../MISSION_DATA/A17 master TEC and PAO utterances.csv"
 utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for utterance_row in utterance_reader:
     cur_row += 1
@@ -140,14 +139,14 @@ for utterance_row in utterance_reader:
         output_utterance_data_file.write(utterance_row[1] + "|" + who_modified + "|" + words_modified + "\n")
 
 #--------------------------------- Write commentary HTML
-output_commentary_file_name_and_path = "./_webroot/commentary.html"
+output_commentary_file_name_and_path = "../_webroot/commentary.html"
 output_commentary_file = open(output_commentary_file_name_and_path, "w")
 output_commentary_file.write("")
 output_commentary_file.close()
 
 output_commentary_file = open(output_commentary_file_name_and_path, "a")
 
-output_commentary_index_file_name_and_path = "./_webroot/indexes/commentaryIndex.csv"
+output_commentary_index_file_name_and_path = "../_webroot/indexes/commentaryIndex.csv"
 output_commentary_index_file = open(output_commentary_index_file_name_and_path, "w")
 output_commentary_index_file.write("")
 output_commentary_index_file.close()
@@ -160,7 +159,7 @@ output_commentary_file.write(template.render({'datarow': 0}, loader=template_loa
 
 #WRITE ALL commentary BODY ITEMS
 cur_row = 0
-input_file_path = "../MISSION_DATA/A17 master support commentary.csv"
+input_file_path = "../../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
     cur_row += 1
@@ -183,7 +182,7 @@ output_commentary_file.write(template.render({'datarow': 0}, loader=template_loa
 
 
 ##--------------------------------- Write photo index
-output_photo_index_file_name_and_path = "./_webroot/indexes/photoIndex.csv"
+output_photo_index_file_name_and_path = "../_webroot/indexes/photoIndex.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()
@@ -191,7 +190,7 @@ output_photo_index_file.close()
 output_photo_index_file = open(output_photo_index_file_name_and_path, "a")
 
 master_list = []
-input_file_path = "../MISSION_DATA/photos.csv"
+input_file_path = "../../MISSION_DATA/photos.csv"
 photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 first_row = True
 for photo_row in photos_reader:
