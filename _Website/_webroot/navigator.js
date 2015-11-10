@@ -163,7 +163,7 @@ function initNavigator() {
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
         //redrawAll();
         console.log("NAV: Jumping to " + gCurrMissionTime);
-        seekToTime("timeid" + gCurrMissionTime.split(":").join(""));
+        seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 }
 
@@ -388,10 +388,14 @@ function drawTier1() {
             tempGroup.addChild(aLine);
         }
     }
-    var t1PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier1Group.addChild(t1PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t1PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier1Group.addChild(t1PhotoTicksRaster);
+    } else {
+        gTier1Group.addChild(tempGroup);
+    }
 
     //display time ticks
     tempGroup = new paper.Group;
@@ -407,10 +411,14 @@ function drawTier1() {
         aLine.strokeColor = gColorTimeTicks;
         tempGroup.addChild(aLine);
     }
-    var t1TimeTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier1Group.addChild(t1TimeTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t1TimeTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier1Group.addChild(t1TimeTicksRaster);
+    } else {
+        gTier1Group.addChild(tempGroup);
+    }
 }
 
 function drawTier1NavBox(seconds) {
@@ -582,10 +590,14 @@ function drawTier2() {
             }
         }
     }
-    var t2PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier2Group.addChild(t2PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t2PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier2Group.addChild(t2PhotoTicksRaster);
+    } else {
+        gTier2Group.addChild(tempGroup);
+    }
 
     //display time ticks
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
@@ -805,10 +817,14 @@ function drawTier3() {
             }
         }
     }
-    var t3PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier3Group.addChild(t3PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t3PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier3Group.addChild(t3PhotoTicksRaster);
+    } else {
+        gTier3Group.addChild(tempGroup);
+    }
 
     //display utterance ticks
     tempGroup = new paper.Group;
@@ -828,10 +844,14 @@ function drawTier3() {
             }
         }
     }
-    var t3UtteranceTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier3Group.addChild(t3UtteranceTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t3UtteranceTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier3Group.addChild(t3UtteranceTicksRaster);
+    } else {
+        gTier3Group.addChild(tempGroup);
+    }
 
     //display TOC ticks and text
     //display TOC ticks at varying heights

@@ -3014,7 +3014,7 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 |23208|151|OO|SO-368|27|07.3 N|107.7 E|62|335|125|80|73|REV 27|FIRSOV, W OF|JSC scan|
 |23209|151|OO|SO-368|27|14.0 N|109.9 E|65|355|125|80|70|REV 27|FIRSOV|JSC scan|
 |23210|151|OO|SO-368|28|16.8 S|174.0 E|57|292|117|80|8|REV 28|AITKEN|JSC scan|
-|23211|151|OO|SO-368||||||||||BLANK|JSC scan|
+skip|23211|151|OO|SO-368||||||||||BLANK|JSC scan|
 |23212|151|OO|SO-368|38|17.9 S|132.6 E|55|227|123|250|37|REV 38|TSIOLKOYSKY, NE WALL|JSC scan|
 |23213|151|OO|SO-368|38|17.7 S|132.3 E|55|228|124|250|37|REV 38|TSIOLKOVSKY, NE WALL|JSC scan|
 |23214|151|OO|SO-368|38|18.5 S|128.2 E|58|205|124|250|41|REV 38|TSIOLKOVSKY|JSC scan|
@@ -3025,7 +3025,7 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 |23219|151|OO|SO-368|38|22.3 N|009.1 E|38|329|106|250|16|REV 38|SULPICIUS GALLUS, SE OF|JSC scan|
 |23220|151|OO|SO-368|38|23.6 N|007.9 E|49|328|106|250|15|REV 38|SULPICIUS CALLUS, NE OF|JSC scan|
 |23221|151|OO|SO-368|38|29.3 N|006.1 E|66|341|106|250|13|REV 38|AUTOLYCUS K|JSC scan|
-|23222|151|OO|SO-368||||||||||BLANK|JSC scan|
+skip|23222|151|OO|SO-368||||||||||BLANK|JSC scan|
 |23223|151|OO|SO-368|39|03.1 N|105.6 E|57|48|124|80|65|REV 39|SAENGER, E WALL|JSC scan|
 |23224|151|OO|SO-368|39|06.2 N|103.8 E|61|28|124|80|66|REV 39|SAENGER|JSC scan|
 |23225|151|OO|SO-368|39|07.3 N|100.9 E|61|11|124|80|68|REV 39|SAENGER, W WALL|JSC scan|
@@ -3073,19 +3073,19 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 |23267|151|OO|SO-368|||||||||BLANK||JSC scan|
 |23268|151|OO|SO-368|65|20.3 N 29.3 W|45|234|115|80|6|REV 65|EULER P||JSC scan|
 |23269|151|OO|SO-368|65|19.4 N 27.0 W|39|182|115|80|8|REV 65|TOBIAS MAYER, A, G, P||JSC scan|
-|23270|152|PP|SO-368|66|19.4 S|107.3 E|57|211|113|250|34|REV 66|HILBERT, S WALL|JSC scan|
-|23271|152|PP|SO-368|66||098.5 E||262|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
-|23272|152|PP|SO-368|66||098.1 E||262|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
-|23273|152|PP|SO-368|66||098.5 E||264|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
-|23274|152|PP|SO-368|66||098.2 E||264|113|250||REV 66|Earthrise viewed from Apollo 17|JSC scan|
-|23275|152|PP|SO-368|66||097.6 E||263|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
-|23276|152|PP|SO-368|66|12.9 S|095.5 E|66|267|113|250|47|REV 66|RITZ, N WALL, EARTHRISE|JSC scan|
-|23277|152|PP|SO-368|66||093.9 E||263|113|250||REV 66|RITZ, N WALL, EARTHRISE|JSC scan|
-|23278|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
-|23279|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
-|23280|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
-|23281|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
-|23282|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
+217:15:30|23270|152|PP|SO-368|66|19.4 S|107.3 E|57|211|113|250|34|REV 66|HILBERT, S WALL|JSC scan|
+217:19:15|23271|152|PP|SO-368|66||098.5 E||262|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
+217:19:25|23272|152|PP|SO-368|66||098.1 E||262|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
+217:19:35|23273|152|PP|SO-368|66||098.5 E||264|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
+217:19:45|23274|152|PP|SO-368|66||098.2 E||264|113|250||REV 66|Earthrise viewed from Apollo 17|JSC scan|
+217:19:55|23275|152|PP|SO-368|66||097.6 E||263|113|250||REV 66|RITZ, EARTHRISE|JSC scan|
+217:20:09|23276|152|PP|SO-368|66|12.9 S|095.5 E|66|267|113|250|47|REV 66|RITZ, N WALL, EARTHRISE|JSC scan|
+217:20:19|23277|152|PP|SO-368|66||093.9 E||263|113|250||REV 66|RITZ, N WALL, EARTHRISE|JSC scan|
+228:19:59|23278|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
+228:24:40|23279|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
+228:24:50|23280|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
+228:25:00|23281|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
+228:25:11|23282|152|PP|SO-368|||||||250||REV 71|EARTHSET FROM CSM|JSC scan|
 |23283|152|PP|SO-368|74|02.6 N|63.6 E|12|50|110|250|71|REV 74|WEBB C, N OF|JSC scan|
 |23284|152|PP|SO-368|74|18.9 N|09.7 E|15|199|114|250|50|REV 74|MANILIUS A, NE OF|JSC scan|
 |23285|152|PP|SO-368|74|18.9 N|09.7 E|15|199|114|250|50|REV 74|MANILIUS A, NE OF|JSC scan|
@@ -3156,60 +3156,60 @@ skip|22884|149|KK|SO-368||||||||||BLANK|Jack Schmitt|
 |23350|152|PP|SO-368||||||||||BLANK|JSC scan|
 |23351|152|PP|SO-368|||||||250||TEC|LUNAR DISC|JSC scan|
 |23352|152|PP|SO-368|||||||250||TEC|LUNAR DISC|JSC scan|
-|23353|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23354|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23355|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23356|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23357|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23358|152|PP|SO-368|||||||80||TEC|LUNAR DISC|JSC scan|
-|23359|152|PP|SO-368|||||||80||TEC|LUNAR DISC|JSC scan|
-|23360|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23361|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23362|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23363|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23364|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23365|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23366|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23367|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23368|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23369|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23370|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23371|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23372|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23373|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23374|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23375|152|PP|SO-368|29||||||80||TEC|SIM BAY EVA|JSC scan|
-|23376|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23377|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23378|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23379|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23380|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23381|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23382|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23383|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23384|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23385|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23386|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23387|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23388|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23389|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23390|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23391|152|PP|SO-368|||||||80||TEC|retrieval of film canisters during SIM Bay EVA|JSC scan|17-Dec-72
-|23392|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23393|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23394|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23395|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23396|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23397|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23398|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23399|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23400|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23401|152|PP|SO-368|||||||80||TEC|SIM Bay EVA|JSC scan|
-|23402|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23403|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23404|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23405|152|PP|SO-368|||||||80||TEC|SIM BAY EVA|JSC scan|
-|23406|152|PP|SO-368||||||||||BLANK|JSC scan|
+257:45:46|23353|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:45:56|23354|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:46:06|23355|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:46:16|23356|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:46:26|23357|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:47:11|23358|152|PP|SO-368|||||||80||TEC|LUNAR DISC|JSC scan|
+257:47:57|23359|152|PP|SO-368|||||||80||TEC|LUNAR DISC|JSC scan|
+257:48:42|23360|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:49:28|23361|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:50:14|23362|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:50:59|23363|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:51:45|23364|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:52:31|23365|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:53:16|23366|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:54:02|23367|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:54:48|23368|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:55:33|23369|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:56:19|23370|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:57:05|23371|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:57:50|23372|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:58:36|23373|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+257:59:22|23374|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:00:07|23375|152|PP|SO-368|29||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:00:53|23376|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:01:39|23377|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:02:24|23378|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:03:10|23379|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:03:56|23380|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:04:41|23381|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:05:27|23382|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:06:13|23383|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:06:58|23384|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:07:44|23385|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:08:30|23386|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:09:15|23387|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:10:01|23388|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:10:47|23389|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:11:32|23390|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:12:18|23391|152|PP|SO-368|||||||80||TEC|retrieval of film canisters during SIM Bay EVA|JSC scan|17-Dec-72
+258:13:04|23392|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:13:50|23393|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:14:03|23394|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:14:17|23395|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:14:31|23396|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:14:45|23397|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:14:59|23398|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:15:13|23399|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:15:27|23400|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:15:41|23401|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:15:55|23402|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:16:09|23403|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:16:23|23404|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+258:16:36|23405|152|PP|SO-368|||||||80||TEC|Transearth coast, SIM Bay EVA / film retrieval|JSC scan|
+skip|23406|152|PP|SO-368||||||||||BLANK|JSC scan|
 |23407|152|PP|SO-368|||||||250||TEC|LUNAR DISC|JSC scan|
 |23408|152|PP|SO-368|||||||250||TEC|LUNAR DISC|JSC scan|
 |23409|152|PP|SO-368|||||||250||TEC|LUNAR DISC|JSC scan|
