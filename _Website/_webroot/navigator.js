@@ -388,7 +388,7 @@ function drawTier1() {
             tempGroup.addChild(aLine);
         }
     }
-    if (navigator.userAgent.toLowerCase().indexOf('firefox') == -1 ) {
+    if ($.browser.webkit) {
         // firefox dies on raster
         var t1PhotoTicksRaster = tempGroup.rasterize();
         tempGroup.remove();
@@ -411,7 +411,7 @@ function drawTier1() {
         aLine.strokeColor = gColorTimeTicks;
         tempGroup.addChild(aLine);
     }
-    if (navigator.userAgent.toLowerCase().indexOf('firefox') == -1 ) {
+    if ($.browser.webkit) {
         // firefox dies on raster
         var t1TimeTicksRaster = tempGroup.rasterize();
         tempGroup.remove();
@@ -590,7 +590,7 @@ function drawTier2() {
             }
         }
     }
-    if (navigator.userAgent.toLowerCase().indexOf('firefox') == -1 ) {
+    if ($.browser.webkit) {
         // firefox dies on raster
         var t2PhotoTicksRaster = tempGroup.rasterize();
         tempGroup.remove();
@@ -817,7 +817,7 @@ function drawTier3() {
             }
         }
     }
-    if (navigator.userAgent.toLowerCase().indexOf('firefox') == -1 ) {
+    if ($.browser.webkit) {
         // firefox dies on raster
         var t3PhotoTicksRaster = tempGroup.rasterize();
         tempGroup.remove();
@@ -844,7 +844,7 @@ function drawTier3() {
             }
         }
     }
-    if (navigator.userAgent.toLowerCase().indexOf('firefox') == -1 ) {
+    if ($.browser.webkit) {
         // firefox dies on raster
         var t3UtteranceTicksRaster = tempGroup.rasterize();
         tempGroup.remove();
