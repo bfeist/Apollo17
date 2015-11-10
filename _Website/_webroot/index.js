@@ -173,9 +173,9 @@ function autoScrollPoller() {
             var timeId = timeStrToTimeId(gCurrMissionTime);
             gLastTimeIdChecked = gCurrMissionTime;
 
-            scrollToTimeID(timeId);
+            scrollTranscriptToTimeId(timeId);
             scrollTOCToTimeID(timeId);
-            scrollCommentaryToTimeID(timeId);
+            scrollCommentaryToTimeId(timeId);
             showCurrentPhoto(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
@@ -288,74 +288,7 @@ function scrollToClosestCommentary(secondsSearch) {
         }
     }
     console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
-    scrollCommentaryToTimeID(scrollTimeId);
-}
-
-// </editor-fold>
-
-// <editor-fold desc="scrolling things------------------------------------------------">
-
-function scrollToTimeID(timeId) {
-    //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-    if ($.inArray(timeId, gUtteranceIndex) != -1) {
-        // console.log("scrollToElementId " + elementId);
-        // console.log("Utterance item found in array. Scrolling utterance frame to " + elementId);
-        if ($("#tabs-left").tabs('option', 'active') != 0) {
-            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
-        }
-        scrollTranscriptToTimeId(timeId);
-    }
-}
-
-function scrollTOCToTimeID(timeId) {
-    if (timeId != gLastTOCTimeId) {
-        if ($.inArray(timeId, gTOCIndex) != -1) {
-            //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
-            if ($("#tabs-left").tabs('option', 'active') != 1) {
-                $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
-            }
-            var TOCFrame = $('#iFrameTOC').contents();
-            var TOCElement = TOCFrame.find('#timeid' + timeId);
-            //reset background color of last line
-            if (gLastTOCElement != '') {
-                gLastTOCElement.css("background-color", background_color);
-            }
-            TOCElement.css("background-color", background_color_active);
-            var scrollDestination = TOCElement.offset().top - 100;
-            TOCFrame.find('body').animate({scrollTop: scrollDestination}, 500);
-            gLastTOCElement = TOCElement;
-        }
-        gLastTOCTimeId = timeId;
-    } else {
-        //console.log("scrollTOCToTimeID(): TOC item already scrolled to. Not scrolling");
-    }
-}
-
-function scrollCommentaryToTimeID(timeId) {
-    if (timeId != gLastCommentaryTimeId) {
-        if ($.inArray(timeId, gCommentaryIndex) != -1) {
-            //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            if ($("#tabs-left").tabs('option', 'active') != 2) {
-                $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
-            }
-            //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
-            var commentaryFrame = $('#iFrameCommentary').contents();
-            var commentaryElement = commentaryFrame.find('#timeid' + timeId);
-            if (commentaryElement.length != 0) {
-                //reset background color of last line
-                if (gLastCommentaryElement != '') {
-                    gLastCommentaryElement.css("background-color", background_color);
-                }
-                commentaryElement.css("background-color", background_color_active);
-                var scrollDestination = commentaryElement.offset().top - 100;
-                commentaryFrame.find('body').animate({scrollTop: scrollDestination}, 500);
-            }
-            gLastCommentaryElement = commentaryElement;
-        }
-        gLastCommentaryTimeId = timeId;
-    } else {
-        //console.log("scrollCommentaryToTimeID(): Commentary item already scrolled to. Not scrolling");
-    }
+    scrollCommentaryToTimeId(scrollTimeId);
 }
 
 // </editor-fold>
@@ -367,10 +300,10 @@ function historicalButtonClick() {
     gIntroInterval = null;
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
-    var closestUtteranceId = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
+    var closestUtteranceTimeid = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
 
-    repopulateUtterances(closestUtteranceId);
-    seekToTime("timeid" + closestUtteranceId);
+    repopulateUtterances(closestUtteranceTimeid);
+    seekToTime(closestUtteranceTimeid);
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -380,9 +313,8 @@ function oneMinuteToLaunchButtonClick() {
     initializePlayback();
 }
 
-function seekToTime(elementId) { // transcript click handling --------------------
-    console.log("seekToTime(): " + elementId);
-    var timeId = elementId.substr(6);
+function seekToTime(timeId) { // transcript click handling --------------------
+    console.log("seekToTime(): " + timeId);
 
     var gaTimeVal = parseInt(timeId);
     ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
@@ -414,7 +346,7 @@ function seekToTime(elementId) { // transcript click handling ------------------
                 gNextVideoStartTime = seekToSecondsWithOffset;
                 player.loadVideoById(gMediaList[i][1], seekToSecondsWithOffset);
             } else {
-                console.log("seekToTime(): no need to change video. Seeking to " + elementId.toString());
+                console.log("seekToTime(): no need to change video. Seeking to " + timeId);
                 player.seekTo(seekToSecondsWithOffset, true);
             }
             //scrollToTimeID(findClosestUtterance(totalSeconds));
@@ -523,60 +455,117 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 
 // </editor-fold>
 
+// <editor-fold desc="scrolling things------------------------------------------------">
+
+function scrollTOCToTimeID(timeId) {
+    if ($.inArray(timeId, gTOCIndex) != -1) {
+        //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
+        if ($("#tabs-left").tabs('option', 'active') != 1) {
+            $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+        }
+        var TOCFrame = $('#iFrameTOC');
+        var TOCFrameContents = TOCFrame.contents();
+        var TOCElement = TOCFrameContents.find('#tocid' + timeId);
+        //reset background color of last line
+        //if (gLastTOCElement != '') {
+        //    gLastTOCElement.css("background-color", background_color);
+        //}
+
+        TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
+        TOCElement.css("background-color", background_color_active); //set new element highlights
+
+        //TOCElement.css("background-color", background_color_active);
+        //var scrollDestination = TOCElement.offset().top - 100;
+        var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
+        TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        gLastTOCElement = TOCElement;
+        gLastTOCTimeId = timeId;
+    }
+}
+
+function scrollCommentaryToTimeId(timeId) {
+    if ($.inArray(timeId, gCommentaryIndex) != -1) {
+        //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
+        if ($("#tabs-left").tabs('option', 'active') != 2) {
+            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
+        }
+        //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
+        var commentaryFrame = $('#iFrameCommentary');
+        var commentaryFrameContents = commentaryFrame.contents();
+        var commentaryElement = commentaryFrameContents.find('#comid' + timeId);
+        if (commentaryElement.length != 0) {
+            //reset background color of last line
+            //if (gLastCommentaryElement != '') {
+            //    gLastCommentaryElement.css("background-color", background_color);
+            //}
+            //commentaryElement.css("background-color", background_color_active);
+
+            commentaryFrameContents.find('.commentary').css("background-color", ""); //clear all element highlights
+            commentaryElement.css("background-color", background_color_active); //set new element highlights
+
+            //var scrollDestination = commentaryElement.offset().top - 100;
+            var scrollDestination = commentaryFrame.scrollTop() + commentaryElement.offset().top;
+            commentaryFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        }
+        gLastCommentaryElement = commentaryElement;
+        gLastCommentaryTimeId = timeId;
+    }
+}
+
 // <editor-fold desc="utterance chunking code------------------------------------------------">
 
-function scrollTranscriptToTimeId(timeId) { //must be an existing timeId
-    // console.log("scrollTranscriptToTimeId " + timeId);
-    var utteranceDiv = $('#utteranceDiv');
-    var utteranceTable = $('#utteranceTable');
+function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
+    if ($.inArray(timeId, gUtteranceIndex) != -1) {
+        // console.log("scrollTranscriptToTimeId " + timeId);
+        var utteranceDiv = $('#utteranceDiv');
+        var utteranceTable = $('#utteranceTable');
 
-    gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
+        gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
-    var moreLoaded = false;
-    //check if timeId is already loaded into utterance div
-    if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
-        if  (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex) {
-            var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
-        } else {
-            prependCount = 50;
+        var moreLoaded = false;
+        //check if timeId is already loaded into utterance div
+        if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
+            if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex) {
+                var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
+            } else {
+                prependCount = 50;
+            }
+            if (prependCount > 200) {
+                repopulateUtterances(timeId);
+            } else {
+                prependUtterances(prependCount);
+                moreLoaded = true;
+            }
+        } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
+            if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex) {
+                var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
+            } else {
+                appendCount = 50;
+            }
+            if (appendCount > 200) {
+                repopulateUtterances(timeId);
+            } else {
+                appendUtterances(appendCount);
+                moreLoaded = true;
+            }
         }
-        if (prependCount > 200) {
-            repopulateUtterances(timeId);
-        } else {
-            prependUtterances(prependCount);
-            moreLoaded = true;
-        }
-    } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
-        if  (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex) {
-            var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
-        } else {
-            appendCount = 50;
-        }
-        if (appendCount > 200) {
-            repopulateUtterances(timeId);
-        } else {
-            appendUtterances(appendCount);
-            moreLoaded = true;
-        }
-    }
-    var highlightedTranscriptElement = $('#timeid' + timeId);
-    if (typeof gLastHighlightedTranscriptElement != 'undefined') {
-        gLastHighlightedTranscriptElement.css("background-color", "");
-    }
-    highlightedTranscriptElement.css("background-color", background_color_active);
-    if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
-        var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
-        utteranceDiv.scrollTop(oldScrollDestination);
-    }
-    var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
-        //console.log('Finished animating: ' + scrollDestination);
-        trimUtterances();
-    });
-    gLastHighlightedTranscriptElement = highlightedTranscriptElement;
+        utteranceTable.children("*").css("background-color", ""); //clear all element highlights
+        var highlightedTranscriptElement = $(".uttid" + timeId);
+        highlightedTranscriptElement.css("background-color", background_color_active); //set new element highlights
 
-    if ($("#tabs-left").tabs('option', 'active') != 0) {
-        $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
+            var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+            utteranceDiv.scrollTop(oldScrollDestination);
+        }
+        var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+            //console.log('Finished animating: ' + scrollDestination);
+            trimUtterances();
+        });
+
+        if ($("#tabs-left").tabs('option', 'active') != 0) {
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        }
     }
 }
 
@@ -593,7 +582,7 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
-    $('#utteranceDiv').scrollTop('#timeid' + timeId);
+    $('#utteranceDiv').scrollTop('#uttid' + timeId);
 }
 
 function prependUtterances(count, atTop) {
@@ -613,7 +602,7 @@ function prependUtterances(count, atTop) {
     utteranceTable.prepend(htmlToPrepend);
 
     if (atTop) {
-        var elementToScrollBackTo = $("#timeid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
+        var elementToScrollBackTo = $("#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
         console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
         var oldScrollDestination = utteranceDiv.scrollTop() + elementToScrollBackTo.offset().top - utteranceDiv.offset().top;
         utteranceDiv.scrollTop(oldScrollDestination);
@@ -659,19 +648,19 @@ function trimUtterances() {
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
-                $('#timeid' + gUtteranceIndex[i]).remove();
+                $('#uttid' + gUtteranceIndex[i]).remove();
             }
             console.log("Trimming " + numberToRemove + " utterances from top");
             gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
         } else { //trim items from bottom of utterance div
             for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
-                $('#timeid' + gUtteranceIndex[i]).remove();
+                $('#uttid' + gUtteranceIndex[i]).remove();
             }
             console.log("Trimming " + numberToRemove + " utterances from bottom");
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
         }
         var utteranceDiv = $('#utteranceDiv');
-        var currElement = $('#timeid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
+        var currElement = $('#uttid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
         var newScrollDestination = utteranceDiv.scrollTop() + currElement.offset().top - utteranceDiv.offset().top;
         utteranceDiv.scrollTop(newScrollDestination);
     }
@@ -683,8 +672,8 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     var utteranceObject = gUtteranceData[utteranceIndex];
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
-    var elementId = "timeid" + timeStrToTimeId(utteranceObject[0]);
-    html = html.replace(/@timeid/g, elementId);
+    var timeId = timeStrToTimeId(utteranceObject[0]);
+    html = html.replace(/@uttid/g, timeId);
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
@@ -695,7 +684,10 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
-// </editor-fold>
+// </editor-fold> //utterances
+
+// </editor-fold> //scrolling things
+
 
 // <editor-fold desc="photo display and gallery -------------------------------------------------">
 
@@ -850,16 +842,16 @@ function initializePlayback() {
     console.log("initializePlayback()");
     if (gMissionTimeParamSent == 0) {
         repopulateUtterances(findClosestUtterance(gDefaultStartTimeId)); //jump to default start time (usually 1 minute to launch)
-        seekToTime("timeid" + gDefaultStartTimeId);
+        seekToTime(gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
             repopulateUtterances(findClosestUtterance(timeStrToTimeId(paramMissionTime)));
-            seekToTime("timeid" + timeStrToTimeId(paramMissionTime));
+            seekToTime(timeStrToTimeId(paramMissionTime));
         } else {
             console.log("Invalid t Parameter");
             repopulateUtterances(findClosestUtterance(gDefaultStartTimeId));
-            seekToTime("timeid" + gDefaultStartTimeId);
+            seekToTime(gDefaultStartTimeId);
         }
     }
     clearInterval(gApplicationReadyIntervalID);
@@ -1038,6 +1030,15 @@ jQuery(function ($) {
     //init tabs
     $(".mid-center").tabs();
 
+    //tab clicks
+    $("#tocTab").on("click", function() {
+        scrollTOCToTimeID(gLastTOCTimeId);
+    });
+
+    $("#commentaryTab").on("click", function() {
+        scrollCommentaryToTimeId(gLastCommentaryTimeId);
+    });
+
     // OUTER-LAYOUT
     $('body').layout({
         center__paneSelector:	".outer-center"
@@ -1051,7 +1052,7 @@ jQuery(function ($) {
         ,   north__minSize:         120
         ,   west__size:             "40%"
         ,   east__size:             75
-        ,	spacing_open:			1  // ALL panes
+        ,	spacing_open:			0  // ALL panes
         ,	spacing_closed:			12 // ALL panes
         ,
         // WEST-LAYOUT (child of outer-west-pane)
@@ -1062,7 +1063,7 @@ jQuery(function ($) {
             ,   center__size:            "40%"
             ,   north__togglerLength_open: 0
             ,   center__togglerLength_open: 0
-            ,	spacing_open:			1  // ALL panes
+            ,	spacing_open:			0  // ALL panes
             ,	spacing_closed:			12 // ALL panes
         }
     });
