@@ -94,7 +94,7 @@ for row in reader:
     item_title = row[2]
     item_subtitle = row[3]
     #item_URL = timestamp.translate(None, ":") + "_" + item_title.translate(None, ":/ .") + ".html"
-    item_URL = "timeid" + timestamp.translate(None, ":")
+    item_URL = timestamp.translate(None, ":")
     toc_index_id = timestamp.translate(None, ":")
     loader = FileLoader('templates')
     template = loader.load_template('template_TOC_item.html')
@@ -164,7 +164,7 @@ input_file_path = "../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
     cur_row += 1
-    timeid = "timeid" + commentary_row[0].translate(None, ":")
+    comid = commentary_row[0].translate(None, ":")
     commentary_index_id = commentary_row[0].translate(None, ":")
     if commentary_row[0] != "": #if not a TAPE change or title row
         words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
@@ -172,7 +172,7 @@ for commentary_row in commentary_reader:
         attribution_modified = commentary_row[1]
 
         template = template_loader.load_template('template_commentary_item.html')
-        output_commentary_file.write(template.render({'timeid': timeid, 'timestamp': commentary_row[0], 'who': commentary_row[2], 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
+        output_commentary_file.write(template.render({'comid': comid, 'timestamp': commentary_row[0], 'who': commentary_row[2], 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
 
         commentary_index_template = template_loader.load_template('template_commentary_index.html')
         output_commentary_index_file.write(commentary_index_template.render({'commentary_index_id': commentary_index_id}, loader=template_loader).encode('utf-8'))

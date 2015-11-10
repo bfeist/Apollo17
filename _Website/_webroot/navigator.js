@@ -73,7 +73,7 @@ $(document).ready(function() {
     paper.setup('myCanvas');
 
     //init navigator
-    gCurrMissionTime = timeIdToTimeStr(gDefaultStartElementId.substr(6)); //set clock to start time; //TODO make this handle t parameter time
+    gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
     initNavigator();
     gApplicationReady += 1;
     console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);
@@ -163,7 +163,7 @@ function initNavigator() {
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
         //redrawAll();
         console.log("NAV: Jumping to " + gCurrMissionTime);
-        seekToTime("timeid" + gCurrMissionTime.split(":").join(""));
+        seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 }
 
@@ -388,10 +388,14 @@ function drawTier1() {
             tempGroup.addChild(aLine);
         }
     }
-    var t1PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier1Group.addChild(t1PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t1PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier1Group.addChild(t1PhotoTicksRaster);
+    } else {
+        gTier1Group.addChild(tempGroup);
+    }
 
     //display time ticks
     tempGroup = new paper.Group;
@@ -407,10 +411,14 @@ function drawTier1() {
         aLine.strokeColor = gColorTimeTicks;
         tempGroup.addChild(aLine);
     }
-    var t1TimeTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier1Group.addChild(t1TimeTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t1TimeTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier1Group.addChild(t1TimeTicksRaster);
+    } else {
+        gTier1Group.addChild(tempGroup);
+    }
 }
 
 function drawTier1NavBox(seconds) {
@@ -509,6 +517,9 @@ function drawTier2() {
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier2StartSeconds) {
             var rectStartX = gTier2Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
             var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier2PixelsPerSecond;
+            if (rectStartX < 0) {
+                rectWidth -= Math.abs(rectStartX);
+            }
             if (rectStartX < gTier2Left + 1) {
                 rectStartX = gTier2Left + 1;
             }
@@ -579,10 +590,14 @@ function drawTier2() {
             }
         }
     }
-    var t2PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier2Group.addChild(t2PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t2PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier2Group.addChild(t2PhotoTicksRaster);
+    } else {
+        gTier2Group.addChild(tempGroup);
+    }
 
     //display time ticks
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
@@ -622,7 +637,7 @@ function drawTier2() {
                     fontSize: 10 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom - textPosition * (gTier2Height / 3) + 2;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 3;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCAll[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -728,7 +743,10 @@ function drawTier3() {
         //draw if video segment start is before end of viewport, and video segment end is after start of viewport
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
             var rectStartX = gTier3Left + 3 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-            var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond;
+            var rectWidth = ((timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond);
+            if (rectStartX < 0) {
+                rectWidth -= Math.abs(rectStartX);
+            }
             if (rectStartX < gTier3Left + 2) {
                 rectStartX = gTier3Left + 2;
             }
@@ -799,13 +817,17 @@ function drawTier3() {
             }
         }
     }
-    var t3PhotoTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier3Group.addChild(t3PhotoTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t3PhotoTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier3Group.addChild(t3PhotoTicksRaster);
+    } else {
+        gTier3Group.addChild(tempGroup);
+    }
 
     //display utterance ticks
-    var tempGroup = new paper.Group;
+    tempGroup = new paper.Group;
     for (i = 0; i < gUtteranceData.length; i++) {
         if (gUtteranceData[i][0] != "") {
             itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
@@ -822,10 +844,14 @@ function drawTier3() {
             }
         }
     }
-    var t3UtteranceTicksRaster = tempGroup.rasterize();
-    tempGroup.remove();
-    tempGroup = null;
-    gTier3Group.addChild(t3UtteranceTicksRaster);
+    if ($.browser.webkit) {
+        // firefox dies on raster
+        var t3UtteranceTicksRaster = tempGroup.rasterize();
+        tempGroup.remove();
+        gTier3Group.addChild(t3UtteranceTicksRaster);
+    } else {
+        gTier3Group.addChild(tempGroup);
+    }
 
     //display TOC ticks and text
     //display TOC ticks at varying heights

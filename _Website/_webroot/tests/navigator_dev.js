@@ -12,17 +12,38 @@ var gVideoSegments = [];
 var gLastTimeIdChecked;
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
-var gDefaultStartElementId = 'timeid-000105';
+var gDefaultStartTimeId = '3044003';
 
-var gCurrMissionTime = "141:27:05";
+var gLastHighlightedTranscriptElement;
+var gUtteranceDisplayStartIndex;
+var gUtteranceDisplayEndIndex;
+var gCurrentHighlightedUtteranceIndex;
+
+var background_color = "#000000";
+var background_color_active = "#222222";
+
 var gIntroInterval = null;
+
+
+$( document ).ready(function() {
+
+    $( "#utteranceDiv" ).scroll($.throttle(function() {
+        //console.log("utterance scroll");
+    }, 1000));
+
+});
+
 
 $.when(ajaxGetTOCAll(),
     ajaxGetPhotoIndex(),
     ajaxGetMissionStagesData(),
-    ajaxGetUtteranceData()).done(function(){
+    ajaxGetUtteranceData(),
+    ajaxGetVideoSegmentsData()).done(function(){
         // the code here will be executed when all ajax requests resolve
         initNavigator();
+
+        repopulateUtterances(gDefaultStartTimeId);
+
         incrementFakeMissionTime();
         setAutoScrollPoller();
     });
@@ -160,7 +181,7 @@ function setAutoScrollPoller() {
             paper.view.draw();
             //console.log (gCurrMissionTime.split(':').join('') + " | " + gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] + " | " + (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined'));
             if (typeof gUtteranceDataLookup[gCurrMissionTime.split(':').join('')] !== 'undefined') {
-                displayUtteranceRegion(timeStrToSeconds(gCurrMissionTime));
+                scrollTranscriptToTimeId(timeStrToTimeId(gCurrMissionTime));
             }
         }
     }, 500); //polling frequency in milliseconds
@@ -177,8 +198,7 @@ function seekToTime(elementId) {
     var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
     gCurrMissionTime = secondsToTimeStr(totalSeconds);
 
-    displayUtteranceRegion(totalSeconds);
-    //displayUtteranceRegion(totalSeconds);
+    scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
 }
 
 function findClosestUtterance(secondsSearch) {
@@ -206,7 +226,9 @@ function findClosestUtterance(secondsSearch) {
     }
     //var timeStr = gUtteranceIndex[i - 1].substr(0,3) + ":" +  gUtteranceIndex[i - 1].substr(3,2) + ":" + gUtteranceIndex[i - 1].substr(5,2);
     //return timeStrToSeconds(timeStr);
-    return "timeid" + gUtteranceIndex[i - 1];
+    scrollTranscriptToTimeId( gUtteranceIndex[i - 1]);
+    //repopulateUtterances(gUtteranceIndex[i - 1]);
+    return timeId.substr(6);
 }
 
 function padZeros(num, size) {
@@ -217,58 +239,156 @@ function padZeros(num, size) {
 
 //------------------------------------------------- utterance chunking code -------------------------------------------------
 
-function displayUtteranceRegion(seconds) {
-    var timecode = findClosestUtterance(Math.round(seconds)).substr(6);
-    //var timecode = secondsToTimeStr(seconds).split(":").join("");
-    var utteranceIndex = gUtteranceDataLookup[timecode];
-
+function scrollTranscriptToTimeId(timeId) { //must be an existing timeId
+    // console.log("scrollTranscriptToTimeId " + timeId);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
 
-    repopulateUtteranceTable(utteranceIndex);
+    gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
-    var timeIdMarker = utteranceTable.find('#' + "timeid" + timecode);
-    var scrollDestination = timeIdMarker.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: scrollDestination}, '500', 'swing', function() {
+    var moreLoaded = false;
+    //check if timeId is already loaded into utterance div
+    if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
+        if  (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex) {
+            var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
+        } else {
+            prependCount = 50;
+        }
+        if (prependCount > 200) {
+            repopulateUtterances(timeId);
+        } else {
+            prependUtterances(prependCount);
+            moreLoaded = true;
+        }
+    } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
+        if  (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex) {
+            var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
+        } else {
+            appendCount = 50;
+        }
+        if (appendCount > 200) {
+            repopulateUtterances(timeId);
+        } else {
+            appendUtterances(appendCount);
+            moreLoaded = true;
+        }
+    }
+
+    //if ($("#tabs-left").tabs('option', 'active') != 0) {
+    //    $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+    //}
+
+    var highlightedTranscriptElement = utteranceTable.find('#timeid' + timeId);
+    if (typeof gLastHighlightedTranscriptElement != 'undefined') {
+        gLastHighlightedTranscriptElement.css("background-color", "");
+        var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(oldScrollDestination);
+    }
+    highlightedTranscriptElement.css("background-color", background_color_active);
+    if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
+
+    }
+    var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+    utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
         //console.log('Finished animating: ' + scrollDestination);
+        trimUtterances();
     });
-    //repopulateUtteranceTable(utteranceIndex);
+    gLastHighlightedTranscriptElement = highlightedTranscriptElement;
 }
 
-function repopulateUtteranceTable(utteranceIndex) {
+function repopulateUtterances(timeId) {
+    var utteranceIndex = gUtteranceDataLookup[timeId];
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
-    $('#utteranceDiv').scrollTop(0);
-    for (var i = -1; i <= 50; i++) {
-        if (i == 0) {
-            var style = "background-color: #222222";
-        } else {
-            style = "";
+    var startIndex = utteranceIndex - 50;
+    var endIndex = startIndex + 200;
+    startIndex = startIndex < 0 ? 0 : startIndex;
+    endIndex = endIndex > gUtteranceIndex.length - 1 ? gUtteranceIndex.length - 1 : endIndex;
+    for (var i = startIndex; i <= endIndex; i++) {
+        utteranceTable.append(getUtteranceObjectHTML(i));
+    }
+    gUtteranceDisplayStartIndex = startIndex;
+    gUtteranceDisplayEndIndex = endIndex;
+    $('#utteranceDiv').scrollTop('#timeid' + timeId);
+}
+
+function prependUtterances(count) {
+    console.log("prependUtterances:" + count);
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToPrepend = "";
+    var prependedCount = 0;
+    var startIndex = gUtteranceDisplayStartIndex - count;
+    for (var i = startIndex; i < startIndex + count - 1; i++) {
+        if (i >= 0) {
+            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i, ""));
+            prependedCount ++;
         }
-        utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
+    }
+    utteranceTable.prepend(htmlToPrepend);
+    gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
+}
+
+function appendUtterances(count) {
+    console.log("appendUtterances:" + count);
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToAppend = "";
+    var startIndex = gUtteranceDisplayEndIndex;
+    var appendedCount = 0;
+    for (var i = startIndex; i < startIndex + count; i++) {
+        if (i >= 0 && i < gUtteranceData.length) {
+            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
+            appendedCount ++;
+        }
+    }
+    utteranceTable.append(htmlToAppend);
+    gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
+}
+
+function trimUtterances() {
+    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 200;
+    if (numberToRemove > 0) {
+        var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
+        var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
+        if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
+            for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
+                //console.log("trimming: " + '#timeid' + gUtteranceIndex[i]);
+                $('#timeid' + gUtteranceIndex[i]).remove();
+            }
+            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
+        } else { //trim items from bottom of utterance div
+            for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
+                //$('#timeid' + gUtteranceIndex[i]).remove();
+                //$('#utteranceTable').remove('#timeid' + gUtteranceIndex[i]);
+            }
+            gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
+        }
+        var utteranceDiv = $('#utteranceDiv');
+        var currElement = $('#timeid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
+        var newScrollDestination = utteranceDiv.scrollTop() + currElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(newScrollDestination);
     }
 }
 
 function getUtteranceObjectHTML(utteranceIndex, style) {
+    style = style || '';
+    //console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
-    var html = '<tr class="utterance" style="@style" onclick="seekToTime(this.id)" id="@timeid">' +
-        '<td class="afjget afjpao">@timestamp</td>' +
-        '<td class="afjwho afjpao">@who</td>' +
-        '<td class="spokenwords afjpao">@words</td>' +
-        '</tr>';
+    var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
-    var timeid = "timeid" + utteranceObject[0].split(":").join("");
-    html = html.replace("@timeid", timeid);
-    html = html.replace("@timeid", timeid);
+    var elementId = "timeid" + timeStrToTimeId(utteranceObject[0]);
+    html = html.replace(/@timeid/g, elementId);
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
-    if (utteranceObject[1] != "PAO") {
-        html = html.split("afjpao").join("");
-    }
+    var paoStr = utteranceObject[1] == "PAO" ? "pao" : "";
+    html = html.replace(/@pao/g, paoStr);
+
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
 }
+
 
 function secondsToTimeStr(totalSeconds) {
     var hours = Math.abs(parseInt(totalSeconds / 3600));

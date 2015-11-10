@@ -2,7 +2,7 @@ console.log("INIT: Loading index.js");
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
-var gDefaultStartElementId = 'timeid-000105';
+var gDefaultStartTimeId = '-000105';
 
 var gLastTOCElement = '';
 var gLastTOCTimeId = '';
@@ -25,7 +25,7 @@ var gPhotoLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
 var gCurrentPhotoTimestamp = "initial";
-var gCurrVideoStartSeconds = -9442;
+var gCurrVideoStartSeconds = -9442; //countdown
 var gCurrVideoEndSeconds = 0;
 var gPlaybackState = "normal";
 var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
@@ -33,6 +33,11 @@ var gMissionTimeParamSent = 0;
 var player;
 var gApplicationReady = 0; //starts at 0. Ready at 2. Checks both ajax loaded and player ready before commencing poller.
 var gApplicationReadyIntervalID = null;
+
+var gLastHighlightedTranscriptElement;
+var gUtteranceDisplayStartIndex;
+var gUtteranceDisplayEndIndex;
+var gCurrentHighlightedUtteranceIndex;
 
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
@@ -45,6 +50,8 @@ var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// <editor-fold desc="youtube things------------------------------------------------">
 
 function onYouTubeIframeAPIReady() {
     console.log("INIT: onYouTubeIframeAPIReady():creating player object");
@@ -100,8 +107,8 @@ function onPlayerStateChange(event) {
             ga('send', 'event', 'transcript', 'click', 'youtube scrub');
             //scrollToTimeID(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
             findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-            findClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-            findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+            scrollToClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
+            scrollToClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds);
 
         }
         if (gIntervalID == null) {
@@ -147,8 +154,9 @@ function onPlayerStateChange(event) {
         player.loadVideoById(currVideoID, 0);
     }
 }
+// </editor-fold>
 
-//--------------- transcript iframe autoscroll handling --------------------
+// <editor-fold desc="pollers -------------------------------------------------">
 function autoScrollPoller() {
     console.log("autoScrollPoller()");
     return window.setInterval(function () {
@@ -165,9 +173,9 @@ function autoScrollPoller() {
             var timeId = timeStrToTimeId(gCurrMissionTime);
             gLastTimeIdChecked = gCurrMissionTime;
 
-            scrollToTimeID(timeId);
+            scrollTranscriptToTimeId(timeId);
             scrollTOCToTimeID(timeId);
-            scrollCommentaryToTimeID(timeId);
+            scrollCommentaryToTimeId(timeId);
             showCurrentPhoto(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
@@ -198,13 +206,32 @@ function autoScrollPoller() {
     }, 500); //polling frequency in milliseconds
 }
 
-function padZeros(num, size) {
-    var s = num + "";
-    while (s.length < size) s = "0" + s;
-    return s;
+function setIntroTimeUpdatePoller() {
+    return window.setInterval(function () {
+        //console.log("setIntroTimeUpdatePoller()");
+        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
+    }, 1000);
 }
 
-//--------------- search for closest utterance time to video time (used upon seeked video) --------------------
+function setApplicationReadyPoller() {
+    return window.setInterval(function () {
+        console.log("setApplicationReadyPoller(): Checking if App Ready");
+        if (gApplicationReady >= 4) {
+            console.log("APPREADY = 4! App Ready!");
+            if (gMissionTimeParamSent == 0) {
+                $('.simplemodal-wrap').isLoading("hide");
+            } else {
+                $('body').isLoading("hide");
+                initializePlayback();
+            }
+            window.clearInterval(gApplicationReadyIntervalID);
+        }
+    }, 1000);
+}
+
+// </editor-fold>
+
+// <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
     console.log("findClosestUtterance():" + secondsSearch);
     var found = false;
@@ -221,10 +248,10 @@ function findClosestUtterance(secondsSearch) {
             break;
         }
     }
-    displayUtteranceRegion(scrollTimeId);
+    return scrollTimeId;
 }
 
-function findClosestTOC(secondsSearch) {
+function scrollToClosestTOC(secondsSearch) {
     console.log("findClosestTOC():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
@@ -244,7 +271,7 @@ function findClosestTOC(secondsSearch) {
     scrollTOCToTimeID(scrollTimeId);
 }
 
-function findClosestCommentary(secondsSearch) {
+function scrollToClosestCommentary(secondsSearch) {
     console.log("findClosestCommentary():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
@@ -261,76 +288,33 @@ function findClosestCommentary(secondsSearch) {
         }
     }
     console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
-    scrollCommentaryToTimeID(scrollTimeId);
+    scrollCommentaryToTimeId(scrollTimeId);
 }
 
-function scrollToTimeID(timeId) {
-    //console.log ('#' + timeId + ' - ' + $('#iFrameTranscript').contents().find('#' + timeId).length);
-    if ($.inArray(timeId, gUtteranceIndex) != -1) {
-        // console.log("scrollToElementId " + elementId);
-        // console.log("Utterance item found in array. Scrolling utterance frame to " + elementId);
-        if ($("#tabs-left").tabs('option', 'active') != 0) {
-            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
-        }
-        displayUtteranceRegion(timeId);
-    }
+// </editor-fold>
+
+// <editor-fold desc="custom event (click) handlers -------------------------------------------------">
+
+function historicalButtonClick() {
+    window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    var nearestHistTimeId = getNearestHistoricalMissionTimeId();
+    var closestUtteranceTimeid = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
+
+    repopulateUtterances(closestUtteranceTimeid);
+    seekToTime(closestUtteranceTimeid);
 }
 
-function scrollTOCToTimeID(timeId) {
-    if (timeId != gLastTOCTimeId) {
-        if ($.inArray(timeId, gTOCIndex) != -1) {
-            //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
-            if ($("#tabs-left").tabs('option', 'active') != 1) {
-                $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
-            }
-            var TOCFrame = $('#iFrameTOC').contents();
-            var TOCElement = TOCFrame.find('#timeid' + timeId);
-            //reset background color of last line
-            if (gLastTOCElement != '') {
-                gLastTOCElement.css("background-color", background_color);
-            }
-            TOCElement.css("background-color", background_color_active);
-            var scrollDestination = TOCElement.offset().top - 100;
-            TOCFrame.find('body').animate({scrollTop: scrollDestination}, 500);
-            gLastTOCElement = TOCElement;
-        }
-        gLastTOCTimeId = timeId;
-    } else {
-        //console.log("scrollTOCToTimeID(): TOC item already scrolled to. Not scrolling");
-    }
+function oneMinuteToLaunchButtonClick() {
+    window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    initializePlayback();
 }
 
-function scrollCommentaryToTimeID(timeId) {
-    if (timeId != gLastCommentaryTimeId) {
-        if ($.inArray(timeId, gCommentaryIndex) != -1) {
-            //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-            if ($("#tabs-left").tabs('option', 'active') != 2) {
-                $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
-            }
-            //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
-            var commentaryFrame = $('#iFrameCommentary').contents();
-            var commentaryElement = commentaryFrame.find('#timeid' + timeId);
-            if (commentaryElement.length != 0) {
-                //reset background color of last line
-                if (gLastCommentaryElement != '') {
-                    gLastCommentaryElement.css("background-color", background_color);
-                }
-                commentaryElement.css("background-color", background_color_active);
-                var scrollDestination = commentaryElement.offset().top - 100;
-                commentaryFrame.find('body').animate({scrollTop: scrollDestination}, 500);
-            }
-            gLastCommentaryElement = commentaryElement;
-        }
-        gLastCommentaryTimeId = timeId;
-    } else {
-        //console.log("scrollCommentaryToTimeID(): Commentary item already scrolled to. Not scrolling");
-    }
-}
-
-//--------------- transcript click handling --------------------
-function seekToTime(elementId) {
-    console.log("seekToTime(): " + elementId);
-    var timeId = elementId.substr(6);
+function seekToTime(timeId) { // transcript click handling --------------------
+    console.log("seekToTime(): " + timeId);
 
     var gaTimeVal = parseInt(timeId);
     ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
@@ -362,19 +346,23 @@ function seekToTime(elementId) {
                 gNextVideoStartTime = seekToSecondsWithOffset;
                 player.loadVideoById(gMediaList[i][1], seekToSecondsWithOffset);
             } else {
-                console.log("seekToTime(): no need to change video. Seeking to " + elementId.toString());
+                console.log("seekToTime(): no need to change video. Seeking to " + timeId);
                 player.seekTo(seekToSecondsWithOffset, true);
             }
             //scrollToTimeID(findClosestUtterance(totalSeconds));
             showCurrentPhoto(timeId);
-            findClosestUtterance(totalSeconds);
-            findClosestTOC(totalSeconds);
-            findClosestCommentary(totalSeconds);
+            scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
+            scrollToClosestTOC(totalSeconds);
+            scrollToClosestCommentary(totalSeconds);
 
             break;
         }
     }
 }
+
+// </editor-fold>
+
+// <editor-fold desc="historical time handling------------------------------------------------">
 
 function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //console.log("displayHistoricalTimeDifferenceByTimeId():" + timeid);
@@ -465,47 +453,227 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     return timeId;
 }
 
-//------------------------------------------------- utterance chunking code -------------------------------------------------
+// </editor-fold>
 
-function displayUtteranceRegion(timeId) {
-    var utteranceIndex = gUtteranceDataLookup[timeId];
+// <editor-fold desc="scrolling things------------------------------------------------">
 
-    var utteranceDiv = $('#utteranceDiv');
-    var utteranceTable = $('#utteranceTable');
+function scrollTOCToTimeID(timeId) {
+    if ($.inArray(timeId, gTOCIndex) != -1) {
+        //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
+        if ($("#tabs-left").tabs('option', 'active') != 1) {
+            $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+        }
+        var TOCFrame = $('#iFrameTOC');
+        var TOCFrameContents = TOCFrame.contents();
+        var TOCElement = TOCFrameContents.find('#tocid' + timeId);
+        //reset background color of last line
+        //if (gLastTOCElement != '') {
+        //    gLastTOCElement.css("background-color", background_color);
+        //}
 
-    repopulateUtteranceTable(utteranceIndex);
+        TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
+        TOCElement.css("background-color", background_color_active); //set new element highlights
 
-    var elementId = utteranceTable.find('#timeid' + timeId);
-    var scrollDestination = elementId.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: scrollDestination}, '1000', 'swing', function() {
-        //console.log('Finished animating: ' + scrollDestination);
-    });
-    //repopulateUtteranceTable(utteranceIndex);
+        //TOCElement.css("background-color", background_color_active);
+        //var scrollDestination = TOCElement.offset().top - 100;
+        var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
+        TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        gLastTOCElement = TOCElement;
+        gLastTOCTimeId = timeId;
+    }
 }
 
-function repopulateUtteranceTable(utteranceIndex) {
-    var utteranceTable = $('#utteranceTable');
-    utteranceTable.html('');
-    $('#utteranceDiv').scrollTop(0);
-    for (var i = -1; i <= 50; i++) {
-        if (i == 0) {
-            var style = "background-color: #222222";
-        } else {
-            style = "";
+function scrollCommentaryToTimeId(timeId) {
+    if ($.inArray(timeId, gCommentaryIndex) != -1) {
+        //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
+        if ($("#tabs-left").tabs('option', 'active') != 2) {
+            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
         }
-        if (utteranceIndex + i >= 0) { //TODO verify that this accommodates the first mission utterance
-            utteranceTable.append(getUtteranceObjectHTML(utteranceIndex + i, style));
+        //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
+        var commentaryFrame = $('#iFrameCommentary');
+        var commentaryFrameContents = commentaryFrame.contents();
+        var commentaryElement = commentaryFrameContents.find('#comid' + timeId);
+        if (commentaryElement.length != 0) {
+            //reset background color of last line
+            //if (gLastCommentaryElement != '') {
+            //    gLastCommentaryElement.css("background-color", background_color);
+            //}
+            //commentaryElement.css("background-color", background_color_active);
+
+            commentaryFrameContents.find('.commentary').css("background-color", ""); //clear all element highlights
+            commentaryElement.css("background-color", background_color_active); //set new element highlights
+
+            //var scrollDestination = commentaryElement.offset().top - 100;
+            var scrollDestination = commentaryFrame.scrollTop() + commentaryElement.offset().top;
+            commentaryFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        }
+        gLastCommentaryElement = commentaryElement;
+        gLastCommentaryTimeId = timeId;
+    }
+}
+
+// <editor-fold desc="utterance chunking code------------------------------------------------">
+
+function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
+    if ($.inArray(timeId, gUtteranceIndex) != -1) {
+        // console.log("scrollTranscriptToTimeId " + timeId);
+        var utteranceDiv = $('#utteranceDiv');
+        var utteranceTable = $('#utteranceTable');
+
+        gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
+
+        var moreLoaded = false;
+        //check if timeId is already loaded into utterance div
+        if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
+            if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex) {
+                var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
+            } else {
+                prependCount = 50;
+            }
+            if (prependCount > 200) {
+                repopulateUtterances(timeId);
+            } else {
+                prependUtterances(prependCount);
+                moreLoaded = true;
+            }
+        } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
+            if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex) {
+                var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
+            } else {
+                appendCount = 50;
+            }
+            if (appendCount > 200) {
+                repopulateUtterances(timeId);
+            } else {
+                appendUtterances(appendCount);
+                moreLoaded = true;
+            }
+        }
+        utteranceTable.children("*").css("background-color", ""); //clear all element highlights
+        var highlightedTranscriptElement = $(".uttid" + timeId);
+        highlightedTranscriptElement.css("background-color", background_color_active); //set new element highlights
+
+        if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
+            var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+            utteranceDiv.scrollTop(oldScrollDestination);
+        }
+        var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+            //console.log('Finished animating: ' + scrollDestination);
+            trimUtterances();
+        });
+
+        if ($("#tabs-left").tabs('option', 'active') != 0) {
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
         }
     }
 }
 
+function repopulateUtterances(timeId) {
+    var utteranceIndex = gUtteranceDataLookup[timeId];
+    var utteranceTable = $('#utteranceTable');
+    utteranceTable.html('');
+    var startIndex = utteranceIndex - 50;
+    var endIndex = startIndex + 200;
+    startIndex = startIndex < 0 ? 0 : startIndex;
+    endIndex = endIndex > gUtteranceIndex.length - 1 ? gUtteranceIndex.length - 1 : endIndex;
+    for (var i = startIndex; i <= endIndex; i++) {
+        utteranceTable.append(getUtteranceObjectHTML(i));
+    }
+    gUtteranceDisplayStartIndex = startIndex;
+    gUtteranceDisplayEndIndex = endIndex;
+    $('#utteranceDiv').scrollTop('#uttid' + timeId);
+}
+
+function prependUtterances(count, atTop) {
+    atTop = atTop || false;
+    console.log("prependUtterances:" + count);
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToPrepend = "";
+    var prependedCount = 0;
+    var startIndex = gUtteranceDisplayStartIndex - count;
+    for (var i = startIndex; i < startIndex + count - 1; i++) {
+        if (i >= 0) {
+            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i, ""));
+            prependedCount ++;
+        }
+    }
+    utteranceTable.prepend(htmlToPrepend);
+
+    if (atTop) {
+        var elementToScrollBackTo = $("#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
+        console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+        var oldScrollDestination = utteranceDiv.scrollTop() + elementToScrollBackTo.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(oldScrollDestination);
+    }
+
+    console.log("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
+    console.log("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+}
+
+function appendUtterances(count, atBottom) {
+    atBottom = atBottom || false;
+    console.log("appendUtterances:" + count);
+    var utteranceDiv = $('#utteranceDiv');
+    var utteranceTable = $('#utteranceTable');
+    var htmlToAppend = "";
+    var startIndex = gUtteranceDisplayEndIndex;
+    var appendedCount = 0;
+    for (var i = startIndex; i < startIndex + count; i++) {
+        if (i >= 0 && i < gUtteranceData.length) {
+            //console.log("Appended: " + gUtteranceData[i][0]);
+            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
+            appendedCount ++;
+        }
+    }
+    if (atBottom)
+        var topToScrollBackTo = utteranceDiv.scrollTop();
+
+    utteranceTable.append(htmlToAppend);
+
+    if (atBottom)
+        utteranceDiv.scrollTop(topToScrollBackTo);
+
+    console.log("appended from" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
+    console.log("appended to" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+}
+
+function trimUtterances() {
+    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 200;
+    if (numberToRemove > 0) {
+        var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
+        var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
+        if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
+            for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
+                $('#uttid' + gUtteranceIndex[i]).remove();
+            }
+            console.log("Trimming " + numberToRemove + " utterances from top");
+            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
+        } else { //trim items from bottom of utterance div
+            for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
+                $('#uttid' + gUtteranceIndex[i]).remove();
+            }
+            console.log("Trimming " + numberToRemove + " utterances from bottom");
+            gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
+        }
+        var utteranceDiv = $('#utteranceDiv');
+        var currElement = $('#uttid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
+        var newScrollDestination = utteranceDiv.scrollTop() + currElement.offset().top - utteranceDiv.offset().top;
+        utteranceDiv.scrollTop(newScrollDestination);
+    }
+}
+
 function getUtteranceObjectHTML(utteranceIndex, style) {
+    style = style || '';
     //console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
-    var timeid = "timeid" + utteranceObject[0].split(":").join("");
-    html = html.replace(/@timeid/g, timeid);
+    var timeId = timeStrToTimeId(utteranceObject[0]);
+    html = html.replace(/@uttid/g, timeId);
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
@@ -516,7 +684,12 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
-//------------------------------------------------- photo display and gallery -------------------------------------------------
+// </editor-fold> //utterances
+
+// </editor-fold> //scrolling things
+
+
+// <editor-fold desc="photo display and gallery -------------------------------------------------">
 
 function populatePhotoGallery() {
     var photoGalleryDiv = $('#photoGallery');
@@ -525,9 +698,15 @@ function populatePhotoGallery() {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
-        var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+        if (photoObject[3] != "") {
+            var photoTypePath = "flight";
+            var filename = "AS17-" + photoObject[1];
+        } else {
+            photoTypePath = "supporting";
+            filename = photoObject[1];
+        }
         html = html.replace(/@photoTypePath/g , photoTypePath);
-        html = html.replace(/@filename/g , photoObject[1]);
+        html = html.replace(/@filename/g ,filename);
         html = html.replace(/@timestamp/g , timeIdToTimeStr( photoObject[0]));
         var timeid = "timeid" + photoObject[0].split(":").join("");
         html = html.replace(/@timeid/g , timeid);
@@ -563,8 +742,11 @@ function showCurrentPhoto(timeId) {
         gCurrentPhotoTimestamp = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
 
-        var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoList[photoIndexNum][0].split(":").join("");
         var photoGalleryDiv = $('#photoGallery');
+        photoGalleryDiv.children('*').css("border-color", "");
+        var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
+        $(photoGalleryImageTimeId).css("border-color", "green");
+
         var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
             console.log('Finished animating gallery: ' + scrollDest);
@@ -581,7 +763,13 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
 
-    var photoTypePath = (photoObject[3] != "") ? "flight" : "supporting";
+    if (photoObject[3] != "") {
+        var photoTypePath = "flight";
+        var filename = "AS17-" + photoObject[1];
+    } else {
+        photoTypePath = "supporting";
+        filename = photoObject[1];
+    }
     html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
@@ -592,7 +780,7 @@ function loadPhotoHtml(photoIndex) {
     var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
     html = html.replace(/@fullSizePath/g , fullSizePath);
     html = html.replace(/@sizepath/g , sizePath);
-    html = html.replace(/@filename/g , photoObject[1]);
+    html = html.replace(/@filename/g , filename);
     html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
     html = html.replace("@photo_num", photoObject[2]);
     var magNum = "AS17-" + photoObject[4] + "-";
@@ -646,20 +834,24 @@ function scaleMissionImage() {
     }
 }
 
-//--------------- initializePlayback ---------------
+// </editor-fold>
+
+// <editor-fold desc="initializePlayback ---------------">
 
 function initializePlayback() {
     console.log("initializePlayback()");
     if (gMissionTimeParamSent == 0) {
-        seekToTime(gDefaultStartElementId); //jump to default start time (usually 1 minute to launch)
+        repopulateUtterances(findClosestUtterance(gDefaultStartTimeId)); //jump to default start time (usually 1 minute to launch)
+        seekToTime(gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
-            var elementId = "timeid" + timeStrToTimeId(paramMissionTime);
-            seekToTime(elementId);
+            repopulateUtterances(findClosestUtterance(timeStrToTimeId(paramMissionTime)));
+            seekToTime(timeStrToTimeId(paramMissionTime));
         } else {
             console.log("Invalid t Parameter");
-            seekToTime(gDefaultStartElementId);
+            repopulateUtterances(findClosestUtterance(gDefaultStartTimeId));
+            seekToTime(gDefaultStartTimeId);
         }
     }
     clearInterval(gApplicationReadyIntervalID);
@@ -681,6 +873,11 @@ function setApplicationReadyPoller() {
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
+
+function padZeros(num, size) {
+    var s = num + "";
+    while (s.length < size) s = "0" + s;
+    return s;
 }
 
 function toggleFullscreen() {
@@ -692,7 +889,6 @@ function toggleFullscreen() {
     //scaleMissionImage();
     //redrawAll();
 }
-
 
 function secondsToTimeStr(totalSeconds) {
     var hours = Math.abs(parseInt(totalSeconds / 3600));
@@ -865,6 +1061,15 @@ jQuery(function ($) {
     //init tabs
     $(".mid-center").tabs();
 
+    //tab clicks
+    $("#tocTab").on("click", function() {
+        scrollTOCToTimeID(gLastTOCTimeId);
+    });
+
+    $("#commentaryTab").on("click", function() {
+        scrollCommentaryToTimeId(gLastCommentaryTimeId);
+    });
+
     // OUTER-LAYOUT
     $('body').layout({
         center__paneSelector:	".outer-center"
@@ -886,6 +1091,7 @@ jQuery(function ($) {
             center__paneSelector:	".mid-center"
             ,   north__paneSelector:    ".mid-north"
             ,   north__size:             "60%"
+            ,   center__size:            "40%"
             ,   north__togglerLength_open: 0
             ,   center__togglerLength_open: 0
             ,	spacing_open:			0  // ALL panes
@@ -901,13 +1107,13 @@ jQuery(function ($) {
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
     var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
-    var stateStr = state ? 'FullscreenOn' : 'FullscreenOff';
+    var stateStr = state ? 'FullScreenOn' : 'FullScreenOff';
 
     // Now do something interesting
     console.log("non-button fullscreen change state: " + stateStr);
 
     var fullScreenBtn = $('#fullScreenBtn');
-    if (stateStr == "FullscreenOn") {
+    if (stateStr == "FullScreenOn") {
         fullScreenBtn.attr("value", "Exit Full Screen");
     } else {
         fullScreenBtn.attr("value", "Full Screen");
@@ -931,6 +1137,19 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 //on document ready
 $(document).ready(function() {
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+
+    $("#utteranceDiv").scroll($.throttle(function() {
+        var utteranceDiv = $("#utteranceDiv");
+        //console.log("scrolltop:" + utteranceDiv.scrollTop() + " bottom scroll:" + (utteranceDiv.scrollTop() + utteranceDiv.innerHeight()) + ":" + (parseInt(utteranceDiv[0].scrollHeight) - 300));
+        if(utteranceDiv.scrollTop() < 300) {
+            console.log("top of utteranceDiv reached");
+            prependUtterances(50, true);
+        } else if(utteranceDiv.scrollTop() + utteranceDiv.innerHeight() >= parseInt(utteranceDiv[0].scrollHeight) - 300) {
+            console.log("bottom of utteranceDiv reached");
+            appendUtterances(50, true);
+        }
+
+    }, 50));
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
@@ -1011,3 +1230,5 @@ $(document).ready(function() {
     //    }
     //});
 });
+
+// </editor-fold>
