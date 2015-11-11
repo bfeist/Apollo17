@@ -566,6 +566,7 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         if ($("#tabs-left").tabs('option', 'active') != 0) {
             $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
         }
+        gLastHighlightedTranscriptElement = highlightedTranscriptElement;
     }
 }
 
@@ -615,7 +616,7 @@ function prependUtterances(count, atTop) {
 
 function appendUtterances(count, atBottom) {
     atBottom = atBottom || false;
-    console.log("appendUtterances:" + count);
+    //console.log("appendUtterances:" + count);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
     var htmlToAppend = "";
@@ -636,9 +637,9 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    console.log("appended from" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    console.log("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    console.log("appended to" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    console.log("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
 }
 
 function trimUtterances() {
@@ -707,8 +708,8 @@ function populatePhotoGallery() {
         }
         html = html.replace(/@photoTypePath/g , photoTypePath);
         html = html.replace(/@filename/g ,filename);
-        html = html.replace(/@timestamp/g , timeIdToTimeStr( photoObject[0]));
-        var timeid = "timeid" + photoObject[0].split(":").join("");
+        html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
+        var timeid = photoObject[0];
         html = html.replace(/@timeid/g , timeid);
 
         //listView.append(html);
@@ -1138,14 +1139,15 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 $(document).ready(function() {
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
 
+    //throttled scroll detection on utteranceDiv
     $("#utteranceDiv").scroll($.throttle(function() {
         var utteranceDiv = $("#utteranceDiv");
         //console.log("scrolltop:" + utteranceDiv.scrollTop() + " bottom scroll:" + (utteranceDiv.scrollTop() + utteranceDiv.innerHeight()) + ":" + (parseInt(utteranceDiv[0].scrollHeight) - 300));
         if(utteranceDiv.scrollTop() < 300) {
-            console.log("top of utteranceDiv reached");
+            //console.log("top of utteranceDiv reached");
             prependUtterances(50, true);
         } else if(utteranceDiv.scrollTop() + utteranceDiv.innerHeight() >= parseInt(utteranceDiv[0].scrollHeight) - 300) {
-            console.log("bottom of utteranceDiv reached");
+            //console.log("bottom of utteranceDiv reached");
             appendUtterances(50, true);
         }
 
