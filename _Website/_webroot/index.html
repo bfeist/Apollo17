@@ -30,10 +30,13 @@
     <meta name="robots" content="index,follow" />
 
     <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
-    <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" /> -->
+
     <link rel="stylesheet" type="text/css" href="lib/share.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
@@ -47,12 +50,12 @@
         ga('send', 'pageview');
     </script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="lib/jquery.isloading.js"></script>
+    // <script type="text/javascript" src="lib/jquery.isloading.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
-    <script type="text/javascript" src="lib/jquery-ui.js"></script>
+    // <script type="text/javascript" src="lib/jquery-ui.js"></script>
     <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
-    <script type="text/javascript" src="lib/jquery.simplemodal.js"></script>
+    // <script type="text/javascript" src="lib/jquery.simplemodal.js"></script>
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
     <script type="text/javascript" src='lib/jquery.browser.js'></script>
     <script type="text/javascript" src="lib/paper-full.js"></script>
@@ -61,24 +64,30 @@
     <script type="text/javascript" src="lib/readable-range.js"></script>
     <script type="text/javascript" src='lib/share.js'></script>
 
+    <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
+    <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
+
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 </head>
 <body>
-    
-  <?php include 'inc/app.html'; ?>
 
-  <?php include 'inc/splash.html'; ?>
+  <?php include "inc/app.html"; ?>
+
+  <?php include "inc/splash.html"; ?>
 
 </body>
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer">
-            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
+        <div class="imageContainer" style="background-image: url('http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename')">
+
+            <img src="img/placeholder-square.png">
+
+            <!--<a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
                 <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename">
-            </a>
+            </a>-->
             <div id="imageOverlay">
                 <div class="photodivcaption">@description</div>
                 <table class="photoTable">
@@ -95,6 +104,7 @@
                     </tr>
                 </table>
             </div>
+
         </div>
     </div>
 </script>
@@ -108,7 +118,7 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="gallery@timeid">
+    <div class="galleryItemContainer" id="gallerytimeid@timeid">
         <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
