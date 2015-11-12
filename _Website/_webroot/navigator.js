@@ -388,14 +388,12 @@ function drawTier1() {
             tempGroup.addChild(aLine);
         }
     }
-    //if ($.browser.webkit) {
-        // firefox dies on raster
+    if (tempGroup.children.length > 0) {
         var t1PhotoTicksRaster = tempGroup.rasterize();
-        tempGroup.remove();
         gTier1Group.addChild(t1PhotoTicksRaster);
-    //} else {
-    //    gTier1Group.addChild(tempGroup);
-    //}
+    }
+    tempGroup.remove();
+
 
     //display time ticks
     tempGroup = new paper.Group;
@@ -411,14 +409,11 @@ function drawTier1() {
         aLine.strokeColor = gColorTimeTicks;
         tempGroup.addChild(aLine);
     }
-    //if ($.browser.webkit) {
-        // firefox dies on raster
+    if (tempGroup.children.length > 0) {
         var t1TimeTicksRaster = tempGroup.rasterize();
-        tempGroup.remove();
         gTier1Group.addChild(t1TimeTicksRaster);
-    //} else {
-    //    gTier1Group.addChild(tempGroup);
-    //}
+    }
+    tempGroup.remove();
 }
 
 function drawTier1NavBox(seconds) {
@@ -590,14 +585,11 @@ function drawTier2() {
             }
         }
     }
-    //if ($.browser.webkit) {
-        // firefox dies on raster
+    if (tempGroup.children.length > 0) {
         var t2PhotoTicksRaster = tempGroup.rasterize();
-        tempGroup.remove();
         gTier2Group.addChild(t2PhotoTicksRaster);
-    //} else {
-    //    gTier2Group.addChild(tempGroup);
-    //}
+    }
+    tempGroup.remove();
 
     //display time ticks
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
@@ -808,7 +800,7 @@ function drawTier3() {
             if (itemSecondsFromLeft >= 0  && itemSecondsFromLeft <= secondsOnTier3) {
                 itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
                 barHeight = gTier3Height / gHeightPhotoTickDenominator;
-                barTop = tierBottom - barHeight;
+                var barTop = tierBottom - barHeight;
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
@@ -817,14 +809,11 @@ function drawTier3() {
             }
         }
     }
-    //if ($.browser.webkit) {
-        // firefox dies on raster
+    if (tempGroup.children.length > 0) {
         var t3PhotoTicksRaster = tempGroup.rasterize();
-        tempGroup.remove();
         gTier3Group.addChild(t3PhotoTicksRaster);
-    //} else {
-    //    gTier3Group.addChild(tempGroup);
-    //}
+    }
+    tempGroup.remove();
 
     //display utterance ticks
     tempGroup = new paper.Group;
@@ -844,14 +833,11 @@ function drawTier3() {
             }
         }
     }
-    //if ($.browser.webkit) {
-        // firefox dies on raster
+    if (tempGroup.children.length > 0) {
         var t3UtteranceTicksRaster = tempGroup.rasterize();
-        tempGroup.remove();
         gTier3Group.addChild(t3UtteranceTicksRaster);
-    //} else {
-    //    gTier3Group.addChild(tempGroup);
-    //}
+    }
+    tempGroup.remove();
 
     //display TOC ticks and text
     //display TOC ticks at varying heights

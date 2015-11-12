@@ -88,7 +88,7 @@ function onPlayerReady(event) {
 // The API calls this function when the player's state changes.
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
-    console.log("onPlayerStateChange():state: " + event.data);
+    //console.log("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
         console.log("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
@@ -233,7 +233,7 @@ function setApplicationReadyPoller() {
 
 // <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
-    console.log("findClosestUtterance():" + secondsSearch);
+    //console.log("findClosestUtterance():" + secondsSearch);
     var found = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -252,7 +252,7 @@ function findClosestUtterance(secondsSearch) {
 }
 
 function scrollToClosestTOC(secondsSearch) {
-    console.log("findClosestTOC():" + secondsSearch);
+    //console.log("findClosestTOC():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -267,12 +267,12 @@ function scrollToClosestTOC(secondsSearch) {
             break;
         }
     }
-    console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
+    //console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
     scrollTOCToTimeID(scrollTimeId);
 }
 
 function scrollToClosestCommentary(secondsSearch) {
-    console.log("findClosestCommentary():" + secondsSearch);
+    //console.log("findClosestCommentary():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -287,7 +287,7 @@ function scrollToClosestCommentary(secondsSearch) {
             break;
         }
     }
-    console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    //console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
     scrollCommentaryToTimeId(scrollTimeId);
 }
 
@@ -637,9 +637,9 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    console.log("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    console.log("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
 }
 
 function trimUtterances() {
@@ -750,16 +750,16 @@ function showCurrentPhoto(timeId) {
 
         var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
-            console.log('Finished animating gallery: ' + scrollDest);
+            //console.log('Finished animating gallery: ' + scrollDest);
         });
     }
 }
 
 function loadPhotoHtml(photoIndex) {
+    //console.log('loadPhotoHtml():' + photoIndex);
     if (typeof photoIndex == "undefined") {
         console.log('**invalid photo call');
     }
-    console.log('loadPhotoHtml():' + photoIndex);
     var photoDiv = $("#photodiv");
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
