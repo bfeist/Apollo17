@@ -1,6 +1,6 @@
 -024000|KSC-72P-468.jpg|KSC-72P-468||||Prelaunch|
 -011500|S72-54881.jpg|S72-54881||||Gene Kranz briefing Neil Hutchinson and Gerald Griffin at Mission Contol during Apollo 17 launch delay|
--0010000|KSC-72PC-589.jpg|KSC-72PC-589|||J.L. Pickering|A dramatic photo of the Apollo 17 Saturn V on pad 39-A at dusk|
+-010000|KSC-72PC-589.jpg|KSC-72PC-589|||J.L. Pickering|A dramatic photo of the Apollo 17 Saturn V on pad 39-A at dusk|
 -004000|72-H-1454.jpg|72-H-1454||||Saturn V on the pad|
 -000055|prelaunch_21251698486_a6c893d505_o.jpg|prelaunch_21251698486_a6c893d505_o||||Prelaunch|
 -000005|72-H-1515.jpg|72-H-1515||||Apollo 17 Launch|
@@ -427,9 +427,9 @@
 1215947|136-20735.jpg|20735|H|136|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 1|
 1220007|136-20736.jpg|20736|H|136|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 1|
 1220127|136-20737.jpg|20737|H|136|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 1|
-1220337|134-20393.jpg|20393|B|134|Gene Cernan|LRV traverse / Station SEP to Station 1|
+1220330|134-20393.jpg|20393|B|134|Gene Cernan|LRV traverse / Station SEP to Station 1|
 1220337|136-20738.jpg|20738|H|136|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 1|
-1221018|134-20394.jpg|20394|B|134|Gene Cernan|Station 1 boulder prior to sampling|
+1221014|134-20394.jpg|20394|B|134|Gene Cernan|Station 1 boulder prior to sampling|
 1221018|136-20739.jpg|20739|H|136|Jack Schmitt|STA 1 / samples|
 1221022|136-20740.jpg|20740|H|136|Jack Schmitt|STA 1, SPL 1030, 35-37, 1040, 1055, 1060|
 1221756|136-20741.jpg|20741|H|136|Jack Schmitt|STA 1 / samples|
@@ -439,7 +439,7 @@
 1222328|134-20403.jpg|20403|B|134|Gene Cernan|Station 1 closeup with tongs for focus / scale|
 1222333|134-20404.jpg|20404|B|134|Gene Cernan|STA 1, SPL 1135-36, 1155-56, 1175|
 1222531|134-20405.jpg|20405|B|134|Gene Cernan|STA 1, SPL 1500, 1535-606|
-1222531|136-20742.jpg|20742|H|136|Jack Schmitt|STA 1, SPL 1500, 1535-606, SEIS CHRG 6|
+1222533|136-20742.jpg|20742|H|136|Jack Schmitt|STA 1, SPL 1500, 1535-606, SEIS CHRG 6|
 1222536|134-20406.jpg|20406|B|134|Gene Cernan|STA 1, SPL 1500, 1535-606|
 1222541|134-20407.jpg|20407|B|134|Gene Cernan|STA 1, SPL 1500, 1535-606|
 1222601|136-20743.jpg|20743|H|136|Jack Schmitt|STA 1 / samples / seismic charge 6|
@@ -904,7 +904,7 @@
 1420719|135-20648.jpg|20648|G|135|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 2|
 1420917|137-20898.jpg|20898|C|137|Gene Cernan|LRV TRAVERSE, STA SEP TO STA 2|
 1421234|135-20649.jpg|20649|G|135|Jack Schmitt|LRV TRAVERSE, SPL 2150, 55, 2160|
-1421234|137-20899.jpg|20899|C|137|Gene Cernan|LRV TRAVERSE, STA SEP TO STA 2|
+1421244|137-20899.jpg|20899|C|137|Gene Cernan|LRV TRAVERSE, STA SEP TO STA 2|
 1421500|135-20650.jpg|20650|G|135|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 2|
 1421510|135-20651.jpg|20651|G|135|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 2|
 1421520|135-20652.jpg|20652|G|135|Jack Schmitt|LRV TRAVERSE, STA SEP TO STA 2|
@@ -934,9 +934,9 @@
 1425040|135-20676.jpg|20676|G|135|Jack Schmitt|STA 2, LRV SEAT|
 1425044|135-20677.jpg|20677|G|135|Jack Schmitt|STA 2, LRV SEATS|
 1425048|135-20678.jpg|20678|G|135|Jack Schmitt|STA 2, LRV FLOOR|
-1425453|137-20900.jpg|20900|C|137|Gene Cernan|Station 2 samples|
+1425450|137-20900.jpg|20900|C|137|Gene Cernan|Station 2 samples|
 1425453|138-21029.jpg|21029|I|138|Jack Schmitt|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|
-1425455|137-20901.jpg|20901|C|137|Gene Cernan|Station 2 samples|
+1425457|137-20901.jpg|20901|C|137|Gene Cernan|Station 2 samples|
 1430141|137-20902.jpg|20902|C|137|Gene Cernan|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|
 1430142|137-20903.jpg|20903|C|137|Gene Cernan|STA 2. SPL 2215, 20, 35, 40, 55, 60, 75|
 1430143|137-20904.jpg|20904|C|137|Gene Cernan|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|
@@ -1015,7 +1015,7 @@
 1432328|137-20960.jpg|20960|C|137|Gene Cernan|Boulder at Station 2 and Earth above|
 1432330|137-20961.jpg|20961|C|137|Gene Cernan|STA 2, SPL 2315, BOULDER, EARTH|
 1432720|137-20962.jpg|20962|C|137|Gene Cernan|STA 2, SPL 2500, 2535-57|
-1432835|137-20963.jpg|20963|C|137|Gene Cernan|Station 2 samples|
+1432830|137-20963.jpg|20963|C|137|Gene Cernan|Station 2 samples|
 1432835|138-21047.jpg|21047|I|138|Jack Schmitt|Station 2. Boulder 3 down-Sun "before".|
 1432837|137-20964.jpg|20964|C|137|Gene Cernan|Station 2 samples|
 1432851|138-21048.jpg|21048|I|138|Jack Schmitt|Station 2. Boulder 3 "locator" showing the Rover and its inbound tracks, and an assortment of footprints.|
@@ -1036,7 +1036,7 @@
 1433719|138-21054.jpg|21054|I|138|Jack Schmitt|Station 2 pan. South Massif slope.|
 1433722|138-21055.jpg|21055|I|138|Jack Schmitt|Station 2 pan. Down-Sun. South Massif slope.|
 1433725|138-21056.jpg|21056|I|138|Jack Schmitt|Station 2 pan.|
-1433728|137-20974.jpg|20974|C|137|Gene Cernan|STA 2, SPL 2700, 2735-38|
+1433727|137-20974.jpg|20974|C|137|Gene Cernan|STA 2, SPL 2700, 2735-38|
 1433728|138-21057.jpg|21057|I|138|Jack Schmitt|Station 2 pan. Far end of Nansen.|
 1433730|137-20975.jpg|20975|C|137|Gene Cernan|STA 2, SPL 2700, 2735-38|
 1433732|138-21058.jpg|21058|I|138|Jack Schmitt|Station 2 pan. Nansen.|
@@ -1084,7 +1084,7 @@
 1435624|144-22017.jpg|22017|R|144|Gene Cernan|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22016.|
 1435627|144-22004.jpg|22004|R|144|Gene Cernan|Station 2a. 500-mm lens. South Massif, fogged.|
 1435632|144-22005.jpg|22005|R|144|Gene Cernan|Station 2a. 500-mm lens. South Massif, good one.|
-1435632|144-22018.jpg|22018|R|144|Gene Cernan|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22017.|
+1435634|144-22018.jpg|22018|R|144|Gene Cernan|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22017.|
 1435637|144-22006.jpg|22006|R|144|Gene Cernan|Station 2a. 500-mm lens. South Massif.|
 1435639|138-21094.jpg|21094|I|138|Jack Schmitt|LRV TRAVERSE, STA 2 TO STA 2A|
 1435640|144-22019.jpg|22019|R|144|Gene Cernan|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22018.|
@@ -1305,7 +1305,7 @@
 1452806|133-20250.jpg|20250|J|133|Jack Schmitt|STA 4, PAN, CDR, LRV|
 1452808|133-20251.jpg|20251|J|133|Jack Schmitt|STA 4, PAN, LRV|
 1452810|133-20252.jpg|20252|J|133|Jack Schmitt|STA 4, PAN, LRV|
-1452810|137-20985.jpg|20985|C|137|Gene Cernan|orange soil at Station 4|
+1452811|137-20985.jpg|20985|C|137|Gene Cernan|orange soil at Station 4|
 1452812|133-20253.jpg|20253|J|133|Jack Schmitt|STA 4, PAN|
 1452814|133-20254.jpg|20254|J|133|Jack Schmitt|STA 4, PAN|
 1452816|133-20255.jpg|20255|J|133|Jack Schmitt|STA 4, PAN|
@@ -2060,17 +2060,17 @@
 1662654|146-22353.jpg|22353|F|146|Gene Cernan|STA 7, PAN|
 1662656|146-22354.jpg|22354|F|146|Gene Cernan|STA 7, PAN|
 1662659|146-22355.jpg|22355|F|146|Gene Cernan|Station 7 pan frame|
+1662700|141-21665.jpg|21665|L|141|Jack Schmitt|Station 7, LRV floor.|
 1662701|146-22356.jpg|22356|F|146|Gene Cernan|STA 7, PAN|
 1662704|146-22357.jpg|22357|F|146|Gene Cernan|STA 7, PAN|
 1662706|146-22358.jpg|22358|F|146|Gene Cernan|STA 7, PAN|
 1662709|146-22359.jpg|22359|F|146|Gene Cernan|STA 7, PAN|
-1662711|141-21665.jpg|21665|L|141|Jack Schmitt|Station 7, LRV floor.|
-1662711|142-21670.jpg|21670|M|142|JSC scan|STA 7, LRV|
 1662711|146-22360.jpg|22360|F|146|Gene Cernan|STA 7, PAN|
+1662713|141-21666.jpg|21666|L|141|Jack Schmitt|Station 7, LRV floor.|
 1662714|146-22361.jpg|22361|F|146|Gene Cernan|STA 7, PAN|
-1662716|141-21666.jpg|21666|L|141|Jack Schmitt|Station 7, LRV floor.|
 1662716|146-22362.jpg|22362|F|146|Gene Cernan|STA 7, PAN|
 1662719|146-22363.jpg|22363|F|146|Gene Cernan|STA 7, PAN|
+1662721|142-21670.jpg|21670|M|142|JSC scan|STA 7, LRV|
 1663030|142-21671.jpg|21671|M|142|Jack Schmitt|LRV traverse from Station 7 to 8.|
 1663130|142-21672.jpg|21672|M|142|Jack Schmitt|LRV traverse from Station 7 to 8.|
 1663327|142-21674.jpg|21674|M|142|Jack Schmitt|LRV traverse from Station 7 to 8. These boulders are the "big mamoos" noted by Gene in the dialog.|
@@ -2494,7 +2494,7 @@
 1693349|134-20471.jpg|20471|B|134|Gene Cernan|closeup of Jack Schmitt at Rover with Earth above|
 1693419|134-20472.jpg|20472|B|134|Gene Cernan|Schmitt at the Rover|
 1693917|134-20473.jpg|20473|B|134|Jack Schmitt|STA LM, CDR, LRV, EARTH|
-1693917|134-20475.jpg|20475|B|134|Jack Schmitt|Cernan at the Rover|
+1693927|134-20475.jpg|20475|B|134|Jack Schmitt|Cernan at the Rover|
 1693937|134-20476.jpg|20476|B|134|Jack Schmitt|STA LM, CDR, LRV|
 1693946|134-20474.jpg|20474|B|134|Jack Schmitt|STA LM, CDR, LRV|
 1694000|134-20477.jpg|20477|B|134|Jack Schmitt|Cernan at the Rover|
