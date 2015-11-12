@@ -199,8 +199,8 @@ skip|20193|133|J|||||||||||BLANK|Jack Schmitt|
 121:56:27|20390|134|B|SO-368|||||||60|16|EVA 1|LRV traverse / Station SEP to Station 1 - Bear Mountain|Gene Cernan|
 121:56:47|20391|134|B|SO-368|||||||60|16|EVA 1|LRV traverse / Station SEP to Station 1|Gene Cernan|
 121:56:57|20392|134|B|SO-368|||||||60|16|EVA 1|LRV TRAVERSE, STA SEP TO STA 1|Gene Cernan|
-122:03:37|20393|134|B|SO-368|||||||60|16|EVA 1|LRV traverse / Station SEP to Station 1|Gene Cernan|
-122:10:18|20394|134|B|SO-368|||||||60|16|EVA 1|Station 1 boulder prior to sampling|Gene Cernan|
+122:03:30|20393|134|B|SO-368|||||||60|16|EVA 1|LRV traverse / Station SEP to Station 1|Gene Cernan|
+122:10:14|20394|134|B|SO-368|||||||60|16|EVA 1|Station 1 boulder prior to sampling|Gene Cernan|
 121:10:23|20395|134|B|SO-368|||||||60|16|EVA 1|Station 1 boulder prior to sampling|Gene Cernan|
 121:16:54|20396|134|B|SO-368|||||||60|16|EVA 1|Station 1 boulder after sampling|Gene Cernan|
 121:17:56|20397|134|B|SO-368|||||||60|16|EVA 1|STA 1, SPL 1135-36, 1155-56, 1175|Gene Cernan|
@@ -281,7 +281,7 @@ skip|20451|134|B|SO-368||||||||||BLANK|Gene Cernan|
 169:34:19|20472|134|B|SO-368|||||||60|38|EVA 3|Schmitt at the Rover|Gene Cernan|
 169:39:17|20473|134|B|SO-368|||||||60|38|EVA 3|STA LM, CDR, LRV, EARTH|Jack Schmitt|
 169:39:46|20474|134|B|SO-368|||||||60|38|EVA 3|STA LM, CDR, LRV|Jack Schmitt|
-169:39:17|20475|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|
+169:39:27|20475|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|
 169:39:37|20476|134|B|SO-368|||||||60|38|EVA 3|STA LM, CDR, LRV|Jack Schmitt|
 169:40:00|20477|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|13-Dec-72
 169:40:10|20478|134|B|SO-368|||||||60|38|EVA 3|Cernan at the Rover|Jack Schmitt|
@@ -548,7 +548,7 @@ skip|20681|135|G|||||||||||BLANK|Jack Schmitt|
 122:10:18|20739|136|H|3401|||||||60|16|EVA 1|STA 1 / samples|Jack Schmitt|
 122:10:22|20740|136|H|3401|||||||60|16|EVA 1|STA 1, SPL 1030, 35-37, 1040, 1055, 1060|Jack Schmitt|
 122:17:56|20741|136|H|3401|||||||60|16|EVA 1|STA 1 / samples|Jack Schmitt|
-122:25:31|20742|136|H|3401|||||||60|16|EVA 1|STA 1, SPL 1500, 1535-606, SEIS CHRG 6|Jack Schmitt|
+122:25:33|20742|136|H|3401|||||||60|16|EVA 1|STA 1, SPL 1500, 1535-606, SEIS CHRG 6|Jack Schmitt|
 122:26:01|20743|136|H|3401|||||||60|16|EVA 1|STA 1 / samples / seismic charge 6|Jack Schmitt|
 122:32:50|20744|136|H|3401|||||||60|16|EVA 1|STA 1, PAN|Jack Schmitt|
 122:32:53|20745|136|H|3401|||||||60|16|EVA 1|STA 1, PAN|Jack Schmitt|
@@ -705,9 +705,9 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 142:02:44|20896|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2, SPL 2140|Gene Cernan|
 142:06:01|20897|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, SPL 2140, 55|Gene Cernan|
 142:09:17|20898|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|Gene Cernan|
-142:12:34|20899|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|Gene Cernan|
-142:54:53|20900|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
-142:54:55|20901|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
+142:12:44|20899|137|C|SO-368|||||||60|26|EVA 2|LRV TRAVERSE, STA SEP TO STA 2|Gene Cernan|
+142:54:50|20900|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
+142:54:57|20901|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
 143:01:41|20902|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Gene Cernan|
 143:01:42|20903|137|C|SO-368|||||||60|26|EVA 2|STA 2. SPL 2215, 20, 35, 40, 55, 60, 75|Gene Cernan|
 143:01:43|20904|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2215, 20, 35, 40, 55, 60, 75|Gene Cernan|
@@ -769,7 +769,7 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 143:23:28|20960|137|C|SO-368|||||||60|26|EVA 2|Boulder at Station 2 and Earth above|Gene Cernan|
 143:23:30|20961|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2315, BOULDER, EARTH|Gene Cernan|
 143:27:20|20962|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2500, 2535-57|Gene Cernan|
-143:28:35|20963|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
+143:28:30|20963|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
 143:28:37|20964|137|C|SO-368|||||||60|26|EVA 2|Station 2 samples|Gene Cernan|
 143:32:05|20965|137|C|SO-368|||||||60|26|EVA 2|Station 2 sample|Gene Cernan|
 143:32:07|20966|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Gene Cernan|
@@ -780,7 +780,7 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 143:32:19|20971|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Gene Cernan|
 143:32:22|20972|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-35, 40, 60, TONGS|Gene Cernan|
 143:32:24|20973|137|C|SO-368|||||||60|26|EVA 2|STA 2, SPL 2415, 2435-36, 40, 60, TONGS|Gene Cernan|
-143:37:28|20974|137|C|SO-358|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Gene Cernan|
+143:37:27|20974|137|C|SO-358|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Gene Cernan|
 143:37:30|20975|137|C|SO-368|||||||60|27|EVA 2|STA 2, SPL 2700, 2735-38|Gene Cernan|
 143:39:30|20976|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|Gene Cernan|
 143:39:32|20977|137|C|SO-368|||||||60|27|EVA 2|LRV in distance|Gene Cernan|
@@ -791,7 +791,7 @@ skip|20865|136|H|3401||||||||||BLANK|Jack Schmitt|
 144:49:05|20982|137|C|SO-368|||||||60|27|EVA 2|drive tube at Station 3 / LRV tracks|Gene Cernan|
 145:11:06|20983|137|C|SO-368|||||||60|27|EVA 2|LRV TRAVERSE, STA 3 TO STA 4, SPL 411|Gene Cernan|
 145:27:21|20984|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Gene Cernan|
-145:28:10|20985|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Gene Cernan|
+145:28:11|20985|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Gene Cernan|
 145:29:00|20986|137|C|SO-368|||||||60|27|EVA 2|orange soil at Station 4|Gene Cernan|
 145:29:50|20987|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|Gene Cernan|
 145:30:40|20988|137|C|SO-368|||||||60|27|EVA 2|STA 4, SPL 4220, 4240, 4260|Gene Cernan|
@@ -1471,12 +1471,12 @@ skip|21351|140|E|||||||||||BLANK|JSC scan|
 166:12:19|21662|141|L|3401|||||||60|37|EVA 3|Station 7 pan.|Jack Schmitt|
 166:12:27|21663|141|L|3401|||||||60|37|EVA 3|Station 7 pan.|Jack Schmitt|
 166:12:35|21664|141|L|3401|||||||60|37|EVA 3|Station 7 pan.|Jack Schmitt|
-166:27:11|21665|141|L|3401|||||||60|37|EVA 3|Station 7, LRV floor.|Jack Schmitt|
-166:27:16|21666|141|L|3401|||||||60|37|EVA 3|Station 7, LRV floor.|Jack Schmitt|
+166:27:00|21665|141|L|3401|||||||60|37|EVA 3|Station 7, LRV floor.|Jack Schmitt|
+166:27:13|21666|141|L|3401|||||||60|37|EVA 3|Station 7, LRV floor.|Jack Schmitt|
 skip|21667|141|L|3401|||||||60|37|EVA 3|STA 7, LRV, OVEREXPOSED|Jack Schmitt|
 skip|21668|141|L|3401|||||||60|37|EVA 3|BLANK|Jack Schmitt|
 skip|21669|142|M|3401|||||||60|37|EVA 3|STA 7, LRV, OVEREXPOSED|JSC scan|
-166:27:11|21670|142|M|3401|||||||60|37|EVA 3|STA 7, LRV|JSC scan|
+166:27:21|21670|142|M|3401|||||||60|37|EVA 3|STA 7, LRV|JSC scan|
 166:30:30|21671|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
 166:31:30|21672|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
 166:33:30|21673|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
@@ -1824,7 +1824,7 @@ skip|22002|144|R|3401||||||||||BLANK|Gene Cernan|
 143:57:22|22015|144|R|3401|||||||500|27|EVA 2|Station 2a. 500-mm lens. South Massif.|Gene Cernan|
 143:56:17|22016|144|R|3401|||||||500|27|EVA 2|Station 2a. The is the first in a series of 500-mm frames in a portrait of the western portion of the North Massif.|Gene Cernan|
 143:56:24|22017|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22016.|Gene Cernan|
-143:56:32|22018|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22017.|Gene Cernan|
+143:56:34|22018|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22017.|Gene Cernan|
 143:56:40|22019|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Rightward from 22018.|Gene Cernan|
 143:56:48|22020|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Similar to 22017 but aimed somewhat lower.|Gene Cernan|
 143:56:56|22021|144|R|3401|||||||500|27|EVA 2|500mm frame of the western portion of the North Massif from Station 2a. Similar to 22016 but without any blurring from camera motion.|Gene Cernan|
@@ -4082,12 +4082,13 @@ skip|23406|152|PP|SO-368||||||||||BLANK|JSC scan|
 |AP17-ELLINGTON3|||||||||||||Apollo 17 crew at Ellington AFB|J.L. Pickering|21-Dec-72
 |AP17-ELLINGTON5|||||||||||||Apollo 17 crew at Ellington Air Force Base|J.L. Pickering|21-Dec-72
 |AP17-KSC-NOID|||||||||||||Apollo 17 crew posing with center Director Kurt Debus at a luncheon during the crew's return to KSC|J.L. Pickering|20-Feb-73
-|AP17-LIFTOFF2-NOID|||||||||||||liftoff of Apollo 17|J.L. Pickering|
 |AP17-LIFTOFF-B-NOID|||||||||||||liftoff of Apollo 17|J.L. Pickering|
 |AP17-LIFTOFF-NOID|||||||||||||Apollo 17 liftoff viewed from launch tower||
-|AP17-ROLLOUT3-NOID|||||||||||||Apollo 17 rollout|J.L. Pickering|
+|AP17-LIFTOFF2-NOID|||||||||||||liftoff of Apollo 17|J.L. Pickering|
 |AP17-ROLLOUT-NOID|||||||||||||Apollo 17 rollout|J.L. Pickering|
+|AP17-ROLLOUT3-NOID|||||||||||||Apollo 17 rollout|J.L. Pickering|
 |AP17-SIVB-NOID|||||||||||||Apollo 17 S-IVB stage being hoisted in VAB|J.L. Pickering|
+305:35:24|END-RECORD|||||||||||||||
 |ENDOFANERA|||||||||||||"""Grumman artwork """"Apollo 17 - End of an Era"""""""|J.L. Pickering|
 |KSC-372C-351BW|||||||||||||Apollo 17 LM and CSM 114 docking test|J.L. Pickering|2-May-72
 |KSC-372C-448-10BW|||||||||||||crew poses on crawler during Apollo 17 rollout|J.L. Pickering|28-Aug-72
@@ -4184,9 +4185,9 @@ skip|23406|152|PP|SO-368||||||||||BLANK|JSC scan|
 |KSC-73PC-68|||||||||||||Gene Cernan signing autographs at VAB reception|J.L. Pickering|20-Feb-73
 |KSC-73PC-70|||||||||||||Gene Cernan hugs Guenter Wendt at a VAB reception|J.L. Pickering|20-Feb-73
 000:00:06|launch_14963763190_bf5c970e23_o|||||||||||||Liftoff||7-Dec-72
+000:00:08|liftoff-b-noID|||||||||||||Liftoff||7-Dec-72
 000:00:01|liftoff1-noID|||||||||||||Liftoff||7-Dec-72
 000:00:03|liftoff2-noID|||||||||||||Liftoff||7-Dec-72
-000:00:08|liftoff-b-noID|||||||||||||Liftoff||7-Dec-72
 -00:00:55|prelaunch_21251698486_a6c893d505_o|||||||||||||Prelaunch||7-Dec-72
 |S71-51273|||||||||||||portrait of Apollo 17 Command Module Pilot Ron Evans||1-Dec-71
 |S71-51308|||||||||||||portrait of Apollo 17 Commander Gene Cernan||1-Dec-71
@@ -4253,4 +4254,3 @@ skip|23406|152|PP|SO-368||||||||||BLANK|JSC scan|
 |S73-38346|||||||||||||Gene Cernan and Jack Schmitt present flight controllers in Mission Control with U.S. flag carried to the Moon during mission||11-Dec-72
 |S77-28884|||||||||||||"""Apollo 17 Command Module """"America"""" on display"""|J.L. Pickering|1977
 |S86-30759|||||||||||||Apollo 17 Command Module on display at JSC|J.L. Pickering|1986
-305:35:24|END-RECORD|||||||||||||||

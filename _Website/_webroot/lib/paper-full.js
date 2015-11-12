@@ -5019,8 +5019,13 @@ var Raster = Item.extend({
 		var element = this.getElement();
 		if (element) {
 			ctx.globalAlpha = this._opacity;
-			ctx.drawImage(element,
+			try {
+				ctx.drawImage(element,
 					-this._size.width / 2, -this._size.height / 2);
+			} catch (e) {
+				debugger;
+			}
+
 		}
 	},
 
