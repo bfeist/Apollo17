@@ -1,4 +1,5 @@
 console.log("INIT: Loading index.js");
+var gStopCache = true;
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
@@ -698,6 +699,7 @@ function populatePhotoGallery() {
     var photoGalleryDiv = $('#photoGallery');
     photoGalleryDiv.html('');
 
+    var cdnNum = 0;
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
@@ -708,6 +710,11 @@ function populatePhotoGallery() {
             photoTypePath = "supporting";
             filename = photoObject[1];
         }
+        cdnNum++;
+        cdnNum = cdnNum > 5 ? 1 : cdnNum;
+        var cdnUrl = "http://cdn" + cdnNum + ".apollo17.org";
+
+        html = html.replace(/@cdnurl/g , cdnUrl);
         html = html.replace(/@photoTypePath/g , photoTypePath);
         html = html.replace(/@filename/g ,filename);
         html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
