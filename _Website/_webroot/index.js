@@ -1145,7 +1145,7 @@ $(document).ready(function() {
         },
         networks: {
             google_plus: {
-                enabled: "false",
+                enabled: false,
                 before: function(element) {
                     this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
                 },
@@ -1180,7 +1180,7 @@ $(document).ready(function() {
                 }
             },
             pinterest: {
-                enabled: "false",
+                enabled: false,
                 before: function(element) {
                     //this.url = element.getAttribute("data-url");
                     this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
