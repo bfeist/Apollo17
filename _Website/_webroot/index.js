@@ -1131,7 +1131,7 @@ $(document).ready(function() {
 
     utteranceDiv.delegate('.utterance', 'mouseenter', function() {
         var shareButtonSelector = $('.share-button');
-        var loctop = $(this).position().top + 20;
+        var loctop = $(this).position().top + 40;
         var locright = $(this).position().left + $(this).width() - 48;
         shareButtonSelector.css("display", "" );
         shareButtonSelector.css("z-index", 1000 );

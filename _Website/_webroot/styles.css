@@ -495,7 +495,7 @@ canvas[resize] {
 }
 
 .share-button {
-    position:relative;
+    position:absolute;
     /*display: none;*/
 }
 
