@@ -39,6 +39,8 @@ var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
 var gCurrentHighlightedUtteranceIndex;
 
+var gHoveredUtteranceArray; //share button
+
 //var background_color = "#DEDDD1";
 //var background_color_active = "#B5B4A4";
 
@@ -1103,9 +1105,11 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
 //on document ready
 $(document).ready(function() {
     $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     //throttled scroll detection on utteranceDiv
-    $("#utteranceDiv").scroll($.throttle(function() {
+    var utteranceDiv = $("#utteranceDiv");
+    utteranceDiv.scroll($.throttle(function() {
         var utteranceDiv = $("#utteranceDiv");
         //console.log("scrolltop:" + utteranceDiv.scrollTop() + " bottom scroll:" + (utteranceDiv.scrollTop() + utteranceDiv.innerHeight()) + ":" + (parseInt(utteranceDiv[0].scrollHeight) - 300));
         if(utteranceDiv.scrollTop() < 300) {
@@ -1118,84 +1122,90 @@ $(document).ready(function() {
 
     }, 50));
 
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
+    utteranceDiv.delegate('.utterance', 'mouseenter', function() {
+        var shareButtonSelector = $('.share-button');
+        var loctop = $(this).position().top + 20;
+        var locright = $(this).position().left + $(this).width() - 48;
+        shareButtonSelector.css("display", "" );
+        shareButtonSelector.css("z-index", 1000 );
+        shareButtonSelector.animate({top: loctop, left: locright}, 0);
+        var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
+        hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
+        gHoveredUtteranceArray = hoveredUtteranceText.split("|");
+    });
 
-    //$('.utterancetable').delegate('.utterance', 'mouseenter', function() {
-    //    var loctop = $(this).position().top;
-    //    var locright = $(this).position().left + $(this).width() - 28;
-    //    $('.share-button').animate({top: loctop, left: locright}, 0);
-    //    var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
-    //    hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
-    //    gHoveredUtteranceArray = hoveredUtteranceText.split("|");
-    //});
-    //
-    //new Share(".share-button", {
-    //    ui: {
-    //        flyout: "middle left",
-    //        button_text: ""
-    //    },
-    //    networks: {
-    //        google_plus: {
-    //            enabled: "false",
-    //            before: function(element) {
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared google plus: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'google plus');
-    //            }
-    //        },
-    //        facebook: {
-    //            app_id: "1639595472942714",
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared facebook: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'facebook');
-    //            }
-    //        },
-    //        twitter: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
-    //            },
-    //            after: function() {
-    //                console.log("User shared twitter: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'twitter');
-    //            }
-    //        },
-    //        pinterest: {
-    //            enabled: "false",
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared pinterest: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'pinterest');
-    //            }
-    //        },
-    //        email: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared email: ", this.title);
-    //                ga('send', 'event', 'share', 'click', 'email');
-    //            }
-    //        }
-    //    }
-    //});
+    $('#tabs-left-1').mouseleave(function() {
+        $('.share-button').css("display", "none" );
+    });
+
+    new Share(".share-button", {
+        ui: {
+            flyout: "middle left",
+            button_text: ""
+        },
+        networks: {
+            google_plus: {
+                enabled: "false",
+                before: function(element) {
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                },
+                after: function() {
+                    console.log("User shared google plus: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'google plus');
+                }
+            },
+            facebook: {
+                app_id: "1639595472942714",
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
+                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                },
+                after: function() {
+                    console.log("User shared facebook: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'facebook');
+                }
+            },
+            twitter: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
+                },
+                after: function() {
+                    console.log("User shared twitter: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'twitter');
+                }
+            },
+            pinterest: {
+                enabled: "false",
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
+                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                },
+                after: function() {
+                    console.log("User shared pinterest: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'pinterest');
+                }
+            },
+            email: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                },
+                after: function() {
+                    console.log("User shared email: ", this.title);
+                    ga('send', 'event', 'share', 'click', 'email');
+                }
+            }
+        }
+    });
+    $('.share-button').css("display", "none" );
 });
 
 // </editor-fold>

@@ -494,6 +494,11 @@ canvas[resize] {
     opacity:0.7;
 }
 
+.share-button {
+    position:relative;
+    /*display: none;*/
+}
+
 /* ----------------- LOADER -----------------*/
 
 .introButtons {
