@@ -7853,6 +7853,7 @@
 111:46:27|CC|Jack, have you gone through an OMNI? If you have, go LOW BIT RATE.
 111:46:45|Schmitt|Okay, We've got you on an OMNI and LOW BIT, RA -
 111:46:52|CC|Okay.
+111:48:04||BEGIN LUNAR REV 13
 111:48:04|PAO|This is Apollo Control, we've had loss of signal as America and Challenger coasting along near-by each other, passed behind the Moon on revolution number 12. Some 47 minutes until they come back around again, on the 13th lunar revolution. Behind the Moon this time, the command/service module, piloted by Ron Evans, will do CSM circularization maneuver which will place the spacecraft back up into an almost circular lunar orbit, measuring 69.7 by 54.5, those are the targeted measurements of that orbit. Ignition time, again which will be behind the Moon and out of contact is Ground Elapsed Time of 111:57:28. The lunar module DOI, or Descent Orbit Insertion burn number 2 also will be behind the Moon before we reacquire the spacecraft. That is scheduled for 112 hours 2 minutes 40 seconds. It's a fairly small burn 7.6 feet per second which will lower the pericynthion of the Challenger down to 6 1/2 miles - nautical miles with apocynthion staying at 61.5 nautical miles. During the next front side pass, comes the moment of truth with powered descent, and touchdown at Taurus-Littrow landing site as Challenger lights off the big descent engine at 112 hours 49 minutes, 52 seconds Ground Elapsed Time. The ignition countdown clock in the control center is counting down to PDI some 59 minutes 17 - 16 seconds until ignition with landing shortly under 12 minutes later, depending on the amount of hover time available. The broadcast line will be brought up again just prior to acquisition of signal as America and Challenger come around on the front side again on revolution 13, and at 111 hours 51 minutes, this is Apollo Control.
 112:33:34|PAO|This is Apollo Control at 112 hours 33 minutes Ground Elapsed Time in the mission of Apollo 17. Coming up on acquisition of signal of both spacecraft, America and Challenger, coming from behind the moon on the 13th lunar orbit. Some 1 minute 32 seconds away from acquisition of the command module and slightly under three minutes on the lunar module, Challenger. Challenger, during this revolution will descend to the surface of the moon and land at the Taurus-Littrow landing site. Ignition time currently is Ground Elapsed Time of 112 hours 49 minutes 52 seconds. During the descent to the surface the spacecraft onboard computer will be generating numbers on the display which the Lunar Module Pilot will call out to the commander and which - angles at which the commander should be able to see the landing site through a grid etched on the left hand window of the lunar module. Here, we have AOS. AOS of the command service module and the circulars - the circularization burn was good. This is Apollo Control on the air-ground 2 circuit. Command module pilot, Ron Evans, is giving the CAPCOM all of the residuals. Here comes Challenger. Back to the lunar landing sequence as the lunar module pilot reads out the angles that the commander ought to be able to see the landing site. The commander is able to run through an operation called redesignation by using a pitch hand controller to rotate the spacecraft.
 112:36:13|Schmitt|Hello, Houston. How do you read Challenger?
@@ -28190,7 +28191,7 @@
 216:08:07|Evans|Seven Bravo. It's 1 point - it's coming up just a little bit. Well, not much, 1 point - well, 1.25.
 216:08:24|Schmitt|Okay, Houston. Battery charge on B is terminated, and we got 1.25 on 7 Bravo.
 216:08:31|CC|Okay, thank you.
-216:08:40|Evans|Here's November November; it may have three or four pictures left. It's on l60. ... me set one up. Oh, we've got Papa Papa for opportunity, huh? Yes. I'll get it.
+216:08:40|Evans|Here's November November; it may have three or four pictures left. It's on 160. ... me set one up. Oh, we've got Papa Papa for opportunity, heh. Yes. I'll get it.
 216:09:28|Schmitt|Houston, are you ready for LASER ALTIMETER, ON?
 216:10:08|CC|Stand by.
 216:10:25|CC|America, we're seeing some higher than normal temperatures on fuel cell 1. We'd like you to go to panel 226 and check the FUEL CELL 1 PUMP circuit breaker and also the switch on panel 5. Over.
@@ -28889,7 +28890,7 @@
 233:42:48|Evans|Jack, are you talking about the one that's got the red ejecta out to the east? Yes. Right now. Just now looking down there, is that the one you were talking about? Okay. It's just now coming up. ... See. Okay, can you see D-Caldera? Okay.
 233:43:34|Evans|Okay, I'll get it. Yes.
 233:44:10|Evans|Let's see, we're almost at subsolar. Wait a minute, I don't know where we are. Right. We're way past subsolar. Yes, I think.
-233:44:57|Schmitt|Okay, Houston, on Papa Papa frames - let's see, 13 and l4 were of the crater with the red, brown to orange vein across it, and 15 and 16 were of D-Caldera, stereo pairs.
+233:44:57|Schmitt|Okay, Houston, on Papa Papa frames - let's see, 13 and 14 were of the crater with the red, brown to orange vein across it, and 15 and 16 were of D-Caldera, stereo pairs.
 233:45:30|Evans|See your dark slide, Jack.
 233:45:44|Schmitt|And, Houston, I saw at least two other examples of impact craters in the highlands south of Serenitatis and south of - of the Sulpicius area that had vein-like distribution of red-brown or orange material in them.
 233:46:10|CC|Roger.
@@ -29200,7 +29201,7 @@
 237:05:41|CC|- - if you can figure out a way to hold it a little steadier, that would help, but we're getting good resolution.
 237:05:49|Cernan|Okay, Gordo, I'm working on it. You'd think a guy that's been there for however many days we've been there could find it, don't you?
 237:06:00|Evans|When you see Tsiolkovsky south, the central peaks form an arrow that points south, Gordy.
-237:06:00|PAO|If you look closely at the northeast rim of Tsiolkovsky, you'll see a large landslide that Al Warden first described on Apollo 15. The crew now moving the camera apparently to a different window. Apollo 17 now at an altitude of 825 nautical miles.
+237:06:58|PAO|If you look closely at the northeast rim of Tsiolkovsky, you'll see a large landslide that Al Warden first described on Apollo 15. The crew now moving the camera apparently to a different window. Apollo 17 now at an altitude of 825 nautical miles.
 237:07:34|CC|America, Houston. Your altitude right now is 820 - 835 miles. Over.
 237:07:47|Cernan|Okay, 835 miles. And climbing out like a dingbat.
 237:08:01|PAO|North is now at the bottom of this picture.

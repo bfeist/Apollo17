@@ -247,7 +247,7 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    bottom: -200px;
+    bottom: -1000px;
     /*bottom: 0px;*/
     left: 0;
     width: 100%;

@@ -303,10 +303,11 @@ function historicalButtonClick() {
     gIntroInterval = null;
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
-    var closestUtteranceTimeid = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
+    //var closestUtteranceTimeid = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
+    //var closestUtteranceTimeid = timeIdToSeconds(nearestHistTimeId);
 
-    repopulateUtterances(closestUtteranceTimeid);
-    seekToTime(closestUtteranceTimeid);
+    repopulateUtterances(nearestHistTimeId);
+    seekToTime(nearestHistTimeId);
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -574,7 +575,7 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
 }
 
 function repopulateUtterances(timeId) {
-    var utteranceIndex = gUtteranceDataLookup[timeId];
+    var utteranceIndex = gUtteranceDataLookup[findClosestUtterance(timeIdToSeconds(timeId))];
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
@@ -599,7 +600,7 @@ function prependUtterances(count, atTop) {
     var startIndex = gUtteranceDisplayStartIndex - count;
     for (var i = startIndex; i < startIndex + count - 1; i++) {
         if (i >= 0) {
-            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i, ""));
+            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i));
             prependedCount ++;
         }
     }
@@ -628,7 +629,7 @@ function appendUtterances(count, atBottom) {
     for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0 && i < gUtteranceData.length) {
             //console.log("Appended: " + gUtteranceData[i][0]);
-            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
+            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i));
             appendedCount ++;
         }
     }
@@ -817,30 +818,34 @@ function loadPhotoHtml(photoIndex) {
 function scaleMissionImage() {
     //console.log('scaleMissionImage()');
     var photodiv = $('#photodiv');
-    var image = $('#imageContainerImage');
+    var imageContainerImage = $('#imageContainerImage');
 
     var maxWidth = photodiv.width(); // Max width for the image
     var maxHeight = photodiv.height();    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
 
-    var width = image.get(0).naturalWidth; // Full image width
-    var height =image.get(0).naturalHeight; // Full image height
+    var width = imageContainerImage.get(0).naturalWidth; // Full image width
+    var height = imageContainerImage.get(0).naturalHeight; // Full image height
 
     // Check if the current width is larger than the max7
     if(width > maxWidth){
         ratio = maxWidth / width;   // get ratio for scaling image
-        image.css("width", maxWidth); // Set new width
-        image.css("height", height * ratio);  // Scale height based on ratio
+        imageContainerImage.css("width", maxWidth); // Set new width
+        imageContainerImage.css("height", height * ratio);  // Scale height based on ratio
 
         height = height * ratio;    // Reset height to match scaled image
         width = width * ratio;    // Reset width to match scaled image
+    } else if (width <= maxWidth) {
+        ratio = width / maxWidth;   // get ratio for scaling image
+        imageContainerImage.css("width", width); // Set new width
+        imageContainerImage.css("height", height * ratio);  // Scale height based on ratio
     }
 
     // Check if current or newly width-scaled height is larger than max
     if(height > maxHeight){
         ratio = maxHeight / height; // get ratio for scaling image
-        image.css("height", maxHeight);   // Set new height
-        image.css("width", width * ratio);    // Scale width based on ratio
+        imageContainerImage.css("height", maxHeight);   // Set new height
+        imageContainerImage.css("width", width * ratio);    // Scale width based on ratio
     }
 }
 
