@@ -25,7 +25,7 @@ var gPhotoIndex = [];
 var gPhotoLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
-var gCurrentPhotoTimestamp = "initial";
+var gCurrentPhotoTimeid = "initial";
 var gCurrVideoStartSeconds = -9442; //countdown
 var gCurrVideoEndSeconds = 0;
 var gPlaybackState = "normal";
@@ -598,7 +598,7 @@ function prependUtterances(count, atTop) {
     var htmlToPrepend = "";
     var prependedCount = 0;
     var startIndex = gUtteranceDisplayStartIndex - count;
-    for (var i = startIndex; i < startIndex + count - 1; i++) {
+    for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0) {
             htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i));
             prependedCount ++;
@@ -735,7 +735,8 @@ function populatePhotoGallery() {
     console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
 
-function showCurrentPhoto(timeId) {
+function showCurrentPhoto(timeId, override) {
+    override = override || false;
     //console.log('showCurrentPhoto():' + timeId);
     //var closestTime = closest(timeStr, gPhotoIndex);
 
@@ -749,8 +750,8 @@ function showCurrentPhoto(timeId) {
             break;
         }
     }
-    if (currentClosestTime != gCurrentPhotoTimestamp) {
-        gCurrentPhotoTimestamp = currentClosestTime;
+    if (currentClosestTime != gCurrentPhotoTimeid || override) {
+        gCurrentPhotoTimeid = currentClosestTime;
         loadPhotoHtml(photoIndexNum);
 
         var photoGalleryDiv = $('#photoGallery');
@@ -1106,17 +1107,22 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
-    $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    var myCanvasElement = $('#myCanvas');
+    myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    myCanvasElement.css("width", $('.headerRight').width());
     //setTimeout(function(){
     //        populatePhotoGallery(); }
     //    ,1000);
-    scaleMissionImage();
+    //scaleMissionImage();
+    showCurrentPhoto(gCurrentPhotoTimeid, true);
     redrawAll();
 });
 
 //on document ready
 $(document).ready(function() {
-    $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    var myCanvasElement = $('#myCanvas');
+    myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    myCanvasElement.css("width", $('.headerRight').width());
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     //throttled scroll detection on utteranceDiv

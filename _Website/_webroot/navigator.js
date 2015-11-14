@@ -130,6 +130,11 @@ function initNavigator() {
             drawTier3();
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if in tier2
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
+            if (mouseXSeconds < gTier2StartSeconds) {
+                mouseXSeconds = gTier2StartSeconds;
+            } else if (mouseXSeconds > gTier2StartSeconds + (gTier2Width * gTier2SecondsPerPixel)) {
+                mouseXSeconds = gTier2StartSeconds + (gTier2Width * gTier2SecondsPerPixel);
+            }
             drawTier2NavBox(mouseXSeconds);
             drawTier3();
         } else if (event.point.y > gTier2Top + gTier2Height + gTierSpacing) { //if in tier3
