@@ -113,8 +113,11 @@ tr.utterance > td {
     font-size: 13px;
 }
 
+.utt_pao    	{color: #535353;}
+.utt_capcom    	{color: grey;}
+.utt_crew    	{color: #7da09a;}
+
 .spokenwords{font-weight:normal;}
-.pao    	{color: green;}
 .timestamp	{font-weight:normal;}
 .who		{font-weight:bold; text-align:right;}
 
@@ -316,8 +319,8 @@ canvas[resize] {
 }
 
 .galleryImage {
-    height: 75px;
-    width: auto;
+    height: auto;
+    width: 75px;
 }
 
 .galleryOverlay {

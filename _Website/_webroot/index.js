@@ -613,9 +613,9 @@ function prependUtterances(count, atTop) {
         utteranceDiv.scrollTop(oldScrollDestination);
     }
 
-    console.log("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    //console.log("prepended utterances from:" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
-    console.log("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    //console.log("prepended utterances to:" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
 }
 
 function appendUtterances(count, atBottom) {
@@ -641,9 +641,9 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    //console.log("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances from:" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    //console.log("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances to:" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
 }
 
 function trimUtterances() {
@@ -682,8 +682,14 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
-    var paoStr = utteranceObject[1] == "PAO" ? "pao" : "";
-    html = html.replace(/@pao/g, paoStr);
+    if (utteranceObject[1] == "Public Affairs") {
+        var uttTypeStr = "utt_pao";
+    } else if (utteranceObject[1] == "Mission Control") {
+        uttTypeStr = "utt_capcom";
+    } else {
+        uttTypeStr = "utt_crew";
+    }
+    html = html.replace(/@uttType/g, uttTypeStr);
 
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
@@ -711,6 +717,8 @@ function populatePhotoGallery() {
             photoTypePath = "supporting";
             filename = photoObject[1];
         }
+        filename = filename + ".jpg";
+
         cdnNum++;
         cdnNum = cdnNum > 5 ? 1 : cdnNum;
         var cdnUrl = "http://cdn" + cdnNum + ".apollo17.org";
@@ -728,7 +736,7 @@ function populatePhotoGallery() {
 
     $("img.galleryImage").lazyload({
         container: photoGalleryDiv,
-        threshold : 200
+        threshold : 50
     });
 
     gApplicationReady += 1;
@@ -782,6 +790,8 @@ function loadPhotoHtml(photoIndex) {
         photoTypePath = "supporting";
         filename = photoObject[1];
     }
+    filename = filename + ".jpg";
+
     html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
@@ -836,10 +846,9 @@ function scaleMissionImage() {
 
         height = height * ratio;    // Reset height to match scaled image
         width = width * ratio;    // Reset width to match scaled image
-    } else if (width <= maxWidth) {
-        ratio = width / maxWidth;   // get ratio for scaling image
+    } else if (width <= maxWidth) {  // get ratio for scaling image
         imageContainerImage.css("width", width); // Set new width
-        imageContainerImage.css("height", height * ratio);  // Scale height based on ratio
+        imageContainerImage.css("height", "auto");  // Scale height based on ratio
     }
 
     // Check if current or newly width-scaled height is larger than max
