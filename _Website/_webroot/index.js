@@ -43,11 +43,7 @@ var gCurrentHighlightedUtteranceIndex;
 
 var gHoveredUtteranceArray; //share button
 
-//var background_color = "#DEDDD1";
-//var background_color_active = "#B5B4A4";
-
-var background_color = "#000000";
-var background_color_active = "#222222";
+var gBackground_color_active = "#222222";
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -477,7 +473,7 @@ function scrollTOCToTimeID(timeId) {
         //}
 
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
-        TOCElement.css("background-color", background_color_active); //set new element highlights
+        TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
         //TOCElement.css("background-color", background_color_active);
         //var scrollDestination = TOCElement.offset().top - 100;
@@ -506,7 +502,7 @@ function scrollCommentaryToTimeId(timeId) {
             //commentaryElement.css("background-color", background_color_active);
 
             commentaryFrameContents.find('.commentary').css("background-color", ""); //clear all element highlights
-            commentaryElement.css("background-color", background_color_active); //set new element highlights
+            commentaryElement.css("background-color", gBackground_color_active); //set new element highlights
 
             //var scrollDestination = commentaryElement.offset().top - 100;
             var scrollDestination = commentaryFrame.scrollTop() + commentaryElement.offset().top;
@@ -556,7 +552,7 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         }
         utteranceTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedTranscriptElement = $(".uttid" + timeId);
-        highlightedTranscriptElement.css("background-color", background_color_active); //set new element highlights
+        highlightedTranscriptElement.css("background-color", gBackground_color_active); //set new element highlights
 
         if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
             var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
@@ -699,7 +695,6 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
 // </editor-fold> //utterances
 
 // </editor-fold> //scrolling things
-
 
 // <editor-fold desc="photo display and gallery -------------------------------------------------">
 

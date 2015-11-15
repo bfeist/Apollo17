@@ -19,7 +19,7 @@ $.when(ajaxGetMediaIndex(),
 //--------------- index file handling --------------------
 
 function ajaxGetMediaIndex() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -35,7 +35,7 @@ function ajaxGetMediaIndex() {
     });
 }
 function ajaxGetTOCAll() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -51,7 +51,7 @@ function ajaxGetTOCAll() {
     });
 }
 function ajaxGetUtteranceData() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -67,7 +67,7 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryIndex() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -83,7 +83,7 @@ function ajaxGetCommentaryIndex() {
     });
 }
 function ajaxGetPhotoIndex() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -99,7 +99,7 @@ function ajaxGetPhotoIndex() {
     });
 }
 function ajaxGetMissionStagesData() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -115,7 +115,7 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentsData() {
-    if (gCdnEnabled && window.location.href.indexOf("dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
@@ -161,9 +161,25 @@ function processUtteranceData(allText) {
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
+            data[0] = timeIdToTimeStr(data[0]);
+
+            var who_modified = data[1];
+            who_modified = who_modified.replace(/CDR/g, "Cernan");
+            who_modified = who_modified.replace(/CMP/g, "Evans");
+            who_modified = who_modified.replace(/LMP/g, "Schmitt");
+            who_modified = who_modified.replace(/PAO/g, "Public Affairs");
+            who_modified = who_modified.replace(/CC/g, "Mission Control");
+            data[1] = who_modified;
+
+            var words_modified = data[2];
+            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+            data[2] = words_modified;
+
             gUtteranceData.push(data);
-            gUtteranceDataLookup[data[0].split(":").join("")] = i;
-            gUtteranceIndex[i] = data[0].split(":").join("");
+            gUtteranceDataLookup[timeStrToTimeId(data[0])] = i;
+            gUtteranceIndex[i] = timeStrToTimeId(data[0]);
         }
     }
 }
