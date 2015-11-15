@@ -706,7 +706,6 @@ function populatePhotoGallery() {
     var photoGalleryDiv = $('#photoGallery');
     photoGalleryDiv.html('');
 
-    var cdnNum = 0;
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoList[i];
         var html = $('#photoGalleryTemplate').html();
@@ -719,8 +718,8 @@ function populatePhotoGallery() {
         }
         filename = filename + ".jpg";
 
-        cdnNum++;
-        cdnNum = cdnNum > 5 ? 1 : cdnNum;
+
+        var cdnNum = getRandomInt(1, 5);
         var cdnUrl = "http://cdn" + cdnNum + ".apollo17.org";
 
         html = html.replace(/@cdnurl/g , cdnUrl);
@@ -957,6 +956,10 @@ Date.prototype.stdTimezoneOffset = function() {
 Date.prototype.dst = function() {
     return this.getTimezoneOffset() < this.stdTimezoneOffset();
 };
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
 // </editor-fold>
 
