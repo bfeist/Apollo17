@@ -27,11 +27,11 @@ p img {
 }
 
 a:link {
-    color: white;
+    color: grey;
 }
 
 a:visited {
-    color: white;
+    color: #727272;
 }
 
 h1 {
