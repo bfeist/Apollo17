@@ -27,11 +27,11 @@ p img {
 }
 
 a:link {
-    color: white;
+    color: grey;
 }
 
 a:visited {
-    color: white;
+    color: #727272;
 }
 
 h1 {
@@ -113,8 +113,11 @@ tr.utterance > td {
     font-size: 13px;
 }
 
+.utt_pao    	{color: #535353;}
+.utt_capcom    	{color: grey;}
+.utt_crew    	{color: #7da09a;}
+
 .spokenwords{font-weight:normal;}
-.pao    	{color: green;}
 .timestamp	{font-weight:normal;}
 .who		{font-weight:bold; text-align:right;}
 
@@ -247,7 +250,7 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    bottom: -200px;
+    bottom: -1000px;
     /*bottom: 0px;*/
     left: 0;
     width: 100%;
@@ -316,8 +319,8 @@ canvas[resize] {
 }
 
 .galleryImage {
-    height: 75px;
-    width: auto;
+    height: auto;
+    width: 75px;
 }
 
 .galleryOverlay {
@@ -492,6 +495,11 @@ canvas[resize] {
     height:20px;
     position:absolute;
     opacity:0.7;
+}
+
+.share-button {
+    position:absolute;
+    /*display: none;*/
 }
 
 /* ----------------- LOADER -----------------*/

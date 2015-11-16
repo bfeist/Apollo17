@@ -19,57 +19,113 @@ $.when(ajaxGetMediaIndex(),
 //--------------- index file handling --------------------
 
 function ajaxGetMediaIndex() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/media_index.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/media_index.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processMediaIndexData(data);}
     });
 }
 function ajaxGetTOCAll() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/TOCall.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processTOCAllData(data);}
     });
 }
 function ajaxGetUtteranceData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/utteranceData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/utteranceData.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processUtteranceData(data);}
     });
 }
 function ajaxGetCommentaryIndex() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/commentaryIndex.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processCommentaryIndexData(data);}
     });
 }
 function ajaxGetPhotoIndex() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/photoIndex.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
 }
 function ajaxGetMissionStagesData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/missionStages.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processMissionStagesData(data);}
     });
 }
 function ajaxGetVideoSegmentsData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/video_segments.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/video_segments.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processVideoSegmentsData(data);}
     });
@@ -105,9 +161,25 @@ function processUtteranceData(allText) {
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
+            data[0] = timeIdToTimeStr(data[0]);
+
+            var who_modified = data[1];
+            who_modified = who_modified.replace(/CDR/g, "Cernan");
+            who_modified = who_modified.replace(/CMP/g, "Evans");
+            who_modified = who_modified.replace(/LMP/g, "Schmitt");
+            who_modified = who_modified.replace(/PAO/g, "Public Affairs");
+            who_modified = who_modified.replace(/CC/g, "Mission Control");
+            data[1] = who_modified;
+
+            var words_modified = data[2];
+            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+            data[2] = words_modified;
+
             gUtteranceData.push(data);
-            gUtteranceDataLookup[data[0].split(":").join("")] = i;
-            gUtteranceIndex[i] = data[0].split(":").join("");
+            gUtteranceDataLookup[timeStrToTimeId(data[0])] = i;
+            gUtteranceIndex[i] = timeStrToTimeId(data[0]);
         }
     }
 }

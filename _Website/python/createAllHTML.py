@@ -128,15 +128,19 @@ for utterance_row in utterance_reader:
 	timeid = "timeid" + utterance_row[1].translate(None, ":")
 	timeline_index_id = utterance_row[1].translate(None, ":")
 	if utterance_row[1] != "": #if not a TAPE change or title row
-		words_modified = utterance_row[3].replace("O2", "O<sub>2</sub>")
-		words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-		words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
-		who_modified = utterance_row[2].replace("CDR", "Cernan")
-		who_modified = who_modified.replace("CMP", "Evans")
-		who_modified = who_modified.replace("LMP", "Schmitt")
+		words_modified = utterance_row[3]
+		# words_modified = words_modified.replace("O2", "O<sub>2</sub>")
+		# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
+		# words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
+		who_modified = utterance_row[2]
+		# who_modified = who_modified.replace("CDR", "Cernan")
+		# who_modified = who_modified.replace("CMP", "Evans")
+		# who_modified = who_modified.replace("LMP", "Schmitt")
+		# who_modified = who_modified.replace("PAO", "Public Affairs")
+		# who_modified = who_modified.replace("CC", "Mission Control")
 		attribution_modified = utterance_row[0]
 
-		output_utterance_data_file.write(utterance_row[1] + "|" + who_modified + "|" + words_modified + "\n")
+		output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
 
 # --------------------------------- Write commentary HTML
 output_commentary_file_name_and_path = "../_webroot/commentary.html"
@@ -196,9 +200,9 @@ first_row = True
 for photo_row in photos_reader:
 	if photo_row[0] != "" and photo_row[0] != "skip" and first_row is False: #if timestamp not blank and photo not marked to skip
 		if len(photo_row[1]) == 5:
-			photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
+			photo_filename = photo_row[2] + "-" + photo_row[1] # + ".jpg"
 		else:
-			photo_filename = photo_row[1] + ".jpg"
+			photo_filename = photo_row[1] # + ".jpg"
 		tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2],
 								  photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8],
 								  photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])

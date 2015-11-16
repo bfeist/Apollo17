@@ -28,9 +28,9 @@
     <meta name="theme-color" content="#000000">
 
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" type="text/css" href="lib/layout-default-latest.css" />
-    <link rel="stylesheet" type="text/css" href="lib/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="lib/share.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdn1.apollo17.org/develop/lib/layout-default-latest.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdn2.apollo17.org/develop/lib/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdn3.apollo17.org/develop/lib/share.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <script>
@@ -42,20 +42,20 @@
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
     </script>
-    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="lib/jquery.isloading.js"></script>
-    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
-    <script type="text/javascript" src="lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
-    <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
-    <script type="text/javascript" src="lib/jquery.simplemodal.js"></script>
-    <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
-    <script type="text/javascript" src='lib/jquery.browser.js'></script>
-    <script type="text/javascript" src="lib/paper-full.js"></script>
-    <script type="text/javascript" src="lib/date.js"></script>
-    <script type="text/javascript" src="lib/moment.js"></script>
-    <script type="text/javascript" src="lib/readable-range.js"></script>
-    <script type="text/javascript" src='lib/share.js'></script>
+    <script type="text/javascript" src="http://cdn1.apollo17.org/develop/lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://cdn2.apollo17.org/develop/lib/jquery.isloading.js"></script>
+    <script type="text/javascript" src="http://cdn3.apollo17.org/develop/lib/jquery_plugins.js"></script>
+    <script type="text/javascript" src="http://cdn4.apollo17.org/develop/lib/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://cdn5.apollo17.org/develop/lib/jquery.layout-latest.js"></script>
+    <script type="text/javascript" src="http://cdn1.apollo17.org/develop/lib/jquery.fullscreen.js"></script>
+    <script type="text/javascript" src="http://cdn2.apollo17.org/develop/lib/jquery.simplemodal.js"></script>
+    <script type="text/javascript" src='http://cdn3.apollo17.org/develop/lib/jquery.lazyload.js'></script>
+    <script type="text/javascript" src='http://cdn4.apollo17.org/develop/lib/jquery.browser.js'></script>
+    <script type="text/javascript" src='http://cdn5.apollo17.org/develop/lib/paper-full.js'></script>
+    <script type="text/javascript" src='http://cdn1.apollo17.org/develop/lib/date.js'></script>
+    <script type="text/javascript" src='http://cdn2.apollo17.org/develop/lib/moment.js'></script>
+    <script type="text/javascript" src='http://cdn3.apollo17.org/develop/lib/readable-range.js'></script>
+    <script type="text/javascript" src='http://cdn4.apollo17.org/develop/lib/share.js'></script>
 
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="headerRight" id="navigator">
-                <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
+                <canvas id="myCanvas" resize keepalive="true"></canvas>
             </div>
         </div>
     </div>
@@ -109,6 +109,7 @@
                 <li><A id="instructionsTab" href="#tabs-left-4"><SPAN>Instructions</SPAN></A></li>
             </ul>
             <div id="tabs-left-1">
+                <div class="share-button"></div>
                 <div id="utteranceDiv">
                     <table class="utteranceTable" id="utteranceTable"></table>
                 </div>
@@ -217,7 +218,7 @@
     <div class="imageBlock">
         <div class="imageContainer">
             <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
-                <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename">
+                <img id="imageContainerImage" src="http://cdn1.apollo17.org/mission_images/@photoTypePath/@sizepath/@filename">
             </a>
             <div id="imageOverlay">
                 <div class="photodivcaption">@description</div>
@@ -240,16 +241,16 @@
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
-        <td class="timestamp @pao">@timestamp</td>
-        <td class="who @pao">@who</td>
-        <td class="spokenwords @pao">@words</td>
+    <tr class="utterance @uttType uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+        <td class="timestamp">@timestamp</td>
+        <td class="who">@who</td>
+        <td class="spokenwords">@words</td>
     </tr>
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
     <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
+        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>
