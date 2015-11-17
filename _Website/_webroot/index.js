@@ -16,7 +16,8 @@ var gIntervalID = null;
 var gIntroInterval = null;
 var gMediaList = [];
 var gTOCIndex = [];
-var gTOCAll = [];
+var gTOCData = [];
+var gTOCDataLookup = [];
 var gUtteranceIndex = [];
 var gUtteranceData = [];
 var gUtteranceDataLookup = [];
@@ -238,7 +239,6 @@ function setApplicationReadyPoller() {
 // <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
     //console.log("findClosestUtterance():" + secondsSearch);
-    var found = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
@@ -252,12 +252,12 @@ function findClosestUtterance(secondsSearch) {
             break;
         }
     }
+    //console.log("findClosestUtterance(): searched utterance array, found closest: timeid" + gUtteranceIndex[i - 1] + " after " + i + " searches");
     return scrollTimeId;
 }
 
 function scrollToClosestTOC(secondsSearch) {
     //console.log("findClosestTOC():" + secondsSearch);
-    var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
@@ -277,7 +277,6 @@ function scrollToClosestTOC(secondsSearch) {
 
 function findClosestCommentary(secondsSearch) {
     //console.log("scrollToClosestCommentary():" + secondsSearch);
-    var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
@@ -292,7 +291,6 @@ function findClosestCommentary(secondsSearch) {
         }
     }
     //console.log("scrollToClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
-    //scrollCommentaryToTimeId(scrollTimeId);
     return scrollTimeId;
 }
 
@@ -464,7 +462,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 // <editor-fold desc="scrolling things------------------------------------------------">
 
 function scrollTOCToTimeId(timeId) {
-    if ($.inArray(timeId, gTOCIndex) != -1) {
+    if (gTOCDataLookup[timeId] !== undefined) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
         if ($("#tabs-left").tabs('option', 'active') != 1) {
             $("#tocTab").effect("highlight", {color: '#006400'}, 2000); //blink the toc tab
@@ -484,7 +482,7 @@ function scrollTOCToTimeId(timeId) {
 }
 
 function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
-    if ($.inArray(timeId, gCommentaryIndex) != -1) {
+    if (gCommentaryDataLookup[timeId] !== undefined) {
         // console.log("scrollTranscriptToTimeId " + timeId);
         var commentaryDiv = $('#commentaryDiv');
         var commentaryTable = $('#commentaryTable');
@@ -525,7 +523,7 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
 }
 
 function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
-    if ($.inArray(timeId, gUtteranceIndex) != -1) {
+    if (gUtteranceDataLookup[timeId] !== undefined) {
         // console.log("scrollTranscriptToTimeId " + timeId);
         var utteranceDiv = $('#utteranceDiv');
         var utteranceTable = $('#utteranceTable');

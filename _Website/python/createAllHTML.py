@@ -88,6 +88,7 @@ csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
 	timestamp = row[0]
+	timeline_index_id = row[0].translate(None, ":")
 	item_depth = row[1]
 	if item_depth == "3":
 		item_depth = "2" # do this to avoid indentation of 3rd level items
@@ -102,7 +103,7 @@ for row in reader:
 	# toc_index_template = loader.load_template('template_TOC_index.html')
 	# output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
 
-	output_TOC_index_file.write(timestamp + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n")
+	output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n")
 
 # WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')

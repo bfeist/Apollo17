@@ -574,12 +574,12 @@ function drawTier2() {
 
     //draw TOC items
     gLastTier2TextPosition = 1;
-    for (i = 0; i < gTOCAll.length; i++) {
+    for (i = 0; i < gTOCData.length; i++) {
         var textPosition = 1;
-        var itemSecondsFromLeft = timeStrToSeconds(gTOCAll[i][0]) - gTier2StartSeconds;
+        var itemSecondsFromLeft = timeStrToSeconds(gTOCData[i][0]) - gTier2StartSeconds;
         if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier2) {
             var itemLocX = gTier2Left + itemSecondsFromLeft * gTier2PixelsPerSecond;
-            if (gTOCAll[i][1] == "1") {
+            if (gTOCData[i][1] == "1") {
                 var barHeight = gTier2Height;
             } else {
                 barHeight = gTier2Height / 3;
@@ -590,7 +590,7 @@ function drawTier2() {
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = gColorTOCStroke;
             tempGroup.addChild(aLine);
-            if (gTOCAll[i][1] == "1") { //if level 1 TOC item
+            if (gTOCData[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
                     fontSize: 10 + gFontScaleFactor,
@@ -598,7 +598,7 @@ function drawTier2() {
                 });
                 textTop = tierBottom - textPosition * (gTier2Height / 3) + 3;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
-                itemText.content = gTOCAll[i][2];
+                itemText.content = gTOCData[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
                 itemTextRect.strokeColor = "black";
                 itemTextRect.fillColor = "black";
@@ -872,9 +872,9 @@ function drawTier3() {
 
     //display TOC ticks and text
     //display TOC ticks at varying heights
-    for (i = 0; i < gTOCAll.length; i++) {
+    for (i = 0; i < gTOCData.length; i++) {
         var textPosition = (i % 2) + 1;
-        var itemSecondsFromLeft = timeStrToSeconds(gTOCAll[i][0]) - gTier3StartSeconds;
+        var itemSecondsFromLeft = timeStrToSeconds(gTOCData[i][0]) - gTier3StartSeconds;
         if (itemSecondsFromLeft >= 0 && itemSecondsFromLeft <= secondsOnTier3) {
             itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
             barTop = gTier3Top + gTier3Height / 3;
@@ -894,7 +894,7 @@ function drawTier3() {
                 fillColor: gColorTOCText
             });
             itemText.point = new paper.Point(itemLocX + 2 , barBottom);
-            itemText.content = gTOCAll[i][2];
+            itemText.content = gTOCData[i][2];
             tempGroup.addChild(itemText);
         }
     }

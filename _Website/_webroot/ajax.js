@@ -147,20 +147,27 @@ function processVideoURLData(allText) {
 function processTOCData(allText) {
     //console.log("processTOCIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
-            gTOCAll.push(data);
-            gTOCIndex[i] = data[0].split(":").join("");
+            gTOCIndex[i] = data[0];
+            gTOCDataLookup[data[0]] = curRow;
+            data[0] = timeIdToTimeStr(data[0]);
+            gTOCData.push(data);
+            curRow++;
         }
     }
 }
 function processUtteranceData(allText) {
     //console.log("processUtteranceData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
+            gUtteranceDataLookup[data[0]] = curRow;
+            gUtteranceIndex[i] = data[0];
             data[0] = timeIdToTimeStr(data[0]);
 
             var who_modified = data[1];
@@ -178,15 +185,14 @@ function processUtteranceData(allText) {
             data[2] = words_modified;
 
             gUtteranceData.push(data);
-            gUtteranceDataLookup[timeStrToTimeId(data[0])] = i;
-            gUtteranceIndex[i] = timeStrToTimeId(data[0]);
+            curRow ++;
         }
     }
 }
 function processCommentaryData(allText) {
     //console.log("processCommentaryIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
-    var curRow = 0
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
@@ -217,7 +223,7 @@ function processCommentaryData(allText) {
             data[3] = words_modified;
 
             gCommentaryData.push(data);
-            curRow ++
+            curRow ++;
         }
     }
 }
