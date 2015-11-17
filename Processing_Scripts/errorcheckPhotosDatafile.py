@@ -27,7 +27,7 @@ print "DONE Checking for dup timestamps"
 
 print "Checking for missing jpgs..."
 curRow = 0
-for curFile in ["photoIndex.csv"]:
+for curFile in ["photoData.csv"]:
 	inputFilePath = "../_Website/_webroot/indexes/" + curFile
 	reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
 	for row in reader:

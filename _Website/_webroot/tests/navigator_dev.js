@@ -62,7 +62,7 @@ function ajaxGetTOCAll() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "../indexes/TOCall.csv?stopcache=" + Math.random(),
+        url: "../indexes/TOCData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {
             processTOCAllData(data);
@@ -74,7 +74,7 @@ function ajaxGetPhotoIndex() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "../indexes/photoIndex.csv?stopcache=" + Math.random(),
+        url: "../indexes/photoData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
@@ -94,7 +94,7 @@ function ajaxGetMissionStagesData() {
     //        from calling the $.ajax() method.
     return $.ajax({
         type: "GET",
-        url: "../indexes/missionStages.csv?stopcache=" + Math.random(),
+        url: "../indexes/missionStagesData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMissionStagesData(data);}
     });
@@ -102,7 +102,7 @@ function ajaxGetMissionStagesData() {
 function ajaxGetVideoSegmentsData() {
     return $.ajax({
         type: "GET",
-        url: "../indexes/video_segments.csv?stopcache=" + Math.random(),
+        url: "../indexes/videoSegmentData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processVideoSegmentsData(data);}
     });
@@ -119,7 +119,7 @@ function processTOCAllData(allText) {
     }
 }
 function processPhotoIndexData(allText) {
-    console.log("processPhotoIndexData");
+    console.log("processPhotoData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         if (allTextLines[i] != "") {
@@ -156,7 +156,7 @@ function processMissionStagesData(allText) {
     gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
 function processVideoSegmentsData(allText) {
-    //console.log("processVideoSegmentsData");
+    //console.log("processVideoSegmentData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
