@@ -142,47 +142,25 @@ for utterance_row in utterance_reader:
 
 		output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
 
-# --------------------------------- Write commentary HTML
-output_commentary_file_name_and_path = "../_webroot/commentary.html"
-output_commentary_file = open(output_commentary_file_name_and_path, "w")
-output_commentary_file.write("")
-output_commentary_file.close()
+# WRITE ALL commentary ITEMS
+output_commentary_data_file_name_and_path = "../_webroot/indexes/commentaryData.csv"
+output_commentary_data_file = open(output_commentary_data_file_name_and_path, "w")
+output_commentary_data_file.write("")
+output_commentary_data_file.close()
+output_commentary_data_file = open(output_commentary_data_file_name_and_path, "a")
 
-output_commentary_file = open(output_commentary_file_name_and_path, "a")
-
-output_commentary_index_file_name_and_path = "../_webroot/indexes/commentaryIndex.csv"
-output_commentary_index_file = open(output_commentary_index_file_name_and_path, "w")
-output_commentary_index_file.write("")
-output_commentary_index_file.close()
-
-output_commentary_index_file = open(output_commentary_index_file_name_and_path, "a")
-
-# WRITE commentary HEADER
-template = template_loader.load_template('template_commentary_header.html')
-output_commentary_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
-
-# WRITE ALL commentary BODY ITEMS
 cur_row = 0
 input_file_path = "../../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
 	cur_row += 1
-	comid = commentary_row[0].translate(None, ":")
-	commentary_index_id = commentary_row[0].translate(None, ":")
-	if commentary_row[0] != "": #if not a TAPE change or title row
-		words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
-		words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-		attribution_modified = commentary_row[1]
+	if commentary_row[0] == "120:46:31":
+		pass
+	timeid = commentary_row[0].translate(None, ":")
+	# words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
+	# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
 
-		template = template_loader.load_template('template_commentary_item.html')
-		output_commentary_file.write(template.render({'comid': comid, 'timestamp': commentary_row[0], 'who': commentary_row[2], 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
-
-		commentary_index_template = template_loader.load_template('template_commentary_index.html')
-		output_commentary_index_file.write(commentary_index_template.render({'commentary_index_id': commentary_index_id}, loader=template_loader).encode('utf-8'))
-
-# WRITE commentary FOOTER
-template = template_loader.load_template('template_commentary_footer.html')
-output_commentary_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
+	output_commentary_data_file.write(timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
 
 
 # --------------------------------- Write photo index

@@ -21,6 +21,8 @@ var gUtteranceIndex = [];
 var gUtteranceData = [];
 var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
+var gCommentaryData = [];
+var gCommentaryDataLookup = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
 var gPhotoLookup = [];
@@ -272,7 +274,7 @@ function scrollToClosestTOC(secondsSearch) {
 }
 
 function scrollToClosestCommentary(secondsSearch) {
-    //console.log("findClosestCommentary():" + secondsSearch);
+    //console.log("scrollToClosestCommentary():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -287,7 +289,7 @@ function scrollToClosestCommentary(secondsSearch) {
             break;
         }
     }
-    //console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    //console.log("scrollToClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
     scrollCommentaryToTimeId(scrollTimeId);
 }
 
@@ -485,29 +487,24 @@ function scrollTOCToTimeID(timeId) {
 }
 
 function scrollCommentaryToTimeId(timeId) {
+    //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
         if ($("#tabs-left").tabs('option', 'active') != 2) {
             $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
         }
-        //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
-        var commentaryFrame = $('#iFrameCommentary');
-        var commentaryFrameContents = commentaryFrame.contents();
-        var commentaryElement = commentaryFrameContents.find('#comid' + timeId);
-        if (commentaryElement.length != 0) {
-            //reset background color of last line
-            //if (gLastCommentaryElement != '') {
-            //    gLastCommentaryElement.css("background-color", background_color);
-            //}
-            //commentaryElement.css("background-color", background_color_active);
 
-            commentaryFrameContents.find('.commentary').css("background-color", ""); //clear all element highlights
-            commentaryElement.css("background-color", gBackground_color_active); //set new element highlights
+        var commentaryElements = $('.comid' + timeId);
+        $('commentaryTable').children("*").css("background-color", ""); //clear all element highlights
+        commentaryElements.css("background-color", gBackground_color_active); //set new element highlights
 
-            //var scrollDestination = commentaryElement.offset().top - 100;
-            var scrollDestination = commentaryFrame.scrollTop() + commentaryElement.offset().top;
-            commentaryFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
-        }
+        var commentaryElement = $('#comid' + timeId);
+        var commentaryDiv = $('#commentaryDiv');
+        var newScrollDestination = commentaryDiv.scrollTop() + commentaryElement.offset().top - commentaryDiv.offset().top;
+        commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+            console.log('Commentary finished animating: ' + newScrollDestination);
+        });
+
         gLastCommentaryElement = commentaryElement;
         gLastCommentaryTimeId = timeId;
     }
@@ -692,6 +689,46 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     return html;
 }
 
+function populateCommentary() {
+    var commentaryTable = $('#commentaryTable');
+    commentaryTable.html('');
+    for (var i = 0; i < gCommentaryIndex.length; i++) {
+        commentaryTable.append(getCommentaryObjectHTML(i));
+    }
+}
+
+function getCommentaryObjectHTML(commentaryIndex, style) {
+    style = style || '';
+    //console.log("getCommentaryObjectHTML():" + commentaryIndex);
+    var commentaryObject = gCommentaryData[commentaryIndex];
+    var html = $('#commentaryTemplate').html();
+
+    if (typeof commentaryObject != 'object') {
+        console.log("something very wrong");
+    }
+
+    var comId = timeStrToTimeId(commentaryObject[0]);
+    html = html.replace(/@comid/g, comId);
+    html = html.replace("@timestamp", commentaryObject[0]);
+    if (commentaryObject[1] != '') {
+        html = html.replace("@attribution", "(" + commentaryObject[1] + ")");
+    } else {
+        html = html.replace("@attribution", "");
+    }
+    html = html.replace("@who", commentaryObject[2]);
+    html = html.replace("@words", commentaryObject[3]);
+
+    if (commentaryObject[2] == "") {
+        var comTypeStr = "com_support";
+    } else {
+        comTypeStr = "com_crew";
+    }
+    html = html.replace(/@comType/g, comTypeStr);
+
+    //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
+    return html;
+}
+
 // </editor-fold> //utterances
 
 // </editor-fold> //scrolling things
@@ -758,17 +795,20 @@ function showCurrentPhoto(timeId, override) {
     }
     if (currentClosestTime != gCurrentPhotoTimeid || override) {
         gCurrentPhotoTimeid = currentClosestTime;
-        loadPhotoHtml(photoIndexNum);
+        if (photoIndexNum > 0) {
+            loadPhotoHtml(photoIndexNum);
+            var photoGalleryDiv = $('#photoGallery');
+            photoGalleryDiv.children('*').css("border-color", "");
+            var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
+            $(photoGalleryImageTimeId).css("border-color", "green");
 
-        var photoGalleryDiv = $('#photoGallery');
-        photoGalleryDiv.children('*').css("border-color", "");
-        var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
-        $(photoGalleryImageTimeId).css("border-color", "green");
-
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
-        photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
-            //console.log('Finished animating gallery: ' + scrollDest);
-        });
+            var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
+            photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+                //console.log('Finished animating gallery: ' + scrollDest);
+            });
+        } else {
+            console.log('showCurrentPhoto:ERROR:Attempted to pass invalid index');
+        }
     }
 }
 
@@ -780,6 +820,10 @@ function loadPhotoHtml(photoIndex) {
     var photoDiv = $("#photodiv");
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
+
+    if (typeof photoObject != 'object') {
+        console.log("something has gone very wrong");
+    }
 
     if (photoObject[3] != "") {
         var photoTypePath = "flight";

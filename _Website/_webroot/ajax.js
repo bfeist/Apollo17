@@ -2,7 +2,7 @@
 
 $.when(ajaxGetMediaIndex(),
     ajaxGetTOCAll(),
-    ajaxGetCommentaryIndex(),
+    ajaxGetCommentaryData(),
     ajaxGetUtteranceData(),
     ajaxGetPhotoIndex(),
     ajaxGetMissionStagesData(),
@@ -66,20 +66,20 @@ function ajaxGetUtteranceData() {
         success: function(data) {processUtteranceData(data);}
     });
 }
-function ajaxGetCommentaryIndex() {
+function ajaxGetCommentaryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/commentaryIndex.csv";
+    urlStr += "/indexes/commentaryData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
         dataType: "text",
-        success: function(data) {processCommentaryIndexData(data);}
+        success: function(data) {processCommentaryData(data);}
     });
 }
 function ajaxGetPhotoIndex() {
@@ -183,9 +183,44 @@ function processUtteranceData(allText) {
         }
     }
 }
-function processCommentaryIndexData(allText) {
+function processCommentaryData(allText) {
     //console.log("processCommentaryIndexData");
-    gCommentaryIndex = allText.split(/\r\n|\n/);
+    var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gCommentaryIndex[curRow] = data[0];
+            gCommentaryDataLookup[data[0]] = curRow;
+            data[0] = timeIdToTimeStr(data[0]);
+
+            if (data[2].length == 0) {
+                var attribution = data[1];
+                attribution = attribution.replace(/ALSJ/g, '<a href="https://www.hq.nasa.gov/alsj/" target="alsj">ALSJ</a> Commentary');
+                data[1] = attribution;
+            }
+
+            if (data[2].length != 0) {
+                var who_modified = data[2];
+                who_modified = who_modified.replace(/CDR/g, "Cernan");
+                who_modified = who_modified.replace(/CMP/g, "Evans");
+                who_modified = who_modified.replace(/LMP/g, "Schmitt");
+                data[2] = who_modified;
+            }
+
+            var words_modified = data[3];
+            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+            words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
+            words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
+            data[3] = words_modified;
+
+            gCommentaryData.push(data);
+            curRow ++
+        }
+    }
+    populateCommentary();
 }
 function processPhotoIndexData(allText) {
     //console.log("processPhotoIndexData");
