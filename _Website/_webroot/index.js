@@ -1,6 +1,6 @@
 console.log("INIT: Loading index.js");
 var gStopCache = true;
-var gCdnEnabled = true;
+var gCdnEnabled = false;
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
@@ -845,6 +845,13 @@ function loadPhotoHtml(photoIndex) {
     }
     var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
     html = html.replace(/@fullSizePath/g , fullSizePath);
+    if (gCdnEnabled) {
+        var cdnNum = getRandomInt(1, 5);
+        var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
+    } else {
+        serverUrl = "http://apollo17.org";
+    }
+    html = html.replace(/@serverUrl/g , serverUrl);
     html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , filename);
     html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
@@ -1202,7 +1209,7 @@ $(document).ready(function() {
             appendUtterances(50, true);
         }
 
-    }, 50));
+    }, 10));
 
     utteranceDiv.delegate('.utterance', 'mouseenter', function() {
         var shareButtonSelector = $('.share-button');
