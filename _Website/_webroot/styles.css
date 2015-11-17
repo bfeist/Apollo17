@@ -53,11 +53,11 @@ p img {
 }
 
 a:link {
-    color: white;
+    color: grey;
 }
 
 a:visited {
-    color: white;
+    color: #727272;
 }
 
 h1 {
@@ -125,7 +125,7 @@ li:hover {
     background-color: #222222;
 }
 
-/* ----------------- transcript -----------------*/
+/* ----------------- transcript and commentary -----------------*/
 #utteranceDiv {
     overflow-y: scroll;
     position: relative;
@@ -148,41 +148,39 @@ tr.utterance > td {
     font-size: .9em;
 }
 
-.spokenwords{font-weight:normal;}
-.pao    	{color: green;}
-.timestamp	{font-weight:normal;}
-.who		{font-weight:bold; text-align:right;}
-
-/* ----------------- commentary -----------------*/
-.commentarytable {border: 2px; padding: 2px; border-collapse: collapse;}
-tr.commentary:hover {
-    background-color: #222222;
+#commentaryDiv {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+.commentaryTable {
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 tr.commentary {
     cursor: pointer;
     vertical-align: top;
 }
+tr.commentary:hover {
+    background-color: #222222;
+}
 tr.commentary > td {
     padding: 3px;
     line-height: 125%;
     font-size: 13px;
+    word-wrap:break-word;
 }
-.afjgeted   {color: gray;}
-.afjed		{
-    color: #2B547E;
-    padding: 3px;
-    padding-bottom: 10px;
-}
-.afjedwords {
-    color: #2B547E;
-}
-.afjedwords::before	{content: "[ "}
-.afjedwords::after	{content: " ]"}
 
-.afjsrc	{
-    font-style:italic;
-    color: SaddleBrown;
-}
+.utt_pao    	{color: #535353;}
+.utt_capcom    	{color: grey;}
+.utt_crew    	{color: #7da09a;}
+.com_support    {color: grey;}
+.com_crew    	{color: #3473a6;}
+
+.spokenwords    {font-weight:normal;}
+.timestamp	    {font-weight:normal;}
+.who		    {font-weight:bold; text-align:right;}
+.attribution    {font-style:italic; color: SaddleBrown;}
 
 /* ----------------- instructions -----------------*/
 #instructionsDiv {
@@ -288,7 +286,7 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    bottom: -200px;
+    bottom: -1000px;
     /*bottom: 0px;*/
     left: 0;
     width: 100%;
@@ -542,6 +540,11 @@ canvas[resize] {
     height:20px;
     position:absolute;
     opacity:0.7;
+}
+
+.share-button {
+    position:absolute;
+    /*display: none;*/
 }
 
 /* ----------------- LOADER -----------------*/
