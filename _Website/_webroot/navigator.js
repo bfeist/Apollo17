@@ -108,9 +108,10 @@ function initNavigator() {
     //pollForMissionTime();
 
     // paperscript handlers
-    paper.view.onResize = function () {
-        redrawAll();
-    };
+    paper.view.onResize = $.throttle(function() {
+            redrawAll();
+        }, 250);
+
 
     tool.onMouseMove = function (event) {
         //console.log("on mouse move");
