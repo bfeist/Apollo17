@@ -1,4 +1,6 @@
 console.log("INIT: Loading index.js");
+var gStopCache = true;
+var gCdnEnabled = true;
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
@@ -19,12 +21,14 @@ var gUtteranceIndex = [];
 var gUtteranceData = [];
 var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
+var gCommentaryData = [];
+var gCommentaryDataLookup = [];
 var gPhotoList = [];
 var gPhotoIndex = [];
 var gPhotoLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
-var gCurrentPhotoTimestamp = "initial";
+var gCurrentPhotoTimeid = "initial";
 var gCurrVideoStartSeconds = -9442; //countdown
 var gCurrVideoEndSeconds = 0;
 var gPlaybackState = "normal";
@@ -39,11 +43,9 @@ var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
 var gCurrentHighlightedUtteranceIndex;
 
-//var background_color = "#DEDDD1";
-//var background_color_active = "#B5B4A4";
+var gHoveredUtteranceArray; //share button
 
-var background_color = "#000000";
-var background_color_active = "#222222";
+var gBackground_color_active = "#222222";
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -88,7 +90,7 @@ function onPlayerReady(event) {
 // The API calls this function when the player's state changes.
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
-    console.log("onPlayerStateChange():state: " + event.data);
+    //console.log("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
         console.log("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
@@ -218,12 +220,12 @@ function setApplicationReadyPoller() {
         console.log("setApplicationReadyPoller(): Checking if App Ready");
         if (gApplicationReady >= 4) {
             console.log("APPREADY = 4! App Ready!");
-            if (gMissionTimeParamSent != 0) {
+            if (gMissionTimeParamSent == 0) {
+                $('.simplemodal-wrap').isLoading("hide");
+            } else {
+                $('body').isLoading("hide");
                 initializePlayback();
             }
-            // $.isLoading( "hide" );
-            $('body').addClass('app-ready');
-
             window.clearInterval(gApplicationReadyIntervalID);
         }
     }, 1000);
@@ -233,7 +235,7 @@ function setApplicationReadyPoller() {
 
 // <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
-    console.log("findClosestUtterance():" + secondsSearch);
+    //console.log("findClosestUtterance():" + secondsSearch);
     var found = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -252,7 +254,7 @@ function findClosestUtterance(secondsSearch) {
 }
 
 function scrollToClosestTOC(secondsSearch) {
-    console.log("findClosestTOC():" + secondsSearch);
+    //console.log("findClosestTOC():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -267,12 +269,12 @@ function scrollToClosestTOC(secondsSearch) {
             break;
         }
     }
-    console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
+    //console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
     scrollTOCToTimeID(scrollTimeId);
 }
 
 function scrollToClosestCommentary(secondsSearch) {
-    console.log("findClosestCommentary():" + secondsSearch);
+    //console.log("scrollToClosestCommentary():" + secondsSearch);
     var onCountdown = false;
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
@@ -287,7 +289,7 @@ function scrollToClosestCommentary(secondsSearch) {
             break;
         }
     }
-    console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    //console.log("scrollToClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
     scrollCommentaryToTimeId(scrollTimeId);
 }
 
@@ -296,32 +298,22 @@ function scrollToClosestCommentary(secondsSearch) {
 // <editor-fold desc="custom event (click) handlers -------------------------------------------------">
 
 function historicalButtonClick() {
-    console.log('historicalButtonClick');
-    // window.clearInterval(gIntroInterval);
-    // seekToTime("timeid" + getNearestHistoricalMissionTimeId());
-    // onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
-    // gIntroInterval = null;
-
-    // fadeOutSplash();
-}
-
-function oneMinuteToLaunchButtonClick() {
-    console.log('oneMinuteToLaunchButtonClick');
     window.clearInterval(gIntroInterval);
     gIntroInterval = null;
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    var nearestHistTimeId = getNearestHistoricalMissionTimeId();
+    //var closestUtteranceTimeid = findClosestUtterance(timeIdToSeconds(nearestHistTimeId));
+    //var closestUtteranceTimeid = timeIdToSeconds(nearestHistTimeId);
 
-    fadeOutSplash();
-    initializePlayback();
+    repopulateUtterances(nearestHistTimeId);
+    seekToTime(nearestHistTimeId);
 }
 
-function fadeOutSplash() {
-    console.log('fadeOutSplash');
-    $('body').removeClass('splash-loaded');
-    setTimeout(
-        function () {
-            $('.splash-content').hide();
-        }, 1600);
+function oneMinuteToLaunchButtonClick() {
+    window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    initializePlayback();
 }
 
 function seekToTime(timeId) { // transcript click handling --------------------
@@ -471,9 +463,9 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 function scrollTOCToTimeID(timeId) {
     if ($.inArray(timeId, gTOCIndex) != -1) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
-        //if ($("#tabs-left").tabs('option', 'active') != 1) {
-        //    $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
-        //}
+        if ($("#tabs-left").tabs('option', 'active') != 1) {
+            $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+        }
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
@@ -483,7 +475,7 @@ function scrollTOCToTimeID(timeId) {
         //}
 
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
-        TOCElement.css("background-color", background_color_active); //set new element highlights
+        TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
         //TOCElement.css("background-color", background_color_active);
         //var scrollDestination = TOCElement.offset().top - 100;
@@ -495,29 +487,24 @@ function scrollTOCToTimeID(timeId) {
 }
 
 function scrollCommentaryToTimeId(timeId) {
+    //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
-        //if ($("#tabs-left").tabs('option', 'active') != 2) {
-        //    $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
-        //}
-        //console.log("scrollCommentaryToTimeID(): scrolling to  " + timeId);
-        var commentaryFrame = $('#iFrameCommentary');
-        var commentaryFrameContents = commentaryFrame.contents();
-        var commentaryElement = commentaryFrameContents.find('#comid' + timeId);
-        if (commentaryElement.length != 0) {
-            //reset background color of last line
-            //if (gLastCommentaryElement != '') {
-            //    gLastCommentaryElement.css("background-color", background_color);
-            //}
-            //commentaryElement.css("background-color", background_color_active);
-
-            commentaryFrameContents.find('.commentary').css("background-color", ""); //clear all element highlights
-            commentaryElement.css("background-color", background_color_active); //set new element highlights
-
-            //var scrollDestination = commentaryElement.offset().top - 100;
-            var scrollDestination = commentaryFrame.scrollTop() + commentaryElement.offset().top;
-            commentaryFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        if ($("#tabs-left").tabs('option', 'active') != 2) {
+            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
         }
+
+        var commentaryElements = $('.comid' + timeId);
+        $('commentaryTable').children("*").css("background-color", ""); //clear all element highlights
+        commentaryElements.css("background-color", gBackground_color_active); //set new element highlights
+
+        var commentaryElement = $('#comid' + timeId);
+        var commentaryDiv = $('#commentaryDiv');
+        var newScrollDestination = commentaryDiv.scrollTop() + commentaryElement.offset().top - commentaryDiv.offset().top;
+        commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+            console.log('Commentary finished animating: ' + newScrollDestination);
+        });
+
         gLastCommentaryElement = commentaryElement;
         gLastCommentaryTimeId = timeId;
     }
@@ -562,7 +549,7 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         }
         utteranceTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedTranscriptElement = $(".uttid" + timeId);
-        highlightedTranscriptElement.css("background-color", background_color_active); //set new element highlights
+        highlightedTranscriptElement.css("background-color", gBackground_color_active); //set new element highlights
 
         if (moreLoaded) { //jump the window to the old scroll dest just prior to animating because more HTML was just appended/prepended
             var oldScrollDestination = utteranceDiv.scrollTop() + gLastHighlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
@@ -574,15 +561,15 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
             trimUtterances();
         });
 
-        //if ($("#tabs-left").tabs('option', 'active') != 0) {
-        //    $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
-        //}
+        if ($("#tabs-left").tabs('option', 'active') != 0) {
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+        }
         gLastHighlightedTranscriptElement = highlightedTranscriptElement;
     }
 }
 
 function repopulateUtterances(timeId) {
-    var utteranceIndex = gUtteranceDataLookup[timeId];
+    var utteranceIndex = gUtteranceDataLookup[findClosestUtterance(timeIdToSeconds(timeId))];
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
@@ -605,9 +592,9 @@ function prependUtterances(count, atTop) {
     var htmlToPrepend = "";
     var prependedCount = 0;
     var startIndex = gUtteranceDisplayStartIndex - count;
-    for (var i = startIndex; i < startIndex + count - 1; i++) {
+    for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0) {
-            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i, ""));
+            htmlToPrepend = htmlToPrepend + (getUtteranceObjectHTML(i));
             prependedCount ++;
         }
     }
@@ -620,9 +607,9 @@ function prependUtterances(count, atTop) {
         utteranceDiv.scrollTop(oldScrollDestination);
     }
 
-    console.log("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    //console.log("prepended utterances from:" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
-    console.log("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    //console.log("prepended utterances to:" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
 }
 
 function appendUtterances(count, atBottom) {
@@ -636,7 +623,7 @@ function appendUtterances(count, atBottom) {
     for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0 && i < gUtteranceData.length) {
             //console.log("Appended: " + gUtteranceData[i][0]);
-            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i, ""));
+            htmlToAppend = htmlToAppend + (getUtteranceObjectHTML(i));
             appendedCount ++;
         }
     }
@@ -648,9 +635,9 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    console.log("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances from:" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    console.log("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    //console.log("appended utterances to:" + gUtteranceData[gUtteranceDisplayEndIndex][0]);
 }
 
 function trimUtterances() {
@@ -689,8 +676,54 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", utteranceObject[0]);
     html = html.replace("@who", utteranceObject[1]);
     html = html.replace("@words", utteranceObject[2]);
-    var paoStr = utteranceObject[1] == "PAO" ? "pao" : "";
-    html = html.replace(/@pao/g, paoStr);
+    if (utteranceObject[1] == "Public Affairs") {
+        var uttTypeStr = "utt_pao";
+    } else if (utteranceObject[1] == "Mission Control") {
+        uttTypeStr = "utt_capcom";
+    } else {
+        uttTypeStr = "utt_crew";
+    }
+    html = html.replace(/@uttType/g, uttTypeStr);
+
+    //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
+    return html;
+}
+
+function populateCommentary() {
+    var commentaryTable = $('#commentaryTable');
+    commentaryTable.html('');
+    for (var i = 0; i < gCommentaryIndex.length; i++) {
+        commentaryTable.append(getCommentaryObjectHTML(i));
+    }
+}
+
+function getCommentaryObjectHTML(commentaryIndex, style) {
+    style = style || '';
+    //console.log("getCommentaryObjectHTML():" + commentaryIndex);
+    var commentaryObject = gCommentaryData[commentaryIndex];
+    var html = $('#commentaryTemplate').html();
+
+    if (typeof commentaryObject != 'object') {
+        console.log("something very wrong");
+    }
+
+    var comId = timeStrToTimeId(commentaryObject[0]);
+    html = html.replace(/@comid/g, comId);
+    html = html.replace("@timestamp", commentaryObject[0]);
+    if (commentaryObject[1] != '') {
+        html = html.replace("@attribution", "(" + commentaryObject[1] + ")");
+    } else {
+        html = html.replace("@attribution", "");
+    }
+    html = html.replace("@who", commentaryObject[2]);
+    html = html.replace("@words", commentaryObject[3]);
+
+    if (commentaryObject[2] == "") {
+        var comTypeStr = "com_support";
+    } else {
+        comTypeStr = "com_crew";
+    }
+    html = html.replace(/@comType/g, comTypeStr);
 
     //console.log(utteranceObject[0] + " - " + utteranceObject[1] + " - " + utteranceObject[2]);
     return html;
@@ -699,7 +732,6 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
 // </editor-fold> //utterances
 
 // </editor-fold> //scrolling things
-
 
 // <editor-fold desc="photo display and gallery -------------------------------------------------">
 
@@ -717,6 +749,16 @@ function populatePhotoGallery() {
             photoTypePath = "supporting";
             filename = photoObject[1];
         }
+        filename = filename + ".jpg";
+
+        if (gCdnEnabled) {
+            var cdnNum = getRandomInt(1, 5);
+            var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
+        } else {
+            serverUrl = "http://apollo17.org";
+        }
+
+        html = html.replace(/@serverUrl/g , serverUrl);
         html = html.replace(/@photoTypePath/g , photoTypePath);
         html = html.replace(/@filename/g ,filename);
         html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
@@ -729,14 +771,15 @@ function populatePhotoGallery() {
 
     $("img.galleryImage").lazyload({
         container: photoGalleryDiv,
-        threshold : 200
+        threshold : 50
     });
 
     gApplicationReady += 1;
     console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
 
-function showCurrentPhoto(timeId) {
+function showCurrentPhoto(timeId, override) {
+    override = override || false;
     //console.log('showCurrentPhoto():' + timeId);
     //var closestTime = closest(timeStr, gPhotoIndex);
 
@@ -750,30 +793,37 @@ function showCurrentPhoto(timeId) {
             break;
         }
     }
-    if (currentClosestTime != gCurrentPhotoTimestamp) {
-        gCurrentPhotoTimestamp = currentClosestTime;
-        loadPhotoHtml(photoIndexNum);
+    if (currentClosestTime != gCurrentPhotoTimeid || override) {
+        gCurrentPhotoTimeid = currentClosestTime;
+        if (photoIndexNum > 0) {
+            loadPhotoHtml(photoIndexNum);
+            var photoGalleryDiv = $('#photoGallery');
+            photoGalleryDiv.children('*').css("border-color", "");
+            var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
+            $(photoGalleryImageTimeId).css("border-color", "green");
 
-        var photoGalleryDiv = $('#photoGallery');
-        photoGalleryDiv.children('*').css("border-color", "");
-        var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
-        $(photoGalleryImageTimeId).css("border-color", "green");
-
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
-        photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
-            console.log('Finished animating gallery: ' + scrollDest);
-        });
+            var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
+            photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+                //console.log('Finished animating gallery: ' + scrollDest);
+            });
+        } else {
+            console.log('showCurrentPhoto:ERROR:Attempted to pass invalid index');
+        }
     }
 }
 
 function loadPhotoHtml(photoIndex) {
+    //console.log('loadPhotoHtml():' + photoIndex);
     if (typeof photoIndex == "undefined") {
         console.log('**invalid photo call');
     }
-    console.log('loadPhotoHtml():' + photoIndex);
     var photoDiv = $("#photodiv");
     var photoObject = gPhotoList[photoIndex];
     var html = $('#photoTemplate').html();
+
+    if (typeof photoObject != 'object') {
+        console.log("something has gone very wrong");
+    }
 
     if (photoObject[3] != "") {
         var photoTypePath = "flight";
@@ -782,6 +832,8 @@ function loadPhotoHtml(photoIndex) {
         photoTypePath = "supporting";
         filename = photoObject[1];
     }
+    filename = filename + ".jpg";
+
     html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
@@ -819,30 +871,33 @@ function loadPhotoHtml(photoIndex) {
 function scaleMissionImage() {
     //console.log('scaleMissionImage()');
     var photodiv = $('#photodiv');
-    var image = $('#imageContainerImage');
+    var imageContainerImage = $('#imageContainerImage');
 
     var maxWidth = photodiv.width(); // Max width for the image
     var maxHeight = photodiv.height();    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
 
-    var width = image.get(0).naturalWidth; // Full image width
-    var height =image.get(0).naturalHeight; // Full image height
+    var width = imageContainerImage.get(0).naturalWidth; // Full image width
+    var height = imageContainerImage.get(0).naturalHeight; // Full image height
 
     // Check if the current width is larger than the max7
     if(width > maxWidth){
         ratio = maxWidth / width;   // get ratio for scaling image
-        image.css("width", maxWidth); // Set new width
-        image.css("height", height * ratio);  // Scale height based on ratio
+        imageContainerImage.css("width", maxWidth); // Set new width
+        imageContainerImage.css("height", height * ratio);  // Scale height based on ratio
 
         height = height * ratio;    // Reset height to match scaled image
         width = width * ratio;    // Reset width to match scaled image
+    } else if (width <= maxWidth) {  // get ratio for scaling image
+        imageContainerImage.css("width", width); // Set new width
+        imageContainerImage.css("height", "auto");  // Scale height based on ratio
     }
 
     // Check if current or newly width-scaled height is larger than max
     if(height > maxHeight){
         ratio = maxHeight / height; // get ratio for scaling image
-        image.css("height", maxHeight);   // Set new height
-        image.css("width", width * ratio);    // Scale width based on ratio
+        imageContainerImage.css("height", maxHeight);   // Set new height
+        imageContainerImage.css("width", width * ratio);    // Scale width based on ratio
     }
 }
 
@@ -945,6 +1000,10 @@ Date.prototype.dst = function() {
     return this.getTimezoneOffset() < this.stdTimezoneOffset();
 };
 
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 // </editor-fold>
 
 // <editor-fold desc="document event handlers -------------------------------------------------">
@@ -959,10 +1018,18 @@ jQuery(function ($) {
     }
 
     if (gMissionTimeParamSent == 0) {
+        var modal = $('#basic-modal-content');
+        modal.modal({opacity: 90});
+
         gIntroInterval = setIntroTimeUpdatePoller();
+
+        $('.simplemodal-wrap').isLoading({text: "Loading", position: "overlay"});
+        //console.log("Loading overlay on");
 
         $("#historicalBtn").button();
         $("#launchBtn").button();
+    } else {
+        $('body').isLoading({text: "Loading", position: "overlay"});
     }
 
     $("#fullscreenBtn")
@@ -1031,45 +1098,46 @@ jQuery(function ($) {
             alert("Help!");
         });
 
-  //   //init tabs
-    // $(".mid-center").tabs();
+    //init tabs
+    $(".mid-center").tabs();
 
     //tab clicks
-    //$("#tocTab").on("click", function() {
-    //    scrollTOCToTimeID(gLastTOCTimeId);
-    //});
-    //
-    //$("#commentaryTab").on("click", function() {
-    //    scrollCommentaryToTimeId(gLastCommentaryTimeId);
-    //});
+    $("#tocTab").on("click", function() {
+        scrollTOCToTimeID(gLastTOCTimeId);
+    });
+
+    $("#commentaryTab").on("click", function() {
+        scrollCommentaryToTimeId(gLastCommentaryTimeId);
+    });
 
     // OUTER-LAYOUT
-    // $('body').layout({
-    //     center__paneSelector: ".outer-center"
-    //     ,   north__paneSelector:    ".outer-north"
-    //     ,   west__paneSelector:     ".outer-west"
-    //     ,   east__paneSelector:     ".outer-east"
-    //     ,   north__togglerLength_open: 0
-    //     ,   center__togglerLength_open: 0
-    //     ,   west__togglerLength_open: 0
-    //     , north__size:      "13%"
-    //     ,   north__minSize:         120
-    //     ,   west__size:             "40%"
-    //     ,   east__size:             75
-    //     , spacing_open:     0  // ALL panes
-    //     , spacing_closed:     12 // ALL panes
-    //     ,
-    //     // WEST-LAYOUT (child of outer-west-pane)
-    //     west__childOptions: {
-    //         center__paneSelector: ".mid-center"
-    //         ,   north__paneSelector:    ".mid-north"
-    //         ,   north__size:             "60%"
-    //         ,   north__togglerLength_open: 0
-    //         ,   center__togglerLength_open: 0
-    //         , spacing_open:     0  // ALL panes
-    //         , spacing_closed:     12 // ALL panes
-    //     }
-    // });
+    $('body').layout({
+        center__paneSelector:	".outer-center"
+        ,   north__paneSelector:    ".outer-north"
+        ,   west__paneSelector:     ".outer-west"
+        ,   east__paneSelector:     ".outer-east"
+        ,   north__togglerLength_open: 0
+        ,   center__togglerLength_open: 0
+        ,   west__togglerLength_open: 0
+        ,	north__size:			"13%"
+        ,   north__minSize:         120
+        ,   west__size:             "40%"
+        ,   east__size:             75
+        ,	spacing_open:			0  // ALL panes
+        ,	spacing_closed:			12 // ALL panes
+        ,
+        // WEST-LAYOUT (child of outer-west-pane)
+        west__childOptions: {
+            center__paneSelector:	".mid-center"
+            ,   north__paneSelector:    ".mid-north"
+            ,   north__size:             "60%"
+            ,   center__size:            "40%"
+            ,   north__togglerLength_open: 0
+            ,   center__togglerLength_open: 0
+            ,	spacing_open:			0  // ALL panes
+            ,	spacing_closed:			12 // ALL panes
+        }
+    });
 });
 
 //on fullscreen toggle
@@ -1094,27 +1162,27 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
-    $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    var myCanvasElement = $('#myCanvas');
+    myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    myCanvasElement.css("width", $('.headerRight').width());
     //setTimeout(function(){
     //        populatePhotoGallery(); }
     //    ,1000);
-    scaleMissionImage();
+    //scaleMissionImage();
+    showCurrentPhoto(gCurrentPhotoTimeid, true);
     redrawAll();
 });
 
-function initSplash() {
-  var $splash = $('.splash-content');
-  $splash.waitForImages(function() {
-    $('body').addClass('splash-loaded');
-  });
-}
-
 //on document ready
 $(document).ready(function() {
-    // $('#myCanvas').css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    var myCanvasElement = $('#myCanvas');
+    myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
+    myCanvasElement.css("width", $('.headerRight').width());
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     //throttled scroll detection on utteranceDiv
-    $("#utteranceDiv").scroll($.throttle(function() {
+    var utteranceDiv = $("#utteranceDiv");
+    utteranceDiv.scroll($.throttle(function() {
         var utteranceDiv = $("#utteranceDiv");
         //console.log("scrolltop:" + utteranceDiv.scrollTop() + " bottom scroll:" + (utteranceDiv.scrollTop() + utteranceDiv.innerHeight()) + ":" + (parseInt(utteranceDiv[0].scrollHeight) - 300));
         if(utteranceDiv.scrollTop() < 300) {
@@ -1127,86 +1195,90 @@ $(document).ready(function() {
 
     }, 50));
 
-    initSplash();
+    utteranceDiv.delegate('.utterance', 'mouseenter', function() {
+        var shareButtonSelector = $('.share-button');
+        var loctop = $(this).position().top + 40;
+        var locright = $(this).position().left + $(this).width() - 48;
+        shareButtonSelector.css("display", "" );
+        shareButtonSelector.css("z-index", 1000 );
+        shareButtonSelector.animate({top: loctop, left: locright}, 0);
+        var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
+        hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
+        gHoveredUtteranceArray = hoveredUtteranceText.split("|");
+    });
 
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
+    $('#tabs-left-1').mouseleave(function() {
+        $('.share-button').css("display", "none" );
+    });
 
-    //$('.utterancetable').delegate('.utterance', 'mouseenter', function() {
-    //    var loctop = $(this).position().top;
-    //    var locright = $(this).position().left + $(this).width() - 28;
-    //    $('.share-button').animate({top: loctop, left: locright}, 0);
-    //    var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
-    //    hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
-    //    gHoveredUtteranceArray = hoveredUtteranceText.split("|");
-    //});
-    //
-    //new Share(".share-button", {
-    //    ui: {
-    //        flyout: "middle left",
-    //        button_text: ""
-    //    },
-    //    networks: {
-    //        google_plus: {
-    //            enabled: "false",
-    //            before: function(element) {
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared google plus: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'google plus');
-    //            }
-    //        },
-    //        facebook: {
-    //            app_id: "1639595472942714",
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared facebook: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'facebook');
-    //            }
-    //        },
-    //        twitter: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
-    //            },
-    //            after: function() {
-    //                console.log("User shared twitter: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'twitter');
-    //            }
-    //        },
-    //        pinterest: {
-    //            enabled: "false",
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared pinterest: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'pinterest');
-    //            }
-    //        },
-    //        email: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared email: ", this.title);
-    //                ga('send', 'event', 'share', 'click', 'email');
-    //            }
-    //        }
-    //    }
-    //});
+    new Share(".share-button", {
+        ui: {
+            flyout: "middle left",
+            button_text: ""
+        },
+        networks: {
+            google_plus: {
+                enabled: false,
+                before: function(element) {
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                },
+                after: function() {
+                    console.log("User shared google plus: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'google plus');
+                }
+            },
+            facebook: {
+                app_id: "1639595472942714",
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
+                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                },
+                after: function() {
+                    console.log("User shared facebook: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'facebook');
+                }
+            },
+            twitter: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
+                },
+                after: function() {
+                    console.log("User shared twitter: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'twitter');
+                }
+            },
+            pinterest: {
+                enabled: false,
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
+                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                },
+                after: function() {
+                    console.log("User shared pinterest: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'pinterest');
+                }
+            },
+            email: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                },
+                after: function() {
+                    console.log("User shared email: ", this.title);
+                    ga('send', 'event', 'share', 'click', 'email');
+                }
+            }
+        }
+    });
+    $('.share-button').css("display", "none" );
 });
 
 // </editor-fold>
