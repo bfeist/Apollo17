@@ -196,7 +196,7 @@ function processCommentaryData(allText) {
 
             if (data[2].length == 0) {
                 var attribution = data[1];
-                attribution = attribution.replace(/ALSJ/g, '<a href="https://www.hq.nasa.gov/alsj/" target="alsj">ALSJ</a> Commentary');
+                attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
                 data[1] = attribution;
             }
 

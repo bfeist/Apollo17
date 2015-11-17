@@ -10,6 +10,7 @@ var gLastTOCElement = '';
 var gLastTOCTimeId = '';
 var gLastCommentaryTimeId = '';
 var gLastCommentaryElement = '';
+var gLastUtteranceTimeId = '';
 var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
 var gIntervalID = null;
@@ -176,7 +177,7 @@ function autoScrollPoller() {
             gLastTimeIdChecked = gCurrMissionTime;
 
             scrollTranscriptToTimeId(timeId);
-            scrollTOCToTimeID(timeId);
+            scrollTOCToTimeId(timeId);
             scrollCommentaryToTimeId(timeId);
             showCurrentPhoto(timeId);
 
@@ -270,7 +271,7 @@ function scrollToClosestTOC(secondsSearch) {
         }
     }
     //console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
-    scrollTOCToTimeID(scrollTimeId);
+    scrollTOCToTimeId(scrollTimeId);
 }
 
 function scrollToClosestCommentary(secondsSearch) {
@@ -460,11 +461,11 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 
 // <editor-fold desc="scrolling things------------------------------------------------">
 
-function scrollTOCToTimeID(timeId) {
+function scrollTOCToTimeId(timeId) {
     if ($.inArray(timeId, gTOCIndex) != -1) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
         if ($("#tabs-left").tabs('option', 'active') != 1) {
-            $("#tocTab").effect("highlight", {color: '#006400'}, 1000); //blink the toc tab
+            $("#tocTab").effect("highlight", {color: '#006400'}, 2000); //blink the toc tab
         }
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
@@ -491,18 +492,18 @@ function scrollCommentaryToTimeId(timeId) {
     if ($.inArray(timeId, gCommentaryIndex) != -1) {
         //$("#tabs-left").tabs( "option", "active", 1 ); //activate the commentary tab
         if ($("#tabs-left").tabs('option', 'active') != 2) {
-            $("#commentaryTab").effect("highlight", {color: '#006400'}, 1000); //blink the commentary tab
+            $("#commentaryTab").effect("highlight", {color: '#006400'}, 2000); //blink the commentary tab
         }
 
         var commentaryElements = $('.comid' + timeId);
-        $('commentaryTable').children("*").css("background-color", ""); //clear all element highlights
+        $('#commentaryTable').children("*").css("background-color", ""); //clear all element highlights
         commentaryElements.css("background-color", gBackground_color_active); //set new element highlights
 
         var commentaryElement = $('#comid' + timeId);
         var commentaryDiv = $('#commentaryDiv');
         var newScrollDestination = commentaryDiv.scrollTop() + commentaryElement.offset().top - commentaryDiv.offset().top;
         commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
-            console.log('Commentary finished animating: ' + newScrollDestination);
+            //console.log('Commentary finished animating: ' + newScrollDestination);
         });
 
         gLastCommentaryElement = commentaryElement;
@@ -562,9 +563,10 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         });
 
         if ($("#tabs-left").tabs('option', 'active') != 0) {
-            $("#transcriptTab").effect("highlight", {color: '#006400'}, 1000); //blink the transcript tab
+            $("#transcriptTab").effect("highlight", {color: '#006400'}, 2000); //blink the transcript tab
         }
         gLastHighlightedTranscriptElement = highlightedTranscriptElement;
+        gLastUtteranceTimeId = timeId;
     }
 }
 
@@ -1102,12 +1104,19 @@ jQuery(function ($) {
     $(".mid-center").tabs();
 
     //tab clicks
+    //tab clicks
+    $("#transcriptTab").on("click", function() {
+        scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+    });
+
     $("#tocTab").on("click", function() {
-        scrollTOCToTimeID(gLastTOCTimeId);
+        scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+        //scrollTOCToTimeID(gLastTOCTimeId);
     });
 
     $("#commentaryTab").on("click", function() {
-        scrollCommentaryToTimeId(gLastCommentaryTimeId);
+        scrollToClosestCommentary(timeStrToSeconds(gCurrMissionTime));
+        //scrollCommentaryToTimeId(gLastCommentaryTimeId);
     });
 
     // OUTER-LAYOUT
@@ -1160,7 +1169,7 @@ $(window).bind('fullscreenchange', function(e) {
 });
 
 //on window resize
-$(window).resize(function(){ //scale image proportionally to image viewport on load
+$(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
     var myCanvasElement = $('#myCanvas');
     myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
@@ -1171,7 +1180,7 @@ $(window).resize(function(){ //scale image proportionally to image viewport on l
     //scaleMissionImage();
     showCurrentPhoto(gCurrentPhotoTimeid, true);
     redrawAll();
-});
+}, 250));
 
 //on document ready
 $(document).ready(function() {

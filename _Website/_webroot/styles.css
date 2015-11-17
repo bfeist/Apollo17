@@ -103,6 +103,9 @@ tr.utterance  {
     cursor: pointer;
     vertical-align: top;
 }
+tr.utterance:nth-child(odd)		{ background-color:#000; }
+tr.utterance:nth-child(even)	{ background-color: #0a0a0a; }
+
 tr.utterance:hover {
     /*background-color: #B5B4A4;*/
     background-color: #222222;
@@ -126,6 +129,9 @@ tr.commentary {
     cursor: pointer;
     vertical-align: top;
 }
+tr.commentary:nth-child(odd)	{ background-color:#000; }
+tr.commentary:nth-child(even)	{ background-color: #0a0a0a; }
+
 tr.commentary:hover {
     background-color: #222222;
 }
