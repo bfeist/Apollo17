@@ -237,6 +237,27 @@ function redrawAll() {
     paper.view.draw();
 }
 
+function updateNavigator() {
+    //console.log("redrawAll()");
+    setDynamicWidthVariables();
+
+    //draw tiers at different steps in time given the resolution in seconds
+    var curSeconds = timeStrToSeconds(gCurrMissionTime);
+    if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
+        console.log("updateNavigator():redraw tier 1");
+        drawTier1();
+        drawTier1NavBox(curSeconds);
+    }
+    //always redraw tier2 and 3 to make tier3 scroll (once per second)
+    drawTier2();
+    drawTier2NavBox(curSeconds);
+    drawTier3();
+    drawCursor(curSeconds);
+
+    //render navigator
+    paper.view.draw();
+}
+
 function drawCursor(seconds) {
     gCursorGroup.removeChildren();
     // tier1
@@ -398,9 +419,9 @@ function drawTier1() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemLocX = gTier1Left + (timeIdToSeconds(gPhotoList[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemLocX = gTier1Left + (timeIdToSeconds(gPhotoData[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
             var barHeight = gTier1Height / gHeightPhotoTickDenominator;
             var barTop = tierBottom - barHeight;
             var topPoint = new paper.Point(itemLocX, barTop);
@@ -535,9 +556,9 @@ function drawTier2() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier2StartSeconds;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier2StartSeconds;
             if (itemSecondsFromLeft > secondsOnTier2)
                 break;
             if (itemSecondsFromLeft >= 0) {
@@ -824,9 +845,9 @@ function drawTier3() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier3StartSeconds;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier3StartSeconds;
             if (itemSecondsFromLeft > secondsOnTier3)
                 break;
             if (itemSecondsFromLeft >= 0) {
