@@ -230,12 +230,14 @@ function processCommentaryData(allText) {
 function processPhotoData(allText) {
     //console.log("processPhotoData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         if (allTextLines[i] != "") {
             var data = allTextLines[i].split('|');
-            gPhotoList.push(data);
-            gPhotoLookup[data[0].split(":").join("")] = i;
+            gPhotoData.push(data);
+            gPhotoDataLookup[data[0]] = curRow;
             gPhotoIndex[i] = data[0];
+            curRow++;
         }
     }
 }

@@ -398,9 +398,9 @@ function drawTier1() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemLocX = gTier1Left + (timeIdToSeconds(gPhotoList[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemLocX = gTier1Left + (timeIdToSeconds(gPhotoData[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
             var barHeight = gTier1Height / gHeightPhotoTickDenominator;
             var barTop = tierBottom - barHeight;
             var topPoint = new paper.Point(itemLocX, barTop);
@@ -535,9 +535,9 @@ function drawTier2() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier2StartSeconds;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier2StartSeconds;
             if (itemSecondsFromLeft > secondsOnTier2)
                 break;
             if (itemSecondsFromLeft >= 0) {
@@ -824,9 +824,9 @@ function drawTier3() {
     }
 
     //display photo ticks
-    for (i = 0; i < gPhotoList.length; i++) {
-        if (gPhotoList[i][0] != "") {
-            itemSecondsFromLeft = timeIdToSeconds(gPhotoList[i][0]) - gTier3StartSeconds;
+    for (i = 0; i < gPhotoData.length; i++) {
+        if (gPhotoData[i][0] != "") {
+            itemSecondsFromLeft = timeIdToSeconds(gPhotoData[i][0]) - gTier3StartSeconds;
             if (itemSecondsFromLeft > secondsOnTier3)
                 break;
             if (itemSecondsFromLeft >= 0) {

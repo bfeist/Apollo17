@@ -24,9 +24,9 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
-var gPhotoList = [];
+var gPhotoData = [];
 var gPhotoIndex = [];
-var gPhotoLookup = [];
+var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
 var gCurrentPhotoTimeid = "initial";
@@ -181,7 +181,7 @@ function autoScrollPoller() {
             scrollTranscriptToTimeId(timeId);
             scrollTOCToTimeId(timeId);
             scrollCommentaryToTimeId(timeId);
-            showClosestPhoto(timeId);
+            showPhotoByTimeId(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
 
@@ -271,7 +271,7 @@ function scrollToClosestTOC(secondsSearch) {
             break;
         }
     }
-    //console.log("findClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
+    //console.log("scrollToClosestTOC(): searched TOC array, found closest: timeid" + gTOCIndex[i - 1] + " after " + i + " searches");
     scrollTOCToTimeId(scrollTimeId);
 }
 
@@ -290,8 +290,27 @@ function findClosestCommentary(secondsSearch) {
             break;
         }
     }
-    //console.log("scrollToClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    //console.log("findClosestCommentary(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
     return scrollTimeId;
+}
+
+function findClosestPhoto(secondsSearch) {
+    //console.log("scrollToClosestCommentary():" + secondsSearch);
+    if (gCurrVideoStartSeconds == 230400) {
+        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+            secondsSearch = secondsSearch + 9600;
+        }
+    }
+    var timeId = secondsToTimeId(secondsSearch);
+    var photoTimeId = gPhotoIndex[gPhotoIndex.length - 1];
+    for (var i = 0; i < gPhotoIndex.length; ++i) {
+        if (timeId < parseInt(gPhotoIndex[i])) {
+            photoTimeId = gPhotoIndex[i - 1];
+            break;
+        }
+    }
+    //console.log("findClosestPhoto(): searched commentary array, found closest: timeid" + gCommentaryIndex[i - 1] + " after " + i + " searches");
+    return photoTimeId;
 }
 
 // </editor-fold>
@@ -355,7 +374,7 @@ function seekToTime(timeId) { // transcript click handling --------------------
                 player.seekTo(seekToSecondsWithOffset, true);
             }
             //scrollToTimeID(findClosestUtterance(totalSeconds));
-            showClosestPhoto(timeId);
+            showPhotoByTimeId(findClosestPhoto(totalSeconds));
             scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
             scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
             scrollToClosestTOC(totalSeconds);
@@ -462,7 +481,9 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 // <editor-fold desc="scrolling things------------------------------------------------">
 
 function scrollTOCToTimeId(timeId) {
-    if (gTOCDataLookup[timeId] !== undefined) {
+    //if (gTOCDataLookup[timeId] !== undefined) {
+    if (gTOCDataLookup.hasOwnProperty(timeId)) {
+    //if ($.inArray(timeId, gTOCIndex) != -1) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
         if ($("#tabs-left").tabs('option', 'active') != 1) {
             $("#tocTab").effect("highlight", {color: '#006400'}, 2000); //blink the toc tab
@@ -482,7 +503,9 @@ function scrollTOCToTimeId(timeId) {
 }
 
 function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
-    if (gCommentaryDataLookup[timeId] !== undefined) {
+    //if (gCommentaryDataLookup[timeId] !== undefined) {
+    if (gCommentaryDataLookup.hasOwnProperty(timeId)) {
+    //if ($.inArray(timeId, gCommentaryIndex) != -1) {
         // console.log("scrollTranscriptToTimeId " + timeId);
         var commentaryDiv = $('#commentaryDiv');
         var commentaryTable = $('#commentaryTable');
@@ -523,7 +546,9 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
 }
 
 function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
-    if (gUtteranceDataLookup[timeId] !== undefined) {
+    //if (gUtteranceDataLookup[timeId] !== undefined) {
+    if (gUtteranceDataLookup.hasOwnProperty(timeId)) {
+    //if ($.inArray(timeId, gUtteranceIndex) != -1) {
         // console.log("scrollTranscriptToTimeId " + timeId);
         var utteranceDiv = $('#utteranceDiv');
         var utteranceTable = $('#utteranceTable');
@@ -828,7 +853,7 @@ function populatePhotoGallery() {
     photoGalleryDiv.html('');
 
     for (var i = 0; i < gPhotoIndex.length; i++) {
-        var photoObject = gPhotoList[i];
+        var photoObject = gPhotoData[i];
         var html = $('#photoGalleryTemplate').html();
         if (photoObject[3] != "") {
             var photoTypePath = "flight";
@@ -866,37 +891,21 @@ function populatePhotoGallery() {
     console.log("APPREADY: populatePhotoGallery(): " + gApplicationReady);
 }
 
-function showClosestPhoto(timeId, override) {
-    override = override || false;
-    //console.log('showClosestPhoto():' + timeId);
-    //var closestTime = closest(timeStr, gPhotoIndex);
+function showPhotoByTimeId(timeId) {
+    //if (gTOCDataLookup[timeId] !== undefined) {
+    if (gPhotoDataLookup.hasOwnProperty(timeId)) {
+        loadPhotoHtml(gPhotoDataLookup[timeId]);
 
-    //find closest photo and display it if it has changed
-    var currentClosestTime = parseInt(gPhotoIndex[0]);
-    var timeIDInt = parseInt(timeId);
-    for (var i = 0; i < gPhotoIndex.length; i++) {
-        if (gPhotoIndex[i] > timeIDInt) {
-            var photoIndexNum = i - 1;
-            currentClosestTime = gPhotoIndex[i - 1];
-            break;
-        }
-    }
-    if (currentClosestTime != gCurrentPhotoTimeid || override) {
-        gCurrentPhotoTimeid = currentClosestTime;
-        if (photoIndexNum > 0) {
-            loadPhotoHtml(photoIndexNum);
-            var photoGalleryDiv = $('#photoGallery');
-            photoGalleryDiv.children('*').css("border-color", "");
-            var photoGalleryImageTimeId = "#gallerytimeid" + timeStrToTimeId(gPhotoList[photoIndexNum][0]);
-            $(photoGalleryImageTimeId).css("border-color", "green");
+        //scroll photo gallery to current photo
+        var photoGalleryDiv = $('#photoGallery');
+        photoGalleryDiv.children('*').css("border-color", "");
+        var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
+        $(photoGalleryImageTimeId).css("border-color", "green");
 
-            var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
-            photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
-                //console.log('Finished animating gallery: ' + scrollDest);
-            });
-        } else {
-            console.log('showClosestPhoto:ERROR:Attempted to pass invalid index');
-        }
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
+        photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
+            //console.log('Finished animating gallery: ' + scrollDest);
+        });
     }
 }
 
@@ -906,7 +915,7 @@ function loadPhotoHtml(photoIndex) {
         console.log('**invalid photo call');
     }
     var photoDiv = $("#photodiv");
-    var photoObject = gPhotoList[photoIndex];
+    var photoObject = gPhotoData[photoIndex];
     var html = $('#photoTemplate').html();
 
     if (typeof photoObject != 'object') {
@@ -1272,7 +1281,7 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
     //        populatePhotoGallery(); }
     //    ,1000);
     //scaleMissionImage();
-    showClosestPhoto(gCurrentPhotoTimeid, true);
+    showPhotoByTimeId(gCurrentPhotoTimeid, true);
     redrawAll();
 }, 250));
 
