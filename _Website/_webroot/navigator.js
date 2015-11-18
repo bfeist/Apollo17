@@ -247,9 +247,9 @@ function updateNavigator() {
         console.log("updateNavigator():redraw tier 1");
         drawTier1();
         drawTier1NavBox(curSeconds);
+        drawTier2();
     }
-    //always redraw tier2 and 3 to make tier3 scroll (once per second)
-    drawTier2();
+    //always redraw tier2navbox and 3 to make tier3 scroll (once per second)
     drawTier2NavBox(curSeconds);
     drawTier3();
     drawCursor(curSeconds);
