@@ -237,6 +237,27 @@ function redrawAll() {
     paper.view.draw();
 }
 
+function updateNavigator() {
+    //console.log("redrawAll()");
+    setDynamicWidthVariables();
+
+    //draw tiers at different steps in time given the resolution in seconds
+    var curSeconds = timeStrToSeconds(gCurrMissionTime);
+    if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
+        console.log("updateNavigator():redraw tier 1");
+        drawTier1();
+        drawTier1NavBox(curSeconds);
+    }
+    //always redraw tier2 and 3 to make tier3 scroll (once per second)
+    drawTier2();
+    drawTier2NavBox(curSeconds);
+    drawTier3();
+    drawCursor(curSeconds);
+
+    //render navigator
+    paper.view.draw();
+}
+
 function drawCursor(seconds) {
     gCursorGroup.removeChildren();
     // tier1

@@ -118,7 +118,7 @@ function onPlayerStateChange(event) {
         }
         if (gIntervalID == null) {
             //poll for mission time scrolling if video is playing
-            gIntervalID = autoScrollPoller();
+            gIntervalID = setAutoScrollPoller();
             console.log("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
     } else if (event.data == YT.PlayerState.PAUSED) {
@@ -162,7 +162,7 @@ function onPlayerStateChange(event) {
 // </editor-fold>
 
 // <editor-fold desc="pollers -------------------------------------------------">
-function autoScrollPoller() {
+function setAutoScrollPoller() {
     console.log("autoScrollPoller()");
     return window.setInterval(function () {
         var totalSec = player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
@@ -187,7 +187,8 @@ function autoScrollPoller() {
 
             //scroll nav cursor
             if (!gMouseOnNavigator) {
-                redrawAll();
+                //redrawAll();
+                updateNavigator();
             } else {
                 drawCursor(totalSec);
                 paper.view.draw();
@@ -1030,7 +1031,7 @@ function initializePlayback() {
     }
     clearInterval(gApplicationReadyIntervalID);
     gApplicationReadyIntervalID = null;
-    gIntervalID = autoScrollPoller();
+    gIntervalID = setAutoScrollPoller();
 }
 
 // </editor-fold>
