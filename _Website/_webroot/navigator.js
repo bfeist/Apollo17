@@ -184,7 +184,7 @@ function onMouseOutHandler() {
     if (typeof gNavCursorGroup != "undefined") {
         gNavCursorGroup.removeChildren();
     }
-   //redrawAll();
+   redrawAll();
 }
 
 function setDynamicWidthVariables() {
