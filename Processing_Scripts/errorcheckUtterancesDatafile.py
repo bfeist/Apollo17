@@ -19,7 +19,7 @@ for _ in range(0, numPrevTimestampsToTrack):
     prevRowTimestamps.append(tsObj)
 
 for curFile in [ "A17 master TEC and PAO utterances.csv" ]:
-    inputFilePath = "E:\Apollo17.org\MISSION_DATA\\" + curFile
+    inputFilePath = "..\MISSION_DATA\\" + curFile
     reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
     for row in reader:
         curRow += 1
