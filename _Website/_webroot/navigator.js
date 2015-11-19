@@ -246,10 +246,10 @@ function updateNavigator() {
     if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
         console.log("updateNavigator():redraw tier 1");
         drawTier1();
-        drawTier1NavBox(curSeconds);
-        drawTier2();
     }
     //always redraw tier2 and 3 to make tier3 scroll (once per second)
+    drawTier1NavBox(curSeconds);
+    drawTier2();
     drawTier2NavBox(curSeconds);
     drawTier3();
     drawCursor(curSeconds);
