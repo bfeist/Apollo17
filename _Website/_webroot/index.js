@@ -1053,19 +1053,19 @@ function scaleMissionImage() {
 function initializePlayback() {
     console.log("initializePlayback()");
     if (gMissionTimeParamSent == 0) {
-        repopulateUtterances(findClosestUtterance(gDefaultStartTimeId)); //jump to default start time (usually 1 minute to launch)
-        repopulateCommentary(findClosestCommentary(gDefaultStartTimeId));
+        repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId))); //jump to default start time (usually 1 minute to launch)
+        repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
         seekToTime(gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
         if (typeof paramMissionTime != "undefined") {
-            repopulateUtterances(findClosestUtterance(timeStrToTimeId(paramMissionTime)));
-            repopulateCommentary(findClosestCommentary(timeStrToTimeId(paramMissionTime)));
+            repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
+            repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
             seekToTime(timeStrToTimeId(paramMissionTime));
         } else {
             console.log("Invalid t Parameter");
-            repopulateUtterances(findClosestUtterance(gDefaultStartTimeId));
-            repopulateCommentary(findClosestCommentary(gDefaultStartTimeId));
+            repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId)));
+            repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
             seekToTime(gDefaultStartTimeId);
         }
     }
