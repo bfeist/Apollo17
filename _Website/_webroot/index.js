@@ -699,6 +699,20 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     style = style || '';
     //console.log("getUtteranceObjectHTML():" + utteranceIndex);
     var utteranceObject = gUtteranceData[utteranceIndex];
+
+    var who_modified = utteranceObject[1];
+    who_modified = who_modified.replace(/CDR/g, "Cernan");
+    who_modified = who_modified.replace(/CMP/g, "Evans");
+    who_modified = who_modified.replace(/LMP/g, "Schmitt");
+    who_modified = who_modified.replace(/PAO/g, "Public Affairs");
+    who_modified = who_modified.replace(/CC/g, "Mission Control");
+    utteranceObject[1] = who_modified;
+    var words_modified = utteranceObject[2];
+    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+    utteranceObject[2] = words_modified;
+
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
     var timeId = timeStrToTimeId(utteranceObject[0]);
@@ -822,6 +836,27 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     style = style || '';
     //console.log("getCommentaryObjectHTML():" + commentaryIndex);
     var commentaryObject = gCommentaryData[commentaryIndex];
+
+    if (commentaryObject[2].length == 0) {
+        var attribution = commentaryObject[1];
+        attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
+        commentaryObject[1] = attribution;
+    }
+    if (commentaryObject[2].length != 0) {
+        var who_modified = commentaryObject[2];
+        who_modified = who_modified.replace(/CDR/g, "Cernan");
+        who_modified = who_modified.replace(/CMP/g, "Evans");
+        who_modified = who_modified.replace(/LMP/g, "Schmitt");
+        commentaryObject[2] = who_modified;
+    }
+    var words_modified = commentaryObject[3];
+    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+    words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
+    words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
+    commentaryObject[3] = words_modified;
+
     var html = $('#commentaryTemplate').html();
 
     if (typeof commentaryObject != 'object') {

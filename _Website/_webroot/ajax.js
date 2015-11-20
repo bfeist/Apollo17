@@ -169,21 +169,6 @@ function processUtteranceData(allText) {
             gUtteranceDataLookup[data[0]] = curRow;
             gUtteranceIndex[i] = data[0];
             data[0] = timeIdToTimeStr(data[0]);
-
-            var who_modified = data[1];
-            who_modified = who_modified.replace(/CDR/g, "Cernan");
-            who_modified = who_modified.replace(/CMP/g, "Evans");
-            who_modified = who_modified.replace(/LMP/g, "Schmitt");
-            who_modified = who_modified.replace(/PAO/g, "Public Affairs");
-            who_modified = who_modified.replace(/CC/g, "Mission Control");
-            data[1] = who_modified;
-
-            var words_modified = data[2];
-            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-            data[2] = words_modified;
-
             gUtteranceData.push(data);
             curRow ++;
         }
@@ -199,29 +184,6 @@ function processCommentaryData(allText) {
             gCommentaryIndex[curRow] = data[0];
             gCommentaryDataLookup[data[0]] = curRow;
             data[0] = timeIdToTimeStr(data[0]);
-
-            if (data[2].length == 0) {
-                var attribution = data[1];
-                attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
-                data[1] = attribution;
-            }
-
-            if (data[2].length != 0) {
-                var who_modified = data[2];
-                who_modified = who_modified.replace(/CDR/g, "Cernan");
-                who_modified = who_modified.replace(/CMP/g, "Evans");
-                who_modified = who_modified.replace(/LMP/g, "Schmitt");
-                data[2] = who_modified;
-            }
-
-            var words_modified = data[3];
-            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-            words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
-            words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
-            data[3] = words_modified;
-
             gCommentaryData.push(data);
             curRow ++;
         }

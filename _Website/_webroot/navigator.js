@@ -244,7 +244,7 @@ function updateNavigator() {
     //draw tiers at different steps in time given the resolution in seconds
     var curSeconds = timeStrToSeconds(gCurrMissionTime);
     if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
-        console.log("updateNavigator():redraw tier 1");
+        //console.log("updateNavigator():redraw tier 1");
         drawTier1();
     }
     //always redraw tier2 and 3 to make tier3 scroll (once per second)
