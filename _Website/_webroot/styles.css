@@ -144,9 +144,11 @@ tr.commentary > td {
 
 .utt_pao    	{color: #535353;}
 .utt_capcom    	{color: grey;}
-.utt_crew    	{color: #7da09a;}
+/*.utt_crew    	{color: #7da09a;}*/
+.utt_crew    	{color: #84b8d9;}
 .com_support    {color: grey;}
-.com_crew    	{color: #3473a6;}
+/*.com_crew    	{color: #3473a6;}*/
+.com_crew    	{color: #84b8d9;}
 
 .spokenwords    {font-weight:normal;}
 .timestamp	    {font-weight:normal;}
@@ -442,15 +444,17 @@ canvas[resize] {
 }
 #tabs-left .ui-tabs-nav .ui-state-default a {
     color: #ffffff;
+    font-weight: bold;
     /*color: #000000;*/
 }
 #tabs-left .ui-tabs-nav .ui-state-active a {
-    color: #00bc00;
+    color: #84b8d9;
+    font-weight: bold;
     /*color: black;*/
 }
 
 #tabs-left .ui-tabs-nav .ui-state-hover a {
-    color: #00bc00;
+    color: #84b8d9;
     background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
     border: none;
 }

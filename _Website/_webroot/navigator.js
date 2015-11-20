@@ -170,7 +170,7 @@ function initNavigator() {
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
-        //redrawAll();
+        redrawAll();
         console.log("NAV: Jumping to " + gCurrMissionTime);
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
@@ -238,18 +238,18 @@ function redrawAll() {
 }
 
 function updateNavigator() {
-    //console.log("redrawAll()");
+    //console.log("updateNavigator()");
     setDynamicWidthVariables();
 
     //draw tiers at different steps in time given the resolution in seconds
     var curSeconds = timeStrToSeconds(gCurrMissionTime);
     if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
-        console.log("updateNavigator():redraw tier 1");
+        //console.log("updateNavigator():redraw tier 1");
         drawTier1();
-        drawTier1NavBox(curSeconds);
-        drawTier2();
     }
-    //always redraw tier2navbox and 3 to make tier3 scroll (once per second)
+    //always redraw tier2 and 3 to make tier3 scroll (once per second)
+    drawTier1NavBox(curSeconds);
+    drawTier2();
     drawTier2NavBox(curSeconds);
     drawTier3();
     drawCursor(curSeconds);
@@ -451,6 +451,8 @@ function drawTier1NavBox(seconds) {
     } else if (gTier1NavBoxLocX + navBoxWidth > gTier1Left + gTier1Width) {
         gTier1NavBoxLocX = (gTier1Left + gTier1Width) - navBoxWidth;
     }
+    gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
+
     var navBoxRect = new paper.Rectangle(gTier1NavBoxLocX, gTier1Top, navBoxWidth, gTier1Height);
     var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
     navBoxRectPath.strokeColor = 'white';
@@ -527,8 +529,6 @@ function drawTier2() {
     tierRectPath.fillColor = "black";
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);
-
-    gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
     var secondsOnTier2 = gTier2SecondsPerPixel * gTier2Width;
 
     // draw video segments boxes
@@ -685,6 +685,7 @@ function drawTier2NavBox(seconds) {
     } else if (gTier2NavBoxLocX + navBoxWidth > gTier2Left + gTier2Width) {
         gTier2NavBoxLocX = (gTier2Left + gTier2Width) - navBoxWidth;
     }
+    gTier3StartSeconds = ((gTier2NavBoxLocX - gTier2Left) * gTier2SecondsPerPixel) + gTier2StartSeconds;
 
     var navBoxRect = new paper.Rectangle(gTier2NavBoxLocX, gTier2Top, navBoxWidth, gTier2Height);
     var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
@@ -760,7 +761,6 @@ function drawTier3() {
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);
 
-    gTier3StartSeconds = ((gTier2NavBoxLocX - gTier2Left) * gTier2SecondsPerPixel) + gTier2StartSeconds;
     var secondsOnTier3 = gTier3SecondsPerPixel * gTier3Width;
 
     // draw video segments boxes
