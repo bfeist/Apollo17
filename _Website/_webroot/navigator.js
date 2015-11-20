@@ -223,7 +223,7 @@ function setDynamicWidthVariables() {
 }
 
 function redrawAll() {
-    console.log("redrawAll()");
+    //console.log("redrawAll()");
     setDynamicWidthVariables();
 
     drawTier1();

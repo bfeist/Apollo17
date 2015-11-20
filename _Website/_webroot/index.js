@@ -588,6 +588,8 @@ function flashTab(tabName, tabNum, flashColor) {
     var flashDuration = 2000; //in ms
     if ($("#tabs-left").tabs('option', 'active') != tabNum) {
         $("#" + tabName).effect("highlight", {color: flashColor}, flashDuration); //blink the tab
+        //$("#" + tabName).effect("pulsate", {times: 2, color: flashColor}, flashDuration); //blink the tab
+        //$("#" + tabName).fadeTo(200, 0.5).fadeTo(200, 1.0); //blink the tab
     }
 }
 
@@ -645,7 +647,7 @@ function appendUtterances(count, atBottom) {
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
     var htmlToAppend = "";
-    var startIndex = gUtteranceDisplayEndIndex;
+    var startIndex = gUtteranceDisplayEndIndex + 1;
     var appendedCount = 0;
     for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0 && i < gUtteranceData.length) {
@@ -768,7 +770,7 @@ function appendCommentary(count, atBottom) {
     var commentaryDiv = $('#commentaryDiv');
     var commentaryTable = $('#commentaryTable');
     var htmlToAppend = "";
-    var startIndex = gCommentaryDisplayEndIndex;
+    var startIndex = gCommentaryDisplayEndIndex + 1;
     var appendedCount = 0;
     for (var i = startIndex; i < startIndex + count; i++) {
         if (i >= 0 && i < gCommentaryData.length) {
