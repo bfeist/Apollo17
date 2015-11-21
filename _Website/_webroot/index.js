@@ -527,14 +527,14 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
         //check if timeId is already loaded into commentary div
         if (gCommentaryDataLookup[timeId] < gCommentaryDisplayStartIndex + 49) { //prepend
             var prependCount = (gCommentaryDisplayStartIndex - gCommentaryDataLookup[timeId]) + 50;
-            if (prependCount > 200) {
+            if (prependCount > 100) {
                 repopulateCommentary(timeId);
             } else {
                 prependCommentary(prependCount);
             }
         } else if (gCommentaryDataLookup[timeId] > gCommentaryDisplayEndIndex - 49) { //append
             var appendCount = (gCommentaryDataLookup[timeId] - gCommentaryDisplayEndIndex) + 50;
-            if (appendCount > 200) {
+            if (appendCount > 100) {
                 repopulateCommentary(timeId);
             } else {
                 appendCommentary(appendCount);
@@ -569,14 +569,14 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         //check if timeId is already loaded into utterance div
         if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
             var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
-            if (prependCount > 200) {
+            if (prependCount > 100) {
                 repopulateUtterances(timeId);
             } else {
                 prependUtterances(prependCount);
             }
         } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
             var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
-            if (appendCount > 200) {
+            if (appendCount > 100) {
                 repopulateUtterances(timeId);
             } else {
                 appendUtterances(appendCount);
@@ -615,7 +615,7 @@ function repopulateUtterances(timeId) {
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
-    var endIndex = startIndex + 200;
+    var endIndex = startIndex + 100;
     startIndex = startIndex < 0 ? 0 : startIndex;
     endIndex = endIndex >= gUtteranceIndex.length ? gUtteranceIndex.length - 1 : endIndex;
     for (var i = startIndex; i <= endIndex; i++) {
@@ -684,7 +684,7 @@ function appendUtterances(count, atBottom) {
 
 function trimUtterances() {
     //trace("trimUtterances()");
-    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 200;
+    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 100;
     if (numberToRemove > 0) {
         var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
@@ -752,7 +752,7 @@ function repopulateCommentary(timeId) {
     var commentaryTable = $('#commentaryTable');
     commentaryTable.html('');
     var startIndex = commentaryIndex - 50;
-    var endIndex = startIndex + 200;
+    var endIndex = startIndex + 100;
     startIndex = startIndex < 0 ? 0 : startIndex;
     endIndex = endIndex >= gCommentaryIndex.length ? gCommentaryIndex.length - 1 : endIndex;  //TODO test >=
     for (var i = startIndex; i <= endIndex; i++) {
@@ -821,7 +821,7 @@ function appendCommentary(count, atBottom) {
 
 function trimCommentary() {
     //console.log("trimCommentary()");
-    var numberToRemove = (gCommentaryDisplayEndIndex - gCommentaryDisplayStartIndex) - 200;
+    var numberToRemove = (gCommentaryDisplayEndIndex - gCommentaryDisplayStartIndex) - 100;
     if (numberToRemove > 0) {
         var currDistFromStart = gCurrentHighlightedCommentaryIndex - gCommentaryDisplayStartIndex;
         var currDistFromEnd = gCommentaryDisplayEndIndex - gCurrentHighlightedCommentaryIndex;
