@@ -79,21 +79,21 @@ $(document).ready(function() {
     gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
     initNavigator();
     gApplicationReady += 1;
-    console.log("APPREADY: NAV: Navigator ready: " + gApplicationReady);
+    trace("APPREADY: NAV: Navigator ready: " + gApplicationReady);
 
     $("#myCanvas").mouseleave(function() {
         onMouseOutHandler();
     });
     //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
     $(document).bind("mouseleave",function(event) {
-        //console.log("$(document)mouseleave triggered");
+        //trace("$(document)mouseleave triggered");
         onMouseOutHandler();
-        //console.log("left window");
+        //trace("left window");
     });
 });
 
 function initNavigator() {
-    console.log("NAV: initNavigator");
+    trace("NAV: initNavigator");
 
     gTier1Group = new paper.Group;
     gTier1NavGroup = new paper.Group;
@@ -114,7 +114,7 @@ function initNavigator() {
 
 
     tool.onMouseMove = function (event) {
-        //console.log("on mouse move");
+        //trace("on mouse move");
         if (gIntroInterval == null) { //only freeze navigator if initial modal isn't up
             gMouseOnNavigator = true;
         }
@@ -127,7 +127,7 @@ function initNavigator() {
             } else if (mouseXSeconds > gMissionDurationSeconds) {
                 mouseXSeconds = gMissionDurationSeconds;
             }
-            //console.log(mouseXSeconds);
+            //trace(mouseXSeconds);
             drawTier1NavBox(mouseXSeconds);
             drawTier2();
             drawTier2NavBox(mouseXSeconds);
@@ -160,25 +160,25 @@ function initNavigator() {
     tool.onMouseUp = function (event) {
         var mouseXSeconds;
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if tier1 clicked
-            console.log("NAV: Tier1 clicked");
+            trace("NAV: Tier1 clicked");
             mouseXSeconds =( (event.point.x - gTier1Left) * gTier1SecondsPerPixel) - gCountdownSeconds;
         } else if (event.point.y >= gTier1Top + gTier1Height + gTierSpacing && event.point.y < gTier2Top + gTier2Height + gTierSpacing) {// if tier2 clicked
-            console.log("NAV: Tier2 clicked");
+            trace("NAV: Tier2 clicked");
             mouseXSeconds = (event.point.x - gTier2Left) * gTier2SecondsPerPixel + gTier2StartSeconds;
         } else { //tier3 clicked
-            console.log("NAV: Tier3 clicked");
+            trace("NAV: Tier3 clicked");
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
         redrawAll();
-        console.log("NAV: Jumping to " + gCurrMissionTime);
+        trace("NAV: Jumping to " + gCurrMissionTime);
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 }
 
 function onMouseOutHandler() {
     gMouseOnNavigator = false;
-    //console.log("mycanvas mouseleave");
+    //trace("mycanvas mouseleave");
 
     $('#navigatorKey').css('display', '');
     if (typeof gNavCursorGroup != "undefined") {
@@ -223,7 +223,7 @@ function setDynamicWidthVariables() {
 }
 
 function redrawAll() {
-    //console.log("redrawAll()");
+    //trace("redrawAll()");
     setDynamicWidthVariables();
 
     drawTier1();
@@ -238,13 +238,13 @@ function redrawAll() {
 }
 
 function updateNavigator() {
-    //console.log("updateNavigator()");
+    //trace("updateNavigator()");
     setDynamicWidthVariables();
 
     //draw tiers at different steps in time given the resolution in seconds
     var curSeconds = timeStrToSeconds(gCurrMissionTime);
     if (curSeconds % parseInt(gTier2SecondsPerPixel) == 0) { //redraw when time has move one tier2 pixel
-        //console.log("updateNavigator():redraw tier 1");
+        //trace("updateNavigator():redraw tier 1");
         drawTier1();
     }
     //always redraw tier2 and 3 to make tier3 scroll (once per second)
@@ -539,8 +539,6 @@ function drawTier2() {
     tierRectPath.fillColor = "black";
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);
-
-    gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
     var secondsOnTier2 = gTier2SecondsPerPixel * gTier2Width;
 
     // draw video segments boxes
@@ -623,7 +621,7 @@ function drawTier2() {
             var aLine = new paper.Path.Line(topPoint, bottomPoint);
             aLine.strokeColor = gColorTOCStroke;
             tempGroup.addChild(aLine);
-            if (gTOCAll[i][1] == "1") { //if level 1 TOC item
+            if (gTOCData[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
                     fontSize: 10 + gFontScaleFactor,
@@ -931,7 +929,7 @@ function drawTier3() {
                 fillColor: gColorTOCText
             });
             itemText.point = new paper.Point(itemLocX + 2 , barBottom);
-            itemText.content = gTOCAll[i][2];
+            itemText.content = gTOCData[i][2];
             tempGroup.addChild(itemText);
         }
     }

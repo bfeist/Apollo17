@@ -9,7 +9,7 @@ $.when(ajaxGetVideoURLData(),
     ajaxGetVideoSegmentData()).done(function(){
         // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
         gApplicationReady += 1;
-        console.log("APPREADY: Ajax loaded: " + gApplicationReady);
+        trace("APPREADY: Ajax loaded: " + gApplicationReady);
 
         setTimeout(function(){
                 populatePhotoGallery(); }

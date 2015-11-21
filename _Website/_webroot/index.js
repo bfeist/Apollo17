@@ -24,7 +24,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
-var gPhotoList = [];
+var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
 var gMissionStages = [];
@@ -94,7 +94,7 @@ function onPlayerReady(event) {
 // The API calls this function when the player's state changes.
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
-    trace("onPlayerStateChange():state: " + event.data);
+    //trace("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
@@ -502,14 +502,11 @@ function scrollTOCToTimeId(timeId) {
         var TOCFrameContents = TOCFrame.contents();
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
         var lineColor = TOCElement.css("color");
-        
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
         TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
         // flashTab("tocTab", 1, lineColor);
-        
-        //TOCElement.css("background-color", background_color_active);
-        //var scrollDestination = TOCElement.offset().top - 100;
+
         var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
         TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
         gLastTOCElement = TOCElement;
@@ -876,7 +873,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     var html = $('#commentaryTemplate').html();
 
     if (typeof commentaryObject != 'object') {
-        console.log("something very wrong");
+        trace("something very wrong");
     }
 
     var comId = timeStrToTimeId(commentaryObject[0]);
@@ -943,7 +940,7 @@ function populatePhotoGallery() {
 
     $("img.galleryImage").lazyload({
         container: photoGalleryDiv,
-        threshold : 200
+        threshold : 50
     });
 
     gApplicationReady += 1;
@@ -978,7 +975,7 @@ function loadPhotoHtml(photoIndex) {
     var html = $('#photoTemplate').html();
 
     if (typeof photoObject != 'object') {
-        console.log("something has gone very wrong");
+        trace("something has gone very wrong");
     }
 
     if (photoObject[3] != "") {
@@ -1019,7 +1016,7 @@ function loadPhotoHtml(photoIndex) {
     photoDiv.html('');
     photoDiv.append(html);
 
-    //prescale to height using css before calling scaleMissionImage so that it looks partically scaled as it loads
+    //prescale to height using css before calling scaleMissionImage so that it looks partially scaled as it loads
     //var imageContainerImage = $('#imageContainerImage');
     //imageContainerImage.css("width", 'auto');
     //imageContainerImage.css("height", photoDiv.height());
@@ -1171,7 +1168,7 @@ function getRandomInt(min, max) {
 }
 
 function trace(str) {
-    var debug = false;
+    var debug = true;
     if (debug === true) {
         try {
             console.log(str);
@@ -1372,10 +1369,10 @@ $(document).ready(function() {
     commentaryDiv.scroll($.throttle(function() {
         var commentaryDiv = $("#commentaryDiv");
         if(commentaryDiv.scrollTop() < 300) {
-            //console.log("top of commentaryDiv reached");
+            trace("top of commentaryDiv reached");
             prependCommentary(50, true);
         } else if(commentaryDiv.scrollTop() + commentaryDiv.innerHeight() >= parseInt(commentaryDiv[0].scrollHeight) - 300) {
-            //console.log("bottom of commentaryDiv reached");
+            trace("bottom of commentaryDiv reached");
             appendCommentary(50, true);
         }
     }, 10));
@@ -1385,10 +1382,10 @@ $(document).ready(function() {
     utteranceDiv.scroll($.throttle(function() {
         var utteranceDiv = $("#utteranceDiv");
         if(utteranceDiv.scrollTop() < 300) {
-            //console.log("top of utteranceDiv reached");
+            trace("top of utteranceDiv reached");
             prependUtterances(50, true);
         } else if(utteranceDiv.scrollTop() + utteranceDiv.innerHeight() >= parseInt(utteranceDiv[0].scrollHeight) - 300) {
-            //console.log("bottom of utteranceDiv reached");
+            trace("bottom of utteranceDiv reached");
             appendUtterances(50, true);
         }
     }, 10));
