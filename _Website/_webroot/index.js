@@ -320,16 +320,15 @@ function findClosestPhoto(secondsSearch) {
 
 function historicalButtonClick() {
     trace('historicalButtonClick');
-    // window.clearInterval(gIntroInterval);
-    // var nearestHistTimeId = getNearestHistoricalMissionTimeId();
-    // onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
-    // gIntroInterval = null;
+     window.clearInterval(gIntroInterval);
+    gIntroInterval = null;
+     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
+     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
-    //repopulateUtterances(nearestHistTimeId);
-    //repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
-    //seekToTime(nearestHistTimeId);
-
-    // fadeOutSplash();
+    repopulateUtterances(nearestHistTimeId);
+    repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
+    fadeOutSplash();
+    seekToTime(nearestHistTimeId);
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -447,6 +446,8 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
     $(".historicalTime").text(historicalDate.toLocaleTimeString());
+
+    $("#missionElapsedTime").text(gCurrMissionTime);
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
@@ -483,7 +484,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
 
     var timeId = padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
     //trace("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
-    ga('send', 'event', 'button', 'click', 'snap to real-time');
+    //ga('send', 'event', 'button', 'click', 'snap to real-time');
 
     //gPlaybackState = "rounding";
     return timeId;
@@ -958,7 +959,7 @@ function showPhotoByTimeId(timeId) {
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight;
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 60; //added offset for ted design
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });

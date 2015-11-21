@@ -389,11 +389,12 @@ function drawTier1() {
 
         var stageText = new paper.PointText({
             justification: 'left',
-            fontSize: 8 + gFontScaleFactor,
+            fontFamily: 'Oswald',
+            fontSize: 6 + gFontScaleFactor,
             fillColor: gColorMissionStageText
         });
-        var textTop = gTier1Top + (gTier1Height / 2) - 3;
-        stageText.point = new paper.Point(rectStartX + 2 , textTop);
+        var textTop = gTier1Top + (gTier1Height / 2);
+        stageText.point = new paper.Point(rectStartX + 2 , textTop - 1);
         stageText.content = gMissionStages[i][1];
         tempGroup.addChild(stageText);
     }
@@ -624,10 +625,11 @@ function drawTier2() {
             if (gTOCData[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
-                    fontSize: 10 + gFontScaleFactor,
+                    fontFamily: 'Oswald',
+                    fontSize: 9 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom - textPosition * (gTier2Height / 3) + 3;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 1;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCData[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -661,8 +663,9 @@ function drawTier2() {
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontWeight: 'bold',
-                fontSize: 11 + gFontScaleFactor,
+                fontFamily: 'Oswald',
+                //fontWeight: 'bold',
+                fontSize: 9 + gFontScaleFactor,
                 fillColor: gColorMissionStageText
             });
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
@@ -823,7 +826,8 @@ function drawTier3() {
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontWeight: 'bold',
+                fontFamily: 'Oswald',
+                //fontWeight: 'bold',
                 fontSize: 14 + gFontScaleFactor,
                 fillColor: "lightgrey"
             });
@@ -925,6 +929,7 @@ function drawTier3() {
             tempGroup.addChild(aLine);
             var itemText = new paper.PointText({
                 justification: 'left',
+                fontFamily: 'Oswald',
                 fontSize: 12 + gFontScaleFactor,
                 fillColor: gColorTOCText
             });

@@ -396,10 +396,10 @@ canvas[resize] {
 }
 
 .galleryImage {
-    /*height: 75px;
-    width: auto;*/
-    max-width: 100%;
-    height: 100%;
+    height: 105px;
+    width: auto;
+    /*max-width: 100%;*/
+    /*height: 100%;*/
 }
 
 .galleryOverlay {
@@ -708,7 +708,7 @@ canvas[resize] {
 }
 #navigator canvas {
   height: 100%;
-  opacity: .6;
+  opacity: 1;
   transition: opacity .5s ease-in-out;
 }
 #navigator:hover canvas {
@@ -717,11 +717,11 @@ canvas[resize] {
 .photos-wrapper {
   height: 100%;
 }
-.thumbs-wrapper {
-  height: 180px;
-  overflow: auto;
-  width: 70%;
-}
+/*.thumbs-wrapper {*/
+  /*height: 180px;*/
+  /*overflow: auto;*/
+  /*width: 70%;*/
+/*}*/
 .badge-row {
   background-position: center right;
   background-image: url("/img/Apollo_17-insignia100.png");
@@ -786,8 +786,8 @@ body.splash-loaded .splash-content {
   content: " ";
   display: block;
   background-size: cover;
-  background-position: center center;
-  background-image: url("/img/splash_bg.jpg");
+  background-position: center top;
+  background-image: url("img/splash_bg2.jpg");
   background-repeat: no-repeat;
   top: 0;
   /*bottom: 0;*/
@@ -968,6 +968,18 @@ body.app-ready .splash-btn.primary.selected {
   background-color: rgba(255, 198, 136, 1);
 }
 
+.blink_me {
+    animation: blinker 0.6s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0.6; }
+}
+
+.player-wrapper {
+  max-height: 600px;
+}
+
 .monitor {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -977,7 +989,8 @@ body.app-ready .splash-btn.primary.selected {
   position: relative;
   background-color: #000;
   margin: 5px;
-  padding: 12px;
+  /*padding: 12px;*/
+  padding: 5px;
 
   transition(height 250ms ease-in-out);
 }
