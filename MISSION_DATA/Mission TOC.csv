@@ -39,12 +39,14 @@
 065:00:00|2|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
 068:07:51|2|ALFMED flash observations experiment begins|
 069:25:48|2|Schmitt asks a difficult flight dynamics question|
+073:17:45|1|Half way to the moon|
 073:47:15|1|Crew Sleep Period Start|
 081:30:28|1|Crew wake-up|
 084:12:45|2|Scientific instrument module door jettison|
 086:46:30|2|Crew can see the moon for the first time|
 087:47:06|2|Jack Schmitt "speechless"|
-089:09:01|3|Video: Far side of the moon|
+088:43:38|1|Entering Lunar orbit|
+089:09:01|2|Video: Far side of the moon|
 089:40:03|2|S-IVB lunar impact|
 090:18:11|2|\"Flash\" observed on the lunar surface|
 093:35:00|1|Descent orbit insertion reported|
@@ -56,7 +58,7 @@
 112:57:48|3|Video: Landing camera on|
 113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
-115:17:12|1|EVA-1 Start|
+115:17:12|1|EVA-1 Prep|
 116:00:00|2|Getting spacesuits on|
 117:01:38|2|EVA-1 Watches started|
 117:10:42|2|Down the Ladder|
@@ -88,7 +90,9 @@
 128:54:10|1|Surface Crew sleep period|
 136:26:58|2|Communications with Ron Evans in lunar orbit|
 136:55:03|1|Surface Crew wake-up (music)|
-138:28:37|1|EVA-2 Start|
+138:13:06|2|EVA planning discussion|
+138:28:37|1|EVA-2 Prep|
+138:31:57|2|Instructions to build a replacment fender|
 140:34:20|2|EVA-2 Watches started|
 140:45:41|2|Video: EVA-2|
 141:19:00|3|LRV loaded for traverse|
@@ -124,7 +128,7 @@
 154:40:23|2|Communications with Ron Evans in lunar orbit|
 155:08:40|2|Description of EVA2 read to Evans|
 160:24:02|1|Surface Crew wake-up|
-163:32:48|1|EVA-3 Start|
+163:32:48|1|EVA-3 Prep|
 163:33:40|2|EVA-3 Watches started|
 163:46:15|3|Video: EVA-3|
 163:56:11|2|LRV loaded for traverse|Performed panoramic and 500mm photography.
@@ -167,8 +171,8 @@
 170:22:08|3|Cernan's speech about aerospace|
 170:28:20|3|Cernan walking back to LM|
 170:29:59|3|Schmitt throws his geology hammer|
-170:39:36|3|Video shot of Earth|
-170:41:17|3|Cernan's Last Steps speech|
+170:39:36|2|Video shot of Earth|
+170:41:17|1|Cernan's Last Steps speech|
 170:47:00|2|Lunar Module cabin repressurized|
 172:01:52|3|Chat with Charlie Duke|
 173:30:27|3|Debrief on EVA questions over dinner|
@@ -204,7 +208,7 @@
 210:17:23|2|\"Can't tell about these geologists\"|
 212:14:57|2|Searching for scissors|
 212:34:45|2|Turning off voice so \"transcribers can catch up with Jack\"|
-214:18:03|2|Scientific experiment performance summary|
+214:18:03|1|Scientific experiment summary|
 214:33:18|2|Laughter in mission control about Schmitt's biomed|
 220:27:36|1|Crew Sleep Period Start|
 228:11:01|1|Crew Wake-up (music)|Last day in lunar orbit

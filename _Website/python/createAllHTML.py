@@ -68,7 +68,7 @@ output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCall.csv"
+output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCData.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -88,6 +88,7 @@ csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
 	timestamp = row[0]
+	timeline_index_id = row[0].translate(None, ":")
 	item_depth = row[1]
 	if item_depth == "3":
 		item_depth = "2" # do this to avoid indentation of 3rd level items
@@ -102,14 +103,15 @@ for row in reader:
 	# toc_index_template = loader.load_template('template_TOC_index.html')
 	# output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
 
-	output_TOC_index_file.write(timestamp + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n")
+	# output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n") # include item description
+	output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "\n")
 
 # WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
 
 # copy TOC index to webroot
-# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCall.csv")
+# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCData.csv")
 
 
 # -------------------- Write Utterance Data
@@ -164,7 +166,7 @@ for commentary_row in commentary_reader:
 
 
 # --------------------------------- Write photo index
-output_photo_index_file_name_and_path = "../_webroot/indexes/photoIndex.csv"
+output_photo_index_file_name_and_path = "../_webroot/indexes/photoData.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()

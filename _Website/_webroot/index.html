@@ -64,7 +64,7 @@
     <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
 </head>
-<body>
+<body>    
 
   <?php include "inc/app.html"; ?>
 
@@ -74,7 +74,7 @@
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer" style="background-image: url('http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename')">
+        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename')">
 
             <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
                 <!-- <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename"> -->
@@ -103,16 +103,24 @@
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
-        <td class="timestamp @pao">@timestamp</td>
-        <td class="who @pao">@who</td>
-        <td class="spokenwords @pao">@words</td>
+    <tr class="utterance @uttType uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+        <td class="timestamp">@timestamp</td>
+        <td class="who">@who</td>
+        <td class="spokenwords">@words</td>
+    </tr>
+</script>
+
+<script type="text/html" id="commentaryTemplate">
+    <tr class="commentary @comType comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
+        <td class="timestamp">@timestamp</td>
+        <td class="who">@who</td>
+        <td class="spokenwords">@words <span class="attribution">@attribution</span></td>
     </tr>
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="gallerytimeid@timeid" style="background-image: url('http://apollo17.org/mission_images/@photoTypePath/75/@filename')">
-        <!-- <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')"> -->
+    <div class="galleryItemContainer" id="gallerytimeid@timeid" style="background-image: url('@serverUrl/mission_images/@photoTypePath/75/@filename')">
+        <!-- <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')"> -->
         <img src="img/placeholder-square.png" class="aspect-holder">
         <div class="galleryOverlay">@timestamp</div>
     </div>

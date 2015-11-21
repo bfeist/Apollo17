@@ -1,81 +1,137 @@
 //--------------- async page initialization calls ---------------
 
-$.when(ajaxGetMediaIndex(),
-    ajaxGetTOCAll(),
-    ajaxGetCommentaryIndex(),
+$.when(ajaxGetVideoURLData(),
+    ajaxGetTOCData(),
+    ajaxGetCommentaryData(),
     ajaxGetUtteranceData(),
-    ajaxGetPhotoIndex(),
+    ajaxGetPhotoData(),
     ajaxGetMissionStagesData(),
-    ajaxGetVideoSegmentsData()).done(function(){
+    ajaxGetVideoSegmentData()).done(function(){
         // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
         gApplicationReady += 1;
         console.log("APPREADY: Ajax loaded: " + gApplicationReady);
 
         setTimeout(function(){
-            populatePhotoGallery(); }
-        ,1000);
+                populatePhotoGallery(); }
+            ,1000);
     });
 
 //--------------- index file handling --------------------
 
-function ajaxGetMediaIndex() {
+function ajaxGetVideoURLData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/videoURLData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/media_index.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
-        success: function(data) {processMediaIndexData(data);}
+        success: function(data) {processVideoURLData(data);}
     });
 }
-function ajaxGetTOCAll() {
+function ajaxGetTOCData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/TOCData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
-        success: function(data) {processTOCAllData(data);}
+        success: function(data) {processTOCData(data);}
     });
 }
 function ajaxGetUtteranceData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/utteranceData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/utteranceData.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processUtteranceData(data);}
     });
 }
-function ajaxGetCommentaryIndex() {
+function ajaxGetCommentaryData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/commentaryData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
-        success: function(data) {processCommentaryIndexData(data);}
+        success: function(data) {processCommentaryData(data);}
     });
 }
-function ajaxGetPhotoIndex() {
+function ajaxGetPhotoData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/photoData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
-        success: function(data) {processPhotoIndexData(data);}
+        success: function(data) {processPhotoData(data);}
     });
 }
 function ajaxGetMissionStagesData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/missionStagesData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
         success: function(data) {processMissionStagesData(data);}
     });
 }
-function ajaxGetVideoSegmentsData() {
+function ajaxGetVideoSegmentData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/videoSegmentData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: "./indexes/video_segments.csv?stopcache=" + Math.random(),
+        url: urlStr,
         dataType: "text",
-        success: function(data) {processVideoSegmentsData(data);}
+        success: function(data) {processVideoSegmentData(data);}
     });
 }
-function processMediaIndexData(allText) {
-    //console.log("processMediaIndexData");
+function processVideoURLData(allText) {
+    //console.log("processVideoURLData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
@@ -88,42 +144,62 @@ function processMediaIndexData(allText) {
         gMediaList.push(rec);
     }
 }
-function processTOCAllData(allText) {
+function processTOCData(allText) {
     //console.log("processTOCIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
-            gTOCAll.push(data);
-            gTOCIndex[i] = data[0].split(":").join("");
+            gTOCIndex[i] = data[0];
+            gTOCDataLookup[data[0]] = curRow;
+            data[0] = timeIdToTimeStr(data[0]);
+            gTOCData.push(data);
+            curRow++;
         }
     }
 }
 function processUtteranceData(allText) {
     //console.log("processUtteranceData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
+            gUtteranceDataLookup[data[0]] = curRow;
+            gUtteranceIndex[i] = data[0];
+            data[0] = timeIdToTimeStr(data[0]);
             gUtteranceData.push(data);
-            gUtteranceDataLookup[data[0].split(":").join("")] = i;
-            gUtteranceIndex[i] = data[0].split(":").join("");
+            curRow ++;
         }
     }
 }
-function processCommentaryIndexData(allText) {
+function processCommentaryData(allText) {
     //console.log("processCommentaryIndexData");
-    gCommentaryIndex = allText.split(/\r\n|\n/);
-}
-function processPhotoIndexData(allText) {
-    //console.log("processPhotoIndexData");
     var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gCommentaryIndex[curRow] = data[0];
+            gCommentaryDataLookup[data[0]] = curRow;
+            data[0] = timeIdToTimeStr(data[0]);
+            gCommentaryData.push(data);
+            curRow ++;
+        }
+    }
+}
+function processPhotoData(allText) {
+    //console.log("processPhotoData");
+    var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         if (allTextLines[i] != "") {
             var data = allTextLines[i].split('|');
-            gPhotoList.push(data);
-            gPhotoLookup[data[0].split(":").join("")] = i;
+            gPhotoData.push(data);
+            gPhotoDataLookup[data[0]] = curRow;
             gPhotoIndex[i] = data[0];
+            curRow++;
         }
     }
 }
@@ -141,8 +217,8 @@ function processMissionStagesData(allText) {
     }
     gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
-function processVideoSegmentsData(allText) {
-    //console.log("processVideoSegmentsData");
+function processVideoSegmentData(allText) {
+    //console.log("processVideoSegmentData");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');

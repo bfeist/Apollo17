@@ -134,7 +134,7 @@ li:hover {
     background-color: #222222;
 }
 
-/* ----------------- transcript -----------------*/
+/* ----------------- transcript and commentary -----------------*/
 #utteranceDiv {
     overflow-y: scroll;
     position: relative;
@@ -147,6 +147,9 @@ tr.utterance  {
     cursor: pointer;
     vertical-align: top;
 }
+tr.utterance:nth-child(odd)		{ background-color:#000; }
+tr.utterance:nth-child(even)	{ background-color: #0a0a0a; }
+
 tr.utterance:hover {
     /*background-color: #B5B4A4;*/
     background-color: #222222;
@@ -157,19 +160,25 @@ tr.utterance > td {
     line-height: 1.3;
 }
 
-.spokenwords{font-weight:normal;}
-.pao    	{color: #5E92A6;}
-.timestamp	{font-weight:normal;}
-.who		{font-weight:bold; text-align:right;}
-
-/* ----------------- commentary -----------------*/
-.commentarytable {border: 2px; padding: 2px; border-collapse: collapse;}
-tr.commentary:hover {
-    background-color: #222222;
+#commentaryDiv {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+.commentaryTable {
+    border: 2px;
+    padding: 2px;
+    border-collapse: collapse;
 }
 tr.commentary {
     cursor: pointer;
     vertical-align: top;
+}
+tr.commentary:nth-child(odd)	{ background-color:#000; }
+tr.commentary:nth-child(even)	{ background-color: #0a0a0a; }
+
+tr.commentary:hover {
+    background-color: #222222;
 }
 tr.commentary > td {
     padding: 3px;
@@ -177,27 +186,19 @@ tr.commentary > td {
     font-size: .9em;
   color: #999;
 }
-.afjgeted   {
-  /*color: gray;*/
-}
-.afjed		{
-    /*color: #2B547E;*/
-    padding: 3px;
-    padding-bottom: 10px;
-}
-.afjedwords {
-    /*color: #2B547E;*/
-}
-.afjedwords::before	{content: "[ "}
-.afjedwords::after	{content: " ]"}
 
-.afjsrc	{
-    font-style:italic;
-    color: #5E92A6;
-}
-tr.commentary > td.afjwho {
-    font-weight: bold;
-}
+.utt_pao    	{color: #535353;}
+.utt_capcom    	{color: grey;}
+/*.utt_crew    	{color: #7da09a;}*/
+.utt_crew    	{color: #84b8d9;}
+.com_support    {color: grey;}
+/*.com_crew    	{color: #3473a6;}*/
+.com_crew    	{color: #84b8d9;}
+
+.spokenwords    {font-weight:normal;}
+.timestamp	    {font-weight:normal;}
+.who		    {font-weight:bold; text-align:right;}
+.attribution    {font-style:italic; color: SaddleBrown;}
 
 /* ----------------- instructions -----------------*/
 #instructionsDiv {
@@ -316,7 +317,7 @@ canvas[resize] {
 
 #imageOverlay {
     position: absolute;
-    bottom: -200px;
+    bottom: -1000px;
     /*bottom: 0px;*/
     left: 0;
     width: 100%;
@@ -520,15 +521,17 @@ canvas[resize] {
 }
 #tabs-left .ui-tabs-nav .ui-state-default a {
     /*color: #ffffff;*/
+    /*font-weight: bold;*/
     /*color: #000000;*/
 }
 #tabs-left .ui-tabs-nav .ui-state-active a {
-    /*color: #00bc00;*/
+    /*color: #84b8d9;*/
+    /*font-weight: bold;*/
     /*color: black;*/
 }
 
 #tabs-left .ui-tabs-nav .ui-state-hover a {
-    /*color: #00bc00;
+    /*color: #84b8d9;
     background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
     border: none;*/
 }
@@ -573,6 +576,11 @@ canvas[resize] {
     height:20px;
     position:absolute;
     opacity:0.7;
+}
+
+.share-button {
+    position:absolute;
+    /*display: none;*/
 }
 
 /* ----------------- LOADER -----------------*/
