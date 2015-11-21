@@ -295,8 +295,10 @@ function drawCursor(seconds) {
         fillColor: gColorCursor
     });
     timeText.content = secondsToTimeStr(seconds);
-    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
-    var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
+    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 16.5);
+    var cornerSize = new paper.Size(3, 3);
+    var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
+    //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = gColorCursor;
     timeTextRect.fillColor = "black";
     //timeTextRect.opacity = 0.5;
@@ -342,13 +344,15 @@ function drawNavCursor(seconds) {
         fillColor: gColorNavCursor
     });
     timeText.content = secondsToTimeStr(seconds);
-    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 14);
+    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 16.5);
     if (timeText.point.x < 5) {
         timeText.point.x = 5;
     } else if (timeText.point.x > gNavigatorWidth - timeText.bounds.width - 5) {
         timeText.point.x = gNavigatorWidth - timeText.bounds.width - 5;
     }
-    var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
+    var cornerSize = new paper.Size(3, 3);
+    var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
+    //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = gColorNavCursor;
     timeTextRect.fillColor = 'black';
     //timeTextRect.opacity = 0.5;
@@ -363,7 +367,9 @@ function drawTier1() {
 
     var tierBottom = gTier1Top + gTier1Height;
     var tierRect = new paper.Rectangle(gTier1Left, gTier1Top, gTier1Width, gTier1Height);
-    var tierRectPath = paper.Path.Rectangle(tierRect);
+    var cornerSize = new paper.Size(2, 2);
+    var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
+    //var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);
 
@@ -454,7 +460,9 @@ function drawTier1NavBox(seconds) {
     gTier2StartSeconds = (gTier1SecondsPerPixel * (gTier1NavBoxLocX - gTier1Left) - gCountdownSeconds);
 
     var navBoxRect = new paper.Rectangle(gTier1NavBoxLocX, gTier1Top, navBoxWidth, gTier1Height);
-    var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
+    var cornerSize = new paper.Size(2, 2);
+    var navBoxRectPath = paper.Path.RoundRectangle(navBoxRect, cornerSize);
+    //var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
     navBoxRectPath.strokeColor = 'white';
     gTier1NavGroup.addChild(navBoxRectPath);
 
@@ -525,7 +533,9 @@ function drawTier2() {
 
     var tierBottom = gTier2Height + gTier2Top;
     var tierRect = new paper.Rectangle(gTier2Left, gTier2Top, gTier2Width, gTier2Height);
-    var tierRectPath = paper.Path.Rectangle(tierRect);
+    var cornerSize = new paper.Size(3, 3);
+    var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
+    //var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = "black";
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);
@@ -688,7 +698,9 @@ function drawTier2NavBox(seconds) {
     gTier3StartSeconds = ((gTier2NavBoxLocX - gTier2Left) * gTier2SecondsPerPixel) + gTier2StartSeconds;
 
     var navBoxRect = new paper.Rectangle(gTier2NavBoxLocX, gTier2Top, navBoxWidth, gTier2Height);
-    var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
+    var cornerSize = new paper.Size(3, 3);
+    var navBoxRectPath = paper.Path.RoundRectangle(navBoxRect, cornerSize);
+    //var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
     navBoxRectPath.strokeColor = 'white';
     gTier2NavGroup.addChild(navBoxRectPath);
 
@@ -756,7 +768,9 @@ function drawTier3() {
 
     var tierBottom = gTier3Height + gTier3Top;
     var tierRect = new paper.Rectangle(1, gTier3Top, gNavigatorWidth - 1, gTier3Height);
-    var tierRectPath = paper.Path.Rectangle(tierRect);
+    var cornerSize = new paper.Size(5, 5);
+    var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
+    //var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = 'black';
     tierRectPath.strokeColor = gColorTierBoxStroke;
     tempGroup.addChild(tierRectPath);

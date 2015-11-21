@@ -96,7 +96,7 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
     //console.log("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
-        console.log("onPlayerStateChange():PLAYER PLAYING");
+        //console.log("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
         $("#playPauseBtn").button({
             icons: { primary: 'ui-icon-pause' },
@@ -104,12 +104,12 @@ function onPlayerStateChange(event) {
             label: "Pause"
         });
         if (gNextVideoStartTime != -1) {
-            console.log("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
+            //console.log("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
             player.seekTo(gNextVideoStartTime, true);
             gNextVideoStartTime = -1;
         }
         if (gPlaybackState == "unexpectedbuffering") {
-            console.log("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
+            //console.log("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
             ga('send', 'event', 'transcript', 'click', 'youtube scrub');
             //scrollToTimeID(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
             scrollTranscriptToTimeId(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
@@ -119,12 +119,12 @@ function onPlayerStateChange(event) {
         if (gIntervalID == null) {
             //poll for mission time scrolling if video is playing
             gIntervalID = setAutoScrollPoller();
-            console.log("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
+            //console.log("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
     } else if (event.data == YT.PlayerState.PAUSED) {
         //clear polling for mission time scrolling if video is paused
         window.clearInterval(gIntervalID);
-        console.log("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
+        //console.log("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
         $("#playPauseBtn").button({
@@ -133,7 +133,7 @@ function onPlayerStateChange(event) {
             label: "Play"
         });
     } else if (event.data == YT.PlayerState.BUFFERING) {
-        console.log("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
+        //console.log("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
         if (gPlaybackState == "transcriptclicked") {
             gPlaybackState = "normal";
         } else {
@@ -142,7 +142,7 @@ function onPlayerStateChange(event) {
             gPlaybackState = "unexpectedbuffering";
         }
     } else if (event.data == YT.PlayerState.ENDED) { //load next video
-        console.log("onPlayerStateChange():ENDED. Load next video.");
+        //console.log("onPlayerStateChange():ENDED. Load next video.");
         var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
         for (var i = 0; i < gMediaList.length; ++i) {
             if (gMediaList[i][1] == currVideoID) {
