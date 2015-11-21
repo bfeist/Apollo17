@@ -33,7 +33,7 @@ dependencies:
 			_selectedIndex,
 			
 			$opts = {
-				showDebugInfo: true
+				showDebugInfo: false
 			};
 		$.extend($opts, conf);
 

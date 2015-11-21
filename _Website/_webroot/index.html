@@ -31,7 +31,6 @@
 
     <?php include "inc/style_tags.html" ?>
 
-
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -41,12 +40,11 @@
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
     </script>
-
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <!-- <script type="text/javascript" src="lib/jquery.isloading.js"></script> -->
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="lib/jquery.layout-latest.js"></script>
+    <!-- script type="text/javascript" src="lib/jquery.layout-latest.js"></script -->
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <!-- <script type="text/javascript" src="lib/jquery.simplemodal.js"></script> -->
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
@@ -56,10 +54,11 @@
     <script type="text/javascript" src="lib/moment.js"></script>
     <script type="text/javascript" src="lib/readable-range.js"></script>
     <script type="text/javascript" src='lib/share.js'></script>
-
-
+    <script type="text/javascript" src='lib/jquery.ba-throttle-debounce.min.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
+
     <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
+    <script type="text/javascript" src='lib/size_manager.js'></script>
 
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
@@ -79,8 +78,7 @@
 
             <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
                 <!-- <img id="imageContainerImage" src="http://apollo17.org/mission_images/@photoTypePath/@sizepath/@filename"> -->
-                <!-- img src="img/placeholder-square.png" -->
-                <img id="imageContainerImage" src="http://cdn1.apollo17.org/mission_images/@photoTypePath/@sizepath/@filename">
+                <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 
             <div id="imageOverlay">
@@ -105,24 +103,17 @@
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance @uttType uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
-        <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words</td>
-    </tr>
-</script>
-
-<script type="text/html" id="commentaryTemplate">
-    <tr class="commentary @comType comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
-        <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words <span class="attribution">@attribution</span></td>
+    <tr class="utterance uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+        <td class="timestamp @pao">@timestamp</td>
+        <td class="who @pao">@who</td>
+        <td class="spokenwords @pao">@words</td>
     </tr>
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
+    <div class="galleryItemContainer" id="gallerytimeid@timeid" style="background-image: url('http://apollo17.org/mission_images/@photoTypePath/75/@filename')">
+        <!-- <img class="galleryImage" data-original="http://apollo17.org/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')"> -->
+        <img src="img/placeholder-square.png" class="aspect-holder">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>

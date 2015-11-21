@@ -1,113 +1,139 @@
 
 <section class="app">
   <header>
-    <div class="logo-wrapper">[logo]</div>
-    <div class="navigator-wrapper">
+
+    <div class="logo-wrapper"><img src="img/Apollo_17-insignia100.png"></div>
+
+    <div class="info-wrapper">
+      <div class="content">
+          <div class="pre-title">The Last Men on the Moon</div>
+          <div class="title">Apollo 17</div>
+          <div class="subtitle">Real-Time Mission Experience</div>
+          <div class="historicalDate date">Thu Dec 07 1972</div>
+          <div class="historicalTime time">12:32:00 AM</div>
+          <div id="missionTime">Mission Elapsed Time: <span id="timer">000:00:00</span></div>
+        </div>
+    </div>
+    
+    <div class="monitor">
       
       <!-- navigator -->
-      <div id="navigator" class="monitor">
-          <canvas id="myCanvas" resize keepalive="true"></canvas> <!-- canvas height at 12% detected by firefox only -->
+      <div id="navigator" class="navigator-wrapper">
+        <canvas id="myCanvas" resize keepalive="true"></canvas>
       </div>
 
     </div>
+
   </header>
 
   <div class="body">
 
     <div class="video-block">
-      <div class="video-wrapper">
-        <!-- video -->
-        <div class="player-wrapper monitor flex-block">
-          <div id="player"></div>
+
+      <div class="monitor video-monitor">
+        <div class="video-wrapper">
+          <!-- video -->
+          <img src="img/3x2.png" class="aspect-holder">
+
+          <div class="player-wrapper">
+            <div id="player"></div>
+          </div>
         </div>
       </div>
-      <div class="controls-wrapper">
+
+      <!-- <div class="controls-wrapper"> -->
     
         <!-- text readout nav -->
         <div class="tabs-wrapper">
-          <div id="tabs-left" class="mid-center">
+          <!-- <div id="tabs-left" class="mid-center"> -->
 
               <ul class="button-row" data-js-class="TabbedContentManager" data-tc-id="tabs-left" >
-                  <li><A id="transcriptTab" href="#" class="splash-btn"><SPAN>Transcript</SPAN></A></li>
-                  <li><A id="tocTab" href="#" class="splash-btn"><SPAN>Table of Contents</SPAN></A></li>
-                  <li><A id="commentaryTab" href="#" class="splash-btn"><SPAN>Mission Commentary</SPAN></A></li>
+                  <li><A id="transcriptTab" href="#" class="splash-btn primary"><SPAN>Transcript</SPAN></A></li>
+                  <li><A id="tocTab" href="#" class="splash-btn primary"><SPAN>Table of Contents</SPAN></A></li>
+                  <li><A id="commentaryTab" href="#" class="splash-btn primary"><SPAN>Mission Commentary</SPAN></A></li>
                   <!-- <li><A id="instructionsTab" href="#" class="splash-btn"><SPAN>Instructions</SPAN></A></li> -->
               </ul>
 
+          <!-- </div> -->
+        <!-- </div> -->
+
+      </div>
+
+      <div class="monitor" data-js-class="SizeManager" data-sm-parent=".video-block" data-sm-min-height="160" data-sm-buddy=".video-monitor">
+        
+        <div class="output-wrapper">
+        
+          <!-- text -->
+          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <div id="utteranceDiv">
+                  <table class="utteranceTable" id="utteranceTable"></table>
+              </div>
+          </div>
+          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+          </div>
+          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
+          </div>
+          <div data-tc-target data-tc-id="tabs-left">
+              <div id="instructionsDiv">
+                  <P><B>This is a real-time interactive exploration of the Apollo 17 Mission.<BR>
+                      You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
+                  <p>Instructions:</p>
+                  <ul>
+                      <li>Chrome / Firefox / Safari preferred. Works on iPad with patience.</li>
+                      <li>Click transcript items and playback will jump to that moment.</li>
+                      <li>For big jumps, use the mission navigator at the top of the page (or table of contents tab)</li>
+                      <li>Jump to different points using the video scrubber and playback will jump to that moment.</li>
+                  </ul>
+                  <p>Project History:</p>
+                  <ul>
+                      <li>10/27/2015: v1.0b2 Complete rework of interface. Introduced navigator element. Cross-device compatibility.</li>
+                      <li>05/08/2015: v0.6 Social sharing of a given moment added. Also, several transcript corrections thanks to Robin Wheeler's assistance.</li>
+                      <li>04/14/2015: v0.5 Commentary and imagery updates in real-time. Commentary for first day online. Imagery ongoing.</li>
+                      <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
+                      <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
+                      <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
+                      <li>03/25/2015: v0.1 Initial launch made public.</li>
+                  </ul>
+                  <p><B>Note: This is an early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in full detail. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
+                  <p>Planned Features:</p>
+                  <ul>
+                      <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
+                  </ul>
+              </div>
           </div>
         </div>
 
       </div>
-      <div class="text-wrapper">
-        
-      <!-- text -->
-          <div class="monitor output-screen">
-            <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
-                <div id="utteranceDiv">
-                    <table class="utteranceTable" id="utteranceTable"></table>
-                </div>
-            </div>
-            <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
-                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
-            </div>
-            <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
-                <iframe src="commentary.html" class="iFrameClass" id="iFrameCommentary" name="iFrameCommentary" scrolling="yes" height="100%" width="100%"></iframe>
-            </div>
-            <div data-tc-target data-tc-id="tabs-left">
-                <div id="instructionsDiv">
-                    <P><B>This is a real-time interactive exploration of the Apollo 17 Mission.<BR>
-                        You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
-                    <p>Instructions:</p>
-                    <ul>
-                        <li>Chrome / Firefox / Safari preferred. Works on iPad with patience.</li>
-                        <li>Click transcript items and playback will jump to that moment.</li>
-                        <li>For big jumps, use the mission navigator at the top of the page (or table of contents tab)</li>
-                        <li>Jump to different points using the video scrubber and playback will jump to that moment.</li>
-                    </ul>
-                    <p>Project History:</p>
-                    <ul>
-                        <li>10/27/2015: v1.0b2 Complete rework of interface. Introduced navigator element. Cross-device compatibility.</li>
-                        <li>05/08/2015: v0.6 Social sharing of a given moment added. Also, several transcript corrections thanks to Robin Wheeler's assistance.</li>
-                        <li>04/14/2015: v0.5 Commentary and imagery updates in real-time. Commentary for first day online. Imagery ongoing.</li>
-                        <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
-                        <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
-                        <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
-                        <li>03/25/2015: v0.1 Initial launch made public.</li>
-                    </ul>
-                    <p><B>Note: This is an early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in full detail. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
-                    <p>Planned Features:</p>
-                    <ul>
-                        <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
-                    </ul>
-                </div>
-            </div>
-          </div>
 
-      </div>
-    </div>
+    </div> <!-- video-block -->
 
 
     <div class="photo-block">
-      <div class="photo-wrapper">
+      <div class="monitor photo-wrapper" data-js-class="SizeManager" data-sm-parent=".photo-block">
         
         <!-- photo -->
-        <div class="monitor photos-wrapper">
-          <div id="photodiv"></div>
-        </div>
+        <div class="photos-wrapper">
 
-      </div>
-      <div class="gallery-wrapper">
-        
-        <!-- gallery -->
-        <div class="monitor photos-wrapper thumbs-wrapper">
           <div id="photoGallery"></div>
+
+          <div id="photodiv"></div>
+
         </div>
 
       </div>
-      <div class="buttons-wrapper">
+
+      <div class="buttons-wrapper" style="display: none;">
         
         <!-- buttons -->
-        <div>
+        <ul class="button-row small">
+          <li><a href="#" class="splash-btn"><span>Help</span></a></li>
+          <li><a href="#" class="splash-btn"><span>Fullscreen</span></a></li>
+          <li><a href="#" class="splash-btn"><span>Play</span></a></li>
+          <li><a href="#" class="splash-btn"><span>Mute</span></a></li>
+          <li><a href="#" class="splash-btn"><span>Join In-Progress</span></a></li>
+        </ul>
           <!-- <ul class="tinyButton ui-widget ui-helper-clearfix">
               <li class="ui-state-default ui-corner-all" title="Full Screen" >
                   <span class="ui-icon ui-icon-arrow-4-diag"></span>
@@ -116,11 +142,14 @@
                   <span class="ui-icon ui-icon-play"></span>
               </li>
           </ul> -->
-          <button id="helpBtn"></button>
+
+
+
+          <!-- <button id="helpBtn"></button>
           <button id="fullscreenBtn"></button>
           <button id="playPauseBtn"></button>
           <button id="soundBtn"></button>
-          <button id="realtimeBtn"></button>
+          <button id="realtimeBtn"></button> -->
         </div>
 
       </div>
@@ -178,9 +207,9 @@
                 <h2><div class="historicalDate date">Thu Dec 07 1972</div></h2>
                 <h1><div class="historicalTime time">12:32:00 AM</div></h1>
 
-                <!--<div id="missionTime">Mission Elapsed Time:-->
-                    <!--<span id="timer">000:00:00</span>-->
-                <!--</div>-->
+                <div id="missionTime">Mission Elapsed Time:
+                    <span id="timer">000:00:00</span>
+                </div>
                 <div>v1.0 Beta 2 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 
 $.when(ajaxGetMediaIndex(),
     ajaxGetTOCAll(),
-    ajaxGetCommentaryData(),
+    ajaxGetCommentaryIndex(),
     ajaxGetUtteranceData(),
     ajaxGetPhotoIndex(),
     ajaxGetMissionStagesData(),
@@ -19,113 +19,57 @@ $.when(ajaxGetMediaIndex(),
 //--------------- index file handling --------------------
 
 function ajaxGetMediaIndex() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/media_index.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/media_index.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMediaIndexData(data);}
     });
 }
 function ajaxGetTOCAll() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/TOCall.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/TOCall.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processTOCAllData(data);}
     });
 }
 function ajaxGetUtteranceData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/utteranceData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/utteranceData.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processUtteranceData(data);}
     });
 }
-function ajaxGetCommentaryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/commentaryData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+function ajaxGetCommentaryIndex() {
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
-        success: function(data) {processCommentaryData(data);}
+        success: function(data) {processCommentaryIndexData(data);}
     });
 }
 function ajaxGetPhotoIndex() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/photoIndex.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
 }
 function ajaxGetMissionStagesData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/missionStages.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/missionStages.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processMissionStagesData(data);}
     });
 }
 function ajaxGetVideoSegmentsData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
-    } else {
-        urlStr = ".";
-    }
-    urlStr += "/indexes/video_segments.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
-        url: urlStr,
+        url: "./indexes/video_segments.csv?stopcache=" + Math.random(),
         dataType: "text",
         success: function(data) {processVideoSegmentsData(data);}
     });
@@ -161,66 +105,15 @@ function processUtteranceData(allText) {
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
-            data[0] = timeIdToTimeStr(data[0]);
-
-            var who_modified = data[1];
-            who_modified = who_modified.replace(/CDR/g, "Cernan");
-            who_modified = who_modified.replace(/CMP/g, "Evans");
-            who_modified = who_modified.replace(/LMP/g, "Schmitt");
-            who_modified = who_modified.replace(/PAO/g, "Public Affairs");
-            who_modified = who_modified.replace(/CC/g, "Mission Control");
-            data[1] = who_modified;
-
-            var words_modified = data[2];
-            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-            data[2] = words_modified;
-
             gUtteranceData.push(data);
-            gUtteranceDataLookup[timeStrToTimeId(data[0])] = i;
-            gUtteranceIndex[i] = timeStrToTimeId(data[0]);
+            gUtteranceDataLookup[data[0].split(":").join("")] = i;
+            gUtteranceIndex[i] = data[0].split(":").join("");
         }
     }
 }
-function processCommentaryData(allText) {
+function processCommentaryIndexData(allText) {
     //console.log("processCommentaryIndexData");
-    var allTextLines = allText.split(/\r\n|\n/);
-    var curRow = 0
-    for (var i = 0; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split('|');
-        if (data[0] != "") {
-            gCommentaryIndex[curRow] = data[0];
-            gCommentaryDataLookup[data[0]] = curRow;
-            data[0] = timeIdToTimeStr(data[0]);
-
-            if (data[2].length == 0) {
-                var attribution = data[1];
-                attribution = attribution.replace(/ALSJ/g, '<a href="https://www.hq.nasa.gov/alsj/" target="alsj">ALSJ</a> Commentary');
-                data[1] = attribution;
-            }
-
-            if (data[2].length != 0) {
-                var who_modified = data[2];
-                who_modified = who_modified.replace(/CDR/g, "Cernan");
-                who_modified = who_modified.replace(/CMP/g, "Evans");
-                who_modified = who_modified.replace(/LMP/g, "Schmitt");
-                data[2] = who_modified;
-            }
-
-            var words_modified = data[3];
-            words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
-            words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
-            words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-            words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
-            words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
-            data[3] = words_modified;
-
-            gCommentaryData.push(data);
-            curRow ++
-        }
-    }
-    populateCommentary();
+    gCommentaryIndex = allText.split(/\r\n|\n/);
 }
 function processPhotoIndexData(allText) {
     //console.log("processPhotoIndexData");
