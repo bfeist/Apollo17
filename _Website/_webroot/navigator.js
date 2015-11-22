@@ -60,7 +60,7 @@ var gColorVideoRegionStroke =  'blue';
 var gColorTOCText = "#999999";
 var gColorTOCStroke = "orange";
 var gColorPhotoTicks = 'green';
-var gColorTimeTicks = 'lightgrey';
+var gColorTimeTicks = '#333333';
 var gColorUtteranceTicksPAO = 'grey';
 var gColorUtteranceTicksCrew = 'CadetBlue';
 var gColorUtteranceTicksCC = 'lightgrey';
@@ -72,8 +72,9 @@ var gColorCursor = 'red';
 var gColorNavCursor = '#5E92A6'; //'yellow';
 
 var gNaxBoxZoomFadeOpacity = 0.2;
+var gAlphaRectOpacity = 0.4;
 
-var gHeightTimeTickDenominator = 7;
+var gHeightTimeTickDenominator = 1;
 var gHeightPhotoTickDenominator = 6;
 var gHeightUtteranceTickDenominator = 14;
 var gHeightVideoRectDenominator = 6;
@@ -299,19 +300,19 @@ function drawCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-                    fontFamily: graphFontFamily,
+        fontFamily: graphFontFamily,
         fontSize: 11 + gFontScaleFactor,
         fillColor: gColorCursor
     });
     timeText.content = secondsToTimeStr(seconds);
-    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 16.5);
+    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 12.5);
     var cornerSize = new paper.Size(3, 3);
     var timeTextRect = new paper.Path.RoundRectangle(timeText.bounds, cornerSize);
     //var timeTextRect = new paper.Path.Rectangle(timeText.bounds);
     timeTextRect.strokeColor = gColorCursor;
     timeTextRect.fillColor = "black";
     //timeTextRect.opacity = 0.5;
-    timeTextRect.scale(1.1, 1);
+    timeTextRect.scale(1.1, 1.2);
     gCursorGroup.addChild(timeTextRect);
     gCursorGroup.addChild(timeText);
 }
@@ -354,7 +355,7 @@ function drawNavCursor(seconds) {
         fillColor: gColorNavCursor
     });
     timeText.content = secondsToTimeStr(seconds);
-    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 16.5);
+    timeText.point = new paper.Point(cursorLocX - timeText.bounds.width / 2 , gTier3Top + 12.5);
     if (timeText.point.x < 5) {
         timeText.point.x = 5;
     } else if (timeText.point.x > gNavigatorWidth - timeText.bounds.width - 5) {
@@ -366,7 +367,7 @@ function drawNavCursor(seconds) {
     timeTextRect.strokeColor = gColorNavCursor;
     timeTextRect.fillColor = 'black';
     //timeTextRect.opacity = 0.5;
-    timeTextRect.scale(1.1, 1);
+    timeTextRect.scale(1.1, 1.2);
     gNavCursorGroup.addChild(timeTextRect);
     gNavCursorGroup.addChild(timeText);
 }
@@ -437,8 +438,8 @@ function drawTier1() {
 
     // draw video segments boxes
     for (i = 0; i < gVideoSegments.length; i++) {
-        rectStartX = gTier1Left + 2 + (timeStrToSeconds(gVideoSegments[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
-        rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier1PixelsPerSecond;
+        var rectStartX = gTier1Left + 2 + (timeStrToSeconds(gVideoSegments[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+        var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier1PixelsPerSecond;
         var rectTop = (gTier1Top + gTier1Height) - gTier1Height / gHeightVideoRectDenominator;
         var rectHeight = gTier1Height / gHeightVideoRectDenominator;
         var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
@@ -491,12 +492,12 @@ function drawTier1NavBox(seconds) {
 
     var leftAlphaRect = new paper.Rectangle(gTier1Left, gTier1Top, gTier1NavBoxLocX - gTier1Left, gTier1Height);
     var leftAlphaRectPath = paper.Path.RoundRectangle(leftAlphaRect, cornerSize);
-    leftAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, 0.5);
+    leftAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, gAlphaRectOpacity);
     gTier1NavGroup.addChild(leftAlphaRectPath);
 
     var rightAlphaRect = new paper.Rectangle(gTier1NavBoxLocX + navBoxWidth, gTier1Top, gTier1Width - gTier1NavBoxLocX + navBoxWidth , gTier1Height);
     var rightAlphaRectPath = paper.Path.RoundRectangle(rightAlphaRect, cornerSize);
-    rightAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, 0.5);
+    rightAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, gAlphaRectOpacity);
     gTier1NavGroup.addChild(rightAlphaRectPath);
 
     //add zoom fades
@@ -617,24 +618,24 @@ function drawTier2() {
         }
     }
 
-    ////display time ticks
-    //var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
-    //var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
-    //for (i = 0; i < missionDurationHours * 2; i++) {
-    //    itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier2StartSeconds;
-    //    if (itemSecondsFromLeft > secondsOnTier2)
-    //        break;
-    //    if (itemSecondsFromLeft >= 0) {
-    //        itemLocX = gTier2Left + itemSecondsFromLeft * gTier2PixelsPerSecond;
-    //        barHeight = gTier2Height / gHeightTimeTickDenominator;
-    //        barTop = tierBottom - barHeight;
-    //        topPoint = new paper.Point(itemLocX, barTop);
-    //        bottomPoint = new paper.Point(itemLocX, tierBottom);
-    //        aLine = new paper.Path.Line(topPoint, bottomPoint);
-    //        aLine.strokeColor = gColorTimeTicks;
-    //        tempGroup.addChild(aLine);
-    //    }
-    //}
+    //display time ticks
+    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
+    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
+    for (i = 0; i < missionDurationHours * 2; i++) {
+        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier2StartSeconds;
+        if (itemSecondsFromLeft > secondsOnTier2)
+            break;
+        if (itemSecondsFromLeft >= 0) {
+            itemLocX = gTier2Left + itemSecondsFromLeft * gTier2PixelsPerSecond;
+            barHeight = gTier2Height / gHeightTimeTickDenominator;
+            barTop = tierBottom - barHeight;
+            topPoint = new paper.Point(itemLocX, barTop);
+            bottomPoint = new paper.Point(itemLocX, tierBottom);
+            aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = gColorTimeTicks;
+            tempGroup.addChild(aLine);
+        }
+    }
 
     //draw TOC items
     gLastTier2TextPosition = 1;
@@ -730,12 +731,12 @@ function drawTier2NavBox(seconds) {
 
     var leftAlphaRect = new paper.Rectangle(gTier2Left, gTier2Top, gTier2NavBoxLocX - gTier2Left, gTier2Height);
     var leftAlphaRectPath = paper.Path.RoundRectangle(leftAlphaRect, cornerSize);
-    leftAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, 0.5);
+    leftAlphaRectPath.fillColor = new paper.RGBColor(0, 0, 0, gAlphaRectOpacity);
     gTier2NavGroup.addChild(leftAlphaRectPath);
 
     var rightAlphaRect = new paper.Rectangle(gTier2NavBoxLocX + navBoxWidth, gTier2Top, gTier1Width - gTier2NavBoxLocX + navBoxWidth , gTier2Height);
     var rightAlphaRectPath = paper.Path.RoundRectangle(rightAlphaRect, cornerSize);
-    rightAlphaRectPath.fillColor = new paper.RGBColor(0,0,0, 0.5);
+    rightAlphaRectPath.fillColor = new paper.RGBColor(0, 0, 0, gAlphaRectOpacity);
     gTier2NavGroup.addChild(rightAlphaRectPath);
 
     //add zoom fades
@@ -869,24 +870,39 @@ function drawTier3() {
         }
     }
 
-    ////display time ticks
-    //var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
-    //var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
-    //for (i = 0; i < missionDurationHours * 2; i++) {
-    //    itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
-    //    if (itemSecondsFromLeft > secondsOnTier3)
-    //        break;
-    //    if (itemSecondsFromLeft >= 0) {
-    //        var itemLocX = gTier3Left + itemSecondsFromLeft * gTier3PixelsPerSecond;
-    //        barHeight = gTier3Height / gHeightTimeTickDenominator;
-    //        barTop = tierBottom - barHeight;
-    //        topPoint = new paper.Point(itemLocX, barTop);
-    //        bottomPoint = new paper.Point(itemLocX, tierBottom);
-    //        aLine = new paper.Path.Line(topPoint, bottomPoint);
-    //        aLine.strokeColor = gColorTimeTicks;
-    //        tempGroup.addChild(aLine);
-    //    }
-    //}
+    //display time ticks
+    var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
+    var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
+    for (i = 0; i < missionDurationHours * 2; i++) {
+        itemSecondsFromLeft = (i * 60 * 60) / 2 - gTier3StartSeconds;
+        if (itemSecondsFromLeft > secondsOnTier3)
+            break;
+        if (itemSecondsFromLeft >= 0) {
+            var itemLocX = gTier3Left + itemSecondsFromLeft * gTier3PixelsPerSecond;
+            barHeight = gTier3Height / gHeightTimeTickDenominator;
+            barTop = tierBottom - barHeight;
+            topPoint = new paper.Point(itemLocX, barTop);
+            bottomPoint = new paper.Point(itemLocX, tierBottom);
+            aLine = new paper.Path.Line(topPoint, bottomPoint);
+            aLine.strokeColor = gColorTimeTicks;
+
+            stageText = new paper.PointText({
+                justification: 'left',
+                fontFamily: graphFontFamily,
+                //fontWeight: 'bold',
+                fontSize: 9 + gFontScaleFactor,
+                fillColor: gColorTimeTicks
+            });
+            textTop = gTier3Top + gTier3Height - 5;
+            stageText.point = new paper.Point(itemLocX - 2 , textTop);
+            stageText.rotate(-90);
+            var tickTimeSeconds = (i / 2) * 60 * 60;
+            stageText.content = secondsToTimeStr(tickTimeSeconds);
+
+            tempGroup.addChild(stageText);
+            tempGroup.addChild(aLine);
+        }
+    }
 
     //display photo ticks
     for (i = 0; i < gPhotoData.length; i++) {
@@ -895,7 +911,7 @@ function drawTier3() {
             if (itemSecondsFromLeft > secondsOnTier3)
                 break;
             if (itemSecondsFromLeft >= 0) {
-                var itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
+                itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
                 barHeight = gTier3Height / gHeightPhotoTickDenominator;
                 var barTop = tierBottom - barHeight;
                 topPoint = new paper.Point(itemLocX, barTop);
