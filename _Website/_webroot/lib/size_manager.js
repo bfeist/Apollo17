@@ -45,7 +45,7 @@ dependencies:
         _trace('init');
 
         if ($root.attr('data-sm-parent') == '.photo-block') {
-          $opts.showDebugInfo = true;
+          $opts.showDebugInfo = false;
         }
 
         $displayParent = $($root.attr('data-sm-parent'));
