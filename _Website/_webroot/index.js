@@ -1297,6 +1297,16 @@ jQuery(function ($) {
   //   //init tabs
     // $(".mid-center").tabs();
 
+
+    function scrollTranscriptToMissionTime() {
+      scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+    }
+    function scrollTocToMissionTime() {
+      scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+    }
+    function scrollCommentaryToMissionTime() {
+      scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+    }
     //tab clicks
     //tab clicks
     //$("#transcriptTab").on("click", function() {
