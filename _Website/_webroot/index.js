@@ -98,11 +98,12 @@ function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
-        $("#playPauseBtn").button({
-            icons: { primary: 'ui-icon-pause' },
-            text: false,
-            label: "Pause"
-        });
+        $("#playPauseBtn").addClass('pause');
+        // $("#playPauseBtn").button({
+        //     icons: { primary: 'ui-icon-pause' },
+        //     text: false,
+        //     label: "Pause"
+        // });
         if (gNextVideoStartTime != -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
             player.seekTo(gNextVideoStartTime, true);
@@ -127,11 +128,12 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
-        $("#playPauseBtn").button({
-            icons: { primary: 'ui-icon-play' },
-            text: false,
-            label: "Play"
-        });
+        $("#playPauseBtn").removeClass('pause');
+        // $("#playPauseBtn").button({
+        //     icons: { primary: 'ui-icon-play' },
+        //     text: false,
+        //     label: "Play"
+        // });
     } else if (event.data == YT.PlayerState.BUFFERING) {
         //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
         if (gPlaybackState == "transcriptclicked") {
@@ -196,18 +198,20 @@ function setAutoScrollPoller() {
         }
 
         if (player.isMuted() == true) {
-            var btnIcon = "ui-icon-volume-off";
-            var btnText = "Un-Mute";
+            // var btnIcon = "ui-icon-volume-off";
+            // var btnText = "Un-Mute";
+            $('#soundBtn').removeClass('mute');
         } else {
-            btnIcon = "ui-icon-volume-on";
-            btnText = "Mute";
+            // btnIcon = "ui-icon-volume-on";
+            // btnText = "Mute";
+            $('#soundBtn').addClass('mute');
         }
-        $("#soundBtn")
-            .button({
-                icons: { primary: btnIcon },
-                text: false,
-                label: btnText
-            });
+        // $("#soundBtn")
+        //     .button({
+        //         icons: { primary: btnIcon },
+        //         text: false,
+        //         label: btnText
+        //     });
 
     }, 500); //polling frequency in milliseconds
 }
@@ -1229,21 +1233,21 @@ jQuery(function ($) {
     }
 
     $("#fullscreenBtn")
-        .button({
-            icons: { primary: "ui-icon-arrow-4-diag" },
-            text: false,
-            label: "Full Screen"
-        })
+        // .button({
+        //     icons: { primary: "ui-icon-arrow-4-diag" },
+        //     text: false,
+        //     label: "Full Screen"
+        // })
         .click(function(){
             toggleFullscreen();
         });
 
 
     $("#playPauseBtn")
-        .button({
-            icons: { primary: "ui-icon-pause" },
-            text: false
-        })
+        // .button({
+        //     icons: { primary: "ui-icon-pause" },
+        //     text: false
+        // })
         .click(function(){
             if (gPlaybackState == "paused") {
                 player.playVideo();
@@ -1253,43 +1257,45 @@ jQuery(function ($) {
         });
 
     $("#soundBtn")
-        .button({
-            icons: { primary: "ui-icon-volume-off" },
-            text: false
-        })
+        // .button({
+        //     icons: { primary: "ui-icon-volume-off" },
+        //     text: false
+        // })
         .click(function(){
             if (player.isMuted() == true) {
                 player.unMute();
-                var btnIcon = "ui-icon-volume-on";
-                var btnText = "Mute";
+                // var btnIcon = "ui-icon-volume-on";
+                // var btnText = "Mute";
+                $(this).addClass('mute');
             } else {
                 player.mute();
-                btnIcon = "ui-icon-volume-off";
-                btnText = "Un-Mute";
+                // btnIcon = "ui-icon-volume-off";
+                // btnText = "Un-Mute";
+                $(this).removeClass('mute');
             }
-            $( "#soundBtn" ).button({
-                icons: { primary: btnIcon },
-                text: false,
-                label: btnText
-            });
+            // $( "#soundBtn" ).button({
+            //     icons: { primary: btnIcon },
+            //     text: false,
+            //     label: btnText
+            // });
         });
 
     $("#realtimeBtn")
-        .button({
-            icons: { primary: "ui-icon-link" },
-            text: false,
-            label: "Snap to Historical Time"
-        })
+        // .button({
+        //     icons: { primary: "ui-icon-link" },
+        //     text: false,
+        //     label: "Snap to Historical Time"
+        // })
         .click(function(){
             historicalButtonClick();
         });
 
     $("#helpBtn")
-        .button({
-            icons: { primary: "ui-icon-help" },
-            text: false,
-            label: "Help"
-        })
+        // .button({
+        //     icons: { primary: "ui-icon-help" },
+        //     text: false,
+        //     label: "Help"
+        // })
         .click(function(){
             alert("Help!");
         });
@@ -1356,14 +1362,14 @@ $(window).bind('fullscreenchange', function(e) {
     var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
     var stateStr = state ? 'FullScreenOn' : 'FullScreenOff';
 
-    trace("non-button fullscreen change state: " + stateStr);
+    // trace("non-button fullscreen change state: " + stateStr);
 
-    var fullScreenBtn = $('#fullScreenBtn');
-    if (stateStr == "FullScreenOn") {
-        fullScreenBtn.attr("value", "Exit Full Screen");
-    } else {
-        fullScreenBtn.attr("value", "Full Screen");
-    }
+    // var fullScreenBtn = $('#fullScreenBtn');
+    // if (stateStr == "FullScreenOn") {
+    //     fullScreenBtn.attr("value", "Exit Full Screen");
+    // } else {
+    //     fullScreenBtn.attr("value", "Full Screen");
+    // }
     //scaleMissionImage();
     //populatePhotoGallery();
     redrawAll();
