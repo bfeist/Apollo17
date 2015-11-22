@@ -43,6 +43,11 @@ dependencies:
 		// Private methods -----------------------------------------------------------------
 		function init() {
         _trace('init');
+
+        if ($root.attr('data-sm-parent') == '.photo-block') {
+          $opts.showDebugInfo = true;
+        }
+
         $displayParent = $($root.attr('data-sm-parent'));
         $sizeBuddy = $($root.attr('data-sm-buddy'));
         _minHeight = parseInt($root.attr('data-sm-min-height'));
@@ -58,7 +63,7 @@ dependencies:
           positionMe();
         }
 
-        $(window).on('resize', $.debounce( _resizeTestDelay, $.proxy(positionMe, this)));
+        $(window).on('resize', $.throttle( $.proxy(positionMe, this), _resizeTestDelay));
 		};
 
     function positionMe() {
@@ -70,16 +75,25 @@ dependencies:
       var bodyHeight = $('body').height();
 
       var parentOffset = $displayParent.offset();
-      var parentHeight = $displayParent.outerHeight();
+      var contentHeight = 0;
+      $displayParent.children().not($root).each(function () {
+        var $this = $(this);
+        _trace('HEY - ' + this.className);
+        var myHeight = $this.outerHeight(true);
+        contentHeight += myHeight;
+        _trace(' -- myHeight: ' + myHeight);
+        _trace(' -- contentHeight: ' + contentHeight);
+      });
+      // var parentHeight = $displayParent.outerHeight();
 
       var myBuffer = $root.outerHeight() - $root.height(); //total of margin, borders and padding
       var bottomPadding = parseInt( $root.css('marginTop') ) * 2;
 
-      var availHeight = bodyHeight - (parentOffset.top + parentHeight) - myBuffer - bottomPadding;
+      var availHeight = bodyHeight - (parentOffset.top + contentHeight) - myBuffer - bottomPadding;
 
       _trace('bodyHeight: ' + bodyHeight);
       _trace('parentOffset.top: ' + parentOffset.top);
-      _trace('parentHeight: ' + parentHeight);
+      _trace('contentHeight: ' + contentHeight);
       _trace('availHeight: ' + availHeight);
 
       if (availHeight < _minHeight) {

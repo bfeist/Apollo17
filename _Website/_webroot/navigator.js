@@ -43,7 +43,7 @@ var gTier2SecondsPerPixel;
 var gTier3PixelsPerSecond;
 var gTier3SecondsPerPixel;
 
-var gColorTierBoxStroke = "lightgrey";
+var gColorTierBoxStroke = '#444444'; //"lightgrey";
 var gColorMissionStageBox = "grey";
 var gColorMissionStageText = "lightgrey";
 var gColorZoomFillLight = 'white';
@@ -52,7 +52,7 @@ var gColorZoomStrokeLight = 'white';
 var gColorZoomStrokeDark = 'lightgrey';
 var gColorVideoRegionBackground =  '#010047';
 var gColorVideoRegionStroke =  'blue';
-var gColorTOCText = "#BBBBBB";
+var gColorTOCText = "#999999";
 var gColorTOCStroke = "orange";
 var gColorPhotoTicks = 'green';
 var gColorTimeTicks = 'lightgrey';
@@ -61,7 +61,7 @@ var gColorUtteranceTicksCrew = 'CadetBlue';
 var gColorUtteranceTicksCC = 'lightgrey';
 
 var gColorCursor = 'red';
-var gColorNavCursor = 'yellow';
+var gColorNavCursor = '#5E92A6'; //'yellow';
 
 var gNaxBoxZoomFadeOpacity = 0.2;
 
@@ -291,7 +291,8 @@ function drawCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-        fontSize: 14 + gFontScaleFactor,
+                    fontFamily: 'Roboto Mono',
+        fontSize: 10 + gFontScaleFactor,
         fillColor: gColorCursor
     });
     timeText.content = secondsToTimeStr(seconds);
@@ -340,7 +341,8 @@ function drawNavCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-        fontSize: 14 + gFontScaleFactor,
+        fontFamily: 'Roboto Mono',
+        fontSize: 11 + gFontScaleFactor,
         fillColor: gColorNavCursor
     });
     timeText.content = secondsToTimeStr(seconds);
@@ -389,7 +391,7 @@ function drawTier1() {
 
         var stageText = new paper.PointText({
             justification: 'left',
-            fontFamily: 'Oswald',
+            fontFamily: 'Roboto Mono',
             fontSize: 6 + gFontScaleFactor,
             fillColor: gColorMissionStageText
         });
@@ -625,12 +627,11 @@ function drawTier2() {
             if (gTOCData[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
-                    fontFamily: 'Oswald',
-                    fontWeight: '300',
-                    fontSize: 9 + gFontScaleFactor,
+                    fontFamily: 'Roboto Mono',
+                    fontSize: 8 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom - textPosition * (gTier2Height / 3) + 2;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 1;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCData[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -664,9 +665,9 @@ function drawTier2() {
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Oswald',
+                fontFamily: 'Roboto Mono',
                 //fontWeight: 'bold',
-                fontSize: 9 + gFontScaleFactor,
+                fontSize: 8 + gFontScaleFactor,
                 fillColor: gColorMissionStageText
             });
             var textTop = gTier2Top + (gTier2Height / 2) - 5;
@@ -822,14 +823,14 @@ function drawTier3() {
                 rectWidth = gTier3Width - rectStartX + gTier3Left - 1;
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier3Top, rectWidth, gTier3Height / 3);
-            stageRect.strokeColor = 'grey';
+            stageRect.strokeColor = '#444444';
             //stageRect.fillColor ='black';
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Oswald',
+                fontFamily: 'Roboto Mono',
                 //fontWeight: 'bold',
-                fontSize: 14 + gFontScaleFactor,
+                fontSize: 10 + gFontScaleFactor,
                 fillColor: "lightgrey"
             });
             var textTop = gTier3Top + (gTier3Height / 3) - 3;
@@ -919,9 +920,9 @@ function drawTier3() {
             itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
             barTop = gTier3Top + gTier3Height / 3;
             if (textPosition == 1) {
-                barBottom = barTop + (gTier3Height / 4) + 2; //proportional bar heights
+                barBottom = barTop + (gTier3Height / 4); //proportional bar heights
             } else {
-                barBottom = barTop + (gTier3Height / 2.2) + 2;
+                barBottom = barTop + (gTier3Height / 2.2);
             }
             var topPoint = new paper.Point(itemLocX, barTop);
             var bottomPoint = new paper.Point(itemLocX, barBottom);
@@ -930,8 +931,7 @@ function drawTier3() {
             tempGroup.addChild(aLine);
             var itemText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Oswald',
-                fontWeight: '300',
+                fontFamily: 'Roboto Mono',
                 fontSize: 12 + gFontScaleFactor,
                 fillColor: gColorTOCText
             });
