@@ -109,8 +109,8 @@
 <script type="text/html" id="commentaryTemplate">
     <tr class="commentary @comType comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
         <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words <span class="attribution">@attribution</span></td>
+        @whocell
+        @wordscell
     </tr>
 </script>
 
