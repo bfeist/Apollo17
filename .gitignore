@@ -2,7 +2,7 @@
 /_Website/_webroot/mission_images
 /_AFJ/_webroot/segments
 /_AFJ/_webroot/TOC.html
-/_Website/Archive/flickr
+**/flickr
 /_Website/assets/mission_images_lightroom/
 **/.DS_Store
 **/Thumbs.db
