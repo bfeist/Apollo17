@@ -885,7 +885,7 @@ body.splash-loaded .splash-content {
 .splash-content .content-wrapper {
   position: relative;
   padding-right: 3em;
-  
+
   text-shadow: 1px 1px 16px rgba(0, 0, 0, 1),1px 1px 16px rgba(0, 0, 0, 1),1px 1px 16px rgba(0, 0, 0, 1);
 }
 .splash-content .content-wrapper:after {
@@ -935,6 +935,8 @@ body.splash-loaded .splash-content {
   cursor: not-allowed;
   /*font-family: 'Michroma', sans-serif;*/
   font-family: 'Oswald', sans-serif;
+  border-right: 1px solid rgba(130, 130, 130, .8);
+  border-bottom: 1px solid rgba(130, 130, 130, .8);
 
   background-color: #828282;
   background-color: rgba(130, 130, 130, .8);
@@ -976,6 +978,8 @@ body.app-ready .splash-btn.primary {
   box-shadow: inset 1px 1px 5px 3px #A67754;
   background-color: #FFC688;
   background-color: rgba(255, 198, 136, .8);
+  border-right: 1px solid rgba(255, 198, 136, .8);
+  border-bottom: 1px solid rgba(255, 198, 136, .8);
 }
 body.app-ready .splash-btn.primary:hover,
 body.app-ready .splash-btn.primary:active,
