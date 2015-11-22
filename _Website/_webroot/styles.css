@@ -291,11 +291,11 @@ canvas[resize] {
   height: 100%;
   overflow-y: auto;
   /*white-space: nowrap;*/
-  border-left: 1px solid #444;
-  margin-left: 1em;
-  padding-left: 1em;
+  /*border-left: 1px solid rgba(255,255,255,.1);*/
+  /*margin-left: 5px;*/
+  padding-left: 5px;
   width: 140px;
-  padding-right: .5em;
+  padding-right: 5px;
   float: right;
 }
 #photodiv {
@@ -376,11 +376,15 @@ canvas[resize] {
     position: relative;
     overflow: hidden;
     text-align: center;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
     background-color: #000;
+    height: 105px;
+}
+.galleryItemContainer + .galleryItemContainer {
+  margin-top: 10px;
 }
 
 .galleryItemContainer.selected,
@@ -396,13 +400,16 @@ canvas[resize] {
 }
 
 .galleryImage {
-    height: 105px;
+    /*height: 105px;*/
     width: auto;
-    /*max-width: 100%;*/
-    /*height: 100%;*/
+    max-width: 100%; 
+    height: 100%;
+    border: 10px solid transparent;
+    cursor: pointer;
 }
 
 .galleryOverlay {
+  opacity: 0;
     position: absolute;
     bottom: 0px;
     /*bottom: 0px;*/
@@ -411,11 +418,17 @@ canvas[resize] {
 
     background-color: #222222;
     color: #BBBBBB;
-    opacity: 0.8;
     padding: 5px;
-    /*transition: all 0.5s ease-in-out;*/
-}
 
+    font-family: Roboto;
+    font-size: .75em;
+    transition: all 0.15s ease-in-out;
+}
+.galleryItemContainer:hover .galleryOverlay,
+.galleryItemContainer:active .galleryOverlay {
+  /*opacity: 1;*/
+    opacity: 0.9;
+}
 
 
 /* ----------------- intro overlay -----------------*/
@@ -787,7 +800,7 @@ body.splash-loaded .splash-content {
   display: block;
   background-size: cover;
   background-position: center top;
-  background-image: url("img/splash_bg2.jpg");
+  background-image: url("img/bg_panorama.jpg");
   background-repeat: no-repeat;
   top: 0;
   /*bottom: 0;*/
@@ -1030,16 +1043,22 @@ body.app-ready .splash-btn.primary.selected {
   margin-right: 0;
   min-width: 120px;
 }
-.button-row.small {
-
+.button-row.small li {
+  display: block;
+  float: left;
+  width: 48%;
+  margin: 0 1%;
+  overflow: hidden;
 }
 
 .button-row.small a {
   /*padding-bottom: 1.5em;*/
-  min-height: 40px;
-  min-width: 100px;
-  width: auto;
+  /*min-height: 40px;*/
+  /*width: 100px;*/
+  width: 100%;
   font-size: .65em;
+    padding: 3px;
+    min-height: 0;
 }
 div.body {
   position: relative;
@@ -1100,21 +1119,23 @@ header {
 }
 .logo-wrapper,
 .info-wrapper,
-.navigator-wrapper {
+.navigator-wrapper,
+.buttons-wrapper {
   display: table-cell;
   vertical-align: middle;
   /*float: left;
   padding: 20px;*/
 }
 .logo-wrapper,
-.info-wrapper {
+.info-wrapper,
+.buttons-wrapper {
   padding: 15px;
   width: 1%;
   white-space: nowrap;
 }
-header .monitor {
+/*header .monitor {
   width: 100%;
-}
+}*/
 .logo-wrapper img {
   display: block;
   height: 90%;
@@ -1140,7 +1161,7 @@ img.aspect-holder {
 }
 .video-wrapper {
   position: relative;
-  height: 100%;
+  /*height: 100%;*/
 }
 .player-wrapper {
   position: absolute;

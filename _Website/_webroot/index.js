@@ -1169,7 +1169,7 @@ function getRandomInt(min, max) {
 }
 
 function trace(str) {
-    var debug = true;
+    var debug = false;
     if (debug === true) {
         try {
             console.log(str);
