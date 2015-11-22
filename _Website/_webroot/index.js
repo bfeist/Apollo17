@@ -528,16 +528,18 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
         //check if timeId is already loaded into commentary div
         if (gCommentaryDataLookup[timeId] < gCommentaryDisplayStartIndex + 49) { //prepend
             var prependCount = (gCommentaryDisplayStartIndex - gCommentaryDataLookup[timeId]) + 50;
-            if (prependCount > 100) {
+            if (prependCount > 50) {
                 repopulateCommentary(timeId);
             } else {
+                prependCount = 50;
                 prependCommentary(prependCount);
             }
         } else if (gCommentaryDataLookup[timeId] > gCommentaryDisplayEndIndex - 49) { //append
             var appendCount = (gCommentaryDataLookup[timeId] - gCommentaryDisplayEndIndex) + 50;
-            if (appendCount > 100) {
+            if (appendCount > 50) {
                 repopulateCommentary(timeId);
             } else {
+                appendCount = 50;
                 appendCommentary(appendCount);
             }
         }
@@ -568,18 +570,20 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
         //check if timeId is already loaded into utterance div
-        if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend
+        if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend - always have 50 lines above current time
             var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
-            if (prependCount > 100) {
+            if (prependCount > 50) {
                 repopulateUtterances(timeId);
             } else {
+                prependCount = 50;
                 prependUtterances(prependCount);
             }
-        } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append
+        } else if (gUtteranceDataLookup[timeId] > gUtteranceDisplayEndIndex - 49) { //append - always have 50 lines below current time
             var appendCount = (gUtteranceDataLookup[timeId] - gUtteranceDisplayEndIndex) + 50;
-            if (appendCount > 100) {
+            if (appendCount > 50) {
                 repopulateUtterances(timeId);
             } else {
+                appendCount = 50;
                 appendUtterances(appendCount);
             }
         }
@@ -629,7 +633,6 @@ function repopulateUtterances(timeId) {
 
 function prependUtterances(count, atTop) {
     atTop = atTop || false;
-    trace("prependUtterances:" + count);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
     var htmlToPrepend = "";
@@ -653,11 +656,11 @@ function prependUtterances(count, atTop) {
     //trace("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
     //trace("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    trace("prependUtterances:" + prependedCount);
 }
 
 function appendUtterances(count, atBottom) {
     atBottom = atBottom || false;
-    //trace("appendUtterances:" + count);
     var utteranceDiv = $('#utteranceDiv');
     var utteranceTable = $('#utteranceTable');
     var htmlToAppend = "";
@@ -681,12 +684,13 @@ function appendUtterances(count, atBottom) {
     //trace("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
     //trace("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    trace("appendUtterances:" + appendedCount);
 }
 
 function trimUtterances() {
-    //trace("trimUtterances()");
-    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 100;
+    var numberToRemove = (gUtteranceDisplayEndIndex - gUtteranceDisplayStartIndex) - 150;
     if (numberToRemove > 0) {
+        trace("trimUtterances():" + numberToRemove);
         var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
@@ -720,23 +724,22 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     who_modified = who_modified.replace(/LMP/g, "Schmitt");
     who_modified = who_modified.replace(/PAO/g, "Public Affairs");
     who_modified = who_modified.replace(/CC/g, "Mission Control");
-    utteranceObject[1] = who_modified;
+
     var words_modified = utteranceObject[2];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
     words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-    utteranceObject[2] = words_modified;
 
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
-    var timeId = timeStrToTimeId(utteranceObject[0]);
+    var timeId = utteranceObject[0];
     html = html.replace(/@uttid/g, timeId);
-    html = html.replace("@timestamp", utteranceObject[0]);
-    html = html.replace("@who", utteranceObject[1]);
-    html = html.replace("@words", utteranceObject[2]);
-    if (utteranceObject[1] == "Public Affairs") {
+    html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
+    if (who_modified == "Public Affairs") {
         var uttTypeStr = "utt_pao";
-    } else if (utteranceObject[1] == "Mission Control") {
+    } else if (who_modified == "Mission Control") {
         uttTypeStr = "utt_capcom";
     } else {
         uttTypeStr = "utt_crew";
@@ -766,64 +769,72 @@ function repopulateCommentary(timeId) {
 
 function prependCommentary(count, atTop) {
     atTop = atTop || false;
-    //console.log("prependCommentary:" + count);
-    var commentaryDiv = $('#commentaryDiv');
-    var commentaryTable = $('#commentaryTable');
-    var htmlToPrepend = "";
-    var prependedCount = 0;
-    var startIndex = gCommentaryDisplayStartIndex - count;
-    for (var i = startIndex; i < startIndex + count; i++) {
-        if (i >= 0) {
-            htmlToPrepend = htmlToPrepend + (getCommentaryObjectHTML(i));
-            prependedCount ++;
+    if (gCommentaryDisplayStartIndex > 0) {
+        var commentaryDiv = $('#commentaryDiv');
+        var commentaryTable = $('#commentaryTable');
+        var htmlToPrepend = "";
+        var prependedCount = 0;
+        var startIndex = gCommentaryDisplayStartIndex - count;
+        for (var i = startIndex; i < startIndex + count; i++) {
+            if (i >= 0) {
+                htmlToPrepend = htmlToPrepend + (getCommentaryObjectHTML(i));
+                prependedCount++;
+            }
         }
-    }
-    commentaryTable.prepend(htmlToPrepend);
+        commentaryTable.prepend(htmlToPrepend);
 
-    if (atTop) {
-        var elementToScrollBackTo = $("#comid" + timeStrToTimeId(gCommentaryData[gCommentaryDisplayStartIndex][0]));
-        //console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
-        var oldScrollDestination = commentaryDiv.scrollTop() + elementToScrollBackTo.offset().top - commentaryDiv.offset().top;
-        commentaryDiv.scrollTop(oldScrollDestination);
-    }
+        if (atTop) {
+            var elementToScrollBackTo = $("#comid" + timeStrToTimeId(gCommentaryData[gCommentaryDisplayStartIndex][0]));
+            //console.log("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+            var oldScrollDestination = commentaryDiv.scrollTop() + elementToScrollBackTo.offset().top - commentaryDiv.offset().top;
+            commentaryDiv.scrollTop(oldScrollDestination);
+        }
 
-    //console.log("prepended commentary from:" + gCommentaryData[gCommentaryDisplayStartIndex][0]);
-    gCommentaryDisplayStartIndex = gCommentaryDisplayStartIndex - prependedCount;
-    //console.log("prepended commentary to:" + gCommentaryData[gCommentaryDisplayStartIndex][0]);
+        //console.log("prepended commentary from:" + gCommentaryData[gCommentaryDisplayStartIndex][0]);
+        gCommentaryDisplayStartIndex = gCommentaryDisplayStartIndex - prependedCount;
+        //console.log("prepended commentary to:" + gCommentaryData[gCommentaryDisplayStartIndex][0]);
+        trace("prependCommentary:" + prependedCount);
+    } else {
+        //trace("at first commentary item");
+    }
 }
 
 function appendCommentary(count, atBottom) {
     atBottom = atBottom || false;
-    //console.log("appendCommentary:" + count);
-    var commentaryDiv = $('#commentaryDiv');
-    var commentaryTable = $('#commentaryTable');
-    var htmlToAppend = "";
     var startIndex = gCommentaryDisplayEndIndex + 1;
-    var appendedCount = 0;
-    for (var i = startIndex; i < startIndex + count; i++) {
-        if (i >= 0 && i < gCommentaryData.length) {
-            //console.log("Appended: " + gCommentaryData[i][0]);
-            htmlToAppend = htmlToAppend + (getCommentaryObjectHTML(i));
-            appendedCount ++;
+    if (gCommentaryDisplayEndIndex < gCommentaryData.length - 1) {
+        var commentaryDiv = $('#commentaryDiv');
+        var commentaryTable = $('#commentaryTable');
+        var htmlToAppend = "";
+        var appendedCount = 0;
+        for (var i = startIndex; i < startIndex + count; i++) {
+            if (i >= 0 && i < gCommentaryData.length) {
+                //trace("Appended: " + gCommentaryData[i][0]);
+                htmlToAppend = htmlToAppend + (getCommentaryObjectHTML(i));
+                appendedCount++;
+            }
         }
+        if (atBottom)
+            var topToScrollBackTo = commentaryDiv.scrollTop();
+
+        commentaryTable.append(htmlToAppend);
+
+        if (atBottom)
+            commentaryDiv.scrollTop(topToScrollBackTo);
+
+        //console.log("appended commentary from:" + gCommentaryData[gCommentaryDisplayEndIndex][0]);
+        gCommentaryDisplayEndIndex = gCommentaryDisplayEndIndex + appendedCount;
+        //console.log("appended commentary to:" + gCommentaryData[gCommentaryDisplayEndIndex][0]);
+        trace("appendCommentary:" + count);
+    } else {
+        //trace("at last commentary item");
     }
-    if (atBottom)
-        var topToScrollBackTo = commentaryDiv.scrollTop();
-
-    commentaryTable.append(htmlToAppend);
-
-    if (atBottom)
-        commentaryDiv.scrollTop(topToScrollBackTo);
-
-    //console.log("appended commentary from:" + gCommentaryData[gCommentaryDisplayEndIndex][0]);
-    gCommentaryDisplayEndIndex = gCommentaryDisplayEndIndex + appendedCount;
-    //console.log("appended commentary to:" + gCommentaryData[gCommentaryDisplayEndIndex][0]);
 }
 
 function trimCommentary() {
-    //console.log("trimCommentary()");
-    var numberToRemove = (gCommentaryDisplayEndIndex - gCommentaryDisplayStartIndex) - 100;
+    var numberToRemove = (gCommentaryDisplayEndIndex - gCommentaryDisplayStartIndex) - 150;
     if (numberToRemove > 0) {
+        trace("trimCommentary():" + numberToRemove);
         var currDistFromStart = gCurrentHighlightedCommentaryIndex - gCommentaryDisplayStartIndex;
         var currDistFromEnd = gCommentaryDisplayEndIndex - gCurrentHighlightedCommentaryIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of commentary div
@@ -851,17 +862,21 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     //console.log("getCommentaryObjectHTML():" + commentaryIndex);
     var commentaryObject = gCommentaryData[commentaryIndex];
 
+    var comId = commentaryObject[0];
+
     if (commentaryObject[2].length == 0) {
         var attribution = commentaryObject[1];
         attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
-        commentaryObject[1] = attribution;
+    } else {
+        attribution = "";
     }
     if (commentaryObject[2].length != 0) {
         var who_modified = commentaryObject[2];
         who_modified = who_modified.replace(/CDR/g, "Cernan");
         who_modified = who_modified.replace(/CMP/g, "Evans");
         who_modified = who_modified.replace(/LMP/g, "Schmitt");
-        commentaryObject[2] = who_modified;
+    } else {
+        who_modified = "";
     }
     var words_modified = commentaryObject[3];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
@@ -869,7 +884,6 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
     words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
     words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
-    commentaryObject[3] = words_modified;
 
     var html = $('#commentaryTemplate').html();
 
@@ -877,16 +891,23 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
         trace("something very wrong");
     }
 
-    var comId = timeStrToTimeId(commentaryObject[0]);
+    if (who_modified != '') {
+        html = html.replace('@whocell', '<td class="who">@who</td>');
+        html = html.replace('@wordscell', '<td class="spokenwords">@words <span class="attribution">@attribution</span></td>');
+    } else {
+        html = html.replace('@whocell', '');
+        html = html.replace('@wordscell', '<td class="spokenwords" colspan="2">@words <span class="attribution">@attribution</span></td>');
+    }
+
     html = html.replace(/@comid/g, comId);
-    html = html.replace("@timestamp", commentaryObject[0]);
-    if (commentaryObject[1] != '') {
-        html = html.replace("@attribution", "(" + commentaryObject[1] + ")");
+    html = html.replace("@timestamp", timeIdToTimeStr(comId));
+    if (attribution != '') {
+        html = html.replace("@attribution", "(" + attribution + ")");
     } else {
         html = html.replace("@attribution", "");
     }
-    html = html.replace("@who", commentaryObject[2]);
-    html = html.replace("@words", commentaryObject[3]);
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
 
     if (commentaryObject[2] == "") {
         var comTypeStr = "com_support";
@@ -955,7 +976,7 @@ function showPhotoByTimeId(timeId) {
 
         //scroll photo gallery to current photo
         var photoGalleryDiv = $('#photoGallery');
-        photoGalleryDiv.find('selected').removeClass('selected');
+        photoGalleryDiv.find('.selected').removeClass('selected');
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
@@ -1169,7 +1190,7 @@ function getRandomInt(min, max) {
 }
 
 function trace(str) {
-    var debug = false;
+    var debug = true;
     if (debug === true) {
         try {
             console.log(str);
@@ -1370,11 +1391,11 @@ $(document).ready(function() {
     commentaryDiv.scroll($.throttle(function() {
         var commentaryDiv = $("#commentaryDiv");
         if(commentaryDiv.scrollTop() < 300) {
-            trace("top of commentaryDiv reached");
-            prependCommentary(50, true);
+            //trace("top of commentaryDiv reached");
+            prependCommentary(25, true);
         } else if(commentaryDiv.scrollTop() + commentaryDiv.innerHeight() >= parseInt(commentaryDiv[0].scrollHeight) - 300) {
-            trace("bottom of commentaryDiv reached");
-            appendCommentary(50, true);
+            //trace("bottom of commentaryDiv reached");
+            appendCommentary(25, true);
         }
     }, 10));
 
@@ -1383,11 +1404,11 @@ $(document).ready(function() {
     utteranceDiv.scroll($.throttle(function() {
         var utteranceDiv = $("#utteranceDiv");
         if(utteranceDiv.scrollTop() < 300) {
-            trace("top of utteranceDiv reached");
-            prependUtterances(50, true);
+            //trace("top of utteranceDiv reached");
+            prependUtterances(25, true);
         } else if(utteranceDiv.scrollTop() + utteranceDiv.innerHeight() >= parseInt(utteranceDiv[0].scrollHeight) - 300) {
-            trace("bottom of utteranceDiv reached");
-            appendUtterances(50, true);
+            //trace("bottom of utteranceDiv reached");
+            appendUtterances(25, true);
         }
     }, 10));
 

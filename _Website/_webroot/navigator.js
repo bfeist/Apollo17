@@ -341,7 +341,7 @@ function drawNavCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-                    fontFamily: 'Roboto Mono',
+        fontFamily: 'Roboto Mono',
         fontSize: 11 + gFontScaleFactor,
         fillColor: gColorNavCursor
     });
@@ -885,7 +885,7 @@ function drawTier3() {
 
     //display utterance ticks
     for (i = 0; i < gUtteranceData.length; i++) {
-        itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
+        itemSecondsFromLeft = timeIdToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
         if (itemSecondsFromLeft > secondsOnTier3)
             break;
         if (itemSecondsFromLeft >= 0) {
@@ -900,9 +900,9 @@ function drawTier3() {
             topPoint = new paper.Point(itemLocX, barTop);
             bottomPoint = new paper.Point(itemLocX, barBottom);
             aLine = new paper.Path.Line(topPoint, bottomPoint);
-            if (gUtteranceData[i][1] == "Public Affairs") {
+            if (gUtteranceData[i][1] == "PAO") {
                 aLine.strokeColor = gColorUtteranceTicksPAO;
-            } else if (gUtteranceData[i][1] == "Mission Control") {
+            } else if (gUtteranceData[i][1] == "CC") {
                 aLine.strokeColor = gColorUtteranceTicksCC;
             } else {
                 aLine.strokeColor = gColorUtteranceTicksCrew;
