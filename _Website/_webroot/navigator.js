@@ -52,7 +52,7 @@ var gColorZoomStrokeLight = 'white';
 var gColorZoomStrokeDark = 'lightgrey';
 var gColorVideoRegionBackground =  '#010047';
 var gColorVideoRegionStroke =  'blue';
-var gColorTOCText = "#999999";
+var gColorTOCText = "#BBBBBB";
 var gColorTOCStroke = "orange";
 var gColorPhotoTicks = 'green';
 var gColorTimeTicks = 'lightgrey';
@@ -626,10 +626,11 @@ function drawTier2() {
                 var itemText = new paper.PointText({
                     justification: 'left',
                     fontFamily: 'Oswald',
+                    fontWeight: '300',
                     fontSize: 9 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom - textPosition * (gTier2Height / 3) + 1;
+                textTop = tierBottom - textPosition * (gTier2Height / 3) + 2;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCData[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -883,7 +884,7 @@ function drawTier3() {
 
     //display utterance ticks
     for (i = 0; i < gUtteranceData.length; i++) {
-        itemSecondsFromLeft = timeStrToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
+        itemSecondsFromLeft = timeIdToSeconds(gUtteranceData[i][0]) - gTier3StartSeconds;
         if (itemSecondsFromLeft > secondsOnTier3)
             break;
         if (itemSecondsFromLeft >= 0) {
@@ -898,9 +899,9 @@ function drawTier3() {
             topPoint = new paper.Point(itemLocX, barTop);
             bottomPoint = new paper.Point(itemLocX, barBottom);
             aLine = new paper.Path.Line(topPoint, bottomPoint);
-            if (gUtteranceData[i][1] == "Public Affairs") {
+            if (gUtteranceData[i][1] == "PAO") {
                 aLine.strokeColor = gColorUtteranceTicksPAO;
-            } else if (gUtteranceData[i][1] == "Mission Control") {
+            } else if (gUtteranceData[i][1] == "CC") {
                 aLine.strokeColor = gColorUtteranceTicksCC;
             } else {
                 aLine.strokeColor = gColorUtteranceTicksCrew;
@@ -918,9 +919,9 @@ function drawTier3() {
             itemLocX = gTier3Left + (itemSecondsFromLeft * gTier3PixelsPerSecond);
             barTop = gTier3Top + gTier3Height / 3;
             if (textPosition == 1) {
-                barBottom = barTop + (gTier3Height / 4); //proportional bar heights
+                barBottom = barTop + (gTier3Height / 4) + 2; //proportional bar heights
             } else {
-                barBottom = barTop + (gTier3Height / 2.2);
+                barBottom = barTop + (gTier3Height / 2.2) + 2;
             }
             var topPoint = new paper.Point(itemLocX, barTop);
             var bottomPoint = new paper.Point(itemLocX, barBottom);
@@ -930,6 +931,7 @@ function drawTier3() {
             var itemText = new paper.PointText({
                 justification: 'left',
                 fontFamily: 'Oswald',
+                fontWeight: '300',
                 fontSize: 12 + gFontScaleFactor,
                 fillColor: gColorTOCText
             });

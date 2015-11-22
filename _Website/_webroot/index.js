@@ -720,20 +720,19 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     who_modified = who_modified.replace(/LMP/g, "Schmitt");
     who_modified = who_modified.replace(/PAO/g, "Public Affairs");
     who_modified = who_modified.replace(/CC/g, "Mission Control");
-    utteranceObject[1] = who_modified;
+
     var words_modified = utteranceObject[2];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
     words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
-    utteranceObject[2] = words_modified;
 
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
-    var timeId = timeStrToTimeId(utteranceObject[0]);
+    var timeId = utteranceObject[0];
     html = html.replace(/@uttid/g, timeId);
-    html = html.replace("@timestamp", utteranceObject[0]);
-    html = html.replace("@who", utteranceObject[1]);
-    html = html.replace("@words", utteranceObject[2]);
+    html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
     if (utteranceObject[1] == "Public Affairs") {
         var uttTypeStr = "utt_pao";
     } else if (utteranceObject[1] == "Mission Control") {
@@ -854,14 +853,12 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     if (commentaryObject[2].length == 0) {
         var attribution = commentaryObject[1];
         attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
-        commentaryObject[1] = attribution;
     }
     if (commentaryObject[2].length != 0) {
         var who_modified = commentaryObject[2];
         who_modified = who_modified.replace(/CDR/g, "Cernan");
         who_modified = who_modified.replace(/CMP/g, "Evans");
         who_modified = who_modified.replace(/LMP/g, "Schmitt");
-        commentaryObject[2] = who_modified;
     }
     var words_modified = commentaryObject[3];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
@@ -869,7 +866,6 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
     words_modified = words_modified.replace(/@alsjurl/g, '<a href="https://www.hq.nasa.gov/alsj');
     words_modified = words_modified.replace(/@alsjt/g, ' target="alsj"');
-    commentaryObject[3] = words_modified;
 
     var html = $('#commentaryTemplate').html();
 
@@ -877,16 +873,16 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
         trace("something very wrong");
     }
 
-    var comId = timeStrToTimeId(commentaryObject[0]);
+    var comId = commentaryObject[0];
     html = html.replace(/@comid/g, comId);
-    html = html.replace("@timestamp", commentaryObject[0]);
+    html = html.replace("@timestamp", timeIdToTimeStr(comId));
     if (commentaryObject[1] != '') {
-        html = html.replace("@attribution", "(" + commentaryObject[1] + ")");
+        html = html.replace("@attribution", "(" + attribution + ")");
     } else {
         html = html.replace("@attribution", "");
     }
-    html = html.replace("@who", commentaryObject[2]);
-    html = html.replace("@words", commentaryObject[3]);
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
 
     if (commentaryObject[2] == "") {
         var comTypeStr = "com_support";
