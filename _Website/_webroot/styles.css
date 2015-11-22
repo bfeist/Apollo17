@@ -390,13 +390,15 @@ canvas[resize] {
 .galleryItemContainer.selected,
 .galleryItemContainer:hover,
 .galleryItemContainer:active {
-    border: 1px solid #5E92A6;
+    /*border: 1px solid #5E92A6;*/
+    border: 1px solid green;
 }
 
 .galleryItemContainer.selected.galleryOverlay,
 .galleryItemContainer:hover .galleryOverlay,
 .galleryItemContainer:active .galleryOverlay {
-    background-color: #1D547E;
+    /*background-color: #1D547E;*/
+    background-color: darkgreen;
 }
 
 .galleryImage {

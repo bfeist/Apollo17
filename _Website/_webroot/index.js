@@ -733,9 +733,9 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
-    if (utteranceObject[1] == "Public Affairs") {
+    if (who_modified == "Public Affairs") {
         var uttTypeStr = "utt_pao";
-    } else if (utteranceObject[1] == "Mission Control") {
+    } else if (who_modified == "Mission Control") {
         uttTypeStr = "utt_capcom";
     } else {
         uttTypeStr = "utt_crew";
@@ -972,7 +972,7 @@ function showPhotoByTimeId(timeId) {
 
         //scroll photo gallery to current photo
         var photoGalleryDiv = $('#photoGallery');
-        photoGalleryDiv.find('selected').removeClass('selected');
+        photoGalleryDiv.find('.selected').removeClass('selected');
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
