@@ -44,9 +44,9 @@ dependencies:
 		function init() {
         _trace('init');
 
-        if ($root.attr('data-sm-parent') == '.photo-block') {
-          $opts.showDebugInfo = false;
-        }
+        // if ($root.attr('data-sm-parent') == '.video-block') {
+        //   $opts.showDebugInfo = true;
+        // }
 
         $displayParent = $($root.attr('data-sm-parent'));
         $sizeBuddy = $($root.attr('data-sm-buddy'));

@@ -43,8 +43,13 @@ var gTier2SecondsPerPixel;
 var gTier3PixelsPerSecond;
 var gTier3SecondsPerPixel;
 
-var gColorTierBoxStroke = '#444444'; //"lightgrey";
-var gColorMissionStageBox = "grey";
+var graphFontFamily = 'Verdana';
+
+var gColorTier1BoxStroke = "lightgrey";
+var gColorTier2BoxStroke = '#5E92A6'; //"lightgrey"; #84b8d9
+var gColorTier3BoxStroke = '#84b8d9'; //"lightgrey"; #5E92A6
+var gColorTier1Text = '#999999';
+// var gColorMissionStageBox = 'transparent'; // "grey";
 var gColorMissionStageText = "lightgrey";
 var gColorZoomFillLight = 'white';
 var gColorZoomFillDark = 'black';
@@ -59,6 +64,9 @@ var gColorTimeTicks = 'lightgrey';
 var gColorUtteranceTicksPAO = 'grey';
 var gColorUtteranceTicksCrew = 'CadetBlue';
 var gColorUtteranceTicksCC = 'lightgrey';
+
+var gColorZoomPane1Border = '#5E92A6';
+var gColorZoomPane2Border = '#84b8d9';
 
 var gColorCursor = 'red';
 var gColorNavCursor = '#5E92A6'; //'yellow';
@@ -291,8 +299,8 @@ function drawCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-                    fontFamily: 'Roboto Mono',
-        fontSize: 10 + gFontScaleFactor,
+                    fontFamily: graphFontFamily,
+        fontSize: 11 + gFontScaleFactor,
         fillColor: gColorCursor
     });
     timeText.content = secondsToTimeStr(seconds);
@@ -341,7 +349,7 @@ function drawNavCursor(seconds) {
     var timeText = new paper.PointText({
         justification: 'left',
         fontWeight: 'bold',
-        fontFamily: 'Roboto Mono',
+        fontFamily: graphFontFamily,
         fontSize: 11 + gFontScaleFactor,
         fillColor: gColorNavCursor
     });
@@ -372,7 +380,7 @@ function drawTier1() {
     var cornerSize = new paper.Size(2, 2);
     var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
     //var tierRectPath = paper.Path.Rectangle(tierRect);
-    tierRectPath.strokeColor = gColorTierBoxStroke;
+    tierRectPath.strokeColor = gColorTier1BoxStroke;
     tempGroup.addChild(tierRectPath);
 
     // draw mission stages boxes
@@ -385,15 +393,15 @@ function drawTier1() {
             rectWidth = (gMissionDurationSeconds - timeStrToSeconds(gMissionStages[i][0])) * gTier1PixelsPerSecond;
         }
         var stageRect = new paper.Path.Rectangle(rectStartX, gTier1Top, rectWidth, gTier1Top + gTier1Height / 2);
-        stageRect.strokeColor = gColorMissionStageBox;
+        // stageRect.strokeColor = gColorMissionStageBox;
         stageRect.fillColor = "black";
         tempGroup.addChild(stageRect);
 
         var stageText = new paper.PointText({
             justification: 'left',
-            fontFamily: 'Roboto Mono',
-            fontSize: 6 + gFontScaleFactor,
-            fillColor: gColorMissionStageText
+            fontFamily: graphFontFamily,
+            fontSize: 8 + gFontScaleFactor,
+            fillColor: gColorTier1Text
         });
         var textTop = gTier1Top + (gTier1Height / 2);
         stageText.point = new paper.Point(rectStartX + 2 , textTop - 1);
@@ -466,68 +474,68 @@ function drawTier1NavBox(seconds) {
     var cornerSize = new paper.Size(2, 2);
     var navBoxRectPath = paper.Path.RoundRectangle(navBoxRect, cornerSize);
     //var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
-    navBoxRectPath.strokeColor = 'white';
+    navBoxRectPath.strokeColor = gColorZoomPane1Border;
     gTier1NavGroup.addChild(navBoxRectPath);
 
     //add zoom fades
-    var leftGradient = new paper.Point(gTier2Left, gTier2Top);
-    var rightGradient = new paper.Point(gTier1NavBoxLocX, gTier1Top);
-    var zoomRect = new Path({
-        segments:   [
-            [gTier1NavBoxLocX, gTier1Top],
-            [gTier1NavBoxLocX, (gTier1Top + gTier1Height)],
-            [gTier2Left, (gTier2Top + gTier2Height)],
-            [gTier2Left, gTier2Top]
-        ],
-        strokeColor: {
-            gradient: {
-                stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        closed: true,
-        strokeWidth: 1,
-        strokeJoin: 'round',
-        fillColor: {
-            gradient: {
-                stops: [gColorZoomFillDark, gColorZoomFillLight]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        opacity: gNaxBoxZoomFadeOpacity
-    });
-    gTier1NavGroup.addChild(zoomRect);
-    leftGradient = new paper.Point(gTier1NavBoxLocX + navBoxWidth, gTier1Top);
-    rightGradient = new paper.Point(gTier2Left + gTier2Width, gTier2Top);
-    zoomRect = new Path({
-        segments: [
-            [gTier1NavBoxLocX + navBoxWidth, gTier1Top],
-            [gTier1NavBoxLocX + navBoxWidth, (gTier1Top + gTier1Height)],
-            [gTier2Left + gTier2Width, gTier2Top + gTier2Height],
-            [gTier2Left + gTier2Width, gTier2Top]
-        ],
-        strokeColor: {
-            gradient: {
-                stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        closed: true,
-        strokeWidth: 1,
-        strokeJoin: 'round',
-        fillColor: {
-            gradient: {
-                stops: [gColorZoomFillLight, gColorZoomFillDark]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        opacity: gNaxBoxZoomFadeOpacity
-    });
-    gTier1NavGroup.addChild(zoomRect);
+    // var leftGradient = new paper.Point(gTier2Left, gTier2Top);
+    // var rightGradient = new paper.Point(gTier1NavBoxLocX, gTier1Top);
+    // var zoomRect = new Path({
+    //     segments:   [
+    //         [gTier1NavBoxLocX, gTier1Top],
+    //         [gTier1NavBoxLocX, (gTier1Top + gTier1Height)],
+    //         [gTier2Left, (gTier2Top + gTier2Height)],
+    //         [gTier2Left, gTier2Top]
+    //     ],
+    //     strokeColor: {
+    //         gradient: {
+    //             stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     closed: true,
+    //     strokeWidth: 1,
+    //     strokeJoin: 'round',
+    //     fillColor: {
+    //         gradient: {
+    //             stops: [gColorZoomFillDark, gColorZoomFillLight]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     opacity: gNaxBoxZoomFadeOpacity
+    // });
+    // gTier1NavGroup.addChild(zoomRect);
+    // leftGradient = new paper.Point(gTier1NavBoxLocX + navBoxWidth, gTier1Top);
+    // rightGradient = new paper.Point(gTier2Left + gTier2Width, gTier2Top);
+    // zoomRect = new Path({
+    //     segments: [
+    //         [gTier1NavBoxLocX + navBoxWidth, gTier1Top],
+    //         [gTier1NavBoxLocX + navBoxWidth, (gTier1Top + gTier1Height)],
+    //         [gTier2Left + gTier2Width, gTier2Top + gTier2Height],
+    //         [gTier2Left + gTier2Width, gTier2Top]
+    //     ],
+    //     strokeColor: {
+    //         gradient: {
+    //             stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     closed: true,
+    //     strokeWidth: 1,
+    //     strokeJoin: 'round',
+    //     fillColor: {
+    //         gradient: {
+    //             stops: [gColorZoomFillLight, gColorZoomFillDark]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     opacity: gNaxBoxZoomFadeOpacity
+    // });
+    // gTier1NavGroup.addChild(zoomRect);
 }
 
 function drawTier2() {
@@ -540,7 +548,7 @@ function drawTier2() {
     var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
     //var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = "black";
-    tierRectPath.strokeColor = gColorTierBoxStroke;
+    tierRectPath.strokeColor = gColorTier2BoxStroke;
     tempGroup.addChild(tierRectPath);
     var secondsOnTier2 = gTier2SecondsPerPixel * gTier2Width;
 
@@ -627,7 +635,7 @@ function drawTier2() {
             if (gTOCData[i][1] == "1") { //if level 1 TOC item
                 var itemText = new paper.PointText({
                     justification: 'left',
-                    fontFamily: 'Roboto Mono',
+                    fontFamily: graphFontFamily,
                     fontSize: 8 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
@@ -660,12 +668,12 @@ function drawTier2() {
                 rectWidth = gTier2Width - rectStartX + gTier2Left - 1;
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier2Top, rectWidth, (gTier2Height / 2) - 3);
-            stageRect.strokeColor = gColorMissionStageBox;
+            // stageRect.strokeColor = gColorMissionStageBox;
             //stageRect.fillColor ='black';
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Roboto Mono',
+                fontFamily: graphFontFamily,
                 //fontWeight: 'bold',
                 fontSize: 8 + gFontScaleFactor,
                 fillColor: gColorMissionStageText
@@ -706,65 +714,65 @@ function drawTier2NavBox(seconds) {
     var cornerSize = new paper.Size(3, 3);
     var navBoxRectPath = paper.Path.RoundRectangle(navBoxRect, cornerSize);
     //var navBoxRectPath = paper.Path.Rectangle(navBoxRect);
-    navBoxRectPath.strokeColor = 'white';
+    navBoxRectPath.strokeColor = gColorZoomPane2Border;
     gTier2NavGroup.addChild(navBoxRectPath);
 
     //add zoom fades
-    var leftGradient = new paper.Point(gTier3Left, gTier3Top);
-    var rightGradient = new paper.Point(gTier2NavBoxLocX, gTier2Top);
-    var zoomRect = new Path({
-        segments:   [[gTier2NavBoxLocX, gTier2Top],
-            [gTier2NavBoxLocX, (gTier2Top + gTier2Height)],
-            [gTier3Left, (gTier3Top + gTier3Height)],
-            [gTier3Left, gTier3Top]],
-        strokeColor: {
-            gradient: {
-                stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        closed: true,
-        strokeWidth: 1,
-        strokeJoin: 'round',
-        fillColor: {
-            gradient: {
-                stops: [gColorZoomFillDark, gColorZoomFillLight]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        opacity: gNaxBoxZoomFadeOpacity
-    });
-    gTier2NavGroup.addChild(zoomRect);
+    // var leftGradient = new paper.Point(gTier3Left, gTier3Top);
+    // var rightGradient = new paper.Point(gTier2NavBoxLocX, gTier2Top);
+    // var zoomRect = new Path({
+    //     segments:   [[gTier2NavBoxLocX, gTier2Top],
+    //         [gTier2NavBoxLocX, (gTier2Top + gTier2Height)],
+    //         [gTier3Left, (gTier3Top + gTier3Height)],
+    //         [gTier3Left, gTier3Top]],
+    //     strokeColor: {
+    //         gradient: {
+    //             stops: [gColorZoomStrokeDark, gColorZoomStrokeLight]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     closed: true,
+    //     strokeWidth: 1,
+    //     strokeJoin: 'round',
+    //     fillColor: {
+    //         gradient: {
+    //             stops: [gColorZoomFillDark, gColorZoomFillLight]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     opacity: gNaxBoxZoomFadeOpacity
+    // });
+    // gTier2NavGroup.addChild(zoomRect);
 
-    leftGradient = new paper.Point(gTier2NavBoxLocX + navBoxWidth, gTier2Top);
-    rightGradient = new paper.Point(gTier3Left + gTier3Width, gTier3Top);
-    zoomRect = new Path({
-        segments:   [[gTier2NavBoxLocX + navBoxWidth, gTier2Top],
-            [gTier2NavBoxLocX + navBoxWidth, (gTier2Top + gTier2Height)],
-            [gTier3Left + gTier3Width, (gTier3Top + gTier3Height)],
-            [gTier3Left + gTier3Width, gTier3Top]],
-        strokeColor: {
-            gradient: {
-                stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        closed: true,
-        strokeWidth: 1,
-        strokeJoin: 'round',
-        fillColor: {
-            gradient: {
-                stops: [gColorZoomFillLight, gColorZoomFillDark]
-            },
-            origin: leftGradient,
-            destination: rightGradient
-        },
-        opacity: gNaxBoxZoomFadeOpacity
-    });
-    gTier2NavGroup.addChild(zoomRect);
+    // leftGradient = new paper.Point(gTier2NavBoxLocX + navBoxWidth, gTier2Top);
+    // rightGradient = new paper.Point(gTier3Left + gTier3Width, gTier3Top);
+    // zoomRect = new Path({
+    //     segments:   [[gTier2NavBoxLocX + navBoxWidth, gTier2Top],
+    //         [gTier2NavBoxLocX + navBoxWidth, (gTier2Top + gTier2Height)],
+    //         [gTier3Left + gTier3Width, (gTier3Top + gTier3Height)],
+    //         [gTier3Left + gTier3Width, gTier3Top]],
+    //     strokeColor: {
+    //         gradient: {
+    //             stops: [gColorZoomStrokeLight, gColorZoomStrokeDark]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     closed: true,
+    //     strokeWidth: 1,
+    //     strokeJoin: 'round',
+    //     fillColor: {
+    //         gradient: {
+    //             stops: [gColorZoomFillLight, gColorZoomFillDark]
+    //         },
+    //         origin: leftGradient,
+    //         destination: rightGradient
+    //     },
+    //     opacity: gNaxBoxZoomFadeOpacity
+    // });
+    // gTier2NavGroup.addChild(zoomRect);
 }
 
 function drawTier3() {
@@ -777,7 +785,7 @@ function drawTier3() {
     var tierRectPath = paper.Path.RoundRectangle(tierRect, cornerSize);
     //var tierRectPath = paper.Path.Rectangle(tierRect);
     tierRectPath.fillColor = 'black';
-    tierRectPath.strokeColor = gColorTierBoxStroke;
+    tierRectPath.strokeColor = gColorTier3BoxStroke;
     tempGroup.addChild(tierRectPath);
 
     var secondsOnTier3 = gTier3SecondsPerPixel * gTier3Width;
@@ -823,12 +831,12 @@ function drawTier3() {
                 rectWidth = gTier3Width - rectStartX + gTier3Left - 1;
             }
             var stageRect = new paper.Path.Rectangle(rectStartX, gTier3Top, rectWidth, gTier3Height / 3);
-            stageRect.strokeColor = '#444444';
+            // stageRect.strokeColor = '#444444';
             //stageRect.fillColor ='black';
 
             var stageText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Roboto Mono',
+                fontFamily: graphFontFamily,
                 //fontWeight: 'bold',
                 fontSize: 10 + gFontScaleFactor,
                 fillColor: "lightgrey"
@@ -931,8 +939,8 @@ function drawTier3() {
             tempGroup.addChild(aLine);
             var itemText = new paper.PointText({
                 justification: 'left',
-                fontFamily: 'Roboto Mono',
-                fontSize: 12 + gFontScaleFactor,
+                fontFamily: graphFontFamily,
+                fontSize: 10 + gFontScaleFactor,
                 fillColor: gColorTOCText
             });
             itemText.point = new paper.Point(itemLocX + 2 , barBottom);
