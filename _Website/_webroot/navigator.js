@@ -43,7 +43,7 @@ var gTier2SecondsPerPixel;
 var gTier3PixelsPerSecond;
 var gTier3SecondsPerPixel;
 
-var graphFontFamily = 'Verdana';
+var graphFontFamily = 'Roboto Mono';
 
 var gColorTier1BoxStroke = "lightgrey";
 var gColorTier2BoxStroke = '#5E92A6'; //"lightgrey"; #84b8d9
