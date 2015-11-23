@@ -325,6 +325,9 @@ canvas[resize] {
     left: 0;
     width: 100%;
 
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: normal;
+
     background-color: #222222;
     opacity: 0.8;
     padding: 5px;
@@ -338,8 +341,6 @@ canvas[resize] {
     max-height: 100%;
 }
 .photodivcaption {
-    font-size:15px;
-    font-weight:bold;
     color: #FFFFFF;
 }
 .photoTable {
@@ -354,7 +355,7 @@ canvas[resize] {
 .photoTable td {
     padding:5px;
     border: solid;
-    color: grey;
+    color: #a3a3a3;
     border-width: 1px 1px 1px 1px;
     vertical-align:middle;
     font-size: 14px;
@@ -704,7 +705,8 @@ canvas[resize] {
 ::-webkit-scrollbar-track {
     background: #000000;
     /*border: 1px solid #c0c0c0;*/
-    border: 1px solid #0f0f0f;
+    border: 1px solid #070707;
+    /*border: 1px solid #000000;*/
     border-radius: 0px;
 }
 ::-webkit-scrollbar-track:hover {
@@ -750,13 +752,13 @@ canvas[resize] {
 /*}*/
 .badge-row {
   background-position: center right;
-  background-image: url("/img/Apollo_17-insignia100.png");
+  background-image: url("img/Apollo_17-insignia100.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .isloading-overlay {
   background-position: center center !important;
-  background-image: url("/img/ajax-loader.gif") !important;
+  background-image: url("img/ajax-loader.gif") !important;
   background-repeat: no-repeat !important;
   background-size: 50px !important;
   bottom: 0;
@@ -914,7 +916,7 @@ body.splash-loaded .splash-content {
   width: 1px;
 }
 .splash-content .patch-overlay {
-  background-image: url("/img/a17_patch_overlay.png");
+  background-image: url("img/a17_patch_overlay.png");
   position: absolute;
   bottom: 1.5em;
   right: 1.5em;
