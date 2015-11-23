@@ -690,7 +690,7 @@ canvas[resize] {
     /*background: #c0c0c0;*/
     background: #0f0f0f;
     /*border: 0px none #ff2c20;*/
-    border: 1px solid grey;
+    border: 1px solid #84b8d9;
     border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -713,10 +713,18 @@ canvas[resize] {
 }
 ::-webkit-scrollbar-track:active {
     /*background: #717171;*/
-    /*background: #0f0f0f;*/
+/*background: #0f0f0f;*/
 }
 ::-webkit-scrollbar-corner {
     background: transparent;
+}
+
+#photoGallery::-webkit-scrollbar-thumb {
+    /*background: #c0c0c0;*/
+    background: #0f0f0f;
+    /*border: 0px none #ff2c20;*/
+    border: 1px solid green;
+    border-radius: 0px;
 }
 
 
