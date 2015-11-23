@@ -85,6 +85,7 @@ h3 {
     overflow-y: scroll;
     position: relative;
     height: 100%;
+    font-size: .9em;
 }
 .TOCtimestamp {
 
@@ -102,7 +103,7 @@ h3 {
 ul.TOC1 {
     font-size: .9em;
     list-style-type: none;
-    color: #5E92A6;
+    color: #84b8d9;
     font-weight: normal;
     line-height: 1.3;
 }
