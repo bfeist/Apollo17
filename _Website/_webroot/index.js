@@ -1396,7 +1396,16 @@ $(document).ready(function() {
                     this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
                     this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
                     this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gHoveredUtteranceArray[1]))]];
+                    if (nearestPhotoObject[3] != "") {
+                        var photoTypePath = "flight";
+                        var filename = "AS17-" + nearestPhotoObject[1];
+                    } else {
+                        photoTypePath = "supporting";
+                        filename = nearestPhotoObject[1];
+                    }
+                    filename = filename + ".jpg";
+                    this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/2100/" + filename;
                 },
                 after: function() {
                     console.log("User shared facebook: ", this.url);
