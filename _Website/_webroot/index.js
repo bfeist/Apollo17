@@ -47,6 +47,7 @@ var gCommentaryDisplayStartIndex;
 var gCommentaryDisplayEndIndex;
 var gCurrentHighlightedCommentaryIndex;
 
+var gShareButtonObject;
 var gHoveredUtteranceArray; //share button
 
 var gBackground_color_active = "#222222";
@@ -216,12 +217,12 @@ function setAutoScrollPoller() {
     }, 500); //polling frequency in milliseconds
 }
 
-function setIntroTimeUpdatePoller() {
-    return window.setInterval(function () {
-        //trace("setIntroTimeUpdatePoller()");
-        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
-    }, 1000);
-}
+//function setIntroTimeUpdatePoller() {
+//    return window.setInterval(function () {
+//        //trace("setIntroTimeUpdatePoller()");
+//        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
+//    }, 1000);
+//}
 
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
@@ -229,6 +230,7 @@ function setApplicationReadyPoller() {
         if (gApplicationReady >= 4) {
             trace("APPREADY = 4! App Ready!");
             if (gMissionTimeParamSent != 0) {
+                fadeOutSplash();
                 initializePlayback();
             }
             // $.isLoading( "hide" );
@@ -896,11 +898,11 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     }
 
     if (who_modified != '') {
-        html = html.replace('@whocell', '<td class="who">@who</td>');
-        html = html.replace('@wordscell', '<td class="spokenwords">@words <span class="attribution">@attribution</span></td>');
+        html = html.replace('@whocell', '<td class="who @comType">@who</td>');
+        html = html.replace('@wordscell', '<td class="spokenwords @comType">@words <span class="attribution">@attribution</span></td>');
     } else {
         html = html.replace('@whocell', '');
-        html = html.replace('@wordscell', '<td class="spokenwords" colspan="2">@words <span class="attribution">@attribution</span></td>');
+        html = html.replace('@wordscell', '<td class="spokenwords @comType" colspan="2">@words <span class="attribution">@attribution</span></td>');
     }
 
     html = html.replace(/@comid/g, comId);
@@ -1217,37 +1219,28 @@ jQuery(function ($) {
         gMissionTimeParamSent = 0;
     }
 
-    if (gMissionTimeParamSent == 0) {
+    //if (gMissionTimeParamSent == 0) {
         //var modal = $('#basic-modal-content');
         //modal.modal({opacity: 90});
 
-        gIntroInterval = setIntroTimeUpdatePoller();
+        //gIntroInterval = setIntroTimeUpdatePoller();
 
         //$('.simplemodal-wrap').isLoading({text: "Loading", position: "overlay"});
         //console.log("Loading overlay on");
 
-        $("#historicalBtn").button();
-        $("#launchBtn").button();
+        //$("#historicalBtn").button();
+        //$("#launchBtn").button();
     //} else {
     //    $('body').isLoading({text: "Loading", position: "overlay"});
-    }
+    //}
 
     $("#fullscreenBtn")
-        // .button({
-        //     icons: { primary: "ui-icon-arrow-4-diag" },
-        //     text: false,
-        //     label: "Full Screen"
-        // })
         .click(function(){
             toggleFullscreen();
         });
 
 
     $("#playPauseBtn")
-        // .button({
-        //     icons: { primary: "ui-icon-pause" },
-        //     text: false
-        // })
         .click(function(){
             if (gPlaybackState == "paused") {
                 player.playVideo();
@@ -1257,10 +1250,6 @@ jQuery(function ($) {
         });
 
     $("#soundBtn")
-        // .button({
-        //     icons: { primary: "ui-icon-volume-off" },
-        //     text: false
-        // })
         .click(function(){
             if (player.isMuted() == true) {
                 player.unMute();
@@ -1281,21 +1270,11 @@ jQuery(function ($) {
         });
 
     $("#realtimeBtn")
-        // .button({
-        //     icons: { primary: "ui-icon-link" },
-        //     text: false,
-        //     label: "Snap to Historical Time"
-        // })
         .click(function(){
             historicalButtonClick();
         });
 
     $("#helpBtn")
-        // .button({
-        //     icons: { primary: "ui-icon-help" },
-        //     text: false,
-        //     label: "Help"
-        // })
         .click(function(){
             alert("Help!");
         });
@@ -1376,18 +1355,18 @@ $(window).bind('fullscreenchange', function(e) {
 });
 
 //on window resize
-//$(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
-//    console.log('***window resize');
-//    var myCanvasElement = $('#myCanvas');
-//    myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
-//    myCanvasElement.css("width", $('.headerRight').width());
-//    //setTimeout(function(){
-//    //        populatePhotoGallery(); }
-//    //    ,1000);
-//    //scaleMissionImage();
-//    showPhotoByTimeId(gCurrentPhotoTimeid, true);
-//    redrawAll();
-//}, 250));
+$(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
+    console.log('***window resize');
+    var myCanvasElement = $('#myCanvas');
+    myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
+    myCanvasElement.css("width", $('#navigator').width());
+    //setTimeout(function(){
+    //        populatePhotoGallery(); }
+    //    ,1000);
+    //scaleMissionImage();
+    //showPhotoByTimeId(gCurrentPhotoTimeid, true);
+    redrawAll();
+}, 250));
 
 function initSplash() {
   var $splash = $('.splash-content');
@@ -1432,90 +1411,72 @@ $(document).ready(function() {
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
-    //utteranceDiv.delegate('.utterance', 'mouseenter', function() {
-    //    var shareButtonSelector = $('.share-button');
-    //    var loctop = $(this).position().top + 40;
-    //    var locright = $(this).position().left + $(this).width() - 48;
-    //    shareButtonSelector.css("display", "" );
-    //    shareButtonSelector.css("z-index", 1000 );
-    //    shareButtonSelector.animate({top: loctop, left: locright}, 0);
-    //    var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
-    //    hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
-    //    gHoveredUtteranceArray = hoveredUtteranceText.split("|");
-    //});
-    //
-    //$('#tabs-left-1').mouseleave(function() {
-    //    $('.share-button').css("display", "none" );
-    //});
+    utteranceDiv.delegate('.utterance', 'mouseenter', function() {
+        var shareButtonSelector = $('.share-button');
+        var loctop = $(this).position().top + 10;
+        var locright = $(this).position().left + $(this).width() - 48;
+        shareButtonSelector.css("display", "" );
+        shareButtonSelector.css("z-index", 1000 );
+        shareButtonSelector.animate({top: loctop, left: locright}, 0);
+        var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
+        hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
+        gHoveredUtteranceArray = hoveredUtteranceText.split("|");
+    });
 
-    //new Share(".share-button", {
-    //    ui: {
-    //        flyout: "middle left",
-    //        button_text: ""
-    //    },
-    //    networks: {
-    //        google_plus: {
-    //            enabled: false,
-    //            before: function(element) {
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared google plus: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'google plus');
-    //            }
-    //        },
-    //        facebook: {
-    //            app_id: "1639595472942714",
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared facebook: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'facebook');
-    //            }
-    //        },
-    //        twitter: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 67) + "... %23NASA";
-    //            },
-    //            after: function() {
-    //                console.log("User shared twitter: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'twitter');
-    //            }
-    //        },
-    //        pinterest: {
-    //            enabled: false,
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-    //                this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
-    //            },
-    //            after: function() {
-    //                console.log("User shared pinterest: ", this.url);
-    //                ga('send', 'event', 'share', 'click', 'pinterest');
-    //            }
-    //        },
-    //        email: {
-    //            before: function(element) {
-    //                //this.url = element.getAttribute("data-url");
-    //                this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
-    //                this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-    //            },
-    //            after: function() {
-    //                console.log("User shared email: ", this.title);
-    //                ga('send', 'event', 'share', 'click', 'email');
-    //            }
-    //        }
-    //    }
-    //});
-    //$('.share-button').css("display", "none" );
+    $('#utteranceWrapper').mouseleave(function() {
+        $('.share-button').css("display", "none" );
+        gShareButtonObject.close();
+    });
+
+    gShareButtonObject = new Share(".share-button", {
+        ui: {
+            flyout: "middle left",
+            button_text: ""
+        },
+        networks: {
+            google_plus: {
+                enabled: false,
+            },
+            facebook: {
+                app_id: "1639595472942714",
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
+                    this.image = "http://apollo17.org/mission_images/img/72-H-1454.jpg";
+                },
+                after: function() {
+                    console.log("User shared facebook: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'facebook');
+                }
+            },
+            twitter: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 64) + "... %23NASA";
+                },
+                after: function() {
+                    console.log("User shared twitter: ", this.url);
+                    ga('send', 'event', 'share', 'click', 'twitter');
+                }
+            },
+
+            email: {
+                before: function(element) {
+                    //this.url = element.getAttribute("data-url");
+                    this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
+                    this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                },
+                after: function() {
+                    console.log("User shared email: ", this.title);
+                    ga('send', 'event', 'share', 'click', 'email');
+                }
+            }
+        }
+    });
+    $('.share-button').css("display", "none" );
 });
 
 // </editor-fold>

@@ -21,7 +21,7 @@
 0055225|2|Schmitt: "I'm not keeping you awake, am I?"
 0090001|1|Crew Sleep Period Start
 0150245|1|Crew wake-up
-0180255|1|News read to crew
+0180255|2|News read to crew
 0211457|2|Cernan describes launch experience
 0245132|2|Jack Schmitt philosophical about observing the earth
 0252626|1|Crew Sleep Period Start
@@ -39,7 +39,7 @@
 0650000|2|Mission control center time update (+2:40:00)
 0680751|2|ALFMED flash observations experiment begins
 0692548|2|Schmitt asks a difficult flight dynamics question
-0731745|1|Half way to the moon
+0731745|2|Half way to the moon
 0734715|1|Crew Sleep Period Start
 0813028|1|Crew wake-up
 0841245|2|Scientific instrument module door jettison
@@ -53,15 +53,15 @@
 1060909|2|Video: Earth and moon through telescope
 1100800|1|Lunar Module undocking and separation
 1104734|1|Video: Command Module from LM
-1124949|1|Video: Powered Descent Initiation
-1125208|2|Begin Lunar landing
+1124949|2|Video: Powered Descent Initiation
+1125208|1|Begin Lunar landing
 1125748|2|Video: Landing camera on
 1130213|2|Landed at Taurus-Littrow
 1134351|2|Post-landing Activities
 1151712|1|EVA-1 Prep
 1160000|2|Getting spacesuits on
 1170138|2|EVA-1 Watches started
-1171042|2|Down the Ladder
+1171042|1|Down the Ladder
 1171135|2|Video: 16mm Film
 1171450|2|"Don't lock the hatch"
 1171857|2|Jack Schmitt challenges the next generation
@@ -69,23 +69,23 @@
 1173109|2|Lunar Roving Vehicle (LRV) offloaded
 1174416|2|LRV deployed
 1174824|2|LRV Test Drive
-1181402|2|Video: First television from lunar surface
+1181402|1|Video: First television from lunar surface
 1182157|2|United States flag deployed
 1183443|2|Cosmic ray experiment deployed
 1203938|2|Cernan: "who's winning the football game?"
-1204606|2|ALSEP deployed
+1204606|1|ALSEP deployed
 1205930|2|Deep core sample
 1210107|2|Schmitt falls while retreiving the deep core sample
 1213542|2|Singing - "strolling on the moon one day"
 1215102|2|Departed for Station 1
-1220615|2|Video: Arrived at Station 1
+1220615|1|Video: Station 1
 1223647|2|Departed for Surface Electrical Properties (SEP) experiment site
-1225456|2|Video: Arrived at SEP experiment site
+1225456|2|Video: SEP experiment site
 1231339|2|Departed for the Lunar Module
-1231803|2|Video: Arrived back at Lunar Module
+1231803|1|Video: Arrived back at Lunar Module
 1241345|2|Lunar Module cabin repressurized
 1241404|2|Post-EVA-1 Activities
-1262537|2|Geology debrief on EVA-1
+1262537|1|Geology debrief on EVA-1
 1274833|2|Lunar dust hay fever
 1285410|1|Surface Crew sleep period
 1362658|2|Communications with Ron Evans in lunar orbit
@@ -94,12 +94,12 @@
 1382837|1|EVA-2 Prep
 1383157|2|Instructions to build a replacment fender
 1403420|2|EVA-2 Watches started
-1404541|2|Video: EVA-2
+1404541|1|Video: EVA-2
 1411900|2|LRV loaded for traverse
 1412155|2|Departed for SEP experiment site
-1412705|2|Arrived at SEP site
+1412705|1|SEP site
 1413148|2|Departed for Station 2 (South Massif)
-1424550|2|Video: Arrived at Station 2
+1424550|1|Video: Station 2
 1425048|2|Cernan dusts lens at Station 2 "can I change your oil?"
 1425945|2|Cernan "busting my butt"
 1431940|2|Camera on "mother earth"
@@ -108,45 +108,47 @@
 1434044|2|"One-scoop-Schmitt, they call me."
 1434726|2|Departed for Station 3
 1441633|2|Capcom expresses how smoothly the mission is going
-1443035|2|Video: Arrived at Station 3
+1443035|1|Video: Station 3
 1445052|2|"Help twinkle toes"
 1445626|2|"Houston Ballet Foundation requesting your services for next season"
 1450447|2|Departed for Station 4 (Shorty Crater)
-1452348|2|Video: Arrived at Station 4
+1452348|1|Video: Station 4
 1452629|2|Orange soil discovered
 1452859|2|Camera gets a cleaning
 1455447|2|Departed for Station 5 (Camelot Crater)
-1462550|2|Video: Arrived at Station 5
+1462550|1|Video: Station 5
 1465038|2|Cernan hopping along and singing
 1465557|2|Departed for the Lunar Module
 1471223|2|Arrived at the Lunar Module
 1473740|2|Gene shooting with the 500mm
 1475204|2|Dusting the camera and philosophizing
-1480947|2|Lunar Module cabin repressurization
+1480947|2|Lunar Module cabin repressurized
 1504612|1|Crew listens to news while eating dinner
 1522520|1|Surface Crew sleep period begins
 1544023|2|Communications with Ron Evans in lunar orbit
-1550840|2|Description of EVA2 read to Evans
+1550840|1|Description of EVA2 read to Evans
 1602402|1|Surface Crew wake-up
 1633248|1|EVA-3 Prep
 1633340|2|EVA-3 Watches started
-1634615|2|Video: EVA-3
+1634615|1|Video: EVA-3
 1635611|2|LRV loaded for traverse
 1640016|2|Cosmic ray experiment retrieved
 1640708|2|Jack Schmitt, "Tallest man on the moon"
 1641119|2|Departed for SEP site
-1641835|2|Arrived at SEP site
+1641835|1|SEP site
 1642232|2|Departed for Station 6 (Tracy's Rock)
-1645310|2|Video: Arrived at Station 6
+1645310|1|Video: Station 6
 1650057|2|Schmitt's face visible on video
 1650800|2|Hammering boulder to retrieve fragments
 1653642|2|Cernan falls
 1653654|2|"Remind me to dust my camera"
 1654827|2|Photo: Lunar Module in the far distance
 1660536|2|Departed for Station 7
-1661100|2|Video: Arrived at Station 7
+1661100|1|Video: Station 7
+1661124|2|Cernan is getting "tired of dusting"
+1661438|2|Photography of large boulder
 1662950|2|Departed for Station 8 (Sculptured Hills)
-1665001|2|Video: Arrived at Station 8
+1665001|1|Video: Station 8
 1665121|2|"I think your LMP just ran away"
 1665624|2|Jack rolls bolder downhill
 1670657|2|Jack running
@@ -154,14 +156,15 @@
 1671003|2|Cernan: "I can cover ground like a kangaroo"
 1673228|2|Departed for Station 9 (Van Serg Crater)
 1673444|2|Trying to blow dust off the camera
-1675548|2|Video: Arrived at Station 9
+1675548|1|Video: Station 9
 1680223|2|Singing "Tiptoe Through the Tulips"
 1680432|2|Standing on cliff giving geology observations
 1682048|2|Simultaneous panoramas
 1684557|2|Capcom asks about strange object in camera view
 1684707|2|Return to the Lunar Module
 1691519|2|Schmitt, "Need your oil changed?"
-1691857|2|Video: Arrived at Lunar Module, Start closeout
+1691857|1|Video: Arrived at Lunar Module
+1693045|2|Photos of Earth above Command Module
 1694315|2|Speech to the youth of the world
 1694650|2|Uncovering of the plaque
 1695144|2|Throwing object
@@ -175,7 +178,7 @@
 1704117|1|Cernan's Last Steps speech
 1704700|2|Lunar Module cabin repressurized
 1720152|2|Chat with Charlie Duke
-1733027|2|Debrief on EVA questions over dinner
+1733027|1|Debrief on EVA questions over dinner
 1734413|2|Spurt of dust by the window. "Sleigh with it?"
 1752107|1|Crew Sleep Period Start
 1794112|1|Ron Evans wake-up in Command Module
@@ -185,13 +188,13 @@
 1823357|2|Command Module orbital burn
 1833112|1|Surface Crew wake-up. Crew wakes up early and sings to Mission Control
 1833711|2|Schmitt reads xmas poem
-1875339|1|GO for lunar liftoff
+1875339|2|GO for lunar liftoff
 1875833|1|Video: Preparation for Lunar Liftoff
 1880119|2|Lunar ascent
 1885815|2|Terminal phase initiation
 1893622|1|Video: Beginning rendezvous with Command Module
 1894132|2|Good to see you
-1900141|1|Video: Preparation for Lunar Docking
+1900141|2|Video: Preparation for Lunar Docking
 1901734|2|Lunar Docking
 1902042|2|Message from the President
 1904130|2|Hatch opened and crew reunited

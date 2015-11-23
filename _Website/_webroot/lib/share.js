@@ -162,7 +162,7 @@ Share = (function(superClass) {
       },
       networks: {
         google_plus: {
-          enabled: true,
+          enabled: false,
           url: null
         },
         twitter: {
@@ -181,7 +181,7 @@ Share = (function(superClass) {
           image: null
         },
         pinterest: {
-          enabled: true,
+          enabled: false,
           url: null,
           image: null,
           description: null
@@ -387,7 +387,7 @@ Share = (function(superClass) {
   };
 
   Share.prototype.inject_html = function(instance) {
-    return instance.innerHTML = "<label class='entypo-export'><span>" + this.config.ui.button_text + "</span></label><div class='social load " + this.config.ui.flyout + "'><ul><li class='entypo-pinterest' data-network='pinterest'></li><li class='entypo-twitter' data-network='twitter'></li><li class='entypo-facebook' data-network='facebook'></li><li class='entypo-gplus' data-network='google_plus'></li><li class='entypo-paper-plane' data-network='email'></li></ul></div>";
+    return instance.innerHTML = "<label class='entypo-export'><span>" + this.config.ui.button_text + "</span></label><div class='social load " + this.config.ui.flyout + "'><ul><li class='entypo-twitter' data-network='twitter'></li><li class='entypo-facebook' data-network='facebook'></li></li><li class='entypo-paper-plane' data-network='email'></li></ul></div>";
   };
 
   Share.prototype.inject_facebook_sdk = function() {

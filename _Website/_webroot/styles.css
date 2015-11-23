@@ -142,6 +142,7 @@ li:hover {
 }
 .utteranceTable {
     border-collapse: collapse;
+    font-size: 0.9em;
 }
 tr.utterance  {
     cursor: pointer;
@@ -169,6 +170,7 @@ tr.utterance > td {
     border: 2px;
     padding: 2px;
     border-collapse: collapse;
+    font-size: 0.9em;
 }
 tr.commentary {
     cursor: pointer;

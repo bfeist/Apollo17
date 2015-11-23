@@ -55,10 +55,10 @@
 
     <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
     <script type="text/javascript" src='lib/size_manager.js'></script>
-
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
+
 </head>
 <body>    
 
@@ -98,15 +98,15 @@
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance @uttType uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+    <tr class="utterance utt_pao uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
         <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words</td>
+        <td class="who @uttType">@who</td>
+        <td class="spokenwords @uttType">@words</td>
     </tr>
 </script>
 
 <script type="text/html" id="commentaryTemplate">
-    <tr class="commentary @comType comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
+    <tr class="commentary utt_pao comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
         <td class="timestamp">@timestamp</td>
         @whocell
         @wordscell

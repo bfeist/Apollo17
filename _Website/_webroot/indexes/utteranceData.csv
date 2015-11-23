@@ -136,7 +136,7 @@
 0000143|CDR|Pushing 3 gs.
 0000145|CMP|I can't - can't hold my hand up there anymore. (laughter)
 0000148|CDR|Okay, we're out of MAXQ.
-0000150|CMP|Okay. Cabin seal looking good.
+0000150|CMP|Okay. Cabin's still looking good.
 0000152|CDR|Alpha's PC.
 0000154|CMP|Okay, standby for -
 0000155|CC|Stand by for Mode I Charlie, 17.
@@ -16690,7 +16690,8 @@
 1445608|LMP|Okay. No, we're going back to get that after - and we won't forget it.
 1445619|CDR|I think you might be able to decipher this station, Bob.
 1445626|CC|That's the general idea. And be advised that the switchboard here at MSC has been lit up by calls from the Houston Ballet Foundation requesting your services for next season.
-1445639|CDR|I should hope so. Well, we can't use that one. The right-hand gate lock is - -
+1445640|LMP|I should hope so.
+1445645|CDR|Well, we can't use that one. The right-hand gate lock is - -
 1445651|LMP|How's that?
 1445652|CDR|- nonfunctional and the left one is almost nonfunctional.
 1445659|CC|Okay.

@@ -59,7 +59,7 @@ var gColorVideoRegionBackground =  '#010047';
 var gColorVideoRegionStroke =  'blue';
 var gColorTOCText = "#999999";
 var gColorTOCStroke = "orange";
-var gColorPhotoTicks = 'green';
+var gColorPhotoTicks = '#00C000'; //'green';
 var gColorTimeTicks = '#333333';
 var gColorUtteranceTicksPAO = 'grey';
 var gColorUtteranceTicksCrew = 'CadetBlue';
@@ -82,17 +82,23 @@ var gHeightVideoRectDenominator = 6;
 paper.install(window);
 
 $(document).ready(function() {
-    paper.setup('myCanvas');
+    //var canvasDiv = $('#myCanvas');
+    //var ctx = canvasDiv[0].getContext('2d');
+    //var navigatorDiv = $('#navigator');
+    //ctx.canvas.width = navigatorDiv.width();
+    //ctx.canvas.height = navigatorDiv.height();
 
+    paper.setup('myCanvas');
     //init navigator
     gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
     initNavigator();
     gApplicationReady += 1;
     trace("APPREADY: NAV: Navigator ready: " + gApplicationReady);
 
-    $("#myCanvas").mouseleave(function() {
+    $('#myCanvas').mouseleave(function() {
         onMouseOutHandler();
     });
+
     //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
     $(document).bind("mouseleave",function(event) {
         //trace("$(document)mouseleave triggered");
@@ -200,8 +206,8 @@ function setDynamicWidthVariables() {
     gNavigatorWidth = paper.view.size.width;
     gNavigatorHeight = paper.view.size.height;
     //var navigatorDiv = $('#navigator');
-    //gNavigatorWidth = navigatorDiv.width;
-    //gNavigatorHeight = navigatorDiv.height;
+    //gNavigatorWidth = navigatorDiv.width();
+    //gNavigatorHeight = navigatorDiv.height();
 
     gFontScaleFactor = Math.floor(gNavigatorHeight * .020) - 1;
 
@@ -215,9 +221,9 @@ function setDynamicWidthVariables() {
     gTier2Top = gTier1Height + gTierSpacing;
     gTier3Top = gTier2Top + gTier2Height + gTierSpacing;
 
-    gTier1Width = paper.view.size.width - (paper.view.size.width * 0.06);
-    gTier2Width = paper.view.size.width - (paper.view.size.width * 0.03);
-    gTier3Width = paper.view.size.width;
+    gTier1Width = gNavigatorWidth - (gNavigatorWidth * 0.06);
+    gTier2Width = gNavigatorWidth - (gNavigatorWidth * 0.03);
+    gTier3Width = gNavigatorWidth;
 
     gTier1Left = (gNavigatorWidth - gTier1Width) / 2;
     gTier2Left = (gNavigatorWidth - gTier2Width) / 2;
@@ -612,7 +618,7 @@ function drawTier2() {
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
-                aLine.strokeColor = 'green';
+                aLine.strokeColor = gColorPhotoTicks;
                 tempGroup.addChild(aLine);
             }
         }
@@ -657,7 +663,7 @@ function drawTier2() {
                     fontSize: 8 + gFontScaleFactor,
                     fillColor: gColorTOCText
                 });
-                textTop = tierBottom * (gTier2Height / 3) + 1;
+                textTop = barTop + 2;
                 itemText.point = new paper.Point(itemLocX + 2 , textTop);
                 itemText.content = gTOCData[i][2];
                 var itemTextRect = new paper.Path.Rectangle(itemText.bounds);
@@ -917,7 +923,7 @@ function drawTier3() {
                 topPoint = new paper.Point(itemLocX, barTop);
                 bottomPoint = new paper.Point(itemLocX, tierBottom);
                 aLine = new paper.Path.Line(topPoint, bottomPoint);
-                aLine.strokeColor = 'green';
+                aLine.strokeColor = gColorPhotoTicks;
                 aLine.strokeWidth = 1.5;
                 tempGroup.addChild(aLine);
             }
