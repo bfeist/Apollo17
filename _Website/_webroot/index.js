@@ -1279,61 +1279,16 @@ jQuery(function ($) {
             alert("Help!");
         });
 
-  //   //init tabs
-    // $(".mid-center").tabs();
-
-
-    function scrollTranscriptToMissionTime() {
+    //tab button clicks
+    function scrollTranscriptToCurrMissionTime() {
       scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
-    function scrollTocToMissionTime() {
+    function scrollTocToCurrMissionTime() {
       scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
-    function scrollCommentaryToMissionTime() {
+    function scrollCommentaryToCurrMissionTime() {
       scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
     }
-    //tab clicks
-    //tab clicks
-    //$("#transcriptTab").on("click", function() {
-    //    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
-    //});
-    //
-    //$("#tocTab").on("click", function() {
-    //    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
-    //});
-    //
-    //$("#commentaryTab").on("click", function() {
-    //    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
-    //});
-
-    // OUTER-LAYOUT
-    //$('body').layout({
-    //    center__paneSelector:	".outer-center"
-    //    ,   north__paneSelector:    ".outer-north"
-    //    ,   west__paneSelector:     ".outer-west"
-    //    ,   east__paneSelector:     ".outer-east"
-    //    ,   north__togglerLength_open: 0
-    //    ,   center__togglerLength_open: 0
-    //    ,   west__togglerLength_open: 0
-    //    ,	north__size:			"13%"
-    //    ,   north__minSize:         120
-    //    ,   west__size:             "40%"
-    //    ,   east__size:             75
-    //    ,	spacing_open:			0  // ALL panes
-    //    ,	spacing_closed:			12 // ALL panes
-    //    ,
-    //    // WEST-LAYOUT (child of outer-west-pane)
-    //    west__childOptions: {
-    //        center__paneSelector:	".mid-center"
-    //        ,   north__paneSelector:    ".mid-north"
-    //        ,   north__size:             "60%"
-    //        ,   center__size:            "40%"
-    //        ,   north__togglerLength_open: 0
-    //        ,   center__togglerLength_open: 0
-    //        ,	spacing_open:			0  // ALL panes
-    //        ,	spacing_closed:			12 // ALL panes
-    //    }
-    //});
 });
 
 //on fullscreen toggle
@@ -1357,9 +1312,9 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
-    var myCanvasElement = $('#myCanvas');
-    myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
-    myCanvasElement.css("width", $('#navigator').width());
+    //var myCanvasElement = $('#myCanvas');
+    //myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
+    //myCanvasElement.css("width", $('#navigator').width());
     //setTimeout(function(){
     //        populatePhotoGallery(); }
     //    ,1000);
@@ -1434,9 +1389,6 @@ $(document).ready(function() {
             button_text: ""
         },
         networks: {
-            google_plus: {
-                enabled: false,
-            },
             facebook: {
                 app_id: "1639595472942714",
                 before: function(element) {
