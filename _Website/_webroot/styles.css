@@ -409,7 +409,7 @@ canvas[resize] {
 .galleryImage {
     /*height: 105px;*/
     width: auto;
-    max-width: 100%; 
+    max-width: 100%;
     height: 100%;
     border: 10px solid transparent;
     cursor: pointer;
@@ -600,6 +600,9 @@ canvas[resize] {
 
 .share-button {
     position:absolute;
+    left: 366px;
+    top: 109px;
+    z-index: 1000;
     /*display: none;*/
 }
 
@@ -786,7 +789,7 @@ section.app {
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0; 
+  left: 0;
 }
 .page-wrapper {
   display: none;
@@ -848,7 +851,7 @@ body.splash-loaded .splash-content {
 .splash-content h1 {
   font-size: 2em;
   color: #FFF;
-  line-height: 1; 
+  line-height: 1;
 }
 .splash-content h2 {
   color: #FFF;
@@ -1049,7 +1052,7 @@ body.app-ready .splash-btn.primary.selected {
 .button-row {
   margin: 0;
   padding: .5em;
-  text-align: center; 
+  text-align: center;
   font-size: 1.25em;
   text-transform: uppercase;
 }
@@ -1135,7 +1138,7 @@ body.app-ready .splash-btn.primary.selected {
 }
 
 #helpBtn {
-  
+
 }
 div.body {
   position: relative;
@@ -1221,6 +1224,7 @@ header {
 .navigator-wrapper {
   display: block;
   overflow: hidden;
+  /*width: 100%;*/
 }
 .video-block,
 .photo-block {
@@ -1356,7 +1360,7 @@ img.aspect-holder {
       display: -webkit-flex;
       display: flex;
       flex-wrap: nowrap;
-      
+
       -webkit-align-items: stretch; /* Safari */
       align-items:         stretch;
 
@@ -1486,7 +1490,7 @@ img.aspect-holder {
   .splash-content h1 {
     font-size: 1.8em;
     color: #FFF;
-    line-height: 1; 
+    line-height: 1;
   }
   .splash-content {
     font-size: 16px;
