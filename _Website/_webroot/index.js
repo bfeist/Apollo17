@@ -1373,8 +1373,6 @@ $(document).ready(function() {
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
-    var shareButtonSelector = $('.share-button');
-
     gShareButtonObject = new Share(".share-button", {
         ui: {
             flyout: "bottom bottom",

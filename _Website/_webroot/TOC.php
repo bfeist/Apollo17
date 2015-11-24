@@ -9,8 +9,8 @@
 
 	<title>TOC</title>
 	<meta name="robots" content="index,follow" />
-  
-  <?php include "inc/style_tags.html" ?>
+
+	<?php include "inc/style_tags.html" ?>
 </head>
 
 <body>
