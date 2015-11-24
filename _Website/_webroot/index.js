@@ -1394,7 +1394,7 @@ $(document).ready(function() {
 
     gShareButtonObject = new Share(".share-button", {
         ui: {
-            flyout: "middle left",
+            flyout: "bottom bottom",
             button_text: ""
         },
         networks: {
