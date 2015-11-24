@@ -49,7 +49,6 @@ var gCommentaryDisplayEndIndex;
 var gCurrentHighlightedCommentaryIndex;
 
 var gShareButtonObject;
-var gSharedUtteranceArray; //share button
 
 var gBackground_color_active = "#222222";
 
@@ -1285,7 +1284,6 @@ jQuery(function ($) {
     $("#helpBtn")
         .click(function(){
             gShareButtonObject.toggle();
-            gSharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
         });
 
     //tab button clicks
@@ -1375,22 +1373,7 @@ $(document).ready(function() {
 
     gApplicationReadyIntervalID = setApplicationReadyPoller();
 
-    //utteranceDiv.delegate('.utterance', 'mouseenter', function() {
-        var shareButtonSelector = $('.share-button');
-        //var loctop = $(this).position().top + 10;
-        //var locright = $(this).position().left + $(this).width() - 48;
-        //shareButtonSelector.css("display", "" );
-        //shareButtonSelector.css("z-index", 1000 );
-        //shareButtonSelector.animate({top: loctop, left: locright}, 0);
-        //var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
-        //hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
-        //gSharedUtteranceArray = hoveredUtteranceText.split("|");
-    //});
-
-    //$('#utteranceWrapper').mouseleave(function() {
-    //    $('.share-button').css("display", "none" );
-    //    gShareButtonObject.close();
-    //});
+    var shareButtonSelector = $('.share-button');
 
     gShareButtonObject = new Share(".share-button", {
         ui: {
@@ -1401,11 +1384,11 @@ $(document).ready(function() {
             facebook: {
                 app_id: "1639595472942714",
                 before: function(element) {
-                    //this.url = element.getAttribute("data-url");
-                    this.title = "Apollo 17 in Real-time - Moment: " + gSharedUtteranceArray[1];
-                    this.url = "http://apollo17.org?t=" + gSharedUtteranceArray[1];
-                    this.description = gSharedUtteranceArray[1] + " " + gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gSharedUtteranceArray[1]))]];
+                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+                    this.title = "Apollo 17 in Real-time - Moment: " + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
+                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeIdToSeconds(sharedUtteranceArray[0]))]];
                     if (nearestPhotoObject[3] != "") {
                         var photoTypePath = "flight";
                         var filename = "AS17-" + nearestPhotoObject[1];
@@ -1414,7 +1397,7 @@ $(document).ready(function() {
                         filename = nearestPhotoObject[1];
                     }
                     filename = filename + ".jpg";
-                    this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/2100/" + filename;
+                    this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
                 },
                 after: function() {
                     console.log("User shared facebook: ", this.url);
@@ -1423,9 +1406,9 @@ $(document).ready(function() {
             },
             twitter: {
                 before: function(element) {
-                    //this.url = element.getAttribute("data-url");
-                    this.url = "http://apollo17.org?t=" + gSharedUtteranceArray[1];
-                    this.description = "%23Apollo17 in Real-time: " + gSharedUtteranceArray[1] + " " + gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3].substr(0, 64) + "... %23NASA";
+                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = "%23Apollo17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
                 },
                 after: function() {
                     console.log("User shared twitter: ", this.url);
@@ -1435,9 +1418,9 @@ $(document).ready(function() {
 
             email: {
                 before: function(element) {
-                    //this.url = element.getAttribute("data-url");
-                    this.title = "Apollo 17 in Real-time: " + gSharedUtteranceArray[1];
-                    this.description = gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gSharedUtteranceArray[1];
+                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+                    this.title = "Apollo 17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                 },
                 after: function() {
                     console.log("User shared email: ", this.title);
@@ -1446,7 +1429,6 @@ $(document).ready(function() {
             }
         }
     });
-    //$('.share-button').css("top", $('#helpBtn').position().top );
 });
 
 // </editor-fold>
