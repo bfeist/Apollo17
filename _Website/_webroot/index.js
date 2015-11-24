@@ -49,7 +49,7 @@ var gCommentaryDisplayEndIndex;
 var gCurrentHighlightedCommentaryIndex;
 
 var gShareButtonObject;
-var gHoveredUtteranceArray; //share button
+var gSharedUtteranceArray; //share button
 
 var gBackground_color_active = "#222222";
 
@@ -1285,6 +1285,7 @@ jQuery(function ($) {
     $("#helpBtn")
         .click(function(){
             gShareButtonObject.toggle();
+            gSharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
         });
 
     //tab button clicks
@@ -1383,7 +1384,7 @@ $(document).ready(function() {
         //shareButtonSelector.animate({top: loctop, left: locright}, 0);
         //var hoveredUtteranceText = $(this).text().replace(/\n/g, "|");
         //hoveredUtteranceText = hoveredUtteranceText.replace(/  /g, "");
-        //gHoveredUtteranceArray = hoveredUtteranceText.split("|");
+        //gSharedUtteranceArray = hoveredUtteranceText.split("|");
     //});
 
     //$('#utteranceWrapper').mouseleave(function() {
@@ -1401,10 +1402,10 @@ $(document).ready(function() {
                 app_id: "1639595472942714",
                 before: function(element) {
                     //this.url = element.getAttribute("data-url");
-                    this.title = "Apollo 17 in Real-time - Moment: " + gHoveredUtteranceArray[1];
-                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-                    this.description = gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gHoveredUtteranceArray[1]))]];
+                    this.title = "Apollo 17 in Real-time - Moment: " + gSharedUtteranceArray[1];
+                    this.url = "http://apollo17.org?t=" + gSharedUtteranceArray[1];
+                    this.description = gSharedUtteranceArray[1] + " " + gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3];
+                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gSharedUtteranceArray[1]))]];
                     if (nearestPhotoObject[3] != "") {
                         var photoTypePath = "flight";
                         var filename = "AS17-" + nearestPhotoObject[1];
@@ -1423,8 +1424,8 @@ $(document).ready(function() {
             twitter: {
                 before: function(element) {
                     //this.url = element.getAttribute("data-url");
-                    this.url = "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
-                    this.description = "%23Apollo17 in Real-time: " + gHoveredUtteranceArray[1] + " " + gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3].substr(0, 64) + "... %23NASA";
+                    this.url = "http://apollo17.org?t=" + gSharedUtteranceArray[1];
+                    this.description = "%23Apollo17 in Real-time: " + gSharedUtteranceArray[1] + " " + gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3].substr(0, 64) + "... %23NASA";
                 },
                 after: function() {
                     console.log("User shared twitter: ", this.url);
@@ -1435,8 +1436,8 @@ $(document).ready(function() {
             email: {
                 before: function(element) {
                     //this.url = element.getAttribute("data-url");
-                    this.title = "Apollo 17 in Real-time: " + gHoveredUtteranceArray[1];
-                    this.description = gHoveredUtteranceArray[2] + ": " + gHoveredUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gHoveredUtteranceArray[1];
+                    this.title = "Apollo 17 in Real-time: " + gSharedUtteranceArray[1];
+                    this.description = gSharedUtteranceArray[2] + ": " + gSharedUtteranceArray[3] + "     " + "http://apollo17.org?t=" + gSharedUtteranceArray[1];
                 },
                 after: function() {
                     console.log("User shared email: ", this.title);
