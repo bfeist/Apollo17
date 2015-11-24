@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"init",
+				"initIndices"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"p",
+				"printf"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-right-width"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"buil",
+				"BUILDVERSION"
+			],
+			[
+				"BUIL",
+				"BUILDCOUNT"
+			],
+			[
+				"BUID",
+				"BUILDTIMESTAMP"
+			],
+			[
+				"box-",
+				"box-sizing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cbennett/work/_git/apollo17/_Website/_webroot"
+	],
+	"file_history":
+	[
+		"/Users/cbennett/work/_git/apollo17/_Website/_webroot/new_layout.html",
+		"/Users/cbennett/work/_git/apollo17/_Website/_webroot/lib/responsive.css",
+		"/Users/cbennett/work/_git/apollo17/_Website/_webroot/new_layout.js",
+		"/Users/cbennett/work/_git/dozr/controllers/CategoriesController.php",
+		"/Users/cbennett/work/_git/dozr/controllers/OrdersController.php",
+		"/Users/cbennett/work/_git/dozr/controllers/UserController.php",
+		"/Users/cbennett/work/_git/dozr/controllers/EquipmentController.php",
+		"/Users/cbennett/work/_git/dozr/views/user/default/forgot.php",
+		"/Users/cbennett/work/_git/dozr/vendor/amnah/yii2-user/models/forms/ForgotForm.php",
+		"/Users/cbennett/work/_git/dozr/views/user/default/login.php",
+		"/Users/cbennett/work/_git/dozr/views/user/default/register.php",
+		"/Users/cbennett/work/_git/dozr/views/user/default/reset.php",
+		"/Users/cbennett/work/_git/dozr/vendor/amnah/yii2-user/views/default/account.php",
+		"/Users/cbennett/work/_git/dozr/views/user/default/resend.php",
+		"/Users/cbennett/work/_git/dozr/views/equipment/section_nav.php",
+		"/Users/cbennett/work/_git/dozr/views/equipment/availability.php",
+		"/Users/cbennett/work/_git/dozr/views/photos/form.php",
+		"/Users/cbennett/work/_git/dozr/views/photos/download.php",
+		"/Users/cbennett/work/_git/dozr/views/equipment/photos.php",
+		"/Users/cbennett/work/_git/dozr/models/Equipment.php",
+		"/Users/cbennett/work/_git/dozr/views/equipment/dates_row.php",
+		"/Users/cbennett/work/_git/dozr/views/categories/browse.php",
+		"/Users/cbennett/work/_git/dozr/views/equipment/form.php",
+		"/Users/cbennett/work/_git/dozr/vendor/bower-asset/blueimp-file-upload/basic.html",
+		"/Users/cbennett/work/_git/dozr/vendor/bower-asset/blueimp-file-upload/index.html",
+		"/Users/cbennett/work/_git/dozr/vendor/bower-asset/bootstrap/docs/_includes/css/forms.html",
+		"/Users/cbennett/temp/jquery-ui-1.11.4.1.custom/jquery-ui.css",
+		"/Users/cbennett/temp/jquery-ui-1.11.4.custom/jquery-ui.css",
+		"/Users/cbennett/work/_git/dozr/web/css/site.css",
+		"/Users/cbennett/work/_git/dozr/web/css/jquery-ui.min.css",
+		"/Users/cbennett/temp/jquery-ui-1.11.4.custom/jquery-ui.theme.css",
+		"/Users/cbennett/work/_git/dozr/views/site/index.php",
+		"/Users/cbennett/work/_git/dozr/web/js/jquery.equipmentfiltersmanager.js",
+		"/Users/cbennett/work/_git/dozr/web/css/lightbox.css",
+		"/Users/cbennett/work/_git/dozr/views/equipment/my_listings.php",
+		"/Users/cbennett/work/_git/dozr/views/layouts/main.php",
+		"/Users/cbennett/work/_git/dozr/assets/AppAsset.php",
+		"/Users/cbennett/work/_git/dozr/vendor/yiisoft/yii2/widgets/Breadcrumbs.php",
+		"/Users/cbennett/work/_git/dozr/views/orders/pay.php",
+		"/Users/cbennett/work/_git/dozr/web/js/jquery.stickybarmanager.js",
+		"/Users/cbennett/work/_git/dozr/assets/FontAsset.php",
+		"/Users/cbennett/work/_git/dozr/vendor/yiisoft/yii2/grid/SerialColumn.php",
+		"/Users/cbennett/work/_git/dozr/vendor/yiisoft/yii2/web/AssetBundle.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/README.md",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/views/html/home.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/controllers/site.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/views/layouts/default.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/system/helpers/inflector_helper.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/helpers/MY_inflector_helper.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/public_html/index.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/config/database.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/views/page/site/home.php",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/views/page/auth/sign-up-activate.php",
+		"/Users/cbennett/Documents/Sublime Projects/quiltship.sublime-project",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/quiltship/mod.quiltship.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/_shared/footer.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/freemember/libraries/fm_mock_output.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/codeigniter/system/database/drivers/mysql/mysql_utility.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/codeigniter/system/database/drivers/mysqli/mysqli_utility.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/codeigniter/system/database/drivers/mssql/mssql_utility.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/rte/views/myaccount_settings.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/config/mimes.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/profile_themes/agile_records/signature_form.html",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/libraries/csrf/Storage_backend_interface.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/__installer/libraries/Survey.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/js-source/form-signup-0-validation.js",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/freemember/mod.freemember.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/freemember/config.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/freemember/upd.freemember.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/freemember/mcp.freemember.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/metaweblog_api/mcp.metaweblog_api.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/simple_commerce/mcp.simple_commerce.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/wiki/mcp.wiki.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/stats/mcp.stats.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/search/mcp.search.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/rte/mcp.rte.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/rss/mcp.rss.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/referrer/mcp.referrer.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/query/mcp.query.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/pages/mcp.pages.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/moblog/mcp.moblog.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/member/mcp.member.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/mailinglist/mcp.mailinglist.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/jquery/mcp.jquery.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/file/mcp.file.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/emoticon/mcp.emoticon.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/email/mcp.email.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/comment/mcp.comment.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/channel/mcp.channel.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/modules/blacklist/mcp.blacklist.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/addons/module_cp_container.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/profile_themes/agile_records/message_compose.html",
+		"/Users/cbennett/work/_git/quiltship/site/system/__installer/config/config.php",
+		"/Users/cbennett/work/_git/quiltship/site/contributors.txt",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/admin/category_order_confirm.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/addons/module_delete_confirm.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/agile_records/about.group/index.html",
+		"/Users/cbennett/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/cbennett/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/controllers/cp/myaccount.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/__installer/schema/mysql_schema.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/libraries/File_integrity.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/codeigniter/system/libraries/Email.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/language/english/login_lang.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/sign-up.group/index.html",
+		"/Users/cbennett/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/cbennett/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/fieldtypes/grid/views/settings.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/libraries/EE_Table.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/admin/status_edit.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/less/bootstrap/forms.less",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/js-source/form-signup-1-validation.js",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/js-source/plugins.js",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/third_party/quiltship/pi.quiltship.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/helpers/segment_helper.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/helpers/search_helper.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/__installer/controllers/wizard.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/js-source/form-signin-validation.js",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/site.group/404.html",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/less/combined.less",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/assets/config.codekit",
+		"/Users/cbennett/work/_git/quiltship/site-old/app/application/views/partials/misc/analytics.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/views/design/user_message.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/agile_records/snippets/global_top_search",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/agile_records/theme_preferences.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/expressionengine/config/database.php",
+		"/Users/cbennett/work/_git/quiltship/site/system/codeigniter/system/database/DB.php",
+		"/Users/cbennett/work/_git/quiltship/site/themes/site_themes/default_site/fabrics.group/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 250.0,
+		"where_history":
+		[
+			"-*.data, -*.log, -/Users/cbennett/work/_git/dozr/vendor/*",
+			"-*.data, -*.log, -/Users/cbennett/work/_git/dozr/vendor",
+			"-*.data, -*.log, -/vendor",
+			"-*.data, -*.log",
+			"-*.data",
+			"",
+			"log-*",
+			"",
+			"-log-*.php",
+			"-log-2014-03-24.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ga(",
+			"ga('",
+			"\n      console.log('$showDebugInfo: '",
+			"$showDebugInfo",
+			"$opts.showDebugInfo",
+			"thumb-d",
+			"table-d",
+			"\n      <div class=\"secondary-image\">\n        <div class=\"image-wrapper\">\n          <div class=\"image-holder\" data-src=\"http://apollo17.org/mission_images/img/prelaunch_21251698486_a6c893d505_o.jpg\" style=\"background-image: url(http://apollo17.org/mission_images/img/prelaunch_21251698486_a6c893d505_o.jpg);\"></div>\n          <img src=\"img/4x3.png\" class=\"aspect-holder\">\n        </div>\n        <div class=\"content clear-after\">\n          <div class=\"header\">\n            <div class=\"title\">Liftoff</div>\n            <div class=\"desc\">Members of Government-Industry team that launched Apollo 17 Saturn V space vehicle applaud remarks by Vice President Spiro T. Agnew in launch control center.</div>\n          </div>\n\n          <div class=\"col half\">\n            <table class=\"details\">\n              <tbody>\n                <tr>\n                  <th>Photographer:</th>\n                  <td class=\"photographer\">? <a href=\"#\">- Can you help?</a></td>\n                </tr>\n\n                <tr>\n                  <th>Time Taken:</th>\n                  <td class=\"time-taken\">000:00:01</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n\n          <div class=\"col half\">\n            <table class=\"details\">\n              <tbody>\n                <tr>\n                  <th>Magazine:</th>\n                  <td class=\"magazine\">? <a href=\"#\">- Can you help?</a></td>\n                </tr>\n\n                <tr>\n                  <th>Photo Number:</th>\n                  <td class=\"photo-id\">liftoff2-noID</td>\n                </tr>\n              </tbody>\n            </table>\n          </div>\n        </div>\n      </div>",
+			"time-taken",
+			"-row",
+			"gYTList",
+			"allTextLines",
+			"getUrlVar",
+			"scrollToTimeID",
+			"gMissionTimeParamSent",
+			"isLoading",
+			"https",
+			".time-taken-row .content ",
+			"main-image",
+			"div",
+			"youtube",
+			"//maps.googleapis.com",
+			"renter",
+			"h3",
+			"h3 ",
+			"col-md-4",
+			".navbar-default .navbar-nav li.active a,",
+			" || Yii::$app->request->url == '/'",
+			"h2",
+			"h1 ",
+			"image-wrapper",
+			"html::img",
+			"html:image",
+			"html:img",
+			"equipment/index",
+			"equipment/in",
+			"categories/index",
+			"site/index",
+			"categories/index",
+			"site/index",
+			"equipment/index",
+			".breadcrumb",
+			"orders-index",
+			"#manage-availability",
+			"$customRates",
+			"button-wr",
+			".container > .navbar-header, .container-fluid > .navbar-header",
+			"user-default-resend",
+			"Resend",
+			"#user-default-forgot",
+			"Forgot password",
+			"#login-form",
+			"user-default-login",
+			"login-form",
+			"button-wrapper",
+			"button-wra",
+			"login-f",
+			"user-default-login",
+			"site/index",
+			"checked",
+			"jRadio",
+			"field-equipment-price",
+			"manage-availability-btn",
+			"#manage-availability",
+			"#manage-availability-btn",
+			"not_for_sale",
+			"remove this set",
+			":after",
+			"1px solid ",
+			"padding: 6px;",
+			"well",
+			".form-group",
+			"custom-rates",
+			".active",
+			"$radio",
+			"$(this)",
+			"set_rates",
+			"set_rates:radio",
+			"custom-rates",
+			"html-radio",
+			"dates-header",
+			"$customRates",
+			"class=\"well\"",
+			"dates_row",
+			"#manage-availability",
+			"manage-availability",
+			"ActiveForm",
+			"standard-rates",
+			"rates-form",
+			"monthly",
+			"help-block",
+			"monthly-rate",
+			"monthly-r",
+			".show()",
+			"monthly-rate-block",
+			"help-block",
+			".standard-rates .help-block",
+			"weekly",
+			"caption",
+			"daily",
+			"\"Daily\"",
+			"Daily",
+			"form-group",
+			".rates-form label",
+			"Daily",
+			"Long-term discount",
+			"fileinput-button",
+			"Listings-photos",
+			"select2-selection__arrow",
+			"form-g",
+			"col-xs-offset-2",
+			"$model",
+			"$listing",
+			"\nprint_r($model);",
+			"col-xs-2",
+			"xs-2",
+			"col-xs-3",
+			"tab-conten",
+			"my listings",
+			" > a",
+			"navbar",
+			".navbar-default .navbar-nav > li > a",
+			"navbar",
+			"image-wrapper",
+			"image-w",
+			"date-wrapper",
+			"form-inline",
+			"filters-wra"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"equipment/index",
+			"categories/index",
+			"Html::a",
+			"{assets_url}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "apollo17.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sign-up",
+				"themes/site_themes/default_site/sign-up.group/index.html"
+			],
+			[
+				"my_he",
+				"system/expressionengine/helpers/MY_utils_helper.php"
+			],
+			[
+				"sign-u",
+				"themes/site_themes/default_site/sign-up.group/index.html"
+			],
+			[
+				"mcp",
+				"system/expressionengine/third_party/freemember/mcp.freemember.php"
+			],
+			[
+				"config",
+				"system/expressionengine/third_party/quiltship/config.php"
+			],
+			[
+				"modq",
+				"system/expressionengine/third_party/quiltship/mod.quiltship.php"
+			],
+			[
+				"my",
+				"system/expressionengine/helpers/MY_utils_helper.php"
+			],
+			[
+				"fin",
+				"Find Results"
+			],
+			[
+				"",
+				"themes/site_themes/default_site/layouts.group/.default.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

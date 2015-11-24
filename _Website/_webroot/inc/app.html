@@ -1,0 +1,148 @@
+
+<section class="app">
+  <header>
+
+    <div class="logo-wrapper"><img src="img/Apollo_17-insignia100.png"></div>
+
+    <div class="info-wrapper">
+      <div class="content">
+          <div class="pre-title">The Last Mission to the Moon</div>
+          <div class="title">Apollo 17</div>
+          <div class="subtitle">Real-Time Mission Experience</div>
+          <div class="historicalDate date">Thu Dec 07 1972</div>
+          <div class="historicalTime time">12:32:00 AM</div>
+          <div id="missionTime">Mission Elapsed Time: <span id="missionElapsedTime">000:00:00</span></div>
+        </div>
+    </div>
+    
+    <div class="monitor">
+      
+      <!-- navigator -->
+      <div id="navigator" class="navigator-wrapper">
+        <canvas id="myCanvas" resize keepalive="true"></canvas>
+      </div>
+
+    </div>
+
+      <div class="buttons-wrapper">
+        
+        <!-- buttons -->
+        <ul class="button-row small">
+          <li><a href="#" class="splash-btn" id="playPauseBtn" title="Play/Pause"><span class="sr-only">Play</span></a></li>
+          <li><a href="#" class="splash-btn" id="soundBtn" title="Mute"><span class="sr-only">Mute</span></a></li>
+          <li><a href="#" class="splash-btn" id="realtimeBtn" title="Join In-Progress"><span class="sr-only">Join In-Progress</span></a></li>
+          <li><a href="#" class="splash-btn" id="fullscreenBtn" title="Toggle Fullscreen"><span class="sr-only">Fullscreen</span></a></li>
+          <li><a href="#" class="splash-btn" id="helpBtn" title="Help"><span class="sr-only">Help</span></a></li>
+        </ul>
+      </div>
+
+  </header>
+
+  <div class="body">
+
+    <div class="video-block">
+
+      <div class="monitor video-monitor">
+        <div class="video-wrapper">
+          <!-- video -->
+          <img src="img/4x3.png" class="aspect-holder">
+
+          <div class="player-wrapper">
+            <div id="player"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- text readout nav -->
+      <div class="tabs-wrapper">
+        <ul class="button-row" data-js-class="TabbedContentManager" data-tc-id="tabs-left" >
+          <li><A id="transcriptTab" href="#" class="splash-btn primary"><SPAN>Transcript</SPAN></A></li>
+          <li><A id="tocTab" href="#" class="splash-btn primary"><SPAN>Guided Tour</SPAN></A></li>
+          <li><A id="commentaryTab" href="#" class="splash-btn primary"><SPAN>Mission Commentary</SPAN></A></li>
+          <!-- <li><A id="instructionsTab" href="#" class="splash-btn"><SPAN>Instructions</SPAN></A></li> -->
+        </ul>
+      </div>
+
+      <div class="monitor" data-js-class="SizeManager" data-sm-parent=".video-block" data-sm-min-height="160" data-sm-buddy=".video-monitor">
+        <div class="output-wrapper">
+          <div id="utteranceWrapper" class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <div class="share-button"></div>
+              <div id="utteranceDiv">
+                  <table class="utteranceTable" id="utteranceTable"></table>
+              </div>
+          </div>
+          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+          </div>
+          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+              <div id="commentaryDiv">
+                  <table class="commentaryTable" id="commentaryTable"></table>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- video-block -->
+
+      <div class="photo-block">
+        <div class="monitor photo-wrapper" data-js-class="SizeManager" data-sm-parent=".photo-block">
+          <!-- photo -->
+          <div class="photos-wrapper">
+            <div id="photoGallery"></div>
+            <div id="photodiv"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</section>
+
+<section style="display:none;">
+    <div class="flex row flex-item">
+        <div class="flex col flex-item half">
+          <div class="flex-item-2">
+          </div>
+          <div class="xflex-item">
+          
+
+          </div>
+          <div class="flex-item">
+
+            
+
+          </div>
+        </div>
+        <div class="flex col flex-item half">
+          <div class="flex-item-4">
+            
+
+          </div>
+          <div class="flex row flex-item">
+            <div class="flex-item">
+              
+            </div>
+            <div>
+                  
+              
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+</section>
+
+  <!-- <div id="navigatorKey">
+      <h1>Mission Navigator</h1>
+      <div style="float: left; display: inline-block; padding-right: 10px;">
+          <h3>This tool allows you to navigate to any time within the mission.</h3>
+          The top bar represents the entire mission. (13 days wide)<BR>
+          The 2nd bar is a zoomed view of part of the top bar. (~15 hours wide)<BR>
+          The 3rd bar is a zoomed view of part of the 2nd bar. (~1.5 hours wide)</div>
+      <div>Grey: mission event<BR>
+          Green: photograph taken<BR>
+          Blue: Words spoken by the crew or mission control<BR>
+          Purple: Mission Video</div>
+  </div> -->
+

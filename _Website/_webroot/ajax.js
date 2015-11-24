@@ -9,11 +9,11 @@ $.when(ajaxGetVideoURLData(),
     ajaxGetVideoSegmentData()).done(function(){
         // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
         gApplicationReady += 1;
-        console.log("APPREADY: Ajax loaded: " + gApplicationReady);
+        trace("APPREADY: Ajax loaded: " + gApplicationReady);
 
         setTimeout(function(){
-            populatePhotoGallery(); }
-        ,1000);
+                populatePhotoGallery();
+            },500);
     });
 
 //--------------- index file handling --------------------
@@ -168,7 +168,6 @@ function processUtteranceData(allText) {
         if (data[0] != "") {
             gUtteranceDataLookup[data[0]] = curRow;
             gUtteranceIndex[i] = data[0];
-            data[0] = timeIdToTimeStr(data[0]);
             gUtteranceData.push(data);
             curRow ++;
         }
@@ -183,7 +182,6 @@ function processCommentaryData(allText) {
         if (data[0] != "") {
             gCommentaryIndex[curRow] = data[0];
             gCommentaryDataLookup[data[0]] = curRow;
-            data[0] = timeIdToTimeStr(data[0]);
             gCommentaryData.push(data);
             curRow ++;
         }

@@ -130,7 +130,7 @@ def main():
     id_template = "{id}"
     template = prefix + suffix
 
-    output_url_filename = "flickr_photo_urls.csv"
+    output_url_filename = output + "flickr_photo_urls.csv"
     output_url_file = open(output_url_filename, "w")
     output_url_file.write("")
     output_url_file.close()

@@ -28,10 +28,8 @@
     <meta name="theme-color" content="#000000">
 
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" type="text/css" href="./lib/layout-default-latest.css" />
-    <link rel="stylesheet" type="text/css" href="./lib/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="./lib/share.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <?php include "inc/style_tags.html" ?>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -42,186 +40,42 @@
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
     </script>
-    <script type="text/javascript" src="./lib/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="./lib/jquery.isloading.js"></script>
-    <script type="text/javascript" src="./lib/jquery_plugins.js"></script>
-    <script type="text/javascript" src="./lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="./lib/jquery.layout-latest.js"></script>
-    <script type="text/javascript" src="./lib/jquery.fullscreen.js"></script>
-    <script type="text/javascript" src="./lib/jquery.simplemodal.js"></script>
-    <script type="text/javascript" src='./lib/jquery.lazyload.js'></script>
-    <script type="text/javascript" src='./lib/jquery.browser.js'></script>
-    <script type="text/javascript" src='./lib/paper-full.js'></script>
-    <script type="text/javascript" src='./lib/date.js'></script>
-    <script type="text/javascript" src='./lib/moment.js'></script>
-    <script type="text/javascript" src='./lib/readable-range.js'></script>
-    <script type="text/javascript" src='./lib/share.js'></script>
+    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui.js"></script>
+    <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
+    <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
+    <script type="text/javascript" src='lib/jquery.browser.js'></script>
+    <script type="text/javascript" src="lib/paper-full.js"></script>
+    <script type="text/javascript" src="lib/date.js"></script>
+    <script type="text/javascript" src="lib/moment.js"></script>
+    <script type="text/javascript" src="lib/readable-range.js"></script>
+    <script type="text/javascript" src='lib/share.js'></script>
+    <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 
+    <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
+    <script type="text/javascript" src='lib/size_manager.js'></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
     <script type="text/javascript" src="navigator.js"></script>
+
 </head>
-<body>
-    <div class="outer-north">
-        <div class="headerBlock">
-            <div class="headerLeft">
-                <img src="./img/Apollo_17-insignia100.png">
-            </div>
-            <div class="headerMiddle">
-                <h2><div class="title">Apollo 17 in Real-Time</div></h2>
-                <h2><div class="historicalDate date">Thu Dec 07 1972</div></h2>
-                <h1><div class="historicalTime time">12:32:00 AM</div></h1>
+<body>    
 
-                <!--<div id="missionTime">Mission Elapsed Time:-->
-                    <!--<span id="timer">000:00:00</span>-->
-                <!--</div>-->
-                <div>v1.0 Beta 3 - <a href="http://benfeist.com/project-apollo-17/" target="_blank">About This Project</a></div>
-                <div>
-                    <!-- <ul class="tinyButton ui-widget ui-helper-clearfix">
-                        <li class="ui-state-default ui-corner-all" title="Full Screen" >
-                            <span class="ui-icon ui-icon-arrow-4-diag"></span>
-                        </li>
-                        <li class="ui-state-default ui-corner-all" title="Full Screen" onclick="toggleFullscreen()">
-                            <span class="ui-icon ui-icon-play"></span>
-                        </li>
-                    </ul> -->
-                    <button id="helpBtn"></button>
-                    <button id="fullscreenBtn"></button>
-                    <button id="playPauseBtn"></button>
-                    <button id="soundBtn"></button>
-                    <button id="realtimeBtn"></button>
-                </div>
-            </div>
-            <div class="headerRight" id="navigator">
-                <canvas id="myCanvas" resize keepalive="true"></canvas>
-            </div>
-        </div>
-    </div>
-    <div class="outer-west">
-        <div class="mid-north">
-            <div id="player"></div>
-        </div>
-        <div id="tabs-left" class="mid-center">
-            <ul>
-                <li><A id="transcriptTab" href="#tabs-left-1"><SPAN>Transcript</SPAN></A></li>
-                <li><A id="tocTab" href="#tabs-left-2"><SPAN>Guided Tour</SPAN></A></li>
-                <li><A id="commentaryTab" href="#tabs-left-3"><SPAN>Mission Commentary</SPAN></A></li>
-                <li><A id="instructionsTab" href="#tabs-left-4"><SPAN>Instructions</SPAN></A></li>
-            </ul>
-            <div id="tabs-left-1">
-                <div class="share-button"></div>
-                <div id="utteranceDiv">
-                    <table class="utteranceTable" id="utteranceTable"></table>
-                </div>
-            </div>
-            <div id="tabs-left-2">
-                <iframe src="TOC.html" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
-            </div>
-            <div id="tabs-left-3">
-                <div id="commentaryDiv">
-                    <table class="commentaryTable" id="commentaryTable"></table>
-                </div>
-            </div>
-            <div id="tabs-left-4">
-                <div id="instructionsDiv">
-                    <P><B>This is a real-time interactive exploration of the Apollo 17 Mission.<BR>
-                        You can read more about this project <a href="http://benfeist.com/project-apollo-17/" target="_blank">here</a>. Follow <a href="https://twitter.com/BenFeist" target="_blank">@BenFeist</a> for updates.</B></P>
-                    <p>Instructions:</p>
-                    <ul>
-                        <li>Chrome / Firefox / Safari preferred. Works on iPad with patience.</li>
-                        <li>Click transcript items and playback will jump to that moment.</li>
-                        <li>For big jumps, use the mission navigator at the top of the page (or table of contents tab)</li>
-                        <li>Jump to different points using the video scrubber and playback will jump to that moment.</li>
-                    </ul>
-                    <p>Project History:</p>
-                    <ul>
-                        <li>10/27/2015: v1.0b2 Complete rework of interface. Introduced navigator element. Cross-device compatibility.</li>
-                        <li>05/08/2015: v0.6 Social sharing of a given moment added. Also, several transcript corrections thanks to Robin Wheeler's assistance.</li>
-                        <li>04/14/2015: v0.5 Commentary and imagery updates in real-time. Commentary for first day online. Imagery ongoing.</li>
-                        <li>04/08/2015: v0.4 Ongoing optimizations. Began adding commentary and imagery.</li>
-                        <li>03/28/2015: v0.3 Greatly improved table of contents. Corrected some transcription and video errors.</li>
-                        <li>03/26/2015: v0.2 Improvements to TOC. JavaScript stability improvements.</li>
-                        <li>03/25/2015: v0.1 Initial launch made public.</li>
-                    </ul>
-                    <p><B>Note: This is an early alpha release of this project.</B> I have been working on cleaning the underlying mission data for many years. My goal is to create a full-featured site that will allow the public to explore and experience the Apollo 17 mission in full detail. In the mean time, please don't hesitate to contact me with any questions or comments at <a href="mailto:bf@benfeist.com">bf@benfeist.com</a></p>
-                    <p>Planned Features:</p>
-                    <ul>
-                        <li>Creation of visual designs for final interface, site introduction and ancillary mission information.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="outer-center">
-        <div id="photodiv"></div>
-    </div>
-    <div class="outer-east" id="photoGallery">
-        Content
-    </div>
-    <div id="basic-modal-content">
-        <h1>Apollo 17 in Real-Time</h1>
-        <h2>A real-time interactive exploration of Apollo 17 - The Last Mission to the Moon.</h2>
-        <p class="introCopy">Watch and listen to every moment of the mission--over 300 hours of audio transmitted, 550,000+ words spoken and transcribed, 4,200+ photos taken, and 22+ hours of television transmitted from the lunar surface. All media is coordinated within the mission's timeline. Video, photography, and every word spoken is played back in real-time, as the events occurred back in 1972.</p>
-        <p class="introCopy">Below you can choose to start the mission at 1 minute to launch, or join it in-progress as occurred at today's date and time, 43 years ago.</p>
-        <div class="historicalTimeIllustration">
-            <div class="historicalTime1">
-                Current Historical Mission Time:
-                <h3><div class="historicalDate"></div></h3>
-                <h3><div class="historicalTime"></div></h3>
-            </div>
-            <div class="historicalTime2">
-                <h3>Historical Time Difference</h3>
-                <svg width="80%" height="20px" viewBox="0 0 100 20" >
-                    <defs>
-                        <marker id="arrow" markerWidth="10" markerHeight="10" refx="0" refy="3" orient="auto" markerUnits="strokeWidth">
-                            <path d="M0,0 L0,6 L9,3 z" fill="#bbb" />
-                        </marker>
-                    </defs>
+  <?php include "inc/app.html"; ?>
 
-                    <line x1="200" y1="10" x2="-100" y2="10" stroke="#bbb" stroke-width="3" marker-end="url(#arrow)" />
-                </svg>
-                <div id="historicalTimeDiff"></div>
-            </div>
-            <div class="historicalTime3">
-                Current Time:
-                <h3><div class="currentDate"></div></h3>
-                <h3><div class="currentTime"></div></h3>
-            </div>
-        </div>
-        <BR>
-        <div class="introButtons">
-            <button id="launchBtn" type="button" data-loading-text="Loading..." class="btn simplemodal-close" onclick="oneMinuteToLaunchButtonClick()" >
-                GO at 1 minute to launch
-            </button>
-            <button id="historicalBtn" type="button" class="btn simplemodal-close" onclick="historicalButtonClick()">
-                Snap to Historical-time
-            </button>
-        </div>
-        <p>
-            <i>"When I left the Moon and started up the ladder, I was really at a loss. I didn’t want to leave and I looked down at my last footsteps and realised I wasn’t coming this way again. Looking back over my shoulder at the Earth had a particular significance to me – it was alive, it was moving, with purpose and beauty through space and time. In those short few minutes I wanted to figure out what was the meaning of us – everyone alive in the world today – leaving the cradle of civilization and calling the Moon our home for a few days. I searched for that answer, I needed more time. I wanted to press the freeze button, stop time to give myself a chance to think about it.<BR>
-            - Gene Cernan, Commander, Apollo 17. The last man to walk on the moon.</i>
-        </p>
-    </div>
-    <div id="navigatorKey">
-        <h1>Mission Navigator</h1>
-        <div style="float: left; display: inline-block; padding-right: 10px;">
-            <h3>This tool allows you to navigate to any time within the mission.</h3>
-            The top bar represents the entire mission. (13 days wide)<BR>
-            The 2nd bar is a zoomed view of part of the top bar. (~15 hours wide)<BR>
-            The 3rd bar is a zoomed view of part of the 2nd bar. (~1.5 hours wide)</div>
-        <div>Grey: mission event<BR>
-            Green: photograph taken<BR>
-            Blue: Words spoken by the crew or mission control<BR>
-            Purple: Mission Video</div>
-    </div>
+  <?php include "inc/splash.html"; ?>
+
 </body>
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer">
+        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename')">
+
             <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
-                <img id="imageContainerImage" src="@serverUrl/mission_images/@photoTypePath/@sizepath/@filename">
+                <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
+
             <div id="imageOverlay">
                 <div class="photodivcaption">@description</div>
                 <table class="photoTable">
@@ -238,29 +92,30 @@
                     </tr>
                 </table>
             </div>
+
         </div>
     </div>
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance @uttType uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+    <tr class="utterance utt_pao uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
         <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words</td>
+        <td class="who @uttType">@who</td>
+        <td class="spokenwords @uttType">@words</td>
     </tr>
 </script>
 
 <script type="text/html" id="commentaryTemplate">
-    <tr class="commentary @comType comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
+    <tr class="commentary utt_pao comid@comid" id="comid@comid" onclick="seekToTime('@comid')" >
         <td class="timestamp">@timestamp</td>
-        <td class="who">@who</td>
-        <td class="spokenwords">@words <span class="attribution">@attribution</span></td>
+        @whocell
+        @wordscell
     </tr>
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
     <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/75/@filename" onclick="seekToTime('@timeid')">
+        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename" onclick="seekToTime('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>
