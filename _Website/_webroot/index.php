@@ -60,7 +60,7 @@
     <script type="text/javascript" src="navigator.js"></script>
 
 </head>
-<body>    
+<body>
 
   <?php include "inc/app.html"; ?>
 
@@ -98,7 +98,7 @@
 </script>
 
 <script type="text/html" id="utteranceTemplate">
-    <tr class="utterance utt_pao uttid@uttid" style="@style" onclick="seekToTime('@uttid')" id="uttid@uttid">
+    <tr class="utterance utt_pao uttid@uttid" id="uttid@uttid" style="@style" onclick="seekToTime('@uttid')">
         <td class="timestamp">@timestamp</td>
         <td class="who @uttType">@who</td>
         <td class="spokenwords @uttType">@words</td>
@@ -115,7 +115,7 @@
 
 <script type="text/html" id="photoGalleryTemplate">
     <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename" onclick="seekToTime('@timeid')">
+        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename" onclick="galleryClick('@timeid')">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>

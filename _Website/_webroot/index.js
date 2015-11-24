@@ -179,6 +179,10 @@ function setAutoScrollPoller() {
         gCurrMissionTime = secondsToTimeStr(totalSec);
 
         if (gCurrMissionTime != gLastTimeIdChecked) {
+            if (parseInt(totalSec) % 10 == 0) { //every 10 seconds, fire a playing event
+                ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
+            }
+
             var timeId = timeStrToTimeId(gCurrMissionTime);
             gLastTimeIdChecked = gCurrMissionTime;
 
@@ -329,6 +333,7 @@ function findClosestPhoto(secondsSearch) {
 
 function historicalButtonClick() {
     trace('historicalButtonClick');
+    ga('send', 'event', 'launch', 'click', 'realtime');
      window.clearInterval(gIntroInterval);
     gIntroInterval = null;
      var nearestHistTimeId = getNearestHistoricalMissionTimeId();
@@ -342,6 +347,7 @@ function historicalButtonClick() {
 
 function oneMinuteToLaunchButtonClick() {
     trace('oneMinuteToLaunchButtonClick');
+    ga('send', 'event', 'launch', 'click', 'oneminute');
     window.clearInterval(gIntroInterval);
     gIntroInterval = null;
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
@@ -359,11 +365,15 @@ function fadeOutSplash() {
         }, 1600);
 }
 
+function galleryClick(timeId) {
+    ga('send', 'event', 'galleryClick', 'img', gPhotoData[gPhotoDataLookup[timeId]][1] + ".jpg");
+    seekToTime(timeId);
+}
+
 function seekToTime(timeId) { // transcript click handling --------------------
     trace("seekToTime(): " + timeId);
 
-    var gaTimeVal = parseInt(timeId);
-    ga('send', 'event', 'transcript', 'click', 'utterances', gaTimeVal.toString());
+    ga('send', 'event', 'seekToTime', 'seek', timeId);
 
     var totalSeconds = timeIdToSeconds(timeId);
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
@@ -494,10 +504,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
 
     var timeId = padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
-    //trace("getNearestHistoricalMissionTimeId(): Nearest Mission timeId" + timeId);
-    //ga('send', 'event', 'button', 'click', 'snap to real-time');
 
-    //gPlaybackState = "rounding";
     return timeId;
 }
 
@@ -1224,23 +1231,9 @@ jQuery(function ($) {
         gMissionTimeParamSent = 0;
     }
 
-    //if (gMissionTimeParamSent == 0) {
-        //var modal = $('#basic-modal-content');
-        //modal.modal({opacity: 90});
-
-        //gIntroInterval = setIntroTimeUpdatePoller();
-
-        //$('.simplemodal-wrap').isLoading({text: "Loading", position: "overlay"});
-        //console.log("Loading overlay on");
-
-        //$("#historicalBtn").button();
-        //$("#launchBtn").button();
-    //} else {
-    //    $('body').isLoading({text: "Loading", position: "overlay"});
-    //}
-
     $("#fullscreenBtn")
         .click(function(){
+            ga('send', 'event', 'button', 'click', 'fullscreen');
             toggleFullscreen();
         });
 
@@ -1248,8 +1241,10 @@ jQuery(function ($) {
     $("#playPauseBtn")
         .click(function(){
             if (gPlaybackState == "paused") {
+                ga('send', 'event', 'button', 'click', 'play');
                 player.playVideo();
             } else {
+                ga('send', 'event', 'button', 'click', 'pause');
                 player.pauseVideo();
             }
         });
@@ -1258,61 +1253,51 @@ jQuery(function ($) {
         .click(function(){
             if (!gOffline) {
                 if (player.isMuted() == true) {
+                    ga('send', 'event', 'button', 'click', 'unmute');
                     player.unMute();
                     // var btnIcon = "ui-icon-volume-on";
                     // var btnText = "Mute";
                     $(this).addClass('mute');
                 } else {
+                    ga('send', 'event', 'button', 'click', 'mute');
                     player.mute();
                     // btnIcon = "ui-icon-volume-off";
                     // btnText = "Un-Mute";
                     $(this).removeClass('mute');
                 }
             }
-            // $( "#soundBtn" ).button({
-            //     icons: { primary: btnIcon },
-            //     text: false,
-            //     label: btnText
-            // });
         });
 
     $("#realtimeBtn")
         .click(function(){
+            ga('send', 'event', 'button', 'click', 'realtime');
             historicalButtonClick();
         });
 
     $("#helpBtn")
         .click(function(){
+            ga('send', 'event', 'button', 'click', 'help');
             gShareButtonObject.toggle();
         });
 
     //tab button clicks
     function scrollTranscriptToCurrMissionTime() {
-      scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+        ga('send', 'event', 'tab', 'click', 'utterances');
+        scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
     function scrollTocToCurrMissionTime() {
-      scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+        ga('send', 'event', 'tab', 'click', 'toc');
+        scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
     function scrollCommentaryToCurrMissionTime() {
-      scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+        ga('send', 'event', 'tab', 'click', 'commentary');
+        scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
     }
 });
 
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
     var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
-    var stateStr = state ? 'FullScreenOn' : 'FullScreenOff';
-
-    // trace("non-button fullscreen change state: " + stateStr);
-
-    // var fullScreenBtn = $('#fullScreenBtn');
-    // if (stateStr == "FullScreenOn") {
-    //     fullScreenBtn.attr("value", "Exit Full Screen");
-    // } else {
-    //     fullScreenBtn.attr("value", "Full Screen");
-    // }
-    //scaleMissionImage();
-    //populatePhotoGallery();
     redrawAll();
 });
 
