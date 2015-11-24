@@ -600,7 +600,8 @@ canvas[resize] {
 
 .share-button {
     position:absolute;
-    left: 350px;
+    left: 366px;
+    top: 109px;
     z-index: 1000;
     /*display: none;*/
 }

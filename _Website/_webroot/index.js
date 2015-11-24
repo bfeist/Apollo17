@@ -1,7 +1,7 @@
 trace("INIT: Loading index.js");
 var gStopCache = true;
 var gCdnEnabled = false;
-var gOffline = true;
+var gOffline = false;
 
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
