@@ -59,16 +59,16 @@ def get_sec(s):
 	else:
 		return int(l[0]) * 3600 + (int(l[1]) * 60 * -1) + (int(l[2]) * -1)
 
-template_loader = FileLoader('../templates')
+template_loader = FileLoader('./templates')
 
-output_TOC_file_name_and_path = "../_webroot/TOC.html"
+output_TOC_file_name_and_path = "../_webroot/TOC.php"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCall.csv"
+output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCData.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -88,6 +88,7 @@ csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
 	timestamp = row[0]
+	timeline_index_id = row[0].translate(None, ":")
 	item_depth = row[1]
 	if item_depth == "3":
 		item_depth = "2" # do this to avoid indentation of 3rd level items
@@ -102,14 +103,15 @@ for row in reader:
 	# toc_index_template = loader.load_template('template_TOC_index.html')
 	# output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
 
-	output_TOC_index_file.write(timestamp + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n")
+	# output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n") # include item description
+	output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "\n")
 
 # WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
 
 # copy TOC index to webroot
-# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCall.csv")
+# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCData.csv")
 
 
 # -------------------- Write Utterance Data
@@ -128,61 +130,43 @@ for utterance_row in utterance_reader:
 	timeid = "timeid" + utterance_row[1].translate(None, ":")
 	timeline_index_id = utterance_row[1].translate(None, ":")
 	if utterance_row[1] != "": #if not a TAPE change or title row
-		words_modified = utterance_row[3].replace("O2", "O<sub>2</sub>")
-		words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-		words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
-		who_modified = utterance_row[2].replace("CDR", "Cernan")
-		who_modified = who_modified.replace("CMP", "Evans")
-		who_modified = who_modified.replace("LMP", "Schmitt")
+		words_modified = utterance_row[3]
+		# words_modified = words_modified.replace("O2", "O<sub>2</sub>")
+		# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
+		# words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
+		who_modified = utterance_row[2]
+		# who_modified = who_modified.replace("CDR", "Cernan")
+		# who_modified = who_modified.replace("CMP", "Evans")
+		# who_modified = who_modified.replace("LMP", "Schmitt")
+		# who_modified = who_modified.replace("PAO", "Public Affairs")
+		# who_modified = who_modified.replace("CC", "Mission Control")
 		attribution_modified = utterance_row[0]
 
-		output_utterance_data_file.write(utterance_row[1] + "|" + who_modified + "|" + words_modified + "\n")
+		output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
 
-# --------------------------------- Write commentary HTML
-output_commentary_file_name_and_path = "../_webroot/commentary.html"
-output_commentary_file = open(output_commentary_file_name_and_path, "w")
-output_commentary_file.write("")
-output_commentary_file.close()
+# WRITE ALL commentary ITEMS
+output_commentary_data_file_name_and_path = "../_webroot/indexes/commentaryData.csv"
+output_commentary_data_file = open(output_commentary_data_file_name_and_path, "w")
+output_commentary_data_file.write("")
+output_commentary_data_file.close()
+output_commentary_data_file = open(output_commentary_data_file_name_and_path, "a")
 
-output_commentary_file = open(output_commentary_file_name_and_path, "a")
-
-output_commentary_index_file_name_and_path = "../_webroot/indexes/commentaryIndex.csv"
-output_commentary_index_file = open(output_commentary_index_file_name_and_path, "w")
-output_commentary_index_file.write("")
-output_commentary_index_file.close()
-
-output_commentary_index_file = open(output_commentary_index_file_name_and_path, "a")
-
-# WRITE commentary HEADER
-template = template_loader.load_template('template_commentary_header.html')
-output_commentary_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
-
-# WRITE ALL commentary BODY ITEMS
 cur_row = 0
 input_file_path = "../../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
 	cur_row += 1
-	comid = commentary_row[0].translate(None, ":")
-	commentary_index_id = commentary_row[0].translate(None, ":")
-	if commentary_row[0] != "": #if not a TAPE change or title row
-		words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
-		words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-		attribution_modified = commentary_row[1]
+	if commentary_row[0] == "120:46:31":
+		pass
+	timeid = commentary_row[0].translate(None, ":")
+	# words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
+	# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
 
-		template = template_loader.load_template('template_commentary_item.html')
-		output_commentary_file.write(template.render({'comid': comid, 'timestamp': commentary_row[0], 'who': commentary_row[2], 'words': words_modified, 'attribution': attribution_modified}, loader=template_loader))
-
-		commentary_index_template = template_loader.load_template('template_commentary_index.html')
-		output_commentary_index_file.write(commentary_index_template.render({'commentary_index_id': commentary_index_id}, loader=template_loader).encode('utf-8'))
-
-# WRITE commentary FOOTER
-template = template_loader.load_template('template_commentary_footer.html')
-output_commentary_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
+	output_commentary_data_file.write(timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
 
 
 # --------------------------------- Write photo index
-output_photo_index_file_name_and_path = "../_webroot/indexes/photoIndex.csv"
+output_photo_index_file_name_and_path = "../_webroot/indexes/photoData.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()
@@ -196,9 +180,9 @@ first_row = True
 for photo_row in photos_reader:
 	if photo_row[0] != "" and photo_row[0] != "skip" and first_row is False: #if timestamp not blank and photo not marked to skip
 		if len(photo_row[1]) == 5:
-			photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
+			photo_filename = photo_row[2] + "-" + photo_row[1] # + ".jpg"
 		else:
-			photo_filename = photo_row[1] + ".jpg"
+			photo_filename = photo_row[1] # + ".jpg"
 		tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2],
 								  photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8],
 								  photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
