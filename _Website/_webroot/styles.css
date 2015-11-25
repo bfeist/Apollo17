@@ -597,14 +597,56 @@ canvas[resize] {
     position:absolute;
     opacity:0.7;
 }
-
-.share-button {
-    position:absolute;
-    left: 366px;
-    top: 109px;
-    z-index: 1000;
-    /*display: none;*/
+.share-button.splash-btn {
+  margin: 0 !important;
+  padding: 0 !important;
 }
+.share-button-wrapper {
+  position:absolute;
+  right: 0;
+  top: 3px;
+  z-index: 1000;
+}
+.share-button.sharer-0 {
+  width: auto;
+  text-align: right;
+  margin: 0;
+}
+.share-button.sharer-0 label {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+.share-button.sharer-0 label span {
+  display: none;
+}
+
+.share-button.sharer-0:before {
+  background-image: none !important;
+}
+.share-button.sharer-0 .social.bottom {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    max-height: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.share-button.sharer-0 .social.bottom.active {
+    max-height: 100px;
+    -ms-transform: scale(1) translateY(15px);
+    -webkit-transform: scale(1) translateY(15px);
+    transform: scale(1) translateY(15px);
+}
+
 
 /* ----------------- LOADER -----------------*/
 
@@ -974,6 +1016,7 @@ body.splash-loaded .splash-content {
 .splash-btn:active {
   background-color: rgba(130, 130, 130, 1);
 }*/
+
 body.app-ready .splash-btn,
 body.app-ready .splash-btn:visited,
 body.app-ready .splash-btn:hover,
@@ -1079,9 +1122,9 @@ body.app-ready .splash-btn.primary.selected {
   float: left;
   width: 100%;
   margin: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
-.button-row.small a {
+.button-row.small .splash-btn {
   width: 100%;
   font-size: 14px;
   padding: 4px 4px 6px 4px;
@@ -1091,7 +1134,7 @@ body.app-ready .splash-btn.primary.selected {
   margin-bottom: 4px;
   position: relative;
 }
-.button-row.small a:before {
+.button-row.small .splash-btn:before {
   content: "";
   display: block;
   position: absolute;
@@ -1105,6 +1148,12 @@ body.app-ready .splash-btn.primary.selected {
   background-repeat: no-repeat;
   background-image: url("lib/images/ui-icons_222222_256x240.png");
 }
+
+.splash-btn.entypo {
+  background-image: none;
+  font-family: entypo,sans-serif;
+}
+
 .button-row.small a#playPauseBtn:before {
   background-position: 0 -160px;
 }
@@ -1157,6 +1206,7 @@ header {
 }
 .info-wrapper .content {
   font-size: 20px;
+  position: relative;
 }
 .info-wrapper .content .pre-title {
   font-size: .5em;
