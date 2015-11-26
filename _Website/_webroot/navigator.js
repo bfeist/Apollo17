@@ -129,9 +129,8 @@ function initNavigator() {
 
     tool.onMouseMove = function (event) {
         //trace("on mouse move");
-        if (gIntroInterval == null) { //only freeze navigator if initial modal isn't up
-            gMouseOnNavigator = true;
-        }
+        gMouseOnNavigator = true;
+
         var mouseXSeconds;
         gNavCursorGroup.removeChildren();
         if (event.point.y < gTier1Top + gTier1Height + gTierSpacing) { //if in tier1
