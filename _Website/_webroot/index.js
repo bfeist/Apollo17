@@ -882,11 +882,10 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 
     var comId = commentaryObject[0];
 
+    var attribution = commentaryObject[1];
     if (commentaryObject[2].length == 0) {
-        var attribution = commentaryObject[1];
+
         attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
-    } else {
-        attribution = "";
     }
     if (commentaryObject[2].length != 0) {
         var who_modified = commentaryObject[2];

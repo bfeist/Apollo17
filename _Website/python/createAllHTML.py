@@ -156,13 +156,14 @@ input_file_path = "../../MISSION_DATA/A17 master support commentary.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
 	cur_row += 1
-	if commentary_row[0] == "120:46:31":
-		pass
 	timeid = commentary_row[0].translate(None, ":")
 	# words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
 	# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
 
-	output_commentary_data_file.write(timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
+	if commentary_row[1] == "ALSJ":
+		pass
+	else:
+		output_commentary_data_file.write(timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
 
 
 # --------------------------------- Write photo index
