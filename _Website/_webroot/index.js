@@ -358,9 +358,10 @@ function oneMinuteToLaunchButtonClick() {
 
 function fadeOutSplash() {
     trace('fadeOutSplash');
-    $('body').removeClass('splash-loaded');
+    toggleFullscreen();
     setTimeout(
         function () {
+            $('body').removeClass('splash-loaded');
             $('.splash-content').hide();
         }, 1600);
 }
