@@ -1368,10 +1368,10 @@ $(document).ready(function() {
                 app_id: "1639595472942714",
                 before: function(element) {
                     var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time - Moment: " + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.title = "Apollo 17 in Real-time - Moment: " + gCurrMissionTime;
                     this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                     this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeIdToSeconds(sharedUtteranceArray[0]))]];
+                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
                     if (nearestPhotoObject[3] != "") {
                         var photoTypePath = "flight";
                         var filename = "AS17-" + nearestPhotoObject[1];
