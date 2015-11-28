@@ -80,14 +80,17 @@
                 <div class="photodivcaption">@description</div>
                 <table class="photoTable">
                     <tr>
-                        <td style="text-align: right;">
-                            Mission Time Taken : @timestamp
+                        <td>
+                            <div>Mission Time Taken:</div>
+                            <div>@timestamp</div>
                         </td>
-                        <td style="text-align: right;">
-                            Photo: @mag_code @mag_number@photo_num
+                        <td>
+                            <div>Photo:</div>
+                            <div>@mag_code @mag_number@photo_num</div>
                         </td>
-                        <td style="text-align: right;">
-                            @photographer
+                        <td>
+                            <div>Photographer:</div>
+                            <div>@photographer</div>
                         </td>
                     </tr>
                 </table>

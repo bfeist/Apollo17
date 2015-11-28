@@ -331,7 +331,7 @@ canvas[resize] {
 
     background-color: #222222;
     opacity: 0.8;
-    padding: 5px;
+    padding: 10px;
     /*transition: all 0.5s ease-in-out;*/
 }
 
@@ -343,9 +343,12 @@ canvas[resize] {
 }
 .photodivcaption {
     color: #FFFFFF;
+    padding: 5px 0px 25px;
+    font-weight: 200;
+    text-align: center;
 }
 .photoTable {
-    /*width: 100%;*/
+    width: 100%;
     margin:0px;
     padding:0px;
     border-collapse: collapse;
@@ -355,10 +358,12 @@ canvas[resize] {
 }
 .photoTable td {
     padding:5px;
+    width: 33.3%;
     border: solid;
     color: #a3a3a3;
     border-width: 1px 1px 1px 1px;
-    vertical-align:middle;
+    border-color: #444;
+    vertical-align: top;
     font-size: 14px;
 }
 
@@ -1092,36 +1097,132 @@ body.app-ready .splash-btn.primary.selected {
   height: 100%;
   overflow-y: auto;
 }
+
+
 .button-row {
   margin: 0;
-  padding: .5em;
+  padding: 10px 15px;
   text-align: center;
   font-size: 1.25em;
   text-transform: uppercase;
+  /*display: table;*/
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: space-around;
+    position: relative;
+}
+.button-row:after {
+  content: " ";
+  display: table;
+  clear: both;
 }
 .button-row li {
-  display: inline-block;
+  /*display: inline-block;
   vertical-align: middle;
-  margin-right: .5em;
+  margin-right: .5em;*/
+  /*display: block;
+  float: left;*/
+  /*display: table-cell;
+  width: 33.3%;
+  margin: 0;*/
+  display: block;
+    flex: 1;
+    padding: 0 10px;
+}
+.button-row li:hover {
+  background-color: transparent;
 }
 .button-row a {
+  /*display: table-cell;
+  width: 33.3%;
+  margin: 0;*/ 
+
   padding: .65em .65em 1em .65em;
   text-align: left;
   min-height: 46px;
-  white-space: nowrap;
+  font-size: 13px;
+  /*white-space: nowrap;*/
   margin-right: 0;
-  min-width: 120px;
+  /*min-width: 120px;*/
+  
+  /*width: 90%;*/
+  min-width: 0px;
+  width: 100%;
+  margin: 0 2%;
+  display: block;
+    flex: 1;
+}
+
+
+.button-row {
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  /*display: table;*/
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: space-around;
+    position: relative;
+}
+.button-row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.button-row li {
+  /*display: inline-block;
+  vertical-align: middle;
+  margin-right: .5em;*/
+  /*display: block;
+  float: left;*/
+  /*display: table-cell;
+  width: 33.3%;
+  margin: 0;*/
+  display: block;
+    flex: 1;
+    padding: 0 10px;
+}
+.button-row li:hover {
+  background-color: transparent;
+}
+.button-row .splash-btn {
+  /*display: table-cell;
+  width: 33.3%;
+  margin: 0;*/ 
+
+  padding: .65em .65em 1em .65em;
+  text-align: left;
+  min-height: 46px;
+  font-size: 13px;
+  /*white-space: nowrap;*/
+  margin-right: 0;
+  /*min-width: 120px;*/
+  
+  /*width: 90%;*/
+  min-width: 0px;
+  width: 100%;
+  margin: 0 2%;
+  display: block;
+    flex: 1;
 }
 .button-row.small {
-  width: 36px;
+  /*width: 36px;
   display: block;
-  padding: 0;
+  padding: 0;*/
 }
 .button-row.small li {
-  display: block;
+  /*display: block;
   float: left;
   width: 100%;
-  margin: 0;
+  margin: 0;*/
   /*overflow: hidden;*/
 }
 .button-row.small .splash-btn {
@@ -1131,7 +1232,7 @@ body.app-ready .splash-btn.primary.selected {
   min-height: 0;
   min-width: 0;
   height: 21px;
-  margin-bottom: 4px;
+  /*margin-bottom: 4px;*/
   position: relative;
 }
 .button-row.small .splash-btn:before {
@@ -1147,6 +1248,12 @@ body.app-ready .splash-btn.primary.selected {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url("lib/images/ui-icons_222222_256x240.png");
+}
+hr.buttons-divider {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 0 20px;
 }
 
 .splash-btn.entypo {
@@ -1249,16 +1356,16 @@ header {
 }
 .logo-wrapper,
 .info-wrapper,
-.navigator-wrapper,
-.buttons-wrapper {
+.navigator-wrapper/*,
+.buttons-wrapper*/ {
   display: table-cell;
   vertical-align: middle;
   /*float: left;
   padding: 20px;*/
 }
 .logo-wrapper,
-.info-wrapper,
-.buttons-wrapper {
+.info-wrapper/*,
+.buttons-wrapper*/ {
   padding: 9px;
   width: 1%;
   white-space: nowrap;
