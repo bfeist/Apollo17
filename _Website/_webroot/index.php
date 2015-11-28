@@ -53,7 +53,7 @@
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 
-    <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
+<!--    <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>-->
     <script type="text/javascript" src='lib/size_manager.js'></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>

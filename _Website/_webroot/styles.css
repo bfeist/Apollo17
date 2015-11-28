@@ -838,9 +838,9 @@ section.app {
   right: 0;
   left: 0;
 }
-.page-wrapper {
-  display: none;
-}
+/*.page-wrapper {*/
+  /*display: none;*/
+/*}*/
 section.app {
   /*display: none;*/
   opacity: 0;
@@ -1056,18 +1056,17 @@ body.app-ready .splash-btn.primary.selected {
   background-color: rgba(255, 198, 136, 1);
 }
 
-body.app-ready .splash-btn.primary.blink_crew {
-    background-color: rgba(132, 184, 217, 1);
-    animation: blinker 0.6s linear infinite;
-}
-
+/*body.app-ready .splash-btn.primary.blink_crew {*/
+    /*background-color: rgba(132, 184, 217, 1);*/
+    /*animation: blinker 0.6s linear infinite;*/
+/*}*/
 
 .blink_me {
     animation: blinker 0.6s linear infinite;
 }
 
 @keyframes blinker {
-    50% { opacity: 0.6; }
+    50% { opacity: 0.4;}
 }
 
 .player-wrapper {
@@ -1263,10 +1262,10 @@ hr.buttons-divider {
   margin: 0 20px;
 }
 
-.splash-btn.entypo {
-  background-image: none;
-  font-family: entypo,sans-serif;
-}
+/*.splash-btn.entypo {*/
+  /*background-image: none;*/
+  /*font-family: entypo,sans-serif;*/
+/*}*/
 
 .button-row.small a#playPauseBtn:before {
   background-position: 0 -160px;
@@ -1286,7 +1285,7 @@ hr.buttons-divider {
 .button-row.small a#fullscreenBtn:before {
   background-position: -16px -80px;
 }
-.button-row.small a#helpBtn:before {
+.button-row.small a#aboutBtn:before {
   background-position: -48px -144px;
 }
 .sr-only {
@@ -1300,9 +1299,6 @@ hr.buttons-divider {
     border: 0;
 }
 
-#helpBtn {
-
-}
 div.body {
   position: relative;
   clear: both;

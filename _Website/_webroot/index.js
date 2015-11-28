@@ -1241,6 +1241,7 @@ jQuery(function ($) {
     } else {
         gMissionTimeParamSent = 0;
     }
+    activateTab('transcriptTab');
 
     //buttons
 
@@ -1287,15 +1288,17 @@ jQuery(function ($) {
             historicalButtonClick();
         });
 
-    $("#helpBtn")
+    $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            gShareButtonObject.toggle();
+            //alert('about');
+            $('.about-content').show();
+            //gShareButtonObject.toggle();
         });
 
     //tab button events
     $("#transcriptTab").click(function(){
-        ga('send', 'event', 'tab', 'click', 'utterances');
+        ga('send', 'event', 'tab', 'click', 'transcript');
         activateTab(this.id);
         scrollTranscriptToCurrMissionTime();
     });
