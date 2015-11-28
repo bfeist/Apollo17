@@ -343,6 +343,9 @@
         <li onclick="parent.seekToTime('1274833')" class="tocitem" id="tocid1274833"><span class="TOCTimestamp">127:48:33</span>
         <span class="TOC_item">Lunar dust hay fever</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1281012')" class="tocitem" id="tocid1281012"><span class="TOCTimestamp">128:10:12</span>
+        <span class="TOC_item">Schmitt and Joe Allen teasing each other</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1285410')" class="tocitem" id="tocid1285410"><span class="TOCTimestamp">128:54:10</span>
         <span class="TOC_item">Surface Crew sleep period</span>

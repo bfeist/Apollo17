@@ -755,7 +755,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
-    if (who_modified == "Public Affairs") {
+    if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
     } else if (who_modified == "Mission Control") {
         uttTypeStr = "utt_capcom";
@@ -883,17 +883,18 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     var comId = commentaryObject[0];
 
     var attribution = commentaryObject[1];
-    if (commentaryObject[2].length == 0) {
-
-        attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
+    var who_modified = commentaryObject[2];
+    if (who_modified.length == 0) {
+        //attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
     }
-    if (commentaryObject[2].length != 0) {
-        var who_modified = commentaryObject[2];
+    if (who_modified.length != 0) {
         who_modified = who_modified.replace(/CDR/g, "Cernan");
         who_modified = who_modified.replace(/CMP/g, "Evans");
         who_modified = who_modified.replace(/LMP/g, "Schmitt");
+        if (who_modified == "summary")
+            who_modified = '';
     } else {
-        who_modified = "";
+        who_modified = '';
     }
     var words_modified = commentaryObject[3];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
@@ -926,7 +927,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
 
-    if (commentaryObject[2] == "") {
+    if (who_modified == '') {
         var comTypeStr = "com_support";
     } else {
         comTypeStr = "com_crew";
