@@ -520,11 +520,10 @@ function scrollTOCToTimeId(timeId) {
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
-        var lineColor = TOCElement.css("color");
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
         TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
-        // flashTab("tocTab", 1, lineColor);
+        flashTab("tocTab");
 
         var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
         TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
@@ -563,7 +562,6 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
         }
         commentaryTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedCommentaryElement = $(".comid" + timeId);
-        var lineColor = highlightedCommentaryElement.css("color");
         highlightedCommentaryElement.css("background-color", gBackground_color_active); //set new element highlights
 
         var newScrollDestination = commentaryDiv.scrollTop() + highlightedCommentaryElement.offset().top - commentaryDiv.offset().top;
@@ -572,7 +570,7 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
             trimCommentary();
         });
 
-        // flashTab("commentaryTab", 2, lineColor);
+        flashTab("commentaryTab");
         gLastCommentaryTimeId = timeId;
     }
 }
@@ -607,7 +605,6 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         }
         utteranceTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedTranscriptElement = $(".uttid" + timeId);
-        var lineColor = highlightedTranscriptElement.css("color");
         highlightedTranscriptElement.css("background-color", gBackground_color_active); //set new element highlights
 
         var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
@@ -615,15 +612,29 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
             //trace('Finished animating: ' + scrollDestination);
             trimUtterances();
         });
-        //flashTab("transcriptTab", 0, lineColor);
+        flashTab("transcriptTab");
         gLastUtteranceTimeId = timeId;
     }
 }
 
 function flashTab(tabName, tabNum, flashColor) {
-    var flashDuration = 2000; //in ms
-    if ($("#tabs-left").tabs('option', 'active') != tabNum) {
-        $("#" + tabName).effect("highlight", {color: flashColor}, flashDuration); //blink the tab
+    var flashDuration = 500; //in ms
+    var $tab = $('#' + tabName);
+    if (!$tab.hasClass('selected')) {
+        //trace("flash tab");
+        $tab.addClass("blink_me");
+        setTimeout(function(){$tab.removeClass("blink_me")}, flashDuration);
+
+        //$tab.effect("highlight", {color: flashColor}, flashDuration); //blink the tab
+        //$tab.css("background-color", flashColor);
+
+        //$tab.animate({
+        //    backgroundColor: flashColor
+        //}, 500, function() {
+        //    trace("tab flash animation complete.");
+        //    $tab.css("background-color", "");
+        //});
+        //$tab.effect("bounce", "slow");
         //$("#" + tabName).effect("pulsate", {times: 2, color: flashColor}, flashDuration); //blink the tab
         //$("#" + tabName).fadeTo(200, 0.5).fadeTo(200, 1.0); //blink the tab
     }
@@ -1231,6 +1242,8 @@ jQuery(function ($) {
         gMissionTimeParamSent = 0;
     }
 
+    //buttons
+
     $("#fullscreenBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'fullscreen');
@@ -1280,19 +1293,44 @@ jQuery(function ($) {
             gShareButtonObject.toggle();
         });
 
-    //tab button clicks
-    function scrollTranscriptToCurrMissionTime() {
+    //tab button events
+    $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'utterances');
+        activateTab(this.id);
+        scrollTranscriptToCurrMissionTime();
+    });
+
+    $("#tocTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'toc');
+        activateTab(this.id);
+        scrollTocToCurrMissionTime();
+    });
+
+    $("#commentaryTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'commentary');
+        activateTab(this.id);
+        scrollCommentaryToCurrMissionTime();
+    });
+
+    function activateTab(tabId) {
+        $('.splash-btn.primary').removeClass('selected');
+        $('#' + tabId).addClass('selected');
+
+        var rootName = tabId.substring(0, tabId.length - 3);
+        $('.text-wrapper').css("display", "none");
+        $('#' + rootName + "Wrapper").css("display", "block");
+    }
+
+    function scrollTranscriptToCurrMissionTime() {
         scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
     function scrollTocToCurrMissionTime() {
-        ga('send', 'event', 'tab', 'click', 'toc');
         scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
     function scrollCommentaryToCurrMissionTime() {
-        ga('send', 'event', 'tab', 'click', 'commentary');
         scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
     }
+
 });
 
 //on fullscreen toggle

@@ -71,8 +71,8 @@
       <hr class="buttons-divider">
 
       <div class="tabs-wrapper">
-        <ul class="button-row" data-js-class="TabbedContentManager" data-tc-id="tabs-left" >
-          <!-- <li> --><A id="transcriptTab" href="#" class="splash-btn primary"><SPAN>Transcript</SPAN></A><!-- </li> -->
+        <ul class="button-row">
+          <!-- <li> --><A id="transcriptTab" href="#" class="splash-btn primary" onclick=''><SPAN>Transcript</SPAN></A><!-- </li> -->
           <!-- <li> --><A id="tocTab" href="#" class="splash-btn primary"><SPAN>Guided Tour</SPAN></A><!-- </li> -->
           <!-- <li> --><A id="commentaryTab" href="#" class="splash-btn primary"><SPAN>Commentary</SPAN></A><!-- </li> -->
           <!-- <li><A id="instructionsTab" href="#" class="splash-btn"><SPAN>Instructions</SPAN></A></li> -->
@@ -81,15 +81,15 @@
 
       <div class="monitor" data-js-class="SizeManager" data-sm-parent=".video-block" data-sm-min-height="160" data-sm-buddy=".video-monitor">
         <div class="output-wrapper">
-          <div id="utteranceWrapper" class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+          <div id="transcriptWrapper" class="text-wrapper">
               <div id="utteranceDiv">
                   <table class="utteranceTable" id="utteranceTable"></table>
               </div>
           </div>
-          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+          <div id="tocWrapper" class="text-wrapper">
               <iframe src="TOC.php" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
           </div>
-          <div class="text-wrapper" data-tc-target data-tc-id="tabs-left">
+          <div id="commentaryWrapper" class="text-wrapper">
               <div id="commentaryDiv">
                   <table class="commentaryTable" id="commentaryTable"></table>
               </div>
