@@ -432,7 +432,7 @@ canvas[resize] {
     color: #BBBBBB;
     padding: 5px;
 
-    font-family: Roboto;
+    font-family: Roboto Mono;
     font-size: .75em;
     transition: all 0.15s ease-in-out;
 }
@@ -1200,8 +1200,8 @@ body.app-ready .splash-btn.primary.selected {
 
   padding: .65em .65em 1em .65em;
   text-align: left;
-  min-height: 46px;
-  font-size: 13px;
+  min-height: 35px;
+  font-size: 12px;
   /*white-space: nowrap;*/
   margin-right: 0;
   /*min-width: 120px;*/
@@ -1211,7 +1211,7 @@ body.app-ready .splash-btn.primary.selected {
   width: 100%;
   margin: 0 2%;
   display: block;
-    flex: 1;
+  flex: 1;
 }
 .button-row.small {
   /*width: 36px;
