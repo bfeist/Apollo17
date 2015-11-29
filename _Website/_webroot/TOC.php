@@ -53,7 +53,7 @@
         <span class="TOC_item">STDN REV 1</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0011725')" class="tocitem" id="tocid0011725"><span class="TOCTimestamp">001:17:25</span>
-        <span class="TOC_item">GOLDSTONE REV 2</span>
+        <span class="TOC_item">GOLDSTONE REV 1</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0022510')" class="tocitem" id="tocid0022510"><span class="TOCTimestamp">002:25:10</span>
         <span class="TOC_item">AUSTRALIA REV 2</span>
@@ -63,6 +63,9 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0025312')" class="tocitem" id="tocid0025312"><span class="TOCTimestamp">002:53:12</span>
         <span class="TOC_item">GO For Trans-Lunar Injection (TLI)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0030115')" class="tocitem" id="tocid0030115"><span class="TOCTimestamp">003:01:15</span>
+        <span class="TOC_item">GOLDSTONE REV 2</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0031229')" class="tocitem" id="tocid0031229"><span class="TOCTimestamp">003:12:29</span>

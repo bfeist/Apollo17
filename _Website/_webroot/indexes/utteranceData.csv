@@ -663,7 +663,7 @@
 0025504|CC|Roger.
 0025507|LMP|Bob, that glow is actually above the horizon, just in case you're curious. I can see - stars below the top of the glow - down closer to the Earth.
 0025519|CC|Roger, Jack.
-0025521||GOLDSTONE (REV 2)
+0030115||GOLDSTONE (REV 2)
 0030115|CC|17, Houston. We're with you again, and you're looking good.
 0030120|CMP|Okay; mighty fine, Bob.
 0030123|CDR|And, Bob, we've got the PYROs ARMED now.
@@ -14603,7 +14603,8 @@
 1412800|CDR|Yes, sir; I'm sorry.
 1412801|CC|Go to the next page.
 1412802|LMP|Let me - let me change my position here, just a sukosh. Let me change my position a sukosh.
-1412807|CDR|I knew you'd - Bob, what was that last LRV sample number I gave you?
+1412807|CDR|I knew you'd -
+1412822|LMP|Bob, what was that last LRV sample number I gave you?
 1412825|CC|22 Echo, 22 Echo.
 1412831|LMP|23 Echo, if that followed in sequence, is another rock about - near the SEP documented in the same way.
 1412839|CC|Okay; copy that.
