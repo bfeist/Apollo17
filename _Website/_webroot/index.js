@@ -509,14 +509,15 @@ function scrollTOCToTimeId(timeId) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
+        var TOCContainer = TOCFrameContents.find('.TOC_container');
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
         TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
         flashTab("tocTab");
 
-        var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
-        TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        var scrollDestination = TOCContainer.scrollTop() + TOCElement.offset().top;
+        TOCContainer.animate({scrollTop: scrollDestination}, 500);
         gLastTOCElement = TOCElement;
         gLastTOCTimeId = timeId;
     }

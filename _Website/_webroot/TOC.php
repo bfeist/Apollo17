@@ -279,7 +279,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1181402')" class="tocitem" id="tocid1181402"><span class="TOCTimestamp">118:14:02</span>
-        <span class="TOC_item">Video: First television from lunar surface</span>
+        <span class="TOC_item">First TV Picture</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
@@ -288,6 +288,18 @@
         <!-- <span class="TOCSubtitle">Flag documented with photographs and stereo photography.</span>--></li>
     <li onclick="parent.seekToTime('1183443')" class="tocitem" id="tocid1183443"><span class="TOCTimestamp">118:34:43</span>
         <span class="TOC_item">Cosmic ray experiment deployed</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1190449')" class="tocitem" id="tocid1190449"><span class="TOCTimestamp">119:04:49</span>
+        <span class="TOC_item">Departed for ALSEP</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    </ul>
+        <li onclick="parent.seekToTime('1191252')" class="tocitem" id="tocid1191252"><span class="TOCTimestamp">119:12:52</span>
+        <span class="TOC_item">Arrived at ALSEP</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1202720')" class="tocitem" id="tocid1202720"><span class="TOCTimestamp">120:27:20</span>
+        <span class="TOC_item">Schmitt running on lunar surface</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1203938')" class="tocitem" id="tocid1203938"><span class="TOCTimestamp">120:39:38</span>
         <span class="TOC_item">Cernan: "who's winning the football game?"</span>
