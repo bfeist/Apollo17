@@ -1403,13 +1403,15 @@ header {
 }
 .video-block {
   width: 40%;
-  /*max-width: 640px;*/
+  max-width: 640px;
 }
 .photo-block {
-  width: 60%;
+  /*width: 60%;*/
 }
 img.aspect-holder {
   width: 100%;
+  /*max-height: 480px;*/
+  /*height: 100%;*/
 }
 .video-wrapper {
   position: relative;

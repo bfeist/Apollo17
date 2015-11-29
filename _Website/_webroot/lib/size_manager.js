@@ -9,34 +9,34 @@ dependencies:
 */
 
 (function($)
-{	
+{
 	$(document).ready(function() {
 		$('[data-js-class="SizeManager"]').sizeManager();
 	});
-	
+
 	// constructor
 	function SizeManager(root, conf)
-	{	
+	{
 		// Private vars ------------------------------------------------------------------
 		var $root = $(root),
 			_root = $root[0],
 			_self = this,
 			_classId = 'SizeManager',
-      
+
       _resizeTestDelay = 100,
       _minHeight,
       $displayParent,
       $sizeBuddy,
-			
+
 			$opts = {
 				showDebugInfo: false
 			};
 		$.extend($opts, conf);
 
-		// Public methods ------------------------------------------------------------------		
+		// Public methods ------------------------------------------------------------------
 		$.extend(_self, {
 			func: function(){
-				
+
 			}
 		});
 
@@ -68,9 +68,10 @@ dependencies:
 
     function positionMe() {
       $root.hide();
-      $displayParent.siblings().hide();
+      $displayParent.siblings().css('display', 'none');
 
-      $sizeBuddy.removeAttr('style');
+      //$sizeBuddy.removeAttr('style');
+      $sizeBuddy.css('height', '');
 
       var bodyHeight = $('body').height();
 
@@ -105,9 +106,9 @@ dependencies:
         $root.show().height(availHeight);
       }
 
-      $displayParent.siblings().removeAttr('style');
+      $displayParent.siblings().css('display', '');
     };
-		
+
 		function _trace(str, withId) {
 			withId = withId == false ? false : true;
 			if ($opts.showDebugInfo == true) {
@@ -117,11 +118,11 @@ dependencies:
 					}
 					console.log(str);
 				} catch(e) {
-					// no console no log	
-				}	
+					// no console no log
+				}
 			}
 		};
-		
+
 		init();
 	};
 
@@ -129,12 +130,12 @@ dependencies:
 	$.fn.sizeManager = function(conf) {
 		var opts = {}; //defaults
 		$.extend(opts, conf);
-		
+
 		this.each(function() {
 			var $instance = new SizeManager(this, opts);
 			$(this).data('sizeManager', $instance);
 		});
-		
+
 		return this;
 	};
 })(jQuery);

@@ -1343,6 +1343,9 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
+
+    proportionalWidthOnPhotoBlock();
+
     //var myCanvasElement = $('#myCanvas');
     //myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
     //myCanvasElement.css("width", $('#navigator').width());
@@ -1361,11 +1364,19 @@ function initSplash() {
   });
 }
 
+function proportionalWidthOnPhotoBlock() {
+    var photoBlockWidth = $('body').width() - $('.video-block').width() - 1;
+    //trace("trying to set photo block width: " + photoBlockWidth);
+    $('.photo-block').width(photoBlockWidth);
+}
+
 //on document ready
 $(document).ready(function() {
     //var myCanvasElement = $('#myCanvas');
     //myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
     //myCanvasElement.css("width", $('.headerRight').width());
+
+    proportionalWidthOnPhotoBlock();
 
     //throttled scroll detection on commentaryDiv
     var commentaryDiv = $("#commentaryDiv");
