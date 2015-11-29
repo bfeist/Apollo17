@@ -1282,7 +1282,7 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            //alert('about');
+            alert('about');
             $('.about-content').show();
             //gShareButtonObject.toggle();
         });
@@ -1290,7 +1290,7 @@ jQuery(function ($) {
     $("#shareBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'share');
-            gShareButtonObject.toggle();
+            //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
         });
 
 
@@ -1435,7 +1435,7 @@ $(document).ready(function() {
                 after: function() {
                     trace("User shared facebook: ", this.url);
                     ga('send', 'event', 'share', 'click', 'facebook');
-                    this.close();
+                    //gShareButtonObject.close();
                 }
             },
             twitter: {
@@ -1447,7 +1447,7 @@ $(document).ready(function() {
                 after: function() {
                     trace("User shared twitter: ", this.url);
                     ga('send', 'event', 'share', 'click', 'twitter');
-                    this.close();
+                    //this.close();
                 }
             },
 
@@ -1460,7 +1460,7 @@ $(document).ready(function() {
                 after: function() {
                     trace("User shared email: ", this.title);
                     ga('send', 'event', 'share', 'click', 'email');
-                    this.close();
+                    //this.close();
                 }
             }
         }
