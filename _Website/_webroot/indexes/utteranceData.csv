@@ -793,14 +793,14 @@
 0033704|LMP|Bob, for the most part, these fragments are not - or are tumbling at a very slow rate. I tried a couple pictures of them - different settings. You may get an idea of what, at least, the patterns look like.
 0033720|CC|Roger. I've got you. We're all ears on these fragments if you think you can figure out what they might be.
 0033725|LMP|Well, you know I - I don't know. There are a number of possibilities. If you had some kind of a - I got the impression maybe they were curved a little bit, as if they might be - off the side of the S-IVB. And that's a wild guess - -
-0033740|CDR|Okay. RCS LOGIC is ... --
+0033740|CMP|Okay. RCS LOGIC is ... --
 0033743|LMP|- - ice chunks, possibly. Or maybe there's paint coming off of it.
 0033746|CC|Roger. I noticed on one trip up the elevator last weak near one of the flags. I thought it was on the S-II, but it might have been on the S-IVB. Looked like it was peeling. Maybe that's what you've got.
 0033757|CC|And the S-IVB maneuver is complete.
-0033759|LMP|... In 1 minute.
-0033803|CDR|Okay. We'll set the old clock.
+0033758|CMP|... on MAIN A.
+0033803|CMP|Okay. We'll set the old clock.
 0033804|LMP|Okay. And the - with the maneuver complete, the fragment field is essentially static, except for very slight tumbling within the fragments.
-0033813|CC|Roger. Cut in.
+0033813|CC|Roger. Copy that.
 0033815|LMP|Every once in a while, a fragment of considerably higher velocity than the others goes across my window. But that's very rare.
 0033823|CC|Roger.
 0033834|CMP|Hey, that's that field of view I saw out my window Jack, do you see it now?
@@ -809,9 +809,9 @@
 0033851|CC|Roger. Understand.
 0033854|LMP|I'll take two pictures about a minute apart if I can. And it'll be Frame 70.
 0033905|CC|Okay. Frame 70.
-0033907|CDR|And, Bob. This is Geno. My impression is that they are - flat, flakelike particles. Some may be 6 inches across. And, although there's no relative motion between the two, most of them seem to be twinkling. And I think, for the most part, they're all moving away from us.
+0033907|CDR|And, Bob. This is Geno. My impression is that they are - flat, flake-like particles. Some may be 6 inches across. And, although there's no relative motion between the two, most of them seem to be twinkling. And I think, for the most part, they're all moving away from us.
 0033931|CC|Roger, Gene. Thank you.
-0033948|CMP|Okay. We've got 0180 and 0 on the old thumbwheels
+0033948|CMP|Okay. We've got 0180 and 0 on the old thumbwheels.
 0033953|LMP|Okay.
 0033956|CC|Roger, Ron.
 0034006|CMP|Okay. TRANS CONTROL is ARMED.
@@ -823,7 +823,7 @@
 0034025|CC|17, Houston. You have a GO for T&D.
 0034030|CDR|Okay. A GO for T&D.
 0034051|CMP|Okay. We'll ARM the PYROs. And we'll hit the GDC ALIGN.
-0034113|CMP|And maneuver's complete. Okay 0180 and 0? On the GDC? No. It's just ... it's kind of diddling.
+0034113|CMP|And maneuver's complete. Okay 0180 and 0, on the GDC. No. It's just ... it's kind of diddling.
 0034131|CMP|Okay. DELTA-V in NORMAL.
 0034155|CMP|S-IVB, okay. Okay, switches are all set.
 0034206|LMP|Okay; 59:30.

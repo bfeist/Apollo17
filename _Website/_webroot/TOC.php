@@ -73,7 +73,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('0034228')" class="tocitem" id="tocid0034228"><span class="TOCTimestamp">003:42:28</span>
+        <li onclick="parent.seekToTime('0034243')" class="tocitem" id="tocid0034243"><span class="TOCTimestamp">003:42:43</span>
         <span class="TOC_item">S-IVB/Command and Service Module separation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0034500')" class="tocitem" id="tocid0034500"><span class="TOCTimestamp">003:45:00</span>

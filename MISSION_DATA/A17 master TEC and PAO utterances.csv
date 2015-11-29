@@ -824,15 +824,15 @@
 |003:37:04|LMP|Bob, for the most part, these fragments are not - or are tumbling at a very slow rate. I tried a couple pictures of them - different settings. You may get an idea of what, at least, the patterns look like.
 |003:37:20|CC|Roger. I've got you. We're all ears on these fragments if you think you can figure out what they might be.
 |003:37:25|LMP|Well, you know I - I don't know. There are a number of possibilities. If you had some kind of a - I got the impression maybe they were curved a little bit, as if they might be - off the side of the S-IVB. And that's a wild guess - -
-|003:37:40|CDR|Okay. RCS LOGIC is ... --
+|003:37:40|CMP|Okay. RCS LOGIC is ... --
 |003:37:43|LMP|- - ice chunks, possibly. Or maybe there's paint coming off of it.
 |003:37:46|CC|Roger. I noticed on one trip up the elevator last weak near one of the flags. I thought it was on the S-II, but it might have been on the S-IVB. Looked like it was peeling. Maybe that's what you've got.
 |003:37:57|CC|And the S-IVB maneuver is complete.
-|003:37:59|LMP|... In 1 minute.
-|003:38:03|CDR|Okay. We'll set the old clock.
+|003:37:58|CMP|... on MAIN A.
+|003:38:03|CMP|Okay. We'll set the old clock.
 |003:38:04|LMP|Okay. And the - with the maneuver complete, the fragment field is essentially static, except for very slight tumbling within the fragments.
 ||||Tape 5/4|Page 41
-|003:38:13|CC|Roger. Cut in.
+|003:38:13|CC|Roger. Copy that.
 |003:38:15|LMP|Every once in a while, a fragment of considerably higher velocity than the others goes across my window. But that's very rare.
 |003:38:23|CC|Roger.
 |003:38:34|CMP|Hey, that's that field of view I saw out my window Jack, do you see it now?
@@ -841,9 +841,9 @@
 |003:38:51|CC|Roger. Understand.
 |003:38:54|LMP|I'll take two pictures about a minute apart if I can. And it'll be Frame 70.
 |003:39:05|CC|Okay. Frame 70.
-|003:39:07|CDR|And, Bob. This is Geno. My impression is that they are - flat, flakelike particles. Some may be 6 inches across. And, although there's no relative motion between the two, most of them seem to be twinkling. And I think, for the most part, they're all moving away from us.
+|003:39:07|CDR|And, Bob. This is Geno. My impression is that they are - flat, flake-like particles. Some may be 6 inches across. And, although there's no relative motion between the two, most of them seem to be twinkling. And I think, for the most part, they're all moving away from us.
 |003:39:31|CC|Roger, Gene. Thank you.
-|003:39:48|CMP|Okay. We've got 0180 and 0 on the old thumbwheels
+|003:39:48|CMP|Okay. We've got 0180 and 0 on the old thumbwheels.
 |003:39:53|LMP|Okay.
 |003:39:56|CC|Roger, Ron.
 |003:40:06|CMP|Okay. TRANS CONTROL is ARMED.
@@ -856,7 +856,7 @@
 |003:40:25|CC|17, Houston. You have a GO for T&D.
 |003:40:30|CDR|Okay. A GO for T&D.
 |003:40:51|CMP|Okay. We'll ARM the PYROs. And we'll hit the GDC ALIGN.
-|003:41:13|CMP|And maneuver's complete. Okay 0180 and 0? On the GDC? No. It's just ... it's kind of diddling.
+|003:41:13|CMP|And maneuver's complete. Okay 0180 and 0, on the GDC. No. It's just ... it's kind of diddling.
 |003:41:31|CMP|Okay. DELTA-V in NORMAL.
 |003:41:55|CMP|S-IVB, okay. Okay, switches are all set.
 |003:42:06|LMP|Okay; 59:30.
