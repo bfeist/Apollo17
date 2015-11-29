@@ -1381,15 +1381,13 @@ header {
 }
 .video-block {
   width: 40%;
-  max-width: 640px;
+  max-width: 720px;
 }
 .photo-block {
   /*width: 60%;*/ /* this is done via jquery in index.js */
 }
 img.aspect-holder {
   width: 100%;
-  /*max-height: 480px;*/
-  /*height: 100%;*/
 }
 .video-wrapper {
   position: relative;

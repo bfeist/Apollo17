@@ -46,15 +46,13 @@ dependencies:
 		function init() {
         _trace('init');
 
-         if ($root.attr('data-sm-parent') == '.video-block') {
-           $opts.showDebugInfo = true;
-         }
+         //if ($root.attr('data-sm-parent') == '.video-block') {
+         //  $opts.showDebugInfo = true;
+         //}
 
         $displayParent = $($root.attr('data-sm-parent'));
         $sizeBuddy = $($root.attr('data-sm-buddy'));
         _minHeight = parseInt($root.attr('data-sm-min-height'));
-        _buddyMaxHeight = parseInt($root.attr('data-sm-buddy-max-height'));
-        _maxHeight = parseInt($root.attr('data-sm-max-height'));
 
         //if there are any aspect-holder images in our parent wait for them to load
         var $aspectHolders = $displayParent.find('.aspect-holder');
@@ -76,17 +74,20 @@ dependencies:
 
       //$sizeBuddy.removeAttr('style');
       $sizeBuddy.css('height', '');
-      if ($sizeBuddy.height() > _buddyMaxHeight)
-        $sizeBuddy.height(_buddyMaxHeight);
 
       var bodyHeight = $('body').height();
-
       var parentOffset = $displayParent.offset();
       var contentHeight = 0;
       $displayParent.children().not($root).each(function () {
         var $this = $(this);
         _trace('HEY - ' + this.className);
-        var myHeight = $this.outerHeight(true);
+        if ($this.find('.aspect-holder').length) {
+          myHeight = $this.find('.aspect-holder').height();
+          $this.height(myHeight);
+          _trace('-- aspect-holder found, resized this to same height as aspect holder');
+        } else {
+          var myHeight = $this.outerHeight(true);
+        }
         contentHeight += myHeight;
         _trace(' -- myHeight: ' + myHeight);
         _trace(' -- contentHeight: ' + contentHeight);
