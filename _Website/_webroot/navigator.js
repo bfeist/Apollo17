@@ -682,13 +682,19 @@ function drawTier2() {
         if (timeStrToSeconds(gMissionStages[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gMissionStages[i][3]) >= gTier2StartSeconds) {
             itemLocX = gTier2Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
 
-            if (itemLocX < gTier2Left + 1)
+            var drawStageTick = true;
+            if (itemLocX < gTier2Left + 1) {
                 itemLocX = gTier2Left + 1;
+                drawStageTick = false;
+            }
             topPoint = new paper.Point(itemLocX, gTier2Top);
             bottomPoint = new paper.Point(itemLocX, gTier2Top + (gTier2Height / 2));
 
-            var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
-            stageStroke.strokeColor = gColorMissionStageStroke;
+            if (drawStageTick) {
+                var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
+                stageStroke.strokeColor = gColorMissionStageStroke;
+                tempGroup.addChild(stageStroke); // draw grey outline of stage segment
+            }
 
             var stageText = new paper.PointText({
                 justification: 'left',
@@ -704,7 +710,6 @@ function drawTier2() {
             var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
             stageTextRect.fillColor ='black';
             tempGroup.addChild(stageTextRect); //blank out area behind text
-            tempGroup.addChild(stageStroke); // draw grey outline of stage segment
             tempGroup.addChild(stageText); // text label
         }
     }
@@ -843,40 +848,6 @@ function drawTier3() {
         }
     }
 
-    // draw mission stages
-    for (i = 0; i <= gMissionStages.length - 1; i++) {
-        //draw if stage start is before end of viewport, and stage end is after start of viewport
-        if (timeStrToSeconds(gMissionStages[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gMissionStages[i][3]) >= gTier3StartSeconds) {
-            itemLocX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
-
-            if (itemLocX < gTier3Left + 1)
-                itemLocX = gTier3Left + 1;
-            topPoint = new paper.Point(itemLocX, gTier3Top);
-            bottomPoint = new paper.Point(itemLocX, gTier3Top + (gTier3Height / 3));
-
-            var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
-            stageStroke.strokeColor = gColorMissionStageStroke;
-            stageStroke.strokeWidth = 2;
-
-            var stageText = new paper.PointText({
-                justification: 'left',
-                fontFamily: graphFontFamily,
-                //fontWeight: 'bold',
-                fontSize: 10 + gFontScaleFactor,
-                fillColor: gColorMissionStageText
-            });
-            var textTop = gTier3Top + (gTier3Height / 3) - 5;
-            stageText.point = new paper.Point(itemLocX + 2 , textTop);
-            stageText.content = gMissionStages[i][1];
-
-            var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
-            stageTextRect.fillColor ='black';
-            tempGroup.addChild(stageTextRect); //blank out area behind text
-            tempGroup.addChild(stageStroke); // draw grey outline of stage segment
-            tempGroup.addChild(stageText); // text label
-        }
-    }
-
     //display time ticks
     var missionDurationStr = secondsToTimeStr(gMissionDurationSeconds);
     var missionDurationHours = parseInt(missionDurationStr.substr(0,3));
@@ -908,6 +879,45 @@ function drawTier3() {
 
             tempGroup.addChild(stageText);
             tempGroup.addChild(aLine);
+        }
+    }
+
+    // draw mission stages
+    for (i = 0; i <= gMissionStages.length - 1; i++) {
+        //draw if stage start is before end of viewport, and stage end is after start of viewport
+        if (timeStrToSeconds(gMissionStages[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gMissionStages[i][3]) >= gTier3StartSeconds) {
+            itemLocX = gTier3Left + (timeStrToSeconds(gMissionStages[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+
+            var drawStageTick = true;
+            if (itemLocX < gTier3Left + 1) {
+                itemLocX = gTier3Left + 1;
+                drawStageTick = false;
+            }
+            topPoint = new paper.Point(itemLocX, gTier3Top);
+            bottomPoint = new paper.Point(itemLocX, gTier3Top + (gTier3Height / 3));
+
+            if (drawStageTick) {
+                var stageStroke = new paper.Path.Line(topPoint, bottomPoint);
+                stageStroke.strokeColor = gColorMissionStageStroke;
+                stageStroke.strokeWidth = 2;
+                tempGroup.addChild(stageStroke); // draw grey outline of stage segment
+            }
+
+            var stageText = new paper.PointText({
+                justification: 'left',
+                fontFamily: graphFontFamily,
+                //fontWeight: 'bold',
+                fontSize: 10 + gFontScaleFactor,
+                fillColor: gColorMissionStageText
+            });
+            var textTop = gTier3Top + (gTier3Height / 3) - 5;
+            stageText.point = new paper.Point(itemLocX + 2 , textTop);
+            stageText.content = gMissionStages[i][1];
+
+            var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+            stageTextRect.fillColor ='black';
+            tempGroup.addChild(stageTextRect); //blank out area behind text
+            tempGroup.addChild(stageText); // text label
         }
     }
 
