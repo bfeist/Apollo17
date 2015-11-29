@@ -25,6 +25,8 @@ dependencies:
 
       _resizeTestDelay = 100,
       _minHeight,
+      _maxHeight,
+      _buddyMaxHeight,
       $displayParent,
       $sizeBuddy,
 
@@ -44,13 +46,15 @@ dependencies:
 		function init() {
         _trace('init');
 
-        // if ($root.attr('data-sm-parent') == '.video-block') {
-        //   $opts.showDebugInfo = true;
-        // }
+         if ($root.attr('data-sm-parent') == '.video-block') {
+           $opts.showDebugInfo = true;
+         }
 
         $displayParent = $($root.attr('data-sm-parent'));
         $sizeBuddy = $($root.attr('data-sm-buddy'));
         _minHeight = parseInt($root.attr('data-sm-min-height'));
+        _buddyMaxHeight = parseInt($root.attr('data-sm-buddy-max-height'));
+        _maxHeight = parseInt($root.attr('data-sm-max-height'));
 
         //if there are any aspect-holder images in our parent wait for them to load
         var $aspectHolders = $displayParent.find('.aspect-holder');
@@ -72,6 +76,8 @@ dependencies:
 
       //$sizeBuddy.removeAttr('style');
       $sizeBuddy.css('height', '');
+      if ($sizeBuddy.height() > _buddyMaxHeight)
+        $sizeBuddy.height(_buddyMaxHeight);
 
       var bodyHeight = $('body').height();
 
@@ -97,11 +103,14 @@ dependencies:
       _trace('contentHeight: ' + contentHeight);
       _trace('availHeight: ' + availHeight);
 
+
       if (availHeight < _minHeight) {
         var diff = availHeight - _minHeight;
         var targetHeight = $sizeBuddy.height() - Math.abs(diff);
         $sizeBuddy.height(targetHeight);
         $root.show().height(_minHeight);
+      } else if (availHeight > _maxHeight) {
+        $root.show().height(_maxHeight);
       } else {
         $root.show().height(availHeight);
       }
