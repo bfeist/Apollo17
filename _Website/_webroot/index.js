@@ -612,7 +612,7 @@ function flashTab(tabName, tabNum, flashColor) {
     var flashDuration = 500; //in ms
     var $tab = $('#' + tabName);
     if (!$tab.hasClass('selected')) {
-        //trace("flash tab");
+        trace("flash tab");
         $tab.addClass("blink_me");
         setTimeout(function(){$tab.removeClass("blink_me")}, flashDuration);
 
@@ -1314,7 +1314,7 @@ jQuery(function ($) {
     });
 
     function activateTab(tabId) {
-        $('.splash-btn.primary').removeClass('selected');
+        $('.splash-btn.content-tab').removeClass('selected');
         $('#' + tabId).addClass('selected');
 
         var rootName = tabId.substring(0, tabId.length - 3);
