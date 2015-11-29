@@ -1090,7 +1090,13 @@ body.app-ready .splash-btn.primary.selected {
 .tabs-wrapper {
   /*font-size: 2em;*/
   font-size: 14px;
+    margin-left: 5px;
 }
+
+.entypo-export:before{
+    display: none;
+}
+
 .output-screen {
   /*height: 300px;*/
 }
@@ -1165,7 +1171,7 @@ body.app-ready .splash-btn.primary.selected {
 
 .button-row {
   margin: 0;
-  padding: 10px 15px;
+  padding: 7px 5px;
   text-align: center;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -1209,17 +1215,17 @@ body.app-ready .splash-btn.primary.selected {
   min-height: 35px;
   font-size: 12px;
   /*white-space: nowrap;*/
-  margin-right: 0;
   /*min-width: 120px;*/
   
   /*width: 90%;*/
   min-width: 0px;
   width: 100%;
-  margin: 0 2%;
+  margin: 0 1%;
   display: block;
   flex: 1;
 }
 .button-row.small {
+    margin: 0;
   /*width: 36px;
   display: block;
   padding: 0;*/
@@ -1237,7 +1243,7 @@ body.app-ready .splash-btn.primary.selected {
   padding: 4px 4px 6px 4px;
   min-height: 0;
   min-width: 0;
-  height: 21px;
+  /*height: 21px;*/
   /*margin-bottom: 4px;*/
   position: relative;
 }
@@ -1287,6 +1293,9 @@ hr.buttons-divider {
 }
 .button-row.small a#aboutBtn:before {
   background-position: -48px -144px;
+}
+.button-row.small a#shareBtn:before {
+    background-position: -80px -96px;
 }
 .sr-only {
     position: absolute;

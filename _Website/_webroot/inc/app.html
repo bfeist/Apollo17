@@ -45,38 +45,27 @@
         </div>
       </div>
 
-      <!-- text readout nav -->
-
-      <div class="buttons-wrapper">
-
-        <!-- buttons -->
-        <ul class="button-row small">
-          <!-- <li> --><a href="#" class="splash-btn entypo entypo-export" id="playPauseBtn" title="Play/Pause"><span class="sr-only">Play</span></a><!-- </li> -->
-          <!-- <li> --><a href="#" class="splash-btn" id="soundBtn" title="Mute"><span class="sr-only">Mute</span></a><!-- </li> -->
-          <!-- <li> --><a href="#" class="splash-btn" id="realtimeBtn" title="Join In-Progress"><span class="sr-only">Join In-Progress</span></a><!-- </li> -->
-          <!-- <li> --><a href="#" class="splash-btn" id="fullscreenBtn" title="Toggle Fullscreen"><span class="sr-only">Fullscreen</span></a><!-- </li> -->
-          <!-- <li> --><a href="#" class="splash-btn" id="aboutBtn" title="Help"><span class="sr-only">Site Info</span></a><!-- </li> -->
-          <div class="splash-btn">
-            <span class="share-button-wrapper xbutton-row xsmall">
-              <!-- <li> -->
-                <div class=" entypo share-button"></div>
-              <!-- </li> -->
-            </span>
-          </div>
-          
-
-        </ul>
-      </div>
-
-      <hr class="buttons-divider">
-
-      <div class="tabs-wrapper">
-        <ul class="button-row">
-          <!-- <li> --><a id="transcriptTab" href="#" class="splash-btn primary" onclick=''><SPAN>Transcript</SPAN></a><!-- </li> -->
-          <!-- <li> --><a id="tocTab" href="#" class="splash-btn primary"><SPAN>Guided Tour</SPAN></a><!-- </li> -->
-          <!-- <li> --><a id="commentaryTab" href="#" class="splash-btn primary"><SPAN>Commentary</SPAN></a><!-- </li> -->
+      <div class="tabs-wrapper" style="display: flex;">
+        <div class="button-row small" style="flex: 1;">
+          <a href="#" class="splash-btn entypo entypo-export" id="playPauseBtn" title="Play/Pause"><span class="sr-only">Play/Pause</span></a>
+            <a href="#" class="splash-btn" id="soundBtn" title="Sound On/Off"><span class="sr-only">Sound On/Off</span></a>
+          <a href="#" class="splash-btn" id="realtimeBtn" title="Join In-Progress"><span class="sr-only">Join In-Progress</span></a>
+        </div>
+        <div class="button-row" style="flex: 3;">
+          <a id="transcriptTab" href="#" class="splash-btn primary" onclick=''><SPAN>Transcript</SPAN></a>
+          <a id="tocTab" href="#" class="splash-btn primary"><SPAN>Guided Tour</SPAN></a>
+          <a id="commentaryTab" href="#" class="splash-btn primary"><SPAN>Commentary</SPAN></a>
           <!-- <li><A id="instructionsTab" href="#" class="splash-btn"><SPAN>Instructions</SPAN></A></li> -->
-        </ul>
+        </div>
+        <div class="button-row small" style="flex: 1;">
+           <a href="#" class="splash-btn" id="aboutBtn" title="Help"><span class="sr-only">Site Info</span></a>
+            <a href="#" class="splash-btn" id="fullscreenBtn" title="Toggle Fullscreen"><span class="sr-only">Fullscreen</span></a>
+            <a href="#" class="splash-btn" id="shareBtn" title="Share This Moment">
+                <span class="share-button-wrapper xbutton-row xsmall">
+                    <div class=" entypo share-button"></div>
+                </span>
+            </a>
+        </div>
       </div>
 
       <div class="monitor" data-js-class="SizeManager" data-sm-parent=".video-block" data-sm-min-height="160" data-sm-buddy=".video-monitor">
@@ -109,41 +98,6 @@
         </div>
       </div>
 
-    </div>
-
-</section>
-
-<section style="display:none;">
-    <div class="flex row flex-item">
-        <div class="flex col flex-item half">
-          <div class="flex-item-2">
-          </div>
-          <div class="xflex-item">
-
-
-          </div>
-          <div class="flex-item">
-
-
-
-          </div>
-        </div>
-        <div class="flex col flex-item half">
-          <div class="flex-item-4">
-
-
-          </div>
-          <div class="flex row flex-item">
-            <div class="flex-item">
-
-            </div>
-            <div>
-
-
-
-            </div>
-          </div>
-        </div>
     </div>
 
 </section>

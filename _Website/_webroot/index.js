@@ -205,22 +205,11 @@ function setAutoScrollPoller() {
 
         if (!gOffline) {
             if (player.isMuted() == true) {
-                // var btnIcon = "ui-icon-volume-off";
-                // var btnText = "Un-Mute";
                 $('#soundBtn').removeClass('mute');
             } else {
-                // btnIcon = "ui-icon-volume-on";
-                // btnText = "Mute";
                 $('#soundBtn').addClass('mute');
             }
         }
-        // $("#soundBtn")
-        //     .button({
-        //         icons: { primary: btnIcon },
-        //         text: false,
-        //         label: btnText
-        //     });
-
     }, 1000); //polling frequency in milliseconds
 }
 
@@ -358,7 +347,7 @@ function oneMinuteToLaunchButtonClick() {
 
 function fadeOutSplash() {
     trace('fadeOutSplash');
-    toggleFullscreen();
+    //toggleFullscreen();
     setTimeout(
         function () {
             $('body').removeClass('splash-loaded');
@@ -1297,6 +1286,13 @@ jQuery(function ($) {
             //gShareButtonObject.toggle();
         });
 
+    $("#shareBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'share');
+            gShareButtonObject.toggle();
+        });
+
+
     //tab button events
     $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'transcript');
@@ -1425,8 +1421,9 @@ $(document).ready(function() {
                     this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
                 },
                 after: function() {
-                    console.log("User shared facebook: ", this.url);
+                    trace("User shared facebook: ", this.url);
                     ga('send', 'event', 'share', 'click', 'facebook');
+                    this.close();
                 }
             },
             twitter: {
@@ -1436,8 +1433,9 @@ $(document).ready(function() {
                     this.description = "%23Apollo17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
                 },
                 after: function() {
-                    console.log("User shared twitter: ", this.url);
+                    trace("User shared twitter: ", this.url);
                     ga('send', 'event', 'share', 'click', 'twitter');
+                    this.close();
                 }
             },
 
@@ -1448,8 +1446,9 @@ $(document).ready(function() {
                     this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                 },
                 after: function() {
-                    console.log("User shared email: ", this.title);
+                    trace("User shared email: ", this.title);
                     ga('send', 'event', 'share', 'click', 'email');
+                    this.close();
                 }
             }
         }
