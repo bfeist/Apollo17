@@ -42,6 +42,7 @@ var gApplicationReadyIntervalID = null;
 var gFontsLoaded = false;
 var gSplashImageLoaded = false;
 var gMustInitNav = true;
+var gFontLoaderDelay = 3; //seconds
 
 var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
@@ -219,6 +220,12 @@ function setApplicationReadyPoller() {
     return window.setInterval(function () {
         trace("setApplicationReadyPoller(): Checking if App Ready");
 
+        if (gFontLoaderDelay <= 0 && gFontsLoaded == false) {
+            trace ('INIT: giving up on font loader');
+            gFontsLoaded = true;
+        }
+        gFontLoaderDelay --;
+
         if (gFontsLoaded && gSplashImageLoaded && gMustInitNav) {
             $('body').addClass('splash-loaded'); //shows splash screen because now the fonts and image have been loaded
             initNavigator(); //only init navigator after fonts have loaded to avoid mousex position bug
@@ -350,11 +357,13 @@ function oneMinuteToLaunchButtonClick() {
 function fadeOutSplash() {
     trace('fadeOutSplash');
     //toggleFullscreen();
-    setTimeout(
-        function () {
-            $('body').removeClass('splash-loaded');
-            $('.splash-content').hide();
-        }, 1600);
+    $('body').removeClass('splash-loaded');
+    $('.splash-content').hide();
+    //setTimeout(
+    //    function () {
+    //        $('body').removeClass('splash-loaded');
+    //        $('.splash-content').hide();
+    //    }, 1600);
 }
 
 function galleryClick(timeId) {
