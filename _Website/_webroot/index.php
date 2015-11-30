@@ -71,9 +71,9 @@
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename')">
+        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename.jpg')">
 
-            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
+            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
                 <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 
@@ -83,11 +83,11 @@
                     <tr>
                         <td>
                             <div>Mission Time Taken:</div>
-                            <div>@timestamp</div>
+                            <div>@timeStr</div>
                         </td>
                         <td>
                             <div>Photo:</div>
-                            <div>@mag_code @mag_number@photo_num</div>
+                            <div>@mag_code @filename</div>
                         </td>
                         <td>
                             <div>Photographer:</div>
