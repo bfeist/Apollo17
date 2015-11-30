@@ -133,7 +133,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('0370040')" class="tocitem" id="tocid0370040"><span class="TOCTimestamp">037:00:40</span>
+        <li onclick="parent.seekToTime('0370033')" class="tocitem" id="tocid0370033"><span class="TOCTimestamp">037:00:33</span>
         <span class="TOC_item">Crew listening to music</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0425932')" class="tocitem" id="tocid0425932"><span class="TOCTimestamp">042:59:32</span>
@@ -221,7 +221,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1124949')" class="tocitem" id="tocid1124949"><span class="TOCTimestamp">112:49:49</span>
-        <span class="TOC_item">Video: Powered Descent Initiation</span>
+        <span class="TOC_item">Powered Descent Initiation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1125208')" class="tocitem" id="tocid1125208"><span class="TOCTimestamp">112:52:08</span>

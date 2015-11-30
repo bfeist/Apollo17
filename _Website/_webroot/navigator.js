@@ -45,8 +45,8 @@ var gTier3SecondsPerPixel;
 
 var graphFontFamily = 'Roboto Mono';
 
-var gColorTier1BoxStroke = "lightgrey";
-var gColorTier2BoxStroke = '#5E92A6'; //"lightgrey"; #84b8d9
+var gColorTier1BoxStroke = '#507a9b'; //"lightgrey";
+var gColorTier2BoxStroke = '#588caf'; //"lightgrey"; #84b8d9
 var gColorTier3BoxStroke = '#84b8d9'; //"lightgrey"; #5E92A6
 var gColorTier1Text = "#eeeeee"; //'#999999';
 var gColorMissionStageStroke = "grey";

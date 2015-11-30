@@ -210,7 +210,7 @@ function setAutoScrollPoller() {
                 $('#soundBtn').addClass('mute');
             }
         }
-    }, 1000); //polling frequency in milliseconds
+    }, 500); //polling frequency in milliseconds
 }
 
 //function setIntroTimeUpdatePoller() {
@@ -1000,7 +1000,7 @@ function showPhotoByTimeId(timeId) {
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 60; //added offset for ted design
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 40; //added offset for ted design
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });
