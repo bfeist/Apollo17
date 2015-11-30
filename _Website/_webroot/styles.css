@@ -395,6 +395,7 @@ canvas[resize] {
     background-position: center center;
     background-color: #000;
     height: 105px;
+    cursor: pointer;
 }
 .galleryItemContainer + .galleryItemContainer {
   margin-top: 10px;
@@ -420,7 +421,6 @@ canvas[resize] {
     max-width: 100%;
     height: 100%;
     border: 10px solid transparent;
-    cursor: pointer;
 }
 
 .galleryOverlay {

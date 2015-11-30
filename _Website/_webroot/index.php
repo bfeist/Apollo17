@@ -118,8 +118,8 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename" onclick="galleryClick('@timeid')">
+    <div class="galleryItemContainer" id="gallerytimeid@timeid" onclick="galleryClick('@timeid')">
+        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>
