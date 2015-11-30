@@ -39,6 +39,9 @@ var gMissionTimeParamSent = 0;
 var player;
 var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
 var gApplicationReadyIntervalID = null;
+var gFontsLoaded = false;
+var gSplashImageLoaded = false;
+var gMustInitNav = true;
 
 var gUtteranceDisplayStartIndex;
 var gUtteranceDisplayEndIndex;
@@ -215,6 +218,13 @@ function setAutoScrollPoller() {
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
         trace("setApplicationReadyPoller(): Checking if App Ready");
+
+        if (gFontsLoaded && gSplashImageLoaded && gMustInitNav) {
+            $('body').addClass('splash-loaded'); //shows splash screen because now the fonts and image have been loaded
+            initNavigator(); //only init navigator after fonts have loaded to avoid mousex position bug
+            gMustInitNav = false;
+        }
+
         if (gApplicationReady >= 4) {
             trace("APPREADY = 4! App Ready!");
             if (gMissionTimeParamSent != 0) {
@@ -1353,6 +1363,7 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
 }, 250));
 
 function initSplash() {
+    //flags set in this function are acted upon in the applicationreadypoller
   var $splash = $('.splash-content');
     var webFontConfig = {
         google: {
@@ -1362,16 +1373,14 @@ function initSplash() {
         },
         active: function() {
             trace("INIT: fonts loaded");
-            $.when($splash.waitForImages()).done(function(){
-                trace("INIT: splash image loaded");
-                $('body').addClass('splash-loaded');
-
-                initNavigator();
-
-            });
+            gFontsLoaded = true;
         }
      }
     WebFont.load(webFontConfig);
+    $.when($splash.waitForImages()).done(function(){
+        trace("INIT: splash image loaded");
+        gSplashImageLoaded = true;
+    });
 }
 
 function proportionalWidthOnPhotoBlock() {
