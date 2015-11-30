@@ -1233,15 +1233,13 @@ jQuery(function ($) {
         gMissionTimeParamSent = 0;
     }
     activateTab('transcriptTab');
-
     //buttons
 
-    $("#fullscreenBtn")
+    $(".fullscreenBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'fullscreen');
             toggleFullscreen();
         });
-
 
     $("#playPauseBtn")
         .click(function(){
@@ -1359,9 +1357,24 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
 
 function initSplash() {
   var $splash = $('.splash-content');
-  $splash.waitForImages(function() {
-    $('body').addClass('splash-loaded');
-  });
+    var webFontConfig = {
+        google: {
+            families: ['Michroma',
+                'Oswald:300,400,700',
+                'Roboto Mono:200,400,500,700']
+        },
+        active: function() {
+            trace("INIT: fonts loaded");
+            $.when($splash.waitForImages()).done(function(){
+                trace("INIT: splash image loaded");
+                $('body').addClass('splash-loaded');
+
+                initNavigator();
+
+            });
+        }
+     }
+    WebFont.load(webFontConfig);
 }
 
 function proportionalWidthOnPhotoBlock() {
@@ -1377,6 +1390,10 @@ $(document).ready(function() {
     //myCanvasElement.css("width", $('.headerRight').width());
 
     proportionalWidthOnPhotoBlock();
+
+    initSplash();
+
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     //throttled scroll detection on commentaryDiv
     var commentaryDiv = $("#commentaryDiv");
@@ -1403,10 +1420,6 @@ $(document).ready(function() {
             appendUtterances(25, true);
         }
     }, 10));
-
-    initSplash();
-
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     gShareButtonObject = new Share(".share-button", {
         ui: {

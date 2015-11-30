@@ -40,6 +40,7 @@
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
     </script>
+    <script type="text/javascript" src="lib/webfontloader.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery-ui.js"></script>
@@ -54,9 +55,10 @@
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 
     <script type="text/javascript" src='lib/size_manager.js'></script>
+    <script type="text/javascript" src="navigator.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
-    <script type="text/javascript" src="navigator.js"></script>
+
 
 </head>
 <body>
