@@ -25,7 +25,6 @@ dependencies:
 
       _resizeTestDelay = 100,
       _minHeight,
-      _maxHeight,
       _buddyMaxHeight,
       $displayParent,
       $sizeBuddy,
@@ -46,9 +45,9 @@ dependencies:
 		function init() {
         _trace('init');
 
-         //if ($root.attr('data-sm-parent') == '.video-block') {
-         //  $opts.showDebugInfo = true;
-         //}
+         if ($root.attr('data-sm-parent') == '.video-block') {
+          $opts.showDebugInfo = true;
+         }
 
         $displayParent = $($root.attr('data-sm-parent'));
         $sizeBuddy = $($root.attr('data-sm-buddy'));
@@ -81,12 +80,13 @@ dependencies:
       $displayParent.children().not($root).each(function () {
         var $this = $(this);
         _trace('HEY - ' + this.className);
-        if ($this.find('.aspect-holder').length) {
+        var myHeight;
+        if ($this.find('.aspect-holder').length > 0) {
           myHeight = $this.find('.aspect-holder').height();
           $this.height(myHeight);
           _trace('-- aspect-holder found, resized this to same height as aspect holder');
         } else {
-          var myHeight = $this.outerHeight(true);
+          myHeight = $this.outerHeight(true);
         }
         contentHeight += myHeight;
         _trace(' -- myHeight: ' + myHeight);
@@ -94,26 +94,27 @@ dependencies:
       });
       // var parentHeight = $displayParent.outerHeight();
 
-      var myBuffer = $root.outerHeight() - $root.height(); //total of margin, borders and padding
-      var bottomPadding = parseInt( $root.css('marginTop') ) * 2;
+      var myTopBottomBuffer = $root.outerHeight(true) - $root.height(); //total of margin, borders and padding
+      // var bottomPadding = parseInt( $root.css('marginTop') ) * 2;
 
-      var availHeight = bodyHeight - (parentOffset.top + contentHeight) - myBuffer - bottomPadding;
+      var availHeight = bodyHeight - (parentOffset.top + contentHeight + myTopBottomBuffer);
 
       _trace('bodyHeight: ' + bodyHeight);
       _trace('parentOffset.top: ' + parentOffset.top);
       _trace('contentHeight: ' + contentHeight);
+      _trace('myTopBottomBuffer: ' + myTopBottomBuffer);
       _trace('availHeight: ' + availHeight);
 
 
       if (availHeight < _minHeight) {
+        _trace('forcing _minHeight and scaling down $sizeBuddy; _minHeight: ' + _minHeight);
         var diff = availHeight - _minHeight;
         var targetHeight = $sizeBuddy.height() - Math.abs(diff);
         $sizeBuddy.height(targetHeight);
-        $root.show().height(_minHeight);
-      } else if (availHeight > _maxHeight) {
-        $root.show().height(_maxHeight);
+        $root.show().height(_minHeight - myTopBottomBuffer);
       } else {
-        $root.show().height(availHeight);
+      _trace(' erg - availHeight: ' + availHeight);
+        $root.show().height(availHeight - myTopBottomBuffer);
       }
 
       $displayParent.siblings().css('display', '');
