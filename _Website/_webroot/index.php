@@ -40,6 +40,7 @@
         ga('create', 'UA-37086725-2', 'auto');
         ga('send', 'pageview');
     </script>
+    <script type="text/javascript" src="lib/webfontloader.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
     <script type="text/javascript" src="lib/jquery-ui.js"></script>
@@ -53,11 +54,11 @@
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 
-    <script type="text/javascript" src='lib/tabbed_content_manager.js'></script>
     <script type="text/javascript" src='lib/size_manager.js'></script>
+    <script type="text/javascript" src="navigator.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
-    <script type="text/javascript" src="navigator.js"></script>
+
 
 </head>
 <body>
@@ -70,9 +71,9 @@
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename')">
+        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename.jpg')">
 
-            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename" target="photowindow">
+            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
                 <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 
@@ -80,14 +81,17 @@
                 <div class="photodivcaption">@description</div>
                 <table class="photoTable">
                     <tr>
-                        <td style="text-align: right;">
-                            Mission Time Taken : @timestamp
+                        <td>
+                            <div>Mission Time Taken:</div>
+                            <div>@timeStr</div>
                         </td>
-                        <td style="text-align: right;">
-                            Photo: @mag_code @mag_number@photo_num
+                        <td>
+                            <div>Photo:</div>
+                            <div>@mag_code @filename</div>
                         </td>
-                        <td style="text-align: right;">
-                            @photographer
+                        <td>
+                            <div>Photographer:</div>
+                            <div>@photographer</div>
                         </td>
                     </tr>
                 </table>
@@ -114,8 +118,8 @@
 </script>
 
 <script type="text/html" id="photoGalleryTemplate">
-    <div class="galleryItemContainer" id="gallerytimeid@timeid">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename" onclick="galleryClick('@timeid')">
+    <div class="galleryItemContainer" id="gallerytimeid@timeid" onclick="galleryClick('@timeid')">
+        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>

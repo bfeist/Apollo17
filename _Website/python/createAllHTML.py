@@ -160,9 +160,11 @@ for commentary_row in commentary_reader:
 	# words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
 	# words_modified = words_modified.replace("H2", "H<sub>2</sub>")
 
-	if commentary_row[1] == "ALSJ":
+	if commentary_row[1] == "ALSJ" and commentary_row[2] == "":
 		pass
 	else:
+		if commentary_row[1] == "ALSJ":
+			commentary_row[1] = "";
 		output_commentary_data_file.write(timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
 
 
@@ -196,8 +198,6 @@ for list_item in sorted_list:
 	photo_index_id = list_item.timestamp.translate(None, ":")
 	output_photo_index_file.write(photo_index_id + "|" +
 								  list_item.filename + "|" +
-								  list_item.photo_num + "|" +
 								  list_item.mag_code + "|" +
-								  list_item.mag_number + "|" +
 								  list_item.photographer + "|" +
 								  list_item.description + "|" + "\n")

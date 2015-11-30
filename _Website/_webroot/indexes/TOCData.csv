@@ -7,12 +7,13 @@
 0000920|2|S-IVB Staging
 0001154|1|Earth orbit insertion
 0005356|2|STDN REV 1
-0011725|2|GOLDSTONE REV 2
+0011725|2|GOLDSTONE REV 1
 0022510|2|AUSTRALIA REV 2
 0024900|2|HAWAII REV 2
 0025312|2|GO For Trans-Lunar Injection (TLI)
+0030115|2|GOLDSTONE REV 2
 0031229|1|Trans-Lunar Injection maneuver
-0034228|2|S-IVB/Command and Service Module separation
+0034243|2|S-IVB/Command and Service Module separation
 0034500|2|Video: Trans-Lunar docking initiated
 0035652|2|Trans-Lunar docking capture
 0044506|2|Spacecraft ejection
@@ -29,7 +30,7 @@
 0341007|2|Video: crew onboard film
 0341007|2|News read to crew
 0353000|1|First mid-course correction
-0370040|2|Crew listening to music
+0370033|2|Crew listening to music
 0425932|2|Video: Start of onboard heat flow and convection experiment
 0453018|2|Video: Continuation of onboard heat flow and convection experiment
 0483612|1|Crew Sleep Period Start
@@ -53,7 +54,7 @@
 1060909|2|Video: Earth and moon through telescope
 1100800|1|Lunar Module undocking and separation
 1104734|1|Video: Command Module from LM
-1124949|2|Video: Powered Descent Initiation
+1124949|2|Powered Descent Initiation
 1125208|1|Begin Lunar landing
 1125748|2|Video: Landing camera on
 1130213|2|Landed at Taurus-Littrow
@@ -69,9 +70,12 @@
 1173109|2|Lunar Roving Vehicle (LRV) offloaded
 1174416|2|LRV deployed
 1174824|2|LRV Test Drive
-1181402|1|Video: First television from lunar surface
+1181402|1|First TV Picture
 1182157|2|United States flag deployed
 1183443|2|Cosmic ray experiment deployed
+1190449|2|Departed for ALSEP
+1191252|1|Arrived at ALSEP
+1202720|2|Schmitt running on lunar surface
 1203938|2|Cernan: "who's winning the football game?"
 1204606|1|ALSEP deployed
 1205930|2|Deep core sample
@@ -87,6 +91,7 @@
 1241404|2|Post-EVA-1 Activities
 1262537|1|Geology debrief on EVA-1
 1274833|2|Lunar dust hay fever
+1281012|2|Schmitt and Joe Allen teasing each other
 1285410|1|Surface Crew sleep period
 1362658|2|Communications with Ron Evans in lunar orbit
 1365503|1|Surface Crew wake-up (music)

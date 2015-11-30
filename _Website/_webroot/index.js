@@ -100,11 +100,7 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
         $("#playPauseBtn").addClass('pause');
-        // $("#playPauseBtn").button({
-        //     icons: { primary: 'ui-icon-pause' },
-        //     text: false,
-        //     label: "Pause"
-        // });
+
         if (gNextVideoStartTime != -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
             player.seekTo(gNextVideoStartTime, true);
@@ -130,11 +126,7 @@ function onPlayerStateChange(event) {
         gIntervalID = null;
         gPlaybackState = "paused";
         $("#playPauseBtn").removeClass('pause');
-        // $("#playPauseBtn").button({
-        //     icons: { primary: 'ui-icon-play' },
-        //     text: false,
-        //     label: "Play"
-        // });
+
     } else if (event.data == YT.PlayerState.BUFFERING) {
         //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
         if (gPlaybackState == "transcriptclicked") {
@@ -205,23 +197,12 @@ function setAutoScrollPoller() {
 
         if (!gOffline) {
             if (player.isMuted() == true) {
-                // var btnIcon = "ui-icon-volume-off";
-                // var btnText = "Un-Mute";
                 $('#soundBtn').removeClass('mute');
             } else {
-                // btnIcon = "ui-icon-volume-on";
-                // btnText = "Mute";
                 $('#soundBtn').addClass('mute');
             }
         }
-        // $("#soundBtn")
-        //     .button({
-        //         icons: { primary: btnIcon },
-        //         text: false,
-        //         label: btnText
-        //     });
-
-    }, 1000); //polling frequency in milliseconds
+    }, 500); //polling frequency in milliseconds
 }
 
 //function setIntroTimeUpdatePoller() {
@@ -358,9 +339,10 @@ function oneMinuteToLaunchButtonClick() {
 
 function fadeOutSplash() {
     trace('fadeOutSplash');
-    $('body').removeClass('splash-loaded');
+    //toggleFullscreen();
     setTimeout(
         function () {
+            $('body').removeClass('splash-loaded');
             $('.splash-content').hide();
         }, 1600);
 }
@@ -461,14 +443,21 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 
     var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
 
-    $(".currentDate").text(nowDate.toDateString());
-    $(".currentTime").text(nowDate.toLocaleTimeString());
+    //$(".currentDate").text(nowDate.toDateString());
+    //$(".currentTime").text(nowDate.toLocaleTimeString());
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
-    $(".historicalTime").text(historicalDate.toLocaleTimeString());
+    $(".historicalTime").text(historicalDate.toLocaleTimeString());  //.replace(/([AP]M)$/, ""));
+    //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
     $("#missionElapsedTime").text(gCurrMissionTime);
+}
+
+function prettyTime(historicalDate){
+    var date = historicalDate;
+    var options = {hour: "numeric", minute: "numeric", second: "numeric"};
+    return new Intl.DateTimeFormat("en-US", options).format(date);
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
@@ -519,15 +508,15 @@ function scrollTOCToTimeId(timeId) {
         //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
+        var TOCContainer = TOCFrameContents.find('.TOC_container');
         var TOCElement = TOCFrameContents.find('#tocid' + timeId);
-        var lineColor = TOCElement.css("color");
         TOCFrameContents.find('.tocitem').css("background-color", ""); //clear all element highlights
         TOCElement.css("background-color", gBackground_color_active); //set new element highlights
 
-        // flashTab("tocTab", 1, lineColor);
+        flashTab("tocTab");
 
-        var scrollDestination = TOCFrame.scrollTop() + TOCElement.offset().top;
-        TOCFrameContents.find('body').animate({scrollTop: scrollDestination}, 500);
+        var scrollDestination = TOCContainer.scrollTop() + TOCElement.offset().top;
+        TOCContainer.animate({scrollTop: scrollDestination}, 500);
         gLastTOCElement = TOCElement;
         gLastTOCTimeId = timeId;
     }
@@ -563,7 +552,6 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
         }
         commentaryTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedCommentaryElement = $(".comid" + timeId);
-        var lineColor = highlightedCommentaryElement.css("color");
         highlightedCommentaryElement.css("background-color", gBackground_color_active); //set new element highlights
 
         var newScrollDestination = commentaryDiv.scrollTop() + highlightedCommentaryElement.offset().top - commentaryDiv.offset().top;
@@ -572,7 +560,7 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
             trimCommentary();
         });
 
-        // flashTab("commentaryTab", 2, lineColor);
+        flashTab("commentaryTab");
         gLastCommentaryTimeId = timeId;
     }
 }
@@ -607,7 +595,6 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
         }
         utteranceTable.children("*").css("background-color", ""); //clear all element highlights
         var highlightedTranscriptElement = $(".uttid" + timeId);
-        var lineColor = highlightedTranscriptElement.css("color");
         highlightedTranscriptElement.css("background-color", gBackground_color_active); //set new element highlights
 
         var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
@@ -615,15 +602,29 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
             //trace('Finished animating: ' + scrollDestination);
             trimUtterances();
         });
-        //flashTab("transcriptTab", 0, lineColor);
+        flashTab("transcriptTab");
         gLastUtteranceTimeId = timeId;
     }
 }
 
 function flashTab(tabName, tabNum, flashColor) {
-    var flashDuration = 2000; //in ms
-    if ($("#tabs-left").tabs('option', 'active') != tabNum) {
-        $("#" + tabName).effect("highlight", {color: flashColor}, flashDuration); //blink the tab
+    var flashDuration = 500; //in ms
+    var $tab = $('#' + tabName);
+    if (!$tab.hasClass('selected')) {
+        trace("flash tab");
+        $tab.addClass("blink_me");
+        setTimeout(function(){$tab.removeClass("blink_me")}, flashDuration);
+
+        //$tab.effect("highlight", {color: flashColor}, flashDuration); //blink the tab
+        //$tab.css("background-color", flashColor);
+
+        //$tab.animate({
+        //    backgroundColor: flashColor
+        //}, 500, function() {
+        //    trace("tab flash animation complete.");
+        //    $tab.css("background-color", "");
+        //});
+        //$tab.effect("bounce", "slow");
         //$("#" + tabName).effect("pulsate", {times: 2, color: flashColor}, flashDuration); //blink the tab
         //$("#" + tabName).fadeTo(200, 0.5).fadeTo(200, 1.0); //blink the tab
     }
@@ -755,7 +756,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
-    if (who_modified == "Public Affairs") {
+    if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
     } else if (who_modified == "Mission Control") {
         uttTypeStr = "utt_capcom";
@@ -883,17 +884,18 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     var comId = commentaryObject[0];
 
     var attribution = commentaryObject[1];
-    if (commentaryObject[2].length == 0) {
-
-        attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
+    var who_modified = commentaryObject[2];
+    if (who_modified.length == 0) {
+        //attribution = attribution.replace(/ALSJ/g, '<a href="http://www.hq.nasa.gov/alsj/frame.html" target="alsj">ALSJ</a> Commentary');
     }
-    if (commentaryObject[2].length != 0) {
-        var who_modified = commentaryObject[2];
+    if (who_modified.length != 0) {
         who_modified = who_modified.replace(/CDR/g, "Cernan");
         who_modified = who_modified.replace(/CMP/g, "Evans");
         who_modified = who_modified.replace(/LMP/g, "Schmitt");
+        if (who_modified == "summary")
+            who_modified = '';
     } else {
-        who_modified = "";
+        who_modified = '';
     }
     var words_modified = commentaryObject[3];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
@@ -926,7 +928,7 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
 
-    if (commentaryObject[2] == "") {
+    if (who_modified == '') {
         var comTypeStr = "com_support";
     } else {
         comTypeStr = "com_crew";
@@ -950,7 +952,7 @@ function populatePhotoGallery() {
     for (var i = 0; i < gPhotoIndex.length; i++) {
         var photoObject = gPhotoData[i];
         var html = $('#photoGalleryTemplate').html();
-        if (photoObject[3] != "") {
+        if (photoObject[2] != "") {
             var photoTypePath = "flight";
             var filename = "AS17-" + photoObject[1];
         } else {
@@ -997,7 +999,7 @@ function showPhotoByTimeId(timeId) {
         var photoGalleryImageTimeId = "#gallerytimeid" + gPhotoData[gPhotoDataLookup[timeId]][0];
         $(photoGalleryImageTimeId).addClass('selected');
 
-        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 60; //added offset for ted design
+        var scrollDest = photoGalleryDiv.scrollTop() + $(photoGalleryImageTimeId).offset().top - gNavigatorHeight - 40; //added offset for ted design
         photoGalleryDiv.animate({scrollTop: scrollDest}, '500', 'swing', function() {
             //trace('Finished animating gallery: ' + scrollDest);
         });
@@ -1013,20 +1015,18 @@ function loadPhotoHtml(photoIndex) {
     var photoObject = gPhotoData[photoIndex];
     var html = $('#photoTemplate').html();
 
-    if (typeof photoObject != 'object') {
-        trace("something has gone very wrong");
-    }
-
-    if (photoObject[3] != "") {
+    var photoTimeId = photoObject[0];
+    var magCode = photoObject[2];
+    if (magCode != "") {
         var photoTypePath = "flight";
         var filename = "AS17-" + photoObject[1];
     } else {
         photoTypePath = "supporting";
         filename = photoObject[1];
     }
-    filename = filename + ".jpg";
+    var photographer = photoObject[3];
+    var description = photoObject[4];
 
-    html = html.replace(/@photoTypePath/g , photoTypePath);
     //display prerendered 1024 height photos if photo div height smaller than 1024
     if (photoDiv.height() <= 1024) {
         var sizePath = "1024";
@@ -1034,23 +1034,23 @@ function loadPhotoHtml(photoIndex) {
         sizePath = "2100";
     }
     var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
-    html = html.replace(/@fullSizePath/g , fullSizePath);
+
     if (gCdnEnabled) {
         var cdnNum = getRandomInt(1, 5);
         var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         serverUrl = "http://apollo17.org";
     }
+
+    html = html.replace(/@photoTypePath/g , photoTypePath);
+    html = html.replace(/@fullSizePath/g , fullSizePath);
     html = html.replace(/@serverUrl/g , serverUrl);
     html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , filename);
-    html = html.replace("@timestamp",  timeIdToTimeStr(photoObject[0]));
-    html = html.replace("@photo_num", photoObject[2]);
-    var magNum = "AS17-" + photoObject[4] + "-";
-    html = (photoObject[3] != "") ? html.replace("@mag_code", "Mag: " + photoObject[3]) : html.replace("@mag_code", "");
-    html = (photoObject[4] != "") ? html.replace("@mag_number", magNum) : html.replace("@mag_number", "");
-    html = (photoObject[5] != "") ? html.replace("@photographer", "Photographer: " + photoObject[5]) : html.replace("@photographer", "");
-    html = html.replace("@description", photoObject[6]);
+    html = html.replace(/@timeStr/g,  timeIdToTimeStr(photoTimeId));
+    html = (magCode != "") ? html.replace("@mag_code", "Mag " + magCode) : html.replace("@mag_code", "");
+    html = (photographer != "") ? html.replace("@photographer", photographer) : html.replace("@photographer", "");
+    html = html.replace("@description", description);
 
     photoDiv.html('');
     photoDiv.append(html);
@@ -1067,38 +1067,38 @@ function loadPhotoHtml(photoIndex) {
     //});
 }
 
-function scaleMissionImage() {
-    //trace('scaleMissionImage()');
-    var photodiv = $('#photodiv');
-    var image = $('#imageContainerImage');
-
-    var maxWidth = photodiv.width(); // Max width for the image
-    var maxHeight = photodiv.height();    // Max height for the image
-    var ratio = 0;  // Used for aspect ratio
-
-    var width = image.get(0).naturalWidth; // Full image width
-    var height =image.get(0).naturalHeight; // Full image height
-
-    // Check if the current width is larger than the max7
-    if(width > maxWidth){
-        ratio = maxWidth / width;   // get ratio for scaling image
-        image.css("width", maxWidth); // Set new width
-        image.css("height", height * ratio);  // Scale height based on ratio
-
-        height = height * ratio;    // Reset height to match scaled image
-        width = width * ratio;    // Reset width to match scaled image
-    } else if (width <= maxWidth) {  // get ratio for scaling image
-        image.css("width", width); // Set new width
-        image.css("height", "auto");  // Scale height based on ratio
-    }
-
-    // Check if current or newly width-scaled height is larger than max
-    if(height > maxHeight){
-        ratio = maxHeight / height; // get ratio for scaling image
-        image.css("height", maxHeight);   // Set new height
-        image.css("width", width * ratio);    // Scale width based on ratio
-    }
-}
+//function scaleMissionImage() {
+//    //trace('scaleMissionImage()');
+//    var photodiv = $('#photodiv');
+//    var image = $('#imageContainerImage');
+//
+//    var maxWidth = photodiv.width(); // Max width for the image
+//    var maxHeight = photodiv.height();    // Max height for the image
+//    var ratio = 0;  // Used for aspect ratio
+//
+//    var width = image.get(0).naturalWidth; // Full image width
+//    var height =image.get(0).naturalHeight; // Full image height
+//
+//    // Check if the current width is larger than the max7
+//    if(width > maxWidth){
+//        ratio = maxWidth / width;   // get ratio for scaling image
+//        image.css("width", maxWidth); // Set new width
+//        image.css("height", height * ratio);  // Scale height based on ratio
+//
+//        height = height * ratio;    // Reset height to match scaled image
+//        width = width * ratio;    // Reset width to match scaled image
+//    } else if (width <= maxWidth) {  // get ratio for scaling image
+//        image.css("width", width); // Set new width
+//        image.css("height", "auto");  // Scale height based on ratio
+//    }
+//
+//    // Check if current or newly width-scaled height is larger than max
+//    if(height > maxHeight){
+//        ratio = maxHeight / height; // get ratio for scaling image
+//        image.css("height", maxHeight);   // Set new height
+//        image.css("width", width * ratio);    // Scale width based on ratio
+//    }
+//}
 
 // </editor-fold>
 
@@ -1229,13 +1229,14 @@ jQuery(function ($) {
     } else {
         gMissionTimeParamSent = 0;
     }
+    activateTab('transcriptTab');
+    //buttons
 
-    $("#fullscreenBtn")
+    $(".fullscreenBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'fullscreen');
             toggleFullscreen();
         });
-
 
     $("#playPauseBtn")
         .click(function(){
@@ -1273,25 +1274,59 @@ jQuery(function ($) {
             historicalButtonClick();
         });
 
-    $("#helpBtn")
+    $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            gShareButtonObject.toggle();
+            alert('about');
+            $('.about-content').show();
+            //gShareButtonObject.toggle();
         });
 
-    //tab button clicks
+    $("#shareBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'share');
+            //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
+        });
+
+
+    //tab button events
+    $("#transcriptTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'transcript');
+        activateTab(this.id);
+        scrollTranscriptToCurrMissionTime();
+    });
+
+    $("#tocTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'toc');
+        activateTab(this.id);
+        scrollTocToCurrMissionTime();
+    });
+
+    $("#commentaryTab").click(function(){
+        ga('send', 'event', 'tab', 'click', 'commentary');
+        activateTab(this.id);
+        scrollCommentaryToCurrMissionTime();
+    });
+
+    function activateTab(tabId) {
+        $('.splash-btn.content-tab').removeClass('selected');
+        $('#' + tabId).addClass('selected');
+
+        var rootName = tabId.substring(0, tabId.length - 3);
+        $('.text-wrapper').css("display", "none");
+        $('#' + rootName + "Wrapper").css("display", "block");
+    }
+
     function scrollTranscriptToCurrMissionTime() {
-        ga('send', 'event', 'tab', 'click', 'utterances');
         scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
     function scrollTocToCurrMissionTime() {
-        ga('send', 'event', 'tab', 'click', 'toc');
         scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
     function scrollCommentaryToCurrMissionTime() {
-        ga('send', 'event', 'tab', 'click', 'commentary');
         scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
     }
+
 });
 
 //on fullscreen toggle
@@ -1303,6 +1338,9 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
+
+    proportionalWidthOnPhotoBlock();
+
     //var myCanvasElement = $('#myCanvas');
     //myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
     //myCanvasElement.css("width", $('#navigator').width());
@@ -1316,9 +1354,30 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
 
 function initSplash() {
   var $splash = $('.splash-content');
-  $splash.waitForImages(function() {
-    $('body').addClass('splash-loaded');
-  });
+    var webFontConfig = {
+        google: {
+            families: ['Michroma',
+                'Oswald:300,400,700',
+                'Roboto Mono:200,400,500,700']
+        },
+        active: function() {
+            trace("INIT: fonts loaded");
+            $.when($splash.waitForImages()).done(function(){
+                trace("INIT: splash image loaded");
+                $('body').addClass('splash-loaded');
+
+                initNavigator();
+
+            });
+        }
+     }
+    WebFont.load(webFontConfig);
+}
+
+function proportionalWidthOnPhotoBlock() {
+    var photoBlockWidth = $('body').width() - $('.video-block').width() - 1;
+    //trace("trying to set photo block width: " + photoBlockWidth);
+    $('.photo-block').width(photoBlockWidth);
 }
 
 //on document ready
@@ -1326,6 +1385,12 @@ $(document).ready(function() {
     //var myCanvasElement = $('#myCanvas');
     //myCanvasElement.css("height", $('.outer-north').height());  // fix height for broken firefox div height
     //myCanvasElement.css("width", $('.headerRight').width());
+
+    proportionalWidthOnPhotoBlock();
+
+    initSplash();
+
+    gApplicationReadyIntervalID = setApplicationReadyPoller();
 
     //throttled scroll detection on commentaryDiv
     var commentaryDiv = $("#commentaryDiv");
@@ -1353,10 +1418,6 @@ $(document).ready(function() {
         }
     }, 10));
 
-    initSplash();
-
-    gApplicationReadyIntervalID = setApplicationReadyPoller();
-
     gShareButtonObject = new Share(".share-button", {
         ui: {
             flyout: "bottom bottom",
@@ -1367,10 +1428,10 @@ $(document).ready(function() {
                 app_id: "1639595472942714",
                 before: function(element) {
                     var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time - Moment: " + timeIdToTimeStr(sharedUtteranceArray[0]);
+                    this.title = "Apollo 17 in Real-time - Moment: " + gCurrMissionTime;
                     this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                     this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeIdToSeconds(sharedUtteranceArray[0]))]];
+                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
                     if (nearestPhotoObject[3] != "") {
                         var photoTypePath = "flight";
                         var filename = "AS17-" + nearestPhotoObject[1];
@@ -1382,8 +1443,9 @@ $(document).ready(function() {
                     this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
                 },
                 after: function() {
-                    console.log("User shared facebook: ", this.url);
+                    trace("User shared facebook: ", this.url);
                     ga('send', 'event', 'share', 'click', 'facebook');
+                    //gShareButtonObject.close();
                 }
             },
             twitter: {
@@ -1393,8 +1455,9 @@ $(document).ready(function() {
                     this.description = "%23Apollo17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
                 },
                 after: function() {
-                    console.log("User shared twitter: ", this.url);
+                    trace("User shared twitter: ", this.url);
                     ga('send', 'event', 'share', 'click', 'twitter');
+                    //this.close();
                 }
             },
 
@@ -1405,8 +1468,9 @@ $(document).ready(function() {
                     this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
                 },
                 after: function() {
-                    console.log("User shared email: ", this.title);
+                    trace("User shared email: ", this.title);
                     ga('send', 'event', 'share', 'click', 'email');
+                    //this.close();
                 }
             }
         }

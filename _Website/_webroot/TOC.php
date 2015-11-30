@@ -7,10 +7,20 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
+	<script type="text/javascript" src="lib/webfontloader.js"></script>
+
 	<title>TOC</title>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto Mono:200,400,500,700']
+			}
+		});
+	</script>
 	<meta name="robots" content="index,follow" />
 
 	<?php include "inc/style_tags.html" ?>
+
 </head>
 
 <body>
@@ -53,7 +63,7 @@
         <span class="TOC_item">STDN REV 1</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0011725')" class="tocitem" id="tocid0011725"><span class="TOCTimestamp">001:17:25</span>
-        <span class="TOC_item">GOLDSTONE REV 2</span>
+        <span class="TOC_item">GOLDSTONE REV 1</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0022510')" class="tocitem" id="tocid0022510"><span class="TOCTimestamp">002:25:10</span>
         <span class="TOC_item">AUSTRALIA REV 2</span>
@@ -64,13 +74,16 @@
     <li onclick="parent.seekToTime('0025312')" class="tocitem" id="tocid0025312"><span class="TOCTimestamp">002:53:12</span>
         <span class="TOC_item">GO For Trans-Lunar Injection (TLI)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0030115')" class="tocitem" id="tocid0030115"><span class="TOCTimestamp">003:01:15</span>
+        <span class="TOC_item">GOLDSTONE REV 2</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0031229')" class="tocitem" id="tocid0031229"><span class="TOCTimestamp">003:12:29</span>
         <span class="TOC_item">Trans-Lunar Injection maneuver</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('0034228')" class="tocitem" id="tocid0034228"><span class="TOCTimestamp">003:42:28</span>
+        <li onclick="parent.seekToTime('0034243')" class="tocitem" id="tocid0034243"><span class="TOCTimestamp">003:42:43</span>
         <span class="TOC_item">S-IVB/Command and Service Module separation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0034500')" class="tocitem" id="tocid0034500"><span class="TOCTimestamp">003:45:00</span>
@@ -130,7 +143,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('0370040')" class="tocitem" id="tocid0370040"><span class="TOCTimestamp">037:00:40</span>
+        <li onclick="parent.seekToTime('0370033')" class="tocitem" id="tocid0370033"><span class="TOCTimestamp">037:00:33</span>
         <span class="TOC_item">Crew listening to music</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0425932')" class="tocitem" id="tocid0425932"><span class="TOCTimestamp">042:59:32</span>
@@ -218,7 +231,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1124949')" class="tocitem" id="tocid1124949"><span class="TOCTimestamp">112:49:49</span>
-        <span class="TOC_item">Video: Powered Descent Initiation</span>
+        <span class="TOC_item">Powered Descent Initiation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1125208')" class="tocitem" id="tocid1125208"><span class="TOCTimestamp">112:52:08</span>
@@ -276,7 +289,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1181402')" class="tocitem" id="tocid1181402"><span class="TOCTimestamp">118:14:02</span>
-        <span class="TOC_item">Video: First television from lunar surface</span>
+        <span class="TOC_item">First TV Picture</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
@@ -285,6 +298,18 @@
         <!-- <span class="TOCSubtitle">Flag documented with photographs and stereo photography.</span>--></li>
     <li onclick="parent.seekToTime('1183443')" class="tocitem" id="tocid1183443"><span class="TOCTimestamp">118:34:43</span>
         <span class="TOC_item">Cosmic ray experiment deployed</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1190449')" class="tocitem" id="tocid1190449"><span class="TOCTimestamp">119:04:49</span>
+        <span class="TOC_item">Departed for ALSEP</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    </ul>
+        <li onclick="parent.seekToTime('1191252')" class="tocitem" id="tocid1191252"><span class="TOCTimestamp">119:12:52</span>
+        <span class="TOC_item">Arrived at ALSEP</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1202720')" class="tocitem" id="tocid1202720"><span class="TOCTimestamp">120:27:20</span>
+        <span class="TOC_item">Schmitt running on lunar surface</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1203938')" class="tocitem" id="tocid1203938"><span class="TOCTimestamp">120:39:38</span>
         <span class="TOC_item">Cernan: "who's winning the football game?"</span>
@@ -342,6 +367,9 @@
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1274833')" class="tocitem" id="tocid1274833"><span class="TOCTimestamp">127:48:33</span>
         <span class="TOC_item">Lunar dust hay fever</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1281012')" class="tocitem" id="tocid1281012"><span class="TOCTimestamp">128:10:12</span>
+        <span class="TOC_item">Schmitt and Joe Allen teasing each other</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1285410')" class="tocitem" id="tocid1285410"><span class="TOCTimestamp">128:54:10</span>
