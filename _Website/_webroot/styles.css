@@ -1254,27 +1254,27 @@ hr.buttons-divider {
   content: "\1f50a";
 }
 
-.button-row.small a#playPauseBtn:before {
-  background-position: 0 -160px;
-}
-.button-row.small a#playPauseBtn.pause:before {
-  background-position: -16px -160px;
-}
-.button-row.small a#soundBtn:before {
-  background-position: -128px -160px;
-}
-.button-row.small a#soundBtn.mute:before {
-  background-position: -144px -160px;
-}
-.button-row.small a#realtimeBtn:before {
-  background-position: -64px -48px;
-}
-.button-row.small a#fullscreenBtn:before {
-  background-position: -16px -80px;
-}
-.button-row.small a#aboutBtn:before {
-  background-position: -48px -144px;
-}
+/*.button-row.small a#playPauseBtn:before {*/
+  /*background-position: 0 -160px;*/
+/*}*/
+/*.button-row.small a#playPauseBtn.pause:before {*/
+  /*background-position: -16px -160px;*/
+/*}*/
+/*.button-row.small a#soundBtn:before {*/
+  /*background-position: -128px -160px;*/
+/*}*/
+/*.button-row.small a#soundBtn.mute:before {*/
+  /*background-position: -144px -160px;*/
+/*}*/
+/*.button-row.small a#realtimeBtn:before {*/
+  /*background-position: -64px -48px;*/
+/*}*/
+/*.button-row.small a#fullscreenBtn:before {*/
+  /*background-position: -16px -80px;*/
+/*}*/
+/*.button-row.small a#aboutBtn:before {*/
+  /*background-position: -48px -144px;*/
+/*}*/
 .sr-only {
     position: absolute;
     width: 1px;
