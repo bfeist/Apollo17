@@ -28,7 +28,7 @@ dependencies:
         $displayParent,
         $sizeBuddy,
         $opts = {
-            showDebugInfo: true
+            showDebugInfo: false
         };
     $.extend($opts, conf);
 

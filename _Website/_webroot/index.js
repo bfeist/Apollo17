@@ -1282,8 +1282,8 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            alert('about');
-            $('.about-content').show();
+            $('.help-content').addClass('active');
+
             //gShareButtonObject.toggle();
         });
 

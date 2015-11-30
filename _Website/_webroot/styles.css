@@ -650,11 +650,45 @@ canvas[resize] {
 }
 .share-button.sharer-0 .social.bottom.active {
     max-height: 100px;
+    text-shadow: none !important;
     -ms-transform: scale(1) translateY(15px);
     -webkit-transform: scale(1) translateY(15px);
     transform: scale(1) translateY(15px);
 }
 
+.help-content {
+  /*overflow: auto;*/
+  font-size: 16px;
+  /*font-family: 'Michroma', sans-serif;*/
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  /*background-color: #000;*/
+  display: none;
+}
+.help-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #FFF;
+  /*opacity: .7;*/
+}
+.help-content.active {
+  display: block;
+}
+.help-overlay.body {
+  background-size: contain;
+  background-position: left bottom;
+  background-image: url("img/bg_help.jpg");
+  background-repeat: no-repeat;
+}
 
 /* ----------------- LOADER -----------------*/
 
@@ -1287,7 +1321,7 @@ hr.buttons-divider {
 }
 
 div.body {
-  position: relative;
+  /*position: relative;*/
   clear: both;
 }
 div.body:after {
