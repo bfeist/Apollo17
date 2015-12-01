@@ -530,31 +530,31 @@ function roundToNearestHistoricalTime() { //proc for "snap to real-time" button
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "./indexes/YouTube_media_index.csv?stopcache=" + Math.random(),
+        url: "./indexes/YouTube_media_index.csv",
         dataType: "text",
         success: function(data) {processYTData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./indexes/TOCindex.csv?stopcache=" + Math.random(),
+        url: "./indexes/TOCindex.csv",
         dataType: "text",
         success: function(data) {processTOCIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./indexes/utteranceIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/utteranceIndex.csv",
         dataType: "text",
         success: function(data) {processUtteranceIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./indexes/commentaryIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/commentaryIndex.csv",
         dataType: "text",
         success: function(data) {processCommentaryIndexData(data);}
     });
     $.ajax({
         type: "GET",
-        url: "./indexes/photoIndex.csv?stopcache=" + Math.random(),
+        url: "./indexes/photoIndex.csv",
         dataType: "text",
         success: function(data) {processPhotoIndexData(data);}
     });
