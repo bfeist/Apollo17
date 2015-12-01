@@ -175,7 +175,6 @@ function initNavigator() {
         onMouseOutHandler();
     });
 
-    //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
     $(document).bind("mouseleave",function(event) {
         //trace("$(document)mouseleave triggered");
         onMouseOutHandler();
