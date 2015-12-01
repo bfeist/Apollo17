@@ -79,36 +79,13 @@ var gHeightPhotoTickDenominator = 6;
 var gHeightUtteranceTickDenominator = 14;
 var gHeightVideoRectDenominator = 6;
 
-paper.install(window);
+function initNavigator() {
+    trace("NAV: initNavigator");
 
-$(document).ready(function() {
-    //var canvasDiv = $('#myCanvas');
-    //var ctx = canvasDiv[0].getContext('2d');
-    //var navigatorDiv = $('#navigator');
-    //ctx.canvas.width = navigatorDiv.width();
-    //ctx.canvas.height = navigatorDiv.height();
-
+    paper.install(window);
     paper.setup('myCanvas');
     //init navigator
     gCurrMissionTime = timeIdToTimeStr(gDefaultStartTimeId); //set clock to start time; //TODO make this handle t parameter time
-    initNavigator();
-    gApplicationReady += 1;
-    trace("APPREADY: NAV: Navigator ready: " + gApplicationReady);
-
-    $('#myCanvas').mouseleave(function() {
-        onMouseOutHandler();
-    });
-
-    //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
-    $(document).bind("mouseleave",function(event) {
-        //trace("$(document)mouseleave triggered");
-        onMouseOutHandler();
-        //trace("left window");
-    });
-});
-
-function initNavigator() {
-    trace("NAV: initNavigator");
 
     gTier1Group = new paper.Group;
     gTier1NavGroup = new paper.Group;
@@ -120,6 +97,9 @@ function initNavigator() {
     var tool = new paper.Tool();
 
     redrawAll();
+
+    gApplicationReady += 1;
+    trace("APPREADY: NAV: Navigator ready: " + gApplicationReady);
 
     // paperscript handlers
     paper.view.onResize = $.throttle(function() {
@@ -190,6 +170,17 @@ function initNavigator() {
         trace("NAV: Jumping to " + gCurrMissionTime);
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
+
+    $('#myCanvas').mouseleave(function() {
+        onMouseOutHandler();
+    });
+
+    //TODO fix this mouseleave to it doesn't always fire when the mouse leaves any element
+    $(document).bind("mouseleave",function(event) {
+        //trace("$(document)mouseleave triggered");
+        onMouseOutHandler();
+        //trace("left window");
+    });
 }
 
 function onMouseOutHandler() {

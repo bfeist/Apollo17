@@ -7,10 +7,20 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
+	<script type="text/javascript" src="lib/webfontloader.js"></script>
+
 	<title>TOC</title>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto Mono:200,400,500,700']
+			}
+		});
+	</script>
 	<meta name="robots" content="index,follow" />
 
 	<?php include "inc/style_tags.html" ?>
+
 </head>
 
 <body>

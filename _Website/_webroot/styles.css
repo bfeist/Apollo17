@@ -395,6 +395,7 @@ canvas[resize] {
     background-position: center center;
     background-color: #000;
     height: 105px;
+    cursor: pointer;
 }
 .galleryItemContainer + .galleryItemContainer {
   margin-top: 10px;
@@ -420,7 +421,6 @@ canvas[resize] {
     max-width: 100%;
     height: 100%;
     border: 10px solid transparent;
-    cursor: pointer;
 }
 
 .galleryOverlay {
@@ -956,7 +956,7 @@ body.splash-loaded .splash-content {
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1;              /* IE 10 */
   flex: 1;
-  padding: 5.75em 3em 0 0;
+  padding: 4.35em 3em 0 0;
   position: relative;
 }
 .splash-content .actions .section {
@@ -999,7 +999,7 @@ body.splash-loaded .splash-content {
   border-right: 1px solid #444;
   position: absolute;
   right: 0;
-  top: 3.55em;
+  top: 1.55em;
   bottom: 0;
   width: 1px;
 }
@@ -1309,6 +1309,7 @@ hr.buttons-divider {
 /*.button-row.small a#aboutBtn:before {*/
   /*background-position: -48px -144px;*/
 /*}*/
+
 .sr-only {
     position: absolute;
     width: 1px;
