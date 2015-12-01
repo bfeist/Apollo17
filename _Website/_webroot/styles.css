@@ -130,7 +130,9 @@ ul.TOC1 > li {
 ul.TOC1 ul > li + li {
   padding-top: 3px;
 }
-li:hover {
+ul.TOC1 li:hover,
+ul.TOC2 li:hover,
+ul.TOC3 li:hover {
     /*background-color: #B5B4A4;*/
     background-color: #222222;
 }
@@ -680,6 +682,66 @@ canvas[resize] {
   color: #FFF;
   /*opacity: .7;*/
 }
+.help-overlay.navigator {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.8+100 */
+  /*background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);*/ /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);*/ /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );*/ /* IE6-9 */
+  background-color: rgba(0,0,0,.5);
+}
+.help-overlay.navigator:before {
+  display: none;
+}
+.help-overlay.navigator .content-wrapper {
+  vertical-align: top;
+}
+.help-overlay.navigator ul {
+  padding: 0;
+  margin: 0 10px;
+  list-style-type: none;
+  text-align: center;
+}
+.help-overlay.navigator ul li {
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  position: relative;
+}
+.help-overlay.navigator ul li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid orange;
+}
+.help-overlay.navigator ul li span {
+  background-color: rgba(0,0,0,.75);
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  padding: 1px 10px;
+  position: relative;
+}
+.help-overlay.navigator ul li:nth-child(1) {
+  height: 21px;
+  /*background: #FCF;*/
+  margin-top: 13px;
+  line-height: 1.6;
+}
+.help-overlay.navigator ul li:nth-child(2) {
+  margin-top: 5px;
+  /*background: #FFC;*/
+  height: 27px;
+  line-height: 1.9;
+}
+.help-overlay.navigator ul li:nth-child(3) {
+  margin-top: 7px;
+  /*background: #FFC;*/
+  height: 59px;
+  line-height: 3.75;
+}
+
 .help-content.active {
   display: block;
 }
@@ -688,6 +750,20 @@ canvas[resize] {
   background-position: left bottom;
   background-image: url("img/bg_help.jpg");
   background-repeat: no-repeat;
+}
+.help-overlay:before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 1px;
+  background-color: transparent;
+}
+.help-overlay .content-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  width: 98%; /* because it's inline-block it forces white space between elements, so we can't use 99% */
+
 }
 
 /* ----------------- LOADER -----------------*/

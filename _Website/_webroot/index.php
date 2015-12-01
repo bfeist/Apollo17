@@ -55,6 +55,7 @@
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 
     <script type="text/javascript" src='lib/size_manager.js'></script>
+    <script type="text/javascript" src='lib/help_overlay_manager.js'></script>
     <script type="text/javascript" src="navigator.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
@@ -64,6 +65,8 @@
 <body>
 
   <?php include "inc/app.html"; ?>
+
+  <?php include "inc/help_about.html"; ?>
 
   <?php include "inc/splash.html"; ?>
 
