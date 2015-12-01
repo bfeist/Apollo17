@@ -43,7 +43,7 @@
     <script type="text/javascript" src="lib/webfontloader.js"></script>
     <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="lib/jquery_plugins.js"></script>
-    <script type="text/javascript" src="lib/jquery-ui.js"></script>
+<!--    <script type="text/javascript" src="lib/jquery-ui.js"></script>-->
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
     <script type="text/javascript" src='lib/jquery.browser.js'></script>

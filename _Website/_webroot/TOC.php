@@ -299,6 +299,9 @@
     <li onclick="parent.seekToTime('1183443')" class="tocitem" id="tocid1183443"><span class="TOCTimestamp">118:34:43</span>
         <span class="TOC_item">Cosmic ray experiment deployed</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1185119')" class="tocitem" id="tocid1185119"><span class="TOCTimestamp">118:51:19</span>
+        <span class="TOC_item">LRV fender broken</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1190449')" class="tocitem" id="tocid1190449"><span class="TOCTimestamp">119:04:49</span>
         <span class="TOC_item">Departed for ALSEP</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
