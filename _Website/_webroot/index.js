@@ -475,39 +475,35 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
     var launchDate = Date.parse("1972-12-07 0:33am -500");
     var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-
     //var nowDate = Date.parse("2015-12-06 10:00pm -500");
     var nowDate = Date.now();
 
-
     var histDate = new Date(nowDate.getTime());
-
     //if (histDate.dst()) {
     //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
     //}
-
     histDate.setMonth(countdownStartDate.getMonth());
     histDate.setYear(countdownStartDate.getYear());
 
-    //find the difference between rounded date and mission start time to determine MET to jump to
-    // Convert both dates to milliseconds
+    // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
     var countdownStartDate_ms = countdownStartDate.getTime();
     var launchDate_ms = launchDate.getTime();
 
-    if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownstartdate, shift forward onto the closest round date on the first day of the mission
+    if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
         var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
+    } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
+        var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
+        histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
     var timeSinceLaunch_ms = histDate_ms - launchDate_ms;
-
     if (timeSinceLaunch_ms / 1000 > 65 * 60 * 60) { //if past 65 hours into the mission, add the 2:40 MET time switch
         timeSinceLaunch_ms += 9600 * 1000;
     }
 
     var timeId = secondsToTimeId(timeSinceLaunch_ms / 1000);
-
     return timeId;
 }
 
@@ -625,7 +621,7 @@ function flashTab(tabName, tabNum, flashColor) {
     var flashDuration = 500; //in ms
     var $tab = $('#' + tabName);
     if (!$tab.hasClass('selected')) {
-        trace("flash tab");
+        //trace("flash tab");
         $tab.addClass("blink_me");
         setTimeout(function(){$tab.removeClass("blink_me")}, flashDuration);
 
