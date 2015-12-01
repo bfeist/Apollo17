@@ -190,7 +190,7 @@ function setAutoScrollPoller() {
             displayHistoricalTimeDifferenceByTimeId(timeId);
 
             //scroll nav cursor
-            if (!gMouseOnNavigator) {
+            if (!gMouseOnNavigator && !gMustInitNav) {
                 //redrawAll();
                 updateNavigator();
             } else {
@@ -251,11 +251,11 @@ function setApplicationReadyPoller() {
 // <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
     trace("findClosestUtterance():" + secondsSearch);
-    if (gCurrVideoStartSeconds == 230400) {
-        if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
-            secondsSearch = secondsSearch + 9600;
-        }
-    }
+    //if (gCurrVideoStartSeconds == 230400) {
+    //    if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
+    //        secondsSearch = secondsSearch + 9600;
+    //    }
+    //}
     var timeId = secondsToTimeId(secondsSearch);
     var scrollTimeId = gUtteranceIndex[gUtteranceIndex.length - 1];
     for (var i = 0; i < gUtteranceIndex.length; ++i) {
@@ -423,16 +423,10 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
 function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //trace("displayHistoricalTimeDifferenceByTimeId():" + timeid);
-    //TODO accommodate mission time change mid-mission
-
     var launchDate = Date.parse("1972-12-07 0:33 -500");
 
-    //TODO revisit these blatant date hacks
-    //launchDate.setDate(launchDate.getDate() - 1); //required to get 43 years exactly during mission. Not understood why.
-    //launchDate.setHours(launchDate.getHours() + 1);
-
     var sign = timeId.substr(0,1);
-    var hours = parseInt(timeId.substr(0,3));
+    var hours = Math.abs(parseInt(timeId.substr(0,3)));
     var minutes = parseInt(timeId.substr(3,2));
     var seconds = parseInt(timeId.substr(5,2));
 
@@ -444,22 +438,27 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     var timeidDate = new Date(launchDate.getTime());
 
     timeidDate.add({
-        days: -1, //TODO figure out hack
         hours: hours * conversionMultiplier,
         minutes: minutes * conversionMultiplier,
         seconds: seconds * conversionMultiplier
     });
+
+    if (parseInt(timeId) > 650000) {
+        //trace("displayHistoricalTimeDifferenceByTimeId(): subtracting 2 hours 40 minutes from time due to MET time change");
+        timeidDate.add({
+            hours: -2,
+            minutes: -40
+        });
+    }
+
     var historicalDate = new Date(timeidDate.getTime()); //for display only
-    historicalDate.add({days: 1}); //TODO figure out hack
 
     //var nowDate = Date.parse("2015-12-07 0:33 -500");
     var nowDate = Date.now();
     //if (nowDate.dst()) {
         //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
     //}
-
-    var timeDiff = Math.abs(nowDate.getTime() - timeidDate.getTime());
-
+    var timeDiff = nowDate.getTime() - timeidDate.getTime();
     var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
 
     //$(".currentDate").text(nowDate.toDateString());
@@ -473,45 +472,41 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     $("#missionElapsedTime").text(gCurrMissionTime);
 }
 
-function prettyTime(historicalDate){
-    var date = historicalDate;
-    var options = {hour: "numeric", minute: "numeric", second: "numeric"};
-    return new Intl.DateTimeFormat("en-US", options).format(date);
-}
-
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
     var launchDate = Date.parse("1972-12-07 0:33am -500");
-    //var nowDate = Date.parse("2015-12-07 0:33am -500");
+    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
+
+    //var nowDate = Date.parse("2015-12-06 10:00pm -500");
     var nowDate = Date.now();
+
 
     var histDate = new Date(nowDate.getTime());
 
     //if (histDate.dst()) {
     //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
     //}
-    var currDayOfMonth = histDate.getDate();
 
-    if (currDayOfMonth >= 19) {
-        histDate.setDate(currDayOfMonth - ((currDayOfMonth - 19) + 7));
-    } else if (currDayOfMonth < 7) {
-        histDate.setDate(currDayOfMonth + (7 - currDayOfMonth));
-    }
-
-    histDate.setMonth(launchDate.getMonth());
-    histDate.setYear(launchDate.getYear());
+    histDate.setMonth(countdownStartDate.getMonth());
+    histDate.setYear(countdownStartDate.getYear());
 
     //find the difference between rounded date and mission start time to determine MET to jump to
     // Convert both dates to milliseconds
-    var roundedDate_ms = histDate.getTime();
+    var histDate_ms = histDate.getTime();
+    var countdownStartDate_ms = countdownStartDate.getTime();
     var launchDate_ms = launchDate.getTime();
-    var difference_ms = roundedDate_ms - launchDate_ms;
 
-    var msInHour = 60 * 60 * 1000;
-    var msInMinute = 60 * 1000;
-    var h = Math.floor( (difference_ms) / msInHour);
-    var m = Math.floor( ((difference_ms) - (h * msInHour)) / msInMinute );
+    if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownstartdate, shift forward onto the closest round date on the first day of the mission
+        var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
+        histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
+    }
 
-    var timeId = padZeros(h,3) + padZeros(m,2) + padZeros(histDate.getSeconds(),2);
+    var timeSinceLaunch_ms = histDate_ms - launchDate_ms;
+
+    if (timeSinceLaunch_ms / 1000 > 65 * 60 * 60) { //if past 65 hours into the mission, add the 2:40 MET time switch
+        timeSinceLaunch_ms += 9600 * 1000;
+    }
+
+    var timeId = secondsToTimeId(timeSinceLaunch_ms / 1000);
 
     return timeId;
 }
@@ -588,7 +583,7 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
     //if (gUtteranceDataLookup[timeId] !== undefined) {
     if (gUtteranceDataLookup.hasOwnProperty(timeId)) {
     //if ($.inArray(timeId, gUtteranceIndex) != -1) {
-        // trace("scrollTranscriptToTimeId " + timeId);
+        //trace("scrollTranscriptToTimeId " + timeId);
         var utteranceDiv = $('#utteranceDiv');
         var utteranceTable = $('#utteranceTable');
 
@@ -1181,7 +1176,7 @@ function secondsToTimeStr(totalSeconds) {
 
 function secondsToTimeId(seconds) {
     var timeId = secondsToTimeStr(seconds).split(":").join("");
-    return parseInt(timeId);
+    return timeId;
 }
 
 function timeIdToSeconds(timeId) {
@@ -1190,8 +1185,10 @@ function timeIdToSeconds(timeId) {
     var minutes = parseInt(timeId.substr(3,2));
     var seconds = parseInt(timeId.substr(5,2));
     var signToggle = (sign == "-") ? -1 : 1;
-
-    return signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+    var totalSeconds = signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds);
+    //if (totalSeconds > 230400)
+    //    totalSeconds -= 9600;
+    return totalSeconds;
 }
 
 function timeIdToTimeStr(timeId) {
@@ -1208,7 +1205,10 @@ function timeStrToSeconds(timeStr) {
     var minutes = parseInt(timeStr.substr(4,2));
     var seconds = parseInt(timeStr.substr(7,2));
     var signToggle = (sign == "-") ? -1 : 1;
-    return Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
+    var totalSeconds = Math.round(signToggle * ((Math.abs(hours) * 60 * 60) + (minutes * 60) + seconds));
+    //if (totalSeconds > 230400)
+    //    totalSeconds -= 9600;
+    return totalSeconds;
 }
 
 Date.prototype.stdTimezoneOffset = function() {
