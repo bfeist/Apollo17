@@ -787,7 +787,7 @@ function repopulateCommentary(timeId) {
     var startIndex = commentaryIndex - 50;
     var endIndex = startIndex + 100;
     startIndex = startIndex < 0 ? 0 : startIndex;
-    endIndex = endIndex >= gCommentaryIndex.length ? gCommentaryIndex.length - 1 : endIndex;  //TODO test >=
+    endIndex = endIndex >= gCommentaryIndex.length ? gCommentaryIndex.length - 1 : endIndex;
     for (var i = startIndex; i <= endIndex; i++) {
         commentaryTable.append(getCommentaryObjectHTML(i));
     }
