@@ -1386,7 +1386,7 @@ header {
 }
 .video-block {
   width: 40%;
-  max-width: 720px; /* media query to reduce this if height below 1000px */
+  max-width: 720px; /* media query below to reduce this if height is restricted */
     /*max-width: 640px;*/
 }
 .photo-block {
@@ -1680,7 +1680,6 @@ img.aspect-holder {
     font-size: 28px;
   }
 }
-
 @media only screen and (max-height: 1000px) {
     .video-block {
         /*max-width: 720px;*/
