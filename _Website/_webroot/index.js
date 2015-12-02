@@ -341,6 +341,9 @@ function historicalButtonClick() {
     repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
     fadeOutSplash();
     seekToTime(nearestHistTimeId);
+    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -1314,7 +1317,7 @@ jQuery(function ($) {
     $("#tocTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'toc');
         activateTab(this.id);
-        scrollTocToCurrMissionTime();
+        scrollTOCToCurrMissionTime();
     });
 
     $("#commentaryTab").click(function(){
@@ -1335,7 +1338,7 @@ jQuery(function ($) {
     function scrollTranscriptToCurrMissionTime() {
         scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
-    function scrollTocToCurrMissionTime() {
+    function scrollTOCToCurrMissionTime() {
         scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
     function scrollCommentaryToCurrMissionTime() {
