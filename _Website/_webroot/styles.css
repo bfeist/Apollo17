@@ -820,6 +820,11 @@ canvas[resize] {
   vertical-align: middle;
   width: 98%; /* because it's inline-block it forces white space between elements, so we can't use 99% */
 }
+.help-overlay.body .content-wrapper {
+  position: relative;
+  overflow-y: auto;
+  height: 100%;
+}
 .help-overlay.body .headline {
   font-family: Michroma;
   /*font-size: 30px;*/
@@ -891,8 +896,8 @@ canvas[resize] {
 }
 .help-overlay .close-btn {
 position: absolute;
-    top: 20px;
-    right: 20px;
+        top: 5px;
+    right: 40px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -900,6 +905,7 @@ position: absolute;
     text-indent: -999px;
     overflow: hidden;
     transition: background-color .25s ease-in-out;
+    z-index: 2;
 }
 .help-overlay .close-btn:hover,
 .help-overlay .close-btn:active {
@@ -922,7 +928,7 @@ position: absolute;
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .help-content {
     font-size: 15px;
   }
