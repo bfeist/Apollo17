@@ -266,6 +266,10 @@
        z-index: 2;
    }
 
+   .share-button.sharer-0 .social ul li:before {
+    margin-top: -9px;
+    margin-left: -9px;
+   }
 /*// changes icon color upon hover*/
    .share-button.sharer-0 .social ul li:hover {
        color: rgba(0,0,0,.5);

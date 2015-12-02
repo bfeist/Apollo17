@@ -1295,8 +1295,11 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            alert('about');
-            $('.about-content').show();
+            
+            $('[data-js-class="HelpOverlayManager"]').each(function() {
+              $(this).data('helpOverlayManager').showHelp();
+            });
+
             //gShareButtonObject.toggle();
         });
 
