@@ -1,21 +1,34 @@
         
       <div class="help-content">
 
-
-      <div class="help-overlay" data-js-class="HelpOverlayManager" data-overlay-target="header .logo-wrapper, header .info-wrapper">
+      <div class="help-overlay legend" data-js-class="HelpOverlayManager" data-overlay-target="header .logo-wrapper, header .info-wrapper">
         <div class="content-wrapper">
           <div class="title">Mission Navigator</div>
           <ul>
-            <li>Point of interest (see Guided Tour)</li>
-            <li>Photo</li>
-            <li>Crew/mission control speech</li>
-            <li>Mission video</li>
+            <li>
+              <span class="legend-tick brown"></span>
+              Point of interest (see Guided Tour)
+            </li>
+            <li>
+              <span class="legend-tick green"></span>
+              Photo
+            </li>
+            <li>
+              <span class="legend-tick blue"></span>
+              <span class="legend-tick grey"></span>
+              <span class="legend-tick white"></span>
+              Crew/mission control speech
+            </li>
+            <li>
+              <span class="legend-tick video"></span>
+              Mission video
+            </li>
           </ul>
         </div>
       </div>
 
 
-      <div class="help-overlay navigator" data-js-class="HelpOverlayManager" data-overlay-target="header .monitor">
+      <div class="help-overlay navigator" data-js-class="HelpOverlayManager" data-overlay-target="header .monitor" data-force-right="true">
         <!-- <div class="content-wrapper"> -->
           <ul>
             <li><span>Entire mission (13 days)</span></li>
@@ -26,10 +39,53 @@
       </div>
 
 
-      <div class="help-overlay body" data-js-class="HelpOverlayManager" data-overlay-target=".body" data-force-bottom="true">
+      <div class="help-overlay body" data-js-class="HelpOverlayManager" data-overlay-target=".body" data-force-bottom="true" data-force-right="true">
+
+        <a href="#" class="close-btn">Close</a>
+
         <div class="content-wrapper">
-      [body]
-      </div>
+          <div class="headline">A real-time interactive journey through the Apollo 17 mission.</div>
+          <div class="quote">
+            <div class="text">"Looking back over my shoulder at the Earth had a particular significance to me – it was alive, it was moving, with purpose and beauty through space and time. In those short few minutes I wanted to figure out what was the meaning of us – everyone alive in the world today…"</div>
+            <div class="attribution">
+              Gene Cernan
+              <br>
+              Commander, Apollo 17
+              <br>
+              The last man to walk on the moon.
+            </div>
+          </div>
+
+          <div class="credits">
+            <div class="section-header">Credits</div>
+            <p>
+              <span class="accent">Ben Feist:</span> Concept, research, mission data restoration, audio/video, architecture and programming.  Follow <a href="https://twitter.com/benfeist" target="_blank">@BenFeist</a> for updates.
+              <br>
+              <span class="accent">Chris Bennett:</span> Visual design, interface styling and programming.
+            </p>
+
+            <div class="section-header">Thanks</div>
+            <p>
+              <span class="accent">David Woods:</span> Author, How Apollo Flew to the Moon; editor, Apollo Flight Journal.
+              <br>
+              <span class="accent">Kipp Teague:</span> Apollo mission photography.
+              <br>
+              <span class="accent">Stephen Slater:</span> Archive material editor, The Last Man on the Moon.
+              <br>
+              <span class="accent">Robin Wheeler:</span> Transcript corrections.
+              <br>
+              <span class="accent">NASA Audio Lab, Jet Propulsion Laboratory</span>
+              <br>
+              <span class="accent">NASA History Office and the crew of Apollo 17</span>
+            </p>
+
+            <p>Chrome / Firefox / Safari preferred. Works on iPad with patience.</p>
+
+            <p><a href="#">Read about the making of this project.</a></p>
+          </div>
+
+
+        </div>
       </div>
 
         <!-- <div class="about">

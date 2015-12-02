@@ -1292,7 +1292,10 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            $('.help-content').addClass('active');
+            
+            $('[data-js-class="HelpOverlayManager"]').each(function() {
+              $(this).data('helpOverlayManager').showHelp();
+            });
 
             //gShareButtonObject.toggle();
         });

@@ -26,6 +26,7 @@ dependencies:
         _resizeTestDelay = 100,
         $overlayTarget, //multiple elements, uses total width and max height of elements for positioning
         _forceBottom = false, //if set to true with data param (data-force-bottom="true") the positioned element will keep the bottom attribute as set in the CSS
+        _forceRight = false, //if set to true with data param (data-force-right="true") the positioned element will keep the right attribute as set in the CSS
         
         $opts = {
             showDebugInfo: false
@@ -34,8 +35,11 @@ dependencies:
 
     // Public methods ------------------------------------------------------------------
     $.extend(_self, {
-        func: function(){
-
+        showHelp: function() {
+          showHelp();
+        },
+        hideHelp: function() {
+          hideHelp();
         }
     });
 
@@ -49,15 +53,43 @@ dependencies:
 
        _forceBottom = $root.attr('data-force-bottom') || false;
        _trace('_forceBottom: ' + _forceBottom);
+       _forceRight = $root.attr('data-force-right') || false;
+       _trace('_forceRight: ' + _forceRight);
 
       $overlayTarget = $($root.attr('data-overlay-target'));
+
+      $root.find('.close-btn').on('click', function() {
+        $('[data-js-class="HelpOverlayManager"]').each(function() {
+          $(this).data('helpOverlayManager').hideHelp();
+        });
+        return false;
+      });
+
+    };
+
+    function showHelp() {
       if ($overlayTarget.length > 0) {
         positionMe();
-        $(window).on('resize', $.throttle( $.proxy(positionMe, this), _resizeTestDelay));
+        $(window).on('resize', close);
+        $(document).on('keyup', onDocKeyUp);
+        $('.help-content').addClass('open');
       } else {
         _trace('no data-overlay-target/applicable elements');
       }
+    }
 
+    function hideHelp() {
+      $('.help-content').removeClass('open');
+      $(window).off('resize', close);
+      $(document).off('keyup', onDocKeyUp);
+    }
+    
+    function onDocKeyUp(evt) {
+      var k = (evt.keyCode != 0) ? evt.keyCode : evt.charCode;
+      // _trace('onDocKeyUp; key: ' + k);
+      if (k == 27) { //escape
+        close();
+      }
     };
 
     function positionMe() {
@@ -86,12 +118,14 @@ dependencies:
 
       var cssProps = {
         top: targetPos.top + 'px',
-        left: targetPos.left + 'px',
-        width: targetWidth + 'px'
+        left: targetPos.left + 'px'
       };
 
       if (!_forceBottom) {
         cssProps['height'] = targetHeight + 'px';
+      }
+      if (!_forceRight) {
+        cssProps['width'] = targetWidth + 'px';
       }
 
       $root.css(cssProps);
@@ -121,6 +155,8 @@ dependencies:
     this.each(function() {
         var $instance = new HelpOverlayManager(this, opts);
         $(this).data('helpOverlayManager', $instance);
+        console.log('$(this).data...');
+        console.log($(this).data());
     });
 
     return this;

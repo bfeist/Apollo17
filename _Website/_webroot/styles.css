@@ -666,7 +666,7 @@ canvas[resize] {
   bottom: 0;
   left: 0;
   right: 0;
-  display: block;
+  /*display: block;*/
   /*background-color: #000;*/
   display: none;
 }
@@ -680,6 +680,63 @@ canvas[resize] {
   background-color: #000;
   color: #FFF;
   /*opacity: .7;*/
+}
+.help-overlay.legend {
+  font-family: RobotoSlab-Light;
+  font-size: 14px;
+  color: #DDDDDD;
+  line-height: 19px;
+  display: table;
+}
+.help-overlay.legend .content-wrapper {
+      height: 100%;
+    display: table-cell;
+    width: 100%;
+    padding: 10px 45px 0 45px;
+    font-size: 17px;
+}
+.help-overlay.legend.title {
+  font-size: 1em;
+  color: #FFF;
+}
+.help-overlay.legend ul {
+  margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: .85em;
+}
+.help-overlay.legend li {
+  margin: 6px 0;
+}
+.help-overlay.legend .legend-tick {
+  display: inline-block;
+  height: 20px;
+  width: 5px;
+  vertical-align: bottom; /* or text-bottom */
+  margin: 0 5px 0px 0px;
+}
+.help-overlay.legend .legend-tick + .legend-tick {
+  margin-left: -3px;
+}
+.help-overlay.legend .legend-tick.brown {
+  background: #7C5000;
+}
+.help-overlay.legend .legend-tick.green {
+  background: #1F7D1F;
+}
+.help-overlay.legend .legend-tick.blue {
+  background: #294690;
+}
+.help-overlay.legend .legend-tick.grey {
+  background: #8A95B6;
+}
+.help-overlay.legend .legend-tick.white {
+  background: #FFF;
+}
+.help-overlay.legend .legend-tick.video {
+  background: #011DA6;
+  border: 1px solid #001481;
+  width: 10px;
 }
 .help-overlay.navigator {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.8+100 */
@@ -740,15 +797,15 @@ canvas[resize] {
   height: 59px;
   line-height: 3.75;
 }
-
-.help-content.active {
+.help-content.open {
   display: block;
 }
 .help-overlay.body {
-  background-size: contain;
+  background-size: cover;
   background-position: left bottom;
   background-image: url("img/bg_help.jpg");
   background-repeat: no-repeat;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),1px 1px 9px rgba(0, 0, 0, 1);
 }
 .help-overlay:before {
   content: " ";
@@ -762,7 +819,118 @@ canvas[resize] {
   display: inline-block;
   vertical-align: middle;
   width: 98%; /* because it's inline-block it forces white space between elements, so we can't use 99% */
+}
+.help-overlay.body .headline {
+  font-family: Michroma;
+  /*font-size: 30px;*/
+  color: #5E92A6;
+  /*line-height: 30px;*/
+  padding: 65px 0;
+  text-align: center;
+  font-size: 1.6em;
+  line-height: 1;
+}
+.help-overlay.body .quote,
+.help-overlay.body .credits {
+  float: left;
+  padding: 0 40px;
+  font-family: RobotoSlab-Light;
+}
+.help-overlay:before {
+  display: none;
+}
+.help-overlay.body .quote {
+      width: 55%;
+    padding-left: 10%;
+      text-align: right;
+}
+.help-overlay.body .credits {
+  width: 40%;
+  padding-right: 5%;
+}
+.help-overlay.body .quote .text {
+  /*font-size: 24px;*/
+  color: #FFFFFF;
+  /*line-height: 37px;*/
+  font-size: 1.25em;
+    line-height: 1.4;
+}
+.help-overlay.body .quote .attribution {
+  /*font-size: 20px;*/
+  color: #999999;
+  margin-top: 20px;
+    /*line-height: 29px;*/
+        font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+.help-overlay.body .credits {
+  /*font-size: 16px;*/
+  color: #999999;
+  /*line-height: 20px;*/
+  font-size: .89em;
+    overflow-y: auto;
+}
+.help-overlay.body .credits p {
+      margin-bottom: 30px;
+    /*line-height: 24px;*/
+    font-size: 1em;
+}
+.help-overlay.body .credits .section-header {
+  color: #FFF;
+  /*font-size: 18px;*/
+  font-size: 1.125em;
+}
+.help-overlay.body .credits .accent {
+  color: #FFF;
+}              
+.help-overlay.body .credits a {
+  font-size: 16px;
+  color: #5E92A6;
+  line-height: 20px;
+}
+.help-overlay .close-btn {
+position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5E92A6;
+    text-indent: -999px;
+    overflow: hidden;
+    transition: background-color .25s ease-in-out;
+}
+.help-overlay .close-btn:hover,
+.help-overlay .close-btn:active {
+  background-color: #7bbfd8;
+}
+.help-overlay .close-btn:before {
+  text-shadow: none;
+  content: "\2715";
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -12px;
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-family: entypo, sans-serif;
+    color: #000;
+    text-indent: 0;
+}
 
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .help-content {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1660px) {
+  .help-content {
+    font-size: 24px;
+  }
 }
 
 /* ----------------- LOADER -----------------*/
