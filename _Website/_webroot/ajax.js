@@ -21,7 +21,7 @@ $.when(ajaxGetVideoURLData(),
 function ajaxGetVideoURLData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -37,7 +37,7 @@ function ajaxGetVideoURLData() {
 function ajaxGetTOCData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -53,7 +53,7 @@ function ajaxGetTOCData() {
 function ajaxGetUtteranceData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -69,7 +69,7 @@ function ajaxGetUtteranceData() {
 function ajaxGetCommentaryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -85,7 +85,7 @@ function ajaxGetCommentaryData() {
 function ajaxGetPhotoData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -101,7 +101,7 @@ function ajaxGetPhotoData() {
 function ajaxGetMissionStagesData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }
@@ -117,7 +117,7 @@ function ajaxGetMissionStagesData() {
 function ajaxGetVideoSegmentData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         var cdnNum = getRandomInt(1, 5);
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/develop";
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         urlStr = ".";
     }

@@ -1,6 +1,6 @@
 trace("INIT: Loading index.js");
-var gStopCache = true;
-var gCdnEnabled = false;
+var gStopCache = false;
+var gCdnEnabled = true;
 var gOffline = false;
 
 var gMissionDurationSeconds = 1100166;
@@ -67,7 +67,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
     trace("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
-        videoId: '5yLfnY1Opwg',
+        videoId: '0OQ6m5DZqeY',
         width: '100%',
         height: '100%',
         playerVars: {
@@ -76,7 +76,7 @@ function onYouTubeIframeAPIReady() {
             modestbranding: 1,
             autohide: 1,
             rel: 0,
-            //'controls': 0,
+            'controls': 0,
             fs: 0
         },
         events: {
@@ -341,6 +341,9 @@ function historicalButtonClick() {
     repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
     fadeOutSplash();
     seekToTime(nearestHistTimeId);
+    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -1292,8 +1295,11 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            alert('about');
-            $('.about-content').show();
+
+            $('[data-js-class="HelpOverlayManager"]').each(function() {
+              $(this).data('helpOverlayManager').showHelp();
+            });
+
             //gShareButtonObject.toggle();
         });
 
@@ -1314,7 +1320,7 @@ jQuery(function ($) {
     $("#tocTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'toc');
         activateTab(this.id);
-        scrollTocToCurrMissionTime();
+        scrollTOCToCurrMissionTime();
     });
 
     $("#commentaryTab").click(function(){
@@ -1335,7 +1341,7 @@ jQuery(function ($) {
     function scrollTranscriptToCurrMissionTime() {
         scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
     }
-    function scrollTocToCurrMissionTime() {
+    function scrollTOCToCurrMissionTime() {
         scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
     }
     function scrollCommentaryToCurrMissionTime() {
