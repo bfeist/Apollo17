@@ -436,7 +436,7 @@ canvas[resize] {
     color: #BBBBBB;
     padding: 5px;
 
-    font-family: Roboto Mono;
+    font-family: 'Roboto Mono';
     font-size: .75em;
     transition: all 0.15s ease-in-out;
 }
@@ -682,7 +682,7 @@ canvas[resize] {
   /*opacity: .7;*/
 }
 .help-overlay.legend {
-  font-family: RobotoSlab-Light;
+  font-family: 'Roboto Slab';
   font-size: 14px;
   color: #DDDDDD;
   line-height: 19px;
@@ -692,10 +692,10 @@ canvas[resize] {
       height: 100%;
     display: table-cell;
     width: 100%;
-    padding: 10px 45px 0 45px;
+    padding: 10px 45px 0 80px;
     font-size: 17px;
 }
-.help-overlay.legend.title {
+.help-overlay.legend .title {
   font-size: 1em;
   color: #FFF;
 }
@@ -707,6 +707,7 @@ canvas[resize] {
 }
 .help-overlay.legend li {
   margin: 6px 0;
+  color: #CCCCCC;
 }
 .help-overlay.legend .legend-tick {
   display: inline-block;
@@ -722,7 +723,7 @@ canvas[resize] {
   background: #7C5000;
 }
 .help-overlay.legend .legend-tick.green {
-  background: #1F7D1F;
+  background: #00C000;
 }
 .help-overlay.legend .legend-tick.blue {
   background: #294690;
@@ -736,7 +737,7 @@ canvas[resize] {
 .help-overlay.legend .legend-tick.video {
   background: #011DA6;
   border: 1px solid #001481;
-  width: 10px;
+  width: 20px;
 }
 .help-overlay.navigator {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.8+100 */
@@ -826,11 +827,11 @@ canvas[resize] {
   height: 100%;
 }
 .help-overlay.body .headline {
-  font-family: Michroma;
+  font-family: 'Michroma';
   /*font-size: 30px;*/
   color: #5E92A6;
   /*line-height: 30px;*/
-  padding: 65px 0;
+  padding: 35px 0;
   text-align: center;
   font-size: 1.6em;
   line-height: 1;
@@ -839,14 +840,14 @@ canvas[resize] {
 .help-overlay.body .credits {
   float: left;
   padding: 0 40px;
-  font-family: RobotoSlab-Light;
+  font-family: 'Roboto Slab';
 }
 .help-overlay:before {
   display: none;
 }
 .help-overlay.body .quote {
       width: 55%;
-    padding-left: 10%;
+    padding-left: 9%;
       text-align: right;
 }
 .help-overlay.body .credits {
@@ -855,9 +856,9 @@ canvas[resize] {
 }
 .help-overlay.body .quote .text {
   /*font-size: 24px;*/
-  color: #FFFFFF;
+  color: #CCCCCC;
   /*line-height: 37px;*/
-  font-size: 1.25em;
+  font-size: 1em;
     line-height: 1.4;
 }
 .help-overlay.body .quote .attribution {
@@ -884,11 +885,11 @@ canvas[resize] {
 .help-overlay.body .credits .section-header {
   color: #FFF;
   /*font-size: 18px;*/
-  font-size: 1.125em;
+  font-size: 1.25em;
 }
 .help-overlay.body .credits .accent {
-  color: #FFF;
-}              
+  color: #CCCCCC;
+}
 .help-overlay.body .credits a {
   font-size: 16px;
   color: #5E92A6;

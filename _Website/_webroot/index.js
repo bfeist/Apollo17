@@ -1380,7 +1380,8 @@ function initSplash() {
         google: {
             families: ['Michroma',
                 'Oswald:300,400,700',
-                'Roboto Mono:200,400,500,700']
+                'Roboto Mono:200,400,500,700',
+                'Roboto Slab:300']
         },
         active: function() {
             trace("INIT: fonts loaded");
