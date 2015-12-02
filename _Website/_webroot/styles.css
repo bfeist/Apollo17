@@ -222,7 +222,6 @@ tr.commentary > td {
 
 /*.titleSubtitle {*/
     /*font-size: 85%;*/
-    /*text-align: left;*/
 /*}*/
 /*.titleTextRight a{*/
     /*color: #999999;*/
@@ -1146,9 +1145,12 @@ body.app-ready .splash-btn {
   transition: all .15s ease-in-out;
 
   cursor: pointer;
-  box-shadow: inset -1px -1px 7px 3px #1D547E;
-  background-color: #5E92A6;
-  /*background-color: rgba(94, 146, 166, .8);*/
+  box-shadow: inset -1px -1px 7px 3px rgba(0, 0, 0, 0.25);
+  /*background-color: #5E92A6;*/
+  background-color: rgba(94, 146, 166, .9);
+  border-right: 1px solid rgb(93, 153, 177);
+  border-bottom: 1px solid rgb(93, 153, 177);
+
 }
 body.app-ready .splash-btn:hover,
 body.app-ready .splash-btn:active,
@@ -1157,24 +1159,28 @@ body.app-ready .splash-btn.selected {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), -1px -1px 1px rgba(255, 255, 255, .5);
 }
 body.app-ready .splash-btn.primary {
-  /*box-shadow: inset -1px -1px 7px 3px #A67754;*/
-    box-shadow: inset -1px -1px 7px 3px rgba(0, 0, 0, 0.25);
-  background-color: #d3a474;
-  /*background-color: rgba(215, 160, 108, 0.8);*/
-  border-right: 1px solid rgba(215, 160, 108, 0.65);
-  border-bottom: 1px solid rgba(215, 160, 108, 0.65);
+  /*background-color: #d3a474;*/
+  background-color: rgba(215, 160, 108, .9);
+  border-right: 1px solid rgba(215, 160, 108, 1);
+  border-bottom: 1px solid rgba(215, 160, 108, 1);
 }
 body.app-ready .splash-btn.primary:hover,
 body.app-ready .splash-btn.primary:active,
 body.app-ready .splash-btn.primary.selected {
   background-color: #FFC688;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65), -1px -1px 1px rgba(255, 255, 255, .65);
 }
 
-/*body.app-ready .splash-btn.primary.blink_crew {*/
-    /*background-color: rgba(132, 184, 217, 1);*/
-    /*animation: blinker 0.6s linear infinite;*/
-/*}*/
+body.app-ready .splash-btn.subdued {
+    background-color: #8e8e8e;
+    border-right: 1px solid rgba(140, 140, 140, 1);
+    border-bottom: 1px solid rgba(140, 140, 140, 1);
+}
+body.app-ready .splash-btn.subdued:hover,
+body.app-ready .splash-btn.subdued:active,
+body.app-ready .splash-btn.subdued.selected {
+    background-color: #c0c0c0;
+}
+
 
 .blink_me {
     animation: blinker 0.2s linear 2;

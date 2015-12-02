@@ -299,12 +299,15 @@
     <li onclick="parent.seekToTime('1183443')" class="tocitem" id="tocid1183443"><span class="TOCTimestamp">118:34:43</span>
         <span class="TOC_item">Cosmic ray experiment deployed</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1185119')" class="tocitem" id="tocid1185119"><span class="TOCTimestamp">118:51:19</span>
+        <span class="TOC_item">LRV fender broken</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1190449')" class="tocitem" id="tocid1190449"><span class="TOCTimestamp">119:04:49</span>
-        <span class="TOC_item">Departed for ALSEP</span>
+        <span class="TOC_item">Departed for Apollo Lunar Surface Experiments Package (ALSEP) site</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1191252')" class="tocitem" id="tocid1191252"><span class="TOCTimestamp">119:12:52</span>
-        <span class="TOC_item">Arrived at ALSEP</span>
+        <span class="TOC_item">Arrived at ALSEP site</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
@@ -330,7 +333,7 @@
         <span class="TOC_item">Singing - "strolling on the moon one day"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1215102')" class="tocitem" id="tocid1215102"><span class="TOCTimestamp">121:51:02</span>
-        <span class="TOC_item">Departed for Station 1</span>
+        <span class="TOC_item">Departed for Station 1 (Steno Crater)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1220615')" class="tocitem" id="tocid1220615"><span class="TOCTimestamp">122:06:15</span>
@@ -420,7 +423,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1413148')" class="tocitem" id="tocid1413148"><span class="TOCTimestamp">141:31:48</span>
-        <span class="TOC_item">Departed for Station 2 (South Massif)</span>
+        <span class="TOC_item">Departed for Station 2 (South Massif - Nansen Crater)</span>
         <!-- <span class="TOCSubtitle">Four short stops; one to deploy seismic profiling experiment explosive charge 4, and three to gather enroute samples.</span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1424550')" class="tocitem" id="tocid1424550"><span class="TOCTimestamp">142:45:50</span>
@@ -447,7 +450,7 @@
         <span class="TOC_item">"One-scoop-Schmitt, they call me."</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1434726')" class="tocitem" id="tocid1434726"><span class="TOCTimestamp">143:47:26</span>
-        <span class="TOC_item">Departed for Station 3</span>
+        <span class="TOC_item">Departed for Station 3 (Lara Crater)</span>
         <!-- <span class="TOCSubtitle">One stop to obtain a traverse gravimeter experiment reading, gather samples, and perform panoramic and 500mm photography.</span>--></li>
     <li onclick="parent.seekToTime('1441633')" class="tocitem" id="tocid1441633"><span class="TOCTimestamp">144:16:33</span>
         <span class="TOC_item">Capcom expresses how smoothly the mission is going</span>
@@ -582,7 +585,7 @@
         <span class="TOC_item">Photo: Lunar Module in the far distance</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1660536')" class="tocitem" id="tocid1660536"><span class="TOCTimestamp">166:05:36</span>
-        <span class="TOC_item">Departed for Station 7</span>
+        <span class="TOC_item">Departed for Station 7 (North Massif)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1661100')" class="tocitem" id="tocid1661100"><span class="TOCTimestamp">166:11:00</span>
