@@ -1,6 +1,6 @@
 trace("INIT: Loading index.js");
-var gStopCache = true;
-var gCdnEnabled = false;
+var gStopCache = false;
+var gCdnEnabled = true;
 var gOffline = false;
 
 var gMissionDurationSeconds = 1100166;
@@ -1295,7 +1295,7 @@ jQuery(function ($) {
     $("#aboutBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'help');
-            
+
             $('[data-js-class="HelpOverlayManager"]').each(function() {
               $(this).data('helpOverlayManager').showHelp();
             });
