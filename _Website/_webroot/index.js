@@ -67,7 +67,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
     trace("INIT: onYouTubeIframeAPIReady():creating player object");
     player = new YT.Player('player', {
-        videoId: '5yLfnY1Opwg',
+        videoId: '0OQ6m5DZqeY',
         width: '100%',
         height: '100%',
         playerVars: {
@@ -76,7 +76,7 @@ function onYouTubeIframeAPIReady() {
             modestbranding: 1,
             autohide: 1,
             rel: 0,
-            //'controls': 0,
+            'controls': 0,
             fs: 0
         },
         events: {

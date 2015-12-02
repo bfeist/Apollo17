@@ -1679,3 +1679,10 @@ img.aspect-holder {
     font-size: 28px;
   }
 }
+
+@media only screen and (max-height: 1000px) {
+    .video-block {
+        width: 40%;
+        max-width: 640px;
+    }
+}
