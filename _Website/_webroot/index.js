@@ -332,10 +332,10 @@ function findClosestPhoto(secondsSearch) {
 function historicalButtonClick() {
     trace('historicalButtonClick');
     ga('send', 'event', 'launch', 'click', 'realtime');
-     window.clearInterval(gIntroInterval);
+    window.clearInterval(gIntroInterval);
     gIntroInterval = null;
-     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
-     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    var nearestHistTimeId = getNearestHistoricalMissionTimeId();
+    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
     repopulateUtterances(nearestHistTimeId);
     repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
@@ -1125,15 +1125,12 @@ function initializePlayback() {
         seekToTime(gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-        if (typeof paramMissionTime != "undefined") {
+        if (paramMissionTime == 'rt') {
+            historicalButtonClick();
+        } else {
             repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
             repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
             seekToTime(timeStrToTimeId(paramMissionTime));
-        } else {
-            trace("Invalid t Parameter");
-            repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId)));
-            repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
-            seekToTime(gDefaultStartTimeId);
         }
     }
     clearInterval(gApplicationReadyIntervalID);
