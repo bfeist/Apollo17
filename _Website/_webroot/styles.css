@@ -856,7 +856,7 @@ canvas[resize] {
 }
 .help-overlay.body .quote .text {
   /*font-size: 24px;*/
-  color: #CCCCCC;
+  color: #DDDDDD;
   /*line-height: 37px;*/
   font-size: 1em;
     line-height: 1.4;
@@ -888,10 +888,10 @@ canvas[resize] {
   font-size: 1.25em;
 }
 .help-overlay.body .credits .accent {
-  color: #CCCCCC;
+  color: #EEEEEE;
 }
 .help-overlay.body .credits a {
-  font-size: 16px;
+  font-size: 1.05em;
   color: #5E92A6;
   line-height: 20px;
 }
