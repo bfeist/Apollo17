@@ -518,7 +518,7 @@ function scrollTOCToTimeId(timeId) {
     //if (gTOCDataLookup[timeId] !== undefined) {
     if (gTOCDataLookup.hasOwnProperty(timeId)) {
     //if ($.inArray(timeId, gTOCIndex) != -1) {
-        //console.log("scrollTOCToTimeID(): scrolling to " + elementId);
+        //console.log("scrollTOCToTimeID(): scrolling to " + timeId);
         var TOCFrame = $('#iFrameTOC');
         var TOCFrameContents = TOCFrame.contents();
         var TOCContainer = TOCFrameContents.find('.TOC_container');
