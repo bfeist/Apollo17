@@ -28,7 +28,7 @@
     
 <ul class="TOCli TOC1">
         <li onclick="parent.seekToTime('-023722')" class="tocitem" id="tocid-023722"><span class="TOCTimestamp">-02:37:22</span>
-        <span class="TOC_item">Preparation and Countdown</span>
+        <span class="TOC_item">Video: Preparation and Countdown</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
@@ -740,7 +740,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1833711')" class="tocitem" id="tocid1833711"><span class="TOCTimestamp">183:37:11</span>
+        <li onclick="parent.seekToTime('1833708')" class="tocitem" id="tocid1833708"><span class="TOCTimestamp">183:37:08</span>
         <span class="TOC_item">Schmitt reads xmas poem</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1875339')" class="tocitem" id="tocid1875339"><span class="TOCTimestamp">187:53:39</span>
