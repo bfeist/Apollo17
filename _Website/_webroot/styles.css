@@ -852,7 +852,8 @@ canvas[resize] {
 }
 .help-overlay.body .credits {
   width: 40%;
-  padding-right: 5%;
+  /*padding-right: 5%;*/
+  padding-right: 0%;
 }
 .help-overlay.body .quote .text {
   /*font-size: 24px;*/
@@ -894,6 +895,10 @@ canvas[resize] {
   font-size: 1.05em;
   color: #5E92A6;
   line-height: 20px;
+    text-decoration: none;
+}
+.help-overlay.body .credits a:hover {
+    text-decoration: underline;
 }
 .help-overlay .close-btn {
 position: absolute;
