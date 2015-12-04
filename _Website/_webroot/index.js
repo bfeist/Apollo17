@@ -1391,7 +1391,7 @@ function initSplash() {
         gSplashImageLoaded = true;
     });
     setSplashHistoricalSubtext();
-    setIntroTimeUpdatePoller();
+    gIntroInterval = setIntroTimeUpdatePoller();
 }
 
 function setSplashHistoricalSubtext() {
