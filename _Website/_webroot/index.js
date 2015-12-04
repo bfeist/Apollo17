@@ -209,12 +209,12 @@ function setAutoScrollPoller() {
     }, 500); //polling frequency in milliseconds
 }
 
-//function setIntroTimeUpdatePoller() {
-//    return window.setInterval(function () {
-//        //trace("setIntroTimeUpdatePoller()");
-//        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
-//    }, 1000);
-//}
+function setIntroTimeUpdatePoller() {
+    return window.setInterval(function () {
+        //trace("setIntroTimeUpdatePoller()");
+        displayHistoricalTimeDifferenceByTimeId(getNearestHistoricalMissionTimeId());
+    }, 1000);
+}
 
 function setApplicationReadyPoller() {
     return window.setInterval(function () {
@@ -472,7 +472,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     $(".historicalTime").text(historicalDate.toLocaleTimeString());  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
-    $("#missionElapsedTime").text(gCurrMissionTime);
+    $(".missionElapsedTime").text(gCurrMissionTime);
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
@@ -1372,7 +1372,7 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
 
 function initSplash() {
     //flags set in this function are acted upon in the applicationreadypoller
-  var $splash = $('.splash-content');
+    var $splash = $('.splash-content');
     var webFontConfig = {
         google: {
             families: ['Michroma',
@@ -1384,12 +1384,34 @@ function initSplash() {
             trace("INIT: fonts loaded");
             gFontsLoaded = true;
         }
-     }
+    }
     WebFont.load(webFontConfig);
     $.when($splash.waitForImages()).done(function(){
         trace("INIT: splash image loaded");
         gSplashImageLoaded = true;
     });
+    setSplashHistoricalSubtext();
+    setIntroTimeUpdatePoller();
+}
+
+function setSplashHistoricalSubtext() {
+    var launchDate = Date.parse("1972-12-07 0:33am -500");
+    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
+    //var currDate = Date.parse("1972-12-10 0:33am -500");
+    var currDate = Date.now();
+
+
+    var currDate_ms = currDate.getTime();
+    var countdownStartDate_ms = countdownStartDate.getTime();
+    var launchDate_ms = launchDate.getTime();
+    var missionEndDate_ms = launchDate_ms + (gMissionDurationSeconds * 1000);
+
+    if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
+        //$('.section.now').css('display', '');
+        $('.historicalSubtext').text("Mission Anniversary. 43 years ago to the second.");
+    } else {
+        $('.historicalSubtext').text("(43 years ago)");  //todo make this calculate how many years ago
+    }
 }
 
 function proportionalWidthOnPhotoBlock() {
