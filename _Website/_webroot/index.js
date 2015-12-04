@@ -469,7 +469,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
-    $(".historicalTime").text(historicalDate.toLocaleTimeString());  //.replace(/([AP]M)$/, ""));
+    $(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
     $(".missionElapsedTime").text(gCurrMissionTime);
@@ -1128,6 +1128,8 @@ function initializePlayback() {
         if (paramMissionTime == 'rt') {
             historicalButtonClick();
         } else {
+            window.clearInterval(gIntroInterval);
+            gIntroInterval = null;
             repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
             repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
             seekToTime(timeStrToTimeId(paramMissionTime));
@@ -1384,7 +1386,7 @@ function initSplash() {
             trace("INIT: fonts loaded");
             gFontsLoaded = true;
         }
-    }
+    };
     WebFont.load(webFontConfig);
     $.when($splash.waitForImages()).done(function(){
         trace("INIT: splash image loaded");
@@ -1399,7 +1401,6 @@ function setSplashHistoricalSubtext() {
     var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
     //var currDate = Date.parse("1972-12-10 0:33am -500");
     var currDate = Date.now();
-
 
     var currDate_ms = currDate.getTime();
     var countdownStartDate_ms = countdownStartDate.getTime();

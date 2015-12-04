@@ -955,57 +955,6 @@ position: absolute;
     text-align: center;
 }
 
-.historicalTimeIllustration {
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;
-    border: 4px solid #444;
-}
-
-.historicalTime1 {
-    width: auto;
-    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-    width: auto;               /* For old syntax, otherwise collapses. */
-    -webkit-flex: 1;          /* Chrome */
-    -ms-flex: 1;              /* IE 10 */
-    flex: 1;
-    border: 1px solid #444;
-}
-.historicalTime2 {
-
-    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-    width: auto;               /* For old syntax, otherwise collapses. */
-    -webkit-flex: 1;          /* Chrome */
-    -ms-flex: 1;              /* IE 10 */
-    flex: 1 ;
-    flex-grow: 4;
-
-    font-size: 100%;
-    text-align: center;
-    top: 0px;
-    left: 100px;
-
-    border: 1px solid #444;
-}
-.historicalTime3 {
-    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-    width: auto;               /* For old syntax, otherwise collapses. */
-    -webkit-flex: 1;          /* Chrome */
-    -ms-flex: 1;              /* IE 10 */
-    flex: 1;
-    border: 1px solid #444;
-
-}
-
-/*#basic-modal-content {
-    display:none;
-}*/
-
 .introCopy {
     font-size: 14px;
 }
