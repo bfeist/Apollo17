@@ -1211,7 +1211,7 @@ body.splash-loaded .splash-content {
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1;              /* IE 10 */
   flex: 1;
-  padding: 4.35em 3em 0 0;
+  padding: 4.35em 0 0 0;
   position: relative;
 }
 .splash-content .actions .section {
@@ -1239,8 +1239,26 @@ body.splash-loaded .splash-content {
   padding: 0 10px 10px 0;
   color: #DDD;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),1px 1px 9px rgba(0, 0, 0, 1);
-
 }
+
+.splash-content .actions .section .histtime {
+    font-size: 0.75em;
+    margin-top: 10px;
+    padding: 0 0 0 0;
+}
+
+.splash-content .actions .section .date {
+    padding: 0 0 0 0;
+}
+
+.splash-content .actions .section .time {
+    padding: 0 0 0 0;
+}
+
+.splash-content .actions .section.fullscreen {
+    margin-top: 1em;
+}
+
 .splash-content .content-wrapper {
   position: relative;
   padding-right: 3em;
@@ -1841,43 +1859,6 @@ img.aspect-holder {
       flex: 4 0 auto;
    }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .splash-content {
-    font-size: 17.5px;
-  }
-  .splash-content .content-wrapper:after {
-    display: none;
-  }
-  .splash-content .about {
-    width: auto;
-    padding-right: 0;
-    padding: 3.5em 2.5em 0 2.5em;
-  }
-
-  .splash-content .content-wrapper {
-    padding-right: 0;
-  }
-
-  .splash-content .actions {
-    width: auto;
-    padding: 1em 2.5em 0 2.5em;
-  }
-  .splash-content .actions .section {
-    float: left;
-    width: 50%;
-    clear: none;
-    margin-top: 0 !important;
-    font-size: 0.8em;
-  }
-
-  .splash-content .actions .section:before, .splash-content .actions .section:after {
-      display: none;
-  }
-  .splash-content .actions .section:after {
-      clear: none;
-  }
-}
-
 @media only screen and (max-width: 767px) {
   .splash-content:before {
     /*padding-bottom: 25em;*/
@@ -1930,7 +1911,44 @@ img.aspect-holder {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .splash-content {
+        font-size: 17.5px;
+    }
+    .splash-content .content-wrapper:after {
+        display: none;
+    }
+    .splash-content .about {
+        width: auto;
+        padding-right: 0;
+        padding: 3.5em 2.5em 0 2.5em;
+    }
+
+    .splash-content .content-wrapper {
+        padding-right: 0;
+    }
+
+    .splash-content .actions {
+        width: auto;
+        padding: 1em 2.5em 0 2.5em;
+    }
+    .splash-content .actions .section {
+        float: left;
+        width: 50%;
+        clear: none;
+        margin-top: 0 !important;
+        font-size: 0.8em;
+    }
+
+    .splash-content .actions .section:before, .splash-content .actions .section:after {
+        display: none;
+    }
+    .splash-content .actions .section:after {
+        clear: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
   .splash-content h1 {
     font-size: 1.8em;
     color: #FFF;
@@ -1948,18 +1966,18 @@ img.aspect-holder {
     display: flex;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
   .splash-content {
     font-size: 2em;
     font-size: 17.5px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
   .splash-content {
     font-size: 19px;
   }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) and (max-width: 1999px) {
   .splash-content {
     font-size: 22px;
   }
