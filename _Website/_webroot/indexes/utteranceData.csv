@@ -6196,7 +6196,7 @@
 0893557|LMP|Okay, I'm loaded up for your terminator, Ron. What's - is it not out of 105, or what? is it - Okay, 80-millimeter or -
 0893613|CMP|80.
 0893614|LMP|80 - -
-0893615|CMP|... Millimeter ... f/ll at 1/500 ...
+0893615|CMP|... Millimeter ... f/11 at 1/500 ...
 0893618|LMP|Okay.
 0893619|CMP|80-millimeter.
 0893621|LMP|Okay.
@@ -12075,7 +12075,7 @@
 1225930|LMP|Well, it happened, Bob. I'm glad we Velcroed those - tabs.
 1225943|CDR|Okay, I'm at the end, Jack. Are you having -
 1225946|LMP|Well, I - What happened was which we thought might happen. It twisted on my - I'll be there in just a second.
-1225958|CDR|Okay, I want f/ll at 250th and 74 feet. Well - ah, ah, ah, ah. Ah, ah, yes; you're pulling it over.
+1225958|CDR|Okay, I want f/11 at 250th and 74 feet. Well - ah, ah, ah, ah. Ah, ah, yes; you're pulling it over.
 1230020|LMP|I'm not. You are.
 1230022|CDR|No, I'm not. I've got all sorts of slack in here.
 1230025|LMP|Okay, it's okay.
@@ -17052,7 +17052,7 @@
 1453200|CDR|Before you disturb it, let me just get a couple of closeups of that.
 1453203|LMP|Hey, can you get a down-Sun? I think your color will be best down-Sun.
 1453206|CDR|Okay.
-1453207|LMP|Go to f/ll. Get a little closer, Geno, if you think you're minimum.
+1453207|LMP|Go to f/11. Get a little closer, Geno, if you think you're minimum.
 1453216|LMP|Come up. There you go.
 1453222|CDR|Let me get one more. Hey, you want any of this bagged in a - in the can, Bob? Canned in the bag - or whatever it is?
 1453233|CC|Stand by. They're debating that right now.
@@ -19416,7 +19416,7 @@
 1581248|CMP|Okay, going to SELF TEST -
 1581251|CMP|Now. Barber pole.
 1581257|CC|Roger.
-1581556|CMP|Okay, by the way, mag Lima Lima is empty. 165 frames showing there. Started mag Mike Mike with frame number 95. Finished the orbital science at 142. Took the crazy camera at f/5.6 at 1/125. When I got ready to change to f/5.6 at 1/250, I looked at the crazy thing and it was setting at f/ll. Maybe those first frames in there, maybe they can develop them a little different or something and still bring - get them to come out.
+1581556|CMP|Okay, by the way, mag Lima Lima is empty. 165 frames showing there. Started mag Mike Mike with frame number 95. Finished the orbital science at 142. Took the crazy camera at f/5.6 at 1/125. When I got ready to change to f/5.6 at 1/250, I looked at the crazy thing and it was setting at f/11. Maybe those first frames in there, maybe they can develop them a little different or something and still bring - get them to come out.
 1581700|CC|Okay, Ron. We got that.
 1581709|CMP|I think what happens is I must have been holding the thing by the lens or something or I burnped the - the f-stop thing somehow.
 1581728|CC|Ron, we're ready for PAN CAMERA POWER to OFF. And did you go to HEATERS after you set the SELF TEST switch to SELF TEST, when we started this?
@@ -27554,8 +27554,8 @@
 2100425|CMP|Oh, I've got the circles on it.
 2100428|CC|- - 1/500.
 2100431|CMP|Yes. f/32, 1/500. Okay, start with that one, Jack.
-2100436|CC|Got the circle around Mount La Hire? It's f/ll.
-2100439|CMP|250-millimeter lens - f/ll, okay.
+2100436|CC|Got the circle around Mount La Hire? It's f/11.
+2100439|CMP|250-millimeter lens - f/11, okay.
 2100447|CC|At the next circle up, which crosses - which encompasses the "La" of La Hire Rilles, you want f/8 at 1/250.
 2100501|CMP|Okay.
 2100502|CC|And the one that crosses - the circle that covers across the terminator there at Diophantus is f/5.6 at 1/125, 1/125. Get the wrong - -
@@ -27565,7 +27565,7 @@
 2100536|CC|Okay, we'll schedule that in prior to those revs, Ron.
 2100541|CMP|Yes. Okay.
 2100549|CMP|Okay, we're coming up on Timocharis, now. Start at Lambert and get the - right along the La Hire Rille, see - Yes. Take six - six - six shots you know, kind of each area at that - You know, north and south. Yes, you know point them every which way, or whatever's interesting on the thing. Okay.
-2100640|CMP|Okay. Mount La Hire, you can get in there at f/ll at 1/500.
+2100640|CMP|Okay. Mount La Hire, you can get in there at f/11 at 1/500.
 2100722|CC|Hey, Ron. Just - Just a point. -
 2100723|SC|There's Euler coming up there. Okay, go ahead, Bob.
 2100729|CC|Do you have two copies of the maps onboard? And if so, did the - would the other copy of "D" have the updates on it? Or have the settings?
@@ -28337,7 +28337,7 @@
 2175506|CC|Roger that, Ron.
 2175642|CMP|(Cough)
 2175653|CC|Ron, this is Houston. Do you want any help from me calling the f/stop changes on this P66 run? Or do you want to do it onboard there?
-2175706|CMP|Why don't you give me a little help there. Just kind of reminders? So to f/ll about Tobias Mayer, I guess, and, then -
+2175706|CMP|Why don't you give me a little help there. Just kind of reminders? So to f/11 about Tobias Mayer, I guess, and, then -
 2175719|CC|Okay. Then f/8 and a 1/250 is at Brayley D.
 2175730|CMP|Yes, right.
 2175734|CC|Are you shooting pretty much straight down or out in front, on this one?
@@ -28347,10 +28347,10 @@
 2175820|CMP|There goes - What's there? Eratosthenes, okay.
 2180136|CMP|Yes, about right in here it's a good place.
 2180314|LMP|Okay, Houston, back to talking about colors a little bit. It looked as If lower talus is more - -
-2180320|CC|Hold 1, Jack. It's about time for f/ll - -
+2180320|CC|Hold 1, Jack. It's about time for f/11 - -
 2180324|LMP|Go ahead.
 2180325|CC|... Ron.
-2180328|CMP|Okay, f/ll at 1/500.
+2180328|CMP|Okay, f/11 at 1/500.
 2180331|CC|That's affirmative.
 2180333|LMP|Euler is - lower is blue-gray and the upper is a very light gray, from the talus slope up to the rim.
 2180406|CDR|Houston, I can just start to see the peaks of Euler now - exposed in the central peak - the tops of them exposed in the sunlight, and it looks like there's massive quantities of large boulders on the - on the peaks.
