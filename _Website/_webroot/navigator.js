@@ -435,7 +435,7 @@ function drawTier1() {
 
     // draw video segments boxes
     for (i = 0; i < gVideoSegments.length; i++) {
-        var rectStartX = gTier1Left + 2 + (timeStrToSeconds(gVideoSegments[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+        var rectStartX = gTier1Left + (timeStrToSeconds(gVideoSegments[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
         var rectWidth = (timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier1PixelsPerSecond;
         var rectTop = (gTier1Top + gTier1Height) - gTier1Height / gHeightVideoRectDenominator;
         var rectHeight = gTier1Height / gHeightVideoRectDenominator;
@@ -818,7 +818,7 @@ function drawTier3() {
     for (var i = 0; i <= gVideoSegments.length - 1; i++) {
         //draw if video segment start is before end of viewport, and video segment end is after start of viewport
         if (timeStrToSeconds(gVideoSegments[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gVideoSegments[i][1]) >= gTier3StartSeconds) {
-            var rectStartX = gTier3Left + 3 + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+            var rectStartX = gTier3Left + (timeStrToSeconds(gVideoSegments[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
             var rectWidth = ((timeStrToSeconds(gVideoSegments[i][1]) - timeStrToSeconds(gVideoSegments[i][0])) * gTier3PixelsPerSecond);
             if (rectStartX < 0) {
                 rectWidth -= Math.abs(rectStartX);
