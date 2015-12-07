@@ -895,10 +895,10 @@ canvas[resize] {
   color: #EEEEEE;
 }
 .help-overlay.body .credits a {
-  font-size: 1.05em;
+  /*font-size: 1.05em;*/
   color: #5E92A6;
-  line-height: 20px;
-    text-decoration: none;
+  /*line-height: 20px;*/
+  text-decoration: none;
 }
 .help-overlay.body .credits a:hover {
     text-decoration: underline;
