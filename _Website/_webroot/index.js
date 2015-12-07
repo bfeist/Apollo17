@@ -1409,7 +1409,7 @@ function setSplashHistoricalSubtext() {
 
     if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-        $('.historicalSubtext').text("Mission Anniversary. 43 years ago to the second.");
+        $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>43 years ago to the second.");
     } else {
         $('.historicalSubtext').text("(43 years ago)");  //todo make this calculate how many years ago
     }
