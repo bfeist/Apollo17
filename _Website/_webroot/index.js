@@ -1399,8 +1399,8 @@ function initSplash() {
 function setSplashHistoricalSubtext() {
     var launchDate = Date.parse("1972-12-07 0:33am -500");
     var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-    //var currDate = Date.parse("1972-12-10 0:33am -500");
-    var currDate = Date.now();
+    var currDate = Date.parse("1972-12-10 0:33am -500");
+    //var currDate = Date.now();
 
     var currDate_ms = currDate.getTime();
     var countdownStartDate_ms = countdownStartDate.getTime();

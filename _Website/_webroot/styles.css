@@ -1331,6 +1331,17 @@ body.app-ready .splash-btn.subdued.selected {
     background-color: #c0c0c0;
 }
 
+body.app-ready .splash-btn.activated {
+    background-color: #ffffff;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+body.app-ready .splash-btn.activated:hover,
+body.app-ready .splash-btn.activated:active,
+body.app-ready .splash-btn.activated.selected {
+    background-color: #c0c0c0;
+}
+
 
 .blink_me {
     animation: blinker 0.2s linear 2;
