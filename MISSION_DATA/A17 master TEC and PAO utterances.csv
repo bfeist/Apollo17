@@ -2525,7 +2525,7 @@
 |023:38:28|LMP|Where is that?
 |023:38:29|CC|Very close to Honeysuckle.
 ||||Tape 18/11|Page 157
-|023:38:33|LMP|Well, how you doing - how you doing mikes? We certainly appreciate you guys being on the loop for this one.
+|023:38:33|LMP|Well, how you doing - how you doing mates? We certainly appreciate you guys being on the loop for this one.
 |023:39:23|PAO|That new 210 foot dish antenna at Tidbinbilla, which is near Honeysuckle Creek, which in turn is near Canberra, now online and accounting for our excellent signal strength from the spacecraft. Apollo 17 at this time is 96,958 nautical miles from Earth. The speed is 5,233 feet per second.
 |023:40:01|CC|17, Houston. We'd like ACCEPT, and we'll update your gyro drift, the pitch, roll, and yaw drifts.
 |023:40:12|CDR|Okay, got ACCEPT and P00.
@@ -2580,7 +2580,7 @@
 |024:06:27|CDR|Okay, Bob. We're in our - we're on our damping cycle now.
 |024:06:34|CC|Roger. We're watching you, Gene.
 |024:08:16|PAO|This is Apollo Control. We're in the midst of turning over the shift now to Mission Control, to the team of Flight Director, Pete Frank. Gene Kranz and his team will be going off shift in about 25 minutes. we do not plan to have a change of shift Press Briefing. The crew aboard Apollo 17 is scheduled to begin an 8 hour sleep period in a little less than one hour at a Ground Elapsed Time of 25 hours. And we have no major activities in the flight plan before that time. At 24 hours 9 minutes, this is Apollo Control, Houston.
-|024:12:13|CDR|Bob, I just hit the control stick. It's locked again in roll; it may have burnped it a little bit.
+|024:12:13|CDR|Bob, I just hit the control stick. It's locked again in roll; it may have bumped it a little bit.
 |024:12:20|CC|Roger, Gene. We copy.
 ||||Tape 19/1|Page 161
 |024:17:15|LMP|Houston, 17. Okay if we CLOSE the waste stowage vent now? Oh, okay. I'm sorry. It's CLOSED.
@@ -3054,23 +3054,23 @@
 |037:43:14|CDR|Gordo, 2.9.
 |037:43:18|CC|Okay. Sounds good.
 |037:44:16|CDR| ...
-|037:44:30|CDR|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
+|037:44:30|LMP|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
 |037:44:45|CC|Okay. We're still trying to get the answer on whether you'll have a window. Stand by. I might have it here.
 |037:50:05|CC|America, Houston.
-|037:50:09|CDR|Go ahead.
+|037:50:09|LMP|Go ahead.
 |037:50:11|CC|Okay. The LM inspection attitude that you'll go to results in kind of a marginal view of the Earth out of window 1, about 60 degrees away from it, bore-sight line of sight. And we're - we can - we've started to work on and if you wanted to do is you can go to kind of intermediate attitude, which will be the LM attitude except for roll which will be off by about 60 degrees, which will - will give you a good view of the Earth out of window 1. And then when we get ready to do the LM entry, you can roll that additional 60 degrees to get to the proper attitude, if you wish. Your choice. Over.
 ||||Tape 27/3|Page 193
-|037:50:58|CDR|Yes, if that doesn't bother anybody down there, we'd like to do that.
+|037:50:58|LMP|Yes, if that doesn't bother anybody down there, we'd like to do that.
 |037:51:03|CC|Okay. We'll have something for you here in a few minutes.
 |037:54:00|CC|Okay. If you're ready to copy, I have a VERB 49 maneuver for you that will let you look at the Earth.
-|037:54:11|CDR|Wait a minute, Gordo, and I'll just let you load it as we go here.
+|037:54:11|CMP|Wait a minute, Gordo, and I'll just let you load it as we go here.
 |037:54:15|CC|All right.
-|037:54:27|CDR|Okay; ready to copy.
+|037:54:27|CMP|Okay; ready to copy.
 |037:54:29|CC|Okay. Roll is 240, pitch is 089, and yaw is 0. And the high gain for that attitude, we think it'll probably track to this attitude, is plus 29 and 27.
-|037:54:57|CDR|Okay. Plus 29 and 27.
+|037:54:57|CMP|Okay. Plus 29 and 27.
 |037:55:00|CC|Roger.
 |037:59:18|CC|America, Houston. Until you get the attitude, OMNI Charlie will probably work better.
-|037:59:35|CDR|Okay, Gordy. We got you OMNI Charlie now.
+|037:59:35|LMP|Okay, Gordy. We got you OMNI Charlie now.
 |037:59:37|CC|Okay; loud and clear.
 |038:05:15|LMP|Gordy, for your information we have our LM transfer items in the jettison bag ready to go over and we're pretty well squared away on the, all the command module stowage now with minor exceptions.
 ||||Tape 28/1|Page 194
@@ -20653,7 +20653,7 @@
 |158:12:57|CC|Roger.
 |158:15:56|CMP|Okay, by the way, mag Lima Lima is empty. 165 frames showing there. Started mag Mike Mike with frame number 95. Finished the orbital science at 142. Took the crazy camera at f/5.6 at 1/125. When I got ready to change to f/5.6 at 1/250, I looked at the crazy thing and it was setting at f/11. Maybe those first frames in there, maybe they can develop them a little different or something and still bring - get them to come out.
 |158:17:00|CC|Okay, Ron. We got that.
-|158:17:09|CMP|I think what happens is I must have been holding the thing by the lens or something or I burnped the - the f-stop thing somehow.
+|158:17:09|CMP|I think what happens is I must have been holding the thing by the lens or something or I bumped the - the f-stop thing somehow.
 |158:17:28|CC|Ron, we're ready for PAN CAMERA POWER to OFF. And did you go to HEATERS after you set the SELF TEST switch to SELF TEST, when we started this?
 |158:17:43|CMP|No, I just went back to to OFF. Was I supposed to go to HEATERS?
 |158:17:53|CC|Okay, we'd like it in HEATERS, now.
