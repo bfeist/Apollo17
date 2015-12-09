@@ -853,6 +853,18 @@ canvas[resize] {
     padding-left: 9%;
       text-align: right;
 }
+
+.help-overlay.body .quote a {
+    /*font-size: 1.05em;*/
+    color: #5E92A6;
+    /*line-height: 20px;*/
+    text-decoration: none;
+}
+
+.help-overlay.body .quote a:hover {
+    text-decoration: underline;
+}
+
 .help-overlay.body .credits {
   width: 40%;
   /*padding-right: 5%;*/

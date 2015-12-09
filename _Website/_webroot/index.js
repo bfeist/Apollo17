@@ -337,13 +337,13 @@ function historicalButtonClick() {
     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
-    repopulateUtterances(nearestHistTimeId);
+    repopulateUtterances(findClosestUtterance(timeIdToSeconds(nearestHistTimeId)));
     repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
     fadeOutSplash();
     seekToTime(nearestHistTimeId);
-    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
-    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
-    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+    //scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+    //scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+    //scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
 }
 
 function oneMinuteToLaunchButtonClick() {
@@ -648,7 +648,7 @@ function flashTab(tabName, tabNum, flashColor) {
 // <editor-fold desc="utterance and commentary chunking code------------------------------------------------">
 
 function repopulateUtterances(timeId) {
-    var utteranceIndex = gUtteranceDataLookup[findClosestUtterance(timeIdToSeconds(timeId))];
+    var utteranceIndex = gUtteranceDataLookup[timeId]; //must be a timeId that exists in the transcripts
     var utteranceTable = $('#utteranceTable');
     utteranceTable.html('');
     var startIndex = utteranceIndex - 50;
@@ -660,7 +660,14 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
-    $('#utteranceDiv').scrollTop('#uttid' + timeId);
+    //$('#utteranceDiv').scrollTop('#uttid' + timeId);
+    var utteranceDiv = $('#utteranceDiv');
+    var highlightedTranscriptElement = $(".uttid" + timeId);
+    var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
+    utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+        //trace('Finished animating: ' + scrollDestination);
+        //trimUtterances();
+    });
 }
 
 function prependUtterances(count, atTop) {
@@ -784,7 +791,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
 
 function repopulateCommentary(timeId) {
     //console.log("repopulateCommentary:" + timeId);
-    var commentaryIndex = gCommentaryDataLookup[findClosestCommentary(timeIdToSeconds(timeId))];
+    var commentaryIndex = gCommentaryDataLookup[timeId]; //must be a timeId that exists in the commentary transcripts
     var commentaryTable = $('#commentaryTable');
     commentaryTable.html('');
     var startIndex = commentaryIndex - 50;
@@ -796,7 +803,14 @@ function repopulateCommentary(timeId) {
     }
     gCommentaryDisplayStartIndex = startIndex;
     gCommentaryDisplayEndIndex = endIndex;
-    $('#commentaryDiv').scrollTop('#comid' + timeId);
+    //$('#commentaryDiv').scrollTop('#comid' + timeId);
+    var commentaryDiv = $('#commentaryDiv');
+    var highlightedCommentaryElement = $(".comid" + timeId);
+    var newScrollDestination = commentaryDiv.scrollTop() + highlightedCommentaryElement.offset().top - commentaryDiv.offset().top;
+    commentaryDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
+        //trace('Finished animating: ' + scrollDestination);
+        //trimUtterances();
+    });
 }
 
 function prependCommentary(count, atTop) {
