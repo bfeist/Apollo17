@@ -2376,7 +2376,7 @@
 0233824|CC|That's affirmative. It's very close to the Honeysuckle base - -
 0233828|LMP|Where is that?
 0233829|CC|Very close to Honeysuckle.
-0233833|LMP|Well, how you doing - how you doing mikes? We certainly appreciate you guys being on the loop for this one.
+0233833|LMP|Well, how you doing - how you doing mates? We certainly appreciate you guys being on the loop for this one.
 0233923|PAO|That new 210 foot dish antenna at Tidbinbilla, which is near Honeysuckle Creek, which in turn is near Canberra, now online and accounting for our excellent signal strength from the spacecraft. Apollo 17 at this time is 96,958 nautical miles from Earth. The speed is 5,233 feet per second.
 0234001|CC|17, Houston. We'd like ACCEPT, and we'll update your gyro drift, the pitch, roll, and yaw drifts.
 0234012|CDR|Okay, got ACCEPT and P00.
@@ -2428,7 +2428,7 @@
 0240627|CDR|Okay, Bob. We're in our - we're on our damping cycle now.
 0240634|CC|Roger. We're watching you, Gene.
 0240816|PAO|This is Apollo Control. We're in the midst of turning over the shift now to Mission Control, to the team of Flight Director, Pete Frank. Gene Kranz and his team will be going off shift in about 25 minutes. we do not plan to have a change of shift Press Briefing. The crew aboard Apollo 17 is scheduled to begin an 8 hour sleep period in a little less than one hour at a Ground Elapsed Time of 25 hours. And we have no major activities in the flight plan before that time. At 24 hours 9 minutes, this is Apollo Control, Houston.
-0241213|CDR|Bob, I just hit the control stick. It's locked again in roll; it may have burnped it a little bit.
+0241213|CDR|Bob, I just hit the control stick. It's locked again in roll; it may have bumped it a little bit.
 0241220|CC|Roger, Gene. We copy.
 0241715|LMP|Houston, 17. Okay if we CLOSE the waste stowage vent now? Oh, okay. I'm sorry. It's CLOSED.
 0241723|CC|Roger, 17.
@@ -2870,22 +2870,22 @@
 0374314|CDR|Gordo, 2.9.
 0374318|CC|Okay. Sounds good.
 0374416|CDR| ...
-0374430|CDR|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
+0374430|LMP|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
 0374445|CC|Okay. We're still trying to get the answer on whether you'll have a window. Stand by. I might have it here.
 0375005|CC|America, Houston.
-0375009|CDR|Go ahead.
+0375009|LMP|Go ahead.
 0375011|CC|Okay. The LM inspection attitude that you'll go to results in kind of a marginal view of the Earth out of window 1, about 60 degrees away from it, bore-sight line of sight. And we're - we can - we've started to work on and if you wanted to do is you can go to kind of intermediate attitude, which will be the LM attitude except for roll which will be off by about 60 degrees, which will - will give you a good view of the Earth out of window 1. And then when we get ready to do the LM entry, you can roll that additional 60 degrees to get to the proper attitude, if you wish. Your choice. Over.
-0375058|CDR|Yes, if that doesn't bother anybody down there, we'd like to do that.
+0375058|LMP|Yes, if that doesn't bother anybody down there, we'd like to do that.
 0375103|CC|Okay. We'll have something for you here in a few minutes.
 0375400|CC|Okay. If you're ready to copy, I have a VERB 49 maneuver for you that will let you look at the Earth.
-0375411|CDR|Wait a minute, Gordo, and I'll just let you load it as we go here.
+0375411|CMP|Wait a minute, Gordo, and I'll just let you load it as we go here.
 0375415|CC|All right.
-0375427|CDR|Okay; ready to copy.
+0375427|CMP|Okay; ready to copy.
 0375429|CC|Okay. Roll is 240, pitch is 089, and yaw is 0. And the high gain for that attitude, we think it'll probably track to this attitude, is plus 29 and 27.
-0375457|CDR|Okay. Plus 29 and 27.
+0375457|CMP|Okay. Plus 29 and 27.
 0375500|CC|Roger.
 0375918|CC|America, Houston. Until you get the attitude, OMNI Charlie will probably work better.
-0375935|CDR|Okay, Gordy. We got you OMNI Charlie now.
+0375935|LMP|Okay, Gordy. We got you OMNI Charlie now.
 0375937|CC|Okay; loud and clear.
 0380515|LMP|Gordy, for your information we have our LM transfer items in the jettison bag ready to go over and we're pretty well squared away on the, all the command module stowage now with minor exceptions.
 0380529|CC|Okay.
@@ -3031,7 +3031,7 @@
 0393757|CC|Okay, a good observation.
 0393805|CMP|EMERGENCY CABIN selector to OFF. We got to unbolt it down there somewhere. Underneath the commander's couch. Okay.
 0393838|CMP|REPRESS PACKAGE valve OFF, should be OFF.
-0393852|CMP|Okay; verify DIRECT O2 is CLOSED. Okay; TUNNEL VENT VALVE, LM/C0MMAND MODULE DELTA-P. Okay, it's greater than 3.1. It's up around 3-6.
+0393852|CMP|Okay; verify DIRECT O2 is CLOSED. Okay; TUNNEL VENT VALVE, LM/COMMAND MODULE DELTA-P. Okay, it's greater than 3.1. It's up around 3-6.
 0393938|CMP|Okay, we're going to open the pressure equalization valves.
 0394109|CMP|Okay. DELTA-P is 2-1/2.
 0394112|LMP|And, Gordy, battery A charge has been stopped and the battery compartment pressure is still reading 0.6.
@@ -3964,7 +3964,7 @@
 0474943|CC|Well, things have been going so well that I can't blame you forgetting that.
 0474953|LMP|... Stanley Holloway's crazy Flight Plan updates that we've just forgotten that we were ever late.
 0475000|CC|Roger. Say, by the way, we like the music in the background. Sounds pretty good.
-0475001|LMP|Yes, we sort of - didn't - we didn't get it out at all until today. [Music: Whipped Cream by Al Hirt] I don't know whether we forgot about it or too many other learning things going on. It's - it's quite pleasant.
+0475009|LMP|Yes, we sort of - didn't - we didn't get it out at all until today. [Music: Whipped Cream by Al Hirt] I don't know whether we forgot about it or too many other learning things going on. It's - it's quite pleasant.
 0475023|CC|Roger. I don't think you forgot about it. I think you were just glued to those windows.
 0475030|LMP|Well, I still am, as a matter of fact. The old Earth's coming by. And, say, I mentioned a couple of fronts that joined together about 20 degrees south of - of - the south coast of Australia. And it looks like that's a fairly healthy storm center developing down in there - conceivably may migrate up across Tasmania and maybe up - up the Sydney-Brisbane coastal area in the next few days.
 0475107|CC|Roger. Where is the exact center of that, Jack? it took me a second to get my prog out here.
@@ -3977,8 +3977,8 @@
 0475243|CC|Roger.
 0475320|CC|17, Houston. Are you into your pre -
 0475342|CC|17, Houston. Are you into your presleep checklist ...?
-0475354|CC|17, Houston. Are you into your presleep checklist now?
-0475402|CDR|We're just about ready to get started, Bob. We're running a little bit behind, but - we'll catch up here.
+0475454|CC|17, Houston. Are you into your presleep checklist now?
+0475502|CDR|We're just about ready to get started, Bob. We're running a little bit behind, but - we'll catch up here.
 0475508|CC|Okay. No sweat.
 0475516|LMP|(Music) Trying to get some more of this good food down.
 0475519|CC|Roger. Keep saying those words. The people on my left appreciate that.
@@ -19418,7 +19418,7 @@
 1581257|CC|Roger.
 1581556|CMP|Okay, by the way, mag Lima Lima is empty. 165 frames showing there. Started mag Mike Mike with frame number 95. Finished the orbital science at 142. Took the crazy camera at f/5.6 at 1/125. When I got ready to change to f/5.6 at 1/250, I looked at the crazy thing and it was setting at f/11. Maybe those first frames in there, maybe they can develop them a little different or something and still bring - get them to come out.
 1581700|CC|Okay, Ron. We got that.
-1581709|CMP|I think what happens is I must have been holding the thing by the lens or something or I burnped the - the f-stop thing somehow.
+1581709|CMP|I think what happens is I must have been holding the thing by the lens or something or I bumped the - the f-stop thing somehow.
 1581728|CC|Ron, we're ready for PAN CAMERA POWER to OFF. And did you go to HEATERS after you set the SELF TEST switch to SELF TEST, when we started this?
 1581743|CMP|No, I just went back to to OFF. Was I supposed to go to HEATERS?
 1581753|CC|Okay, we'd like it in HEATERS, now.
