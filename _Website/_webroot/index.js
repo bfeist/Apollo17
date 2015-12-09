@@ -337,8 +337,8 @@ function historicalButtonClick() {
     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
     onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
-    repopulateUtterances(findClosestUtterance(timeIdToSeconds(nearestHistTimeId)));
-    repopulateCommentary(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
+    //scrollTranscriptToTimeId(findClosestUtterance(timeIdToSeconds(nearestHistTimeId)))
+    //scrollCommentaryToTimeId(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
     fadeOutSplash();
     seekToTime(nearestHistTimeId);
     //scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
@@ -356,6 +356,33 @@ function oneMinuteToLaunchButtonClick() {
     fadeOutSplash();
     initializePlayback();
 }
+
+// <editor-fold desc="initializePlayback ---------------">
+
+function initializePlayback() {
+    trace("initializePlayback()");
+    if (gMissionTimeParamSent == 0) {
+        //repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId))); //jump to default start time (usually 1 minute to launch)
+        //repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
+        seekToTime(gDefaultStartTimeId);
+    } else {
+        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        if (paramMissionTime == 'rt') {
+            historicalButtonClick();
+        } else {
+            window.clearInterval(gIntroInterval);
+            gIntroInterval = null;
+            //repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
+            //repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
+            seekToTime(timeStrToTimeId(paramMissionTime));
+        }
+    }
+    clearInterval(gApplicationReadyIntervalID);
+    gApplicationReadyIntervalID = null;
+    gIntervalID = setAutoScrollPoller();
+}
+
+// </editor-fold>
 
 function fadeOutSplash() {
     trace('fadeOutSplash');
@@ -545,8 +572,10 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
 
         gCurrentHighlightedCommentaryIndex = gCommentaryDataLookup[timeId];
 
-        //check if timeId is already loaded into commentary div
-        if (gCommentaryDataLookup[timeId] < gCommentaryDisplayStartIndex + 49) { //prepend
+        if (typeof gCommentaryDisplayStartIndex == 'undefined') {
+            repopulateCommentary(timeId);
+            //check if timeId is already loaded into commentary div
+        } else if (gCommentaryDataLookup[timeId] < gCommentaryDisplayStartIndex + 49) { //prepend
             var prependCount = (gCommentaryDisplayStartIndex - gCommentaryDataLookup[timeId]) + 50;
             if (prependCount > 50) {
                 repopulateCommentary(timeId);
@@ -578,7 +607,7 @@ function scrollCommentaryToTimeId(timeId) { //timeid must exist in commentary
     }
 }
 
-function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
+function scrollTranscriptToTimeId(timeId) {
     //if (gUtteranceDataLookup[timeId] !== undefined) {
     if (gUtteranceDataLookup.hasOwnProperty(timeId)) {
     //if ($.inArray(timeId, gUtteranceIndex) != -1) {
@@ -588,8 +617,11 @@ function scrollTranscriptToTimeId(timeId) { //timeid must exist in transcript
 
         gCurrentHighlightedUtteranceIndex = gUtteranceDataLookup[timeId];
 
-        //check if timeId is already loaded into utterance div
-        if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend - always have 50 lines above current time
+        //check if utteranceDiv is empty
+        if (typeof gUtteranceDisplayStartIndex == 'undefined') {
+            repopulateUtterances(timeId);
+            //check if timeId is already loaded into utterance div
+        } else if (gUtteranceDataLookup[timeId] < gUtteranceDisplayStartIndex + 49) { //prepend - always have 50 lines above current time
             var prependCount = (gUtteranceDisplayStartIndex - gUtteranceDataLookup[timeId]) + 50;
             if (prependCount > 50) {
                 repopulateUtterances(timeId);
@@ -660,14 +692,7 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
-    //$('#utteranceDiv').scrollTop('#uttid' + timeId);
-    var utteranceDiv = $('#utteranceDiv');
-    var highlightedTranscriptElement = $(".uttid" + timeId);
-    var newScrollDestination = utteranceDiv.scrollTop() + highlightedTranscriptElement.offset().top - utteranceDiv.offset().top;
-    utteranceDiv.animate({scrollTop: newScrollDestination}, '1000', 'swing', function () {
-        //trace('Finished animating: ' + scrollDestination);
-        //trimUtterances();
-    });
+    $('#utteranceDiv').scrollTop('#uttid' + timeId);
 }
 
 function prependUtterances(count, atTop) {
@@ -1126,33 +1151,6 @@ function loadPhotoHtml(photoIndex) {
 //        image.css("width", width * ratio);    // Scale width based on ratio
 //    }
 //}
-
-// </editor-fold>
-
-// <editor-fold desc="initializePlayback ---------------">
-
-function initializePlayback() {
-    trace("initializePlayback()");
-    if (gMissionTimeParamSent == 0) {
-        repopulateUtterances(findClosestUtterance(timeIdToSeconds(gDefaultStartTimeId))); //jump to default start time (usually 1 minute to launch)
-        repopulateCommentary(findClosestCommentary(timeIdToSeconds(gDefaultStartTimeId)));
-        seekToTime(gDefaultStartTimeId);
-    } else {
-        var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
-        if (paramMissionTime == 'rt') {
-            historicalButtonClick();
-        } else {
-            window.clearInterval(gIntroInterval);
-            gIntroInterval = null;
-            repopulateUtterances(findClosestUtterance(timeStrToSeconds(paramMissionTime)));
-            repopulateCommentary(findClosestCommentary(timeStrToSeconds(paramMissionTime)));
-            seekToTime(timeStrToTimeId(paramMissionTime));
-        }
-    }
-    clearInterval(gApplicationReadyIntervalID);
-    gApplicationReadyIntervalID = null;
-    gIntervalID = setAutoScrollPoller();
-}
 
 // </editor-fold>
 
