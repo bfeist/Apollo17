@@ -188,6 +188,9 @@
         <li onclick="parent.seekToTime('0841245')" class="tocitem" id="tocid0841245"><span class="TOCTimestamp">084:12:45</span>
         <span class="TOC_item">Scientific instrument module door jettison</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0861215')" class="tocitem" id="tocid0861215"><span class="TOCTimestamp">086:12:15</span>
+        <span class="TOC_item">Loss of communication with Mission Control</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0864630')" class="tocitem" id="tocid0864630"><span class="TOCTimestamp">086:46:30</span>
         <span class="TOC_item">Crew can see the moon for the first time</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
