@@ -44,7 +44,7 @@
 -002509|LMP|MARK it.
 -002438|PAO|This is Apollo Saturn Launch Control. We're now holding at the 8 minute mark as planned. The hold at this time is planned for approximately 20 minutes. The crew feels that they have, that they have a work around to the problem, working around the indication going to the terminal sequencer that the tank has not been pressurized, when actually it had been done manually. They are checking all of their data, however, to insure that this is the proper method to work around the problem and that this will result in a smooth countdown from here on. Now at T-minus 8 minutes and holding, this is Kennedy Launch Control.
 -002413|CDR|Okay, we'll be looking for them.
--002341|PAO|This is Apollo Saturn Launch Control. We're continuing our hold at the 8 minute mark. The launch operations manager has gone over with the launch team their proposed solution a work around. The team appears to be satisfied that it is the proper one. They are now briefing management personnel on the problem and the work around. Out at the pad the liquid oxygen continues to vent from the vehicle and is replenished. Liquid hydrogen is also vented from the vehicle as there is some boil off. However, because it is quite a volatile fuel it is vented through a burnpond at the side of the pad. That burnpond is at the north side of the pad and there it can be seen burning in a controlled condition at this time. This is a normal condition, actually during the day this burns in such a pure manner that it cannot be seen. However, at night it is clearly visible. Our countdown continuing to hold at the T-minus 8 minute mark at this time. T-minus 8 minutes and holding this is Kennedy Launch Control.
+-002341|PAO|This is Apollo Saturn Launch Control. We're continuing our hold at the 8 minute mark. The launch operations manager has gone over with the launch team their proposed solution a work around. The team appears to be satisfied that it is the proper one. They are now briefing management personnel on the problem and the work around. Out at the pad the liquid oxygen continues to vent from the vehicle and is replenished. Liquid hydrogen is also vented from the vehicle as there is some boil off. However, because it is quite a volatile fuel it is vented through a burn-pond at the side of the pad. That burn-pond is at the north side of the pad and there it can be seen burning in a controlled condition at this time. This is a normal condition, actually during the day this burns in such a pure manner that it cannot be seen. However, at night it is clearly visible. Our countdown continuing to hold at the T-minus 8 minute mark at this time. T-minus 8 minutes and holding this is Kennedy Launch Control.
 -002225|PAO|This is Apollo Saturn Launch Control. We're continuing to hold at the T-8 minute mark. Me an time the crew is getting a variety of updates in the spacecraft, updating them on various aspects and the changes to their mission due to this hold period. Also, at the Manned Spacecraft Center they are continuing to update the flight azimuth as they get new times for the launch. Launch Operations Manager Paul Donnelly just went through quite an extensive briefing with the spacecraft test conductor to pass on to the crew what they feel the problems were and how they plan to work around it. The crew aboard the spacecraft indicated that if the launch team was satisfied with these solutions, that they certainly were confident themselves. Now continuing our hold at the T-minus 8 minute mark this is Kennedy Test Control.
 -002158|CDR|Okay, understand; full retract.
 -002147|CDR|Skipper, thank you. We - we plan to, babe.
@@ -3854,7 +3854,7 @@
 0463442|CMP|Okay. We'll get that as soon as I get this out of the way. Okay?
 0463445|CC|Sure. While you're back there - Panel 100 and that - you might park the optics. We see they're not in ZERO.
 0463500|CMP|Okay.
-0463502|CC|And along that same line, Ron, we did notice several times while people were watching through the optics that they went to ZERO. And it's no problem if the rates are low, but just a reminder that we don't want to burnp them into the stops with any kind of a rate.
+0463502|CC|And along that same line, Ron, we did notice several times while people were watching through the optics that they went to ZERO. And it's no problem if the rates are low, but just a reminder that we don't want to bump them into the stops with any kind of a rate.
 0463525|CMP|Yes. I concur with that, Bob. I guess I didn't realize we were doing that.
 0463531|CC|We just picked up some data points down here that people - You were all looking around, I guess, and you might - it's easy to miss that TRUNNION going to ZERO, I guess.
 0463548|LMP|Houston, 17.
@@ -4417,7 +4417,7 @@
 0621602|CC|Okay, we'll take a look at the currents now.
 0621803|CC|America, it's your computer, and we did the VERB 66.
 0621811|CDR|Okay.
-0622902|CDR|Say, Gordo, what's the trend in thinking on that SPS light - to leave it lit or to burnp the pressure up?
+0622902|CDR|Say, Gordo, what's the trend in thinking on that SPS light - to leave it lit or to bump the pressure up?
 0622912|CC|Well, I - Ed Mitchell must be at work, because we were just talking about that subject. I'll call you when they come up with a final decision.
 0622926|CDR|Okay. And Ron has put the - has closed LM hatch. He's put the drogue in. He's put the probe in, and he's putting the CSM hatch in as a one-man exercise - suited. So he's doing the whole thing, and he's still in his suit. Our suits are stowed.
 0622947|CC|Okay, Gene. We got one question here, that - just - just waiting for a convenient time to ask, and that was - wondered if, with reference to the wakeup problems we had this morning, if you'd clarify just exactly why Ron didn't hear our crew-alert MASTER ALARM. You know exactly why?
@@ -4645,7 +4645,7 @@
 0674634|CC|Okay, stand by 1 on that - on our end. We're done with the - we're done with the upload. The computer is yours, and we need a read-out on the TFM.
 0674646|LMP|Okay, that's in work.
 0674655|CC|Okay, we've got the read-out.
-0675005|CC|17, Houston. The data looks good, and you're GO to copy it, and recommend you copy it into the Plight Plan Supplement. And that's on page 1-43 of the supplement.
+0675005|CC|17, Houston. The data looks good, and you're GO to copy it, and recommend you copy it into the Flight Plan Supplement. And that's on page 1-43 of the supplement.
 0675021|LMP|Okay, Houston. We have it.
 0675149|CC|And, 17, we got that flyby pad now. If you're still ready, we're ready.
 0675203|LMP|Okay. is this a full pad or just a change to the other one?
@@ -4691,17 +4691,17 @@
 0680720|CDR|Okay, Bob. For the ALFMED, CDR will be in the left seat. CMP will be in the center seat with the ALFMED. For our reporting, when we get the VOX, we'll just call out our first names to shorten it and the comments following. And Jack will be recording.
 0680743|CC|Roger. We'll be listening.
 0680751|PAO|That's the Apollo Light Flash Moving Emulsion Detector, associated with the visual light flash phenomenon that most crews have reported on past missions, seeing points of light in their eyes, when their eyes were closed. There are a couple of theories proposed on the origin of the flashes. One is that they are caused by cosmic rays. The other is that they are high energy atomic particles which enter the eyeball or ionize upon collision with retina or cerebral cortex. The ALFMED is an emulsion plate device that Ron Evans will wear. It will cover the front and sides of his head and will provide information on time, strength and path of particles penetrating the emulsion plates. The other two crewmen will wear eye shields. This test will last for approximately an hour. And the data on the - recorded by the ALFMED device will be correlated with the crewmen's verbal reports on flash observations.
-0681100|CMP|Okay, wait a minute. Houston, how do you read on VOX with the lightweight headset?
-0681107|CC|Read you loud and clear, Ron.
-0681110|CMP|Okay.
-0681124|CMP|Yes. Wait a minute. Let me get this little old box set to go here, first.
-0681130|CC|Okay.
-0681140|CMP|Yes.
-0681211|CMP|Okay, UTILITY POWER is OFF.
-0681221|SC|Yes. POWER switch is OFF. Okay, it's connected, now.
-0681234|CMP|Okay, UTILITY POWER is ON. Okay, let me get strapped in here, somehow, or I'll float all over.
-0681418|CMP|(Music) Okay, let's see.
-0681432|CMP|Uh huh, I think I can.
+0681052|CMP|Okay, wait a minute. Houston, how do you read on VOX with the lightweight headset?
+0681055|CC|Read you loud and clear, Ron.
+0681059|CMP|Okay.
+0681112|CMP|Yes. Wait a minute. Let me get this little old box set to go here, first.
+0681119|CC|Okay.
+0681129|CMP|Yes.
+0681200|CMP|Okay, UTILITY POWER is OFF.
+0681210|SC|Yes. POWER switch is OFF. Okay, it's connected, now.
+0681223|CMP|Okay, UTILITY POWER is ON. Okay, let me get strapped in here, somehow, or I'll float all over.
+0681408|CMP|(Music) Okay, let's see.
+0681421|CMP|Uh huh, I think I can.
 0681449|CMP|Okay, my blindfold's going on, now.
 0681509|CMP|Okay. Sounds like they clipped. Okay, somebody will have to help me put this thing on now; yes, just kind of - like so, yes. It goes around the old ...
 0681618|SC|... yes, but you ought to ... kind of maintain your head in the same position, if you can.
@@ -5181,7 +5181,7 @@
 0713132|CC|Okay. That - I can't tie up with you on that one, Jack, because my prog doesn't go down that far; it only stays up in the landing area. And my satellite photo doesn't go down that far south either. So, I can't touch up with you on that one.
 0713149|LMP|Okay. Well, it - it looked stronger yesterday, and it might have developed. Now there is a larger disturbance at the southeastern end of that front, still south of Tasmania; although, I suspect, unless it stays on a pretty northerly course, it will not affect the weather on the east coast of Australia very much.
 0713215|CC|Roger.
-0713304|CC|Jack, just thought you might be interested. I called same friends of yours in Tucson, and everybody's fine there and wanted to say hello and tell you everybody's fine and getting along real good.
+0713304|CC|Jack, just thought you might be interested. I called some friends of yours in Tucson, and everybody's fine there and wanted to say hello and tell you everybody's fine and getting along real good.
 0713320|LMP|Thank you very much. Good to hear. They've learned to take care of themselves pretty well, haven't they?
 0713325|CC|They sure have. They - they're - they're having a little trouble with the squawk box, and we'll get working on that and it's - they're having trouble reading a little bit, but they're keeping up with us.
 0713335|LMP|That's nothing new.
@@ -27961,7 +27961,7 @@
 2140939||Well, we must be copying the heartbeat of the America or something, then.
 2140952|LMP|How does it look? Maybe we ought to use it instead of mine.
 2141002|CC|America's ticker is doing fine - along with everything else.
-2141015|CDR|Okay, Houston. This is America. I've a Plight Plan change for you if you're ready to copy.
+2141015|CDR|Okay, Houston. This is America. I've a Flight Plan change for you if you're ready to copy.
 2141022|CC|Okay, ready to copy.
 2141028|CDR|Okay, if you'll turn to page 3-26 at 217:52.
 2141037|CC|Okay, go ahead.
@@ -31747,7 +31747,7 @@
 2663337|LMP|Okay, we got that.
 2663339|CC|And there'll be no cryo stir necessary. You can leave the OPTICs power switch ON, which will increase the heat input and keep it a little bit warmer in there. You won't have to turn that off per the presleep checklist, if you don't wish to. We are going to change the biomed - -
 2663359|LMP|Okay.
-2663359|CC|- - tomorrow, in deference to the CDRs intimated request anyway, and let the CMP take the next shift where in the Flight Plan it now calls for the CDR. It was really our mistake on the original change. I guess there's no need to call all those detailed Flight Plan changes now unless you want to copy them. A reminder also, prior to going to sleep, to burnp the cabin up to 5.7 with the OPS to start getting the gas out of the OPS. And I checked with the remaining two homefronts, Jack. Your - I talked to your mother and sister. Everybody's fine there, and they watched the top of your head a little bit this afternoon on the EVA. They're looking forward to seeing you tomorrow on the press conference and back on Earth shortly thereafter. I got one from Nassau Bay, too, if the commander's listening.
+2663359|CC|- - tomorrow, in deference to the CDRs intimated request anyway, and let the CMP take the next shift where in the Flight Plan it now calls for the CDR. It was really our mistake on the original change. I guess there's no need to call all those detailed Flight Plan changes now unless you want to copy them. A reminder also, prior to going to sleep, to bump the cabin up to 5.7 with the OPS to start getting the gas out of the OPS. And I checked with the remaining two homefronts, Jack. Your - I talked to your mother and sister. Everybody's fine there, and they watched the top of your head a little bit this afternoon on the EVA. They're looking forward to seeing you tomorrow on the press conference and back on Earth shortly thereafter. I got one from Nassau Bay, too, if the commander's listening.
 2663518|CDR|He's listening.
 2663520|CC|Okay, Gene. Your mother and family have arrived. They - in fact, they just walked in from a party with Barbara. They all wish you to hurry home and send their love. Over.
 2663926|LMP|Houston, how do you read 17?
