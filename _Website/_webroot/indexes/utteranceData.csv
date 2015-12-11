@@ -5890,7 +5890,7 @@
 0864636|CDR|I've got the limb of the Moon out the - got it out the center hatch and we're just barely seeing a - barely seeing the horizon of the Moon. But, boy, is it big.
 0864652|CC|Roger.
 0864653|CMP|Well, that must be a - what - you know, talk about a sliver of the Moon, that is a sliver of a sliver.
-0864703|CDR|Gordo, we're coming in right down on top of it. What's our perigee, did you say? 73 miles?
+0864703|CDR|Gordo, we're coming in right down on top of it. What's our perigee, did you say? 53 miles?
 0864711|CC|Roger. That's about right. Don't worry, you'll miss it.
 0864717|CDR|I just want to hear you say it because I'm going to hold you to it.
 0864733|CDR|As long as you shadow your eyes from the Sun - the Sun is just about laying on the horizon of the Moon, and as a matter of fact, as I watch it, I can watch the horizon - the amount of - of daylight terminator get larger.
@@ -5917,7 +5917,7 @@
 0865758|LMP|My goodness.
 0865833|CDR|Gordy, it doesn't look like I had a chance to go to church today, but under the circumstances I guess it'll be okay. Next time you see the good Father you might have him put a good word in for us.
 0865846|CC|Okay, I'll do that.
-0870756|LMP|Gordy, is - in our present attitude I'm seeing the lip of the Moon convex down toward our minus X axis. That's out of the hatch window. Can you tell me which is the north and which is the south pole?
+0870756|CDR|Gordy, is - in our present attitude I'm seeing the lip of the Moon convex down toward our minus X axis. That's out of the hatch window. Can you tell me which is the north and which is the south pole?
 0870820|CC|Okay. Stand by.
 0870826|CDR|Yes, I'd be all squared away if - if the Moon were on Jack's side, because he's got that end on his head, but I'm a little mixed up now.
 0870834|CC|Roger. I understand your problem.
@@ -5929,7 +5929,7 @@
 0871107|CC|That's affirm. I'm with you, and I'm getting lots of advice here.
 0871114|CDR|Okay. Okay. I'll bet you are. But I - I think I got it oriented. You can literally watch yourself fall down in. As we get closer, if we're going to have a view like this, it's going to be pretty dramatic. Because we're calling the way you climb on out of the Moon when you leave it, if you can see. And I remember remarks at that time, "Gee, if we could see it like this when we came back in, we'd have to close our eyes." If we can see this thing coming in like I think we may be able to see it at 50 miles, it isn't going to look like very much.
 0871158|CC|Roger. We agree.
-0871200|CDR|And we're even considering the win - putting - Gordy, we're consider - Gordy, we're considering putting the window covers up.
+0871200|LMP|And we're even considering the win - putting - Gordy, we're consider - Gordy, we're considering putting the window covers up.
 0871215|CC|You're chickens, huh?
 0871221|CDR|It's going to be one of those high - high - angle energy conversion roundouts.
 0871228|CC|Roger. From our information here, if you're looking at the Moon so that the - the dark limb is up, then north should be to the right.
@@ -5967,7 +5967,7 @@
 0872955|LMP|Okay, Houston. Going back to SPS PRESSURE INDICATOR 1.
 0873001|CC|Okay.
 0873231|CC|America, Houston. We - we still see the UV door open. Have you closed it yet?
-0873251|LMP|Okay. It's now CLOSED, Gordy.
+0873251|CDR|Okay. It's now CLOSED, Gordy.
 0873254|CC|Roger.
 0873331|CC|America, Houston. I have the LOI and map update pads when you're ready.
 0873340|CDR|Stand by 1, Gordo.
@@ -5977,9 +5977,9 @@
 0873514|CC|Okay. It's for rev 1. AOS without burn is 089:07:46; with the burn is 089:16:29.
 0873534|CDR|Okay. Without the burn is 07:46, and with the burn is 16:29.
 0873539|CC|That's affirmative, and then I have your LOI maneuver pad.
-0873550|CDR|Okay. We're ready to go.
+0873550|LMP|Okay. We're ready to go.
 0873553|CC|Okay. LOI, SPS/G&N; the weight is 66361; plus 1.21, minus 0.12; ignition time is 088:54:21.74; NOUN 81, minus 2798.8, plus 1044.9, minus 0042.5; roll, pitch, and yaw are all zero; NOUN 44, 0170.1, plus 0052.5; 2987.7, burn time is 6:38, 2981.4; sextant star is 45, 252.1, 13.5; rest of the pad is NA. GDC align stars are Sirius and Rigel; 122; 354; 000. Ullage is none. Remarks: LM weight, 36312; single-bank burn time is 6:51. Over. Stand by on the readback. Okay. We'll take ACCEPT, and give you the up-links while you're reading it back.
-0873818|CDR|Okay, Gordy. Here's your readback. You've got ACCEPT. It's LOI pad, SPS/G&N; 66361; plus 1.21, minus 0.12; 088:54:21.74; minus 2798.8, plus 1044.9, minus 0042.5; 000, 000, 000; 0170.1, plus 0052.5; 2987.7, 6:38, 2981.4; 45, 252.1, 13.5; rest of pad is NA. Sirius and Rigel; 122; 354; 000. There's no ullage. LM weight, 36312; single-bank burn time, 6 plus 51.
+0873818|LMP|Okay, Gordy. Here's your readback. You've got ACCEPT. It's LOI pad, SPS/G&N; 66361; plus 1.21, minus 0.12; 088:54:21.74; minus 2798.8, plus 1044.9, minus 0042.5; 000, 000, 000; 0170.1, plus 0052.5; 2987.7, 6:38, 2981.4; 45, 252.1, 13.5; rest of pad is NA. Sirius and Rigel; 122; 354; 000. There's no ullage. LM weight, 36312; single-bank burn time, 6 plus 51.
 0873928|CC|Okay. That's a good readback.
 0874106|CC|It's your computer, America. You have a state vector, a VERB 66, and a target load. Go back to BLOCK.
 0874115|CDR|Okay. It's in BLOCK, Gordy. We're finishing up on the bottom of 3-79.
@@ -6033,11 +6033,11 @@
 0881000|CC|Roger.
 0881106|CC|Give us OMNI Charlie, please.
 0881324|CC|Apollo 17, Houston. We just had a site handover. That's resulted in the LOS time changing 19 seconds. It's now 43:21.
-0881339|LMP|Okay; 43:21, and we are - we're on OMNI Charlie,
+0881339|CDR|Okay; 43:21, and we are - we're on OMNI Charlie,
 0881345|CC|Roger.
-0881351|LMP|And just to round out things as we pitch back into LOI attitude, lo and behold from over the top of the LM came the Earth.
+0881351|CDR|And just to round out things as we pitch back into LOI attitude, lo and behold from over the top of the LM came the Earth.
 0881405|CC|Very good.
-0881409|LMP|Got the whole thing in one big package.
+0881409|CDR|Got the whole thing in one big package.
 0881513|CDR|Pretty interesting, Gordo. We can - we can see we're right over South America and, of course, we can see up the Gulf Coast. And it looks like Houston is covered with clouds, but poetically enough, we can see the Cape, at least we can see Florida.
 0881531|CC|How about that.
 0881705|PAO|This is Apollo Control, 88 hours 17 minutes into the mission of Apollo 17. Some 26 minutes now until Apollo 17 passes behind the Moon, coming up on the Lunar Orbit Insertion burn in which the spacecraft will start its initial orbit measuring 52 nautical miles by 170 nautical miles, an elliptical orbit around the Moon. That maneuver will take place at a Ground Elapsed Time of 88 hours 54 minutes into the flight, and will slow the spacecraft down considerably from its present velocity of some 5,700 feet per second. Presently, the Apollo 17 spacecraft is 1,528 nautical miles out from the Moon, approaching at 5730 feet per second. After the spacecraft passes behind the Moon, 25 minutes from now, assuming as successful lunar orbit insertion burn, it should come from behind the east face of the Moon, the limb of the Moon, at approximately 33 minutes later. It'll take a few moments for the ground stations to lock up on the downlink from the spacecraft even though the theoretical contact time is roughly 33 minutes after loss of signal. At 88 hours 18 minutes Ground Elapsed Time, this is Apollo Control.
@@ -6105,7 +6105,7 @@
 0884138|CDR|Hello, Gordy. As we approach LOS, we've still got America out the view of the hatch window. We'll see you at 89:16:29.
 0884207|CC|Okay, Gene. About 1 minute left until LOS. You have our wishes for a good burn.
 0884217|CDR|Thank you, sir. We shall have one.
-0884232|LMP|Okay.
+0884232|CMP|Okay.
 0884255|CDR|And, Gordy, I assure you we will be out at 16:40.
 0884301|CC|Very good.
 0884338|PAO|This is Apollo Control at 88 hours 43 minutes into the Mission of Apollo 17. We have had loss of signal as Apollo 17 coasted behind the Moon on the start of the first lunar orbit, 10 minutes and 28 seconds away from Lunar Orbit Insertion maneuver. A retrograde service propulsion system burn of some 2,988 feet per second. Assuming a successful burn, the spacecraft should come out from behind the Moon at 89:16:29 Ground Elapsed Time as Gene Cernan promised it would before they went behind the Moon. At loss of signal, the spacecraft was some 395 miles above the surface of the Moon, traveling at a velocity of 7,241 feet per second. 9 minutes and 30 seconds - MARK, until LOI ignition. At 88:44 and returning just before acquisition of signal, as Apollo 17 comes from behind the Moon, this is Apollo Control.
@@ -6174,7 +6174,9 @@
 0893118|CC|Roger.
 0893121|LMP|The - rim - is there one farther south of Peirce?
 0893129|LMP|Which - is it far - is the one farthest - Picard, yes.
-0893138|LMP|Picard, I think, is the one I'm looking at. Yes, it is. Yes, and I can see Peirce now just - behind the rendezvous antenna - or radar. And - Yes, way out there, you ought to start seeing them.
+0893138|LMP|Picard, I think, is the one I'm looking at. Yes, it is.
+0893143|PAO|MARK. 8 minutes to SIV-B impact.
+0893146|LMP|Yes, and I can see Peirce now just - behind the rendezvous antenna - or radar. And - Yes, way out there, you ought to start seeing them.
 0893202|CMP|I guess I ought to get that other stuff on the camera, huh?
 0893209|LMP|Okay. We're just about over the top of Picard, and the rim materials, which go out about a third of a crater in diameter, as near as I can tell, are - are distinctly darker but not by much. They're more gray, really, then the gray-tan, or tannish gray of the rest of the mare.
 0893233|CC|Roger.
@@ -6234,18 +6236,19 @@
 0894038|LMP|Okay.
 0894052|CDR|Don't forget to PRO, Ron; you've got - you got 8 seconds.
 0894101|CDR|MARK it - 41. Okay, I guess you can - -
-0894108|LMP|Goes. With the usual FAO flight planning, that was a good time.
+0894108|CMP|Goes. With the usual FAO flight planning, that was a good time.
 0894117|CC|Roger.
-0894118|LMP|Hey, you can even see horizon in the - earthshine out there.
+0894118|CMP|Hey, you can even see horizon in the - earthshine out there.
 0894126|CDR|Boy, you sure can. You can see an earthlit horizon out there into the dark part of the Moon.
-0894134|LMP|Can you see the landing site? I think it's going to be in the darkness.
+0894134|CMP|Can you see the landing site? I think it's going to be in the darkness.
 0894137|CDR|You know, I - it - The shadows are so contrasting here, Ron, that I -
-0894144|CMP|Give me that thing a minute.
+0894144|CDR|Give me that thing a minute.
 0894159|LMP|Donius [sic]. There's le Monnier, the landing site. I can't -
 0894208|CDR|No, it's just - it's just dark.
 0894209|LMP|Isn't it a little north of track?
-0894212|CDR|No, I think it's right below us, Jack. I think it's right smack below us in darkness.
-0894217|LMP|Yes, I yes, it is. I can't - I think I'm looking at Littrow right there, right below us. But I can't quite tell.
+0894212|CDR|No, I think it's right below us, Jack. I think it's right smack below us.
+0894216|LMP|In darkness ..
+0894217|CDR|Yes, I yes, it is. I can't - I think I'm looking at Littrow right there, right below us. But I can't quite tell.
 0894231|CDR|If I could see Vitruvius, I'd have a better handle on it.
 0894236|CC|A reminder to go to f/4 and 1/250 on the last six pictures.
 0894244|CDR|Roger. That's Posidonius all right, le Monnier; we're here early.
@@ -8140,7 +8143,8 @@
 1130241|CDR|The ENGINE OVERRIDE is OFF ... --
 1130242|LMP|Manifold is great. Manifold is right on. Get - go to JETS.
 1130246|CDR|Okay. I am JETS.
-1130248|LMP|Okay. That side's complete. Houston, you can tell America that Challenger is at Taurus-Littrow.
+1130248|LMP|Okay. That side's complete.
+1130250|CDR|Houston, you can tell America that Challenger is at Taurus-Littrow.
 1130255|CC|We'll do it.
 1130300|CMP|Great.
 1130302|CDR|Ron, I had the meatball all the way.
@@ -8151,19 +8155,19 @@
 1130315|LMP|LANDING RADAR breaker, OPEN. Checking the water. And, Gordy, ascent tank 1, we started out a little low. It's still - same place. That's water.
 1130330|CC|Roger, Jack.
 1130330|LMP|Batteries look good.
-1130338|CDR|Oh, man. Look at that rock out there.
-1130342|LMP|Absolutely incredible. Absolutely incredible.
-1130347|CDR|I think I can see the rim of Camelot.
+1130338|LMP|Oh, man. Look at that rock out there.
+1130342|CDR|Absolutely incredible. Absolutely incredible.
+1130347|LMP|I think I can see the rim of Camelot.
 1130350|CC|Roger.
 1130350|CDR|Epic moment of ray life.
 1130351|LMP|Where'd you land? You never let me look outside at all. Hey, you can see the boulder tracks.
 1130401|CDR|Okay, Gordy. We're standing by for your GO. We look good - we're looking good onboard.
 1130406|CC|Okay. You're looking great here so far.
-1130407|LMP|There are boulders all over those massifs. God, look at that propellant. We could have gone all around and looked around.
-1130415|CDR|We should have hovered around a little bit; gone and looked at the Scarp.
-1130418|LMP|No, thank you.
-1130419|CDR|(Laughter)
-1130419|LMP|I like it right where we are.
+1130407|CDR|There are boulders all over those massifs. God, look at that propellant. We could have gone all around and looked around.
+1130415|LMP|We should have hovered around a little bit; gone and looked at the Scarp.
+1130418|CDR|No, thank you.
+1130419|LMP|(Laughter)
+1130419|CDR|I like it right where we are.
 1130421|CDR|Okay, Gordy. While you're - while you're waiting on that GO, I had to - I - I shot for a spot, around 2 o'clock from Poppy. There's a number of boulders out at 12 o'clock from Poppy, and I really think I'm probably not more than about 100 meters out in front of it - and slightly to the north. Actually, I may be a little bit closer to Trident than I expected Poppy to be. I - I think I've got Trident right out the left window. And our first cut at the mobility around here in the Rover. It ought to be super.
 1130456|CC|Okay. Sounds good.
 1130503|LMP|And I tell you, the massifs and Bare Mountain are two different products.
@@ -8293,9 +8297,9 @@
 1131706|LMP|And then, A and B going to CABIN. A is to CABIN. B is to CABIN. PULL-EGRESS. RETURN is EGRESS. REPRESS going to AUTO. Stand by for a noise.
 1131732|LMP|There you go. It's in AUTO. Okay. Now it's your turn. Verify - Wonder where it's going? (Laughter) Out, I guess.
 1131755|LMP|INVERTER 2 is selected. Okay. And DECA POWER, OPEN. And guess what? Take your helmet and gloves off.
-1131904|LMP|Okay, Gordy. We're in 1-1. Helmets and gloves are off, DIVERTER VALVES are IV.
+1131904|CDR|Okay, Gordy. We're in 1-1. Helmets and gloves are off, DIVERTER VALVES are IV.
 1131912|CC|Okay. We're right with you.
-1131920|LMP|And you're looking at NOUN 20.
+1131920|CDR|And you're looking at NOUN 20.
 1132003|LMP|Window shades are going close. I just - I'm using it instead of a light switch because I've got it covered up.
 1132028|CDR|Gordy, you got NOUN 20?
 1132030|CC|That's affirmative. We copy NOUN 20.
@@ -8334,16 +8338,16 @@
 1133830|CDR|Gordy, I - I guess I'm puzzled on that one. I had the right star. You see anything we did wrong?
 1133842|CC|Stand by. We're checking.
 1133955|CC|Gene, our only guess is that you might have loaded NOUN 88 wrong. We'd like you to start over, and we'll watch you real close again.
-1134007|LMP|Gordy. Listen, I think we know what we did. We loaded SPRL for CRSR, and CRSR for SPRL. How would it be if we went through the P57 again and - Yes - we'll - I guess we got to do it all over. Those old numbers are no good anymore.
+1134007|CDR|Gordy. Listen, I think we know what we did. We loaded SPRL for CRSR, and CRSR for SPRL. How would it be if we went through the P57 again and - Yes - we'll - I guess we got to do it all over. Those old numbers are no good anymore.
 1134028|CC|Okay.
-1134033|LMP|I - you can - I'm sure that's what we did. We loaded CRSR for SPRL, and SPRL for CRSR.
+1134033|CDR|I - you can - I'm sure that's what we did. We loaded CRSR for SPRL, and SPRL for CRSR.
 1134040|CC|Okay. And it's our fault, too. We should have watched that.
 1134153|CC|Jack, this is Houston. We do have the pre-PDI AGS cal numbers. You won't need to read them to us.
 1134204|LMP|Okay.
 1134208|CDR|Gordy, you going to want a recycle on this gravity measurement? I doubt if it'll need it.
 1134216|CC|Stand by. No, no recycle necessary this time through.
 1134227|CDR|Okay.
-1134234|LMP|Gordy, ED BATs are 37-2.
+1134234|LMP|Gordy, ED BATs are 37.2.
 1134251|CDR|Gordy, let me comment about the handling of the bird. After you once fly it around in orbit a little bit, you get accustomed to the thrusters, and it - it came back to me quite a bit from 10, anyway. And you get a feel for acceleration and deceleration as well as the attitude hold capability. And it really - the response, even with a heavy descent - descent stage near the surface -is phenomenal. Responded exactly in the direction I wanted, held attitude very good. And, let me tell you, the LLTV plays no small part in this landing as far as I'm concerned.
 1134335|CC|Roger, Gene.
 1134347|LMP|Okay. NOUN 22 again. I'll go ahead and torque them.
