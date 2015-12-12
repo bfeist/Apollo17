@@ -367,6 +367,8 @@ function initializePlayback() {
         seekToTime(gDefaultStartTimeId);
     } else {
         var paramMissionTime = $.getUrlVar('t'); //code to detect jump-to-timecode parameter
+        //paramMissionTime = paramMissionTime.replace(/%3A/g, ":");
+        paramMissionTime = decodeURIComponent(paramMissionTime);
         if (paramMissionTime == 'rt') {
             historicalButtonClick();
         } else {

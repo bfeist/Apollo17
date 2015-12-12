@@ -5859,7 +5859,7 @@
 0862440|CC|Ron, we suggest just staying where you are on the dead band; there's no problem on fuel.
 0862449|CMP|Okay. Mighty fine, Gordo. Thank you.
 0862742|CC|America, Hou - Houston. We just finished a site handover. And we're seeing some excessive counts on the UV. We'd like to chase the problem a little, and to do that, we'd like you to turn the UV OFF for 5 seconds and then back ON. Over.
-0862742|CC|Ascension COMM TEC, Houston COMM TEC, Net 1 voice check. How do you copy?
+0863232|CC|Ascension COMM TEC, Houston COMM TEC, Net 1 voice check. How do you copy?
 0863240|ASC|Ascension COMM TEC, I read you loud and clear.
 0863243|CC|Roger, Ascension.
 0863338|LMP|Houston, 17; how do you read after a COMMAND RESET?
@@ -5875,7 +5875,7 @@
 0863609|CC|Go ahead.
 0863615|CMP|Gordo, just an interesting observation on my part. I don't know why, but all the air bubbles in the beverage packs - you know, none of the air bubbles will come together at all. If you get it a small air bubble, it stays in a small air bubble. And they'll never co - come together. However, in my chicken and rice soup package here, I had a whole bunch of small air bubbles and now it's all one great big air bubble in the middle.
 0863649|CC|Okay.
-0863650|CMP|Most of the - most of the sP00n bowl packs you know - or wet packs, whereas the juice bags won't do it.
+0863650|CMP|Most of the - most of the spoon bowl packs you know - or wet packs, whereas the juice bags won't do it.
 0863704|CC|Okay, that's interesting. I sure don't know why either.
 0863714|LMP|We're just trying to keep your day interesting here, Gordy. Now that you won't let us look at the Earth anymore, we'll start looking in the cabin.
 0863733|CC|Okay, while you're looking in the cabin, I've got a new hydrogen cryo configuration for you to minimize the pressure cycling and cut down the wear and tear on the motor switch. If you're ready to do it, I'll read it.
@@ -6610,7 +6610,7 @@
 0934349|CMP|Okay, that's great, Bob, and we're still looking at that zero bias on the DC meter of about 5 to 7 psi.
 0934401|CC|Roger.
 0934407|CMP|Okay ...
-0934551|LMP|Some of the boys might be interested to know that in a place where the Sun is just grazing the slope - it's a steep slope on the north rim of Crisium, I can see the horizontal lineaments that were such a controvery on 15.
+0934551|LMP|Some of the boys might be interested to know that in a place where the Sun is just grazing the slope - it's a steep slope on the north rim of Crisium, I can see the horizontal lineaments that were such a controversy on 15.
 0934608|CC|Roger. Understand. The north rim of Crisium?
 0934609|CDR|... big one with the central peak.
 0934613|LMP|Roger. There are some very steep slopes that just have grazing Sun on them now, and with the binocs, you can see that horizontal lineation pattern.
@@ -9015,7 +9015,7 @@
 1170307|CC|Jack, this is Houston.
 1170308|CDR|Wait a minute.
 1170309|CC|CDR, we're not reading the LMP either.
-1170311|LMP|Now, how do you read?
+1170311|CDR|Now, how do you read?
 1170313|CC|We read you - -
 1170314|CDR|Now, how do you read, Jack?
 1170315|LMP|Okay. You're loud and clear. Okay.
@@ -9161,9 +9161,9 @@
 1171756|CDR|God, it's beautiful out here.
 1171759|LMP|Well, hang on.
 1171800|CDR|Yes.
-1171805|CDR|Okay. The immediate surf - -
-1171807|LMP|Not yet. Yes, go - you talk to them. I don't want you to stand up yet.
-1171811|CDR|The surface is moderately cohesive, which holds a pretty good bootprint - very fine grain. Gene's ... looks very much like previous soils. You got her?
+1171805|LMP|Okay. The immediate surf - -
+1171807|CDR|Not yet. Yes, go - you talk to them. I don't want you to stand up yet.
+1171811|LMP|The surface is moderately cohesive, which holds a pretty good bootprint - very fine grain. Gene's ... looks very much like previous soils. You got her?
 1171827|LMP|Yes. You got a hole behind you now.
 1171829|CDR|Well, I'll stand in it, and you can get at it better.
 1171831|LMP|Well, you got me right in the Sun. Can you come around this way? Ho-ho. (Laughter) I'm going to have to get upstream of you.
@@ -9490,8 +9490,8 @@
 1175456|CC|Roger. We copy that guys. You're about 7 minutes behind right now.
 1175456|CDR|LRV front configure. Whoops. Hold it. Hold it.
 1175503|CDR|What!? Okay, we'll catch up.
-1175510|LMP|I haven't quite learned how to pick up rocks in my hands yet, Bob, or I would of had you a sample. That's why I fell down. My day will come (singing). Oh, oh! it's an old blue traverse gravimeter.
-1175532|CDR|Okay. On the plains of Taurus-Littrow. What a valley. I'd like to cut down here, through here, with a P-38 sometime.
+1175510|LMP|I haven't quite learned how to pick up rocks with my hands yet, Bob, or I would of had you a sample. That's why I fell down. My day will come (singing). Oh, oh! it's an old blue traverse gravimeter.
+1175532|CDR|Okay. On the plains of Taurus-Littrow. What a valley. I'd like to cut down here, through here, with a T-38 sometime.
 1175545|LMP|That'll be the day.
 1175547|CDR|Yes, it will.
 1175549|LMP|Whoa there.
@@ -9500,7 +9500,7 @@
 1175554|CDR|Install LCRU, lock posts; I'll get that. Okay. That's the next big hooker, the LCRU.
 1175603|LMP|Okay, geopallet's off the LM.
 1175606|CC|Copy that.
-1175609|CDR|You know, you just got to take it easy until you learn to work in 1/6 g.
+1175609|CDR|You know, you just got to take it easy until you learn to work in 1/6th g.
 1175613|LMP|Well, I haven't learned to pick up rocks, which is a very embarrassing thing for a geologist.
 1175618|CDR|Yes, I look like an elephant stumbling around here.
 1175626|CDR|Careful with the LCRU. One dust cover came off. Careful with this baby. That's the real one.
