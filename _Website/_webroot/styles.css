@@ -1360,7 +1360,7 @@ body.app-ready .splash-btn.activated.selected {
 }
 
 @keyframes blinker {
-    50% { opacity: 0.4;}
+    50% { opacity: 0.2;}
 }
 
 .monitor {

@@ -530,7 +530,10 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1610415')" class="tocitem" id="tocid1610415"><span class="TOCTimestamp">161:04:15</span>
+        <li onclick="parent.seekToTime('1604139')" class="tocitem" id="tocid1604139"><span class="TOCTimestamp">160:41:39</span>
+        <span class="TOC_item">News read to the crew over breakfast</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1610415')" class="tocitem" id="tocid1610415"><span class="TOCTimestamp">161:04:15</span>
         <span class="TOC_item">(audio missing)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1631241')" class="tocitem" id="tocid1631241"><span class="TOCTimestamp">163:12:41</span>
