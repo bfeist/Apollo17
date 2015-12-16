@@ -143,6 +143,7 @@ for utterance_row in utterance_reader:
 		attribution_modified = utterance_row[0]
 
 		output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
+		# print cur_row
 
 # WRITE ALL commentary ITEMS
 output_commentary_data_file_name_and_path = "../_webroot/indexes/commentaryData.csv"

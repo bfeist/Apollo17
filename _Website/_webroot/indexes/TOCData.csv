@@ -43,6 +43,7 @@
 0734715|1|Crew Sleep Period Start
 0813028|1|Crew wake-up
 0841245|2|Scientific instrument module door jettison
+0861215|2|Loss of communication with Mission Control
 0864630|2|Crew can see the moon for the first time
 0874706|2|Jack Schmitt "speechless"
 0884338|1|Entering Lunar orbit
@@ -50,7 +51,7 @@
 0894003|2|S-IVB lunar impact
 0901811|2|"Flash" observed on the lunar surface
 0933500|1|Descent orbit insertion reported
-1060909|2|Video: Earth and moon through telescope
+1065317|2|Video: Earth and moon through telescope
 1100800|1|Lunar Module undocking and separation
 1104734|1|Video: Command Module from LM
 1124949|2|Powered Descent Initiation
@@ -122,7 +123,7 @@
 1452859|2|Camera gets a cleaning
 1455447|2|Departed for Station 5 (Camelot Crater)
 1462550|1|Video: Station 5
-1465038|2|Cernan hopping along and singing
+1465030|2|Cernan hopping along and singing
 1465557|2|Departed for the Lunar Module
 1471223|2|Arrived at the Lunar Module
 1473740|2|Gene shooting with the 500mm
@@ -132,9 +133,11 @@
 1522520|1|Surface Crew sleep period begins
 1544023|2|Communications with Ron Evans in lunar orbit
 1550840|1|Description of EVA2 read to Evans
-1602402|1|Surface Crew wake-up
-1633248|1|EVA-3 Prep
-1633340|2|EVA-3 Watches started
+1602402|1|Surface Crew wake-up (music)
+1610415|2|(audio missing)
+1631241|2|(audio resumes)
+1631242|1|EVA-3 Prep
+1633234|2|EVA-3 Watches started
 1634615|1|Video: EVA-3
 1635611|2|LRV loaded for traverse
 1640016|2|Cosmic ray experiment retrieved

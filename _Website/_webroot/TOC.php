@@ -188,6 +188,9 @@
         <li onclick="parent.seekToTime('0841245')" class="tocitem" id="tocid0841245"><span class="TOCTimestamp">084:12:45</span>
         <span class="TOC_item">Scientific instrument module door jettison</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0861215')" class="tocitem" id="tocid0861215"><span class="TOCTimestamp">086:12:15</span>
+        <span class="TOC_item">Loss of communication with Mission Control</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0864630')" class="tocitem" id="tocid0864630"><span class="TOCTimestamp">086:46:30</span>
         <span class="TOC_item">Crew can see the moon for the first time</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
@@ -215,7 +218,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1060909')" class="tocitem" id="tocid1060909"><span class="TOCTimestamp">106:09:09</span>
+        <li onclick="parent.seekToTime('1065317')" class="tocitem" id="tocid1065317"><span class="TOCTimestamp">106:53:17</span>
         <span class="TOC_item">Video: Earth and moon through telescope</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
@@ -488,7 +491,7 @@
         <!-- <span class="TOCSubtitle">Gathered samples, and performed documentary and panoramic photography.</span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1465038')" class="tocitem" id="tocid1465038"><span class="TOCTimestamp">146:50:38</span>
+        <li onclick="parent.seekToTime('1465030')" class="tocitem" id="tocid1465030"><span class="TOCTimestamp">146:50:30</span>
         <span class="TOC_item">Cernan hopping along and singing</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1465557')" class="tocitem" id="tocid1465557"><span class="TOCTimestamp">146:55:57</span>
@@ -523,14 +526,23 @@
         <span class="TOC_item">Description of EVA2 read to Evans</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1602402')" class="tocitem" id="tocid1602402"><span class="TOCTimestamp">160:24:02</span>
-        <span class="TOC_item">Surface Crew wake-up</span>
+        <span class="TOC_item">Surface Crew wake-up (music)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('1633248')" class="tocitem" id="tocid1633248"><span class="TOCTimestamp">163:32:48</span>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('1610415')" class="tocitem" id="tocid1610415"><span class="TOCTimestamp">161:04:15</span>
+        <span class="TOC_item">(audio missing)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1631241')" class="tocitem" id="tocid1631241"><span class="TOCTimestamp">163:12:41</span>
+        <span class="TOC_item">(audio resumes)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    </ul>
+        <li onclick="parent.seekToTime('1631242')" class="tocitem" id="tocid1631242"><span class="TOCTimestamp">163:12:42</span>
         <span class="TOC_item">EVA-3 Prep</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1633340')" class="tocitem" id="tocid1633340"><span class="TOCTimestamp">163:33:40</span>
+        <li onclick="parent.seekToTime('1633234')" class="tocitem" id="tocid1633234"><span class="TOCTimestamp">163:32:34</span>
         <span class="TOC_item">EVA-3 Watches started</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
