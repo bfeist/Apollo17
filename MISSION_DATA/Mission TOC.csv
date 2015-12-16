@@ -1,34 +1,37 @@
--02:37:22|1|Preparation and Countdown|
+-02:37:22|1|Video: Preparation and Countdown|
 -01:15:01|2|Countdown Cutoff|
 -00:07:59|2|Countdown Resumes|
--00:01:00|2|One Minute to Launch|
-000:00:00|1|Lift-off (Range zero = 342:05:33:00 GMT)|
+-00:01:00|2|One Minute|
+000:00:00|1|Lift-off|
 000:02:34|2|S-II Staging|
 000:09:20|2|S-IVB Staging|
 000:11:54|1|Earth orbit insertion|
 000:53:56|2|STDN REV 1|
-001:17:25|2|GOLDSTONE REV 2|
+001:17:25|2|GOLDSTONE REV 1|
 002:25:10|2|AUSTRALIA REV 2|
 002:49:00|2|HAWAII REV 2|
 002:53:12|2|GO For Trans-Lunar Injection (TLI)|
+003:01:15|2|GOLDSTONE REV 2|
 003:12:29|1|Trans-Lunar Injection maneuver|
-003:42:28|2|S-IVB/Command and Service Module separation|
+003:42:43|2|S-IVB/Command and Service Module separation|
 003:45:00|2|Video: Trans-Lunar docking initiated|
 003:56:52|2|Trans-Lunar docking capture|
 004:45:06|2|Spacecraft ejection|
 004:49:53|3|Video: S-IVB visible|
 005:49:50|2|Photographing Earth - \"fragile-appearing piece of blue\"|
+005:52:25|2|Schmitt: \"I'm not keeping you awake, am I?\"|
 009:00:01|1|Crew Sleep Period Start|
 015:02:45|1|Crew wake-up|
-024:51:32|2|Jack Schmitt philosophical about observing the earth|
+018:02:55|2|News read to crew|
+021:14:57|2|Cernan describes launch experience|
+024:51:32|2|Schmitt philosophical about observing the earth|
 025:26:26|1|Crew Sleep Period Start|
 033:00:38|1|Crew wake-up|
-034:10:07|2|Video: crew onboard film|
+034:10:07|2|Video: crew onboard film while listening to the news|
 035:30:00|1|First mid-course correction|
-037:00:40|2|Crew listening to music|
-042:57:34|2|Video: Start of onboard heat flow and convection experiment|
+037:00:33|2|Crew listening to music|
+042:59:32|2|Video: Start of onboard heat flow and convection experiment|
 045:30:18|2|Video: Continuation of onboard heat flow and convection experiment|
-048:14:48|2|Video: Earth and moon|
 048:36:12|1|Crew Sleep Period Start|
 056:35:40|1|Crew wake-up with music (Difficulty waking up)|
 059:57:53|2|Entering the LM 2nd time|
@@ -36,133 +39,155 @@
 065:00:00|2|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
 068:07:51|2|ALFMED flash observations experiment begins|
 069:25:48|2|Schmitt asks a difficult flight dynamics question|
+073:17:45|2|Half way to the moon|
 073:47:15|1|Crew Sleep Period Start|
 081:30:28|1|Crew wake-up|
-084:10:12|2|Video: Film of lunar approach|
 084:12:45|2|Scientific instrument module door jettison|
+086:12:15|2|Loss of communication with Mission Control|
 086:46:30|2|Crew can see the moon for the first time|
 087:47:06|2|Jack Schmitt "speechless"|
+088:43:38|1|Entering Lunar orbit|
+089:09:01|2|Video: Far side of the moon|
 089:40:03|2|S-IVB lunar impact|
 090:18:11|2|\"Flash\" observed on the lunar surface|
 093:35:00|1|Descent orbit insertion reported|
-106:09:09|2|Video: Earth and moon through telescope|
-110:27:56|1|Lunar Module undocking and separation|
-112:04:28|1|Video: Lunar undocking (Far side, no audio)|
-112:38:07|2|Video: Command Module from LM|
-112:49:49|1|Video: Powered Descent Initiation for Lunar landing|
-112:52:08|2|Initiate Lunar landing|
-112:57:48|3|Video: Landing camera on|
+106:53:17|2|Video: Earth and moon through telescope|
+110:08:00|1|Lunar Module undocking and separation|(Far side, no audio)
+110:47:34|1|Video: Command Module from LM|
+112:49:49|2|Powered Descent Initiation|
+112:52:08|1|Begin Lunar landing|
+112:57:48|2|Video: Landing camera on|
 113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
-115:17:12|1|EVA-1|
+115:17:12|1|EVA-1 Prep|
+116:00:00|2|Getting spacesuits on|
 117:01:38|2|EVA-1 Watches started|
-117:10:42|2|Video: Down the Ladder|
+117:10:42|1|Down the Ladder|
+117:11:35|2|Video: 16mm Film|
 117:14:50|3|\"Don't lock the hatch\"|
 117:18:57|3|Jack Schmitt challenges the next generation|
 117:24:50|2|Rover Deployment|
-117:31:09|3|Lunar roving vehicle offloaded|
-117:44:16|3|Lunar roving vehicle deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
-118:14:02|2|Video: EVA broadcast from lunar surface begins|
+117:31:09|3|Lunar Roving Vehicle (LRV) offloaded|
+117:44:16|2|LRV deployed|Test drive performed and documented with photography, gathered samples and performed 500-mm and panoramic photography.
+117:48:24|2|LRV Test Drive|
+118:14:02|1|First TV Picture|
 118:21:57|2|United States flag deployed|Flag documented with photographs and stereo photography.
 118:34:43|2|Cosmic ray experiment deployed|
-120:46:06|2|ALSEP deployed|Documented with photographs and panoramic photography.
+118:51:19|2|LRV fender broken|
+119:04:49|2|Departed for Apollo Lunar Surface Experiments Package (ALSEP) site|
+119:12:52|1|Arrived at ALSEP site|
+120:27:20|2|Schmitt running on lunar surface|
+120:39:38|2|Cernan: \"who's winning the football game?\"|
+120:46:06|1|ALSEP deployed|Documented with photographs and panoramic photography.
 120:59:30|2|Deep core sample|Lunar neutron probe experiment deployed.
 121:01:07|3|Schmitt falls while retreiving the deep core sample|
 121:35:42|3|Singing - "strolling on the moon one day"|
-121:51:02|2|Departed for Station 1|
-122:06:15|2|Video: Arrived at Station 1|Deployed seismic profiling experiment explosive charge 6, obtained traverse gravimeter experiment reading, and documented rake samples and performed panoramic photography.
+121:51:02|2|Departed for Station 1 (Steno Crater)|
+122:06:15|1|Video: Station 1|Deployed seismic profiling experiment explosive charge 6, obtained traverse gravimeter experiment reading, and documented rake samples and performed panoramic photography.
 122:36:47|2|Departed for Surface Electrical Properties (SEP) experiment site|Included stop to deploy-seismic profiling experiment explosive charge 7, and perform panoramic photography.
-122:54:56|2|Video: Arrived at SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
+122:54:56|2|Video: SEP experiment site|Deployed antennas and the transmitter, gathered samples, and performed documentary and panoramic photography.
 123:13:39|2|Departed for the Lunar Module|
-123:18:03|2|Video: Arrived back at Lunar Module|Started extravehicular activities closeout.
+123:18:03|1|Video: Arrived back at Lunar Module|Started extravehicular activities closeout.
 124:13:45|3|Lunar Module cabin repressurized|
 124:14:04|2|Post-EVA-1 Activities|
-126:25:37|3|Geology debrief on EVA-1|
+126:25:37|1|Geology debrief on EVA-1|
 127:48:33|2|Lunar dust hay fever|
+128:10:12|2|Schmitt and Joe Allen teasing each other|
 128:54:10|1|Surface Crew sleep period|
 136:26:58|2|Communications with Ron Evans in lunar orbit|
 136:55:03|1|Surface Crew wake-up (music)|
-138:28:37|1|EVA-2|
-140:34:20|2|EVA-2 Start|
-140:45:41|2|Video from EVA-2 begins|
-141:19:00|3|Lunar roving vehicle loaded for traverse|
-141:21:55|2|Departed for Surface Electrical Properties experiment site|
-141:27:05|2|Arrived at Surface Electrical Properties experiment site|Activated experiment, gathered samples, and performed panoramic photography.
-141:31:48|2|Departed for Station 2 (South Massif)|Four short stops; one to deploy seismic profiling experiment explosive charge 4, and three to gather enroute samples.
-142:45:50|2|Video: Arrived at Station 2|Gathered samples including a rake sample, and performed documentary and panoramic photography.
-142:50:48|3|Cernan dusts lens at Station 2 "can I change your oil?"|
+138:13:06|2|EVA planning discussion|
+138:28:37|1|EVA-2 Prep|
+138:31:57|2|Instructions to build a replacment fender|
+140:34:20|2|EVA-2 Watches started|
+140:45:41|1|Video: EVA-2|
+141:19:00|2|LRV loaded for traverse|
+141:21:55|2|Departed for SEP experiment site|
+141:27:05|1|SEP site|Activated experiment, gathered samples, and performed panoramic photography.
+141:31:48|2|Departed for Station 2 (South Massif - Nansen Crater)|Four short stops; one to deploy seismic profiling experiment explosive charge 4, and three to gather enroute samples.
+142:45:50|1|Video: Station 2|Gathered samples including a rake sample, and performed documentary and panoramic photography.
+142:50:48|2|Cernan dusts lens at Station 2 "can I change your oil?"|
 142:59:45|3|Cernan "busting my butt"|
-143:19:40|3|Camera on "mother earth" - "isn't that pretty"|
+143:19:40|3|Camera on "mother earth"|
 143:22:30|3|\"You know, I look out there, I'm not sure I really believe it all.\"|
 143:26:13|3|\"Maybe time's different in space. Adventures in space and time.\"|
 143:40:44|3|\"One-scoop-Schmitt, they call me.\"|
-143:47:26|2|Departed for Station 3|One stop to obtain a traverse gravimeter experiment reading, gather samples, and perform panoramic and 500mm photography.
-144:16:33|3|Capcom expresses how smoothly the mission is going|
-144:30:35|2|Video: Arrived at Station 3|Gathered samples including a double core-tube sample and a rake sample, and performed panoramic and 500-mm photography.
-144:50:52|3|\"Help twinkle toes\"|
+143:47:26|2|Departed for Station 3 (Lara Crater)|One stop to obtain a traverse gravimeter experiment reading, gather samples, and perform panoramic and 500mm photography.
+144:16:33|2|Capcom expresses how smoothly the mission is going|
+144:30:35|1|Video: Station 3|Gathered samples including a double core-tube sample and a rake sample, and performed panoramic and 500-mm photography.
+144:50:52|2|\"Help twinkle toes\"|
 144:56:26|3|\"Houston Ballet Foundation requesting your services for next season\"|
 145:04:47|2|Departed for Station 4 (Shorty Crater)|Two short stops to gather enroute samples.
-145:23:48|2|Video: Arrived at Station 4|Gathered samples including a trench sample and a double core-tube sample, and performed documentary and panoramic photography.
-145:26:29|3|Orange soil discovered|
+145:23:48|1|Video: Station 4|Gathered samples including a trench sample and a double core-tube sample, and performed documentary and panoramic photography.
+145:26:29|2|Orange soil discovered|
 145:28:59|3|Camera gets a cleaning|
 145:54:47|2|Departed for Station 5 (Camelot Crater)|One stop to deploy seismic profiling experiment explosive charge 1, gather samples, and perform panoramic photography.
-146:25:50|2|Video: Arrived at Station 5|Gathered samples, and performed documentary and panoramic photography.
-146:50:38|3|Cernan hopping along and singing|
+146:25:50|1|Video: Station 5|Gathered samples, and performed documentary and panoramic photography.
+146:50:30|2|Cernan hopping along and singing|
 146:55:57|2|Departed for the Lunar Module|Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.
 147:12:23|2|Arrived at the Lunar Module|Started extravehicular activity closeout.
+147:37:40|3|Cernan shooting with the 500mm|
 147:52:04|3|Dusting the camera and philosophizing|
-148:09:47|2|Lunar Module cabin repressurization|
+148:09:47|2|Lunar Module cabin repressurized|
 150:46:12|1|Crew listens to news while eating dinner|
 152:25:20|1|Surface Crew sleep period begins|Ron Evans continues activities in orbit.
 154:40:23|2|Communications with Ron Evans in lunar orbit|
-160:24:02|1|Surface Crew wake-up|
-163:32:48|1|EVA-3|
-163:33:40|2|EVA-3 Start|
-163:46:15|3|Video from EVA-3 begins|
-163:56:11|2|Lunar roving vehicle loaded for traverse|Performed panoramic and 500mm photography.
+155:08:40|1|Description of EVA2 read to Evans|
+160:24:02|1|Surface Crew wake-up (music)|
+160:41:39|2|News read to the crew over breakfast|
+161:04:15|2|(audio missing)|
+163:12:41|2|(audio resumes)|
+163:12:42|1|EVA-3 Prep|
+163:32:34|2|EVA-3 Watches started|
+163:46:15|1|Video: EVA-3|
+163:56:11|2|LRV loaded for traverse|Performed panoramic and 500mm photography.
 164:00:16|2|Cosmic ray experiment retrieved|
-164:07:08|3|Jack Schmitt, "Tallest man on the moon"|
-164:11:19|2|Departed for Surface Electrical Properties experiment site|
-164:19:08|2|Arrived at Surface Electrical Properties experiment site|Activated the experiment, gathered samples, and performed documentary photography.
-164:22:36|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples|
-164:53:10|2|Video: Arrived at Station 6|Gathered samples including a single core tube sample and a rake sample, and performed documentary, panoramic, and 500-mm photography.
-165:00:57|3|Schmitt's face visible on video|
+164:07:08|2|Schmitt, "Tallest man on the moon"|
+164:11:19|2|Departed for SEP site|
+164:18:35|1|SEP site|Activated the experiment, gathered samples, and performed documentary photography.
+164:22:32|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples|
+164:53:10|1|Video: Station 6|Gathered samples including a single core tube sample and a rake sample, and performed documentary, panoramic, and 500-mm photography.
+165:00:57|2|Schmitt's face visible on video|
 165:08:00|3|Hammering boulder to retrieve fragments|
 165:36:42|3|Cernan falls|
 165:36:54|3|\"Remind me to dust my camera\"|
-166:00:28|2|Departed for Station 7|
-166:11:00|2|Video: Arrived at Station 7|Gathered samples and performed documentary and panoramic photography.
+165:48:27|3|Photo: Lunar Module in the far distance|
+166:05:36|2|Departed for Station 7 (North Massif)|
+166:11:00|1|Video: Station 7|Gathered samples and performed documentary and panoramic photography.
+166:11:24|2|Cernan is getting \"tired of dusting\"|
+166:14:38|2|Photography of large boulder|
 166:29:50|2|Departed for Station 8 (Sculptured Hills)|One short stop to gather enroute samples.
-166:50:01|2|Video: Arrived at Station 8|Gathered samples including rake and trench samples, and performed documentary and panoramic photography.
-166:51:21|3|\"I think your LMP just ran away\"|
-167:06:57|3|Jack running and bouncing down hill|
-167:07:26|3|Jack skis down hill|
-167:10:03|3|Cernan's two legged hopping, "I can cover ground like a kangaroo"|
+166:50:01|1|Video: Station 8|Gathered samples including rake and trench samples, and performed documentary and panoramic photography.
+166:51:21|2|\"I think your LMP just ran away\"|
+166:56:24|3|Schmitt rolls bolder downhill|
+167:06:57|3|Schmitt running|
+167:07:26|3|Schmitt skis down hill|
+167:10:03|3|Cernan: "I can cover ground like a kangaroo"|
 167:32:28|2|Departed for Station 9 (Van Serg Crater)|
-167:34:44|3|Trying to blow dust off the camera|
-167:55:48|2|Video: Arrived at Station 9|Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double coretube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.
-168:02:23|3|Singing \"Tiptoe Through the Tulips\"|
+167:34:44|2|Trying to blow dust off the camera|
+167:55:48|1|Video: Station 9|Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double coretube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.
+168:02:23|2|Singing \"Tiptoe Through the Tulips\"|
 168:04:32|3|Standing on cliff giving geology observations|
-168:20:48|3|Cernan, alone in the far distance|
+168:20:48|3|Simultaneous panoramas|
 168:45:57|3|Capcom asks about strange object in camera view|
 168:47:07|2|Return to the Lunar Module|Two short stops, one to gather enroute samples and the other to deploy seismic profiling experiment explosive charge 2 and perform documentary and panoramic photography.
-169:15:19|3|Schmitt, \"Need your oil changed?\"|
-169:18:57|2|Video: Arrived at Lunar Module, Start closeout|Started extravehicular activity closeout.
-169:43:15|3|Speech to the youth of the world|
-169:46:50|3|Uncovering of the plaque|
-169:51:44|3|Throwing object|
+169:15:19|2|Schmitt, \"Need your oil changed?\"|
+169:18:57|1|Video: Arrived at Lunar Module|Started extravehicular activity closeout.
+169:30:45|2|Photos of Earth above Command Module|
+169:43:15|2|Speech to the youth of the world|
+169:46:50|2|Uncovering of the plaque|
+169:51:44|2|Throwing object|
 170:13:58|2|ALSEP photography completed|
-170:16:43|2|Lunar neutron probe experiment retrieved|
-170:19:57|2|Lunar roving vehicle positioned to monitor Lunar Module ascent|
-170:21:37|3|Schmitt in the far distance near the LM from the final position of the rover|
-170:22:08|3|Cernan's speech about aerospace industry|
-170:27:29|3|Distant shot of Cernan walking back|
+170:19:57|2|LRV Parked|
+170:21:41|3|Schmitt waking back to LM|
+170:22:08|3|Cernan's speech about aerospace|
+170:28:20|3|Cernan walking back to LM|
 170:29:59|3|Schmitt throws his geology hammer|
-170:39:36|3|Video shot of Earth|
-170:41:17|3|Cernan's Last Steps speech|
+170:39:36|2|Video shot of Earth|
+170:41:17|1|Cernan's Last Steps speech|
 170:47:00|2|Lunar Module cabin repressurized|
-172:01:52|3|Chat with Charlie Duke|
-173:30:27|3|Debrief on EVA questions over dinner|
+172:01:52|2|Chat with Charlie Duke|
+173:30:27|1|Debrief on EVA questions over dinner|
 173:44:13|2|Spurt of dust by the window. "Sleigh with it?"|
 175:21:07|1|Crew Sleep Period Start|
 179:41:12|1|Ron Evans wake-up in Command Module|
@@ -171,20 +196,20 @@
 182:00:15|2|Houston news read up to Evans|
 182:33:57|2|Command Module orbital burn|
 183:31:12|1|Surface Crew wake-up. Crew wakes up early and sings to Mission Control|
-183:37:11|2|Schmitt reads xmas poem|
-187:53:39|1|GO for lunar liftoff|
+183:37:08|2|Schmitt reads xmas poem|
+187:53:39|2|GO for lunar liftoff|
 187:58:33|1|Video: Preparation for Lunar Liftoff|
 188:01:19|2|Lunar ascent|
 188:58:15|2|Terminal phase initiation|
 189:36:22|1|Video: Beginning rendezvous with Command Module|
 189:41:32|2|"Good to see you"|
-190:01:21|1|Video: Preparation for Lunar Docking|
+190:01:41|2|Video: Preparation for Lunar Docking|
 190:17:34|2|Lunar Docking|
 190:20:42|2|Message from the President|
 190:41:30|2|Hatch opened and crew reunited|
 192:37:04|3|Challenger (LM) closeout|
 193:39:04|3|Cernan and Schmitt playfully teasing Evans|
-193:58:33|2|Lunar Module jettison|
+193:58:03|2|Video: Lunar Module jettison|
 194:03:31|1|Separation maneuver|
 195:38:31|2|Lunar Module deorbit firing|
 195:52:44|2|Lunar Module impact|
@@ -195,7 +220,7 @@
 210:17:23|2|\"Can't tell about these geologists\"|
 212:14:57|2|Searching for scissors|
 212:34:45|2|Turning off voice so \"transcribers can catch up with Jack\"|
-214:18:03|2|Scientific experiment performance summary|
+214:18:03|1|Scientific experiment summary|
 214:33:18|2|Laughter in mission control about Schmitt's biomed|
 220:27:36|1|Crew Sleep Period Start|
 228:11:01|1|Crew Wake-up (music)|Last day in lunar orbit
@@ -208,12 +233,13 @@
 237:26:45|2|Geology summary of lunar exploration|
 237:38:24|2|Speech from Cernan Apollo heritage|
 237:58:42|3|Retro betting there will be no mid-course corrections|
-238:02:44|3|Capcom teasing Jack about his weather reports|
+238:02:44|3|Capcom teasing Schmitt about his weather reports|
 238:12:50|3|Crew and mission control play music for each other|
+240:03:07|3|\"Spectactular view\" of the moon|
 240:29:35|2|Capcom teases crew about their biomed harnesses|
 243:08:44|1|Crew Sleep Period Start|
 249:37:01|2|Public Affairs summarizes milestone of trip home|
-250:30:00|1|Crew Wake-up|
+250:30:00|1|Crew Wake-up (music)|
 252:37:29|2|69th anniversary of man's first flight in a heavier-than-air powered machine|
 255:14:22|1|Start transearth EVA|
 256:26:27|2|Video: TV camera test|
@@ -240,15 +266,14 @@
 301:00:30|2|Christmas spirit. \"Looks like it's really snowing\" (out the window)|
 301:17:18|1|Second midcourse correction|
 304:03:40|1|Command module/service module separation|
-304:17:46|1|Reentery into Earth's atmosphere (400,000 feet, 32,000 feet per second)|
-304:18:57|2|Video: Begin reentry blackout|
-304:22:52|2|End reentry blackout|
-304:26:20|2|Forward heat shield jettison|
-304:26:22|2|Drogue deployment|
-304:27:14|2|Main parachute deployment|
-304:28:55|2|Three minutes to splashdown|
+304:17:46|1|Reentery begins|
+304:18:57|2|Video: Begin blackout|
+304:26:22|2|Drogue chute|
+304:27:14|2|Main parachute|
+304:28:55|2|Pre-splashdown|
 304:31:50|1|Splashdown|
-304:33:44|1|Crew retrieval by ELS swimmers|
+304:22:33|2|Video: Mission Control|
+304:33:44|1|Crew retrieval|
 305:22:35|1|Crew onboard USS Ticonderoga|
 305:27:32|1|Speeches by the crew|
 305:35:24|0|End of coverage|

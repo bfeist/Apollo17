@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="lib/paper-full.js"></script>
+    <script type="text/javascript" src="lib/jquery_plugins.js"></script>
+
+    <script type="text/javascript" src="navigator_dev.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="navigator.js"></script>
+
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        /* Scale canvas with resize attribute to full size */
+        canvas[resize] {
+            width: 100%;
+            height: 130px;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+<div style=" display: -webkit-flex; display: flex;">
+    <div style="width: 280px; color: grey;">
+        spacer
+    </div>
+    <div style="flex:1;" id="navigator">
+        <canvas id="myCanvas" resize></canvas>
+    </div>
+</div>
+</body>
+
+</html>

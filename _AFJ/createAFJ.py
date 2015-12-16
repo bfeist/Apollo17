@@ -172,7 +172,7 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
     item_template = loader.load_template('template_afj_footer.html')
     output_segment_file.write(item_template.render({'datarow': 0}, loader=loader).encode('utf-8'))
 
-output_file_name_and_path = "./_webroot/TOC.html"
+output_file_name_and_path = "./_webroot/TOC.php"
 output_TOC_file = open(output_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()

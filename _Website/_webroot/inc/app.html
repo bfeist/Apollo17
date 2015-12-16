@@ -1,0 +1,103 @@
+
+<section class="app">
+  <header>
+
+    <div class="logo-wrapper"><img src="img/Apollo_17-insignia100.png"></div>
+
+    <div class="info-wrapper">
+      <div class="content">
+          <div class="pre-title">The Last Mission to the Moon</div>
+          <div class="title">Apollo 17</div>
+          <div class="subtitle">Real-Time Mission Experience</div>
+          <div class="historicalDate date">Thu Dec 07 1972</div>
+          <div class="historicalTime time">12:32:00 AM</div>
+          <div id="missionTime">Mission Elapsed Time: <span class="missionElapsedTime">000:00:00</span></div>
+        </div>
+    </div>
+
+    <div class="monitor">
+
+      <!-- navigator -->
+      <div id="navigator" class="navigator-wrapper">
+        <canvas id="myCanvas" resize keepalive="true"></canvas>
+      </div>
+
+    </div>
+
+  </header>
+
+  <div class="body">
+
+    <div class="video-block">
+      <div class="monitor video-monitor">
+        <div class="video-wrapper">
+          <!-- video -->
+          <img src="img/4x3.png" class="aspect-holder">
+
+          <div class="player-wrapper">
+            <div id="player"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs-wrapper" style="display: flex; align-items: stretch;">
+        <div class="button-row" style="flex: 3;">
+          <a id="transcriptTab" class="splash-btn content-tab" title="Every word spoken on the mission"><SPAN>Transcript</SPAN></a>
+          <a id="tocTab" class="splash-btn content-tab" title="Points of interest throughout the mission"><SPAN>Guided Tour</SPAN></a>
+          <a id="commentaryTab" class="splash-btn content-tab" title="Description of events and post-mission interviews with the crew"><SPAN>Commentary</SPAN></a>
+        </div>
+
+        <div style="flex: 1; display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    align-content: stretch;">
+          <div class="button-row small" style="flex: 1; flex-basis: 0; min-height: 20px;">
+            <a class="splash-btn subdued entypo entypo-play" style="max-height:20px;" id="playPauseBtn" title="Play/Pause"><span class="sr-only">Play/Pause</span></a>
+            <a class="splash-btn activated entypo entypo-back-in-time" style="max-height:20px;" id="realtimeBtn" title="Anniversary: Sync to exactly 43 years ago"><span class="sr-only">Anniversary: Sync to exactly 43 years ago</span></a>
+            <a class="splash-btn primary entypo entypo-info" style="max-height:20px;" id="aboutBtn" title="About Apollo17.org"><span class="sr-only">Info about this website</span></a>
+          </div>
+          <div class="button-row small" style="flex: 1; flex-basis: 0; min-height: 20px;">
+             <a class="splash-btn subdued entypo entypo-mute" style="max-height:20px;" id="soundBtn" title="Sound On/Off"><span class="sr-only">Sound On/Off</span></a>
+             <a class="splash-btn subdued entypo entypo-resize-full fullscreenBtn" style="max-height:20px;" title="Toggle Fullscreen"><span class="sr-only">Fullscreen</span></a>
+             <a class="splash-btn primary" style="max-height:20px;" id="shareBtn" title="Share This Moment">
+               <div class="share-button-wrapper">
+                 <div class="entypo share-button sharer-0"></div>
+               </div>
+             </a>
+          </div>
+        </div>
+      </div>
+      <div class="monitor" data-js-class="SizeManager" data-sm-parent=".video-block" data-sm-min-height="160" data-sm-buddy-max-height="480" data-sm-buddy=".video-monitor">
+        <div class="output-wrapper">
+          <div id="transcriptWrapper" class="text-wrapper">
+              <div id="utteranceDiv">
+                  <table class="utteranceTable" id="utteranceTable"></table>
+              </div>
+          </div>
+          <div id="tocWrapper" class="text-wrapper">
+              <iframe src="TOC.php" class="iFrameClass" id="iFrameTOC" name="iFrameTOC" scrolling="yes" height="100%" width="100%"></iframe>
+          </div>
+          <div id="commentaryWrapper" class="text-wrapper">
+              <div id="commentaryDiv">
+                  <table class="commentaryTable" id="commentaryTable"></table>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- video-block -->
+
+      <div class="photo-block">
+        <div class="monitor photo-wrapper" data-js-class="SizeManager" data-sm-parent=".photo-block">
+          <!-- photo -->
+          <div class="photos-wrapper">
+            <div id="photoGallery"></div>
+            <div id="photodiv"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</section>
+

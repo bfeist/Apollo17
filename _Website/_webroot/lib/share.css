@@ -19,9 +19,9 @@
 .share-button.sharer-0 label {
     -webkit-transition: all .3s ease;
     transition:         all .3s ease;
-    background: #dddddd;
+    background: #1D547E;
     border-radius: 2px;
-    color: #333;
+    color: #000000;
     cursor: pointer;
     font-size: 14px;
     margin: 0;
@@ -68,6 +68,7 @@
        -webkit-transform-origin: 0 0;
        transform-origin:         0 0;
        margin-top: 5px;
+     z-index: 100;
    }
 
 /*// Transform origins for middle-anchored networks*/
@@ -256,7 +257,7 @@
        display: none;
        float: left;
        font-size: 20px;
-       /*height: 22px;*/
+       height: 24px;
        margin: 0;
        padding: 12px 0;
        position: relative;
@@ -265,6 +266,10 @@
        z-index: 2;
    }
 
+   .share-button.sharer-0 .social ul li:before {
+    margin-top: -9px;
+    margin-left: -9px;
+   }
 /*// changes icon color upon hover*/
    .share-button.sharer-0 .social ul li:hover {
        color: rgba(0,0,0,.5);
