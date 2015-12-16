@@ -120,7 +120,7 @@
         <span class="TOC_item">Cernan describes launch experience</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0245132')" class="tocitem" id="tocid0245132"><span class="TOCTimestamp">024:51:32</span>
-        <span class="TOC_item">Jack Schmitt philosophical about observing the earth</span>
+        <span class="TOC_item">Schmitt philosophical about observing the earth</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0252626')" class="tocitem" id="tocid0252626"><span class="TOCTimestamp">025:26:26</span>
@@ -501,7 +501,7 @@
         <span class="TOC_item">Arrived at the Lunar Module</span>
         <!-- <span class="TOCSubtitle">Started extravehicular activity closeout.</span>--></li>
     <li onclick="parent.seekToTime('1473740')" class="tocitem" id="tocid1473740"><span class="TOCTimestamp">147:37:40</span>
-        <span class="TOC_item">Gene shooting with the 500mm</span>
+        <span class="TOC_item">Cernan shooting with the 500mm</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1475204')" class="tocitem" id="tocid1475204"><span class="TOCTimestamp">147:52:04</span>
         <span class="TOC_item">Dusting the camera and philosophizing</span>
@@ -561,7 +561,7 @@
         <span class="TOC_item">Cosmic ray experiment retrieved</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1640708')" class="tocitem" id="tocid1640708"><span class="TOCTimestamp">164:07:08</span>
-        <span class="TOC_item">Jack Schmitt, "Tallest man on the moon"</span>
+        <span class="TOC_item">Schmitt, "Tallest man on the moon"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1641119')" class="tocitem" id="tocid1641119"><span class="TOCTimestamp">164:11:19</span>
         <span class="TOC_item">Departed for SEP site</span>
@@ -624,13 +624,13 @@
         <span class="TOC_item">"I think your LMP just ran away"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1665624')" class="tocitem" id="tocid1665624"><span class="TOCTimestamp">166:56:24</span>
-        <span class="TOC_item">Jack rolls bolder downhill</span>
+        <span class="TOC_item">Schmitt rolls bolder downhill</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1670657')" class="tocitem" id="tocid1670657"><span class="TOCTimestamp">167:06:57</span>
-        <span class="TOC_item">Jack running</span>
+        <span class="TOC_item">Schmitt running</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1670726')" class="tocitem" id="tocid1670726"><span class="TOCTimestamp">167:07:26</span>
-        <span class="TOC_item">Jack skis down hill</span>
+        <span class="TOC_item">Schmitt skis down hill</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1671003')" class="tocitem" id="tocid1671003"><span class="TOCTimestamp">167:10:03</span>
         <span class="TOC_item">Cernan: "I can cover ground like a kangaroo"</span>
@@ -885,7 +885,7 @@
         <span class="TOC_item">Retro betting there will be no mid-course corrections</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2380244')" class="tocitem" id="tocid2380244"><span class="TOCTimestamp">238:02:44</span>
-        <span class="TOC_item">Capcom teasing Jack about his weather reports</span>
+        <span class="TOC_item">Capcom teasing Schmitt about his weather reports</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2381250')" class="tocitem" id="tocid2381250"><span class="TOCTimestamp">238:12:50</span>
         <span class="TOC_item">Crew and mission control play music for each other</span>

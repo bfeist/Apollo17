@@ -1479,7 +1479,7 @@ skip|21669|142|M|3401|||||||60|37|EVA 3|STA 7, LRV, OVEREXPOSED|JSC scan|
 166:27:21|21670|142|M|3401|||||||60|37|EVA 3|STA 7, LRV|JSC scan|
 166:30:30|21671|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
 166:31:30|21672|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
-166:33:30|21673|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
+166:32:30|21673|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
 166:33:27|21674|142|M|3401|||||||60|37|EVA 3|"LRV traverse from Station 7 to 8. These boulders are the ""big mamoos"" noted by Gene in the dialog."|Jack Schmitt|
 166:34:02|21675|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
 166:34:37|21676|142|M|3401|||||||60|37|EVA 3|LRV traverse from Station 7 to 8.|Jack Schmitt|
@@ -2036,7 +2036,7 @@ skip|22133|145|D|SO-368|||||||60|28|EVA 2|STA 5, LRV FLOOR, BLURRED|Gene Cernan|
 172:45:00|22227|145|D|SO-368|||||||60||POST EVA3|LM INTERIOR, S|Gene Cernan|
 172:46:00|22228|145|D|SO-368|||||||60||POST EVA3|LM INTERIOR, S|Gene Cernan|
 189:38:30|22229|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
-189:38:50|22230|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
+189:38:55|22230|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
 189:40:00|22231|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
 189:40:12|22232|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
 189:40:30|22233|145|D|SO-368|||||||60||REV 52|RENDEZVOUS, CSM VIEWED FROM LM|Gene Cernan|
@@ -2145,31 +2145,31 @@ skip|22289|146|F|SO-368|||||||60|37|EVA 3|STA 6, LRV, FLOOR|Gene Cernan|
 166:21:34|22336|146|F|SO-368|||||||60|37|EVA 3|STA 7, SPL 7115, 7135|Gene Cernan|
 166:21:38|22337|146|F|SO-368|||||||60|37|EVA 3|STA 7, SPL 7115, 7135, LMP, HAMMER|Gene Cernan|
 166:21:42|22338|146|F|SO-368|||||||60|37|EVA 3|STA 7, SPL 7115, 7135|Gene Cernan|
-166:26:19|22339|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:21|22340|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:24|22341|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:26|22342|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:29|22343|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan frame - Sculptured Hills|Gene Cernan|
-166:26:31|22344|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
-166:26:34|22345|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan. This is the best of the four pictures in Gene's pan showing Jack and the Rover. Note the BSLSS bag hanging behind Gene's seat and the charge transporter on top of the geopallet immediately behind Gene's seat.|Gene Cernan|
-166:26:36|22346|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
-166:26:39|22347|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
-166:26:41|22348|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:44|22349|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:46|22350|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:49|22351|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:51|22352|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:54|22353|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:56|22354|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:26:59|22355|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan frame|Gene Cernan|
-166:27:01|22356|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:04|22357|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:06|22358|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:09|22359|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:11|22360|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:14|22361|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:16|22362|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
-166:27:19|22363|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:26:37|22339|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:26:39|22340|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:26:42|22341|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:26:45|22342|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:26:47|22343|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan frame - Sculptured Hills|Gene Cernan|
+166:26:50|22344|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
+166:26:53|22345|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan. This is the best of the four pictures in Gene's pan showing Jack and the Rover. Note the BSLSS bag hanging behind Gene's seat and the charge transporter on top of the geopallet immediately behind Gene's seat.|Gene Cernan|
+166:26:55|22346|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
+166:26:58|22347|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN, LRV, LMP|Gene Cernan|
+166:27:01|22348|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:04|22349|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:06|22350|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:09|22351|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:12|22352|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:14|22353|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:17|22354|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:20|22355|146|F|SO-368|||||||60|37|EVA 3|Station 7 pan frame|Gene Cernan|
+166:27:23|22356|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:25|22357|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:28|22358|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:31|22359|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:33|22360|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:36|22361|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:39|22362|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
+166:27:42|22363|146|F|SO-368|||||||60|37|EVA 3|STA 7, PAN|Gene Cernan|
 166:42:13|22364|146|F|SO-368|||||||60|37|EVA 3|Gene took this picture as he and Jack were driving around the southern rim of SWP Crater.|Gene Cernan|
 166:53:35|22365|146|F|SO-368|||||||60|37|EVA 3|Station 8 / left image of stereo pair of sample 8135|Gene Cernan|
 166:53:40|22366|146|F|SO-368|||||||60|37|EVA 3|Station 8 / right image of stereo pair of sample 8135|Gene Cernan|

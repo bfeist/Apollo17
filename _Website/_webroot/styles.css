@@ -1619,7 +1619,8 @@ header {
   line-height: 1;
 }
 .info-wrapper .content .date {
-  font-size: .8em;
+  /*font-size: .8em;*/
+  font-size: 1em;
 }
 .info-wrapper .content .time {
   border-left: 1px solid #444;
