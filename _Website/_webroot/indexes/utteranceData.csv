@@ -30232,7 +30232,7 @@
 2561243|CDR|Okay. Some power at panel 10, Ron. POWER, AUDIO; SUIT POWER'S ON; MODE, VOX.
 2561248|CMP|Okay, we're in VOX.
 2561249|CDR|VOX sensitivity as required, approximately 7.
-2561253|CMP|Well, it works good at 9. I'll try it down here. I don't know whether - Well, I'll leave it all the way up. I '11 leave it on 9. It works that way.
+2561253|CMP|Well, it works good at 9. I'll try it down here. I don't know whether - Well, I'll leave it all the way up. I'll leave it on 9. It works that way.
 2561304|CDR|PAD COMM, OFF.
 2561305|CMP|PAD COMM is OFF.
 2561306|CDR|S-BAND, T/R.
@@ -32066,10 +32066,10 @@
 2783442|CMP|Okay; we'll check that in a second here.
 2783543|CC|Our only thoughts, Ron, on the - any other position that you might see - You know, if it's above the couch plane and you really think it might be a suspect area, you might consider taping the crack, if you desire. The tape probably isn't going to hold it in if it wants to come tumbling out, but it - it's something you could do if you wanted to.
 2783610|CMP|Okay. Yes, I understand that, Bob. That's a good point.
-2783653|CC|And, Ron, while we're talking to you, we'd like to tag up with you on one more item unrelated to the scissors search, and that is your headset situation. And we just want to leave the - make sure you're going to do as was said last night and will not plug that - the headset with the broken wire, you will not plug in again, and we'll arrange your entry configuration in some configuration that does not require that headset to be plugged in. Is that affirm?
+2783653|CC|And, Ron, while we're talking to you, we'd like to tag up with you on one more item unrelated to the scissors search, and that is your headset situation. And we just want to leave the - make sure you're going to do as was said last night and will not plug that - the headset with the broken wires you will not plug in again, and we'll arrange your entry configuration in some configuration that does not require that headset to be plugged in. Is that affirm?
 2783723|CMP|Yes, that's affirm, Bob. I think what I'll do, I'll wear it as a bump hat, you know, and then - and then use the lightweight headset with the - you know, with the earplugs underneath that. I'll put the lightweight headset around my neck, and then have the mike sticking up in front of me, and with the earplugs on. I - I tested that configuration; it's comfortable. No problem. It'll work. And I will not plug in the comm carrier at all.
 2783751|CC|Roger. We just wanted to tag up with you on that. That's what we'll be expecting, and we'll - we'll put this to bed forever.
-2783858|CMP|Okay; mighty fine.
+2783758|CMP|Okay; mighty fine.
 2784226|CDR|Houston, America.
 2784228|CC|Go ahead.
 2784234|CC|Go ahead, America.
@@ -32379,7 +32379,7 @@
 2841648|CC|Here's one addressed to all three crewmen. What will you remember most about this mission?
 2841659|CDR|Boy, that's a loaded question, Gordy. There's so many things, but I think probably the thing that - when I think about it - that will stick with me most is the same thing that stuck with me - for my last two missions - not so much being there, but it's getting the chance to get home and share what you've seen and what you've done with other people.
 2841723|CMP|I think in my case, the lift-off itself was something brand new for me. It's something beyond - The booster ride itself was something beyond what I could really comprehend. So, I think that's - oh, it's a very important part of it. I will always remember that part of it. But I'm kind of like with Gene; I feel that even though the three of us have been up here and had the opportunity to observe the Moon, look at what we could find and that type of thing, I think that we have an obligation to share our experiences with the rest of the people.
-2841804|LMP|Well, Gordy, that is a difficult question. It has been a fascinating experience from so many detail aspects. I guess, generally speaking, the thing I carry back with me, I hope, is an increased perspective not only for the history of the solar system, but I hope for the future of mankind within that solar system.
+2841804|LMP|Well, Gordy, that is a difficult question. It has been a fascinating experience from so many detailed aspects. I guess, generally speaking, the thing I carry back with me, I hope, is an increased perspective not only for the history of the solar system, but I hope for the future of mankind within that solar system.
 2841831|CDR|Gordy, this doesn't mean that that last 50,000 feet won't stick in my mind for a long time.
 2841839|CC|Roger, Gene. Again for all three crewmen. Now that you are returning home from what may be the last lunar exploration of this century, what short-range and long-range plans do each of you have for the future?
 2841857|CDR|Well, my short-range plans are certainly to enjoy Christmas with my family, think about the flight, get its data down on paper. My long-range plans are to turn around and look at the next flight whenever that may be and put my efforts and experience toward that flight and get to work on it.
@@ -33110,16 +33110,16 @@
 3033231|CC|Okay, Ron; just a little reminder.
 3033231|CMP|Mighty fine.
 3033323|LMP|TAPE RECORDER is REWIND.
-3033452|CMP|Okay, we're in RANGE SET. Okay, crank in 1049.9.
+3033452|CMP|Okay, we're in RANGE SET. Okay, crank in 1044.9.
 3033518|PAO|This is Apollo Control 43 minutes now to entry into the atmosphere. Altitude 6,868. Velocity 20,768 feet per second -
 3033530|CMP|Okay, crank in 1044.9. Okay, inertial velocity, set. Slew to 36,172.
-3033609|PAO|Some of the post atmospheric entry events are - begin blackout 17 seconds after entry end blackout 3 minutes, 37 seconds; Drogue parachute deploy 7 minutes, 39 seconds; main parachute deployment 8 minutes, 26 seconds; Landing 13 minutes, 17 seconds after entry.
+3033609|PAO|Some of the post atmospheric entry events are - begin blackout 17 seconds after entry; end blackout 3 minutes, 37 seconds; Drogue parachute deploy 7 minutes, 39 seconds; main parachute deployment 8 minutes, 26 seconds; Landing 13 minutes, 17 seconds after entry.
 3033640|CMP|Okay, we got 36,172. Set. Okay, velocity at .05 G - Okay, let's see - ENTRY and STANDBY. Okay? FDAI SOURCE to ATT SET. ATT SET to GDC. EMS ROLL is ON. Okay, turning the old YAW. And it's 45 degrees to the right. And 45 degrees to the left. Okay; RSI is zero. EMS ROLL is OFF. Okay, let's align the old GDC again.
 3033746|CDR|Houston, America. The EMS is initialized; the RSI is aligned; and we're ready to pick up the command module RCS checks.
 3033754|CC|Roger. We're standing by, Gene.
 3033805|CMP|Okay; GDC is aligned to the IMU. Okay? Verify A/C ROLL is OFF. RCS LOGIC, two circuit breakers are CLOSED. Okay, SCS. MINIMUM IMPULSE.
 3033846|CDR|Okay, Houston, we're going to transfer the command module.
-3033849|CMP|Okay. Just a little bitty blunk. Okay, the ring 1 is going OFF. Okay; we're operating on ring 2. Ring 2 is all MAIN B. You can hear it go click, click. Click, click, okay. (Laughter) Happy with ring 2. Okay, 1 is going up to ON; 2 is coming OFF Okay, ring 1 is all MAIN A. Okay. Yes, you can see it, too, can't you? Okay, it works. Okay, ring 2 is going back to MAIN B. 1 is MAIN A; ring 2 is MAIN B. Okay? Okay. Okay, we still got control of the service module.
+3033849|CMP|Okay. Just a little bitty blunk. Okay, the ring 1 is going OFF. Okay; we're operating on ring 2. Ring 2 is all MAIN B. You can hear it go click, click. Click, click, okay. (Laughter) Happy with ring 2. Okay, 1 is going up to ON; 2 is coming OFF. Okay, ring 1 is all MAIN A. Okay. Yes, you can see it, too, can't you? Okay, it works. Okay, ring 2 is going back to MAIN B. 1 is MAIN A; ring 2 is MAIN B. Okay? Okay. Okay, we still got control of the service module.
 3034034|CDR|Okay, Houston, the RCS check looks good onboard.
 3034038|CC|Roger, America; and it looked great down here.
 3034041|CMP|CMC in AUTO. Yes, clock's running to RRT. Yes, it is.
@@ -33168,7 +33168,7 @@
 3040252|CMP|Yes, verify BYPASS.
 3040256|CMP|Okay, and stand by. Hey, Jack, when I yaw down here, can you get a picture?
 3040316|CMP|Okay, BMAGs, ATT l/RATE 2; RATE COMMAND; SCS. DEADBAND MIN; RATE to HIGH. COMMAND MODULE RCS LOGIC is ON. SECS LOGIC verified ON. Okay. Here come the pyros - PYRO A, PYRO B.
-3040340|CDR|Okay, Houston. On ray mark - I'm going to hit the CM/SM SEP.
+3040340|CDR|Okay, Houston. On my mark - I'm going to hit the CM/SM SEP.
 3040344|CC|Roger.
 3040346|CDR|3, 2, 1 -
 3040350|CDR|MARK.
@@ -33456,15 +33456,15 @@
 3045121|LMP|(Laughter) ...
 3045147|RECOV|Three swimmers are out in the egress raft, and are attaching it to the flotation collar.
 3045156|LMP|Man they are really working along.
-3045201|SPKR|The uprighting bags are fully inflated. And the swimmers are signalling the recovery to deploy the drop bag.
-3045228|LMP|Recovery this is America, we're standby for your call on opening the hatch.
-3045246|LMP|Hello, Recovery, America.
+3045201|SPKR|The uprighting bags are fully inflated. And the swimmers are signaling the recovery to deploy the drop bag.
+3045228|CDR|Recovery this is America, we're standby for your call on opening the hatch.
+3045246|CDR|Hello, Recovery, America.
 3045249|RECOV|Go ahead, America.
-3045250|RECOV|Okay, I'm going to standby for your call on opening the hatch.
+3045250|CDR|Okay, I'm going to standby for your call on opening the hatch.
 3045255|LMP|Recovery, roger. Trying to get your signal from UTD crewman there.
-3045259|RECOV|Okay, fine. Thank you. ...
+3045259|CDR|Okay, fine. Thank you. ...
 3045312|RECOV|... command module ... on the drop bag.
-3045327|LMP|(Laughter).
+3045327|CMP|(Laughter).
 3045338|RECOV|And Recovery is moving in towards the command module, positioning the drop bag at the egress raft.
 3045421|RECOV|And Recovery is positioning the drop bag - at the egress raft.
 3045433|RECOV|And the swimmers have the drop bag and they're disconnecting it from the recovery hoist.
@@ -33472,7 +33472,7 @@
 3045450|LMP|...
 3045510|RECOV|Recovery has moved back and the swimmers have the drop bag.
 3045527|LMP|I'm thinking I'll get a black eye this way.
-3045530|LMP|Yep, you sure will.
+3045530|CMP|Yep, you sure will.
 3045532|RECOV|One swimmer on the floatation collar near egress hatch.
 3045537|LMP|(laughter) Hey, hey.
 3045538|RECOV|And the swimmer has opened the egress hatch.
@@ -33480,15 +33480,15 @@
 3045546|LMP|Help us, okay.
 3045553|RECOV|And the swimmer has passed the drop bag to the astronauts and has reclosed the egress hatch.
 3045611|PAO|Texas Congressman Olin Teague visiting the control room now, shaking hands with management and flight controllers as we observe the recovery operations on the Eidaphor Television projector in the front of the control room.
-3045638|RECOV|Swimmers are wading to the egress raft and the astronauts have given the -
+3045638|RECOV|Three swimmers are wading to the egress raft and the astronauts have given the drop -
 3045643|PAO|Congressman Teaque has been joined in the control center by Congressman Bob Casey, from the Houston area, who is shaking hands with some of the flight surgeons at the flight surgeon console.
 3045721|RECOV|Swimmers are in the egress raft, one swimmer is on the flotation collar. The motor whale is at the ELS is approaching the ELS raft. The swimmers have the apex cover aboard their raft. Swimmer is on the flotation collar peering into the command module.
-3045837|RECOV|GARBLE. Completed and attached and RECOVERY photo ... and ELS hovering in the area of the command module.
+3045837|RECOV|... inflated and attached and RECOVERY photo ... and ELS hovering in the area of the command module.
 3045923|RECOV|And the three swimmers are in the egress raft. And command module and swimmers are riding extremely well. The swell is very moderate, maybe 2 feet. 2 to 4 foot swell.
 3050018|PAO|Flight Director, Neil Hutchinson, has asked every one in the control center to restrain themselves from lighting their splashdown cigars until the crew is on the deck of the recovery ship.
 3050032|RECOV|A swimmer has opened the hatch slightly and is talking to the astronauts. The swimmer has fully opened the egress hatch. The astronauts have passed a box to the swimmers and the swimmers have placed it in the egress raft. And the first astronaut is exiting the command module. ... is on the floatation collar. The swimmer is inflating the astronaut's life preserver unit. And the first astronaut is in the egress raft. The second astronaut is exiting the command module. The second astronaut's life preserver unit is being inflated. The astronauts are shaking hands with the UDC swimmers. The third astronaut is egressing from the command module. And the third astronaut's life preserver unit has been inflated. And that third astronaut and the UDC swimmer are on the flotation collar and are closing the egress hatch. The egress hatch has been closed and secured. ...
 3050859|PAO|This is Apollo Control. The control room here is quite full of people. Off shift flight controllers, management people watching the recovery operations in progress on the large television projector at the front of the control room. Waiting for that moment when the crew is safely on the deck of the ship to fire up their traditional splashdown cigars.
-3051522|SPKR|Land only long enough to drop off several of the photographers, the still photographers and the motion picture photographers from NASA who have been onboard. They will get themselves into position to photograph the ceremony and then the chopper will go back upstairs. Because Sam Drumy - our cameraman - the man who is giving us all thos wonderful shots - the closeup shots of the command module on the water - we want to get back up topside so we can get more pictures of the Ticonderoga during the ceremony. The ceremony, itself, is outlined rather extensively in the instructional sheet and the Astronauts are reading perhaps right now.
+3051522|SPKR|Land only long enough to drop off several of the photographers, the still photographers and the motion picture photographers from NASA who have been onboard. They will get themselves into position to photograph the ceremony and then the chopper will go back upstairs. Because Sam Drumy - our cameraman - the man who is giving us all those wonderful shots - the closeup shots of the command module on the water - we want to get back up topside so we can get more pictures of the Ticonderoga during the ceremony. The ceremony, itself, is outlined rather extensively in the instructional sheet and the Astronauts are reading perhaps right now.
 3051614|PAO|This is Apollo Control here in the Control Center. The Network controller has climbed a tall ladder to hang the final in the Apollo plaques along the upper wall of the Control Center. All the cigars are still unlit, waiting in the mouths of the flight control team, for the actual time the crew is safely on deck of the Ticonderoga. Waiting as the helicopters approach the ship, great deal of joviality under way here in the control center. Hand shaking, best wishes, from management, flight controllers, other people who have been associated with the Apollo Program for the past ten years. Network controller still at the top of his ladder spring loaded to hang the plaque on the wall.
 3052157|SPKR|Since they are to go below deck and undergo a rather extensive medical - examinations maybe they'd just like to delay that just a little bit.
 3052208|SPKR|....
@@ -33496,7 +33496,7 @@
 3052235|SPKR|And locate on the spacecraft as it came down toward the Pacific. And there will be some celebration on this ship. This evening a party with the astronauts and special guests - but most of the time after they get on the ship they will be spending in the scientific laboratories aboard. The ones that are prepared for the Skylab program that are being used here on the Apollo 17 mission. They won't even get a chance to take a shower for more than an hour. The other thing that they'd probably like to be doing is calling their families at home but there's no time located in the schedule for that. No time allocated for that until 5 o'clock this afternoon. Quick calculation tells us that that will be about 9 o'clock Houston time ladies so they will be calling you at that time. Now 001 and 002 moving in toward the deck of the Ticonderoga. Already the men are prepared to roll out that red carpet. And there's a shot from our photo helicopter. You can see landing on the fantail, 001 helicopter, you can also see 002 as it flies away. It will not be landing now because the recorders turned on and the ceremony will be ready to begin.
 3052456|PAO|This is Apollo Control with the helicopter safely on the deck. The network controller, Dave Young, will hang the final placque in the Apollo series on the upper wall of the control room here. And this circuit, known up until now as Gemini Control and Apollo Control will reappear as Skylab Control in the spring. This is Apollo Control out at 305:25 Ground Elapsed Time.
 3052532|SPKR|- as soon as the door is opened. Also in the foreground the bald headed man in the middle of the picture, Dr. Don Stalkin who is a NASA team leader. He will be the first man on the deck to be seen by the astronauts. He will be the man who will step up to greet them, and to remind them again of what they have already been told on the instructional sheet. Watch out for your heads - for Schmitt and Evans. Step down three steps. Wave and smile. And the instruction sheet says follow me. ...
-3052622|SPKR|.. arriving.
+3052622|SPKR|Apollo 17 arriving.
 3052625|SPKR|The carpet is down. (Music) All three men, one at a time. And now they are out on the deck. The middle man is Evans all right. (Cheer) And they are in proper array as the band strikes up Anchors Aweigh as could be predicted. Cernan in front, Schmitt in the middle. Being greeted by Admiral Butts, by Captain Norman Green and by Air Force General David Jones. Some pretty happy looking astronauts. On the stage that is prepared for them - Captain Green.
 3052732|GREEN|It gives me great pleasure this morning, to welcome the crew of Apollo 17 back from the Moon to the deck of Ticonderoga. We on Ticonderoga are very proud to be a part of this historic mission. Chaplain John Ecker will offer our prayer to almighty God for the safe return of these three astronauts.
 3052801|ECKER|The heavens declare your glory oh Lord. The planets, the sun, the moon, and the stars which you set in place, in humble gratitude we thank you for the safe return from your heavens of these pioneers in space. May their achievements contribute to the unity of mankind and peace for all your people in this holy season. Amen.
@@ -33507,4 +33507,4 @@
 3053255|EVANS|Thank you, Gene, General Green, - Captain Green, (Laughter) Admiral. You know, about 6-1/2 years ago, I was fortunate enough to be on the Ticonderoga, where I was notified, of my selection to the Astronaut Corps. I think it's quite fitting that I should happen to have the opportunity to be picked up by the Tico after our journey to the Moon. To me that's really something. The fact that, it was the Ticonderoga, is part of the United States Navy, the fact that I'm a Commander in the United States Navy, and I flew the United States Spacecraft America, to the Moon and back, I'm really honored and I'm proud. That's about the best way I can express it. And I think right now I'd like to present our, not our 3rd crew member, but the 3rd member of the Apollo 17 crew. Jack Schmitt. (Applause)
 3053408|LMP|Thank you. I'm happy to be here and I guess I never will be Navy. (Laughter) I'm sorry. But, if there was ever a team I'd like to be part of it's this one. Thank you very much. (Applause)
 3053433|SPKR|And so the Astronauts are done with their ceremony and are doing what the sheet told them to not to do, they're shaking hands over there. The sheet said just step off the platform turn left and wave or salute, but they either forgot or decided to go ahead and do their thing anyway. The doctors had thought that the shaking of hands would take too much time away from their experiments. And now, Dr. Don ... is herding them away. He's got one, he's got two, he's got three. They're all going down below, for their medical examinations. (music)
-3053524|SPKR|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonde
+3053524|SPKR|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonderoga.

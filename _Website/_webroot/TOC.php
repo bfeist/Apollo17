@@ -1035,8 +1035,8 @@
         <li onclick="parent.seekToTime('3043344')" class="tocitem" id="tocid3043344"><span class="TOCTimestamp">304:33:44</span>
         <span class="TOC_item">Crew retrieval</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('3052235')" class="tocitem" id="tocid3052235"><span class="TOCTimestamp">305:22:35</span>
-        <span class="TOC_item">Crew onboard USS Ticonderoga</span>
+    <li onclick="parent.seekToTime('3052428')" class="tocitem" id="tocid3052428"><span class="TOCTimestamp">305:24:28</span>
+        <span class="TOC_item">Video: Crew on-board USS Ticonderoga</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('3052732')" class="tocitem" id="tocid3052732"><span class="TOCTimestamp">305:27:32</span>
         <span class="TOC_item">Speeches by the crew</span>
