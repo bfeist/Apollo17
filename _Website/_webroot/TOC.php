@@ -216,6 +216,12 @@
         <li onclick="parent.seekToTime('0933500')" class="tocitem" id="tocid0933500"><span class="TOCTimestamp">093:35:00</span>
         <span class="TOC_item">Descent orbit insertion reported</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0974728')" class="tocitem" id="tocid0974728"><span class="TOCTimestamp">097:47:28</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1054500')" class="tocitem" id="tocid1054500"><span class="TOCTimestamp">105:45:00</span>
+        <span class="TOC_item">Crew wake-up (music)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1065317')" class="tocitem" id="tocid1065317"><span class="TOCTimestamp">106:53:17</span>
