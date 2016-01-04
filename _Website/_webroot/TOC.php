@@ -143,6 +143,9 @@
         <li onclick="parent.seekToTime('0370033')" class="tocitem" id="tocid0370033"><span class="TOCTimestamp">037:00:33</span>
         <span class="TOC_item">Crew listening to music</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0391033')" class="tocitem" id="tocid0391033"><span class="TOCTimestamp">039:10:33</span>
+        <span class="TOC_item">Schmitt eats his first peanut butter sandwich in orbit</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0425932')" class="tocitem" id="tocid0425932"><span class="TOCTimestamp">042:59:32</span>
         <span class="TOC_item">Video: Start of onboard heat flow and convection experiment</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
