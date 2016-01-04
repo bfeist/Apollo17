@@ -30,6 +30,7 @@
 0341007|2|Video: crew onboard film while listening to the news
 0353000|1|First mid-course correction
 0370033|2|Crew listening to music
+0391033|2|Schmitt eats his first peanut butter sandwich in orbit
 0425932|2|Video: Start of onboard heat flow and convection experiment
 0453018|2|Video: Continuation of onboard heat flow and convection experiment
 0483612|1|Crew Sleep Period Start
@@ -51,6 +52,8 @@
 0894003|2|S-IVB lunar impact
 0901811|2|"Flash" observed on the lunar surface
 0933500|1|Descent orbit insertion reported
+0974728|1|Crew Sleep Period Start
+1054500|1|Crew wake-up (music)
 1065317|2|Video: Earth and moon through telescope
 1100800|1|Lunar Module undocking and separation
 1104734|1|Video: Command Module from LM
@@ -274,6 +277,6 @@
 3043150|1|Splashdown
 3042233|2|Video: Mission Control
 3043344|1|Crew retrieval
-3052235|1|Crew onboard USS Ticonderoga
+3052428|1|Video: Crew on-board USS Ticonderoga
 3052732|1|Speeches by the crew
 3053524|0|End of coverage

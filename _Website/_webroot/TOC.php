@@ -143,6 +143,9 @@
         <li onclick="parent.seekToTime('0370033')" class="tocitem" id="tocid0370033"><span class="TOCTimestamp">037:00:33</span>
         <span class="TOC_item">Crew listening to music</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0391033')" class="tocitem" id="tocid0391033"><span class="TOCTimestamp">039:10:33</span>
+        <span class="TOC_item">Schmitt eats his first peanut butter sandwich in orbit</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0425932')" class="tocitem" id="tocid0425932"><span class="TOCTimestamp">042:59:32</span>
         <span class="TOC_item">Video: Start of onboard heat flow and convection experiment</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
@@ -215,6 +218,12 @@
     </ul>
         <li onclick="parent.seekToTime('0933500')" class="tocitem" id="tocid0933500"><span class="TOCTimestamp">093:35:00</span>
         <span class="TOC_item">Descent orbit insertion reported</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0974728')" class="tocitem" id="tocid0974728"><span class="TOCTimestamp">097:47:28</span>
+        <span class="TOC_item">Crew Sleep Period Start</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1054500')" class="tocitem" id="tocid1054500"><span class="TOCTimestamp">105:45:00</span>
+        <span class="TOC_item">Crew wake-up (music)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
@@ -1035,8 +1044,8 @@
         <li onclick="parent.seekToTime('3043344')" class="tocitem" id="tocid3043344"><span class="TOCTimestamp">304:33:44</span>
         <span class="TOC_item">Crew retrieval</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('3052235')" class="tocitem" id="tocid3052235"><span class="TOCTimestamp">305:22:35</span>
-        <span class="TOC_item">Crew onboard USS Ticonderoga</span>
+    <li onclick="parent.seekToTime('3052428')" class="tocitem" id="tocid3052428"><span class="TOCTimestamp">305:24:28</span>
+        <span class="TOC_item">Video: Crew on-board USS Ticonderoga</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('3052732')" class="tocitem" id="tocid3052732"><span class="TOCTimestamp">305:27:32</span>
         <span class="TOC_item">Speeches by the crew</span>

@@ -44,7 +44,7 @@
 -002509|LMP|MARK it.
 -002438|PAO|This is Apollo Saturn Launch Control. We're now holding at the 8 minute mark as planned. The hold at this time is planned for approximately 20 minutes. The crew feels that they have, that they have a work around to the problem, working around the indication going to the terminal sequencer that the tank has not been pressurized, when actually it had been done manually. They are checking all of their data, however, to insure that this is the proper method to work around the problem and that this will result in a smooth countdown from here on. Now at T-minus 8 minutes and holding, this is Kennedy Launch Control.
 -002413|CDR|Okay, we'll be looking for them.
--002341|PAO|This is Apollo Saturn Launch Control. We're continuing our hold at the 8 minute mark. The launch operations manager has gone over with the launch team their proposed solution a work around. The team appears to be satisfied that it is the proper one. They are now briefing management personnel on the problem and the work around. Out at the pad the liquid oxygen continues to vent from the vehicle and is replenished. Liquid hydrogen is also vented from the vehicle as there is some boil off. However, because it is quite a volatile fuel it is vented through a burn-pond at the side of the pad. That burn-pond is at the north side of the pad and there it can be seen burning in a controlled condition at this time. This is a normal condition, actually during the day this burns in such a pure manner that it cannot be seen. However, at night it is clearly visible. Our countdown continuing to hold at the T-minus 8 minute mark at this time. T-minus 8 minutes and holding this is Kennedy Launch Control.
+-002341|PAO|This is Apollo Saturn Launch Control. We're continuing our hold at the 8 minute mark. The launch operations manager has gone over with the launch team their proposed solution a work around. The team appears to be satisfied that it is the proper one. They are now briefing management personnel on the problem and the work around. Out at the pad the liquid oxygen continues to vent from the vehicle and is replenished. Liquid hydrogen is also vented from the vehicle as there is some boil off. However, because it is quite a volatile fuel it is vented through a burnpond at the side of the pad. That burnpond is at the north side of the pad and there it can be seen burning in a controlled condition at this time. This is a normal condition, actually during the day this burns in such a pure manner that it cannot be seen. However, at night it is clearly visible. Our countdown continuing to hold at the T-minus 8 minute mark at this time. T-minus 8 minutes and holding this is Kennedy Launch Control.
 -002225|PAO|This is Apollo Saturn Launch Control. We're continuing to hold at the T-8 minute mark. Me an time the crew is getting a variety of updates in the spacecraft, updating them on various aspects and the changes to their mission due to this hold period. Also, at the Manned Spacecraft Center they are continuing to update the flight azimuth as they get new times for the launch. Launch Operations Manager Paul Donnelly just went through quite an extensive briefing with the spacecraft test conductor to pass on to the crew what they feel the problems were and how they plan to work around it. The crew aboard the spacecraft indicated that if the launch team was satisfied with these solutions, that they certainly were confident themselves. Now continuing our hold at the T-minus 8 minute mark this is Kennedy Test Control.
 -002158|CDR|Okay, understand; full retract.
 -002147|CDR|Skipper, thank you. We - we plan to, babe.
@@ -1561,7 +1561,7 @@
 0091233|PAO|This is Apollo Control at 9 hours, 12 minutes. Apollo 17 now, 41,677 nautical miles from Earth, velocity 9,159 feet per second. The spacecraft has stabilized into a passive thermal control mode now. It is completing one revolution every 18 minutes.
 0092558|PAO|This is Apollo Control at 9 hours 26 minutes. The Booster Systems Engineer has advised Flight Director Pete Frank that a second midcourse correction for the S-IVB, the third stage of the launch vehicle will be required. This maneuver is performed with the auxiliary propulsion system of the S-IVB, and the Booster Systems Engineer will command this burn at 11 hours 15 minutes Ground Elapsed Time. The magnitude of the burn is not known at this time. That will be determined shortly before the midcourse is performed. The purpose is to tune up the trajectory to more precisely target the S-IVB stage to the desired impact point on the lunar surface. Tracking to this point of the spacecraft indicates that a midcourse correction will probably be performed for the spacecraft at the scheduled midcourse number 2 time at 35 hours and 30 minutes. A preliminary look - that's a very early look shows it to be about 10-1/2 feet per second, but that will be refined as we get closer to the time. At 9 hours 27 minutes, this is Mission Control Houston.
 0093044|PAO|This is Apollo Control at 9 hours 30 minutes. We have had no voice communications with the crew for some time now. But we do have indications that they have not yet fully configured the spacecraft for their rest period. Normally the voice switch is turned off the last step before the rest period. That voice switch is still on. Apollo 17 now 43,261 nautical miles away from Earth, velocity 8,964 feet per second.
-0094802|PAO|This is Apollo Control at 9 hours 48 minutes. From the data that he is receiving, the Flight Surgeon, Dr. Sam P001, reports that he believes the spacecraft Commander Gene Cernan is asleep. Cernan is the only member of the crew who is wearing the biomedical harness during the rest period, and therefore, is the only one that the flight surgeon is getting measurements on. But the indications are that Cernan is asleep and apparently the entire crew has gone to sleep. Apollo 17 now 44,749 nautical miles from Earth. Velocity 8,794 feet per second. The awake clock as operating in the Control Center shows wake up for the crew in 5 hours 10 minutes 37 seconds.
+0094802|PAO|This is Apollo Control at 9 hours 48 minutes. From the data that he is receiving, the Flight Surgeon, Dr. Sam Pool, reports that he believes the spacecraft Commander Gene Cernan is asleep. Cernan is the only member of the crew who is wearing the biomedical harness during the rest period, and therefore, is the only one that the flight surgeon is getting measurements on. But the indications are that Cernan is asleep and apparently the entire crew has gone to sleep. Apollo 17 now 44,749 nautical miles from Earth. Velocity 8,794 feet per second. The awake clock as operating in the Control Center shows wake up for the crew in 5 hours 10 minutes 37 seconds.
 0095855|PAO|This is Apolio Control at 9 hours 59 minutes. The Flight Dynamics Officer, Bill Boone, has computed the half way marks for the spacecraft in both time and distance. We'll give those to you now. Apollo 17 will reach the half way point in distance at a Ground Elapsed Time of 30 hours 3 minutes. Its distance from both the Moon and the Earth at that time will be 114,787 nautical miles. Its velocity, referenced to the Earth, will be 4,522 feet per second; referenced to the Moon, 3,826 feet per second. The half way mark in time will be reached at a Ground Elapsed Time of 43 hours 8 minutes 6 seconds. At that time Apollo 17 will be 144,924 miles from the Earth, with an Earth reference to velocity of 3,551 feet per second. And it will be 87,561 nautical miles from the Moon, with a Moon referenced velocity of 3,403 feet per second. Apollo 17 will cross the lunar sphere of influence at the Ground Elapsed Time of 70 hours 43 minutes 24 seconds, at which time it will be 190,725 nautical miles from the Moon. Earth referenced velocity 2,340 feet per second. Distance from the Moon at that time, 33,639 nautical miles, with the lunar referenced velocity of 3,356 feet per second. At 10 hours 1 minute into the mission, this is Mission Control Houston.
 0102937|PAO|This is Apollo Control at 10 hours 29 minutes. Apollo 17 now, 48,070 nautical miles from Earth, velocity 8,434 feet per second. Pete Frank and the orange team of flight controllers getting ready to hand over to Gerry Griffin and his gold team of flight controllers at this time. Astronaut Bob Parker will remain as the CAPCOM for a good deal of this next shift. Several spurrious master alarms that were seen while the spacecraft was still in Earth orbit are as yet unexplained. There are no obvious reasons for them. The spacecraft experts in the back rooms, the support rooms here at the Mission Control Center are still tracking this situation. It's not considered a serious problem. The more recent master alarms that have occurred during this shift and during the translunar coast phase after Apollo 17 burned translunar insertion, are attributed to a higher than normal oxygen flow at regular intervals in the cabin. The cabin is still being purged of the partial nitrogen atmosphere that it contained at launch that is being purged, a vent valve is open in the cabin and the higher than normal O2-rate has been introduced to help purge the cabin. Now, added to that when the water accumulator in the suit circuit cycles, there is a brief increase of oxygen flow over and above the higher than normal flow that we are using to purge the cabin. And this is just high enough to when the water accumulator cycles it brings it up just high enough to trigger the master alarm. It is not a problem. The last three or four master alarms that we have seen are attributed to this. However, the Earth orbit master alarms are not yet accounted for. But, they are not considered to be a serious problem. During this shift a midcourse correction number 1 was performed on the SIV-B stage of the launch vehicle, 13 feet per second performed with the auxilary propulsion system. A second midcourse for that third stage of launch vehicle is planned at a Ground Elapsed Time of 11 hours 15 minutes. The magnitude of the burn is not - is not yet known. These midcourses are to tune up the trajectory of that stage, to bring it closer to the desired impact point on the lunar surface. As far as the spacecraft is concerned midcourse correction number 1 was passed. We did not perform midcourse correction number 1. The magnitude at that time was less than 3 feet per second. We will probably perform a midcourse correction number 2 at 35 hours and 30 minutes. A preliminary look at that indicates about a 10-1/2 foot per second burn at that time. The Mission is going well. We have not heard from the crew for some time now and are confident that they are asleep. The spacecraft is in passive thermal-contro1 mode, stabilized in 1 revolution every 18 minutes, approximately 3 per hour. The crew is scheduled to be awakened 4 hours, 24 minutes from this time. At 10 hours 35 minutes into the Mission, this is Mission Control, Houston.
 0112700|PAO|This is Apollo Control at 11 hours 27 minutes Ground Elapsed Time into the mission of Apollo 17. Approximately 11 minutes ago, as you were 6 minutes ago, the S-IVB corrective burn was performed roughly 14.2 feet per second to modify the trajectory of the S-IVB third stage in the Saturn V, targeting for impact just west of the crater Ptolemaeus at latitude 7 degrees south by longitude 8 degrees west. However, the actual impact location and the time of impact will be forthcoming after some additional hours of tracking of the stage has been gathered. We're looking now at a midcourse correction burn number 2 of the Apollo 17 spacecraft at 35 hours 30 minutes, with a change in velocity - a posigrade of 10.5 feet per second. Some 3-1/2 hours remaining in the crew rest period. All three apparently sound asleep at this time. And the passive thermal control mode puts the spacecraft at spinning at some 3 revolutions per hour. To repeat earlier statistics on half way in distance, time, and when the so-called sphere of influence is crossed will be at the half way point in distance at 30 hours and 3 minutes Ground Elapsed Time, in which time it will be 114,787 nautical miles either direction to the Earth or Moon. And a half way point in time will occur at 43 hours 8 minutes and 6 seconds when the spacecraft will be 144,924 nautical miles out from Earth; and 87,561 nautical miles out from the Moon. The so-called sphere crossing, or the point in which the spacecraft is assumed to come under the gravitational influence of the Moon, will take place at 70 hours 43 minutes 24 seconds when the spacecraft is 33,639 nautical miles out from the Moon and approaching. The air/ground circuit has been up all of this time since the crew has retired for a fairly brief rest period, and at this time we will take down the air/ground circuit until the wakeup call is made some 3 hours 29 minutes from now. And at 11 hours 30 minutes Ground Elapsed Time, this is Apollo Control.
@@ -1627,7 +1627,7 @@
 0152340|CC|We were just discussing that here. Used to - in flights gone by, there was a place in the Flight Plan, a little form to fill out. But we're trying to figure out if there is such a place in the current data file. Do you know of one?
 0152355|LMP|Well, I'll tell you what I've got. I've got the consumables curves, and if there are any major changes to those curves, I guess you could give them to me, and I'll put them on as points.
 0152409|CC|There's no - -
-0152410|CDR|Hey, Jack.
+0152410|CDR|Page -
 0152410|CC|- - changes at all.
 0152414|LMP|Okay. And why don't we just do it that way in the future in case there is anything. And that's on page 1-45 and subsequent in the Flight Plan Supplement.
 0152425|CC|Okay.
@@ -2126,7 +2126,7 @@
 0214254|CC|Roger. He finally got to 115 on the heart rate.
 0214301|CDR|Yes, my rate needles are bouncing back and forth a half a degree (laughter).
 0214304|CC|Roger. Got to find something to pin it on.
-0214455|CC|Jack. Surgeon over here says you got a 120 on the heartbeat for a moment there - 122 right now. Okay, 130, Jack. 130. 140 , Jack, 140.
+0214455|CC|Jack. Surgeon over here says you got a 120 on the heartbeat for a moment there - 122 right now. Okay, 130, Jack. 130. 140, Jack, 140.
 0214616|PAO|The numbers reported to Jack Schmitt by CAPCOM are his heart rate. And you heard him report a heart rate up to about 140 beats per minute as Jack is apparently continuing to exercise vigorously with the onboard exerciser. This is aimed among other things at keeping the cardio vascular system which tends to get lazy in zero gravity in condition.
 0214725|CC|17, we've got a serious one here. You might be interested. All that exercise banging around in there has destratified tank 3 O2, so it stirred it all up good.
 0214738|CDR|Yes, glad we brought him along then. We found some use for him.
@@ -2841,14 +2841,15 @@
 0364216|CMP|Okay; thank you. We'll do that.
 0364313|CDR|It's 2.2, Gordo; I put it back in VENT.
 0364317|CC|Okay.
-0370019|CMP|Hello, Houston; America.
+0370019|CDR|Hello, Houston; America.
 0370023|CC|Roger, America. Go ahead.
-0370026|CMP|Okay, Gordo. We're up to 2.5 on the tunnel and still venting.
+0370026|CDR|Okay, Gordo. We're up to 2.5 on the tunnel and still venting.
 0370033|CC|Okay. is that music we hear in the background?
-0370040|CMP|Yes, sir. (Music: Up, Up, and Away by Brazil '66) They've been making fun of some of my music. ...
+0370040|CDR|Yes, sir. (Music: Up, Up, and Away by Brazil '66)
+0370053|LMP|They've been making fun of some of my music. ...
 0370059|CC|Yes, it's coming down to us in living stereo.
-0370105|CMP|Reminiscent of yesteryear. (Music: Up, Up, and Away by Brazil '66).
-0370243|CMP|Music from America.
+0370105|CDR|Reminiscent of yesteryear. (Music: Up, Up, and Away by Brazil '66).
+0370243|CDR|Music from America.
 0370246|CC|Roger. Thank you for the concert. That was very appropriate.
 0371007|CDR|Gordo, Ron went off the air for a minute, and LM DELTA-P is now 2.6.
 0371015|CC|Okay, Gene.
@@ -2856,20 +2857,20 @@
 0371039|CDR|(Music) Okay, Gordo. We'll make it 2.8.
 0371045|CC|Roger.
 0372042|CC|America, Houston. That was a sight handover, the reason we lost signal for a second there.
-0372048|CDR|Okay.
-0373247|CDR|Houston, 17-
+0372048|LMP|Okay.
+0373247|LMP|Houston, 17-
 0373249|CC|Go ahead.
-0373253|CDR|Say, are we going to have a pretty good view of the Earth out of any CSM windows at the LM checkout attitude?
+0373253|LMP|Say, are we going to have a pretty good view of the Earth out of any CSM windows at the LM checkout attitude?
 0373302|CC|I'll check on that.
-0373303|CDR|We're sort of blocked right now.
+0373303|LMP|We're sort of blocked right now.
 0373305|CC|Roger.
 0374231|CC|America, Houston. We're predicting that your LM/CM DELTA-P ought to be about right now, about 2.8.
-0374241|CDR|Okay.
+0374241|LMP|Okay.
 0374245|CC|We would like a reading -
-0374245|CDR|We'll check it.
+0374245|LMP|We'll check it.
 0374314|CDR|Gordo, 2.9.
 0374318|CC|Okay. Sounds good.
-0374416|CDR| ...
+0374416|LMP| ...
 0374430|LMP|Gordy, the reason I asked about that view of the Earth, we were sort of thinking maybe we might go early, if it was all right with you, and watch the Earth a little bit more.
 0374445|CC|Okay. We're still trying to get the answer on whether you'll have a window. Stand by. I might have it here.
 0375005|CC|America, Houston.
@@ -2924,7 +2925,7 @@
 0383405|LMP|And about 15 minutes ago, Gordy, I took two more Hasselblad shots of the Earth.
 0383414|CC|Okay.
 0383429|CMP|And, also, Houston, frame number - let's see, that's 16 and 17 - were taken of the Earth about 15 minutes ago, too. And that's magazine Sierra Sierra.
-0383445|LMP|Okay, Ron. We copy that.
+0383445|CC|Okay, Ron. We copy that.
 0383456|LMP|Gordy, with respect to the icepack off the coast of Antarctica, it's difficult to distinguish pack ice from clouds, in general. However, the clouds seem to pick up reflection patterns with respect to the Sun. And using that as a - and some shadows in below as the criteria, it looks as if the pack ice in the South Atlantic would extend to a latitude almost comparable to that of Tierra del Fuego. I don't know whether that - that's reasonable or not.
 0383546|CC|Okay. I don't either. But maybe someone who's more of an expert can clear up your question on that. I'll let you know.
 0383557|LMP|Now to the southwest of Tierra del Fuego there's a - looks like a small cyclone developing, clockwise rotation, just off the edge of the pack ice, and - but it does not seem to be closely associated with the frontal activity that I mentioned when I started out speaking at this - this particular time.
@@ -2989,16 +2990,16 @@
 0390608|CC|Okay. A little water after you chew it up, I guess, helps its effectiveness.
 0390615|CDR|That's a basic requirement, I believe. The effect of it has not been too obvious yet though.
 0390625|CC|Roger.
-0390753|CDR|Gordy, you want the 02 HEATERS 1 and 2 to AUTO now?
+0390753|LMP|Gordy, you want the O2 HEATERS 1 and 2 to AUTO now?
 0390800|CC|That's affirmative.
-0390808|CDR|Okay, They're there.
+0390808|LMP|Okay, They're there.
 0390907|CDR|Gordy?
 0390910|CC|Go ahead.
 0390914|CDR|I don't want to cause any concern on that gas. It's no real great problem. It's just a slight discomfort; that's all.
 0390920|CC|Okay, Gene. I think we understand.
-0391033|CDR|Gordy, I have just eaten my first peanut butter sandwich in orbit around the Earth.
+0391033|LMP|Gordy, I have just eaten my first peanut butter sandwich in orbit around the Earth.
 0391043|CC|Roger. How was it?
-0391047|CDR|What's that? Well, it was just as good as it was when I was growing up - which means it was great. I grew up on those things, as I recall.
+0391047|LMP|What's that? Well, it was just as good as it was when I was growing up - which means it was great. I grew up on those things, as I recall.
 0391110|CC|Charlie Duke's here with me and he - -
 0391111|CMP|Miss the lettuce. Sure have missed the lettuce and mayonnaise on mine though.
 0391432|CMP|And, Houston, we'll go ahead and maneuver onto the LM attitude.
@@ -3006,14 +3007,14 @@
 0391440|CMP|Okay.
 0392723|CMP|Okay. DIRECT O2 is coming OPEN now.
 0392727|CC|Okay.
-0393012|CMP|DIRECT O2 is OFF.
+0393011|LMP|DIRECT O2 is OFF.
 0393014|CC|Roger.
 0393055|CC|America, before you open the equalization valve, we'd like one final reading on the LM/CM DELTA-P.
 0393107|CMP|Okitydoke.
 0393117|CMP|Okay. With this cabin pressure now, it's up to 3.5, almost 3.6.
 0393125|CC|Okay, Ron.
 0393358|CC|Jack, Houston. We're ready to terminate the charge on battery A.
-0393410|CDR|Standby. Good. CSM LM pressure equalization, huh? Okay, cryo pressure indicator to surge 3 and verify cryo. Oh, wait a minute. See if I got the right one here. Recto 2 is on.
+0393410|CMP|Standby. Good. CSM LM pressure equalization, huh? Okay, cryo pressure indicator to surge 3 and verify cryo. Oh, wait a minute. See if I got the right one here. Recto 2 is on.
 0393606|CDR|Okay, Gordo, I cycled the CRYO PRESSURE INDICATOR from up to down, back to SURGE/3. And we got a MASTER ALARM and there was no O2 HIGH FLOW with it at all.
 0393626|CC|Okay.
 0393634|CDR|Okay, I just did it again to verify it. And that picked up - it picked up the MASTER ALARM, although it might be associated with the fact that the surge tank is down and coming back up.
@@ -3021,13 +3022,13 @@
 0393650|CC|Roger, Gene. Although, the surge tank shouldn't have caused it.
 0393657|CDR|Okay, let me give you one more try on it. Well, that time it didn't wait. All I did was go up to 1 slash 2 and the ALARM came on.
 0393712|CC|Roger.
-0393714|CDR|Okay, I went back to surge/3; it did not. So maybe it's coming on when I go up to 1 slash 2.
+0393714|CDR|Okay, I went back to surge3; it did not. So maybe it's coming on when I go up to 1 slash 2.
 0393721|CC|Roger
 0393726|CDR|Yes, there it is, Gordy. It's definitely repeatable. I can go up to PRESSURE CRYO QUANTITY 1 slash 2 and the ALARM comes on.
 0393738|CC|Okay, Geno; understand.
-0393739|CDR|You might note that - hey -
+0393739|LMP|You might note that - hey -
 0393742|CMP|Okay -
-0393742|CDR|Gordo, you might think about the fact that we were getting them when the cabin pressure was high after launch. And there might be some association there, also.
+0393742|LMP|Gordo, you might think about the fact that we were getting them when the cabin pressure was high after launch. And there might be some association there, also.
 0393757|CC|Okay, a good observation.
 0393805|CMP|EMERGENCY CABIN selector to OFF. We got to unbolt it down there somewhere. Underneath the commander's couch. Okay.
 0393838|CMP|REPRESS PACKAGE valve OFF, should be OFF.
@@ -3042,13 +3043,13 @@
 0394418|CC|Roger.
 0394421|LMP|When we get the cabin pressure down, Gordy, here, we might try one more time. Which Gene just did.
 0394435|CC|Okay, and nothing happened?
-0394439|CMP|That's affirm.
+0394439|LMP|That's affirm.
 0394442|CC|Roger.
 0394540|CMP|Okay, still holding at 2.0 on the DELTA-P.
 0394548|CMP|Okay, we'll open the pressure equalization valve and when the cabin pressure gets to 4.0, hit the REPRESS O2
 0394658|CMP|DELTA-P is about 0.6, we might make it this time.
 0394720|CMP|DELTA-P's - Okay, I'm going to open her right up. DELTA-P is 0.2 now.
-0394829|CDR|Okay, Houston, the hatch is open.
+0394829|LMP|Okay, Houston, the hatch is open.
 0394832|CC|Roger.
 0395039|CMP|Okay, the EXTEND LATCH is ENGAGED. Red is not visible. GN2 BLEED button. (Singing) Okay; GN2 BLEED. Not too much in there.
 0395106|CMP|Okay, PRELOAD SELECTOR lever - rotate parallel to the orange stripe. Okay. PRELOAD HANDLE, torque clockwise to unload the old support beams.
@@ -3064,10 +3065,10 @@
 0395457|CMP|Okay, RATCHET HANDLE unstowed to the full extension; boost to the first detent. That's good and tight going back to the first detent. Okay. Fold probe, looks like. Yes, it's out. (Singing)
 0395531|CMP|Ooooh! There it comes. That's just like in the simulator. It comes down by itself. It comes - pushes me out of the way, as a matter of fact. Okay. I'll get it a little better.
 0395600|CMP|Okay, RATCHET HANDLE pulled to full extension and then ratchet one stroke. Gets it so it gets it off the thing.
-0395625|CMP|Okay, that's one stroke backwards now. Okay, RATCHET HANDLE and INSTALLATION STRUT are restowed. CAPTURE LATCH RELEASE HANDLE.
+0395625|CMP|Okay, that's one stroke backwards now. Okay, RATCHET HANDLE and ... INSTALLATION STRUT are restowed. CAPTURE LATCH RELEASE HANDLE.
 0395708|CMP|Okay, CAPTURE LATCH RELEASE HANDLE is rotated 180 degrees and it's back in the recess. Okay, let's see if it comes out.
 0395720|CMP|(Clanking noise)
-0395722|CMP|Ooops. There it comes. I couldn't see it awhile ago, Let me look - the PROBE STRUT's in the way. That's why you can't see it until now. Where do we want to go with this thing down over here at the -
+0395722|CMP|Ooops. Here it comes. I couldn't see it awhile ago, Let me look - the PROBE STRUT's in the way. That's why you can't see it until now. Where do we want to go with this thing down over here at the -
 0395823|CMP|Houston, it's a nice clean ... and release there on top of the probe. It's nice and clean down there. The button is depressed. There's play around the little button on the end of the probe there too.
 0395840|CC|Okay, Ron. In about 1 minute, we're going to have a site handover. You'll be talking through Hawaii after that takes place.
 0395853|CMP|Okay. What's the docking angle? Blew it, I guess. 1.2 degrees, huh?
@@ -3146,51 +3147,51 @@
 0402424|SC|Yes. Do you want to stack part of it over there?
 0402431|SC|No, wait a minute. There's strips of the stuff, you know, I'll just give you a strip of it. Take it over there.
 0402538|SC|Okay. Here you go. That's ... of them is that enough?
-0402715|SC|Yes, go ahead, Jack. Yes, in the tunnel. What do you need.
+0402715|CMP|Yes, go ahead, Jack. Yes, in the tunnel. What do you need.
 0402720|SC|Okay.
 0402728|SC|Okay.
-0402815|SC|Checking circuit breakers now, Gordy.
+0402815|LMP|Checking circuit breakers now, Gordy.
 0402822|CC|Roger.
-0402951|SC|... both circuit breaker panels were as advertised, Gordy.
+0402951|LMP|... both circuit breaker panels were as advertised, Gordy.
 0402957|CC|Okay.
 0403632|CMP|Am I not looking in the right place?
 0403637|CC|Let me look. I don't know where one is, right offhand. I'll check here.
-0403651|CDR|Well, just help me with some terms here. I was just looking again at sight of - underneath the power bungee.
-0403722|CMP|Okay, Gordy; we're at the top of 1-13 and all switches, valves were in proper configuration.
+0403651|CMP|Well, just help me with some terms here. I was just looking again at side of - underneath the power bungee.
+0403722|LMP|Okay, Gordy; we're at the top of 1-13 and all switches, valves were in proper configuration.
 0403731|CC|Okay, you could have asked me and I could have told you that.
-0403739|CMP|We were just trying to give you a plug - Well, if you don't want them - Well, we'll take it back. (Laughter) I shouldn't have said anything to the world's most experienced DLMP. Right?
+0403739|LMP|We were just trying to give you a plug - Well, if you don't want them - Well, we'll take it back. (Laughter) I shouldn't have said anything to the world's most experienced DLMP. Right?
 0403805|CC|Roger.
-0403934|LMP|... hatch out there ...
+0403934|CMP|Hey, can you guys open the hatch out there. Take your picture.
 0404027|CC|Ron, at first glance, it doesn't look like you have one onboard, a picture of the latch. We're still looking though, but I don't think we have one.
 0404038|CMP|Well, it's kind of the conclusion I came to when I didn't find it in the systems data - Hey, I got a little bit to tell you about that. Oh, those little ones underneath the power bungee.
 0404049|CC|Okay, go ahead.
 0404113|CMP|...
-0404122|CMP|Okay, if you look at the docking lights, number 4 up beside of that - Oh, kind of a ... looking thing. There is a snowman. In other words, a great big fat thing with a head on top of it. And if you consider the fat thing with the head on it as a snowman, well then, the snowman's head is pointing out a 9 o'clock, on that one. Whereas one that's fully cocked and latched over there, the snowman's head points up at about 11 o'clock. And - Okay, there is a lever that comes right out of the bottom of the power bungee, it looks like, and then it comes out of the bottom then left out of that lever, is another silver slot or silver bar that goes from the lever to the J-hook with the snowman on it. That particular thing that connects the J-hook to the lever coming out of the bottom of the bungee is visible. In other words, it's not sticking back underneath the J-hook. It's visible.
+0404122|CMP|Okay, if you look at the docking latch number 4 up beside of that - Oh, kind of a J-hook looking thing. There is a snowman. In other words, a great big fat thing with a head on top of it. And if you consider the fat thing with the head on it as a snowman, well then, the snowman's head is pointing out a 9 o'clock, on that one. Whereas one that's fully cocked and latched over there, the snowman's head points up at about 11 o'clock. And - Okay, there is a lever that comes right out of the bottom of the power bungee, it looks like, and then it comes out of the bottom then left out of that lever, is another silver slot or silver bar that goes from the lever to the J-hook with the snowman on it. That particular thing that connects the J-hook to the lever coming out of the bottom of the bungee is visible. In other words, it's not sticking back underneath the J-hook. It's visible.
 0404249|CC|Ron, we've got just a line drawing here and we've still haven't got with you on what's what according to the drawing. Maybe you can hold off until we get a model of the latch, then we can stay with your description.
 0404308|CMP|Oh, okay, Gordy.
 0404309|CC|I'll give you a call.
 0404313|CMP|Okay.
 0404503|SC|(laughter)
-0404538|CMP|... it's up to you. ... I want to float up in the tunnel. Do you want to float up and look?
+0404538|CMP|Yeah, I know it,it's up to you. ... I want to float up in the tunnel. Do you want to float up and look?
 0404605|CMP|You know, the congestion I had all day yesterday is just about gone.
 0404739|LMP|Gordy, you'll be happy to know that putting the LMP's camera together is 500-percent easier in zero gravity.
 0404748|CC|Roger.
-0404753|CMP|It becomes a two-hand process.
+0404753|LMP|It becomes a two-hand process.
 0405130|CMP|Is that temporary stow?
 0405301|CMP|Hey, Jack, if you get a chance, take a picture back this way.
 0405341|LMP|Okay ...
-0405423|LMP|Okay.
+0405423|CMP|Okay.
 0405503|LMP|Putting the cue cards up now, and the camera, by the way, Gordy, operated for two frames and the Reseau looked clean lens looks clean and everything's fine with it.
 0405516|CC|Okay, Jack; sounds good.
 0405547|PAO|This is Apollo control. Schmitt and Cernan at this time still in the lunar module going through the activation and housekeeping chores that are scheduled in the flight plan. They entered approximately on time as indicated by the flight plan. Meanwhile, here in the control center one of the docking collar capture latches is here in the control center being examined by flight controllers trying to sort out why some of the latches apparently did not fully engage during the docking operation. Spacecraft now 140,451 nautical miles from Earth; velocity now is 3,683 feet per second. Continuing to stand by on air-ground 2 for a conservation from the crew of Challenger.
 0410122|SC|The regular type, huh?
-0410137|LMP|Okay, I can do that.
+0410137|CMP|Okay, I can do that.
 0410141|CDR|Okay, Gordo, we're on the top of 1-15, we're ready to go ahead and transfer the power and we'll give you a call.
 0410149|CC|Okay, Geno.
-0410203|SC|Okay, the LM POWER circuit breaker is IN. What the - let me know what you want ... Okay, going to OFF, RESET. Okay, back ON. And, I got the old MASTER ALARM again. The pressure's been I don't know what it is.
-0410234|SC|Okay, Houston; we got a good transfer.
+0410203|CMP|Okay, the LM POWER circuit breaker is IN. What the - let me know what you want ... Okay, going to OFF, RESET. Okay, back ON. And, I got the old MASTER ALARM again. The pressure's been I don't know what it is.
+0410234|LMP|Okay, Houston; we got a good transfer.
 0410238|CC|Roger.
-0410239|SC|Got it again by hitting the panel.
+0410239|CMP|Got it again by hitting the panel.
 0410338|CC|Ron, this is Houston.
 0410343|CMP|Yeah, go ahead, Gord.
 0410345|CC|Okay, we've got considerable conversation going on here about that docking latch, and it's not at all settled yet. But the primary thing we want to guard against is the possibility that it is malfunctioning and that we get it latched down on the ring and can't unlatch it, and, therefore, have problem with undocking, or possibly even prevent it. So, we'd like you steer clear of that until we come up with a final solution. No experimentation, please. Over.
@@ -3198,10 +3199,10 @@
 0410451|CC|Okay. I understand.
 0410501|LMP|Okay, Houston. GLYCOL PUMP 2 is ON, it's been on about a minute, and we've got good talkbacks from batteries 1 and 4.
 0410511|CC|Roger, Jack.
-0410542|SC|... and CDR buses are 262.
+0410542|LMP|LMP and CDR buses are 262.
 0410548|CC|Roger.
-0410600|SC|Okay, Jack, you can go ahead and switch onto high taps on 1 and 4.
-0410613|SC|That didn't work. Okay, 1 and 4 are on high taps.
+0410600|CC|Okay, Jack, you can go ahead and switch onto high taps on 1 and 4.
+0410613|LMP|That's in work. Okay, 1 and 4 are on high taps.
 0410630|CC|Roger.
 0410822|LMP|Houston, glycol pressure is 22.
 0410831|CC|You faded out, Jack. Say again on glycol pressure.
@@ -3211,49 +3212,54 @@
 0410855|CMP|Okay, stand by 1.
 0410910|CMP|Okay, it's off, Jack.
 0411100|CMP|No, wait a minute, I got to go get it. Which one you on? A? Okay.
-0411135|CMP|Okay, Jack, I'm SIMPLEX Alfa. Okay, try it again. I got the - How me.
+0411135|CMP|Okay, Jack, I'm SIMPLEX Alfa. Okay, try it again. I got the - how me.
 0411154|CMP|Okay, Jack, you're cutting out on everything, and all I'm getting is the end of your transmission there.
-0411204|CMP|Okay, I got counting - 1, 2, 3, 4. Jack, you read Gene? Okay, you - you were unclear after your first two words in every case, just like you were cutting out on Bob.
-0411231|LMP|We got it all - -
+0411204|CMP|Okay, I got counting - 1, 2, 3, 4. 
+0411208|CDR|Jack, you read Gene? Okay, you - you were loud and clear after your first two words in every case, just like you were cutting out on VOX.
+0411231|CDR|We got it all - -
 0411232|CMP|Got it all that time. You got it all that time there now, do you read me too?
 0411252|CMP|Well, that's interesting. Let me adjust the squelch on this one here.
-0411317|SC|Okay. They  used to work. I can't hear the squelch on any of them.
-0411326|CMP|Jack, go VHF A TRANSMITTER and RECEIVER, OFF, and B TRANSMITTER ... Okay and off on B now.
+0411317|CMP|Okay. Seems to work. I can't hear the squelch on any of them.
+0411326|CDR|Jack, go VHF A TRANSMITTER and RECEIVER, OFF, and B TRANSMITTER, VOICE, and leave the RECEIVER, ON. 
+0411332|LMP|Okay, VOICE, ON and off on B now.
+0411337|LMP|Okay, TR.
+0411347|CMP|Okay, I'm going to B now. Okay ... how's that? ...
 0411400|LMP|Okay. You're loud and clear, Ron. How me?
 0411404|CMP|Okay, loud and clear that time.
 0411406|LMP|Okay. And my - my VHF Alfa had to go to 2 on the SQUELCH, and I'm in 3 on Bravo.
 0411417|CDR|... okay?
 0411418|LMP|You're loud and clear Gene.
-0411421|CDR|Okay ...
+0411421|CDR|Okay ... but not much.
 0411426|LMP|Okay. How do you read now?
 0411428|CDR|Okay I got it.
-0411429|LMP|Okay, I took it V to 2. So it's the same kind of thing I guess.
-0411435|SC| ...
+0411429|LMP|Okay, I took it B to 2. So it's the same kind of thing I guess.
+0411435|CDR|Okay for four minutes in voice, is low bit rate check ...
 0411450|LMP|Okay, Houston, how do you ready Challenger? Counting 1, 2, 3, 4, 5. Over.
 0411456|CC|Challenger, Houston. You're loud and clear, although we have a lot of background noise. Not sure whether that's getting through. Do you know if Ron is still on VOX?
-0411509|LMP|... give you a call ...
-0411547|LMP|Hello, Houston, America. How do you read?
+0411509|CDR|... Challenger to give you a call ...
+0411547|CDR|Hello, Houston, America. How do you read?
 0411551|CC|America, this is Houston. Over.
-0411557|LMP|Okay, stand by, and Challenger is going to give you a call on S-band, and VHF checks are both GO on A and B.
-0411605|CC|I think I side ... lock on Challenger, we are getting some data. We'll stand by for another check.
+0411557|CDR|Okay, stand by, and Challenger is going to give you a call on S-band, and VHF checks are both GO on A and B.
+0411605|CC|I think I site lost lock on Challenger, we are getting some data. We'll stand by for another check.
 0411613|LMP|We acknowledge that. I heard him the first time. Okay, you ought to be getting in ... low bit rate.
 0411622|LMP|Okay, Houston, this is Challenger. Counting 1, 2, 3, 4, 5. How do you read?
 0411628|CC|Challenger, Houston. You're loud and clear, with some background noise.
-0411638|SC|They don't have a good up-link Gene. I had signal strength. And now I don't have any at all.
+0411638|LMP|They don't have a good up-link Gene. I had signal strength. And now I don't have any at all.
 0411646|LMP|Okay, Houston, Challenger gave you a call, but he does not have any up link signal strength at all.
-0411646|CC|Okay, and we'd like him to hold this configuration right there, until we get things straightened out and we understand what the problem is.
-0411705|LMP|Okay, understand hold configuration there. He just got about 2.2 on the signal strength.
-0411711|CC|Okay, Gene.
-0411716|LMP|And tell them I heard their transmission to you. No, a few minutes ago. I was at zero signal strength and I heard their transmission ... One of them. The first time they acknowledged, that I was going to do it.
+0411646|CC|Okay, and we'd like him to hold this configuration right there, until we get the site straightened out and we understand what the problem is.
+0411701|LMP|...2.2.
+0411705|CDR|Okay, understand hold configuration there. He just got about 2.2 on the signal strength.
+0411711|CC|Okay, Geno.
+0411716|LMP|And tell them I heard their transmission to you. No, a few minutes ago. I was at zero signal strength and I heard their transmission at least one of them. The first time they acknowledged, that I was going to do it.
 0411750|LMP|Did you shift my hose back?
 0411805|CC|Hello, Challenger; this is Houston. Do you read me?
 0411813|LMP|Okay, Houston. I read you. You're weak but clear. Signal strength is fluctuating. When you call me, it fluctuated down to about 1.6. Over. And it's 2 now.
 0411826|CC|Okay, Jack. You're loud and clear. The background noise I've been mentioning, although I guess you haven't heard me mention it until now, is what we expect in DOWN VOICE BACKUP and LOW BIT RATE. How have you read this transmission all the way through? Over.
 0411845|LMP|Did he say "say again?" Gene? Gene, did he say "say again?" I got a little bit - oh he's got three point -
-0411857|SC|...
+0411857|CMP|... their not talking to us ...
 0411859|LMP|What? Okay, Houston. I've got 3.4 on the signal strength, and try me again.
 0411912|CC|Okay, Challenger. You're coming in loud and clear. How do you read me?
-0411919|LMP|Okay, Houston. I know you tried to transmit. I could just barely tell that. I could see the signal strength vary down to 3. You were modulating, aparently, but you're not getting through to me.
+0411919|LMP|Okay, Houston. I know you tried to transmit. I could just barely tell that. I could see the signal strength vary down to 3. You were modulating, apparently, but you're not getting through to me.
 0411936|CC|Okay, Challenger. I'm transmitting simul now in both S-band frequencies, and it sounds to us like for some reason when I transmit, the up-link signal starts to break up. It's just the way you see it. Over.
 0411952|LMP|Okay, Gordy. You're breaking up there. Still modulating, but I cannot read you. Would you - would you tell America what you said?
 0412003|CDR|Yes, Gordy, we read you in America loud and clear on that simul.
@@ -3261,32 +3267,32 @@
 0412051|LMP|Is he talking, Gene?
 0412113|LMP|As soon as he starts trying to talk, the signal strength drops off about 0.4. Now, I have had - I heard him loud and clear one time when he called you guys.
 0412124|CC|America and Challenger, we're going to hand over to a different site and try that here in about 30 seconds.
-0412141|CMP|What else do we have to do, get some of these mags stowed?
-0412154|CMP|We've got to stow the mags. Here, put the PPK where it belongs.
+0412141|LMP|What else do we have to do, get some of these mags stowed?
+0412154|LMP|We've got to stow the mags. Here, put the PPK where it belongs.
 0412434|CC|Hello, Challenger; this is Houston through Bermuda. How do you copy?
 0412448|CC|Challenger, this is Houston. How do you read me?
-0412454|SC|Do you want to ... up the camera ...
+0412454|LMP|Do you want to ... up the camera ...stow our LCG back there...
 0412510|CC|America, Houston ...
-0412516|SC|Go ahead ...
-0412522|SC|Go ahead Gord ...
+0412516|CDR|Go ahead ...
+0412522|CDR|Go ahead Gord ...
 0412524|CC|Okay, Jack. I think he answered us, but he was completely lost in the noise. I could just barely make out ... somebody talking. Could he hear us okay?
-0412541|SC|No. If he did hear you, he didn't answer.
+0412541|CDR|No. If he did hear you, he didn't answer.
 0412546|CC|Okay. It was my imagination then.
 0412555|CC|Challenger, Houston. How do you read?
 0412605|CC|Hello, Challenger; Houston. How do you read?
-0412630|SC|...
+0412630|LMP|...3.2...one word...I heard...
 0412750|CC|Hello, Challenger. This is Houston. 1, 2, 3, 4, 5, how do you copy. Over.
-0412805|SC|...
+0412805|LMP|...
 0412931|CC|America, Houston.
 0412936|CC|Can you tell Jack, ask him to verify he's on aft OMNI?
-0412945|SC|Okay. I'll have him verify he's - That's affirm. He's verified.
+0412945|CDR|Okay. I'll have him verify he's on aft OMNI. That's affirm. He's verified.
 0412955|CC|Okay.
-0412955|SC|... earlier when he was ... that he had good signal strength ...
+0412955|CDR|... earlier when he was ... that he had good signal strength ...he would transmit...
 0413007|CC|Roger.
 0413007|CC|But on this last set of checks, we didn't hear anything ...
-0413013|SC|Apparently not.
+0413013|CDR|Apparently not.
 0413016|CC|Okay.
-0413021|SC|There was one time earlier when he had zero signal strength where he said he could hear you transmitting to us very weak but clear.
+0413021|CDR|There was one time earlier when he had zero signal strength where he said he could hear you transmitting to us very weak but clear.
 0413032|CC|Okay.
 0413059|CC|Hello, Challenger. Hello, Challenger; this is Houston. How do you read?
 0413104|LMP|Okay. You're loud - well, you're about 3 by, Gordy, but very clear.
@@ -3300,11 +3306,11 @@
 0413650|LMP|Now he's up. Haven't heard him.
 0413757|CC|America, Houston.
 0413804|CC|Okay. We're going to go back to Goldstone, both up and down, and we'd like Jack to do step 406 on the checklist; in other words, go to VOICE. S-BAND VOICE to VOICE, the BIOMED to RIGHT. And we're going to give it a try in the normal configuration. Over.
-0413827|SC|A 174 and 76, gentlemen. BIOMED, RIGHT; and S-BAND VOICE to VOICE.
+0413827|CDR|They want step 406, gentlemen. BIOMED, RIGHT; and S-BAND VOICE to VOICE.
 0413835|CC|That's affirmative.
-0413839|LMP|... he's going there now.
+0413839|CDR|... he's going there now.
 0413840|CC|Roger.
-0413859|LMP|Houston, do you read Challenger?
+0413859|CDR|Houston, do you read Challenger?
 0413903|CC|Roger, Challenger. Read you weak but clear. How do you read?
 0413909|LMP|Okay, Houston, You just came in loud and clear. How do you read?
 0413913|CC|Okay. And that time, you're loud and clear, Jack and sounds real good.
@@ -3316,7 +3322,7 @@
 0414147|LMP|Roger. You're loud and clear. How me?
 0414149|CC|You're loud and clear.
 0414245|CC|Challenger, Houston. We're looking at the HIGH BIT RATE for a minute here while we're waiting. Would you check the CROSS TIE circuit breakers, panel 16? Verify they're open.
-0414305|LMP|That's verified. CROSS TIEs BUS and BAL LOADS open.
+0414305|LMP|That's verified. CROSS TIE's BUS and BAL LOADS open.
 0414310|CC|Roger.
 0414351|CC|Challenger, Houston. We'd like you to accomplish step number 8.
 0414404|LMP|Roger. Step 8.
@@ -3352,7 +3358,7 @@
 0415300|LMP|Okay, Gordy. And that was hot mike, so that's working fine up here. And you're loud and clear, also.
 0415311|CC|Okay, Jack. Let's try PCM, LO, now.
 0415318|LMP|Okay. Talking to you DOWNVOICE BACKUP; BIOMED, OFF; and PCM, LO. How do you read? Over.
-0415325|CC|Okay. Same old loud and clear.
+0415325|CC|Okay. Same old, loud and clear.
 0415330|LMP|Okay, Gordy. Certainly is clear up here. You're coming through 5 by at signal strength 3.2, and - all appearances up here, that previous problem was an up-link. But I guess you were not reading me. is that correct?
 0415353|CC|Well, I was - The answer is yes and no at various times. We think, though, we have a good handle on the problem.
 0415402|LMP|Okay; very good.
@@ -3368,19 +3374,19 @@
 0415545|LMP|Okay. We'll press on. Geno, here is your jettison bag. You can get back to Ron.
 0415604|LMP|Okay, S-band PR OFF, VHF OFF; I can hear you. PM OFF.
 0415806|CC|Roger, Geno.
-0420211|SC|Okay, Houston. We just transferred to CSM power, and the caution warning light did go off.
+0420211|CDR|Okay, Houston. We just transferred to CSM power, and the caution warning light did go off.
 0420220|CC|Roger.
-0420737|SC|Gordo, we're about wrapped up here in Challenger. It looks like there's some life in the old bird, huh?
+0420737|CDR|Gordo, we're about wrapped up here in Challenger. It looks like there's some life in the old bird, huh?
 0420748|CC|Roger.
 0420756|CDR|Okay. We'll give you a call when we get the hatch closed. Ron's doing some housekeeping in the command module, and we're going to take it slow getting back in.
-0420805|CC|Okay, Gene.
-0421601|CMP|Okay, Houston. The drogues are going in.
+0420805|CC|Okay, Geno.
+0421601|CMP|Okay, Houston. The drogues going in.
 0421614|CC|Roger, Ron. We've got a couple of questions for you about those - about the latch. Good old latch number 4 gave us problems I guess, huh?
 0421638|CC|America, Houston.
-0421643|LMP|America, go ahead.
+0421643|CMP|America, go ahead.
 0421645|CC|Ron, can you take a look at the latch number 4, and is the hook back away from the ring approximately one inch, as opposed to resting against the ring?
 0421742|CC|America, Houston, did you copy my question?
-0421822|SC|We're going back to air ground one.
+0421822|MCC-H|We're going back to air ground one.
 0421822|CMP|Okay, I heard somebody going to air ground one that time, and -
 0421836|CC|Roger, Ron. Got a couple of questions on those - that latch number 4 if you can answer it for me.
 0421856|CC|America, Houston.
@@ -3409,10 +3415,10 @@
 0422402|CDR|Houston, America. While Ron is putting in the probe and getting the hatch back in, I'm going to go ahead and maneuver. How does that sound?
 0422416|CC|That's real fine, Gene.
 0422430|PAO|This is Apollo control at 42 hours 27 minutes Ground Elapsed Time. We're estimating the change of shift press conference in 15 minutes, 15 minutes at 6:15 central time in the small briefing room. Spacecraft communicator now is Bob Overmeyer. During this past checkout of the lunar module we've had considerable difficulty in some of the communications configurations in the way the down links and the uplinks were set up. And some bit of difficulty in sorting out just what the nature of the problem with one of the docking latches is. People will be examining this through the night and during the checkout of the LM tomorrow or additional work in the LM perhaps the thing can be sorted out. Apollo 17 presently at 143,562 nautical miles out from Earth traveling at a velocity of 3,590 feet per second. At 42:28 and standing by this is Apollo control.
-0422614|CDR|Bob, are you all going to want OMNI or HIGH GAIN on this?
+0422614|LMP|Bob, are you all going to want OMNI or HIGH GAIN on this?
 0422620|CC|Stand by on that.
 0422637|CC|We're all locked up on the HIGH GAIN. We'd just like you to leave it on HIGH GAIN. The angles you see in the Flight Plan are in case it breaks lock. That's what you need for - with this attitude.
-0422652|CDR|Okay.
+0422652|LMP|Okay.
 0423310|CMP|Okay, Houston. The probe is installed. We'll get the hatch in now.
 0423315|CC|Roger, Ron.
 0423321|CMP|I'm not going to connect the umbilicals unless you really want to look at probe temperature.
@@ -3439,9 +3445,10 @@
 0431241|CMP|So that's the maximum extent of the - that's the max extent of the heating.
 0431247|CMP|You might check and see if the guys want to heat it a little bit longer the next time, when they do it in the PTC.
 0431255|CC|Yes. Roger, Ron. We're copying everything you're saying, and we've got all kinds of support here; we - in fact, we've got one backup unit here watching what you're doing, so we'll keep you posted on what we think.
-0431308|CMP|Oh, okay. is the backup CMP operating it?
+0431308|CMP|Oh, okay.
+0431312|LMP|Is the backup CMP operating it?
 0431316|CC|Matter of fact, that's affirm.
-0431321|CMP|That's the way to do things.
+0431321|LMP|That's the way to do things.
 0431325|CC|And, Ron, we'd like you to stay nominal on the heating time due to the film limitation.
 0431333|CMP|Okay; will do.
 0431509|CMP|Okay, Houston; 17 here. is there enough film in there to allow me to keep the camera running while I try to fill up that flow pattern?
@@ -3470,7 +3477,7 @@
 0432401|CMP|Okay; let's go ahead and try to cover up the whole floor on the thing before we do it. The bubbles are in there, and I'm afraid they're going to stay un - unless they disappear when we heat it.
 0432411|CC|Roger.
 0432435|CMP|There now it's - it's coming out with no bubbles now, and it looks like it almost formed a meniscus on top of itself - on top of where the bubbles were.
-0432450|CC|Roger, Ron. is it continuing to spread out?
+0432450|CC|Roger, Ron. Is it continuing to spread out?
 0432454|CMP|Yes, it's continuing to spread out now, and without pumping anything into it at all - I did that last turn fairly fast - and it seems to be spreading of its own accord now, and it should go on over and cover up the bottom, I think. Once it completely covers up the bottom, I think we should go ahead and start the heat HIGH on this pattern.
 0432559|CMP|Okay. Now the - Everything's all hooked together now. We completely filled up the bottom of the floor.
 0432615|CMP|Hey, for some reason, the bubbles seem to be starting to break now.
@@ -3511,26 +3518,26 @@
 0433331|CC|Roger, Ron.
 0433336|ROOSA|How large are the cells, Ron?
 0433344|CMP|Well, they're varying considerably in size. I can see one that's about a half an inch across, and then the other ones - they've got a great big bubble in it, and yet the cell itself is down to maybe an eighth of an inch. The bigger ones seem to be on the outside; and, of course, there are very few bubbles on the outside also.
-0433409|CC|Okay.
+0433409|ROOSA|Okay.
 0433415|CMP|And the bigger ones, generally right now, are averaging about - oh, a fourth to three-eights of an inch in their cross - cross section ...
 0433454|PAO|This is Apollo Control.
 0433457|CMP|The cells tend to be somewhat polygonal. Let's see, we've been going 6 minutes - 4 minutes into the eating part of it and the cells are polygonal but they don't seem to be quite as straight-lined as they were on the ground.
-0433518|ROOSA|Roger. We copy.
-0433528|PAO|Stu Roosa, Apollo 17 back-up Command Module pilot is talking to the crew now from the CAPCOM console. Stew performed a demonstration similar to this on his Apollo 14 flight. That demonstration was not as sophisticated as the 17 test and the 17 demonstration is expected to provide more exact data on the fluid behaviour.
+0433518|CC|Roger. We copy.
+0433528|PAO|Stu Roosa, Apollo 17 back-up Command Module pilot is talking to the crew now from the CAPCOM console. Stu performed a demonstration similar to this on his Apollo 14 flight. That demonstration was not as sophisticated as the 17 test and the 17 demonstration is expected to provide more exact data on the fluid behaviour.
 0433618|CMP|It almost looks like it's reached a steady state now. It's 9 minus 2-7 minutes.
 0433628|ROOSA|Roger.
 0433628|CMP|Hey, I think the one thing I neglected to mention is that we essentially have a convex surface from the - the material; in other words, con - convex with the high part in the middle; and, of course, that's where the bubbles are, too, but I think you'd generally have that type of a surface anyhow. And, it hasn't broken the meniscus of the lower, or the thinnest ring.
 0433734|LMP|We should have had some popcorn on our stowage list.
 0433738|ROOSA|Roger.
-0433946|CMP|Okay; now the Benard cells are starting to form in that outer annulus that went all the way around.
+0433946|CMP|Okay; now the Bernard cells are starting to form in that outer annulus that went all the way around.
 0433954|ROOSA|Roger.
-0434551|CMP|Okay; we went back to light 4 now. And we never did get any real beliginal [sic] cells formed around the outer annulus. And even the cells that were formed on the thing, it seemed like the particle flow within the cells was very slow when you compare that with the way it was in one G.
-0434619|ROOSA|Roger, Ron.
-0434759|CMP|Okay; I'm trying to - suck the stuff back in the - the entry tube there, and it looks like part of it's going in.
-0434821|ROOSA|Roger, Ron. We copy that.
+0434551|CMP|Okay; we went back to light 4 now. And we never did get any real poliginal [sic] cells formed around the outer annulus. And even the cells that were formed on the thing, it seemed like the particle flow within the cells was very slow when you compare that with the way it was in one G.
+0434619|CC|Roger, Ron.
+0434759|CMP|Okay; I'm trying to - suck the stuff back in the - the entry tube there, and it looks like part of it's coming in.
+0434821|CC|Roger, Ron. We copy that.
 0434902|CMP|And the camera is down to about 50 percent here, so I'm going to go ahead and turn it off now.
-0434908|ROOSA|Roger, Ron.
-0434936|ROOSA|Ron, if I didn't tell you, we concur with turning the DAC off there.
+0434908|CC|Roger, Ron.
+0434936|CC|Ron, if I didn't tell you, we concur with turning the DAC off there.
 0434943|CMP|Okay; yes, I got you. I'll turn it off.
 0435002|CMP|You know, I just happened to think, after I've already sucked part of those bubbles back in there, we've got enough fluid in there to pump it out the next time without sucking that back in there, don't we?
 0435014|ROOSA|I'm sorry, Ron. Say that again.
@@ -3547,7 +3554,7 @@
 0435205|LMP|I see you're finally getting caught up in the humor of the thing there, Stu.
 0435211|ROOSA|Oh, I've always been in good humor. It sure sounded like that baffle did the trick, Ron.
 0435232|CMP|Yes, I think it did, too. It looks like it worked real well.
-0435244|PAO|This is Apollo control at 43 hours 52 minutes. Crytox which is a heavy oil is one of the fluids being used in the demonstration. Apollo 17 is now 146,455 nautical miles from earth, velocity 3,505 feet per second. And this shift of orange flight controllers being directed by Charles Lewis one of the several gentlemen recently promoted to flight director. The regular orange flight director Pete Frank is an observer for this shift.
+0435244|PAO|This is Apollo control at 43 hours 52 minutes. Krytox which is a heavy oil is one of the fluids being used in the demonstration. Apollo 17 is now 146,455 nautical miles from Earth, velocity 3,505 feet per second. And this shift of orange flight controllers being directed by Charles Lewis one of the several gentlemen recently promoted to flight director. The regular orange flight director Pete Frank is an observer for this shift.
 0435616|ROOSA|And, 17, just so you say we didn't give you our cue, we're standing by for the 1-17 procedures there in your Experiments Checklist - the film cycling.
 0435644|CMP|Okay; we'll have to get that shortly.
 0435647|ROOSA|Okay.
@@ -3579,12 +3586,12 @@
 0440820|CMP|Okay; MAPPING CAMERA going OFF.
 0440823|CC|Roger, Ron.
 0440902|CC|That's 30 seconds off on the mapping camera, Ron.
-0440909|CMP|Okay; SM/AC is OFF.
+0440909|CMP|Okay; SM/AC power is OFF.
 0440917|LMP|S-BAND AUX TV's OFF, and BIT RATE, LOW, now?
 0440924|CC|That's affirmative.
-0440940|LMP|Say, Bob, say again those jetts you're commended for PTC.
+0440940|CDR|Say, Bob, say again those jetts you're commended for PTC.
 0440945|CC|We recommended Bravo and and Delta for spinup - B, D.
-0440951|LMP|Ckay; do the rates look okay to you?
+0440951|CDR|Okay; do the rates look okay to you?
 0441000|CC|That's affirmative.
 0441059|CC|Jack, Houston.
 0441105|LMP|Go ahead.
@@ -3593,7 +3600,7 @@
 0441124|CC|That's affirm, Jack - -
 0441124|LMP|You want a special report? is that what you want?
 0441125|CC|We'd just like to have it - prefer tonight.
-0441133|CMP|It sounds like you don't think we're eating enough.
+0441133|LMP|It sounds like you don't think we're eating enough.
 0441140|CC|Ron, would you check your NOUN 78?
 0441157|CMP|Ah-ha! Thank you.
 0441200|CC|Roger.
@@ -3604,30 +3611,31 @@
 0441358|LMP|Okay. The CDR today had scrambled eggs and three bacon squares and a can of peaches and pineapple drink for breakfast. And then later on in the day, he had peanut butter, jelly, and bread with a chocolate bar and some dried apricots. And the LMP had scrambled eggs and four bacon squares, an orange drink, and cocoa for breakfast, and potato soup, two peanut butter and jelly sandwiches, and a cherry bar, and an orange drink. And that hero of the matinee, the matinee idol of Spaceship America, had scrambled eggs, bacon squares, peaches, cinnamon toast, orange juice, and cocoa for breakfast. That's how he keeps his form. And, for lunch, he had a peanut butter sandwich and citrus beverage. And that's it, since there's nobody else up here.
 0441551|CC|Roger. We copy that. We'd like you to stow the high gain at this time and OMNI Bravo.
 0441637|CC|Jack, we appreciate all your information, and we'd like to just pass on some recommendations here from the ground that we'd like you to keep on with your regular menu as much as possible. And, if you do cut anything off, we'd like you to concentrate on eating the meats, the juices, and the fruitcake, which are the most effective for maintaining your electrolyte balance.
-0441707|LMP|Okay, Bob. We understand what you're saying. We're shooting at eating - eating it all. It's just a lot of food, that's all.
+0441707|CDR|Okay, Bob. We understand what you're saying. We're shooting at eating - eating it all. It's just a lot of food, that's all.
 0441718|CC|Roger. We understand, Gene. Also, on that group of foods, peanut butter's great for the bal -e lectrolyte balance, also; so you're doing okay.
-0441730|CDR|I knew it was good for something. It couldn't be that good without being good for something.
-0441735|LMP|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.
+0441730|LMP|I knew it was good for something. It couldn't be that good without being good for something.
+0441735|CDR|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.
 0441742|CC|Roger. I understand. Real fine.
 0441832|PAO|This is Apollo Control at 44 hours 18 minutes. The Flight Surgeon, John Zieglschmid, is pleased with the food report for today. Apollo 17 is 147,306 nautical miles from Earth, traveling at a speed of 3,481 feet per second.
 0442607|CMP|Houston, 17.
-0442610|CC|Go, 17; Houston.
+0442610|ROOSA|Go, 17; Houston.
 0442614|LMP|Okay. Got a little information on what we were talking about yesterday with respect to southern Pacific weather, if you've got nothing else going on.
-0442626|CC|Go; speak to me.
+0442626|ROOSA|Go; speak to me.
 0442632|LMP|Okay, looks like a little - cyclonic circulation we had over New Zealand is still there. It's - looks like the front it was associated with is broken up a little bit; however, that pattern is - seems to be hugging the New Zealand area, and - but not - has not intensified. If - if not - it may have even weakened a little bit since yesterday. It's hard to be sure exactly. The front does not look as strong, and it still seems to be hanging - just stabilized, and with all of Australia clear now and the western edge of that front being just offshore north of Brisbane. The - there is -east of New Guinea - in the vicinity of the Solomon islands, it looks like a fairly moderate-sized cyclone developing at the western edge of the - of a front that was somewhat farther north and west than the one over New Zealand. North of that - Wake/Kwajalein region that was of interest yesterday to the ARIA people - still seems to be in general overcast condition, but the clouds do not look very heavy or impacted at all. New Guinea is just on the limb, so -
 0442817|LMP|Yes, I think I lost them.
-0443200|CC|Okay, I think we've got you now, 17.
-0443208|CMP|You're loud and clear, Stu.
+0443200|ROOSA|Okay, I think we've got you now, 17.
+0443208|CDR|You're loud and clear, Stu.
 0443210|CC|Okay.
 0443251|LMP|Stu, I think we lost you about the time I lost view of the Earth and mentioned the Wake/Kwajalein area; right?
-0443300|CC|That's affirmative. We didn't get much of the Kwajalein report.
+0443300|ROOSA|That's affirmative. We didn't get much of the Kwajalein report.
 0443308|LMP|There was nothing new to add over yesterday. There just seems general cloudiness in the area, but they do not look too intense or well organized. Just probably a general overcast.
-0443319|CC|Okay.
+0443319|ROOSA|Okay.
 0443336|LMP|I'll try to get some exercise, and then I'll be back at you with some more information. Maybe we can see the Philippines by then.
-0443344|CC|Okay.
+0443344|ROOSA|Okay.
 0443353|LMP|And, Stu, I've got my biomed hooked up. Are you guys bringing it in during this exercise thing? This is Jack.
-0443403|CC|Yes, Jack. We'll check on that.
-0443411|CC|Okay; you're coming in loud and clear, Jack.
+0443403|ROOSA|Yes, Jack. We'll check on that.
+0443411|ROOSA|Okay; you're coming in loud and clear, Jack.
+0443417|LMP|Okay.
 0443537|PAO|This is Apollo control at 44 hours 35 minutes. Spacecraft distance 147,866.
 0443547|LMP|Okay.
 0443549|CDR|Stu, are you reading?
@@ -3753,7 +3761,7 @@
 0454900|CMP|Affirmative; okay.
 0454923|CMP|Okay. I opened the flow about four turns. A little bit is running out - one big bubble in it. And I still have a little bit left over, even though I wiped it out pretty good awhile ago. The meniscus is up to the bottom ring, and I think we put in eight things in there where it's going to try to get the meniscus up to the top baffle. is that correct?
 0454956|CC|That's correct, Ron.
-0455116|LMP|There must have been a few more bubbles down in there again. That was two turns now, and I've got it about half full all the way across.
+0455116|CMP|There must have been a few more bubbles down in there again. That was two turns now, and I've got it about half full all the way across.
 0455129|CC|Roger.
 0455131|CMP|But, maybe there's just about eight or 10 bubbles in it.
 0455230|CMP|... That's three turns. The fluid is essentially .. and we're still going on the first - fourth turn now, and it's still develops a meniscus around the lower baffle - the smaller baffle.
@@ -3787,64 +3795,64 @@
 0460616|CMP|Okay. That's just now starting to develop. Look like circular cells, great big ones. And then some of the bigger ones are subdividing now.
 0460632|CC|Okay. We got that.
 0460632|CMP|... are even - some of them are even getting bigger. One of them is - oh, about three-quarters of an inch in diameter, and it hasn't divided yet, at all.
-0460653|CC|Those are real good comments, Ron. I was in just talking with the experimenters, and if you've got nothing else to do, giving us some sizes of those cells would certainly be very beneficial.
+0460653|ROOSA|Those are real good comments, Ron. I was in just talking with the experimenters, and if you've got nothing else to do, giving us some sizes of those cells would certainly be very beneficial.
 0460713|CMP|Okay.
 0460722|CMP|Okay. Frame 27 was taken at an elapsed time of about 4 minutes.
-0460737|CC|Okay. We got that.
+0460737|ROOSA|Okay. We got that.
 0460742|LMP|Stu, this is Jack. I was taking the pictures. I took four pictures about 20 seconds apart - of the sequence just after he started it. And that ended with - or started with frame 26.
-0460805|CC|Okay. Frame 26 for 4 seconds - I mean for 4 frames.
+0460805|ROOSA|Okay. Frame 26 for 4 seconds - I mean for 4 frames.
 0460814|CMP|Okay. That one cell I spoke of that was about three-quarters of an inch in diameter now is about an inch long and maybe three-quarters of an inch wide. Each - All of the cells seem to be bigger, in general. They're bigger this time. There is two small ones at about an eighth of an inch and - and along one side. The other one is a half-inch, a half-inch - oh, a quarter of an inch, a halfinch, and then a circular when you get around the outs - out - annulus of the cup. Then you start getting circular sides instead of straight sides. All of the flow comes from the little center spot and flows outward from the center toward the outside of the cells.
-0460907|CC|Okay. We - we copy that - -
+0460907|ROOSA|Okay. We - we copy that - -
 0460907|CMP|... all of the bubbles have disappeared, except two.
-0460919|CC|Ron, is the smallest cell you see about an eighth of an inch across?
+0460919|ROOSA|Ron, is the smallest cell you see about an eighth of an inch across?
 0460926|CMP|The smalles cell I see is a four-sided one; it looks like a diamond. And it's an eighth of an inch on one side, an eighth of an inch on the other side, and maybe 3/16 on the other two sides.
-0460939|CC|Okay. That sounds - that's a good description, Ron. I know on mine some of the smaller ones didn't show up in the - in the film, and we were not - not sure what size they are. So you might, before you quit, bracket the - the smallest or the biggest cells by your estimate of the size.
+0460939|ROOSA|Okay. That sounds - that's a good description, Ron. I know on mine some of the smaller ones didn't show up in the - in the film, and we were not - not sure what size they are. So you might, before you quit, bracket the - the smallest or the biggest cells by your estimate of the size.
 0461017|PAO|This is Apollo control at 46 hours 10 minutes. Apollo 17 is 150,976 nautical miles from Earth traveling at a speed of 3,375 feet per second.
 0461120|LMP|... any rate, frame number 31, frame number 31 ...
 0461136|CMP|And the information first half of the experiment. The orientation was 90 degrees from this one. (Laughter) in that the lineal cell was on the right, and the lineal cell was aligned with the XX axis.
-0461200|CC|Okay, Ron. We got - We had a drop in our signal strength there, and we did get your last comment about the orientation. We missed some comment about the frame numbers; I think came from Jack.
+0461200|ROOSA|Okay, Ron. We got - We had a drop in our signal strength there, and we did get your last comment about the orientation. We missed some comment about the frame numbers; I think came from Jack.
 0461214|CMP|Okay. Something's a little different on this one here. Right at the top of the flow circle, it looks just like a finger. It's a curved surface that goes out and almost touches the - the circumference of the dish. And it looks just like if you're holding your finger up and looking at it. It's that type of a shape to it. It comes back down, and it's about a half an inch wide. The flow again emanates from a source that is almost on the fingertip, you might say.
-0461258|CC|Okay. We copy.
+0461258|ROOSA|Okay. We copy.
 0461310|CMP|Okay. Somehow, that fingertip finally touched the complete circumference, and the tip of the finger disappeared.
-0461321|CC|Okay.
-0461324|CMP|Okay. My - my small one-eighth inch - or one-eighth of an inch sided diamond joined with another one, now, and one side of the diamond is gone. I still have three sides of the diamond and the fourth side of the diamond, or the upper right-hand corner of the diamond, you might say, has disappeared and goes on with another little square - or rectangle. One - one end of the rectangle is about 3/16 of an inch long; the other two sides are about three-eights of ar. inch long.
-0461407|CC|Ron, what's the location of that - of that diamond and rectangle in the - in the circular dish? And is it near the edge, or is it towards the center?
+0461321|ROOSA|Okay.
+0461324|CMP|Okay. My - my small one-eighth inch - or one-eighth of an inch sided diamond joined with another one, now, and one side of the diamond is gone. I still have three sides of the diamond and the fourth side of the diamond, or the upper right-hand corner of the diamond, you might say, has disappeared and goes on with another little square - or rectangle. One - one end of the rectangle is about 3/l6 of an inch long; the other two sides are about three-eights of an inch long.
+0461407|ROOSA|Ron, what's the location of that - of that diamond and rectangle in the - in the circular dish? And is it near the edge, or is it towards the center?
 0461418|CMP|There are almost - No, it's almost in the center. Towards the center. Almost in the center. On the left edge, as you look at the piece of equipment , as you're looking at it, there are absolutely no patterns at all. There is a flow. You can see a stream of flow. Whoops. I can get up then and start looking at it. I blew on it when I was talking. You can see a stream of flow from the circumference in toward the outer group of cells. The outer group of cells is at least half an inch from the circumference though, at that point.
-0461504|CC|Okay, Ron. We copy all that.
+0461504|ROOSA|Okay, Ron. We're copying all that.
 0461518|CMP|Yes. I think there is a general migration of - of the cells. Kind of toward the bottom of the circle, if you want to look at it that way. They seem to be stretching kind of in that direction, too.
-0461540|CC|Okay. You're saying that's toward minus X?
+0461540|ROOSA|Okay. You're saying that's toward minus X?
 0461547|CMP|... No, toward the plus Y, as you're looking at it.
-0461552|CC|Okay. They're migrating toward plus Y.
+0461552|ROOSA|Okay. They're migrating toward plus Y.
 0461553|CMP|I'll - I'll try to make all directions, with respect to - with respect to the right-side-up of the equipment, you know.
-0461601|CC|Okay. We've got you.
+0461601|ROOSA|Okay. We've got you.
 0461606|CMP|And the first finger I talked about was at 12 o'clock. It has joined the edge now and almost disappeared. The second finger was - still essentially the way it was - is getting slightly closer to the edge. There's maybe - oh, less than 1/32 of an inch between the tip of the finger and the edge. And it goes out at - at 2 o'clock. Okay, from 3 o'clock on around to about 7 o'clock, the cells - it's in a shadow, and I can't see for sure if they're touching the edge or not, but it looks like they're probably essentially touching - the ... the edge.
-0461651|CC|Okay.
+0461651|ROOSA|Okay.
 0461656|CMP|And then from 7 o'clock on around to 12 o'clock again, none of the cells are touching the edge at all. And they're - oh, an average of three-eighths of an inch from the outside circumference.
-0461715|CC|Okay. We're getting all that, Ron.
-0461803|CC|And, Ron, we'd like to verify that the fluid is up to the second baffle.
+0461715|ROOSA|Okay. We're getting all that, Ron.
+0461803|ROOSA|And, Ron, we'd like to verify that the fluid is up to the second baffle.
 0461811|CMP|That's verified. It's up to the second baffle.
-0461815|CC|Okay - -
+0461815|ROOSA|Okay - -
 0461815|CMP|All I had to do was start it in one position, and as soon as I started it - started it in one position, it whipped all the way around it. From the point I started it, it went all the way around in both directions.
-0461828|CC|Okay. That sounds beautiful. That ought to be a good data point for something.
+0461828|ROOSA|Okay. That sounds beautiful. That ought to be a good data point for something.
 0461835|CMP|Yes. Right.
 0461837|CMP|I think that in the low flow here evidently things are even a little bit slower than they were in the high rate - in the high - in the high heat rate. But my little diamond now, is almost joined with the rectangle. And I think given half a chance, it's tending to go into another fivesided figure.
-0461909|CC|Okay. We copy.
+0461909|ROOSA|Okay. We copy.
 0462044|CMP|And we start to cool down ...
 0462112|CMP|Okay. As we're cooling down, the flow patterns tend to join together, so far. The ones on the outer periphery dissolve into straight lines. Straight lines are emanating in a radial direction from the center of the circle.
 0462410|CMP|And, Houston, if you're listening; or DSE if you're listening. Had a little bit of film -oop, there's the end of film right now. May as well stop it. Hey, I went to HIGH for a little ways.
-0462424|CC|Okay, Ron. You came back in; I didn't get all of that. Understand you ran out of film. And say the other.
+0462424|ROOSA|Okay, Ron. You came back in; I didn't get all of that. Understand you ran out of film. And say the other.
 0462435|CMP|Well, I still had a little bit of film when the cooldown - the 2-minute cooldown period was left, so I went back to HIGH on the FLOW PATTERN just to see what would happen. And it looked like they were starting out with - again larger-sized cells developing into smaller ones. And, initially, all of the cells were about a half an inch in diameter, and they were closer to the periphery of the dish than they were in the LOW FLOW position.
-0462515|CC|Okay. We copy that, Ron. After - after you went to HIGH - after the 19 minutes - how long was it before you started seeing a change?
+0462515|ROOSA|Okay. We copy that, Ron. After - after you went to HIGH - after the 19 minutes - how long was it before you started seeing a change?
 0462537|CMP|It was within a minute there. See, it cooled down fairly rapidly at the end of the 2 minutes. All of the cells had essentially dissolved. You had some radial lines on the outer perim - The cells that were on the outer side degraded into a strictly radial lines, back to the second row of cells. The row of cells that were on the inside kind of joined together and all ended up into one or two large cells about an inch - or about 3-3/4 of an inch across.
-0462618|CC|Okay. Sounds like real good data - -
+0462618|ROOSA|Okay. Sounds like real good data - -
 0462620|CMP|Still got the HIGH going.
 0462742|CMP|I still have it in HIGH, and the pattern that's developing is almost identical to the - what was happening in the LOW, except it seems to be happening at a faster rate.
-0462800|CC|Okay. We copy that - -
+0462800|ROOSA|Okay. We copy that - -
 0462801|CMP|... triangle or a little diamond developed down there and then - and it disappeared. Only this time, it kind of joined with a different little cell, but it was the same cell next to it. I still have the big one. It's about an inch long, at 11 o'clock, as I had before. I still have a finger that's developing about 12 o'clock, and another one about 2 o'clock. And they seem to be migrating again toward the bottom of the dish.
-0462957|CC|Okay, Ron. It sounds like you've really wired that experiment in great shape, and all the - and everybody's real happy with the - with the data. I guess now you might as well tear it down and press ahead.
-0463132|CC|Okay, Ron. We're back with you now, and everybody's real happy about the data and experiment. And it looks like you did a super job, and you might as well tear it down and press ahead.
+0462957|ROOSA|Okay, Ron. It sounds like you've really wired that experiment in great shape, and all the - and everybody's real happy with the - with the data. I guess now you might as well tear it down and press ahead.
+0463132|ROOSA|Okay, Ron. We're back with you now, and everybody's real happy about the data and experiment. And it looks like you did a super job, and you might as well tear it down and press ahead.
 0463148|CMP|Okay. I still got it in HIGH, and I'm kind of sucking the fluid back down the - the intake. And as I get the fluid thinned out, low and behold there's a whole bunch of bubbles underneath there. And each bubble is a source for one of those little cells. It's the internal source.
-0463224|CC|Okay, Ron. We got that. You may have made a breakthrough for science.
+0463224|ROOSA|Okay, Ron. We got that. You may have made a breakthrough for science.
 0463232|CMP|(Laughter) Okay.
 0463407|CC|17, Houston.
 0463411|CMP|17, go ahead.
@@ -19267,7 +19275,7 @@
 1561031|CMP|Okay. Contrary to the way I eat breakfast on the ground, I always end up leaving my orange juice to last. I guess that's because you like to eat the hot things first.
 1561044|CC|Roger.
 1561046|CMP|What I'm saying is the only thing I've got left to eat is orange juice, and I'm ready to copy.
-1561051|CC|Okay, 156:22 - which is coming up here - like to, at that time, verify all Command Module VHP off. It's now 11 after - You have to terminate the jet-on monitor and then get the sounder operating. I can break this off at any time if you think we're pressing that. Just interrupt me. At 156:50, lunar sounder pad. T-start is 156:51:05, and T-spot is 156:56:09. Over.
+1561051|CC|Okay, 156:22 - which is coming up here - like to, at that time, verify all Command Module VHF off. It's now 11 after - You have to terminate the jet-on monitor and then get the sounder operating. I can break this off at any time if you think we're pressing that. Just interrupt me. At 156:50, lunar sounder pad. T-start is 156:51:05, and T-spot is 156:56:09. Over.
 1561147|CMP|Okay. T-start, 156:51:05, 156:56:09.
 1561153|CC|That's good. Flip the page - flip two pages and copy the next sounder pad, which is for 158:40. T-start is 158:49:35 and stop time is 158 - -
 1561213|CMP|Wait a minute; wait a minute. I'm not with you.
@@ -19304,7 +19312,7 @@
 1561752|CC|Roger.
 1561808|CC|Okay, Ron; it's your computer. Go gack to BLOCK.
 1561814|CMP|Okay, we're in BLOCK.
-1561944|CMP|You know that Skylab drink bag has really been a pretty good deal because you can use the nipple that's on the end of that thing and use it for all of the beverage packages. And that way, you don't have to cup open the end of it and let it drip out all over the place.
+1561944|CMP|You know that Skylab drink bag has really been a pretty good deal because you can use the nipple that's on the end of that thing and use it for all of the beverage packages. And that way, you don't have to cut open the end of it and let it drip out all over the place.
 1562007|CC|Hey, I'll pass that along to the Skylab - -
 1562007|CMP|- - you can use the nipple.
 1562026|CMP|I'm not sure if they have any of our beverage packs or not. I think they are all packaged in these expandable little things we're using for water - water cans.
@@ -21798,7 +21806,7 @@
 1665523|CC|Okay. Copy that, Jack.
 1665533|LMP|But I don't see a track.
 1665538|CDR|Man, this one here is tough as a -
-1665542|LMP|Well, we can get some .small ones.
+1665542|LMP|Well, we can get some small ones.
 1665543|CDR|Yes. That's what I'm going to do. I tell you, this one is so -
 1665547|LMP|I thought you might be able to break it up.
 1665549|CDR|Well, there's no - there's no corners on it.
@@ -24670,7 +24678,7 @@
 1801916|CMP|From the wrist back to the elbow.
 1801918|CC|Okay.
 1801920|CMP|The only thing I can think, of is maybe the old Beta cloth itch, you know. Then I looked around and there was nothing there. You know, no hives or anything like that. So I got out some of that carry cream and put that on and that stopped it and went back to sleep.
-1801940|CC|Okay. And, it's coming up on tine to start our - our first VERB 49 maneuver which can be running and I'll watch the angles while you put a little hot water in your food there if you want to.
+1801940|CC|Okay. And, it's coming up on time to start our - our first VERB 49 maneuver which can be running and I'll watch the angles while you put a little hot water in your food there if you want to.
 1802007|CMP|Okay, I've got a target load, I guess, in desired orientation. Okay, 2, VERB 49 ENTER, VERB 25. Plus 179.00, ENTER; plus PITCH 22 - 222.00 ENTER, YAW 359 plus 359.00 ENTER. Okay, we're still saying 2/10ths of a degree per second; PROCEED to ... keys - PROCEED.
 1802057|CC|Okay, and the HIGH GAIN to AUTO, please.
 1802104|CMP|HIGH GAIN is in AUTO and we'll set that at minus 39 YAW 145, just in case it breaks lock.
@@ -24727,7 +24735,7 @@
 1804815|CMP|MARK it. The old waste water dump is on.
 1804818|CC|Okay.
 1804826|CMP|DRAIN VALVE is DUMP; BATTERY VENT is CLOSED.
-1804949|CC|Okay, Ron, the EECOM's calculated about 12 minutes to go on your dump, and it, wouldn't hurt to set your kitchen clock or whatever you do to help remind yourself because that'll be after LOS. And we've taken a look at all of the systems ana everything looks pretty good there and RETRO would like to remind you tnat the weight has cnanged on your trim pad and that has some implications to the way that computes the burn arcs and you want to he superprecise. And looks like everything is GO for a trim.
+1804949|CC|Okay, Ron, the EECOM's calculated about 12 minutes to go on your dump, and it, wouldn't hurt to set your kitchen clock or whatever you do to help remind yourself because that'll be after LOS. And we've taken a look at all of the systems ana everything looks pretty good there and RETRO would like to remind you that the weight has changed on your trim pad and that has some implications to the way that computes the burn arcs and you want to he superprecise. And looks like everything is GO for a trim.
 1805033|CMP|Okay, sounds good. I'll set my little ding-ding here for about 10 minutes.
 1805038|CC|Why don't you try about 9? Charlie swears that it's no more than that.
 1805053|CMP|I believe Charlie.
@@ -25316,7 +25324,7 @@
 1871343|CDR|Looked good here, Gordy.
 1871349|LMP|And, you've got DATA and P00.
 1871355|CC|Okay. Your up-links are coming. We'll give you a vector and zero the pos/neg cells. Your RLS is okay.
-1871556|CC|Challenger, Houston. We'd like you to put the ASCENT BATTERIES ON according to the procedures on the next nage, 8-8, just a little early because of pre-conditioning noticed in - before descent. And we checked your RGAs during the hot fire, ana your hot fire itself, and they both looked good.
+1871556|CC|Challenger, Houston. We'd like you to put the ASCENT BATTERIES ON according to the procedures on the next page, 8-8, just a little early because of pre-conditioning noticed in - before descent. And we checked your RGAs during the hot fire, ana your hot fire itself, and they both looked good.
 1871620|LMP|Thank you, Gordo.
 1871622|CC|And, Challenger, it's your computer now.
 1871628|LMP|Thank you.
@@ -25918,7 +25926,7 @@
 1894155|PAO|Challenger's coming in with the crew in the - nearly heads down position as seen on the television monitor.
 1894158|CDR|Taking off a couple. I'm at 3 feet per second, 280.
 1894209|CDR|Just great. Okay, Ron, 240 feet and 3 feet per second.
-1894216|CMP|Okay, keep her coming. Rice and easy. Getting a lot of pictures.
+1894216|CMP|Okay, keep her coming. Nice and easy. Getting a lot of pictures.
 1894230|CDR|200 feet and 3 feet per second. I got 2 feet per second and I'm at 170 feet.
 1894300|CDR|140 feet and 2 feet per second. About 3 feet of that antenna, Ron, and we'll get a better look at it when you pitch over.
 1894310|CMP|Okay.
@@ -26944,7 +26952,7 @@
 1953157|CC|Roger. America, Houston, We read you loud and clear.
 1953203|CMP|Okay. Houston, this is America. Okay, for your planning purposes there, I got a little tied up and started the RECEIVE ONLY TAPE RECORDER at 195 plus 24.
 1953223|CC|Okay; I copy that, Ron.
-1953301|CMP|Okay, Houston. HP number 1 is sticking out where it should stick.
+1953301|CMP|Okay, Houston. HF number 1 is sticking out where it should stick.
 1953308|CC|Okay, we copy that and - Stand by. Okay, go STANDBY on the LUNAR SOUNDER, please, Ron. Somebody is worried down here. STANDBY on the LUNAR SOUNDER.
 1953325|CMP|Okay, what's - STANDBY. Okay, STANDBY.
 1953403|CC|Okay, and, Ron. We're going to do this one in VHF. Apparently they're still too worried about your HF antennas. So if you'll take your MODE switch to HF when we get ready to get ready to come out of STANDBY, we'll do it in the VHF MODE.
@@ -27067,7 +27075,7 @@
 1961831|CMP|Uh, sure can. You bet you. I think the best way to do it is with the 250 lens on the Hasselblad.
 1961841|CC|Okay, it might be something worth getting just in case we don't hit it with the pan camera later on.
 1961851|CMP|Okay.
-1961935|CC|Okay, Ronald. The computer is yours and you can turn the LUNAR SOUNDER RADAR switch OFF. Leave the RECORDER switch OK.
+1961935|CC|Okay, Ronald. The computer is yours and you can turn the LUNAR SOUNDER RADAR switch OFF. Leave the RECORDER switch ON.
 1961946|CMP|Okay. The RECORDER'S staying ON and we'll turn the - RADAR, OFF?
 1961956|CC|Roger. RADAR, OFF - RECORDER, ON and the computer is yours.
 1962003|CMP|Okay, RADAR's going OFF and the RECORDER is still ON. And - we have lock.
@@ -27081,7 +27089,7 @@
 1962517|CMP|Okay, WASTE to PURGE LINE HEATERS. They're ON. Then VENT.
 1962745|CC|America, Houston. Ron? Over.
 1962750|CMP|Roger; go ahead.
-1962752|CC|Okay, one, while I'm talking to you how about flipping up and turning H2 TANK 3 FAN, OFF? cl
+1962752|CC|Okay, one, while I'm talking to you how about flipping up and turning H2 TANK 3 FAN, OFF?
 1962803|CMP|Okay, TANK 3 is OFF.
 1962805|CC|Okay, and then, how about you three guys giving us - giving some consideration the next 2 or 3 minutes to the following proposal? One, we totally aborted that lunar sounder pass because: One, we couldn't get the HF antenna out; and, two, because the temperature in the film cassette was too low. Those things are both taken care of now, And they're talking down here about essentially starting over at 197 hours, which will be the top of the next page, and pretending that that's 195 hours and running through that 195-hour page, beginning at 197 hours. The only problem with that, of course, is that it runs into your eat period and destroys that, which essentially means that you're going to get to bed 1 hour later. And I guess what we're saying is, if you're going to get to bed 1 hour later anyway, we might go ahead and ask you to do it, if you're agreeable. If you're clean-uping - cleaning-up companions there have progressed far enough that you think you're going to get to bed on time and don't want to do it, then that's another story. So, how about chewing it over there and letting us know?
 1962917|CMP|Okay, let me talk to the guys here for a minute, but I think we'll probably do it. Stand by.
@@ -27090,7 +27098,7 @@
 1963026|CMP|Don't worry about that. I - I can throw those switches on and I think the other guys can mix the food and I can eat it at the same time. No problem.
 1963039|CC|Okay, we've got that recorded on tape there, Ron. Okay, what we're going to do is essentially - -
 1963045|CMP|Okay (laughter).
-1963046|CC|- - essentially start at the 195-hour page and we'll just mechanically add 2 hours to everything on that page and run through it as - on the page. Okay? The change that we originally had in the Flight Plan, which I read - I don't know vhether it was to you or to - Jack, which moved the group from 196:20 over to 196:30 - will still move over tn 196:30. So, that will stay as is. And, again, that will be, of course, at 198:30, then. Do you understand what I'm saying there? Over.
+1963046|CC|- - essentially start at the 195-hour page and we'll just mechanically add 2 hours to everything on that page and run through it as - on the page. Okay? The change that we originally had in the Flight Plan, which I read - I don't know whether it was to you or to - Jack, which moved the group from 196:20 over to 196:30 - will still move over to 196:30. So, that will stay as is. And, again, that will be, of course, at 198:30, then. Do you understand what I'm saying there? Over.
 1963416|CMP|Yes, I think what you're saying is, we'll just do the Flight Plan like you - like we're starting at 195.
 1963416|CC|Roger - -
 1963416|CMP|- - like we'll be 2 hours later on the mission timer.
@@ -29049,7 +29057,7 @@
 2351552|CC|Okay,
 2351855|LMP|Houston, 17.
 2351858|CC|Go ahead.
-2351902|LMP|Yes, Gordy. Gene was trying to call you guys for about 4, or 5 minutes, after we had fairly good up-link signal strength, and you didn't answer, until you said that was the first tine you'd called. Is that something that you can explain down there?
+2351902|LMP|Yes, Gordy. Gene was trying to call you guys for about 4, or 5 minutes, after we had fairly good up-link signal strength, and you didn't answer, until you said that was the first time you'd called. Is that something that you can explain down there?
 2351923|CC|I think it is, but let me make sure I get the right answer here.
 2351932|LMP|We did not change any configuration in the spacecraft during that 5 minutes.
 2351938|CC|Roger.
@@ -30232,7 +30240,7 @@
 2561243|CDR|Okay. Some power at panel 10, Ron. POWER, AUDIO; SUIT POWER'S ON; MODE, VOX.
 2561248|CMP|Okay, we're in VOX.
 2561249|CDR|VOX sensitivity as required, approximately 7.
-2561253|CMP|Well, it works good at 9. I'll try it down here. I don't know whether - Well, I'll leave it all the way up. I '11 leave it on 9. It works that way.
+2561253|CMP|Well, it works good at 9. I'll try it down here. I don't know whether - Well, I'll leave it all the way up. I'll leave it on 9. It works that way.
 2561304|CDR|PAD COMM, OFF.
 2561305|CMP|PAD COMM is OFF.
 2561306|CDR|S-BAND, T/R.
@@ -31459,7 +31467,7 @@
 2615912|CC|Is it getting cool up there?
 2615917|CDR|Well, I'm freezing something off.
 2615922|CC|Hey, we got a little procedure to warm things up in the cockpit, if you'd like it.
-2615928|CDR|We - we heard that earlier, and we're passing on that right now.
+2615928|CDR|We - we heard that earlier, and we'll pass on that right now.
 2615939|CC|Was it the one about turning INVERTER 3?
 2615946|CDR|No, we didn't hear that one. Why don't you tell us what that one is.
 2615950|CC|Okay, Cernan, put INVERTER 3 on MAIN A. That will put some heat load into the system, and then GO to MANUAL on the TEMP IN valve. Go down and adjust the EVAP OUT temperature to 59 degrees - make it 55 degrees, 55 degrees. And that should help warm things up.
@@ -32066,10 +32074,10 @@
 2783442|CMP|Okay; we'll check that in a second here.
 2783543|CC|Our only thoughts, Ron, on the - any other position that you might see - You know, if it's above the couch plane and you really think it might be a suspect area, you might consider taping the crack, if you desire. The tape probably isn't going to hold it in if it wants to come tumbling out, but it - it's something you could do if you wanted to.
 2783610|CMP|Okay. Yes, I understand that, Bob. That's a good point.
-2783653|CC|And, Ron, while we're talking to you, we'd like to tag up with you on one more item unrelated to the scissors search, and that is your headset situation. And we just want to leave the - make sure you're going to do as was said last night and will not plug that - the headset with the broken wire, you will not plug in again, and we'll arrange your entry configuration in some configuration that does not require that headset to be plugged in. Is that affirm?
+2783653|CC|And, Ron, while we're talking to you, we'd like to tag up with you on one more item unrelated to the scissors search, and that is your headset situation. And we just want to leave the - make sure you're going to do as was said last night and will not plug that - the headset with the broken wires you will not plug in again, and we'll arrange your entry configuration in some configuration that does not require that headset to be plugged in. Is that affirm?
 2783723|CMP|Yes, that's affirm, Bob. I think what I'll do, I'll wear it as a bump hat, you know, and then - and then use the lightweight headset with the - you know, with the earplugs underneath that. I'll put the lightweight headset around my neck, and then have the mike sticking up in front of me, and with the earplugs on. I - I tested that configuration; it's comfortable. No problem. It'll work. And I will not plug in the comm carrier at all.
 2783751|CC|Roger. We just wanted to tag up with you on that. That's what we'll be expecting, and we'll - we'll put this to bed forever.
-2783858|CMP|Okay; mighty fine.
+2783758|CMP|Okay; mighty fine.
 2784226|CDR|Houston, America.
 2784228|CC|Go ahead.
 2784234|CC|Go ahead, America.
@@ -32379,7 +32387,7 @@
 2841648|CC|Here's one addressed to all three crewmen. What will you remember most about this mission?
 2841659|CDR|Boy, that's a loaded question, Gordy. There's so many things, but I think probably the thing that - when I think about it - that will stick with me most is the same thing that stuck with me - for my last two missions - not so much being there, but it's getting the chance to get home and share what you've seen and what you've done with other people.
 2841723|CMP|I think in my case, the lift-off itself was something brand new for me. It's something beyond - The booster ride itself was something beyond what I could really comprehend. So, I think that's - oh, it's a very important part of it. I will always remember that part of it. But I'm kind of like with Gene; I feel that even though the three of us have been up here and had the opportunity to observe the Moon, look at what we could find and that type of thing, I think that we have an obligation to share our experiences with the rest of the people.
-2841804|LMP|Well, Gordy, that is a difficult question. It has been a fascinating experience from so many detail aspects. I guess, generally speaking, the thing I carry back with me, I hope, is an increased perspective not only for the history of the solar system, but I hope for the future of mankind within that solar system.
+2841804|LMP|Well, Gordy, that is a difficult question. It has been a fascinating experience from so many detailed aspects. I guess, generally speaking, the thing I carry back with me, I hope, is an increased perspective not only for the history of the solar system, but I hope for the future of mankind within that solar system.
 2841831|CDR|Gordy, this doesn't mean that that last 50,000 feet won't stick in my mind for a long time.
 2841839|CC|Roger, Gene. Again for all three crewmen. Now that you are returning home from what may be the last lunar exploration of this century, what short-range and long-range plans do each of you have for the future?
 2841857|CDR|Well, my short-range plans are certainly to enjoy Christmas with my family, think about the flight, get its data down on paper. My long-range plans are to turn around and look at the next flight whenever that may be and put my efforts and experience toward that flight and get to work on it.
@@ -33110,16 +33118,16 @@
 3033231|CC|Okay, Ron; just a little reminder.
 3033231|CMP|Mighty fine.
 3033323|LMP|TAPE RECORDER is REWIND.
-3033452|CMP|Okay, we're in RANGE SET. Okay, crank in 1049.9.
+3033452|CMP|Okay, we're in RANGE SET. Okay, crank in 1044.9.
 3033518|PAO|This is Apollo Control 43 minutes now to entry into the atmosphere. Altitude 6,868. Velocity 20,768 feet per second -
 3033530|CMP|Okay, crank in 1044.9. Okay, inertial velocity, set. Slew to 36,172.
-3033609|PAO|Some of the post atmospheric entry events are - begin blackout 17 seconds after entry end blackout 3 minutes, 37 seconds; Drogue parachute deploy 7 minutes, 39 seconds; main parachute deployment 8 minutes, 26 seconds; Landing 13 minutes, 17 seconds after entry.
+3033609|PAO|Some of the post atmospheric entry events are - begin blackout 17 seconds after entry; end blackout 3 minutes, 37 seconds; Drogue parachute deploy 7 minutes, 39 seconds; main parachute deployment 8 minutes, 26 seconds; Landing 13 minutes, 17 seconds after entry.
 3033640|CMP|Okay, we got 36,172. Set. Okay, velocity at .05 G - Okay, let's see - ENTRY and STANDBY. Okay? FDAI SOURCE to ATT SET. ATT SET to GDC. EMS ROLL is ON. Okay, turning the old YAW. And it's 45 degrees to the right. And 45 degrees to the left. Okay; RSI is zero. EMS ROLL is OFF. Okay, let's align the old GDC again.
 3033746|CDR|Houston, America. The EMS is initialized; the RSI is aligned; and we're ready to pick up the command module RCS checks.
 3033754|CC|Roger. We're standing by, Gene.
 3033805|CMP|Okay; GDC is aligned to the IMU. Okay? Verify A/C ROLL is OFF. RCS LOGIC, two circuit breakers are CLOSED. Okay, SCS. MINIMUM IMPULSE.
 3033846|CDR|Okay, Houston, we're going to transfer the command module.
-3033849|CMP|Okay. Just a little bitty blunk. Okay, the ring 1 is going OFF. Okay; we're operating on ring 2. Ring 2 is all MAIN B. You can hear it go click, click. Click, click, okay. (Laughter) Happy with ring 2. Okay, 1 is going up to ON; 2 is coming OFF Okay, ring 1 is all MAIN A. Okay. Yes, you can see it, too, can't you? Okay, it works. Okay, ring 2 is going back to MAIN B. 1 is MAIN A; ring 2 is MAIN B. Okay? Okay. Okay, we still got control of the service module.
+3033849|CMP|Okay. Just a little bitty blunk. Okay, the ring 1 is going OFF. Okay; we're operating on ring 2. Ring 2 is all MAIN B. You can hear it go click, click. Click, click, okay. (Laughter) Happy with ring 2. Okay, 1 is going up to ON; 2 is coming OFF. Okay, ring 1 is all MAIN A. Okay. Yes, you can see it, too, can't you? Okay, it works. Okay, ring 2 is going back to MAIN B. 1 is MAIN A; ring 2 is MAIN B. Okay? Okay. Okay, we still got control of the service module.
 3034034|CDR|Okay, Houston, the RCS check looks good onboard.
 3034038|CC|Roger, America; and it looked great down here.
 3034041|CMP|CMC in AUTO. Yes, clock's running to RRT. Yes, it is.
@@ -33168,7 +33176,7 @@
 3040252|CMP|Yes, verify BYPASS.
 3040256|CMP|Okay, and stand by. Hey, Jack, when I yaw down here, can you get a picture?
 3040316|CMP|Okay, BMAGs, ATT l/RATE 2; RATE COMMAND; SCS. DEADBAND MIN; RATE to HIGH. COMMAND MODULE RCS LOGIC is ON. SECS LOGIC verified ON. Okay. Here come the pyros - PYRO A, PYRO B.
-3040340|CDR|Okay, Houston. On ray mark - I'm going to hit the CM/SM SEP.
+3040340|CDR|Okay, Houston. On my mark - I'm going to hit the CM/SM SEP.
 3040344|CC|Roger.
 3040346|CDR|3, 2, 1 -
 3040350|CDR|MARK.
@@ -33456,15 +33464,15 @@
 3045121|LMP|(Laughter) ...
 3045147|RECOV|Three swimmers are out in the egress raft, and are attaching it to the flotation collar.
 3045156|LMP|Man they are really working along.
-3045201|SPKR|The uprighting bags are fully inflated. And the swimmers are signalling the recovery to deploy the drop bag.
-3045228|LMP|Recovery this is America, we're standby for your call on opening the hatch.
-3045246|LMP|Hello, Recovery, America.
+3045201|SPKR|The uprighting bags are fully inflated. And the swimmers are signaling the recovery to deploy the drop bag.
+3045228|CDR|Recovery this is America, we're standby for your call on opening the hatch.
+3045246|CDR|Hello, Recovery, America.
 3045249|RECOV|Go ahead, America.
-3045250|RECOV|Okay, I'm going to standby for your call on opening the hatch.
+3045250|CDR|Okay, I'm going to standby for your call on opening the hatch.
 3045255|LMP|Recovery, roger. Trying to get your signal from UTD crewman there.
-3045259|RECOV|Okay, fine. Thank you. ...
+3045259|CDR|Okay, fine. Thank you. ...
 3045312|RECOV|... command module ... on the drop bag.
-3045327|LMP|(Laughter).
+3045327|CMP|(Laughter).
 3045338|RECOV|And Recovery is moving in towards the command module, positioning the drop bag at the egress raft.
 3045421|RECOV|And Recovery is positioning the drop bag - at the egress raft.
 3045433|RECOV|And the swimmers have the drop bag and they're disconnecting it from the recovery hoist.
@@ -33472,7 +33480,7 @@
 3045450|LMP|...
 3045510|RECOV|Recovery has moved back and the swimmers have the drop bag.
 3045527|LMP|I'm thinking I'll get a black eye this way.
-3045530|LMP|Yep, you sure will.
+3045530|CMP|Yep, you sure will.
 3045532|RECOV|One swimmer on the floatation collar near egress hatch.
 3045537|LMP|(laughter) Hey, hey.
 3045538|RECOV|And the swimmer has opened the egress hatch.
@@ -33480,15 +33488,15 @@
 3045546|LMP|Help us, okay.
 3045553|RECOV|And the swimmer has passed the drop bag to the astronauts and has reclosed the egress hatch.
 3045611|PAO|Texas Congressman Olin Teague visiting the control room now, shaking hands with management and flight controllers as we observe the recovery operations on the Eidaphor Television projector in the front of the control room.
-3045638|RECOV|Swimmers are wading to the egress raft and the astronauts have given the -
+3045638|RECOV|Three swimmers are wading to the egress raft and the astronauts have given the drop -
 3045643|PAO|Congressman Teaque has been joined in the control center by Congressman Bob Casey, from the Houston area, who is shaking hands with some of the flight surgeons at the flight surgeon console.
 3045721|RECOV|Swimmers are in the egress raft, one swimmer is on the flotation collar. The motor whale is at the ELS is approaching the ELS raft. The swimmers have the apex cover aboard their raft. Swimmer is on the flotation collar peering into the command module.
-3045837|RECOV|GARBLE. Completed and attached and RECOVERY photo ... and ELS hovering in the area of the command module.
+3045837|RECOV|... inflated and attached and RECOVERY photo ... and ELS hovering in the area of the command module.
 3045923|RECOV|And the three swimmers are in the egress raft. And command module and swimmers are riding extremely well. The swell is very moderate, maybe 2 feet. 2 to 4 foot swell.
 3050018|PAO|Flight Director, Neil Hutchinson, has asked every one in the control center to restrain themselves from lighting their splashdown cigars until the crew is on the deck of the recovery ship.
 3050032|RECOV|A swimmer has opened the hatch slightly and is talking to the astronauts. The swimmer has fully opened the egress hatch. The astronauts have passed a box to the swimmers and the swimmers have placed it in the egress raft. And the first astronaut is exiting the command module. ... is on the floatation collar. The swimmer is inflating the astronaut's life preserver unit. And the first astronaut is in the egress raft. The second astronaut is exiting the command module. The second astronaut's life preserver unit is being inflated. The astronauts are shaking hands with the UDC swimmers. The third astronaut is egressing from the command module. And the third astronaut's life preserver unit has been inflated. And that third astronaut and the UDC swimmer are on the flotation collar and are closing the egress hatch. The egress hatch has been closed and secured. ...
 3050859|PAO|This is Apollo Control. The control room here is quite full of people. Off shift flight controllers, management people watching the recovery operations in progress on the large television projector at the front of the control room. Waiting for that moment when the crew is safely on the deck of the ship to fire up their traditional splashdown cigars.
-3051522|SPKR|Land only long enough to drop off several of the photographers, the still photographers and the motion picture photographers from NASA who have been onboard. They will get themselves into position to photograph the ceremony and then the chopper will go back upstairs. Because Sam Drumy - our cameraman - the man who is giving us all thos wonderful shots - the closeup shots of the command module on the water - we want to get back up topside so we can get more pictures of the Ticonderoga during the ceremony. The ceremony, itself, is outlined rather extensively in the instructional sheet and the Astronauts are reading perhaps right now.
+3051522|SPKR|Land only long enough to drop off several of the photographers, the still photographers and the motion picture photographers from NASA who have been onboard. They will get themselves into position to photograph the ceremony and then the chopper will go back upstairs. Because Sam Drumy - our cameraman - the man who is giving us all those wonderful shots - the closeup shots of the command module on the water - we want to get back up topside so we can get more pictures of the Ticonderoga during the ceremony. The ceremony, itself, is outlined rather extensively in the instructional sheet and the Astronauts are reading perhaps right now.
 3051614|PAO|This is Apollo Control here in the Control Center. The Network controller has climbed a tall ladder to hang the final in the Apollo plaques along the upper wall of the Control Center. All the cigars are still unlit, waiting in the mouths of the flight control team, for the actual time the crew is safely on deck of the Ticonderoga. Waiting as the helicopters approach the ship, great deal of joviality under way here in the control center. Hand shaking, best wishes, from management, flight controllers, other people who have been associated with the Apollo Program for the past ten years. Network controller still at the top of his ladder spring loaded to hang the plaque on the wall.
 3052157|SPKR|Since they are to go below deck and undergo a rather extensive medical - examinations maybe they'd just like to delay that just a little bit.
 3052208|SPKR|....
@@ -33496,7 +33504,7 @@
 3052235|SPKR|And locate on the spacecraft as it came down toward the Pacific. And there will be some celebration on this ship. This evening a party with the astronauts and special guests - but most of the time after they get on the ship they will be spending in the scientific laboratories aboard. The ones that are prepared for the Skylab program that are being used here on the Apollo 17 mission. They won't even get a chance to take a shower for more than an hour. The other thing that they'd probably like to be doing is calling their families at home but there's no time located in the schedule for that. No time allocated for that until 5 o'clock this afternoon. Quick calculation tells us that that will be about 9 o'clock Houston time ladies so they will be calling you at that time. Now 001 and 002 moving in toward the deck of the Ticonderoga. Already the men are prepared to roll out that red carpet. And there's a shot from our photo helicopter. You can see landing on the fantail, 001 helicopter, you can also see 002 as it flies away. It will not be landing now because the recorders turned on and the ceremony will be ready to begin.
 3052456|PAO|This is Apollo Control with the helicopter safely on the deck. The network controller, Dave Young, will hang the final placque in the Apollo series on the upper wall of the control room here. And this circuit, known up until now as Gemini Control and Apollo Control will reappear as Skylab Control in the spring. This is Apollo Control out at 305:25 Ground Elapsed Time.
 3052532|SPKR|- as soon as the door is opened. Also in the foreground the bald headed man in the middle of the picture, Dr. Don Stalkin who is a NASA team leader. He will be the first man on the deck to be seen by the astronauts. He will be the man who will step up to greet them, and to remind them again of what they have already been told on the instructional sheet. Watch out for your heads - for Schmitt and Evans. Step down three steps. Wave and smile. And the instruction sheet says follow me. ...
-3052622|SPKR|.. arriving.
+3052622|SPKR|Apollo 17 arriving.
 3052625|SPKR|The carpet is down. (Music) All three men, one at a time. And now they are out on the deck. The middle man is Evans all right. (Cheer) And they are in proper array as the band strikes up Anchors Aweigh as could be predicted. Cernan in front, Schmitt in the middle. Being greeted by Admiral Butts, by Captain Norman Green and by Air Force General David Jones. Some pretty happy looking astronauts. On the stage that is prepared for them - Captain Green.
 3052732|GREEN|It gives me great pleasure this morning, to welcome the crew of Apollo 17 back from the Moon to the deck of Ticonderoga. We on Ticonderoga are very proud to be a part of this historic mission. Chaplain John Ecker will offer our prayer to almighty God for the safe return of these three astronauts.
 3052801|ECKER|The heavens declare your glory oh Lord. The planets, the sun, the moon, and the stars which you set in place, in humble gratitude we thank you for the safe return from your heavens of these pioneers in space. May their achievements contribute to the unity of mankind and peace for all your people in this holy season. Amen.
@@ -33507,4 +33515,4 @@
 3053255|EVANS|Thank you, Gene, General Green, - Captain Green, (Laughter) Admiral. You know, about 6-1/2 years ago, I was fortunate enough to be on the Ticonderoga, where I was notified, of my selection to the Astronaut Corps. I think it's quite fitting that I should happen to have the opportunity to be picked up by the Tico after our journey to the Moon. To me that's really something. The fact that, it was the Ticonderoga, is part of the United States Navy, the fact that I'm a Commander in the United States Navy, and I flew the United States Spacecraft America, to the Moon and back, I'm really honored and I'm proud. That's about the best way I can express it. And I think right now I'd like to present our, not our 3rd crew member, but the 3rd member of the Apollo 17 crew. Jack Schmitt. (Applause)
 3053408|LMP|Thank you. I'm happy to be here and I guess I never will be Navy. (Laughter) I'm sorry. But, if there was ever a team I'd like to be part of it's this one. Thank you very much. (Applause)
 3053433|SPKR|And so the Astronauts are done with their ceremony and are doing what the sheet told them to not to do, they're shaking hands over there. The sheet said just step off the platform turn left and wave or salute, but they either forgot or decided to go ahead and do their thing anyway. The doctors had thought that the shaking of hands would take too much time away from their experiments. And now, Dr. Don ... is herding them away. He's got one, he's got two, he's got three. They're all going down below, for their medical examinations. (music)
-3053524|SPKR|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonde
+3053524|SPKR|And so, again, man has been to the Moon; man has returned. Within an hour, while the astronauts undergo extensive physicals on the hanger deck below, the Ticonderoga will pluck the Command Module, America from the Pacific. Within a few days, scientists will being anew their probe into the origins of the universe. And while NASA people onboard are stiff-upper-liping it, there is a sense of nostalgia, a sense of loss. For them, Apollo has dated an era. Today, that era is done. This is David ... onboard the carrier, Ticonderoga.
