@@ -4095,7 +4095,7 @@
 0574542|LMP|Okay, we got you. Our biggest problem this morning is keeping Ron from going back to sleep.
 0574548|CC|Roger.
 0574553|CMP|By the way, my sleep report is ... looks like I had about 7-1/2 hours of pretty good sleep.
-0574602|SC|And if you believe that, you're really a ...
+0574602|LMP|And if you believe that, you're really a ...
 0575220|LMP|Okay, Houston; 17. I don't know if you're ready for this or not, but we have a few reports for you.
 0575227|CC|We're ready. Go ahead, Jack.
 0575234|LMP|Okay. On your CDR: PRD, 17028; he claims 7-1/2 hours of good sleep. He had a Seconal before going to bed, and since the last reporting, has had four containers of water.
@@ -9765,7 +9765,7 @@
 1182351|CDR|Houston - -
 1182353|LMP|That's beautiful.
 1182355|CDR|This has got to be one of the most proud moments of my life. I guarantee you. Let you get a close in one and we'll trade cameras. Houston, I don't know how many of you are aware of this, but this - this flag has flown in the MOCR since Apollo 11. And we very proudly deploy it on the Moon, to stay for as long as it can, in honor of all those people who have worked so hard to put us here and to put every other crew here and to make the country, United States and mankind, something different than it was.
-1182452|CC|Roger, 17 - And presuming to speak on behalf of some of those that work on the MOCR, we thank you very much.
+1182452|CC|Roger, 17 - And presuming to speak on behalf of some of those who work in the MOCR, we thank you very much.
 1182505|CDR|Back right where you were. Step to the right. Right there.
 1182519|LMP|Yes, that's alright. I'll keep it down.
 1182535|LMP|Stay there. Get closer. I'm going to get on the other side.
@@ -26154,7 +26154,7 @@
 1901328|CMP|Yes, when you're free, you know, you create a little bit of rates on the thing, too.
 1901334|CDR|I know it. I can see that. Just take your time. When you're satisfied, go. But don't go until you're satisfied.
 1901340|CMP|Okay, I'm not.
-1901403|PAO|The soft dock mechanism between the two vehicles has engaged. Evans is in the process now of trying to get things lines up properly, before pulling the LM and CMS together into the hard docking.
+1901403|PAO|The soft dock mechanism between the two vehicles has engaged. Evans is in the process now of trying to get things lines up properly, before pulling the LM and CSM together into the hard docking.
 1901416|CMP|Okay, she's coming back around now.
 1901421|CDR|Okay. Give me a call when you start to retract.
 1901424|CMP|Okay; will do.

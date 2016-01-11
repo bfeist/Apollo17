@@ -4367,7 +4367,7 @@
 |057:45:42|LMP|Okay, we got you. Our biggest problem this morning is keeping Ron from going back to sleep.
 |057:45:48|CC|Roger.
 |057:45:53|CMP|By the way, my sleep report is ... looks like I had about 7-1/2 hours of pretty good sleep.
-|057:46:02|SC|And if you believe that, you're really a ...
+|057:46:02|LMP|And if you believe that, you're really a ...
 |057:52:20|LMP|Okay, Houston; 17. I don't know if you're ready for this or not, but we have a few reports for you.
 |057:52:27|CC|We're ready. Go ahead, Jack.
 |057:52:34|LMP|Okay. On your CDR: PRD, 17028; he claims 7-1/2 hours of good sleep. He had a Seconal before going to bed, and since the last reporting, has had four containers of water.
@@ -10403,7 +10403,7 @@
 |118:23:51|CDR|Houston - -
 |118:23:53|LMP|That's beautiful.
 |118:23:55|CDR|This has got to be one of the most proud moments of my life. I guarantee you. Let you get a close in one and we'll trade cameras. Houston, I don't know how many of you are aware of this, but this - this flag has flown in the MOCR since Apollo 11. And we very proudly deploy it on the Moon, to stay for as long as it can, in honor of all those people who have worked so hard to put us here and to put every other crew here and to make the country, United States and mankind, something different than it was.
-|118:24:52|CC|Roger, 17 - And presuming to speak on behalf of some of those that work on the MOCR, we thank you very much.
+|118:24:52|CC|Roger, 17 - And presuming to speak on behalf of some of those who work in the MOCR, we thank you very much.
 |118:25:05|CDR|Back right where you were. Step to the right. Right there.
 |118:25:19|LMP|Yes, that's alright. I'll keep it down.
 |118:25:35|LMP|Stay there. Get closer. I'm going to get on the other side.
@@ -27808,7 +27808,7 @@
 |190:13:28|CMP|Yes, when you're free, you know, you create a little bit of rates on the thing, too.
 |190:13:34|CDR|I know it. I can see that. Just take your time. When you're satisfied, go. But don't go until you're satisfied.
 |190:13:40|CMP|Okay, I'm not.
-|190:14:03|PAO|The soft dock mechanism between the two vehicles has engaged. Evans is in the process now of trying to get things lines up properly, before pulling the LM and CMS together into the hard docking.
+|190:14:03|PAO|The soft dock mechanism between the two vehicles has engaged. Evans is in the process now of trying to get things lines up properly, before pulling the LM and CSM together into the hard docking.
 |190:14:16|CMP|Okay, she's coming back around now.
 |190:14:21|CDR|Okay. Give me a call when you start to retract.
 |190:14:24|CMP|Okay; will do.
