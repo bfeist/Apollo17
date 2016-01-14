@@ -3214,13 +3214,13 @@
 0411100|CMP|No, wait a minute, I got to go get it. Which one you on? A? Okay.
 0411135|CMP|Okay, Jack, I'm SIMPLEX Alfa. Okay, try it again. I got the - how me.
 0411154|CMP|Okay, Jack, you're cutting out on everything, and all I'm getting is the end of your transmission there.
-0411204|CMP|Okay, I got counting - 1, 2, 3, 4. 
+0411204|CMP|Okay, I got counting - 1, 2, 3, 4.
 0411208|CDR|Jack, you read Gene? Okay, you - you were loud and clear after your first two words in every case, just like you were cutting out on VOX.
 0411231|CDR|We got it all - -
 0411232|CMP|Got it all that time. You got it all that time there now, do you read me too?
 0411252|CMP|Well, that's interesting. Let me adjust the squelch on this one here.
 0411317|CMP|Okay. Seems to work. I can't hear the squelch on any of them.
-0411326|CDR|Jack, go VHF A TRANSMITTER and RECEIVER, OFF, and B TRANSMITTER, VOICE, and leave the RECEIVER, ON. 
+0411326|CDR|Jack, go VHF A TRANSMITTER and RECEIVER, OFF, and B TRANSMITTER, VOICE, and leave the RECEIVER, ON.
 0411332|LMP|Okay, VOICE, ON and off on B now.
 0411337|LMP|Okay, TR.
 0411347|CMP|Okay, I'm going to B now. Okay ... how's that? ...
@@ -7647,7 +7647,7 @@
 1094732|CDR|Okay. And you did get the umbilicals. Right?
 1094736|CMP|Say again about umbilicals.
 1094737|CDR|You did get the LM-to-CM umbilicals, right?
-1094741|CDR|All I get is umbilicala. I didn't get the question.
+1094741|CDR|All I get is umbilicals. I didn't get the question.
 1094745|CDR|Did you disconnect the LM-to-CM umbilicals? Verify.
 1094750|CMP|Verify. I have those down here.
 1094752|CDR|Okay. Very good.
@@ -19604,7 +19604,7 @@
 1602029|CMP|Five up - Got zero, zero. Stay there ...
 1602313|CC|Ron, this is Houston. Check NOUN 79 again. We think you might have loaded R1 and R2 negative. That's the way it locked down here, anyway.
 1602326|CMP|Okay, I'll check that.
-1602402|PAO|This is Apollo Control at 160 hours 24 minutes switching now to Air-Ground 1 for the initial wake up call to the crew of Challenger, asleep at this time on Taurus-Littrow. Command module America still has some 47 minutes remaining in this frontside pass. We'll stand by for the wakeup call which should be beamed up in about a half a minute or so. 
+1602402|PAO|This is Apollo Control at 160 hours 24 minutes switching now to Air-Ground 1 for the initial wake up call to the crew of Challenger, asleep at this time on Taurus-Littrow. Command module America still has some 47 minutes remaining in this frontside pass. We'll stand by for the wakeup call which should be beamed up in about a half a minute or so.
 1602503|CC|(Music: Texas Aggies Fight Song)
 1602634|CDR|I want you to say it first.
 1602640|CC|Hello there, Challenger. The Gold Team Flight Director picked out the morning's selection, and he said that if you can find some maroon dirt, today, instead of orange, you'll probably get a lot more cooperation out of him.
@@ -22293,7 +22293,7 @@
 1674438|CC|Okay. Copy that. What - which one's on top? Can you tell?
 1674451|LMP|Yes. The blue-gray's on top. I'm sorry.
 1674453|CC|Thank you. And you got a bearing and range there at the rim of Cochise?
-1674455|LMP|I took a picture of it and - 
+1674455|LMP|I took a picture of it and -
 1674459|CDR|Okay. We're at 228/3.0, and we're not - we're headed south and not quite on the - on the east rim.
 1674508|CC|All right.
 1674512|CDR|I'll give you a hack at the east rim.
