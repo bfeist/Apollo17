@@ -308,8 +308,9 @@
 0000852|CDR|And little S-IVB burn, baby burn. Gimbal ...
 0000901|CDR|Nine minutes, Bob, and 17 is GO.
 0000904|CC|Roger, 17. You're GO here.
-0000906|CDR|Okay, standby. 10 seconds.
+0000906|CDR|Okay, standby.
 0000907|PAO|And about 10 seconds to staging.
+0000909|CDR|10 seconds.
 0000916|CC|Standby for Mode IV capability.
 0000920|CDR|S-II cut-off.
 0000921|CC|MARK. Mode IV capability, and we copy cut-off.
@@ -368,7 +369,7 @@
 0001347|PAO|This is Apollo Control coming up on 14 minutes after liftoff, that liftoff coming about 2 hours 40 minutes late, and we'll be assessing the effects of that late liftoff on subsequent events in the mission timeline, passing those along. One of the effects will be a change in the acquisition of signal / loss of signal time and as we move along on the ground track -
 0001410|LMP|Houston, can you confirm - MAIN BUS TIE A/C, OFF?
 0001415|CC|Stand by on that, Jack.
-0001418|LMP|I've been carrying very low amps on the BAT BUS, and I did not see a drop. I'm carrying about 2 amps now. Volts are 3 - 30.5.
+0001417|LMP|I've been carrying very low amps on the BAT BUS, and I did not see a drop. I'm carrying about 2 amps now. Volts are 3 - 30.5.
 0001440|CC|Jack, go ahead and take the B/C motor switch OFF.
 0001447|LMP|Okay. It's OFF. And I confirm that one.
 0001450|CC|And we think it's the EDS POWER switch and the fuel cell ... switch that are drawing the current that you're seeing there.
@@ -9122,7 +9123,7 @@
 1171047|CDR|Sensitivity, max and max.
 1171057|CDR|Okay, Houston, The Commander is about three-quarters of the way down.
 1171110|CDR|I'm on the footpad.
-1171113|CDR|And, Houston, as I step off at the surface at Taurus-Littrow, I'd like to dedicate the first step of Apollo 17 to all those who made it possible. Jack, I'm out here. Oh, my golly. Unbelievable. Unbelievable, but is it bright in the Sun. Okay. We landed in a very shallow depression. That's why we've got a slight pitch-up angle. Very shallow, dinner-plate-like dish crater just about the width of the struts. How you doing, Jack?
+1171113|CDR|And, Houston, as I step off at the surface at Taurus-Littrow, We'd like to dedicate the first step of Apollo 17 to all those who made it possible. Jack, I'm out here. Oh, my golly. Unbelievable. Unbelievable, but is it bright in the Sun. Okay. We landed in a very shallow depression. That's why we've got a slight pitch-up angle. Very shallow, dinner-plate-like dish crater just about the width of the struts. How you doing, Jack?
 1171213|LMP|Fine. Getting the circuit breakers verified.
 1171222|CDR|The LM looks beautiful. Oh, do we have boulder tracks coming down. Let me see exactly where we are. I think I may be just in front of Punk.
 1171246|CC|Okay. We copy that, Gene, and are the boulder tracks - -
@@ -13682,7 +13683,11 @@
 1381754|CDR|Roger, Bob.
 1381756|CC|- All this says that, we're very much more interested in Station 5, as you might expect, than we were before. And I guess, for this reason, we'll be trying to keep the timeline a bit tighter than usual to guarantee that we've got some time left over at Station 5. And, we're also interested in moving perhaps - in perhaps moving Station 5 from its present location there in the southwest of Camelot over to the southeast or east or some location where we have a feeling that we've got big boulders up on the rim. This would be so we could sample, hopefully, some of the light material and some of the boulders together and get a better confirmation that the materials from deep in the subfloor unit is this intermediate gabbro, as opposed to just material from the upper part of the subfloor. It's just a matter of proving to ourselves whether or not the boulders we sampled yesterday are from deep within the subfloor, or only at the surface of the subfloor; or, perhaps, as I said, the other alternative being that the intermediate gabbro is part of the dark mantle, and we're seeing a churned-up regolith on top of it - sort of being the gaseous upper part of the flow having been broken down rather rapidly into the dark mantle. Okay, stand by a minute.
 1381915|CC|Okay. To summarize that again, reading - I guess I got ahead of myself here in the little spiel they wrote up. At the present time we have two working hypotheses for the dark mantle, the gabbro - and the gabbro relationships to each other. One: the crystalline rocks that we found in the gabbro are an upper unit of the subfloor with their dark mantle cover unrelated to them in time. Key observations that they suggest here, are stratigraphy at Camelot, Station 5, and other steep craters. Especially, perhaps, the trench and sheltered spots which are unguarded - ungardened, as in plowed - for an older regolith underneath the dark mantle, if such a thing could be found. We don't think we found that yesterday. Or, look at the superposition relations between dark mantles and boulders are the mantles - instances of the mantle on the boulders or, inversely, of small boulders on the mantle?
-1382007|CC|The second working hypothesis is that - is that the dark mantle is regolith derived from a vitreous, vesicular, flow tops of the crystalline rock flow beneath. And, it again goes to say that perhaps the re - gabbro that we sampled yesterday was indeed the late flow; and what the regolith was, was derived from the vitreous, vesicular flow tops as it were. Again, many of the same observations are called for. In particular, they'd be interested then in looking at the coarser fines as they define as from a millimeter to 20 millimeters, for some sort of transitional lithologies and textures. In other words, what do the small walnut-size rocks look like, if you can in hand specimens? If I can get more specific in terms of EVA mechanics, let me say that we'll call out in real-time the deletion of - of the tasks at Stations 3 and 4, if they become necessary. And what we're planning on doing is, deleting the trench in the base of the scarp at Station 3, and also, deleting the radial sample of the - on Shorty at Station 4. That's provisionally what we're planning on. And depending on how the time is going, we'll call that out real-time. We also have - The experiments remain pretty much the same: We'll deploy the charges at the same locations as we're planning in the checklist at the present time. We also don't - for your planning further ahead, we don't anticipate any significant changes in EVA-3. The charge number 5, which we were going to deploy at Emory, will not - but didn't, will not be deployed during EVA-2, but we'll deploy it on EVA-3 out at Station 10. And, what we're going to do there, is when you take the 8-pounder and put it between the seats, we'll then have the 3-pounder left over, and we'd like to put that on one of the footpads in the Sun - that's probably either the minus-Z or minus-Y footpad. And, we'll leave it there in the Sun until the start of EVA-3, in which case we'll put in the Rover underneath the LMP's seat. And, thermally, that looks okay. There is a probability that we're going to play the "return to the ALSEP" game, and we're going to do this for a couple of reasons. One, we're going to go back and look at getting some more ALSEP photos. I guess Gordy says you've got that. And, that will probably be at the end of EVA - in fact, it will certainly be, if it happens, at the end of EVA-3 when you go back to get the neutron flux probe. I might also say with regard to EVA-3 that, obviously, we're more interested in Station 10 than we were before. Another "return to the ALSEP" goodie that we're looking at - if we have the consumables today when you get back from finishing Station 5 - is that the Lunar Surface Gravimeter has been unable to level itself over the night, and they sent, you know, some thousand commands trying to get it straightened out, and they say it looks as though it's not level. And, so, we'd like Jack to go back with his practiced hand-on-bubble levels and recheck that at the end of - after Station 5 today, if there's sufficient consumables. And, we've planned for Gene to just let Jack off and let him walk back to the LM, after he gets off and looks at that. And, that's about everything we have. As I say, in summary, that the big changes are going to be extra time at the beginning, taking care of the fender extension, and the probability of extra time at the end. Although we'll have to see how well the fender works and how things go. The probability of extra time at the end to allow for dusting and the time spent on those particular activities we'll probably end up taken out of the tasks at Station 3 and Station 4. Over. Comments?
+1382007|CC|The second working hypothesis is that - is that the dark mantle is regolith derived from a vitreous, vesicular, flow tops of the crystalline rock flow beneath. And, it again goes to say that perhaps the re - gabbro that we sampled yesterday was indeed the late flow; and what the regolith was, was derived from the vitreous, vesicular flow tops as it were. Again, many of the same observations are called for. In particular, they'd be interested then in looking at the coarser fines as they define as from a millimeter to 20 millimeters, for some sort of transitional lithologies and textures. In other words, what do the small walnut-size rocks look like, if you can in hand specimens?
+1382055|CC|If I can get more specific in terms of EVA mechanics, let me say that we'll call out in real-time the deletion of - of the tasks at Stations 3 and 4, if they become necessary. And what we're planning on doing is, deleting the trench in the base of the scarp at Station 3, and also, deleting the radial sample of the - on Shorty at Station 4. That's provisionally what we're planning on. And depending on how the time is going, we'll call that out real-time.
+1382128|CC|We also have - The experiments remain pretty much the same: We'll deploy the charges at the same locations as we're planning in the checklist at the present time. We also don't - for your planning further ahead, we don't anticipate any significant changes in EVA-3. The charge number 5, which we were going to deploy at Emory, will not - but didn't, will not be deployed during EVA-2, but we'll deploy it on EVA-3 out at Station 10. And, what we're going to do there, is when you take the 8-pounder and put it between the seats, we'll then have the 3-pounder left over, and we'd like to put that on one of the footpads in the Sun - that's probably either the minus-Z or minus-Y footpad. And, we'll leave it there in the Sun until the start of EVA-3, in which case we'll put in the Rover underneath the LMP's seat. And, thermally, that looks okay.
+1382222|CC|There is a probability that we're going to play the "return to the ALSEP" game, and we're going to do this for a couple of reasons. One, we're going to go back and look at getting some more ALSEP photos. I guess Gordy says you've got that. And, that will probably be at the end of EVA - in fact, it will certainly be, if it happens, at the end of EVA-3 when you go back to get the neutron flux probe. I might also say with regard to EVA-3 that, obviously, we're more interested in Station 10 than we were before. Another "return to the ALSEP" goodie that we're looking at - if we have the consumables today when you get back from finishing Station 5 - is that the Lunar Surface Gravimeter has been unable to level itself over the night, and they sent, you know, some thousand commands trying to get it straightened out, and they say it looks as though it's not level. And, so, we'd like Jack to go back with his practiced hand-on-bubble levels and recheck that at the end of - after Station 5 today, if there's sufficient consumables. And, we've planned for Gene to just let Jack off and let him walk back to the LM, after he gets off and looks at that.
+1382332|CC|And, that's about everything we have. As I say, in summary, that the big changes are going to be extra time at the beginning, taking care of the fender extension, and the probability of extra time at the end. Although we'll have to see how well the fender works and how things go. The probability of extra time at the end to allow for dusting and the time spent on those particular activities we'll probably end up taken out of the tasks at Station 3 and Station 4. Over. Comments?
 1382410|LMP|Okay, Bob. We copy all that. Obviously, you're going to have to catch us in real-time on some of the details there - on the charges and the task deletions. One question, did you say we were going to delete the trench at Station 3?
 1382428|CC|Roger. The trench at the base of the Scarp, in other words, some of the stuff that you would be doing while Gene was taking the double core.
 1382438|LMP|What do you gain by that?
@@ -14330,20 +14335,23 @@
 1405905|LMP|Hey, Bob, what's my shadow length right now?
 1405908|CC|Stand by. I'll ask. We'll get it for you momentarily.
 1405929|CC|Okay, Jack. We've got 4.5 meters or 15 feet.
-1405938|LMP|4.5 meters, huh? Hmm. 15 feet? is that how long I am on the ground? No wonder I've misjudged distance. Zap! Hello there, Houston.
+1405938|LMP|4.5 meters, huh? Hmm.
+1405942|CDR|15 feet? is that how long I am on the ground? No wonder I've misjudged distance. Zap! Hello there, Houston.
 1405959|CC|Hello there. Okay, Jack. And do we have the new charge transporter on the pallet?
 1410016|LMP|I'll say yes, but you could have looked for yourself.
 1410019|CC|Well, we just looked away.
 1410022|CDR|Yes, it's here. It's here, Bob.
 1410024|CC|Copy that. I won't ask if we got the LCRU battery. That one, I did see.
-1410036|LMP|Yes, we got it. You don't think I'd leave it here. Okay, 7.
+1410036|CDR|Yes, we got it.
+1410037|LMP|You don't think I'd leave it here.
+1410040|CDR|Okay, 7.
 1410058|CDR|Boy, this gate's working like a charm.
-1410129|LMP|Okay. Transfer from 5 to 7. Okay?
+1410129|CDR|Okay. Transfer from 5 to 7. Okay?
 1410134|CC|Okay and - -
 1410135|LMP|Okay. The pan's complete.
 1410138|CC|Okay, Jack. Copy that.
 1410141|LMP|And, Bob, those pans around here have more pictures because I'm having to be sure I get the massifs - I'm having to take extra pictures.
-1410153|CC|Okay. Copy that. And I guess we'd suggest that, if you haven't talked about it already, that you work on the fender before you do the geo prep. You don't have your cameras and bags to worry about at that point.
+1410153|CC|Okay. Copy that. And I guess we'd suggest that, if you haven't talked about it already, that you work on the fender before you do the geo prep, so you don't have your cameras and bags to worry about at that point.
 1410206|CDR|Okay. Would that be a good time for Jack to go to the ALSEP, do you think? Or do you think we both have to do this fender?
 1410213|CC|No. The ALSEP work - we're not going to do until the end of the EVA.
 1410214|CDR|I heard John's words.
@@ -22242,7 +22250,7 @@
 1673844|CC|Okay. And we think you're even farther north than I was saying. Maybe it's about 215 would be your heading for there.
 1673855|CDR|Okay, Bob. I'll find it. 234/2.1.
 1673858|CC|Roger.
-1673902|LMP|And all the big blocks still look like subfloor from the Rover. But big blocks in here are only about a - a third of a meter in diameter. And they're subrounded to subangular. Okay. We're up on the plains again now, just off the brink and slope.
+1673902|LMP|And all the big blocks still look like subfloor from the Rover. But big blocks in here are only about a - a third of a meter in diameter. And they're subrounded to subangular. Okay. We're up on the plains again now, just off the break of slope.
 1673934|PAO|Station 9 is Van Serg crater which could be of volcanic origin.
 1673949|CDR|That sure looks like - looks like outcrop ... down in the East Massif on the lower slopes, if it's here the high albedo is. Doesn't it? See it over there?
 1673956|LMP|Yes - Yes. Yes. It does - ... was one of my guidelines for the geophone deployment - ... points.
@@ -22269,11 +22277,12 @@
 1674132|LMP|Nope. Hope you've still got an antenna; I haven't looked recently.
 1674143|CDR|Hope there's no holes in the high gain.
 1674146|LMP|Might have hit it on a rock.
-1674150|CDR|Oh, boy. Okay. The - we're back into the mantle area population of fragments is still 1 percent or so. The crater off to our left, which is at 227 and 3. - What is that?
-1674209|LMP|3.1.
-1674210|CDR|3?
-1674211|LMP|3.3; 227/3.3.
-1674214|CDR|And a fairly good-sized depression, but it's completely mantled. There's no blocks showing in the wall at all. How do you read, Bob?
+1674150|CDR|Oh, boy. 
+1674151|LMP|Okay. The - we're back into the mantled area population of fragments is still 1 percent or so. The crater off to our left, which is at 227 and 3. - What is that?
+1674209|CDR|3.1.
+1674210|LMP|3?
+1674211|CDR|3.3; 227/3.3.
+1674214|LMP|And a fairly good-sized depression, but it's completely mantled. There's no blocks showing in the wall at all. How do you read, Bob?
 1674231|CC|Loud and clear. We're listening.
 1674239|LMP|Now there's that crater in the wall of that depression or a hollow near it. And it has one big block in the side as if it penetrated the mantle and exposed some of the wall of the depression. Just about a 30-meter crater. Valley of Taurus-Littrow is not planar.
 1674311|CDR|No, it isn't.
@@ -22289,7 +22298,7 @@
 1674342|LMP|Could you swing right? Swing right.
 1674345|CDR|Bob, we are on the south - or northeastern rim of Cochise. I'm going to work my way around the other side.
 1674352|CC|Roger. Copy that.
-1674352|LMP|And Bob, looking at the western wall of Cochise, I can see a contact within the subfloor between albedo units, one of which is a light tan-gray and the other is a light blue-gray. May reflect the two kinds of subfloor gabbro we've already sampled. Vesicular and nonvesicular. And that contact that looked like it was dipping - apparent dip in the wall - was to the north. And the west wall dipping to the north about 20 degrees.
+1674352|LMP|And Bob, looking at the western wall of Cochise, I can see a contact within the subfloor between a - albedo units, one of which is a light tan-gray and the other is a light blue-gray. May reflect the two kinds of subfloor gabbro we've already sampled. Vesicular and nonvesicular. And that contact that looked like it was dipping - apparent dip in the wall - was to the north. And the west wall dipping to the north about 20 degrees.
 1674438|CC|Okay. Copy that. What - which one's on top? Can you tell?
 1674451|LMP|Yes. The blue-gray's on top. I'm sorry.
 1674453|CC|Thank you. And you got a bearing and range there at the rim of Cochise?
@@ -33271,7 +33280,7 @@
 3042544|CDR|This is America. We're showing 1.8 miles short. 17.86 by minus 167.5.
 3042552|CMP|They're ARMed. We're stable. Looking good. Coming down like a son-of-a-buck. Man, oh, man! Okay, there's 35K. Stand by for ELS LOGIC, right? Okay? There goes all the paper off the spacecraft. Okay, that's 30K. ELS to AUTO - LOGIC - and then AUTO. Okay, stand by for the apex. And it bumps. Okay, there we go!
 3042622|CMP|There goes the drogues. Okay, back them up. Hey, come here, Jack. What? Okay ... to go. Man, oh, man! - Hey, it really vibrates! Okay.
-3042622|CDR|Okay, Houston; America in the blind - we got the mains - we got the drogues, we got the drogues. Okay, there's 12, 13K. Okay. 12K.
+3042642|CDR|Okay, Houston; America in the blind - we got the mains - we got the drogues, we got the drogues. Okay, there's 12, 13K. Okay. 12K.
 3042714|CDR|Mains at 11K. Mains ... -
 3042718|LMP|There's the mains. Okay. They're reefing.
 3042739|CDR|Bearing 350.
