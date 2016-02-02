@@ -523,10 +523,12 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var launchDate_ms = launchDate.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
-        var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
+        //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
+        var daysToMoveForward = 6;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
     } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
-        var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
+        //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
+        var daysToMoveBackward = 12;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
