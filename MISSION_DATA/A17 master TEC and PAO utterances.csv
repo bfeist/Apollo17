@@ -176,7 +176,9 @@
 |000:02:49|CDR|Okay, Bob. I guess we got all five.
 |000:02:51|CC|Roger. They're looking here - looking good.
 |000:02:53|CMP|Okay, standby to ...
-|000:02:55|LMP|Sure felt like it. I think we saw them all from here.
+|000:02:55|LMP|Sure felt like it.
+|000:02:55|CDR|Standby. Hold it.
+|000:02:56|LMP|I think we saw them all from here.
 |000:02:58|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
 |000:03:03|CDR|Okay; 3 minutes and we're GO. See how smooth ...
 |000:03:06|CC|Roger, 17.
@@ -217,7 +219,7 @@
 |000:04:34|CDR|Let me tell you, this night launch is something to behold.
 |000:04:38|CMP|Okay, H and H-DOT are good.
 |000:04:46|CDR|Okay, I don't know if you'll be able to pick up any horizon.
-|000:04:49|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
+|000:04:47|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
 |000:04:50|CMP|No, it's too dark - too light in here.
 |000:04:52|CDR|Yes.
 |000:04:55|CDR|Okay, let's keep - on. One G.
@@ -260,7 +262,7 @@
 |000:06:35|LMP|Okay, our calibration on that tank changed a little bit again, apparently.
 |000:06:39|CDR|Okay.
 |000:06:40|LMP|Down at 90%.
-|000:06:41|CMP|90? On the tank 2?
+|000:06:41|CMP|90? On the TANK 2?
 |000:06:44|LMP|On the hydrogen.
 |000:06:45|CMP|Hydrogen. TANK 3, I mean.
 |000:06:46|CC|Stand by for S-IVB to orbit capability.
@@ -274,7 +276,7 @@
 |000:07:01|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
 |000:07:08|CDR|Seven minutes, Bob. We're looking good onboard.
 |000:07:11|CC|Roger.
-|000:07:18|CDR|Am I glad I took my hand off that abort handle!
+|000:07:17|CDR|Am I glad I took my hand off that abort handle!
 |000:07:19|CMP|(laughter) man!
 |000:07:20|LMP|So am I. (laughter) I'll tell ya (laughter)
 |000:07:24|CDR|Okay, we've got to get through this one, and then through staging. Standby for inboard. Okay. ...

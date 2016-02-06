@@ -174,7 +174,9 @@
 0000249|CDR|Okay, Bob. I guess we got all five.
 0000251|CC|Roger. They're looking here - looking good.
 0000253|CMP|Okay, standby to ...
-0000255|LMP|Sure felt like it. I think we saw them all from here.
+0000255|LMP|Sure felt like it.
+0000255|CDR|Standby. Hold it.
+0000256|LMP|I think we saw them all from here.
 0000258|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
 0000303|CDR|Okay; 3 minutes and we're GO. See how smooth ...
 0000306|CC|Roger, 17.
@@ -214,7 +216,7 @@
 0000434|CDR|Let me tell you, this night launch is something to behold.
 0000438|CMP|Okay, H and H-DOT are good.
 0000446|CDR|Okay, I don't know if you'll be able to pick up any horizon.
-0000449|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
+0000447|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
 0000450|CMP|No, it's too dark - too light in here.
 0000452|CDR|Yes.
 0000455|CDR|Okay, let's keep - on. One G.
@@ -257,7 +259,7 @@
 0000635|LMP|Okay, our calibration on that tank changed a little bit again, apparently.
 0000639|CDR|Okay.
 0000640|LMP|Down at 90%.
-0000641|CMP|90? On the tank 2?
+0000641|CMP|90? On the TANK 2?
 0000644|LMP|On the hydrogen.
 0000645|CMP|Hydrogen. TANK 3, I mean.
 0000646|CC|Stand by for S-IVB to orbit capability.
@@ -271,7 +273,7 @@
 0000701|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
 0000708|CDR|Seven minutes, Bob. We're looking good onboard.
 0000711|CC|Roger.
-0000718|CDR|Am I glad I took my hand off that abort handle!
+0000717|CDR|Am I glad I took my hand off that abort handle!
 0000719|CMP|(laughter) man!
 0000720|LMP|So am I. (laughter) I'll tell ya (laughter)
 0000724|CDR|Okay, we've got to get through this one, and then through staging. Standby for inboard. Okay. ...
