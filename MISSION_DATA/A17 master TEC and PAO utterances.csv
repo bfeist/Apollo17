@@ -176,7 +176,9 @@
 |000:02:49|CDR|Okay, Bob. I guess we got all five.
 |000:02:51|CC|Roger. They're looking here - looking good.
 |000:02:53|CMP|Okay, standby to ...
-|000:02:55|LMP|Sure felt like it. I think we saw them all from here.
+|000:02:55|LMP|Sure felt like it.
+|000:02:55|CDR|Standby. Hold it.
+|000:02:56|LMP|I think we saw them all from here.
 |000:02:58|CC|Roger, Jack. And the thrust is GO on all five of them. They're running good.
 |000:03:03|CDR|Okay; 3 minutes and we're GO. See how smooth ...
 |000:03:06|CC|Roger, 17.
@@ -217,7 +219,7 @@
 |000:04:34|CDR|Let me tell you, this night launch is something to behold.
 |000:04:38|CMP|Okay, H and H-DOT are good.
 |000:04:46|CDR|Okay, I don't know if you'll be able to pick up any horizon.
-|000:04:49|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
+|000:04:47|PAO|Coming up on 5 minutes. Everything still looks very good in the launch of Apollo 17. The launch vehicle spacecraft now 80 miles high, 230 miles down range.
 |000:04:50|CMP|No, it's too dark - too light in here.
 |000:04:52|CDR|Yes.
 |000:04:55|CDR|Okay, let's keep - on. One G.
@@ -260,7 +262,7 @@
 |000:06:35|LMP|Okay, our calibration on that tank changed a little bit again, apparently.
 |000:06:39|CDR|Okay.
 |000:06:40|LMP|Down at 90%.
-|000:06:41|CMP|90? On the tank 2?
+|000:06:41|CMP|90? On the TANK 2?
 |000:06:44|LMP|On the hydrogen.
 |000:06:45|CMP|Hydrogen. TANK 3, I mean.
 |000:06:46|CC|Stand by for S-IVB to orbit capability.
@@ -274,7 +276,7 @@
 |000:07:01|PAO|Now 7 minutes in and we have sufficient velocity to make orbit with the Saturn third stage should we have an unexpected early shutdown of the second stage.
 |000:07:08|CDR|Seven minutes, Bob. We're looking good onboard.
 |000:07:11|CC|Roger.
-|000:07:18|CDR|Am I glad I took my hand off that abort handle!
+|000:07:17|CDR|Am I glad I took my hand off that abort handle!
 |000:07:19|CMP|(laughter) man!
 |000:07:20|LMP|So am I. (laughter) I'll tell ya (laughter)
 |000:07:24|CDR|Okay, we've got to get through this one, and then through staging. Standby for inboard. Okay. ...
@@ -33587,7 +33589,7 @@
 |263:08:43|CC|We'll take a look. Stand by. Give us your best guess on how long ago it was.
 |263:08:57|LMP|About - now about 20 seconds, maybe 30.
 |263:09:01|CC|Okay.
-|263:10:34|PAO|That was Lunar Module Pilot, Jack Schmitt reporting what he described as an apparent blinking of the spacecraft lights, apparently a momentary thing. Schmitt asked if the ground would take a good hard look at the vehicle to see if there had been any sort of a - a glitch, presumatly electrical. Spacecraft Environmental and electrical systems engineer, John Aaron is looking at the data now in detail and so far has reported nothing amiss.
+|263:10:34|PAO|That was Lunar Module Pilot, Jack Schmitt reporting what he described as an apparent blinking of the spacecraft lights, apparently a momentary thing. Schmitt asked if the ground would take a good hard look at the vehicle to see if there had been any sort of a - a glitch, presumably electrical. Spacecraft Environmental and electrical systems engineer, John Aaron is looking at the data now in detail and so far has reported nothing amiss.
 |263:10:55|CC|America, Houston. Request the VERB 48 shown in the Flight Plan now.
 |263:11:06|CMP|coming up at you.
 |263:11:17|CC|And we're - we're rechecking on the EPS data. A first glance shows it solid, but we're not sure if it might have been static during that time. We're taking another look here.
@@ -33599,7 +33601,7 @@
 |263:13:53|PAO|And about 1 hour from now, at 264 hours 10 minutes Ground Elapsed Time, the last of 8 explosive charges placed on the lunar surface by the Apollo 17 crew, will be detonated to produce seismic waves that will assist scientists in understanding the subsurface structure of the - in the area of the Taurus-Littrow site. This charge is 1/8th of a pound. The smallest of the charges, but also the closest to the lunar roving vehicle, it's located about 65 meters from the Rover, and again the expected time of detonation is about 264 hours 10 minutes. Apollo 17 at this time is 148,300 nautical miles from Earth, and we've seen the velocity creeping up ever so slightly, now up to about 3,500 feet per second.
 |263:23:02|CC|America, Houston. The state vector up-link scheduled for now won't be necessary.
 |263:23:10|CMP|Okay, Gordy. How's the old trajectory looking these days?
-|263:23:24|CC|They're still carrying about one-half foot per second. However, they're not in a period right now of real solid track, I guess, and - so it - it'll take them some more hours to get a really good handle on it.
+|263:23:24|CC|They're still carrying about half foot per second. However, they're not in a period right now of real solid track, I guess, and - so it - it'll take them some more hours to get a really good handle on it.
 |263:23:43|CMP|Okay.
 |263:23:58|CC|Nobody predicts any more maneuvers until midcourse 7 at the earliest.
 |263:24:09|CMP|What would it be at the latest?
@@ -33629,7 +33631,7 @@
 |263:37:43|CC|No, Jack. Evidently, they've eliminated that possibility. They're certain it's a problem - a mechanical problem.
 |263:37:52|LMP|Okay.
 ||||Tape 174/5|Page 2318
-|263:38:59|CC|Jack, reference your - the blink you noticed or possibly noticed - we, looking at the data, see about 30 seconds prior to the time we think you mentioned that it happened but that's close to the time frame, I guess, a 1 or 2 amp oscillation in the main B voltage or current. And it only lasted for one or two data cycles, or like 0.1 or 0.2 of a second is all. We would like to know, though, approximately what setting all the floodlights are at right.now.
+|263:38:59|CC|Jack, reference your - the blink you noticed or possibly noticed - we, looking at the data, see about 30 seconds prior to the time we think you mentioned that it happened but that's close to the time frame, I guess, a 1 or 2 amp oscillation in the main B voltage or current. And it only lasted for one or two data cycles, or like 0.1 or 0.2 of a second is all. We would like to know, though, approximately what setting all the floodlights are at right now.
 |263:39:49|CDR|LEB axe full BRIGHT, and the left hand are about three-quarters, right hand's about three-quarters. Jack's the only one who saw that. We didn't - Ron and I didn't see anything on that one, so if it - if it happened, it was awful quick.
 |263:40:04|CC|Okay.
 |263:41:26|CC|America, we'd like H2 tanks - H2 tank 1 FANS ON, please.
@@ -33660,7 +33662,7 @@
 |264:28:08|CDR|I guess you're looking at the orange light, too, huh?
 |264:28:13|CC|That's affirmative.
 |264:29:10|PAO|This is Apollo Control. The orange light that Jack Schmitt was referring to is a gimbal warning light - one of the caution and warning system lights that, in this case, indicates the attitude of the spacecraft approaching gimbal lock. However, this is of no concern. The passive thermal control attitude that the spacecraft is in was expected to bring them close enough to that limit to trigger the light, but will not cause any problems. The spacecraft at this time is in the passive thermal control mode, rotating about it's longitudinal axis at the rate of about 3 revolutions per hour to distribute the heating and cooling effects of sunlight on one side and the heatsink of space on the other, and produce uniform heating and cooling within the spacecraft structure.
-|264:37:02|PAO|This is Apollo Control at 264 hours 37 minutes. About an hour and a half ago Jack Schmitt reported what appeared to him as a transitory blink of the spacecraft lights. He asked if we'd seen anything in the telemetry that indicated any sort of a glitch or a problem in the spacecraft electrical system. At that time the EECOM looked at his telemetry displays and said everything appeared to be normal, but to be doubly sure, we had the data, replayed from the receiving site at Madrid where it had been picked up from the spacecraft and looked at the data second by second. Aaron has completed that review, John Aaron, the EECOM, and reports that he saw nothing abnormal during the period of time in question. However, there were a couple of instances where the spacecraft current levels increased or spiked, as they say, by about an amp or two, but this is an increase of 1 or 2 amps out of a total of 78 to 80 some amperes being drawn by the spacecraft at this time, and is not considered abnormal. Gene Cernan reported after Schmitt asked the question that neither he nor Command Module Pilot, Ron Evans had seen the blink in lights that Jack Schmitt reported. Schmitt also allowed as how it may have been a - a figment of his imagination. There is, as we say, no - no explanation for the apparent blink in lights. We see nothing here on the ground that indicates anything abnormal in the spacecraft. Crew also reported that the spacecraft cabin was a bit on the chilly side and we read to them a procedure to increase the cabin temperature. We don't have a direct reading of cabin temperature - we can deduce indirectly what that temperature would be from air inlet temperatures which generally read lower than the cabin temperature itself. The EECOM estimates that the temperature in the cabin has been running somewhere between 68 to 70 degrees - probably in the high sixties, and hopefully beginning to come up a bit now. At the present time Apollo 17 is 145,300 nautical miles from Earth, traveling at a speed of 3,600 feet per second now. The crew is scheduled to begin a sleep period at about 267 hours. They've completed the exercise period. Ron Evans, who is on the bio-medical sensors, was exercising and the surgeon reported seeing the - seeing his heart rate rise, indicating that he was exercising.
+|264:37:02|PAO|This is Apollo Control at 264 hours 37 minutes. About an hour and a half ago Jack Schmitt reported what appeared to him as a transitory blink of the spacecraft lights. He asked if we'd seen anything in the telemetry that indicated any sort of a glitch or a problem in the spacecraft electrical system. At that time the EECOM looked at his telemetry displays and said everything appeared to be normal, but to be doubly sure, we had the data replayed from the receiving site at Madrid where it had been picked up from the spacecraft and looked at the data second by second. Aaron has completed that review, John Aaron, the EECOM, and reports that he saw nothing abnormal during the period of time in question. However, there were a couple of instances where the spacecraft current levels increased or spiked, as they say, by about an amp or two, but this is an increase of 1 or 2 amps out of a total of 78 to 80 some amperes being drawn by the spacecraft at this time, and is not considered abnormal. Gene Cernan reported after Schmitt asked the question that neither he nor Command Module Pilot, Ron Evans had seen the blink in lights that Jack Schmitt reported. Schmitt also allowed as how it may have been a - a figment of his imagination. There is, as we say, no - no explanation for the apparent blink in lights. We see nothing here on the ground that indicates anything abnormal in the spacecraft. Crew also reported that the spacecraft cabin was a bit on the chilly side and we read to them a procedure to increase the cabin temperature. We don't have a direct reading of cabin temperature - we can deduce indirectly what that temperature would be from air inlet temperatures which generally read lower than the cabin temperature itself. The EECOM estimates that the temperature in the cabin has been running somewhere between 68 to 70 degrees - probably in the high sixties, and hopefully beginning to come up a bit now. At the present time Apollo 17 is 145,300 nautical miles from Earth, traveling at a speed of 3,600 feet per second now. The crew is scheduled to begin a sleep period at about 267 hours. They've completed the exercise period. Ron Evans, who is on the bio-medical sensors, was exercising and the surgeon reported seeing the - seeing his heart rate rise, indicating that he was exercising.
 |264:41:23|PAO|And at this time the surgeon reports Lunar Module Pilot, Jack Schmitt, is exercising as indicated by a rise in his heart rate.
 |264:51:26|CMP|(Music) Hey, Houston; America.
 |264:51:36|CC|Go ahead, Captain.
@@ -33740,7 +33742,7 @@
 |265:17:29|CC|Okay. We'll sure track that one down.
 ||||Tape 175/7|Page 2325
 |265:17:29|CDR|... feel a lot better about it, if that were the case.
-|265:17:54|PAO|This is Apollo Control at 265 hours 18 minutes. The CDU glitch that is being discussed, refers to a small piece of - refers to a small piece of erroneous information which appears to have gotten through the CDU. The CDU being the Coupling Data Unit, which is a black box that receives information from various measuring devices on the spacecraft, and converts them to a form that is meaningful to the computer. The CDU or Coupling Data Unit in question, is one that handles this transfer of information from a measuring device, in this case the inertial measurement unit, to the computer. The indications that we've gotten so far from the checks run and the telemetry data that we've looked at, do not show any problem. The essential thing is to understand what the nature of the erroneous information that was fed through this CDU to the computer might be. It's very conceivable that there will be a ready explanation for an erroneous bit of information getting through. If, in fact, there is some problem, and the CDU can be expected to continue feeding erroneous information to the computer, there is a program that can be loaded into the erase-able memory of the computer which in effect allows it to question the information that's fed through and to in effect, make a determination as to whether that information is reasonable. If it's not reasonable, the computer then throws it out. And we now have high bit rate data from the spacecraft so we'll be able to look in great detail at this particular aspect of the guidance system.
+|265:17:54|PAO|This is Apollo Control at 265 hours 18 minutes. The CDU glitch that is being discussed, refers to a small piece of - refers to a small piece of erroneous information which appears to have gotten through the CDU. The CDU being the Coupling Data Unit, which is a black box that receives information from various measuring devices on the spacecraft, and converts them to a form that is meaningful to the computer. The CDU or Coupling Data Unit in question, is one that handles this transfer of information from a measuring device, in this case the inertial measurement unit, to the computer. The indications that we've gotten so far from the checks run and the telemetry data that we've looked at, do not show any problem. The essential thing is to understand what the nature of the erroneous information that was fed through this CDU to the computer might be. It's very conceivable that there will be a ready explanation for an erroneous bit of information getting through. If, in fact, there is some problem, and the CDU can be expected to continue feeding erroneous information to the computer, there is a program that can be loaded into the erasable memory of the computer which in effect, allows it to question the information that's fed through and to in effect, make a determination as to whether that information is reasonable. If it's not reasonable, the computer then throws it out. And we now have high bit rate data from the spacecraft so we'll be able to look in great detail at this particular aspect of the guidance system.
 |265:20:33|CC|America, we're ready now for you to proceed on per Flight Plan with the VERB 49 to the sleep PTC attitude. We have not had a chance to go back over the data, but we'll give you a call as soon as we get a chance to check it. Over.
 |265:20:51|CDR|Okay, Gordy. One other interesting thing while we went back and looked at NOUN 22 after the glitch. We still had the NOUN 22 angles I had loaded for the previous VERB 49 at 263:40, which either - even makes me feel more like I did not load 22 on this next time around.
 |265:21:16|CC|Yes, it sounds - it sounds like we might have the problem nailed down, but we'll doublecheck that.
@@ -33897,7 +33899,7 @@
 |267:35:31|CC|Okay. We'd like to get one more valve check there, America. Like to check our WASTE WATER TANK INLET valve to AUTO. EECOM says he is in a flat portion and he can't verify that right now by buildup.
 |267:35:45|CDR|Okay, stand by 1.
 |267:36:23|CDR|WASTE TANK INLET is in AUTO, Bob.
-|267:36:25|CC|Okay, thank you on that, Gene. And we did not get the BAT read-outs for the onboard read-outs for the night, BAT C and pyro BATs A and B.
+|267:36:25|CC|Okay, thank you on that, Gene. And we did not get the BATT read-outs for the onboard read-outs for the night, BAT C and pyro BATs A and B.
 |267:36:34|CDR|Okay, guess you weren't reading. We're at 36.5, 36.9, 36.9, in that order.
 |||4T56e 177/5|Page 2341
 |267:36:41|CC|Okay, we copy that. And let me ask you a question here, Gene. Right now you're an hour behind getting to sleep. Do you want to sleep the 8 hours or get up by the Flight Plan?
@@ -33920,7 +33922,7 @@
 |272:22:01|PAO|This is Apollo Control at 272 hours 22 minutes. Apollo 17 now 128,282 nautical miles from Earth and velocity has increased to 4,120 feet per second. Crew sleeping and began this rest period an hour later than the planned time because of some entry stowage they were doing at the time, and although going to bed later, they have requested to be awakened at the regular Flight Plan time. 2 hours 37 minutes from now is wakeup. At 272 hours 22 minutes this is Mission Control Houston.
 |273:22:00|PAO|This is Apollo Control at 273 hours 22 minutes. Apollo 17 now 125,884 nautical miles from Earth. Velocity 4,198 feet per second. 1 hour 37 minutes remaining in the crew's rest period. Entry clock is counting and shows 30 hours and 55 minutes until Apollo 17 enters the Earth's atmosphere. At 273 hours 22 minutes, this is Mission Control Houston.
 |274:22:00|PAO|This is Apollo Control at 274 hours 22 minutes. Apollo 17's velocity is continuing to build as it draws closer to EArth now at a distance of 123,440 nautical miles, speed 4,279 feet per second. 37 minutes remaining in the crew's rest period. It's been a quiet night. All spacecraft systems continuing to perform very well. The spaceflight meteorology group with National Weather Service said a short time ago that weather conditions are expected to be satisfactory for the landing and recovery of Apollo 17 crew and spacecraft tomorrow. The weather forecast for the planned landing area, which is located approximately 360 nautical miles southeast of Pango Pango, calls for partly cloudy skies, widely scattered rain showers, variable winds of 10 miles per hour, seas of 3 feet and a temperature of near 80 degrees. At 274 hours 23 mintues, this is Mission Control Houston.
-|274:58:02|PAO|This is Apollo Control at 274 hours 58 minutes. We're 2 minutes away from crew wakeup. Apollo 17 is 121,953 nautical miles from the Earth, velocity 4,329 feet per second. Today's wakeup song will be in keeping with the crews theme that Apollo 17 is a beginning and not an end. We'll stand by now for the wakeup
+|274:58:02|PAO|This is Apollo Control at 274 hours 58 minutes. We're 2 minutes away from crew wake-up. Apollo 17 is 121,953 nautical miles from the Earth, velocity 4,329 feet per second. Today's wakeup song will be in keeping with the crews theme that Apollo 17 is a beginning and not an end. We'll stand by now for the wakeup
 |275:00:02|CC|(Music - "We've Only Just Begun")
 ||||Tapes 178-181/1|Page 2342
 ||||Tape 182/1|Page 2343
@@ -34034,7 +34036,7 @@
 |276:27:42|CC|America, Houston. We'd like to have the UV COVER, OPEN, now, if somebody's over there.
 ||||Tape 183/5|Page 2353
 |276:27:54|LMP|All right, Bob. We may not be by that part of spacecraft for a couple of more hours. Can you hold off?
-|276:28:01|CC|Well, we don't mind. Although if somebody's over -it's convenient, we'd sure like it.
+|276:28:01|CC|Well, we don't mind. Although if somebody's over - it's convenient, we'd sure like it.
 |276:28:11|LMP|Okay, I'll make a special trip.
 |276:28:19|LMP|UV COVER is OPEN.
 |276:28:22|CC|Thank you, sir.
@@ -34238,9 +34240,9 @@
 |279:56:22|CMP|Houston, this is Ron. While we're getting dark adapted here, probably won't see any for a while. Let me just record on the tape my impression of these light flashes as they occurred around the Moon and at other times. In general, they've all been essentially - just a - as - as it says - a flash, with a - with a little bit of a glow, and usually in one eye or the other eye. And for some reason, most generally, they've been kind of - if you - you'd almost say it's in - it's in the periphery of your vision, because you get the feeling that maybe there was a flash over to the left or down to the right or something like that. But you don't get a distinct impression as to where the flash came from. Well, you can - you can see where it came from, but not - you can't see the flash itself. Like it was just beyond your vision. Most of them have been like that. At one time and one time only throughout the flight, I can remember kind of a triple flash, so to speak. And in that case, there was a bright flash in the left eye on - on - about 10 o'clock in the left eye. And then it repeated itself again about 2 o'clock in the left eye. And then about, oh, 10 o'clock, a quarter of the way out, in the right eye. I just got a bing, bing, bing, just like that. Three - three of them right in a row. And the rest of the time, though, they've all essentially been single flashes to me.
 |279:58:21|CDR|This is Gene here. I'll just remark that both Jack and I did see them on the lunar surface. I guess the best summation I can make of that is I think I saw both lines and - and the spots or the flashes a little bit more sharply, but that might be because of the adaptation - dark adaptation in the LM prior to going to sleep was probably a little bit better. And I'd guess - it's awful hard to tell time when you're under - when it's dark, ... but I guess I want to say they were quite frequent, and I'd say that means two to three a minute now. That could be way out, but that's what I'd guess.
 ||||Tape 185/5|Page 2368
-|280:05:53|SC|(Cough)
+|280:05:53|CMP|(Cough)
 |280:13:41|CMP|(Cough) ... In my ... or something. I don't see anything.
-|280:14:03|SC|(Cough)
+|280:14:03|CMP|(Cough)
 |280:24:35|CC|America, Houston. We haven't heard anything. Have you seen any flashes at all?
 |280:24:42|CMP|Haven't heard a - I haven't seen a thing, Bob. Can't understand it.
 |280:24:47|CDR|Same here from the CDR. I haven't seen anything.
@@ -34249,7 +34251,7 @@
 |280:25:09|CC|Roger. Okay. We're just standing by.
 |280:25:17|LMP|The last time we were in PTC, were we not?
 |280:25:22|CC|Yes, you were, and that's one reason you had to copy it down, because we kept losing comm on you.
-|280:25:28|LMP|Yes, as I recall, they seemed to come in batches when - when I was taking notes. is that what you people observe - or recorded, rather?
+|280:25:28|LMP|As I recall, they seemed to come in batches when - when I was taking notes. Is that what you people observed - or recorded, rather?
 ||||Tape 185/6|Page 2369
 |280:25:53|CC|That's affirmative, Jack. And the thought that occurs, of course, is that you may be blocking with the shielding on the spacecraft somehow.
 |280:29:17|CMP|Houston, has my biomed settled down?
