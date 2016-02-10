@@ -215,6 +215,9 @@
     <li onclick="parent.seekToTime('0901811')" class="tocitem" id="tocid0901811"><span class="TOCTimestamp">090:18:11</span>
         <span class="TOC_item">"Flash" observed on the lunar surface</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0923441')" class="tocitem" id="tocid0923441"><span class="TOCTimestamp">092:34:41</span>
+        <span class="TOC_item">GO for descent orbit insertion</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0933500')" class="tocitem" id="tocid0933500"><span class="TOCTimestamp">093:35:00</span>
         <span class="TOC_item">Descent orbit insertion reported</span>
