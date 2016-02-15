@@ -342,7 +342,7 @@
         <span class="TOC_item">Deep core sample</span>
         <!-- <span class="TOCSubtitle">Lunar neutron probe experiment deployed.</span>--></li>
     <li onclick="parent.seekToTime('1210107')" class="tocitem" id="tocid1210107"><span class="TOCTimestamp">121:01:07</span>
-        <span class="TOC_item">Schmitt falls while retreiving the deep core sample</span>
+        <span class="TOC_item">Schmitt falls while retrieving the deep core sample</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1213542')" class="tocitem" id="tocid1213542"><span class="TOCTimestamp">121:35:42</span>
         <span class="TOC_item">Singing - "strolling on the moon one day"</span>
@@ -414,7 +414,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1383157')" class="tocitem" id="tocid1383157"><span class="TOCTimestamp">138:31:57</span>
-        <span class="TOC_item">Instructions to build a replacment fender</span>
+        <span class="TOC_item">Instructions to build a replacement fender</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1403420')" class="tocitem" id="tocid1403420"><span class="TOCTimestamp">140:34:20</span>
         <span class="TOC_item">EVA-2 Watches started</span>
@@ -511,7 +511,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1465557')" class="tocitem" id="tocid1465557"><span class="TOCTimestamp">146:55:57</span>
         <span class="TOC_item">Departed for the Lunar Module</span>
-        <!-- <span class="TOCSubtitle">Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to relevel the lunar surface gravimeter experiment.</span>--></li>
+        <!-- <span class="TOCSubtitle">Includes short stop to deploy seismic profiling experiment explosive charge 8 documented with photographs, and a stop at the lunar surface experiments site to allow the Lunar Module Pilot to re-level the lunar surface gravimeter experiment.</span>--></li>
     <li onclick="parent.seekToTime('1471223')" class="tocitem" id="tocid1471223"><span class="TOCTimestamp">147:12:23</span>
         <span class="TOC_item">Arrived at the Lunar Module</span>
         <!-- <span class="TOCSubtitle">Started extravehicular activity closeout.</span>--></li>
@@ -659,7 +659,7 @@
     </ul>
         <li onclick="parent.seekToTime('1675548')" class="tocitem" id="tocid1675548"><span class="TOCTimestamp">167:55:48</span>
         <span class="TOC_item">Video: Station 9</span>
-        <!-- <span class="TOCSubtitle">Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double coretube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.</span>--></li>
+        <!-- <span class="TOCSubtitle">Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double core-tube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.</span>--></li>
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1680223')" class="tocitem" id="tocid1680223"><span class="TOCTimestamp">168:02:23</span>
@@ -822,7 +822,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1953831')" class="tocitem" id="tocid1953831"><span class="TOCTimestamp">195:38:31</span>
-        <span class="TOC_item">Lunar Module deorbit firing</span>
+        <span class="TOC_item">Lunar Module de-orbit firing</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1955244')" class="tocitem" id="tocid1955244"><span class="TOCTimestamp">195:52:44</span>
         <span class="TOC_item">Lunar Module impact</span>
@@ -906,7 +906,7 @@
         <span class="TOC_item">Crew and mission control play music for each other</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2400307')" class="tocitem" id="tocid2400307"><span class="TOCTimestamp">240:03:07</span>
-        <span class="TOC_item">"Spectactular view" of the moon</span>
+        <span class="TOC_item">"Spectacular view" of the moon</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2402935')" class="tocitem" id="tocid2402935"><span class="TOCTimestamp">240:29:35</span>
         <span class="TOC_item">Capcom teases crew about their biomed harnesses</span>
@@ -1015,7 +1015,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('3011718')" class="tocitem" id="tocid3011718"><span class="TOCTimestamp">301:17:18</span>
-        <span class="TOC_item">Second midcourse correction</span>
+        <span class="TOC_item">Second mid-course correction</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('3040340')" class="tocitem" id="tocid3040340"><span class="TOCTimestamp">304:03:40</span>
         <span class="TOC_item">Command module/service module separation</span>
