@@ -34979,7 +34979,7 @@
 |300:17:13|CC|Okay, it's into the MIDPAC area; 000, 153, 000; 304:01:37, 268; NOUN 61s minus 17.88, minus 166.13; 06.4; 36090, 6.49; 1044.9, 36172; 304:18:37; 00:29; NOUN 69 is not applicable; D0 4.00, 02:09; 00:17, 03:37, 07:39; sextant star is 13, 117.3, 15.5; boresight star is not applicable; lift vector is up. I've got six comments. You can take those now, or we can get the readback and then go through the comments.
 |300:18:59|LMP|Go ahead on the comments, and take them a little slower than usual, Bob.
 |300:19:03|CC|Okay. Comment number 1: Use nonexit EMS pattern. Comment number 2: RET 90K, 06:01. RET mains, 08:26. RET landing, 13:17. Constant g is roll right. And the last comment: GET moonset, 304:16:14. Over.
-|300:20:28|LMP|Okay, Roberto. That's MIDPAC; 000, 153, 000; 304:01:37, 268; minus 17.88, minus 166.13; 06.4; 36090, 6.49; 1044.9, 36172; 304:18:37; 00:29, NOUN 69 is NA; 4.00, 02:09; 00:17, 03:37, 07:39; 13, 117.3, 15.5; boresight star is NA; lift vector is up. Comments, 1: use nonexit EMS pattern; 2: RET 90K is 06:01; RET mains, 08:26; RET landing, 13:17; comment 3: constant g, roll right; 4 is GETT moonset, 304:16:14. Over.
+|300:20:28|LMP|Okay, Roberto. That's MIDPAC; 000, 153, 000; 304:01:37, 268; minus 17.88, minus 166.13; 06.4; 36090, 6.49; 1044.9, 36172; 304:18:37; 00:29, NOUN 69 is NA; 4.00, 02:09; 00:17, 03:37, 07:39; 13, 117.3, 15.5; boresight star is NA; lift vector is up. Comments, 1: use nonexit EMS pattern; 2: RET 90K is 06:01; RET mains, 08:26; RET landing, 13:17; comment 3: constant g, roll right; 4 is GET moonset, 304:16:14. Over.
 ||||Tape 199/4|Page 2430
 |300:21:47|CC|Roger, Jack. Good readback. That should be the last of the pads.
 |300:21:55|LMP|Okay, sir. Give my hand a rest.
