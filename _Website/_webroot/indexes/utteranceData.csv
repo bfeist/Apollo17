@@ -4398,15 +4398,16 @@
 0613955|LMP|Say, when I was switching batteries, I noticed switching from low to high taps that there were some reverse-current indications. Sure that's nothing to be concerned about; you probably expected those, right?
 0614013|CC|That's affirmative, Jack. That's normal.
 0614019|LMP|Right.
-0614938|PAO|This is Apollo Control. From all indications on telemetry here in Mission Control, the crew at this time have - has closed the Lunar Module hatch and it should be reinstalling the probe and drogue assemblies. And finally the Command Module hatch, thereby closing out the tunnel. Apollo 17 now 177, whoops would you believe our space digital have gone back to Earth reference momentarily. At any rate the spacecraft is 177,966 nautical miles from Earth, traveling at a velocity of 2,652 feet per second in - with reference to the Earth. And as soon as the space digital display goes back to the Moon reference, we'll read those numbers off. We're waiting for the call from the crew that they have completed stowing or installing the probe and drogue assembly in closing out the tunnel. At 61:51 standing by this is Apollo Control.
+0614938|PAO|This is Apollo Control. From all indications on telemetry here in Mission Control, the crew at this time have - has closed the Lunar Module hatch and it should be reinstalling the probe and drogue assemblies. And finally the Command Module hatch, thereby closing out the tunnel. Apollo 17 now 177, whoops would you believe our space digitals have gone back to Earth reference momentarily. At any rate the spacecraft is 177,966 nautical miles from Earth, traveling at a velocity of 2,652 feet per second in - with reference to the Earth. And as soon as the space digital display goes back to the Moon reference, we'll read those numbers off. We're waiting for the call from the crew that they have completed stowing or installing the probe and drogue assembly in closing out the tunnel. At 61:51 standing by this is Apollo Control.
 0615530|CC|America, Houston. We'd like to terminate the charge on battery B.
-0615540|CMP|Okay; stand by 1. Okay, we'll get that in a minute, Gordon.
+0615540|CMP|Okay; stand by 1.
+0615544|CDR|Okay, we'll get that in a minute, Gordon.
 0615546|CC|Okay.
-0615849|CMP|Okay, Gordo, the charge should be terminated on BAT B.
+0615849|CDR|Okay, Gordo, the charge should be terminated on BAT B.
 0615854|CC|Okay.
-0615856|CMP|And 7 Alfa's still - 7 Alfa's still 0.6.
+0615856|CDR|And 7 Alfa's still - 7 Alfa's still 0.6.
 0615901|CC|Roger.
-0620402|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any O2 HIGH PLOW and I didn't see any lights, and we did get it down in the LEB.
+0620402|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any O2 HIGH FLOW and I didn't see any lights, and we did get it down in the LEB.
 0620413|CC|Okay, Gene.
 0620418|CDR|And there it is again.
 0620422|CC|Roger.
