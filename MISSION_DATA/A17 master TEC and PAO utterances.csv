@@ -4691,16 +4691,17 @@
 |061:39:55|LMP|Say, when I was switching batteries, I noticed switching from low to high taps that there were some reverse-current indications. Sure that's nothing to be concerned about; you probably expected those, right?
 |061:40:13|CC|That's affirmative, Jack. That's normal.
 |061:40:19|LMP|Right.
-|061:49:38|PAO|This is Apollo Control. From all indications on telemetry here in Mission Control, the crew at this time have - has closed the Lunar Module hatch and it should be reinstalling the probe and drogue assemblies. And finally the Command Module hatch, thereby closing out the tunnel. Apollo 17 now 177, whoops would you believe our space digital have gone back to Earth reference momentarily. At any rate the spacecraft is 177,966 nautical miles from Earth, traveling at a velocity of 2,652 feet per second in - with reference to the Earth. And as soon as the space digital display goes back to the Moon reference, we'll read those numbers off. We're waiting for the call from the crew that they have completed stowing or installing the probe and drogue assembly in closing out the tunnel. At 61:51 standing by this is Apollo Control.
+|061:49:38|PAO|This is Apollo Control. From all indications on telemetry here in Mission Control, the crew at this time have - has closed the Lunar Module hatch and it should be reinstalling the probe and drogue assemblies. And finally the Command Module hatch, thereby closing out the tunnel. Apollo 17 now 177, whoops would you believe our space digitals have gone back to Earth reference momentarily. At any rate the spacecraft is 177,966 nautical miles from Earth, traveling at a velocity of 2,652 feet per second in - with reference to the Earth. And as soon as the space digital display goes back to the Moon reference, we'll read those numbers off. We're waiting for the call from the crew that they have completed stowing or installing the probe and drogue assembly in closing out the tunnel. At 61:51 standing by this is Apollo Control.
 |061:55:30|CC|America, Houston. We'd like to terminate the charge on battery B.
 ||||Tape 43/2|Page 307
-|061:55:40|CMP|Okay; stand by 1. Okay, we'll get that in a minute, Gordon.
+|061:55:40|CMP|Okay; stand by 1.
+|061:55:44|CDR|Okay, we'll get that in a minute, Gordon.
 |061:55:46|CC|Okay.
-|061:58:49|CMP|Okay, Gordo, the charge should be terminated on BAT B.
+|061:58:49|CDR|Okay, Gordo, the charge should be terminated on BAT B.
 |061:58:54|CC|Okay.
-|061:58:56|CMP|And 7 Alfa's still - 7 Alfa's still 0.6.
+|061:58:56|CDR|And 7 Alfa's still - 7 Alfa's still 0.6.
 |061:59:01|CC|Roger.
-|062:04:02|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any O2 HIGH PLOW and I didn't see any lights, and we did get it down in the LEB.
+|062:04:02|CDR|Okay, Gordy, I - I'm looking around, but I can't figure out what that MASTER ALARM is. I didn't see any O2 HIGH FLOW and I didn't see any lights, and we did get it down in the LEB.
 |062:04:13|CC|Okay, Gene.
 |062:04:18|CDR|And there it is again.
 |062:04:22|CC|Roger.
