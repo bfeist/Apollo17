@@ -112,7 +112,7 @@
 0000045|CMP|Okay, 1 minute and 68 degrees.
 0000047|CDR|Okay.
 0000048|LMP|Everything looks great over here, Gene.
-0000049|CDR|Okay. Okay, stand-by for MAX - coming up on MAX Q. We'll be at 68 degrees.
+0000049|CDR|Okay. Okay, stand-by for MAX - coming through MAX Q. We'll be at 68 degrees.
 0000057|LMP|... Okay.
 0000058|PAO|Booster says we look good. We are now at 2.5 miles.
 0000059|CC|17, stand by for Mode I Bravo -
@@ -191,8 +191,8 @@
 0000321|CDR|There goes the tower.
 0000322|CMP|Wow, there she goes!
 0000323|CC|Roger. The tower; you're Mode II.
-0000325|CDR|Roger, We're Mode II.
-0000329|CDR|Okay, ... command.
+0000325|CDR|Roger, Mode II.
+0000330|CDR|Okay, ... command.
 0000334|CMP|Okay, alpha ...
 0000334|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
 0000338|CDR|Okay, Bob. I do confirm guidance.
@@ -6790,7 +6790,7 @@
 0944015|CC|Hey, guys. The Bears 21 to 12 over Philadelphia.
 0944023|CDR|Thank you. We're going to watch your signal get cut off here.
 0944028|CC|Roger. Was touch and go on that because at one time they're losing that game.
-0944031|CDR|I won Gene ...
+0944031|CDR|I ...
 0952108|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
 0952707|PAO|This is Apollo Control at 95 hours 27 minutes. We should be acquiring Apollo 17 on it's fourth revolution of the Moon in about 45 seconds. We'll stand by for the first words.
 0952825|PAO|We have a signal and are receiving data.

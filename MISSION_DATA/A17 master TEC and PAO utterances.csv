@@ -113,7 +113,7 @@
 |000:00:45|CMP|Okay, 1 minute and 68 degrees.
 |000:00:47|CDR|Okay.
 |000:00:48|LMP|Everything looks great over here, Gene.
-|000:00:49|CDR|Okay. Okay, stand-by for MAX - coming up on MAX Q. We'll be at 68 degrees.
+|000:00:49|CDR|Okay. Okay, stand-by for MAX - coming through MAX Q. We'll be at 68 degrees.
 |000:00:57|LMP|... Okay.
 |000:00:58|PAO|Booster says we look good. We are now at 2.5 miles.
 |000:00:59|CC|17, stand by for Mode I Bravo -
@@ -193,8 +193,8 @@
 |000:03:21|CDR|There goes the tower.
 |000:03:22|CMP|Wow, there she goes!
 |000:03:23|CC|Roger. The tower; you're Mode II.
-|000:03:25|CDR|Roger, We're Mode II.
-|000:03:29|CDR|Okay, ... command.
+|000:03:25|CDR|Roger, Mode II.
+|000:03:30|CDR|Okay, ... command.
 |000:03:34|CMP|Okay, alpha ...
 |000:03:34|CC|The steering has converged. The CMC is GO. You're going right down the pike, 17.
 |000:03:38|CDR|Okay, Bob. I do confirm guidance.
@@ -7264,7 +7264,7 @@
 |094:40:15|CC|Hey, guys. The Bears 21 to 12 over Philadelphia.
 |094:40:23|CDR|Thank you. We're going to watch your signal get cut off here.
 |094:40:28|CC|Roger. Was touch and go on that because at one time they're losing that game.
-|094:40:31|CDR|I won Gene ...
+|094:40:31|CDR|I ...
 |095:21:08|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
 |095:27:07|PAO|This is Apollo Control at 95 hours 27 minutes. We should be acquiring Apollo 17 on it's fourth revolution of the Moon in about 45 seconds. We'll stand by for the first words.
 |095:28:25|PAO|We have a signal and are receiving data.
