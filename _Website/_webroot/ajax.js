@@ -1,13 +1,14 @@
 //--------------- async page initialization calls ---------------
 
-$.when(ajaxGetVideoURLData(),
+$.when(
+    ajaxGetVideoURLData(),
     ajaxGetTOCData(),
-    ajaxGetCommentaryData(),
     ajaxGetUtteranceData(),
+    ajaxGetCommentaryData(),
     ajaxGetPhotoData(),
     ajaxGetMissionStagesData(),
     ajaxGetVideoSegmentData()).done(function(){
-        // the code here will be executed when all ajax requests resolve and the video.js player has been initialized.
+        // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
 
