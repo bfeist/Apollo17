@@ -10043,7 +10043,7 @@
 1185454|CDR|Well, I've done this in training. I can't say I'm very adept at putting fenders back on. But I sure don't want to start without it.
 1185527|CDR|Well, shoot!
 1185543|LMP|Okay, Bob. I think I'm going to move a little bit to the northwest of my present position in order to get a little farther away from that big rock.
-1185555|LMP|Okay, Jack.
+1185555|CC|Okay, Jack.
 1185556|LMP|And to get out of the shallow depression - -
 1185600|CC|Roger.
 1185600|LMP|- - get out of the shallow depression that's here.
@@ -10718,9 +10718,9 @@
 1202713|LMP|Okay. I'm just about ready to - pick up - old the biggy, geophone 4.
 1202724|CDR|(Laughter) Have a good time.
 1202727|CC|Okay. And Geno, how are you doing? We've been watching Jack traipse back and forth across the -
-1202736|LMP|I'm getting there, Bob. I'm trying to pit -
-1202739|CDR|Talk about seven league boots.
-1202743|LMP|Put stem number 2 on.
+1202736|CDR|I'm getting there, Bob. I'm trying to fit -
+1202739|LMP|Talk about seven league boots.
+1202743|CDR|Put stem number 2 on.
 1202752|CC|And, Jack, how's the visibility back at the center geophone ...
 1202759|LMP|How's the vis?
 1202801|CC|Yes. Are you - -
@@ -16071,29 +16071,29 @@
 1434559|CC|And we'd like frames when it's convenient on you guys.
 1434605|PAO|We'll be without a picture until the crew gets to Station 3, which is at the base of the scarp about half way from Station 2 to Station 4 which is near the crater Shorty.
 1434605|LMP|Okay, Bob.
-1434616|LMP|Okay. LMP is at hG.
+1434616|LMP|Okay. LMP is at 46.
 1434620|CC|Copy that.
 1434622|CDR|And CDR, is at, if I stop long enough, 113.
 1434630|CC|Copy. 113.
-1434635|LMP|Oh, look at that. Boy, I tell you. Okay, Geno, why don't I follow our tracks back; well, until we get over the big hump and then we can start picking our way to 3.
-1434658|CDR|I've got 3 pretty well spotted.
-1434703|LMP|Okay. Okay, low gain is set, and heading about 035 - oh, let me set this thing out of the way again. This has been giving me more trouble.
-1434720|CDR|What's that? The hammer?
-1434722|LMP|Yes, the handle.
-1434723|CDR|Oh, getting caught in there?
-1434726|LMP|Okay, Bob. We're ready, we're rolling. You need any readings?
+1434635|CDR|Oh, look at that. Boy, I tell you. 
+1434648|LMP|Okay, Geno, why don't I follow our tracks back; well, until we get over the big hump and then we can start picking our way to 3. I've got 3 pretty well spotted.
+1434703|CDR|Okay. Okay, low gain is set, and heading about 035 - oh, let me set this thing out of the way again. This has been giving me more trouble.
+1434720|LMP|What's that? The hammer?
+1434722|CDR|Yes, the handle.
+1434723|LMP|Oh, getting caught in there? Okay.
+1434726|CDR|Okay, Bob. We're ready, we're rolling. You need any readings?
 1434733|CC|No, no readings called out. And when you get going, I'll give you a little advice on what we're going to do on the way to Station 3.
 1434742|LMP|Well, let me tell you a few things first, Bob.
 1434745|CC|Okay, start telling me.
 1434746|LMP|I think those two - -
 1434749|CDR|We're rolling!
-1434751|LMP|All right. Those two major kinds of blocks that we sampled there - it was about the two varieties we saw in the area, it's a long extrapolation I realize, but they do resemble in color, and I believe in texture, the blue-gray rocks and the light tan rocks up on the Massif. So I feel confident that - fairly confident that we sampled at least the two major units visible from a ditance in the South Massif.
+1434751|LMP|All right. Those two major kinds of blocks that we sampled there - it was about the two varieties we saw in the area, it's a long extrapolation I realize, but they do resemble in color, and I believe in texture, the blue-gray rocks and the light tan rocks up on the Massif. So I feel confident that - fairly confident that we sampled at least the two major units visible from a distance in the South Massif.
 1434827|CC|Excellent, excellent.
-1434830|LMP|I think that there is some - a lot of postmission work to be done on correlating the angularity and possibly even the albedoes of the rocks we sampled with those on the Massif. We should have good - good pictures of them - of both from a distance and up close.
+1434830|LMP|I think that there is some - a lot of post-mission work to be done on correlating the angularity and possibly even the albedoes of the rocks we sampled with those on the Massif. We should have good - good pictures of them - of both from a distance and up close.
 1434852|CC|Okay. I'm reminding you - -
 1434854|LMP|So we may be able ... - -
 1434854|CC|- - That extrapolation is the nature of our art.
-1434859|LMP|Ha-ha-ha-ha-ha-ha. And, Bob, I'm not going to - How sun I on the film?
+1434859|LMP|(Laughter) And, Bob, I'm not going to - How am I on the film?
 1434909|CDR|Oh, my golly! Look at that valley!
 1434911|CC|Stand by. I'll get that for you, Jack - -
 1434913|CDR|I think there's a - -
@@ -23798,7 +23798,7 @@
 1703103|LMP|Don't tell anybody, though, because they'll get mad at me.
 1703105|CDR|Oh, man, is that heavy. Holy smoley. Oh!
 1703119|LMP|... 252. That's about three-quarters of a core, hand pushed, half a meter inside the plus-Y footpad.
-1703141|CC|Okay, copy that.
+1703140|CC|Okay, copy that.
 1703145|CDR|Okay, Jack ... how's that ETB coming no you can get going?
 1703148|LMP|Fine.
 1703149|CDR|Okay, I've got to - -
@@ -23982,7 +23982,7 @@
 1704814|LMP|I think that I've got it. There I got it.
 1704819|CDR|Okay. Verify cabin pressure stable at 4.6 to 5.0. We'll watch it here.
 1704824|LMP|I'm watching; 5.
-1704828|PAO|EVA ended at 170 hours 48 minutes 8 seconds. EVA duration, 17 hours 15 minutes 31 seconds.
+1704828|PAO|EVA ended at 170 hours 48 minutes 8 seconds. EVA duration, 7 hours 15 minutes 31 seconds.
 1704828|CDR|Okay. 5.0.
 1704830|LMP|5.0.
 1704831|CDR|Boy, it got hot in here, didn't it? Okay, purge valve to DEPRESS; verify your circuit breakers.
@@ -29638,7 +29638,7 @@
 2400643|CC|I'll, I'll put that one to FDO. Just looking at the big chart up here, I'm sure that the rate is slowing down rapidly, and - because you're - because the farther you get away, of course, the straighter away from it you're going. Stand by, I'll see what we can do.
 2402459|CC|Jack, this is Houston with kind of a crude answer to your question.
 2402507|LMP|Go ahead.
-2402509|CC|Okay, it turns out right now that you're not moving across the lunar surface very fast, and you - it's getting less and less - right now, I guess it's about a mile per minute. It would take a lot of minutes to get much of a stereo base since you're 10,000 miles out. But, remembering back to Ron's final picture there before you went to the UV attitude, after he asked the question about how high he had to be to fill up the 80-millimeter lens, I think he took one at that time. We're thinking of combining a picture now with that picture, and then enlarging the one to get it to the equivalent diameter. And, some rough calculations of your longitude at that time and then - now, show that you've changed about 21 degrees across the surface of the Moon between that picture and the present time, which comes out, if you take the average altitude between that time and now, to - to about a 25-to-l stereo base, as best I can figure.
+2402509|CC|Okay, it turns out right now that you're not moving across the lunar surface very fast, and you - it's getting less and less - right now, I guess it's about a mile per minute. It would take a lot of minutes to get much of a stereo base since you're 10,000 miles out. But, remembering back to Ron's final picture there before you went to the UV attitude, after he asked the question about how high he had to be to fill up the 80-millimeter lens, I think he took one at that time. We're thinking of combining a picture now with that picture, and then enlarging the one to get it to the equivalent diameter. And, some rough calculations of your longitude at that time and then now, show that you've changed about 21 degrees across the surface of the Moon between that picture and the present time, which comes out, if you take the average altitude between that time and now, to - to about a 25-to-1 stereo base, as best I can figure.
 2402627|LMP|Sounds good enough, Gordy. We've got it - I got that one at 5 minutes. I mean at 240 on the hour, so those are probably pretty close.
 2402642|CC|I would guess, you know, that the angle of looking at it - other factors have changed so much that it would be pretty hard to pull them together once you - even though you get the images reduced to the same size, but it might be interesting to try.
 2402704|LMP|I agree.
@@ -29662,7 +29662,7 @@
 2404344|PAO|The crew is getting ready at this time to set up the spacecraft in the Passive Thermal Control mode. This is the mode used to maintain proper thermal equilibrium during the translunar transearth coast phases of the mission. Rotating the spacecraft about it's longitudinal axis set about three revolutions per hour exposing each side equally to the Sun and cold.
 2404357|LMP|And the COVER is CLOSED.
 2404400|CC|Roger.
-2404409|LMP|Hey, Gordy, this is Jack. is there any updated briefing on the status of the lunar surface equipment and SIM bay findings over and above what we got? I guess, I can't remember when it was, yesterday or some time.
+2404409|LMP|Hey, Gordy, this is Jack. Is there any updated briefing on the status of the lunar surface equipment and SIM bay findings over and above what we got? I guess, I can't remember when it was, yesterday or some time.
 2404428|CC|I can't think of anything really outstanding. We're just right now coming up on another charge detonation; however, I think I mentioned that the LCRU is "kaput." So, we won't be able to watch it. We're looking at the seismometer traces here. Other - I'll come back with any other words to update you on yesterday's report in a little bit here.
 2404506|LMP|Okay, I - just updated stuff. If something new comes in or - is all we're interested in.
 2404514|CC|Okay.
