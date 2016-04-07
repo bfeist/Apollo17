@@ -35401,12 +35401,12 @@
 ||||Tape 201/14|Page 2456
 |304:14:03|CMP|304:16 on my card. What -
 |304:14:33|CMP|Yes, it's got a little bit of a cross - coupling on it. We might be picking up C-55 - might be picking up a few rates, anyhow. Probably not yet. Usually about 59.
-|304:15:01|R-1|... Loud and clear, now. Nothing coming through on that transmitter.
+|304:15:01|RECOV|... Loud and clear, now. Nothing coming through on that transmitter.
 |304:15:11|CMP|Voice disappeared -
 |304:15:22|CMP|Couldn't see a star out there if you had to. There's all kinds of little white particles floating around out there from the jets.
 |304:15:33|PAO|Switching communications now, from the Hawaii tracking station, through the Apollo range instrumented aircraft in the Pacific.
 |304:15:47|CMP|Pitch is good.
-|304:15:49|R-1|Four ... you're coming through now on the 18, loud and clear.
+|304:15:49|RECOV|Four ... you're coming through now on the 18, loud and clear.
 |304:15:53|R-2|Roger. Stand by.
 |304:16:23|CMP|Houston, America. Do you still read?
 |304:16:26|CC|America, Houston. Read you loud and clear. We're going out through ARIA.
@@ -35469,83 +35469,84 @@
 |304:27:47|CDR|Through 8000 feet.
 |304:27:49|CDR|... about 1 mile short.
 |304:28:22|CDR|Okay, Recovery, this is America. We've got three good mains; we're at 6500 feet.
-|304:28:39|R-1|Zero, zero at 3.5. Apollo 17, this is Recovery. Good morning.
+|304:28:39|RECOV|Zero, zero at 3.5. Apollo 17, this is Recovery. Good morning.
 |304:28:46|CDR|Hello, Recovery; it's a beautiful day! We're out of 610; we've got three good mains.
-|304:28:51|R-1|This is Recovery. Have a visual on you, and they're blooming nicely.
+|304:28:51|RECOV|This is Recovery. Have a visual on you, and they're blooming nicely.
 |304:28:55|PAO|Three minutes from splash.
 |304:28:57|CDR|Outstanding! And all is well onboard, all is well onboard.
-|304:29:04|R-1|Wonderful.
+|304:29:04|RECOV|Wonderful.
 |304:29:06|CDR|You sound good down there.
-|304:29:08|R-1|Waiting for you.
-|304:29:18|R-1|One hundred, zero, zero. Our positive, 280 at 11.
-|304:29:28|R-1|I have visual, bearing 243.
+|304:29:08|RECOV|Waiting for you.
+|304:29:18|RECOV|One hundred, zero, zero. Our positive, 280 at 11.
+|304:29:28|RECOV|We have visual, bearing 243. ...
 |304:29:35|CDR|Hello, Recovery, this is America. We're out of 4000 feet now, and all is well.
 ||||Tape 201/18|Page 2460
-|304:30:04|R-1|... Tico.
-|304:30:05|CDR|Go ahead.
-|304:30:06|R-1|Any report on computer read-outs. Over?
-|304:30:08|CDR|Not yet.
-|304:30:10|R-1|... standing by ... feet up.
+|304:30:04|CC|Recover, FIDO.
+|304:30:05|RECOV|Go ahead.
+|304:30:06|CC|Request computer read-outs. Over?
+|304:30:08|RECOV|Not yet.
+|304:30:10|CC|... Recovery. standing by ... feed up, when it's available.
 |304:30:13|CDR|... Houston, DSKY shows minus 1.3. Lat is minus 17.88; long is minus 166.11.
 |304:30:46|CDR|Hello, Recovery; America, is through 2000 feet.
-|304:30:49|R-1|Recovery, Roger.
-|304:30:51|R-1|This is Photo. ... the command module as it descends. Their three main parachutes are fully deployed.
+|304:30:49|RECOV|Recovery, Roger.
+|304:30:51|PHOTO|This is PHOTO. ... the command module as it descends. Their three main parachutes are fully deployed.
 |304:30:54|PAO|1 minute MARK to landing. Predicted landing time.
 |304:31:06|CDR|America's out of 1500 feet.
-|304:31:22|R-1|The parachutes are fully deployed. The Command Module is descending, and Photo is circling as it descends.
+|304:31:22|RECOV|The parachutes are fully deployed. The Command Module is descending, and PHOTO is circling as it descends.
 |304:31:31|CDR|And America is now out of 800 feet.
-|304:31:47|R-1|Command Module is descending, stand by for splashdown.
+|304:31:47|RECOV|Command Module is descending, stand by for splashdown.
 |304:31:50|CDR|America's at 300 feet.
-|304:31:59|R-1|SPLASH.
-|304:32:00|CDR|MARK.
-|304:32:08|LMP|Recovery, America stable 1 and the crew is go.
+|304:31:59|RECOV|SPLASH.
+|304:32:00|RECOV|MARK.
+|304:32:08|CDR|Recovery, America stable 1 and the crew is go.
 |304:32:13|PAO|A great deal of cheering is going on here in control center, as the splashdown was watched in real time from Recovery Helicoptor. And MARK the time at 304:31, Ground Elapsed Time even.
 |304:32:28|LMP|Smarts doesn't it.
-|304:32:31|RECOV|Command Module is stable 1, the sea state is mild. The 3 main parachutes are arrayed around the Command Module at approximately 120 degrees apart.
-|304:32:42|LMP|Okay.
-|304:32:45|RECOV|...
-|304:33:03|LMP|It's just us.
-|304:33:07|LMP|Okay, ... looks like we've had a - this is our MARK.
+|304:32:31|RECOV|The Command Module is stable 1, the sea state is mild, and the 3 main parachutes are arrayed around the Command Module at approximately 120 degrees apart.
+|304:32:42|LMP|Okay. ...
+|304:32:45|CDR|...
+|304:33:03|CMP|It's just us.
+|304:33:06|LMP|Okay, ... looks like we've had a - this is our MARK.
 |304:33:10|LMP|...
-|304:33:14|LMP|Oh, that.
-|304:33:15|LMP|(Laughter) Have a little water.
-|304:33:24|RECOV|Helo S approaching the Command Module, photo is approaching to the southern side.
-|304:33:41|LMP|There's the chopper, right out here.
+|304:33:14|CMP|Oh, that. (Laughter)
+|304:33:18|CMP|Have a little water.
+|304:33:24|RECOV|ELS approaching the Command Module, PHOTO is approaching to the southern side.
+|304:33:41|CMP|There's the chopper, right out here.
 |||APOLLO 17 MISSION COMMENTARY 12/19/72 CST 13:21 GET 304:18 MC-1078/2
-|304:33:44|RECOV|Helo S approaching the Command Module to deploy the first of the ELS swimmers.
+|304:33:44|RECOV|ELS approaching the Command Module to deploy the first of the ELS swimmers.
 |304:33:48|LMP|Guys jumped in the water.
 |304:33:50|RECOV|The first 2 swimmers have been deployed.
 |304:33:57|RECOV|ELS is approaching their main parachutes.
 |304:34:02|RECOV|The second ELS swimmers have been deployed.
-|304:34:09|LMP|(Laughter)
-|304:34:13|RECOV|Two sets of ELS swimmers have been deployed. Helo S is coming around for a third pass on the third main parachute.
-|304:34:25|LMP|Beautiful. (Laughter)
-|304:34:38|LMP|... things closed, I need some help.
-|304:34:42|LMP|...
-|304:34:47|LMP|... won't they.
-|304:34:47|LMP|...
-|304:34:50|RECOV|Helo S is commencing an approach to drop the third set of ELS swimmers. Helo S is approaching the Command Module on the starboard side. Photo is hovering alongside to the right.
+|304:34:09|CMP|(Laughter)
+|304:34:13|RECOV|Two sets of ELS swimmers have been deployed. ELS is coming around for a third pass on the third main parachute.
+|304:34:25|CMP|Beautiful. (Laughter)
+|304:34:38|CMP|... things closed, ...
+|304:34:42|CMP|...
+|304:34:47|CMP|... won't they.
+|304:34:47|CMP|...
+|304:34:50|RECOV|ELS is commencing an approach to drop the third set of ELS swimmers. ELS is approaching the Command Module on the southern side. PHOTO is hovering alongside to the right.
 |304:35:06|RECOV|Recovery is waiting downwind.
 |304:35:08|LMP|...
-|304:35:14|LMP|... America alpha
-|304:35:25|RECOV|This is photo at 3-1/2 miles.
-|304:35:28|LMP|3.6?
-|304:35:29|CC|3.5.
-|304:35:36|SPKR|...
+|304:35:14|CMP|I don't know ... America, alpha.
+|304:35:25|PHOTO|This is PHOTO at 3-1/2 miles.
+|304:35:27|CMP|Say again.
+|304:35:29|PHOTO|3.5.
+|304:35:36|CDR|Recovery, America. Say again distance to tyco.
 |304:35:39|RECOV|Yes. You're 3-1/2 miles.
-|304:35:42|LMP|Okay, thank you. I guess we're going to have to argue with the captain whether he was on station or we were.
-|304:35:47|SPKR|You both were - compromise.
-|304:35:54|R-1|And the third set of ELS swimmers have been deployed.
+|304:35:42|CDR|Okay, thank you. I guess we're going to have to argue with the captain whether he was on station or we were.
+|304:35:47|RECOV|You both were - compromise.
+|304:35:49|CDR|Outstanding.
+|304:35:54|RECOV|And the third set of ELS swimmers have been deployed.
 |304:35:57|LMP|Okay, we'll have to meet them at the hatch.
 |304:36:02|RECOV|And the main parachutes are completely clear of the Command Module.
 |304:36:05|LMP|Oh, ...
-|304:36:17|RECOV|Helo S is hovering near the Command Module.
+|304:36:17|RECOV|ELS is hovering near the Command Module.
 |304:36:21|LMP|... pull back now.
 |304:36:34|SPKR|... keep cranking that thing, keep cranking the valve.
 |304:36:37|SPKR|...
-|304:36:44|RECOV|The ELS swimmers are deploying two sets of 1 member rafts.
-|304:37:01|LMP|I ought to be doing something, right?
-|304:37:06|RECOV|The Helo S is approaching with one of the sets of ELS swimmers to deploy the rafts.
+|304:36:44|RECOV|The ELS swimmers have inflated two sets of 1 member rafts.
+|304:37:01|CMP|I ought to be doing something, right?
+|304:37:06|RECOV|The ELS is approaching with one of the sets of ELS swimmers to deploy the rafts.
 |304:37:14|SPKR|Very good. ...
 |304:37:17|LMP|You made ... right?
 |304:37:19|LMP|Yeah, yeah.
@@ -35562,19 +35563,19 @@
 |304:38:19|LMP|...
 |304:38:25|RECOV|Request you have America secure recovery beacon at this time, over.
 |||APOLLO 17 MISSION COMMENTARY 12/19/72 GET 304:38 CST 1331 MC-1079/1
-|304:38:31|R-1|America, this is recovery. Would you be good enough to secure your beacon, please. Stand by for ... impossible.
+|304:38:31|RECOV|America, this is recovery. Would you be good enough to secure your beacon, please. Stand by for ... impossible.
 |304:38:37|LMP|No, I've got ... deployed ...
-|304:38:45|R-1|No, the transmitter please.
+|304:38:45|RECOV|No, the transmitter please.
 |304:38:48|LMP|... yeah, the recovery beacon is OFF.
 |304:38:55|LMP|Thank you.
-|304:38:59|R-1|And the ELS is hovering near the ELS swimmers and raft -
+|304:38:59|RECOV|And the ELS is hovering near the ELS swimmers and raft -
 |304:39:03|LMP|Sure ...
-|304:39:13|R-1|Swimmers hovering over the apex cover.
-|304:39:23|R-1|Recovery is descending and beginning his approach toward the Command Module.
-|304:39:28|R-1|...
-|304:39:29|R-1|Get it, get the hatch opened. Don't bend it too much.
-|304:39:34|R-1|Recovery is approaching the command module. ... on approach.
-|304:39:41|R-1|America, you now have ...
+|304:39:13|RECOV|Swimmers hovering over the apex cover.
+|304:39:23|RECOV|Recovery is descending and beginning his approach toward the Command Module.
+|304:39:28|RECOV|...
+|304:39:29|RECOV|Get it, get the hatch opened. Don't bend it too much.
+|304:39:34|RECOV|Recovery is approaching the command module. ... on approach.
+|304:39:41|RECOV|America, you now have ...
 |304:39:45|LMP|Roger.
 |304:40:03|SPKR|And the swimmer is at the command module.
 |304:40:08|LMP|Okay, and the crew is doing fine. We've all got our sea legs. (Laughter)
