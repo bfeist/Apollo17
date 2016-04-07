@@ -33226,12 +33226,12 @@
 3041341|CMP|Five minutes to RRT.
 3041403|CMP|304:16 on my card. What -
 3041433|CMP|Yes, it's got a little bit of a cross - coupling on it. We might be picking up C-55 - might be picking up a few rates, anyhow. Probably not yet. Usually about 59.
-3041501|R-1|... Loud and clear, now. Nothing coming through on that transmitter.
+3041501|RECOV|... Loud and clear, now. Nothing coming through on that transmitter.
 3041511|CMP|Voice disappeared -
 3041522|CMP|Couldn't see a star out there if you had to. There's all kinds of little white particles floating around out there from the jets.
 3041533|PAO|Switching communications now, from the Hawaii tracking station, through the Apollo range instrumented aircraft in the Pacific.
 3041547|CMP|Pitch is good.
-3041549|R-1|Four ... you're coming through now on the 18, loud and clear.
+3041549|RECOV|Four ... you're coming through now on the 18, loud and clear.
 3041553|R-2|Roger. Stand by.
 3041623|CMP|Houston, America. Do you still read?
 3041626|CC|America, Houston. Read you loud and clear. We're going out through ARIA.
@@ -33291,81 +33291,82 @@
 3042747|CDR|Through 8000 feet.
 3042749|CDR|... about 1 mile short.
 3042822|CDR|Okay, Recovery, this is America. We've got three good mains; we're at 6500 feet.
-3042839|R-1|Zero, zero at 3.5. Apollo 17, this is Recovery. Good morning.
+3042839|RECOV|Zero, zero at 3.5. Apollo 17, this is Recovery. Good morning.
 3042846|CDR|Hello, Recovery; it's a beautiful day! We're out of 610; we've got three good mains.
-3042851|R-1|This is Recovery. Have a visual on you, and they're blooming nicely.
+3042851|RECOV|This is Recovery. Have a visual on you, and they're blooming nicely.
 3042855|PAO|Three minutes from splash.
 3042857|CDR|Outstanding! And all is well onboard, all is well onboard.
-3042904|R-1|Wonderful.
+3042904|RECOV|Wonderful.
 3042906|CDR|You sound good down there.
-3042908|R-1|Waiting for you.
-3042918|R-1|One hundred, zero, zero. Our positive, 280 at 11.
-3042928|R-1|I have visual, bearing 243.
+3042908|RECOV|Waiting for you.
+3042918|RECOV|One hundred, zero, zero. Our positive, 280 at 11.
+3042928|RECOV|We have visual, bearing 243. ...
 3042935|CDR|Hello, Recovery, this is America. We're out of 4000 feet now, and all is well.
-3043004|R-1|... Tico.
-3043005|CDR|Go ahead.
-3043006|R-1|Any report on computer read-outs. Over?
-3043008|CDR|Not yet.
-3043010|R-1|... standing by ... feet up.
+3043004|CC|Recover, FIDO.
+3043005|RECOV|Go ahead.
+3043006|CC|Request computer read-outs. Over?
+3043008|RECOV|Not yet.
+3043010|CC|... Recovery. standing by ... feed up, when it's available.
 3043013|CDR|... Houston, DSKY shows minus 1.3. Lat is minus 17.88; long is minus 166.11.
 3043046|CDR|Hello, Recovery; America, is through 2000 feet.
-3043049|R-1|Recovery, Roger.
-3043051|R-1|This is Photo. ... the command module as it descends. Their three main parachutes are fully deployed.
+3043049|RECOV|Recovery, Roger.
+3043051|PHOTO|This is PHOTO. ... the command module as it descends. Their three main parachutes are fully deployed.
 3043054|PAO|1 minute MARK to landing. Predicted landing time.
 3043106|CDR|America's out of 1500 feet.
-3043122|R-1|The parachutes are fully deployed. The Command Module is descending, and Photo is circling as it descends.
+3043122|RECOV|The parachutes are fully deployed. The Command Module is descending, and PHOTO is circling as it descends.
 3043131|CDR|And America is now out of 800 feet.
-3043147|R-1|Command Module is descending, stand by for splashdown.
+3043147|RECOV|Command Module is descending, stand by for splashdown.
 3043150|CDR|America's at 300 feet.
-3043159|R-1|SPLASH.
-3043200|CDR|MARK.
-3043208|LMP|Recovery, America stable 1 and the crew is go.
+3043159|RECOV|SPLASH.
+3043200|RECOV|MARK.
+3043208|CDR|Recovery, America stable 1 and the crew is go.
 3043213|PAO|A great deal of cheering is going on here in control center, as the splashdown was watched in real time from Recovery Helicoptor. And MARK the time at 304:31, Ground Elapsed Time even.
 3043228|LMP|Smarts doesn't it.
-3043231|RECOV|Command Module is stable 1, the sea state is mild. The 3 main parachutes are arrayed around the Command Module at approximately 120 degrees apart.
-3043242|LMP|Okay.
-3043245|RECOV|...
-3043303|LMP|It's just us.
-3043307|LMP|Okay, ... looks like we've had a - this is our MARK.
+3043231|RECOV|The Command Module is stable 1, the sea state is mild, and the 3 main parachutes are arrayed around the Command Module at approximately 120 degrees apart.
+3043242|LMP|Okay. ...
+3043245|CDR|...
+3043303|CMP|It's just us.
+3043306|LMP|Okay, ... looks like we've had a - this is our MARK.
 3043310|LMP|...
-3043314|LMP|Oh, that.
-3043315|LMP|(Laughter) Have a little water.
-3043324|RECOV|Helo S approaching the Command Module, photo is approaching to the southern side.
-3043341|LMP|There's the chopper, right out here.
-3043344|RECOV|Helo S approaching the Command Module to deploy the first of the ELS swimmers.
+3043314|CMP|Oh, that. (Laughter)
+3043318|CMP|Have a little water.
+3043324|RECOV|ELS approaching the Command Module, PHOTO is approaching to the southern side.
+3043341|CMP|There's the chopper, right out here.
+3043344|RECOV|ELS approaching the Command Module to deploy the first of the ELS swimmers.
 3043348|LMP|Guys jumped in the water.
 3043350|RECOV|The first 2 swimmers have been deployed.
 3043357|RECOV|ELS is approaching their main parachutes.
 3043402|RECOV|The second ELS swimmers have been deployed.
-3043409|LMP|(Laughter)
-3043413|RECOV|Two sets of ELS swimmers have been deployed. Helo S is coming around for a third pass on the third main parachute.
-3043425|LMP|Beautiful. (Laughter)
-3043438|LMP|... things closed, I need some help.
-3043442|LMP|...
-3043447|LMP|... won't they.
-3043447|LMP|...
-3043450|RECOV|Helo S is commencing an approach to drop the third set of ELS swimmers. Helo S is approaching the Command Module on the starboard side. Photo is hovering alongside to the right.
+3043409|CMP|(Laughter)
+3043413|RECOV|Two sets of ELS swimmers have been deployed. ELS is coming around for a third pass on the third main parachute.
+3043425|CMP|Beautiful. (Laughter)
+3043438|CMP|... things closed, ...
+3043442|CMP|...
+3043447|CMP|... won't they.
+3043447|CMP|...
+3043450|RECOV|ELS is commencing an approach to drop the third set of ELS swimmers. ELS is approaching the Command Module on the southern side. PHOTO is hovering alongside to the right.
 3043506|RECOV|Recovery is waiting downwind.
 3043508|LMP|...
-3043514|LMP|... America alpha
-3043525|RECOV|This is photo at 3-1/2 miles.
-3043528|LMP|3.6?
-3043529|CC|3.5.
-3043536|SPKR|...
+3043514|CMP|I don't know ... America, alpha.
+3043525|PHOTO|This is PHOTO at 3-1/2 miles.
+3043527|CMP|Say again.
+3043529|PHOTO|3.5.
+3043536|CDR|Recovery, America. Say again distance to tyco.
 3043539|RECOV|Yes. You're 3-1/2 miles.
-3043542|LMP|Okay, thank you. I guess we're going to have to argue with the captain whether he was on station or we were.
-3043547|SPKR|You both were - compromise.
-3043554|R-1|And the third set of ELS swimmers have been deployed.
+3043542|CDR|Okay, thank you. I guess we're going to have to argue with the captain whether he was on station or we were.
+3043547|RECOV|You both were - compromise.
+3043549|CDR|Outstanding.
+3043554|RECOV|And the third set of ELS swimmers have been deployed.
 3043557|LMP|Okay, we'll have to meet them at the hatch.
 3043602|RECOV|And the main parachutes are completely clear of the Command Module.
 3043605|LMP|Oh, ...
-3043617|RECOV|Helo S is hovering near the Command Module.
+3043617|RECOV|ELS is hovering near the Command Module.
 3043621|LMP|... pull back now.
 3043634|SPKR|... keep cranking that thing, keep cranking the valve.
 3043637|SPKR|...
-3043644|RECOV|The ELS swimmers are deploying two sets of 1 member rafts.
-3043701|LMP|I ought to be doing something, right?
-3043706|RECOV|The Helo S is approaching with one of the sets of ELS swimmers to deploy the rafts.
+3043644|RECOV|The ELS swimmers have inflated two sets of 1 member rafts.
+3043701|CMP|I ought to be doing something, right?
+3043706|RECOV|The ELS is approaching with one of the sets of ELS swimmers to deploy the rafts.
 3043714|SPKR|Very good. ...
 3043717|LMP|You made ... right?
 3043719|LMP|Yeah, yeah.
@@ -33380,19 +33381,19 @@
 3043816|SPKR|There you are.
 3043819|LMP|...
 3043825|RECOV|Request you have America secure recovery beacon at this time, over.
-3043831|R-1|America, this is recovery. Would you be good enough to secure your beacon, please. Stand by for ... impossible.
+3043831|RECOV|America, this is recovery. Would you be good enough to secure your beacon, please. Stand by for ... impossible.
 3043837|LMP|No, I've got ... deployed ...
-3043845|R-1|No, the transmitter please.
+3043845|RECOV|No, the transmitter please.
 3043848|LMP|... yeah, the recovery beacon is OFF.
 3043855|LMP|Thank you.
-3043859|R-1|And the ELS is hovering near the ELS swimmers and raft -
+3043859|RECOV|And the ELS is hovering near the ELS swimmers and raft -
 3043903|LMP|Sure ...
-3043913|R-1|Swimmers hovering over the apex cover.
-3043923|R-1|Recovery is descending and beginning his approach toward the Command Module.
-3043928|R-1|...
-3043929|R-1|Get it, get the hatch opened. Don't bend it too much.
-3043934|R-1|Recovery is approaching the command module. ... on approach.
-3043941|R-1|America, you now have ...
+3043913|RECOV|Swimmers hovering over the apex cover.
+3043923|RECOV|Recovery is descending and beginning his approach toward the Command Module.
+3043928|RECOV|...
+3043929|RECOV|Get it, get the hatch opened. Don't bend it too much.
+3043934|RECOV|Recovery is approaching the command module. ... on approach.
+3043941|RECOV|America, you now have ...
 3043945|LMP|Roger.
 3044003|SPKR|And the swimmer is at the command module.
 3044008|LMP|Okay, and the crew is doing fine. We've all got our sea legs. (Laughter)
