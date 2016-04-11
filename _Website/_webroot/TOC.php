@@ -650,6 +650,9 @@
     <li onclick="parent.seekToTime('1671003')" class="tocitem" id="tocid1671003"><span class="TOCTimestamp">167:10:03</span>
         <span class="TOC_item">Cernan: "I can cover ground like a kangaroo"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1672530')" class="tocitem" id="tocid1672530"><span class="TOCTimestamp">167:25:30</span>
+        <span class="TOC_item">Teasing CAPCOM, Bob Overmyer</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1673228')" class="tocitem" id="tocid1673228"><span class="TOCTimestamp">167:32:28</span>
         <span class="TOC_item">Departed for Station 9 (Van Serg Crater)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
