@@ -762,17 +762,23 @@ function trimUtterances() {
         var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
+            var counter = 0;
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
                 $('#uttid' + gUtteranceIndex[i]).remove();
+                counter++;
             }
             //trace("Trimming " + numberToRemove + " utterances from top");
             gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
+            trace("trimUtterances(): removed from top: " + counter);
         } else { //trim items from bottom of utterance div
-            for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
+            counter = 0;
+            for (i = gUtteranceDisplayEndIndex - numberToRemove; i <= gUtteranceDisplayEndIndex; i++) {
                 $('#uttid' + gUtteranceIndex[i]).remove();
+                counter++;
             }
             //trace("Trimming " + numberToRemove + " utterances from bottom");
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
+            trace("trimUtterances(): removed from bottom: " + counter);
         }
         var utteranceDiv = $('#utteranceDiv');
         var currElement = $('#uttid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
@@ -804,6 +810,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace(/@uttid/g, timeId);
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
+    //html = html.replace("@words", "[" + utteranceIndex + "]" + words_modified);
     html = html.replace("@words", words_modified);
     if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
@@ -919,7 +926,7 @@ function trimCommentary() {
             //console.log("Trimming " + numberToRemove + " commentary from top");
             gCommentaryDisplayStartIndex = gCommentaryDisplayStartIndex + numberToRemove
         } else { //trim items from bottom of commentary div
-            for (i = gCommentaryDisplayEndIndex - numberToRemove; i < gCommentaryDisplayEndIndex; i++) {
+            for (i = gCommentaryDisplayEndIndex - numberToRemove; i <= gCommentaryDisplayEndIndex; i++) {
                 $('#uttid' + gCommentaryIndex[i]).remove();
             }
             //console.log("Trimming " + numberToRemove + " commentary from bottom");

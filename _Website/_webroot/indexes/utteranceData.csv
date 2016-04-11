@@ -889,7 +889,7 @@
 0034905|PAO|Ron Evans now at the controls of America. Now moving in for the docking with lunar module Challenger.
 0034913|LMP|Okay, Houston. While we're moving in here, I can see a few chunks of that platy material, possibly paint, down in the SLA sort of bouncing around between the S-IVB and the LM.
 0034932|CC|Roger.
-0034939|LMP|But, so far, LM looks very clean. Can't see anything abnormal from this view yet.
+0034938|LMP|But, so far, LM looks very clean. Can't see anything abnormal from this view yet.
 0034948|CC|Okay.
 0034959|CMP|Isn't it, though? That thing is really stable out there.
 0035031|LMP|Yes. Can you see it at all, Gene?
@@ -1133,7 +1133,7 @@
 0044935|CMP|Yeah.
 0044942|CMP|Yes. Oh, there it goes, there. Looks kind of empty down there without the LM - -
 0044953|CDR|Okay, Bob, we're looking right up the dome of the S-IVB.
-0045003|CC|Roger. We copy that. We're standing by for your GO for yaw maneuver.
+0044959|CC|Roger. We copy that. We're standing by for your GO for yaw maneuver.
 0045019|CMP|We can give them a GO for yaw, can't we? We can see it now.
 0045024|CDR|Yes, we can see it. You've got the GO for the yaw.
 0045031|CC|Roger. Thank you, 17.
@@ -16112,9 +16112,9 @@
 1435040|CDR|Yes. Don't take that one. Get it up as we come around. You get it? There we go.
 1435044|LMP|Okay.
 1435045|CDR|That's the one we want. And you got the valley?
-1435048|LMP|Yes. Keep going. Okay. Keep turning around over there, and I'll get that scarp.
-1435053|CDR|That's beautiful.
-1435054|LMP|Isn't that something? Man, you talk about a mysterious looking place. They can cut some frames - some parts of those pictures out and make a nice photograph. (Laughter) TV cameras, maps -
+1435048|LMP|Yes. Keep going. Okay. Keep turning around over there, and I'll get that scarp. That's beautiful.
+1435054|CDR|Isn't that something? Man, you talk about a mysterious looking place.
+1435105|LMP|They can cut some frames - some parts of those pictures out and make a nice photograph. (Laughter) TV cameras, maps -
 1435114|LMP|Okay, looking at the north man - the light mantle. No more comments except that by that rake sample and just looking, there's certainly is - are fewer fragments than we saw at Station 2. The main thing that we can tell about the light mantle and when we're on it, of course, is the light-colored craters. The fresher craters all appear to be light colored. As they get older, they seem to -the albedo goes down and potentially have been dusted with material from the dark mantle or from other sites. Either that or it's just the lunar patination that we're all familiar with.
 1435130|CDR|You know, it's a shame. They could have had TV coming down here because my heading isn't going to change much at all. The high gain could have been on the whole time.
 1435200|LMP|Bob, none of the craters out here in the light mantle appear to show - they've got new bedrock. Almost all of them are instant rock craters.
@@ -21189,7 +21189,7 @@
 1655022|CC|Okay. We copy that.
 1655027|LMP|Okay. Oh, man.
 1655038|CDR|Yes, sir, we got a couple of dented tires.
-1655043|LMP|Okay, hands have had it.
+1655043|LMP|Okay, my hands have had it.
 1655046|CC|Okay; good enough.
 1655046|LMP|You aren't going to get anything else out of me if I keep taking pictures.
 1655049|CC|And, Gene, what's a dented tire?
@@ -21932,7 +21932,7 @@
 1670727|CDR|I'll get one.
 1670727|LMP|Good, I forgot. I got interested in skiing, Whoo! Can't keep my edges. Little hard to get a good hip rotation.
 1670759|CDR|Let's see, I must be looking back at - well, there's SWP. Golly, I don't know. I'm looking back at the complex, Cochise and Shakespeare, and I can see the LM.
-1670837|LMP|Hey, Bob. One interesting thing up here, you can see the erosional pattern of the talus, the mantle that - I call it a mantle, but the talus that's on the Sculptured Hills, there's little - little boulder tracks of all sizes from all these little clods. And they all, of course, point downhill or nearly downhill.
+1670837|CDR|Hey, Bob. One interesting thing up here, you can see the erosional pattern of the talus, the mantle that - I call it a mantle, but the talus that's on the Sculptured Hills, there's little - little boulder tracks of all sizes from all these little clods. And they all, of course, point downhill or nearly downhill.
 1670902|CC|Okay. Copy that.
 1670907|LMP|Hey, Bob. In the interest of time, I'll document this without the gnomon.
 1670914|CC|Okay. I presume Gene's got the gnomon up there.
@@ -22560,15 +22560,15 @@
 1680953|CDR|Get another one?
 1680954|LMP|Yes - are in bag 570.
 1681001|CC|Copy that.
-1681012|LMP|Okay?
-1681014|CDR|Let me get over here. You're going to step on your gnomon there.
-1681018|LMP|I wouldn't step on my gnomon. I'm going to get this one - crimped. Okay. There, very clearly, is a central, mound. And now that we've looked at this one, the mound looks like it's composed of gray fragment breccias much like what we've just sampled - -
+1681012|LMP|Okay. Let me get over here. You're going to step on your gnomon there.
+1681018|CDR|I wouldn't step on my gnomon. I'm going to get this one - crimped.
+1681025|LMP|Okay. There, very clearly, is a central, mound. And now that we've looked at this one, the mound looks like it's composed of gray fragment breccias much like what we've just sampled - -
 1681039|CDR|...
 1681040|LMP|- - dark gray. And again it might be related - -
 1681044|CDR|Jack.
 1681046|LMP|Oh, excuse me. I didn't hear you.
-1681047|LMP|Related to the projectile. Now, we've got to see if there is subfloor up here, or whether we're dealing with another unit somewhere.
-1681055|CDR|Got your after. Okay. I don't see any - -
+1681047|LMP|Related to the projectile. Now, we've got to see if there is subfloor up here, or whether we're dealing with another unit somewhere. Got your after.
+1681056|CDR|Okay. I don't see any - -
 1681058|LMP|Well, the more coherent rocks - this looks like subfloor.
 1681102|CDR|I don't see any orange material either.
 1681104|LMP|Not yet.
