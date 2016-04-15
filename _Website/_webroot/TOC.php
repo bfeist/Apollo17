@@ -690,7 +690,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('1693045')" class="tocitem" id="tocid1693045"><span class="TOCTimestamp">169:30:45</span>
-        <span class="TOC_item">Photos of Earth above Command Module</span>
+        <span class="TOC_item">Photos of Earth above Lunar Module</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1694315')" class="tocitem" id="tocid1694315"><span class="TOCTimestamp">169:43:15</span>
         <span class="TOC_item">Speech to the youth of the world</span>
@@ -708,7 +708,7 @@
         <span class="TOC_item">LRV Parked</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1702141')" class="tocitem" id="tocid1702141"><span class="TOCTimestamp">170:21:41</span>
-        <span class="TOC_item">Schmitt waking back to LM</span>
+        <span class="TOC_item">Schmitt walking back to LM</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1702208')" class="tocitem" id="tocid1702208"><span class="TOCTimestamp">170:22:08</span>
         <span class="TOC_item">Cernan's speech about aerospace</span>
