@@ -8,14 +8,14 @@
 
     <title>Apollo 17 in Real-time</title>
     <link rel="image_src" href="http://apollo17.org/img/screenshot.png" / >
-    <meta name="description" content="The last manned mission to the moon. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
+    <meta name="description" content="A real-time interactive journey through the Apollo 17 mission. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
 
     <meta property="fb:app_id" content="1639595472942714" />
     <meta property="og:title" content="Apollo 17 in Real-time" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://apollo17.org/img/screenshot.png" />
     <meta property="og:url" content="http://apollo17.org/" />
-    <meta property="og:description" content="The last manned mission to the moon. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
+    <meta property="og:description" content="A real-time interactive journey through the Apollo 17 mission. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
     <meta property="og:site_name" content="Apollo 17 in Real-time" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
@@ -70,7 +70,6 @@
     <script type="text/javascript" src="navigator.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
-
 
 </head>
 <body>

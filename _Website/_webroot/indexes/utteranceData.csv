@@ -5778,13 +5778,13 @@
 0844743|CC|Okay, Ron. We caught that. And if you're looking for the Moon, according to our figures here, it should be visible out window number 1 about 30 degrees off the boresight axis. Over.
 0844802|LMP|Okay, got you. I'll try again.
 0844916|CC|America, Houston. I'm ready with a TEI-4 pad anytime it's convenient.
-0844924|CMP|Stand by.
-0845336|CMP|Okay, Gordy, I'm ready for a TEI-4 pad.
+0844924|LMP|Stand by.
+0845336|LMP|Okay, Gordy, I'm ready for a TEI-4 pad.
 0845341|CC|Okeydoke. It's TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17. Ignition time is 097:20:47.45. NOUN 81, plus 2004.8, minus 2951.1, minus 1547.3; attitude will be 202, 083, 312. Rest of the pad is NA. GDC align stars are Sirius and Rigel; 133; 200; 030. Ullage: four jets, 12 seconds. And remark number 1: burn undocked; number 2: assumes no DOI; number 3: assumes landing site REFSMMAT; number 4: with the LOI REFSMMAT, your attitude will be: roll, 180; pitch, 220; yaw, 38 - correction -yaw is 338. Over.
-0845613|CMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
+0845613|LMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
 0845720|CC|Okay. That's a good readback.
 0845929|CC|America, Houston. If you give us ACCEPT, we'll pop up a state vector - a preliminary state vector and a VERB 66, preliminary target load, and an LOI REFSMMAT. Over.
-0845944|CDR|Okay, Houston. You have it.
+0845944|CMP|Okay, Houston. You have it.
 0850108|CDR|Okay, Houston. This is America. How do you read the commander on biomed?
 0850114|CC|Stand by. I'll take a look here.
 0850244|CC|America, Houston. Looking at the O2 pressures, we think maybe TANK 3 isOL VALVE got jarred closed. Would you check the barber pole over on panel 278. If it's barber pole, would you reopen the valve?
@@ -24333,11 +24333,11 @@
 1720127|CDR|Oh, and the helmet is off and I'm throwing it in the BRA.
 1720144|LMP|Well, there's no changing our mind now, the PLSSs are going to be hard to retrieve. But you could if you had to, though.
 1720152|CC|Challenger, Houston. Challenger, Houston. From the old backup crew that followed you every step of the way, super job on EVA you guys.
-1720210|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping us get it this far.
+1720210|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping to get us this far.
 1720222|CC|Roger; Neil.
 1720223|CDR|Hey, you know in - in all those things you tell people - Was that Charlie? I haven't heard your voice since - you know all those good things you tell us about dust and all those other things, you know, you believe them all just like everybody else does - but you've just got to come out here and experience it for yourself to really be a believer.
 1720247|CC|Yes, well I take it back about it all looks the same.
-1720253|LMP|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
+1720253|CDR|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
 1720307|CC|Well, you guys did it great.
 1720314|LMP|Charlie it may all look the same but Taurus Littrow, mark my words, has some variety.
 1720321|CC|Yes, we could tell that, Jack. Great job.
