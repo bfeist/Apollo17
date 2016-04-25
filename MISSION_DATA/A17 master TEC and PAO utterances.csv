@@ -5181,9 +5181,9 @@
 |069:33:11|CMP|And, Gene, where's your blindfold? ...
 |069:35:25|LMP|Bob, couple of revolutions ago when I was looking at it, I had a much brighter view and I believe I was looking at it broadside. It looks to me like it may be flashing more or less end-on now. It's much, not - not as bright, although it's getting brighter. But it's not as bright now as it was awhile ago.
 |069:35:50|CC|Roger, Jack.
-|069:36:16|LMP|... we've been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
+|069:36:16|LMP|... we've actually been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
 |069:36:28|CC|Roger, Jack.
-|069:36:31|CDR|Hey, Robert, what's the final Cowboy score?
+|069:36:31|CDR|Hey, Robert, what's the final Cowboys score?
 ||||Tape 46/9|Page 342
 |069:36:35|CC|Okay; I was just going to update that. The Cowboys won it 34 to 24. And by winning it, they wrap up the wild-card slot in the NFC; and so both Washington and Dallas will be in the playoffs.
 |069:36:54|CDR|Sounds good.
@@ -5299,9 +5299,9 @@
 |070:07:54|CC|This was for Jack and Gene. The trench has computed the S-IVB location in reference to your body axis; and the azimuth was within 1 degree, very close, and the - we calculate it should have been out of that window at 62 degrees from the X-axis, and you reported 45 degrees, which is just a 17-degree error. It's real close there. You know, just eyebailing it like that.
 |070:08:23|LMP|That's great. Then that is the S-IVB, huh?
 |070:08:26|CC|Okay. Well, we - you might check it this way, Jack. Line up the star Denebola and Rigel - say again, Regulus; I'm sorry, Regulus - Denebola and Regulus. And then, on that line, go perpendicular to that line right above Ri - right above - right above Regulus, and that should be the S-IVB. It forms one point of a right triangle with Denebola and Regulus.
-|070:08:59|LMP|What you're saying is, it's the eye of Leo the Lion.
+|070:08:59|CDR|What you're saying is, it's the eye of Leo the Lion.
 |070:09:03|CC|That's affirm.
-|070:09:07|LMP|Except we can't see Leo the Lion very well.
+|070:09:07|CDR|Except we can't see Leo the Lion very well.
 |070:09:11|CC|Okay.
 |070:10:16|CC|And, 17; Houston.
 |070:10:21|LMP|Go ahead.
@@ -6178,13 +6178,13 @@
 |084:48:02|LMP|Okay, got you. I'll try again.
 |084:49:16|CC|America, Houston. I'm ready with a TEI-4 pad anytime it's convenient.
 ||||Tape 56/8|Page 411
-|084:49:24|CMP|Stand by.
-|084:53:36|CMP|Okay, Gordy, I'm ready for a TEI-4 pad.
+|084:49:24|LMP|Stand by.
+|084:53:36|LMP|Okay, Gordy, I'm ready for a TEI-4 pad.
 |084:53:41|CC|Okeydoke. It's TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17. Ignition time is 097:20:47.45. NOUN 81, plus 2004.8, minus 2951.1, minus 1547.3; attitude will be 202, 083, 312. Rest of the pad is NA. GDC align stars are Sirius and Rigel; 133; 200; 030. Ullage: four jets, 12 seconds. And remark number 1: burn undocked; number 2: assumes no DOI; number 3: assumes landing site REFSMMAT; number 4: with the LOI REFSMMAT, your attitude will be: roll, 180; pitch, 220; yaw, 38 - correction -yaw is 338. Over.
-|084:56:13|CMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
+|084:56:13|LMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
 |084:57:20|CC|Okay. That's a good readback.
 |084:59:29|CC|America, Houston. If you give us ACCEPT, we'll pop up a state vector - a preliminary state vector and a VERB 66, preliminary target load, and an LOI REFSMMAT. Over.
-|084:59:44|CDR|Okay, Houston. You have it.
+|084:59:44|CMP|Okay, Houston. You have it.
 |085:01:08|CDR|Okay, Houston. This is America. How do you read the commander on biomed?
 |085:01:14|CC|Stand by. I'll take a look here.
 |085:02:44|CC|America, Houston. Looking at the O2 pressures, we think maybe TANK 3 isOL VALVE got jarred closed. Would you check the barber pole over on panel 278. If it's barber pole, would you reopen the valve?
@@ -23932,24 +23932,24 @@
 |168:01:55|LMP|We're pretty close. I'll go up on the rim, Gene, and see what we've got.
 |168:02:23|LMP|Tiptoe through the tulips (singing) - -
 |168:02:26|CC|Okay. Let's get grabs before you guys leave.
-|168:02:29|LMP|(Singing) I'm getting it right now. Let me see; anything else you want me to do while I'm here?
+|168:02:29|CDR|I'm getting it right now. Let me see; anything else you want me to do while I'm here?
 |168:02:37|CC|Negative.
 |168:02:44|LMP|Sure look like shocked rocks to me.
 |168:02:53|CDR|Lot of glass splattered on some of these, Jack.
 |168:02:55|LMP|Yes.
-|168:03:05|CDR|We might even find some shatter cones. But don't tell anybody.
-|168:03:16|CDR|Well, I'll say one thing for old Van Serg, it's blocky. Whoo!
+|168:03:05|LMP|We might even find some shatter cones. But don't tell anybody.
+|168:03:16|LMP|Well, I'll say one thing for old Van Serg, it's blocky. Whoo!
 |168:03:24|CDR|MARK. Gravimeter.
 |168:03:25|CC|Copy that.
 |168:03:30|LMP|Bob. This is about - I think this is the only clearly - well, I won't even say that. This is at least a blocky - a large blocky rim crater. But even it has the mantle dust ma - material covering the rim, partially buried rocks. And it's down on the floor, as near as I can tell, and on the walls. The crater itself has a central mound of - of blocks that's probably 50 meters in diameter - that's a little high - 30 meters in diameter. It - Many of the blocks are - -
 ||||Tape 111A/17|Page 1661
 |168:04:31|CDR|Holy Smoley!
 |168:04:32|LMP|- - intensely shattered in that area, as the ones that are on the walls. I don't see any sign of organization of the blocks in the walls right now. There's a possibility that on the west wall, there's an indication that there's slightly darker gray rocks starting about halfway down the crater. And that's - that level is coincident with what appears to be a bench on the northwest wall. And that bench - hints of that bench - it's not continuous, but hints of it are around on the north wall and, I think, right below us - yes, on the southeast wall. The - We'll start - The rocks are pretty badly broken in many cases. And - well, I haven't seen any real glass yet. Yes. We'll start looking at them a little more carefully.
-|168:05:55|CDR|Some of them - That looks like a breccia right there in front of us.
-|168:05:56|LMP|Yes. There's some interesting patterns on the surface.
+|168:05:55|LMP|Some of them - That looks like a breccia right there in front of us.
+|168:05:56|CDR|Yes. There's some interesting patterns on the surface.
 |168:06:02|LMP|Stand by. Wait, wait, wait. I keep - Aw! Sorry, Geno, but -
 |168:06:21|CDR|Okay?
-|168:06:22|LMP|Okay, there. Afraid I haven't been doing my duty on locators, occasionally.
+|168:06:22|LMP|Locator. Afraid I haven't been doing my duty on locators, occasionally.
 |168:06:43|LMP|See that?
 |168:06:44|CDR|Yes. I got it.
 |168:06:49|LMP|Okay, Gene's tearing apart one of the - -
@@ -25864,12 +25864,12 @@
 |172:01:27|CDR|Oh, and the helmet is off and I'm throwing it in the BRA.
 |172:01:44|LMP|Well, there's no changing our mind now, the PLSSs are going to be hard to retrieve. But you could if you had to, though.
 |172:01:52|CC|Challenger, Houston. Challenger, Houston. From the old backup crew that followed you every step of the way, super job on EVA you guys.
-|172:02:10|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping us get it this far.
+|172:02:10|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping to get us this far.
 ||||Tape 113A/25|Page 1778
 |172:02:22|CC|Roger; Neil.
 |172:02:23|CDR|Hey, you know in - in all those things you tell people - Was that Charlie? I haven't heard your voice since - you know all those good things you tell us about dust and all those other things, you know, you believe them all just like everybody else does - but you've just got to come out here and experience it for yourself to really be a believer.
 |172:02:47|CC|Yes, well I take it back about it all looks the same.
-|172:02:53|LMP|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
+|172:02:53|CDR|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
 |172:03:07|CC|Well, you guys did it great.
 |172:03:14|LMP|Charlie it may all look the same but Taurus Littrow, mark my words, has some variety.
 |172:03:21|CC|Yes, we could tell that, Jack. Great job.

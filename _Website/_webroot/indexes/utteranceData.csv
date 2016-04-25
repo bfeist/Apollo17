@@ -4852,9 +4852,9 @@
 0693311|CMP|And, Gene, where's your blindfold? ...
 0693525|LMP|Bob, couple of revolutions ago when I was looking at it, I had a much brighter view and I believe I was looking at it broadside. It looks to me like it may be flashing more or less end-on now. It's much, not - not as bright, although it's getting brighter. But it's not as bright now as it was awhile ago.
 0693550|CC|Roger, Jack.
-0693616|LMP|... we've been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
+0693616|LMP|... we've actually been noticing that, I think, for about 24 hours or so. I just - hadn't put it together as maybe being the S-IVB. I thought it was just some other particle out there.
 0693628|CC|Roger, Jack.
-0693631|CDR|Hey, Robert, what's the final Cowboy score?
+0693631|CDR|Hey, Robert, what's the final Cowboys score?
 0693635|CC|Okay; I was just going to update that. The Cowboys won it 34 to 24. And by winning it, they wrap up the wild-card slot in the NFC; and so both Washington and Dallas will be in the playoffs.
 0693654|CDR|Sounds good.
 0693717|LMP|Bob, that line of clouds I called a fir tree pattern that swings up towards Hawaii - Hawaii, if you will - has - also has a mushroom pattern on the top. It has the appearance as if two major air masses - one going from west to east and the other form east to west - have converged along that line, and the joint movement of air at the interface being south to north. And up in the area of Hawaii, I think, it tends to mushroom so that the pattern then goes back to flow from west to east on the east side and from east to west on the west side.
@@ -4962,9 +4962,9 @@
 0700754|CC|This was for Jack and Gene. The trench has computed the S-IVB location in reference to your body axis; and the azimuth was within 1 degree, very close, and the - we calculate it should have been out of that window at 62 degrees from the X-axis, and you reported 45 degrees, which is just a 17-degree error. It's real close there. You know, just eyebailing it like that.
 0700823|LMP|That's great. Then that is the S-IVB, huh?
 0700826|CC|Okay. Well, we - you might check it this way, Jack. Line up the star Denebola and Rigel - say again, Regulus; I'm sorry, Regulus - Denebola and Regulus. And then, on that line, go perpendicular to that line right above Ri - right above - right above Regulus, and that should be the S-IVB. It forms one point of a right triangle with Denebola and Regulus.
-0700859|LMP|What you're saying is, it's the eye of Leo the Lion.
+0700859|CDR|What you're saying is, it's the eye of Leo the Lion.
 0700903|CC|That's affirm.
-0700907|LMP|Except we can't see Leo the Lion very well.
+0700907|CDR|Except we can't see Leo the Lion very well.
 0700911|CC|Okay.
 0701016|CC|And, 17; Houston.
 0701021|LMP|Go ahead.
@@ -5778,13 +5778,13 @@
 0844743|CC|Okay, Ron. We caught that. And if you're looking for the Moon, according to our figures here, it should be visible out window number 1 about 30 degrees off the boresight axis. Over.
 0844802|LMP|Okay, got you. I'll try again.
 0844916|CC|America, Houston. I'm ready with a TEI-4 pad anytime it's convenient.
-0844924|CMP|Stand by.
-0845336|CMP|Okay, Gordy, I'm ready for a TEI-4 pad.
+0844924|LMP|Stand by.
+0845336|LMP|Okay, Gordy, I'm ready for a TEI-4 pad.
 0845341|CC|Okeydoke. It's TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17. Ignition time is 097:20:47.45. NOUN 81, plus 2004.8, minus 2951.1, minus 1547.3; attitude will be 202, 083, 312. Rest of the pad is NA. GDC align stars are Sirius and Rigel; 133; 200; 030. Ullage: four jets, 12 seconds. And remark number 1: burn undocked; number 2: assumes no DOI; number 3: assumes landing site REFSMMAT; number 4: with the LOI REFSMMAT, your attitude will be: roll, 180; pitch, 220; yaw, 38 - correction -yaw is 338. Over.
-0845613|CMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
+0845613|LMP|Okay, TEI-4, SPS/G&N; 40090; plus 0.50, plus 1.17; 097:20:47.45; plus 2004.8, minus 2951.1. minus 1547.3; 202, 083, 312. Rest of pad NA. Sirius and Rigel; 133; 200; 030. Four jets, 12-second ullage. Remark 1: burn undocked; 2: no DOI assumed; 3: landing site REFSMMAT; 4: LOI REFSMMAT attitude 180, 220, 338. Over.
 0845720|CC|Okay. That's a good readback.
 0845929|CC|America, Houston. If you give us ACCEPT, we'll pop up a state vector - a preliminary state vector and a VERB 66, preliminary target load, and an LOI REFSMMAT. Over.
-0845944|CDR|Okay, Houston. You have it.
+0845944|CMP|Okay, Houston. You have it.
 0850108|CDR|Okay, Houston. This is America. How do you read the commander on biomed?
 0850114|CC|Stand by. I'll take a look here.
 0850244|CC|America, Houston. Looking at the O2 pressures, we think maybe TANK 3 isOL VALVE got jarred closed. Would you check the barber pole over on panel 278. If it's barber pole, would you reopen the valve?
@@ -22506,23 +22506,23 @@
 1680155|LMP|We're pretty close. I'll go up on the rim, Gene, and see what we've got.
 1680223|LMP|Tiptoe through the tulips (singing) - -
 1680226|CC|Okay. Let's get grabs before you guys leave.
-1680229|LMP|(Singing) I'm getting it right now. Let me see; anything else you want me to do while I'm here?
+1680229|CDR|I'm getting it right now. Let me see; anything else you want me to do while I'm here?
 1680237|CC|Negative.
 1680244|LMP|Sure look like shocked rocks to me.
 1680253|CDR|Lot of glass splattered on some of these, Jack.
 1680255|LMP|Yes.
-1680305|CDR|We might even find some shatter cones. But don't tell anybody.
-1680316|CDR|Well, I'll say one thing for old Van Serg, it's blocky. Whoo!
+1680305|LMP|We might even find some shatter cones. But don't tell anybody.
+1680316|LMP|Well, I'll say one thing for old Van Serg, it's blocky. Whoo!
 1680324|CDR|MARK. Gravimeter.
 1680325|CC|Copy that.
 1680330|LMP|Bob. This is about - I think this is the only clearly - well, I won't even say that. This is at least a blocky - a large blocky rim crater. But even it has the mantle dust ma - material covering the rim, partially buried rocks. And it's down on the floor, as near as I can tell, and on the walls. The crater itself has a central mound of - of blocks that's probably 50 meters in diameter - that's a little high - 30 meters in diameter. It - Many of the blocks are - -
 1680431|CDR|Holy Smoley!
 1680432|LMP|- - intensely shattered in that area, as the ones that are on the walls. I don't see any sign of organization of the blocks in the walls right now. There's a possibility that on the west wall, there's an indication that there's slightly darker gray rocks starting about halfway down the crater. And that's - that level is coincident with what appears to be a bench on the northwest wall. And that bench - hints of that bench - it's not continuous, but hints of it are around on the north wall and, I think, right below us - yes, on the southeast wall. The - We'll start - The rocks are pretty badly broken in many cases. And - well, I haven't seen any real glass yet. Yes. We'll start looking at them a little more carefully.
-1680555|CDR|Some of them - That looks like a breccia right there in front of us.
-1680556|LMP|Yes. There's some interesting patterns on the surface.
+1680555|LMP|Some of them - That looks like a breccia right there in front of us.
+1680556|CDR|Yes. There's some interesting patterns on the surface.
 1680602|LMP|Stand by. Wait, wait, wait. I keep - Aw! Sorry, Geno, but -
 1680621|CDR|Okay?
-1680622|LMP|Okay, there. Afraid I haven't been doing my duty on locators, occasionally.
+1680622|LMP|Locator. Afraid I haven't been doing my duty on locators, occasionally.
 1680643|LMP|See that?
 1680644|CDR|Yes. I got it.
 1680649|LMP|Okay, Gene's tearing apart one of the - -
@@ -24333,11 +24333,11 @@
 1720127|CDR|Oh, and the helmet is off and I'm throwing it in the BRA.
 1720144|LMP|Well, there's no changing our mind now, the PLSSs are going to be hard to retrieve. But you could if you had to, though.
 1720152|CC|Challenger, Houston. Challenger, Houston. From the old backup crew that followed you every step of the way, super job on EVA you guys.
-1720210|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping us get it this far.
+1720210|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping to get us this far.
 1720222|CC|Roger; Neil.
 1720223|CDR|Hey, you know in - in all those things you tell people - Was that Charlie? I haven't heard your voice since - you know all those good things you tell us about dust and all those other things, you know, you believe them all just like everybody else does - but you've just got to come out here and experience it for yourself to really be a believer.
 1720247|CC|Yes, well I take it back about it all looks the same.
-1720253|LMP|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
+1720253|CDR|Hey, it - it really doesn't Charlie, but all those physical things you get handicapped with - there's a lot of easy things as far as 1/6 g - but all those other things - you know there's nothing like doing it to be a believer.
 1720307|CC|Well, you guys did it great.
 1720314|LMP|Charlie it may all look the same but Taurus Littrow, mark my words, has some variety.
 1720321|CC|Yes, we could tell that, Jack. Great job.
