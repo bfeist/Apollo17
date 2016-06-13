@@ -280,16 +280,17 @@
 |000:07:19|CMP|(laughter) man!
 |000:07:20|LMP|So am I. (laughter) I'll tell ya (laughter)
 |000:07:24|CDR|Okay, we've got to get through this one, and then through staging. Standby for inboard. Okay. ...
-|000:07:29|PAO|We're now less than 2 minutes from second stage shutdown and ignition of the Saturn third stage. And the center engine will be shutting down as scheduled in about 10 seconds.
+|000:07:27|PAO|We're now less than 2 minutes from second stage shutdown and ignition of the Saturn third stage. And the center engine will be shutting down as scheduled in about 10 seconds.
 |000:07:34|CDR|Standby for inboard.
 |000:07:35|CMP|Okay. Okay, we're at a G 1/2. Standby.
 |000:07:40|CDR|We have inboard cut-off.
 ||||Tape 2/4|Page 13
 |000:07:43|CC|Roger, Gene. Inboard on time.
-|000:07:46|PAO|And that inboard shutdown looked to be on time. Apollo 17 now 625 miles downrange, 93 miles in altitude.
+|000:07:46|PAO|And that inboard shutdown looked to be on time.
 |000:07:50|CDR|Okay, she pitches up just like the simulator.
 |000:07:51|CMP|Yep. Sure does. Pitches -
-|000:07:56|LMP|(grunting noise)
+|000:07:53|PAO|Apollo 17 now 625 miles downrange, 93 miles in altitude.
+|000:07:55|LMP|(grunting noise)
 |000:07:56|CMP|Is that hard to reach, Jack?
 |000:07:57|LMP|Yes. Why don't you take it down, I can't quite - G and a half is too much.
 |000:08:01|CDR|Eight minutes, and we are GO.
@@ -660,11 +661,11 @@
 |002:49:50||HAWAII (REV 2)
 |002:49:50|CC|Apollo 17, Houston.
 |002:49:51|LMP|Go ahead.
-|002:49:52|CMP|Houston, this is Apollo 17. Go ahead.
+|002:49:51|CMP|Houston, this is Apollo 17. Go ahead.
 |002:49:53|CC|Hey, Ron, you're sounding great. Good voice here.
-|002:49:58|LMP|Golly, we've got things all set up here and we're kind of standing by for a logic check whenever you guys can give us a GO.
+|002:49:58|CMP|Golly, we've got things all set up here and we're kind of standing by for a logic check whenever you guys can give us a GO.
 |002:50:09|CC|Roger. As soon as we get some TM in here, we'll give you a GO.
-|002:50:19|LMP|Okay.
+|002:50:19|CMP|Okay.
 |002:50:33|CC|17, Houston. We're ready for the logic check.
 |002:50:37|CDR|Okay, Bob. Okay. Wait 1.
 |002:50:50|CDR|Okay. SECS ARM breakers are closed.
@@ -682,9 +683,9 @@
 |002:53:26|CC|That's affirmative.
 |002:53:29|CDR|You're a sweet talker.
 |002:53:32|CC|We try to please here, Gene.
-|002:53:40|CDR|You know, somehow, Bob, I knew you were going to say that - we were GO - and that you try to please.
-|002:53:47|CC|We've been working together too long, I guess.
-|002:53:54|CDR|Not long enough, yet.
+|002:53:40|LMP|You know, somehow, Bob, I knew you were going to say that - we were GO - and that you try to please.
+|002:53:47|CC|We've been working together too long, huh?
+|002:53:54|LMP|Not long enough, yet.
 |002:54:48|CC|And, 17; Houston. You're about 1 minute from LOS, and we'll pick you up at Goldstone at about 3 hours and 00 minutes; and that's only a couple of minutes prior to time base 6 start.
 |002:55:02|CDR|Okay, Bob. We'll be with you.
 |002:55:04|CC|Roger.
@@ -723,7 +724,7 @@
 |003:06:55|CC|Well, that's good when we don't find anything wrong.
 |003:06:59|LMP|Can't agree more.
 |003:07:32|CC|17, the chilldown is in progress, and the tank pressures are looking good.
-|003:07:38|CDR|Okay, Bob; looking down here.
+|003:07:38|CDR|Okay, Bob; looking good here.
 |003:09:37|CC|17, Houston. You are GO at 3 minutes prior to ignition. You're looking good, and you're going to - we're going to have A - ARIA coverage all the way through the burn until Ascension.
 |003:09:51|CDR|Roger; understand, Bob. 57:10, ORDEAL OPERATE -
 |003:10:38|PAO|And we're coming up now on 2 minutes until ignition. This burn, again, will be a 5 minute 51 second maneuver. The S-IVB engine, delivering about 225,000 pounds of thrust, and it will be increasing the spacecraft velocity in the current state of about 25,000 feet per second up to about 35,585 feet per second.
@@ -743,11 +744,12 @@
 |003:13:02|CDR|Bob, you're down in the mud, but we're GO onboard at 20 seconds.
 ||||Tape 4/10|Page 36
 |003:13:06|CC|Roger.
-|003:13:11|PAO|And telemetry data from the Saturn instrument unit shows the velocity increasing up now to 26,000 feet per second, beginning to climb ever more rapidly. This burn was initiated at an altitude of about 97 nautical miles above Earth, and when finished, the spacecraft will be at about 150 miles above Earth, and on its way to the Moon, some 213,000 miles nautical miles away.
+|003:13:11|PAO|And telemetry data from the Saturn instrument unit shows the velocity increasing up now to 26,000 feet per second, beginning to climb ever more rapidly.
 |003:13:21|LMP|... antenna.
+|003:13:24|PAO|This burn was initiated at an altitude of about 97 nautical miles above Earth, and when finished, the spacecraft will be at about 150 miles above Earth, and on its way to the Moon, some 213,000 miles nautical miles away.
 |003:13:41|CDR|One minute, Houston in the blind, and we're GO.
 |003:13:45|CC|Roger, Gene. We can barely hear you through the ARIA, but you're GO.
-|003:13:54|CDR|You have reasonable signal strength, but you are unreadable.
+|003:13:54|LMP|You have reasonable signal strength, but you are unreadable.
 |003:14:10|PAO|Very weak voice communications and booster says the data is now static but at last look everything looked normal.
 |003:14:15|CDR|Everything's GO at 1:30.
 |003:14:22|CDR|Confirm a PU shift, and GO at 1:45.
@@ -762,8 +764,9 @@
 |003:15:45|CC|Roger, Gene.
 |003:15:53|CDR|Bob, we're going to TLI right through sunrise.
 |003:15:58|CC|Roger; understand.
-|003:16:01|PAO|Gene Cernan reporting the TLI burn has taken them out of darkness and into sunrise now and we're showing a velocity of 30,463 feet per second.
+|003:16:01|PAO|Gene Cernan reporting the TLI burn has taken them out of darkness and into sunrise now.
 |003:16:06|CDR|Okay, 3:30 is GO. We have - 17 is GO at 3:30.
+|003:16:10|PAO|And, we're showing a velocity of 30,463 feet per second.
 |003:16:16|CC|Roger, 17.
 |003:16:31|PAO|Apollo 17 now about 107 nautical miles above Earth and continuing to climb ever more rapidly.
 |003:17:05|PAO|4 minutes and 30 seconds now and everything continuing to look good. Apollo 17 at a velocity of 32,000 feet per second.
