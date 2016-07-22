@@ -1,6 +1,6 @@
 trace("INIT: Loading index.js");
 var gStopCache = false;
-var gCdnEnabled = true;
+var gCdnEnabled = false;
 var gOffline = false;
 
 var gMissionDurationSeconds = 1100166;
@@ -1096,7 +1096,8 @@ function loadPhotoHtml(photoIndex) {
     } else {
         sizePath = "2100";
     }
-    var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    //var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    var fullSizePath = "2100";
 
     if (gCdnEnabled) {
         var cdnNum = getRandomInt(1, 5);

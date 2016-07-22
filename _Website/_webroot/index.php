@@ -86,7 +86,7 @@
     <div class="imageBlock">
         <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename.jpg')">
 
-            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
+            <a href="http://apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
                 <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 

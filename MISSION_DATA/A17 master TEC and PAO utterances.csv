@@ -8875,12 +8875,12 @@
 ||||Tape 75A/11|Page 597
 |113:23:14|CC|Challenger, Houston. Your DPS OXIDIZER PRESSURE is 40 or less. You could close it.
 |113:23:23|CDR|Thank you, Gordy.
-|113:23:29|CDR|Gordy, while the P57 is doing its gravity work, let me say that the LNA and the landing site, from a relief point of view, I - I think, are identical. I couldn't say enough for the LNA. I actually didn't look around nearly as much as I thought I would, or as I wanted to, because I had fixation on - on a reasonable spot to land. They're not all reasonable in that there's some very subtle hummocky-like craters right in and around where we are. And there's not a - a lot of boulders laying on the surface, but there's a lot of what appear to be boulders that are covered up by some of the dark mantle. Numerous enough that you would not like to take a chance at putting a - a pad down on one of them or in one of those hummocky subtle craters. As a result, I really didn't have a chance to look all around at where I wanted to except to put the bird down where I wanted it.
+|113:23:29|CDR|Gordy, while the P57 is doing its gravity work, let me say that the L&A and the landing site, from a relief point of view, I - I think, are identical. I couldn't say enough for the L&A. I actually didn't look around nearly as much as I thought I would, or as I wanted to, because I had fixation on - on a reasonable spot to land. They're not all reasonable in that there's some very subtle hummocky-like craters right in and around where we are. And there's not a - a lot of boulders laying on the surface, but there's a lot of what appear to be boulders that are covered up by some of the dark mantle. Numerous enough that you would not like to take a chance at putting a - a pad down on one of them or in one of those hummocky subtle craters. As a result, I really didn't have a chance to look all around at where I wanted to except to put the bird down where I wanted it.
 |113:24:38|CC|Okay. We've got no complaint with that.
 |113:24:50|CDR|I guess the thing that probably - probably surprised me most about the site, as far as landing is concerned, is the fact that there were these - these - I hesitate to say they're outcrops but certainly they're buried massive pieces of rock, whether they're boulders or not we'll have to find out, out here in the plains area, partially covered and filleted by the dark mantle. And I expected to find a number of craters, but I guess I really didn't expect to find - to find the - the rock types around. And we're talking about anywhere from 1 to 2 meters down to - oh, 2 or 3 feet, which when they're sticking out and on the sides of some of these subtle craters look pretty menacingly. But that probably is the one thing that surprised me most.
 |113:25:44|CC|Roger, Gene.
 ||||Tape 75A/12|Page 598
-|113:25:48|CDR|The visibility prior to pitchover was such that I could see Nansen. I could see the Scarp. I could see Lara. I could not see Camelot until after pitchover. However, once I had pitchover, if I could have froze it right there like we do in the simulator occasionally, I could have picked out everything there was to see. Even at 6000 feet, the small triangle with Frosty and Rudolph and Punk were visible to me. I had - I had Poppy from orbit, as a matter of fact, so it was easily - easy to see. Barjea was a very sharp round crater just as depicted on the LNA. The thing I really didn't get a good look at, because I didn't pay too much attention to it, was from Trident on to the south.
+|113:25:48|CDR|The visibility prior to pitchover was such that I could see Nansen. I could see the Scarp. I could see Lara. I could not see Camelot until after pitchover. However, once I had pitchover, if I could have froze it right there like we do in the simulator occasionally, I could have picked out everything there was to see. Even at 6000 feet, the small triangle with Frosty and Rudolph and Punk were visible to me. I had - I had Poppy from orbit, as a matter of fact, so it was easily - easy to see. Barjea was a very sharp round crater just as depicted on the L&A. The thing I really didn't get a good look at, because I didn't pay too much attention to it, was from Trident on to the south.
 |113:26:39|CC|Roger.
 |113:26:40|LMP|Gordy, this is the LMP. Let me say - Gordy, this is the LMP. Let me say that the inside of the spacecraft looked just like the simulators.
 |113:26:51|CC|Very good, Jack.
@@ -10827,7 +10827,7 @@
 |119:10:54|LMP|Oh, okay.
 |119:10:55|CC|Okay, 17, for your planning -
 ||||Tape 78A/44|Page 735
-|119:10:56|LMP|Okay, about 60 feet northeast. How does it look behind you.
+|119:10:56|CDR|Okay, about 60 feet northeast. How does it look behind you.
 |119:11:00|CC|Okay, 17, for your planning, we're - we're now about 20 minutes behind the time line -
 |119:11:03|LMP|That's good.
 |119:11:06|CDR|You're cutting out, Bob. You'll have to wait.
@@ -12034,7 +12034,7 @@
 |121:43:05|LMP|Okay. Away from the Sun. Gnomon - you want the gnomon side or corner?
 |121:43:14|CC|The gnomon side away from the Sun. That's those - the side with the solar panel has to be away from the Sun. The sides with the solar panel ... to be in the shade.
 |121:43:22|LMP|Okay.
-|121:43:32|CDR|Bob, everything's working fine so far. She's zeroed ard I'm torqued. And I'm ready to press on. RESET is back OFF. Okay, Jack, here I come.
+|121:43:32|CDR|Bob, everything's working fine so far. She's zeroed and I'm torqued. And I'm ready to press on. RESET is back OFF. Okay, Jack, here I come.
 |121:43:44|LMP|Okay. You see me?
 |121:43:46|CDR|No, I'm facing the other way.
 |121:44:02|CDR|Boy, I tell you - just about all you can see in that direction is the LM. Boy, that's tough driving into the Sun!
@@ -12096,14 +12096,14 @@
 ||||Tape 80A/32|Page 819
 |121:50:35|CDR|Okay, you strapped in?
 |121:50:36|LMP|Yes, sir.
-|121:50:38|CDR|Yes, we've got to start getting on this Rover facing 90 degrees to the seats, I think.
-|121:50:43|LMP|I did the same thing.
-|121:50:44|CDR|Right through dust?
-|121:50:44|LMP|Yes, we both did. I tried to knock it all off my feet.
+|121:50:38|CDR|Yes, we've got to start getting on this Rover facing 90 degrees to the seats, I think. I did the same thing.
+|121:50:44|LMP|Did I kick dust?
+|121:50:45|CDR|Yes, we both did.
+|121:50:46|LMP|I tried to knock it all off my feet.
 |121:50:48|CDR|Yes. That's impossible. Okay, Jack. Let's see if we can't get around - around Trident East over here.
 |121:50:55|LMP|Well, I don't - I wish I didn't have this charge. If they played it by the checklist - I wasn't paying attention. Okay - -
 |121:51:02|CDR|We're on the move, Bob.
-|121:51:05|LMP|Okay, this is Trident, isn't it? So we're starting out - ~
+|121:51:05|LMP|Okay, this is Trident, isn't it? So we're starting out - -
 |121:51:09|CDR|Well, it's got to be.
 |121:51:11|LMP|Yes. So, you're starting out on the - You really want to hit about 29 - -
 |121:51:19|CDR|No, no, no.
@@ -12141,9 +12141,11 @@
 |121:53:06|CC|That's general reminder number 1.
 |121:53:14|LMP|Gene, I think we need to head south.
 |121:53:18|CDR|Yes. We've got to go out here southeast. What's that big map look like in relation to Bare Mountain to you?
-|121:53:26|LMP|You mean the - I'm not sure I can get to it. Okay. Okay, I won't - -
-|121:53:36|CDR|It calls for 116 at 0.62 - -
-|121:53:39|LMP|... near the SEP. I ended up with this charge in my hand. There's a big - What are you headed now, south pretty much?
+|121:53:26|LMP|You mean the - I'm not sure I can get through it. Okay.
+|121:53:35|CDR|Okay, I want - it calls for 116 at 0.62 - -
+|121:53:39|LMP|...
+|121:53:39|CDR|- ... near the SEP.
+|121:53:43|LMP|I ended up with this charge in my hand. There's a big - What are you headed now, south pretty much?
 |121:53:51|CDR|Yes.
 |121:53:53|LMP|I think you're getting - That must be station - that must be Emory over there. See with all the blocks in the wall?
 |121:54:02|CDR|Where you looking? Which way?
@@ -12154,7 +12156,7 @@
 |121:54:15|LMP|That would be Powell on the right.
 ||||Tape 80A/35|Page 822
 |121:54:17|CDR|You think?
-|121:54:19|LMP|Certainly doesn't look like th LNA yet.
+|121:54:19|LMP|Certainly doesn't look like the L&A yet.
 |121:54:22|CDR|No, it sure doesn't.
 |121:54:24|CC|How about a range and bearing, guys, I think we can help you.
 |121:54:29|CDR|Okay, 330, 0.3.
@@ -12192,10 +12194,10 @@
 ||||Tape 80A/37|Page 824
 |121:57:31|LMP|Okay.
 |121:57:35|CC|And CDR will be about 5 minutes after that.
-|121:57:37|CDR|I'll get stopped here in a minute, Jack - as scon as I get -
+|121:57:37|CDR|I'll get stopped here in a minute, Jack - as soon as I get -
 |121:57:42|LMP|Okay. I think maybe that might be Steno over there -
 |121:57:45|CDR|I don't think we're too far off.
-|121:57:48|LMP|Okay, there' s my - I' ve got to go to AUX.
+|121:57:48|LMP|Okay, there's my - I've got to go to AUX.
 |121:57:51|CDR|Can you reach it?
 |121:57:51|LMP|I hope so.
 |121:58:09|LMP|Okay, Houston, do you see me in AUX?
@@ -12203,16 +12205,14 @@
 |121:58:21|CDR|I'm going to hit some of these broadside, Jack, and then we won't get any roll angle.
 |121:58:30|LMP|Okay, how far have you come?
 |121:58:32|CDR|I've got to go 0.7 - about another 0.7 mi - kilometers. I may be coming up on the edge of it. I don't know, I may - I'm on the right bearing. Yes. We're all right. Steno has got that dimple on the north. Boy, this is a heck of a way to start out our navigation because it's into the cross-Sun here - not cross-sun - but Sun. Now, that's got to be Powell, wouldn't you say?
-|121:59:00|LMP|Yes. Must be.
-|121:59:04|CDR|Must be.
-|121:59:05|LMP|Listen, you - -
-|121:59:05|CDR|Then that's Steno with all the blocks in it.
-|121:59:08|LMP|Boy, an I glad we didn't land out here! Whew!
+|121:59:00|LMP|Yes. Must be. Must be.
+|121:59:05|CDR|Listen, you - -
+|121:59:05|LMP|Then that's Steno with all the blocks in it.
+|121:59:08|CDR|Boy, an I glad we didn't land out here! Whew!
 ||||Tape 80A/38|Page 825
-|121:59:10|CDR|See this high point up here coming ahead?
-|121:59:13|LMP|Yes.
-|121:59:13|CDR|That should give us our bearings, I hope.
-|121:59:15|LMP|I can't hold that bomb any longer.
+|121:59:10|LMP|See this high point up here coming ahead?
+|121:59:13|CDR|Yes.
+|121:59:13|LMP|That should give us our bearings, I hope. I can't hold that bomb any longer.
 |121:59:18|CDR|What are you going to do with it?
 |121:59:19|LMP|I'm going to drop it at my feet.
 |121:59:22|CDR|Okay.
@@ -12233,19 +12233,18 @@
 |122:01:08|CC|Yes, Steno ought to be at - right at your 9 o'clock there, Gene.
 |122:01:17|CDR|At my 9 o'clock. Yes.
 |122:01:20|CC|Either that or your 3 o'clock. I forgot which one it is.
-|122:01:22|LMP|How do you know where we are?
-|122:01:28|CDR|I think, you're probably right, although it doesn't impresss me as what I saw in the LNA. How much time have we got to drive now, Bob?
+|122:01:22|CDR|How do you know where we are?
+|122:01:28|CDR|I think, you're probably right, although it doesn't impress me as what I saw in the L&A. How much time have we got to drive now, Bob?
 |122:01:35|CC|Okay, stand by.
 |122:01:37|CDR|I think that's probably Emory up there.
 |122:01:42|LMP|That's Steno, I guess.
-|122:01:44|CC|Yes, yes, Steno - Gene and Jack, we'd like you to - If you're in the vicinity, we think you're just about there. We were planning on you leaving the SEP and getting to this place at about 4 plus 58 and we're showing about 5 plus 00 right now so you're right on time. And if you're at 340 and 1.2 in that vicinity, you must be at the station or very close to it where you can see. Over.
-|122:02:10|CDR|Well, it doesn't look real familiar, Bob, as far as Steno's concerned.
-|122:02:15|LMP|Okay, I got - I think they can locate us if we work that block field right there.
-|122:02:19|CDR|Let me get my water.
+|122:01:44|CC|Yes, yes, seven - Gene and Jack, we'd like you to - If you're in the vicinity, we think you're just about there. We were planning on you leaving the SEP and getting to this place at about 4 plus 58 and we're showing about 5 plus 00 right now so you're right on time. And if you're at 340 and 1.2 in that vicinity, you must be at the station or very close to it where you can see. Over.
+|122:02:10|LMP|Well, it doesn't look real familiar, Bob, as far as Steno is concerned. Okay, I got - I think they can locate us if we work that block field right there.
+|122:02:20|CDR|Let me get my water.
 |122:02:21|CC|Okay, on the map we're showing, Jack, that you're probably looking at, you're seeing that there's a couple of boulders at - just above - at about the - With north being 12 o'clock, there are a couple of boulders at about the 09:30 position on Steno. And then there's a couple of more at about the 9 o'clock position on Steno. And we're putting the station right in the midst of all those boulders. Over.
 ||||Tape 80A/40|Page 827
-|122:02:48|CDR|Well, Bob, I don't know. It's hard - hard to follow that that's where we are. I'm not sure. It doesn't look like what I expected Steno to look like - -
-|122:02:57|LMP|No, me neither.
+|122:02:48|LMP|Well, Bob, I don't know. It's hard - hard to follow that that's where we are. I'm not sure. It doesn't look like what I expected Steno to look like - -
+|122:02:57|CDR|No, me neither.
 |122:02:58|CC|Okay. What's the range and bearing one more time?
 |122:03:03|CDR|Okay, 346, 1.1. I think it would almost be worth - I bet that's Emory up on that hill. It's got to be.
 |122:03:25|LMP|Yes.
@@ -12278,14 +12277,14 @@
 |122:05:14|LMP|I'll deploy it now.
 |122:05:15|CC|You can deploy it right now. That's good.
 |122:05:24|PAO|That's a one-pound charge for the lunar seismic profiling experiment.
-|122:05:25|LMP|Okay, the centers [?] are still on, thank goodness.
+|122:05:25|LMP|Okay, the fenders are still on, thank goodness.
 |122:05:28|CC|Beautiful. We'll give you the Taper of the Year award.
 ||||Tape 80A/42|Page 829
-|122:05:35|LMP|Boy, you're going to have to give me the Dunce of the Year Award after this.
-|122:05:39|CDR|Pan 1, ... two -
-|122:05:43|CDR|MARK, SAFE.
-|122:05:46|CDR|Pan 3 -
-|122:05:47|CDR|MARK, SAFE.
+|122:05:35|CDR|Boy, you're going to have to give me the Dust of the Year Award after this.
+|122:05:39|LMP|Pin 1, ... two -
+|122:05:43|LMP|MARK, SAFE.
+|122:05:46|LMP|Pin 3 -
+|122:05:47|LMP|MARK, SAFE.
 |122:05:51|LMP|That will be in the pans, Geno.
 |122:05:54|CDR|Okay.
 |122:05:54|CC|Okay, I copy that.
@@ -12314,11 +12313,12 @@
 |122:09:17|CDR|No, no problem.
 |122:09:19|LMP|Well, I shouldn't have -
 ||||Tape 80A/44|Page 831
-|122:09:20|CDR|The two go hand-in-hand. Nothing disrupts your thought patterns more than somebody saying something.
-|122:09:25|LMP|Well, listen, this is my first geology stop. I guess I'm entitled to do that; Bob, you ready for a mark?
+|122:09:20|CDR|The two go hand-in-hand.
+|122:09:21|LMP|Nothing disrupts your thought patterns more than somebody saying something.
+|122:09:25|CDR|Well, listen, this is my first geology stop. I guess I'm entitled to do that; Bob, you ready for a mark?
 |122:09:31|CC|Roger.
-|122:09:35|LMP|Okay.
-|122:09:37|LMP|MARK it. The light's flashing.
+|122:09:35|CDR|Okay.
+|122:09:37|CDR|MARK it. The light's flashing.
 |122:09:39|CC|Copy that.
 |122:09:44|CDR|Okay, you got one picked out?
 |122:09:47|LMP|Yes, let's hit this - see if we can work on that one, it's at the edge, but it's got - we can chip at the parting plane. And that's one of the things that's come up that I think is of interest that we've got to figure out why they have that foliation in them.
