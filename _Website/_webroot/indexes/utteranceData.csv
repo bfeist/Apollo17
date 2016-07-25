@@ -11901,7 +11901,7 @@
 1223928|CC|Okay. You got a range and - -
 1223929|CDR|...
 1223929|CC|- - bearing, there, guys, please.
-1223931|CDR|Okay, 341.8.
+1223931|CDR|Okay, 341, 0.8.
 1223936|CC|Copy that.
 1223936|CDR|Did you take a picture, Jack?
 1223936|LMP|Yes.
@@ -11914,7 +11914,7 @@
 1224007|LMP|Yes.
 1224009|CDR|That's Trident. Man, I'll tell you.
 1224011|LMP|Look at this thing. That looks like the same kind of rock except it doesn't have any vesicles.
-1224018|CDR|There's some white stuff in that rock. Just let me take a quick pic ...
+1224018|CDR|There's some white stuff in that rock. Just let me take a quick peek ...
 1224022|CDR|See that one right in front of it? Take a picture of it.
 1224026|LMP|Oh, you mean this one, here.
 1224028|CDR|Oh, that's a - that's a big zap pit, isn't it? Take a picture of that?
@@ -11923,12 +11923,12 @@
 1224049|LMP|They're white halos; it just has more of them.
 1224051|CDR|But it's a big one; it's about an inch and a half or 2 inches across.
 1224053|LMP|Yes.
-1224059|CDR|I tell you, I've got to go and get my skies and geometry squared away.
+1224059|CDR|I tell you, I've got to go and get my size and geometry squared away.
 1224104|CC|Okay, 17, how about - -
 1224106|CDR|Did you see this one?
 1224106|CC|- - range and bearing?
 1224107|LMP|Yes.
-1224111|CDR|Okay. 341.7. Bob, we're moving at about 11 clicks right now.
+1224111|CDR|Okay. 341, 0.7. Bob, we're moving at about 11 clicks right now.
 1224118|CC|Copy that. Beautiful. Remember the charge goes off at 0.6.
 1224122|LMP|Doesn't sound like - Okay.
 1224134|LMP|Okay, we want to - -
@@ -11938,7 +11938,7 @@
 1224142|LMP|Swing around that way.
 1224143|CDR|Call it a slide or not, but that's the white mantle. Whoo! That's my first real good picture of it. That is something.
 1224151|LMP|Okay, I got some of that. Okay, how are we doing?
-1224157|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339 ...
+1224157|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339, 0.6 -
 1224203|LMP|Okay. I got a couple of shots right out in there.
 1224207|CDR|Okay. Coming right around to you.
 1224208|LMP|Oh, that's good. Hold that heading. Whoa. That'll be good.
@@ -11953,7 +11953,7 @@
 1224249|LMP|That's affirm.
 1224254|CC|Okay. And we'd like a frame number when you get done there, Jack, after you get it on the ground.
 1224303|LMP|Okay, stand by. Okay. I think we'll miss that.
-1224310|CDR|Okay. Bearing is 339.6.
+1224310|CDR|Okay. Bearing is 339, 0.6.
 1224312|LMP|Okay, start a - a pan around it, Gene - -
 1224316|CC|Copy that, Gene - -
 1224317|LMP|Okay, let me get it out - Okay, I'm going to start slowly ... Okay.
@@ -11990,8 +11990,8 @@
 1224541|CC|And how about a range and bearing when you've stopped taking pictures?
 1224546|CDR|Okay - -
 1224547|CC|We need a - -
-1224547|CDR|336.4.
-1224550|CC|336.4. Roger.
+1224547|CDR|336, 0.4.
+1224550|CC|336, 0.4. Roger.
 1224559|CDR|Bob, I get a distinct impression that - Jack says it's going to be hard to tell whether this is regolith composed from the rock field we see around, but - I get a distinct impression - you can see that dark mantle on top of almost all the rocks. Except we have fresh glass, possibly, in the bottom of some of these small craters.
 1224620|CC|Okay.
 1224621|CDR|Everywhere else there is actually mantle, I believe, in and around some of the crevices and in the vesicles and what have you.
@@ -12034,7 +12034,7 @@
 1225003|LMP|Okay, get - Let me leave my camera.
 1225007|CDR|Well, let me read it. 252, 2.5, and 0. I'm resetting.
 1225011|CC|Okay. Copy that.
-1225012|LMP|And the LMP frame count is 19 - 197, and it was s till turning.
+1225012|LMP|And the LMP frame count is 19 - 197, and it was still turning.
 1225019|CDR|Amp-hours are 108, 105, and batteries are 100 and 120.
 1225027|CC|Okay. Copy 100 and 120.
 1225029|LMP|Okay. Oh, wait a minute. I need my camera, don't I?
@@ -12104,33 +12104,35 @@
 1230029|CDR|All right. Are you out there?
 1230031|LMP|Yes.
 1230032|CDR|Okay, let me back up - a skosh and take the slack out. And I would say, offhand -Oh, boy, what have you got a - that's about as close to a 1/6th g orthogonal - at least, not orthogonal yet, but straight lined. That's it Jack, here.
-1230105|LMP|Stay there, and I'll take a picture.
-1230106|CDR|I thought you did.
-1230109|LMP|No. Okay, I got it now.
-1230114|CMP|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
+1230105|CDR|Stay there, and I'll take a picture.
+1230106|LMP|I thought you did.
+1230109|CDR|No. Okay, I got it now.
+1230114|CDR|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
 1230120|LMP|Yes. You talked me into it.
 1230124|CDR|That was a good idea, but - that's a good straight line.
 1230129|LMP|(Singing) We were strolling in the park one day - Well, we've had lots of good ideas in our time.
 1230143|CDR|Oh, boy; the thing that makes me sick is losing that fender. I can stand a lot of things, but I sure don't like that.
-1230157|LMP|Okay, I get number 4, which - Where is it? is that the one on the ground?
-1230202|CDR|It's probably the one on the ground. Got it? is that the right one?
+1230157|LMP|Okay, I get number 4, which - 
+1230201|CDR|Where is it? is that the one on the ground?
+1230202|LMP|It's probably the one on the ground. Got it? Is that the right one?
 1230216|LMP|Well, 3 - No, this is yours.
 1230219|CDR|No. Take it; doesn't make any difference.
 1230220|LMP|Okay, I'm deploying the - the LMP's deploying reel 3 for your photography purposes.
 1230229|CC|Roger. Copy that.
 1230230|LMP|Oh, - Hey, push that in.
 1230234|CDR|Roger.
-1230234|LMP|Ha, ha, ha. Ha, ha, ha.
-1230237|CDR|Serves you right.
+1230234|LMP|Ha, ha, ha. Ha, ha, ha. Serves you right.
 1230243|LMP|This doesn't push.
 1230251|CDR|Okay, I'm ready to stroll.
-1230323|LMP|(Humming) I found a brown rock that I'm going to bring back.
-1230331|CDR|Please do.
-1230334|LMP|I think it's the back side of a piece of glass, but it's brown.
-1230339|CDR|Well, I think I'm more or less on your track. It wiggled a little bit.
-1230345|LMP|Well, we're - Oh, oh, oh, ooh, stop, Geno.
-1230348|CDR|Okay, Jack, wait a minute. That looks orthagonal to me. Got your picture?
-1230404|LMP|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
+1230323|LMP|(Humming)
+1230328|CDR|I found a brown rock that I'm going to bring back.
+1230331|LMP|Please do.
+1230334|CDR|I think it's the back side of a piece of glass, but it's brown.
+1230339|LMP|Well, I think I'm more or less on your track. It wiggled a little bit.
+1230345|CDR|Well, we're - Oh, oh, oh, ooh, stop, Geno.
+1230348|CDR|Okay, Jack, wait a minute. That looks orthagonal to me. 
+1230402|LMP|Got your picture?
+1230404|CDR|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
 1230440|CC|Is that the one that came out of the hatch?
 1230443|CDR|What the heck is that? Huh? Oh, it's a piece of - Well, it's a piece of glass, all right - crumbled - part of it crumbled but - I got to get that in a bag. Oh, man, is that a nice piece of glass. Just laying out there all by itself. Jack, well - you got a bag handy while I take my pan. I can't reach a bag; I got this sample in the wrong hand.
 1230517|LMP|I don't have a bag.

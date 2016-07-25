@@ -12660,7 +12660,7 @@
 |122:39:28|CC|Okay. You got a range and - -
 |122:39:29|CDR|...
 |122:39:29|CC|- - bearing, there, guys, please.
-|122:39:31|CDR|Okay, 341.8.
+|122:39:31|CDR|Okay, 341, 0.8.
 |122:39:36|CC|Copy that.
 |122:39:36|CDR|Did you take a picture, Jack?
 |122:39:36|LMP|Yes.
@@ -12674,7 +12674,7 @@
 |122:40:09|CDR|That's Trident. Man, I'll tell you.
 ||||Tape 81A/14|Page 859
 |122:40:11|LMP|Look at this thing. That looks like the same kind of rock except it doesn't have any vesicles.
-|122:40:18|CDR|There's some white stuff in that rock. Just let me take a quick pic ...
+|122:40:18|CDR|There's some white stuff in that rock. Just let me take a quick peek ...
 |122:40:22|CDR|See that one right in front of it? Take a picture of it.
 |122:40:26|LMP|Oh, you mean this one, here.
 |122:40:28|CDR|Oh, that's a - that's a big zap pit, isn't it? Take a picture of that?
@@ -12683,12 +12683,12 @@
 |122:40:49|LMP|They're white halos; it just has more of them.
 |122:40:51|CDR|But it's a big one; it's about an inch and a half or 2 inches across.
 |122:40:53|LMP|Yes.
-|122:40:59|CDR|I tell you, I've got to go and get my skies and geometry squared away.
+|122:40:59|CDR|I tell you, I've got to go and get my size and geometry squared away.
 |122:41:04|CC|Okay, 17, how about - -
 |122:41:06|CDR|Did you see this one?
 |122:41:06|CC|- - range and bearing?
 |122:41:07|LMP|Yes.
-|122:41:11|CDR|Okay. 341.7. Bob, we're moving at about 11 clicks right now.
+|122:41:11|CDR|Okay. 341, 0.7. Bob, we're moving at about 11 clicks right now.
 |122:41:18|CC|Copy that. Beautiful. Remember the charge goes off at 0.6.
 |122:41:22|LMP|Doesn't sound like - Okay.
 ||||Tape 81A/15|Page 860
@@ -12699,7 +12699,7 @@
 |122:41:42|LMP|Swing around that way.
 |122:41:43|CDR|Call it a slide or not, but that's the white mantle. Whoo! That's my first real good picture of it. That is something.
 |122:41:51|LMP|Okay, I got some of that. Okay, how are we doing?
-|122:41:57|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339 ...
+|122:41:57|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339, 0.6 -
 |122:42:03|LMP|Okay. I got a couple of shots right out in there.
 |122:42:07|CDR|Okay. Coming right around to you.
 |122:42:08|LMP|Oh, that's good. Hold that heading. Whoa. That'll be good.
@@ -12715,7 +12715,7 @@
 ||||Tape 81A/16|Page 861
 |122:42:54|CC|Okay. And we'd like a frame number when you get done there, Jack, after you get it on the ground.
 |122:43:03|LMP|Okay, stand by. Okay. I think we'll miss that.
-|122:43:10|CDR|Okay. Bearing is 339.6.
+|122:43:10|CDR|Okay. Bearing is 339, 0.6.
 |122:43:12|LMP|Okay, start a - a pan around it, Gene - -
 |122:43:16|CC|Copy that, Gene - -
 |122:43:17|LMP|Okay, let me get it out - Okay, I'm going to start slowly ... Okay.
@@ -12754,8 +12754,8 @@
 ||||Tape 81A/18|Page 863
 |122:45:46|CDR|Okay - -
 |122:45:47|CC|We need a - -
-|122:45:47|CDR|336.4.
-|122:45:50|CC|336.4. Roger.
+|122:45:47|CDR|336, 0.4.
+|122:45:50|CC|336, 0.4. Roger.
 |122:45:59|CDR|Bob, I get a distinct impression that - Jack says it's going to be hard to tell whether this is regolith composed from the rock field we see around, but - I get a distinct impression - you can see that dark mantle on top of almost all the rocks. Except we have fresh glass, possibly, in the bottom of some of these small craters.
 |122:46:20|CC|Okay.
 |122:46:21|CDR|Everywhere else there is actually mantle, I believe, in and around some of the crevices and in the vesicles and what have you.
@@ -12800,7 +12800,7 @@
 |122:50:03|LMP|Okay, get - Let me leave my camera.
 |122:50:07|CDR|Well, let me read it. 252, 2.5, and 0. I'm resetting.
 |122:50:11|CC|Okay. Copy that.
-|122:50:12|LMP|And the LMP frame count is 19 - 197, and it was s till turning.
+|122:50:12|LMP|And the LMP frame count is 19 - 197, and it was still turning.
 |122:50:19|CDR|Amp-hours are 108, 105, and batteries are 100 and 120.
 ||||Tape 81A/21|Page 866
 |122:50:27|CC|Okay. Copy 100 and 120.
@@ -12875,34 +12875,36 @@
 |123:00:31|LMP|Yes.
 |123:00:32|CDR|Okay, let me back up - a skosh and take the slack out. And I would say, offhand -Oh, boy, what have you got a - that's about as close to a 1/6th g orthogonal - at least, not orthogonal yet, but straight lined. That's it Jack, here.
 ||||Tape 81A/25|Page 870
-|123:01:05|LMP|Stay there, and I'll take a picture.
-|123:01:06|CDR|I thought you did.
-|123:01:09|LMP|No. Okay, I got it now.
-|123:01:14|CMP|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
+|123:01:05|CDR|Stay there, and I'll take a picture.
+|123:01:06|LMP|I thought you did.
+|123:01:09|CDR|No. Okay, I got it now.
+|123:01:14|CDR|Hey, if you try and stick that thing in, Jack, you're going to fall over. Just set it down, and we'll stay away from it.
 |123:01:20|LMP|Yes. You talked me into it.
 |123:01:24|CDR|That was a good idea, but - that's a good straight line.
 |123:01:29|LMP|(Singing) We were strolling in the park one day - Well, we've had lots of good ideas in our time.
 |123:01:43|CDR|Oh, boy; the thing that makes me sick is losing that fender. I can stand a lot of things, but I sure don't like that.
-|123:01:57|LMP|Okay, I get number 4, which - Where is it? is that the one on the ground?
-|123:02:02|CDR|It's probably the one on the ground. Got it? is that the right one?
+|123:01:57|LMP|Okay, I get number 4, which - 
+|123:02:01|CDR|Where is it? is that the one on the ground?
+|123:02:02|LMP|It's probably the one on the ground. Got it? Is that the right one?
 |123:02:16|LMP|Well, 3 - No, this is yours.
 |123:02:19|CDR|No. Take it; doesn't make any difference.
 |123:02:20|LMP|Okay, I'm deploying the - the LMP's deploying reel 3 for your photography purposes.
 |123:02:29|CC|Roger. Copy that.
 |123:02:30|LMP|Oh, - Hey, push that in.
 |123:02:34|CDR|Roger.
-|123:02:34|LMP|Ha, ha, ha. Ha, ha, ha.
-|123:02:37|CDR|Serves you right.
+|123:02:34|LMP|Ha, ha, ha. Ha, ha, ha. Serves you right.
 |123:02:43|LMP|This doesn't push.
 ||||Tape 81A/26|Page 871
 |123:02:51|CDR|Okay, I'm ready to stroll.
-|123:03:23|LMP|(Humming) I found a brown rock that I'm going to bring back.
-|123:03:31|CDR|Please do.
-|123:03:34|LMP|I think it's the back side of a piece of glass, but it's brown.
-|123:03:39|CDR|Well, I think I'm more or less on your track. It wiggled a little bit.
-|123:03:45|LMP|Well, we're - Oh, oh, oh, ooh, stop, Geno.
-|123:03:48|CDR|Okay, Jack, wait a minute. That looks orthagonal to me. Got your picture?
-|123:04:04|LMP|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
+|123:03:23|LMP|(Humming)
+|123:03:28|CDR|I found a brown rock that I'm going to bring back.
+|123:03:31|LMP|Please do.
+|123:03:34|CDR|I think it's the back side of a piece of glass, but it's brown.
+|123:03:39|LMP|Well, I think I'm more or less on your track. It wiggled a little bit.
+|123:03:45|CDR|Well, we're - Oh, oh, oh, ooh, stop, Geno.
+|123:03:48|CDR|Okay, Jack, wait a minute. That looks orthagonal to me. 
+|123:04:02|LMP|Got your picture?
+|123:04:04|CDR|Will have in a sec. Wait a minute. Every time I do something, I change the setting. Okay, I got it. I straightened the line out a little bit better after I took the picture - a few kinks in it. Now where's my brown rock? I saw it when I was driving with the Rover. I knew I'd be able to come back here because of the tracks. Looks like an old piece of bread.
 |123:04:40|CC|Is that the one that came out of the hatch?
 |123:04:43|CDR|What the heck is that? Huh? Oh, it's a piece of - Well, it's a piece of glass, all right - crumbled - part of it crumbled but - I got to get that in a bag. Oh, man, is that a nice piece of glass. Just laying out there all by itself. Jack, well - you got a bag handy while I take my pan. I can't reach a bag; I got this sample in the wrong hand.
 |123:05:17|LMP|I don't have a bag.
@@ -15513,7 +15515,7 @@
 |141:22:44|PAO|That site is 100 meters east of the lunar module - Jack Schmitt has just walked out there and turned on the SEP transmitter.
 |141:22:48|LMP|Camera is on. Bob, I'm on. I guess 26.
 |141:23:04|CC|Okay. Copy - -
-|141:23:05|LMP|This here's frame 27, mag Charlie.
+|141:23:05|CDR|This here's frame 27, mag Charlie.
 |141:23:07|CC|Copy that. Charlie 26 - 27.
 |141:23:13|LMP|I had to relearn how to document samples, Bob. I just have. The first part of my roll will have a lot of random exposures and focuses.
 |141:23:26|LMP|Okay. We're back in business. And I'm - while I'm waiting for Gene, getting a rock - it looks a little finer grained than the others we've seen in the LRV sampler, along with some soil. And that's done. Man, that's a neat sampler. Only way to fly. Okay, and that's in bag 22E. It has the stereo documentation and a locator to the LM, and it's about 2 meters from the S - from the SEP.
