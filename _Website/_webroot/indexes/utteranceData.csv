@@ -14581,7 +14581,7 @@
 1412244|PAO|That site is 100 meters east of the lunar module - Jack Schmitt has just walked out there and turned on the SEP transmitter.
 1412248|LMP|Camera is on. Bob, I'm on. I guess 26.
 1412304|CC|Okay. Copy - -
-1412305|LMP|This here's frame 27, mag Charlie.
+1412305|CDR|This here's frame 27, mag Charlie.
 1412307|CC|Copy that. Charlie 26 - 27.
 1412313|LMP|I had to relearn how to document samples, Bob. I just have. The first part of my roll will have a lot of random exposures and focuses.
 1412326|LMP|Okay. We're back in business. And I'm - while I'm waiting for Gene, getting a rock - it looks a little finer grained than the others we've seen in the LRV sampler, along with some soil. And that's done. Man, that's a neat sampler. Only way to fly. Okay, and that's in bag 22E. It has the stereo documentation and a locator to the LM, and it's about 2 meters from the S - from the SEP.
@@ -14678,7 +14678,7 @@
 1413136|PAO|The crew has started for Station 2 the most distant of the stations. More than 7 kilometers away.
 1413148|CDR|MARK it,
 1413149|CC|Okay. Copy that.
-1413154|CDR|Okay, We want to go past ... at heading 260, Jack.
+1413154|CDR|Okay, We want to go past LM at heading 260, Jack.
 1413156|LMP|Well. we want to get at 080 and 0.4 and get rid of this charge.
 1413202|CDR|Okay. ... - -
 1413203|CC|Okay. And - -
@@ -14690,7 +14690,7 @@
 1413252|CDR|Yes.
 1413255|LMP|Distance.
 1413256|CC|Roger, Jack. The range is - -
-1413258|CDR|... go around ... ~ -
+1413258|CDR|... go around ... - -
 1413258|CC|- - what changes in the middle at 0.50 meters and 150 meters.
 1413304|LMP|Okay. We - The fender fix is working so far.
 1413307|CC|Beautiful.
@@ -14756,7 +14756,7 @@
 1413655|LMP|Yes. We got to do a partial. I'd like to know where that sampler is. Well, we can do without it, I guess.
 1413705|CDR|Yes. Sure be nice to - What did it do; come off the end?
 1413707|LMP|Yes, I think I can check it though.
-1413708|CDR|Get your pan?
+1413708|CDR|Getting your pan?
 1413709|LMP|Yes. If you go around to - to seeing that big block there by the ALSEP, then you can forget it.
 1413717|CDR|Okay. Okay. I'll just come on around, and I'll pick up my tracks. Do you want to get that sampler? Can you see it?
 1413724|LMP|I think I'd better look.
@@ -14795,7 +14795,7 @@
 1413932|CDR|Yes, sir.
 1413934|CC|Okay. One other thing I might mention to you guys as you're driving here, Jack, before you start talking again, is that - as you go by Camelot, you might keep an eye out for blocks along the rim there, because remember - we may be wanting to come back and move Station 5 to an area where there's blocks, unless there are blocks at the present nominal Station 5. So you might keep an eye for that and plan for the way back. A second thing a reminder, if you do stop for Rover samples or one thing or another along the way, give us a call and keep us informed, because we're timing you on the way out and the assumption is, of course, that driving time out equals drive-back time. And we're under a 63-minute limit to get you from the LM out to the Station 2 because of OPS drive back. So, keep us informed so we can keep a good tab on you.
 1414021|LMP|Okay, Bob. Okay. We'll keep you informed.
-1414022|CDR|Bob, I got the thing tube-locked, and I'm averaging probably 10 to 11 clicks. It's not exactly straight-line navigation, but I think I can hold most of it.
+1414027|CDR|Bob, I got the thing two-blocked, and I'm averaging probably 10 to 11 clicks. It's not exactly straight-line navigation, but I think I can hold most of it.
 1414037|CC|Roger. Beautiful.
 1414039|LMP|Watch the crater - there you go.
 1414042|CC|And, Jack, a reminder - -
@@ -14912,7 +14912,7 @@
 1415436|LMP|Let me get the switch off.
 1415438|CDR|082, 3.0, and 2.6. And, Bob, I've been making - 10 to 12 clicks coming across the surface; and, as I say, for the most part, that's full bore except where I have to do some rapid changes.
 1415455|CC|Okay. And, by and large, the back room is interested in you guys pressing on to Station 2.
-1415504|CDR|Okay, we are. Just watch the batt - or the -LCRU.
+1415504|CDR|Okay, we are. Just watch the batt - or the - LCRU.
 1415508|PAO|That's 10 to 12 kilometers per hour.
 1415512|LMP|Okay, Gene. That's a pretty big rock in there.
 1415515|CDR|Okay.
@@ -15097,7 +15097,7 @@
 1420940|CDR|Yes, I got it. I'm just - - And, I'm trying to keep comm with them as I'm turning here.
 1420944|LMP|Yes.
 1420945|CDR|And, I've been keeping the thing on. I don't know if they're reading us, but I've been moving it.
-1420949|CC|Reading you loud and clear, guys.
+1420949|CC|Read you loud and clear, guys.
 1420952|LMP|Okay. Looking up on the South Massif, we've got real good views of the block-strewn fields. There's one that - there seems to be two dominant colorations of the rocks. The light-colored ones, very - very light tan and to white, and then there are the blue-gray rocks. There's one major outcrop of blue-gray about a sixth of the way down the slope, the center of the field of view we have; and it looks very much like similar blue-gray rocks, right at the crest, the highest point from our vantage point.
 1421035|CDR|Bob, you want another sample of the dark mantle here? Could you use that?
 1421035|CC|Okay, Gene. A range and bearing please.
@@ -15124,7 +15124,7 @@
 1421204|LMP|- - Much soil?
 1421205|CDR|Oh, a little bit - -
 1421206|LMP|Okay. I'll get - I'll get this soil.
-1421208|CDR|Couple teasP00nsfull. Twenty-eight Echo, Bob.
+1421208|CDR|Couple teaspoonfulls. Twenty-eight Echo, Bob.
 1421211|CC|Say again there, 17.
 1421215|CDR|Twenty-eight Echo,
 1421217|CC|Copy that.
@@ -15161,13 +15161,13 @@
 1421549|CC|And, 17, for your benefit, we're showing you with very good net mobility rates here; and things looking quite good.
 1421558|LMP|Thank you. Gene's doing a great job.
 1421603|CDR|I'll tell you, it takes all your time to drive, though. You look around, and you're in a hole.
-1421613|LMP|Okay here's another small crater - instant (?) rock, with the same little pits and a spattering of glass holding the pit materials together. None of these - none of the glass linings look very coherent, Bob. They mainly just seem to be a sprinkling of glass that's - some - helping or coating the instant rock.
+1421613|LMP|Okay here's another small crater - instant rock, with the same little pits and a spattering of glass holding the pit materials together. None of these - none of the glass linings look very coherent, Bob. They mainly just seem to be a sprinkling of glass that's - some - helping or coating the instant rock.
 1421644|CC|Okay, I copy that, Jack.
 1421649|PAO|We're in contact with America on the 28th revolution.
 1421655|LMP|We still don't have - The craters at about 10 to 15 meters in diameter seem to have somewhat more blocky material in their rims. But they're not clearcut blocky rim craters. And here's one that's probably 50 meters across that has a - a fair number of blocks in the bottom. Looks like it might have just about gotten down to where the gabbro is - starts to be abundant again.
 1421726|CC|Okay's I copy on that one, Jack.
 1421727|CDR|... start ... 12 o'clock - 12 o'clock; and I'm going to work my way up to Hole-in-the-Wall and from there on up.
-1421734|LMP|I think That's good.
+1421734|LMP|I think that's good.
 1421735|CDR|Take a long, easy turnout.
 1421736|LMP|Yes.
 1421739|CDR|Got Hole-in-the-Wall, Bob. It's a very long, very subtle, very gentle slope. We'll just have to get some more words when we get there.
@@ -15177,7 +15177,7 @@
 1421758|CDR|Okay, ... .2, 5.6 and 4.9
 1421803|CC|Copy 4.9 on the range.
 1421805|CDR|And about - 20 to 22 amps most of the time.
-1421812|LMP|Okay, we're losing a little bit of LOW GAIN there, Geno.
+1421812|CC|Okay, we're losing a little bit of LOW GAIN there, Geno.
 1421815|CDR|Yes.
 1421818|LMP|I think you need to tilt it up a little. Probably undershooting the Earth. I don't know.
 1421823|CDR|Well, our pitch angle changes all the time. That's the problem. Bob, I have been within 10 to 20 degrees of you the whole time.
@@ -15257,7 +15257,7 @@
 1422448|CDR|And, Bob, I'm starting up the scarp at 081, 6.6, and 5.7.
 1422453|CC|Okay. Copy that, Geno.
 1422454|LMP|This is the first tongue of the scarp.
-1422458|CDR|I don't even think the Rover knows it's going uphill. I've got about 3 - 7 or 8 amps. See what's on top here.
+1422458|CDR|I don't even think the Rover knows it's going uphill. I've got about 3- 7 or 8 amps. See what's on top here.
 1422508|LMP|You're making about 8 - 8 clicks.
 1422510|CDR|And I'm full bore.
 1422514|LMP|(Laughter)
@@ -15265,7 +15265,7 @@
 1422521|LMP|Looks to me like you may be able to head just like you're going.
 1422523|CDR|Yes. Hey, Bob, we'll make it.
 1422525|LMP|And get down - -
-1422526|CDR|Yes. We will make it. ... Get my antenna adjusted.
+1422526|CDR|Yes. We will make it. Get my antenna adjusted.
 1422541|LMP|Okay. Whatever makes up the light mantle is - in - at least, the instant rock that it forms is much lighter than anything we see. Those fragments probably - are 30 percent lighter than any fragments we see on the dark mantle. And that's around the fresh craters. But it is not blocky. Bob, are you still reading?
 1422620|CC|Roger. Read you loud and clear.
 1422623|LMP|Okay, I just wanted to make sure my antenna's working.
@@ -15309,7 +15309,7 @@
 1423104|LMP|But there's no question where those tracks come from.
 1423107|CC|And we gather you're slowing down to about 5 clicks now, coming up this last rise.
 1423114|CDR|Yes, I'm back up to about 7 to 10 now, Bob. That'a the slowdown - is because that's about all it will take.
-1423122|LMP|Bob, I have the impression that there is a dipping zone of blue-gray outcrops, or block concentrations up there on the Massif, that trends from the high point just beneath the Earth - cross-slope - and probably is - at least the apparent depth is - oh, I don't know, 10 or 15 degrees to the east. It looks like those outcrops may match up along that trend.
+1423122|LMP|Bob, I have the impression that there is a dipping zone of blue-gray outcrops, or block concentrations up there on the Massif, that trends from the high point just beneath the Earth - cross-slope - and probably is - at least the apparent dip is - oh, I don't know, 10 or 15 degrees to the east. It looks like those outcrops may match up along that trend.
 1423200|CC|Okay.
 1423200|CDR|Jack, I'm going to head right along this ridge because I think that's the depression we were talking about.
 1423204|LMP|Yes, That's Nansen down there.
@@ -15324,11 +15324,11 @@
 1423315|LMP|I'm afraid those - I think we can follow those tracks - the pictures, maybe, or -
 1423323|CDR|Yes, I think we can see some of those coming down.
 1423325|LMP|I think the ones from the big outcrop of blue-gray rock, though, are the ones going into Nansen.
-1423330|CDR|Bob, my best guess - let's see - 077) 7.7, 6.6 - is that we're coming up on the northern side of Nansen.
+1423330|CDR|Bob, my best guess - let's see - 077, 7.7, 6.6 - is that we're coming up on the northern side of Nansen.
 1423341|CC|Okay. We copy that, Geneo.
 1423345|CDR|And, let me tell you, this is quite a Rover ride.
 1423349|CC|It sure sounds like it.
-1423355|CDR|That is quite a machine, I tell you. I think it would do a lot more than we'd let it.
+1423355|CDR|But it's quite a machine, I tell you. I think it would do a lot more than we'd let it.
 1423406|LMP|(Laughter) That's right. I think that big crater up there on the side is the one that you can see in the photographs, just above Station 2.
 1423419|CDR|Yes. I think if I come up here, do a hard left turn; you unbuckle your belt, you'll roll right down into the bottom of Nansen.
 1423425|LMP|I'm afraid you're right. ...
@@ -15336,10 +15336,10 @@
 1423434|LMP|Bob - -
 1423435|CDR|Okay, there's Nansen over there, huh?
 1423438|LMP|Well, I think so.
-1423439|CDR|Yes.
-1423439|LMP|I think you're right. It's got to be it. Got to be it. Yes, Bob, I think we're into a breccia population now. I think the blocks in the light mantle are largely breccias. They're mottled in their characteristics. The white zaps do not seem to be nearly as apparent. They tend to be chalky when they get hit. At least, in the large craters, the walls are chalk - chalky looking. Oh, yes. We've got boulders in Station 2.
+1423439|CDR|Yes. I think you're right. It's got to be it. Got to be it.
+1423447|LMP|Yes, Bob, I think we're into a breccia population now. I think the blocks in the light mantle are largely breccias. They're mottled in their characteristics. The white zaps do not seem to be nearly as apparent. They tend to be chalky when they get hit. At least, in the large craters, the walls are chalk - chalky looking. Oh, yes. We've got boulders in Station 2.
 1423521|CDR|Yes, they're there.
-1423522|LMP|Yes, sir. Boy, I tell you, if I hand on to this camera until you stop and can tighten it up, it'll be a miracle.
+1423522|LMP|Yes, sir. Boy, I tell you, if I hang on to this camera until you stop and can tighten it up, it'll be a miracle.
 1423533|CDR|Bob, how long have we been driving?
 1423535|CC|Stand by. We estimate you've got about a kilometer and a half to go - a little over a kilometer, anyway. Stand by, we'll check on the time. You're doing great.
 1423542|CDR|How long in - -
@@ -15416,7 +15416,7 @@
 1424421|CDR|Yes, sir. 0.1, 9.1, 7.6. We are right at Station 2.
 1424429|LMP|Look at Nansen.
 1424432|CC|Okay. We copy that. When you're at the station, here's a couple of things - -
-1424434|CDR|Five minutes - -
+1424434|CDR|My goodness gracious -
 1424435|CC|- - we'd like for you guys to look at in the overhead. In addition to them. We'd like the TV lens to be dusted, in addition to the regular dusting. That'll take the lens brush, remember.
 1424444|LMP|Can you try to tighten that?
 1424446|CC|You might check the low gain antella - antenna elevation to make sure it's at 45 degrees. We'd like - we think you commented on that. And I think you're right now looking at tightening Jack's camera handle.
@@ -15424,11 +15424,11 @@
 1424502|CDR|Okay. Yes, we are at 45 degrees, Bob. Let me check it. I'll lose the comm on you a second. I've got to turn it towards me.
 1424517|CDR|... at 045.
 1424524|CC|And, 17. Jack, we'd like you to check the SEP for us. I suspect we'll have to turn it off and open the mirrors and dust them.
-1424538|LMP|Boy, when you get this picture -
+1424538|CDR|Boy, when you get this picture -
 1424550|PAO|TV coming in now.
 1424551|CDR|You got HIGH GAIN.
 1424553|CC|Roger. Thank you. We have TV.
-1424605|CC|Geno, we do not get a good bearing from you guys.
+1424605|CC|Geno, we did not get a good bearing from you guys.
 1424606|CDR|Oh, Manischewitz!
 1424609|CC|We might also check the LMP's camera.
 1424610|CDR|Okay. I'll give it to you again.
