@@ -57,6 +57,8 @@ var gColorZoomStrokeLight = 'white';
 var gColorZoomStrokeDark = 'lightgrey';
 var gColorVideoRegionBackground =  '#010047';
 var gColorVideoRegionStroke =  'blue';
+var gColorVideo3DRenderRegionBackground =  '#270047';
+var gColorVideo3DRenderRegionStroke =  '#4D0062';
 var gColorTOCText = "#999999";
 var gColorTOCStroke = "orange";
 var gColorPhotoTicks = '#00C000'; //'green';
@@ -440,8 +442,13 @@ function drawTier1() {
         var rectTop = (gTier1Top + gTier1Height) - gTier1Height / gHeightVideoRectDenominator;
         var rectHeight = gTier1Height / gHeightVideoRectDenominator;
         var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-        vidRect.strokeColor = 'blue';
-        vidRect.fillColor = 'blue';
+        if (gVideoSegments[i][2] == "3D") {
+            vidRect.fillColor = gColorVideo3DRenderRegionStroke;
+            vidRect.strokeColor = gColorVideo3DRenderRegionStroke;
+        } else {
+            vidRect.fillColor = gColorVideoRegionStroke;
+            vidRect.strokeColor = gColorVideoRegionStroke;
+        }
         tempGroup.addChild(vidRect);
     }
 
@@ -590,8 +597,13 @@ function drawTier2() {
             var rectTop = (gTier2Top + gTier2Height) - gTier2Height / gHeightVideoRectDenominator;
             var rectHeight = gTier2Height / gHeightVideoRectDenominator - 2;
             var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-            vidRect.fillColor = gColorVideoRegionBackground;
-            vidRect.strokeColor = gColorVideoRegionStroke;
+            if (gVideoSegments[i][2] == "3D") {
+                vidRect.fillColor = gColorVideo3DRenderRegionStroke;
+                vidRect.strokeColor = gColorVideo3DRenderRegionStroke;
+            } else {
+                vidRect.fillColor = gColorVideoRegionBackground;
+                vidRect.strokeColor = gColorVideoRegionStroke;
+            }
             tempGroup.addChild(vidRect);
         }
     }
@@ -832,8 +844,13 @@ function drawTier3() {
             var rectTop = (gTier3Top + gTier3Height) - gTier3Height / gHeightVideoRectDenominator;
             var rectHeight = gTier3Height / gHeightVideoRectDenominator - 2;
             var vidRect = new paper.Path.Rectangle(rectStartX, rectTop, rectWidth, rectHeight);
-            vidRect.fillColor = gColorVideoRegionBackground;
-            vidRect.strokeColor = gColorVideoRegionStroke;
+            if (gVideoSegments[i][2] == "3D") {
+                vidRect.fillColor = gColorVideo3DRenderRegionBackground;
+                vidRect.strokeColor = gColorVideo3DRenderRegionStroke;
+            } else {
+                vidRect.fillColor = gColorVideoRegionBackground;
+                vidRect.strokeColor = gColorVideoRegionStroke;
+            }
             tempGroup.addChild(vidRect);
         }
     }

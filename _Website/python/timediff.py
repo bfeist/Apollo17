@@ -4,7 +4,7 @@ import csv
 input_file_path = "./timeinfo.txt"
 csv_reader = csv.reader(open(input_file_path, "rU"), delimiter='-')
 firstSeconds = 0
-offsetStartSeconds = 60
+offsetStartSeconds = 0
 for csv_row in csv_reader:
     if len(csv_row) < 3: #list that hasn't been processed yet
         arrayOffset = 0

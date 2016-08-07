@@ -1,31 +1,15 @@
-0:01:00 - 141:31:49  -  Start moving
-0:02:53 - 141:33:42  -  "you can turn right now"
-0:04:11 - 141:35:00  -  due south of ALSEP
-0:04:46 - 141:35:35  -  "shallow turn"
-0:05:02 - 141:35:51  -  LRV charge deployed (undocumented?)
-0:06:19 - 141:37:08  -  started partial pan loop
-0:06:39 - 141:37:28  -  stopped after partial pan loop to check sampler
-0:08:40 - 141:39:29  -  started again
-0:13:57 - 141:44:46  -  "hold it", you can go around that one
-0:14:45 - 141:45:34  -  south of the center of Camelot
-0:17:50 - 141:48:39  -  rolled to the right
-0:18:56 - 141:49:45  -  southern rim of Horatio
-0:23:51 - 141:54:40  -  stopped. LRV sample 1
-0:25:16 - 141:56:05  -  resumed
-0:27:15 - 141:58:04  -  turn right at Bronte
-0:27:35 - 141:58:24  -  "watch it, one on your right"
-141:59:09  -  north side of Bronte
-0:33:16 - 142:04:05  -  100m from light mantle
-0:38:43 - 142:09:32  -  "I gotta get around that slope"
-0:40:11 - 142:11:00  -  "swing it" to right for LRV sample 3
-0:40:21 - 142:11:10  -  stopped at LRV3
-0:42:41 - 142:13:30  -  We are rolling
-0:44:44 - 142:15:33  -  we are back in the dark mantle (maybe)
-0:48:17 - 142:19:06  -  "weee" (jumping down and up crater)
-0:53:59 - 142:24:48  -  starting up the Scarp
-142:27:16 - still on the scarp rim, not on the scarp yet
-142:29:25 - almost up the scarp, in the middle of zigzaging
-142:29:55 - on top of the scarp
-142:30:45 - bear left
-142:32:19 - 2nd bear left
-1:12:41 - 142:43:30  -  Stopped. Heading 045
+0:00:00 - 146:52:34 - TV off
+0:03:08 - 146:55:42 - rolling
+0:05:10 - 146:57:44 - see rover tracks from LMtoSTA2
+0:05:45 - 146:58:19 - see the LM
+0:08:54 - 147:01:28 - following own tracks
+0:09:19 - 147:01:53 - see charge deployed on LMtoSTA2
+0:10:35 - 147:03:09 - stopped to deploy charge in a depression
+0:11:28 - 147:04:02 - started moving for LRV pan
+0:11:43 - 147:04:17 - Jack runs out of film
+0:12:04 - 147:04:38 - Gene takes photo just before crossing own tracks
+0:12:41 - 147:05:15 - moving
+0:13:43 - 147:06:17 - stopped = Drop Jack off at ALSEP
+0:16:52 - 147:10:00 - moving
+0:19:49 - 147:12:23 - parked
+0:22:51 - 147:15:25 - TV on

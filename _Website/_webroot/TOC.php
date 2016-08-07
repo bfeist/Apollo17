@@ -4,7 +4,6 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
 	<script type="text/javascript" src="lib/webfontloader.js"></script>
@@ -467,6 +466,9 @@
     <li onclick="parent.seekToTime('1434726')" class="tocitem" id="tocid1434726"><span class="TOCTimestamp">143:47:26</span>
         <span class="TOC_item">Departed for Station 3 (Lara Crater)</span>
         <!-- <span class="TOCSubtitle">One stop to obtain a traverse gravimeter experiment reading, gather samples, and perform panoramic and 500mm photography.</span>--></li>
+    <li onclick="parent.seekToTime('1435736')" class="tocitem" id="tocid1435736"><span class="TOCTimestamp">143:57:36</span>
+        <span class="TOC_item">Schmitt fooled by an orange reflection</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1441633')" class="tocitem" id="tocid1441633"><span class="TOCTimestamp">144:16:33</span>
         <span class="TOC_item">Capcom expresses how smoothly the mission is going</span>
         <!-- <span class="TOCSubtitle"></span>--></li>

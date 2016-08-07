@@ -26,7 +26,7 @@ function ajaxGetVideoURLData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/videoURLData.csv";
+    urlStr += "indexes/videoURLData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -42,7 +42,7 @@ function ajaxGetTOCData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/TOCData.csv";
+    urlStr += "indexes/TOCData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -58,7 +58,7 @@ function ajaxGetUtteranceData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/utteranceData.csv";
+    urlStr += "indexes/utteranceData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -74,7 +74,7 @@ function ajaxGetCommentaryData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/commentaryData.csv";
+    urlStr += "indexes/commentaryData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -90,7 +90,7 @@ function ajaxGetPhotoData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/photoData.csv";
+    urlStr += "indexes/photoData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -106,7 +106,7 @@ function ajaxGetMissionStagesData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/missionStagesData.csv";
+    urlStr += "indexes/missionStagesData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -122,7 +122,7 @@ function ajaxGetVideoSegmentData() {
     } else {
         urlStr = ".";
     }
-    urlStr += "/indexes/videoSegmentData.csv";
+    urlStr += "indexes/videoSegmentData.csv";
     urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
