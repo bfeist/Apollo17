@@ -1,15 +1,6 @@
-0:00:00 - 146:52:34 - TV off
-0:03:08 - 146:55:42 - rolling
-0:05:10 - 146:57:44 - see rover tracks from LMtoSTA2
-0:05:45 - 146:58:19 - see the LM
-0:08:54 - 147:01:28 - following own tracks
-0:09:19 - 147:01:53 - see charge deployed on LMtoSTA2
-0:10:35 - 147:03:09 - stopped to deploy charge in a depression
-0:11:28 - 147:04:02 - started moving for LRV pan
-0:11:43 - 147:04:17 - Jack runs out of film
-0:12:04 - 147:04:38 - Gene takes photo just before crossing own tracks
-0:12:41 - 147:05:15 - moving
-0:13:43 - 147:06:17 - stopped = Drop Jack off at ALSEP
-0:16:52 - 147:10:00 - moving
-0:19:49 - 147:12:23 - parked
-0:22:51 - 147:15:25 - TV on
+166:00:20 - TV off
+166:02:10 - moving
+166:02:57 - stopped 100m south of boulder
+166:05:36 - moving
+166:09:04 - stopped
+166:11:07 - TV on

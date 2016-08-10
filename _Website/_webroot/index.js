@@ -696,6 +696,8 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
+    trace("repopulateUtterances(): populated utterances from: " + gUtteranceDisplayStartIndex);
+    trace("repopulateUtterances(): populated utterances to: " + gUtteranceDisplayEndIndex);
     $('#utteranceDiv').scrollTop('#uttid' + timeId);
 }
 
@@ -716,15 +718,17 @@ function prependUtterances(count, atTop) {
 
     if (atTop) {
         var elementToScrollBackTo = $("#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
-        trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+        //trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
         var oldScrollDestination = utteranceDiv.scrollTop() + elementToScrollBackTo.offset().top - utteranceDiv.offset().top;
         utteranceDiv.scrollTop(oldScrollDestination);
     }
 
-    //trace("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    trace("prependUtterances(): prepended utterances from: " + startIndex);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
-    //trace("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
-    trace("prependUtterances:" + prependedCount);
+    trace("prependUtterances(): prepended utterances to: " + i);
+    var diff = i - startIndex;
+    trace("prependUtterances(): difference: " + diff);
+    trace("prependUtterances(): counted prepends in if statement: " + prependedCount);
 }
 
 function appendUtterances(count, atBottom) {
@@ -749,10 +753,12 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    //trace("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    trace("appendUtterances(): appended utterances from: " + startIndex);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    //trace("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
-    trace("appendUtterances:" + appendedCount);
+    trace("appendUtterances(): appended utterances to: " + i);
+    var diff = i - startIndex;
+    trace("appendUtterances(): difference: " + diff);
+    trace("appendUtterances(): counted appends in if statement: " + appendedCount);
 }
 
 function trimUtterances() {
@@ -761,6 +767,8 @@ function trimUtterances() {
         trace("trimUtterances():" + numberToRemove);
         var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
+        trace("trimUtterances(): currDistFromStart: " + currDistFromStart);
+        trace("trimUtterances(): currDistFromEnd: " + currDistFromEnd);
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
             var counter = 0;
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
@@ -768,8 +776,10 @@ function trimUtterances() {
                 counter++;
             }
             //trace("Trimming " + numberToRemove + " utterances from top");
-            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
-            trace("trimUtterances(): removed from top: " + counter);
+            var tempEndForTrace = gUtteranceDisplayStartIndex + numberToRemove;
+            trace("trimUtterances(): removed from top: " + counter + " starting at index: " + gUtteranceDisplayStartIndex + " up to index: " + tempEndForTrace);
+            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove;
+
         } else { //trim items from bottom of utterance div
             counter = 0;
             for (i = gUtteranceDisplayEndIndex - numberToRemove; i <= gUtteranceDisplayEndIndex; i++) {
@@ -778,7 +788,7 @@ function trimUtterances() {
             }
             //trace("Trimming " + numberToRemove + " utterances from bottom");
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
-            trace("trimUtterances(): removed from bottom: " + counter);
+            trace("trimUtterances(): removed from bottom: " + counter + " starting at index: " + gUtteranceDisplayEndIndex - numberToRemove);
         }
         var utteranceDiv = $('#utteranceDiv');
         var currElement = $('#uttid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
@@ -811,7 +821,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
     //html = html.replace("@words", "[" + utteranceIndex + "]" + words_modified);
-    html = html.replace("@words", words_modified);
+    html = html.replace("@words", utteranceIndex + "|" + words_modified);
     if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
     } else if (who_modified == "Mission Control") {

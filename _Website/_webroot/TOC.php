@@ -4,6 +4,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
+	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
 
 	<script type="text/javascript" src="lib/webfontloader.js"></script>
@@ -589,7 +590,7 @@
         <!-- <span class="TOCSubtitle">Activated the experiment, gathered samples, and performed documentary photography.</span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1642232')" class="tocitem" id="tocid1642232"><span class="TOCTimestamp">164:22:32</span>
+        <li onclick="parent.seekToTime('1642127')" class="tocitem" id="tocid1642127"><span class="TOCTimestamp">164:21:27</span>
         <span class="TOC_item">Departed for Station 6 (Tracy's Rock)</span>
         <!-- <span class="TOCSubtitle">Two short stops to gather enroute samples</span>--></li>
     </ul>
@@ -613,7 +614,7 @@
     <li onclick="parent.seekToTime('1654827')" class="tocitem" id="tocid1654827"><span class="TOCTimestamp">165:48:27</span>
         <span class="TOC_item">Photo: Lunar Module in the far distance</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('1660536')" class="tocitem" id="tocid1660536"><span class="TOCTimestamp">166:05:36</span>
+    <li onclick="parent.seekToTime('1660210')" class="tocitem" id="tocid1660210"><span class="TOCTimestamp">166:02:10</span>
         <span class="TOC_item">Departed for Station 7 (North Massif)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
