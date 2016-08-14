@@ -11901,7 +11901,7 @@
 1223928|CC|Okay. You got a range and - -
 1223929|CDR|...
 1223929|CC|- - bearing, there, guys, please.
-1223931|CDR|Okay, 341, 0.8.
+1223931|CDR|Okay, 341/0.8.
 1223936|CC|Copy that.
 1223936|CDR|Did you take a picture, Jack?
 1223936|LMP|Yes.
@@ -11928,7 +11928,7 @@
 1224106|CDR|Did you see this one?
 1224106|CC|- - range and bearing?
 1224107|LMP|Yes.
-1224111|CDR|Okay. 341, 0.7. Bob, we're moving at about 11 clicks right now.
+1224111|CDR|Okay. 341/0.7. Bob, we're moving at about 11 clicks right now.
 1224118|CC|Copy that. Beautiful. Remember the charge goes off at 0.6.
 1224122|LMP|Doesn't sound like - Okay.
 1224134|LMP|Okay, we want to - -
@@ -11938,7 +11938,7 @@
 1224142|LMP|Swing around that way.
 1224143|CDR|Call it a slide or not, but that's the white mantle. Whoo! That's my first real good picture of it. That is something.
 1224151|LMP|Okay, I got some of that. Okay, how are we doing?
-1224157|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339, 0.6 -
+1224157|CDR|I don't want to go in that crater, that's what I don't want to do. Okay. We're at 0.6; how about 339/0.6 -
 1224203|LMP|Okay. I got a couple of shots right out in there.
 1224207|CDR|Okay. Coming right around to you.
 1224208|LMP|Oh, that's good. Hold that heading. Whoa. That'll be good.
@@ -11953,7 +11953,7 @@
 1224249|LMP|That's affirm.
 1224254|CC|Okay. And we'd like a frame number when you get done there, Jack, after you get it on the ground.
 1224303|LMP|Okay, stand by. Okay. I think we'll miss that.
-1224310|CDR|Okay. Bearing is 339, 0.6.
+1224310|CDR|Okay. Bearing is 339//0.6.
 1224312|LMP|Okay, start a - a pan around it, Gene - -
 1224316|CC|Copy that, Gene - -
 1224317|LMP|Okay, let me get it out - Okay, I'm going to start slowly ... Okay.
@@ -11990,8 +11990,8 @@
 1224541|CC|And how about a range and bearing when you've stopped taking pictures?
 1224546|CDR|Okay - -
 1224547|CC|We need a - -
-1224547|CDR|336, 0.4.
-1224550|CC|336, 0.4. Roger.
+1224547|CDR|336/0.4.
+1224550|CC|336/0.4. Roger.
 1224559|CDR|Bob, I get a distinct impression that - Jack says it's going to be hard to tell whether this is regolith composed from the rock field we see around, but - I get a distinct impression - you can see that dark mantle on top of almost all the rocks. Except we have fresh glass, possibly, in the bottom of some of these small craters.
 1224620|CC|Okay.
 1224621|CDR|Everywhere else there is actually mantle, I believe, in and around some of the crevices and in the vesicles and what have you.
@@ -16292,7 +16292,7 @@
 1440532|CDR|Not a complete pan but it will show the location.
 1440540|LMP|Okay. LMP frame count 80.
 1440544|CC|Copy that; 80.
-1440546|LMP|Okay. Geno, you're heading for a spot that's about 080, 5.5, approximately. And -
+1440546|LMP|Okay. Geno, you're heading for a spot that's about 080/5.5, approximately. And -
 1440554|CDR|Okay.
 1440555|CC|Yes, you guys following your tracks home, or not?
 1440557|LMP|Do you have an update?
@@ -16399,8 +16399,8 @@
 1441800|CC|Okay, I copy that, Jack.
 1441802|LMP|Here are your tracks - Hey! We crossed somebody's tracks - well, we sure did ... we made a loop.
 1441808|CC|Hope they look like yours.
-1441813|CDR|That was at 081, 5.7.
-1441817|CC|Okay, copy 081, 5.7. Do they look like your tracks?
+1441813|CDR|That was at 081/5.7.
+1441817|CC|Okay, copy 081/5.7. Do they look like your tracks?
 1441823|LMP|Well, here's another set.
 1441825|CDR|Yes, this is where we went to the big crater and I came southeast in order to get around it, remember? We saw that hole?
 1441831|LMP|Yes.
@@ -16417,7 +16417,7 @@
 1441934|CDR|How long have we been out?
 1441935|CC|3 plus 45.
 1441942|CDR|Thank you.
-1441946|CDR|We're at 083, 5.7.
+1441946|CDR|We're at 083/5.7.
 1441957|LMP|Well, it certainly doesn't look like the geology of Norway, but it certainly is interesting.
 1442002|CDR|That must be Lara right there, huh?
 1442003|LMP|Yes.
@@ -16461,7 +16461,7 @@
 1442258|CDR|I'm 087 now.
 1442259|CC|Yes, I realize that, Gene; my mistake. Somebody's got a wrong thing down here. That's the Hole-in-the-Wall. My mistake.
 1442308|LMP|Gene, I think - I think we need to go - go back there a little bit.
-1442314|CDR|Yes, we're at 087, 6.0. I think that's probably about right. Why don't we stop here?
+1442314|CDR|Yes, we're at 087/6.0. I think that's probably about right. Why don't we stop here?
 1442317|CC|Okay, 17, that's a great stop. That was my mistake, I was reading the Hole-in-the-Wall coordinate.
 1442325|CDR|All right, Bob, we've got some boulders over here that are in the light mantle.
 1442331|CC|Okay, now, let me brief you on Station 3. It's going to be a very brief station to make up for the - -
@@ -16860,7 +16860,7 @@
 1450629|CC|Copy that.
 1450630|CDR|We're at 087 - 087 and 5.9 on that range.
 1450636|CC|Copy that.
-1450640|CC|And the drive to Station 4 will be nominal and we'll get a Rover sample at about 094, 5.1 but it will be the track as indicated on the map and the cuff checklist.
+1450640|CC|And the drive to Station 4 will be nominal and we'll get a Rover sample at about 094/5.1 but it will be the track as indicated on the map and the cuff checklist.
 1450657|LMP|Okay. Going to Shorty.
 1450708|CDR|Okay. On our way.
 1450710|LMP|You got your checklist there?
@@ -16868,16 +16868,16 @@
 1450714|LMP|Okay.
 1450715|CDR|And, we're heading - heading is 069, around - Well, up - I got it -
 1450720|LMP|Yes, that's pretty close.
-1450722|CDR|I know we're next to that band but I know where we're going, next is 094, 5.1 is what I want for that sample.
+1450722|CDR|I know we're next to that band but I know where we're going, next is 094/5.1 is what I want for that sample.
 1450729|LMP|Yeah. Zero what?
-1450732|CDR|I think he said 094, 5.1.
+1450732|CDR|I think he said 094/5.1.
 1450734|LMP|He meant - 052 is what's nominal. What's the sample again, Bob?
-1450739|CC|5.1; 094, 5.1.
+1450739|CC|5.1; 094/5.1.
 1450751|LMP|Oh, okay, that's the heading.
-1450753|CDR|All right. You got 094, 5.1.
+1450753|CDR|All right. You got 094/5.1.
 1450755|LMP|Yes, got it. Just drive by this big rock.
 1450803|CDR|Want to look at it. Can't see it. I can't see when that LCRU shines into my eyes. Looks like one of the gray breccias.
-1450824|LMP|Big 3-meter - 3 to 4-meter block out here all by itself on the light mantle - I got some pictures it was at 088, 5.6.
+1450824|LMP|Big 3-meter - 3 to 4-meter block out here all by itself on the light mantle - I got some pictures it was at 088/5.6.
 1450837|CC|Okay, copy that.
 1450838|LMP|And it looked like a gray breccia, I'm not sure though, all I could see was the surface texture, and it had the modular or elongate modular texture that those breccias had up on the South Massif.
 1450854|CC|Okay, copy that, Jack.
@@ -16898,7 +16898,7 @@
 1451041|LMP|Yes, that's what they call a pit crater. Can you swing a little bit and let me get that fragment crater - see that one on your left there?
 1451056|LMP|Quite a scene up here. Got your pictures? Pictures?
 1451107|CDR|Yes, I got them.
-1451108|CDR|Okay, Bob. We're at 090, 5.3 for a quick Rover sample of a very, very fragmental crater. The ejecta is about 50-percent small angular fragments much different than we have seen before in terms of the type of patterns.
+1451108|CDR|Okay, Bob. We're at 090/5.3 for a quick Rover sample of a very, very fragmental crater. The ejecta is about 50-percent small angular fragments much different than we have seen before in terms of the type of patterns.
 1451128|CC|Okay, copy.
 1451128|CDR|Okay, and that's in bag 41 Yankee.
 1451140|CDR|And we're on our way.
@@ -17415,8 +17415,8 @@
 1460019|CC|Okay; we copy that.
 1460027|LMP|Okay, sports fans. We're still about on the - well, I think we moved - yes, we moved - we moved out into the Tortilla Flat area, I guess. Not very flat.
 1460043|CC|That's affirmative.
-1460051|CDR|Those kind I can go through. if I can see them coming.
-1460054|LMP|102, 3.8. And where's Victory?
+1460051|CDR|Those kind I can go through, if I can see them coming.
+1460054|LMP|102/3.8. And where's Victory?
 1460101|CC|Dead ahead.
 1460102|CDR|Boy, Victory is going to be subtle, I'll tell you. Bob, how long we been out?
 1460112|CC|Stand by. 5 plus 26, 5 plus 26.
@@ -17455,7 +17455,7 @@
 1460408|CDR|Yes, that's where I'm going to go. Hold on.
 1460412|LMP|I'm holding. Oh man! If Charlie is smiling because my hands are tired, why did he let you give me - get the charge off? Fine backup crew we got.
 1460440|CC|You guys didn't really mean to say that, did you?
-1460446|LMP|106, 3.2. We're approaching the rim of Victory.
+1460446|LMP|106/3.2. We're approaching the rim of Victory.
 1460458|LMP|And the LMP frame count is somewhere around 7 - well, 85, maybe.
 1460504|CDR|That's Victory; look at it go to the left and look at it go to the right. That's Victory; we're right on the ridge.
 1460508|LMP|Yes. Yes.
@@ -20464,14 +20464,14 @@
 1642555|CDR|Well, I tell you, it's not exactly the greatest place to navigate through.
 1642559|LMP|I think you ought to bear left, don't you?
 1642601|CDR|Yes. That's where I'm going here. I just want to get across this mound of boulders.
-1642605|LMP|There's still - there's a crater we're just passing at 207, 0.4, about 20 meters in diameter, with the pyroxene gabbro blocks on the rim, few of them. It's not an exceptionally blocky rim crater, but we are in an area where the block population is up to about 5 percent in contrast to most of the area we traversed yesterday.
+1642605|LMP|There's still - there's a crater we're just passing at 207/0.4, about 20 meters in diameter, with the pyroxene gabbro blocks on the rim, few of them. It's not an exceptionally blocky rim crater, but we are in an area where the block population is up to about 5 percent in contrast to most of the area we traversed yesterday.
 1642636|CDR|I tell you, going is a little bit rough; there's a population of blocks as Jack said and there is an awful lot of small craters.
 1642645|LMP|Yes, I was just going to add that the frequency of craters in the 10-meter size range is quite a bit higher than we were used to yesterday. Oops, there's one.
 1642702|CDR|Yes.
 1642703|LMP|Snuck up on you. And they all - although not exceptionally blocky rim - they all have a slightly, maybe 2 or 3 or 5 percent more blocks in their walls and on their rim than do the - does the normal terrain.
 1642726|CC|Roger, Jack. Copy that.
 1642729|LMP|Still no - still no obvious structure within the dark mantling material itself.
-1642738|CDR|Bob, you said 185, 1.5?
+1642738|CDR|Bob, you said 185/1.5?
 1642741|CC|That's affirm.
 1642743|LMP|What do you want? For the Rover?
 1642746|CDR|Yes, for a sample.
@@ -20480,7 +20480,7 @@
 1642823|LMP|That's affirm. Negative; that was before the SEP photos.
 1642833|CC|Copy that.
 1642838|LMP|Okay, Bob, looking up at the North Massif, we see the scattered, strewn field of boulders, that generally seem to start from a - more or less, from a line of large boulders, which might indicate some structure. And those lines are roughly horizontal across the face that we're looking at. The boulder tracks are irregular in shape, obviously downhill, but you'll see in the pictures that they - that they are curved in places, but they're all - that I see - tend to be aggregates of little craters - where the boulder was obviously tumbling and bouncing a little bit. We're out in population of fragments now in the immediate area at 1 - is that 188?
-1642950|CDR|188, 0.9.
+1642950|CDR|188/0.9.
 1642952|LMP|It's generally about 1 percent between craters. But at the crater rims, it's up to about 5 percent.
 1643000|CC|Okay. Copy that, Jack. And how far down the North Massif - -
 1643002|LMP|And these craters - -
@@ -20496,7 +20496,7 @@
 1643103|CDR|Okay. We're at 12 clicks and we're FULL BORE.
 1643107|CC|Copy that.
 1643120|LMP|Okay.
-1643121|CDR|187, 1.1.
+1643121|CDR|187/1.1.
 1643126|CC|Copy that.
 1643135|LMP|Bob, I wish I could give you more on that structure in there, but I think those lines of boulder sources are about all we can see right now. Talked about the lineaments yesterday and they're not nearly as obvious today in the higher Sun. Looking up Wessex Cleft - even with the Sun in the flat area there, it looks darker than where - than the North Massif side. But again, the Sun angle may be fooling us but I recall it was darker on the photos. The old man wrinkled face on the - -
 1643216|CDR|Sculptured Hills.
@@ -20541,7 +20541,7 @@
 1643612|CDR|We'll have to get a little closer, Bob.
 1643614|CC|We'll find out in a couple of hours.
 1643618|LMP|Yes, I will give you a reading on that before long. I wouldn't eliminate Station 8 for the world - or the Moon, whatever's available today.
-1643628|CDR|Bob, what did you say? 188, 2 point something.
+1643628|CDR|Bob, what did you say? 188/2 point something.
 1643631|CC|2.8.
 1643635|CDR|Okay, thank you. See that big boulder, Jack, with those tracks?
 1643639|LMP|Yes, it looks like -
@@ -20558,7 +20558,7 @@
 1643749|LMP|There's Henry.
 1643750|CC|Okay, how about a range and bearing.
 1643751|LMP|I thought you were close to Henry.
-1643753|CDR|Yes. 188, 1.8.
+1643753|CDR|Yes. 188/1.8.
 1643757|LMP|And we're just southwest of Henry.
 1643803|CC|Okay. Copy that.
 1643803|LMP|On the rim. Oh, Prince Henry the Navigator.
@@ -20593,7 +20593,7 @@
 1644100|LMP|This is one on the - about 50 meters right on the rim crest of Henry, almost due - the west rim - due west rim. Now Locke is just ahead of us. It also has boulders in its walls but has relatively few on the rim.
 1644117|CC|Okay. Copy that.
 1644118|LMP|Characteristic of both Henry, Locke, and Horatio is a re - essentially no change in the average frequency of boulders on the rim. The increase comes in the walls.
-1644134|CDR|We're at 184, 2.3. We're just about between Henry and - -
+1644134|CDR|We're at 184/2.3. We're just about between Henry and - -
 1644142|LMP|Locke.
 1644142|CDR|Locke. Yes; right between them.
 1644144|CC|Okay. I copy that. And you guys are heading for that big boulder, which must be just dead ahead of you there, about half a kilometer.
@@ -20675,7 +20675,7 @@
 1645138|LMP|You want me - some help getting off?
 1645140|CDR|I've got to go uphill.
 1645142|LMP|I just about ended up down at the bottom of the hill.
-1645145|CDR|Okay; 192, 3.8, 3.1; 88 and 80; 108 and 0 on the batteries. The forward motors are 220 and about 270, and the rears are 0 - off scale low and 220.
+1645145|CDR|Okay; 192/3.8, 3.1; 88 and 80; 108 and 0 on the batteries. The forward motors are 220 and about 270, and the rears are 0 - off scale low and 220.
 1645213|LMP|You want me to block the wheels? (Laughter) You got the brake on, I hope.
 1645219|CDR|You betcha. I don't know if I can lean uphill or not. (Laughter) I can't. Holy Smoley. Boy, are we on a slope!
 1645234|LMP|You okay?
@@ -21327,7 +21327,7 @@
 1660257|LMP|That's great.
 1660301|CDR|We ought to be able to pick up lots of those fragments out in that field out there.
 1660307|LMP|Be right with you.
-1660308|CDR|Okay. Bob, I just came downslope reading 193, 3.1 - just about 100 meters to pick up Jack.
+1660308|CDR|Okay. Bob, I just came downslope reading 193/3.1 - just about 100 meters to pick up Jack.
 1660319|CC|Okay, copy that.
 1660323|LMP|Okay. Bag 48 Yankee has a sample of about a half - one-third-meter boulder that was lying in - that's sitting right smack dab in a little crater of it's own.
 1660347|CC|Copy that.
@@ -21404,7 +21404,7 @@
 1660853|CC|Roger.
 1660854|LMP|I can't figure out where you're going to stop.
 1660856|CDR|Right in here - right here to give you as much of a level spot as I can. That's about as level a spot as I can find. I'm inside the slope of a crater.
-1660904|CDR|Bob, I'm at 200, 3.3.
+1660904|CDR|Bob, I'm at 200/3.3.
 1660907|CC|Copy that.
 1660922|LMP|You want me to help you with it - that thing, Geno?
 1660924|CDR|No, I'll get it. Only one guy can do it.
@@ -21634,7 +21634,7 @@
 1663415|LMP|Yes. Cochise is certainly a shallow crater, although we knew that. It doesn't have any - it only has one place I can see that has any blocks on the inner wall of Cochise. Otherwise, it has a surface much like what we're driving on for walls and for the floor. One place on the south - southeast wall there is a concentration of blocks much like we saw in Henry or in Horatio. But the rest of the crater seems to be pretty well mantled. Van Serg is a very blocky rim crater, big blocks up on the rim.
 1663452|CDR|Do you have a lot of static, Jack, or is it just me?
 1663454|LMP|No, I think it's just you. People are always giving you static.
-1663502|CDR|Bob, if you are still reading me, I'm looking at the Sculptured Hills, and I still have that - that old man wrinkled face appearance, even up close at this Sun angle. And those wrinkles go from, generally, upslope at the west to downslope at the east.
+1663502|CDR|Bob, if you still read me, I'm looking at the Sculptured Hills, and I still have that - that old man wrinkled face appearance, even up close at this Sun angle. And those wrinkles go from, generally, upslope at the west to downslope at the east.
 1663521|LMP|Hey, are you - No, you're right at the edge of Cochise. Aren't you?
 1663527|CDR|Where? Right here?
 1663529|LMP|Yes. Aren't you?
@@ -21696,7 +21696,7 @@
 1664006|CC|Okay. Copy that.
 1664015|CDR|How does 238/4.2 sound for the beginning of 8?
 1664019|LMP|Hey, you're -
-1664023|CDR|May have to take these slopes just the most comfortable way we can.
+1664023|CDR|I'm going to take these slopes just the most comfortable way we can.
 1664027|CC|238 and 4.0 we're expecting for Station 8, the beginning of it. 238/4.2 - 4.0, excuse me; 4.0.
 1664040|CDR|Roger.
 1664043|CC|And remember again, Station 8 is a very flexible area. You just get to a place where it looks like it's feasible to sample Sculptured Hills.
@@ -21713,7 +21713,7 @@
 1664241|LMP|Why don't we get some samples of that material in there.
 1664242|CC|Copy that.
 1664244|CDR|Right here.
-1664246|LMP|Okay. Keep driving toward the rim and then just -a shallow curve. Okay. Now, curve it.
+1664246|LMP|Okay. Keep driving toward the rim and then just - a shallow curve. Okay. Now, curve it.
 1664253|CDR|That your spot?
 1664254|LMP|Okay. Right. Just keep going, and I'll stop you.
 1664258|LMP|Whoa, straight in. Good, good.
@@ -21954,7 +21954,7 @@
 1670920|LMP|- - I didn't think about it.
 1670924|CC|And we concur - -
 1670925|LMP|Don't forget the Gene, gnomon!
-1670925|CC|- - with Dr. ... about the gnomon.
+1670925|CC|- - with documenting without the gnomon.
 1670932|CDR|Whee! Boy, when you do this, and you go downslope, that first step is a long one.
 1670942|CDR|I'm having - This is the best way for me to travel. Uphill or downhill.
 1670952|LMP|What's that?
@@ -22032,7 +22032,9 @@
 1671717|CC|Okay. We agree with that, and you might get us a - -
 1671718|CDR|- - ... one, and I'll tighten - -
 1671720|CC|- - you might get us the gravimeter reading there, Gene, while you're at it. And if you have time, you might drop the gravimeter on the ground, and we'll get a reading with it on the ground as well.
-1671734|CDR|Holy Smoley. The gravimeter's coming up. 670, 096, 001 - 670, 096, 001.
+1671734|CDR|Holy Smoley.
+1671735|LMP|Gravimeter is coming up.
+1671737|CDR|670, 096, 001 - 670, 096, 001.
 1671747|CC|Copy that.
 1671752|CDR|You want it dropped on the ground, huh?
 1671753|CC|Gently.
@@ -22115,7 +22117,7 @@
 1672551|LMP|Okay. I'll take it right here, then. Uh oh.
 1672601|CDR|What?
 1672602|LMP|Sample came out.
-1672604|CDR|The sample came out?
+1672604|CDR|A sample came out?
 1672605|LMP|I'll pick it up.
 1672606|CDR|Yes, your - your top came open. It's awful full, Jack. If you can't get it, I'll get it with the tongs.
 1672611|LMP|Go ahead and go to work, and I'll get the pan first. I lost two of them, I guess.
@@ -22235,21 +22237,21 @@
 1673702|CC|Okay, and Jack -
 1673704|LMP|(Laughter)
 1673704|CC|- when you're don't - holding on with two hands, we'd like the frame count from you.
-1673707|LMP|Wait a minute. Yes.
-1673712|CDR|Is that Van Serg over there?
-1673713|LMP|Ahhhh -
+1673707|LMP|Wait a minute. Yes. Is that Van Serg over there?
+1673713|CDR|Ahhhh -
 1673716|CC|You have a bearing of 234 - -
-1673718|LMP|I think it's - -
+1673718|CDR|I think it's -
 1673719|CC|- - and a range of 2.1.
 1673719|LMP|I don't know - no - it's - Okay.
-1673727|LMP|We got to get around SWP here and then - -
-1673731|CDR|Well, let's - yes.
-1673732|LMP|- - and then head on more westerly. LMP frame is at 80.
+1673727|CDR|We got to get around SWP here and then - -
+1673731|LMP|Well, let's - yes.
+1673732|CDR|- - and then head on more westerly.
+1673735|LMP|LMP frame is at 80.
 1673737|CC|Copy 80.
-1673741|LMP|SWP or Bowen, I mean - Bowen, I guess it is.
-1673744|CDR|Well, yes.
+1673741|CDR|SWP or Bowen, I mean - Bowen, I guess it is.
+1673744|LMP|Well, yes.
 1673750|LMP|That's SWP over there. Bowen is out here ahead of us.
-1673752|CDR|Yes. ... he said two - -
+1673752|CDR|Yes. If he said two - -
 1673756|LMP|Bowen - Bowen isn't much of a crater on the map.
 1673759|CDR|- - 225 - What did you say, Bob? 225 what?
 1673802|CC|234/2.1 - -
@@ -22268,8 +22270,8 @@
 1673858|CC|Roger.
 1673902|LMP|And all the big blocks still look like subfloor from the Rover. But big blocks in here are only about a - a third of a meter in diameter. And they're subrounded to subangular. Okay. We're up on the plains again now, just off the break of slope.
 1673934|PAO|Station 9 is Van Serg crater which could be of volcanic origin.
-1673949|CDR|That sure looks like - looks like outcrop ... down in the East Massif on the lower slopes, if it's here the high albedo is. Doesn't it? See it over there?
-1673956|LMP|Yes - Yes. Yes. It does - ... was one of my guidelines for the geophone deployment - ... points.
+1673949|CDR|That sure looks - looks like outcrop back there on the East Massif on the lower slopes, if it's here the high albedo is. Doesn't it? See it over there?
+1673956|LMP|Yes - Yes. Yes. It does - it was one of my guidelines for the geophone deployment - guide points.
 1674015|LMP|There's some more of the blue-gray rock here in the east end of the South Massif down low.
 1674022|CDR|Yes.
 1674023|LMP|It looks like it might have been a slump block or something.
@@ -22284,7 +22286,7 @@
 1674046|CDR|Well, see, we never got too far - -
 1674048|CC|How about a - how about a range and bearing, guys.
 1674049|LMP|... aren't very far from SWP.
-1674050|CDR|Maybe we got too far east. Okay. It's 228/3.4. And we're moving along at 10 to 12 clicks. That's all it'll hack.
+1674050|CDR|Maybe we got too far east. Okay. It's 228,3.4. And we're moving along at 10 to 12 clicks. That's all it'll hack.
 1674103|CC|Copy that. How about an amps reading? We haven't had one of those for a couple of ...
 1674109|LMP|Starting to rain again. Got a crater ahead of you.
 1674115|CDR|Oooh, boy.
@@ -22295,8 +22297,7 @@
 1674146|LMP|Might have hit it on a rock.
 1674150|CDR|Oh, boy.
 1674151|LMP|Okay. The - we're back into the mantled area population of fragments is still 1 percent or so. The crater off to our left, which is at 227 and 3. - What is that?
-1674209|CDR|3.1.
-1674210|LMP|3?
+1674209|LMP|3 point what? 3?
 1674211|CDR|3.3; 227/3.3.
 1674214|LMP|And a fairly good-sized depression, but it's completely mantled. There's no blocks showing in the wall at all. How do you read, Bob?
 1674231|CC|Loud and clear. We're listening.
@@ -22368,7 +22369,7 @@
 1674904|LMP|Oooh - -
 1674904|CDR|It's a single block.
 1674905|LMP|That's how you bend your tires.
-1674907|CDR|Well, thatf s what it's for. Oh, that's a mou - Oh, man, would that be ... - -
+1674907|CDR|Well, that's what it's for. Oh, that's a - Oh, man, would that be ... - -
 1674911|LMP|Well, now, that might be glass covered. That might be a glass coating; the way it sort of hangs on the outside there. Hard to say.
 1674921|CDR|We're at 234/2.5.
 1674928|LMP|Starting to sling dust. I wonder if we've lost our fender.
@@ -22411,7 +22412,7 @@
 1675206|LMP|Yes, I think you're going to have to bear right.
 1675209|CDR|Yes. That's why I - I've got to get through this field, though.
 1675211|LMP|Yes, I know (laughter).
-1675215|CDR|Okay, Bob. We're still primarily in an extreme block field here now. It's up to a 20 percent cover, and - of fragments mostly the subfloor. Some of it looks quite highly shattered. There's -I just saw one piece that looked like a white anorthositic rock.
+1675215|CDR|Okay, Bob. We're still primarily in an extreme block field here now. It's up to a 20 percent cover, and - of fragments mostly the subfloor. Some of it looks quite highly shattered. There's - I just saw one piece that looked like a white anorthositic rock.
 1675243|CDR|How's this look to you? We can go farther up there, I guess. Let me go farther up.
 1675246|LMP|Well, okay, if you can get up.
 1675248|CDR|Get a little farther on the southeast.
@@ -22437,7 +22438,7 @@
 1675445|CDR|Okay. Had one twist in it.
 1675451|LMP|Boy, that makes a difference.
 1675452|CDR|Sure does. Here. Your footpan's down, too.
-1675500|LMP|I'll get it. It's lost it's stiffness in there. Okay - okay, I guess now I'll plan for Shorty, huh? ... Van Serg.
+1675500|LMP|I'll get it. It's lost it's stiffness in there. Okay - okay, I guess nominal plan for Shorty, huh? ... Van Serg.
 1675514|CDR|Okay, 2 POWER'S ON -
 1675518|LMP|Van Serg looks like a blocky rim fresh impact crater right now.
 1675524|CC|Okay. We copy that. How about scuffing your feet and seeing if it looks orange underneath?
@@ -22916,15 +22917,16 @@
 1684703|CC|Roger. Let's go to LCRU power off.
 1684707|CDR|Okay, Jack, let's - better get going.
 1684713|LMP|Yes. You know, I don't think there is any subfloor in here. The rocks are so dust covered that it's hard to be sure, but no rock I picked up looked like subfloor.
-1684726|CDR|Get on there one time. Ready? I got three of them that time.
+1684726|CDR|Get on there one time.
+1684731|LMP|Ready?
+1684735|CDR|I got three of them that time.
 1684738|LMP|(Laughter)
 1684739|CC|17, Houston. Do you read me through the - the LM?
 1684743|LMP|You're loud and clear.
 1684745|CC|Roger. Thank you.
-1684748|LMP|I hope they came out. Okay.
-1684757|CDR|I get that twisted this time, if I can get off.
-1684801|LMP|Oh, let's see if old twinkletoes can do it.
-1684805|CDR|Jack, there's a big - a big one right there in my floor pan. That's what I did last time.
+1684748|CDR|I hope they came out. Okay.
+1684757|LMP|I hope ... twisted this time, if I can get off.
+1684801|CDR|Oh, let's see if old twinkletoes can do it. Jack, there's a big - a big one right there in my floor pan. That's what I did last time.
 1684817|LMP|Okay. I'm on, strangely enough.
 1684829|CDR|Okay. Let's see. Okay. The charge is off to the - right.
 1684848|LMP|Yes, you're all - You can clear it this way or - -
@@ -22937,15 +22939,16 @@
 1684924|CDR|Well, we've been out about 5 hours and 20 minutes or so.
 1684931|LMP|Where is it - where are we headed, now that we are moving?
 1684933|CC|That's affirm - -
-1684934|CDR|Well, I'm trying to get around - trying to get out of the block field here, then I'll head back to the southwest. We going to Sherlock at all, Bob?
-1684951|CC|No, we're going ... follow the ... - -
+1684934|CDR|Well, I'm trying to get around - trying to get out of the block field here, then I'll head back to the southwest.
+1684946|LMP|Are we going to Sherlock at all, Bob?
+1684951|CC|No, we're going ... home, follow the ... home - -
 1684952|LMP|That must be Gatsby over there.
 1685010|CC|And a reminder, Jack. We can get lots of photos. We've got lots of film left right now.
 1685010|LMP|Okay.
 1685011|CC|And, 17, Gene, I guess you're the one that took the SEP out. If you could give me - do you remember the reading of the SEP temperature when you broke it down?
 1685022|CDR|Didn't even look, Bob.
 1685024|CC|Okay. Copy that.
-1685025|CDR|It was 125 - 125 when we started the station.
+1685025|LMP|It was 125 - 125 when we started the station.
 1685030|CC|Roger. Copy that.
 1685035|CDR|That's Gatsby there, I guess, huh?
 1685036|LMP|Yes.
@@ -22979,11 +22982,12 @@
 1685345|CC|Okay. Yes, that's what I - Okay, that's the one we were planning on deploying all along, and it's there. We'll be deploying at a range of 0.1, which is just before you get to the SEP.
 1685401|CDR|Okay.
 1685403|LMP|I guess Sherlock's going to be right over the top over here. I saw it when we were on that other ridge.
-1685412|CDR|Hey, you know, there's a lot of bad landing places around here. That old Sun angle, I think, shows most of them up. Bob, I - -
+1685412|CDR|Hey, you know, there's a lot of bad landing places around here. That old Sun angle, I think, shows most of them up.
+1685427|LMP|Bob, I - -
 1685427|CC|And, Geno, we were looking - -
-1685429|CDR|I don't under - -
+1685429|LMP|I don't under - -
 1685430|CC|- - at the map here - -
-1685431|CDR|- - I don't unders - -
+1685431|LMP|- - I don't unders - -
 1685432|CC|- - and if you keep going straight to the LM, you're probably going to run into this crater area around San Luis Rey. You probably ought to head somewhat south of directly back to the LM, so we can at least tip the - western edge of Sherlock and then pick it up and go from there back to the SEP. It looks like it might be rather rough there in that dotted-lined area, if you can look at the backside of your map, Jack.
 1685458|CDR|Bob, I've already been doing it. I'm at 244/1.7.
 1685502|CC|Copy that. Thank you.
@@ -22991,7 +22995,7 @@
 1685504|CC|Okay.
 1685504|LMP|And, Bob, about - about 200 meters back, we crossed back into our standard mantle surface of about 1-percent fragment cover - -
 1685515|CC|Okay 200 meters back ... your present location - Okay. Copy that.
-1685515|CDR|- - out of this - the block field, which -
+1685515|LMP|- - out of this - the block field, which -
 1685524|LMP|I can see the LM.
 1685526|CDR|Yes, I can see the LM. And there's Sherlock, where those blocks are.
 1685530|LMP|Yes, that's the block field, the Sherlock block field; that's right. That is a block field.
@@ -23065,11 +23069,9 @@
 1690036|CC|Okay.
 1690038|LMP|Go forward just a little bit, Gene.
 1690040|CDR|Okay.
-1690044|LMP|Bet you're going to get yourself in a box there.
+1690044|LMP|Bet you're going to get yourself in a box here.
 1690047|CDR|No, that's all right.
-1690048|LMP|Whoa.
-1690048|CDR|A little more, sorry.
-1690051|LMP|Little more. Okay.
+1690048|LMP|Whoa. A little more, sorry. Little more. Okay.
 1690055|CDR|You get it?
 1690056|LMP|I will. Got it.
 1690105|CDR|I can't see the LM anymore.
@@ -23148,7 +23150,7 @@
 1691004|CC|That sounds great.
 1691009|LMP|Okay. And we're measuring 221 and 0.2; 221 and 0.2
 1691019|CC|Copy that.
-1691027|CDR|There's a rock I stood up down there, and I want to get it - -
+1691027|LMP|There's a rock I stood up down there, and I want to get it ...
 1691029|CC|And it's EP number 2 that we're after, Jack, in case you didn't follow us.
 1691035|LMP|Okay. Hey, our gate's open.
 1691038|CDR|It's open?
@@ -23161,9 +23163,9 @@
 1691054|LMP|The pallet. I'm sorry.
 1691057|CC|Well, that's worse.
 1691102|LMP|Seems to ride alright that way.
-1691115|CDR|Boy, that dust. It's getting into everything. (Humming) Okay, I'm going to leave the gate like it is. Seems to be all right.
-1691132|LMP|Okay.
-1691133|CDR|Okay; EP-2.
+1691115|LMP|Boy, that dust. It's getting into everything. (Humming) Okay, I'm going to leave the gate like it is. Seems to be all right.
+1691132|CDR|Okay.
+1691133|LMP|Okay; EP-2.
 1691138|LMP|Where is that? There it is.
 1691143|CDR|Hey, Jack. You're just going to walk back from here, aren't you?
 1691146|LMP|I can, yes.
@@ -23181,7 +23183,7 @@
 1691255|CDR|Okay.
 1691257|CDR|Okay. Locater to the LM. I'll give you a frame count, if I can read it: 90 - 92.
 1691306|CC|Copy; 92.
-1691316|LMP|You're going to have to go left a little, right here.
+1691316|LMP|You're going to have to go left a little, I guess.
 1691321|CDR|Go left?
 1691322|LMP|To avoid the antenna.
 1691324|CDR|Oh - -
@@ -23195,7 +23197,7 @@
 1691348|LMP|But drive close enough so I can reach down and use the ... for support.
 1691352|CDR|Where is it?
 1691353|LMP|It's out over here. Between the - -
-1691357|CDR|Oh which side of that antenna?
+1691357|CDR|On which side of that antenna?
 1691400|LMP|It's - -
 1691402|CDR|Oh, there it is. Right there?
 1691403|LMP|No. No, it's out - it's on the - it's near the LM.
@@ -23242,7 +23244,7 @@
 1691818|CDR|I'm reading 80 on the amps, 78 on the amps - Correction, that's amp-hours. Voltages, 62 and 65. Battery 1 is 132, forget 0. Motor temps are 200 and 210 on the rear, 200 and 250 on the fr - forward.
 1691847|CC|Okay. We copy that.
 1691857|CC|Okay. And let's - let me brief you here on the closeout tonight, 17. A number of things we - we're going to do here that are slightly different. We've got some stuff for you over at the ALSEP, Jack, and I'll get with you when you go over there. Nothing we have to worry about in the meanwhile. When we unload the Rover, we're going to take the SESC out, and we're going to use that to collect the contaminated sample out behind the footpad there as per planned, and when we take the traverse gravimeter off, we're going to want to get both a grav and a bias reading, because the pallet was swinging in the breeze there. Otherwise, let's press on with the closeout, and we'll get with you as times change.
-1692015|CDR|Okay, Bob. The core tubes are going in SCB-7 - I mean - Yes, 7.
+1692015|LMP|Okay, Bob. The core tubes are going in SCB-7 - I mean - Yes, 7.
 1692023|CC|Okay. I copy that.
 1692029|CDR|You should have TV, Bob.
 1692031|CC|Rog. We have TV. Thank you.
@@ -23257,7 +23259,7 @@
 1692127|CDR|Why don't you leave that there for a minute? Okay What did you say about the TGE, Bob?
 1692129|CC|Okay. We'd like to take TGE, of course, as we planned. Take it off, and we'll try and get both a grav and a bias reading. You might initiate one of them now. We'll initiate another one later on. We've got plenty of time while it's sitting on the ground there to - to do our thing with it.
 1692152|CDR|... - -
-1692152|CC|I see where you've got ... coming up pretty soon, Gene.
+1692152|CC|I see you've got feed water tone coming up pretty soon, Gene.
 1692157|CDR|Bob, I already got it and I'm in AUTO. Just about 30 seconds ago.
 1692200|CC|Okay.
 1692205|CDR|Okay. How are we fixed for samples? Here's 5, and it's about 1/2 to 3/4 full.

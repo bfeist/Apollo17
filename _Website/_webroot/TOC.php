@@ -632,13 +632,16 @@
     <li onclick="parent.seekToTime('1662950')" class="tocitem" id="tocid1662950"><span class="TOCTimestamp">166:29:50</span>
         <span class="TOC_item">Departed for Station 8 (Sculptured Hills)</span>
         <!-- <span class="TOCSubtitle">One short stop to gather enroute samples.</span>--></li>
+    <li onclick="parent.seekToTime('1663910')" class="tocitem" id="tocid1663910"><span class="TOCTimestamp">166:39:10</span>
+        <span class="TOC_item">Commentary: Crew discusses how adaptable they were</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1665001')" class="tocitem" id="tocid1665001"><span class="TOCTimestamp">166:50:01</span>
         <span class="TOC_item">Video: Station 8</span>
         <!-- <span class="TOCSubtitle">Gathered samples including rake and trench samples, and performed documentary and panoramic photography.</span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('1665121')" class="tocitem" id="tocid1665121"><span class="TOCTimestamp">166:51:21</span>
+        <li onclick="parent.seekToTime('1665126')" class="tocitem" id="tocid1665126"><span class="TOCTimestamp">166:51:26</span>
         <span class="TOC_item">"I think your LMP just ran away"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1665624')" class="tocitem" id="tocid1665624"><span class="TOCTimestamp">166:56:24</span>
@@ -672,7 +675,7 @@
         <span class="TOC_item">Singing "Tiptoe Through the Tulips"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1680432')" class="tocitem" id="tocid1680432"><span class="TOCTimestamp">168:04:32</span>
-        <span class="TOC_item">Standing on cliff giving geology observations</span>
+        <span class="TOC_item">Standing on edge of Van Serg giving geology observations</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1682048')" class="tocitem" id="tocid1682048"><span class="TOCTimestamp">168:20:48</span>
         <span class="TOC_item">Simultaneous panoramas</span>
