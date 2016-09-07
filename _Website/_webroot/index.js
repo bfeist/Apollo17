@@ -103,7 +103,7 @@ function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
-        $("#playPauseBtn").addClass('pause');
+        $("#playPauseBtn > img").addClass('pause');
 
         if (gNextVideoStartTime != -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
@@ -129,7 +129,7 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
-        $("#playPauseBtn").removeClass('pause');
+        $("#playPauseBtn > img").removeClass('pause');
 
     } else if (event.data == YT.PlayerState.BUFFERING) {
         //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -201,9 +201,9 @@ function setAutoScrollPoller() {
 
         if (!gOffline) {
             if (player.isMuted() == true) {
-                $('#soundBtn').removeClass('mute');
+                $('#soundBtn > img').removeClass('mute');
             } else {
-                $('#soundBtn').addClass('mute');
+                $('#soundBtn > img').addClass('mute');
             }
         }
     }, 500); //polling frequency in milliseconds
@@ -537,8 +537,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
         timeSinceLaunch_ms += 9600 * 1000;
     }
 
-    var timeId = secondsToTimeId(timeSinceLaunch_ms / 1000);
-    return timeId;
+    return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
 
 // </editor-fold>
