@@ -498,7 +498,10 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
-    $(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
+
+    var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+    $(".historicalTime").text(historicalDate.toLocaleTimeString('en-US', options));
+    //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
     $(".missionElapsedTime").text(gCurrMissionTime);
@@ -695,8 +698,7 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
-    trace("repopulateUtterances(): populated utterances from: " + gUtteranceDisplayStartIndex);
-    trace("repopulateUtterances(): populated utterances to: " + gUtteranceDisplayEndIndex);
+    trace("repopulateUtterances(): populated utterances from: " + gUtteranceDisplayStartIndex + " to " + gUtteranceDisplayEndIndex);
     $('#utteranceDiv').scrollTop('#uttid' + timeId);
 }
 
@@ -1013,8 +1015,6 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 
 // </editor-fold> //utterances and commentary
 
-// </editor-fold> //scrolling things
-
 // <editor-fold desc="photo display and gallery -------------------------------------------------">
 
 function populatePhotoGallery() {
@@ -1127,51 +1127,72 @@ function loadPhotoHtml(photoIndex) {
 
     photoDiv.html('');
     photoDiv.append(html);
+}
+// </editor-fold>
 
-    //prescale to height using css before calling scaleMissionImage so that it looks partially scaled as it loads
-    //var imageContainerImage = $('#imageContainerImage');
-    //imageContainerImage.css("width", 'auto');
-    //imageContainerImage.css("height", photoDiv.height());
+// <editor-fold desc="search functions ---------------">
 
-    //when image finished loading, scale it proportionally both horizontally and vertically
-    //imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
-    //    //console.log('***image load complete');
-    //    scaleMissionImage();
-    //});
+function performSearch() {
+    trace("performSearch(): start");
+    var searchResultsTable = $('#searchResultsTable');
+    var searchResultCount = 0;
+    var searchText = $('#inputFieldSearch').val();
+    searchResultsTable.html('');
+    if (searchText.length > 0) {
+        for (var counter = 0; counter < gUtteranceData.length; counter++) {
+            if ( gUtteranceData[counter][2].toLowerCase().indexOf(searchText.toLowerCase()) != -1) {
+                var html = getSearchResultHTML(counter);
+                var searchResultTextIndex = html.toLowerCase().indexOf(searchText.toLowerCase());
+                var foundWord = getWordAt(html, searchResultTextIndex);
+                html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
+                searchResultsTable.append(html);
+                trace("performSearch():found: " + counter);
+                searchResultCount++;
+            }
+            if (searchResultCount > 100) {
+                break;
+            }
+        }
+    }
 }
 
-//function scaleMissionImage() {
-//    //trace('scaleMissionImage()');
-//    var photodiv = $('#photodiv');
-//    var image = $('#imageContainerImage');
-//
-//    var maxWidth = photodiv.width(); // Max width for the image
-//    var maxHeight = photodiv.height();    // Max height for the image
-//    var ratio = 0;  // Used for aspect ratio
-//
-//    var width = image.get(0).naturalWidth; // Full image width
-//    var height =image.get(0).naturalHeight; // Full image height
-//
-//    // Check if the current width is larger than the max7
-//    if(width > maxWidth){
-//        ratio = maxWidth / width;   // get ratio for scaling image
-//        image.css("width", maxWidth); // Set new width
-//        image.css("height", height * ratio);  // Scale height based on ratio
-//
-//        height = height * ratio;    // Reset height to match scaled image
-//        width = width * ratio;    // Reset width to match scaled image
-//    } else if (width <= maxWidth) {  // get ratio for scaling image
-//        image.css("width", width); // Set new width
-//        image.css("height", "auto");  // Scale height based on ratio
-//    }
-//
-//    // Check if current or newly width-scaled height is larger than max
-//    if(height > maxHeight){
-//        ratio = maxHeight / height; // get ratio for scaling image
-//        image.css("height", maxHeight);   // Set new height
-//        image.css("width", width * ratio);    // Scale width based on ratio
-//    }
-//}
+function getSearchResultHTML(utteranceIndex) {
+    //trace("getUtteranceObjectHTML():" + utteranceIndex);
+    var utteranceObject = gUtteranceData[utteranceIndex];
+
+    var who_modified = utteranceObject[1];
+    who_modified = who_modified.replace(/CDR/g, "Cernan");
+    who_modified = who_modified.replace(/CMP/g, "Evans");
+    who_modified = who_modified.replace(/LMP/g, "Schmitt");
+    who_modified = who_modified.replace(/PAO/g, "Public Affairs");
+    who_modified = who_modified.replace(/CC/g, "Mission Control");
+
+    var words_modified = utteranceObject[2];
+    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+
+    var html = $('#searchResultTemplate').html();
+    var timeId = utteranceObject[0];
+    html = html.replace(/@searchResultid/g, timeId);
+    html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
+    if (who_modified == "Public Affairs" || who_modified == "") {
+        var uttTypeStr = "utt_pao";
+    } else if (who_modified == "Mission Control") {
+        uttTypeStr = "utt_capcom";
+    } else {
+        uttTypeStr = "utt_crew";
+    }
+    html = html.replace(/@uttType/g, uttTypeStr);
+    return html;
+}
+
+function searchResultClick(searchResultId) {
+    toggleSearchOverlay();
+    seekToTime(searchResultId);
+}
 
 // </editor-fold>
 
@@ -1181,6 +1202,21 @@ function padZeros(num, size) {
     var s = num + "";
     while (s.length < size) s = "0" + s;
     return s;
+}
+
+function toggleSearchOverlay() {
+    var videoSearchOverlaySelector = $('.video-search-overlay');
+    var searchBtnSelector =  $('#searchBtn');
+    if( videoSearchOverlaySelector.css('display').toLowerCase() == 'none') {
+        videoSearchOverlaySelector.css('display', 'block');
+        searchBtnSelector.removeClass('subdued');
+        searchBtnSelector.addClass('primary');
+        $('#inputFieldSearch').focus();
+    } else {
+        videoSearchOverlaySelector.css("display", "none");
+        searchBtnSelector.removeClass('primary');
+        searchBtnSelector.addClass('subdued');
+    }
 }
 
 function toggleFullscreen() {
@@ -1267,6 +1303,26 @@ function trace(str) {
     }
 }
 
+function getWordAt(str, pos) {
+
+    // Perform type conversions.
+    str = String(str);
+    pos = Number(pos) >>> 0;
+
+    // Search for the word's beginning and end.
+    var left = str.slice(0, pos + 1).search(/\S+$/),
+        right = str.slice(pos).search(/\s/);
+
+    // The last word in the string is a special case.
+    if (right < 0) {
+        return str.slice(left);
+    }
+
+    // Return the word, using the located bounds to extract it from the string.
+    return str.slice(left, right + pos);
+
+}
+
 // </editor-fold>
 
 // <editor-fold desc="document event handlers -------------------------------------------------">
@@ -1281,6 +1337,19 @@ jQuery(function ($) {
     }
     activateTab('transcriptTab');
     //buttons
+
+    $("#searchBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'search');
+            toggleSearchOverlay();
+        });
+
+    $("#inputFieldSearch")
+        //.change(function(){
+        .keydown($.throttle(function(){
+            performSearch();
+        }, 100));
+
 
     $(".fullscreenBtn")
         .click(function(){

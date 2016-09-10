@@ -33,8 +33,15 @@
         <div class="video-wrapper">
           <!-- video -->
           <img src="img/4x3.png" class="aspect-holder">
-
           <div class="player-wrapper">
+              <div class="video-search-overlay">
+                  <input type="text" id="inputFieldSearch">
+                  <div id="searchResultsDiv">
+                    <table id="searchResultsTable"></table>
+                  </div>
+              </div>
+              <div class="video-mission-info-overlay">
+              </div>
             <div id="player"></div>
           </div>
         </div>
@@ -56,7 +63,7 @@
           </div>
           <div class="button-row small">
              <a class="splash-btn subdued" id="soundBtn" title="Sound On/Off"><img class="iconSound mute"><span class="sr-only">Sound On/Off</span></a>
-             <a class="splash-btn subdued"  id="fullscreenBtn" title="Toggle Fullscreen"><img class="iconFullscreen"><span class="sr-only">Fullscreen</span></a>
+             <a class="splash-btn subdued fullscreenBtn"  id="fullscreenBtn" title="Toggle Fullscreen"><img class="iconFullscreen"><span class="sr-only">Fullscreen</span></a>
              <a class="splash-btn primary" id="shareBtn" title="Share This Moment">
                <div class="share-button-wrapper">
                  <div class="share-button sharer-0"></div>

@@ -137,4 +137,12 @@
     </div>
 </script>
 
+<script type="text/html" id="searchResultTemplate">
+    <tr class="utterance utt_pao" style="@style" onclick="searchResultClick('@searchResultid')">
+        <td class="timestamp">@timestamp</td>
+        <td class="who @uttType">@who</td>
+        <td class="spokenwords @uttType">@words</td>
+    </tr>
+</script>
+
 </html>

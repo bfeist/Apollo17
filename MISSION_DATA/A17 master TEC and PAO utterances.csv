@@ -1937,9 +1937,9 @@
 |018:28:58|PAO|This is Apollo control at 18 hours 29 minutes. During the change of shift press briefing, flight director Gene Kranz reviewed the status of the mission with each of his flight controllers everything essentially normal at this point. Flight dynamics officer reported that they have not yet gotten sufficient tracking on the S-IVB trajectory to give an impact point based on tracking. We should have that in a matter of hours. And we'll get a report as soon as a set of coordinates for the S-IVB impact are available. Also, capcom Gordon Fullerton read up a news report to the crew. And it's been relatively quiet for the past 5 or 10 minutes on the air to ground line. We'll replay the accumulated tape and as soon as we've caught up with the tape we'll stand by for live conservations with the crew.
 |018:30:54|CMP|- Yes, not yet.
 |018:31:11|CMP|Yes, it's on there.
-|018:36:43|CMP|30 ENTER - oops! CMC AUTO ... Now, last star. What was that? I'm going to go back to the calibration attitude.
+|018:36:43|CMP|30 ENTER - oops! CMC AUTO ... Now, last star. Oh, that was it. I'm going to go back to the calibration attitude.
 |018:38:04|CMP|Okay, CMC auto engaged, and away we go.
-|018:38:11|CMP|Hey, we ... dump the waste water, too - to 10 percent.
+|018:38:11|CMP|Okay, we got to dump the waste water, too. 10 percent.
 |018:38:21|CMP|164, 301, and 318 - that's the optics calibration attitude that we want to start with. Put the landmark line of sight mark on star 22. Also the optics line of sight, with optics zero. Let's see, I'll the optics, I guess first.
 |018:45:43|CMP|Okay, Houston, looks like optics calibration here is 89995 - I get that half the time and 997 the rest. So (laughter) we'll use 995, I guess.
 |018:45:57|CC|Roger.
@@ -6547,7 +6547,7 @@
 |088:42:55|CDR|And, Gordy, I assure you we will be out at 16:40.
 |088:43:01|CC|Very good.
 |088:43:38|PAO|This is Apollo Control at 88 hours 43 minutes into the Mission of Apollo 17. We have had loss of signal as Apollo 17 coasted behind the Moon on the start of the first lunar orbit, 10 minutes and 28 seconds away from Lunar Orbit Insertion maneuver. A retrograde service propulsion system burn of some 2,988 feet per second. Assuming a successful burn, the spacecraft should come out from behind the Moon at 89:16:29 Ground Elapsed Time as Gene Cernan promised it would before they went behind the Moon. At loss of signal, the spacecraft was some 395 miles above the surface of the Moon, traveling at a velocity of 7,241 feet per second. 9 minutes and 30 seconds - MARK, until LOI ignition. At 88:44 and returning just before acquisition of signal, as Apollo 17 comes from behind the Moon, this is Apollo Control.
-|089:15:30|PAO|This is Apollo Control at 89 hours, 15 minutes Ground Elapsed Time. Some 55 seconds until Apollo 17 comes from behind the Moon, on the start of the first Lunar Orbit. We're awaiting appearance of the spacecraft and word that the burn went successful, which apparently it has because the spacecraft without a burn would have appeared some 8 minutes ago. The ignition time i s 88:54:21 in Ground Elapsed Time. Should be getting lock on fairly soon, zero. That was the theoretical acquisition time. Of course, it does take a few seconds for the ground station to lock onto the signal from the spacecraft. We're awaiting word from the communications officer that we have indeed gotten a signal and telemetry from the spacecraft.
+|089:15:30|PAO|This is Apollo Control at 89 hours, 15 minutes Ground Elapsed Time. Some 55 seconds until Apollo 17 comes from behind the Moon, on the start of the first Lunar Orbit. We're awaiting appearance of the spacecraft and word that the burn went successful, which apparently it has because the spacecraft without a burn would have appeared some 8 minutes ago. The ignition time is 88:54:21 in Ground Elapsed Time. Should be getting lock on fairly soon, zero. That was the theoretical acquisition time. Of course, it does take a few seconds for the ground station to lock on to the signal from the spacecraft. We're awaiting word from the communications officer that we have indeed gotten a signal and telemetry from the spacecraft.
 |089:17:00|CMP|Didn't ... me yet.
 |089:17:06|CMP|No, it's not in yet. Well, yes, it is. There's AOS limits right there.
 |089:17:14|CMP|I think we just passed Hertz and -
@@ -18638,7 +18638,7 @@
 |146:09:58|CDR|Well, if they don't want us to stop here, I guess we leave.
 |146:10:01|CC|Roger. We're ready for you guys to leave there - -
 |146:10:02|LMP|So, there's nothing else here now.
-|146:10:03|CC|- - and we're pressing on tovard Station 5.
+|146:10:03|CC|- - and we're pressing on toward Station 5.
 |146:10:06|CDR|Okay -
 ||||Tape 96A/36|Page 1284
 |146:10:08|LMP|Gene?
