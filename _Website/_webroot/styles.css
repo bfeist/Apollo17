@@ -1760,7 +1760,7 @@ img.aspect-holder {
     position:absolute;
     top:0px;
     left:0px;
-    height:90%;
+    height:100%;
     width:100%;
     border:0px;
     /*background: #ffd923;*/
@@ -1804,9 +1804,8 @@ img.aspect-holder {
     padding: 0 20px;
     overflow: hidden;
     border: none;
-    font: normal 20px/normal "Antic", Helvetica, sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: rgba(255,255,255,1);
-    text-decoration: normal;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     background: rgba(40,40,40,0.4);

@@ -1866,7 +1866,7 @@
 |017:44:39|CC|Let me check and see.
 |017:44:45|CMP|(Laughter) Yes, I've got to find the subsolar point. A little bit of an error looks like. Let me see, we'll fix it down a little bit. That really jars us back, doesn't it?
 |017:45:16|PAO|This is Apollo Control. The participants have left Mission Control for the news conference, a change of shift press conference that should begin in about 5 to 10 minutes, in the MSC News Center Briefing Room -
-|017:45:25|CC|Jack, I guess all we've done is wish it away, Actually, we think it's still there, and you may -you may get them here later after the waste stowage vent - O2 flow gets on up.
+|017:45:25|CC|Jack, I guess all we've done is wish it away, Actually, we think it's still there, and you may - you may get them here later after the waste stowage vent - O2 flow gets on up.
 |017:45:48|LMP|Okay, but those were associated with the accumulator as I recall. Yes, the random ones is the ones I was interested in. They just seemed to stop. Of course, we haven't been moving switches on 2, but we were getting them without doing that also.
 |017:46:13|CMP|Okay, there's the old star. Works just like the simulator; you can't see the star when it goes down in the Earth (laughter).
 |017:46:21|CC|It's still being worked on, Jack. Though we don't have any real concrete story to give you on it yet.
@@ -2820,7 +2820,7 @@
 ||||Tape 25/8|Page 178
 |034:29:28|LMP|Gordy, film update on mag November November. I'm on frame 138, and that includes a couple of pictures I mentioned to Bob I took just before I went to sleep. And also, two pictures this morning at about 33:30. Those are the Earth.
 |034:29:53|CC|Okay, Jack.
-|034:35:20|CC|17, Houston. A reminder. We need the H2 PURGE LINE HEATERS, ON, now. And I do have a maneuver pad for the midcourse when-you're ready to copy. Over.
+|034:35:20|CC|17, Houston. A reminder. We need the H2 PURGE LINE HEATERS, ON, now. And I do have a maneuver pad for the midcourse when you're ready to copy. Over.
 |034:35:36|LMP|Okay. I've already got the HEATER, ON. And give me about 5 minutes, and I'll get the pad.
 |034:35:43|CC|Okay. And if you'll give us ACCEPT and P00, we'll get the up-link started just after the next antenna switch. We want to catch it between switches. Over.
 |034:35:57|LMP|Okay. You got P00 and ACCEPT.
@@ -7480,7 +7480,7 @@
 |097:23:33|LMP|Houston, 17.
 |097:23:35|CC|17, Houston. Go ahead.
 |097:23:40|LMP|Roger. We're just about ready to finish up here. I have a couple of questions. Do you want us to cycle the cryo fans or just leave them alone now?
-|097:23:54|CC|We'd like them just left alone, left in you configuration you are now, Jack.
+|097:23:54|CC|We'd like them just left alone, left in your configuration you are now, Jack.
 |097:24:01|LMP|Okay, there will be no cycling then.
 |097:24:07|CC|Roger. We have one question. Who's got the duty tonight or will he be wearing a headset?
 |097:24:20|LMP|Yes, he - Ron has the duty. He will be wearing the headset, but I will be on the biomed underneath.
@@ -8918,7 +8918,7 @@
 |113:42:16|CC|Stand by. No, no recycle necessary this time through.
 |113:42:27|CDR|Okay.
 |113:42:34|LMP|Gordy, ED BATs are 37.2.
-|113:42:51|CDR|Gordy, let me comment about the handling of the bird. After you once fly it around in orbit a little bit, you get accustomed to the thrusters, and it - it came back to me quite a bit from 10, anyway. And you get a feel for acceleration and deceleration as well as the attitude hold capability. And it really - the response, even with a heavy descent - descent stage near the surface -is phenomenal. Responded exactly in the direction I wanted, held attitude very good. And, let me tell you, the LLTV plays no small part in this landing as far as I'm concerned.
+|113:42:51|CDR|Gordy, let me comment about the handling of the bird. After you once fly it around in orbit a little bit, you get accustomed to the thrusters, and it - it came back to me quite a bit from 10, anyway. And you get a feel for acceleration and deceleration as well as the attitude hold capability. And it really - the response, even with a heavy descent - descent stage near the surface, is phenomenal. Responded exactly in the direction I wanted, held attitude very good. And, let me tell you, the LLTV plays no small part in this landing as far as I'm concerned.
 |113:43:35|CC|Roger, Gene.
 |113:43:47|LMP|Okay. NOUN 22 again. I'll go ahead and torque them.
 |113:43:52|CC|Okay. Go ahead.
@@ -14295,7 +14295,7 @@
 |134:57:15|CMP|Okay at 136: 35, VERB 48, (21102) and (01111).
 |134:57:15|CC|Okay, that first one is three ones - 02.
 |134:57:15|CMP|Okay, three ones - 02 and a zero, four ones.
-|134:57:15|CC|Right. What we're doing here is making a 20-degree roll by keeping P20 going, to allow them to cal the VHF - I guess they had some unexpected noise on the VHF sounder and they want to - slip this in as another check on it. So, the next step is 136:44 and at that time put in VERB 22, NOUN 78 (plus 072.24), then VERB 58 ENTER. Then some words, "When maneuver complete, wait 20 seconds." Then, a VERB 22, NOUN 78 (plus 052.25). That's plus 052.25. And follow that with a VERB 58 ENTER. And, then one more line -you still with me?
+|134:57:15|CC|Right. What we're doing here is making a 20-degree roll by keeping P20 going, to allow them to cal the VHF - I guess they had some unexpected noise on the VHF sounder and they want to - slip this in as another check on it. So, the next step is 136:44 and at that time put in VERB 22, NOUN 78 (plus 072.24), then VERB 58 ENTER. Then some words, "When maneuver complete, wait 20 seconds." Then, a VERB 22, NOUN 78 (plus 052.25). That's plus 052.25. And follow that with a VERB 58 ENTER. And, then one more line - you still with me?
 |134:57:15|CMP|Yes, still with you. Got it.
 |134:57:15|CC|Okay, at 136:47, write in "VERB 48" and we go back to (lllOl) and zero and four ones.
 |134:57:15|CMP|Okay. At 44, we - VERB 22, NOUN 78 [sic] - that changes to 72.24 degrees. And VERB 58. Okay, then we - we're going to stay at that attitude for 20 seconds. Then change it back to plus-X forward SIM bay attitude again. And as soon as we get back, we'll change our DAP back to two tenths of a degree per second.
@@ -20819,7 +20819,7 @@
 ||||Tape 104B/5|Page 1422
 |160:00:43|CC|Okay. On your present page, there - the UV solar atmosphere pad, at 160:38.
 |160:00:53|CMP|Ah-ha. I have it.
-|160:00:57|CC|Okay. It's T-start of 160:41:22; T-stop is 161:26:47. And the remark that goes with that -you don't need to write this down - but the T-start time is biased 10 seconds prior to when we really think sunset will occur. If you see, visually - Okay, my mistake, it's 10 seconds after sunset. But if you see sunset visually, you can go ahead and proceed with UV cover open as soon as you see it. But we'd like you to close the UV cover exactly on the T-stop time as written. Over.
+|160:00:57|CC|Okay. It's T-start of 160:41:22; T-stop is 161:26:47. And the remark that goes with that - you don't need to write this down - but the T-start time is biased 10 seconds prior to when we really think sunset will occur. If you see, visually - Okay, my mistake, it's 10 seconds after sunset. But if you see sunset visually, you can go ahead and proceed with UV cover open as soon as you see it. But we'd like you to close the UV cover exactly on the T-stop time as written. Over.
 ||||Tape 105B/1|Page 1423
 |160:01:59|CMP|Okay. Let's see. I'm with you. We'll make sure it gets closed at 61:26:47, but we can open it as soon as sunset comes, okay? Even though we haven't started pitching yet.
 |160:02:23|CC|That's correct, and do you want to read back the start time?
@@ -30439,10 +30439,10 @@
 ||||Tape 152/4|Page 2106
 |229:20:39|CDR|Thank you, Bob, and our hello and thank you to the tracking team. We sure have been able to work well with them, and communications have been super.
 |229:20:54|CC|That's real great. I'm sure those words will be appreciated up at Goddard, and around the world, of course.
-|229:21:02|CDR|Well, like a lot of other people - you know -you can't do it without them.
+|229:21:02|CDR|Well, like a lot of other people - you know, you can't do it without them.
 |229:21:36|LMP|Bob, this is Jack. My appreciation and thanks, for an unnecessary honor, to Silver City.
 |229:21:42|CC|Roger, I'm sure they're listening out there, and just glad to do it.
-|229:28:20|CMP|Hey, Houston; America. How do you read. now?
+|229:28:50|CMP|Hey, Houston; America. How do you read. now?
 |229:28:57|CC|Read you loud and clear, Ron.
 ||||Tape 152/5|Page 2107
 |229:29:00|CMP|Okay, I've got the Commander's menu for you.

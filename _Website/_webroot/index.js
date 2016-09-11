@@ -1146,10 +1146,10 @@ function performSearch() {
                 var foundWord = getWordAt(html, searchResultTextIndex);
                 html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
                 searchResultsTable.append(html);
-                trace("performSearch():found: " + counter);
+                //trace("performSearch():found: " + counter);
                 searchResultCount++;
             }
-            if (searchResultCount > 100) {
+            if (searchResultCount > 200) {
                 break;
             }
         }
@@ -1346,7 +1346,7 @@ jQuery(function ($) {
 
     $("#inputFieldSearch")
         //.change(function(){
-        .keydown($.throttle(function(){
+        .keyup($.throttle(function(){
             performSearch();
         }, 100));
 
