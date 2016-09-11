@@ -12,6 +12,8 @@ $.when(
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
 
+        createSearchData();
+
         setTimeout(function(){
                 populatePhotoGallery();
             },500);
@@ -224,5 +226,36 @@ function processVideoSegmentData(allText) {
         if (data[0] != "") {
             gVideoSegments.push(data);
         }
+    }
+}
+
+function createSearchData() {
+    //gUttCommData = gUtteranceData.concat(gCommentaryData);
+    for (var counter = 0; counter < gUtteranceData.length; counter++) {
+        var tmpItem = [];
+        tmpItem[0] = gUtteranceData[counter][0];
+        tmpItem[1] = "";
+        tmpItem[2] = gUtteranceData[counter][1];
+        tmpItem[3] = gUtteranceData[counter][2];
+        tmpItem[4] = 0;
+        gUttCommData.push(tmpItem);
+    }
+    for (counter = 0; counter < gCommentaryData.length; counter++) {
+        tmpItem = gCommentaryData[counter];
+        tmpItem[4] = 1;
+        gUttCommData.push(tmpItem);
+    }
+
+    gUttCommData.sort(searchArraySortFunction);
+
+    trace("whatever");
+}
+
+function searchArraySortFunction(a, b) {
+    if (a[0] === b[0]) {
+        return 0;
+    }
+    else {
+        return (a[0] < b[0]) ? -1 : 1;
     }
 }

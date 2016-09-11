@@ -25,6 +25,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
+var gUttCommData = [];
 var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
@@ -439,10 +440,13 @@ function seekToTime(timeId) { // transcript click handling --------------------
                     player.seekTo(seekToSecondsWithOffset, true);
                 }
                 showPhotoByTimeId(findClosestPhoto(totalSeconds));
-                scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
-                scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
-                scrollToClosestTOC(totalSeconds);
-                redrawAll();
+                setTimeout(function() {
+                    scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
+                    scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
+                    scrollToClosestTOC(totalSeconds);
+                    redrawAll();
+                },100);
+
                 break;
             }
         }
@@ -1133,14 +1137,14 @@ function loadPhotoHtml(photoIndex) {
 // <editor-fold desc="search functions ---------------">
 
 function performSearch() {
-    trace("performSearch(): start");
+    //trace("performSearch(): start");
     var searchResultsTable = $('#searchResultsTable');
     var searchResultCount = 0;
-    var searchText = $('#inputFieldSearch').val();
+    var searchText = $('#searchInputField').val();
     searchResultsTable.html('');
-    if (searchText.length > 0) {
-        for (var counter = 0; counter < gUtteranceData.length; counter++) {
-            if ( gUtteranceData[counter][2].toLowerCase().indexOf(searchText.toLowerCase()) != -1) {
+    if (searchText.length > 1) {
+        for (var counter = 0; counter < gUttCommData.length; counter++) {
+            if ( gUttCommData[counter][3].toLowerCase().indexOf(searchText.toLowerCase()) != -1) {
                 var html = getSearchResultHTML(counter);
                 var searchResultTextIndex = html.toLowerCase().indexOf(searchText.toLowerCase());
                 var foundWord = getWordAt(html, searchResultTextIndex);
@@ -1149,33 +1153,33 @@ function performSearch() {
                 //trace("performSearch():found: " + counter);
                 searchResultCount++;
             }
-            if (searchResultCount > 200) {
+            if (searchResultCount > 500) {
                 break;
             }
         }
     }
 }
 
-function getSearchResultHTML(utteranceIndex) {
+function getSearchResultHTML(searchArrayIndex) {
     //trace("getUtteranceObjectHTML():" + utteranceIndex);
-    var utteranceObject = gUtteranceData[utteranceIndex];
+    var searchObject = gUttCommData[searchArrayIndex];
 
-    var who_modified = utteranceObject[1];
+    var who_modified = searchObject[2];
     who_modified = who_modified.replace(/CDR/g, "Cernan");
     who_modified = who_modified.replace(/CMP/g, "Evans");
     who_modified = who_modified.replace(/LMP/g, "Schmitt");
     who_modified = who_modified.replace(/PAO/g, "Public Affairs");
     who_modified = who_modified.replace(/CC/g, "Mission Control");
 
-    var words_modified = utteranceObject[2];
+    var words_modified = searchObject[3];
     words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
     words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
 
     var html = $('#searchResultTemplate').html();
-    var timeId = utteranceObject[0];
+    var timeId = searchObject[0];
     html = html.replace(/@searchResultid/g, timeId);
-    html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
+    html = html.replace("@timestamp", timeIdToTimeStr(searchObject[0]));
     html = html.replace("@who", who_modified);
     html = html.replace("@words", words_modified);
     if (who_modified == "Public Affairs" || who_modified == "") {
@@ -1186,12 +1190,26 @@ function getSearchResultHTML(utteranceIndex) {
         uttTypeStr = "utt_crew";
     }
     html = html.replace(/@uttType/g, uttTypeStr);
+    if (searchObject[4] == 0) { //0 for utterance
+        html = html.replace(/@entrytypevar/g, "transcript");
+        html = html.replace(/@entrytype/g, "");
+    } else { //1 for commentary
+        html = html.replace(/@entrytypevar/g, "commentary");
+        html = html.replace(/@entrytype/g, "Commentary");
+    }
     return html;
 }
 
-function searchResultClick(searchResultId) {
+function searchResultClick(searchResultId, itemType) {
     toggleSearchOverlay();
     seekToTime(searchResultId);
+    if (itemType == "transcript") {
+        activateTab("transcriptTab");
+        scrollTranscriptToCurrMissionTime();
+    } else {
+        activateTab("commentaryTab");
+        scrollCommentaryToCurrMissionTime();
+    }
 }
 
 // </editor-fold>
@@ -1205,17 +1223,32 @@ function padZeros(num, size) {
 }
 
 function toggleSearchOverlay() {
-    var videoSearchOverlaySelector = $('.video-search-overlay');
+    var searchOverlaySelector = $('.search-overlay');
     var searchBtnSelector =  $('#searchBtn');
-    if( videoSearchOverlaySelector.css('display').toLowerCase() == 'none') {
-        videoSearchOverlaySelector.css('display', 'block');
+    if (searchOverlaySelector.css('display').toLowerCase() == 'none') {
+        searchOverlaySelector.css('display', 'block');
         searchBtnSelector.removeClass('subdued');
         searchBtnSelector.addClass('primary');
-        $('#inputFieldSearch').focus();
+        $('#searchInputField').focus();
     } else {
-        videoSearchOverlaySelector.css("display", "none");
+        searchOverlaySelector.css("display", "none");
         searchBtnSelector.removeClass('primary');
         searchBtnSelector.addClass('subdued');
+    }
+}
+
+function toggleDashboardOverlay() {
+    var dashboardOverlaySelector = $('.dashboard-overlay');
+    var dashboardBtnSelector =  $('#dashboardBtn');
+    if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
+        dashboardOverlaySelector.css('display', 'block');
+        dashboardBtnSelector.removeClass('subdued');
+        dashboardBtnSelector.addClass('primary');
+        $('#searchInputField').focus();
+    } else {
+        dashboardOverlaySelector.css("display", "none");
+        dashboardBtnSelector.removeClass('primary');
+        dashboardBtnSelector.addClass('subdued');
     }
 }
 
@@ -1344,7 +1377,13 @@ jQuery(function ($) {
             toggleSearchOverlay();
         });
 
-    $("#inputFieldSearch")
+    $("#dashboardBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'dashboard');
+            toggleDashboardOverlay();
+        });
+
+    $("#searchInputField")
         //.change(function(){
         .keyup($.throttle(function(){
             performSearch();
@@ -1415,7 +1454,10 @@ jQuery(function ($) {
     $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'transcript');
         activateTab(this.id);
-        scrollTranscriptToCurrMissionTime();
+        setTimeout(function(){
+            scrollTranscriptToCurrMissionTime();
+        },100);
+
     });
 
     $("#tocTab").click(function(){
@@ -1427,29 +1469,31 @@ jQuery(function ($) {
     $("#commentaryTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'commentary');
         activateTab(this.id);
-        scrollCommentaryToCurrMissionTime();
+        setTimeout(function(){
+            scrollCommentaryToCurrMissionTime();
+        },100);
     });
 
-    function activateTab(tabId) {
-        $('.splash-btn.content-tab').removeClass('selected');
-        $('#' + tabId).addClass('selected');
-
-        var rootName = tabId.substring(0, tabId.length - 3);
-        $('.text-wrapper').css("display", "none");
-        $('#' + rootName + "Wrapper").css("display", "block");
-    }
-
-    function scrollTranscriptToCurrMissionTime() {
-        scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
-    }
-    function scrollTOCToCurrMissionTime() {
-        scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
-    }
-    function scrollCommentaryToCurrMissionTime() {
-        scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
-    }
-
 });
+
+function activateTab(tabId) {
+    $('.splash-btn.content-tab').removeClass('selected');
+    $('#' + tabId).addClass('selected');
+
+    var rootName = tabId.substring(0, tabId.length - 3);
+    $('.text-wrapper').css("display", "none");
+    $('#' + rootName + "Wrapper").css("display", "block");
+}
+
+function scrollTranscriptToCurrMissionTime() {
+    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+}
+function scrollTOCToCurrMissionTime() {
+    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+}
+function scrollCommentaryToCurrMissionTime() {
+    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+}
 
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
