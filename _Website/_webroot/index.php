@@ -5,7 +5,18 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+
     <title>Apollo 17 in Real-time</title>
+    <link rel="image_src" href="http://apollo17.org/img/screenshot.png" / >
+    <meta name="description" content="A real-time interactive journey through the Apollo 17 mission. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
+
+    <meta property="fb:app_id" content="1639595472942714" />
+    <meta property="og:title" content="Apollo 17 in Real-time" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://apollo17.org/img/screenshot.png" />
+    <meta property="og:url" content="http://apollo17.org/" />
+    <meta property="og:description" content="A real-time interactive journey through the Apollo 17 mission. Relive every moment as it occurred in 1972. 300+ hours of audio, 22+ hours of video, 4,200+ photos." />
+    <meta property="og:site_name" content="Apollo 17 in Real-time" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
@@ -60,7 +71,6 @@
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>
 
-
 </head>
 <body>
 
@@ -76,7 +86,7 @@
     <div class="imageBlock">
         <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename.jpg')">
 
-            <a href="http://media.apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
+            <a href="http://apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
                 <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 
@@ -125,6 +135,14 @@
         <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename">
         <div class="galleryOverlay">@timestamp</div>
     </div>
+</script>
+
+<script type="text/html" id="searchResultTemplate">
+    <tr class="utterance utt_pao" style="@style" onclick="searchResultClick('@searchResultid', '@entrytypevar')">
+        <td class="timestamp">@timestamp<BR>@entrytype</td>
+        <td class="who @uttType">@who</td>
+        <td class="spokenwords @uttType"> @words</td>
+    </tr>
 </script>
 
 </html>

@@ -109,7 +109,7 @@ def get_combined_transcript_list():
     photos_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
     first_row = True
     for photo_row in photos_reader:
-        if photo_row[0] != "" and first_row is False: #if timestamp not blank
+        if photo_row[0] != "" and photo_row[0] != "skip" and first_row is False: #if timestamp not blank
             if len(photo_row[1]) == 5:
                 photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
             else:
@@ -172,7 +172,7 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
     item_template = loader.load_template('template_afj_footer.html')
     output_segment_file.write(item_template.render({'datarow': 0}, loader=loader).encode('utf-8'))
 
-output_file_name_and_path = "./_webroot/TOC.php"
+output_file_name_and_path = "./_webroot/TOC.html"
 output_TOC_file = open(output_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()

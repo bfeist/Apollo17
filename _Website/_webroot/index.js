@@ -1,6 +1,6 @@
 trace("INIT: Loading index.js");
 var gStopCache = false;
-var gCdnEnabled = true;
+var gCdnEnabled = false;
 var gOffline = false;
 
 var gMissionDurationSeconds = 1100166;
@@ -25,6 +25,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
+var gUttCommData = [];
 var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
@@ -103,7 +104,7 @@ function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
         gPlaybackState = "normal";
-        $("#playPauseBtn").addClass('pause');
+        $("#playPauseBtn > img").addClass('pause');
 
         if (gNextVideoStartTime != -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
@@ -129,7 +130,7 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
-        $("#playPauseBtn").removeClass('pause');
+        $("#playPauseBtn > img").removeClass('pause');
 
     } else if (event.data == YT.PlayerState.BUFFERING) {
         //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -201,9 +202,9 @@ function setAutoScrollPoller() {
 
         if (!gOffline) {
             if (player.isMuted() == true) {
-                $('#soundBtn').removeClass('mute');
+                $('#soundBtn > img').removeClass('mute');
             } else {
-                $('#soundBtn').addClass('mute');
+                $('#soundBtn > img').addClass('mute');
             }
         }
     }, 500); //polling frequency in milliseconds
@@ -439,10 +440,13 @@ function seekToTime(timeId) { // transcript click handling --------------------
                     player.seekTo(seekToSecondsWithOffset, true);
                 }
                 showPhotoByTimeId(findClosestPhoto(totalSeconds));
-                scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
-                scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
-                scrollToClosestTOC(totalSeconds);
-                redrawAll();
+                setTimeout(function() {
+                    scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
+                    scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
+                    scrollToClosestTOC(totalSeconds);
+                    redrawAll();
+                },100);
+
                 break;
             }
         }
@@ -498,7 +502,10 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
 
     $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
-    $(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
+
+    var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+    $(".historicalTime").text(historicalDate.toLocaleTimeString('en-US', options));
+    //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
     $(".missionElapsedTime").text(gCurrMissionTime);
@@ -523,10 +530,12 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
     var launchDate_ms = launchDate.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
-        var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
+        //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
+        var daysToMoveForward = 6;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
     } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
-        var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
+        //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
+        var daysToMoveBackward = 12;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
@@ -535,8 +544,7 @@ function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" bu
         timeSinceLaunch_ms += 9600 * 1000;
     }
 
-    var timeId = secondsToTimeId(timeSinceLaunch_ms / 1000);
-    return timeId;
+    return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
 
 // </editor-fold>
@@ -694,6 +702,7 @@ function repopulateUtterances(timeId) {
     }
     gUtteranceDisplayStartIndex = startIndex;
     gUtteranceDisplayEndIndex = endIndex;
+    trace("repopulateUtterances(): populated utterances from: " + gUtteranceDisplayStartIndex + " to " + gUtteranceDisplayEndIndex);
     $('#utteranceDiv').scrollTop('#uttid' + timeId);
 }
 
@@ -714,15 +723,17 @@ function prependUtterances(count, atTop) {
 
     if (atTop) {
         var elementToScrollBackTo = $("#uttid" + timeStrToTimeId(gUtteranceData[gUtteranceDisplayStartIndex][0]));
-        trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
+        //trace("element to scroll back to: " + elementToScrollBackTo.attr('id'));
         var oldScrollDestination = utteranceDiv.scrollTop() + elementToScrollBackTo.offset().top - utteranceDiv.offset().top;
         utteranceDiv.scrollTop(oldScrollDestination);
     }
 
-    //trace("prepended from" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
+    trace("prependUtterances(): prepended utterances from: " + startIndex);
     gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex - prependedCount;
-    //trace("prepended to" + gUtteranceData[gUtteranceDisplayStartIndex][0]);
-    trace("prependUtterances:" + prependedCount);
+    trace("prependUtterances(): prepended utterances to: " + i);
+    var diff = i - startIndex;
+    trace("prependUtterances(): difference: " + diff);
+    trace("prependUtterances(): counted prepends in if statement: " + prependedCount);
 }
 
 function appendUtterances(count, atBottom) {
@@ -747,10 +758,12 @@ function appendUtterances(count, atBottom) {
     if (atBottom)
         utteranceDiv.scrollTop(topToScrollBackTo);
 
-    //trace("appended utterances from " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
+    trace("appendUtterances(): appended utterances from: " + startIndex);
     gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex + appendedCount;
-    //trace("appended utterances to " + gUtteranceData[gUtteranceDisplayEndIndex][0]);
-    trace("appendUtterances:" + appendedCount);
+    trace("appendUtterances(): appended utterances to: " + i);
+    var diff = i - startIndex;
+    trace("appendUtterances(): difference: " + diff);
+    trace("appendUtterances(): counted appends in if statement: " + appendedCount);
 }
 
 function trimUtterances() {
@@ -759,18 +772,28 @@ function trimUtterances() {
         trace("trimUtterances():" + numberToRemove);
         var currDistFromStart = gCurrentHighlightedUtteranceIndex - gUtteranceDisplayStartIndex;
         var currDistFromEnd = gUtteranceDisplayEndIndex - gCurrentHighlightedUtteranceIndex;
+        trace("trimUtterances(): currDistFromStart: " + currDistFromStart);
+        trace("trimUtterances(): currDistFromEnd: " + currDistFromEnd);
         if (currDistFromStart > currDistFromEnd) { //trim items from top of utterance div
+            var counter = 0;
             for (var i = gUtteranceDisplayStartIndex; i < gUtteranceDisplayStartIndex + numberToRemove; i++) {
                 $('#uttid' + gUtteranceIndex[i]).remove();
+                counter++;
             }
             //trace("Trimming " + numberToRemove + " utterances from top");
-            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove
+            var tempEndForTrace = gUtteranceDisplayStartIndex + numberToRemove;
+            trace("trimUtterances(): removed from top: " + counter + " starting at index: " + gUtteranceDisplayStartIndex + " up to index: " + tempEndForTrace);
+            gUtteranceDisplayStartIndex = gUtteranceDisplayStartIndex + numberToRemove;
+
         } else { //trim items from bottom of utterance div
-            for (i = gUtteranceDisplayEndIndex - numberToRemove; i < gUtteranceDisplayEndIndex; i++) {
+            counter = 0;
+            for (i = gUtteranceDisplayEndIndex - numberToRemove; i <= gUtteranceDisplayEndIndex; i++) {
                 $('#uttid' + gUtteranceIndex[i]).remove();
+                counter++;
             }
             //trace("Trimming " + numberToRemove + " utterances from bottom");
             gUtteranceDisplayEndIndex = gUtteranceDisplayEndIndex - numberToRemove;
+            trace("trimUtterances(): removed from bottom: " + counter + " starting at index: " + gUtteranceDisplayEndIndex - numberToRemove);
         }
         var utteranceDiv = $('#utteranceDiv');
         var currElement = $('#uttid' + timeStrToTimeId(gUtteranceData[gCurrentHighlightedUtteranceIndex][0]));
@@ -802,7 +825,8 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace(/@uttid/g, timeId);
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
-    html = html.replace("@words", words_modified);
+    //html = html.replace("@words", "[" + utteranceIndex + "]" + words_modified);
+    html = html.replace("@words", utteranceIndex + "|" + words_modified);
     if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
     } else if (who_modified == "Mission Control") {
@@ -917,7 +941,7 @@ function trimCommentary() {
             //console.log("Trimming " + numberToRemove + " commentary from top");
             gCommentaryDisplayStartIndex = gCommentaryDisplayStartIndex + numberToRemove
         } else { //trim items from bottom of commentary div
-            for (i = gCommentaryDisplayEndIndex - numberToRemove; i < gCommentaryDisplayEndIndex; i++) {
+            for (i = gCommentaryDisplayEndIndex - numberToRemove; i <= gCommentaryDisplayEndIndex; i++) {
                 $('#uttid' + gCommentaryIndex[i]).remove();
             }
             //console.log("Trimming " + numberToRemove + " commentary from bottom");
@@ -994,8 +1018,6 @@ function getCommentaryObjectHTML(commentaryIndex, style) {
 }
 
 // </editor-fold> //utterances and commentary
-
-// </editor-fold> //scrolling things
 
 // <editor-fold desc="photo display and gallery -------------------------------------------------">
 
@@ -1087,7 +1109,8 @@ function loadPhotoHtml(photoIndex) {
     } else {
         sizePath = "2100";
     }
-    var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    //var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    var fullSizePath = "2100";
 
     if (gCdnEnabled) {
         var cdnNum = getRandomInt(1, 5);
@@ -1108,51 +1131,86 @@ function loadPhotoHtml(photoIndex) {
 
     photoDiv.html('');
     photoDiv.append(html);
+}
+// </editor-fold>
 
-    //prescale to height using css before calling scaleMissionImage so that it looks partially scaled as it loads
-    //var imageContainerImage = $('#imageContainerImage');
-    //imageContainerImage.css("width", 'auto');
-    //imageContainerImage.css("height", photoDiv.height());
+// <editor-fold desc="search functions ---------------">
 
-    //when image finished loading, scale it proportionally both horizontally and vertically
-    //imageContainerImage.load(function(){ //scale image proportionally to image viewport on load
-    //    //console.log('***image load complete');
-    //    scaleMissionImage();
-    //});
+function performSearch() {
+    //trace("performSearch(): start");
+    var searchResultsTable = $('#searchResultsTable');
+    var searchResultCount = 0;
+    var searchText = $('#searchInputField').val();
+    searchResultsTable.html('');
+    if (searchText.length > 1) {
+        for (var counter = 0; counter < gUttCommData.length; counter++) {
+            if ( gUttCommData[counter][3].toLowerCase().indexOf(searchText.toLowerCase()) != -1) {
+                var html = getSearchResultHTML(counter);
+                var searchResultTextIndex = html.toLowerCase().indexOf(searchText.toLowerCase());
+                var foundWord = getWordAt(html, searchResultTextIndex);
+                html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
+                searchResultsTable.append(html);
+                //trace("performSearch():found: " + counter);
+                searchResultCount++;
+            }
+            if (searchResultCount > 500) {
+                break;
+            }
+        }
+    }
 }
 
-//function scaleMissionImage() {
-//    //trace('scaleMissionImage()');
-//    var photodiv = $('#photodiv');
-//    var image = $('#imageContainerImage');
-//
-//    var maxWidth = photodiv.width(); // Max width for the image
-//    var maxHeight = photodiv.height();    // Max height for the image
-//    var ratio = 0;  // Used for aspect ratio
-//
-//    var width = image.get(0).naturalWidth; // Full image width
-//    var height =image.get(0).naturalHeight; // Full image height
-//
-//    // Check if the current width is larger than the max7
-//    if(width > maxWidth){
-//        ratio = maxWidth / width;   // get ratio for scaling image
-//        image.css("width", maxWidth); // Set new width
-//        image.css("height", height * ratio);  // Scale height based on ratio
-//
-//        height = height * ratio;    // Reset height to match scaled image
-//        width = width * ratio;    // Reset width to match scaled image
-//    } else if (width <= maxWidth) {  // get ratio for scaling image
-//        image.css("width", width); // Set new width
-//        image.css("height", "auto");  // Scale height based on ratio
-//    }
-//
-//    // Check if current or newly width-scaled height is larger than max
-//    if(height > maxHeight){
-//        ratio = maxHeight / height; // get ratio for scaling image
-//        image.css("height", maxHeight);   // Set new height
-//        image.css("width", width * ratio);    // Scale width based on ratio
-//    }
-//}
+function getSearchResultHTML(searchArrayIndex) {
+    //trace("getUtteranceObjectHTML():" + utteranceIndex);
+    var searchObject = gUttCommData[searchArrayIndex];
+
+    var who_modified = searchObject[2];
+    who_modified = who_modified.replace(/CDR/g, "Cernan");
+    who_modified = who_modified.replace(/CMP/g, "Evans");
+    who_modified = who_modified.replace(/LMP/g, "Schmitt");
+    who_modified = who_modified.replace(/PAO/g, "Public Affairs");
+    who_modified = who_modified.replace(/CC/g, "Mission Control");
+
+    var words_modified = searchObject[3];
+    words_modified = words_modified.replace(/O2/g, "O<sub>2</sub>");
+    words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
+    words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
+
+    var html = $('#searchResultTemplate').html();
+    var timeId = searchObject[0];
+    html = html.replace(/@searchResultid/g, timeId);
+    html = html.replace("@timestamp", timeIdToTimeStr(searchObject[0]));
+    html = html.replace("@who", who_modified);
+    html = html.replace("@words", words_modified);
+    if (who_modified == "Public Affairs" || who_modified == "") {
+        var uttTypeStr = "utt_pao";
+    } else if (who_modified == "Mission Control") {
+        uttTypeStr = "utt_capcom";
+    } else {
+        uttTypeStr = "utt_crew";
+    }
+    html = html.replace(/@uttType/g, uttTypeStr);
+    if (searchObject[4] == 0) { //0 for utterance
+        html = html.replace(/@entrytypevar/g, "transcript");
+        html = html.replace(/@entrytype/g, "");
+    } else { //1 for commentary
+        html = html.replace(/@entrytypevar/g, "commentary");
+        html = html.replace(/@entrytype/g, "Commentary");
+    }
+    return html;
+}
+
+function searchResultClick(searchResultId, itemType) {
+    toggleSearchOverlay();
+    seekToTime(searchResultId);
+    if (itemType == "transcript") {
+        activateTab("transcriptTab");
+        scrollTranscriptToCurrMissionTime();
+    } else {
+        activateTab("commentaryTab");
+        scrollCommentaryToCurrMissionTime();
+    }
+}
 
 // </editor-fold>
 
@@ -1162,6 +1220,36 @@ function padZeros(num, size) {
     var s = num + "";
     while (s.length < size) s = "0" + s;
     return s;
+}
+
+function toggleSearchOverlay() {
+    var searchOverlaySelector = $('.search-overlay');
+    var searchBtnSelector =  $('#searchBtn');
+    if (searchOverlaySelector.css('display').toLowerCase() == 'none') {
+        searchOverlaySelector.css('display', 'block');
+        searchBtnSelector.removeClass('subdued');
+        searchBtnSelector.addClass('primary');
+        $('#searchInputField').focus();
+    } else {
+        searchOverlaySelector.css("display", "none");
+        searchBtnSelector.removeClass('primary');
+        searchBtnSelector.addClass('subdued');
+    }
+}
+
+function toggleDashboardOverlay() {
+    var dashboardOverlaySelector = $('.dashboard-overlay');
+    var dashboardBtnSelector =  $('#dashboardBtn');
+    if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
+        dashboardOverlaySelector.css('display', 'block');
+        dashboardBtnSelector.removeClass('subdued');
+        dashboardBtnSelector.addClass('primary');
+        $('#searchInputField').focus();
+    } else {
+        dashboardOverlaySelector.css("display", "none");
+        dashboardBtnSelector.removeClass('primary');
+        dashboardBtnSelector.addClass('subdued');
+    }
 }
 
 function toggleFullscreen() {
@@ -1248,6 +1336,26 @@ function trace(str) {
     }
 }
 
+function getWordAt(str, pos) {
+
+    // Perform type conversions.
+    str = String(str);
+    pos = Number(pos) >>> 0;
+
+    // Search for the word's beginning and end.
+    var left = str.slice(0, pos + 1).search(/\S+$/),
+        right = str.slice(pos).search(/\s/);
+
+    // The last word in the string is a special case.
+    if (right < 0) {
+        return str.slice(left);
+    }
+
+    // Return the word, using the located bounds to extract it from the string.
+    return str.slice(left, right + pos);
+
+}
+
 // </editor-fold>
 
 // <editor-fold desc="document event handlers -------------------------------------------------">
@@ -1262,6 +1370,25 @@ jQuery(function ($) {
     }
     activateTab('transcriptTab');
     //buttons
+
+    $("#searchBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'search');
+            toggleSearchOverlay();
+        });
+
+    $("#dashboardBtn")
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'dashboard');
+            toggleDashboardOverlay();
+        });
+
+    $("#searchInputField")
+        //.change(function(){
+        .keyup($.throttle(function(){
+            performSearch();
+        }, 100));
+
 
     $(".fullscreenBtn")
         .click(function(){
@@ -1327,7 +1454,10 @@ jQuery(function ($) {
     $("#transcriptTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'transcript');
         activateTab(this.id);
-        scrollTranscriptToCurrMissionTime();
+        setTimeout(function(){
+            scrollTranscriptToCurrMissionTime();
+        },100);
+
     });
 
     $("#tocTab").click(function(){
@@ -1339,29 +1469,31 @@ jQuery(function ($) {
     $("#commentaryTab").click(function(){
         ga('send', 'event', 'tab', 'click', 'commentary');
         activateTab(this.id);
-        scrollCommentaryToCurrMissionTime();
+        setTimeout(function(){
+            scrollCommentaryToCurrMissionTime();
+        },100);
     });
 
-    function activateTab(tabId) {
-        $('.splash-btn.content-tab').removeClass('selected');
-        $('#' + tabId).addClass('selected');
-
-        var rootName = tabId.substring(0, tabId.length - 3);
-        $('.text-wrapper').css("display", "none");
-        $('#' + rootName + "Wrapper").css("display", "block");
-    }
-
-    function scrollTranscriptToCurrMissionTime() {
-        scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
-    }
-    function scrollTOCToCurrMissionTime() {
-        scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
-    }
-    function scrollCommentaryToCurrMissionTime() {
-        scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
-    }
-
 });
+
+function activateTab(tabId) {
+    $('.splash-btn.content-tab').removeClass('selected');
+    $('#' + tabId).addClass('selected');
+
+    var rootName = tabId.substring(0, tabId.length - 3);
+    $('.text-wrapper').css("display", "none");
+    $('#' + rootName + "Wrapper").css("display", "block");
+}
+
+function scrollTranscriptToCurrMissionTime() {
+    scrollTranscriptToTimeId(findClosestUtterance(timeStrToSeconds(gCurrMissionTime)));
+}
+function scrollTOCToCurrMissionTime() {
+    scrollToClosestTOC(timeStrToSeconds(gCurrMissionTime));
+}
+function scrollCommentaryToCurrMissionTime() {
+    scrollCommentaryToTimeId(findClosestCommentary(timeStrToSeconds(gCurrMissionTime)));
+}
 
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
@@ -1413,8 +1545,8 @@ function initSplash() {
 function setSplashHistoricalSubtext() {
     var launchDate = Date.parse("1972-12-07 0:33am -500");
     var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-    var currDate = Date.parse("1972-12-10 0:33am -500");
-    //var currDate = Date.now();
+    //var currDate = Date.parse("1972-12-10 0:33am -500");
+    var currDate = Date.now();
 
     var currDate_ms = currDate.getTime();
     var countdownStartDate_ms = countdownStartDate.getTime();
