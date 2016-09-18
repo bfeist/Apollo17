@@ -26,6 +26,7 @@ var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
 var gUttCommData = [];
+var gTelemetryData = [];
 var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
@@ -189,6 +190,8 @@ function setAutoScrollPoller() {
             showPhotoByTimeId(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
+
+            updateDashboard(timeId);
 
             //scroll nav cursor
             if (!gMouseOnNavigator && !gMustInitNav) {
@@ -455,7 +458,7 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
 // </editor-fold>
 
-// <editor-fold desc="historical time handling------------------------------------------------">
+// <editor-fold desc="historical time handling ------------------------------------------------">
 
 function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //trace("displayHistoricalTimeDifferenceByTimeId():" + timeid);
@@ -1134,19 +1137,19 @@ function loadPhotoHtml(photoIndex) {
 }
 // </editor-fold>
 
-// <editor-fold desc="search functions ---------------">
+// <editor-fold desc="search and dashboard functions ---------------">
 
 function performSearch() {
     //trace("performSearch(): start");
     var searchResultsTable = $('#searchResultsTable');
     var searchResultCount = 0;
-    var searchText = $('#searchInputField').val();
+    var searchText = $('#searchInputField').val().toLowerCase();
     searchResultsTable.html('');
     if (searchText.length > 1) {
         for (var counter = 0; counter < gUttCommData.length; counter++) {
-            if ( gUttCommData[counter][3].toLowerCase().indexOf(searchText.toLowerCase()) != -1) {
+            if ( gUttCommData[counter][3].toLowerCase().indexOf(searchText) != -1) {
                 var html = getSearchResultHTML(counter);
-                var searchResultTextIndex = html.toLowerCase().indexOf(searchText.toLowerCase());
+                var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
                 var foundWord = getWordAt(html, searchResultTextIndex);
                 html = html.replace(foundWord, "<span class='searchResultHighlight'>" + foundWord + "</span>");
                 searchResultsTable.append(html);
@@ -1212,6 +1215,162 @@ function searchResultClick(searchResultId, itemType) {
     }
 }
 
+function updateDashboard(timeId) {
+    /*
+     Mission Day 6/13
+     Day 2 on Lunar Surface
+
+     Command and Service Module:
+     Onboard: Ron Evans
+     Lunar orbit 23
+
+     Lunar Module:
+     Onboard: Gene Cernan, Jack Schmitt
+     On Lunar Surface
+     Preparing for 2nd EVA (Extravehicular Activity): (countdown)
+     */
+
+    /*
+     Mission Day 2/13
+     Trans-lunar Coast
+     Current velocity (relative to Earth):
+     10000 feet/second (10000 km/h) (Mach 10)
+
+     Current distance from Earth:
+     110000nm (110000km)
+
+     Command and Service Module:
+     Onboard: Gene Cernan, Jack Schmitt, Ron Evans
+
+     Lunar Module:
+     Docked with Command and Service Module.
+     */
+    var timeIdInSeconds = timeIdToSeconds(timeId);
+
+    //Decide whether to auto-hide dashboard
+
+
+    //Display day
+    var dashMissionDay = Math.ceil(timeIdInSeconds / 86400);
+    dashMissionDay = dashMissionDay == 0 ? 1 : dashMissionDay;
+    $('#dashMissionDay').html(dashMissionDay);
+
+    //Display Mission Stage
+    for (var counter = 0; counter < gMissionStages.length; counter ++) {
+        if (timeStrToSeconds(gMissionStages[counter][0]) < timeIdInSeconds && timeStrToSeconds(gMissionStages[counter][3]) > timeIdInSeconds) {
+            var dashMissionStage = gMissionStages[counter][2];
+            break;
+        }
+    }
+    $('#dashMissionStage').html(dashMissionStage);
+
+
+    var calculateVelocity;
+    var calculateDistanceFromEarth;
+    if (timeIdInSeconds < timeStrToSeconds("088:43:38")) { //trans-lunar coast
+        calculateVelocity = true;
+        calculateDistanceFromEarth = true
+    } else if (timeIdInSeconds > timeStrToSeconds("236:52:03")){ //trans-earth coast
+        calculateVelocity = true;
+        calculateDistanceFromEarth = true;
+    } else { //lunar orbit
+        calculateVelocity = false;
+        calculateDistanceFromEarth = false;
+    }
+    //Display velocity
+    if (calculateVelocity) {
+        if (timeIdInSeconds < timeStrToSeconds("304:32:00")) {
+            for (counter = 0; counter < gTelemetryData.length; counter++) {
+                if (timeStrToSeconds(gTelemetryData[counter][0]) < timeIdInSeconds) {
+                    if (gTelemetryData[counter][1] != "") {
+                        var prevVelocityTimestampObject = gTelemetryData[counter];
+                    }
+                } else {
+                    if (gTelemetryData[counter][1] != "") {
+                        var nextVelocityTimestampObject = gTelemetryData[counter];
+                        break;
+                    }
+                }
+            }
+            var startSeconds = timeStrToSeconds(prevVelocityTimestampObject[0]);
+            startSeconds = startSeconds > 230400 ? startSeconds - 9600 : startSeconds;
+            var startVelocity = parseInt(prevVelocityTimestampObject[1]);
+            var currSecondsAdjusted = timeIdInSeconds > 230400 ? timeIdInSeconds - 9600 : timeIdInSeconds;
+
+            var endSeconds = timeStrToSeconds(nextVelocityTimestampObject[0]);
+            endSeconds = endSeconds > 230400 ? endSeconds - 9600 : endSeconds;
+            var endVelocity = parseInt(nextVelocityTimestampObject[1]);
+            var secondsRange = endSeconds - startSeconds;
+            var velocityRange = endVelocity - startVelocity;
+            var currentPositionInSecondsRange = currSecondsAdjusted - startSeconds;
+            var currentVelocityFPS = ((currentPositionInSecondsRange * velocityRange) / secondsRange) + startVelocity;
+
+        } else {
+            currentVelocityFPS = 0;
+        }
+        var numDecimals = 1;
+        if (currentVelocityFPS < 100) numDecimals = 2;
+        currentVelocityFPS = parseFloat(Math.round(currentVelocityFPS * 100) / 100).toFixed(numDecimals);
+        var currentVelocityKPH = parseFloat(Math.round(currentVelocityFPS * 1.09728 * 100) / 100).toFixed(numDecimals);
+        var currentVelocityMach = parseFloat(Math.round(currentVelocityFPS * 0.00088863 * 10) / 10).toFixed(1);
+        var dashVelocity = '<span class="value">' + numberWithCommas(currentVelocityFPS) + '</span> feet per second (<span class="value">' +  numberWithCommas(currentVelocityKPH) + '</span> km/h) (Mach <span class="value">' +  currentVelocityMach + '</span>)';
+        $('#dashVelocityDiv').css('display', 'block');
+    } else {
+        $('#dashVelocityDiv').css("display", "none");
+        dashVelocity = '<span class="value">In lunar orbit</span>';
+    }
+    $('#dashVelocity').html(dashVelocity);
+
+    //Display distance from Earth
+    if (calculateDistanceFromEarth) {
+        if (timeIdInSeconds > 0 && timeIdInSeconds < timeStrToSeconds("304:32:00")) {
+            for (counter = 0; counter < gTelemetryData.length; counter++) {
+                if (timeStrToSeconds(gTelemetryData[counter][0]) < timeIdInSeconds) {
+                    if (gTelemetryData[counter][2] != "") {
+                        var prevDistanceEarthTimestampObject = gTelemetryData[counter];
+                    }
+                } else {
+                    if (gTelemetryData[counter][2] != "") {
+                        var nextDistanceEarthTimestampObject = gTelemetryData[counter];
+                        break;
+                    }
+                }
+            }
+            startSeconds = timeStrToSeconds(prevDistanceEarthTimestampObject[0]);
+            startSeconds = startSeconds > 230400 ? startSeconds - 9600 : startSeconds;
+            var startDistanceEarth = parseFloat(prevDistanceEarthTimestampObject[2]);
+            currSecondsAdjusted = timeIdInSeconds > 230400 ? timeIdInSeconds - 9600 : timeIdInSeconds;
+
+            endSeconds = timeStrToSeconds(nextDistanceEarthTimestampObject[0]);
+            endSeconds = endSeconds > 230400 ? endSeconds - 9600 : endSeconds;
+            var endDistanceEarth = parseFloat(nextDistanceEarthTimestampObject[2]);
+            secondsRange = endSeconds - startSeconds;
+            var distanceEarthRange = endDistanceEarth - startDistanceEarth;
+            currentPositionInSecondsRange = currSecondsAdjusted - startSeconds;
+            var currentDistanceEarthNM = ((currentPositionInSecondsRange * distanceEarthRange) / secondsRange) + startDistanceEarth;
+
+        } else {
+            currentDistanceEarthNM = 0;
+        }
+        numDecimals = 1;
+        if (currentDistanceEarthNM < 100) numDecimals = 2;
+        currentDistanceEarthNM = parseFloat(Math.round(currentDistanceEarthNM * 100) / 100).toFixed(numDecimals);
+        var currentDistanceEarthKM = parseFloat(Math.round(currentDistanceEarthNM * 1.852 * 100) / 100).toFixed(numDecimals);
+        var dashDistanceEarth = '<span class="value">' + numberWithCommas(currentDistanceEarthNM) + '</span> nautical miles (<span class="value">' + numberWithCommas(currentDistanceEarthKM) + '</span> km)';
+
+    } else {
+        dashDistanceEarth = '<span class="value">207,559</span> nautical miles (<span class="value">384,399.2</span> km) average while in lunar orbit';
+    }
+    $('#dashDistanceEarth').html(dashDistanceEarth);
+
+    //attempts at formulaic velocity calculation. Doesn't work due to moon's gravitational influence on the parabola formula
+    //var dashDistanceNM = -1 * (8486888657 * Math.pow(timeIdInSeconds, 2) / 8820689674156545) + ((1881583668117446 * timeIdInSeconds) / 1764137934831309) + (811004768622602161 / 2940229891385515);
+    //left half
+    //var dashDistanceNM = -1 * (9987355187 * Math.pow(timeIdInSeconds, 2) / 3604494879727504) + ((5611270876937931 * timeIdInSeconds) / 3604494879727504) - (35715506986568310715 / 1802247439863752);
+
+
+}
+
 // </editor-fold>
 
 // <editor-fold desc="utility functions ---------------">
@@ -1230,6 +1389,9 @@ function toggleSearchOverlay() {
         searchBtnSelector.removeClass('subdued');
         searchBtnSelector.addClass('primary');
         $('#searchInputField').focus();
+        if ($('.dashboard-overlay').css('display').toLowerCase() != 'none') { //turn off dashboard if it's up
+            toggleDashboardOverlay();
+        }
     } else {
         searchOverlaySelector.css("display", "none");
         searchBtnSelector.removeClass('primary');
@@ -1241,10 +1403,19 @@ function toggleDashboardOverlay() {
     var dashboardOverlaySelector = $('.dashboard-overlay');
     var dashboardBtnSelector =  $('#dashboardBtn');
     if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
+        $('#dashboardContent').modemizr({
+            bps: 1200,
+            cursor: true,
+            blink: false,
+            imageSpeedup: 100,
+            show: false
+        });
         dashboardOverlaySelector.css('display', 'block');
         dashboardBtnSelector.removeClass('subdued');
         dashboardBtnSelector.addClass('primary');
-        $('#searchInputField').focus();
+        if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
+            toggleSearchOverlay();
+        }
     } else {
         dashboardOverlaySelector.css("display", "none");
         dashboardBtnSelector.removeClass('primary');
@@ -1258,8 +1429,6 @@ function toggleFullscreen() {
     } else {
         $(document).fullScreen(false);
     }
-    //scaleMissionImage();
-    //redrawAll();
 }
 
 function secondsToTimeStr(totalSeconds) {
@@ -1353,7 +1522,10 @@ function getWordAt(str, pos) {
 
     // Return the word, using the located bounds to extract it from the string.
     return str.slice(left, right + pos);
+}
 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 // </editor-fold>
