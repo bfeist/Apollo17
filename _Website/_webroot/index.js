@@ -1416,7 +1416,8 @@ function toggleSearchOverlay() {
     var searchOverlaySelector = $('.search-overlay');
     var searchBtnSelector =  $('#searchBtn');
     if (searchOverlaySelector.css('display').toLowerCase() == 'none') {
-        searchOverlaySelector.css('display', 'block');
+        //searchOverlaySelector.css('display', 'block');
+        searchOverlaySelector.fadeIn();
         searchBtnSelector.removeClass('subdued');
         searchBtnSelector.addClass('primary');
         $('#searchInputField').focus();
@@ -1424,7 +1425,8 @@ function toggleSearchOverlay() {
             toggleDashboardOverlay();
         }
     } else {
-        searchOverlaySelector.css("display", "none");
+        //searchOverlaySelector.css("display", "none");
+        searchOverlaySelector.fadeOut();
         searchBtnSelector.removeClass('primary');
         searchBtnSelector.addClass('subdued');
     }
@@ -1451,7 +1453,8 @@ function showDashboardOverlay() {
         imageSpeedup: 100,
         show: false
     });
-    dashboardOverlaySelector.css('display', 'block');
+    //dashboardOverlaySelector.css('display', 'block');
+    dashboardOverlaySelector.fadeIn();
     dashboardBtnSelector.removeClass('subdued');
     dashboardBtnSelector.addClass('primary');
     if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
@@ -1462,7 +1465,8 @@ function showDashboardOverlay() {
 function hideDashboardOverlay() {
     var dashboardOverlaySelector = $('.dashboard-overlay');
     var dashboardBtnSelector =  $('#dashboardBtn');
-    dashboardOverlaySelector.css("display", "none");
+    //dashboardOverlaySelector.css("display", "none");
+    dashboardOverlaySelector.fadeOut();
     dashboardBtnSelector.removeClass('primary');
     dashboardBtnSelector.addClass('subdued');
 }
