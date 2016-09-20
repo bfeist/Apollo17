@@ -17,6 +17,7 @@ var gIntervalID = null;
 var gIntroInterval = null;
 var gLastLROOverlaySegment = '';
 var gLastVideoSegmentDashboardHidden = '';
+var gDashboardManuallyToggled = false;
 var gMediaList = [];
 var gTOCIndex = [];
 var gTOCData = [];
@@ -414,6 +415,7 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
     ga('send', 'event', 'seekToTime', 'seek', timeId);
 
+    gDashboardManuallyToggled = false; //reset manual dashboard toggle to reenable auto show/hide
     var totalSeconds = timeIdToSeconds(timeId);
     gCurrMissionTime = secondsToTimeStr(totalSeconds); //set mission time right away to speed up screen refresh
 
@@ -1385,17 +1387,17 @@ function manageOverlaysAutodisplay(timeId) {
                 $('#LRO-overlay').fadeIn();
                 setTimeout(function(){
                     $('#LRO-overlay').fadeOut();
-                },5000);
+                },8000);
             }
             //hide dashboard overlay if it is displayed (once per video segment)
-            if ($('.dashboard-overlay').css('display').toLowerCase() != 'none' && gLastVideoSegmentDashboardHidden != gVideoSegments[counter][0]) {
+            if ($('.dashboard-overlay').css('display').toLowerCase() != 'none' && gLastVideoSegmentDashboardHidden != gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
                 gLastVideoSegmentDashboardHidden = gVideoSegments[counter][0];
                 hideDashboardOverlay();
             }
             break;
         }
     }
-    if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() == 'none') {
+    if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() == 'none' && !gDashboardManuallyToggled) {
         showDashboardOverlay();
     }
 }
@@ -1429,6 +1431,7 @@ function toggleSearchOverlay() {
 }
 
 function toggleDashboardOverlay() {
+    gDashboardManuallyToggled = true; //because dashboard manually clicked, turn off auto dashboard toggle to disable auto show/hide. Seeking resets this.
     var dashboardOverlaySelector = $('.dashboard-overlay');
     var dashboardBtnSelector =  $('#dashboardBtn');
     if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
