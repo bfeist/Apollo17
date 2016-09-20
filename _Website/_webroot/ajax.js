@@ -7,7 +7,8 @@ $.when(
     ajaxGetCommentaryData(),
     ajaxGetPhotoData(),
     ajaxGetMissionStagesData(),
-    ajaxGetVideoSegmentData()).done(function(){
+    ajaxGetVideoSegmentData(),
+    ajaxGetTelemetryData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
@@ -133,6 +134,22 @@ function ajaxGetVideoSegmentData() {
         success: function(data) {processVideoSegmentData(data);}
     });
 }
+function ajaxGetTelemetryData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/telemetryData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processTelemetryData(data);}
+    });
+}
 function processVideoURLData(allText) {
     //console.log("processVideoURLData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -213,7 +230,7 @@ function processMissionStagesData(allText) {
             gMissionStages.push(data);
         }
         if (i > 0) {
-            gMissionStages[i - 1][3] = data[0]; //append this items start time as the last item's end time
+            gMissionStages[i - 1][3] = data[0]; //append this item's start time as the last item's end time
         }
     }
     gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
@@ -258,4 +275,19 @@ function searchArraySortFunction(a, b) {
     else {
         return (a[0] < b[0]) ? -1 : 1;
     }
+}
+
+function processTelemetryData(allText) {
+    //console.log("processVideoSegmentData");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gTelemetryData.push(data);
+        }
+        if (i > 0) {
+            gTelemetryData[i - 1][5] = data[0]; //append this item's start time as the last item's end time
+        }
+    }
+    gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }

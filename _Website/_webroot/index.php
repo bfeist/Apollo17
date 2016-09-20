@@ -67,6 +67,7 @@
 
     <script type="text/javascript" src='lib/size_manager.js'></script>
     <script type="text/javascript" src='lib/help_overlay_manager.js'></script>
+    <script type="text/javascript" src='lib/modemizr.js'></script>
     <script type="text/javascript" src="navigator.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="ajax.js"></script>

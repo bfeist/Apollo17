@@ -4705,7 +4705,7 @@
 0680711|PAO|This is Apollo Control at 68 hours 7 minutes. ALFMED is Apollo Light Flash Moving -
 0680720|CDR|Okay, Bob. For the ALFMED, CDR will be in the left seat. CMP will be in the center seat with the ALFMED. For our reporting, when we get the VOX, we'll just call out our first names to shorten it and the comments following. And Jack will be recording.
 0680743|CC|Roger. We'll be listening.
-0680751|PAO|That's the Apollo Light Flash Moving Emulsion Detector, associated with the visual light flash phenomenon that most crews have reported on past missions, seeing points of light in their eyes, when their eyes were closed. There are a couple of theories proposed on the origin of the flashes. One is that they are caused by cosmic rays. The other is that they are high energy atomic particles which enter the eyeball or ionize upon collision with retina or cerebral cortex. The ALFMED is an emulsion plate device that Ron Evans will wear. It will cover the front and sides of his head and will provide information on time, strength and path of particles penetrating the emulsion plates. The other two crewmen will wear eye shields. This test will last for approximately an hour. And the data on the - recorded by the ALFMED device will be correlated with the crewmen's verbal reports on flash observations.
+0680751|PAO|That's the Apollo Light Flash Moving Emulsion Detector, associated with the visual light flash phenomenon that most crews have reported on past missions, seeing points of light in their eyes, when their eyes were closed. There are a couple of theories proposed on the origin of the flashes. One is that they are caused by cosmic rays. The other is that they are high energy atomic particles which enter the eyeball or ionize upon collision with retina or cerebral cortex. The ALFMED is an emulsion plate device that Ron Evans will wear. It will cover the front and sides of his head and will provide information ontime, strength and path of particles penetrating the emulsion plates. The other two crewmen will wear eye shields. This test will last for approximately an hour. And the data on the - recorded by the ALFMED device will be correlated with the crewmen's verbal reports on flash observations.
 0681052|CMP|Okay, wait a minute. Houston, how do you read on VOX with the lightweight headset?
 0681055|CC|Read you loud and clear, Ron.
 0681059|CMP|Okay.
@@ -4830,7 +4830,7 @@
 0692736|CMP|Stand by, Bob. Let us get squared away from the ALFMED; then we can get going on that.
 0692741|CC|No, I don't want to hurry you, Ron. I just want you to know what - when - just get yourself comfortable and be ready to take them whenever you want them. It's going to be a lengthy time, though.
 0692752|CMP|Okay.
-0692754|CDR|Hey, Bob, I'm looking at what - what Jack was talking about; and it's definitely not a particle that's nearby because there is another one I can look at and get a three-dimensional comparison with. It is a - it is a bright object, and it's obviously rotating because it's flashing. It's way out in the distance, as I say, because there are particles that are close by and it's obviously not one of those. It's apparently rotating in a very rhythmic fashion because the flashes come around almost - almost on time. And it's as we look back at the Earth, it's up at about 11:00 about - oh, maybe 10 or 12 Earth diameters. I don't know whether that does you any good, but there is something out there.
+0692754|CDR|Hey, Bob, I'm looking at what - what Jack was talking about; and it's definitely not a particle that's nearby because there is another one I can look at and get a three-dimensional comparison with. It is a - it is a bright object, and it's obviously rotating because it's flashing. It's way out in the distance, as I say, because there are particles that are close by and it's obviously not one of those. It's apparently rotating in a very rhythmic fashion because the flashes come around almost - almost on-time. And it's as we look back at the Earth, it's up at about 11:00 about - oh, maybe 10 or 12 Earth diameters. I don't know whether that does you any good, but there is something out there.
 0692851|CC|Roger. We don't doubt it, Gene. And we might work out a set of gimbal angles or something here; maybe we can get a look at it through the optics.
 0692903|CDR|Okay. And I - I - I just want to emphasize that it's definitely not - not one of these particles that tends to look like a star out there. It's something physical in the distance.
 0692948|CDR|(Laughter) Oh, yes.
@@ -6243,7 +6243,7 @@
 0893938|CMP|Okay. I ...
 0893940|LMP|O - yes. Okay.
 0893949|CDR|Hey, Jack, we're at - coming up on 40.
-0894003|PAO|We had loss of signal right on time with the instrument unit of the Saturn IVB which - -
+0894003|PAO|We had loss of signal right on-time with the instrument unit of the Saturn IVB which - -
 0894007|CC|... about a minute to PRO on P20.
 0894009|CDR|Yes. We're at 40 - Okay, I'm with you, Gordo. Thank you.
 0894027|PAO|Seismic signals beginning to come in.
@@ -6748,7 +6748,7 @@
 0942315|CC|Roger. Well, we were pretty busy coming up on it this time. I think the - that's why we mentioned the attitude may be okay during the eat period. We don't want you to break away from your eat period unless you see you can spare the time.
 0942404|LMP|Just looking at the southern edge of Grimaldi, Bob, and we probably have it covered on photos, but there's a nice tangential to slightly circumferential graben along the southern wall and climbs out over the western rim and off the eastern rim, and that graben is premare - premare.
 0942440|CC|Okay, I copy on that, Jack, and as long as we're talking about Grimaldi, you might just rem - we'd like to have you brief Ron exactly on the location of that flash you saw. We'll probably ask him to take a picture of it, maybe during one of his solo periods.
-0942511|CDR|Hey, Bob, before we get awfully involved, just let me tell you what our motive is here in the next couple of hours. That's to eat and get done what's in the Flight Plan, and come our rest period, we're probably going to turn out the lights and make sure everything's done by then so we can start it on time tonight.
+0942511|CDR|Hey, Bob, before we get awfully involved, just let me tell you what our motive is here in the next couple of hours. That's to eat and get done what's in the Flight Plan, and come our rest period, we're probably going to turn out the lights and make sure everything's done by then so we can start it on-time tonight.
 0942532|CC|Yes, that's a definite - we concur with that definitely, Gene. Don't want you to work into your sleep period.
 0942544|CDR|Okay.
 0942719|CC|Gene, Houston.
@@ -6967,7 +6967,7 @@
 0962453|CDR|Yes, H2 FANs, Bob; I'll say it again. H2 FANs: 1 is ON, 2 is OFF, and 3 is AUTO.
 0962501|CC|That's a good configuration, and that will be the sleep configuration.
 0962506|CDR|Okay.
-0962527|CDR|Hey, Bob, it looks like we might make - getting to sleep on time tonight, and - well, we will make it. And I think it goes without saying, we definitely want to get up on time tomorrow.
+0962527|CDR|Hey, Bob, it looks like we might make - getting to sleep on-time tonight, and - well, we will make it. And I think it goes without saying, we definitely want to get up on time tomorrow.
 0962542|CC|Roger.
 0962555|CMP|I'm going to have the tone booster plugged in, and also I want to make sure the suit power and audio power and all that stuff is on.
 0962603|CC|Roger.
@@ -7838,7 +7838,7 @@
 1112900|LMP|Okay, Gordo, the COAS alignment's good and the DAP is retracking.
 1112905|CC|Okay, and like the rest of the spacecraft, the platform's beautiful, there's no drift compensation or PIPA bias update. Over.
 1112917|LMP|Beautiful. It's ... kind of like a ...
-1112931|CC|Want to give you one update, you can write it in the Timeline, page 8; the T-l time is PDI plus 17:00. Over.
+1112931|CC|Want to give you one update, you can write it in the Timeline, page 8; the T-1 time is PDI plus 17:00. Over.
 1112951|CDR|Okay; T-1 is PDI plus 17:00, we got it.
 1112955|CC|Roger.
 1113029|LMP|Okay, Houston, you got P00 and DATA.
@@ -8185,17 +8185,16 @@
 1130419|CDR|I like it right where we are.
 1130421|CDR|Okay, Gordy. While you're - while you're waiting on that GO, I had to - I - I shot for a spot, around 2 o'clock from Poppy. There's a number of boulders out at 12 o'clock from Poppy, and I really think I'm probably not more than about 100 meters out in front of it - and slightly to the north. Actually, I may be a little bit closer to Trident than I expected Poppy to be. I - I think I've got Trident right out the left window. And our first cut at the mobility around here in the Rover. It ought to be super.
 1130456|CC|Okay. Sounds good.
-1130503|LMP|And I tell you, the massifs and Bare Mountain are two different products.
-1130513|CDR|Do look it, don't they?
-1130515|LMP|Of course, they're different slopes, too.
+1130503|CDR|And I tell you, the massifs and Bare Mountain are two different products.
+1130513|LMP|Sure look it, don't they? Of course, they're different slopes, too.
 1130516|CDR|I think you're looking - probably - that may be Rudolph, right there, Jack, out your window. I was looking more at those boulders and trying to stay in the spots in between them them I was - -
 1130528|LMP|Yes, you did great, Gene.
-1130529|CDR|- - relationship to that crater. Man, there was practically no dust, just a little bit of a film; you had the ground, all the way to the ground.
-1130536|LMP|Yes. I could call touchdown on the shadow. Look at that. Really here.
-1130543|CDR|(Laughter) Okay, Gordy. We're hanging in for your GO.
-1130549|LMP|It better be a GO. I'll check everything again. Let's just doublecheck.
-1130554|CDR|Okay.
-1130556|LMP|That hasn't changed.
+1130529|CDR|- - relationship to that crater.
+1130530|LMP|Man, there was practically no dust, just a little bit of a film; you had the ground, all the way to the ground.
+1130536|CDR|Yes. I could call touchdown on the shadow. Look at that. Really here.
+1130543|LMP|(Laughter)
+1130546|CDR|Okay, Gordy. We're hanging in for your GO. It better be a GO. I'll check everything again. Let's just doublecheck.
+1130554|LMP|Okay. That hasn't changed.
 1130557|CDR|Okay, that's good.
 1130558|LMP|Those - the manifold hasn't changed. The RCS hasn't changed. Ascent water hasn't changed. The batteries haven't changed.
 1130610|CDR|Oh, my golly.
@@ -8203,35 +8202,37 @@
 1130613|CDR|You know the - you can't see into Camelot, Jack; that rim is - is Camelot out in front of us.
 1130618|LMP|Yes.
 1130618|CDR|You ... - -
-1130618|CC|Challenger, you'll be glad to hear you're STAY for T-l.
-1130624|CC|And, America; we have a STAY for T-l.
+1130618|CC|Challenger, you'll be glad to hear you're STAY for T-1.
+1130624|CC|And, America; we have a STAY for T-1.
 1130624|CDR|Gordy, you're a smooth talker, you know it?
 1130626|LMP|Very good.
-1130628|CDR|We are STAY for T-l.
+1130628|CDR|We are STAY for T-1.
 1130630|LMP|Okay. You can forget all I told you about VERB 22 NOUN 46.
-1130631|CMP|Challenger - understand a STAY for T-l. Good.
-1130634|CDR|What was that? (Laughter)
-1130639|LMP|Okay. Let's find out where we are. Engine stop is reset.
-1130645|CDR|Okay. The AGS is ready for us if we need it.
-1130647|LMP|Okay. I need a P12 time as soon as I get 60 - -
-1130649|CDR|Okay.
+1130631|CMP|Challenger - understand a STAY for T-1. Good.
+1130634|LMP|What was that? (Laughter)
+1130639|CDR|Okay. Let's find out where we are. Engine stop is reset.
+1130645|LMP|Okay. The AGS is ready for us if we need it.
+1130647|CDR|Okay. I need a P12 time as soon as I get 60 - -
+1130649|LMP|Okay.
 1130704|CDR|Okay, Gordy. You're looking at NOUN 43. Copy that down, Jack, right here.
 1130711|CC|Okay. We've got it.
-1130713|LMP|20 21 and 20 21 and 30 75, and I'm going to P12. Okay. I need a P12 time from you.
-1130730|CDR|Okay. For T-2. For T-2, the time is 113 - -
-1130738|LMP|Okay.
-1130738|CDR|14 - -
-1130739|LMP|14.
-1130741|CDR|24.91.
-1130744|LMP|4.91.
-1130746|CDR|Yes, sir.
-1130748|LMP|I can't feel any difference between 1/6g and anything else right now.
-1130750|CDR|Well, you still got your restraints on. (Laughter) Okay. 113:14:24.91. You happy with that?
+1130713|CDR|20 21 and 20 21 and 30 75, and I'm going to P12. Okay. I need a P12 time from you.
+1130730|LMP|Okay.
+1130731|CDR|For T-2.
+1130733|LMP|For T-2, the time is 113 - -
+1130738|CDR|Okay.
+1130738|LMP|14 - -
+1130739|CDR|14.
+1130741|LMP|24.91.
+1130744|CDR|4.91.
+1130746|LMP|Yes, sir.
+1130748|CDR|I can't feel any difference between 1/6g and anything else right now.
+1130750|LMP|Well, you still got your restraints on. (Laughter)
+1130753|CDR|Okay. 113:14:24.91. You happy with that?
 1130757|LMP|That looks good, sir.
-1130759|CDR|Okay.
-1130802|LMP|I got to change these numbers. You didn't get an update on NOUN 76, did you? I don't think so.
-1130813|CDR|No. No. No.
-1130813|LMP|Okay.
+1130759|CDR|Okay. I got to change these numbers. You didn't get an update on NOUN 76, did you? I don't think so.
+1130813|LMP|No. No. No.
+1130813|CDR|Okay.
 1130819|CDR|Okay; 5515. Hello, Gordy. How would you like me to handle R-3 of NOUN 76?
 1130828|CC|Stand by. I'll come back to you.
 1130833|CDR|Okay. Oh, that radar performed super.
@@ -8241,52 +8242,59 @@
 1130859|CDR|You see that? ... a boulder, a hole.
 1130900|LMP|Where's the hole? I can't see the hole - -
 1130900|CC|Challenger, Houston. R-3, cross range, is okay as is.
-1130908|LMP|Okay. Okay. We're coming up - -
-1130912|CDR|We're in posture for a T-2, Gordy.
+1130908|CDR|Okay.
+1130912|LMP|Okay. We're coming up - -
+1130915|CDR|We're in posture for a T-2, Gordy.
 1130919|CC|Roger.
-1130922|CDR|Okay. I can see the Scarp. I can see Hanover. Good thing we didn't plan to go to Hanover. (Laughter) it's steep.
-1130934|LMP|Look at the boulder - halfway up the hill.
-1130935|CDR|Yes.
-1130936|LMP|Not halfway, just enough - -
-1130937|CDR|Yes, the boulder tracks - they're beautiful.
-1130939|LMP|It's sitting right there in the end of the tracks. There are tracks all over that hillside. There's a boulder came right down to the surface there. See it?
-1130945|CDR|Yes.
-1130945|LMP|That one right through that little crater -
-1130946|CDR|Yes.
-1130946|LMP|- - sitting right there for us to sample. Look at it.
-1130950|CDR|Yes, sir. I'll bet Bare Mountain and the Sculptured Hills are the same.
+1130922|LMP|Okay. I can see the Scarp. I can see Hanover. Good thing we didn't plan to go to Hanover. (Laughter) it's steep.
+1130934|CDR|Look at the boulder - halfway up the hill.
+1130935|LMP|Yes.
+1130936|CDR|Not halfway, just enough - -
+1130937|LMP|Yes, the boulder tracks - they're beautiful.
+1130939|CDR|It's sitting right there in the end of the tracks.
+1130940|LMP|There are tracks all over that hillside.
+1130940|CDR|There's a boulder came right down to the surface there. See it?
+1130945|LMP|Yes.
+1130945|CDR|That one right through that little crater -
+1130946|LMP|Yes.
+1130946|CDR|- - sitting right there for us to sample. Look at it.
+1130950|LMP|Yes, sir.
+1130954|CDR|I'll bet Bear Mountain and the Sculptured Hills are the same.
 1130956|LMP|Yes. They - Well, the slope's different. We'll have to look at it from outside. You may be right. Now I see why they call them sculptured. My god, they're so hummocky that there's shadow all over them.
-1131007|CDR|Yes.
-1131008|LMP|God, there are some holes and rocks around here. Who told me this was a flat landing site?
-1131011|CDR|It is flat. For crying out loud. What do you want, an airtight guarantee?
-1131017|LMP|Let's see, we got about 2 degrees left and about 5 degrees pitchup.
-1131022|CDR|We're about what - about 100 meters from Trident?
-1131027|LMP|Yes - yes, less than that, I think Trident's right here.
-1131031|CDR|Our shadow's about 100 feet, Geno, I think.
-1131034|LMP|Yes, we're only about - yes, less than 100 meters then. It doesn't look that long, but it ... - -
-1131039|CDR|Yes, there are some holes I'm glad I didn't land in around here, I'll tell you.
+1131007|CDR|Yes. God, there are some holes and rocks around here. Who told me this was a flat landing site?
+1131011|LMP|It is flat. For crying out loud. What do you want, an airtight guarantee?
+1131017|CDR|Let's see, we got about 2 degrees left and about 5 degrees pitchup.
+1131022|LMP|We're about what - about 100 meters from Trident?
+1131027|CDR|Yes - yes, less than that, I think Trident's right here.
+1131031|LMP|Our shadow's about 100 feet, Geno, I think.
+1131034|CDR|Yes, we're only about - yes, less than 100 meters then. It doesn't look that long, but it ... there are some holes I'm glad I didn't land in around here, I'll tell you.
 1131050|CDR|Now, if you look at the massif, Jack. I don't know if you can see it over here. You see, they're almost like a series of linear boulder tracks, but they come crossways down the slope. So it looks like there may very definitely be some - some jointed - There's outcrop on top the massif, too.
-1131105|LMP|Oh, it sure looks like it, gray outcrop. And there's a bluish gray compared to the - the brown or tan gray of the massif side.
+1131105|LMP|Oh, it sure looks like it, gray outcrop - -
+1131108|CDR|And there's -
+1131109|LMP|- bluish gray compared to the - the brown or tan gray of the massif side.
 1131115|CDR|And a lot of that boulder is - a lot of that outcrop down on the bottom is boulder.
-1131119|LMP|Yes. Do you know what that reminds me of, way up on top - that outcrop? it reminds me of sunset where you could just get a little piece of outcrop around the corner.
+1131119|LMP|Yes.
+1131120|CDR|Do you know what that reminds me of, way up on top - that outcrop? it reminds me of sunset where you could just get a little piece of outcrop around the corner.
 1131120|CC|And, America, I have a pan camera photo pad whenever you're ready for it. It'll go on page 129.
-1131125|CDR|That's right.
-1131128|LMP|Okay. Let's see what we're doing. We got 3 minutes for T-2. Let's take another check.
-1131133|CDR|Okay. I just looked at them.
-1131134|LMP|Okay. Ascent looks good.
+1131125|LMP|That's right.
+1131128|CDR|Okay. Let's see what we're doing. We got 3 minutes for T-2. Let's take another check.
+1131133|LMP|Okay. I just looked at them.
+1131134|CDR|Okay. Ascent looks good.
 1131139|CDR|Gordy, I noticed something ever since we've landed. The oxidizer quantity went from - from 7 or 8, and now it's down to 2, and the fuel has stayed constant.
 1131152|CC|Roger.
 1131153|CDR|And the QUANTITY light came on somewhere, I believe, after we landed.
-1131158|LMP|Yes, it did. I noticed the QUANTITY light also. I was thinking reg light, though, when I saw it. Oh, man.
+1131158|LMP|Yes, it did. I noticed the QUANTITY light also. I was thinking reg light, though, when I saw it.
+1131210|CDR|Oh, man.
 1131213|CC|Challenger, we'll have a story on that for you later. We don't think we were really low level.
-1131222|CDR|Okay. It doesn't make any difference now, Gordy, expect to talk about when we get home.
+1131222|CDR|Okay. It doesn't make any difference now, Gordy, except to talk about when we get home.
 1131227|CC|Roger.
 1131230|CDR|And we're 2 minutes and counting to T-2.
 1131234|CC|Roger.
 1131235|LMP|We better hurry if - you're going to give - they're going to give us the GO.
-1131304|LMP|How about some water?
+1131303|LMP|How about some water?
 1131306|CDR|Yes, you can zap me.
-1131310|LMP|Oh, I tell you. That's something everyone's got to do once in their life. I want to - We're not going to have much time for T-2 - -
+1131310|CDR|Oh, I tell you. That's something everyone's got to do once in their life.
+1131316|CDR|I want to - We're not going to have much time for T-2 - -
 1131321|CC|Challenger, Houston. You're STAY for T-2, and GO for the DPS vent.
 1131329|LMP|Okay.
 1131329|CDR|Okay. Understand. STAY for T-2, and GO for the DPS vent. Let me get out of - Okay, we can't hack that. I'm going to get out at 12.
@@ -8478,9 +8486,9 @@
 1150041|CC|Okay.
 1150049|LMP|Gordy, I think maybe the predictions of a fairly thin regolith were good. I have a crater at about - oh, 130 feet. It looks like it's not more than a meter deep. It's very fresh, has a bright halo around it, and it's very rocky in its interior and has some rocks that are at least 10 or 20 centimeters in diameter on the rim. It looks like it's penetrated into some rockier - much rockier substrate than what we're seeing on the surface. The surface itself looks like a - oh, probably 15 percent fragments greater than half a centimeter.
 1150156|CC|Okay, Jack.
-1150157|LMP|I don't see any general si - I don't see any general size, Gordy. I do have a crater out here that's - maybe a meter in diameter that - fairly fresh, although not bright halo - that has not penetrated to blocky material. And it looks like that the saturation crater size is very small in the area we can see; that is, there don't seem to be any old or very subdued craters - Well, let me -let me think about how to put that again. They're - it's obviously saturated with craters a few centimeters in diameter, but when you get bigger than that, there seems to be more of a - a clear distribution rather than a saturation.
+1150157|LMP|I don't see any general si - I don't see any general size, Gordy. I do have a crater out here that's - maybe a meter in diameter that - fairly fresh, although not bright halo - that has not penetrated to blocky material. And it looks like that the saturation crater size is very small in the area we can see; that is, there don't seem to be any old or very subdued craters - Well, let me - let me think about how to put that again. They're - it's obviously saturated with craters a few centimeters in diameter, but when you get bigger than that, there seems to be more of a - a clear distribution rather than a saturation.
 1150257|CC|Okay.
-1150303|LMP|Gordy, let me give you a quick far horizon. At 12 o'clock, I've got Family Mountain. It's a - it and South Massif are a replica from their plane form where I - up from where I am, except that Family Mountain is much more symmetrical and rounds off to a very more definite peak. The South Massif, in turn, has got a high plateau, a high flat peak on top. My far horizon then, at 12 o'clock, from about - to 11:30 is dominated by Family Mountain. It's - Well, I hate to use the word anorthosite without getting out of the spacecraft, but it sure is white. It sure is white, but its varied shades of white - with - sort of a - a tendency on its southern or southeastern slope to sort of be marble caked with a darker material much the same color as the mantle that we're - we've landed on. The Family Mountain disappears just about at the level of the rim of Camelot on my far horizon and just in front of it - it starts up - that's at about 11 o'clock - it just - just there is where the South Massif starts up very abruptly - I'd say - well, I'll try not to overestimate, but certainly 30 degrees, I'd say - very abruptly to a very impressive altitude. I know I was at 13,000 when I said I was at their level, but - it sure looked it from there. It - it plateaus off from about 10:30 to about 9:30, and then it starts sloping back down towards the east at about the same angle. Very symmetrical. There are several places where you can see what appear to be outcrops. I say several - about a dozen anyway, where you can see relatively large areas of outcrop on the South Massif. That outcrop is a - of a darker gray color than the white-gray of the Massif itself. The one most domin - dominant outcrop is right at the change in slope to the west, where it goes upslope and then plateaus off, and there is a definite outcrop. And you can see several boulders on all levels of the Massif that have come apparently from outcrops and I feel certain we will be able to get to some of those - that have come all the way down. South Massif, too, is a - appears to be in areas marbly caked dirty, such as if it was sprinkled with a dirty or a darker covering, and that covering is more evident as - as it slopes back here towards the - towards the east. As the far horizon now, I can see - I can see - South Massif all the way to 9 o'clock, but then behind it, there's just a little breadloaf-type dome of a much darker, much more hummocky mound back there, relatively big. It's probably, from where I stand, at least 10 percent the - the size of the Massif, the South Massif. Gray in texture. There appear to be some lineations running - well, as I'm looking at them, they're dipping down into the west at about 20 degrees, but that may be a Sun-angle problem. But they're definitely there. And then, contrasting that is - is Bare Mountain which is also much darker gray, much different than the Massif from where I stand, much more hummocky surface. It appears to be to me what I would expect Sculptured Hills to be like. One other thing about the South Massif is that - as I look at - as I look at it - at about 9:30 to 10:30, there is a little knob of the South Massif that sort of - oh flows toward - towards the east or slightly towards the northeast. That's the one that tends to be a little bit more heavily covered with the - darker dusty material - -
+1150303|CDR|Gordy, let me give you a quick far horizon. At 12 o'clock, I've got Family Mountain. It's a - it and South Massif are a replica from their plane form where I - up from where I am, except that Family Mountain is much more symmetrical and rounds off to a very more definite peak. The South Massif, in turn, has got a high plateau, a high flat peak on top. My far horizon then, at 12 o'clock, from about - to 11:30 is dominated by Family Mountain. It's - Well, I hate to use the word anorthosite without getting out of the spacecraft, but it sure is white. It sure is white, but its varied shades of white - with - sort of a - a tendency on its southern or southeastern slope to sort of be marble caked with a darker material much the same color as the mantle that we're - we've landed on. The Family Mountain disappears just about at the level of the rim of Camelot on my far horizon and just in front of it - it starts up - that's at about 11 o'clock - it just - just there is where the South Massif starts up very abruptly - I'd say - well, I'll try not to overestimate, but certainly 30 degrees, I'd say - very abruptly to a very impressive altitude. I know I was at 13,000 when I said I was at their level, but - it sure looked it from there. It - it plateaus off from about 10:30 to about 9:30, and then it starts sloping back down towards the east at about the same angle. Very symmetrical. There are several places where you can see what appear to be outcrops. I say several - about a dozen anyway, where you can see relatively large areas of outcrop on the South Massif. That outcrop is a - of a darker gray color than the white-gray of the Massif itself. The one most domin - dominant outcrop is right at the change in slope to the west, where it goes upslope and then plateaus off, and there is a definite outcrop. And you can see several boulders on all levels of the Massif that have come apparently from outcrops and I feel certain we will be able to get to some of those - that have come all the way down. South Massif, too, is a - appears to be in areas marbly caked dirty, such as if it was sprinkled with a dirty or a darker covering, and that covering is more evident as - as it slopes back here towards the - towards the east. As the far horizon now, I can see - I can see - South Massif all the way to 9 o'clock, but then behind it, there's just a little breadloaf-type dome of a much darker, much more hummocky mound back there, relatively big. It's probably, from where I stand, at least 10 percent the - the size of the Massif, the South Massif. Gray in texture. There appear to be some lineations running - well, as I'm looking at them, they're dipping down into the west at about 20 degrees, but that may be a Sun-angle problem. But they're definitely there. And then, contrasting that is - is Bare Mountain which is also much darker gray, much different than the Massif from where I stand, much more hummocky surface. It appears to be to me what I would expect Sculptured Hills to be like. One other thing about the South Massif is that - as I look at - as I look at it - at about 9:30 to 10:30, there is a little knob of the South Massif that sort of - oh flows toward - towards the east or slightly towards the northeast. That's the one that tends to be a little bit more heavily covered with the - darker dusty material - -
 1150808|CC|Challenger, Houston, over.
 1150812|LMP|There are. Go ahead.
 1150813|CC|Okay. We're about 12 - 13 minutes behind the timeline for starting cabin preps. And backroom is enjoying your descriptions, but we think we'd rather you press on with the preps and get ready to get out for a really good view. Over.
@@ -9823,7 +9831,7 @@
 1183038|CDR|Well, we can measure it and find out.
 1183040|LMP|I'll take a picture of it.
 1183046|CDR|May have stroked it. The Mylar, the lower orange Mylar, is folded a little bit.
-1183053|CC|Roger. There's word floating around down here about a typical Navy landing, but I'm not sure whether we believe it or not.
+1183053|CC|Roger. There's words floating around down here about a typical Navy landing, but I'm not sure whether we believe it or not.
 1183100|LMP|He caught his tail hook. Say, Bob - -
 1183103|CC|That's the best way.
 1183112|LMP|- - Just behind the LM in that very fresh crater, I picked up an example of the kind of gabbro I was talking about. And I'll stick it in the big bag, except the big bag has disappeared.
@@ -28030,7 +28038,7 @@
 2141547|CC|Okay. It's TEI for 72, SPS/G&N; 36477; plus 0.61, plus 0.83; NOUN 33 is 230:42:59.17; NOUN 81, plus 2887.4, minus 0339.4, minus 0050.3; 179, 095, 356; rest of the pad is N/A. GDC stars Sirius and ;Rigel; 136; 160; 034. Ullage is 4 jets, 12 seconds. Remarks: Assumes ascent REFSMMAT. Over.
 2141719|LMP|Okay. TEI, 72, SPS/G&N; 36477; plus 0.61, plus 0.83; 230:42:59.17; plus 2887.4, minus 0339; minus 0050.3; 179, 095, 356; Sirius and Rigel; 136; 160; 034. Ullage is 4 jets, for 12 seconds, and it assumes an ascent REFSMMAT. Over.
 2141803|CC|Okay. That's a good read-back. Say, have a little summary of both the surface and the orbital scientific equipment's working. It's probably about 5 minutes worth. If there's some handy time, I'll be glad to read it to you.
-2141825|LMP|Right now, Gordo. We'd love to hear it.
+2141825|CDR|Right now, Gordo. We'd love to hear it.
 2141829|CC|Okay. Let me start with the America's gear there. The - on the UV spectrometer, well, actually having to do with UV. During - back during rev 38, they sent an Aerobee sounding rocket from White Sands, up, and it carried a UV spectrometer above the atmosphere and successfully acquired solar UV calibration data. Farside terminator shows there is a hydrogen atmosphere, but it is much less than had been predicted. The PI is very happy with the mode 4 maneuver. On the IR scanning radiometer, it's still performing beautifully, and the PI is getting lots of high-quality data, and I understand is ecstatic about it. On rev 33, the crater Kepler C showed up as a 132-degree Kelvin anomaly on a 94 degree Kelvin background after 11.6 days of lunar night, the crater Reiner was a similar anomaly on that revolution. In low orbit on rev 9, Kepler A showed a broad hotspot corresponding to its ejecta blanket with a sharp spike corresponding to the crater in the center. One coldspot anomaly seems to correspond to a cinder cone-like feature in Mare Orientale near the crater Hohmann. On the lunar sounder, telemetry monitoring of the sounder's average reflected power indicates that the mare and highlands exhibit markedly different reflectivity, both HF and VHF. The data is consistent with distinct layering in the mare, as would be expected, where the mare flooded by successive layers of lava, although, they say other explanations are possible. They don't see that layering indication in the highlands. Predicted topographic signatures over features such as craters and mare ridges have been confirmed in principal. Of course, as you know, until they get the film back they don't have - they can't really reach any definite conclusions. On the cameras - the cameras, both cameras and the laser altimeter all appear to be performing very well. And everybody's especially happy with the solid laser altimeter performance. Okay, that kind of sums up SIM bay. Do you have any questions, that I could chase down, or should I go on with surface stuff?
 2142131|CDR|No, why don't you press on.
 2142132|CMP|That sounds good Gordo, press on.
@@ -28039,7 +28047,7 @@
 2142525|CC|Okay, now to - let's see, we got the TGE, which is considered a spectacular success. The Earth-Moon gravity transfer indicates a value of - won't read the numbers, in milligals - at the - at the Tarrus-Littrow base. But the value will be used to obtain a revised value for the lunar radius at this landing site. Gravity measurement made during the three EVAs showed a large negative anomaly of about minus 38 milligals at the base of the South Massif. A similar negative anomaly of about minus 30 at the base of the North Massif. Preliminary conclusions of the traverse gravimeter meas - TGE measurements indicate that the material under the valley floor of Tarrus-Littrow is much denser than that of the North and South Massif. The gravity values will support the hypothesis that the valley subfloor consist of dense basaltic rocks, perhaps as much as 3 or 4 kilometers in thickness. The extra measurement between stations 2 and 3 will be of great help in determining the nature of the boundaries of this basaltic layer and the varied extension of the massif.
 2142642|CC|The cosmic ray detector - actually, you know as much as we do about the data return from it, of course, but the - we did - recover it early in EVA 3, as you remember, and that was due to a minor increase in low-energy solar protons and heavier particles detected here. And a reduced exposure will not offset the scientific results.
 2142713|CC|The neutron probe was exposed to the surface for 49 hours. PI estimates that the distance from the RTG to the probe is 40 meters, which will mean that the background count will be low, and he thanks you kindly for those few extra steps. And the last one was - to be summarized - was the field geology and they asked for a very short summary, so Walt Berger came through with three typewritten pages. So, we're just going to skip the whole thing, except the last line, which was to say that you guys did an outstanding job. Over.
-2142801|LMP|Thank you Gordy. We're just pleased that so many things are working well, and happy that the PIs are satisfied. That was our objective, and we came up here to meet it - and those things that are done, I hope we met it well, and we've get a few more things to do yet.
+2142801|CDR|Thank you Gordy. We're just pleased that so many things are working well, and happy that the PIs are satisfied. That was our objective, and we came up here to meet it - and those things that are done, I hope we met it well, and we've get a few more things to do yet.
 2142824|CC|Well, I can assure you you're not the only or.ci, that are pleased.
 2142828|CDR|Gordy - Gordy, and you know it's satisfying to have put that much time in and - and come out with some meaningful results. That makes us all feel good. Have you been able, or did you see that first charge on the video?
 2142848|CC|I forgot to mention that. No, we sure didn't see a thing. We had the camera aimed over there, but it was almost a kilometer away. That was 1-pound charge, and we played it back several times, but nobody saw a hint of anything.
@@ -33271,7 +33279,7 @@
 3041840|CDR|RRT.
 3041844|CMP|Okay. You want to go to RATE COMMAND?
 3041853|CMP|Okay. .05 G is 29.
-3041857|CDR|We have a ...
+3041857|CDR|We have a glow -
 3041901|PAO|And the beginning of blackout was at the predicted time of approximately 17 seconds after entry interface into the atmosphere - 400,000 feet or approximately 85 miles above the Earth. Come out of blackout in a total time of about 3 minutes 27 seconds. Following reappearance, at least from a communications standpoint, of the spacecraft. The drogue parachutes, which are 16-1/2 foot daimeter, two of them, will be deployed by a mortar - pyrotechnic device at 23,000 feet above the surface. The main parachutes, which consist of three 83-1/2 foot diameter ring sail parachutes, will be pulled out by pilot parachutes - small pilot parachutes at an altitude of 10-1/2 thousand feet. The spacecraft will splash down at approximately 22 miles per hour with 3 fully inflated parachutes. Meanwhile, the crew is using the entry monitor system to steer for the desired aiming point which is some 1,044 miles down range from the actual entry point into the atmosphere. The Entry Monitor System - or EMS as it's referred to, gives a display to the crew which gives them the roll angle to steer to the desired track downrange - to hit the aiming point. Now the position of the recovery ship, Ticonderoga, may or may not be near the aiming point. The accuracy of the landing is dependent on the distance from the aiming point, not from where the ship is at the time. Should be coming out of blackout, as mentioned earlier, at 3 minutes 37 seconds into entry. Less than a minute away and hopefully we will have confirmation from the crew on drogue deployment, and main parachute deployment, assuming that communications through the Apollo range instrumented aircraft called ARIA is good. The Tico - the Ticonderoga, prime recovery ship has reported that they have radar contact with the spacecraft. Probably a skin track of the spacecraft with the ship's radar. We've re-entered blackout - reappeared from blackout, I should say. We're waiting for a call from the space - from the CAPCOM.
 3042252|CMP|Roll right 50 - still at 3 g's.
 3042258|CDR|Okay.
@@ -33293,12 +33301,12 @@
 3042415|PAO|Drogue deployment in two minutes. Mark.
 3042415|CMP|- that ought to relax the g's a little bit. Hey, that's good - beautiful computer.
 3042421|CMP|Okay, about 3.1 g's. We're about 4500 feet a second. ... roll, 22 miles - 4000 feet a second, zero plus 88 degrees. Okay. That's good. Okay, looking good. Okay. We ought to be in there. Roll left, okay - about - about 2.2 g's. Okay. It feels like there's a mag around here. Okay. Okay. Roll that baby - still good. Okay. 2 g's. Steam pressure's pegged - Okay. Is that on time? Pressure's up 39 - okay. Okay, first ... 67. ... at 67. Put 1.8, it says, okay. Call it out.
-3042435|CDR|Hello, Houston. This is America. We're showing ... 1.8 short.
+3042535|CDR|Hello, Houston. This is America. We're showing ... 1.8 short.
 3042542|CMP|ARM the PYROs. CABIN PRESSURE to BOOST.
 3042544|CDR|This is America. We're showing 1.8 miles short. 17.86 by minus 167.5.
 3042552|CMP|They're ARMed. We're stable. Looking good. Coming down like a son-of-a-buck. Man, oh, man! Okay, there's 35K. Stand by for ELS LOGIC, right? Okay? There goes all the paper off the spacecraft. Okay, that's 30K. ELS to AUTO - LOGIC - and then AUTO. Okay, stand by for the apex. And it bumps. Okay, there we go!
 3042622|CMP|There goes the drogues. Okay, back them up. Hey, come here, Jack. What? Okay ... to go. Man, oh, man! - Hey, it really vibrates! Okay.
-3042642|CDR|Okay, Houston; America in the blind - we got the mains - we got the drogues, we got the drogues. Okay, there's 12, 13K. Okay. 12K.
+3042642|CDR|Okay, Houston; America in the blind - we got the mains - we got the drogues, we got the drogues. Coming through 15k ... Okay, there's 12, 13K. Okay. 12K.
 3042714|CDR|Mains at 11K. Mains ... -
 3042718|LMP|There's the mains. Okay. They're reefing.
 3042739|CDR|Bearing 350.

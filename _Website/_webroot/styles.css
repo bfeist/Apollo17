@@ -1736,17 +1736,17 @@ img.aspect-holder {
   bottom: 0;
 }
 /* block the youtube player from hover */
-.player-wrapper:before {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    border:0;
-    background:#3AA8FF;
-    opacity: 0;
-}
+/*.player-wrapper:before {*/
+    /*content:'';*/
+    /*position:absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*height:100%;*/
+    /*width:100%;*/
+    /*border:0;*/
+    /*background:#3AA8FF;*/
+    /*opacity: 0;*/
+/*}*/
 
 .search-overlay {
     display: none;
@@ -1765,6 +1765,53 @@ img.aspect-holder {
     overflow: hidden;
     padding: 5px;
     transition(height 250ms ease-in-out);
+    opacity: 0.9;
+}
+
+.search-overlay .title {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.5em;
+    color: rgba(215, 160, 108, 1);
+}
+
+.search-overlay hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 2px solid rgba(215, 160, 108, 1);
+}
+
+.search-overlay .close-btn {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(215, 160, 108, 1);
+    text-indent: -999px;
+    overflow: hidden;
+    transition: background-color .25s ease-in-out;
+    z-index: 2;
+}
+.search-overlay .close-btn:hover,
+.search-overlay .close-btn:active {
+    background-color: #FFC688;
+}
+.search-overlay .close-btn:before {
+    text-shadow: none;
+    content: "\2715";
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -13px;
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-family: entypo, sans-serif;
+    color: #000;
+    text-indent: 0;
 }
 
 #searchResultsDiv {
@@ -1784,17 +1831,12 @@ img.aspect-holder {
 }
 
 #searchInputField {
-    display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    height: 42px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin-left: 10px;
     overflow: hidden;
     border: none;
     font-family: 'Roboto Mono', sans-serif;
@@ -1824,10 +1866,70 @@ img.aspect-holder {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     /*border: 2px solid rgba(140, 140, 140, 1);*/
-    border: 2px solid rgba(215, 160, 108, 1);
+    /*border: 2px solid rgba(215, 160, 108, 1);*/
+    border: 2px solid #5E92A6;
     overflow: hidden;
     padding: 5px;
     transition(height 250ms ease-in-out);
+
+    /*font-family: 'Roboto Slab', sans-serif;*/
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1em;
+    color: #999999;
+    line-height: 19px;
+    opacity: 0.9;
+}
+
+.dashboard-overlay .title {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.5em;
+    color: #5E92A6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dashboard-overlay .value {
+    color: #fff;
+}
+
+.dashboard-overlay hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 2px solid #5E92A6;
+}
+
+.dashboard-overlay .close-btn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5E92A6;
+    text-indent: -999px;
+    overflow: hidden;
+    transition: background-color .25s ease-in-out;
+    z-index: 2;
+}
+.dashboard-overlay .close-btn:hover,
+.dashboard-overlay .close-btn:active {
+    background-color: #7bbfd8;
+}
+.dashboard-overlay .close-btn:before {
+    text-shadow: none;
+    content: "\2715";
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -9px;
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-family: entypo, sans-serif;
+    color: #000;
+    text-indent: 0;
 }
 
 .aspect-4x3:backgr {
