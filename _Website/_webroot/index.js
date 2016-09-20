@@ -15,6 +15,8 @@ var gLastTimeIdChecked = '';
 var gCurrMissionTime = '';
 var gIntervalID = null;
 var gIntroInterval = null;
+var gLastLROOverlaySegment = '';
+var gLastVideoSegmentDashboardHidden = '';
 var gMediaList = [];
 var gTOCIndex = [];
 var gTOCData = [];
@@ -190,8 +192,8 @@ function setAutoScrollPoller() {
             showPhotoByTimeId(timeId);
 
             displayHistoricalTimeDifferenceByTimeId(timeId);
-
             updateDashboard(timeId);
+            manageOverlaysAutodisplay(timeId);
 
             //scroll nav cursor
             if (!gMouseOnNavigator && !gMustInitNav) {
@@ -1367,8 +1369,35 @@ function updateDashboard(timeId) {
     //var dashDistanceNM = -1 * (8486888657 * Math.pow(timeIdInSeconds, 2) / 8820689674156545) + ((1881583668117446 * timeIdInSeconds) / 1764137934831309) + (811004768622602161 / 2940229891385515);
     //left half
     //var dashDistanceNM = -1 * (9987355187 * Math.pow(timeIdInSeconds, 2) / 3604494879727504) + ((5611270876937931 * timeIdInSeconds) / 3604494879727504) - (35715506986568310715 / 1802247439863752);
+}
 
-
+function manageOverlaysAutodisplay(timeId) {
+    //trace("manageOverlaysAutodisplay()");
+    //look to see if the current time is within a video segment
+    var inVideoSegment = false;
+    for (var counter = 0; counter < gVideoSegments.length; counter ++) {
+        if (timeStrToSeconds(gVideoSegments[counter][0]) <= timeIdToSeconds(timeId) && timeStrToSeconds(gVideoSegments[counter][1]) >= timeIdToSeconds(timeId)) {
+            inVideoSegment = true;
+            //Fade in LRO message if it hasn't been displayed in this video segment yet
+            if (gVideoSegments[counter][2] == "3D" && gLastLROOverlaySegment != gVideoSegments[counter][0]) {
+                gLastLROOverlaySegment = gVideoSegments[counter][0];
+                trace("manageOverlaysAutodisplay():In LRO segment");
+                $('#LRO-overlay').fadeIn();
+                setTimeout(function(){
+                    $('#LRO-overlay').fadeOut();
+                },5000);
+            }
+            //hide dashboard overlay if it is displayed (once per video segment)
+            if ($('.dashboard-overlay').css('display').toLowerCase() != 'none' && gLastVideoSegmentDashboardHidden != gVideoSegments[counter][0]) {
+                gLastVideoSegmentDashboardHidden = gVideoSegments[counter][0];
+                hideDashboardOverlay();
+            }
+            break;
+        }
+    }
+    if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() == 'none') {
+        showDashboardOverlay();
+    }
 }
 
 // </editor-fold>
@@ -1403,24 +1432,36 @@ function toggleDashboardOverlay() {
     var dashboardOverlaySelector = $('.dashboard-overlay');
     var dashboardBtnSelector =  $('#dashboardBtn');
     if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
-        $('#dashboardContent').modemizr({
-            bps: 1200,
-            cursor: true,
-            blink: false,
-            imageSpeedup: 100,
-            show: false
-        });
-        dashboardOverlaySelector.css('display', 'block');
-        dashboardBtnSelector.removeClass('subdued');
-        dashboardBtnSelector.addClass('primary');
-        if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
-            toggleSearchOverlay();
-        }
+        showDashboardOverlay();
     } else {
-        dashboardOverlaySelector.css("display", "none");
-        dashboardBtnSelector.removeClass('primary');
-        dashboardBtnSelector.addClass('subdued');
+        hideDashboardOverlay();
     }
+}
+
+function showDashboardOverlay() {
+    var dashboardOverlaySelector = $('.dashboard-overlay');
+    var dashboardBtnSelector =  $('#dashboardBtn');
+    $('#dashboardContent').modemizr({
+        bps: 2400,
+        cursor: true,
+        blink: false,
+        imageSpeedup: 100,
+        show: false
+    });
+    dashboardOverlaySelector.css('display', 'block');
+    dashboardBtnSelector.removeClass('subdued');
+    dashboardBtnSelector.addClass('primary');
+    if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
+        toggleSearchOverlay();
+    }
+}
+
+function hideDashboardOverlay() {
+    var dashboardOverlaySelector = $('.dashboard-overlay');
+    var dashboardBtnSelector =  $('#dashboardBtn');
+    dashboardOverlaySelector.css("display", "none");
+    dashboardBtnSelector.removeClass('primary');
+    dashboardBtnSelector.addClass('subdued');
 }
 
 function toggleFullscreen() {
@@ -1710,6 +1751,7 @@ function initSplash() {
         trace("INIT: splash image loaded");
         gSplashImageLoaded = true;
     });
+    $('#LRO-overlay').hide(); //hide LRO overlay by default
     setSplashHistoricalSubtext();
     gIntroInterval = setIntroTimeUpdatePoller();
 }

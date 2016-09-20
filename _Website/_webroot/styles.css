@@ -1748,6 +1748,28 @@ img.aspect-holder {
     /*opacity: 0;*/
 /*}*/
 
+#LRO-overlay {
+    display: block;
+    position:absolute;
+    bottom:6px;
+    left:0;
+    height:42px;
+    width:100%;
+    /*background: #ffd923;*/
+    /*background: #000000;*/
+    background-image: url("img/LRO_simulation.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 5px;
+    transition(height 250ms ease-in-out);
+}
+
+.give{
+    opacity: 0;
+    animation: fadein 3s ease-in-out both 1s 1;
+    background-color:green;
+}
+
 .search-overlay {
     display: none;
     position:absolute;
