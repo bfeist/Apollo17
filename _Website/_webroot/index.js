@@ -1399,6 +1399,8 @@ function manageOverlaysAutodisplay(timeId) {
     }
     if (!inVideoSegment && $('.dashboard-overlay').css('display').toLowerCase() == 'none' && !gDashboardManuallyToggled) {
         showDashboardOverlay();
+        gLastLROOverlaySegment = '';
+        gLastVideoSegmentDashboardHidden = '';
     }
 }
 
