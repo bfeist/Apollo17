@@ -119,7 +119,7 @@
 0000101|CC|MARK. Mode I Bravo.
 0000103|CDR|Roger. I Bravo; we're GO at 1 minute.
 0000106|CC|Roger, Gene. You're looking great. Right on the line.
-0000108|PAO|Everybody says "Looking great - Right on the line." We're now 1 mile down range. Launch vehicle 4,2 miles high.
+0000108|PAO|Everybody says "Looking great - Right on the line." We're now 1 mile down range. Launch vehicle 4.2 miles high.
 0000109|CDR|Okay, we got the RCS command.
 0000110|CC|17, you are feet wet - feet wet.
 0000112|CDR|Roger. Feet wet.
@@ -11279,7 +11279,7 @@
 1213635|CC|Okay, thank you.
 1213640|CDR|Oh, man. It's even hard to move you counterclockwise. Here we go. Counterclockwise, facing aft. Okay, I'm going to go MODE switch number 1 - -
 1213655|CC|Roger. We can confirm that.
-1213655|CDR|- - and you want me to leave those two blankets open 100 percent, right?
+1213655|CDR|- - and you want me to leave the LCRU blankets open 100 percent, right?
 1213659|CC|Roger, That's affirm.
 1213704|CDR|Okay, now I got - now I got to mount my camera and tether my tongs.
 1213712|PAO|We'll lose TV while Gene Cernan drives the Rover to the Surface Electrical Properties site, about 100 meters east of the Lunar Module.
