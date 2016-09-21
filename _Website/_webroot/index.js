@@ -833,7 +833,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     html = html.replace("@timestamp", timeIdToTimeStr(utteranceObject[0]));
     html = html.replace("@who", who_modified);
     //html = html.replace("@words", "[" + utteranceIndex + "]" + words_modified);
-    html = html.replace("@words", utteranceIndex + "|" + words_modified);
+    html = html.replace("@words", words_modified);
     if (who_modified == "Public Affairs" || who_modified == "") {
         var uttTypeStr = "utt_pao";
     } else if (who_modified == "Mission Control") {
@@ -1448,6 +1448,8 @@ function toggleDashboardOverlay() {
 function showDashboardOverlay() {
     var dashboardOverlaySelector = $('.dashboard-overlay');
     var dashboardBtnSelector =  $('#dashboardBtn');
+    //dashboardOverlaySelector.css('display', 'block');
+    dashboardOverlaySelector.fadeIn();
     $('#dashboardContent').modemizr({
         bps: 2400,
         cursor: true,
@@ -1455,8 +1457,6 @@ function showDashboardOverlay() {
         imageSpeedup: 100,
         show: false
     });
-    //dashboardOverlaySelector.css('display', 'block');
-    dashboardOverlaySelector.fadeIn();
     dashboardBtnSelector.removeClass('subdued');
     dashboardBtnSelector.addClass('primary');
     if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
