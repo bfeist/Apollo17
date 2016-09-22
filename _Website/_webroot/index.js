@@ -30,6 +30,7 @@ var gCommentaryData = [];
 var gCommentaryDataLookup = [];
 var gUttCommData = [];
 var gTelemetryData = [];
+var gCrewStatusData = [];
 var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
@@ -1268,6 +1269,14 @@ function updateDashboard(timeId) {
     }
     $('#dashMissionStage').html(dashMissionStage);
 
+    //Display Crew Status
+    for (counter = 0; counter < gCrewStatusData.length; counter ++) {
+        if (timeStrToSeconds(gCrewStatusData[counter][0]) < timeIdInSeconds && timeStrToSeconds(gCrewStatusData[counter][2]) > timeIdInSeconds) {
+            var dashCrewStatus = gCrewStatusData[counter][1];
+            break;
+        }
+    }
+    $('#dashCrewStatus').html(dashCrewStatus);
 
     var calculateVelocity;
     var calculateDistanceFromEarth;

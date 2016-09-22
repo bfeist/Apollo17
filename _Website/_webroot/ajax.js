@@ -8,7 +8,8 @@ $.when(
     ajaxGetPhotoData(),
     ajaxGetMissionStagesData(),
     ajaxGetVideoSegmentData(),
-    ajaxGetTelemetryData()).done(function(){
+    ajaxGetTelemetryData(),
+    ajaxCrewStatusData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
@@ -150,6 +151,23 @@ function ajaxGetTelemetryData() {
         success: function(data) {processTelemetryData(data);}
     });
 }
+function ajaxCrewStatusData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/crewStatusData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processCrewStatusData(data);}
+    });
+}
+
 function processVideoURLData(allText) {
     //console.log("processVideoURLData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -278,7 +296,7 @@ function searchArraySortFunction(a, b) {
 }
 
 function processTelemetryData(allText) {
-    //console.log("processVideoSegmentData");
+    //console.log("processTelemetryData()");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
@@ -290,4 +308,19 @@ function processTelemetryData(allText) {
         }
     }
     gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+}
+
+function processCrewStatusData(allText) {
+    //console.log("processCrewStatusData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gCrewStatusData.push(data);
+        }
+        if (i > 0) {
+            gCrewStatusData[i - 1][2] = data[0]; //append this item's start time as the last item's end time
+        }
+    }
+    gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
 }
