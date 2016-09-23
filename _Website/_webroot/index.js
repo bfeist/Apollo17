@@ -1276,6 +1276,11 @@ function updateDashboard(timeId) {
             break;
         }
     }
+    if (dashCrewStatus.substr(dashCrewStatus.length - 8) == 'sleeping') {
+        var wakeTimeStr = gCrewStatusData[counter + 1][0];
+        var timeToWakeup = secondsToTimeStr(timeStrToSeconds(wakeTimeStr) - timeStrToSeconds(gCurrMissionTime));
+        dashCrewStatus += '<BR>Wake-up in: ' + timeToWakeup;
+    }
     $('#dashCrewStatus').html(dashCrewStatus);
 
     var calculateVelocity;

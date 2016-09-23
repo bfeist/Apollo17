@@ -1,29 +1,33 @@
 000:00:00|In Command Module
-003:56:52|In Command Module docked to the Lunar Module
-009:00:01|In Command Module docked to the Lunar Module, sleeping
-015:02:45|In Command Module docked to the Lunar Module
-025:26:26|In Command Module docked to the Lunar Module, sleeping
-033:00:38|In Command Module docked to the Lunar Module
-048:36:12|In Command Module docked to the Lunar Module, sleeping
-056:35:40|In Command Module docked to the Lunar Module
-073:47:15|In Command Module docked to the Lunar Module, sleeping
-081:30:28|In Command Module docked to the Lunar Module
-097:47:28|In Command Module docked to the Lunar Module, sleeping
-105:45:00|In Command Module docked to the Lunar Module
+003:56:52|In Command Module, docked with the Lunar Module
+009:00:01|In Command Module, docked with the Lunar Module, sleeping
+015:02:45|In Command Module, docked with the Lunar Module
+025:26:26|In Command Module, docked with the Lunar Module, sleeping
+033:00:38|In Command Module, docked with the Lunar Module
+048:36:12|In Command Module, docked with the Lunar Module, sleeping
+056:35:40|In Command Module, docked with the Lunar Module
+073:47:15|In Command Module, docked with the Lunar Module, sleeping
+081:30:28|In Command Module, docked with the Lunar Module
+097:47:28|In Command Module, docked with the Lunar Module, sleeping
+105:45:00|In Command Module, docked with the Lunar Module
 110:08:00|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module
-117:01:38|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the surface, EVA 1
-124:13:45|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module
-128:54:10|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, sleeping
+112:49:49|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module descending to lunar surface
+113:02:13|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface
+117:01:38|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the lunar surface, EVA 1
+124:13:45|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface
+128:54:10|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface, sleeping
 136:55:03|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, preparing for EVA 2
-140:34:20|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the surface, EVA 2
-148:09:47|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module
-152:25:20|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, sleeping
+140:34:20|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the lunar surface, EVA 2
+148:09:47|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface
+152:25:20|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface, sleeping
 160:24:02|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, preparing for EVA 3
-163:32:34|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the surface, EVA 3
-170:47:00|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module
-175:21:07|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, sleeping
-183:31:12|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module
-190:17:34|In Command Module docked to the Lunar Module
+163:32:34|Evans: In Command Module<BR>Cernan, Schmitt: Walking on the lunar surface, EVA 3
+170:47:00|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface
+175:21:07|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface, sleeping
+183:31:12|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module on the lunar surface preparing for liftoff
+188:01:19|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module ascending and rendezvousing with Command Module
+190:17:34|Evans: In Command Module<BR>Cernan, Schmitt: In Lunar Module, docked with the Command Module
+190:41:30|In Command Module docked with the Lunar Module
 193:58:03|In Command Module
 198:45:36|In Command Module, sleeping
 207:37:10|In Command Module

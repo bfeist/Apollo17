@@ -463,7 +463,7 @@
 |001:19:16|CC|Negative on that right now. We'll see you at 01:28:59 through Goldstone.
 |001:19:23|CDR|Okay, 01:28:59, Bob. We'll be there.
 |001:22:26|CC|Roger, Gene.
-|001:22:48||GOLDSTONE (REV 2}
+|001:22:48||GOLDSTONE (REV 2)
 |001:22:48|CC|17, Houston. We're back with you.
 |001:22:51|CDR|Okay, Bob. We're still same as before and ready when you are for TLI.
 |001:22:58|CC|Roger.
@@ -7268,7 +7268,7 @@
 |094:40:23|CDR|Thank you. We're going to watch your signal get cut off here.
 |094:40:28|CC|Roger. Was touch and go on that because at one time they're losing that game.
 |094:40:31|CDR|I ...
-|095:21:08|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
+|094:41:08|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
 |095:27:07|PAO|This is Apollo Control at 95 hours 27 minutes. We should be acquiring Apollo 17 on it's fourth revolution of the Moon in about 45 seconds. We'll stand by for the first words.
 |095:28:25|PAO|We have a signal and are receiving data.
 |095:28:59|LMP|Hello Houston, America.
@@ -8199,11 +8199,10 @@
 |109:53:18|LMP|Okay.
 |109:53:22|CMP|Okay, we're in RECEIVE ONLY to B DATA. Hey, Challenger; America. I'm going to RECEIVE ONLY the B DATA.
 |109:53:38|CMP|Hey, Challenger; America.
-|109:53:38||BEGIN LUNAR REV 12
+|109:53:48||BEGIN LUNAR REV 12
 |109:53:48|PAO|This is Apollo Control. We've had Loss of Signal as America and Challenger pass behind the Moon on the - toward the end of the 11th Lunar Orbit. When they reappear again, in approximately 47 minutes, they will be undocked. Stationkeeping, flying along adjacent to each other. At Loss of Signal the orbit measured 61.2 nautical miles pericynthion by 12 miles even nautical - pericynthion. Velocity at that time was 5,313 feet per second. During the next frontside pass, as the Challenger continues in preparations for the Descent Orbit Insertion, we'll have a checkout of the descent propulsion system. The tanks will be pressurized and telemetry readouts here on the ground will be prepared to those onboard, to make sure that system is preforming as advertised. An alignment - a realignment of the inertial measuring unit, part of the lunar module's guidance system will be run during that - also during that frontside pass. And toward the end of the 12th revolution, just prior to Loss of Signal the crew aboard Challanger will be given a GO/NO-GO for the Descent Orbit Insertion Maneuver number 2, which is at this time still scheduled for a Ground Elapsed Time of 112 hours 1 minute 59 seconds. There's a carton of book matches on top of the flight director console here in the Control Center which was bought by a group of flight dynamics officers on all the ships. Bill Boone, Jay Green, Jerry Bostick and others. It's a blue match cover, it says The Trench. Traditionally the trench is the front row here in the Control Center where the flight dynamics people operate. It says on the front, "The Trench, Mission Control Center, Houston." On the reverse of the match book it says, "Mercury, Gemini, Apollo, Skylab, Apollo Soyuz Test Program Shuttle." Mercury, Gemini and Apollo have a check by them indicating they're complete. And at the bottom it says, "roll them out, we're ready." At 109:57, up live at next Acquisition of Signal as America and Challenger come around on the 12th revolution, this is Apollo Control.
 |110:39:18|PAO|This is Apollo Control. 110 hours, 39 minutes Ground Elapsed Time in the mission of Apollo 17. Less than 2 minutes remaining now until America and Challenger, separated and flying a few feet apart at this time will come around the front side of the Moon on the 12th lunar orbit. Slightly over a minute now until we should start attempting to lock up on the downlink signal from America and Challenger. The two way communications from spacecraft communicator for the command-service module, Ken Mattingly, and Ron Evans aboard America will be on a separate loop as it was the last revolution. These conversations can be heard in room 161 in the Houston News Center. Early in this revolution we'll have the pressurization of the descent propulsion system and checkout of that system. Some 6 - 5 seconds from acquisition we'll stand by until Network advises the Flight Director that they do have firm lock-on. We have AOS in lunar module, let's see what we hear.
 ||||Tape 73A/1|Page 553
-|110:41:34||BEGIN LUNAR REV 12
 |110:41:34|CDR|Hello, Houston. ... Challenger ...? Hello, Houston. ... Challenger ...?
 |110:41:58|CC|Hello, Challenger; Houston. You're very, very weak. Over.
 |110:42:04|CDR|Okay, Houston. Challenger ... checkout is complete ... and we're looking at America, the beautiful.
