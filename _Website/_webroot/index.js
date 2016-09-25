@@ -31,6 +31,7 @@ var gCommentaryDataLookup = [];
 var gUttCommData = [];
 var gTelemetryData = [];
 var gCrewStatusData = [];
+var gOrbitData = [];
 var gPhotoData = [];
 var gPhotoIndex = [];
 var gPhotoDataLookup = [];
@@ -1221,39 +1222,8 @@ function searchResultClick(searchResultId, itemType) {
 }
 
 function updateDashboard(timeId) {
-    /*
-     Mission Day 6/13
-     Day 2 on Lunar Surface
-
-     Command and Service Module:
-     Onboard: Ron Evans
-     Lunar orbit 23
-
-     Lunar Module:
-     Onboard: Gene Cernan, Jack Schmitt
-     On Lunar Surface
-     Preparing for 2nd EVA (Extravehicular Activity): (countdown)
-     */
-
-    /*
-     Mission Day 2/13
-     Trans-lunar Coast
-     Current velocity (relative to Earth):
-     10000 feet/second (10000 km/h) (Mach 10)
-
-     Current distance from Earth:
-     110000nm (110000km)
-
-     Command and Service Module:
-     Onboard: Gene Cernan, Jack Schmitt, Ron Evans
-
-     Lunar Module:
-     Docked with Command and Service Module.
-     */
+    //trace("updateDashboard()");
     var timeIdInSeconds = timeIdToSeconds(timeId);
-
-    //Decide whether to auto-hide dashboard
-
 
     //Display day
     var dashMissionDay = Math.ceil(timeIdInSeconds / 86400);
@@ -1276,10 +1246,10 @@ function updateDashboard(timeId) {
             break;
         }
     }
-    if (dashCrewStatus.substr(dashCrewStatus.length - 8) == 'sleeping') {
+    if (dashCrewStatus.substr(dashCrewStatus.length - 15, 8) == 'sleeping') {
         var wakeTimeStr = gCrewStatusData[counter + 1][0];
         var timeToWakeup = secondsToTimeStr(timeStrToSeconds(wakeTimeStr) - timeStrToSeconds(gCurrMissionTime));
-        dashCrewStatus += '<BR>Wake-up in: ' + timeToWakeup;
+        dashCrewStatus += '<BR>Wake-up in: <span class="value">' + timeToWakeup + '</span>';
     }
     $('#dashCrewStatus').html(dashCrewStatus);
 
@@ -1288,7 +1258,7 @@ function updateDashboard(timeId) {
     if (timeIdInSeconds < timeStrToSeconds("088:43:38")) { //trans-lunar coast
         calculateVelocity = true;
         calculateDistanceFromEarth = true
-    } else if (timeIdInSeconds > timeStrToSeconds("236:52:03")){ //trans-earth coast
+    } else if (timeIdInSeconds > timeStrToSeconds("236:22:59")){ //trans-earth coast
         calculateVelocity = true;
         calculateDistanceFromEarth = true;
     } else { //lunar orbit
@@ -1375,9 +1345,20 @@ function updateDashboard(timeId) {
         currentDistanceEarthNM = parseFloat(Math.round(currentDistanceEarthNM * 100) / 100).toFixed(numDecimals);
         var currentDistanceEarthKM = parseFloat(Math.round(currentDistanceEarthNM * 1.852 * 100) / 100).toFixed(numDecimals);
         var dashDistanceEarth = '<span class="value">' + numberWithCommas(currentDistanceEarthNM) + '</span> nautical miles (<span class="value">' + numberWithCommas(currentDistanceEarthKM) + '</span> km)';
+        $('#dashLunarOrbit').css('display', 'none');
 
-    } else {
-        dashDistanceEarth = '<span class="value">207,559</span> nautical miles (<span class="value">384,399.2</span> km) average while in lunar orbit';
+    } else { //in lunar orbit
+        dashDistanceEarth = '<span class="value">207,559</span> nautical miles (<span class="value">384,399.2</span> km) average';
+        //Display Mission Stage
+        for (counter = 0; counter < gOrbitData.length; counter ++) {
+            if (timeStrToSeconds(gOrbitData[counter][0]) < timeIdInSeconds && timeStrToSeconds(gOrbitData[counter][2]) > timeIdInSeconds) {
+                var orbitNum = gOrbitData[counter][1];
+                break;
+            }
+        }
+        var dashLunarOrbit = '<span class="value">In lunar orbit.</span> Orbit: <span class="value">' + orbitNum + '/75</span>';
+        $('#dashLunarOrbit').css('display', 'block');
+        $('#dashLunarOrbit').html(dashLunarOrbit);
     }
     $('#dashDistanceEarth').html(dashDistanceEarth);
 
@@ -1464,13 +1445,13 @@ function showDashboardOverlay() {
     var dashboardBtnSelector =  $('#dashboardBtn');
     //dashboardOverlaySelector.css('display', 'block');
     dashboardOverlaySelector.fadeIn();
-    $('#dashboardContent').modemizr({
-        bps: 2400,
-        cursor: true,
-        blink: false,
-        imageSpeedup: 100,
-        show: false
-    });
+    //$('#dashboardContent').modemizr({
+    //    bps: 2400,
+    //    cursor: true,
+    //    blink: false,
+    //    imageSpeedup: 100,
+    //    show: false
+    //});
     dashboardBtnSelector.removeClass('subdued');
     dashboardBtnSelector.addClass('primary');
     if ($('.search-overlay').css('display').toLowerCase() != 'none') { //turn off search if it's up
