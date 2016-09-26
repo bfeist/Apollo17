@@ -9,7 +9,8 @@ $.when(
     ajaxGetMissionStagesData(),
     ajaxGetVideoSegmentData(),
     ajaxGetTelemetryData(),
-    ajaxCrewStatusData()).done(function(){
+    ajaxCrewStatusData(),
+    ajaxOrbitData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
@@ -168,6 +169,25 @@ function ajaxCrewStatusData() {
     });
 }
 
+function ajaxOrbitData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/orbitData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processOrbitData(data);}
+    });
+}
+
+
+
 function processVideoURLData(allText) {
     //console.log("processVideoURLData");
     var allTextLines = allText.split(/\r\n|\n/);
@@ -323,4 +343,19 @@ function processCrewStatusData(allText) {
         }
     }
     gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+}
+
+function processOrbitData(allText) {
+    //console.log("processCrewStatusData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            gOrbitData.push(data);
+        }
+        if (i > 0) {
+            gOrbitData[i - 1][2] = data[0]; //append this item's start time as the last item's end time
+        }
+    }
+    gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI
 }

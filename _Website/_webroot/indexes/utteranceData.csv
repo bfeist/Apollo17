@@ -452,7 +452,7 @@
 0011916|CC|Negative on that right now. We'll see you at 01:28:59 through Goldstone.
 0011923|CDR|Okay, 01:28:59, Bob. We'll be there.
 0012226|CC|Roger, Gene.
-0012248||GOLDSTONE (REV 2}
+0012248||GOLDSTONE (REV 2)
 0012248|CC|17, Houston. We're back with you.
 0012251|CDR|Okay, Bob. We're still same as before and ready when you are for TLI.
 0012258|CC|Roger.
@@ -6794,7 +6794,7 @@
 0944023|CDR|Thank you. We're going to watch your signal get cut off here.
 0944028|CC|Roger. Was touch and go on that because at one time they're losing that game.
 0944031|CDR|I ...
-0952108|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
+0944108|PAO|This is Apollo Control at 94 hours 41 minutes. We've had lost signal on the 3rd revolution. Ron Evans performed some landmark tracking on the front side of the Moon during this pass and we got some earth weather reports from lunar orbit, believed to be a first, in the Apollo series. And spacecraft is in the attitude now to perform the ultra-violet spectrometer and the infrared scanning radiometer experiments. We - we expect to acquire Apollo 17 next at 95 hours 28 minutes. Will come back up then, at 94 hours 42 minutes this is Mission Control, Houston.
 0952707|PAO|This is Apollo Control at 95 hours 27 minutes. We should be acquiring Apollo 17 on it's fourth revolution of the Moon in about 45 seconds. We'll stand by for the first words.
 0952825|PAO|We have a signal and are receiving data.
 0952859|LMP|Hello Houston, America.
@@ -7682,10 +7682,9 @@
 1095318|LMP|Okay.
 1095322|CMP|Okay, we're in RECEIVE ONLY to B DATA. Hey, Challenger; America. I'm going to RECEIVE ONLY the B DATA.
 1095338|CMP|Hey, Challenger; America.
-1095338||BEGIN LUNAR REV 12
+1095348||BEGIN LUNAR REV 12
 1095348|PAO|This is Apollo Control. We've had Loss of Signal as America and Challenger pass behind the Moon on the - toward the end of the 11th Lunar Orbit. When they reappear again, in approximately 47 minutes, they will be undocked. Stationkeeping, flying along adjacent to each other. At Loss of Signal the orbit measured 61.2 nautical miles pericynthion by 12 miles even nautical - pericynthion. Velocity at that time was 5,313 feet per second. During the next frontside pass, as the Challenger continues in preparations for the Descent Orbit Insertion, we'll have a checkout of the descent propulsion system. The tanks will be pressurized and telemetry readouts here on the ground will be prepared to those onboard, to make sure that system is preforming as advertised. An alignment - a realignment of the inertial measuring unit, part of the lunar module's guidance system will be run during that - also during that frontside pass. And toward the end of the 12th revolution, just prior to Loss of Signal the crew aboard Challanger will be given a GO/NO-GO for the Descent Orbit Insertion Maneuver number 2, which is at this time still scheduled for a Ground Elapsed Time of 112 hours 1 minute 59 seconds. There's a carton of book matches on top of the flight director console here in the Control Center which was bought by a group of flight dynamics officers on all the ships. Bill Boone, Jay Green, Jerry Bostick and others. It's a blue match cover, it says The Trench. Traditionally the trench is the front row here in the Control Center where the flight dynamics people operate. It says on the front, "The Trench, Mission Control Center, Houston." On the reverse of the match book it says, "Mercury, Gemini, Apollo, Skylab, Apollo Soyuz Test Program Shuttle." Mercury, Gemini and Apollo have a check by them indicating they're complete. And at the bottom it says, "roll them out, we're ready." At 109:57, up live at next Acquisition of Signal as America and Challenger come around on the 12th revolution, this is Apollo Control.
 1103918|PAO|This is Apollo Control. 110 hours, 39 minutes Ground Elapsed Time in the mission of Apollo 17. Less than 2 minutes remaining now until America and Challenger, separated and flying a few feet apart at this time will come around the front side of the Moon on the 12th lunar orbit. Slightly over a minute now until we should start attempting to lock up on the downlink signal from America and Challenger. The two way communications from spacecraft communicator for the command-service module, Ken Mattingly, and Ron Evans aboard America will be on a separate loop as it was the last revolution. These conversations can be heard in room 161 in the Houston News Center. Early in this revolution we'll have the pressurization of the descent propulsion system and checkout of that system. Some 6 - 5 seconds from acquisition we'll stand by until Network advises the Flight Director that they do have firm lock-on. We have AOS in lunar module, let's see what we hear.
-1104134||BEGIN LUNAR REV 12
 1104134|CDR|Hello, Houston. ... Challenger ...? Hello, Houston. ... Challenger ...?
 1104158|CC|Hello, Challenger; Houston. You're very, very weak. Over.
 1104204|CDR|Okay, Houston. Challenger ... checkout is complete ... and we're looking at America, the beautiful.
@@ -26388,7 +26387,7 @@
 1913712|LMP|Okay.
 1913725|CMP|That was a good one.
 1913726|LMP|I didn't like that ...
-1913833|CMP|Okay. Are you going to put the Buddy SLSS in the DECON bag and stow it on A-l?
+1913833|CMP|Okay. Are you going to put the Buddy SLSS in the DECON bag and stow it on A-1?
 1913838|LMP|Yes. That's in there now.
 1913840|CMP|Okay. - Okay, the ISA has got the - ...
 1913852|LMP|You just took the ISA bag, - the big ...
@@ -32723,6 +32722,7 @@
 2902839|CC|Okay.
 2902856|CDR|Okay, we'll take INVERTER number 3 OFF. And I think the POWER'S OFF, also.
 2902856|CC|Okay.
+2903400|PAO|This is Apollo Control at 290 hours 34 minutes. We expect to be putting the crew to bed shortly as soon as they finish up some last minute items. Their sleep period was scheduled to begin about 30 minutes ago.
 2904015|CDR|Houston, America.
 2904015|CC|All right. Go ahead, America; Houston.
 2904015|CDR|We bid you hello, Bob, and at the same time, good night.
@@ -32731,6 +32731,17 @@
 2904015|CC|That's about all I've got to do.
 2904015|CDR|See you in the morning, babe.
 2904053|CC|Roger.
+2910800|PAO|This is Apollo Control. The downlink voice subcarrier has been turned off in the spacecraft indicating the crew is ready for sleep. Apollo 17 is 73 290 nautical miles from Earth. Velocity has increased to 6488 feet per second. We'll take this release lying down now and come back with hourly status reports. At 291 hours 8 minutes this is Mission Control Houston.
+2915200|PAO|This is Apollo Control at 291 hours 52 minutes. Apollo 17 now 70 530 nautical miles from Earth, velocity 6659 feet per second- Crew is asleep with a little over six hours remaining in the rest period. All spacecraft systems performing normally. At 291 hours 52 minutes, this is Mission Control, Houston.
+2925200|PAO|This is Apollo Control at 292 hours 52 minutes. Apollo 17 now 66 645 nautical miles from Earth. Velocity 6915 feet per second. Apollo 17 will enter the Earth's atmosphere in 11 hours 26 minutes. The crew has approximately 5 hours in the rest period. At 292 hours 52 minutes this is Mission Control Houston.
+2935200|PAO|This is Apollo Control. All is still going well aboard Apollo 17 which is now 62 609 nautical miles from Earth, traveling at a speed of 7200 feet per second. 4 hours 7 minutes remaining in the crew rest period and 10 hours 26 minutes away from entry into the Earth's atmosphere. At 293 hours 52 minutes this is Mission Control Houston.
+2945200|PAO|This is Apollo Control at 294 hours 52 minutes. Apollo 17 is 58 408 nautical miles from Earth, velocity has increased to 7524 feet per second. All spacecraft systems operating normally. Crew is asleep with
+2955200|PAO|This is Apollo Control. Everything is still going well on Apollo 17, 2 hours 7 minutes remaining in the rest period. Spacecraft America is 54 008 nautical miles from Earth. Velocity 
+2965200|PAO|This is Apollo Control at 296 hours 52 minutes. Apollo 17 is now 49 415 nautical miles from Earth and velocity has increased to 8328 feet per second.
+2975800|PAO|This is Apollo Control at 297 hours 58 minutes, 2 minutes away from crew wakeup. The spaceflight meteorology group of the National Weather Service said this morning that weather conditions are expected to be satisfactory for the landing and recovery of the Apollo 17 crew and spacecraft. The weather forecast for the planned landing area, approximately 360 nautical miles southeast of Pango Pango, calls for partly cloudy skies, easterly winds of 10 miles per hour, seas of 3 feet and a temperature of near 77 degrees. Apollo 17 now 43 991 nautical miles from Earth. Velocity 8908 feet per second and we're 6 hours 19 minutes away from entry into the Earth's atmosphere.
+2975900|PAO|This is Apollo Control, we suspect that none of1the crew has a headset on.
+2975900|PAO|This is Apollo Control, both Ron Evans and Jack Schmitt are plugged into the biomedical sensors, but the data we get indicates they're both still asleep.
+2975900|PAO|The crew is awake.
 2980853|CC|(Music: Anchors Aweigh and the National Anthem)
 2981131|CMP|Hey, Houston. This is America. That's mighty fine.
 2981131|CC|Roger, America. It's Houston. We're ready to have you come home today.
@@ -32761,6 +32772,7 @@
 2982027|CC|Go ahead, America.
 2982027|CDR|We're looking at your big smiling crescent. How far out are we?
 2982027|CC|Stand by. You're just about to cross the 40,000-mile line here in the MOCR.
+2984500|PAO|This is Apollo Control at 298 hours 45 minutes. The crew's having breakfast now. Apollo 17 39 979 nautical miles from Earth. Velocity 9401 feet per second. We're 5 hours 33 minutes from entry into the Earth's atmosphere.
 2984708|CDR|40,000 miles. Okay.
 2991754|CMP|Houston, America.
 2991754|CC|Go ahead, America.

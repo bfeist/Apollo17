@@ -539,11 +539,11 @@
         <li onclick="parent.seekToTime('1544023')" class="tocitem" id="tocid1544023"><span class="TOCTimestamp">154:40:23</span>
         <span class="TOC_item">Communications with Ron Evans in lunar orbit</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    </ul>
-        <li onclick="parent.seekToTime('1550840')" class="tocitem" id="tocid1550840"><span class="TOCTimestamp">155:08:40</span>
+    <li onclick="parent.seekToTime('1550840')" class="tocitem" id="tocid1550840"><span class="TOCTimestamp">155:08:40</span>
         <span class="TOC_item">Description of EVA2 read to Evans</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('1602402')" class="tocitem" id="tocid1602402"><span class="TOCTimestamp">160:24:02</span>
+    </ul>
+        <li onclick="parent.seekToTime('1602402')" class="tocitem" id="tocid1602402"><span class="TOCTimestamp">160:24:02</span>
         <span class="TOC_item">Surface Crew wake-up (music)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
@@ -886,12 +886,15 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('2362152')" class="tocitem" id="tocid2362152"><span class="TOCTimestamp">236:21:52</span>
-        <span class="TOC_item">Transearth Injection</span>
+        <span class="TOC_item">Prep for Trans-Earth Injection</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('2365734')" class="tocitem" id="tocid2365734"><span class="TOCTimestamp">236:57:34</span>
-        <span class="TOC_item">Video: Moon as trip home begins</span>
+        <li onclick="parent.seekToTime('2364208')" class="tocitem" id="tocid2364208"><span class="TOCTimestamp">236:42:08</span>
+        <span class="TOC_item">Trans-Earth Injection burn initiated</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('2365734')" class="tocitem" id="tocid2365734"><span class="TOCTimestamp">236:57:34</span>
+        <span class="TOC_item">Video: Moon, as trip home begins</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2370207')" class="tocitem" id="tocid2370207"><span class="TOCTimestamp">237:02:07</span>
         <span class="TOC_item">Schmitt, "Humans don't get to see the far side, but a trend has been started"</span>
@@ -1017,9 +1020,18 @@
         <span class="TOC_item">Schmitt: "Doesn't it bother you to wield such power, Gordy?"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2861824')" class="tocitem" id="tocid2861824"><span class="TOCTimestamp">286:18:24</span>
-        <span class="TOC_item">"First time we've seen the earth in several days"</span>
+        <span class="TOC_item">"First time we've seen the Earth in several days"</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('3010030')" class="tocitem" id="tocid3010030"><span class="TOCTimestamp">301:00:30</span>
+    </ul>
+        <li onclick="parent.seekToTime('2904016')" class="tocitem" id="tocid2904016"><span class="TOCTimestamp">290:40:16</span>
+        <span class="TOC_item">Crew sleep period start</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('2980853')" class="tocitem" id="tocid2980853"><span class="TOCTimestamp">298:08:53</span>
+        <span class="TOC_item">Crew wake-up (music)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('3010030')" class="tocitem" id="tocid3010030"><span class="TOCTimestamp">301:00:30</span>
         <span class="TOC_item">Christmas spirit. "Looks like it's really snowing" (out the window)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>

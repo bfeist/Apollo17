@@ -138,7 +138,7 @@
 1504612|1|Crew listens to news while eating dinner
 1522520|1|Surface Crew sleep period begins
 1544023|2|Communications with Ron Evans in lunar orbit
-1550840|1|Description of EVA2 read to Evans
+1550840|2|Description of EVA2 read to Evans
 1602402|1|Surface Crew wake-up (music)
 1604139|2|News read to the crew over breakfast
 1610415|2|(audio missing)
@@ -234,8 +234,9 @@
 2281101|1|Crew Wake-up (music)
 2340435|2|Mapping camera cover closed in error
 2360752|2|GO for TEI (Transearth Injection)
-2362152|1|Transearth Injection
-2365734|2|Video: Moon as trip home begins
+2362152|1|Prep for Trans-Earth Injection
+2364208|2|Trans-Earth Injection burn initiated
+2365734|2|Video: Moon, as trip home begins
 2370207|2|Schmitt, "Humans don't get to see the far side, but a trend has been started"
 2371652|2|Reference to "wow woozle" uttered at launch
 2372645|2|Geology summary of lunar exploration
@@ -270,7 +271,9 @@
 2840636|1|Video: Television interview with the crew
 2852427|2|Santa visits the MOCR
 2861513|2|Schmitt: "Doesn't it bother you to wield such power, Gordy?"
-2861824|2|"First time we've seen the earth in several days"
+2861824|2|"First time we've seen the Earth in several days"
+2904016|1|Crew sleep period start
+2980853|1|Crew wake-up (music)
 3010030|2|Christmas spirit. "Looks like it's really snowing" (out the window)
 3011718|1|Second mid-course correction
 3040340|1|Command module/service module separation
