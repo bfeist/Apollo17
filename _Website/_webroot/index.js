@@ -1,4 +1,8 @@
 trace("INIT: Loading index.js");
+
+var ga = function() {};
+var gNavigatorHeight = 0;
+
 var gStopCache = false;
 var gCdnEnabled = false;
 var gOffline = false;
@@ -22,6 +26,9 @@ var gTOCDataLookup = [];
 var gUtteranceIndex = [];
 var gUtteranceData = [];
 var gUtteranceDataLookup = [];
+
+var gUtteranceHashes = {};
+
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
@@ -190,13 +197,13 @@ function setAutoScrollPoller() {
             displayHistoricalTimeDifferenceByTimeId(timeId);
 
             //scroll nav cursor
-            if (!gMouseOnNavigator && !gMustInitNav) {
-                //redrawAll();
-                updateNavigator();
-            } else {
-                drawCursor(totalSec);
-                paper.view.draw();
-            }
+            // if (!gMouseOnNavigator && !gMustInitNav) {
+            //     //redrawAll();
+            //     updateNavigator();
+            // } else {
+            //     drawCursor(totalSec);
+            //     paper.view.draw();
+            // }
         }
 
         if (!gOffline) {
@@ -226,13 +233,13 @@ function setApplicationReadyPoller() {
         }
         gFontLoaderDelay --;
 
-        if (gFontsLoaded && gSplashImageLoaded && gMustInitNav) {
+        if (gFontsLoaded && gSplashImageLoaded) { // && gMustInitNav) {
             $('body').addClass('splash-loaded'); //shows splash screen because now the fonts and image have been loaded
-            initNavigator(); //only init navigator after fonts have loaded to avoid mousex position bug
-            gMustInitNav = false;
+            // initNavigator(); //only init navigator after fonts have loaded to avoid mousex position bug
+            // gMustInitNav = false;
         }
 
-        if (gApplicationReady >= 4) {
+        if (gApplicationReady >= 3) { // <--- Ben? WTF?
             trace("APPREADY = 4! App Ready!");
             if (gMissionTimeParamSent != 0) {
                 fadeOutSplash();
@@ -335,7 +342,7 @@ function historicalButtonClick() {
     window.clearInterval(gIntroInterval);
     gIntroInterval = null;
     var nearestHistTimeId = getNearestHistoricalMissionTimeId();
-    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    // onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
     //scrollTranscriptToTimeId(findClosestUtterance(timeIdToSeconds(nearestHistTimeId)))
     //scrollCommentaryToTimeId(findClosestCommentary(timeIdToSeconds(nearestHistTimeId)));
@@ -351,7 +358,7 @@ function oneMinuteToLaunchButtonClick() {
     ga('send', 'event', 'launch', 'click', 'oneminute');
     window.clearInterval(gIntroInterval);
     gIntroInterval = null;
-    onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
+    // onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
     fadeOutSplash();
     initializePlayback();
@@ -442,7 +449,7 @@ function seekToTime(timeId) { // transcript click handling --------------------
                 scrollTranscriptToTimeId(findClosestUtterance(totalSeconds));
                 scrollCommentaryToTimeId(findClosestCommentary(totalSeconds));
                 scrollToClosestTOC(totalSeconds);
-                redrawAll();
+                // redrawAll();
                 break;
             }
         }
@@ -1248,7 +1255,7 @@ function getRandomInt(min, max) {
 }
 
 function trace(str) {
-    var debug = true;
+    var debug = false;
     if (debug === true) {
         try {
             console.log(str);
@@ -1376,7 +1383,7 @@ jQuery(function ($) {
 //on fullscreen toggle
 $(window).bind('fullscreenchange', function(e) {
     var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
-    redrawAll();
+    // redrawAll();
 });
 
 //on window resize
@@ -1393,7 +1400,7 @@ $(window).resize($.throttle(function(){ //scale image proportionally to image vi
     //    ,1000);
     //scaleMissionImage();
     //showPhotoByTimeId(gCurrentPhotoTimeid, true);
-    redrawAll();
+    // redrawAll();
 }, 250));
 
 function initSplash() {

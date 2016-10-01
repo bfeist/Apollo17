@@ -47,9 +47,9 @@ dependencies:
     function init() {
       _trace('init');
 
-       if ($root.attr('data-overlay-target') == '.body') {
-        $opts.showDebugInfo = true;
-       }
+       // if ($root.attr('data-overlay-target') == '.body') {
+        // $opts.showDebugInfo = true;
+       // }
 
        _forceBottom = $root.attr('data-force-bottom') || false;
        _trace('_forceBottom: ' + _forceBottom);
@@ -155,8 +155,8 @@ dependencies:
     this.each(function() {
         var $instance = new HelpOverlayManager(this, opts);
         $(this).data('helpOverlayManager', $instance);
-        console.log('$(this).data...');
-        console.log($(this).data());
+        // _trace('$(this).data...');
+        // _trace($(this).data());
     });
 
     return this;

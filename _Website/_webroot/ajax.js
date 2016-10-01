@@ -4,17 +4,45 @@ $.when(
     ajaxGetVideoURLData(),
     ajaxGetTOCData(),
     ajaxGetUtteranceData(),
+    ajaxGetUtteranceDataJson(),
     ajaxGetCommentaryData(),
     ajaxGetPhotoData(),
     ajaxGetMissionStagesData(),
     ajaxGetVideoSegmentData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
-        trace("APPREADY: Ajax loaded: " + gApplicationReady);
+        console.log("APPREADY: Ajax loaded: " + gApplicationReady);
 
         setTimeout(function(){
                 populatePhotoGallery();
             },500);
+
+
+
+    // $(document).ready(function() {
+        // $('#textScroller').DataTable( {
+        //     data: gUtteranceData,
+        //     scrollY: 150,
+        //     deferRender: true,
+        //     scrollCollapse: true,
+        //     scroller: true,
+        //     ordering: false,
+        //     lengthChange: false,
+        //     search: false,
+        //     infoCallback: function( settings, start, end, max, total, pre ) {
+        //         return start + " - to - " + end;
+        //     },
+        //     columns: [
+        //         {
+        //             visible: false
+        //         },
+        //         {
+        //             visible: false
+        //         },
+        //         null
+        //     ]
+        // } );
+    // } );
     });
 
 //--------------- index file handling --------------------
@@ -65,6 +93,22 @@ function ajaxGetUtteranceData() {
         url: urlStr,
         dataType: "text",
         success: function(data) {processUtteranceData(data);}
+    });
+}
+function ajaxGetUtteranceDataJson() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        var cdnNum = getRandomInt(1, 5);
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org";
+    } else {
+        urlStr = ".";
+    }
+    urlStr += "/indexes/utteranceData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processUtteranceDataToJson(data);}
     });
 }
 function ajaxGetCommentaryData() {
@@ -160,8 +204,10 @@ function processTOCData(allText) {
         }
     }
 }
+
 function processUtteranceData(allText) {
-    //console.log("processUtteranceData");
+    console.time('utter');
+    console.log("processUtteranceData");
     var allTextLines = allText.split(/\r\n|\n/);
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
@@ -173,7 +219,35 @@ function processUtteranceData(allText) {
             curRow ++;
         }
     }
+    // console.log("gUtteranceDataLookup: ", gUtteranceDataLookup);
+    // console.log("gUtteranceIndex: ", gUtteranceIndex);
+    // console.log("gUtteranceData: ", gUtteranceData);
+    console.timeEnd('utter');
 }
+
+function processUtteranceDataToJson(allText) {
+    console.time('utterJ');
+    console.log("processUtteranceDataToJson");
+    var allTextLines = allText.split(/\r\n|\n/);
+    var curRow = 0;
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            // gUtteranceDataLookup[data[0]] = curRow;
+            // gUtteranceIndex[i] = data[0];
+            gUtteranceHashes[data[0]] = {
+                key: data[0],
+                src: data[1],
+                text: data[2]
+            };
+            curRow ++;
+        }
+    }
+    console.timeEnd('utterJ');
+
+    console.log("gUtteranceHashes: ", gUtteranceHashes);
+}
+
 function processCommentaryData(allText) {
     //console.log("processCommentaryIndexData");
     var allTextLines = allText.split(/\r\n|\n/);

@@ -1,0 +1,50 @@
+
+<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+
+<script type="text/javascript" src="lib/utils.js"></script>
+
+<script type="text/javascript" src="lib/webfontloader.js"></script>
+<script type="text/javascript" src="src/webfonts.js"></script>
+
+<script type="text/javascript" src="src/video.js"></script>
+
+<script type="text/javascript">
+
+//vary the load requirements by device, screen-size, ?
+var appConfig = {
+    waitFor: [
+        loadWebFonts(),
+        loadVideo()
+    ]
+}
+
+// var webFonts = {
+//     scripts: [
+//         'lib/webfontloader.js',
+//         'src/webfonts.js'
+//     ]
+// }
+
+var App17 = {
+    init: function (config) {
+        $.when.apply(this, config.waitFor)
+            .progress(function () {
+                trace('# App17 - progress... arguments: ', arguments);
+            })
+            .done(function () {
+                trace('# App17 init complete; arguments: ', arguments);
+            })
+            .fail(function () {
+                trace('# App17 - something broke; arguments: ', arguments);
+            })
+            .always(function () {
+                trace('# App17 - always... arguments: ', arguments);
+            });
+    }
+
+}
+
+App17.init(appConfig);
+
+
+</script>
