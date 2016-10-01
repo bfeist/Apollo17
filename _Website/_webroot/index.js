@@ -1232,7 +1232,7 @@ function updateDashboard(timeId) {
 
     //Display Mission Stage
     for (var counter = 0; counter < gMissionStages.length; counter ++) {
-        if (timeStrToSeconds(gMissionStages[counter][0]) < timeIdInSeconds && timeStrToSeconds(gMissionStages[counter][3]) > timeIdInSeconds) {
+        if (timeStrToSeconds(gMissionStages[counter][0]) <= timeIdInSeconds && timeStrToSeconds(gMissionStages[counter][3]) >= timeIdInSeconds) {
             var dashMissionStage = gMissionStages[counter][2];
             break;
         }
@@ -1241,7 +1241,7 @@ function updateDashboard(timeId) {
 
     //Display Crew Status
     for (counter = 0; counter < gCrewStatusData.length; counter ++) {
-        if (timeStrToSeconds(gCrewStatusData[counter][0]) < timeIdInSeconds && timeStrToSeconds(gCrewStatusData[counter][2]) > timeIdInSeconds) {
+        if (timeStrToSeconds(gCrewStatusData[counter][0]) <= timeIdInSeconds && timeStrToSeconds(gCrewStatusData[counter][2]) >= timeIdInSeconds) {
             var dashCrewStatus = gCrewStatusData[counter][1];
             break;
         }
@@ -1351,14 +1351,15 @@ function updateDashboard(timeId) {
         dashDistanceEarth = '<span class="value">207,559</span> nautical miles (<span class="value">384,399.2</span> km) average';
         //Display Mission Stage
         for (counter = 0; counter < gOrbitData.length; counter ++) {
-            if (timeStrToSeconds(gOrbitData[counter][0]) < timeIdInSeconds && timeStrToSeconds(gOrbitData[counter][2]) > timeIdInSeconds) {
+            if (timeStrToSeconds(gOrbitData[counter][0]) <= timeIdInSeconds && timeStrToSeconds(gOrbitData[counter][2]) >= timeIdInSeconds) {
                 var orbitNum = gOrbitData[counter][1];
                 break;
             }
         }
         var dashLunarOrbit = '<span class="value">In lunar orbit.</span> Orbit: <span class="value">' + orbitNum + '/75</span>';
-        $('#dashLunarOrbit').css('display', 'block');
-        $('#dashLunarOrbit').html(dashLunarOrbit);
+        var dashLunarOrbitSelector = $('#dashLunarOrbit');
+        dashLunarOrbitSelector.css('display', 'block');
+        dashLunarOrbitSelector.html(dashLunarOrbit);
     }
     $('#dashDistanceEarth').html(dashDistanceEarth);
 
