@@ -496,20 +496,17 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         });
     }
 
+    //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
+    //var nowDate = Date.now();
+    ////var nowDate = Date.parse("2015-12-07 0:33 -500");
+    ////if (nowDate.dst()) {
+    ////nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
+    ////}
+    //var timeDiff = nowDate.getTime() - timeidDate.getTime();
+    //var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
+    //$("#historicalTimeDiff").html(humanizedRealtimeDifference);
+
     var historicalDate = new Date(timeidDate.getTime()); //for display only
-
-    //var nowDate = Date.parse("2015-12-07 0:33 -500");
-    var nowDate = Date.now();
-    //if (nowDate.dst()) {
-        //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
-    //}
-    var timeDiff = nowDate.getTime() - timeidDate.getTime();
-    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
-
-    //$(".currentDate").text(nowDate.toDateString());
-    //$(".currentTime").text(nowDate.toLocaleTimeString());
-
-    $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
@@ -1432,9 +1429,7 @@ function toggleSearchOverlay() {
 
 function toggleDashboardOverlay() {
     gDashboardManuallyToggled = true; //because dashboard manually clicked, turn off auto dashboard toggle to disable auto show/hide. Seeking resets this.
-    var dashboardOverlaySelector = $('.dashboard-overlay');
-    var dashboardBtnSelector =  $('#dashboardBtn');
-    if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
+    if ($('.dashboard-overlay').css('display').toLowerCase() == 'none') {
         showDashboardOverlay();
     } else {
         hideDashboardOverlay();
@@ -1774,7 +1769,7 @@ function setSplashHistoricalSubtext() {
 
     if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-        $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>43 years ago to the second.");
+        $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>44 years ago to the second.");
     } else {
         $('.historicalSubtext').text("(43 years ago)");  //todo make this calculate how many years ago
     }
