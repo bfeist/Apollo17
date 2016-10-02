@@ -1,23 +1,52 @@
 trace("INIT: Loading index.js");
+//app control flags
 var gStopCache = false;
 var gCdnEnabled = false;
 var gOffline = false;
 
+//constants
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
 var gDefaultStartTimeId = '-000105';
+var gFontLoaderDelay = 3; //seconds
+var gBackground_color_active = "#222222";
 
+//global control objects
+var player;
+var gIntervalID = null;
+var gIntroInterval = null;
+var gApplicationReadyIntervalID = null;
+var gShareButtonObject;
+
+//global flags
+var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
+var gFontsLoaded = false;
+var gSplashImageLoaded = false;
+var gMustInitNav = true;
+var gPlaybackState = "normal";
 var gLastTOCElement = '';
 var gLastTOCTimeId = '';
 var gLastCommentaryTimeId = '';
 var gLastUtteranceTimeId = '';
 var gLastTimeIdChecked = '';
-var gCurrMissionTime = '';
-var gIntervalID = null;
-var gIntroInterval = null;
 var gLastLROOverlaySegment = '';
 var gLastVideoSegmentDashboardHidden = '';
+var gUtteranceDisplayStartIndex;
+var gUtteranceDisplayEndIndex;
+var gCurrentHighlightedUtteranceIndex;
+var gCommentaryDisplayStartIndex;
+var gCommentaryDisplayEndIndex;
+var gCurrentHighlightedCommentaryIndex;
 var gDashboardManuallyToggled = false;
+var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
+var gMissionTimeParamSent = 0;
+
+//global mission state trackers
+var gCurrMissionTime = '';
+var gCurrVideoStartSeconds = -9442; //countdown
+var gCurrVideoEndSeconds = 0;
+
+//global data objects
 var gMediaList = [];
 var gTOCIndex = [];
 var gTOCData = [];
@@ -37,31 +66,6 @@ var gPhotoIndex = [];
 var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
-var gCurrentPhotoTimeid = "initial";
-var gCurrVideoStartSeconds = -9442; //countdown
-var gCurrVideoEndSeconds = 0;
-var gPlaybackState = "normal";
-var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
-var gMissionTimeParamSent = 0;
-var player;
-var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
-var gApplicationReadyIntervalID = null;
-var gFontsLoaded = false;
-var gSplashImageLoaded = false;
-var gMustInitNav = true;
-var gFontLoaderDelay = 3; //seconds
-
-var gUtteranceDisplayStartIndex;
-var gUtteranceDisplayEndIndex;
-var gCurrentHighlightedUtteranceIndex;
-
-var gCommentaryDisplayStartIndex;
-var gCommentaryDisplayEndIndex;
-var gCurrentHighlightedCommentaryIndex;
-
-var gShareButtonObject;
-
-var gBackground_color_active = "#222222";
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -1424,6 +1428,7 @@ function toggleSearchOverlay() {
         searchOverlaySelector.fadeOut();
         searchBtnSelector.removeClass('primary');
         searchBtnSelector.addClass('subdued');
+        gDashboardManuallyToggled = false; //cause dashboard to be once again auto-displayed
     }
 }
 
@@ -1717,17 +1722,7 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
-
     proportionalWidthOnPhotoBlock();
-
-    //var myCanvasElement = $('#myCanvas');
-    //myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
-    //myCanvasElement.css("width", $('#navigator').width());
-    //setTimeout(function(){
-    //        populatePhotoGallery(); }
-    //    ,1000);
-    //scaleMissionImage();
-    //showPhotoByTimeId(gCurrentPhotoTimeid, true);
     redrawAll();
 }, 250));
 

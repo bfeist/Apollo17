@@ -2932,7 +2932,7 @@
 |035:30:08|CC|Roger.
 |035:30:10|CMP|Okay. Let's see what kind of trim we got. Yes, we trimmed it. Trimmed it to 0.2. Yes. Less than 2. Okay, plus 7 on the EMS.
 |035:30:23|CC|Roger - -
-|035:30:24|CMP|I mean on the R-l. (Laughter)
+|035:30:24|CMP|I mean on the R-1. (Laughter)
 |035:30:30|CMP|Okay, we'll trim it out to 2. Plus 0.3. One more chance. Okay, there we go.
 |035:30:43|CDR|Okay, Houston. You're looking at NOUN 85, and the EMS is minus 3.3.
 ||||Tape 26/6|Page 185
@@ -2952,7 +2952,7 @@
 |035:33:04|CMP|Okay.
 |035:33:22|CDR|Houston, America.
 |035:33:23|CC|Go ahead.
-|035:33:32|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was 132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
+|035:33:32|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vgx was 0.7. ROLL was 132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
 |035:34:09|CC|Roger.
 ||||Tape 26/7|Page 186
 |035:34:57|CMP|PAN CAMERA'S OFF. MAPPING CAMERA's OFF, huh? And SM/AC POWER will be coming OFF, shortly.
@@ -2973,10 +2973,10 @@
 ||||Tape 26/8|Page 187
 |035:42:23|CDR|Okay. I'm glad you said that because I don't see any indication of it moving here yet, at all.
 |035:42:29|CC|Roger.
-|035:43:44|LMP|Houston, 17-
+|035:43:44|LMP|Houston, 17.
 |035:43:46|CC|Go ahead.
 |035:43:49|LMP|Never got to give you a 7-Alfa reading on a - after the last charge. It was 0.6 - decimal 6 as before.
-|035:44:04|CC|Okay. Ed Mitchell - Ed Mitchell must be working now. I was just about to ask you for that. And for Geno, one reminder, you will have to switch back to LM/CM DELTA-P in order to read the DELTA-P. Over.
+|035:44:04|CC|Okay. Ed Mitchell - Ed Mitchell must be working. I was just about to ask you for that. And for Geno, one reminder, you will have to switch back to LM/CM DELTA-P in order to read the DELTA-P. Over.
 |035:44:25|CDR|Yes, Gordo, I'm - I'm aware of that, and I've done it. But in the about 3 or 4 minutes that I vented, I didn't see any change yet.
 |035:44:33|CC|Okay. It's a pretty slow process.
 |035:46:32|LMP|Okay, Gordy, battery A is being charged.
@@ -3142,14 +3142,15 @@
 |038:40:35|LMP|Gordy, yesterday that - the one I'm speaking of - was centered at about 15 north and a hundred and - make that about 117 east.
 |038:40:57|CC|Okay. I've been informed that they are - the satellite people are carrying that one now. I'm not sure whether they had seen it before or didn't see it until after you did. But they are aware of it now and are tracking it.
 |038:41:19|LMP|Well, we're not competing. They just didn't have any information for me on it yesterday. We'll probably be able to see that again late this afternoon.
-|038:41:39|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have the name.
+|038:41:39|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have a name.
 |038:42:05|LMP|Okay. Now which one has - is Therese.
 |038:42:10|CC|The one you just - the coordinates you gave almost exactly pinpoint Therese.
 |038:42:17|LMP|Okay. That's near the Philippines.
-|038:42:19|CC|That's affirmative. Between there and Vietnam,
+|038:42:19|CC|That's affirmative. Between there and Vietnam.
 |038:42:39|LMP|Okay. Well, then that sounds like - if that's an up-to-date position, it has relatively little movement since yesterday.
 |038:42:52|CC|Roger. They show it moving just very slightly westward.
-|038:43:00|LMP|Okay. Are they carrying anything south of Guam now that we talked about yesterday?
+|038:43:00|LMP|Okay.
+|038:43:11|LMP|Are they carrying anything south of Guam now that we talked about yesterday?
 ||||Tape 28/8|Page 201
 |038:43:32|CC|Take a minute to get something on that. They don't have a current map showing anything in Guam right now.
 |038:43:46|LMP|And we also had a storm developing south of - or southwest of New Zealand. Might look at that one, too.
@@ -7871,7 +7872,7 @@
 |109:00:20|CDR|- - is all right. It seems to have something to do with the SQUELCH setting, and it's probably because we're so close.
 |109:00:28|CC|Okay. We concur. We'd like you to press on and not worry about the VHF any more for now.
 ||||Tape 72A/3|Page 537
-|109:00:35|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and isS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-l plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
+|109:00:35|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and isS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-1 plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
 |109:01:35|CC|Okay.
 |109:01:51|CDR|Okay, Houston. MASTER ARM is on, and B light is on.
 |109:01:54|CC|Roger.
@@ -28308,7 +28309,7 @@
 |192:22:38|CMP|You want to do that now?
 |192:22:40|CC|That's affirmative.
 |192:22:44|CMP|Okay, why don't you read it to me, Gordo? And I'll get it, in the LEB DSKY down here.
-|192:22:51|CC|Okay, it's a VERB 48, R-l, you want 61101.
+|192:22:51|CC|Okay, it's a VERB 48, R-1, you want 61101.
 |192:23:24|CMP|Okay, Houston; this is America. That should have collapsed it there.
 |192:23:49|CC|Okay, Ron. That caught what we wanted.
 |192:23:55|CMP|Okay.
