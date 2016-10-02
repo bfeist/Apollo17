@@ -466,6 +466,18 @@ function drawTier1() {
         }
     }
 
+    //display lunar orbit ticks
+    for (i = 0; i < gOrbitData.length; i++) {
+        itemLocX = gTier1Left + (timeStrToSeconds(gOrbitData[i][0]) + gCountdownSeconds) * gTier1PixelsPerSecond;
+        barHeight = gTier1Height / gHeightPhotoTickDenominator;
+        barTop = tierBottom - barHeight;
+        topPoint = new paper.Point(itemLocX, barTop);
+        bottomPoint = new paper.Point(itemLocX, tierBottom);
+        aLine = new paper.Path.Line(topPoint, bottomPoint);
+        aLine.strokeColor = gColorTOCStroke;
+        tempGroup.addChild(aLine);
+    }
+
     //rasterize temp group for entire tier
     if (tempGroup.children.length > 0) {
         var t1PhotoTicksRaster = tempGroup.rasterize();
@@ -678,6 +690,44 @@ function drawTier2() {
         }
     }
 
+    // draw lunar orbits
+    for (i = 0; i <= gOrbitData.length - 1; i++) {
+        //draw if orbit start is before end of viewport, and stage end is after start of viewport
+        if (timeStrToSeconds(gOrbitData[i][0]) <= gTier2StartSeconds + secondsOnTier2 && timeStrToSeconds(gOrbitData[i][2]) >= gTier2StartSeconds) {
+            itemLocX = gTier2Left + (timeStrToSeconds(gOrbitData[i][0]) - gTier2StartSeconds) * gTier2PixelsPerSecond;
+
+            var drawTick = true;
+            if (itemLocX < gTier2Left + 1) {
+                itemLocX = gTier2Left + 1;
+                drawTick = false;
+            }
+            topPoint = new paper.Point(itemLocX, gTier2Top);
+            bottomPoint = new paper.Point(itemLocX, gTier2Top + (gTier2Height / 3));
+
+            if (drawTick) {
+                var orbitStroke = new paper.Path.Line(topPoint, bottomPoint);
+                orbitStroke.strokeColor = gColorTOCStroke;
+                tempGroup.addChild(orbitStroke); // draw orange tick for stage
+            }
+
+            //var orbitText = new paper.PointText({
+            //    justification: 'left',
+            //    fontFamily: graphFontFamily,
+            //    //fontWeight: 'bold',
+            //    fontSize: 8 + gFontScaleFactor,
+            //    fillColor: gColorTOCText
+            //});
+            //var textTop = gTier2Top + (gTier2Height / 2) - 3;
+            //orbitText.point = new paper.Point(itemLocX + 2 , textTop);
+            //orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/75";
+
+            //var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+            //stageTextRect.fillColor ='black';
+            //tempGroup.addChild(stageTextRect); //blank out area behind text
+            //tempGroup.addChild(orbitText); // text label
+        }
+    }
+
     // draw mission stages
     for (i = 0; i <= gMissionStages.length - 1; i++) {
         //draw if stage start is before end of viewport, and stage end is after start of viewport
@@ -705,7 +755,7 @@ function drawTier2() {
                 fontSize: 8 + gFontScaleFactor,
                 fillColor: gColorMissionStageText
             });
-            var textTop = gTier2Top + (gTier2Height / 2) - 3;
+            textTop = gTier2Top + (gTier2Height / 2) - 3;
             stageText.point = new paper.Point(itemLocX + 2 , textTop);
             stageText.content = gMissionStages[i][1];
 
@@ -889,6 +939,44 @@ function drawTier3() {
         }
     }
 
+    // draw lunar orbits
+    for (i = 0; i <= gOrbitData.length - 1; i++) {
+        //draw if orbit start is before end of viewport, and stage end is after start of viewport
+        if (timeStrToSeconds(gOrbitData[i][0]) <= gTier3StartSeconds + secondsOnTier3 && timeStrToSeconds(gOrbitData[i][2]) >= gTier3StartSeconds) {
+            itemLocX = gTier3Left + (timeStrToSeconds(gOrbitData[i][0]) - gTier3StartSeconds) * gTier3PixelsPerSecond;
+
+            var drawTick = true;
+            if (itemLocX < gTier3Left + 1) {
+                itemLocX = gTier3Left + 1;
+                drawTick = false;
+            }
+            topPoint = new paper.Point(itemLocX, gTier3Top);
+            bottomPoint = new paper.Point(itemLocX, gTier3Top + 12 + gFontScaleFactor);
+
+            if (drawTick) {
+                var orbitStroke = new paper.Path.Line(topPoint, bottomPoint);
+                orbitStroke.strokeColor = gColorTOCStroke;
+                tempGroup.addChild(orbitStroke); // draw orange tick for stage
+            }
+
+            var orbitText = new paper.PointText({
+                justification: 'left',
+                fontFamily: graphFontFamily,
+                //fontWeight: 'bold',
+                fontSize: 8 + gFontScaleFactor,
+                fillColor: gColorTOCText
+            });
+            var textTop = gTier3Top + 10;
+            orbitText.point = new paper.Point(itemLocX + 2 , textTop);
+            orbitText.content = "Begin lunar orbit " + gOrbitData[i][1] + "/75";
+
+            //var stageTextRect = new paper.Path.Rectangle(stageText.bounds);
+            //stageTextRect.fillColor ='black';
+            //tempGroup.addChild(stageTextRect); //blank out area behind text
+            tempGroup.addChild(orbitText); // text label
+        }
+    }
+
     // draw mission stages
     for (i = 0; i <= gMissionStages.length - 1; i++) {
         //draw if stage start is before end of viewport, and stage end is after start of viewport
@@ -917,7 +1005,7 @@ function drawTier3() {
                 fontSize: 10 + gFontScaleFactor,
                 fillColor: gColorMissionStageText
             });
-            var textTop = gTier3Top + (gTier3Height / 3) - 5;
+            textTop = gTier3Top + (gTier3Height / 3) - 5;
             stageText.point = new paper.Point(itemLocX + 2 , textTop);
             stageText.content = gMissionStages[i][1];
 
