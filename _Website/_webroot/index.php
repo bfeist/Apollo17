@@ -57,11 +57,11 @@
 <!--    <script type="text/javascript" src="lib/jquery-ui.js"></script>-->
     <script type="text/javascript" src="lib/jquery.fullscreen.js"></script>
     <script type="text/javascript" src='lib/jquery.lazyload.js'></script>
-    <script type="text/javascript" src='lib/jquery.browser.js'></script>
+<!--    <script type="text/javascript" src='lib/jquery.browser.js'></script>-->
     <script type="text/javascript" src="lib/paper-full.js"></script>
     <script type="text/javascript" src="lib/date.js"></script>
-    <script type="text/javascript" src="lib/moment.js"></script>
-    <script type="text/javascript" src="lib/readable-range.js"></script>
+<!--    <script type="text/javascript" src="lib/moment.js"></script>-->
+<!--    <script type="text/javascript" src="lib/readable-range.js"></script>-->
     <script type="text/javascript" src='lib/share.js'></script>
     <script type="text/javascript" src='lib/jquery.waitforimages.min.js'></script>
 

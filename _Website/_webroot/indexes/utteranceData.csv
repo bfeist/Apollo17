@@ -2756,7 +2756,7 @@
 0353008|CC|Roger.
 0353010|CMP|Okay. Let's see what kind of trim we got. Yes, we trimmed it. Trimmed it to 0.2. Yes. Less than 2. Okay, plus 7 on the EMS.
 0353023|CC|Roger - -
-0353024|CMP|I mean on the R-l. (Laughter)
+0353024|CMP|I mean on the R-1. (Laughter)
 0353030|CMP|Okay, we'll trim it out to 2. Plus 0.3. One more chance. Okay, there we go.
 0353043|CDR|Okay, Houston. You're looking at NOUN 85, and the EMS is minus 3.3.
 0353049|CC|Roger, Gene.
@@ -2775,7 +2775,7 @@
 0353304|CMP|Okay.
 0353322|CDR|Houston, America.
 0353323|CC|Go ahead.
-0353332|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vx was 0,7. ROLL was 132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
+0353332|CDR|Okay, the burn was on time. Looked like it was about 2 seconds. DELTA-Vgx was 0.7. ROLL was 132, PITCH was 193, and YAW was 342. Residuals after trim were zero - plus 0.1, zero, and minus 0.1, and DELTA-Vc, is minus 3.3. OX 007. FUEL is 009 and DECREASE 50.
 0353409|CC|Roger.
 0353457|CMP|PAN CAMERA'S OFF. MAPPING CAMERA's OFF, huh? And SM/AC POWER will be coming OFF, shortly.
 0353553|CMP|You know, Houston, we must of caught up with every one of those particles. Because we're right in the middle of them. They're going kind of in a random fashion. Most of them are drifting right along with us. Some of them are going against us and away from us. But before we did the burn - you know, the propulsion, they got out of the vent. Sent them all away from us in what looked like - in more or less the X-direction.
@@ -2794,10 +2794,10 @@
 0354212|CC|Geno, that should take about an hour. We'll try to remember to occasionally remind you to look at it.
 0354223|CDR|Okay. I'm glad you said that because I don't see any indication of it moving here yet, at all.
 0354229|CC|Roger.
-0354344|LMP|Houston, 17-
+0354344|LMP|Houston, 17.
 0354346|CC|Go ahead.
 0354349|LMP|Never got to give you a 7-Alfa reading on a - after the last charge. It was 0.6 - decimal 6 as before.
-0354404|CC|Okay. Ed Mitchell - Ed Mitchell must be working now. I was just about to ask you for that. And for Geno, one reminder, you will have to switch back to LM/CM DELTA-P in order to read the DELTA-P. Over.
+0354404|CC|Okay. Ed Mitchell - Ed Mitchell must be working. I was just about to ask you for that. And for Geno, one reminder, you will have to switch back to LM/CM DELTA-P in order to read the DELTA-P. Over.
 0354425|CDR|Yes, Gordo, I'm - I'm aware of that, and I've done it. But in the about 3 or 4 minutes that I vented, I didn't see any change yet.
 0354433|CC|Okay. It's a pretty slow process.
 0354632|LMP|Okay, Gordy, battery A is being charged.
@@ -2950,14 +2950,15 @@
 0384035|LMP|Gordy, yesterday that - the one I'm speaking of - was centered at about 15 north and a hundred and - make that about 117 east.
 0384057|CC|Okay. I've been informed that they are - the satellite people are carrying that one now. I'm not sure whether they had seen it before or didn't see it until after you did. But they are aware of it now and are tracking it.
 0384119|LMP|Well, we're not competing. They just didn't have any information for me on it yesterday. We'll probably be able to see that again late this afternoon.
-0384139|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have the name.
+0384139|CC|Okay. The one that you just gave the coordinates on is - does have a name, - that's Therese, Hurricane Therese. And - so the - the other one must be the - must not have a name.
 0384205|LMP|Okay. Now which one has - is Therese.
 0384210|CC|The one you just - the coordinates you gave almost exactly pinpoint Therese.
 0384217|LMP|Okay. That's near the Philippines.
-0384219|CC|That's affirmative. Between there and Vietnam,
+0384219|CC|That's affirmative. Between there and Vietnam.
 0384239|LMP|Okay. Well, then that sounds like - if that's an up-to-date position, it has relatively little movement since yesterday.
 0384252|CC|Roger. They show it moving just very slightly westward.
-0384300|LMP|Okay. Are they carrying anything south of Guam now that we talked about yesterday?
+0384300|LMP|Okay.
+0384311|LMP|Are they carrying anything south of Guam now that we talked about yesterday?
 0384332|CC|Take a minute to get something on that. They don't have a current map showing anything in Guam right now.
 0384346|LMP|And we also had a storm developing south of - or southwest of New Zealand. Might look at that one, too.
 0384357|CC|Okay.
@@ -7361,7 +7362,7 @@
 1090020|CMP|Okay?
 1090020|CDR|- - is all right. It seems to have something to do with the SQUELCH setting, and it's probably because we're so close.
 1090028|CC|Okay. We concur. We'd like you to press on and not worry about the VHF any more for now.
-1090035|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and isS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-l plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
+1090035|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and isS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-1 plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
 1090135|CC|Okay.
 1090151|CDR|Okay, Houston. MASTER ARM is on, and B light is on.
 1090154|CC|Roger.
@@ -26632,7 +26633,7 @@
 1922238|CMP|You want to do that now?
 1922240|CC|That's affirmative.
 1922244|CMP|Okay, why don't you read it to me, Gordo? And I'll get it, in the LEB DSKY down here.
-1922251|CC|Okay, it's a VERB 48, R-l, you want 61101.
+1922251|CC|Okay, it's a VERB 48, R-1, you want 61101.
 1922324|CMP|Okay, Houston; this is America. That should have collapsed it there.
 1922349|CC|Okay, Ron. That caught what we wanted.
 1922355|CMP|Okay.
@@ -28601,7 +28602,7 @@
 2282457||America, Houston. You've got about 3-1/2 minutes until LOS, and you're looking good. All systems look good to us. And have a good breakfast, and we'll see you on the other side.
 2282511|SC|Okay, Houston, ...
 2282554||BEGIN LUNAR REV 72
-2282555|PAO|This is Apollo Control. We've had loss of signal as Apollo 17 spacecraft, America, coasted behind the moon nearing the end of revolution number 71. A briefing on Apollo 17 lunar surface science will begin momentarily in the main auditorium - repeat, main auditorium at MSC. The briefing likely will last into the next rev at least. The air-ground communications will be taped and played back at the conclusion of the lunar surface science press briefing. And at 228:28 Ground Elapsed Time, this is Apollo Control.
+2282755|PAO|This is Apollo Control. We've had loss of signal as Apollo 17 spacecraft, America, coasted behind the moon nearing the end of revolution number 71. A briefing on Apollo 17 lunar surface science will begin momentarily in the main auditorium - repeat, main auditorium at MSC. The briefing likely will last into the next rev at least. The air-ground communications will be taped and played back at the conclusion of the lunar surface science press briefing. And at 228:28 Ground Elapsed Time, this is Apollo Control.
 2291314|CC|America, Houston. Realize you're eating and don't want to interrupt you, but if you get your headsets on, we'll give you some news.
 2291325|CMP|Sound great, Houston. We'd appreciate that.
 2291325|CDR|Go ahead, Bob, we're listening to you.
@@ -31502,7 +31503,7 @@
 2615917|CDR|Well, I'm freezing something off.
 2615922|CC|Hey, we got a little procedure to warm things up in the cockpit, if you'd like it.
 2615928|CDR|We - we heard that earlier, and we'll pass on that right now.
-2615939|CC|Was it the one about turning INVERTER 3?
+2615939|CC|Was it the one about turning on INVERTER 3?
 2615946|CDR|No, we didn't hear that one. Why don't you tell us what that one is.
 2615950|CC|Okay, Cernan, put INVERTER 3 on MAIN A. That will put some heat load into the system, and then GO to MANUAL on the TEMP IN valve. Go down and adjust the EVAP OUT temperature to 59 degrees - make it 55 degrees, 55 degrees. And that should help warm things up.
 2620022|LMP|Okay. We'll let you know if we give that a try and, Gordy, I guess we're ready to copy some of those Flight Plan updates.

@@ -1,23 +1,52 @@
 trace("INIT: Loading index.js");
+//app control flags
 var gStopCache = false;
 var gCdnEnabled = false;
 var gOffline = false;
 
+//constants
 var gMissionDurationSeconds = 1100166;
 var gCountdownSeconds = 9442;
 var gDefaultStartTimeId = '-000105';
+var gFontLoaderDelay = 3; //seconds
+var gBackground_color_active = "#222222";
 
+//global control objects
+var player;
+var gIntervalID = null;
+var gIntroInterval = null;
+var gApplicationReadyIntervalID = null;
+var gShareButtonObject;
+
+//global flags
+var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
+var gFontsLoaded = false;
+var gSplashImageLoaded = false;
+var gMustInitNav = true;
+var gPlaybackState = "normal";
 var gLastTOCElement = '';
 var gLastTOCTimeId = '';
 var gLastCommentaryTimeId = '';
 var gLastUtteranceTimeId = '';
 var gLastTimeIdChecked = '';
-var gCurrMissionTime = '';
-var gIntervalID = null;
-var gIntroInterval = null;
 var gLastLROOverlaySegment = '';
 var gLastVideoSegmentDashboardHidden = '';
+var gUtteranceDisplayStartIndex;
+var gUtteranceDisplayEndIndex;
+var gCurrentHighlightedUtteranceIndex;
+var gCommentaryDisplayStartIndex;
+var gCommentaryDisplayEndIndex;
+var gCurrentHighlightedCommentaryIndex;
 var gDashboardManuallyToggled = false;
+var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
+var gMissionTimeParamSent = 0;
+
+//global mission state trackers
+var gCurrMissionTime = '';
+var gCurrVideoStartSeconds = -9442; //countdown
+var gCurrVideoEndSeconds = 0;
+
+//global data objects
 var gMediaList = [];
 var gTOCIndex = [];
 var gTOCData = [];
@@ -37,31 +66,6 @@ var gPhotoIndex = [];
 var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
-var gCurrentPhotoTimeid = "initial";
-var gCurrVideoStartSeconds = -9442; //countdown
-var gCurrVideoEndSeconds = 0;
-var gPlaybackState = "normal";
-var gNextVideoStartTime = -1; //used to track when one video ends to ensure next plays from 0 (needed because youtube bookmarks where you left off in videos without being asked to)
-var gMissionTimeParamSent = 0;
-var player;
-var gApplicationReady = gOffline ? 1 : 0; //starts at 0, or start at 1 if "offline" to skip youtube checker
-var gApplicationReadyIntervalID = null;
-var gFontsLoaded = false;
-var gSplashImageLoaded = false;
-var gMustInitNav = true;
-var gFontLoaderDelay = 3; //seconds
-
-var gUtteranceDisplayStartIndex;
-var gUtteranceDisplayEndIndex;
-var gCurrentHighlightedUtteranceIndex;
-
-var gCommentaryDisplayStartIndex;
-var gCommentaryDisplayEndIndex;
-var gCurrentHighlightedCommentaryIndex;
-
-var gShareButtonObject;
-
-var gBackground_color_active = "#222222";
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -496,20 +500,17 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         });
     }
 
+    //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
+    //var nowDate = Date.now();
+    ////var nowDate = Date.parse("2015-12-07 0:33 -500");
+    ////if (nowDate.dst()) {
+    ////nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
+    ////}
+    //var timeDiff = nowDate.getTime() - timeidDate.getTime();
+    //var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
+    //$("#historicalTimeDiff").html(humanizedRealtimeDifference);
+
     var historicalDate = new Date(timeidDate.getTime()); //for display only
-
-    //var nowDate = Date.parse("2015-12-07 0:33 -500");
-    var nowDate = Date.now();
-    //if (nowDate.dst()) {
-        //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
-    //}
-    var timeDiff = nowDate.getTime() - timeidDate.getTime();
-    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
-
-    //$(".currentDate").text(nowDate.toDateString());
-    //$(".currentTime").text(nowDate.toLocaleTimeString());
-
-    $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
@@ -1427,14 +1428,13 @@ function toggleSearchOverlay() {
         searchOverlaySelector.fadeOut();
         searchBtnSelector.removeClass('primary');
         searchBtnSelector.addClass('subdued');
+        gDashboardManuallyToggled = false; //cause dashboard to be once again auto-displayed
     }
 }
 
 function toggleDashboardOverlay() {
     gDashboardManuallyToggled = true; //because dashboard manually clicked, turn off auto dashboard toggle to disable auto show/hide. Seeking resets this.
-    var dashboardOverlaySelector = $('.dashboard-overlay');
-    var dashboardBtnSelector =  $('#dashboardBtn');
-    if (dashboardOverlaySelector.css('display').toLowerCase() == 'none') {
+    if ($('.dashboard-overlay').css('display').toLowerCase() == 'none') {
         showDashboardOverlay();
     } else {
         hideDashboardOverlay();
@@ -1722,17 +1722,7 @@ $(window).bind('fullscreenchange', function(e) {
 //on window resize
 $(window).resize($.throttle(function(){ //scale image proportionally to image viewport on load
     console.log('***window resize');
-
     proportionalWidthOnPhotoBlock();
-
-    //var myCanvasElement = $('#myCanvas');
-    //myCanvasElement.css("height", $('#navigator').height());  // fix height for broken firefox div height
-    //myCanvasElement.css("width", $('#navigator').width());
-    //setTimeout(function(){
-    //        populatePhotoGallery(); }
-    //    ,1000);
-    //scaleMissionImage();
-    //showPhotoByTimeId(gCurrentPhotoTimeid, true);
     redrawAll();
 }, 250));
 
@@ -1774,7 +1764,7 @@ function setSplashHistoricalSubtext() {
 
     if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-        $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>43 years ago to the second.");
+        $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>44 years ago to the second.");
     } else {
         $('.historicalSubtext').text("(43 years ago)");  //todo make this calculate how many years ago
     }
