@@ -1,11 +1,14 @@
 
 <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/lodash.js"></script>
+<script type="text/javascript" src="lib/moment.js"></script>
 
 <script type="text/javascript" src="lib/utils.js"></script>
 
 <script type="text/javascript" src="lib/webfontloader.js"></script>
 <script type="text/javascript" src="src/webfonts.js"></script>
 
+<script type="text/javascript" src="src/timeline.js"></script>
 <script type="text/javascript" src="src/video.js"></script>
 
 <script type="text/javascript">
@@ -16,7 +19,18 @@ var appConfig = {
         loadWebFonts(),
         loadVideo()
     ]
+    // waitFor: [
+    // function call (must return a promise, or something that returns the equivalent of a Deferred event)
+    // 
+    // {
+
+    // }
+    //     ,
+    //     loadVideo()
+    // ]
 }
+
+
 
 // var webFonts = {
 //     scripts: [
@@ -29,19 +43,40 @@ var App17 = {
     init: function (config) {
         $.when.apply(this, config.waitFor)
             .progress(function () {
-                trace('# App17 - progress... arguments: ', arguments);
+                // trace('# App17 - progress... arguments: ', arguments);
             })
             .done(function () {
                 trace('# App17 init complete; arguments: ', arguments);
+                var event = {
+                    type: "App17.ready"
+                }
+
+                _.each(arguments, function(result) {
+                    console.log('result: ', result);
+                    switch (result.component) {
+                        case 'video' : {
+                            event.player = result.player;
+                            break;
+                        }
+                        default : {
+                            trace('no handler for result: ', result);
+                            break;
+                        }
+                    }
+                });
+
+                $.event.trigger(event);
             })
             .fail(function () {
                 trace('# App17 - something broke; arguments: ', arguments);
             })
             .always(function () {
-                trace('# App17 - always... arguments: ', arguments);
+                // trace('# App17 - always... arguments: ', arguments);
             });
-    }
+    },
+    state: {
 
+    }
 }
 
 App17.init(appConfig);
