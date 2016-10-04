@@ -1378,13 +1378,17 @@ function manageOverlaysAutodisplay(timeId) {
         if (timeStrToSeconds(gVideoSegments[counter][0]) <= timeIdToSeconds(timeId) && timeStrToSeconds(gVideoSegments[counter][1]) >= timeIdToSeconds(timeId)) {
             inVideoSegment = true;
             //Fade in LRO message if it hasn't been displayed in this video segment yet
-            if (gVideoSegments[counter][2] == "3D" && gLastLROOverlaySegment != gVideoSegments[counter][0]) {
-                gLastLROOverlaySegment = gVideoSegments[counter][0];
-                trace("manageOverlaysAutodisplay():In LRO segment");
-                $('#LRO-overlay').fadeIn();
-                setTimeout(function(){
-                    $('#LRO-overlay').fadeOut();
-                },8000);
+            if (gVideoSegments[counter][2] == "3D") {
+                if (gLastLROOverlaySegment != gVideoSegments[counter][0]) {
+                    gLastLROOverlaySegment = gVideoSegments[counter][0];
+                    trace("manageOverlaysAutodisplay():In LRO segment");
+                    $('#LRO-overlay').fadeIn();
+                    setTimeout(function () {
+                        $('#LRO-overlay').fadeOut();
+                    }, 8000);
+                }
+            } else { //when on non-3D video segment
+                gLastLROOverlaySegment = ''; //reset LRO overlay rule. This causes LRO overlay to show after jumping back onto a different video, then playing into LRO segment
             }
             //hide dashboard overlay if it is displayed (once per video segment)
             if ($('.dashboard-overlay').css('display').toLowerCase() != 'none' && gLastVideoSegmentDashboardHidden != gVideoSegments[counter][0] && !gDashboardManuallyToggled) {
