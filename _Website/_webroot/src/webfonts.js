@@ -1,24 +1,33 @@
 (function () {
 
-// function loadFonts() {
+// window.loadVideo = function() {
 
-//     var d = $.Deferred();
-
-//     var script = document.createElement('script');
-//     script.type = 'text/javascript';
-//     script.async = true;
-//     script.onload = this.onApiLoadSuccess.bind(this, d);
-//     script.onerror = this.onApiLoadError.bind(this, d);
-//     script.src = 'https://www.youtube.com/iframe_api';
-//     document.getElementsByTagName('head')[0].appendChild(script);
-
-//     return d.promise();
+    // return _deferred.promise();
 // }
 
 window.loadWebFonts = function() {
-    // trace('loadWebFonts');
+    trace('loadWebFonts');
+    var _deferred = $.Deferred();
 
-    var d = $.Deferred();
+    var script = document.createElement('script');
+    script.onload = onGoogleFontsReady.bind(this, _deferred);
+    script.onerror = onGoogleFontsError.bind(this, _deferred);
+    script.src = 'lib/webfontloader.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+    return _deferred.promise();
+}
+
+function onGoogleFontsError(d) {
+    trace('onGoogleFontsError');
+    // d.reject({
+    d.resolve({
+        status: 'error'
+    });
+}
+
+function onGoogleFontsReady(d) {
+    trace('onGoogleFontsReady');
 
     var families = [
         'Michroma',
@@ -33,14 +42,14 @@ window.loadWebFonts = function() {
         google: {
             families: families
         },
-        fontloading: function(font, weight) { //weight format: n[first digit of weight]; e.g., 'n3' (= 300)
-            // trace('loadWebFonts; font loaded; font: ' + font + '; weight: ' + weight);
+        fontloading: function(font, weight) {
+            // trace('loadWebFonts; font loaded; font: ' + font + '; weight: ' + parseInt(weight.match(/\d/)) * 100);
 
             d.notify({
                 status: 'loading',
                 progress: parseFloat((++loaded / numFonts).toFixed(2)),
                 font: font,
-                weight: weight
+                weight: parseInt(weight.match(/\d/)) * 100 // they use a weird format for weight: n[first digit of weight]; e.g., 'n3' equals a weight of '300'
             });
         },
         active: function() {
@@ -58,7 +67,6 @@ window.loadWebFonts = function() {
             });
         }
     });
-
-    return d.promise();
 }
+
 })();
