@@ -2,13 +2,11 @@
 
 (function () {
 
-$(document).on('timeline.setMissionTime', onTimelineTick);
-$(document).on('timeline.tick', onTimelineTick);
+$(document).on('video.timeUpdate', onTimeUpdate);
 
 // ### handlers for external events
-var xxxx=  0;
-function onTimelineTick(evt) {
-    trace('title; onTimelineTick; evt: ', evt);
+function onTimeUpdate(evt) {
+    trace('title; onTimeUpdate; evt: ', evt);
     $('.historicalDate').text(evt.missionMoment.format('ddd MMM DD YYYY'));
     $('.historicalTime').text(evt.missionMoment.format('hh:mm:ss A'));
     $('.missionElapsedTime').text(evt.missionElapsedTime);

@@ -1,5 +1,35 @@
 (function () {
 
+// ### "public" functions
+var _deferred = $.Deferred();
+window.loadVideo = function() {
+    trace('video; loadVideo');
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.onload = onApiLoadSuccess.bind(this, _deferred);
+    script.onerror = onApiLoadError.bind(this, _deferred);
+    script.src = 'https://www.youtube.com/iframe_api';
+    document.getElementsByTagName('body')[0].appendChild(script);
+
+    return _deferred.promise();
+}
+
+// ### define handlers for external events
+$(document).on("App17.ready", onAppReady);
+window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady.bind(null, _deferred);
+
+// ### local vars
+var DATETIME_FORMAT = 'MMM D YYYY HH:mm:ss';
+var LAUNCH_TIME = new moment('Dec 7 1972 00:33:00', DATETIME_FORMAT);
+
+var missionTime = null;
+
+var pollTime = 500; //default milliseconds between updates
+var pollInterval = null;
+
+var ytPlayer = null;
+
 var MEDIA_LIST = _.map([
     '0OQ6m5DZqeY|-002:37:22|000:00:00',
     'l0bJywiS5q0|000:00:00|008:00:00',
@@ -50,43 +80,96 @@ var MEDIA_LIST = _.map([
     });
 var MEDIA_HASH = _.keyBy(MEDIA_LIST, 'id');
 
-var _deferred = $.Deferred();
-var ytPlayer = null;
-
-window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady.bind(null, _deferred);
-
-window.loadVideo = function() {
-    trace('video; loadVideo');
-
-    var script = document.createElement('script');
-    script.async = true;
-    script.onload = onApiLoadSuccess.bind(this, _deferred);
-    script.onerror = onApiLoadError.bind(this, _deferred);
-    script.src = 'https://www.youtube.com/iframe_api';
-    document.getElementsByTagName('body')[0].appendChild(script);
-
-    return _deferred.promise();
+// ### local "action" functions
+function onAppReady(evt) {
+    trace('video; onAppReady');
+    init();
 }
 
-// ### handlers for external events
-function onTimelineSet(evt) {
-    // trace('video; onTimelineSet; evt: ', evt);
-    seekToTime(evt.secondsFromLaunch);
+function init() {
+    trace("video; init");
+    var defaultStartOffset = '-000:01:05';
+
+    var paramOffsets = getOffsets(getUrlVar('t'));
+    var initOffsets = paramOffsets || getOffsets(defaultStartOffset);
+    
+    var initEventData = setMissionTime(initOffsets);
+    seekToTime(initEventData.secondsFromLaunch);
 }
 
-// ### local utils
-function seekToTime(secondsFromLaunch) { // transcript click handling --------------------
+function setMissionTime(offset) {
+    trace('video; setMissionTime; offset, ', offset);
+    //sets the mission time based on the offset; if the mission time changes, triggers an event (populated with eventData - see getEventData())
+    //accepts either a time string (e.g., '-001:11:25' or '002:11:25') or an object (as returned by getOffsets())
+    //returns:
+    // - false (and doesn't adjust missionTime) if offset isn't valid (i.e., if it's an incorrectly formatted string)
+    // - eventData if it is valid
+    if (typeof(offset) === 'string') {
+        offset = getOffsets(offset);
+    }
+    if (!offset) {
+        return false;
+    }
+
+    var lastMissionTime = missionTime;
+    missionTime = LAUNCH_TIME.clone().add(offset);
+
+    var eventData = getEventData('timeUpdate');
+    if (!missionTime.isSame(lastMissionTime)) {
+        trace("missionTime changed; firing event: " + missionTime.format(DATETIME_FORMAT));
+        $.event.trigger(eventData);
+    } else {
+        trace('no change in mission time');    
+    }
+    return eventData;
+}
+
+function startPoller() {
+    trace("video; startPoller");
+    pollInterval = setInterval(onPollTick, pollTime);
+}
+
+function stopPoller() {
+    trace("video; stopPoller");
+    clearInterval(pollInterval);
+}
+
+function onPollTick() {
+    var curClipData = getCurrentClipData();
+    var clipStartOffsets = getOffsets(curClipData.start);
+    
+    var clipStartTime = LAUNCH_TIME.clone().add(clipStartOffsets);
+    // trace('clipStartTime: ', clipStartTime.format(DATETIME_FORMAT));
+
+    var clipStartSecondsFromLaunch = clipStartTime.diff(LAUNCH_TIME, 'seconds');
+    // trace('clipStartSecondsFromLaunch: ', clipStartSecondsFromLaunch);
+
+    var curTotalSeconds = ytPlayer.getCurrentTime() + clipStartSecondsFromLaunch; // + .5;
+    // trace('curTotalSeconds: ' + curTotalSeconds);
+
+    var curTimeStr = secondsToTimeStr(curTotalSeconds);
+    // trace('curTimeStr: ' + curTimeStr);
+
+    setMissionTime(getOffsets(curTimeStr));
+}
+
+function getCurrentClipData() {
+    var curClipId = ytPlayer.getVideoUrl().match(/v=(.*)/)[1];
+    return MEDIA_HASH[curClipId];
+}
+
+function seekToTime(secondsFromLaunch) {
     trace("seekToTime; secondsFromLaunch: " + secondsFromLaunch);
 
     // ga('send', 'event', 'seekToTime', 'seek', timeId);
 
-    var curClipId = ytPlayer.getVideoUrl().match(/v=(.*)/)[1]; //.substr(player.getVideoUrl().indexOf("v=") + 2, 11);
-    trace('curClipId: ' + curClipId);
+    var curClipData = getCurrentClipData();
+    // trace('curClipData.id: ' + curClipData.id);
 
     for (var i = 0; i < MEDIA_LIST.length; ++i) {
-        var clip = MEDIA_LIST[i];
-        var clipStartOffsets = getOffsets(clip.start);
-        var clipEndOffsets = getOffsets(clip.end);
+        var targetClip = MEDIA_LIST[i];
+        var clipStartOffsets = getOffsets(targetClip.start);
+        var clipEndOffsets = getOffsets(targetClip.end);
         
         var clipStartTime = LAUNCH_TIME.clone().add(clipStartOffsets);
         var clipEndTime = LAUNCH_TIME.clone().add(clipEndOffsets);
@@ -99,12 +182,12 @@ function seekToTime(secondsFromLaunch) { // transcript click handling ----------
         // trace('clipEndSecondsFromLaunch: ', clipEndSecondsFromLaunch);
 
         if (secondsFromLaunch >= clipStartSecondsFromLaunch && secondsFromLaunch < clipEndSecondsFromLaunch) {
-            trace('seek to clip: ' + clip.id)
+            // trace('targetClip: ' + targetClip.id)
             //change youtube video if the correct video isn't already playing
             var startCue = secondsFromLaunch - clipStartSecondsFromLaunch;
-            if (curClipId !== clip.id) {
-                trace('changing video from: ' + curClipId + ' to: ' + clip.id + ' cued to: ' + startCue);
-                ytPlayer.loadVideoById(clip.id, startCue);
+            if (curClipData.id !== targetClip.id) {
+                trace('changing video from: ' + curClipData.id + ' to: ' + targetClip.id + ' cued to: ' + startCue);
+                ytPlayer.loadVideoById(targetClip.id, startCue);
             } else {
                 trace('no need to change video. Seeking to ' + startCue);
                 ytPlayer.seekTo(startCue, true);
@@ -129,6 +212,76 @@ function onApiLoadError(deferred, evt) {
         status: 'error',
         evt: evt
     });
+}
+
+// ### local utility functions
+function getOffsets(str) {
+    // takes something like '-001:22:33' and returns an object with integers for the hours, minutes and seconds offset (e.g., {hours:-1, minutes:-22, seconds:-33})
+    // returns false if all required elements aren't found in str
+    var pieces = getOffsetPieces(str);
+    if (!pieces) {
+        logger.warn('getOffsets; invalid offset string: ' + str);
+        return false;
+    }
+
+    var multiplier = pieces[0] === '-' ? -1 : 1;
+    var offsets = _.map(pieces.slice(1,4), function(p) {
+        return parseInt(p) * multiplier;
+    });
+    // console.log('pieces,', pieces);
+
+    return {
+        hours: offsets[0],
+        minutes: offsets[1],
+        seconds: offsets[2]
+    };
+}
+
+function getOffsetPieces(str) {
+    // takes something like '-111:22:33'
+    // returns an array of the offset elements found in str; e.g., [ ['-'|''], [HHH], [MM], [SS] ]
+    // returns false if all required elements aren't found in str
+    if (!str) {
+        return false;
+    }
+
+    var pieces = str.match(/(-?)(\d\d\d)\D?(\d\d)\D?(\d\d)/);
+    // console.log('pieces,', pieces);
+
+    // should be 5 elements ([full match], [-], HHH, MM, SS)
+    if (!pieces || pieces.length < 5) {
+        return false;
+    }
+
+    return pieces.slice(1,5);
+}
+
+function secondsToTimeStr(totalSeconds) {
+    var sec_num = Math.abs(parseFloat(totalSeconds));
+    var hours   = Math.floor(sec_num / 3600);
+    var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+    var seconds = Math.floor(sec_num - (hours * 3600) - (minutes * 60));
+    return (totalSeconds < 0 ? '-' : '')
+        + padZeros(hours,3) + ":" 
+        + padZeros(minutes,2) + ":" 
+        + padZeros(seconds,2);
+}
+
+function padZeros(num, size) {
+    var s = String(num);
+    while (s.length < size) s = "0" + s;
+    return s;
+}
+
+function getEventData(type) {
+    var secondsFromLaunch = missionTime.diff(LAUNCH_TIME, 'seconds');
+    return {
+        type: 'video.' + type,
+        missionMoment: missionTime,
+        missionDateTime: missionTime.format(DATETIME_FORMAT),
+        secondsFromLaunch: secondsFromLaunch,
+        missionElapsedTime: secondsToTimeStr(secondsFromLaunch)
+    };
 }
 
 // ### youtube API event handlers
@@ -158,8 +311,6 @@ function onYouTubeIframeAPIReady(deferred) {
 // The API will call this function when the video player is ready.
 function onPlayerReady(deferred, evt) {
     trace('video: onPlayerReady; ytPlayer.getPlayerState(): ' + ytPlayer.getPlayerState());
-
-    $(document).on("timeline.setMissionTime", onTimelineSet);
     
     deferred.resolve({
         status: 'success',
@@ -177,18 +328,23 @@ function onPlayerStateChange(evt) {
     switch (evtName) {
         case 'PLAYING' : {
             trace('onPlayerStateChange; PLAYING, time: ' + ytPlayer.getCurrentTime());
+            onPollTick();
+            startPoller();
             break;
         }
         case 'PAUSED' : {
             trace('onPlayerStateChange; PAUSED');
+            stopPoller();
             break;
         }
         case 'BUFFERING' : {
             trace('onPlayerStateChange; BUFFERING');
+            stopPoller();
             break;
         }
         case 'ENDED' : {
             trace('onPlayerStateChange; ENDED');
+            stopPoller();
             break;
         }
         default : {
@@ -197,67 +353,10 @@ function onPlayerStateChange(evt) {
         }
     }
 
-    var event = {
-        type: "player.stateChange",
-        state: evtName
-    }
-    $.event.trigger(event);
-
-    // if (event.data == YT.PlayerState.PLAYING) {
-    //     gPlaybackState = "normal";
-    //     $("#playPauseBtn").addClass('pause');
-
-    //     if (gNextVideoStartTime != -1) {
-    //         //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
-    //         player.seekTo(gNextVideoStartTime, true);
-    //         gNextVideoStartTime = -1;
-    //     }
-    //     if (gPlaybackState == "unexpectedbuffering") {
-    //         //trace("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
-    //         ga('send', 'event', 'transcript', 'click', 'youtube scrub');
-    //         //scrollToTimeID(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
-    //         scrollTranscriptToTimeId(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
-    //         scrollCommentaryToTimeId(findClosestCommentary(event.target.getCurrentTime() + gCurrVideoStartSeconds));
-    //         scrollToClosestTOC(event.target.getCurrentTime() + gCurrVideoStartSeconds);
-    //     }
-    //     if (gIntervalID == null) {
-    //         //poll for mission time scrolling if video is playing
-    //         gIntervalID = setAutoScrollPoller();
-    //         //trace("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
-    //     }
-    // } else if (event.data == YT.PlayerState.PAUSED) {
-    //     //clear polling for mission time scrolling if video is paused
-    //     window.clearInterval(gIntervalID);
-    //     //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
-    //     gIntervalID = null;
-    //     gPlaybackState = "paused";
-    //     $("#playPauseBtn").removeClass('pause');
-
-    // } else if (event.data == YT.PlayerState.BUFFERING) {
-    //     //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
-    //     if (gPlaybackState == "transcriptclicked") {
-    //         gPlaybackState = "normal";
-    //     } else {
-    //         //buffering for unknown reason, probably due to scrubbing video
-    //         trace("onPlayerStateChange():unexpected buffering");
-    //         gPlaybackState = "unexpectedbuffering";
-    //     }
-    // } else if (event.data == YT.PlayerState.ENDED) { //load next video
-    //     //trace("onPlayerStateChange():ENDED. Load next video.");
-    //     var currVideoID = player.getVideoUrl().substr(player.getVideoUrl().indexOf("v=") + 2,11);
-    //     for (var i = 0; i < gMediaList.length; ++i) {
-    //         if (gMediaList[i][1] == currVideoID) {
-    //             trace("onPlayerStateChange():Ended. Changing video from: " + currVideoID + " to: " + gMediaList[i + 1][1]);
-    //             currVideoID = gMediaList[i + 1][1];
-    //             break;
-    //         }
-    //     }
-    //     gCurrVideoStartSeconds = timeStrToSeconds(gMediaList[i + 1][2]);
-    //     gCurrVideoEndSeconds = timeStrToSeconds(gMediaList[i + 1][3]);
-
-    //     player.iv_load_policy = 3;
-    //     gNextVideoStartTime = 0; //force next video to start at 0 seconds in the play event handler
-    //     player.loadVideoById(currVideoID, 0);
-    // }
+    // $.event.trigger({
+    //     type: "player.stateChange",
+    //     state: evtName
+    // });
 }
+
 })();

@@ -1,7 +1,6 @@
 <?php
 
 define('APP_ROOT', dirname(__FILE__) . '/');
-define('WEB_ROOT', explode('?', $_SERVER['REQUEST_URI'], 2));
 
 ?>
 <html>
@@ -21,7 +20,7 @@ define('WEB_ROOT', explode('?', $_SERVER['REQUEST_URI'], 2));
 
     <?php include 'inc/social_tags.html' ?>
     <?php include 'inc/chrome_tags.html' ?>
-    
+
     <?php include 'inc/style_tags.html' ?>
     <?php include 'inc/script_tags_head.html' ?>
 

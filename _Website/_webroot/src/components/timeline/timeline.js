@@ -12,10 +12,11 @@ var defaultStartOffset = '-000:01:05';
 
 var _player = null;
 
-var tickTime  = 1000; //milliseconds between updates
+var tickTime  = 1000; //default milliseconds between updates
 var tickInterval = null;
+// var nextTickTime; //adjusted time between updates (so we don't "clip" time start/stopping)
 
-var gCurrVideoStartSeconds = 1;
+// var gCurrVideoStartSeconds = 1;
 
 window.setMissionTime = setMissionTime;
 
@@ -26,6 +27,7 @@ function onAppReady(evt) {
 
     init();
 }
+
 function onPlayerStateChange(evt) {
     trace('timeline; onPlayerStateChange', evt);
     // stop();
@@ -189,74 +191,95 @@ function getEventObject(type) {
 
 var c = 0;
 function stop() {
+    var now = moment();
+    var diff = now.diff(lastTickTime, 'milliseconds');
+    // trace('lastTickTime: ' + lastTickTime);
+    // trace('now: ' + now);
+    // trace('diff: ' + diff);
+    nextTickTime = tickTime - diff;
+    trace('nextTickTime: ' + nextTickTime);
     clearInterval(tickInterval);
 }
 
+var lastTickTime;
 function start() {
     trace("timeline; start");
-    tickInterval = setInterval(function () {
-        trace("timeline; tick; missionTime: " + missionTime.format(DATETIME_FORMAT));
 
-        missionTime.add({
-            milliseconds: tickTime
-        });
+    // if (nextTickTime) {
+    //     setTimeout(function() {
+    //         onTick();
+    //         tickInterval = setInterval(onTick, tickTime);
+    //     }, tickTime);
+    // } else {
+        tickInterval = setInterval(onTick, tickTime);
+    // }
+}
 
-        $.event.trigger(getEventObject('tick'));
-        // {
-        //     type: 'timeline.tick',
-        //     missionMoment: missionTime,
-        //     secondsFromLaunch: secondsFromLaunch,
-        //     missionTime: secondsToTimeStr(secondsFromLaunch)
-        // });
+function onTick() {
+    // nextTickTime = tickTime;
+    // lastTickTime = moment();
 
-        // (c++ === 2) && clearInterval(tickInterval);
+    trace("timeline; tick; missionTime: " + missionTime.format(DATETIME_FORMAT));
 
-        // var totalSec = gOffline ? timeStrToSeconds(gCurrMissionTime) + 1 : player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
-        // var totalSec = _player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
-        // console.log('totalSec: ' + totalSec);
+    var playerTime = _player.getCurrentTime();
+    // missionTime.add({
+    //     milliseconds: tickTime
+    // });
 
-        // if (gCurrVideoStartSeconds == 230400) {
-        //     if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 002:40:00 to time
-        //         //trace("adding 9600 seconds to autoscroll target due to MET time change");
-        //         totalSec = totalSec + 9600;
-        //     }
-        // }
-        // gCurrMissionTime = secondsToTimeStr(totalSec);
+    $.event.trigger(getEventObject('tick'));
+    // {
+    //     type: 'timeline.tick',
+    //     missionMoment: missionTime,
+    //     secondsFromLaunch: secondsFromLaunch,
+    //     missionTime: secondsToTimeStr(secondsFromLaunch)
+    // });
 
-        // if (gCurrMissionTime != gLastTimeIdChecked) {
-        //     if (parseInt(totalSec) % 10 == 0) { //every 10 seconds, fire a playing event
-        //         ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
-        //     }
+    // (c++ === 2) && clearInterval(tickInterval);
 
-        //     var timeId = timeStrToTimeId(gCurrMissionTime);
-        //     gLastTimeIdChecked = gCurrMissionTime;
+    // var totalSec = gOffline ? timeStrToSeconds(gCurrMissionTime) + 1 : player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
+    // var totalSec = _player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
+    // console.log('totalSec: ' + totalSec);
 
-        //     scrollTranscriptToTimeId(timeId);
-        //     scrollTOCToTimeId(timeId);
-        //     scrollCommentaryToTimeId(timeId);
-        //     showPhotoByTimeId(timeId);
+    // if (gCurrVideoStartSeconds == 230400) {
+    //     if (player.getCurrentTime() > 3600) { //if at 065:00:00 or greater, add 002:40:00 to time
+    //         //trace("adding 9600 seconds to autoscroll target due to MET time change");
+    //         totalSec = totalSec + 9600;
+    //     }
+    // }
+    // gCurrMissionTime = secondsToTimeStr(totalSec);
 
-        //     displayHistoricalTimeDifferenceByTimeId(timeId);
+    // if (gCurrMissionTime != gLastTimeIdChecked) {
+    //     if (parseInt(totalSec) % 10 == 0) { //every 10 seconds, fire a playing event
+    //         ga('send', 'event', 'playback', 'playing', gCurrMissionTime);
+    //     }
 
-        //     //scroll nav cursor
-        //     // if (!gMouseOnNavigator && !gMustInitNav) {
-        //     //     //redrawAll();
-        //     //     updateNavigator();
-        //     // } else {
-        //     //     drawCursor(totalSec);
-        //     //     paper.view.draw();
-        //     // }
-        // }
+    //     var timeId = timeStrToTimeId(gCurrMissionTime);
+    //     gLastTimeIdChecked = gCurrMissionTime;
 
-        // if (!gOffline) {
-        //     if (player.isMuted() == true) {
-        //         $('#soundBtn').removeClass('mute');
-        //     } else {
-        //         $('#soundBtn').addClass('mute');
-        //     }
-        // }
+    //     scrollTranscriptToTimeId(timeId);
+    //     scrollTOCToTimeId(timeId);
+    //     scrollCommentaryToTimeId(timeId);
+    //     showPhotoByTimeId(timeId);
 
-    }, tickTime);
+    //     displayHistoricalTimeDifferenceByTimeId(timeId);
+
+    //     //scroll nav cursor
+    //     // if (!gMouseOnNavigator && !gMustInitNav) {
+    //     //     //redrawAll();
+    //     //     updateNavigator();
+    //     // } else {
+    //     //     drawCursor(totalSec);
+    //     //     paper.view.draw();
+    //     // }
+    // }
+
+    // if (!gOffline) {
+    //     if (player.isMuted() == true) {
+    //         $('#soundBtn').removeClass('mute');
+    //     } else {
+    //         $('#soundBtn').addClass('mute');
+    //     }
+    // }
 }
 
 })();
