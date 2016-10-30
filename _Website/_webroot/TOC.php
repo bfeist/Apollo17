@@ -32,7 +32,7 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('-011602')" class="tocitem" id="tocid-011602"><span class="TOCTimestamp">-01:16:02</span>
+        <li onclick="parent.seekToTime('-011540')" class="tocitem" id="tocid-011540"><span class="TOCTimestamp">-01:15:40</span>
         <span class="TOC_item">Countdown Cutoff</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('-000759')" class="tocitem" id="tocid-000759"><span class="TOCTimestamp">-00:07:59</span>
@@ -86,7 +86,7 @@
         <li onclick="parent.seekToTime('0034243')" class="tocitem" id="tocid0034243"><span class="TOCTimestamp">003:42:43</span>
         <span class="TOC_item">S-IVB/Command and Service Module separation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('0034500')" class="tocitem" id="tocid0034500"><span class="TOCTimestamp">003:45:00</span>
+    <li onclick="parent.seekToTime('0035032')" class="tocitem" id="tocid0035032"><span class="TOCTimestamp">003:50:32</span>
         <span class="TOC_item">Video: Trans-Lunar docking initiated</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0035652')" class="tocitem" id="tocid0035652"><span class="TOCTimestamp">003:56:52</span>
