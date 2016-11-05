@@ -32,7 +32,10 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('-011540')" class="tocitem" id="tocid-011540"><span class="TOCTimestamp">-01:15:40</span>
+        <li onclick="parent.seekToTime('-012224')" class="tocitem" id="tocid-012224"><span class="TOCTimestamp">-01:22:24</span>
+        <span class="TOC_item">Flight Director check-in</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('-011540')" class="tocitem" id="tocid-011540"><span class="TOCTimestamp">-01:15:40</span>
         <span class="TOC_item">Countdown Cutoff</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('-000759')" class="tocitem" id="tocid-000759"><span class="TOCTimestamp">-00:07:59</span>
