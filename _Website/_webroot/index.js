@@ -5,7 +5,7 @@ var gCdnEnabled = false;
 var gOffline = false;
 
 //constants
-var gMissionDurationSeconds = 1100166;
+var gMissionDurationSeconds = 1100980;
 var gCountdownSeconds = 9442;
 var gDefaultStartTimeId = '-000105';
 var gFontLoaderDelay = 3; //seconds

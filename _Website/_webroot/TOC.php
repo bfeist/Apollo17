@@ -135,7 +135,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('0341007')" class="tocitem" id="tocid0341007"><span class="TOCTimestamp">034:10:07</span>
-        <span class="TOC_item">Video: crew onboard film while listening to the news</span>
+        <span class="TOC_item">Video: Crew filming each other while listening to the news</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0353000')" class="tocitem" id="tocid0353000"><span class="TOCTimestamp">035:30:00</span>

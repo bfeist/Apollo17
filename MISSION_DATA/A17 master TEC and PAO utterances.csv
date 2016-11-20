@@ -24462,10 +24462,10 @@
 ||||Tape 111A/44|Page 1688
 |168:55:36|CDR|Some big ones there.
 |168:55:37|LMP|Yes.
-|168:55:39|CDR|Old Station 10. I might even call it 10 Alpha in honor of the Apollo Program Office. The - -
+|168:55:39|LMP|Old Station 10. I might even call it 10 Alpha in honor of the Apollo Program Office. The - -
 |168:55:49|CC|10 Bravo, Apollo.
-|168:55:49|CDR|- - Apollo Spacecraft Program Office.
-|168:55:56|CDR|Oh, that's right. 10 Bravo. I knew I'd never get that straight.
+|168:55:49|LMP|- - Apollo Spacecraft Program Office.
+|168:55:56|LMP|Oh, that's right. 10 Bravo. I knew I'd never get that straight.
 |168:56:00|CC|Do those blocks look like gabbros, you guys?
 |168:56:02|CDR|How fast do you think we're going, Jack, without looking?
 |168:56:05|LMP|I think we're going about 18 clicks.
@@ -24499,7 +24499,8 @@
 |168:57:55|CDR|...
 |168:57:56|LMP|Yes. Everything in here so far is the tan-gray subfloor gabbro that I've seen. I haven't - Oh, there's one over there that's a blue-gray. But blue-gray is not abundant.
 ||||Tape 111A/46|Page 1690
-|168:58:06|CC|Okay. Copy that. And, 17, as you're getting closer, we're going to want a - an LRV sample at 1.1 on the range.
+|168:58:06|CC|Okay. Copy that.
+|168:58:14|CC|And, 17, as you're getting closer, we're going to want a - an LRV sample at 1.1 on the range.
 |168:58:25|CDR|Okay.
 |168:58:27|LMP|What are we now? 1.2?
 |168:58:28|CDR|1.2. Okay. We'll try to get block and soil.
@@ -27245,7 +27246,7 @@
 |188:06:27|CC|And the reason is the mixture ratio problem. - -
 |188:06:28|LMP|ASCENT FEED, CLOSED.
 |188:06:30|CC|- - That's just to be conservative and safe. Over.
-|188:06:35|CDR|Understand. And we're going 5, and we're now out of 48K.
+|188:06:35|CDR|Understand. And we're GO at 5, and we're now out of 48K.
 |188:06:44|LMP|Okay, the camera's stopped.
 |188:06:46|CDR|Okay, burn time's going to be about 18 or 19, 07:18 or 07:19, Jack.
 |188:06:50|LMP|Okay.
