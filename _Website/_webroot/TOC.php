@@ -1080,6 +1080,12 @@
     <li onclick="parent.seekToTime('3052732')" class="tocitem" id="tocid3052732"><span class="TOCTimestamp">305:27:32</span>
         <span class="TOC_item">Speeches by the crew</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('3053513')" class="tocitem" id="tocid3053513"><span class="TOCTimestamp">305:35:13</span>
+        <span class="TOC_item">MOCR Celebration</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('3054048')" class="tocitem" id="tocid3054048"><span class="TOCTimestamp">305:40:48</span>
+        <span class="TOC_item">MOCR (Audio)</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('3053524')" class="tocitem" id="tocid3053524"><span class="TOCTimestamp">305:35:24</span>
         <span class="TOC_item">End of coverage</span>
