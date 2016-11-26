@@ -483,22 +483,22 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         });
     }
 
+    //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
+    //var nowDate = Date.now();
+    ////var nowDate = Date.parse("2015-12-07 0:33 -500");
+    ////if (nowDate.dst()) {
+    ////nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
+    ////}
+    //var timeDiff = nowDate.getTime() - timeidDate.getTime();
+    //var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
+    //$("#historicalTimeDiff").html(humanizedRealtimeDifference);
+
     var historicalDate = new Date(timeidDate.getTime()); //for display only
-
-    //var nowDate = Date.parse("2015-12-07 0:33 -500");
-    var nowDate = Date.now();
-    //if (nowDate.dst()) {
-        //nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
-    //}
-    var timeDiff = nowDate.getTime() - timeidDate.getTime();
-    var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
-
-    //$(".currentDate").text(nowDate.toDateString());
-    //$(".currentTime").text(nowDate.toLocaleTimeString());
-
-    $("#historicalTimeDiff").html(humanizedRealtimeDifference);
     $(".historicalDate").text(historicalDate.toDateString());
-    $(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
+
+    var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+    $(".historicalTime").text(historicalDate.toLocaleTimeString('en-US', options));
+    //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
     //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
 
     $(".missionElapsedTime").text(gCurrMissionTime);
