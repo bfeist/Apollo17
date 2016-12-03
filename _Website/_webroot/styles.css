@@ -76,6 +76,15 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    color: #84b8d9;
+    /*color: #999999;*/
+    /*color: rgba(215, 160, 108, .9);*/
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 0.4em;
+}
+
 /* ----------------- TOC -----------------*/
 
 .TOC_container {
