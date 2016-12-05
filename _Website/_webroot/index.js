@@ -1,7 +1,7 @@
 trace("INIT: Loading index.js");
 //app control flags
 var gStopCache = false;
-var gCdnEnabled = false;
+var gCdnEnabled = true;
 var gOffline = false;
 
 //constants
