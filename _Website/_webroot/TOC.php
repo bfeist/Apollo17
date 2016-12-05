@@ -32,7 +32,10 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('-011602')" class="tocitem" id="tocid-011602"><span class="TOCTimestamp">-01:16:02</span>
+        <li onclick="parent.seekToTime('-012224')" class="tocitem" id="tocid-012224"><span class="TOCTimestamp">-01:22:24</span>
+        <span class="TOC_item">Flight Director check-in</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('-011540')" class="tocitem" id="tocid-011540"><span class="TOCTimestamp">-01:15:40</span>
         <span class="TOC_item">Countdown Cutoff</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('-000759')" class="tocitem" id="tocid-000759"><span class="TOCTimestamp">-00:07:59</span>
@@ -86,7 +89,7 @@
         <li onclick="parent.seekToTime('0034243')" class="tocitem" id="tocid0034243"><span class="TOCTimestamp">003:42:43</span>
         <span class="TOC_item">S-IVB/Command and Service Module separation</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('0034500')" class="tocitem" id="tocid0034500"><span class="TOCTimestamp">003:45:00</span>
+    <li onclick="parent.seekToTime('0035032')" class="tocitem" id="tocid0035032"><span class="TOCTimestamp">003:50:32</span>
         <span class="TOC_item">Video: Trans-Lunar docking initiated</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('0035652')" class="tocitem" id="tocid0035652"><span class="TOCTimestamp">003:56:52</span>
@@ -132,7 +135,7 @@
     
 <ul class="TOCli TOC2">
         <li onclick="parent.seekToTime('0341007')" class="tocitem" id="tocid0341007"><span class="TOCTimestamp">034:10:07</span>
-        <span class="TOC_item">Video: crew onboard film while listening to the news</span>
+        <span class="TOC_item">Video: Crew filming each other while listening to the news</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('0353000')" class="tocitem" id="tocid0353000"><span class="TOCTimestamp">035:30:00</span>
@@ -1076,6 +1079,12 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('3052732')" class="tocitem" id="tocid3052732"><span class="TOCTimestamp">305:27:32</span>
         <span class="TOC_item">Speeches by the crew</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('3053513')" class="tocitem" id="tocid3053513"><span class="TOCTimestamp">305:35:13</span>
+        <span class="TOC_item">MOCR Celebration</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('3054048')" class="tocitem" id="tocid3054048"><span class="TOCTimestamp">305:40:48</span>
+        <span class="TOC_item">MOCR (Audio)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('3053524')" class="tocitem" id="tocid3053524"><span class="TOCTimestamp">305:35:24</span>

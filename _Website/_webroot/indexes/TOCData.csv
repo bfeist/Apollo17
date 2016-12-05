@@ -1,5 +1,6 @@
 -023722|1|Video: Preparation and Countdown
--011602|2|Countdown Cutoff
+-012224|2|Flight Director check-in
+-011540|2|Countdown Cutoff
 -000759|2|Countdown Resumes
 -000100|2|One Minute
 0000000|1|Lift-off
@@ -14,7 +15,7 @@
 0030115|2|GOLDSTONE REV 2
 0031229|1|Trans-Lunar Injection maneuver
 0034243|2|S-IVB/Command and Service Module separation
-0034500|2|Video: Trans-Lunar docking initiated
+0035032|2|Video: Trans-Lunar docking initiated
 0035652|2|Trans-Lunar docking capture
 0044506|2|Spacecraft ejection
 0044953|2|Video: S-IVB visible
@@ -27,7 +28,7 @@
 0245132|2|Schmitt philosophical about observing the earth
 0252626|1|Crew Sleep Period Start
 0330038|1|Crew wake-up
-0341007|2|Video: crew onboard film while listening to the news
+0341007|2|Video: Crew filming each other while listening to the news
 0353000|1|First mid-course correction
 0370033|2|Crew listening to music
 0391033|2|Schmitt eats his first peanut butter sandwich in orbit
@@ -287,4 +288,6 @@
 3043344|1|Crew retrieval
 3052428|1|Video: Crew on-board USS Ticonderoga
 3052732|1|Speeches by the crew
+3053513|1|MOCR Celebration
+3054048|1|MOCR (Audio)
 3053524|0|End of coverage

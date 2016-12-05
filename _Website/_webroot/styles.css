@@ -76,6 +76,15 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    color: #5E92A6;
+    /*color: #999999;*/
+    /*color: rgba(215, 160, 108, .9);*/
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 0.4em;
+}
+
 /* ----------------- TOC -----------------*/
 
 .TOC_container {
@@ -1129,7 +1138,7 @@ body.splash-loaded .splash-content {
   display: block;
   background-size: cover;
   background-position: left bottom;
-  background-image: url("img/bg_panorama.jpg");
+  background-image: url("img/bg_panorama_alt.jpg");
   background-repeat: no-repeat;
   top: 0;
   /*bottom: 0;*/
@@ -1153,10 +1162,10 @@ body.splash-loaded .splash-content {
 .splash-content h3 span {
   margin: 0 1em;
 }
+/*.splash-content h1,*/
 .splash-content h2,
-.splash-content h1,
 .splash-content h3 {
-  margin-bottom: 1.75rem;
+  margin-top: 1.75rem;
 }
 .splash-content h1 {
   font-size: 2em;
