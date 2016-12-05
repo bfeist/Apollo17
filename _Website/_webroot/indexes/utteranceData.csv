@@ -90,7 +90,7 @@
 -000030|CC|30 to go.
 -000029|CDR|Okay, Robert. We're ready and we're GO up here.
 -000025|PAO|MARK. T-minus 25. We'll get a final guidance release at the T-minus 17 second mark. T-minus 17, final guidance release. We'll expect engine ignition at 8.9 seconds ...
--000020|CC|Minus 20.
+-000021|CC|Minus 20.
 -000010|PAO|10 ... 9 ... 8 ... 7 ... ignition sequence started - all engines are started - we have ignition 2, 1, zero - we have a liftoff.
 -000010|CC|10 ... 9 ... 8 ... 7 ... ignition ... 6 ... 5 ... 4 ... 3 ... 2 ... 1
 -000001|CDR|Look at the light!
@@ -234,7 +234,7 @@
 0000533|CDR|8 plus 36 and 9 plus 20. Roger.
 0000536|LMP|Coming up on gimbal motors, Geno.
 0000537|CDR|Okay. ...
-0000538|PAO|CAPCOM Robert Obermeyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
+0000538|PAO|CAPCOM Robert Overmyer, advising Gene Cernan and the crew aboard Apollo 17 the second stage shutdown at about 9 minutes 20 seconds elapsed time. That shutdown about 3 and a half minutes from now.
 0000552|CDR|I forget anything yet, Ron?
 0000554|CMP|Nope.
 0000554|CDR|Okay, we're still MODE 2, coming up on -
