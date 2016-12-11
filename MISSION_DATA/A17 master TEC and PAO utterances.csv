@@ -5871,15 +5871,15 @@
 |082:40:04|LMP|Yes, sir. Go ahead.
 |082:40:06|CC|Okay. Let me brief you on a little funny that we we saw last night. And I'll start the briefing by mentioning that, at the present time, it is not a great concern; but just to keep you up to date with what's going on, let me mention it to you. About 70 hours, which was probably about the time of your last exercise period, we saw three funnies with the hydrogen tanks - as I say, none of which is causing any great concern. The first of these was a shift of the limits of the pressure switch, the one that turns the heaters on and off. Remember, there are two of those switches, one on tank 1 and one on tank 2 and they work in series. And one of those switches - we can't tell which, but we suspect it's probably tank 2 because of the other funnies I'll get to in a minute on tank 2 - one of those switches went from a 13-psi range; in other words, a plus or minus 6.5 psi range. It changed its range down to plus or minus 1.5 psi. So it's now - its total range is only 3 psi. The main result of that is that it means that the pressure switches and the motor switch turning the heater on acts more frequently over shorter periods of time. The second thing which we observed following this - and we're not at all sure if there is any correlation between this and the others - We observed a high-frequency pressure oscillation in tank 2. It was about a 5-psi peak-to-peak oscillation, a frequency of about 2 cycles per second. And this lasted about 3 to 5 minutes. A third funny that we observed - and this was in tank 2 - the third funny that we observed was an erratic - and possibly correlated with the high-frequency oscillation - but an erratic total fuel cell current, and here again we were looking at - oh, peak-to-peak variations of something like 5 amps, or of 5 to 10 amps. And the suspicion is that, coupled with the shift in the limits of the pressure switch, some acoustic vibrations were set up in that tank - we may have seen them causing the oscillation of the motor switch, which was then reflected in the fuel cell currents. The - again, these erratic and possibly correlated fuel cell currents lasted for about 3 to 5 minutes. And since then, all during the night, they've [sic] been no further events of this sort; and the pressure switch with its reduced limits has been acting quite normally, just with the reduced limits overnight. As I say again, we're looking at it, people are studying it in great detail, with no real answer at the moment; but there is no great concern at present, and it appears that the worst that can happen is for the motor switch to fail because of overuse. And if this were to happen, it would force us to go to man - manual management of the heaters on the H2 tank. But that appears at the moment to be the worst, that we can anticipate from this - from this group of funnies. Over.
 ||||Tape 55/4|Page 390
-|082:43:40|CDR|Okay, Bob. I understand that. You know, I wonder if we ought to stop stirring the cryos the way we've been doing it.
+|082:43:40|LMP|Okay, Bob. I understand that. You know, I wonder if we ought to stop stirring the cryos the way we've been doing it.
 |082:43:56|CC|That - that has been suggested, but - but, again, it's not very clear that any of these things are terribly correlated.
-|082:44:06|CDR|Okay. Also, you know, if you want to reduce the activity on that switch - depending on how much you need to have it done during quiet periods, such as eat periods and things like that - we could go to manual operation.
+|082:44:06|LMP|Okay. Also, you know, if you want to reduce the activity on that switch - depending on how much you need to have it done during quiet periods, such as eat periods and things like that - we could go to manual operation.
 |082:44:21|CC|Negative, Jack, because the switch - OMNI Bravo, please, 17.
 |082:44:27|CC|... If you pull out your schematics there, you'll find that the - no matter what you do, the - you can turn the thing off, in fact, and the switch will continue to operate the motor switch - the pressure switch will continue to operate the motor switch off the service module buses. There's nothing you can do. The only thing you'll do if you go from AUTO to MANUAL or OFF is you'll keep the current from going to the heaters, but the motor switch will still operate.
 ||||Tape 55/5|Page 391
-|082:44:57|CDR|Okay. Thank you for the education.
+|082:44:57|LMP|Okay. Thank you for the education.
 |082:45:33|CC|And I've been corrected. The frequency of the pressure oscillation was more in the vicinity of a cycle every 4 or 5 seconds.
-|082:45:56|CDR|Okay.
+|082:45:56|LMP|Okay.
 |082:46:22|CC|And 7 - -
 |082:46:23|LMP|Bob, let me ask a couple of questions to make sure - -
 |082:46:25|CC|Go ahead.
@@ -6287,6 +6287,7 @@
 |086:33:38|LMP|Houston, 17; how do you read after a COMMAND RESET?
 |086:33:42|CC|17, this is Houston. You're loud and clear. Have you been calling?
 |086:33:50|LMP|Yes, sir, we've been calling. After your handover, we heard your statement that you handed over and then hadn't been able to contact you after that. I just hit a COMMAND RESET.
+|086:34:02|CC|Hmmm.
 |086:34:32|CC|Okay, Jack, that was a problem here on the ground. Over.
 |086:34:42|LMP|Okay.
 |086:35:17|LMP|Say, Gordy, 17.
@@ -7187,14 +7188,14 @@
 |094:09:56|CC|Oh, come on.
 |094:09:58|LMP|Wise Marines - wise Marines end up in Antarctica.
 |094:10:06|CC|Roger. Can't do that. They don't have any gates down there.
-|094:10:15|CDR|That sounds like a job you could probably handle.
-|094:10:19|LMP|Listen, after that answer, I'll build one down there for you.
+|094:10:15|LMP|That sounds like a job you could probably handle.
+|094:10:19|CDR|Listen, after that answer, I'll build one down there for you.
 |094:10:22|CC|Thank you, sir. Hey, you can go to LM/CM DELTA-P.
 |094:10:28|CDR|Okay, thank you. (Laughter)
 |094:12:28|CC|America, Houston. The fuel cell 3 purge can be terminated.
 ||||Tape 62/9|Page 480
 |094:12:34|LMP|I beat you.
-|094:12:48|PAO|This is Apollo Control at 94 hours 15 minutes. Apollo 17 is just south of the Oceans of Storm, Ocean of Storms now. Shortly, we'll be coming up on the crater Grimaldi again. That's where Jack Schmitt saw a flash on the last pass. We're showing an orbit of 58.9 by 14.3 nautical miles at the present altitude of 28.1 nautical miles.
+|094:15:48|PAO|This is Apollo Control at 94 hours 15 minutes. Apollo 17 is just south of the Oceans of Storm, Ocean of Storms now. Shortly, we'll be coming up on the crater Grimaldi again. That's where Jack Schmitt saw a flash on the last pass. We're showing an orbit of 58.9 by 14.3 nautical miles at the present altitude of 28.1 nautical miles.
 |094:17:34|CDR|Hey, Bob. Who you talking to us with, Honeysuckle or Goldstone? Honeysuckle, I'd guess.
 |094:17:50|CC|We're talking through Goldst - Goldstone, Gene.
 |094:17:59|CDR|Okay, looks like about a tossup from here. I'll tell you, there is really one heck of a big low-pressure area developing somewhere off the coast of California, Washington, or Canada, out in the Pacific Northwest part of the country.
@@ -21724,9 +21725,9 @@
 |164:21:01|CDR|Boy, that Challenger looks pretty from here, you know it.
 |164:21:04|LMP|Yes. Okay, I'm on.
 |164:21:12|CDR|Okay.
-|164:21:13|LMP|Did I want a chart?
+|164:21:13|LMP|Did I want a charge?
 |164:21:14|CDR|No.
-|164:21:15|CC|No charts, Jack; no charts.
+|164:21:15|CC|No charts, Jack; no charge.
 |164:21:16|LMP|Okay.
 |164:21:19|CDR|Got it. Got it; 185 and 1.5 and I'm going to head on at about 012. We ought to go right through Jones. Oh, baby - Jones.
 |164:21:27|CC|Okay, and, Gene, remember the driving fairly slow - or fairly well controlled the first 300 meters, and a mark at the end of the antenna.

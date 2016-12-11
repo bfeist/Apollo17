@@ -228,7 +228,16 @@
         <li onclick="parent.seekToTime('0933500')" class="tocitem" id="tocid0933500"><span class="TOCTimestamp">093:35:00</span>
         <span class="TOC_item">Descent orbit insertion reported</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
-    <li onclick="parent.seekToTime('0974728')" class="tocitem" id="tocid0974728"><span class="TOCTimestamp">097:47:28</span>
+    
+<ul class="TOCli TOC2">
+        <li onclick="parent.seekToTime('0940936')" class="tocitem" id="tocid0940936"><span class="TOCTimestamp">094:09:36</span>
+        <span class="TOC_item">Crew teasing Capcom</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('0961628')" class="tocitem" id="tocid0961628"><span class="TOCTimestamp">096:16:28</span>
+        <span class="TOC_item">Crew listens to the news</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    </ul>
+        <li onclick="parent.seekToTime('0974728')" class="tocitem" id="tocid0974728"><span class="TOCTimestamp">097:47:28</span>
         <span class="TOC_item">Crew Sleep Period Start</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1054500')" class="tocitem" id="tocid1054500"><span class="TOCTimestamp">105:45:00</span>
@@ -709,6 +718,9 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1695144')" class="tocitem" id="tocid1695144"><span class="TOCTimestamp">169:51:44</span>
         <span class="TOC_item">Throwing object</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1695248')" class="tocitem" id="tocid1695248"><span class="TOCTimestamp">169:52:48</span>
+        <span class="TOC_item">LRV driven to its final resting place (VIP site)</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('1701358')" class="tocitem" id="tocid1701358"><span class="TOCTimestamp">170:13:58</span>
         <span class="TOC_item">ALSEP photography completed</span>
