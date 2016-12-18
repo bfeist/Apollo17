@@ -147,9 +147,11 @@
 </script>
 
 <script type="text/html" id="geosampleTemplate">
-    <tr class="" style="">
-        <td class=""><a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='_blank'>Sample Number @samplenumber</td>
-    </tr>
+    <div>
+        <a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Sample Number @samplenumber</a>
+    </div>
+    <div class="geoImages" id="geoImages@samplenumber"></div>
+    <hr>
 </script>
 
 </html>

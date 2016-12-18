@@ -1982,8 +1982,18 @@ img.aspect-holder {
     overflow: hidden;
     padding: 5px;
     transition(height 250ms ease-in-out);
-    opacity: 0.9;
+    opacity: 1;
     z-index: 1000;
+}
+
+.geosample-overlay a {
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.3em;
+    color: #aaaaaa;
+}
+
+.geosample-overlay img {
+    border: 0;
 }
 
 .geosample-overlay .title {
@@ -1998,7 +2008,24 @@ img.aspect-holder {
     margin-bottom: 10px;
     border: 0;
     /*border-top: 2px solid rgba(215, 160, 108, 1);*/
-    border-top: 2px solid #fff;
+    border-top: 2px solid #aaaaaa;
+}
+
+.geosample-overlay .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: wrap row;
+    flex-flow: wrap row;
 }
 
 .geosample-overlay .close-btn {

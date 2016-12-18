@@ -833,7 +833,7 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     for (var i = 0; i < gGeoData.length; i++) {
         if (gGeoData[i][0] == utteranceObject[0]) {
             var re = new RegExp(gGeoData[i][3], "g");
-            words_modified = words_modified.replace(re, "<a href='#' onclick='updateGeosampleOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
+            words_modified = words_modified.replace(re, "<a href='javascript:;' onclick='updateGeosampleOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
         }
     }
 
@@ -1502,6 +1502,28 @@ function updateGeosampleOverlay(geoDataIndex) {
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
         var html = getGeosampleHTML(sampleNumberArray[counter]);
         geosampleTable.append(html);
+        jQuery.ajax({
+            url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
+            success: function (data) {
+                if (data.isOk == false) {
+                    alert(data.message);
+                }
+                var sampleID = this.url.substring(this.url.length - 9, this.url.length - 4);
+                var allImages = data.split('|');
+                var geoImagesDivSelector = $("#geoImages" + sampleID);
+                html = '<ul class="flex-container">';
+
+                for (var i = 0; i < allImages.length; i++) {
+                    html = html + '<li><a href="https://curator.jsc.nasa.gov/lunar/samplecatalog/photoinfo.cfm?photo=' + allImages[i] + '" target="geoImage"><img src="https://curator.jsc.nasa.gov/lunar/samplecatalog/photos/thumbs/' + allImages[i] + '.jpg"></a></li>';
+                }
+                html = html + "</ul>";
+                geoImagesDivSelector.html(html);
+                //for (var i = 0; i < allImages.length; i++) {
+                //
+                //}
+            },
+            async: true
+        });
     }
     var geosampleOverlaySelector = $('.geosample-overlay');
     if (geosampleOverlaySelector.css('display').toLowerCase() == 'none') {
