@@ -1963,6 +1963,90 @@ img.aspect-holder {
     text-indent: 0;
 }
 
+
+.geosample-overlay {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    /*background: #ffd923;*/
+    background: #000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*border: 2px solid rgba(140, 140, 140, 1);*/
+    /*border: 2px solid rgba(215, 160, 108, 1);*/
+    border: 2px solid #fff;
+    overflow: hidden;
+    padding: 5px;
+    transition(height 250ms ease-in-out);
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+.geosample-overlay .title {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.5em;
+    /*color: rgba(215, 160, 108, 1);*/
+    color: #FFFFFF;
+}
+
+.geosample-overlay hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    /*border-top: 2px solid rgba(215, 160, 108, 1);*/
+    border-top: 2px solid #fff;
+}
+
+.geosample-overlay .close-btn {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /*background-color: rgba(215, 160, 108, 1);*/
+    background-color: #FFFFFF;
+    text-indent: -999px;
+    overflow: hidden;
+    transition: background-color .25s ease-in-out;
+    z-index: 2;
+}
+.geosample-overlay .close-btn:hover,
+.geosample-overlay .close-btn:active {
+    /*background-color: #FFC688;*/
+    background-color: #FFFFFF;
+}
+.geosample-overlay .close-btn:before {
+    text-shadow: none;
+    content: "\2715";
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -12px;
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-family: entypo, sans-serif;
+    color: #000;
+    text-indent: 0;
+}
+
+#geosampleDiv {
+    overflow-y: scroll;
+    position: relative;
+    height: 90%;
+}
+
+#geosampleTable {
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
 .aspect-4x3:backgr {
   background-color: #FCF;
   background-repeat: no-repeat;

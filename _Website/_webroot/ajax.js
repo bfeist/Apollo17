@@ -10,7 +10,8 @@ $.when(
     ajaxGetVideoSegmentData(),
     ajaxGetTelemetryData(),
     ajaxCrewStatusData(),
-    ajaxOrbitData()).done(function(){
+    ajaxOrbitData(),
+    ajaxGeoData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
@@ -26,7 +27,8 @@ $.when(
 
 function ajaxGetVideoURLData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -42,7 +44,8 @@ function ajaxGetVideoURLData() {
 }
 function ajaxGetTOCData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -58,7 +61,8 @@ function ajaxGetTOCData() {
 }
 function ajaxGetUtteranceData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -74,7 +78,8 @@ function ajaxGetUtteranceData() {
 }
 function ajaxGetCommentaryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -90,7 +95,8 @@ function ajaxGetCommentaryData() {
 }
 function ajaxGetPhotoData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -106,7 +112,8 @@ function ajaxGetPhotoData() {
 }
 function ajaxGetMissionStagesData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -122,7 +129,8 @@ function ajaxGetMissionStagesData() {
 }
 function ajaxGetVideoSegmentData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -138,7 +146,8 @@ function ajaxGetVideoSegmentData() {
 }
 function ajaxGetTelemetryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -154,7 +163,8 @@ function ajaxGetTelemetryData() {
 }
 function ajaxCrewStatusData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -171,7 +181,8 @@ function ajaxCrewStatusData() {
 
 function ajaxOrbitData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
     } else {
         urlStr = "./";
@@ -183,6 +194,24 @@ function ajaxOrbitData() {
         url: urlStr,
         dataType: "text",
         success: function(data) {processOrbitData(data);}
+    });
+}
+
+function ajaxGeoData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/geoData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processGeoData(data);}
     });
 }
 
@@ -300,6 +329,16 @@ function createSearchData() {
         tmpItem[4] = 1;
         gUttCommData.push(tmpItem);
     }
+    for (counter = 0; counter < gGeoData.length; counter++) {
+        tmpItem = [];
+        tmpItem[0] = gGeoData[counter][0];
+        tmpItem[1] = "";
+        tmpItem[2] = "";
+
+        tmpItem[3] = "Geology sample bag: " + gGeoData[counter][2] + " Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
+        tmpItem[4] = 1;
+        gUttCommData.push(tmpItem);
+    }
 
     gUttCommData.sort(searchArraySortFunction);
 
@@ -355,6 +394,25 @@ function processOrbitData(allText) {
         }
         if (i > 0) {
             gOrbitData[i - 1][2] = data[0]; //append this item's start time as the last item's end time
+        }
+    }
+    gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI
+}
+
+function processGeoData(allText) {
+    //console.log("processCrewStatusData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            var tmpItem = []
+            tmpItem[0] = timeStrToTimeId(data[0]);
+            tmpItem[1] = data[1];
+            tmpItem[2] = data[2];
+            tmpItem[3] = data[3];
+            tmpItem[4] = data[4];
+            tmpItem[5] = data[5];
+            gGeoData.push(tmpItem);
         }
     }
     gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI

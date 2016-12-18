@@ -66,6 +66,7 @@ var gPhotoIndex = [];
 var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
+var gGeoData = [];
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -829,6 +830,13 @@ function getUtteranceObjectHTML(utteranceIndex, style) {
     words_modified = words_modified.replace(/H2/g, "H<sub>2</sub>");
     words_modified = words_modified.replace(/Tig /g, "T<sub>ig</sub> ");
 
+    for (var i = 0; i < gGeoData.length; i++) {
+        if (gGeoData[i][0] == utteranceObject[0]) {
+            var re = new RegExp(gGeoData[i][3], "g");
+            words_modified = words_modified.replace(re, "<a href='#' onclick='updateGeosampleOverlay(" + i + ");'>" + gGeoData[i][3] + "</a>");
+        }
+    }
+
     var html = $('#utteranceTemplate').html();
     html = html.replace("@style", style);
     var timeId = utteranceObject[0];
@@ -1048,7 +1056,8 @@ function populatePhotoGallery() {
         filename = filename + ".jpg";
 
         if (gCdnEnabled) {
-            var cdnNum = getRandomInt(1, 5);
+            //var cdnNum = getRandomInt(1, 5);
+            var cdnNum = '';
             var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
         } else {
             serverUrl = "http://apollo17.org";
@@ -1123,7 +1132,8 @@ function loadPhotoHtml(photoIndex) {
     var fullSizePath = "2100";
 
     if (gCdnEnabled) {
-        var cdnNum = getRandomInt(1, 5);
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
         var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
     } else {
         serverUrl = "http://apollo17.org";
@@ -1471,6 +1481,40 @@ function hideDashboardOverlay() {
     dashboardOverlaySelector.fadeOut();
     dashboardBtnSelector.removeClass('primary');
     dashboardBtnSelector.addClass('subdued');
+}
+
+function toggleGeosampleOverlay() {
+    var geosampleOverlaySelector = $('.geosample-overlay');
+    if (geosampleOverlaySelector.css('display').toLowerCase() == 'none') {
+        geosampleOverlaySelector.fadeIn();
+    } else {
+        geosampleOverlaySelector.fadeOut();
+    }
+}
+
+function updateGeosampleOverlay(geoDataIndex) {
+    var geosampleTable = $('#geosampleTable');
+    geosampleTable.html('');
+    $('#bagnum').html(gGeoData[geoDataIndex][2]);
+
+    var sampleNumberArray = gGeoData[geoDataIndex][5].split("`");
+
+    for (var counter = 0; counter < sampleNumberArray.length; counter++) {
+        var html = getGeosampleHTML(sampleNumberArray[counter]);
+        geosampleTable.append(html);
+    }
+    var geosampleOverlaySelector = $('.geosample-overlay');
+    if (geosampleOverlaySelector.css('display').toLowerCase() == 'none') {
+        geosampleOverlaySelector.fadeIn();
+    }
+}
+
+function getGeosampleHTML(samplenumber) {
+    //trace("getUtteranceObjectHTML():" + utteranceIndex);
+    var html = $('#geosampleTemplate').html();
+
+    html = html.replace(/@samplenumber/g, samplenumber);
+    return html;
 }
 
 function toggleFullscreen() {

@@ -1399,7 +1399,7 @@
 |005:58:36|CC|Roger.
 |005:58:42|LMP|I think I did see the eastern tip of South America, now.
 |005:58:56|CC|Roger. You're starting to back up now, coming the other way. So you're still over Africa, according to our chart here, but you're backing up towards the - South America.
-|005:59:07|LMP|Yes, I can see the part of South America that Mercator thought that fitted in with the bend in Africa some many decades ago and started people thinking about moving continents around on the crust.
+|005:59:07|LMP|Yes, I can see the part of South America that Wegener thought that fitted in with the bend in Africa some many decades ago and started people thinking about moving continents around on the crust.
 |005:59:25|CC|Roger. Jack, how'd the PGA doffing go? Most of you - are you all out of the PGAs now?
 |005:59:38|LMP|That's in work. We're taking it slow and easy up here, Bob.
 |005:59:41|CC|Roger. Understand. I'll just be curious to see if they all fit in that bag.
@@ -7454,21 +7454,21 @@
 |096:24:53|CDR|Yes, H2 FANs, Bob; I'll say it again. H2 FANs: 1 is ON, 2 is OFF, and 3 is AUTO.
 |096:25:01|CC|That's a good configuration, and that will be the sleep configuration.
 |096:25:06|CDR|Okay.
-|096:25:27|CDR|Hey, Bob, it looks like we might make - getting to sleep on-time tonight, and - well, we will make it. And I think it goes without saying, we definitely want to get up on time tomorrow.
+|096:25:27|CDR|Hey, Bob, it looks like we might make - getting to sleep on-time tonight, and - well, we will make it. And I think it goes without saying, we definitely want to get up on-time tomorrow.
 |096:25:42|CC|Roger.
 |096:25:55|CMP|I'm going to have the tone booster plugged in, and also I want to make sure the suit power and audio power and all that stuff is on.
 |096:26:03|CC|Roger.
 |096:29:32|CC|Ron, Houston.
-|096:29:37|LMP|Go ahead, Bob.
+|096:29:37|CDR|Go ahead, Bob.
 |096:29:39|CC|If Ron's listening, just some words about the mapping camera extend/retract times. We came up with slightly different times than what he'd called and we were wondering if his were just ballpark or whether he had timed it? in either case, the times are a little bit long on extend/retract which is a little cause for worry about that - the mapping camera may fail and later on downstream we may want to change our operating mode on that mapping camera and he might want to time it a little closer. If he - if he can - the chance should come up.
 ||||Tape 64/2|Page 499
-|096:30:15|LMP|What - what times - -
+|096:30:15|CDR|What - what times - -
 |096:30:15|CMP|Hey, Bob, that's a good point on the thing. Those weren't exact times and, as matter of fact, we looked - kind of looked away and it was about in -y ou know, somewhere around that - that period of time. We looked away and when - when we looked back, it was gray again, so - next - -
 |096:30:31|CC|Okay - -
 |096:30:31|CMP|- - next time we extend them, I'll get a good accurate indication.
 |096:30:36|CC|Okay. Well, no problem.
 |096:30:38|CMP|... - -
-|096:30:38|CC|We'll believe the strip chart. We'll take the strip chart data. We've got 01:24, 1 minute 24 seconds for extend and 01:51, 1 minute 51 seconds for retract. And both those sire a little bit on the high side.
+|096:30:38|CC|We'll believe the strip chart. We'll take the strip chart data. We've got 01:24, 1 minute 24 seconds for extend and 01:51, 1 minute 51 seconds for retract. And both those are a little bit on the high side.
 |096:31:02|CMP|Okay. I would believe the strip chart.
 |096:31:06|CC|Roger, Ron. You all are about 4 minutes from LOS.
 |096:31:20|CC|Okay, we might lose you a little bit earlier than that. INCO.
@@ -7806,7 +7806,7 @@
 |108:55:35|CMP|Okay. I don't read you at all, Jack.
 |108:55:37|LMP|Hey, Ron, I do not read you. Check your VHF switch.
 |108:55:47|CMP|Okay. I'm down to SIMPLEX Bravo.
-|108:55:54|LMP|Yes; go ahead.
+|108:55:54|CMP|Yes; go ahead.
 |108:55:59|CMP|I'm talking on B now. How do you read?
 |108:56:03|LMP|I do not read you. Do you read me?
 |108:56:05|CMP|No, I don't read you at all either, Jack.
@@ -7873,7 +7873,7 @@
 |109:00:20|CDR|- - is all right. It seems to have something to do with the SQUELCH setting, and it's probably because we're so close.
 |109:00:28|CC|Okay. We concur. We'd like you to press on and not worry about the VHF any more for now.
 ||||Tape 72A/3|Page 537
-|109:00:35|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and isS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-1 plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
+|109:00:35|CDR|Okay, Gordo. We are. Here's a couple of quick ones. When I pushed the LGC DSKY breaker IN, I did not get a restart light. The keyboard came up with 400 in R-2. The LGC light was already on, and it went off as prescribed. When I did a VERB 35, I got all the proper lights except when the LGC and ISS lights came on, the entire CAUTION and WARNING dimmed. One more item. In our DAP setting, we are reading in our checklist for R-1 plus 645 and for R-2 plus 641. The DSKY DAP came up plus 641 and plus 645. It just reversed those numbers. And I'm going to deploy the landing gear.
 |109:01:35|CC|Okay.
 |109:01:51|CDR|Okay, Houston. MASTER ARM is on, and B light is on.
 |109:01:54|CC|Roger.
@@ -8025,8 +8025,9 @@
 |109:26:48|CDR|Ron, keep in MIN DEADBAND ATT hold. I've got to finish the P52.
 |109:26:54|CMP|Okay. You want me to maneuver back to attitude, Gene?
 |109:26:55|CDR|No, just stay where you are.
-|109:27:01|CMP|We're out of attitude just a little bit. Well I'm MIN DEADBAND, but I maneuvered out of attitude. You want to go back to regular attitude?
+|109:27:01|CMP|We're out of attitude just a little bit.
 |109:27:02|CDR|Just stay where you are, and put it in MIN DEADBAND.
+|109:27:06|CMP|Well I'm MIN DEADBAND, but I maneuvered out of attitude. You want to go back to regular attitude?
 |109:27:10|CDR|No! N O, no.
 |109:27:51|CMP|Okay, Houston. ... flow return is ... SUIT FLOW valve. The other two are closed; mine is open, and I got the inner connect in between the other ones.
 |109:28:04|CC|Sounds good.
@@ -8350,7 +8351,7 @@
 |111:13:30|CC|Okay; at Tig., the pressure will be 1310; plus 1 minute, 1410; 2 minutes, 1400; 3 minutes, 1310; and 4 minutes, 1230. Over.
 |111:13:59|LMP|Okay, I got those. Thank you.
 |111:14:01|CC|Roger.
-|111:21:24|CMP-CM|You're loud and clear.
+|111:21:24|CMP|You're loud and clear.
 |111:24:56|LMP|Roger, America. Have a good burn. You look just as pretty in earthlight as you do in sunlight.
 |111:25:35|CC|We see that. Looks like a good job.
 |111:25:45|LMP|Yes, but it's not an easy one, Gordo.
@@ -8501,7 +8502,7 @@
 |112:46:55|CC|Challenger, should we lose the steerable, - -
 |112:46:56|CDR|You get the steerable.
 |112:46:57|CC|-- go FORWARD OMNI.
-|112:47:01|CDR|Roger. FORWARD OMNI.
+|112:47:01|LMP|Roger. FORWARD OMNI.
 |112:47:12|LMP|... down a little bit.
 |112:47:15|CDR|Okay, 02:41.
 |112:47:43|CDR|Okay, we picked it all up. Power still good.
@@ -8546,7 +8547,7 @@
 |112:50:54|CDR|Okay, H-dot is high right now.
 |112:50:56|LMP|MARK it, 1 minute.
 |112:50:58|CDR|Altitude's high.
-|112:50:59|CC|Challenger, Houston. I have a NOUN 69 - -
+|112:50:59|CC|Challenger, Houston. I have a 169 - -
 |112:51:01|LMP|... looks good, Houston.
 |112:51:02|CC|- - plus 03400, plus 3400 feet. Over.
 |112:51:12|LMP|You're looking at it.
@@ -12398,12 +12399,16 @@
 |122:15:55|CC|Copy that.
 |122:16:06|LMP|Okay. (Laughter)
 |122:16:08|CDR|I know. I know.
-|122:16:13|LMP|Oh, shoot. 1.2 kilometers is a long way from the LM. Look at the Challenger down there. Makes you get a feel for how big this valley really is.
-|122:16:28|CDR|I'd rather not.
-|122:16:30|LMP|Okay. I'll help you.
-|122:16:34|CDR|I got it.
-|122:16:35|LMP|Turn around and let me help you get these in your bag.
-|122:16:36|CDR|I learned now. You learn of necessity out here. Okay. See if we can't fill this up for Christmas. Okay, let's - You happy there?
+|122:16:13|LMP|Oh, shoot.
+|122:16:20|CDR|1.2 kilometers is a long way from the LM. Look at the Challenger down there. Makes you get a feel for how big this valley really is.
+|122:16:28|LMP|I'd rather not.
+|122:16:30|CDR|Okay. I'll help you.
+|122:16:34|LMP|I got it.
+|122:16:35|CDR|Turn around and let me help you get these in your bag.
+|122:16:36|LMP|I learned how.
+|122:16:38|CDR|You learn of necessity out here. Okay. See if we can't fill this up for Christmas.
+|122:16:47|LMP|Okay, let's - 
+|122:16:50|CDR|You happy there?
 |122:16:51|LMP|Yes, let's - get your after -
 |122:16:54|CDR|Okay.
 |122:16:54|LMP|And if we can, we might get just a block instead of breaking on it, and then we'll go to the rake. Let's go around to the -
@@ -12479,7 +12484,7 @@
 |122:21:34|CDR|Okay. I'm going to take a - a closeup stereo on that contact.
 |122:21:38|LMP|Yes, definitely.
 |122:21:40|CC|Okay; and, Jack and Gene, when you get done with that boulder, we'd like you to move on to the - the rake soil sample, please; and that'll be a kilogram sample, please.
-|122:21:50|CDR|Yes, sir; we're going to. We're going to.
+|122:21:50|LMP|Yes, sir; we're going to. We're going to.
 |122:21:54|LMP|In bag 478 is the chip from the finely - more finely vesicular rock. Both of them are coarse. It's a small chip; but it'll tell the story, I think.
 |122:22:10|CDR|Dust, dust, dust, dust. Here you are. I'll go ahead and get a closeup stereo - -
 |122:22:14|LMP|Get a closeup, and I'll get the rake. I'll get started on the rake.
@@ -12521,8 +12526,8 @@
 |122:25:26|LMP|To the - your left of the - well, ahead of the - ahead of the gnomon and to your left, there.
 |122:25:32|CDR|Okay, I got it.
 |122:25:34|CC|Okay, Gene, we copy that. That's a good observation. And I also gathered that most of the rocks look pretty much the same.
-|122:25:43|LMP|That's what I said.
-|122:25:44|CDR|Yes, except a change in vesicularity - -
+|122:25:43|CDR|That's what I said.
+|122:25:44|LMP|Yes, except a change in vesicularity - -
 |122:25:49|CC|Roger.
 |122:25:50|CDR|- - in terms of the size of vesicles, where I described one as being a more hummocky vesicular-type rock. The first time I've noticed any of the dark minerals was when we took that one big flat chip off that boulder.
 ||||Tape 81A/6|Page 851
@@ -16714,7 +16719,7 @@
 |143:14:59|CC|Okay. - -
 |143:14:59|CDR|Will you hold this a minute? I'm going to try to get the rest of it up there.
 |143:15:02|CC|Okay, 17. And for your thinking in the next few minutes, you might also factor in the guestion the backroom raises about taking 10 minutes out Station 4 and adding it into this station, given the wealth of interest that seems to be occurring here. You might think about that. You never - haven't been to Station 4, so it's a little hard to judge. But if you think 10 minutes can be very profitably spent, you might as well do that.
-|143:15:26|LMP|Okay, Bob, we'll think about it. This is a medium-green anorthositic gabbro, and it looks like it has some pastel-green allovane (?) crystals in it. Did you get it?
+|143:15:26|LMP|Okay, Bob, we'll think about it. This is a medium-green anorthositic gabbro, and it looks like it has some pastel-green olivine crystals in it. Did you get it?
 |143:15:39|CC|We copy that.
 |143:15:40|CDR|I can't get any more of it, Jack, up there. I can't reach any more.
 ||||Tape 94A/39|Page 1162
@@ -16735,7 +16740,7 @@
 |143:16:29|CDR|There it is. That's it right there.
 |143:16:34|LMP|No. We haven't put it in yet.
 |143:16:36|CC|Okay.
-|143:16:38|CDR|Bob, that will go in 499?
+|143:16:38|CDR|Bob, that will go in 499.
 |143:16:39|CC|Copy that.
 ||||Tape 94A/40|Page 1163
 |143:16:43|CDR|You get it?
@@ -23871,11 +23876,11 @@
 |167:54:52|CDR|Sure does. Here. Your footpan's down, too.
 ||||Tape 111A/12|Page 1656
 |167:55:00|LMP|I'll get it. It's lost it's stiffness in there. Okay - okay, I guess nominal plan for Shorty, huh? ... Van Serg.
-|167:55:14|CDR|Okay, 2 POWER'S ON -
+|167:55:14|CDR|Okay, LCRU POWER'S ON -
 |167:55:18|LMP|Van Serg looks like a blocky rim fresh impact crater right now.
 |167:55:24|CC|Okay. We copy that. How about scuffing your feet and seeing if it looks orange underneath?
 |167:55:26|LMP|Slight differences - Don't worry.
-|167:55:34|CC|And, Gene, before you go away, we'd like the rest of the Rover readouts, like batteries. And how about a SEP temp readout before one of you guys leave there?
+|167:55:34|CC|And, Gene, before you go away, we'd like the rest of the Rover readouts, like batteries. And how about a SEP temp readout before one of you guys leaves there?
 |167:55:47|CDR|Get - Can you get that on that side, Jack?
 |167:55:48|LMP|I will.
 |167:55:50|CDR|Should have TV.
@@ -24000,7 +24005,7 @@
 |168:08:38|LMP|Well, that's wrapped in - if you can put it - if you put it end down, it may stay in the bag.
 |168:08:45|CDR|I doubt it.
 |168:08:46|LMP|What's the number?
-|168:08:48|CDR|It's a 480, and it's a - a relatively tabular [sic] shape, and it's about - -
+|168:08:48|CDR|It's, uh, 480, and it's a - a relatively tabular [sic] shape, and it's about - -
 |168:08:56|LMP|And it's going to - -
 |168:08:57|CDR|- - 10 inches long.
 |168:08:58|LMP|And it's highly friable. It breaks apart.
@@ -24259,7 +24264,7 @@
 |168:37:29|LMP|Oh, you're doing it, huh?
 |168:37:30|CDR|I've got it started.
 |168:37:31|LMP|Well, you're not even - okay. Not even going to debate the issue.
-|168:37:35|CDR|Well, it takes too much time debating it.
+|168:37:35|CDR|Nope. It takes too much time debating it.
 |168:37:37|LMP|Well, let's see how much time it takes. I hope you're right.
 |168:37:41|CC|Okay. And -
 |168:37:42|CDR|Okay, and we need a - we need a lower out of my bag.
@@ -24557,11 +24562,11 @@
 |169:03:01|CDR|What do you think this is, San Luis Rey?
 |169:03:02|LMP|Well -
 |169:03:05|CDR|We're at 252/0.9.
-|169:03:09|LMP|- I wouldn't doubt it at all. I'll bet that's San Luis Rey. Around the east side of it - Mariner and San Luis Rey. They're shallow - filled with rocks.
+|169:03:09|LMP|- I wouldn't doubt it at all. I'll bet that's San Luis Rey. We're on the east side of it - Mariner and San Luis Rey. They're shallow - filled with rocks.
 |169:03:30|CC|As close as we can tell, you're at one or the other of them.
 |169:03:32|CDR|Boy, I tell you they're a lot - Okay. We're at 250/0.9.
 |169:03:38|CC|Copy that.
-|169:03:39|CDR|Mariner should look pretty fresh.
+|169:03:39|LMP|Mariner should look pretty fresh.
 |169:03:39|CC|Copy that.
 ||||Tape 111A/49|Page 1693
 |169:03:58|LMP|Boy, I certainly don't see much variety other than the gray and the tan subfloor variety. There's old Challenger.
