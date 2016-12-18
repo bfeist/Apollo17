@@ -1213,9 +1213,12 @@ function getSearchResultHTML(searchArrayIndex) {
     if (searchObject[4] == 0) { //0 for utterance
         html = html.replace(/@entrytypevar/g, "transcript");
         html = html.replace(/@entrytype/g, "");
-    } else { //1 for commentary
+    } else if (searchObject[4] == 1) { //1 for commentary
         html = html.replace(/@entrytypevar/g, "commentary");
         html = html.replace(/@entrytype/g, "Commentary");
+    } else { //2 for geosample
+        html = html.replace(/@entrytypevar/g, "geology");
+        html = html.replace(/@entrytype/g, "Geology Sample");
     }
     return html;
 }
@@ -1223,7 +1226,7 @@ function getSearchResultHTML(searchArrayIndex) {
 function searchResultClick(searchResultId, itemType) {
     toggleSearchOverlay();
     seekToTime(searchResultId);
-    if (itemType == "transcript") {
+    if (itemType == "transcript" || itemType == "geology") {
         activateTab("transcriptTab");
         scrollTranscriptToCurrMissionTime();
     } else {
@@ -1493,6 +1496,7 @@ function toggleGeosampleOverlay() {
 }
 
 function updateGeosampleOverlay(geoDataIndex) {
+    ga('send', 'event', 'button', 'click', 'geosample');
     var geosampleTable = $('#geosampleTable');
     geosampleTable.html('');
     $('#bagnum').html(gGeoData[geoDataIndex][2]);

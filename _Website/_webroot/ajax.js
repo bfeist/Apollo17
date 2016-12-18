@@ -336,7 +336,7 @@ function createSearchData() {
         tmpItem[2] = "";
 
         tmpItem[3] = "Geology sample bag: " + gGeoData[counter][2] + " Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
-        tmpItem[4] = 1;
+        tmpItem[4] = 2;
         gUttCommData.push(tmpItem);
     }
 
