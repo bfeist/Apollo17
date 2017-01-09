@@ -1840,7 +1840,7 @@ function setSplashHistoricalSubtext() {
         //$('.section.now').css('display', '');
         $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>44 years ago to the second.");
     } else {
-        $('.historicalSubtext').text("(43 years ago)");  //todo make this calculate how many years ago
+        $('.historicalSubtext').text("(44 years ago)");  //todo make this calculate how many years ago
     }
 }
 
