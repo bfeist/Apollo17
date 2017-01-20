@@ -111,7 +111,7 @@ def get_combined_transcript_list():
     for photo_row in photos_reader:
         if photo_row[0] != "" and photo_row[0] != "skip" and first_row is False: #if timestamp not blank
             if len(photo_row[1]) == 5:
-                photo_filename = photo_row[2] + "-" + photo_row[1] + ".jpg"
+                photo_filename = "AS17-" + photo_row[2] + "-" + photo_row[1] + ".jpg"
             else:
                 photo_filename = photo_row[1] + ".jpg"
             tempObj = PhotographyItem(get_sec(photo_row[0]), photo_row[0], photo_filename, photo_row[1], photo_row[2], photo_row[3], photo_row[4], photo_row[5], photo_row[6], photo_row[7], photo_row[8], photo_row[9], photo_row[10], photo_row[11], photo_row[12], photo_row[13], photo_row[14], photo_row[15], photo_row[16])
@@ -157,8 +157,13 @@ def write_segment_file(timestamp_start, timestamp_end, segment_filename, segment
                     item_template = template_loader.load_template('template_afj_item_utterance.html')
                     output_segment_file.write(item_template.render({'timeid': timeid, 'timestamp': combined_list_item.timestamp, 'who': who_modified, 'words': words_modified}, loader=template_loader))
                 if type(combined_list_item) is CommentaryItem:
+                    words_modified = combined_list_item.words.replace("O2", "O<sub>2</sub>")
+                    words_modified = words_modified.replace("H2", "H<sub>2</sub>")
+                    who_modified = combined_list_item.who.replace("CDR", "Cernan")
+                    who_modified = who_modified.replace("CMP", "Evans")
+                    who_modified = who_modified.replace("LMP", "Schmitt")
                     item_template = template_loader.load_template('template_afj_item_commentary.html')
-                    output_segment_file.write(item_template.render({'who': combined_list_item.who, 'words': combined_list_item.words, 'attribution': combined_list_item.attribution}, loader=template_loader).encode('UTF-8'))
+                    output_segment_file.write(item_template.render({'who': who_modified, 'words': words_modified, 'attribution': combined_list_item.attribution}, loader=template_loader).encode('UTF-8'))
                 if type(combined_list_item) is PhotographyItem:
                     item_template = template_loader.load_template('template_afj_item_photo.html')
                     output_segment_file.write(item_template.render({'description': combined_list_item.description, 'filename': combined_list_item.filename}, loader=template_loader))
