@@ -22,13 +22,13 @@
 ||||Tape 72B/3|Page 548
 |108:18:26|CDR-LM|Okay, babe. Have a ...
 |108:18:26|CMP|Will do.
-|108:18:26|CDR-LM|Don‘t forget, no TEI ...
+|108:18:26|CDR-LM|Don't forget, no TEI ...
 |108:18:26|CMP|Yes, I got it, too.
 |108:18:26|LMP-LM|Hey, ... We got the landing site; we're coming ...
 |108:18:26|CMP|That slide really shows up beautiful.
 |108:20:02|CC|Okay. Coining up on 30 seconds to T-2. Expect the AUTO pitch rate, and remember, the good old Sun is going to be staring at you - -
 |108:20:02|CMP|Okay.
-|108:20:02|CC|- — when you come around.
+|108:20:02|CC|- when you come around.
 |108:21:25|CMP|Beautiful results.
 |108:21:25|CMP|Blink! There's the Sun in the sextant.
 |108:21:25|CMP|Oh, those guys are going to have fun down there.
@@ -2030,7 +2030,6 @@
 |144:02:18||BEGIN LUNAR REV 33
 |144:02:18||BEGIN LUNAR REV 34
 |144:02:18||REST PERIOD - NO COMMUNICATIONS
-
 |157:43:14|CMP|You know, I'm looking from this position back toward le Monnier - le - le Monnier or whatever. Le - le Monnier, and you can see the - well, it's hard viewing it - to see it here, but your - you can see the annulus around Serenitatis. The demarcation is about the diameter of le Monnier toward - westward from there and the demarcation of the color - the color from this observation, again, is a light tan. Darn. I forgot to get that color wheel out, but it's a darker tan than the tan of Serenitatis.
 |157:43:14|CC|Roger, Ron.
 |157:43:14|CMP|The color boundary is not associated with any rille or anything that I can see. Doesn't look like there's any topographic expression to it.
@@ -2298,7 +2297,7 @@
 |161:25:50|CC|Roger. Okay the next Flight Plan update is at 166:36.
 |161:25:50|CMP|Okay. Go.
 |161:25:50|CC|Add a VERB 49 maneuver to lunar sounder HF target attitude at 166:40. The angles for the VERB 49 maneuver are as follows: 142, 269, 359-
-|161:27:25|CMP|Okay. That's to be - Okay. It's a VERB 49 to 142, 269, and 359» an<i that's for the pass where we pull film through there, huh?
+|161:27:25|CMP|Okay. That's to be - Okay. It's a VERB 49 to 142, 269, and 359 and that's for the pass where we pull film through there, huh?
 |161:27:25|CC|Roger. 166:40 is the time of that maneuver. And it's after - There's a note after that - resume nominal Flight Plan.
 |161:27:25|CMP|Okay.
 |161:27:25|CC|That's it. You've got everything up to date. And you're aware, I assume, that we have a total alternate Flight Plan laid out if we should have to jettison the an - high - the antennas.
@@ -2429,7 +2428,6 @@
 |163:22:49|CMP|Okay. I got to take a look and see which one's Shorty.
 |163:22:49|CC|Ron, it's the dark crater on the slide, the dark crater on the slide.
 |163:23:13|CMP|Oh, okay.
-
 |161:53:33|CDR-EVA|Okay, here we are 1.5 and 185.
 |161:53:37|CC|Okay, copy that.
 |161:53:39|LMP-EVA|Okay, is this a Rover sample?

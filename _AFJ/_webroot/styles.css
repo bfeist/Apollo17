@@ -1,132 +1,86 @@
-*{margin:0;}
-
-section{
-    margin:0 10px;
-}
-
-body, td, th, input, textarea, pre, p, ul {
-    font-family:  'Times New Roman';
-    font-size: 16px;
-    color: #222;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: verdana, arial, sans-serif;
-    color: #333;
-    background: none;
-    font-weight: normal;
-    margin: 0;
-    padding-top: .5em;
-    padding-bottom: .17em;
-    border: none;
-}
-
-h1 { font-size: 180%; }
-h2 { font-size: 133%; }
-h3 { font-size: 125%; }
-h4 { font-size: 110%; }
-h5 { font-size: 100%; }
-h6 { font-size: 80%;  }
-
-h1, h2 { border-bottom: 1px solid #aaa; }
-
-h3, h4, h5, h6 { font-weight: bold; }
-
-li h1, li h2, li h3, li h4, li h5, li h6 { border: none; }
-
-ul {
-    line-height: 1.4em;
-    list-style-type: square;
-    margin: .2em 0 .2em 1.3em;
-    padding: 0;
-}
-ul.TOC1 {
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Sans-serif, Verdana, 'Trebuchet MS';
     font-size: 12px;
-    list-style-type: none;
-    cursor: pointer;
 }
-ul.TOC2 {
-    font-size: 12px;
-    list-style-type: none;
-    cursor: pointer;
+a { /* link colour */
+    color: #404040;
 }
-ul.TOC3 {
-    font-size: 12px;
-    list-style-type: none;
-    cursor: pointer;
+a:visited { /* visited link colour */
+    color: #505050;
+}
+div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    text-indent: -60px;
+    padding-left: 30px;
+}
+ul{
+    list-style: none;
+}
+.container {
+    /*padding-left: 0;*/
+    /*text-indent: 0;*/
+}
+.unindented {
+    padding-left: 0;
+    text-indent: 0;
+}
+.acronLink {
+    color: #202060;
+}
+.comment { /* transcript commentary item */
+    padding-left: 40px;
+    text-indent: -0px;
+    color: #000080;
+}
+.comment::before { /* add square brackets before and after each commentary statement */
+    content: "["
+}
+.comment::after {
+    content: "]"
+}
+.attribution {
+    font-style: italic;
+    color: saddlebrown;
+}
+.pao {
+    /*padding-left: 40px;*/
+    color: #006000;
+}
+/*.pao::before {*/
+    /*font-weight: bold;*/
+    /*content: "Public Affairs Officer - "*/
+/*}*/
+.onboard {
+    color: #660000;
+}
+.onboard::after {
+    content: " (onboard) "
 }
 
-.TOCTitle {color: black; font-weight: bold;}
-
-ol {
-    line-height: 1.4em;
-    margin: .3em 0 0 3.2em;
-    padding: 0;
-    list-style-image: none;
-}
-li {
-    margin-left: .5em;
-    margin-bottom: .1em;
-    padding: 0; /* margin between bullet and content */
-}
-table, th, td {
-    border: none;
-    vertical-align: top;
+.photo_wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-form {
-    border: none;
-    margin: 0;
-}
-img {
-    border: none;
-    vertical-align: middle;
-}
-
-.utterance {
-    padding: 3px;
-    padding-bottom: 10px;
-}
-.commentary {
-    margin-left:70px;
-    padding: 3px;
-    padding-bottom: 10px;
-}
 .photo {
-    max-width: 500px;
-    float: right;
-    padding: 3px;
-    padding-bottom: 10px;
-    margin: 15px;
-    margin-left: 0;
+    padding: 10px;
+    background-color: #ECECEC;
 }
-.photo img { display: block; width: 100%; }
-.photo span { display: block; color: black; }
 
-.oralHistory    {margin-top: 5px;}
-.spokenwords{font-weight:normal;}
-.afjdef		{color: black;}
-.afjget		{color: black; font-weight:bold; float:left; margin-right:10px; width:50px; text-align:right; clear:left;}
-.afjpao    	{color: DarkGreen;}
-.afjtec		{color: black;}
-.afjwho		{font-weight:bold; text-align:right;}
-.afjother	{color: #2B547E;}
-.afjed		{
-    color: #2B547E;
-    padding: 3px;
-    padding-bottom: 10px;
+.photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
-.afjedwords {
-    color: #2B547E;
-}
-.afjedwords::before	{content: "[ "}
-.afjedwords::after	{content: " ]"}
-
-.afjob     	{color: #660000; margin-left:60px}
-.afjalt		{color: DimGray; margin-left:70px; margin-top:-10px;}
-
-.afjphoto	{color: red; margin-left:70px}
-
-.afjsrc	{
-    font-style:italic;
-    color: SaddleBrown;
+.caption {
+    font-size: 90%;
+    text-indent: 0px;
+    padding-left: 0px;
 }

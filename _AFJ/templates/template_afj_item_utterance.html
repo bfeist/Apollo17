@@ -1,14 +1,6 @@
-<div class="utterance">
-    <span class="afjwhen">@timestamp</span>
-    #if (@who == 'PAO')
-        <span class="afjpao">
-            <span class="afjwho">@who</span>
-            <span class="words">@words</span>
-        </span>
-    #else
-        <span class="afjtec">
-            <span class="afjwho">@who</span>
-            <span class="words">@words</span>
-        </span>
-    #end
-</div>
+#if(@type == 'CM')
+<div class="onboard"><b>@timestamp @who (onboard): </b>@words</div>
+#elseif(@type == 'commentary')<div class="comment"><span class="attribution">@attribution</span> <b>@who</b>@words</div>
+#elseif(@who == 'PAO')<div class="pao"><b>@timestamp Public Affairs Officer: </b>@words</div>
+#else<div><b>@timestamp @who: </b>@words</div>
+#end
