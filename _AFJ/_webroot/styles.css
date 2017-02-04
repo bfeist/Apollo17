@@ -1,8 +1,9 @@
 body {
     background-color: #ffffff;
     color: #000000;
-    font-family: Arial, Sans-serif, Verdana, 'Trebuchet MS';
-    font-size: 12px;
+    /*font-family: Arial, Sans-serif, Verdana, 'Trebuchet MS';*/
+    font-family: 'Times New Roman';
+    font-size: 15px;
 }
 a { /* link colour */
     color: #404040;
@@ -10,20 +11,26 @@ a { /* link colour */
 a:visited { /* visited link colour */
     color: #505050;
 }
+
+/* styling directive for every div of every class type */
 div {
     padding-top: 5px;
     padding-bottom: 5px;
     color: #000000;
-    text-indent: -60px;
-    padding-left: 30px;
 }
+
+/* styling directive for every div that does not have a class assigned to it. This catches "normal" utterances
+This sets the first line (with hack) at the left of the page, and pushes any
+wrapped text to the right keeping hacks in their own visual column */
+div:not([class]) {
+    text-indent: -70px;
+    padding-left: 70px;
+}
+
 ul{
     list-style: none;
 }
-.container {
-    /*padding-left: 0;*/
-    /*text-indent: 0;*/
-}
+
 .unindented {
     padding-left: 0;
     text-indent: 0;
@@ -32,11 +39,11 @@ ul{
     color: #202060;
 }
 .comment { /* transcript commentary item */
-    padding-left: 40px;
-    text-indent: -0px;
+    padding-left: 70px;
     color: #000080;
 }
-.comment::before { /* add square brackets before and after each commentary statement */
+/* add square brackets before and after each commentary statement */
+.comment::before {
     content: "["
 }
 .comment::after {
@@ -47,14 +54,16 @@ ul{
     color: saddlebrown;
 }
 .pao {
-    /*padding-left: 40px;*/
+    padding-left: 70px;
     color: #006000;
 }
-/*.pao::before {*/
-    /*font-weight: bold;*/
-    /*content: "Public Affairs Officer - "*/
-/*}*/
+.pao::before {
+    font-weight: bold;
+    content: "Public Affairs Officer - "
+}
 .onboard {
+    text-indent: -70px;
+    padding-left: 70px;
     color: #660000;
 }
 .onboard::after {
@@ -81,6 +90,4 @@ ul{
 }
 .caption {
     font-size: 90%;
-    text-indent: 0px;
-    padding-left: 0px;
 }

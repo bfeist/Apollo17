@@ -1,6 +1,6 @@
 #if(@type == 'CM')
 <div class="onboard"><b>@timestamp @who (onboard): </b>@words</div>
 #elseif(@type == 'commentary')<div class="comment"><span class="attribution">@attribution</span> <b>@who</b>@words</div>
-#elseif(@who == 'PAO')<div class="pao"><b>@timestamp Public Affairs Officer: </b>@words</div>
+#elseif(@who == 'PAO')<div class="pao">@timestamp - "@words"</div>
 #else<div><b>@timestamp @who: </b>@words</div>
 #end
