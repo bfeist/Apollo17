@@ -87,7 +87,7 @@
 |117:11:13| - FIRST STEP
 |117:14:50| - "don't lock the hatch"
 |117:18:57| - Challenge next generation
-|117:26:07| - "twinkle toes"
+|117:26:07| - joke: "twinkle toes"
 |117:44:16| - rover active
 |117:48:50| - "don't run over me"
 |117:55:32| - joke: fly p-38 through here sometime
@@ -130,7 +130,7 @@
 |143:26:13| - "Maybe time's different in space. Adventures in space and time."
 |143:40:44| - "One-scoop-Schmitt, they call me."
 |144:16:33| - CC - "Roger. In fact, we understand it's been going so smooth down here that they haven't even spilled any coffee in the SPAN room yet this mission."
-|144:51:56| - Help twinkle toes
+|144:51:56| - joke: Help twinkle toes
 |144:56:26| - "Houston Ballet Foundation ... requesting your services for next season"
 |145:26:29| - orange soil here
 |145:28:59| - cleaning tv camera lens
@@ -153,14 +153,14 @@
 |165:36:42| - Gene falls
 |165:36:54| - Joke: remind me to dust my camera
 |165:45:32| - takes pictures of the LM from station. magazine L?
-|166:11:38| - dusting lens. "I wouldn't do this for just anyone"
+|166:11:38| - joke: dusting lens. "I wouldn't do this for just anyone"
 |166:25:07| - photos: jack taking a big pan
 |166:51:17| - Jack running across the surface. "I think your LMP just ran away."
 |167:01:40| - hammering rock "that probably went into orbit".
 |167:06:57| - Jack running and bouncing down hill.
 |167:07:26| - Jack skis down hill.
 |167:10:03| - Gene two legged hopping "I can cover ground like a kangaroo"
-|167:25:34| - |CDR-EVA|It sounds like Bob's stepping on his foot mike.
+|167:25:34| - joke: |CDR-EVA|It sounds like Bob's stepping on his foot mike.
 |167:34:44| - keeps trying to blow the dust off his camera.
 |167:58:36| - photos: 123 frame count.
 |168:02:23| - |LMP-EVA|Tiptoe through the tulips (singing) - -
@@ -191,9 +191,8 @@
 |173:30:27| - Debrief on EVA questions over dinner.
 |173:44:13| - Spurt of dust by the window. Sleigh with it?
 |174:31:36| - Stowing mag Bravo and Nancy.
-|174:55:24| - Joke: How to get my visor up - give it to the CMP.
-|179:57:16| - "Jack's making up new geological terms as he goes along."
-|179:58:01| - Vertical dikelets - CMP prank
+|174:55:24| - joke: How to get my visor up - give it to the CMP.
+|179:57:16| - joke: "Jack's making up new geological terms as he goes along."
 |182:09:08| - |UNKNOWN|Anything to make you happy.
 |182:33:57| - Command module orbital burn.
 |183:37:11| - Schmitt reads xmas poem.

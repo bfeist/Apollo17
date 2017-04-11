@@ -335,7 +335,7 @@ function createSearchData() {
         tmpItem[1] = "";
         tmpItem[2] = "";
 
-        tmpItem[3] = "Geology sample bag: " + gGeoData[counter][2] + " Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
+        tmpItem[3] = "Geology sample description: " + gGeoData[counter][1] + "; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
         tmpItem[4] = 2;
         gUttCommData.push(tmpItem);
     }
@@ -405,7 +405,7 @@ function processGeoData(allText) {
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
         if (data[0] != "") {
-            var tmpItem = []
+            var tmpItem = [];
             tmpItem[0] = timeStrToTimeId(data[0]);
             tmpItem[1] = data[1];
             tmpItem[2] = data[2];
@@ -415,5 +415,4 @@ function processGeoData(allText) {
             gGeoData.push(tmpItem);
         }
     }
-    gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI
 }
