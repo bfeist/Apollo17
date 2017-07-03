@@ -4357,7 +4357,7 @@
 |057:22:23|PAO|This is Apollo Control at 57 hours 22 minutes Ground Elapsed Time. The crew is still asleep. Have been unable to raise them until now. They're considering using an oscillator passed directly into the air-to-ground circuit to put a high-pitched tone, that perhaps even with the earplug out they would be able to hear it from a fairly good distance. Presently, Apollo 17 is 59,682 nautical miles out from the Moon approaching at a velocity of 3,285 feet per second. Mother Earth is behind them some 172,562 nautical miles. Here goes another call.
 |057:23:14|CC|Apollo 17; oh, Apollo 17; it's morning. Time to get up. Over.
 |057:23:31|CC|Hello, Apollo 17; do you read? Over.
-|057:39:14|CC|Here goes the tone up on the air-ground circuit from network.
+|057:39:14|PAO|Here goes the tone up on the air-ground circuit from network.
 |057:39:35||(Music: Jayhawk Fight Song)
 |057:40:32|CC|Hello, 17. Hello, 17. How do you read us this morning?
 |057:40:42|LMP|We're asleep.
@@ -8544,16 +8544,17 @@
 |112:50:43|LMP|AGS and PGNS are close.
 |112:50:46|CDR|Okay, coming up on 1 minute.
 |112:50:49|LMP|One minute, you ought to have 98.
-|112:50:54|CDR|Okay, H-dot is high right now.
-|112:50:56|LMP|MARK it, 1 minute.
-|112:50:58|CDR|Altitude's high.
+|112:50:54|LMP|Okay, H-dot is high right now.
+|112:50:56|CDR|MARK it, 1 minute.
+|112:50:58|LMP|Altitude's high.
 |112:50:59|CC|Challenger, Houston. I have a 169 - -
 |112:51:01|LMP|... looks good, Houston.
 |112:51:02|CC|- - plus 03400, plus 3400 feet. Over.
-|112:51:12|LMP|You're looking at it.
-|112:51:15|CDR|Okay; 3400. I confirm.
+|112:51:12|CDR|You're looking at it.
+|112:51:15|LMP|Okay; 3400. I confirm.
 |112:51:24|CC|Challenger, you're GO for ENTER.
-|112:51:29|LMP|Roger. GO for ENTER 01:30. We're GO coming through 57K. Okay, the altitude's high and the H-dot is high. ... - that's right.
+|112:51:29|CDR|Roger. GO for ENTER 01:30. We're GO coming through 57K.
+|112:51:32|LMP|Okay, the altitude's high and the H-dot is high. ... - that's right.
 |112:51:39|LMP|Okay. At 1 - 2 minutes, you ought to have 89 on the ball. We're still 30 feet per second high in H-dot. But we're about 8000 feet high - -
 |112:51:50|CC|Challenger, Houston - -
 |112:51:51|LMP|- - 7000 - -
@@ -11648,19 +11649,21 @@
 |121:00:23|LMP|Okay. If I do it that way -
 |121:00:25|CDR|Get her way down there.
 |121:00:26|LMP|Okay. Now try it.
-|121:00:28|CDR|See, we got a couple of inches there to throw. We're all right. There you go. Do that for a little bit.
-|121:00:34|LMP|Okay. Let me put my foot on it.
-|121:00:37|CDR|Okay, ready?
-|121:00:37|LMP|Yes.
-|121:00:38|CDR|It's got to loosen up sooner or later.
+|121:00:28|CDR|See, we got a couple of inches there to throw. We're all right. There you go. Do that for a little bit. Okay. Let me put my foot on it.
+|121:00:37|LMP|Okay, ready?
+|121:00:37|CDR|Yes. It's got to loosen up sooner or later.
 ||||Tape 80A/7|Page 794
-|121:00:41|LMP|Okay. That's another good one. When you're tired, I'll do that and you can do this. See, this way, I can - you can get a bigger throw. Okay. Let me know when and I'll do that.
-|121:00:57|CDR|Oh, that's all right.
-|121:01:03|LMP|Does it feel like it's loosening up at all?
-|121:01:05|CDR|Yes.
-|121:01:07|LMP|(Laughter)
-|121:01:08|CDR|Excuse me. Yes, go ahead. (Laughter) Okay, okay, okay (laughter).
-|121:01:18|LMP|Stay there. Stay there. Okay, back. Thank you. Fell on my UHT, among other things. Okay. Let's try that again.
+|121:00:41|CDR|Okay. That's another good one. When you're tired, I'll do that and you can do this. See, this way, I can - you can get a bigger throw. Okay. Let me know when and I'll do that.
+|121:00:57|LMP|Oh, that's all right.
+|121:01:03|CDR|Does it feel like it's loosening up at all?
+|121:01:05|LMP|Not yet.
+|121:01:07|LMP|(Laughter) Excuse me.
+|121:01:08|CDR|Yes, go ahead.
+|121:01:13|LMP|(Laughter)
+|121:01:14|CDR|Okay, okay, okay
+|121:01:17|LMP|(laughter).
+|121:01:18|CDR|Stay there. Stay there. Okay, back.
+|121:01:24|LMP|Thank you. Fell on my UHT, among other things. Okay. Let's try that again.
 |121:01:35|CDR|You want to get over here and I'll do that for a while.
 |121:01:36|LMP|Oh, that's all right. I'm - I just lost my balance. Let me - can I hold there?
 |121:01:40|CDR|Yes. You can hold there, and I'll hold, too.
@@ -16106,7 +16109,7 @@
 |142:12:06|LMP|Okay. I'll get - I'll get this soil.
 |142:12:08|CDR|Couple teaspoonfulls. Twenty-eight Echo, Bob.
 |142:12:11|CC|Say again there, 17.
-|142:12:15|CDR|Twenty-eight Echo,
+|142:12:15|CDR|Twenty-eight Echo.
 |142:12:17|CC|Copy that.
 |142:12:25|CDR|And that's primarily a rock fragment. Jack's getting a soil fragment - soil sample with it.
 |142:12:31|CC|Copy.
@@ -22589,7 +22592,7 @@
 |165:51:57|CDR|I knew it was. Okay. You take this and put this under your seat, if you want, Jack. And I'll get the TGE. Oh, let me put your shovel back on for you. I'll get it.
 |165:52:14|LMP|Get that?
 |165:52:14|CDR|Yes.
-|165:52:29|LMP|Don't lose that. Boy, if you do -
+|165:52:15|LMP|Don't lose that. Boy, if you do -
 |165:52:32|LMP|Okay. Did you give them the number?
 |165:52:34|CDR|Yes, they got the number.
 |165:52:35|LMP|Under the LMP's seat.
