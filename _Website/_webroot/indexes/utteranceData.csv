@@ -7080,12 +7080,12 @@
 1054925|CC|Stand by. Here it comes.
 1054925|LMP|- - wake me up before. (Laughter)
 1055004|CC|It's coming at you, America.
-1055011|LMP|Okay.
+1055011|CMP|Okay.
 1055104||(Music: City of New Orleans by John Denver)
 1055344|CC|How about that?
 1055345|LMP|Thank you, Joe. That's great. We're moving on.
 1055353|CC|Don't you know?
-1055354|CMP|And a big eight-wheeler.
+1055354|LMP|And a big eight-wheeler.
 1055407|CC|And, America, you're 10 minutes from LOS, and the spacecraft looks great.
 1055419|LMP|Okay, Joe. That's good to hear. And we're starting to move now, and we'll be ready for you when we come around.
 1055426|CC|All righty.
@@ -7100,8 +7100,8 @@
 1055708|CMP|Hey; great, Joe. That's good to hear, by gosh.
 1055711|LMP|What are you learning, Joe?
 1055715|CC|Hotspots on the Moon, Jack.
-1055725|LMP|Well, we know we had one going around it. We didn't know we had any on it.
-1055735|CMP|Houston, the LM/CM DELTA-P is 0.4.
+1055725|LMP|Well, we knew we had one going around it. We didn't know we had any on it.
+1055735|CMP|And, Houston, the LM/CM DELTA-P is 0.4.
 1055741|CC|Copy that.
 1055750|LMP|Where - where is your big anomalies, Joe? Can you summarize quickly?
 1055757|CC|Jack, we'll get - get that for you next pass.
@@ -7110,7 +7110,7 @@
 1060039|LMP|Joe, can you imagine waking up anywhere else?
 1060057|CC|17, we'll think about that until you go LOS.
 1060110|LMP|Roger.
-1060138|CC|17, about 30 seconds to LOS. We'll see you on the other side. It's boing to be a good day.
+1060138|CC|17, about 30 seconds to LOS. We'll see you on the other side. It's going to be a good day.
 1060146|LMP|Righto, Joe.
 1060147||BEGIN LUNAR REV 10
 1060240|PAO|This is Apollo Control. We've now had loss of signal as Apollo 17 goes behind the Moon on the ninth revolution. We'll be reacquiring in about 45 minutes - a little bit less, as the spacecraft comes back on the front side on the tenth revolution. And by that time the crew should have completed breakfast. They'll be getting the pressure suits unstowed and begin preparations for entering the lunar module, for the separation, landing on the lunar surface, and the first EVA, all scheduled to occur this day. The IR data which Joe Allen advised the crew we're getting in such good form back here on the ground from the spacecraft's service module, is from the IR scanning radiometer. This is an instrument carried in the CSM SIM bay, Scientific Instrument Module bay. And it's obtaining surface temperatures under the groundtrack of the spacecraft from which scientist will be able to construct a temperature map. From this information they hope to be able to characterize such lunar surface physical parameters as the general conductivity, the bulk density, and the specific heat. Apollo 17 at the present time is in an orbit about 59 nautical miles at it's high point and about 12-1/2 miles above the lunar surface at the low point. At 106 hours 5 minutes this is Apollo Control Houston.
@@ -8074,20 +8074,22 @@
 1125523|LMP|BATTERY 3 is ON.
 1125526|PAO|53 miles to landing.
 1125528|CDR|05:30, Gordo. We're GO. We're out of 34K.
-1125530|LMP|73, 34. We're right on altitude. The H-dot ought to start dropping off.
-1125537|CDR|Except that we want to keep it high. We're allowed two quick looks out the window, one now and one when we pitch over.
+1125530|LMP|73, 34. We're right on altitude. The H-dot ought to start dropping off. Except that we want to keep it high.
+1125539|CDR|You're allowed two quick looks out the window, one now and one when we pitch over.
 1125543|LMP|I can't see a thing except the Earth.
 1125545|CDR|That's what I'm telling you to look at.
-1125546|LMP|(Laughter) Oh, there's the old Earth. Okay, Houston, coming up on 6 minutes. Six minutes, you ought to have 72 on your ball.
+1125546|LMP|(Laughter) Oh, there's the old Earth!
+1125549|CDR|Okay, Houston, coming up on 6 minutes.
+1125553|LMP|Six minutes, you ought to have 72 on your ball.
 1125556|CC|Challenger, you're GO at 6.
-1125557|CDR|72 and GO.
+1125557|LMP|72 and GO.
 1125600|PAO|40 miles till landing.
 1125601|LMP|31. Altitude's great. H-dot's great. AGS and PNGS are very close, couple feet per second difference.
 1125607|CDR|Okay.
 1125609|PAO|31,000 feet altitude.
-1125610|LMP|Okay, Houston. We went over the hump. DELTA-H just jumped.
+1125610|CDR|Okay, Houston. We went over the hump. DELTA-H just jumped.
 1125615|CC|Roger.
-1125619|LMP|And looks like it's back down.
+1125619|CDR|And looks like it's back down.
 1125622|CC|Roger. Sounds good.
 1125626|LMP|06:30, Geno. It looks good, babe. 72. Altitude is right on. H-dot is very close.
 1125634|CDR|Okay, 30K, YAW to zero.
@@ -8098,14 +8100,17 @@
 1125654|LMP|Okay. At 7 minutes, 67's your angle, 26 - 27; that's great ... - -
 1125700|CC|Challenger, you're GO at 7 -
 1125701|LMP|- - H-dot's slightly high, but okay.
-1125705|CDR|Okay, Gordo. We're GO at 7, we're now at 25,000 feet. We're quite a bit out of the command module plane, but I guess we're on target. Okay, watch the throttle, now. Here it comes.
+1125705|CDR|Okay, Gordo. We're GO at 7, we're now out of 25,000 feet.
+1125709|LMP|Okay, we're quite a bit out of the command module plane, but I guess we're on target.
+1125715|CDR|Okay, watch the throttle down. Here it comes.
 1125723|LMP|Throttle down -
 1125723|CDR|Throttle down -
-1125724|LMP|- at 27; computer likes it. Beautiful.
+1125724|CDR|- at 27; computer likes it.
+1125727|LMP|Beautiful.
 1125727|CC|Roger.
 1125729|CDR|Okay, 07:30, 63. Okay, 145 to pitchover, Jack.
-1125736|LMP|Okay, 63's your angle, about 56 now.
-1125741|CDR|Okay, that's getting closer.
+1125736|CDR|Okay, 63's your angle, about 56 now.
+1125741|LMP|Okay, that's getting closer.
 1125748|LMP|H-dot and H are great. Standing by for the camera.
 1125754|CDR|19K, Houston. We're GO coming up on 8.
 1125756|LMP|Okay. The old camera's on, Gordy. Believe it or not.

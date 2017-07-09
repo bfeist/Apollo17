@@ -7574,12 +7574,12 @@
 |105:49:25|CC|Stand by. Here it comes.
 |105:49:25|LMP|- - wake me up before. (Laughter)
 |105:50:04|CC|It's coming at you, America.
-|105:50:11|LMP|Okay.
+|105:50:11|CMP|Okay.
 |105:51:04||(Music: City of New Orleans by John Denver)
 |105:53:44|CC|How about that?
 |105:53:45|LMP|Thank you, Joe. That's great. We're moving on.
 |105:53:53|CC|Don't you know?
-|105:53:54|CMP|And a big eight-wheeler.
+|105:53:54|LMP|And a big eight-wheeler.
 |105:54:07|CC|And, America, you're 10 minutes from LOS, and the spacecraft looks great.
 ||||Tape 70/2|Page 507
 |105:54:19|LMP|Okay, Joe. That's good to hear. And we're starting to move now, and we'll be ready for you when we come around.
@@ -7595,8 +7595,8 @@
 |105:57:08|CMP|Hey; great, Joe. That's good to hear, by gosh.
 |105:57:11|LMP|What are you learning, Joe?
 |105:57:15|CC|Hotspots on the Moon, Jack.
-|105:57:25|LMP|Well, we know we had one going around it. We didn't know we had any on it.
-|105:57:35|CMP|Houston, the LM/CM DELTA-P is 0.4.
+|105:57:25|LMP|Well, we knew we had one going around it. We didn't know we had any on it.
+|105:57:35|CMP|And, Houston, the LM/CM DELTA-P is 0.4.
 |105:57:41|CC|Copy that.
 |105:57:50|LMP|Where - where is your big anomalies, Joe? Can you summarize quickly?
 |105:57:57|CC|Jack, we'll get - get that for you next pass.
@@ -7606,7 +7606,7 @@
 |106:00:39|LMP|Joe, can you imagine waking up anywhere else?
 |106:00:57|CC|17, we'll think about that until you go LOS.
 |106:01:10|LMP|Roger.
-|106:01:38|CC|17, about 30 seconds to LOS. We'll see you on the other side. It's boing to be a good day.
+|106:01:38|CC|17, about 30 seconds to LOS. We'll see you on the other side. It's going to be a good day.
 |106:01:46|LMP|Righto, Joe.
 |106:01:47||BEGIN LUNAR REV 10
 |106:02:40|PAO|This is Apollo Control. We've now had loss of signal as Apollo 17 goes behind the Moon on the ninth revolution. We'll be reacquiring in about 45 minutes - a little bit less, as the spacecraft comes back on the front side on the tenth revolution. And by that time the crew should have completed breakfast. They'll be getting the pressure suits unstowed and begin preparations for entering the lunar module, for the separation, landing on the lunar surface, and the first EVA, all scheduled to occur this day. The IR data which Joe Allen advised the crew we're getting in such good form back here on the ground from the spacecraft's service module, is from the IR scanning radiometer. This is an instrument carried in the CSM SIM bay, Scientific Instrument Module bay. And it's obtaining surface temperatures under the groundtrack of the spacecraft from which scientist will be able to construct a temperature map. From this information they hope to be able to characterize such lunar surface physical parameters as the general conductivity, the bulk density, and the specific heat. Apollo 17 at the present time is in an orbit about 59 nautical miles at it's high point and about 12-1/2 miles above the lunar surface at the low point. At 106 hours 5 minutes this is Apollo Control Houston.
@@ -8611,21 +8611,23 @@
 |112:55:23|LMP|BATTERY 3 is ON.
 |112:55:26|PAO|53 miles to landing.
 |112:55:28|CDR|05:30, Gordo. We're GO. We're out of 34K.
-|112:55:30|LMP|73, 34. We're right on altitude. The H-dot ought to start dropping off.
-|112:55:37|CDR|Except that we want to keep it high. We're allowed two quick looks out the window, one now and one when we pitch over.
+|112:55:30|LMP|73, 34. We're right on altitude. The H-dot ought to start dropping off. Except that we want to keep it high.
+|112:55:39|CDR|You're allowed two quick looks out the window, one now and one when we pitch over.
 |112:55:43|LMP|I can't see a thing except the Earth.
 |112:55:45|CDR|That's what I'm telling you to look at.
-|112:55:46|LMP|(Laughter) Oh, there's the old Earth. Okay, Houston, coming up on 6 minutes. Six minutes, you ought to have 72 on your ball.
+|112:55:46|LMP|(Laughter) Oh, there's the old Earth!
+|112:55:49|CDR|Okay, Houston, coming up on 6 minutes.
+|112:55:53|LMP|Six minutes, you ought to have 72 on your ball.
 |112:55:56|CC|Challenger, you're GO at 6.
-|112:55:57|CDR|72 and GO.
+|112:55:57|LMP|72 and GO.
 |112:56:00|PAO|40 miles till landing.
 |112:56:01|LMP|31. Altitude's great. H-dot's great. AGS and PNGS are very close, couple feet per second difference.
 |112:56:07|CDR|Okay.
 |112:56:09|PAO|31,000 feet altitude.
 ||||Tape 74A/12|Page 577
-|112:56:10|LMP|Okay, Houston. We went over the hump. DELTA-H just jumped.
+|112:56:10|CDR|Okay, Houston. We went over the hump. DELTA-H just jumped.
 |112:56:15|CC|Roger.
-|112:56:19|LMP|And looks like it's back down.
+|112:56:19|CDR|And looks like it's back down.
 |112:56:22|CC|Roger. Sounds good.
 |112:56:26|LMP|06:30, Geno. It looks good, babe. 72. Altitude is right on. H-dot is very close.
 |112:56:34|CDR|Okay, 30K, YAW to zero.
@@ -8636,15 +8638,18 @@
 |112:56:54|LMP|Okay. At 7 minutes, 67's your angle, 26 - 27; that's great ... - -
 |112:57:00|CC|Challenger, you're GO at 7 -
 |112:57:01|LMP|- - H-dot's slightly high, but okay.
-|112:57:05|CDR|Okay, Gordo. We're GO at 7, we're now at 25,000 feet. We're quite a bit out of the command module plane, but I guess we're on target. Okay, watch the throttle, now. Here it comes.
+|112:57:05|CDR|Okay, Gordo. We're GO at 7, we're now out of 25,000 feet.
+|112:57:09|LMP|Okay, we're quite a bit out of the command module plane, but I guess we're on target.
+|112:57:15|CDR|Okay, watch the throttle down. Here it comes.
 |112:57:23|LMP|Throttle down -
 |112:57:23|CDR|Throttle down -
-|112:57:24|LMP|- at 27; computer likes it. Beautiful.
+|112:57:24|CDR|- at 27; computer likes it.
+|112:57:27|LMP|Beautiful.
 |112:57:27|CC|Roger.
 |112:57:29|CDR|Okay, 07:30, 63. Okay, 145 to pitchover, Jack.
-|112:57:36|LMP|Okay, 63's your angle, about 56 now.
+|112:57:36|CDR|Okay, 63's your angle, about 56 now.
 ||||Tape T4A/13|Page 578
-|112:57:41|CDR|Okay, that's getting closer.
+|112:57:41|LMP|Okay, that's getting closer.
 |112:57:48|LMP|H-dot and H are great. Standing by for the camera.
 |112:57:54|CDR|19K, Houston. We're GO coming up on 8.
 |112:57:56|LMP|Okay. The old camera's on, Gordy. Believe it or not.
