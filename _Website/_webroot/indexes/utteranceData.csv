@@ -16732,8 +16732,8 @@
 1445522|CDR|Let me get those, Jack. Don't get down there. Let me get those.
 1445527|LMP|Where are you? They don't stay on my camera anymore.
 1445533|CDR|Well, we'll fix it.
-1445535|LMP|There's no reason why they shouldn't, according to this. But there are a lot - -
-1445539|CDR|Okay, Those - the samples from that - Oh - I need - I gotta go up there - Wait! Take an after - cross-Sun, from over to the north of the gnomon.
+1445535|CDR|There's no reason why they shouldn't, according to this. But there are a lot - -
+1445539|LMP|Okay, Those - the samples from that - Oh - I need - I gotta go up there - Wait! Take an after - cross-Sun, from over to the north of the gnomon.
 1445549|LMP|You didn't get an after, huh?
 1445550|CDR|No.
 1445551|LMP|How come you're cleaning up the Rover?
@@ -16741,17 +16741,20 @@
 1445554|CDR|If you'll mount this thing.
 1445556|LMP|Just set it there. Just set it there. I'll take four deep breaths.
 1445602|CDR|Bob, what else do you want us to do here?
-1445604|CC|Nothing. Get on the Rover and leave. Get the heck out.
+1445604|CC|Nothing. Get on the Rover and leave.
+1445605|LMP|Get the heck out.
 1445606|CC|Don't forget the gnomon.
-1445608|LMP|Okay. No, we're going back to get that after - and we won't forget it.
-1445619|CDR|I think you might be able to decipher this station, Bob.
+1445608|CDR|Okay. No, we're going back to get that after - and we won't forget it.
+1445619|LMP|I think you might be able to decipher this station, Bob.
 1445626|CC|That's the general idea. And be advised that the switchboard here at MSC has been lit up by calls from the Houston Ballet Foundation requesting your services for next season.
 1445640|LMP|I should hope so.
 1445645|CDR|Well, we can't use that one. The right-hand gate lock is - -
 1445651|LMP|How's that?
-1445652|CDR|- nonfunctional and the left one is almost nonfunctional.
+1445652|CDR|- about nonfunctional.
+1445655|CC|Okay.
+1445656|CDR|And, the left one is almost nonfunctional.
 1445659|CC|Okay.
-1445706|LMP|We - once you get it open, you can't get it locked. I'll dust them if I get a chance, but it's locked on the left side.
+1445706|CDR|We - once you get it open, you can't get it locked. I'll dust them if I get a chance, but it's locked on the left side.
 1445713|CC|Okay, well, we'll keep those bags under your feet, anyway.
 1445715|LMP|Here, I'll work on it.
 1445716|CC|I think the samples are safer under there, anyway.
@@ -22675,17 +22678,18 @@
 1681716|CDR|Jack, we want to get a good scoop sample here. Maybe can we get some of those little fine pieces of glass around.
 1681721|LMP|And it looks like it's - it's in place from the day it was born.
 1681726|CC|Copy that.
-1681728|CDR|Oh, gol dig da! I'm having a hard time with this one.
-1681737|LMP|A piece of that rock rigiht behind it.
-1681742|CDR|If I can -
+1681728|LMP|Oh, gol dig dum! I'm having a hard time with this one.
+1681737|CDR|A piece of that rock right behind it.
+1681742|LMP|If I can -
 1681751|LMP|Want a bag?
-1681755|CDR|Yes. I'm going to turn around. Just not going to be able to get that one in the bag, I don't think.
+1681755|CDR|Yes. I'm going to turn around.
+1681802|LMP|Just not going to be able to get that one in the bag, I don't think.
 1681807|PAO|EVA time 4 hours 45 minutes.
-1681819|LMP|Okay, Houston. My sample's in - 482 is a rock, but it doesn't look like subfloor. It looks like the blue-gray material we've been seeing - the breccia-type material.
-1681830|CDR|Yes.
-1681832|LMP|I don't think there's any difference.
-1681836|CDR|Got it in!
-1681838|LMP|Might just as well throw them in my bag.
+1681819|CDR|Okay, Houston. My sample's in - 482 is a rock, but it doesn't look like subfloor. It looks like the blue-gray material we've been seeing - the breccia-type material.
+1681830|LMP|Yes.
+1681832|CDR|I don't think there's any difference.
+1681836|LMP|Got it in!
+1681838|CDR|Might just as well throw them in my bag.
 1681846|CC|Okay, and - -
 1681847|CDR|I want a scoop out of here, though, Jack.
 1681849|CC|17, why don't we get that scoop sample as the first sample of Jack's radial sample, 17?
@@ -22693,11 +22697,14 @@
 1681904|LMP|Oh, man.
 1681905|CDR|That's all right, Jack. That won't come out. Just-put it in there.
 1681916|LMP|Oh, boy.
-1681919|CDR|Okay. Let's let that one be the last -
-1681921|LMP|Here's one.
-1681922|CDR|Well, okay. Those are the last ones that you can take. Got a lock?
+1681919|LMP|Okay. Let's let that one be the last -
+1681921|CDR|Here's one.
+1681922|LMP|Well, okay.
+1681926|LMP|Those are the last ones that you can take.
+1681929|CDR|Got a lock?
 1681932|LMP|No, I don't - stand by, a second on that.
-1681941|CDR|Okay. Okay, before you go back - I got to go down after a picture here. And I want to get a pan of this thing. We can get a stereo pan - as you start your radial sample.
+1681941|LMP|Okay. Okay, before you go back - 
+1681951|CDR|I got to get an after picture. And I want to get a pan of this thing. We can get a stereo pan - as you start your radial sample.
 1682003|LMP|Yes. Are you going to - You - you take the after from there, and I'll go over here and -
 1682010|CDR|Okay. You - -
 1682010|LMP|Well, wait a minute.
@@ -22706,7 +22713,7 @@
 1682013|CDR|Okay. I'm going to go over behind me and take part of the stereo.
 1682016|LMP|Where are you going to take your pan? Let me see.
 1682018|CDR|From - from behind me, where we were.
-1682018|LMP|Well, I think I'll just take my radial right from here to the Rover.
+1682020|LMP|Well, I think I'll just take my radial right from here to the Rover.
 1682023|CDR|That's great. That's great. Just do that, and then you'll be right back at the Rover.
 1682027|LMP|And I'll take my pan from here, so you -
 1682048|CDR|Man, there's about four or five different modes of travel out here.
@@ -22726,7 +22733,7 @@
 1682306|LMP|Hey, this isn't going to be an ideal - radial sample - but it will have to do.
 1682317|CDR|Hippity hopping over hill and dale (singing).
 1682343|CDR|Bob, would you tell me what your primary desires are again on the 500, based upon what we have?
-1682351|CC|Okay. The primary desire will be the North Massif, the blocks, and the trail.
+1682351|CC|Okay. The primary desire will be the North Massif, the blocks, and the trails.
 1682400|CDR|Okay.
 1682404|CC|And while you're at the Rover, they want you to take the gravimeter off again, and we'll get another Rover and a - well another surface measurement here, as well - to check against the Rover.
 1682420|CDR|Okay. Here's a reading. I think I owe you one of those, don't I?

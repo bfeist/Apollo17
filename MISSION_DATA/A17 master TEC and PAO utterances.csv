@@ -17793,8 +17793,8 @@
 ||||Tape 95A/40|Page 1233
 |144:55:27|LMP|Where are you? They don't stay on my camera anymore.
 |144:55:33|CDR|Well, we'll fix it.
-|144:55:35|LMP|There's no reason why they shouldn't, according to this. But there are a lot - -
-|144:55:39|CDR|Okay, Those - the samples from that - Oh - I need - I gotta go up there - Wait! Take an after - cross-Sun, from over to the north of the gnomon.
+|144:55:35|CDR|There's no reason why they shouldn't, according to this. But there are a lot - -
+|144:55:39|LMP|Okay, Those - the samples from that - Oh - I need - I gotta go up there - Wait! Take an after - cross-Sun, from over to the north of the gnomon.
 |144:55:49|LMP|You didn't get an after, huh?
 |144:55:50|CDR|No.
 |144:55:51|LMP|How come you're cleaning up the Rover?
@@ -17802,18 +17802,21 @@
 |144:55:54|CDR|If you'll mount this thing.
 |144:55:56|LMP|Just set it there. Just set it there. I'll take four deep breaths.
 |144:56:02|CDR|Bob, what else do you want us to do here?
-|144:56:04|CC|Nothing. Get on the Rover and leave. Get the heck out.
+|144:56:04|CC|Nothing. Get on the Rover and leave.
+|144:56:05|LMP|Get the heck out.
 |144:56:06|CC|Don't forget the gnomon.
-|144:56:08|LMP|Okay. No, we're going back to get that after - and we won't forget it.
-|144:56:19|CDR|I think you might be able to decipher this station, Bob.
+|144:56:08|CDR|Okay. No, we're going back to get that after - and we won't forget it.
+|144:56:19|LMP|I think you might be able to decipher this station, Bob.
 |144:56:26|CC|That's the general idea. And be advised that the switchboard here at MSC has been lit up by calls from the Houston Ballet Foundation requesting your services for next season.
 ||||Tape 95A/41|Page 1234
 |144:56:40|LMP|I should hope so.
 |144:56:45|CDR|Well, we can't use that one. The right-hand gate lock is - -
 |144:56:51|LMP|How's that?
-|144:56:52|CDR|- nonfunctional and the left one is almost nonfunctional.
+|144:56:52|CDR|- about nonfunctional.
+|144:56:55|CC|Okay.
+|144:56:56|CDR|And, the left one is almost nonfunctional.
 |144:56:59|CC|Okay.
-|144:57:06|LMP|We - once you get it open, you can't get it locked. I'll dust them if I get a chance, but it's locked on the left side.
+|144:57:06|CDR|We - once you get it open, you can't get it locked. I'll dust them if I get a chance, but it's locked on the left side.
 |144:57:13|CC|Okay, well, we'll keep those bags under your feet, anyway.
 |144:57:15|LMP|Here, I'll work on it.
 |144:57:16|CC|I think the samples are safer under there, anyway.
@@ -24108,18 +24111,19 @@
 |168:17:16|CDR|Jack, we want to get a good scoop sample here. Maybe can we get some of those little fine pieces of glass around.
 |168:17:21|LMP|And it looks like it's - it's in place from the day it was born.
 |168:17:26|CC|Copy that.
-|168:17:28|CDR|Oh, gol dig da! I'm having a hard time with this one.
-|168:17:37|LMP|A piece of that rock rigiht behind it.
-|168:17:42|CDR|If I can -
+|168:17:28|LMP|Oh, gol dig dum! I'm having a hard time with this one.
+|168:17:37|CDR|A piece of that rock right behind it.
+|168:17:42|LMP|If I can -
 |168:17:51|LMP|Want a bag?
-|168:17:55|CDR|Yes. I'm going to turn around. Just not going to be able to get that one in the bag, I don't think.
+|168:17:55|CDR|Yes. I'm going to turn around.
+|168:18:02|LMP|Just not going to be able to get that one in the bag, I don't think.
 |168:18:07|PAO|EVA time 4 hours 45 minutes.
-|168:18:19|LMP|Okay, Houston. My sample's in - 482 is a rock, but it doesn't look like subfloor. It looks like the blue-gray material we've been seeing - the breccia-type material.
-|168:18:30|CDR|Yes.
+|168:18:19|CDR|Okay, Houston. My sample's in - 482 is a rock, but it doesn't look like subfloor. It looks like the blue-gray material we've been seeing - the breccia-type material.
+|168:18:30|LMP|Yes.
 ||||Tape 111A/25|Page 1669
-|168:18:32|LMP|I don't think there's any difference.
-|168:18:36|CDR|Got it in!
-|168:18:38|LMP|Might just as well throw them in my bag.
+|168:18:32|CDR|I don't think there's any difference.
+|168:18:36|LMP|Got it in!
+|168:18:38|CDR|Might just as well throw them in my bag.
 |168:18:46|CC|Okay, and - -
 |168:18:47|CDR|I want a scoop out of here, though, Jack.
 |168:18:49|CC|17, why don't we get that scoop sample as the first sample of Jack's radial sample, 17?
@@ -24127,11 +24131,14 @@
 |168:19:04|LMP|Oh, man.
 |168:19:05|CDR|That's all right, Jack. That won't come out. Just-put it in there.
 |168:19:16|LMP|Oh, boy.
-|168:19:19|CDR|Okay. Let's let that one be the last -
-|168:19:21|LMP|Here's one.
-|168:19:22|CDR|Well, okay. Those are the last ones that you can take. Got a lock?
+|168:19:19|LMP|Okay. Let's let that one be the last -
+|168:19:21|CDR|Here's one.
+|168:19:22|LMP|Well, okay.
+|168:19:26|LMP|Those are the last ones that you can take.
+|168:19:29|CDR|Got a lock?
 |168:19:32|LMP|No, I don't - stand by, a second on that.
-|168:19:41|CDR|Okay. Okay, before you go back - I got to go down after a picture here. And I want to get a pan of this thing. We can get a stereo pan - as you start your radial sample.
+|168:19:41|LMP|Okay. Okay, before you go back - 
+|168:19:51|CDR|I got to get an after picture. And I want to get a pan of this thing. We can get a stereo pan - as you start your radial sample.
 |168:20:03|LMP|Yes. Are you going to - You - you take the after from there, and I'll go over here and -
 |168:20:10|CDR|Okay. You - -
 |168:20:10|LMP|Well, wait a minute.
@@ -24141,7 +24148,7 @@
 |168:20:13|CDR|Okay. I'm going to go over behind me and take part of the stereo.
 |168:20:16|LMP|Where are you going to take your pan? Let me see.
 |168:20:18|CDR|From - from behind me, where we were.
-|168:20:18|LMP|Well, I think I'll just take my radial right from here to the Rover.
+|168:20:20|LMP|Well, I think I'll just take my radial right from here to the Rover.
 |168:20:23|CDR|That's great. That's great. Just do that, and then you'll be right back at the Rover.
 |168:20:27|LMP|And I'll take my pan from here, so you -
 |168:20:48|CDR|Man, there's about four or five different modes of travel out here.
@@ -24162,7 +24169,7 @@
 |168:23:06|LMP|Hey, this isn't going to be an ideal - radial sample - but it will have to do.
 |168:23:17|CDR|Hippity hopping over hill and dale (singing).
 |168:23:43|CDR|Bob, would you tell me what your primary desires are again on the 500, based upon what we have?
-|168:23:51|CC|Okay. The primary desire will be the North Massif, the blocks, and the trail.
+|168:23:51|CC|Okay. The primary desire will be the North Massif, the blocks, and the trails.
 |168:24:00|CDR|Okay.
 |168:24:04|CC|And while you're at the Rover, they want you to take the gravimeter off again, and we'll get another Rover and a - well another surface measurement here, as well - to check against the Rover.
 |168:24:20|CDR|Okay. Here's a reading. I think I owe you one of those, don't I?
