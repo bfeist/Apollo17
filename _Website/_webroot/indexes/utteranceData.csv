@@ -11516,10 +11516,11 @@
 1220117|CDR|At my 9 o'clock. Yes.
 1220120|CC|Either that or your 3 o'clock. I forgot which one it is.
 1220122|CDR|How do you know where we are?
-1220128|CDR|I think, you're probably right, although it doesn't impress me as what I saw in the L&A. How much time have we got to drive now, Bob?
+1220128|CDR|I think, you're probably right, although it doesn't impress me as what I saw in the L&A.
+1220132|LMP|How much time have we got to drive now, Bob?
 1220135|CC|Okay, stand by.
 1220137|CDR|I think that's probably Emory up there.
-1220142|LMP|That's Steno, I guess.
+1220142|CDR|That's Steno, I guess.
 1220144|CC|Yes, yes, seven - Gene and Jack, we'd like you to - If you're in the vicinity, we think you're just about there. We were planning on you leaving the SEP and getting to this place at about 4 plus 58 and we're showing about 5 plus 00 right now so you're right on time. And if you're at 340 and 1.2 in that vicinity, you must be at the station or very close to it where you can see. Over.
 1220210|LMP|Well, it doesn't look real familiar, Bob, as far as Steno is concerned. Okay, I got - I think they can locate us if we work that block field right there.
 1220220|CDR|Let me get my water.
@@ -11529,14 +11530,13 @@
 1220258|CC|Okay. What's the range and bearing one more time?
 1220303|CDR|Okay, 346, 1.1. I think it would almost be worth - I bet that's Emory up on that hill. It's got to be.
 1220325|LMP|Yes.
-1220327|CDR|Okay, well, let's - -
-1220328|LMP|We better park in this boulder field here.
-1220332|CDR|... boulder field.
+1220327|LMP|Okay, well, let's - -
+1220328|CDR|We better park in this boulder field here. ... boulder field.
 1220334|LMP|... Wish we could have gotten near one of the big ones, but let's do it. We're going to run out of time.
 1220338|CDR|Yes.
 1220339|CC|That's affirmative, guys - -
-1220340|CDR|... big one anyway.
-1220341|LMP|Okay. You want me - -
+1220340|LMP|... big one anyway.
+1220341|CDR|Okay. You want me - -
 1220341|CC|- - There's no point in deviating around and spending 15 minutes trying to get to a particular spot or down to a bigger boulder. You must be in the near vicinity. If you're really worried about it, I guess you might drive a little bit to the east to the rim of the - -
 1220353|LMP|Okay. We got - -
 1220354|CC|- - crater, unless you're there. Over. Your judgment.
@@ -15408,7 +15408,7 @@
 1424047|CC|Okay; copy that. That's interesting.
 1424049|CDR|I don't think we can tilt that television - I don't think they can tilt the television camera high enough to see the top of the massif. Jack, we're on the edge here, but I don't know - is that that - Well, let me go up here.
 1424109|LMP|No, you're doing great.
-1424111|CDR|Brazil 71, 8.9, and 7.4.
+1424111|CDR|We're 71, 8.9, and 7.4.
 1424116|LMP|See, there's Nansen off to my right now.
 1424117|CDR|Yes, I just want to make sure that I'm not driving down a hole here, which I am, but - I don't want to drive down Nansen.
 1424127|LMP|No, I - you won't. The saddle - the end of Nansen is over there near those blocks. Right over there.
@@ -19224,7 +19224,7 @@
 1521633|CC|Jack, we'll check it, update our information on that, my understanding at the moment is that they've not, but - but they're thinking that the unit's just too cold and they're in the process of warming it up by dumping heat into it by running some of the equipment around it and in it, and they've by no means given up - given up hope for that unit.
 1521704|LMP|I figure that means that my fooling around with it didn't help them.
 1521709|CC|Apparently, it - it didn't do too much for them, but what it did do was convince them that it's probably somehow locked up because its temperature's not right yet. And they're not worrying about whether it's level or not level now. They're - they're confident that it's been set up okay, and now they're just biding their time to bring that temperature up. We'll get some more words to you sometime tomorrow on it as you make your traditional visit to the site again - ALSEP site again, probably. How are you coming along with your sleep prep?
-1521747|CDR|We're just about there, Joe. We picked up some time somewhere in here. Couldn't be much more than 1 hour behind.
+1521747|LMP|We're just about there, Joe. We picked up some time somewhere in here. Couldn't be much more than 1 hour behind.
 1521758|CC|No, that's just about right. You're looking pretty good on that.
 1521804|CC|If you get to sleep in the next 5 minutes, you're 1 hour behind.
 1521811|CDR|Yes, sir; we're - I'm putting ny hammock up now, as a matter of fact.
@@ -19246,14 +19246,15 @@
 1522203|CC|Oh, there's no doubt about that. But it's fun to think about what sort of - of device will ultimately disturb your tracks.
 1522217|LMP|Well that device may look something like your little boy.
 1522223|CC|Boy, he'd make short work of them.
-1522236|LMP|Joe, I'll tell you it's also a pretty philosophical thought to think that you're riding around out here on what is really undisturbed - undisturbed everything, you know. If there was someone here, way back when sometime, they didn't leave much - much sign of their whereabouts, but that's an interesting thought, too, as you drive around and all of a sudden cross your own Rover tracks and figure out those are the only ones that have maybe ever been here.
+1522236|CDR|Joe, I'll tell you it's also a pretty philosophical thought to think that you're riding around out here on what is really undisturbed - undisturbed everything, you know. If there was someone here, way back when sometime, they didn't leave much - much sign of their whereabouts, but that's an interesting thought, too, as you drive around and all of a sudden cross your own Rover tracks and figure out those are the only ones that have maybe ever been here.
 1522311|CC|Very true.
-1522313|LMP|And with that, I'm rolling out my hammock.
-1522414|LMP|Okay, Joe. I'm waving goodnight to you. I'm rolling up my overhead window cover.
+1522313|CDR|And with that, I'm rolling out my hammock.
+1522414|CDR|Okay, Joe. I'm waving goodnight to you. I'm rolling up my overhead window cover.
 1522428|CC|Okay, Gene and Jack. We'll say good night to you from down here, unless there's some other way can help you.
-1522443|LMP|No, sir. If there is, we'll give you a call, though.
+1522443|CDR|No, sir. If there is, we'll give you a call, though.
 1522456|CC|Just want to end by saying what a terrific job you did today, and really looking forward to tomorrow. Have a good 8-hours rest.
-1522510|LMP|Thank you, Joe. Tomorrow we answer all the unanswered questions. Right?
+1522510|CDR|Thank you, Joe.
+1522514|LMP|Tomorrow we answer all the unanswered questions. Right?
 1522520|CC|If not more.
 1522606|PAO|This is Apollo Control at 152 hours 26 minutes. The goodnights with the crew aboard Challenger were exchanged at 152 hours 25 minutes, and we plan to give them a full 8 hour sleep period which puts wakeup at 160 hours 25 minutes. That presumably would move the start time for the EVA 3 back 1 hour. We'll be getting conformation on that shortly. And both the CSM and the Lunar Module continuing to perform almost perfectly as planned. Based on the telemetry that we're getting here on the ground and at this moment our large scribing plotter display in front of mission control, shows the Command Module, America, to be passing almost directly over Challenger on the lunar surface in the Valley of Taurus Mountains. America now on its 33 revolution of the Moon. And Ron Evans well into his scheduled 8 hour sleep period. Evans is right on the planned time for sleep. Sleeping right on the - on the flight plan times. During the sleep period we'll have the air-to-ground lines down. Normally that circuit gets rather noisy after the crew has gone to sleep - configured the lunar module to sleep. The power amplifier is turned off, the transmitter output power of the Lunar Module decreased from about 18 watts down to about 1 watt and that accounts for the noise that we frequently have on that circuit during sleep periods. For that reason, we will have the circuit down configured to record any conversations with the crew for subsequent playback. At 152 hours 29 minutes, this is Apollo Control Houston.
 1522616|LMP|...
