@@ -1679,8 +1679,8 @@ header {
 .info-wrapper .content .time {
   border-left: 1px solid #444;
 
-  padding-left: 10px;
-  margin-left: 10px;
+  padding-left: 5px;
+  margin-left: 5px;
   font-size: 1.2em;
 }
 .info-wrapper .content #missionTime {

@@ -49,7 +49,7 @@
 -002158|CDR|Okay, understand; full retract.
 -002147|CDR|Skipper, thank you. We - we plan to, babe.
 -002140|CDR|We're going to do our best, and we're also going to have a ball.
--002121|CDR|Thank you for the hardware, and the help, and the prayers, and everything else that goes into making a good mission.
+-002121|CDR|We thank you for the hardware, and the help, and the prayers, and everything else that goes into making a good mission.
 -002117|PAO|This is Apollo Saturn Launch Control. We're continuing in our hold at the T minus 8 minute mark. At this time, it's been determined to take an additional 20 minutes, add an additional 20 minutes to that planned hold period. The reason for this is, the crews would like to take the work around that they have devised and at Marshall Spaceflight Center, where the Saturn V launch vehicle was developed, they have what is called a bread board or a system, which is similar to this one and run through the sequence and insure that it does operate properly. The crew aboard the spacecraft was informed of this additional 20 minute hold. They indicated that they expected to use all three stages of this Saturn V and they were happy to have the 20 minute hold if that was going to assure that all three were going to work properly. Now continuing our hold at the T-minus 8 minute mark, this is Kennedy Launch Control.
 -002114|CDR|I sure do, I've got 5 good bright ones.
 -002104|CDR|... you're loud and clear.
@@ -3310,7 +3310,7 @@
 0413452|LMP|You're 1.8, 1.8. Yes. Never heard him.
 0413534|CC|Hello, Challenger; Houston. How do you read?
 0413646|LMP|Gordy received me, didn't he? Well, he started to say something; then he dropped off.
-0413650|LMP|Now he's up. Haven't heard him.
+0413750|LMP|Now he's up. Haven't heard him.
 0413757|CC|America, Houston.
 0413804|CC|Okay. We're going to go back to Goldstone, both up and down, and we'd like Jack to do step 406 on the checklist; in other words, go to VOICE. S-BAND VOICE to VOICE, the BIOMED to RIGHT. And we're going to give it a try in the normal configuration. Over.
 0413827|CDR|They want step 406, gentlemen. BIOMED, RIGHT; and S-BAND VOICE to VOICE.
@@ -3534,7 +3534,7 @@
 0433618|CMP|It almost looks like it's reached a steady state now. It's 9 minus 2-7 minutes.
 0433628|ROOSA|Roger.
 0433628|CMP|Hey, I think the one thing I neglected to mention is that we essentially have a convex surface from the - the material; in other words, con - convex with the high part in the middle; and, of course, that's where the bubbles are, too, but I think you'd generally have that type of a surface anyhow. And, it hasn't broken the meniscus of the lower, or the thinnest ring.
-0433734|LMP|We should have had some popcorn on our stowage list.
+0433734|LMP|We should add some popcorn on our stowage list.
 0433738|ROOSA|Roger.
 0433946|CMP|Okay; now the Bernard cells are starting to form in that outer annulus that went all the way around.
 0433954|ROOSA|Roger.
@@ -3619,7 +3619,7 @@
 0441551|CC|Roger. We copy that. We'd like you to stow the high gain at this time and OMNI Bravo.
 0441637|CC|Jack, we appreciate all your information, and we'd like to just pass on some recommendations here from the ground that we'd like you to keep on with your regular menu as much as possible. And, if you do cut anything off, we'd like you to concentrate on eating the meats, the juices, and the fruitcake, which are the most effective for maintaining your electrolyte balance.
 0441707|CDR|Okay, Bob. We understand what you're saying. We're shooting at eating - eating it all. It's just a lot of food, that's all.
-0441718|CC|Roger. We understand, Gene. Also, on that group of foods, peanut butter's great for the bal -e lectrolyte balance, also; so you're doing okay.
+0441718|CC|Roger. We understand, Gene. Also, on that group of foods, peanut butter's great for the bal - electrolyte balance, also; so you're doing okay.
 0441730|LMP|I knew it was good for something. It couldn't be that good without being good for something.
 0441735|CDR|I think we're all trying to make a concentrated effort also to keep quite a bit of water down.
 0441742|CC|Roger. I understand. Real fine.
@@ -4635,7 +4635,7 @@
 0644322|PAO|This is Apollo Control at 64 hours 43 minutes. Change of shift News Conference is ready to begin in the News Center briefing room. We'll take this line down now and tape for the duration of the News Conference.
 0644631|CC|America, Houston. Halftime score is 28 to 3, Cowboys.
 0644639|CDR|Keep talking, Gordo.
-0644642|CC|Okay, I'll keep talking (laughter). The - I've learned that when you get to the ALFMED and pull it there, you'll see some tape around the emulsion shields. Those are three rectangular areas in front of your eyes and to either side that contain the photographic emulsion. This tape is around the edges of each of those three areas to help seal out light leaks. You haven't seen it before. Leave the tape on there. Don't pull it off. Over.
+0644642|CC|Okay, I'll keep talking (laughter). The - I've learned that when you get to the ALFMED and pull it out there, you'll see some tape around the emulsion shields. Those are three rectangular areas in front of your eyes and to either side that contain the photographic emulsion. This tape is around the edges of each of those three areas to help seal out light leaks. You haven't seen it before. Leave the tape on there. Don't pull it off. Over.
 0644716|CDR|Okay.
 0644812|LMP|Gordy, just took a series of pictures of the Earth with the 35-millimeter using the polarizing filter in the two positions. And the frame count is now 39. I took six pictures. And with the filter, on the first of each pair, in the DOWN position. The second's in the UP position. And I changed the f-stop from - the first set at f/4, the second set at f/2, and the third set at f/8.
 0644901|CC|Okay; we got all that, Jack.
@@ -4650,7 +4650,7 @@
 0674053|CC|Roger. Stand by on that, Geno; and we'll be with you in a minute.
 0674059|CDR|Hello, Robert. How are you today?
 0674100|CC|Real fine, Gene. You're sounding great.
-0674306|CDR|Doing great out here.
+0674106|CDR|Doing great out here.
 0674343|CC|Geno, we're ready for the clock update. We'd like P00 and ACCEPT. And we're got two loads to put in, so it will take a couple of minutes here.
 0674355|CMP|Okay, you got it?
 0674356|CC|Thank you, Ron.
@@ -8465,8 +8465,9 @@
 1144410|CC|Okay, what o'clock position is the west - the nearest part of the rim of Camelot? Or maybe if it's better defined - -
 1144421|LMP|12 o'clock.
 1144423|CC|- - Define the south rim. Can you see the south rim of it?
-1144429|CDR|Yes, Gordy, but it - it blends in so well; all we're seeing is a - an undulating high as the rim. And to the best of my knowledge, we've got the south rim at - or correction, the east rim right at 12 o'clock. Hey, Gordy, right at 12 o'clock also is a boulder that's at least 3 meters and maybe 5, and I wouldn't be a bit surprised if you can find it. It's on a line between us and the intersection of the South Massif and the Family Moun - Mountain horizon. Just slightly left of that line or south of that line. And that boulder ought to show up on your best photography.
-1144516|CC|Okay, Jack. We'll take a look. One other question - -
+1144429|CDR|Yes, Gordy, but it - it blends in so well; all we're seeing is a - an undulating high as the rim. And to the best of my knowledge, we've got the south rim at - or correction, the east rim right at 12 o'clock.
+1144444|LMP|Hey, Gordy, right at 12 o'clock also, is a boulder that's at least 3 meters and maybe 5, and I wouldn't be a bit surprised if you can find it. It's on a line between us and the intersection of the South Massif and the Family Moun - Mountain horizon. Just slightly left of that line or south of that line. And that boulder ought to show up on your best photography.
+1144519|CC|Okay, Jack. We'll take a look. One other question - -
 1144521|LMP|And it's at - it's at least - that boulder's at least 200 meters away.
 1144529|CC|Okay. Can you see the west rim of Trident, and can you give us a clock position on the west rim of West Trident?
 1144546|CDR|Okay, Gordy. The west rim of Trident, which, by the way, is full of outcropping-looking boulders, is at 10 o'clock.
@@ -9495,17 +9496,22 @@
 1174928|CDR|Okay. I'm going to take a little spin around here, and I'll meet you at the front end.
 1174932|LMP|Okay.
 1174935|CDR|Boy, there's a lot of static, though, everytime I start driving.
-1175010|LMP|I know what that was over there, I think. Let me see. Whee! Okay, Houston. The basic material around the LM is just what I said, a fine-grained, medium-gray regolith-appearing material that is the standard area's population. The craters, though, bigger than about a meter in diameter, seem to - get to - rock fragments, which I haven't yet learned how to pick up.
+1175010|CDR|I know what that was over there, I think. Let me see. Whee! 
+1175015|LMP|Okay, Houston. The basic material around the LM is just what I said, a fine-grained, medium-gray regolith-appearing material that is the standard area's population. The craters, though, bigger than about a meter in diameter, seem to - get to - rock fragments, which I haven't yet learned how to pick up.
 1175105|CDR|Okay, Jack. I'm going to give them our position here. I think I know exactly where we are now.
 1175112|LMP|Well, once you get them dirty, just like the boys say, it's hard to tell what they are.
 1175119|CDR|Okay, Houston. I'm - I'm parked right next to Barjea. And we are, from Barjea, 12 o'clock - Jack, how far - oh, you can't see. You're looking, at the Sun. I guess about 150 meters due west of Barjea. And that's why we looked so close to Trident. I'm coming right up on Poppy. No question about where I am now. I've got Trident, and when I get up there - We are abeam of Trident 1, just where I said we were. I'm right at Poppy. We're about - oh, 100 meters just about due - due west of Poppy, which is almost in line with Barjea, of course, but basically, on that line, I think, between Rudolph and Trident 1. And, as I look at it in the cross section, about 100 meters - about 100 meters north of Trident 1. That's the landing point.
-1175241|CDR|Sure get dirty fast. Jack, that is Trident right here that I - that we walked over to. (Laughing) I just got my first initiation to getting very dirty.
-1175252|LMP|You sure did (laughter). Where are you? Are you ready to go?
+1175241|LMP|Sure get dirty fast.
+1175243|CDR|Jack, that is Trident right here that I - that we walked over to.
+1175247|LMP|(Laughing) I just got my first initiation to getting very dirty.
+1175252|CDR|You sure did.
+1175253|LMP|(laughter). Where are you? Are you ready to go?
 1175256|CDR|I'm coming right around the front now. Houston, did you get that position?
 1175300|CC|Roger. We copied that, Geno.
-1175304|CDR|And Bob, I'm - I'm - I'm very firm of that now. I'm almost positive, unless I'm awfully mistaken about Trident. And I don't see how I could be from here. At the sacrifice of my cleanliness, Houston, the basic bright-colored rock type in the area looks very much like a cristobalite gabbros of the - I didn't see cristobalite, but it looks like the gabbros in the mare basalt sweep. The coarsegrained clinopyroxene plagioclase rocks.
+1175304|CDR|And Bob, I'm - I'm - I'm very firm of that now. I'm almost positive, unless I'm awfully mistaken about Trident. And I don't see how I could be from here.
+1175317|LMP|At the sacrifice of my cleanliness, Houston, the basic bright-colored rock type in the area looks very much like a cristobalite gabbros of the - I didn't see cristobalite, but it looks like the gabbros in the mare basalt sweep. The coarsegrained clinopyroxene plagioclase rocks.
 1175348|CC|Okay. We have that.
-1175351|CDR|Okay, I'm going to park - How about along side - Am I gonna screw up that little crater with glass in it if I park there?
+1175351|CDR|Jack, I'm going to park - How about along side - Am I gonna screw up that little crater with glass in it if I park there?
 1175400|LMP|Well, we will eventually.
 1175403|CDR|Well, there's that one anyway. Let me park right here.
 1175406|LMP|I'm sure we'll find some more.
@@ -9514,9 +9520,12 @@
 1175414|CDR|Okay, that's about close enough. isn't it.
 1175416|LMP|Yes.
 1175417|CDR|Okay, she is locked.
-1175418|LMP|Here, let me get the 15-volt supply.
-1175421|CDR|I think this camera is probably a little dirty on the lens. Okay, Houston. We're parked. No, the lens is okay. When you uncover one of those lens brushes, I want to use it on my visor. Oh, boy.
-1175441|CDR|It just takes a little getting used to the 1/6 g, Jack.
+1175418|CDR|Here, let me get the 15-volt supply.
+1175421|LMP|I think this camera is probably a little dirty on the lens.
+1175426|CDR|Okay, Houston. We're parked.
+1175429|LMP|No, the lens is okay.
+1175432|CDR|When you uncover one of those lens brushes, I want to use it on my visor. Oh, boy.
+1175441|CDR|It just takes a little getting used to the 1/6th g, Jack.
 1175444|LMP|I want to put this camera over here right now, because it's pretty dirty to put back in that bag. Okay, get to work.
 1175456|CC|Roger. We copy that guys. You're about 7 minutes behind right now.
 1175456|CDR|LRV front configure. Whoops. Hold it. Hold it.
@@ -9545,27 +9554,27 @@
 1175824|LMP|TGE is on. 22 - oh, you just want the last ones. Okay, 07.
 1175834|CC|Okay. Copy that.
 1175835|LMP|07.
-1175842|CDR|God, the dirtiest checklist in the world. (laughter)
-1175847|LMP|Doesn't take long, does it? Doesn't take long.
+1175842|LMP|God, the dirtiest checklist in the world. (laughter)
+1175847|CDR|Doesn't take long, does it? Doesn't take long.
 1175904|CDR|Manischewitz, look at that go! Did you see that?
 1175907|LMP|I wish you'd be more careful.
 1175909|CDR|What?
-1175910|CDR|No, no, no! Not the television camera! (Laughter)
+1175910|LMP|No, no, no! Not the television camera! (Laughter)
 1175920|LMP|Okay.
-1175922|CDR|It's warm out here, you know?
-1175925|LMP|I'm certainly glad I got cool.
+1175922|LMP|It's warm out here, you know? I'm certainly glad I got cooling.
 1175927|CDR|Okay, the TCU is locked in.
-1175933|LMP|Houston, I've seen an awful lot of rocks, as I worked here. They look just like those pyroxene gabbros that I mentioned. The pyroxene's iridescent in the bright sun. The grain size is about - oh, between - maybe the mean is 2 millimeters, with max maybe up at 3 or 4. And it looks like predominantly a pyroxene plagioclase rock - clinopyroxene, but I haven't looked at it real closely.
+1175933|LMP|Houston, I've seen an awful lot of rocks, as I work here. They look just like those pyroxene gabbros that I mentioned. The pyroxene's iridescent in the bright sun. The grain size is about - oh, between - maybe the mean is 2 millimeters, with max maybe up at 3 or 4. And it looks like predominantly a pyroxene plagioclase rock - clinopyroxene, but I haven't looked at it real closely.
 1180012|PAO|Cernan mounting the television on the Rover now.
 1180017|CDR|Okay, Jack. I set the rake on the - -
 1180019|LMP|Beautiful.
-1180020|CDR|- - on the seat. I just haven't learned - I'm getting more finesse now. I think you can overwork yourself, instead of making use of the 1/6 gravity.
+1180020|CDR|- - on the seat. I just haven't learned - I'm getting more finesse now. I think you can overwork yourself, instead of making use of the 1/6th gravity.
 1180033|LMP|Yes.
 1180033|CDR|It's going to take a whole EVA to get familiar.
 1180036|LMP|Well, I hope it doesn't.
-1180039|CDR|I find I'm using my arms almost as much as I ever did. I remember the last time I was on the Moon - about 2 hours ago.
-1180052|LMP|Okay, guess what? That old hammer goes to the gate top. The blue-handled hammer. What more could you want?
+1180039|LMP|I find I'm using my arms almost as much as I ever did. I remember the last time I was on the Moon - about 2 hours ago.
+1180052|LMP|Okay, guess what? That old hammer goes to the gate top.
 1180101|PAO|Schmitt is loading tools onto the Rover.
+1180101|LMP|The blue-handled hammer. What more could you want?
 1180111|CDR|Okay, Bob. I'm getting a low gain out now.
 1180115|CC|Okay. Copy on that.
 1180134|LMP|... like the Rover, huh, Geno?
@@ -13042,9 +13051,9 @@
 1262400|LMP|Okay, Joey, 21, reading in order 128:47:12; 130:45:44; 132:44:18; 134:42:50; 136:41:28. And what's the present rev?
 1262428|CC|Present rev is 20, and readback is correct.
 1262530|LMP|Okay, Joe, you can go ahead and fire away at the LMP.
-1262537|CC|Okay, Jack, and for the geology questions. I'm going to turn the console over to the well-known geologist of the Seifort Galaxies.
+1262537|CC|Okay, Jack, and for the geology questions, I'm going to turn the console over to the well-known geologist of the Seifort Galaxies.
 1262549|LMP|Can't hack it, huh? You've all forgotten everything I taught you.
-1262555|CC|I draw my sword.
+1262555|CC|I dropped my sword.
 1262557|CC|Okay, guys, you want me to address first those to Gene - those to Jack, and then address them to Gene later on, or you guys both, want to answer them at the same time?
 1262609|LMP|Well, we're both listening. We can answer them.
 1262612|CC|Okay, the way you asked that, I wasn't sure.
@@ -13061,7 +13070,7 @@
 1262753|CC|Okay. You have any feel for how high the rock is or how low - how deep the thing was with respect to the - with respect to the RTG? Where you down in a level that was below, even without the rocks being there?
 1262811|CDR|Yes, I think I - yes. I was in a - in a slump. There was a ridge between us and the RTG, and I had the rock in a line of sight between it and where I put that core. And I'd say the rock was certainly near the ridge and it was - what, Jack? - I don't know was it meter to - meter high for the most part. And it sloped off, and I'd say at least a half a meter high in the line of sight from where the neutron probe is to the - to the RTG. Plus, there's a lot of undulations - I think it'll be below the line of sight, anyway.
 1262851|CC|Okay. And a somewhat more general question, here. It says - and I'll read it. We're still puzzled as to whether there is a dark mantle. Could you say something more about the dark regolith surface? There's a lot of discussion, today, about whether or not it could have been a regolith derived from the intermediate gabbro which you were sampling as boulders.
-1262920|CDR|Bob, I - I think I don't have too much to add to what I said, near the end of the EVA, is that I do not have an intuitive feeling that the regolith has been derived from most of the boulders that we're seeing. But - because those boulders are fairly light-colored, they look like they're probably 50 percent plagioclase. The - it could be that the regolith is derived from some other material that has blanketed the area. I don't think we have that answer, yet.
+1262920|LMP|Bob, I - I think I don't have too much to add to what I said, near the end of the EVA, is that I do not have an intuitive feeling that the regolith has been derived from most of the boulders that we're seeing. But - because those boulders are fairly light-colored, they look like they're probably 50 percent plagioclase. The - it could be that the regolith is derived from some other material that has blanketed the area. I don't think we have that answer, yet.
 1262955|CC|Okay. I copy that.
 1262957|CDR|Bob, the boulders - the boulders we are sampling - I think Jack, and I both feel that it's probably - we feel we sampled the subfloor because we saw on the sides of the craters where some of these boulders were exposed almost as if they were bedrock down there. In driving back from what we called Station 1, we - we could definitely see the light mantle out in the area where the potentials of a slide are.
 1263026|CC|Okay, very good. Yes, I think that the - At least, it's a going bet around here that we're sampling the subfloor when we're sampling - at least the top of the subfloor when we're sampling the intermediate gabbro there. The rocks and the boulders.
@@ -24382,7 +24391,7 @@
 1720127|CDR|Oh, and the helmet is off and I'm throwing it in the BRA.
 1720144|LMP|Well, there's no changing our mind now, the PLSSs are going to be hard to retrieve. But you could if you had to, though.
 1720152|CC|Challenger, Houston. Challenger, Houston. From the old backup crew that followed you every step of the way, super job on EVA you guys.
-1720210|LMP|Thank you, John. Appreciate the words Jose. But we also appreciate your helping to get us this far.
+1720210|CDR|Thank you, John. Appreciate the words Jose. But we also appreciate your helping to get us this far.
 1720222|CC|Roger; Neil.
 1720223|CDR|Hey, you know in - in all those things you tell people - Was that Charlie? I haven't heard your voice since - you know all those good things you tell us about dust and all those other things, you know, you believe them all just like everybody else does - but you've just got to come out here and experience it for yourself to really be a believer.
 1720247|CC|Yes, well I take it back about it all looks the same.
@@ -24393,7 +24402,7 @@
 1720327|LMP|Thank you, Charlie and thank you for all the help.
 1720332|CDR|Hey, Charlie I remember a long time ago when I said something about being down among them. I didn't know what it was until we got here.
 1720345|CC|And, Challenger we have a good word from the old program managers even though you guys were pretty piggy there in bringing rocks back, we're going to let you keep them all. You only busted the red line by 40 pounds.
-1720402|LMP|Okay, he's a pretty good guy anyway.
+1720402|CDR|Okay, he's a pretty good guy anyway.
 1720406|CC|That assumes your good buddy upstairs gets a good plane change tomorrow.
 1720415|LMP|Oh, he will and I tell you Gene and I both have lost 20 pounds apiece on this mission.
 1720423|CC|We can believe that.
@@ -24401,7 +24410,7 @@
 1720431|LMP|Hey, we're on VOX anyway - let's go to ICS/PTT.
 1720435|CC|It's safer that way.
 1720440|CDR|Yes, specially when you don't know you're talking.
-1720451|LMP|Okay, we came to the end of the EVA-3 prep and post card.
+1720451|CDR|Okay, we came to the end of the EVA-3 prep and post card.
 1720500|CC|Roger. We're following you to the surface checklist.
 1720501|CDR|Hey Jack and I are going to frame this - Jack and I are going to frame this page 2-3, cut it down the middle and each take half.
 1720517|LMP|I'm going to take the front half. Gene will take the back half.
@@ -24419,7 +24428,7 @@
 1721122|LMP|He doesn't know anything about the LM. He doesn't know anything about the LM.
 1721134|CC|It's never too late to learn.
 1721141|LMP|For you, I believe that; for a lot of people, I wouldn't.
-1721148|CDR|Welcome aboard, Ken.
+1721148|LMP|Welcome aboard, Ken.
 1721151|CC|You guys make a pretty interesting show to watch.
 1721203|LMP|I hope so.
 1721226|LMP|All I can do is hear your breathing, Ken.
@@ -28816,9 +28825,9 @@
 2314117|CC|That's right. This will be the undefeated season if they hack it.
 2314156|CMP|Houston, America. I think I mentioned - a couple or 3 days ago that - however, when we first got up here - that I had a heck of a time seeing that Tycho ray that goes out across Bessel. And I forgot to tell you that yesterday, kind of for the first time, it really started showing up when we were getting up in the higher Sun. And today, it really shows up quite vividly. It's just a ray that takes off from the edge of Crisium and goes right across Bessel and goes out to about the middle of Crisium - I don't mean Crisium, I mean Serenitatis, I was talking about Serenitatis all the time.
 2314234|CC|Roger.
-2314252|LMP|Say, Bob. Those craters on the south-western side of Serenitatis still have got that orange hue at this Sun angle, and that's with the naked eye.
+2314252|CDR|Say, Bob. Those craters on the south-western side of Serenitatis still have got that orange hue at this Sun angle, and that's with the naked eye.
 2314303|CC|Roger. These are the ones right in the Sulpicius Gallus region?
-2314317|LMP|Yes.
+2314317|CDR|Yep.
 2314442|CMP|And, Houston; 166 and 167 were taken of a crater that looks like it's got a reddish dike in it and it's on - in the - again in the Haemus Mountains to the west of Sulpicius Gallus.
 2314501|LMP|Houston, a little more on that. It's an impact crater with a line essentially across the diameter in a east-west direction, maybe a little bit north of west direction and the ejecta to the north of that - just went under us - the ejecta to the north of the line is the orange - actually more red-brown than orange, although there are both hues in it - -
 2314532|CC|Roger, Jack. Can you give us some scale on that crater?
@@ -29257,14 +29266,14 @@
 2370110|CC|Roger. We got those.
 2370114|LMP|And, Gordy, the unbalance is about 30 pounds, and oxidizer is 2.8 and fuel 2.9, and I blew FULL DECREASE the whole burn.
 2370124||Roger, Jack.
-2370138|CMP|How's the picture look, Gordy?
+2370138|CDR|How's the picture look, Gordy?
 2370140|CC|Real fine.
 2370146|PAO|This view looking back across the lunar far side at the highlands.
 2370150|CDR|I'd tell you exactly what we're looking at, but I can't quite see it,
 2370207|LMP|Gordy, the country Gene's pointing out, is south of the orbit that we've been following for several days, and Ron, even more than Gene and I. And it's some of the striking country of the far side of the Moon that human beings don't very often have a chance to see, but a trend's been started in the last few years, and I suspect it will continue.
 2370238|CC|Roger, Jack.
-2370254|CMP|Gordy, America performed superbly.
-2370254|CC|America, Houston. We need PAIS CAMERA OPERATE, now.
+2370254|CDR|Gordy, America performed superbly.
+2370254|CC|America, Houston. We need PAN CAMERA OPERATE, now.
 2370302|LMP|Thank you. PAN CAMERA going to OPERATE.
 2370310|CC|And can you verify that you got the other SIM bay items that precede that?
 2370317|LMP|We're verifying that right now.
@@ -29281,21 +29290,21 @@
 2370540|LMP|Okay. And for - for your - -
 2370541|CC|- - if you can figure out a way to hold it a little steadier, that would help, but we're getting good resolution.
 2370549|CDR|Okay, Gordo, I'm working on it. You'd think a guy that's been there for however many days we've been there could find it, don't you?
-2370600|CMP|When you see Tsiolkovsky south, the central peaks form an arrow that points south, Gordy.
+2370600|LMP|When you see Tsiolkovsky south, the central peaks form an arrow that points south, Gordy.
 2370658|PAO|If you look closely at the northeast rim of Tsiolkovsky, you'll see a large landslide that Al Warden first described on Apollo 15. The crew now moving the camera apparently to a different window. Apollo 17 now at an altitude of 825 nautical miles.
 2370734|CC|America, Houston. Your altitude right now is 820 - 835 miles. Over.
 2370747|CDR|Okay, 835 miles. And climbing out like a dingbat.
 2370801|PAO|North is now at the bottom of this picture.
-2370801|LMP|Frames 5 through 20 were taken on mag Papa Papa, at that altitude.
+2370801|CMP|Frames 5 through 20 were taken on mag Papa Papa, at that altitude.
 2370808|CC|Okay, Ron.
 2370815|CMP|There's Smythii down there. I finally figured out where we are. Right down underneath the window. I can see it now.
 2370828|LMP|Gordy, as far as we can, we'll try to run you a little bit along the orbital track. I'll be panning the camera more or less westward. Tsiolkovsky starting and Tsiolkovsky is itself in the crater Fermi, and moving on to the east, the next big pair of craters that we spent some time studying is Hilbert, which is just south, is right there, and just a little bit northwest of there is Pasteur.
 2370911|CC|Roger, Jack.
 2370921|LMP|Both Hilbert and Pasteur appear to be very old basins, much older than Tsiolkovsky and they have, as yon can see, a fill in them, apparent fill - very flat-looking at this distance, end very light colored. It's an event on the Moon of which we have relatively little understanding at this time, but possibly the Apollo 16 results, when they're fully known, through the analysis of the samples and other data, may shed some light on that event.
 2370956|CC|Roger, Sorry to - -
-2370958|CDR|Hey, look here - ... - -
+2370958|CMP|Hey, look here - ... - -
 2370959|CC|- - interrupt, but we'd like PAN CAMERA, OFF; now. PAN CAMERA. STANDBY, rather.
-2371002|CDR|- - That's a full circle.
+2371002|CMP|- - That's a full circle.
 2371008|LMP|Okay, STANDBY. Now we're going to be able to pan a little bit more east now of Pasteur and start to show the crater Smythii, the basin Smythii really. It's one of the older large basins on the Moon. It has none of the obvious features of big basins such as Imbrium or Serenitatis. But it's nevertheless roughly circular, has a mare fill, and a very - I'm pointing right now to the hint of a second ring outside, but the main ring is the one Ron's talked to you a lot about, and has his double-ring craters in it. And we're pointing at some of those right now.
 2371057|CMP|Uh-huh.
 2371100|LMP|Okay, Houston, we can now see Tycho. We're seeing probably about 75 to 80 percent, of the entire Moon - face, anyway lit up. The rays of Tycho are very obvious from here. Want the camera over there, Gene?
@@ -32209,7 +32218,7 @@
 2802442|CMP|Haven't heard a - I haven't seen a thing, Bob. Can't understand it.
 2802447|CDR|Same here from the CDR. I haven't seen anything.
 2802449|CC|Roger. I understand. Your heart rates are down pretty low, like maybe you fell asleep or something.
-2802456|CMP|Oh, no. Well, the LMP dozed a couple of times but - I thought I saw one, Bob, but I'm not sure. I squinted hard about that time. I may have just triggered something.
+2802456|LMP|Oh, no. Well, the LMP dozed a couple of times but - I thought I saw one, Bob, but I'm not sure. I squinted hard about that time. I may have just triggered something.
 2802509|CC|Roger. Okay. We're just standing by.
 2802517|LMP|The last time we were in PTC, were we not?
 2802522|CC|Yes, you were, and that's one reason you had to copy it down, because we kept losing comm on you.

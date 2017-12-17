@@ -863,7 +863,10 @@
         <!-- <span class="TOCSubtitle"></span>--></li>
     
 <ul class="TOCli TOC2">
-        <li onclick="parent.seekToTime('2080809')" class="tocitem" id="tocid2080809"><span class="TOCTimestamp">208:08:09</span>
+        <li onclick="parent.seekToTime('2080203')" class="tocitem" id="tocid2080203"><span class="TOCTimestamp">208:02:03</span>
+        <span class="TOC_item">Mission Control reads the morning news to the crew</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('2080809')" class="tocitem" id="tocid2080809"><span class="TOCTimestamp">208:08:09</span>
         <span class="TOC_item">Flight Director, Gerry Griffin sends greetings and congratulations</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
     <li onclick="parent.seekToTime('2101723')" class="tocitem" id="tocid2101723"><span class="TOCTimestamp">210:17:23</span>
