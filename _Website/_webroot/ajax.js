@@ -11,7 +11,8 @@ $.when(
     ajaxGetTelemetryData(),
     ajaxCrewStatusData(),
     ajaxOrbitData(),
-    ajaxGeoData()).done(function(){
+    ajaxGeoData(),
+    ajaxPaperData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
         trace("APPREADY: Ajax loaded: " + gApplicationReady);
@@ -215,6 +216,23 @@ function ajaxGeoData() {
     });
 }
 
+function ajaxPaperData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/paperData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processPaperData(data);}
+    });
+}
 
 
 function processVideoURLData(allText) {
@@ -415,4 +433,29 @@ function processGeoData(allText) {
             gGeoData.push(tmpItem);
         }
     }
+}
+
+function processPaperData(allText) {
+    //console.log("processCrewStatusData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "Index") {
+            var tmpItem = [];
+            tmpItem[0] = data[0];
+            tmpItem[1] = data[1];
+            tmpItem[2] = data[2];
+            tmpItem[3] = data[3];
+            tmpItem[4] = data[4];
+            tmpItem[5] = data[5];
+            tmpItem[6] = data[6];
+            tmpItem[7] = data[7];
+            tmpItem[8] = data[8];
+            tmpItem[9] = data[9];
+            tmpItem[10] = data[10];
+            tmpItem[11] = data[11];
+            gPaperData.push(tmpItem);
+        }
+    }
+    console.log("processPaperData(): done")
 }

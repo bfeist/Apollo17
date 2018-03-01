@@ -67,6 +67,7 @@ var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
 var gGeoData = [];
+var gPaperData = [];
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -1504,7 +1505,15 @@ function updateGeosampleOverlay(geoDataIndex) {
     var sampleNumberArray = gGeoData[geoDataIndex][5].split("`");
 
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
-        var html = getGeosampleHTML(sampleNumberArray[counter]);
+
+        var paperHtml = "";
+        for (var paperCounter = 0; paperCounter < gPaperData.length; paperCounter++) {
+            if (gPaperData[paperCounter][10].includes(sampleNumberArray[counter])) {
+                paperHtml = paperHtml + gPaperData[paperCounter][3] + "<BR>";
+            }
+        }
+
+        var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml);
         geosampleTable.append(html);
         jQuery.ajax({
             url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
@@ -1535,11 +1544,12 @@ function updateGeosampleOverlay(geoDataIndex) {
     }
 }
 
-function getGeosampleHTML(samplenumber) {
+function getGeosampleHTML(samplenumber, paperHtml) {
     //trace("getUtteranceObjectHTML():" + utteranceIndex);
     var html = $('#geosampleTemplate').html();
 
     html = html.replace(/@samplenumber/g, samplenumber);
+    html = html.replace(/@papers/g, paperHtml);
     return html;
 }
 
