@@ -1507,11 +1507,14 @@ function updateGeosampleOverlay(geoDataIndex) {
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
 
         var paperHtml = "";
-        for (var paperCounter = 0; paperCounter < gPaperData.length; paperCounter++) {
-            if (gPaperData[paperCounter][10].includes(sampleNumberArray[counter])) {
-                paperHtml = paperHtml + gPaperData[paperCounter][3] + "<BR>";
+        var papersFound = false;
+        for (var paperCounter = 0; paperCounter < gPaperData.length - 1; paperCounter++) {
+            if (gPaperData[paperCounter][9].includes(sampleNumberArray[counter])) {
+                paperHtml = paperHtml + gPaperData[paperCounter][2] + "<BR>";
             }
         }
+
+
 
         var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml);
         geosampleTable.append(html);

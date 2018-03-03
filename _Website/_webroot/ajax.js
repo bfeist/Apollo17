@@ -440,20 +440,18 @@ function processPaperData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "Index") {
+        if (data[0] != "Bibcode") {
             var tmpItem = [];
-            tmpItem[0] = data[0];
-            tmpItem[1] = data[1];
-            tmpItem[2] = data[2];
-            tmpItem[3] = data[3];
-            tmpItem[4] = data[4];
-            tmpItem[5] = data[5];
-            tmpItem[6] = data[6];
-            tmpItem[7] = data[7];
-            tmpItem[8] = data[8];
-            tmpItem[9] = data[9];
-            tmpItem[10] = data[10];
-            tmpItem[11] = data[11];
+            tmpItem[0] = data[0]; // bibcode
+            tmpItem[1] = data[1]; // Year
+            tmpItem[2] = data[2]; // Title
+            tmpItem[3] = data[3]; // Authors
+            tmpItem[4] = data[4]; // Publication
+            tmpItem[5] = data[5]; // Volume
+            tmpItem[6] = data[6]; // Issue
+            tmpItem[7] = data[7]; // Page
+            tmpItem[8] = data[8]; // Abstract
+            tmpItem[9] = data[9]; // Samples
             gPaperData.push(tmpItem);
         }
     }
