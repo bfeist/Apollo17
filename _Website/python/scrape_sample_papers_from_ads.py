@@ -1,4 +1,6 @@
-# step one of two. Step to is to run create_papers_datafile.py
+# step one of three.
+# Step two is to run scrape_sample_papers_from_curation.py
+# Step three is to run create_papers_datafile.py
 # this scripts scrapes the ads database search for the term "apollo" plus a given sample number.
 # the results are stored in separate csv files, one for each sample number
 
@@ -65,7 +67,28 @@ for sample_number in sample_numbers:
                         firstPage = False
                     else:
                         pageText = pageText + ", " + pg
-            papers_text_records = papers_text_records + paper.bibcode + "|" + paper.year + "|" + paper.title[0] + "|" + authorText + "|" + xstr(paper.pub) + "|" + xstr(paper.volume) + "|" + xstr(paper.issue) + "|" + pageText + "|" + paper.abstract + "|" + "http://dx.doi.org/" + xstr(paper.doi[0]) + "\n"
+
+            doiText = ""
+            firstDoi = True
+            if paper.doi != None:
+                for doi in paper.doi:
+                    if firstDoi:
+                        doiText = "http://dx.doi.org/" + doi
+                        firstDoi = False
+
+            # papers_text_records = papers_text_records + paper.bibcode + "|" + paper.year + "|" + paper.title[0] + "|" + authorText + "|" + xstr(paper.pub) + "|" + xstr(paper.volume) + "|" + xstr(paper.issue) + "|" + pageText + "|" + paper.abstract + "|" + "http://dx.doi.org/" + xstr(paper.doi[0]) + "\n"
+
+            papers_text_records = papers_text_records + paper.bibcode + "|"
+            papers_text_records = papers_text_records + paper.year + "|"
+            papers_text_records = papers_text_records + paper.title[0] + "|"
+            papers_text_records = papers_text_records + authorText + "|"
+            papers_text_records = papers_text_records + xstr(paper.pub) + "|"
+            papers_text_records = papers_text_records + xstr(paper.volume) + "|"
+            papers_text_records = papers_text_records + xstr(paper.issue) + "|"
+            papers_text_records = papers_text_records + pageText + "|"
+            papers_text_records = papers_text_records + paper.abstract + "|"
+            papers_text_records = papers_text_records + doiText
+            papers_text_records = papers_text_records + "\n"
             counter = counter + 1
         # if counter > 0:
         outputFile = open(outputFilePath + sample_number + ".csv", "w", encoding="utf-8")

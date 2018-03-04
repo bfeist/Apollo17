@@ -148,10 +148,10 @@
 
 <script type="text/html" id="geosampleTemplate">
     <div>
-        <a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Sample Number @samplenumber</a>
+        <a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Sample Number: @samplenumber</a>
     </div>
-    <div>Papers: @papers</div>
     <div class="geoImages" id="geoImages@samplenumber"></div>
+    <div class="geoPapers" id="geoPapers@samplenumber">@papers</div>
     <hr>
 </script>
 

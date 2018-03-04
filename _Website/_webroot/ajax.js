@@ -451,7 +451,8 @@ function processPaperData(allText) {
             tmpItem[6] = data[6]; // Issue
             tmpItem[7] = data[7]; // Page
             tmpItem[8] = data[8]; // Abstract
-            tmpItem[9] = data[9]; // Samples
+            tmpItem[9] = data[9]; // DOI
+            tmpItem[10] = data[10]; // Samples
             gPaperData.push(tmpItem);
         }
     }

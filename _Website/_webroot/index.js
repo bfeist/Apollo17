@@ -1507,17 +1507,57 @@ function updateGeosampleOverlay(geoDataIndex) {
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
 
         var paperHtml = "";
+        var firstPapersIteration = true;
         var papersFound = false;
         for (var paperCounter = 0; paperCounter < gPaperData.length - 1; paperCounter++) {
-            if (gPaperData[paperCounter][9].includes(sampleNumberArray[counter])) {
-                paperHtml = paperHtml + gPaperData[paperCounter][2] + "<BR>";
+            if (gPaperData[paperCounter][10].includes(sampleNumberArray[counter])) {
+                papersFound = true;
+                if (firstPapersIteration) {
+                    paperHtml = paperHtml + "<div class='geoPapersTitle'>Published scientific papers that reference sample number " + sampleNumberArray[counter] + "</div>\n";
+                    paperHtml = paperHtml + "<table class='geoPapersTable'><thead><tr>" +
+                        "<th>Year</th>" +
+                        "<th>Title</th>" +
+                        "<th>Authors</th>" +
+                        "<th>Journal</th>" +
+                        "</tr></thead><tbody>\n";
+                    firstPapersIteration = false;
+                }
+                var journalString = gPaperData[paperCounter][4];
+                if (gPaperData[paperCounter][5] !== "") journalString = journalString + ", Vol. " + gPaperData[paperCounter][5];
+                if (gPaperData[paperCounter][6] !== "") journalString = journalString + ", Issue " + gPaperData[paperCounter][6];
+                if (gPaperData[paperCounter][7] !== "") journalString = journalString + ", Page " + gPaperData[paperCounter][7];
+
+                var linkURL = "";
+                if (gPaperData[paperCounter][9] !== "") { //use DOI link if available
+                    linkURL = gPaperData[paperCounter][9];
+                } else if (gPaperData[paperCounter][0] !== "") { // if no DOI, use Bibcode link to ADS if available
+                    linkURL = "https://ui.adsabs.harvard.edu/#abs/" + gPaperData[paperCounter][0] + "/abstract";
+                } else { // fall back to using google scholar
+                    linkURL = "https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&q=" + gPaperData[paperCounter][1] + "+" + gPaperData[paperCounter][2]
+                    linkURL = linkURL.replace(' ', '+');
+                    linkURL = encodeURI(linkURL);
+                }
+
+                paperHtml = paperHtml + "<tr>" +
+                    "<td><a href='" + linkURL + "' target='_blank'>" + gPaperData[paperCounter][1] + "</a></td>" +
+                    "<td><a href='" + linkURL + "' target='_blank'>" + gPaperData[paperCounter][2] + "</a></td>" +
+                    "<td><a href='" + linkURL + "' target='_blank'>" + gPaperData[paperCounter][3] + "</a></td>" +
+                    "<td><a href='" + linkURL + "' target='_blank'>" + journalString + "</a></td>" +
+                    "</tr>\n";
             }
         }
-
-
+        if (!firstPapersIteration) {
+            paperHtml = paperHtml + "</tbody></table>\n"
+        }
 
         var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml);
         geosampleTable.append(html);
+
+        if (!papersFound) {
+            var element = document.getElementById("geoPapers" + sampleNumberArray[counter]);
+            element.remove();
+        }
+
         jQuery.ajax({
             url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {

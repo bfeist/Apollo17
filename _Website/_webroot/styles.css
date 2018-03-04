@@ -2074,6 +2074,82 @@ img.aspect-holder {
     font-size: 0.9em;
 }
 
+.geoPapers {
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0px;
+    margin: 5px;
+    border: 2px solid #84b8d9;
+    border-radius:10px;
+}
+
+.geoPapersTitle {
+    font-size: 14px;
+    color: #eeeeee;
+    /*color: #84b8d9;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+table.geoPapersTable {
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: #000000;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0px;
+    margin-bottom: 5px;
+}
+
+table.geoPapersTable a {
+    color: #84b8d9;
+    text-decoration: none;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1em;
+}
+
+table.geoPapersTable a:hover {
+    text-decoration: underline;
+}
+
+table.geoPapersTable td, table.geoPapersTable th {
+    border: 0px solid #0a0a0a;
+    padding: 3px 3px;
+    border-bottom: 1px solid #4A4A4A;
+}
+table.geoPapersTable tbody td {
+    font-size: 13px;
+    color: #84b8d9;
+    vertical-align: top;
+    border-left: 1px solid #4A4A4A;
+}
+
+table.geoPapersTable td:first-child {
+    border-left: none;
+}
+
+table.geoPapersTable tr:last-child td {
+    border-bottom: none;
+}
+table.geoPapersTable tr:nth-child(even) {
+    background: #0a0a0a;
+}
+
+table.geoPapersTable thead {
+    background: #000000;
+}
+table.geoPapersTable thead th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #aaaaaa;
+    text-align: left;
+    border-left: 1px solid #4A4A4A;
+    border-top: 1px solid #4A4A4A;
+}
+
+table.geoPapersTable th:first-child {
+    border-left: 0px;
+}
+
 .aspect-4x3:backgr {
   background-color: #FCF;
   background-repeat: no-repeat;
