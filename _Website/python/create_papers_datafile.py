@@ -11,6 +11,7 @@ dedupedAdsPaperArray = []
 curationPaperArray = []
 dedupedCurationPaperArray = []
 masterPaperArray = []
+dedupedSortedMasterPaperArray = []
 
 # get ADS papers from csv files and concat them into a single array of arrays
 
@@ -108,6 +109,16 @@ masterPaperArray = dedupedCurationPaperArray + dedupedAdsPaperArray
 # sort papers by date
 sortedMasterPaperArray = sorted(masterPaperArray, key=operator.itemgetter(2), reverse=True)
 
+# de-dupe master array
+seen = set()
+uniq = []
+for paper in sortedMasterPaperArray:
+    searchTerm = paper[2] + paper[3]
+    if searchTerm not in seen:
+        uniq.append(searchTerm)
+        seen.add(searchTerm)
+        dedupedSortedMasterPaperArray.append(paper)
+
 # write a new sample datafile
 output_datafile = open(outputFilePath, "w")
 output_datafile.write("")
@@ -116,7 +127,7 @@ output_datafile.close()
 output_datafile = open(outputFilePath, "a")
 
 output_datafile.write("Bibcode|Year|Title|Authors|Publication|Volume|Issue|Page|Abstract|DOI|Samples\n")
-for paper in sortedMasterPaperArray:
+for paper in dedupedSortedMasterPaperArray:
     output_datafile.write(paper[1] + "|" +  # bibcode
                           paper[2] + "|" +  # Year
                           paper[3] + "|" +  # Title
