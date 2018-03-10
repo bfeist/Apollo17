@@ -1987,9 +1987,17 @@ img.aspect-holder {
 }
 
 .geosample-overlay a {
+    color: #aaaaaa;
+}
+
+.geosample-overlay-samplenum {
     font-family: 'Oswald',sans-serif;
     font-size: 1.3em;
     color: #aaaaaa;
+}
+
+.geosample-overlay-samplenum-digits {
+    color: #FFC688;
 }
 
 .geosample-overlay img {

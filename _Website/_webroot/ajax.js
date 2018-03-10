@@ -12,6 +12,7 @@ $.when(
     ajaxCrewStatusData(),
     ajaxOrbitData(),
     ajaxGeoData(),
+    ajaxGeoCompendiumData(),
     ajaxPaperData()).done(function(){
         // the code here will be executed when all ajax requests resolve.
         gApplicationReady += 1;
@@ -216,6 +217,24 @@ function ajaxGeoData() {
     });
 }
 
+function ajaxGeoCompendiumData() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+        //var cdnNum = getRandomInt(1, 5);
+        var cdnNum = '';
+        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/geoCompendiumData.csv";
+    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processGeoCompendiumData(data);}
+    });
+}
+
 function ajaxPaperData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
@@ -403,7 +422,7 @@ function processCrewStatusData(allText) {
 }
 
 function processOrbitData(allText) {
-    //console.log("processCrewStatusData()");
+    //console.log("processOrbitData()");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
@@ -418,7 +437,7 @@ function processOrbitData(allText) {
 }
 
 function processGeoData(allText) {
-    //console.log("processCrewStatusData()");
+    //console.log("processGeoData()");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
@@ -435,8 +454,22 @@ function processGeoData(allText) {
     }
 }
 
+function processGeoCompendiumData(allText) {
+    //console.log("processGeoCompendiumData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] != "") {
+            var tmpItem = [];
+            tmpItem[0] = data[0];
+            tmpItem[1] = data[1];
+            gGeoCompendiumData.push(tmpItem);
+        }
+    }
+}
+
 function processPaperData(allText) {
-    //console.log("processCrewStatusData()");
+    //console.log("processPaperData()");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');

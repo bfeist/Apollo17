@@ -67,6 +67,7 @@ var gPhotoDataLookup = [];
 var gMissionStages = [];
 var gVideoSegments = [];
 var gGeoData = [];
+var gGeoCompendiumData = [];
 var gPaperData = [];
 
 //load the youtube API
@@ -1505,7 +1506,6 @@ function updateGeosampleOverlay(geoDataIndex) {
     var sampleNumberArray = gGeoData[geoDataIndex][5].split("`");
 
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
-
         var paperHtml = "";
         var firstPapersIteration = true;
         var papersFound = false;
@@ -1550,13 +1550,28 @@ function updateGeosampleOverlay(geoDataIndex) {
             paperHtml = paperHtml + "</tbody></table>\n"
         }
 
-        var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml);
+        var compendiumHtml = "";
+        for (var compendiumCounter = 0; compendiumCounter < gGeoCompendiumData.length; compendiumCounter++) {
+            if (gGeoCompendiumData[compendiumCounter][1].includes(sampleNumberArray[counter])) {
+                var compendiumSampleNumber = gGeoCompendiumData[compendiumCounter][0];
+                compendiumHtml = '<span class="geosample-overlay-samplenum" id="geoSampleCompendium@samplenumber"> - <a href="http://curator.jsc.nasa.gov/lunar/lsc/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Compendium (PDF)</a></span>';
+                break;
+            }
+        }
+
+
+        var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml, compendiumHtml);
         geosampleTable.append(html);
 
         if (!papersFound) {
             var element = document.getElementById("geoPapers" + sampleNumberArray[counter]);
             element.remove();
         }
+
+        // if (compendiumHtml == "") {
+        //     element = document.getElementById("geoSampleCompendium" + sampleNumberArray[counter]);
+        //     element.remove();
+        // }
 
         jQuery.ajax({
             url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
@@ -1587,12 +1602,13 @@ function updateGeosampleOverlay(geoDataIndex) {
     }
 }
 
-function getGeosampleHTML(samplenumber, paperHtml) {
+function getGeosampleHTML(samplenumber, paperHtml, compendiumHtml) {
     //trace("getUtteranceObjectHTML():" + utteranceIndex);
     var html = $('#geosampleTemplate').html();
 
     html = html.replace(/@samplenumber/g, samplenumber);
     html = html.replace(/@papers/g, paperHtml);
+    html = html.replace(/@geocompendium/g, compendiumHtml);
     return html;
 }
 

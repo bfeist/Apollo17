@@ -16607,7 +16607,7 @@
 1443734|CDR|Okay -
 1443734|CDR|MARK it.
 1443736|CC|Copy that.
-1443739|CDR|And 521 is the sample bag.
+1443739|LMP|And 521 is the sample bag.
 1443745|CC|Copy that.
 1443802|CDR|Well, the first core has gone down pretty good, Bob.
 1443805|CC|Okay, great.
@@ -16632,11 +16632,12 @@
 1444050|CC|Okay. And don't forget to put your little note in the long can there.
 1444100|CDR|Oh, I'll get the note in there. I'll get it in there. Nobody will ever know.
 1444130|PAO|Gene Cernan extracting the drive tube.
-1444143|CDR|Okay, Bob, our 524 is what I think is a blue-gray rock probably the breccia. It's got a little dust cover.
+1444143|LMP|Okay, Bob, 524 is what I think is a blue-gray rock probably the breccia. It's got a little dust cover.
 1444153|CC|Copy that.
-1444154|CDR|From just off the rim of this little crater.
+1444154|LMP|From just off the rim of this little crater.
 1444202|CC|Okay, copy that. It's a blue-gray rock, it's not part of the trench, right? You finish with the trench?
-1444209|CDR|Yes. If you see, Bob, it's full. See that?
+1444209|LMP|Yes.
+1444210|CDR|If you see it, Bob, it's full. See that?
 1444214|CC|Roger. We see a long thing in your hand there, Gene.
 1444230|LMP|Well, I didn't think that was supposed to happen.
 1444236|CDR|And I'd know, Jack? Shoot! Thought I had them on the Rover.
