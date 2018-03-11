@@ -1990,16 +1990,6 @@ img.aspect-holder {
     color: #aaaaaa;
 }
 
-.geosample-overlay-samplenum {
-    font-family: 'Oswald',sans-serif;
-    font-size: 1.3em;
-    color: #aaaaaa;
-}
-
-.geosample-overlay-samplenum-digits {
-    color: #FFC688;
-}
-
 .geosample-overlay img {
     border: 0;
 }
@@ -2009,10 +1999,11 @@ img.aspect-holder {
     font-size: 1.5em;
     /*color: rgba(215, 160, 108, 1);*/
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .geosample-overlay hr {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     margin-bottom: 10px;
     border: 0;
     /*border-top: 2px solid rgba(215, 160, 108, 1);*/
@@ -2071,6 +2062,24 @@ img.aspect-holder {
     text-indent: 0;
 }
 
+.geosample-overlay .sampletitle {
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.3em;
+    color: #FFC688;
+    margin-bottom: 10px;
+}
+
+.geosample-overlay .sampletitle a {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 0.8em;
+}
+
+/*.geosample-overlay-samplenum {*/
+/*font-family: 'Oswald',sans-serif;*/
+/*font-size: 1.3em;*/
+/*color: #FFC688;*/
+/*}*/
+
 #geosampleDiv {
     overflow-y: scroll;
     position: relative;
@@ -2097,6 +2106,10 @@ img.aspect-holder {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.geoPapersTitle .samplenum {
+    color: #FFC688;
 }
 
 table.geoPapersTable {

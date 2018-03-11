@@ -147,9 +147,9 @@
 </script>
 
 <script type="text/html" id="geosampleTemplate">
-    <div>
-        <span class="geosample-overlay-samplenum">Sample <span class="geosample-overlay-samplenum-digits">@samplenumber</span>  - </span>
-        <span class="geosample-overlay-samplenum"><a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Lunar Sample Curation Info</a></span>
+    <div class="sampletitle">
+        <span>Sample <span>@samplenumber</span> - </span>
+        <span><a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Lunar Sample Curation Info</a></span>
         @geocompendium
     </div>
     <div class="geoImages" id="geoImages@samplenumber"></div>

@@ -1513,7 +1513,7 @@ function updateGeosampleOverlay(geoDataIndex) {
             if (gPaperData[paperCounter][10].includes(sampleNumberArray[counter])) {
                 papersFound = true;
                 if (firstPapersIteration) {
-                    paperHtml = paperHtml + "<div class='geoPapersTitle'>Published scientific papers that reference sample number " + sampleNumberArray[counter] + "</div>\n";
+                    paperHtml = paperHtml + "<div class='geoPapersTitle'>Published scientific papers that reference <span class='samplenum'>Sample " + sampleNumberArray[counter] + "</span></div>\n";
                     paperHtml = paperHtml + "<table class='geoPapersTable'><thead><tr>" +
                         "<th>Year</th>" +
                         "<th>Title</th>" +
@@ -1554,7 +1554,7 @@ function updateGeosampleOverlay(geoDataIndex) {
         for (var compendiumCounter = 0; compendiumCounter < gGeoCompendiumData.length; compendiumCounter++) {
             if (gGeoCompendiumData[compendiumCounter][1].includes(sampleNumberArray[counter])) {
                 var compendiumSampleNumber = gGeoCompendiumData[compendiumCounter][0];
-                compendiumHtml = '<span class="geosample-overlay-samplenum" id="geoSampleCompendium@samplenumber"> - <a href="http://curator.jsc.nasa.gov/lunar/lsc/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Compendium (PDF)</a></span>';
+                compendiumHtml = '<span> - <a href="http://curator.jsc.nasa.gov/lunar/lsc/' + compendiumSampleNumber + '.pdf" target="geoImage">Lunar Sample Compendium (PDF)</a></span>';
                 break;
             }
         }
@@ -1574,7 +1574,7 @@ function updateGeosampleOverlay(geoDataIndex) {
         // }
 
         jQuery.ajax({
-            url: './indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
+            url: '/indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {
                 if (data.isOk == false) {
                     alert(data.message);
