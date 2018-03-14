@@ -2062,11 +2062,21 @@ img.aspect-holder {
     text-indent: 0;
 }
 
+.geosample-overlay .sampleframe {
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0px;
+    margin: 5px;
+    border: 2px solid #84b8d9;
+    border-radius:10px;
+}
+
 .geosample-overlay .sampletitle {
     font-family: 'Oswald',sans-serif;
     font-size: 1.3em;
     color: #FFC688;
-    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #4A4A4A;
 }
 
 .geosample-overlay .sampletitle a {
@@ -2074,11 +2084,64 @@ img.aspect-holder {
     font-size: 0.8em;
 }
 
-/*.geosample-overlay-samplenum {*/
-/*font-family: 'Oswald',sans-serif;*/
-/*font-size: 1.3em;*/
-/*color: #FFC688;*/
-/*}*/
+.geosample-overlay .samplesubtitle {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #eeeeee;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #4A4A4A;
+}
+
+table.sampleinfotable {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    /*padding-bottom: 10px;*/
+    border-bottom: 2px solid #4A4A4A;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.sampleinfotable td {
+    color: #84b8d9;
+    vertical-align: top;
+    border-left: 1px solid #4A4A4A;
+    /*padding-right: 5px;*/
+    /*padding-left: 5px;*/
+    padding: 3px 3px;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+table.sampleinfotable td:first-child {
+    color: #aaaaaa;
+    text-align: right;
+    border-left: none;
+    padding-right: 5px;
+    width: 15%;
+}
+
+table.sampleinfotable td:nth-child(3) {
+    color: #aaaaaa;
+    text-align: right;
+    border-left: none;
+}
+
+table.sampleinfotable tr:last-child td {
+    border-bottom: none;
+}
+table.sampleinfotable tr:nth-child(even) {
+    background: #0a0a0a;
+}
+
+.geosample-overlay .sampleimagessubtitle {
+    font-size: 1.1em;
+    color: #eeeeee;
+    /*color: #84b8d9;*/
+    border-bottom: 2px solid #4A4A4A;
+    padding: 5px;
+    text-align: center;
+}
 
 #geosampleDiv {
     overflow-y: scroll;
@@ -2094,15 +2157,16 @@ img.aspect-holder {
 .geoPapers {
     font-family: 'Roboto Mono', sans-serif;
     padding: 0px;
-    margin: 5px;
-    border: 2px solid #84b8d9;
-    border-radius:10px;
+    /*margin: 5px;*/
+    /*border: 2px solid #d92b1c;*/
+    /*border-radius:10px;*/
 }
 
 .geoPapersTitle {
-    font-size: 14px;
+    font-size: 1.1em;
     color: #eeeeee;
     /*color: #84b8d9;*/
+    border-top: 2px solid #4A4A4A;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;

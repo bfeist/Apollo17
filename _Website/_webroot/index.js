@@ -1506,6 +1506,7 @@ function updateGeosampleOverlay(geoDataIndex) {
     var sampleNumberArray = gGeoData[geoDataIndex][5].split("`");
 
     for (var counter = 0; counter < sampleNumberArray.length; counter++) {
+        // add papers table
         var paperHtml = "";
         var firstPapersIteration = true;
         var papersFound = false;
@@ -1550,6 +1551,7 @@ function updateGeosampleOverlay(geoDataIndex) {
             paperHtml = paperHtml + "</tbody></table>\n"
         }
 
+        //add sample compendium link if exists
         var compendiumHtml = "";
         for (var compendiumCounter = 0; compendiumCounter < gGeoCompendiumData.length; compendiumCounter++) {
             if (gGeoCompendiumData[compendiumCounter][1].includes(sampleNumberArray[counter])) {
@@ -1559,10 +1561,10 @@ function updateGeosampleOverlay(geoDataIndex) {
             }
         }
 
-
         var html = getGeosampleHTML(sampleNumberArray[counter], paperHtml, compendiumHtml);
         geosampleTable.append(html);
 
+        // remove papers element if no papers
         if (!papersFound) {
             var element = document.getElementById("geoPapers" + sampleNumberArray[counter]);
             element.remove();
@@ -1573,6 +1575,7 @@ function updateGeosampleOverlay(geoDataIndex) {
         //     element.remove();
         // }
 
+        //get sample images
         jQuery.ajax({
             url: '/indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {
@@ -1582,7 +1585,8 @@ function updateGeosampleOverlay(geoDataIndex) {
                 var sampleID = this.url.substring(this.url.length - 9, this.url.length - 4);
                 var allImages = data.split('|');
                 var geoImagesDivSelector = $("#geoImages" + sampleID);
-                html = '<ul class="flex-container">';
+                html = '<div class="sampleimagessubtitle">Sample Photography</div>';
+                html = html + '<ul class="flex-container">';
 
                 for (var i = 0; i < allImages.length; i++) {
                     html = html + '<li><a href="https://curator.jsc.nasa.gov/lunar/samplecatalog/photoinfo.cfm?photo=' + allImages[i] + '" target="geoImage"><img src="https://curator.jsc.nasa.gov/lunar/samplecatalog/photos/thumbs/' + allImages[i] + '.jpg"></a></li>';
@@ -1592,6 +1596,60 @@ function updateGeosampleOverlay(geoDataIndex) {
                 //for (var i = 0; i < allImages.length; i++) {
                 //
                 //}
+            },
+            async: true
+        });
+
+        // get moondb info into sampleinfotable
+        jQuery.ajax({
+            url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
+            success: function (data) {
+                if (data.isOk == false) {
+                    alert(data.message);
+                }
+                var sampleID = this.url.substring(this.url.length - 5, this.url.length);
+                var moondbDivSelector = $("#moondb" + sampleID);
+                // var moondbhtml = JSON.stringify(data);
+                var moondbhtml = "<table class='sampleinfotable'>" +
+                    "<tr>" +
+                    "<td>Specimen Name</td>" +
+                    "<td>" + (data.specimenName != null ? data.specimenName : '') + "</td>" +
+                    "<td>Lunar Station</td>" +
+                    "<td>" + (data.lunarStation != null ? data.lunarStation : '') + "</td></tr>\n";
+
+                moondbhtml = moondbhtml +
+                    "<tr>" +
+                    "<td>Specimen Type</td>" +
+                    "<td>" + (data.specimenType != null ? data.specimenType : '') + "</td>" +
+                    "<td>Return Container</td>" +
+                    "<td>" + (data.returnContainer != null ? data.returnContainer : '') + "</td></tr>\n";
+
+                moondbhtml = moondbhtml +
+                    "<tr>" +
+                    "<td>Sampling Technique</td>" +
+                    "<td>" + (data.samplingTechnique != null ? data.samplingTechnique : '') + "</td>" +
+                    "<td>Weight</td>" +
+                    "<td>" + (data.weight != null ? data.weight : '') + "</td></tr>\n";
+
+                moondbhtml = moondbhtml +
+                    "<tr>" +
+                    "<td>Landmark</td>" +
+                    "<td>" + (data.landmark != null ? data.landmark : '') + "</td>" +
+                    "<td>Pristinity</td>" +
+                    "<td>" + (data.pristinity != null ? data.pristinity : '') + " (" + (data.pristinityDate != null ? data.pristinityDate : '') + ")</td></tr>\n";
+
+                moondbhtml = moondbhtml +
+                    "<tr>" +
+                    "<td>Description</td>" +
+                    "<td colspan='3'>" + (data.description != null ? data.description : '') + "</td>" +
+                    "</tr>\n";
+
+                moondbhtml = moondbhtml +
+                    "<tr>" +
+                    "<td>Child Specimens</td>" +
+                    "<td colspan='3'>" + data.childSpecimens.join(" ") + "</td>" +
+                    "</tr>\n";
+                moondbDivSelector.html(moondbhtml);
             },
             async: true
         });

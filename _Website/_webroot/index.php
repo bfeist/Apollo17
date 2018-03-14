@@ -147,14 +147,19 @@
 </script>
 
 <script type="text/html" id="geosampleTemplate">
-    <div class="sampletitle">
-        <span>Sample <span>@samplenumber</span> - </span>
-        <span><a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Lunar Sample Curation Info</a></span>
-        @geocompendium
+    <div class="sampleframe">
+        <div class="sampletitle">
+            <span>Sample <span>@samplenumber</span> - </span>
+            <span><a href='https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=@samplenumber' target='geoImage'>Lunar Sample Curation Info</a></span>
+            @geocompendium
+        </div>
+        <div class="samplesubtitle">
+            <a href="http://moondb.org" target="_blank"><img src="./img/moondb-logo.png" height="25px"></a> Sample Information
+        </div>
+        <div class="moondb" id="moondb@samplenumber"></div>
+        <div class="geoImages" id="geoImages@samplenumber"></div>
+        <div class="geoPapers" id="geoPapers@samplenumber">@papers</div>
     </div>
-    <div class="geoImages" id="geoImages@samplenumber"></div>
-    <div class="geoPapers" id="geoPapers@samplenumber">@papers</div>
-    <hr>
 </script>
 
 </html>
