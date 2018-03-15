@@ -1593,9 +1593,12 @@ function updateGeosampleOverlay(geoDataIndex) {
                 }
                 html = html + "</ul>";
                 geoImagesDivSelector.html(html);
-                //for (var i = 0; i < allImages.length; i++) {
-                //
-                //}
+            },
+            error: function (data) {
+                //remove images div if no images file containing image list is found
+                var sampleID = this.url.substring(this.url.length - 9, this.url.length - 4);
+                var element = document.getElementById("geoImages" + sampleID);
+                element.remove();
             },
             async: true
         });

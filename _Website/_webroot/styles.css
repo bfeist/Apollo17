@@ -2072,11 +2072,11 @@ img.aspect-holder {
 
 .geosample-overlay .sampletitle {
     font-family: 'Oswald',sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #FFC688;
     text-align: center;
     padding: 10px;
-    border-bottom: 2px solid #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
 }
 
 .geosample-overlay .sampletitle a {
@@ -2090,7 +2090,7 @@ img.aspect-holder {
     font-size: 1.1em;
     text-align: center;
     padding: 10px;
-    border-bottom: 2px solid #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
 }
 
 table.sampleinfotable {
@@ -2098,7 +2098,7 @@ table.sampleinfotable {
     font-size: 1em;
     text-align: left;
     /*padding-bottom: 10px;*/
-    border-bottom: 2px solid #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
     width: 100%;
     border-collapse: collapse;
 }
@@ -2128,7 +2128,7 @@ table.sampleinfotable td:nth-child(3) {
 }
 
 table.sampleinfotable tr:last-child td {
-    border-bottom: none;
+    /*border-bottom: none;*/
 }
 table.sampleinfotable tr:nth-child(even) {
     background: #0a0a0a;
@@ -2154,6 +2154,10 @@ table.sampleinfotable tr:nth-child(even) {
     font-size: 0.9em;
 }
 
+.geoImages {
+    border-bottom: 1px solid #4A4A4A;
+}
+
 .geoPapers {
     font-family: 'Roboto Mono', sans-serif;
     padding: 0px;
@@ -2166,7 +2170,7 @@ table.sampleinfotable tr:nth-child(even) {
     font-size: 1.1em;
     color: #eeeeee;
     /*color: #84b8d9;*/
-    border-top: 2px solid #4A4A4A;
+    /*border-top: 1px solid #4A4A4A;*/
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
