@@ -57,7 +57,7 @@ var gUtteranceDataLookup = [];
 var gCommentaryIndex = [];
 var gCommentaryData = [];
 var gCommentaryDataLookup = [];
-var gUttCommData = [];
+var gSearchData = [];
 var gTelemetryData = [];
 var gCrewStatusData = [];
 var gOrbitData = [];
@@ -1165,8 +1165,8 @@ function performSearch() {
     var searchText = $('#searchInputField').val().toLowerCase();
     searchResultsTable.html('');
     if (searchText.length > 1) {
-        for (var counter = 0; counter < gUttCommData.length; counter++) {
-            if ( gUttCommData[counter][3].toLowerCase().indexOf(searchText) != -1) {
+        for (var counter = 0; counter < gSearchData.length; counter++) {
+            if ( gSearchData[counter][3].toLowerCase().indexOf(searchText) != -1) {
                 var html = getSearchResultHTML(counter);
                 var searchResultTextIndex = html.toLowerCase().indexOf(searchText);
                 var foundWord = getWordAt(html, searchResultTextIndex);
@@ -1184,7 +1184,7 @@ function performSearch() {
 
 function getSearchResultHTML(searchArrayIndex) {
     //trace("getUtteranceObjectHTML():" + utteranceIndex);
-    var searchObject = gUttCommData[searchArrayIndex];
+    var searchObject = gSearchData[searchArrayIndex];
 
     var who_modified = searchObject[2];
     who_modified = who_modified.replace(/CDR/g, "Cernan");
@@ -1218,9 +1218,12 @@ function getSearchResultHTML(searchArrayIndex) {
     } else if (searchObject[4] == 1) { //1 for commentary
         html = html.replace(/@entrytypevar/g, "commentary");
         html = html.replace(/@entrytype/g, "Commentary");
-    } else { //2 for geosample
+    } else if (searchObject[4] == 2) { //2 for geosample
         html = html.replace(/@entrytypevar/g, "geology");
         html = html.replace(/@entrytype/g, "Geology Sample");
+    } else if (searchObject[4] == 3) { //3 for photo
+        html = html.replace(/@entrytypevar/g, "photo");
+        html = html.replace(/@entrytype/g, "Photo");
     }
     return html;
 }
@@ -1228,13 +1231,17 @@ function getSearchResultHTML(searchArrayIndex) {
 function searchResultClick(searchResultId, itemType) {
     toggleSearchOverlay();
     seekToTime(searchResultId);
-    if (itemType == "transcript" || itemType == "geology") {
+    if (itemType == "transcript" || itemType == "geology" || itemType == "photo") {
         activateTab("transcriptTab");
         scrollTranscriptToCurrMissionTime();
-    } else {
+    } else if (itemType == "commentary") {
         activateTab("commentaryTab");
         scrollCommentaryToCurrMissionTime();
+    } else if (itemType == "toc") {
+        activateTab("tocTab");
+        scrollTOCToCurrMissionTime();
     }
+
 }
 
 function updateDashboard(timeId) {

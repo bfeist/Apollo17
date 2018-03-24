@@ -351,7 +351,16 @@ function processVideoSegmentData(allText) {
 }
 
 function createSearchData() {
-    //gUttCommData = gUtteranceData.concat(gCommentaryData);
+    //gSearchData = gUtteranceData.concat(gCommentaryData);
+
+    /*
+    array info:
+    0 - timeId
+    1 - [unused]
+    2 - who
+    3 - words
+    4 - item type 0=utterance, 1=commentary, 2=geosample, 3=photo, 4=toc
+     */
     for (var counter = 0; counter < gUtteranceData.length; counter++) {
         var tmpItem = [];
         tmpItem[0] = gUtteranceData[counter][0];
@@ -359,12 +368,12 @@ function createSearchData() {
         tmpItem[2] = gUtteranceData[counter][1];
         tmpItem[3] = gUtteranceData[counter][2];
         tmpItem[4] = 0;
-        gUttCommData.push(tmpItem);
+        gSearchData.push(tmpItem);
     }
     for (counter = 0; counter < gCommentaryData.length; counter++) {
         tmpItem = gCommentaryData[counter];
         tmpItem[4] = 1;
-        gUttCommData.push(tmpItem);
+        gSearchData.push(tmpItem);
     }
     for (counter = 0; counter < gGeoData.length; counter++) {
         tmpItem = [];
@@ -374,10 +383,26 @@ function createSearchData() {
 
         tmpItem[3] = "Geology sample description: " + gGeoData[counter][1] + "; Sample bag: " + gGeoData[counter][2] + "; Sample Numbers: " + gGeoData[counter][5].replace(/`/g, ", ");
         tmpItem[4] = 2;
-        gUttCommData.push(tmpItem);
+        gSearchData.push(tmpItem);
+    }
+    for (counter = 0; counter < gPhotoData.length; counter++) {
+        var photoObject = gPhotoData[counter];
+        var photoTimeId = photoObject[0];
+        var filename = photoObject[1];
+        var magCode = photoObject[2];
+        var photographer = photoObject[3];
+        var description = photoObject[4];
+
+        tmpItem = [];
+        tmpItem[0] = photoTimeId;
+        tmpItem[1] = "";
+        tmpItem[2] = "";
+        tmpItem[3] = "Photo: " + filename + "; Mag: " + magCode + "; Photographer: " + photographer + "; Description: " + description;
+        tmpItem[4] = 3; //type 3 is photo
+        gSearchData.push(tmpItem);
     }
 
-    gUttCommData.sort(searchArraySortFunction);
+    gSearchData.sort(searchArraySortFunction);
 
     trace("whatever");
 }

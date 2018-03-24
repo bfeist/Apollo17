@@ -275,6 +275,9 @@
     <li onclick="parent.seekToTime('1134351')" class="tocitem" id="tocid1134351"><span class="TOCTimestamp">113:43:51</span>
         <span class="TOC_item">Post-landing Activities</span>
         <!-- <span class="TOCSubtitle"></span>--></li>
+    <li onclick="parent.seekToTime('1144111')" class="tocitem" id="tocid1144111"><span class="TOCTimestamp">114:41:11</span>
+        <span class="TOC_item">Lunch with questions from Mission Control</span>
+        <!-- <span class="TOCSubtitle"></span>--></li>
     </ul>
         <li onclick="parent.seekToTime('1151712')" class="tocitem" id="tocid1151712"><span class="TOCTimestamp">115:17:12</span>
         <span class="TOC_item">EVA-1 Prep</span>

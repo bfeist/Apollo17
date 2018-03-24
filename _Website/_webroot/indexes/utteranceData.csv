@@ -8156,10 +8156,11 @@
 1130144|CDR|Stand by for touchdown.
 1130145|LMP|Stand by. 25 feet, down at 2. Fuel's good. 20 feet. Going down at 2. 10 feet. 10 feet -
 1130200|LMP|CO - CONTACT.
-1130204|LMP|.. op, push. Engine stop; ENGINE ARM; PROCEED; COMMAND override, OFF; MODE CONTROL, ATT HOLD; PGNS, AUTO.
+1130204|LMP|Stop, push. Engine stop; ENGINE ARM; PROCEED; COMMAND override, OFF; MODE CONTROL, ATT HOLD; PGNS, AUTO.
 1130213|CDR|Okay, Houston, the Challenger has landed!
 1130217|CC|Roger, Challenger. That's super.
-1130219|LMP|Okay, Parker valves - Boy, you bet it is, Gordo.
+1130219|LMP|Okay, Parker valves.
+1130223|CDR|Boy, you bet it is, Gordo!
 1130228|CDR|Boy, when you said shut down, I shut down and we dropped, didn't we?
 1130231|LMP|Yes, sir. But we is here; man, is we here. How does that look?
 1130236|CDR|That looks good.
@@ -8170,7 +8171,7 @@
 1130248|LMP|Okay. That side's complete.
 1130250|CDR|Houston, you can tell America that Challenger is at Taurus-Littrow.
 1130255|CC|We'll do it.
-1130300|CMP|Great.
+1130257|CMP|Hey, Challenger; this is America. I heard you all the way down. That’s great!
 1130302|CDR|Ron, I had the meatball all the way.
 1130304|CMP|Beautiful.
 1130307|CDR|Jack, are we going to have some nice boulders in this area.
@@ -17584,7 +17585,8 @@
 1461018|CDR|Yes, I can do that, we can - I've got to go by that way anyway.
 1461022|LMP|North. Well, you know, just swing and point north so I can look in there.
 1461026|CDR|Yes.
-1461027|LMP|I never got a good look at it. Well, it's a - it's a series of three craters. There's some boulders on the - on the Talus slope of the easternmost - eastern slope of the west - eastern slope of the southernmost crater, the one we're closest to.
+1461027|LMP|I never got a good look at it.
+1461031|CDR|Well, it's a - it's a series of three craters. There's some boulders on the - on the Talus slope of the easternmost - eastern slope of the west - eastern slope of the southernmost crater, the one we're closest to.
 1461048|CDR|Now how does that look to you?
 1461052|LMP|Well, it looks like - and see, there's the other - I don't know what it looks like. The northwest end of the V has a white block - white blocks on it - boulders - on the inner wall and right at the rim. And the northeast end of the V looks like it has somewhat darker rocks.
 1461114|CDR|Yes.
@@ -17678,7 +17680,7 @@
 1461927|CDR|Okay. Look at - look at up - up the cleft over there. You can see definite change in albedo now between the North Massif and the Sculptured Hills. Lookit, right at - right up the - the valley. Well, you can't see it - let me -
 1461938|LMP|(Laughing) You're right.
 1461939|CDR|You got - you got to see this. See that?
-1461946|LMP|Yes. There - but, again, that may be your photometrous effects.
+1461946|LMP|Yes. There - but, again, that may be your photometric effects.
 1461949|CDR|Yes, one's an upslope and one's a downslope.
 1461951|LMP|Yes. Yes. Just about right, but it's supposed to be darker in the - in the cleft you know.
 1462004|LMP|Well, I guess ... I've been on - LMP's back to MINIMUM.
@@ -17842,15 +17844,14 @@
 1463605|CC|- - you guys, that the primary priority is the blocks and then a rake soil of the - of the white subfloor soil there. And you've only got 15 minutes before we want you driving back to the LM. Over.
 1463619|LMP|Okay. We'll get to work.
 1463622|CDR|Okay - -
-1463623|LMP|Let's sample this.
-1463624|CDR|Okay.
-1463625|LMP|Let me get these two first and then we'll go get that one, because there's two different kinds here - at least apparent kinds.
-1463629|CDR|Okay.
-1463630|LMP|One's a relatively new fracture.
-1463632|CDR|Well.
-1463632|LMP|Boy, I tell you, watch when you back up. ... you already - -
-1463634|CDR|... told you.
-1463635|LMP|- - learned that.
+1463623|LMP|Let's sample this. Okay.
+1463625|CDR|Let me get these two first and then we'll go get that one, because there's two different kinds here - at least apparent kinds.
+1463629|LMP|Okay.
+1463630|CDR|One's a relatively new fracture.
+1463632|LMP|Well.
+1463632|CDR|Boy, I tell you, watch when you back up. ... you already - -
+1463634|LMP|... told you.
+1463634|CDR|- - learned that.
 1463640|CDR|I've already cycled film.
 1463641|LMP|We need to sample the structures, though, in this thing. We haven't really done that.
 1463645|CDR|We'll try and get a around-the-corner - -
@@ -17932,7 +17933,7 @@
 1464449|LMP|Whoops, oh, yes; I got some soil.
 1464452|CDR|Don't kick up anything new.
 1464453|LMP|No, that's all right.
-1464454|CDR|455 is that bag number, Bob.
+1464454|CDR|465 is that bag number, Bob.
 1464456|CC|Copy that.
 1464457|LMP|Okay, this is soil from a half a meter in. It's about a centimeter deep and a half a meter in.
 1464517|CDR|Let's take that chip there that's lying on top with the next scoop.
