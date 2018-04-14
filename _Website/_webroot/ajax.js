@@ -359,7 +359,7 @@ function createSearchData() {
     1 - [unused]
     2 - who
     3 - words
-    4 - item type 0=utterance, 1=commentary, 2=geosample, 3=photo, 4=toc
+    4 - item type 0=utterance, 1=commentary, 2=geosample, 3=photo
      */
     for (var counter = 0; counter < gUtteranceData.length; counter++) {
         var tmpItem = [];
