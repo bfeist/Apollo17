@@ -116,7 +116,6 @@ function onPlayerStateChange(event) {
     //trace("onPlayerStateChange():state: " + event.data);
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
-        gPlaybackState = "normal";
         $("#playPauseBtn > img").addClass('pause');
 
         if (gNextVideoStartTime != -1) {
@@ -137,6 +136,7 @@ function onPlayerStateChange(event) {
             gIntervalID = setAutoScrollPoller();
             //trace("onPlayerStateChange():INTERVAL: PLAYING: Interval started because was null: " + gIntervalID);
         }
+        gPlaybackState = "normal";
     } else if (event.data == YT.PlayerState.PAUSED) {
         //clear polling for mission time scrolling if video is paused
         window.clearInterval(gIntervalID);
@@ -1975,9 +1975,9 @@ function setSplashHistoricalSubtext() {
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
         //$('.section.now').css('display', '');
-       $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>46 years ago, to the second.");
+       // $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>46 years ago, to the second.");
    // } else {
-   //      $('.historicalSubtext').text("(45 years ago)");  //todo make this calculate how many years ago
+    $('.historicalSubtext').text("(46 years ago)");  //todo make this calculate how many years ago
    // }
 }
 
