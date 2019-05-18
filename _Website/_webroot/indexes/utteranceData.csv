@@ -16422,7 +16422,8 @@
 1441625|CC|Okay, beautiful, guys. Really going smooth.
 1441628|CDR|And I'm headed - and I'm headed northwest.
 1441633|CC|Roger. In fact, we understand it's been going so smooth down here that they haven't even spilled any coffee in the SPAN room yet this mission.
-1441644|CDR|Thorson must not be on duty. I'm glad we don't have any sitting on the LCRU.
+1441644|LMP|Thorson must not be on duty.
+1441649|CDR|I'm glad we don't have any sitting on the LCRU.
 1441654|LMP|Right over there is Station 3, I think.
 1441658|LMP|Oh, actually, I guess - I guess they would want it - is there - I can just start to see two craters - -
 1441707|CDR|You know what the problem is?
@@ -21232,7 +21233,8 @@
 1654811|CDR|Okay. I'll even get you a picture of it.
 1654821|CDR|Oh me. Oh my.
 1654825|PAO|EVA time 2 hours and 15 minutes.
-1654850|CDR|Oh me. Oh my. Can you get the LM from there?
+1654838|CDR|Oh me. Oh my.
+1654849|CDR|Can you get the LM from there?
 1654853|LMP|Yes.
 1654856|CDR|That core went in very easy, Bob. I pushed it in about a quarter of the way. And about another five or six whacks, and it's in all the way.
 1654930|CDR|Okay. Come on out now, baby.
@@ -21244,7 +21246,9 @@
 1655008|CC|Well - -
 1655008|LMP|I'll try again.
 1655009|CC|Stereo is stereo is stereo, I guess.
-1655010|LMP|Okay, and I got you a little soil me - Well, but it's not stereo; it's right along the same line. Little soil mechanics of the hole, which stayed intact; very nice and round.
+1655010|CDR|Okay, and I got you a little soil - 
+1655013|LMP|Well, but it's not stereo; it's right along the same line.
+1655017|CDR|Little soil mechanics of the hole, which stayed intact; very nice and round.
 1655022|CC|Okay. We copy that.
 1655027|LMP|Okay. Oh, man.
 1655038|CDR|Yes, sir, we got a couple of dented tires.
@@ -21272,11 +21276,11 @@
 1655234|CDR|Yes, they got the number.
 1655235|LMP|Under the LMP's seat.
 1655235|CC|Roger. We got it. Copy that - under the LMP's seat.
-1655241|LMP|(Laughter) I'm sneaking up on the TGE.
-1655246|CDR|You need some help?
-1655247|LMP|No. No, I was - just sneaking up, that's all.
-1655251|CDR|... let you lean on me.
-1655252|LMP|No, I got it.
+1655241|CDR|(Laughter) I'm sneaking up on the TGE.
+1655246|LMP|You need some help?
+1655247|CDR|Well, no. I was - just sneaking up, that's all.
+1655251|LMP|... let you lean on me.
+1655252|CDR|No, I got it.
 1655256|CDR|670, 109, 801; 670, 109, 801.
 1655305|CC|Okay. We copy that.
 1655313|LMP|I wish we - the one thing I didn't do. While you're doing that -
@@ -21328,19 +21332,19 @@
 1655806|LMP|What did you do with that tape?
 1655809|CC|Let's worry about - let's worry about it at Station 7, if we're going to worry about it. Press on.
 1655815|LMP|Okay.
-1655817|CDR|Yes. Let's - let's forget it now. It's too hard, to work on there, and it's not going to take just a minute. It's going to take too much time. I'm not sure I can get back on here.
-1655824|LMP|Well, let me give you a hand. We need any a - we don't need any -
-1655828|CDR|No.
-1655829|LMP|Nothing. As a matter of fact -
+1655817|CDR|Yes. Let's - let's forget it now. It's too hard, to work on there, and it's not going to take just a minute. It's going to take too much time.
+1655822|LMP|I'm not sure I can get back on here.
+1655824|CDR|Well, let me give you a hand. We need any a - we don't need any -
+1655828|LMP|No. Nothing. As a matter of fact -
 1655831|CDR|I can drive, Jack.
 1655832|LMP|Why don't you drive down and get - so you're not - You can get on -
 1655835|CDR|You can go downhill very easy.
 1655837|LMP|Yes.
-1655838|CDR|Okay. Let me get the TV; The battery covers are closed - Let me carry - -
-1655843|LMP|Why don't you just go down there.
-1655844|CDR|- - I'll carry the Rover samples just in case.
-1655847|LMP|Got it?
-1655847|CDR|Okay. I'll get that out of your way, too.
+1655838|CDR|Okay. Let me get the TV; The battery covers are closed.
+1655842|LMP|Let me carry - -
+1655843|CDR|Why don't you just go down there.
+1655844|LMP|- - I'll carry the Rover samples just in case.
+1655847|CDR|Got it? Okay. I'll get that out of your way, too.
 1655854|LMP|Okay. I'll head down to that, ... that side hill over to those boulders right over there and then see if that's any change.
 1655909|CDR|Okay. You might, if you get another sample - a large sample, you might grab it, and we'll throw it in the footpan here - and - and I'll see if I can't find a level spot to - -
 1655919|LMP|I sort of ought to have my scoop, too.

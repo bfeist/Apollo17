@@ -31,7 +31,7 @@ function ajaxGetVideoURLData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -48,7 +48,7 @@ function ajaxGetTOCData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -65,7 +65,7 @@ function ajaxGetUtteranceData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -82,7 +82,7 @@ function ajaxGetCommentaryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -99,7 +99,7 @@ function ajaxGetPhotoData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -116,7 +116,7 @@ function ajaxGetMissionStagesData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -133,7 +133,7 @@ function ajaxGetVideoSegmentData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -150,7 +150,7 @@ function ajaxGetTelemetryData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -167,7 +167,7 @@ function ajaxCrewStatusData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -185,7 +185,7 @@ function ajaxOrbitData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -203,7 +203,7 @@ function ajaxGeoData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -221,7 +221,7 @@ function ajaxGeoCompendiumData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
@@ -239,7 +239,7 @@ function ajaxPaperData() {
     if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
         //var cdnNum = getRandomInt(1, 5);
         var cdnNum = '';
-        var urlStr = "http://cdn" + cdnNum + ".apollo17.org/";
+        var urlStr = "https://apollo17org-26f5.kxcdn.com/";
     } else {
         urlStr = "./";
     }
