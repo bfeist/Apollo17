@@ -1132,9 +1132,7 @@ function loadPhotoHtml(photoIndex) {
     var fullSizePath = "2100";
 
     if (gCdnEnabled) {
-        //var cdnNum = getRandomInt(1, 5);
-        var cdnNum = '';
-        var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
+        var serverUrl = "http://cdn.apollo17.org";
     } else {
         serverUrl = "http://apollo17.org";
     }
