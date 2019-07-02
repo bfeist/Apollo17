@@ -1058,9 +1058,7 @@ function populatePhotoGallery() {
         filename = filename + ".jpg";
 
         if (gCdnEnabled) {
-            //var cdnNum = getRandomInt(1, 5);
-            var cdnNum = '';
-            var serverUrl = "http://cdn" + cdnNum + ".apollo17.org";
+            var serverUrl = "http://cdn.apollo17.org";
         } else {
             serverUrl = "http://apollo17.org";
         }
