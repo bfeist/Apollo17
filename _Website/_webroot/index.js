@@ -1058,9 +1058,9 @@ function populatePhotoGallery() {
         filename = filename + ".jpg";
 
         if (gCdnEnabled) {
-            var serverUrl = "http://cdn.apollo17.org";
+            var serverUrl = "https://cdn.apollo17.org";
         } else {
-            serverUrl = "http://apollo17.org";
+            serverUrl = "https://apollo17.org";
         }
 
         html = html.replace(/@serverUrl/g , serverUrl);
@@ -1132,9 +1132,9 @@ function loadPhotoHtml(photoIndex) {
     var fullSizePath = "2100";
 
     if (gCdnEnabled) {
-        var serverUrl = "http://cdn.apollo17.org";
+        var serverUrl = "https://cdn.apollo17.org";
     } else {
-        serverUrl = "http://apollo17.org";
+        serverUrl = "https://apollo17.org";
     }
 
     html = html.replace(/@photoTypePath/g , photoTypePath);
