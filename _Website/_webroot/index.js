@@ -69,6 +69,10 @@ var gVideoSegments = [];
 var gGeoData = [];
 var gGeoCompendiumData = [];
 var gPaperData = [];
+var gHRDataCDR = [];
+var gHRDataLMP = [];
+var gMetrateDataCDR = [];
+var gMetrateDataLMP = [];
 
 //load the youtube API
 var tag = document.createElement('script');
@@ -1382,10 +1386,44 @@ function updateDashboard(timeId) {
     }
     $('#dashDistanceEarth').html(dashDistanceEarth);
 
+    //Display heartrates and met rates
+    $('#hrDataCDR').html(getBiomedDisplayValue(gHRDataCDR, timeIdInSeconds));
+    $('#hrDataLMP').html(getBiomedDisplayValue(gHRDataLMP, timeIdInSeconds));
+    $('#metrateDataCDR').html(getBiomedDisplayValue(gMetrateDataCDR, timeIdInSeconds));
+    $('#metrateDataLMP').html(getBiomedDisplayValue(gMetrateDataLMP, timeIdInSeconds));
+
+
     //attempts at formulaic velocity calculation. Doesn't work due to moon's gravitational influence on the parabola formula
     //var dashDistanceNM = -1 * (8486888657 * Math.pow(timeIdInSeconds, 2) / 8820689674156545) + ((1881583668117446 * timeIdInSeconds) / 1764137934831309) + (811004768622602161 / 2940229891385515);
     //left half
     //var dashDistanceNM = -1 * (9987355187 * Math.pow(timeIdInSeconds, 2) / 3604494879727504) + ((5611270876937931 * timeIdInSeconds) / 3604494879727504) - (35715506986568310715 / 1802247439863752);
+}
+
+function getBiomedDisplayValue(dataArray, timeIdInSeconds) {
+    var displayValue = "n/a";
+    for (counter = 0; counter < dataArray.length - 1; counter ++) {
+        if (timeStrToSeconds(dataArray[counter][0]) <= timeIdInSeconds && timeStrToSeconds(dataArray[counter + 1][0]) >= timeIdInSeconds) {
+            var timegap = timeStrToSeconds(dataArray[counter + 1][0]) - timeStrToSeconds(dataArray[counter][0])
+            if (timegap < 3600) { //if time gap is less than an hour, show rates. more than an hour means it's a period without data
+
+                var startSeconds = timeStrToSeconds(dataArray[counter][0]);
+                startSeconds = startSeconds > 230400 ? startSeconds - 9600 : startSeconds;
+                var startValue = parseInt(dataArray[counter][1]);
+                var currSecondsAdjusted = timeIdInSeconds > 230400 ? timeIdInSeconds - 9600 : timeIdInSeconds;
+
+                var endSeconds = timeStrToSeconds(dataArray[counter + 1][0]);
+                endSeconds = endSeconds > 230400 ? endSeconds - 9600 : endSeconds;
+                var endValue = parseInt(dataArray[counter + 1][1]);
+                var secondsRange = endSeconds - startSeconds;
+                var valueRange = endValue - startValue;
+                var currentPositionInSecondsRange = currSecondsAdjusted - startSeconds;
+                displayValue = ((currentPositionInSecondsRange * valueRange) / secondsRange) + startValue;
+                displayValue = String(Math.round(displayValue * 10) / 10);
+            }
+            break;
+        }
+    }
+    return displayValue;
 }
 
 function manageOverlaysAutodisplay(timeId) {

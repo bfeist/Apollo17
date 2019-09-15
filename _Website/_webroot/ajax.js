@@ -11,6 +11,10 @@ $.when(
     ajaxGetTelemetryData(),
     ajaxCrewStatusData(),
     ajaxOrbitData(),
+    ajaxHRDataCDR(),
+    ajaxHRDataLMP(),
+    ajaxMetrateDataCDR(),
+    ajaxMetrateDataLMP(),
     ajaxGeoData(),
     ajaxGeoCompendiumData(),
     ajaxPaperData()).done(function(){
@@ -28,13 +32,13 @@ $.when(
 //--------------- index file handling --------------------
 
 function ajaxGetVideoURLData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/videoURLData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -43,13 +47,13 @@ function ajaxGetVideoURLData() {
     });
 }
 function ajaxGetTOCData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/TOCData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -58,13 +62,13 @@ function ajaxGetTOCData() {
     });
 }
 function ajaxGetUtteranceData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/utteranceData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -73,13 +77,13 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/commentaryData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -88,13 +92,13 @@ function ajaxGetCommentaryData() {
     });
 }
 function ajaxGetPhotoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/photoData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -103,13 +107,13 @@ function ajaxGetPhotoData() {
     });
 }
 function ajaxGetMissionStagesData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/missionStagesData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -118,13 +122,13 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/videoSegmentData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -133,13 +137,13 @@ function ajaxGetVideoSegmentData() {
     });
 }
 function ajaxGetTelemetryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/telemetryData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -148,13 +152,13 @@ function ajaxGetTelemetryData() {
     });
 }
 function ajaxCrewStatusData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/crewStatusData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -164,13 +168,13 @@ function ajaxCrewStatusData() {
 }
 
 function ajaxOrbitData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/orbitData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -179,14 +183,78 @@ function ajaxOrbitData() {
     });
 }
 
+function ajaxHRDataCDR() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
+        var urlStr = "https://cdn.apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/heartrates_CDR.csv";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processHRDataCDR(data);}
+    });
+}
+
+function ajaxHRDataLMP() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
+        var urlStr = "https://cdn.apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/heartrates_LMP.csv";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processHRDataLMP(data);}
+    });
+}
+
+function ajaxMetrateDataCDR() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
+        var urlStr = "https://cdn.apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/metrates_CDR.csv";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processMetrateDataCDR(data);}
+    });
+}
+
+function ajaxMetrateDataLMP() {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
+        var urlStr = "https://cdn.apollo17.org/";
+    } else {
+        urlStr = "./";
+    }
+    urlStr += "indexes/metrates_LMP.csv";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
+    return $.ajax({
+        type: "GET",
+        url: urlStr,
+        dataType: "text",
+        success: function(data) {processMetrateDataLMP(data);}
+    });
+}
+
 function ajaxGeoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/geoData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -196,13 +264,13 @@ function ajaxGeoData() {
 }
 
 function ajaxGeoCompendiumData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/geoCompendiumData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -212,13 +280,13 @@ function ajaxGeoCompendiumData() {
 }
 
 function ajaxPaperData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") == -1) {
+    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
         var urlStr = "https://cdn.apollo17.org/";
     } else {
         urlStr = "./";
     }
     urlStr += "indexes/paperData.csv";
-    urlStr += gStopCache == true ? "?stopcache=" + Math.random() : "";
+    urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
         url: urlStr,
@@ -248,7 +316,7 @@ function processTOCData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gTOCIndex[i] = data[0];
             gTOCDataLookup[data[0]] = curRow;
             data[0] = timeIdToTimeStr(data[0]);
@@ -263,7 +331,7 @@ function processUtteranceData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gUtteranceDataLookup[data[0]] = curRow;
             gUtteranceIndex[i] = data[0];
             gUtteranceData.push(data);
@@ -277,7 +345,7 @@ function processCommentaryData(allText) {
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gCommentaryIndex[curRow] = data[0];
             gCommentaryDataLookup[data[0]] = curRow;
             gCommentaryData.push(data);
@@ -290,7 +358,7 @@ function processPhotoData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     var curRow = 0;
     for (var i = 0; i < allTextLines.length; i++) {
-        if (allTextLines[i] != "") {
+        if (allTextLines[i] !== "") {
             var data = allTextLines[i].split('|');
             gPhotoData.push(data);
             gPhotoDataLookup[data[0]] = curRow;
@@ -304,7 +372,7 @@ function processMissionStagesData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gMissionStages.push(data);
         }
         if (i > 0) {
@@ -318,7 +386,7 @@ function processVideoSegmentData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gVideoSegments.push(data);
         }
     }
@@ -395,7 +463,7 @@ function processTelemetryData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gTelemetryData.push(data);
         }
         if (i > 0) {
@@ -410,7 +478,7 @@ function processCrewStatusData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gCrewStatusData.push(data);
         }
         if (i > 0) {
@@ -425,7 +493,7 @@ function processOrbitData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             gOrbitData.push(data);
         }
         if (i > 0) {
@@ -435,12 +503,57 @@ function processOrbitData(allText) {
     gOrbitData[gOrbitData.length - 1][2] = gOrbitData[gOrbitData.length - 1][0]; //insert 0 length end time record for TEI
 }
 
+function processHRDataCDR(allText) {
+    //console.log("processOrbitData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] !== "") {
+            gHRDataCDR.push(data);
+        }
+    }
+}
+
+function processHRDataLMP(allText) {
+    //console.log("processOrbitData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] !== "") {
+            gHRDataLMP.push(data);
+        }
+    }
+}
+
+function processMetrateDataCDR(allText) {
+    //console.log("processOrbitData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] !== "") {
+            gMetrateDataCDR.push(data);
+        }
+    }
+}
+
+function processMetrateDataLMP(allText) {
+    //console.log("processOrbitData()");
+    var allTextLines = allText.split(/\r\n|\n/);
+    for (var i = 0; i < allTextLines.length; i++) {
+        var data = allTextLines[i].split('|');
+        if (data[0] !== "") {
+            gMetrateDataLMP.push(data);
+        }
+    }
+}
+
+
 function processGeoData(allText) {
     //console.log("processGeoData()");
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             var tmpItem = [];
             tmpItem[0] = timeStrToTimeId(data[0]);
             tmpItem[1] = data[1];
@@ -458,7 +571,7 @@ function processGeoCompendiumData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "") {
+        if (data[0] !== "") {
             var tmpItem = [];
             tmpItem[0] = data[0];
             tmpItem[1] = data[1];
@@ -472,7 +585,7 @@ function processPaperData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
     for (var i = 0; i < allTextLines.length; i++) {
         var data = allTextLines[i].split('|');
-        if (data[0] != "Bibcode") {
+        if (data[0] !== "Bibcode") {
             var tmpItem = [];
             tmpItem[0] = data[0]; // bibcode
             tmpItem[1] = data[1]; // Year
