@@ -1646,7 +1646,7 @@ function updateGeosampleOverlay(geoDataIndex) {
 
         // get moondb info into sampleinfotable
         jQuery.ajax({
-            url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
+            url: 'https://api.moondb.org/specimen/' + sampleNumberArray[counter],
             success: function (data) {
                 if (data.isOk == false) {
                     alert(data.message);
