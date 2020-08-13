@@ -1,8 +1,11 @@
 trace("INIT: Loading index.js");
 //app control flags
 var gStopCache = false;
-var gCdnEnabled = true;
+var gCdnEnabled = false;
 var gOffline = false;
+// var cMediaCdnRoot = 'https://media.apolloinrealtime.org/A17';
+var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A17'; //keycdn pulling from dreamhost
+// var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A17';  //keycdn pulling from digitalocean space
 
 //constants
 var gMissionDurationSeconds = 1100980;
@@ -1061,13 +1064,7 @@ function populatePhotoGallery() {
         }
         filename = filename + ".jpg";
 
-        if (gCdnEnabled) {
-            var serverUrl = "https://cdn.apollo17.org";
-        } else {
-            serverUrl = "https://apollo17.org";
-        }
-
-        html = html.replace(/@serverUrl/g , serverUrl);
+        html = html.replace(/@serverUrl/g , cMediaCdnRoot);
         html = html.replace(/@photoTypePath/g , photoTypePath);
         html = html.replace(/@filename/g ,filename);
         html = html.replace(/@timestamp/g , timeIdToTimeStr(photoObject[0]));
@@ -1130,20 +1127,14 @@ function loadPhotoHtml(photoIndex) {
     if (photoDiv.height() <= 1024) {
         var sizePath = "1024";
     } else {
-        sizePath = "2100";
+        sizePath = "4175";
     }
-    //var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
-    var fullSizePath = "2100";
-
-    if (gCdnEnabled) {
-        var serverUrl = "https://cdn.apollo17.org";
-    } else {
-        serverUrl = "https://apollo17.org";
-    }
+    var fullSizePath = (photoTypePath == "supporting") ? "2100" : "4175";
+    // var fullSizePath = "2100";
 
     html = html.replace(/@photoTypePath/g , photoTypePath);
     html = html.replace(/@fullSizePath/g , fullSizePath);
-    html = html.replace(/@serverUrl/g , serverUrl);
+    html = html.replace(/@serverUrl/g , cMediaCdnRoot);
     html = html.replace(/@sizepath/g , sizePath);
     html = html.replace(/@filename/g , filename);
     html = html.replace(/@timeStr/g,  timeIdToTimeStr(photoTimeId));
@@ -2081,7 +2072,7 @@ $(document).ready(function() {
                         filename = nearestPhotoObject[1];
                     }
                     filename = filename + ".jpg";
-                    this.image = "http://apollo17.org/mission_images/" + photoTypePath + "/1024/" + filename;
+                    this.image = cMediaCdnRoot + "/images/" + photoTypePath + "/1024/" + filename;
                 },
                 after: function() {
                     trace("User shared facebook: ", this.url);

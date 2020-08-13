@@ -85,9 +85,9 @@
 
 <script type="text/html" id="photoTemplate">
     <div class="imageBlock">
-        <div class="imageContainer" style="background-image: url('@serverUrl/mission_images/@photoTypePath/@sizepath/@filename.jpg')">
+        <div class="imageContainer" style="background-image: url('@serverUrl/images/@photoTypePath/@sizepath/@filename.jpg')">
 
-            <a href="http://apollo17.org/mission_images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
+            <a href="@serverUrl/images/@photoTypePath/@fullSizePath/@filename.jpg" target="photowindow">
                 <img src="img/placeholder-square.png" class="aspect-holder">
             </a>
 
@@ -133,7 +133,7 @@
 
 <script type="text/html" id="photoGalleryTemplate">
     <div class="galleryItemContainer" id="gallerytimeid@timeid" onclick="galleryClick('@timeid')">
-        <img class="galleryImage" data-original="@serverUrl/mission_images/@photoTypePath/100/@filename">
+        <img class="galleryImage" data-original="@serverUrl/images/@photoTypePath/100/@filename">
         <div class="galleryOverlay">@timestamp</div>
     </div>
 </script>
