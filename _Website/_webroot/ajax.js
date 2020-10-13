@@ -379,7 +379,7 @@ function processMissionStagesData(allText) {
             gMissionStages[i - 1][3] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gMissionStages[gMissionStages.length - 1][3] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 function processVideoSegmentData(allText) {
     //console.log("processVideoSegmentData");
@@ -470,7 +470,7 @@ function processTelemetryData(allText) {
             gTelemetryData[i - 1][5] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gTelemetryData[gTelemetryData.length - 1][5] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 
 function processCrewStatusData(allText) {
@@ -485,7 +485,7 @@ function processCrewStatusData(allText) {
             gCrewStatusData[i - 1][2] = data[0]; //append this item's start time as the last item's end time
         }
     }
-    gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(gMissionDurationSeconds); //insert last end time as end of mission
+    gCrewStatusData[gCrewStatusData.length - 1][2] = secondsToTimeStr(cMissionDurationSeconds); //insert last end time as end of mission
 }
 
 function processOrbitData(allText) {

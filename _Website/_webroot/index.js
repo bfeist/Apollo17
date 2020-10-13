@@ -8,11 +8,16 @@ var cMediaCdnRoot = 'https://keycdnmedia.apolloinrealtime.org/A17'; //keycdn pul
 // var cMediaCdnRoot = 'https://keycdnmediado.apolloinrealtime.org/A17';  //keycdn pulling from digitalocean space
 
 //constants
-var gMissionDurationSeconds = 1100980;
-var gCountdownSeconds = 9442;
+var cMissionDurationSeconds = 1100980;
+var cCountdownSeconds = 9442;
 var gDefaultStartTimeId = '-000105';
 var gFontLoaderDelay = 3; //seconds
 var gBackground_color_active = "#222222";
+
+var cLaunchDate = Date.parse("1972-12-07 0:33 -500");
+var cLaunchDateModern = Date.parse("2020-12-07 0:33 -500");
+var cCountdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
+var cCountdownStartDateModern = Date.parse("2020-12-06 9:55:39pm -500");
 
 //global control objects
 var player;
@@ -121,9 +126,15 @@ function onPlayerReady(event) {
 // The function indicates that when playing a video (state=1)
 function onPlayerStateChange(event) {
     //trace("onPlayerStateChange():state: " + event.data);
+    var playPauseBtn = $("#playPauseBtn");
     if (event.data == YT.PlayerState.PLAYING) {
         //trace("onPlayerStateChange():PLAYER PLAYING");
-        $("#playPauseBtn > img").addClass('pause');
+        playPauseBtn.addClass('pause');
+        $("#playPauseBtnLabel").text("PAUSE");
+        if (playPauseBtn.hasClass("blink_me_orange")) {
+            playPauseBtn.removeClass("blink_me_orange");
+        }
+        player.setPlaybackQuality('hd1080');
 
         if (gNextVideoStartTime != -1) {
             //trace("onPlayerStateChange():PLAYING: forcing playback from " + gNextVideoStartTime + " seconds in new video");
@@ -150,7 +161,11 @@ function onPlayerStateChange(event) {
         //trace("onPlayerStateChange():PAUSED: interval stopped: " + gIntervalID);
         gIntervalID = null;
         gPlaybackState = "paused";
-        $("#playPauseBtn > img").removeClass('pause');
+        playPauseBtn.removeClass('pause');
+        $("#playPauseBtnLabel").text("PLAY");
+        if (!playPauseBtn.hasClass("blink_me_orange")) {
+            playPauseBtn.addClass("blink_me_orange");
+        }
 
     } else if (event.data == YT.PlayerState.BUFFERING) {
         //trace("onPlayerStateChange():BUFFERING: " + event.target.getCurrentTime() + gCurrVideoStartSeconds);
@@ -482,7 +497,6 @@ function seekToTime(timeId) { // transcript click handling --------------------
 
 function displayHistoricalTimeDifferenceByTimeId(timeId) {
     //trace("displayHistoricalTimeDifferenceByTimeId():" + timeid);
-    var launchDate = Date.parse("1972-12-07 0:33 -500");
 
     var sign = timeId.substr(0,1);
     var hours = Math.abs(parseInt(timeId.substr(0,3)));
@@ -490,11 +504,12 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     var seconds = parseInt(timeId.substr(5,2));
 
     var conversionMultiplier = 1;
-    if (sign == "-") { //if on countdown, subtract the mission time from the launch moment
+    if (sign === "-") { //if on countdown, subtract the mission time from the launch moment
         conversionMultiplier = -1;
     }
 
-    var timeidDate = new Date(launchDate.getTime());
+    var timeidDate = new Date(cLaunchDate.getTime());
+    var timeidDateModern = new Date(cLaunchDateModern.getTime());
 
     timeidDate.add({
         hours: hours * conversionMultiplier,
@@ -502,67 +517,74 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         seconds: seconds * conversionMultiplier
     });
 
-    if (parseInt(timeId) > 650000) {
-        //trace("displayHistoricalTimeDifferenceByTimeId(): subtracting 2 hours 40 minutes from time due to MET time change");
-        timeidDate.add({
-            hours: -2,
-            minutes: -40
-        });
+    timeidDateModern.add({
+        hours: hours * conversionMultiplier,
+        minutes: minutes * conversionMultiplier,
+        seconds: seconds * conversionMultiplier
+    });
+
+    var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+    $(".historicalDate").text(days[timeidDate.getDay()] + ' ' + month_names_short[timeidDate.getMonth()] + " " + timeidDate.getDate() + " " + cLaunchDate.getFullYear() + " ");
+
+    var timezoneOffset = -(new Date(cLaunchDateModern).getTimezoneOffset() / 60);
+    var timezoneOffsetString = timezoneOffset.toString();
+    var absTimezoneOffset = Math.abs(parseInt(timezoneOffsetString)).toString();
+    if (timezoneOffsetString === absTimezoneOffset) { //if positive timezone offset, add a +
+        timezoneOffsetString = '+' + timezoneOffsetString;
+    }
+    var timezoneOffsetPaddingAmount = 3 - absTimezoneOffset.length;
+    for (var i = 0; i < timezoneOffsetPaddingAmount; i++) {
+        timezoneOffsetString = timezoneOffsetString + "0";
     }
 
-    //HISTORICAL TIME DIFF DISABLED. MOMENT LIBRARY DISABLED
-    //var nowDate = Date.now();
-    ////var nowDate = Date.parse("2015-12-07 0:33 -500");
-    ////if (nowDate.dst()) {
-    ////nowDate.setHours(nowDate.getHours() + 1); //TODO revisit potential dst offset
-    ////}
-    //var timeDiff = nowDate.getTime() - timeidDate.getTime();
-    //var humanizedRealtimeDifference = "Exactly: " + moment.preciseDiff(0, timeDiff) + " ago to the second.";
-    //$("#historicalTimeDiff").html(humanizedRealtimeDifference);
-
-    var historicalDate = new Date(timeidDate.getTime()); //for display only
-    $(".historicalDate").text(historicalDate.toDateString());
+    // console.log("Timezone offset: " + timezoneOffsetString);
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-    $(".historicalTime").text(historicalDate.toLocaleTimeString('en-US', options));
-    //$(".historicalTime").text(historicalDate.toLocaleTimeString().match(/^[^:]+(:\d\d){2} *(am|pm)\b/i)[0]);  //.replace(/([AP]M)$/, ""));
-    //$(".historicalTimeAMPM").text(historicalDate.toLocaleTimeString().match(/([AP]M)/)[0])
+    $(".historicalTime").text(timeidDateModern.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
 
-    $(".missionElapsedTime").text(gCurrMissionTime);
+    if (document.getElementById('missionElapsedTime') !== document.activeElement) {
+        $('input[name=missionElapsedTime]').val(gCurrMissionTime);
+    }
 }
 
 function getNearestHistoricalMissionTimeId() { //proc for "snap to real-time" button
-    var launchDate = Date.parse("1972-12-07 0:33am -500");
-    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-    //var nowDate = Date.parse("2015-12-06 10:00pm -500");
     var nowDate = Date.now();
-
     var histDate = new Date(nowDate.getTime());
-    //if (histDate.dst()) {
-    //    histDate.setHours(histDate.getHours() + 1); //TODO test DST offset
-    //}
-    histDate.setMonth(countdownStartDate.getMonth());
-    histDate.setYear(countdownStartDate.getYear());
+
+    histDate.setMonth(cCountdownStartDateModern.getMonth());
+
+    var dayOfMonth = 0;
+    if (nowDate.getDate() < 6) {
+        dayOfMonth = nowDate.getDate() + 6;
+    } else if (nowDate.getDate() >= 6 && nowDate.getDate() <= 19) {
+        dayOfMonth = nowDate.getDate()
+    } else if (nowDate.getDate() > 19) {
+        dayOfMonth = nowDate.getDate() - (30 - dayOfMonth);
+    }
+    histDate.setDate(dayOfMonth);
+
+    if (histDate < cCountdownStartDate) { //bump to same time next day if in the few hours on the 15th before recording starts
+        histDate.setDate(11);
+    }
 
     // Convert dates to milliseconds
     var histDate_ms = histDate.getTime();
-    var countdownStartDate_ms = countdownStartDate.getTime();
-    var launchDate_ms = launchDate.getTime();
+    var countdownStartDate_ms = cCountdownStartDateModern.getTime();
+    var launchDate_ms = cLaunchDateModern.getTime();
 
     if (histDate_ms < countdownStartDate_ms) { //if now is before the countdownStartDate, shift forward days to start on first day of the mission
         //var daysToMoveForward = Math.ceil((countdownStartDate_ms - histDate_ms) / (1000 * 60 * 60 * 24));
-        var daysToMoveForward = 6;
+        var daysToMoveForward = 1;
         histDate_ms += (1000 * 60 * 60 * 24) * daysToMoveForward;
-    } else if (histDate_ms > launchDate_ms + (gMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
+    } else if (histDate_ms > launchDate_ms + (cMissionDurationSeconds * 1000)) { //hist date occurs after mission ended, shift backward days to start on first day of the mission
         //var daysToMoveBackward = Math.floor((histDate_ms - countdownStartDate_ms) / (1000 * 60 * 60 * 24));
-        var daysToMoveBackward = 12;
+        var daysToMoveBackward = 1;
         histDate_ms -= (1000 * 60 * 60 * 24) * daysToMoveBackward;
     }
 
     var timeSinceLaunch_ms = histDate_ms - launchDate_ms;
-    if (timeSinceLaunch_ms / 1000 > 65 * 60 * 60) { //if past 65 hours into the mission, add the 2:40 MET time switch
-        timeSinceLaunch_ms += 9600 * 1000;
-    }
 
     return secondsToTimeId(timeSinceLaunch_ms / 1000);
 }
@@ -1825,6 +1847,18 @@ jQuery(function ($) {
     activateTab('transcriptTab');
     //buttons
 
+    $('#GETBtn')
+        .click(function(){
+            ga('send', 'event', 'button', 'click', 'GET');
+            try {
+                var GETinput = $('input[name=missionElapsedTime]').val();
+                GETinput = padZeros(GETinput, 9);
+                seekToTime(timeStrToTimeId(GETinput));
+            } catch(err) {
+                trace("GET seek error: " + err.message);
+            }
+        });
+
     $("#searchBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'search');
@@ -1852,31 +1886,25 @@ jQuery(function ($) {
 
     $("#playPauseBtn")
         .click(function(){
-            if (gPlaybackState == "paused") {
-                ga('send', 'event', 'button', 'click', 'play');
-                player.playVideo();
-            } else {
+            if ($("#playPauseBtn").hasClass('pause')) {
                 ga('send', 'event', 'button', 'click', 'pause');
                 player.pauseVideo();
+            } else {
+                ga('send', 'event', 'button', 'click', 'play');
+                player.playVideo();
             }
         });
 
     $("#soundBtn")
         .click(function(){
-            if (!gOffline) {
-                if (player.isMuted() == true) {
-                    ga('send', 'event', 'button', 'click', 'unmute');
-                    player.unMute();
-                    // var btnIcon = "ui-icon-volume-on";
-                    // var btnText = "Mute";
-                    $(this).addClass('mute');
-                } else {
-                    ga('send', 'event', 'button', 'click', 'mute');
-                    player.mute();
-                    // btnIcon = "ui-icon-volume-off";
-                    // btnText = "Un-Mute";
-                    $(this).removeClass('mute');
-                }
+            if (player.isMuted() === true) {
+                ga('send', 'event', 'button', 'click', 'unmute');
+                player.unMute();
+                $(this).addClass('mute');
+            } else {
+                ga('send', 'event', 'button', 'click', 'mute');
+                player.mute();
+                $(this).removeClass('mute');
             }
         });
 
@@ -1900,7 +1928,18 @@ jQuery(function ($) {
     $("#shareBtn")
         .click(function(){
             ga('send', 'event', 'button', 'click', 'share');
-            //gShareButtonObject.toggle(); //this is already happening within the share button div itself.
+            $('#shareModalCopyWebsiteLinkAction').text('COPY LINK');
+            $('#shareModalCopyLinkAction').text('COPY LINK');
+
+            var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
+            url = "https://apollo17.org?t=" + gCurrMissionTime;
+            channel = 'Main space-to-ground';
+
+            $('#shareModelGET').text(gCurrMissionTime);
+            $('#shareModelChannel').text(channel);
+            $('#shareURL').text(url);
+
+            $('#shareModal').modal();
         });
 
 
@@ -1988,28 +2027,56 @@ function initSplash() {
 }
 
 function setSplashHistoricalSubtext() {
-    var launchDate = Date.parse("1972-12-07 0:33am -500");
-    var countdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-    //var currDate = Date.parse("1972-12-07 0:34am -500");
-    var currDate = Date.now();
+    // var currDate = Date.now();
 
-    var currDate_ms = currDate.getTime();
-    var countdownStartDate_ms = countdownStartDate.getTime();
-    var launchDate_ms = launchDate.getTime();
-    var missionEndDate_ms = launchDate_ms + (gMissionDurationSeconds * 1000);
+    // var currDate_ms = currDate.getTime();
+    // var countdownStartDate_ms = cCountdownStartDate.getTime();
+    // var launchDate_ms = cLaunchDate.getTime();
+    // var missionEndDate_ms = launchDate_ms + (cMissionDurationSeconds * 1000);
 
     //if (currDate_ms >= countdownStartDate_ms && currDate_ms < missionEndDate_ms) { //check if during mission anniversary
-        //$('.section.now').css('display', '');
-       // $('.historicalSubtext').html("<b>Mission Anniversary.</b><BR>47 years ago, to the second.");
-   // } else {
-    $('.historicalSubtext').text("(47 years ago)");  //todo make this calculate how many years ago
-   // }
+    //$('.section.now').css('display', '');
+    // $('.historicalSubtext').html("<b>Mission Anniversary</b><BR>Exactly 50 years ago");
+    // } else {
+    $('.historicalSubtext').text("~48 years ago");  //todo make this calculate how many years ago
+    //      $('.historicalSubtext').text("49 years, 11 months ago");  //todo make this calculate how many years ago
+    // }
 }
 
 function proportionalWidthOnPhotoBlock() {
     var photoBlockWidth = $('body').width() - $('.video-block').width() - 1;
     //trace("trying to set photo block width: " + photoBlockWidth);
     $('.photo-block').width(photoBlockWidth);
+}
+
+function copyShareURL() {
+    /* Get the text field */
+    var copyText = document.getElementById("shareURL");
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+
+    /* Alert the copied text */
+    $('#shareModalCopyLinkAction').text('LINK COPIED');
+}
+
+function copyShareWebsiteURL() {
+    /* Get the text field */
+    var copyText = document.getElementById("shareWebsiteURL");
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+
+    /* Alert the copied text */
+    $('#shareModalCopyWebsiteLinkAction').text('LINK COPIED');
 }
 
 //on document ready
@@ -2049,64 +2116,6 @@ $(document).ready(function() {
             appendUtterances(25, true);
         }
     }, 10));
-
-    gShareButtonObject = new Share(".share-button", {
-        ui: {
-            flyout: "bottom bottom",
-            button_text: ""
-        },
-        networks: {
-            facebook: {
-                app_id: "1639595472942714",
-                before: function(element) {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time - Moment: " + gCurrMissionTime;
-                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2];
-                    var nearestPhotoObject = gPhotoData[gPhotoDataLookup[findClosestPhoto(timeStrToSeconds(gCurrMissionTime))]];
-                    if (nearestPhotoObject[3] != "") {
-                        var photoTypePath = "flight";
-                        var filename = "AS17-" + nearestPhotoObject[1];
-                    } else {
-                        photoTypePath = "supporting";
-                        filename = nearestPhotoObject[1];
-                    }
-                    filename = filename + ".jpg";
-                    this.image = cMediaCdnRoot + "/images/" + photoTypePath + "/1024/" + filename;
-                },
-                after: function() {
-                    trace("User shared facebook: ", this.url);
-                    ga('send', 'event', 'share', 'click', 'facebook');
-                    //gShareButtonObject.close();
-                }
-            },
-            twitter: {
-                before: function(element) {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.url = "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = "%23Apollo17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]) + " " + sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2].substr(0, 67) + "... %23NASA";
-                },
-                after: function() {
-                    trace("User shared twitter: ", this.url);
-                    ga('send', 'event', 'share', 'click', 'twitter');
-                    //this.close();
-                }
-            },
-
-            email: {
-                before: function(element) {
-                    var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-                    this.title = "Apollo 17 in Real-time: " + timeIdToTimeStr(sharedUtteranceArray[0]);
-                    this.description = sharedUtteranceArray[1] + ": " + sharedUtteranceArray[2] + "     " + "http://apollo17.org?t=" + timeIdToTimeStr(sharedUtteranceArray[0]);
-                },
-                after: function() {
-                    trace("User shared email: ", this.title);
-                    ga('send', 'event', 'share', 'click', 'email');
-                    //this.close();
-                }
-            }
-        }
-    });
 });
 
 // </editor-fold>
