@@ -32,12 +32,7 @@ $.when(
 //--------------- index file handling --------------------
 
 function ajaxGetVideoURLData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/videoURLData.csv";
+    var urlStr = "./indexes/videoURLData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -47,12 +42,7 @@ function ajaxGetVideoURLData() {
     });
 }
 function ajaxGetTOCData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/TOCData.csv";
+    var urlStr = "./indexes/TOCData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -62,12 +52,7 @@ function ajaxGetTOCData() {
     });
 }
 function ajaxGetUtteranceData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/utteranceData.csv";
+    var urlStr = "./indexes/utteranceData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -77,12 +62,7 @@ function ajaxGetUtteranceData() {
     });
 }
 function ajaxGetCommentaryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/commentaryData.csv";
+    var urlStr = "./indexes/commentaryData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -92,12 +72,7 @@ function ajaxGetCommentaryData() {
     });
 }
 function ajaxGetPhotoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/photoData.csv";
+    var urlStr = "./indexes/photoData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -107,12 +82,7 @@ function ajaxGetPhotoData() {
     });
 }
 function ajaxGetMissionStagesData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/missionStagesData.csv";
+    var urlStr = "./indexes/missionStagesData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -122,12 +92,7 @@ function ajaxGetMissionStagesData() {
     });
 }
 function ajaxGetVideoSegmentData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/videoSegmentData.csv";
+    var urlStr = "./indexes/videoSegmentData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -137,12 +102,7 @@ function ajaxGetVideoSegmentData() {
     });
 }
 function ajaxGetTelemetryData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/telemetryData.csv";
+    var urlStr = "./indexes/telemetryData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -152,12 +112,7 @@ function ajaxGetTelemetryData() {
     });
 }
 function ajaxCrewStatusData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/crewStatusData.csv";
+    var urlStr = "./indexes/crewStatusData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -168,12 +123,7 @@ function ajaxCrewStatusData() {
 }
 
 function ajaxOrbitData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/orbitData.csv";
+    var urlStr = "./indexes/orbitData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -184,12 +134,7 @@ function ajaxOrbitData() {
 }
 
 function ajaxHRDataCDR() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/heartrates_CDR.csv";
+    var urlStr = "./indexes/heartrates_CDR.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -200,12 +145,7 @@ function ajaxHRDataCDR() {
 }
 
 function ajaxHRDataLMP() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/heartrates_LMP.csv";
+    var urlStr = "./indexes/heartrates_LMP.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -216,12 +156,7 @@ function ajaxHRDataLMP() {
 }
 
 function ajaxMetrateDataCDR() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/metrates_CDR.csv";
+    var urlStr = "./indexes/metrates_CDR.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -232,12 +167,7 @@ function ajaxMetrateDataCDR() {
 }
 
 function ajaxMetrateDataLMP() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/metrates_LMP.csv";
+    var urlStr = "./indexes/metrates_LMP.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -248,12 +178,7 @@ function ajaxMetrateDataLMP() {
 }
 
 function ajaxGeoData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/geoData.csv";
+    var urlStr = "./indexes/geoData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -264,12 +189,7 @@ function ajaxGeoData() {
 }
 
 function ajaxGeoCompendiumData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/geoCompendiumData.csv";
+    var urlStr = "./indexes/geoCompendiumData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -280,12 +200,7 @@ function ajaxGeoCompendiumData() {
 }
 
 function ajaxPaperData() {
-    if (gCdnEnabled && window.location.href.indexOf(".dev") === -1) {
-        var urlStr = "https://cdn.apollo17.org/";
-    } else {
-        urlStr = "./";
-    }
-    urlStr += "indexes/paperData.csv";
+    var urlStr = "./indexes/paperData.csv";
     urlStr += gStopCache === true ? "?stopcache=" + Math.random() : "";
     return $.ajax({
         type: "GET",
@@ -445,8 +360,6 @@ function createSearchData() {
     }
 
     gSearchData.sort(searchArraySortFunction);
-
-    trace("whatever");
 }
 
 function searchArraySortFunction(a, b) {

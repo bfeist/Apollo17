@@ -198,7 +198,7 @@ function onPlayerStateChange(event) {
 
 // <editor-fold desc="pollers -------------------------------------------------">
 function setAutoScrollPoller() {
-    trace("autoScrollPoller()");
+    // trace("autoScrollPoller()");
     return window.setInterval(function () {
         var totalSec = gOffline ? timeStrToSeconds(gCurrMissionTime) + 1 : player.getCurrentTime() + gCurrVideoStartSeconds + 0.5;
 
@@ -288,7 +288,7 @@ function setApplicationReadyPoller() {
 
 // <editor-fold desc="find closest things------------------------------------------------">
 function findClosestUtterance(secondsSearch) {
-    trace("findClosestUtterance():" + secondsSearch);
+    //trace("findClosestUtterance():" + secondsSearch);
     //if (gCurrVideoStartSeconds == 230400) {
     //    if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
     //        secondsSearch = secondsSearch + 9600;
@@ -307,7 +307,7 @@ function findClosestUtterance(secondsSearch) {
 }
 
 function scrollToClosestTOC(secondsSearch) {
-    trace("findClosestTOC():" + secondsSearch);
+    //trace("findClosestTOC():" + secondsSearch);
     if (gCurrVideoStartSeconds == 230400) {
         if (secondsSearch > 230400 + 3600) { //if at 065:00:00 or greater, add 000:02:40 to time
             secondsSearch = secondsSearch + 9600;
@@ -1659,7 +1659,7 @@ function updateGeosampleOverlay(geoDataIndex) {
 
         // get moondb info into sampleinfotable
         jQuery.ajax({
-            url: 'https://api.moondb.org/specimen/' + sampleNumberArray[counter],
+            url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
             success: function (data) {
                 if (data.isOk == false) {
                     alert(data.message);
@@ -1932,7 +1932,7 @@ jQuery(function ($) {
             $('#shareModalCopyLinkAction').text('COPY LINK');
 
             var sharedUtteranceArray = gUtteranceData[gUtteranceDataLookup[findClosestUtterance(timeStrToSeconds(gCurrMissionTime))]];
-            url = "https://apollo17.org?t=" + gCurrMissionTime;
+            url = "https://apolloinrealtime.org/17/?t=" + gCurrMissionTime;
             channel = 'Main space-to-ground';
 
             $('#shareModelGET').text(gCurrMissionTime);
