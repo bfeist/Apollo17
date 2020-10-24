@@ -436,6 +436,10 @@ function fadeOutSplash() {
     //    }, 1600);
 }
 
+function goToURL(url) {
+    window.location.href = url;
+}
+
 function galleryClick(timeId) {
     ga('send', 'event', 'galleryClick', 'img', gPhotoData[gPhotoDataLookup[timeId]][1] + ".jpg");
     seekToTime(timeId);

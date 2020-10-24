@@ -64,7 +64,7 @@ def get_sec(s):
 
 template_loader = FileLoader('./templates')
 
-output_TOC_file_name_and_path = "../_webroot/TOC.php"
+output_TOC_file_name_and_path = "../_webroot/TOC.html"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
