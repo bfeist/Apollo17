@@ -1159,7 +1159,7 @@ body.splash-loaded .splash-content {
     content: " ";
     display: block;
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
     background-image: url("img/bg_panorama.jpg");
     background-repeat: no-repeat;
     top: 0;
