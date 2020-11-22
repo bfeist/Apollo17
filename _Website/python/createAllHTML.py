@@ -64,14 +64,14 @@ def get_sec(s):
 
 template_loader = FileLoader('./templates')
 
-output_TOC_file_name_and_path = "../_webroot/TOC.html"
+output_TOC_file_name_and_path = "../_webroot/17/TOC.html"
 output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
 output_TOC_file = open(output_TOC_file_name_and_path, "a")
 
-output_TOC_index_file_name_and_path = "../_webroot/indexes/TOCData.csv"
+output_TOC_index_file_name_and_path = "../_webroot/17/indexes/TOCData.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
 output_TOC_index_file.write("")
 output_TOC_index_file.close()
@@ -116,11 +116,11 @@ template = template_loader.load_template('template_TOC_footer.html')
 output_TOC_file.write(template.render({'datarow': 0}, loader=template_loader).encode('utf-8'))
 
 # copy TOC index to webroot
-# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/indexes/TOCData.csv")
+# shutil.copyfile("../MISSION_DATA/Mission TOC.csv", "./_webroot/17/indexes/TOCData.csv")
 
 
 # -------------------- Write Utterance Data
-output_utterance_data_file_name_and_path = "../_webroot/indexes/utteranceData.csv"
+output_utterance_data_file_name_and_path = "../_webroot/17/indexes/utteranceData.csv"
 output_utterance_data_file = open(output_utterance_data_file_name_and_path, "w")
 output_utterance_data_file.write("")
 output_utterance_data_file.close()
@@ -151,7 +151,7 @@ for utterance_row in utterance_reader:
     # print cur_row
 
 # WRITE ALL commentary ITEMS
-output_commentary_data_file_name_and_path = "../_webroot/indexes/commentaryData.csv"
+output_commentary_data_file_name_and_path = "../_webroot/17/indexes/commentaryData.csv"
 output_commentary_data_file = open(output_commentary_data_file_name_and_path, "w")
 output_commentary_data_file.write("")
 output_commentary_data_file.close()
@@ -176,7 +176,7 @@ for commentary_row in commentary_reader:
 
 
 # --------------------------------- Write photo index
-output_photo_index_file_name_and_path = "../_webroot/indexes/photoData.csv"
+output_photo_index_file_name_and_path = "../_webroot/17/indexes/photoData.csv"
 output_photo_index_file = open(output_photo_index_file_name_and_path, "w")
 output_photo_index_file.write("")
 output_photo_index_file.close()
