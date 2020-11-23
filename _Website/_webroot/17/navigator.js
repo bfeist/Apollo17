@@ -173,26 +173,31 @@ function initNavigator() {
         seekToTime(timeStrToTimeId(gCurrMissionTime));
     };
 
-    $('#myCanvas').mouseleave(function() {
+    paper.view.onMouseLeave = function() {
+        // trace("paper.view.onMouseLeave triggered");
+        onMouseOutHandler();
+    };
+
+    $('#navCanvas').on( "mouseleave",function() {
+        // trace("$('#navCanvas').mouseout triggered");
         onMouseOutHandler();
     });
 
-    $(document).bind("mouseleave",function(event) {
-        //trace("$(document)mouseleave triggered");
+    $(document).on("mouseleave",function() {
+        // trace("$(document)mouseleave triggered");
         onMouseOutHandler();
-        //trace("left window");
     });
 }
 
 function onMouseOutHandler() {
+    // trace("onMouseOutHandler()");
     gMouseOnNavigator = false;
-    //trace("mycanvas mouseleave");
 
     $('#navigatorKey').css('display', '');
-    if (typeof gNavCursorGroup != "undefined") {
-        gNavCursorGroup.removeChildren();
-    }
-   redrawAll();
+    // if (typeof gNavCursorGroup != "undefined") {
+    gNavCursorGroup.removeChildren();
+    // }
+    redrawAll();
 }
 
 function setDynamicWidthVariables() {
