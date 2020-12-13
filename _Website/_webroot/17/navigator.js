@@ -149,7 +149,6 @@ function initNavigator() {
         navigatorKey.css('top', gNavigatorHeight);
         navigatorKey.css('left', (gNavigatorWidth / 4) + topSectionLeftWidth);
         navigatorKey.css('width', gNavigatorWidth / 2);
-
     };
 
     tool.onMouseUp = function (event) {
