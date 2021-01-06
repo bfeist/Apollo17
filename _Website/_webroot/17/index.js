@@ -1636,7 +1636,7 @@ function updateGeosampleOverlay(geoDataIndex) {
 
         //get sample images
         jQuery.ajax({
-            url: '/indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
+            url: 'indexes/geosampledetails/' + sampleNumberArray[counter] + '.csv',
             success: function (data) {
                 if (data.isOk == false) {
                     alert(data.message);
@@ -1664,7 +1664,8 @@ function updateGeosampleOverlay(geoDataIndex) {
 
         // get moondb info into sampleinfotable
         jQuery.ajax({
-            url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
+            // url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
+            url: 'https://moondb-26f5.kxcdn.com/specimen/' + sampleNumberArray[counter],
             success: function (data) {
                 if (data.isOk == false) {
                     alert(data.message);
