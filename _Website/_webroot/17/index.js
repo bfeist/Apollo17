@@ -15,9 +15,9 @@ var gFontLoaderDelay = 3; //seconds
 var gBackground_color_active = "#222222";
 
 var cLaunchDate = Date.parse("1972-12-07 0:33 -500");
-var cLaunchDateModern = Date.parse("2020-12-07 0:33 -500");
+var cLaunchDateModern = Date.parse("2021-12-07 0:33 -500");
 var cCountdownStartDate = Date.parse("1972-12-06 9:55:39pm -500");
-var cCountdownStartDateModern = Date.parse("2020-12-06 9:55:39pm -500");
+var cCountdownStartDateModern = Date.parse("2021-12-06 9:55:39pm -500");
 
 //global control objects
 var player;
