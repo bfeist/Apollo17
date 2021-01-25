@@ -1570,6 +1570,8 @@ function updateGeosampleOverlay(geoDataIndex) {
         var firstPapersIteration = true;
         var papersFound = false;
         for (var paperCounter = 0; paperCounter < gPaperData.length - 1; paperCounter++) {
+            if (paperCounter === 796)
+                console.log("nothing");
             if (gPaperData[paperCounter][10].includes(sampleNumberArray[counter])) {
                 papersFound = true;
                 if (firstPapersIteration) {

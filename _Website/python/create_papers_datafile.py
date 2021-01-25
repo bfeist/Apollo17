@@ -16,7 +16,7 @@ dedupedSortedMasterPaperArray = []
 # get ADS papers from csv files and concat them into a single array of arrays
 
 inputFilePath = "./ads_papers/"
-outputFilePath = "../_webroot/indexes/paperData.csv"
+outputFilePath = "../_webroot/17/indexes/paperData.csv"
 for filename in os.listdir(inputFilePath):
     print("ads: " + filename)
     if filename[-4:] == ".csv":

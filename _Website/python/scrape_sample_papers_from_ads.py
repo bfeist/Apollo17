@@ -7,7 +7,7 @@
 import ads
 import csv
 import os.path
-ads.config.token = 'nr35B4vmxE5C7c3OigdQi1w1UuXctJBL8RJx8SJS'
+ads.config.token = '4PZMCizTXFwQ3uIRjooZj8OVVDisLoakZfHmpEKt'
 outputFilePath = "./ads_papers/"
 
 def xstr(s):
@@ -16,7 +16,7 @@ def xstr(s):
     return str(s)
 
 # get list of all samples to search for
-inputFilePath = "../_webroot/indexes/geoData.csv"
+inputFilePath = "../_webroot/17/indexes/geoData.csv"
 csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 
@@ -45,55 +45,59 @@ sample_numbers.sort()
 # sample_numbers = ['70011', '70012', '70017']
 
 for sample_number in sample_numbers:
-    if not os.path.isfile(outputFilePath + sample_number + ".csv"):
-        papers = ads.SearchQuery(q='Apollo', abstract="*" + sample_number + "*", fl=['id', 'bibcode', 'title', 'author', 'year', 'pub', 'volume', 'issue', 'page', 'abstract', 'doi'], sort="year", rows=1000)
-        papers_text_records = ""
-        counter = 0
-        for paper in papers:
-            authorText = ""
-            firstAuthor = True
-            for auth in paper.author:
-                if firstAuthor:
-                    authorText = authorText + auth
-                    firstAuthor = False
+    # if not os.path.isfile(outputFilePath + sample_number + ".csv"):
+    papers = ads.SearchQuery(q='Apollo *' + sample_number + '*', fl=['id', 'bibcode', 'title', 'author', 'year', 'pub', 'volume', 'issue', 'page', 'abstract', 'doi'], sort="year", rows=1000)
+    # papers = ads.SearchQuery(q='Apollo *' + sample_number + '*', sort="citation_count")
+    papers_text_records = ""
+    counter = 0
+    for paper in papers:
+        authorText = ""
+        firstAuthor = True
+        for auth in paper.author:
+            if firstAuthor:
+                authorText = authorText + auth
+                firstAuthor = False
+            else:
+                authorText = authorText + ", " + auth
+        pageText = ""
+        firstPage = True
+        if paper.page != None:
+            for pg in paper.page:
+                if firstPage:
+                    pageText = pageText + pg
+                    firstPage = False
                 else:
-                    authorText = authorText + ", " + auth
-            pageText = ""
-            firstPage = True
-            if paper.page != None:
-                for pg in paper.page:
-                    if firstPage:
-                        pageText = pageText + pg
-                        firstPage = False
-                    else:
-                        pageText = pageText + ", " + pg
+                    pageText = pageText + ", " + pg
 
-            doiText = ""
-            firstDoi = True
-            if paper.doi != None:
-                for doi in paper.doi:
-                    if firstDoi:
-                        doiText = "http://dx.doi.org/" + doi
-                        firstDoi = False
+        doiText = ""
+        firstDoi = True
+        if paper.doi != None:
+            for doi in paper.doi:
+                if firstDoi:
+                    doiText = "http://dx.doi.org/" + doi
+                    firstDoi = False
 
-            # papers_text_records = papers_text_records + paper.bibcode + "|" + paper.year + "|" + paper.title[0] + "|" + authorText + "|" + xstr(paper.pub) + "|" + xstr(paper.volume) + "|" + xstr(paper.issue) + "|" + pageText + "|" + paper.abstract + "|" + "http://dx.doi.org/" + xstr(paper.doi[0]) + "\n"
+        # papers_text_records = papers_text_records + paper.bibcode + "|" + paper.year + "|" + paper.title[0] + "|" + authorText + "|" + xstr(paper.pub) + "|" + xstr(paper.volume) + "|" + xstr(paper.issue) + "|" + pageText + "|" + paper.abstract + "|" + "http://dx.doi.org/" + xstr(paper.doi[0]) + "\n"
 
-            papers_text_records = papers_text_records + paper.bibcode + "|"
-            papers_text_records = papers_text_records + paper.year + "|"
-            papers_text_records = papers_text_records + paper.title[0] + "|"
-            papers_text_records = papers_text_records + authorText + "|"
-            papers_text_records = papers_text_records + xstr(paper.pub) + "|"
-            papers_text_records = papers_text_records + xstr(paper.volume) + "|"
-            papers_text_records = papers_text_records + xstr(paper.issue) + "|"
-            papers_text_records = papers_text_records + pageText + "|"
+        papers_text_records = papers_text_records + paper.bibcode + "|"
+        papers_text_records = papers_text_records + paper.year + "|"
+        papers_text_records = papers_text_records + paper.title[0] + "|"
+        papers_text_records = papers_text_records + authorText + "|"
+        papers_text_records = papers_text_records + xstr(paper.pub) + "|"
+        papers_text_records = papers_text_records + xstr(paper.volume) + "|"
+        papers_text_records = papers_text_records + xstr(paper.issue) + "|"
+        papers_text_records = papers_text_records + pageText + "|"
+        if paper.abstract is not None:
             papers_text_records = papers_text_records + paper.abstract + "|"
-            papers_text_records = papers_text_records + doiText
-            papers_text_records = papers_text_records + "\n"
-            counter = counter + 1
-        # if counter > 0:
-        outputFile = open(outputFilePath + sample_number + ".csv", "w", encoding="utf-8")
-        outputFile.write(papers_text_records)
-        outputFile.close()
-        print(sample_number)
+        else:
+            papers_text_records = papers_text_records + "ABSTRACT_PLACEHOLDER|"
+        papers_text_records = papers_text_records + doiText
+        papers_text_records = papers_text_records + "\n"
+        counter = counter + 1
+    # if counter > 0:
+    outputFile = open(outputFilePath + sample_number + ".csv", "w")
+    outputFile.write(papers_text_records.encode('utf8'))
+    outputFile.close()
+    print(sample_number)
 
 print(papers.response.get_ratelimits())
