@@ -1,0 +1,21 @@
+{
+  "liveServer.settings.root": "/_website/_webroot",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.associations": {
+    "*.html": "html",
+    "*.htm": "html"
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": false
+}
