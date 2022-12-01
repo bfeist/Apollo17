@@ -528,6 +528,12 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
         seconds: seconds * conversionMultiplier
     });
 
+    // if clock has been shifted after 64 hours, subtract the 2 hour 40 minute offset from the GET to get accurate time of day
+    if (timeStrToSeconds(gCurrMissionTime) > 230400) {
+        timeidDate.add({seconds: -9600})
+        timeidDateModern.add({seconds: -9600})
+    }
+
     var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
@@ -547,7 +553,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     // console.log("Timezone offset: " + timezoneOffsetString);
 
     var options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-    $(".historicalTime").text(timeidDateModern.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
+    $(".historicalTime").text(timeidDate.toLocaleTimeString('en-US', options) + " " + timezoneOffsetString);
 
     if (document.getElementById('missionElapsedTime') !== document.activeElement) {
         $('input[name=missionElapsedTime]').val(gCurrMissionTime);

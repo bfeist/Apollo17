@@ -7,7 +7,7 @@
       "name": "Attach to Chrome",
       "url": "http://127.0.0.1:3001/*",
       "port": 9222,
-      "webRoot": "${workspaceRoot}/_webroot",
+      "webRoot": "${workspaceRoot}/_Website/_webroot",
       "sourceMaps": false
     },
     {
