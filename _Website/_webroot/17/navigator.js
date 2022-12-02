@@ -167,6 +167,11 @@ function initNavigator() {
             mouseXSeconds = (event.point.x - gTier3Left) * gTier3SecondsPerPixel + gTier3StartSeconds;
         }
         gCurrMissionTime = secondsToTimeStr(mouseXSeconds);
+        // if gCurrMissionTime is between 065:00:00 and 067:40:00, set to 067:40:00
+        if (timeStrToSeconds(gCurrMissionTime) > timeStrToSeconds("065:00:00") && timeStrToSeconds(gCurrMissionTime) < timeStrToSeconds("067:40:00")) {
+            gCurrMissionTime = "067:40:00";
+        }
+
         redrawAll();
         trace("NAV: Jumping to " + gCurrMissionTime);
         seekToTime(timeStrToTimeId(gCurrMissionTime));
