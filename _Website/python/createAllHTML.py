@@ -69,7 +69,7 @@ output_TOC_file = open(output_TOC_file_name_and_path, "w")
 output_TOC_file.write("")
 output_TOC_file.close()
 
-output_TOC_file = open(output_TOC_file_name_and_path, "a")
+output_TOC_file = open(output_TOC_file_name_and_path, "ab")
 
 output_TOC_index_file_name_and_path = "../_webroot/17/indexes/TOCData.csv"
 output_TOC_index_file = open(output_TOC_index_file_name_and_path, "w")
@@ -91,25 +91,25 @@ csv.register_dialect('pipes', delimiter='|', doublequote=True, escapechar='\\')
 reader = csv.reader(open(inputFilePath, "rU"), dialect='pipes')
 for row in reader:
     timestamp = row[0]
-    timeline_index_id = row[0].translate(None, ":")
-    item_depth = row[1]
-    if item_depth == "3":
-        item_depth = "2"  # do this to avoid indentation of 3rd level items
+    timeline_index_id = row[0].replace(":", "")
+    item_depth = int(row[1])
+    if item_depth == 3:
+      item_depth = 2  # do this to avoid indentation of 3rd level items
     item_title = row[2]
     item_subtitle = row[3]
-    # item_URL = timestamp.translate(None, ":") + "_" + item_title.translate(None, ":/ .") + ".html"
-    item_URL = timestamp.translate(None, ":")
-    toc_index_id = timestamp.translate(None, ":")
+    item_URL = timestamp.replace(":", "")
+    toc_index_id = timestamp.replace(":", "")
     template = template_loader.load_template('template_TOC_item.html')
     output_TOC_file.write(template.render(
-        {'timestamp': timestamp, 'itemDepth': item_depth, 'prevDepth': prev_depth, 'itemTitle': item_title,
-         'itemSubtitle': item_subtitle, 'itemURL': item_URL}, loader=template_loader).encode('utf-8'))
+      {'timestamp': timestamp, 
+       'itemDepth': item_depth, 
+       'prevDepth': prev_depth, 
+       'itemTitle': item_title,
+       'itemSubtitle': item_subtitle, 
+       'itemURL': item_URL}
+      , loader=template_loader).encode('utf-8'))
     prev_depth = item_depth
-    # toc_index_template = loader.load_template('template_TOC_index.html')
-    # output_TOC_index_file.write(toc_index_template.render({'toc_index_id': toc_index_id, 'itemDepth': item_depth, 'itemTitle': item_title}, loader=loader).encode('utf-8'))
-
-    # output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "|" + item_subtitle + "\n") # include item description
-    output_TOC_index_file.write(timeline_index_id + "|" + item_depth + "|" + item_title + "\n")
+    output_TOC_index_file.write(timeline_index_id + "|" + str(item_depth) + "|" + item_title + "\n")
 
 # WRITE FOOTER
 template = template_loader.load_template('template_TOC_footer.html')
@@ -127,53 +127,75 @@ output_utterance_data_file.close()
 output_utterance_data_file = open(output_utterance_data_file_name_and_path, "a")
 
 # WRITE ALL UTTERANCE BODY ITEMS
-cur_row = 0
 input_file_path = "../../MISSION_DATA/A17 master TEC and PAO utterances.csv"
 utterance_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for utterance_row in utterance_reader:
-    cur_row += 1
-    timeid = "timeid" + utterance_row[1].translate(None, ":")
-    timeline_index_id = utterance_row[1].translate(None, ":")
-    if utterance_row[1] != "":  # if not a TAPE change or title row
-        words_modified = utterance_row[3]
-        # words_modified = words_modified.replace("O2", "O<sub>2</sub>")
-        # words_modified = words_modified.replace("H2", "H<sub>2</sub>")
-        # words_modified = words_modified.replace("Tig ", "T<sub>ig</sub> ")
-        who_modified = utterance_row[2]
-        # who_modified = who_modified.replace("CDR", "Cernan")
-        # who_modified = who_modified.replace("CMP", "Evans")
-        # who_modified = who_modified.replace("LMP", "Schmitt")
-        # who_modified = who_modified.replace("PAO", "Public Affairs")
-        # who_modified = who_modified.replace("CC", "Mission Control")
-        attribution_modified = utterance_row[0]
+  timeid = utterance_row[1].replace(":", "")
+  if utterance_row[1] != "":  # if not a TAPE change or title row
+    words_modified = utterance_row[3]
+    who_modified = utterance_row[2]
+    attribution_modified = utterance_row[0]
 
-        output_utterance_data_file.write(timeline_index_id + "|" + who_modified + "|" + words_modified + "\n")
-    # print cur_row
+    output_utterance_data_file.write(timeid + "|" + who_modified + "|" + words_modified + "\n")
 
-# WRITE ALL commentary ITEMS
+
+# WRITE ALL commentary ITEMS. There are three source files that need to be combined
 output_commentary_data_file_name_and_path = "../_webroot/17/indexes/commentaryData.csv"
 output_commentary_data_file = open(output_commentary_data_file_name_and_path, "w")
 output_commentary_data_file.write("")
 output_commentary_data_file.close()
 output_commentary_data_file = open(output_commentary_data_file_name_and_path, "a")
 
-cur_row = 0
-input_file_path = "../../MISSION_DATA/A17 master support commentary.csv"
+commentaryMasterArray = []
+input_file_path = "../../MISSION_DATA/commentaryALSJ.csv"
 commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
 for commentary_row in commentary_reader:
-    cur_row += 1
-    timeid = commentary_row[0].translate(None, ":")
-    # words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
-    # words_modified = words_modified.replace("H2", "H<sub>2</sub>")
+  edited_commentary_row = []
+  edited_commentary_row.append(commentary_row[0].replace(":", "")) # timeid
+  edited_commentary_row.append(commentary_row[1]) # attribution
+  edited_commentary_row.append(commentary_row[2]) # who
+  edited_commentary_row.append(commentary_row[3]) # words  
+  commentaryMasterArray.append(edited_commentary_row)
+  
+input_file_path = "../../MISSION_DATA/commentaryALSJSummaryItems.csv"
+commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+for commentary_row in commentary_reader:
+  edited_commentary_row = []
+  edited_commentary_row.append(commentary_row[0].replace(":", "")) # timeid
+  edited_commentary_row.append(commentary_row[1]) # attribution
+  edited_commentary_row.append(commentary_row[2]) # who
+  edited_commentary_row.append(commentary_row[3]) # words  
+  commentaryMasterArray.append(edited_commentary_row)
 
-    # don't include all ALSJ commentary
-    # if commentary_row[1] == "ALSJ" and commentary_row[2] == "":
-    #     pass
-    # else:
-    # if commentary_row[1] == "ALSJ":
-    #     commentary_row[1] = "";
-    output_commentary_data_file.write(
-        timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
+# AFJ commentary is not used. David Woods has not updated it on AFJ since it was provided to him by AiRT.
+# input_file_path = "../../MISSION_DATA/commentaryAFJ.csv"
+# commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+# for commentary_row in commentary_reader:
+#   edited_commentary_row = []
+#   edited_commentary_row.append(commentary_row[0].replace(":", "")) # timeid
+#   edited_commentary_row.append(commentary_row[1]) # attribution
+#   edited_commentary_row.append(commentary_row[2]) # who
+#   edited_commentary_row.append(commentary_row[3]) # words  
+#   commentaryMasterArray.append(edited_commentary_row)
+  
+input_file_path = "../../MISSION_DATA/commentaryOtherSources.csv"
+commentary_reader = csv.reader(open(input_file_path, "rU"), delimiter='|')
+for commentary_row in commentary_reader:
+  edited_commentary_row = []
+  edited_commentary_row.append(commentary_row[0].replace(":", "")) # timeid
+  edited_commentary_row.append(commentary_row[1]) # attribution
+  edited_commentary_row.append(commentary_row[2]) # who
+  edited_commentary_row.append(commentary_row[3]) # words  
+  commentaryMasterArray.append(edited_commentary_row)
+  
+  
+# sort the commentaryMasterArray by timeid
+commentaryMasterArray.sort(key=lambda x: x[0])
+
+for commentary_row in commentaryMasterArray:  
+  output_commentary_data_file.write(
+    commentary_row[0] + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
+output_commentary_data_file.close()
 
 
 # --------------------------------- Write photo index
@@ -205,7 +227,7 @@ for photo_row in photos_reader:
 sorted_list = sorted(master_list, key=get_key, reverse=False)
 
 for list_item in sorted_list:
-    photo_index_id = list_item.timestamp.translate(None, ":")
+    photo_index_id = list_item.timestamp.replace(":", "")
     output_photo_index_file.write(photo_index_id + "|" +
                                   list_item.filename + "|" +
                                   list_item.mag_code + "|" +

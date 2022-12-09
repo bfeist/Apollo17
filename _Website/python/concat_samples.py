@@ -14,4 +14,4 @@ for row in reader:
         for curr_sample in curr_samples:
             sys.stdout.write(curr_sample + ",")
 
-print "************* DONE"
+print ("************* DONE")

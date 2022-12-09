@@ -5,18 +5,23 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": null
   },
   "files.associations": {
     "*.html": "html",
     "*.htm": "html"
   },
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "120"],
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": false
 }
