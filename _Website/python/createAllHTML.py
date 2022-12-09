@@ -166,13 +166,14 @@ for commentary_row in commentary_reader:
     # words_modified = commentary_row[3].replace("O2", "O<sub>2</sub>")
     # words_modified = words_modified.replace("H2", "H<sub>2</sub>")
 
-    if commentary_row[1] == "ALSJ" and commentary_row[2] == "":
-        pass
-    else:
-        if commentary_row[1] == "ALSJ":
-            commentary_row[1] = "";
-        output_commentary_data_file.write(
-            timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
+    # don't include all ALSJ commentary
+    # if commentary_row[1] == "ALSJ" and commentary_row[2] == "":
+    #     pass
+    # else:
+    # if commentary_row[1] == "ALSJ":
+    #     commentary_row[1] = "";
+    output_commentary_data_file.write(
+        timeid + "|" + commentary_row[1] + "|" + commentary_row[2] + "|" + commentary_row[3] + "\n")
 
 
 # --------------------------------- Write photo index
