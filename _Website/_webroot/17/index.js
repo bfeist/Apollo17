@@ -404,6 +404,13 @@ function historicalButtonClick() {
   window.clearInterval(gIntroInterval);
   gIntroInterval = null;
   var nearestHistTimeId = getNearestHistoricalMissionTimeId();
+  let nearestHistTimeIdSeconds = timeIdToSeconds(nearestHistTimeId);
+  // if clock has been shifted after 65 hours, add the 2 hour 40 minute offset from the GET to get accurate time of day
+  if (nearestHistTimeIdSeconds > 230400) {
+    nearestHistTimeIdSeconds = nearestHistTimeIdSeconds + 9600;
+    nearestHistTimeId = secondsToTimeId(nearestHistTimeIdSeconds);
+  }
+
   onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
 
   //scrollTranscriptToTimeId(findClosestUtterance(timeIdToSeconds(nearestHistTimeId)))
@@ -582,7 +589,7 @@ function displayHistoricalTimeDifferenceByTimeId(timeId) {
     seconds: seconds * conversionMultiplier,
   });
 
-  // if clock has been shifted after 64 hours, subtract the 2 hour 40 minute offset from the GET to get accurate time of day
+  // if clock has been shifted after 65 hours, subtract the 2 hour 40 minute offset from the GET to get accurate time of day
   if (timeStrToSeconds(gCurrMissionTime) > 230400) {
     timeidDate.add({ seconds: -9600 });
     timeidDateModern.add({ seconds: -9600 });
