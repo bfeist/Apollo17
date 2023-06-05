@@ -148,7 +148,7 @@ function onPlayerStateChange(event) {
     }
     if (gPlaybackState == "unexpectedbuffering") {
       //trace("onPlayerStateChange():PLAYING: was unexpected buffering so calling findClosestUtterance");
-      ga("send", "event", "transcript", "click", "youtube scrub");
+      //ga("send", "event", "transcript", "click", "youtube scrub");
       //scrollToTimeID(findClosestUtterance(event.target.getCurrentTime() + gCurrVideoStartSeconds));
       scrollTranscriptToTimeId(
         findClosestUtterance(
@@ -238,7 +238,7 @@ function setAutoScrollPoller() {
     if (gCurrMissionTime != gLastTimeIdChecked) {
       if (parseInt(totalSec) % 10 == 0) {
         //every 10 seconds, fire a playing event
-        ga("send", "event", "playback", "playing", gCurrMissionTime);
+        //ga("send", "event", "playback", "playing", gCurrMissionTime);
       }
 
       var timeId = timeStrToTimeId(gCurrMissionTime);
@@ -400,7 +400,7 @@ function findClosestPhoto(secondsSearch) {
 
 function historicalButtonClick() {
   trace("historicalButtonClick");
-  ga("send", "event", "launch", "click", "realtime");
+  //ga("send", "event", "launch", "click", "realtime");
   window.clearInterval(gIntroInterval);
   gIntroInterval = null;
   var nearestHistTimeId = getNearestHistoricalMissionTimeId();
@@ -424,7 +424,7 @@ function historicalButtonClick() {
 
 function oneMinuteToLaunchButtonClick() {
   trace("oneMinuteToLaunchButtonClick");
-  ga("send", "event", "launch", "click", "oneminute");
+  //ga("send", "event", "launch", "click", "oneminute");
   window.clearInterval(gIntroInterval);
   gIntroInterval = null;
   onMouseOutHandler(); //remove any errant navigator rollovers that occurred during modal
@@ -493,7 +493,7 @@ function seekToTime(timeId) {
   // transcript click handling --------------------
   trace("seekToTime(): " + timeId);
 
-  ga("send", "event", "seekToTime", "seek", timeId);
+  //ga("send", "event", "seekToTime", "seek", timeId);
 
   gDashboardManuallyToggled = false; //reset manual dashboard toggle to reenable auto show/hide
   var totalSeconds = timeIdToSeconds(timeId);
@@ -1899,7 +1899,7 @@ function toggleGeosampleOverlay() {
 }
 
 function updateGeosampleOverlay(geoDataIndex) {
-  ga("send", "event", "button", "click", "geosample");
+  //ga("send", "event", "button", "click", "geosample");
   var geosampleTable = $("#geosampleTable");
   geosampleTable.html("");
   $("#bagnum").html(gGeoData[geoDataIndex][2]);
@@ -2308,7 +2308,7 @@ jQuery(function ($) {
   //buttons
 
   $("#GETBtn").click(function () {
-    ga("send", "event", "button", "click", "GET");
+    //ga("send", "event", "button", "click", "GET");
     try {
       var GETinput = $("input[name=missionElapsedTime]").val();
       GETinput = padZeros(GETinput, 9);
@@ -2319,12 +2319,12 @@ jQuery(function ($) {
   });
 
   $("#searchBtn").click(function () {
-    ga("send", "event", "button", "click", "search");
+    //ga("send", "event", "button", "click", "search");
     toggleSearchOverlay();
   });
 
   $("#dashboardBtn").click(function () {
-    ga("send", "event", "button", "click", "dashboard");
+    //ga("send", "event", "button", "click", "dashboard");
     toggleDashboardOverlay();
   });
 
@@ -2337,39 +2337,39 @@ jQuery(function ($) {
     );
 
   $(".fullscreenBtn").click(function () {
-    ga("send", "event", "button", "click", "fullscreen");
+    //ga("send", "event", "button", "click", "fullscreen");
     toggleFullscreen();
   });
 
   $("#playPauseBtn").click(function () {
     if ($("#playPauseBtn").hasClass("pause")) {
-      ga("send", "event", "button", "click", "pause");
+      //ga("send", "event", "button", "click", "pause");
       player.pauseVideo();
     } else {
-      ga("send", "event", "button", "click", "play");
+      //ga("send", "event", "button", "click", "play");
       player.playVideo();
     }
   });
 
   $("#soundBtn").click(function () {
     if (player.isMuted() === true) {
-      ga("send", "event", "button", "click", "unmute");
+      //ga("send", "event", "button", "click", "unmute");
       player.unMute();
       $(this).addClass("mute");
     } else {
-      ga("send", "event", "button", "click", "mute");
+      //ga("send", "event", "button", "click", "mute");
       player.mute();
       $(this).removeClass("mute");
     }
   });
 
   $("#realtimeBtn").click(function () {
-    ga("send", "event", "button", "click", "realtime");
+    //ga("send", "event", "button", "click", "realtime");
     historicalButtonClick();
   });
 
   $("#aboutBtn").click(function () {
-    ga("send", "event", "button", "click", "help");
+    //ga("send", "event", "button", "click", "help");
 
     $('[data-js-class="HelpOverlayManager"]').each(function () {
       $(this).data("helpOverlayManager").showHelp();
@@ -2379,7 +2379,7 @@ jQuery(function ($) {
   });
 
   $("#shareBtn").click(function () {
-    ga("send", "event", "button", "click", "share");
+    //ga("send", "event", "button", "click", "share");
     $("#shareModalCopyWebsiteLinkAction").text("COPY LINK");
     $("#shareModalCopyLinkAction").text("COPY LINK");
 
@@ -2401,7 +2401,7 @@ jQuery(function ($) {
 
   //tab button events
   $("#transcriptTab").click(function () {
-    ga("send", "event", "tab", "click", "transcript");
+    //ga("send", "event", "tab", "click", "transcript");
     activateTab(this.id);
     setTimeout(function () {
       scrollTranscriptToCurrMissionTime();
@@ -2409,13 +2409,13 @@ jQuery(function ($) {
   });
 
   $("#tocTab").click(function () {
-    ga("send", "event", "tab", "click", "toc");
+    //ga("send", "event", "tab", "click", "toc");
     activateTab(this.id);
     scrollTOCToCurrMissionTime();
   });
 
   $("#commentaryTab").click(function () {
-    ga("send", "event", "tab", "click", "commentary");
+    //ga("send", "event", "tab", "click", "commentary");
     activateTab(this.id);
     setTimeout(function () {
       scrollCommentaryToCurrMissionTime();
