@@ -479,13 +479,13 @@ function goToURL(url) {
 }
 
 function galleryClick(timeId) {
-  ga(
-    "send",
-    "event",
-    "galleryClick",
-    "img",
-    gPhotoData[gPhotoDataLookup[timeId]][1] + ".jpg"
-  );
+  // ga(
+  //   "send",
+  //   "event",
+  //   "galleryClick",
+  //   "img",
+  //   gPhotoData[gPhotoDataLookup[timeId]][1] + ".jpg"
+  // );
   seekToTime(timeId);
 }
 
