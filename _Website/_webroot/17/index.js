@@ -2082,48 +2082,41 @@ function updateGeosampleOverlay(geoDataIndex) {
     jQuery.ajax({
       // url: 'http://api.moondb.org/specimen/' + sampleNumberArray[counter],
       url:
-        "https://moondb-26f5.kxcdn.com/specimen/" + sampleNumberArray[counter],
-      success: function (data) {
-        if (data.isOk == false) {
-          alert(data.message);
-        }
+        // "https://moondb-26f5.kxcdn.com/specimen/" + sampleNumberArray[counter],
+        "https://curator.jsc.nasa.gov/rest/lunarapi/samples/sampledetails/" +
+        sampleNumberArray[counter],
+      success: function (dataString) {
+        var dataArray = JSON.parse(dataString);
+        var data = dataArray[0];
         var sampleID = this.url.substring(this.url.length - 5, this.url.length);
         var moondbDivSelector = $("#moondb" + sampleID);
         // var moondbhtml = JSON.stringify(data);
-        var moondbhtml =
-          "<table class='sampleinfotable'>" +
-          "<tr>" +
-          "<td>Specimen Name</td>" +
-          "<td>" +
-          (data.specimenName != null ? data.specimenName : "") +
-          "</td>" +
-          "<td>Lunar Station</td>" +
-          "<td>" +
-          (data.lunarStation != null ? data.lunarStation : "") +
-          "</td></tr>\n";
+        var moondbhtml = "<table class='sampleinfotable'>" + "<tr>\n";
 
         moondbhtml =
           moondbhtml +
           "<tr>" +
           "<td>Specimen Type</td>" +
           "<td>" +
-          (data.specimenType != null ? data.specimenType : "") +
+          (data.SAMPLETYPE != null ? data.SAMPLETYPE : "") +
+          " - " +
+          (data.SAMPLESUBTYPE != null ? data.SAMPLESUBTYPE : "") +
           "</td>" +
           "<td>Return Container</td>" +
           "<td>" +
-          (data.returnContainer != null ? data.returnContainer : "") +
+          (data.BAGNUMBER != null ? data.BAGNUMBER : "") +
           "</td></tr>\n";
 
         moondbhtml =
           moondbhtml +
           "<tr>" +
-          "<td>Sampling Technique</td>" +
+          "<td>Lunar Station</td>" +
           "<td>" +
-          (data.samplingTechnique != null ? data.samplingTechnique : "") +
+          (data.STATION != null ? data.STATION : "") +
           "</td>" +
           "<td>Weight</td>" +
           "<td>" +
-          (data.weight != null ? data.weight : "") +
+          (data.ORIGINALWEIGHT != null ? data.ORIGINALWEIGHT : "") +
           "</td></tr>\n";
 
         moondbhtml =
@@ -2131,13 +2124,15 @@ function updateGeosampleOverlay(geoDataIndex) {
           "<tr>" +
           "<td>Landmark</td>" +
           "<td>" +
-          (data.landmark != null ? data.landmark : "") +
+          (data.LANDMARK != null ? data.LANDMARK : "") +
           "</td>" +
           "<td>Pristinity</td>" +
           "<td>" +
-          (data.pristinity != null ? data.pristinity : "") +
+          (data.PRISTINITY != null ? data.PRISTINITY : "") +
           " (" +
-          (data.pristinityDate != null ? data.pristinityDate : "") +
+          (data.PRISTINITYDATE != null
+            ? data.PRISTINITYDATE.replace(" 00:00:00", "")
+            : "") +
           ")</td></tr>\n";
 
         moondbhtml =
@@ -2145,18 +2140,10 @@ function updateGeosampleOverlay(geoDataIndex) {
           "<tr>" +
           "<td>Description</td>" +
           "<td colspan='3'>" +
-          (data.description != null ? data.description : "") +
+          (data.GENERICDESCRIPTION != null ? data.GENERICDESCRIPTION : "") +
           "</td>" +
           "</tr>\n";
 
-        moondbhtml =
-          moondbhtml +
-          "<tr>" +
-          "<td>Child Specimens</td>" +
-          "<td colspan='3'>" +
-          data.childSpecimens.join(" ") +
-          "</td>" +
-          "</tr>\n";
         moondbDivSelector.html(moondbhtml);
       },
       async: true,
