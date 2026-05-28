@@ -1,31 +1,23 @@
-0:01:00 - 141:31:49  -  Start moving
-0:02:53 - 141:33:42  -  "you can turn right now"
-0:04:11 - 141:35:00  -  due south of ALSEP
-0:04:46 - 141:35:35  -  "shallow turn"
-0:05:02 - 141:35:51  -  LRV charge deployed (undocumented?)
-0:06:19 - 141:37:08  -  started partial pan loop
-0:06:39 - 141:37:28  -  stopped after partial pan loop to check sampler
-0:08:40 - 141:39:29  -  started again
-0:13:57 - 141:44:46  -  "hold it", you can go around that one
-0:14:45 - 141:45:34  -  south of the center of Camelot
-0:17:50 - 141:48:39  -  rolled to the right
-0:18:56 - 141:49:45  -  southern rim of Horatio
-0:23:51 - 141:54:40  -  stopped. LRV sample 1
-0:25:16 - 141:56:05  -  resumed
-0:27:15 - 141:58:04  -  turn right at Bronte
-0:27:35 - 141:58:24  -  "watch it, one on your right"
-141:59:09  -  north side of Bronte
-0:33:16 - 142:04:05  -  100m from light mantle
-0:38:43 - 142:09:32  -  "I gotta get around that slope"
-0:40:11 - 142:11:00  -  "swing it" to right for LRV sample 3
-0:40:21 - 142:11:10  -  stopped at LRV3
-0:42:41 - 142:13:30  -  We are rolling
-0:44:44 - 142:15:33  -  we are back in the dark mantle (maybe)
-0:48:17 - 142:19:06  -  "weee" (jumping down and up crater)
-0:53:59 - 142:24:48  -  starting up the Scarp
-142:27:16 - still on the scarp rim, not on the scarp yet
-142:29:25 - almost up the scarp, in the middle of zigzaging
-142:29:55 - on top of the scarp
-142:30:45 - bear left
-142:32:19 - 2nd bear left
-1:12:41 - 142:43:30  -  Stopped. Heading 045
+121:36:14 - TV off
+0:11 - 121:43:43 - LRV starts moving first turns northwest a bit, then east - bearing 279, 0.2
+1:14 - 121:44:46 - avoiding a crater
+2:11 - 121:45:43 - LRV at LM - at bearing 292, 0.2
+2:27 - 121:45:59 - LRV starts moving to SEP site
+3:52 - 121:47:24 - Stopped at SEP bearing 278, 003
+7:30 - 121:51:02 - On the move to Station 1, turning to 181
+8:09 - 121:51:41 - Trident east
+8:49 - 121:52:21 - "whoa, watch it" (falling in crater)
+9:08 - 121:52:40 - "you've got another hole on your right here"
+9:15 - 121:52:47 - "why don't you go left there"
+9:45 - 121:53:17 - "we need to head south" - southeast
+10:13 - 121:53:45 - headed due south
+10:42 - 121:54:14 - abreast of, or just above Trident crater
+121:54:14 - 330, 0.3
+12:40 - 121:56:02 - turning to 181 degrees
+15:10 - 121:58:42 - 0.7km from steno
+16:06 - 121:59:38 - abreast of Powell
+122:00:10 - 342, 0.9
+17:39 - 122:01:11 - Steno at 9 o'clock
+122:03:01 - 346, 1.1
+20:30 - 122:04:02 - Parked at 180 - 346, 1.2
+122:06:49 - TV on

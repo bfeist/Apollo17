@@ -94,6 +94,16 @@ def get_flickr_photo_origurl(photoid):
             orig_url = source_template.format(**size)
     return orig_url
 
+def get_flickr_photo_thumburl(photoid):
+    thumb_url = ""
+    sizes = get_flickr_photo_sizes(photoid)
+    label_template = "{label}"
+    source_template = "{source}"
+    for size in sizes['sizes']['size']:
+        if label_template.format(**size) == "Thumbnail":
+            thumb_url = source_template.format(**size)
+    return thumb_url
+
 
 
 def main():
@@ -123,41 +133,46 @@ def main():
     #  u'server': u'7171',
     #  u'title': u''}
 
-    output = 'flickr/'
+    # output = 'flickr/'
+    output = 'N:/Projects/Apollo/Mission Data/Apollo Images from flickr/'
     prefix = "http://farm{farm}.staticflickr.com/{server}/"
     suffix = "{id}_{secret}_b.jpg"
     title_template = "{title}"
     id_template = "{id}"
     template = prefix + suffix
 
-    # output_url_filename = output + "flickr_photo_urls.csv"
-    # output_url_file = open(output_url_filename, "w")
-    # output_url_file.write("")
-    # output_url_file.close()
-    # output_url_file = open(output_url_filename, "a")
+    output_url_filename = output + "flickr_photo_urls.csv"
+    output_url_file = open(output_url_filename, "w")
+    output_url_file.write("")
+    output_url_file.close()
+    output_url_file = open(output_url_filename, "a")
 
     for i, photo in enumerate(photos):
         url = template.format(**photo)
         filename = title_template.format(**photo) + ".jpg"
         filename = filename.replace("\"", "")
+        filename = filename.replace("/", "-")
+        filename = filename.replace(":", "-")
         folder_name = filename[:4]
 
         if not os.path.isdir(output + folder_name + "/"):
-            local = output + filename
+            local = output.strip() + filename.strip()
         else:
-            local = output + folder_name + "/" + filename
+            local = output.strip() + folder_name.strip() + "/" + filename.strip()
 
+        orig_url = get_flickr_photo_origurl(id_template.format(**photo))
+        thumb_url = get_flickr_photo_thumburl(id_template.format(**photo))
         if os.path.isfile(local):
             print "Already exists. Skipping ", local
         else:
-            orig_url = get_flickr_photo_origurl(id_template.format(**photo))
+
             # if orig_url != "":
             #     url = orig_url
             print "* saving", orig_url
             urllib.urlretrieve(orig_url, local)
             print "      as", local
 
-        # output_url_file.write(filename + "|" + id_template.format(**photo) + "|" + orig_url + "\n")
+        output_url_file.write(filename + "|" + id_template.format(**photo) + "|" + thumb_url + "|" + orig_url + "\n")
 
 if __name__ == '__main__':
     main()

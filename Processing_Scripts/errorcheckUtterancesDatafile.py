@@ -23,6 +23,7 @@ for curFile in [ "A17 master TEC and PAO utterances.csv" ]:
     reader = csv.reader(open(inputFilePath, "rU"), delimiter='|')
     for row in reader:
         curRow += 1
+        print curRow
         if row[1].__len__() > 9:
             print curRow
             print "------------- timestamp too long: " + row[1]

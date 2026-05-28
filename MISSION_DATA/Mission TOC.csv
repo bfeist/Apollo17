@@ -1,5 +1,6 @@
 -02:37:22|1|Video: Preparation and Countdown|
--01:15:01|2|Countdown Cutoff|
+-01:22:24|2|Flight Director check-in|
+-01:15:40|2|Countdown Cutoff|
 -00:07:59|2|Countdown Resumes|
 -00:01:00|2|One Minute|
 000:00:00|1|Lift-off|
@@ -14,7 +15,7 @@
 003:01:15|2|GOLDSTONE REV 2|
 003:12:29|1|Trans-Lunar Injection maneuver|
 003:42:43|2|S-IVB/Command and Service Module separation|
-003:45:00|2|Video: Trans-Lunar docking initiated|
+003:50:32|2|Video: Trans-Lunar docking initiated|
 003:56:52|2|Trans-Lunar docking capture|
 004:45:06|2|Spacecraft ejection|
 004:49:53|3|Video: S-IVB visible|
@@ -27,7 +28,7 @@
 024:51:32|2|Schmitt philosophical about observing the earth|
 025:26:26|1|Crew Sleep Period Start|
 033:00:38|1|Crew wake-up|
-034:10:07|2|Video: crew onboard film while listening to the news|
+034:10:07|2|Video: Crew filming each other while listening to the news|
 035:30:00|1|First mid-course correction|
 037:00:33|2|Crew listening to music|
 039:10:33|2|Schmitt eats his first peanut butter sandwich in orbit|
@@ -35,12 +36,13 @@
 045:30:18|2|Video: Continuation of onboard heat flow and convection experiment|
 048:36:12|1|Crew Sleep Period Start|
 056:35:40|1|Crew wake-up with music (Difficulty waking up)|
+058:55:04|2|News and Weather|
 059:57:53|2|Entering the LM 2nd time|
 062:57:33|2|Description of clock change maneuver|
 065:00:00|2|Mission control center time update (+2:40:00)|Clocks adjusted due to delayed launch
 068:07:51|2|ALFMED flash observations experiment begins|
 069:25:48|2|Schmitt asks a difficult flight dynamics question|
-073:17:45|2|Half way to the moon|
+073:17:45|2|Entering lunar sphere of influence|
 073:47:15|1|Crew Sleep Period Start|
 081:30:28|1|Crew wake-up|
 084:12:45|2|Scientific instrument module door jettison|
@@ -54,6 +56,8 @@
 092:34:41|2|GO for descent orbit insertion|
 092:45:37|2|Photos of Earth setting on lunar horizon|
 093:35:00|1|Descent orbit insertion reported|
+094:09:36|2|Crew teasing Capcom|
+096:16:28|2|Crew listens to the news|
 097:47:28|1|Crew Sleep Period Start|
 105:45:00|1|Crew wake-up (music)|
 106:53:17|2|Video: Earth and moon through telescope|
@@ -64,6 +68,7 @@
 112:57:48|2|Video: Landing camera on|
 113:02:13|2|Landed at Taurus-Littrow|
 113:43:51|2|Post-landing Activities|
+114:41:11|2|Lunch with questions from Mission Control|
 115:17:12|1|EVA-1 Prep|
 116:00:00|2|Getting spacesuits on|
 117:01:38|2|EVA-1 Watches started|
@@ -118,6 +123,7 @@
 143:26:13|3|\"Maybe time's different in space. Adventures in space and time.\"|
 143:40:44|3|\"One-scoop-Schmitt, they call me.\"|
 143:47:26|2|Departed for Station 3 (Lara Crater)|One stop to obtain a traverse gravimeter experiment reading, gather samples, and perform panoramic and 500mm photography.
+143:57:36|3|Schmitt fooled by an orange reflection|
 144:16:33|2|Capcom expresses how smoothly the mission is going|
 144:30:35|1|Video: Station 3|Gathered samples including a double core-tube sample and a rake sample, and performed panoramic and 500-mm photography.
 144:50:52|2|\"Help twinkle toes\"|
@@ -137,7 +143,7 @@
 150:46:12|1|Crew listens to news while eating dinner|
 152:25:20|1|Surface Crew sleep period begins|Ron Evans continues activities in orbit.
 154:40:23|2|Communications with Ron Evans in lunar orbit|
-155:08:40|1|Description of EVA2 read to Evans|
+155:08:40|2|Description of EVA2 read to Evans|
 160:24:02|1|Surface Crew wake-up (music)|
 160:41:39|2|News read to the crew over breakfast|
 161:04:15|2|(audio missing)|
@@ -150,30 +156,31 @@
 164:07:08|2|Schmitt, "Tallest man on the moon"|
 164:11:19|2|Departed for SEP site|
 164:18:35|1|SEP site|Activated the experiment, gathered samples, and performed documentary photography.
-164:22:32|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples|
+164:21:27|2|Departed for Station 6 (Tracy's Rock)|Two short stops to gather enroute samples|
 164:53:10|1|Video: Station 6|Gathered samples including a single core tube sample and a rake sample, and performed documentary, panoramic, and 500-mm photography.
 165:00:57|2|Schmitt's face visible on video|
 165:08:00|3|Hammering boulder to retrieve fragments|
 165:36:42|3|Cernan falls|
 165:36:54|3|\"Remind me to dust my camera\"|
 165:48:27|3|Photo: Lunar Module in the far distance|
-166:05:36|2|Departed for Station 7 (North Massif)|
+166:02:10|2|Departed for Station 7 (North Massif)|
 166:11:00|1|Video: Station 7|Gathered samples and performed documentary and panoramic photography.
 166:11:24|2|Cernan is getting \"tired of dusting\"|
 166:14:38|2|Photography of large boulder|
 166:29:50|2|Departed for Station 8 (Sculptured Hills)|One short stop to gather enroute samples.
+166:39:10|2|Commentary: Crew discusses how adaptable they were|
 166:50:01|1|Video: Station 8|Gathered samples including rake and trench samples, and performed documentary and panoramic photography.
-166:51:21|2|\"I think your LMP just ran away\"|
+166:51:26|2|\"I think your LMP just ran away\"|
 166:56:24|3|Schmitt rolls bolder downhill|
 167:06:57|3|Schmitt running|
 167:07:26|3|Schmitt skis down hill|
 167:10:03|3|Cernan: "I can cover ground like a kangaroo"|
-167:25:30|3|Teasing CAPCOM, Bob Overmyer|
+167:25:30|3|Teasing CAPCOM, Bob Parker|
 167:32:28|2|Departed for Station 9 (Van Serg Crater)|
 167:34:44|2|Trying to blow dust off the camera|
 167:55:48|1|Video: Station 9|Seismic profiling experiment explosive charge 5 deployed, two traverse gravimeter experiment readings obtained, gathered samples including a trench sample and a double core-tube sample, and performed documentary, panoramic, and 500-mm photography. Removed data storage electronics assembly from Surface Electrical Properties receiver.
 168:02:23|2|Singing \"Tiptoe Through the Tulips\"|
-168:04:32|3|Standing on cliff giving geology observations|
+168:04:32|3|Standing on edge of Van Serg giving geology observations|
 168:20:48|3|Simultaneous panoramas|
 168:45:57|3|Capcom asks about strange object in camera view|
 168:47:07|2|Return to the Lunar Module|Two short stops, one to gather enroute samples and the other to deploy seismic profiling experiment explosive charge 2 and perform documentary and panoramic photography.
@@ -183,6 +190,7 @@
 169:43:15|2|Speech to the youth of the world|
 169:46:50|2|Uncovering of the plaque|
 169:51:44|2|Throwing object|
+169:52:48|2|LRV driven to its final resting place (VIP site)|
 170:13:58|2|ALSEP photography completed|
 170:19:57|2|LRV Parked|
 170:21:41|3|Schmitt walking back to LM|
@@ -222,6 +230,7 @@
 195:59:24|2|Surface TV camera permanently switched off|
 198:45:36|1|Crew Sleep Period Start|
 207:37:10|1|Crew wake-up (music)|
+208:02:03|2|Mission Control reads the morning news to the crew|
 208:08:09|2|Flight Director, Gerry Griffin sends greetings and congratulations|
 210:17:23|2|\"Can't tell about these geologists\"|
 212:14:57|2|Searching for scissors|
@@ -232,8 +241,9 @@
 228:11:01|1|Crew Wake-up (music)|Last day in lunar orbit
 234:04:35|2|Mapping camera cover closed in error|
 236:07:52|2|GO for TEI (Transearth Injection)|
-236:21:52|1|Transearth Injection|
-236:57:34|2|Video: Moon as trip home begins|
+236:21:52|1|Prep for Trans-Earth Injection|
+236:42:08|2|Trans-Earth Injection burn initiated|
+236:57:34|2|Video: Moon, as trip home begins|
 237:02:07|2|Schmitt, "Humans don't get to see the far side, but a trend has been started"|
 237:16:52|2|Reference to "wow woozle" uttered at launch|
 237:26:45|2|Geology summary of lunar exploration|
@@ -268,7 +278,9 @@
 284:06:36|1|Video: Television interview with the crew|
 285:24:27|2|Santa visits the MOCR|
 286:15:13|2|Schmitt: \"Doesn't it bother you to wield such power, Gordy?\"|
-286:18:24|2|\"First time we've seen the earth in several days\"|
+286:18:24|2|\"First time we've seen the Earth in several days\"|
+290:40:16|1|Crew sleep period start|
+298:08:53|1|Crew wake-up (music)|
 301:00:30|2|Christmas spirit. \"Looks like it's really snowing\" (out the window)|
 301:17:18|1|Second mid-course correction|
 304:03:40|1|Command module/service module separation|
@@ -282,4 +294,6 @@
 304:33:44|1|Crew retrieval|
 305:24:28|1|Video: Crew on-board USS Ticonderoga|
 305:27:32|1|Speeches by the crew|
+305:35:13|1|MOCR Celebration|
+305:40:48|1|MOCR (Audio)|
 305:35:24|0|End of coverage|
