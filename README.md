@@ -1,3 +1,13 @@
+# Repository abandoned
+
+This repository is preserved for historical reference and is no longer under
+active development.
+
+Apollo 11, Apollo 13, Apollo 17, and the shared landing site are now consolidated
+in [bfeist/apolloinrealtime.org](https://github.com/bfeist/apolloinrealtime.org).
+
+---
+
 This is a project to reconstruct the Apollo 17 mission timeline in order to generate digital, corrected transcripts of the entire mission. From these transcripts I hope to create an interactive web experience of the entire mission.
 
 Website on this effort: http://benfeist.com/project-apollo-17/
